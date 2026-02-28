@@ -6,6 +6,26 @@
   "filtered_articles": 14,
   "articles": [
     {
+      "title": "Interactive explanations",
+      "title_zh": "用交互式可视化理解 AI 生成的代码",
+      "link": "https://simonwillison.net/guides/agentic-engineering-patterns/interactive-explanations/#atom-everything",
+      "pub_date": "2026-02-28T23:09:39.000Z",
+      "summary": "当 AI 代理生成的代码成为黑盒时，开发者会承担认知债务，这与技术债务一样会拖慢开发进度。Simon Willison 提出通过构建交互式解释来偿还认知债务，并以词云算法为例展示了具体实践：先用 Claude Code 生成 Rust CLI 工具，再让 AI 基于代码文档创建动画可视化页面，直观展示阿基米德螺旋布局算法如何逐个放置单词并检测碰撞。动画包含可调节速度的滑块、暂停功能和 PNG 导出，让算法的执行过程完全透明。这种模式表明，代码生成成本趋近于零后，开发者可以按需生成可视化工具来理解复杂逻辑，而不再依赖静态文档或人工调试。",
+      "source_name": "simonwillison.net",
+      "score": 22,
+      "depth": 7,
+      "novelty": 8,
+      "breadth": 7,
+      "category": "engineering",
+      "keywords": [
+        "Claude Code",
+        "interactive explanations",
+        "cognitive debt",
+        "visualization"
+      ],
+      "rank": 1
+    },
+    {
       "title": "Trump’s Enormous Gamble on Regime Change in Iran",
       "title_zh": "特朗普对伊朗政权更迭的豪赌",
       "link": "https://www.theatlantic.com/ideas/2026/02/trumps-iran-regime-change-attack-gamble/686190/?gift=aQyUJR7AIw1mJWdQ6Ed6yOWB4bfod1kQqCyz2RXbHaY",
@@ -23,7 +43,7 @@
         "war",
         "Trump"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "That's it, I'm cancelling my ChatGPT",
@@ -43,7 +63,7 @@
         "surveillance",
         "DoW"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Working with file extensions in bash scripts",
@@ -62,7 +82,7 @@
         "file extensions",
         "shell scripting"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "HN Skins 0.1.0",
@@ -81,7 +101,7 @@
         "themes",
         "Hacker News"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "The Most Important Micros",
@@ -99,7 +119,7 @@
         "paywall",
         "substack"
       ],
-      "rank": 5
+      "rank": 6
     }
   ]
 }
