@@ -1,10 +1,29 @@
 {
   "date": "2026-03-02",
   "total_feeds": 92,
-  "success_feeds": 86,
-  "total_articles": 2436,
-  "filtered_articles": 14,
+  "success_feeds": 85,
+  "total_articles": 2426,
+  "filtered_articles": 12,
   "articles": [
+    {
+      "title": "Shell variable ~-",
+      "title_zh": "Shell 变量 ~- 的实用技巧",
+      "link": "https://www.johndcook.com/blog/2026/03/01/tilde-dash/",
+      "pub_date": "2026-03-01T18:15:16.000Z",
+      "summary": "",
+      "source_name": "johndcook.com",
+      "score": 6,
+      "depth": 2,
+      "novelty": 2,
+      "breadth": 2,
+      "category": "tools",
+      "keywords": [
+        "bash",
+        "shell",
+        "OLDPWD"
+      ],
+      "rank": 1
+    },
     {
       "title": "Killing my inner Necron",
       "title_zh": "手术后的生死反思",
@@ -21,7 +40,7 @@
         "personal",
         "recovery"
       ],
-      "rank": 1
+      "rank": 2
     }
   ]
 }
