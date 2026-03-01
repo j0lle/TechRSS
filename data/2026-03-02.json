@@ -1,9 +1,9 @@
 {
   "date": "2026-03-02",
   "total_feeds": 92,
-  "success_feeds": 86,
-  "total_articles": 2437,
-  "filtered_articles": 15,
+  "success_feeds": 84,
+  "total_articles": 2416,
+  "filtered_articles": 16,
   "articles": [
     {
       "title": "Why on-device agentic AI can't keep up",
@@ -26,6 +26,26 @@
       "rank": 1
     },
     {
+      "title": "Expert Beginners and Lone Wolves will dominate this early LLM era",
+      "title_zh": "LLM 时代将催生 Expert Beginners 和 Lone Wolves",
+      "link": "https://www.jeffgeerling.com/blog/2026/expert-beginners-and-lone-wolves-dominate-llm-era/",
+      "pub_date": "2026-03-01T22:00:00.000Z",
+      "summary": "作者使用本地 LLM（GPT-OSS 20B 和 Qwen3 Coder 30B）在几个晚上完成了 13,000 条评论从 Drupal 到 Hugo 的迁移，将原本需要团队数周的工作压缩到个人数小时。LLM 在 1-2 分钟内生成可运行的代码，但会遇到遗漏需求、次优实现、过早优化和上下文窗口耗尽等问题。作者认为 LLM 无法替代任务中 80% 的非编码工作，AI 时代将催生两类开发者：自以为无所不能的 Expert Beginners 和能独自快速构建软件的 Lone Wolves，而传统的导师关系和从中层开发者成长路径正在消失。",
+      "source_name": "jeffgeerling.com",
+      "score": 21,
+      "depth": 6,
+      "novelty": 7,
+      "breadth": 8,
+      "category": "opinion",
+      "keywords": [
+        "LLM",
+        "coding",
+        "mentorship",
+        "developer roles"
+      ],
+      "rank": 2
+    },
+    {
       "title": "\"Why hack the DHS? I can think of a couple Pretti Good reasons!\"",
       "title_zh": "DHS ICE 合同数据泄露与可视化",
       "link": "https://micahflee.com/why-hack-the-dhs-i-can-think-of-a-couple-pretti-good-reasons/",
@@ -43,7 +63,7 @@
         "data leak",
         "contracts"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "The two kinds of error",
@@ -63,7 +83,7 @@
         "unexpected errors",
         "reliability"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Shell variable ~-",
@@ -82,7 +102,7 @@
         "shell",
         "OLDPWD"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Killing my inner Necron",
@@ -100,7 +120,7 @@
         "personal",
         "recovery"
       ],
-      "rank": 5
+      "rank": 6
     }
   ]
 }
