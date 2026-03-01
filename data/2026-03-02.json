@@ -1,1 +1,27 @@
-null
+{
+  "date": "2026-03-02",
+  "total_feeds": 92,
+  "success_feeds": 86,
+  "total_articles": 2436,
+  "filtered_articles": 14,
+  "articles": [
+    {
+      "title": "Killing my inner Necron",
+      "title_zh": "手术后的生死反思",
+      "link": "https://xeiaso.net/blog/2026/killing-my-inner-necron/",
+      "pub_date": "2026-03-01T00:00:00.000Z",
+      "summary": "",
+      "source_name": "xeiaso.net",
+      "score": 5,
+      "depth": 1,
+      "novelty": 2,
+      "breadth": 2,
+      "category": "other",
+      "keywords": [
+        "personal",
+        "recovery"
+      ],
+      "rank": 1
+    }
+  ]
+}
