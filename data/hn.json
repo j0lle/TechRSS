@@ -1,6 +1,542 @@
 {
-  "updatedAt": "2026-03-01T09:35:59.481Z",
+  "updatedAt": "2026-03-01T10:20:08.841Z",
   "items": [
+    {
+      "id": 47200879,
+      "by": "andsoitis",
+      "title": "Iran's Ayatollah Ali Khamenei is killed in Israeli strike, ending 36-year rule",
+      "url": "https://www.npr.org/2026/02/28/1123499337/iran-israel-ayatollah-ali-khamenei-killed",
+      "score": 248,
+      "detailUpdatedAt": 1772358246,
+      "createdAt": 1772317824,
+      "aiSummaryUpdatedAt": 1772359340,
+      "aisummary": {
+        "chinese_title": "以色列空袭据称击毙哈梅内伊：侨民欢庆与地区动荡担忧并存",
+        "emoji": "⚠️",
+        "sarcastic_question": "庆祝暗杀好，谁负责接下来的内战与难民？"
+      },
+      "classifications": {
+        "topics": [
+          3,
+          9
+        ],
+        "facets": [
+          8
+        ],
+        "tags": [
+          "Ayatollah Ali Khamenei",
+          "Iran",
+          "Israel",
+          "Israeli strike",
+          "NPR"
+        ]
+      },
+      "classificationsUpdatedAt": 1772318737,
+      "aiSummary": {
+        "chinese_title": "以色列空袭据称击毙哈梅内伊：侨民欢庆与地区动荡担忧并存",
+        "emoji": "⚠️",
+        "sarcastic_question": "庆祝暗杀好，谁负责接下来的内战与难民？"
+      },
+      "detail": {
+        "id": 47200879,
+        "by": "andsoitis",
+        "title": "Iran's Ayatollah Ali Khamenei is killed in Israeli strike, ending 36-year rule",
+        "url": "https://www.npr.org/2026/02/28/1123499337/iran-israel-ayatollah-ali-khamenei-killed",
+        "score": 248,
+        "detailUpdatedAt": 1772358246,
+        "createdAt": 1772317824,
+        "aiSummaryUpdatedAt": 1772359340,
+        "aisummary": {
+          "chinese_title": "以色列空袭据称击毙哈梅内伊：侨民欢庆与地区动荡担忧并存",
+          "discussion_overview": [
+            {
+              "category": "海内外伊朗人欢庆与侨民视角",
+              "summary": "多条评论报道海外与境内有人在社交媒体和街头庆祝：有用户贴出柏林的庆祝视频，也有评论提到伊朗境内多地鸣笛、放声欢呼的短片。侨民的乐观常基于长期流亡的绝望与对回国可能性的期待（有人说多年无法探亲），但评论同时提醒移民并不直接面临国内风险，他们的喜悦可能高估内部现实和低估权力真空的危险。若干评论指出，短期欢庆并不等同于制度性变革，真正影响仍取决于国内各派与军队的反应。",
+              "supportid": [
+                "47201027",
+                "47201576",
+                "47201111",
+                "47201429",
+                "47201069"
+              ]
+            },
+            {
+              "category": "历史先例与对强行政权更替的警示",
+              "summary": "许多评论以伊拉克、利比亚等先例警告：推翻或暗杀独裁者常伴随长期动荡、教派冲突与国家碎片化，评论里有人回忆“Shock and Awe”与随后的泥潭、ISIS崛起等教训。反例（如擒拿诺列加后巴拿马相对稳定）被提及，但多数声音认为外力主导的政权更替往往付出高昂代价，包括大规模人员伤亡、民生崩溃与权力真空。评论因此强调短期目标与长期影响需区别看待，警惕“短期胜利换来长年混乱”的可能性。",
+              "supportid": [
+                "47201246",
+                "47201301",
+                "47201135",
+                "47201273"
+              ]
+            },
+            {
+              "category": "法律与道德争论：暗杀的正当性与先例",
+              "summary": "评论围绕暗杀是否违反国际法与道德展开激烈争论：有人直指美以此举“无法无天”，并质疑预防性打击与在未宣战情况下刺杀国家元首的合法性；也有人主张面对屠杀示威者的独裁者，从道德上可被视为正当目标。对证据的信任也是争论焦点：部分评论指出总统与匿名“知情来源”的陈述并非铁证，应等待确认。总体上，法律、道德与现实政治三者在帖子中产生尖锐冲突，评论者对设立危险先例持谨慎态度。",
+              "supportid": [
+                "47201210",
+                "47201277",
+                "47201520",
+                "47201180"
+              ]
+            },
+            {
+              "category": "动机与地缘政治解读：特朗普、内塔尼亚胡与利益考量",
+              "summary": "很多评论怀疑打击背后有明确的政治与地缘利益：有人提到内塔尼亚胡多次会见特朗普并长期游说以色列目标，质疑行动部分由以色列影响力促成。也有观点认为美国可能追求能源、遏制中国或制造外交话语利益，部分评论同时承认此类行动在短期内能“取得结果”以满足执政者需求。反对者强调：若没有明确替代领导人或稳定计划，这种外力干预更可能带来权力真空与长期混乱，而非民族自决的正面结果。",
+              "supportid": [
+                "47201172",
+                "47201024",
+                "47201306",
+                "47201264"
+              ]
+            },
+            {
+              "category": "政权延续与继任可能性",
+              "summary": "多条评论认为体制化的接班机制与安全机构能维持政权延续：有人强调哈梅内伊生前已安排多层继承人与军事接替方案（评论援引其在上次与以色列冲突期间指定继承人的报道），使“斩首”不一定导致国家解体。讨论还聚焦IRGC（伊朗伊斯兰革命卫队）与神职体系的权力博弈：若军方或准军事力量整合成功，可能快速确立新领导人。尽管如此，也有评论警告继任争斗可能引发内部冲突或更严厉的镇压，结果并非单一路径可断言。",
+              "supportid": [
+                "47201338",
+                "47203100",
+                "47205257",
+                "47205176"
+              ]
+            },
+            {
+              "category": "平民伤亡、受害者与正义的道德困境",
+              "summary": "许多评论把焦点放在平民伤亡与如何实现正义上：有人直接提出“是否在为学校儿童被炸身亡而庆祝”的质问（帖中提及数十至数百名儿童伤亡的报道），也有受害者家属的亲身证词呼吁将独裁者活捉审判（评论提到Evin prison对抗议者的拘押与酷刑案例）。另一部分讨论以功利论展开，提出用有限伤亡换取长期解脱的两难，但评论分歧极大。总体上，创伤受害者与道德审视是帖子情绪冲突的核心之一。",
+              "supportid": [
+                "47201052",
+                "47201366",
+                "47202271",
+                "47201495"
+              ]
+            },
+            {
+              "category": "区域扩散与战略后果风险",
+              "summary": "评论警告该打击可能引发更广泛的地缘政治连锁反应：有人担心会刺激更多中东国家追求核能力或加剧军备竞赛（有评论直言其他国家可能“开始核计划”），也提到中国—伊朗能源与投资关系受IRGC立场影响，俄方无人机供给链或被波及。另有评论提出邻国（如阿塞拜疆）可能趁机在北部边境采取军事行动，或出现分裂与代理人冲突。总体论调是：战术性暗杀虽可能短期达成目标，但会放大长期战略不稳定性。",
+              "supportid": [
+                "47204293",
+                "47201170",
+                "47203061",
+                "47201244"
+              ]
+            }
+          ],
+          "terminologies": [
+            {
+              "term": "IRGC",
+              "explanation": "IRGC（Islamic Revolutionary Guard Corps，伊朗伊斯兰革命卫队）是一支独立于常规军的强力准军事与政治經濟實體，掌握军力、企业利益与对外代理组织，评论中被反复提及为关键权力棋子。"
+            },
+            {
+              "term": "Unit 8200",
+              "explanation": "Unit 8200（以色列情报机构Unit 8200）是以色列重要的信号情报与网络情报部门，评论中被用来解释以色列的技术与情报能力。"
+            },
+            {
+              "term": "Evin prison",
+              "explanation": "Evin prison（伊文监狱）是位于德黑兰、以关押政治犯和异议者著称的监狱，评论里被用作说明政权镇压与酷刑的具体例证。"
+            },
+            {
+              "term": "decapitation strike",
+              "explanation": "decapitation strike（斩首打击）指通过定点消灭对方高层领导以削弱指挥控制的军事手段，评论中反复讨论其历史成败与战略后果。"
+            },
+            {
+              "term": "Mahsa uprising",
+              "explanation": "Mahsa uprising（玛莎·阿米尼事件引发的抗议潮，2022年）指因玛莎·阿米尼之死引发的大规模反政府示威，成为评论指责伊朗政权暴力镇压的重要背景。"
+            }
+          ],
+          "context": "据报道，以色列空袭被指击毙伊朗最高领袖哈梅内伊，结束其近36年权力统治；此事在社交媒体上引发海外侨民与境内少部分人当场庆祝与广泛关注。评论围绕三大轴心展开：侨民的短期乐观与国内风险感知、历史上外力推翻独裁后的长期代价（如伊拉克、利比亚的例子），以及该行动在国际法与道德上的正当性争论。讨论还引用了多种专有名词与背景事件作为参照：IRGC（伊朗伊斯兰革命卫队）、Evin prison（伊朗政治犯监狱）、1953年推翻摩萨德德政府的历史等，以评估此事可能引发的地区与全球后果。",
+          "emoji": "⚠️",
+          "sarcastic_question": "庆祝暗杀好，谁负责接下来的内战与难民？"
+        },
+        "classifications": {
+          "topics": [
+            3,
+            9
+          ],
+          "facets": [
+            8
+          ],
+          "tags": [
+            "Ayatollah Ali Khamenei",
+            "Iran",
+            "Israel",
+            "Israeli strike",
+            "NPR"
+          ]
+        },
+        "classificationsUpdatedAt": 1772318737,
+        "aiSummary": {
+          "chinese_title": "以色列空袭据称击毙哈梅内伊：侨民欢庆与地区动荡担忧并存",
+          "discussion_overview": [
+            {
+              "category": "海内外伊朗人欢庆与侨民视角",
+              "summary": "多条评论报道海外与境内有人在社交媒体和街头庆祝：有用户贴出柏林的庆祝视频，也有评论提到伊朗境内多地鸣笛、放声欢呼的短片。侨民的乐观常基于长期流亡的绝望与对回国可能性的期待（有人说多年无法探亲），但评论同时提醒移民并不直接面临国内风险，他们的喜悦可能高估内部现实和低估权力真空的危险。若干评论指出，短期欢庆并不等同于制度性变革，真正影响仍取决于国内各派与军队的反应。",
+              "supportid": [
+                "47201027",
+                "47201576",
+                "47201111",
+                "47201429",
+                "47201069"
+              ]
+            },
+            {
+              "category": "历史先例与对强行政权更替的警示",
+              "summary": "许多评论以伊拉克、利比亚等先例警告：推翻或暗杀独裁者常伴随长期动荡、教派冲突与国家碎片化，评论里有人回忆“Shock and Awe”与随后的泥潭、ISIS崛起等教训。反例（如擒拿诺列加后巴拿马相对稳定）被提及，但多数声音认为外力主导的政权更替往往付出高昂代价，包括大规模人员伤亡、民生崩溃与权力真空。评论因此强调短期目标与长期影响需区别看待，警惕“短期胜利换来长年混乱”的可能性。",
+              "supportid": [
+                "47201246",
+                "47201301",
+                "47201135",
+                "47201273"
+              ]
+            },
+            {
+              "category": "法律与道德争论：暗杀的正当性与先例",
+              "summary": "评论围绕暗杀是否违反国际法与道德展开激烈争论：有人直指美以此举“无法无天”，并质疑预防性打击与在未宣战情况下刺杀国家元首的合法性；也有人主张面对屠杀示威者的独裁者，从道德上可被视为正当目标。对证据的信任也是争论焦点：部分评论指出总统与匿名“知情来源”的陈述并非铁证，应等待确认。总体上，法律、道德与现实政治三者在帖子中产生尖锐冲突，评论者对设立危险先例持谨慎态度。",
+              "supportid": [
+                "47201210",
+                "47201277",
+                "47201520",
+                "47201180"
+              ]
+            },
+            {
+              "category": "动机与地缘政治解读：特朗普、内塔尼亚胡与利益考量",
+              "summary": "很多评论怀疑打击背后有明确的政治与地缘利益：有人提到内塔尼亚胡多次会见特朗普并长期游说以色列目标，质疑行动部分由以色列影响力促成。也有观点认为美国可能追求能源、遏制中国或制造外交话语利益，部分评论同时承认此类行动在短期内能“取得结果”以满足执政者需求。反对者强调：若没有明确替代领导人或稳定计划，这种外力干预更可能带来权力真空与长期混乱，而非民族自决的正面结果。",
+              "supportid": [
+                "47201172",
+                "47201024",
+                "47201306",
+                "47201264"
+              ]
+            },
+            {
+              "category": "政权延续与继任可能性",
+              "summary": "多条评论认为体制化的接班机制与安全机构能维持政权延续：有人强调哈梅内伊生前已安排多层继承人与军事接替方案（评论援引其在上次与以色列冲突期间指定继承人的报道），使“斩首”不一定导致国家解体。讨论还聚焦IRGC（伊朗伊斯兰革命卫队）与神职体系的权力博弈：若军方或准军事力量整合成功，可能快速确立新领导人。尽管如此，也有评论警告继任争斗可能引发内部冲突或更严厉的镇压，结果并非单一路径可断言。",
+              "supportid": [
+                "47201338",
+                "47203100",
+                "47205257",
+                "47205176"
+              ]
+            },
+            {
+              "category": "平民伤亡、受害者与正义的道德困境",
+              "summary": "许多评论把焦点放在平民伤亡与如何实现正义上：有人直接提出“是否在为学校儿童被炸身亡而庆祝”的质问（帖中提及数十至数百名儿童伤亡的报道），也有受害者家属的亲身证词呼吁将独裁者活捉审判（评论提到Evin prison对抗议者的拘押与酷刑案例）。另一部分讨论以功利论展开，提出用有限伤亡换取长期解脱的两难，但评论分歧极大。总体上，创伤受害者与道德审视是帖子情绪冲突的核心之一。",
+              "supportid": [
+                "47201052",
+                "47201366",
+                "47202271",
+                "47201495"
+              ]
+            },
+            {
+              "category": "区域扩散与战略后果风险",
+              "summary": "评论警告该打击可能引发更广泛的地缘政治连锁反应：有人担心会刺激更多中东国家追求核能力或加剧军备竞赛（有评论直言其他国家可能“开始核计划”），也提到中国—伊朗能源与投资关系受IRGC立场影响，俄方无人机供给链或被波及。另有评论提出邻国（如阿塞拜疆）可能趁机在北部边境采取军事行动，或出现分裂与代理人冲突。总体论调是：战术性暗杀虽可能短期达成目标，但会放大长期战略不稳定性。",
+              "supportid": [
+                "47204293",
+                "47201170",
+                "47203061",
+                "47201244"
+              ]
+            }
+          ],
+          "terminologies": [
+            {
+              "term": "IRGC",
+              "explanation": "IRGC（Islamic Revolutionary Guard Corps，伊朗伊斯兰革命卫队）是一支独立于常规军的强力准军事与政治經濟實體，掌握军力、企业利益与对外代理组织，评论中被反复提及为关键权力棋子。"
+            },
+            {
+              "term": "Unit 8200",
+              "explanation": "Unit 8200（以色列情报机构Unit 8200）是以色列重要的信号情报与网络情报部门，评论中被用来解释以色列的技术与情报能力。"
+            },
+            {
+              "term": "Evin prison",
+              "explanation": "Evin prison（伊文监狱）是位于德黑兰、以关押政治犯和异议者著称的监狱，评论里被用作说明政权镇压与酷刑的具体例证。"
+            },
+            {
+              "term": "decapitation strike",
+              "explanation": "decapitation strike（斩首打击）指通过定点消灭对方高层领导以削弱指挥控制的军事手段，评论中反复讨论其历史成败与战略后果。"
+            },
+            {
+              "term": "Mahsa uprising",
+              "explanation": "Mahsa uprising（玛莎·阿米尼事件引发的抗议潮，2022年）指因玛莎·阿米尼之死引发的大规模反政府示威，成为评论指责伊朗政权暴力镇压的重要背景。"
+            }
+          ],
+          "context": "据报道，以色列空袭被指击毙伊朗最高领袖哈梅内伊，结束其近36年权力统治；此事在社交媒体上引发海外侨民与境内少部分人当场庆祝与广泛关注。评论围绕三大轴心展开：侨民的短期乐观与国内风险感知、历史上外力推翻独裁后的长期代价（如伊拉克、利比亚的例子），以及该行动在国际法与道德上的正当性争论。讨论还引用了多种专有名词与背景事件作为参照：IRGC（伊朗伊斯兰革命卫队）、Evin prison（伊朗政治犯监狱）、1953年推翻摩萨德德政府的历史等，以评估此事可能引发的地区与全球后果。",
+          "emoji": "⚠️",
+          "sarcastic_question": "庆祝暗杀好，谁负责接下来的内战与难民？"
+        }
+      }
+    },
+    {
+      "id": 47198977,
+      "by": "todsacerdoti",
+      "title": "Block the \"Upgrade to Tahoe\" Alerts",
+      "url": "https://robservatory.com/block-the-upgrade-to-tahoe-alerts-and-system-settings-indicator/",
+      "score": 224,
+      "detailUpdatedAt": 1772356442,
+      "createdAt": 1772314820,
+      "aiSummaryUpdatedAt": 1772357590,
+      "aisummary": {
+        "chinese_title": "屏蔽“升级到 Tahoe”弹窗：用户称 Tahoe 为降级、社区出手阻挡",
+        "emoji": "😡",
+        "sarcastic_question": "愿意当 Apple 的免费升级测试机吗？"
+      },
+      "classifications": {
+        "topics": [
+          6,
+          11
+        ],
+        "facets": [
+          5
+        ],
+        "tags": [
+          "macOS Tahoe",
+          "macOS Sequoia",
+          "Apple",
+          "com.apple.SoftwareUpdate",
+          "robservatory.com"
+        ]
+      },
+      "classificationsUpdatedAt": 1772317866,
+      "aiSummary": {
+        "chinese_title": "屏蔽“升级到 Tahoe”弹窗：用户称 Tahoe 为降级、社区出手阻挡",
+        "emoji": "😡",
+        "sarcastic_question": "愿意当 Apple 的免费升级测试机吗？"
+      },
+      "detail": {
+        "id": 47198977,
+        "by": "todsacerdoti",
+        "title": "Block the \"Upgrade to Tahoe\" Alerts",
+        "url": "https://robservatory.com/block-the-upgrade-to-tahoe-alerts-and-system-settings-indicator/",
+        "score": 122,
+        "detailUpdatedAt": 1772329382,
+        "createdAt": 1772314820,
+        "aiSummaryUpdatedAt": 1772330461,
+        "aisummary": {
+          "chinese_title": "屏蔽“升级到 Tahoe”提醒：用户称 Tahoe 相较 Sequoia 是降级且带来 UI/性能问题",
+          "discussion_overview": [
+            {
+              "category": "Tahoe 被普遍视为降级——UI 回退与稳定性问题",
+              "summary": "许多评论者直言 Tahoe 相比 Sequoia 是“严格的降级”，并列出具体的缺陷：在高端机（如 M4 Pro）上出现慢且抖动的动画，Finder 在横向滚动上再次变得卡顿，窗口圆角与鼠标交互（corner radius drag）导致拖拽体验受损。用户还报告了左对齐窗口标题视觉不平衡、Dock 的 Application 智能文件夹出现可视重复、跨设备剪贴板偶发性变差，以及对新图标（尤其 Trash）和 Apple Music 小播放器/进度条的不满。额外的破坏性变动包括过度 padding、全新的标签样式破坏 iTerm2 等专业工具的显示，甚至有实时多媒体/表演场景被 Tahoe 破坏的实测案例。",
+              "supportid": [
+                "47200608",
+                "47201227",
+                "47200858",
+                "47200807",
+                "47200716",
+                "47201441",
+                "47201219",
+                "47200949"
+              ]
+            },
+            {
+              "category": "部分用户无感或认为 Tahoe 在某些机器上表现良好",
+              "summary": "也有用户报告 Tahoe 在基础 M2 或 M1 机器上并未感觉到变慢或可用性下降，他们没有注意到显著的体验差异。体验差异被归因于硬件与使用习惯——例如轨迹板用户、只用单显示器且不依赖大量快捷键的用户受影响更小。换言之，硬件代际（M1/M2 vs M4）和个人工作流是影响感知好坏的重要因素。",
+              "supportid": [
+                "47202480",
+                "47202562"
+              ]
+            },
+            {
+              "category": "阻止升级弹窗与回退的变通办法与局限",
+              "summary": "社区整理并分享了多种屏蔽 Tahoe 升级提醒或避免误升级的做法：有人维护 stop-tahoe-update（GitHub 仓库）并改进说明文档，常见技巧包括运行 defaults write com.apple.SoftwareUpdate MajorOSUserNotificationDate 来延后通知、使用 Little Snitch（第三方网络防火墙）阻断更新下载、或阻断 mobileassetd（用于下载系统资产的后台守护进程）。但这些方法并非万无一失：有用户报告 MajorOSUserNotificationDate 仍然弹窗，有的技巧依赖拒绝 TOS 能否移除安装器且不稳定，而在新机上降级通常受限于硬件驱动，许多评论建议抹机重装或购买旧款机器以避免 Tahoe。",
+              "supportid": [
+                "47202649",
+                "47200802",
+                "47201205",
+                "47202569",
+                "47202458",
+                "47202546",
+                "47201215",
+                "47202707",
+                "47202560",
+                "47202452",
+                "47202618",
+                "47201330"
+              ]
+            },
+            {
+              "category": "设计讨论：动画、‘Liquid Glass’ 与响应性之争",
+              "summary": "讨论深入到 Apple 的设计取向：一批用户认为“脑到手”无延迟的交互才是 Mac 的价值，繁复动画和视觉效果等同于人为增加延迟并破坏流畅感；另一批认为丰富动画历来是 Apple 特征，不喜欢的人应使用无动作（Reduce Motion）等可访问性选项或换生态。'Liquid Glass' 视觉/动效在 iPhone 与系统范围内引起争议，部分人称若不关闭 motion 会非常讨厌，但也有人觉得对动画的批评被夸大。总体争论同时涉及主观的延迟感知、可访问性设置以及 UI 一致性的问题。",
+              "supportid": [
+                "47201799",
+                "47202226",
+                "47202284",
+                "47202278",
+                "47202289",
+                "47202646",
+                "47202449"
+              ]
+            },
+            {
+              "category": "平台与硬件选择、降级可行性与替代方案",
+              "summary": "部分长期 Mac 用户因软件质量下降开始考虑替换平台或更谨慎选购硬件：有人倾向于转向 Linux（如 KDE）并称其已在某方面超过 Windows，也有人建议购买翻新版或旧代 M4 机以避开 Tahoe。关于新机降级，多数评论指出 Mac 通常不能运行比出厂系统更老的 macOS（驱动与硬件支持缺失），因此在新机上通过降级避开 Tahoe 多数情况下不可行。围绕是否等待 M5/M6 的新机或直接买已知“能跑 Sequoia”的旧机，评论中也有实际购机与时机权衡的建议。",
+              "supportid": [
+                "47200936",
+                "47202018",
+                "47201693",
+                "47202452",
+                "47202618",
+                "47201330",
+                "47201195",
+                "47201526"
+              ]
+            },
+            {
+              "category": "对非技术用户的保护与误触风险",
+              "summary": "多人关切家庭成员或不擅技术的用户会无意中点到升级提示并安装 Tahoe，因此希望能有更稳固的屏蔽方案或更安全的升级流程。也有评论认为普通用户可能不会强烈察觉差异（因为对糟糕体验已习以为常），但这并不能消除技术用户为亲友主动阻止升级的动力。由此产生的讨论既有技术对策也有关于沟通与默认升级策略的伦理考量。",
+              "supportid": [
+                "47201367",
+                "47201574",
+                "47201443",
+                "47201215"
+              ]
+            }
+          ],
+          "terminologies": [
+            {
+              "term": "Tahoe",
+              "explanation": "Apple 最新一代 macOS 的代号（用户讨论的目标版本），引入大量 UI/视觉/交互改动并通过 Software Update 推送升级提示。"
+            },
+            {
+              "term": "Sequoia",
+              "explanation": "Tahoe 之前的 macOS 主要版本，许多评论者认为 Sequoia 在 UI/稳定性上更可靠、更符合他们的工作流。"
+            },
+            {
+              "term": "Liquid Glass",
+              "explanation": "Apple 在界面中使用的一组视觉/动效风格（流体玻璃式动效），部分用户认为其降低对比度并引入令人不适的动画。"
+            },
+            {
+              "term": "Finder",
+              "explanation": "macOS 的原生文件管理器，评论中多次被点名为在 Tahoe 下出现滚动卡顿、无法退出等体验退步。"
+            }
+          ],
+          "context": "这是围绕 Apple 新一代 macOS 代号 Tahoe 的用户讨论：许多人把 Tahoe 与前一代 Sequoia（macOS 的前一主要版本）比较，并抱怨 Tahoe 带来 UI 变动、动画和稳定性回退。帖子引用了 stop-tahoe-update（GitHub 仓库，用于屏蔽 Tahoe 升级提醒），社区讨论了通过 defaults write 命令、阻断 mobileassetd（Apple 的后台资产下载守护进程）、使用 Little Snitch（第三方网络防火墙）或加入 Sequoia public beta channel 等变通方法来避免弹窗或强制升级。评论基于不同硬件（如 M1/M2/M4 系列 Apple Silicon）、工作流程（触控板 vs 鼠标、单屏 vs 多屏、实时音视频软件）和可访问性偏好，评估升级价值与降级可行性，并有人考虑转向 Linux（如 KDE）作为替代。",
+          "emoji": "🛑",
+          "sarcastic_question": "谁觉得把即时响应换成花里胡哨是好主意？"
+        },
+        "classifications": {
+          "topics": [
+            6,
+            11
+          ],
+          "facets": [
+            5
+          ],
+          "tags": [
+            "macOS Tahoe",
+            "macOS Sequoia",
+            "Apple",
+            "com.apple.SoftwareUpdate",
+            "robservatory.com"
+          ]
+        },
+        "classificationsUpdatedAt": 1772317866,
+        "aiSummary": {
+          "chinese_title": "屏蔽“升级到 Tahoe”提醒：用户称 Tahoe 相较 Sequoia 是降级且带来 UI/性能问题",
+          "discussion_overview": [
+            {
+              "category": "Tahoe 被普遍视为降级——UI 回退与稳定性问题",
+              "summary": "许多评论者直言 Tahoe 相比 Sequoia 是“严格的降级”，并列出具体的缺陷：在高端机（如 M4 Pro）上出现慢且抖动的动画，Finder 在横向滚动上再次变得卡顿，窗口圆角与鼠标交互（corner radius drag）导致拖拽体验受损。用户还报告了左对齐窗口标题视觉不平衡、Dock 的 Application 智能文件夹出现可视重复、跨设备剪贴板偶发性变差，以及对新图标（尤其 Trash）和 Apple Music 小播放器/进度条的不满。额外的破坏性变动包括过度 padding、全新的标签样式破坏 iTerm2 等专业工具的显示，甚至有实时多媒体/表演场景被 Tahoe 破坏的实测案例。",
+              "supportid": [
+                "47200608",
+                "47201227",
+                "47200858",
+                "47200807",
+                "47200716",
+                "47201441",
+                "47201219",
+                "47200949"
+              ]
+            },
+            {
+              "category": "部分用户无感或认为 Tahoe 在某些机器上表现良好",
+              "summary": "也有用户报告 Tahoe 在基础 M2 或 M1 机器上并未感觉到变慢或可用性下降，他们没有注意到显著的体验差异。体验差异被归因于硬件与使用习惯——例如轨迹板用户、只用单显示器且不依赖大量快捷键的用户受影响更小。换言之，硬件代际（M1/M2 vs M4）和个人工作流是影响感知好坏的重要因素。",
+              "supportid": [
+                "47202480",
+                "47202562"
+              ]
+            },
+            {
+              "category": "阻止升级弹窗与回退的变通办法与局限",
+              "summary": "社区整理并分享了多种屏蔽 Tahoe 升级提醒或避免误升级的做法：有人维护 stop-tahoe-update（GitHub 仓库）并改进说明文档，常见技巧包括运行 defaults write com.apple.SoftwareUpdate MajorOSUserNotificationDate 来延后通知、使用 Little Snitch（第三方网络防火墙）阻断更新下载、或阻断 mobileassetd（用于下载系统资产的后台守护进程）。但这些方法并非万无一失：有用户报告 MajorOSUserNotificationDate 仍然弹窗，有的技巧依赖拒绝 TOS 能否移除安装器且不稳定，而在新机上降级通常受限于硬件驱动，许多评论建议抹机重装或购买旧款机器以避免 Tahoe。",
+              "supportid": [
+                "47202649",
+                "47200802",
+                "47201205",
+                "47202569",
+                "47202458",
+                "47202546",
+                "47201215",
+                "47202707",
+                "47202560",
+                "47202452",
+                "47202618",
+                "47201330"
+              ]
+            },
+            {
+              "category": "设计讨论：动画、‘Liquid Glass’ 与响应性之争",
+              "summary": "讨论深入到 Apple 的设计取向：一批用户认为“脑到手”无延迟的交互才是 Mac 的价值，繁复动画和视觉效果等同于人为增加延迟并破坏流畅感；另一批认为丰富动画历来是 Apple 特征，不喜欢的人应使用无动作（Reduce Motion）等可访问性选项或换生态。'Liquid Glass' 视觉/动效在 iPhone 与系统范围内引起争议，部分人称若不关闭 motion 会非常讨厌，但也有人觉得对动画的批评被夸大。总体争论同时涉及主观的延迟感知、可访问性设置以及 UI 一致性的问题。",
+              "supportid": [
+                "47201799",
+                "47202226",
+                "47202284",
+                "47202278",
+                "47202289",
+                "47202646",
+                "47202449"
+              ]
+            },
+            {
+              "category": "平台与硬件选择、降级可行性与替代方案",
+              "summary": "部分长期 Mac 用户因软件质量下降开始考虑替换平台或更谨慎选购硬件：有人倾向于转向 Linux（如 KDE）并称其已在某方面超过 Windows，也有人建议购买翻新版或旧代 M4 机以避开 Tahoe。关于新机降级，多数评论指出 Mac 通常不能运行比出厂系统更老的 macOS（驱动与硬件支持缺失），因此在新机上通过降级避开 Tahoe 多数情况下不可行。围绕是否等待 M5/M6 的新机或直接买已知“能跑 Sequoia”的旧机，评论中也有实际购机与时机权衡的建议。",
+              "supportid": [
+                "47200936",
+                "47202018",
+                "47201693",
+                "47202452",
+                "47202618",
+                "47201330",
+                "47201195",
+                "47201526"
+              ]
+            },
+            {
+              "category": "对非技术用户的保护与误触风险",
+              "summary": "多人关切家庭成员或不擅技术的用户会无意中点到升级提示并安装 Tahoe，因此希望能有更稳固的屏蔽方案或更安全的升级流程。也有评论认为普通用户可能不会强烈察觉差异（因为对糟糕体验已习以为常），但这并不能消除技术用户为亲友主动阻止升级的动力。由此产生的讨论既有技术对策也有关于沟通与默认升级策略的伦理考量。",
+              "supportid": [
+                "47201367",
+                "47201574",
+                "47201443",
+                "47201215"
+              ]
+            }
+          ],
+          "terminologies": [
+            {
+              "term": "Tahoe",
+              "explanation": "Apple 最新一代 macOS 的代号（用户讨论的目标版本），引入大量 UI/视觉/交互改动并通过 Software Update 推送升级提示。"
+            },
+            {
+              "term": "Sequoia",
+              "explanation": "Tahoe 之前的 macOS 主要版本，许多评论者认为 Sequoia 在 UI/稳定性上更可靠、更符合他们的工作流。"
+            },
+            {
+              "term": "Liquid Glass",
+              "explanation": "Apple 在界面中使用的一组视觉/动效风格（流体玻璃式动效），部分用户认为其降低对比度并引入令人不适的动画。"
+            },
+            {
+              "term": "Finder",
+              "explanation": "macOS 的原生文件管理器，评论中多次被点名为在 Tahoe 下出现滚动卡顿、无法退出等体验退步。"
+            }
+          ],
+          "context": "这是围绕 Apple 新一代 macOS 代号 Tahoe 的用户讨论：许多人把 Tahoe 与前一代 Sequoia（macOS 的前一主要版本）比较，并抱怨 Tahoe 带来 UI 变动、动画和稳定性回退。帖子引用了 stop-tahoe-update（GitHub 仓库，用于屏蔽 Tahoe 升级提醒），社区讨论了通过 defaults write 命令、阻断 mobileassetd（Apple 的后台资产下载守护进程）、使用 Little Snitch（第三方网络防火墙）或加入 Sequoia public beta channel 等变通方法来避免弹窗或强制升级。评论基于不同硬件（如 M1/M2/M4 系列 Apple Silicon）、工作流程（触控板 vs 鼠标、单屏 vs 多屏、实时音视频软件）和可访问性偏好，评估升级价值与降级可行性，并有人考虑转向 Linux（如 KDE）作为替代。",
+          "emoji": "🛑",
+          "sarcastic_question": "谁觉得把即时响应换成花里胡哨是好主意？"
+        }
+      }
+    },
     {
       "id": 47199948,
       "by": "surprisetalk",
@@ -3022,276 +3558,6 @@
           "context": "Woxi 是一个用 Rust 重写 Wolfram Mathematica 的开源工程，目标覆盖 Mathematica 1.0 大部分功能并逐步实现社区常用函数（项目方宣称目标包括 >900 个函数）。开发流程中大量使用 LLM/AI agents（评论中提及 Claude 等）生成代码并辅以数千条测试，仓库采用 AGPL 许可证发布。讨论集中在三大问题：体系结构（小核心 + 语言层规则 vs 将数学算法写在 Rust）、AI 生成代码的可审查性与长期维护风险、以及能否复现 Mathematica 多年积累的算法深度与 notebook 体验。评论还对比了现有开源替代品（如 Mathics、Octave）和工具（Rubi、TeXmacs、Jupyter、WASM、Zeppelin），并提到法律/许可证风险与部署可行性。",
           "emoji": "🤔",
           "sarcastic_question": "让AI写数学内核，出错谁担责？"
-        }
-      }
-    },
-    {
-      "id": 47198977,
-      "by": "todsacerdoti",
-      "title": "Block the \"Upgrade to Tahoe\" Alerts",
-      "url": "https://robservatory.com/block-the-upgrade-to-tahoe-alerts-and-system-settings-indicator/",
-      "score": 122,
-      "detailUpdatedAt": 1772329382,
-      "createdAt": 1772314820,
-      "aiSummaryUpdatedAt": 1772330461,
-      "aisummary": {
-        "chinese_title": "屏蔽“升级到 Tahoe”提醒：用户称 Tahoe 相较 Sequoia 是降级且带来 UI/性能问题",
-        "emoji": "🛑",
-        "sarcastic_question": "谁觉得把即时响应换成花里胡哨是好主意？"
-      },
-      "classifications": {
-        "topics": [
-          6,
-          11
-        ],
-        "facets": [
-          5
-        ],
-        "tags": [
-          "macOS Tahoe",
-          "macOS Sequoia",
-          "Apple",
-          "com.apple.SoftwareUpdate",
-          "robservatory.com"
-        ]
-      },
-      "classificationsUpdatedAt": 1772317866,
-      "aiSummary": {
-        "chinese_title": "屏蔽“升级到 Tahoe”提醒：用户称 Tahoe 相较 Sequoia 是降级且带来 UI/性能问题",
-        "emoji": "🛑",
-        "sarcastic_question": "谁觉得把即时响应换成花里胡哨是好主意？"
-      },
-      "detail": {
-        "id": 47198977,
-        "by": "todsacerdoti",
-        "title": "Block the \"Upgrade to Tahoe\" Alerts",
-        "url": "https://robservatory.com/block-the-upgrade-to-tahoe-alerts-and-system-settings-indicator/",
-        "score": 122,
-        "detailUpdatedAt": 1772329382,
-        "createdAt": 1772314820,
-        "aiSummaryUpdatedAt": 1772330461,
-        "aisummary": {
-          "chinese_title": "屏蔽“升级到 Tahoe”提醒：用户称 Tahoe 相较 Sequoia 是降级且带来 UI/性能问题",
-          "discussion_overview": [
-            {
-              "category": "Tahoe 被普遍视为降级——UI 回退与稳定性问题",
-              "summary": "许多评论者直言 Tahoe 相比 Sequoia 是“严格的降级”，并列出具体的缺陷：在高端机（如 M4 Pro）上出现慢且抖动的动画，Finder 在横向滚动上再次变得卡顿，窗口圆角与鼠标交互（corner radius drag）导致拖拽体验受损。用户还报告了左对齐窗口标题视觉不平衡、Dock 的 Application 智能文件夹出现可视重复、跨设备剪贴板偶发性变差，以及对新图标（尤其 Trash）和 Apple Music 小播放器/进度条的不满。额外的破坏性变动包括过度 padding、全新的标签样式破坏 iTerm2 等专业工具的显示，甚至有实时多媒体/表演场景被 Tahoe 破坏的实测案例。",
-              "supportid": [
-                "47200608",
-                "47201227",
-                "47200858",
-                "47200807",
-                "47200716",
-                "47201441",
-                "47201219",
-                "47200949"
-              ]
-            },
-            {
-              "category": "部分用户无感或认为 Tahoe 在某些机器上表现良好",
-              "summary": "也有用户报告 Tahoe 在基础 M2 或 M1 机器上并未感觉到变慢或可用性下降，他们没有注意到显著的体验差异。体验差异被归因于硬件与使用习惯——例如轨迹板用户、只用单显示器且不依赖大量快捷键的用户受影响更小。换言之，硬件代际（M1/M2 vs M4）和个人工作流是影响感知好坏的重要因素。",
-              "supportid": [
-                "47202480",
-                "47202562"
-              ]
-            },
-            {
-              "category": "阻止升级弹窗与回退的变通办法与局限",
-              "summary": "社区整理并分享了多种屏蔽 Tahoe 升级提醒或避免误升级的做法：有人维护 stop-tahoe-update（GitHub 仓库）并改进说明文档，常见技巧包括运行 defaults write com.apple.SoftwareUpdate MajorOSUserNotificationDate 来延后通知、使用 Little Snitch（第三方网络防火墙）阻断更新下载、或阻断 mobileassetd（用于下载系统资产的后台守护进程）。但这些方法并非万无一失：有用户报告 MajorOSUserNotificationDate 仍然弹窗，有的技巧依赖拒绝 TOS 能否移除安装器且不稳定，而在新机上降级通常受限于硬件驱动，许多评论建议抹机重装或购买旧款机器以避免 Tahoe。",
-              "supportid": [
-                "47202649",
-                "47200802",
-                "47201205",
-                "47202569",
-                "47202458",
-                "47202546",
-                "47201215",
-                "47202707",
-                "47202560",
-                "47202452",
-                "47202618",
-                "47201330"
-              ]
-            },
-            {
-              "category": "设计讨论：动画、‘Liquid Glass’ 与响应性之争",
-              "summary": "讨论深入到 Apple 的设计取向：一批用户认为“脑到手”无延迟的交互才是 Mac 的价值，繁复动画和视觉效果等同于人为增加延迟并破坏流畅感；另一批认为丰富动画历来是 Apple 特征，不喜欢的人应使用无动作（Reduce Motion）等可访问性选项或换生态。'Liquid Glass' 视觉/动效在 iPhone 与系统范围内引起争议，部分人称若不关闭 motion 会非常讨厌，但也有人觉得对动画的批评被夸大。总体争论同时涉及主观的延迟感知、可访问性设置以及 UI 一致性的问题。",
-              "supportid": [
-                "47201799",
-                "47202226",
-                "47202284",
-                "47202278",
-                "47202289",
-                "47202646",
-                "47202449"
-              ]
-            },
-            {
-              "category": "平台与硬件选择、降级可行性与替代方案",
-              "summary": "部分长期 Mac 用户因软件质量下降开始考虑替换平台或更谨慎选购硬件：有人倾向于转向 Linux（如 KDE）并称其已在某方面超过 Windows，也有人建议购买翻新版或旧代 M4 机以避开 Tahoe。关于新机降级，多数评论指出 Mac 通常不能运行比出厂系统更老的 macOS（驱动与硬件支持缺失），因此在新机上通过降级避开 Tahoe 多数情况下不可行。围绕是否等待 M5/M6 的新机或直接买已知“能跑 Sequoia”的旧机，评论中也有实际购机与时机权衡的建议。",
-              "supportid": [
-                "47200936",
-                "47202018",
-                "47201693",
-                "47202452",
-                "47202618",
-                "47201330",
-                "47201195",
-                "47201526"
-              ]
-            },
-            {
-              "category": "对非技术用户的保护与误触风险",
-              "summary": "多人关切家庭成员或不擅技术的用户会无意中点到升级提示并安装 Tahoe，因此希望能有更稳固的屏蔽方案或更安全的升级流程。也有评论认为普通用户可能不会强烈察觉差异（因为对糟糕体验已习以为常），但这并不能消除技术用户为亲友主动阻止升级的动力。由此产生的讨论既有技术对策也有关于沟通与默认升级策略的伦理考量。",
-              "supportid": [
-                "47201367",
-                "47201574",
-                "47201443",
-                "47201215"
-              ]
-            }
-          ],
-          "terminologies": [
-            {
-              "term": "Tahoe",
-              "explanation": "Apple 最新一代 macOS 的代号（用户讨论的目标版本），引入大量 UI/视觉/交互改动并通过 Software Update 推送升级提示。"
-            },
-            {
-              "term": "Sequoia",
-              "explanation": "Tahoe 之前的 macOS 主要版本，许多评论者认为 Sequoia 在 UI/稳定性上更可靠、更符合他们的工作流。"
-            },
-            {
-              "term": "Liquid Glass",
-              "explanation": "Apple 在界面中使用的一组视觉/动效风格（流体玻璃式动效），部分用户认为其降低对比度并引入令人不适的动画。"
-            },
-            {
-              "term": "Finder",
-              "explanation": "macOS 的原生文件管理器，评论中多次被点名为在 Tahoe 下出现滚动卡顿、无法退出等体验退步。"
-            }
-          ],
-          "context": "这是围绕 Apple 新一代 macOS 代号 Tahoe 的用户讨论：许多人把 Tahoe 与前一代 Sequoia（macOS 的前一主要版本）比较，并抱怨 Tahoe 带来 UI 变动、动画和稳定性回退。帖子引用了 stop-tahoe-update（GitHub 仓库，用于屏蔽 Tahoe 升级提醒），社区讨论了通过 defaults write 命令、阻断 mobileassetd（Apple 的后台资产下载守护进程）、使用 Little Snitch（第三方网络防火墙）或加入 Sequoia public beta channel 等变通方法来避免弹窗或强制升级。评论基于不同硬件（如 M1/M2/M4 系列 Apple Silicon）、工作流程（触控板 vs 鼠标、单屏 vs 多屏、实时音视频软件）和可访问性偏好，评估升级价值与降级可行性，并有人考虑转向 Linux（如 KDE）作为替代。",
-          "emoji": "🛑",
-          "sarcastic_question": "谁觉得把即时响应换成花里胡哨是好主意？"
-        },
-        "classifications": {
-          "topics": [
-            6,
-            11
-          ],
-          "facets": [
-            5
-          ],
-          "tags": [
-            "macOS Tahoe",
-            "macOS Sequoia",
-            "Apple",
-            "com.apple.SoftwareUpdate",
-            "robservatory.com"
-          ]
-        },
-        "classificationsUpdatedAt": 1772317866,
-        "aiSummary": {
-          "chinese_title": "屏蔽“升级到 Tahoe”提醒：用户称 Tahoe 相较 Sequoia 是降级且带来 UI/性能问题",
-          "discussion_overview": [
-            {
-              "category": "Tahoe 被普遍视为降级——UI 回退与稳定性问题",
-              "summary": "许多评论者直言 Tahoe 相比 Sequoia 是“严格的降级”，并列出具体的缺陷：在高端机（如 M4 Pro）上出现慢且抖动的动画，Finder 在横向滚动上再次变得卡顿，窗口圆角与鼠标交互（corner radius drag）导致拖拽体验受损。用户还报告了左对齐窗口标题视觉不平衡、Dock 的 Application 智能文件夹出现可视重复、跨设备剪贴板偶发性变差，以及对新图标（尤其 Trash）和 Apple Music 小播放器/进度条的不满。额外的破坏性变动包括过度 padding、全新的标签样式破坏 iTerm2 等专业工具的显示，甚至有实时多媒体/表演场景被 Tahoe 破坏的实测案例。",
-              "supportid": [
-                "47200608",
-                "47201227",
-                "47200858",
-                "47200807",
-                "47200716",
-                "47201441",
-                "47201219",
-                "47200949"
-              ]
-            },
-            {
-              "category": "部分用户无感或认为 Tahoe 在某些机器上表现良好",
-              "summary": "也有用户报告 Tahoe 在基础 M2 或 M1 机器上并未感觉到变慢或可用性下降，他们没有注意到显著的体验差异。体验差异被归因于硬件与使用习惯——例如轨迹板用户、只用单显示器且不依赖大量快捷键的用户受影响更小。换言之，硬件代际（M1/M2 vs M4）和个人工作流是影响感知好坏的重要因素。",
-              "supportid": [
-                "47202480",
-                "47202562"
-              ]
-            },
-            {
-              "category": "阻止升级弹窗与回退的变通办法与局限",
-              "summary": "社区整理并分享了多种屏蔽 Tahoe 升级提醒或避免误升级的做法：有人维护 stop-tahoe-update（GitHub 仓库）并改进说明文档，常见技巧包括运行 defaults write com.apple.SoftwareUpdate MajorOSUserNotificationDate 来延后通知、使用 Little Snitch（第三方网络防火墙）阻断更新下载、或阻断 mobileassetd（用于下载系统资产的后台守护进程）。但这些方法并非万无一失：有用户报告 MajorOSUserNotificationDate 仍然弹窗，有的技巧依赖拒绝 TOS 能否移除安装器且不稳定，而在新机上降级通常受限于硬件驱动，许多评论建议抹机重装或购买旧款机器以避免 Tahoe。",
-              "supportid": [
-                "47202649",
-                "47200802",
-                "47201205",
-                "47202569",
-                "47202458",
-                "47202546",
-                "47201215",
-                "47202707",
-                "47202560",
-                "47202452",
-                "47202618",
-                "47201330"
-              ]
-            },
-            {
-              "category": "设计讨论：动画、‘Liquid Glass’ 与响应性之争",
-              "summary": "讨论深入到 Apple 的设计取向：一批用户认为“脑到手”无延迟的交互才是 Mac 的价值，繁复动画和视觉效果等同于人为增加延迟并破坏流畅感；另一批认为丰富动画历来是 Apple 特征，不喜欢的人应使用无动作（Reduce Motion）等可访问性选项或换生态。'Liquid Glass' 视觉/动效在 iPhone 与系统范围内引起争议，部分人称若不关闭 motion 会非常讨厌，但也有人觉得对动画的批评被夸大。总体争论同时涉及主观的延迟感知、可访问性设置以及 UI 一致性的问题。",
-              "supportid": [
-                "47201799",
-                "47202226",
-                "47202284",
-                "47202278",
-                "47202289",
-                "47202646",
-                "47202449"
-              ]
-            },
-            {
-              "category": "平台与硬件选择、降级可行性与替代方案",
-              "summary": "部分长期 Mac 用户因软件质量下降开始考虑替换平台或更谨慎选购硬件：有人倾向于转向 Linux（如 KDE）并称其已在某方面超过 Windows，也有人建议购买翻新版或旧代 M4 机以避开 Tahoe。关于新机降级，多数评论指出 Mac 通常不能运行比出厂系统更老的 macOS（驱动与硬件支持缺失），因此在新机上通过降级避开 Tahoe 多数情况下不可行。围绕是否等待 M5/M6 的新机或直接买已知“能跑 Sequoia”的旧机，评论中也有实际购机与时机权衡的建议。",
-              "supportid": [
-                "47200936",
-                "47202018",
-                "47201693",
-                "47202452",
-                "47202618",
-                "47201330",
-                "47201195",
-                "47201526"
-              ]
-            },
-            {
-              "category": "对非技术用户的保护与误触风险",
-              "summary": "多人关切家庭成员或不擅技术的用户会无意中点到升级提示并安装 Tahoe，因此希望能有更稳固的屏蔽方案或更安全的升级流程。也有评论认为普通用户可能不会强烈察觉差异（因为对糟糕体验已习以为常），但这并不能消除技术用户为亲友主动阻止升级的动力。由此产生的讨论既有技术对策也有关于沟通与默认升级策略的伦理考量。",
-              "supportid": [
-                "47201367",
-                "47201574",
-                "47201443",
-                "47201215"
-              ]
-            }
-          ],
-          "terminologies": [
-            {
-              "term": "Tahoe",
-              "explanation": "Apple 最新一代 macOS 的代号（用户讨论的目标版本），引入大量 UI/视觉/交互改动并通过 Software Update 推送升级提示。"
-            },
-            {
-              "term": "Sequoia",
-              "explanation": "Tahoe 之前的 macOS 主要版本，许多评论者认为 Sequoia 在 UI/稳定性上更可靠、更符合他们的工作流。"
-            },
-            {
-              "term": "Liquid Glass",
-              "explanation": "Apple 在界面中使用的一组视觉/动效风格（流体玻璃式动效），部分用户认为其降低对比度并引入令人不适的动画。"
-            },
-            {
-              "term": "Finder",
-              "explanation": "macOS 的原生文件管理器，评论中多次被点名为在 Tahoe 下出现滚动卡顿、无法退出等体验退步。"
-            }
-          ],
-          "context": "这是围绕 Apple 新一代 macOS 代号 Tahoe 的用户讨论：许多人把 Tahoe 与前一代 Sequoia（macOS 的前一主要版本）比较，并抱怨 Tahoe 带来 UI 变动、动画和稳定性回退。帖子引用了 stop-tahoe-update（GitHub 仓库，用于屏蔽 Tahoe 升级提醒），社区讨论了通过 defaults write 命令、阻断 mobileassetd（Apple 的后台资产下载守护进程）、使用 Little Snitch（第三方网络防火墙）或加入 Sequoia public beta channel 等变通方法来避免弹窗或强制升级。评论基于不同硬件（如 M1/M2/M4 系列 Apple Silicon）、工作流程（触控板 vs 鼠标、单屏 vs 多屏、实时音视频软件）和可访问性偏好，评估升级价值与降级可行性，并有人考虑转向 Linux（如 KDE）作为替代。",
-          "emoji": "🛑",
-          "sarcastic_question": "谁觉得把即时响应换成花里胡哨是好主意？"
         }
       }
     },
@@ -13356,260 +13622,6 @@
           "context": "丹·西蒙斯（美国作家）去世的消息在社区触发了对其作品遗产与争议的集中讨论。读者主要回顾他最著名的Hyperion Cantos（丹·西蒙斯的史诗科幻系列），并就其独特叙事、宗教意象与AI/网络设定（例如TechnoCore、The Shrike、cruciform parasite与All Thing）展开评价。多人同时提到他在恐怖与历史题材的代表作（如Carrion Comfort、The Terror、Drood）以及这些书带来的情感影响。讨论还牵涉到他在9/11后发表的政治立场与争议文章，读者因此在“能否将艺术与作者分离”上出现明显分歧，并对影视改编的可行性表达谨慎或期待。",
           "emoji": "📚",
           "sarcastic_question": "要因为作者晚年立场就否定他的全盘作品吗？"
-        }
-      }
-    },
-    {
-      "id": 47172664,
-      "by": "littlexsparkee",
-      "title": "Smartphone Mkt to Decline 13% in '26, Largest Drop Ever Due to Memory Shortage",
-      "url": "https://www.idc.com/resource-center/press-releases/wwsmartphoneforecast4q25/",
-      "score": 256,
-      "detailUpdatedAt": 1772226792,
-      "createdAt": 1772144426,
-      "aiSummaryUpdatedAt": 1772227286,
-      "aisummary": {
-        "chinese_title": "DRAM 短缺致 2026 年智能手机出货骤降，争论聚焦 AI 大买家、软件臃肿与系统内存管理",
-        "emoji": "😡",
-        "sarcastic_question": "我们要为OpenAI补贴全世界的DRAM吗？"
-      },
-      "classifications": {
-        "topics": [
-          10,
-          7
-        ],
-        "facets": [
-          4
-        ],
-        "tags": [
-          "DRAM",
-          "memory shortage",
-          "smartphone market",
-          "IDC",
-          "Apple",
-          "Samsung",
-          "OpenAI",
-          "iPhone",
-          "Google Pixel"
-        ]
-      },
-      "classificationsUpdatedAt": 1772146551,
-      "aiSummary": {
-        "chinese_title": "DRAM 短缺致 2026 年智能手机出货骤降，争论聚焦 AI 大买家、软件臃肿与系统内存管理",
-        "emoji": "😡",
-        "sarcastic_question": "我们要为OpenAI补贴全世界的DRAM吗？"
-      },
-      "detail": {
-        "id": 47172664,
-        "by": "littlexsparkee",
-        "title": "Smartphone Mkt to Decline 13% in '26, Largest Drop Ever Due to Memory Shortage",
-        "url": "https://www.idc.com/resource-center/press-releases/wwsmartphoneforecast4q25/",
-        "score": 145,
-        "detailUpdatedAt": 1772154805,
-        "createdAt": 1772144426,
-        "aiSummaryUpdatedAt": 1772155663,
-        "aisummary": {
-          "chinese_title": "智能手机市场料在2026年下滑13%：DRAM短缺、AI抢内存与软件臃肿冲击",
-          "discussion_overview": [
-            {
-              "category": "内存短缺成因争议：AI需求 vs. 市场操纵",
-              "summary": "大量评论将当前 DRAM 供应紧张归因于大型 AI 数据中心对高容量内存（包括用于加速器的 HBM/DRAM）的急速需求，并指控少数大买家（有人点名 OpenAI）通过大额采购或租用改变市场供需格局。报道和分析（如 IDC）被引用来说明内存价格可能长期居高不下、低端机型利润受挤压，并有人指出主机/主机如 PS6 的发布时间因此推后。也有声音提醒 DRAM 行业历史上多次价格操纵与垄断案件，批评预测机构与市场解读不一；同时有人指出已融资的数据中心短期内会维持需求，但若项目失败又会带来剧烈波动，整体结论充满不确定性。",
-              "supportid": [
-                "47172938",
-                "47172949",
-                "47173008",
-                "47174771",
-                "47173450",
-                "47173245",
-                "47174914"
-              ]
-            },
-            {
-              "category": "软件臃肿与内存管理：体验下降不是单纯硬件不足",
-              "summary": "大量用户举出具体体验：即便是 12GB RAM 的 iPhone 17 Pro 也会频繁刷新 Safari 标签页、YouTube 队列被清空、后台上传需屏幕常亮等问题，感觉像是被“主动”回收状态而非物理 OOM。评论里普遍认为这更多是操作系统与应用设计选择（iOS 的激进后台回收、应用为提高参与度而刷新内容）以及网页/SPA、广告脚本导致的内存与执行调度问题，而非单纯 RAM 数量不够。开发者角度则提到 iOS 对后台任务/多任务的限制、Apple 提供的状态恢复 API 被闲置，另有讨论认为部分 Android OEM 的省电策略也会杀后台进程。关于用 LLM 改善代码与优化的争议并存：部分人认为 LLM 在有明确指标和引导下能发现性能点，另有评论担心 LLM 生成代码不够优化或带来稳定性/安全风险。",
-              "supportid": [
-                "47172960",
-                "47173865",
-                "47173220",
-                "47174827",
-                "47173150",
-                "47174492",
-                "47174655",
-                "47174918"
-              ]
-            },
-            {
-              "category": "硬件迭代停滞与二手市场回潮",
-              "summary": "多位评论指出新机迭代乏力（例如部分 Pixel 被指与上代差异极小）、同时 ASP（平均售价）上升与内存成本推高导致入门机利润被压缩，厂商为本地 AI 功能预留 RAM（如 Pixel 的 AI-only RAM）也进一步恶化性价比。有人举例 Apple 大额采购三星内存、IDC 预测使得 <$100 机型失去可行性、并且这波短缺可能拖累游戏主机（例如 PS6 推迟）与便携游戏机的“Lite”选项。这些因素推动更多用户转向二手/翻新机、部件与回收市场，二手价格与翻新零件价已有明显上扬，选择保留旧机或降低换机频率成为常见应对策略。",
-              "supportid": [
-                "47173054",
-                "47173111",
-                "47172835",
-                "47172949",
-                "47173544",
-                "47173056",
-                "47173612",
-                "47173160",
-                "47173123"
-              ]
-            },
-            {
-              "category": "宏观影响：资本重定向、产业重整与地缘机会",
-              "summary": "不少评论把对 AI 数据中心与相关补贴的过度投资视为对其他行业的挤出效应，认为裁员、客服与产品质量下降部分由此而来；评论还警告这类投资让产业权力进一步向少数超级玩家集中。有人主张 US/SK 的内存产业策略短期获利但长期会给中国制造商创造市场空档，产业集中化将抑制初创公司和竞争。与此同时也有理性怀疑者指出若 AI 热潮或相关公司出现整合/倒闭，内存需求可能迅速回落，市场将出现剧烈波动，因此宏观结局并非单一路径可断言。",
-              "supportid": [
-                "47173725",
-                "47174771",
-                "47173123",
-                "47173450",
-                "47173245",
-                "47174914"
-              ]
-            },
-            {
-              "category": "应对与机会：高效软件、LLM 辅助与翻新生态",
-              "summary": "在压力下，一些评论鼓吹回归更高效的工程实践：精打细算的内存布局（pack struct）、流式/生成器处理和按需加载能显著降低内存占用，并有实例显示在正确提示下 LLM 可帮助识别和实现性能优化点。二手与翻新市场被视为短期缓冲——翻新零件与回收组件价格上涨，替代新品的购买成为现实选择。还有人把这次危机看作改变用户行为的契机：卸载臃肿应用、延长设备寿命并对厂商的“本地 AI 占用内存”策略形成市场抵制。",
-              "supportid": [
-                "47173202",
-                "47173727",
-                "47174918",
-                "47174655",
-                "47173056",
-                "47173160",
-                "47174737",
-                "47173612",
-                "47173725"
-              ]
-            }
-          ],
-          "terminologies": [
-            {
-              "term": "DRAM",
-              "explanation": "DRAM（动态随机存取存储器），服务器与手机的主要工作内存，需定期刷新；其产能与价格对智能手机 BOM 与数据中心成本影响巨大。"
-            },
-            {
-              "term": "LLM",
-              "explanation": "LLM（Large Language Model，大型语言模型），用于生成代码或文本；评论中讨论其在代码优化与编写中的潜力与局限（如 hallucination 与非最优生成）。"
-            },
-            {
-              "term": "GrapheneOS",
-              "explanation": "GrapheneOS（一个基于 Android 的隐私/安全导向自定义 ROM），在评论中被当作去 Google 化或提高设备可控性的替代方案。"
-            }
-          ],
-          "context": "IDC（市场研究机构）和媒体报道指出 2026 年智能手机出货或下滑约 13%，主因被归为内存（DRAM）供应短缺与成本上升，这会抬高整机 BOM 并压缩入门机利润。讨论把短缺原因延伸到 AI 数据中心对高容量内存（包括用于加速器的 HBM）的急速需求、少数大买家（有人点名 OpenAI）的大额采购，以及 DRAM 产业过去的价格操纵与产能节奏。话题同时牵涉到用户级体验（如 iOS / Safari 后台回收、应用为算法交互刷新的设计）、厂商为本地 AI 预留内存的策略、游戏主机与高端笔记本的内存预算，以及二手/翻新市场的短期回暖。评论在指责市场操纵、呼吁软件优化和适应二手市场之间分歧明显，反映出技术细节与产业、政策层面的交织影响。",
-          "emoji": "😡",
-          "sarcastic_question": "这是为AI发展买内存，还是给大厂锁市场？"
-        },
-        "classifications": {
-          "topics": [
-            10,
-            7
-          ],
-          "facets": [
-            4
-          ],
-          "tags": [
-            "DRAM",
-            "memory shortage",
-            "smartphone market",
-            "IDC",
-            "Apple",
-            "Samsung",
-            "OpenAI",
-            "iPhone",
-            "Google Pixel"
-          ]
-        },
-        "classificationsUpdatedAt": 1772146551,
-        "aiSummary": {
-          "chinese_title": "智能手机市场料在2026年下滑13%：DRAM短缺、AI抢内存与软件臃肿冲击",
-          "discussion_overview": [
-            {
-              "category": "内存短缺成因争议：AI需求 vs. 市场操纵",
-              "summary": "大量评论将当前 DRAM 供应紧张归因于大型 AI 数据中心对高容量内存（包括用于加速器的 HBM/DRAM）的急速需求，并指控少数大买家（有人点名 OpenAI）通过大额采购或租用改变市场供需格局。报道和分析（如 IDC）被引用来说明内存价格可能长期居高不下、低端机型利润受挤压，并有人指出主机/主机如 PS6 的发布时间因此推后。也有声音提醒 DRAM 行业历史上多次价格操纵与垄断案件，批评预测机构与市场解读不一；同时有人指出已融资的数据中心短期内会维持需求，但若项目失败又会带来剧烈波动，整体结论充满不确定性。",
-              "supportid": [
-                "47172938",
-                "47172949",
-                "47173008",
-                "47174771",
-                "47173450",
-                "47173245",
-                "47174914"
-              ]
-            },
-            {
-              "category": "软件臃肿与内存管理：体验下降不是单纯硬件不足",
-              "summary": "大量用户举出具体体验：即便是 12GB RAM 的 iPhone 17 Pro 也会频繁刷新 Safari 标签页、YouTube 队列被清空、后台上传需屏幕常亮等问题，感觉像是被“主动”回收状态而非物理 OOM。评论里普遍认为这更多是操作系统与应用设计选择（iOS 的激进后台回收、应用为提高参与度而刷新内容）以及网页/SPA、广告脚本导致的内存与执行调度问题，而非单纯 RAM 数量不够。开发者角度则提到 iOS 对后台任务/多任务的限制、Apple 提供的状态恢复 API 被闲置，另有讨论认为部分 Android OEM 的省电策略也会杀后台进程。关于用 LLM 改善代码与优化的争议并存：部分人认为 LLM 在有明确指标和引导下能发现性能点，另有评论担心 LLM 生成代码不够优化或带来稳定性/安全风险。",
-              "supportid": [
-                "47172960",
-                "47173865",
-                "47173220",
-                "47174827",
-                "47173150",
-                "47174492",
-                "47174655",
-                "47174918"
-              ]
-            },
-            {
-              "category": "硬件迭代停滞与二手市场回潮",
-              "summary": "多位评论指出新机迭代乏力（例如部分 Pixel 被指与上代差异极小）、同时 ASP（平均售价）上升与内存成本推高导致入门机利润被压缩，厂商为本地 AI 功能预留 RAM（如 Pixel 的 AI-only RAM）也进一步恶化性价比。有人举例 Apple 大额采购三星内存、IDC 预测使得 <$100 机型失去可行性、并且这波短缺可能拖累游戏主机（例如 PS6 推迟）与便携游戏机的“Lite”选项。这些因素推动更多用户转向二手/翻新机、部件与回收市场，二手价格与翻新零件价已有明显上扬，选择保留旧机或降低换机频率成为常见应对策略。",
-              "supportid": [
-                "47173054",
-                "47173111",
-                "47172835",
-                "47172949",
-                "47173544",
-                "47173056",
-                "47173612",
-                "47173160",
-                "47173123"
-              ]
-            },
-            {
-              "category": "宏观影响：资本重定向、产业重整与地缘机会",
-              "summary": "不少评论把对 AI 数据中心与相关补贴的过度投资视为对其他行业的挤出效应，认为裁员、客服与产品质量下降部分由此而来；评论还警告这类投资让产业权力进一步向少数超级玩家集中。有人主张 US/SK 的内存产业策略短期获利但长期会给中国制造商创造市场空档，产业集中化将抑制初创公司和竞争。与此同时也有理性怀疑者指出若 AI 热潮或相关公司出现整合/倒闭，内存需求可能迅速回落，市场将出现剧烈波动，因此宏观结局并非单一路径可断言。",
-              "supportid": [
-                "47173725",
-                "47174771",
-                "47173123",
-                "47173450",
-                "47173245",
-                "47174914"
-              ]
-            },
-            {
-              "category": "应对与机会：高效软件、LLM 辅助与翻新生态",
-              "summary": "在压力下，一些评论鼓吹回归更高效的工程实践：精打细算的内存布局（pack struct）、流式/生成器处理和按需加载能显著降低内存占用，并有实例显示在正确提示下 LLM 可帮助识别和实现性能优化点。二手与翻新市场被视为短期缓冲——翻新零件与回收组件价格上涨，替代新品的购买成为现实选择。还有人把这次危机看作改变用户行为的契机：卸载臃肿应用、延长设备寿命并对厂商的“本地 AI 占用内存”策略形成市场抵制。",
-              "supportid": [
-                "47173202",
-                "47173727",
-                "47174918",
-                "47174655",
-                "47173056",
-                "47173160",
-                "47174737",
-                "47173612",
-                "47173725"
-              ]
-            }
-          ],
-          "terminologies": [
-            {
-              "term": "DRAM",
-              "explanation": "DRAM（动态随机存取存储器），服务器与手机的主要工作内存，需定期刷新；其产能与价格对智能手机 BOM 与数据中心成本影响巨大。"
-            },
-            {
-              "term": "LLM",
-              "explanation": "LLM（Large Language Model，大型语言模型），用于生成代码或文本；评论中讨论其在代码优化与编写中的潜力与局限（如 hallucination 与非最优生成）。"
-            },
-            {
-              "term": "GrapheneOS",
-              "explanation": "GrapheneOS（一个基于 Android 的隐私/安全导向自定义 ROM），在评论中被当作去 Google 化或提高设备可控性的替代方案。"
-            }
-          ],
-          "context": "IDC（市场研究机构）和媒体报道指出 2026 年智能手机出货或下滑约 13%，主因被归为内存（DRAM）供应短缺与成本上升，这会抬高整机 BOM 并压缩入门机利润。讨论把短缺原因延伸到 AI 数据中心对高容量内存（包括用于加速器的 HBM）的急速需求、少数大买家（有人点名 OpenAI）的大额采购，以及 DRAM 产业过去的价格操纵与产能节奏。话题同时牵涉到用户级体验（如 iOS / Safari 后台回收、应用为算法交互刷新的设计）、厂商为本地 AI 预留内存的策略、游戏主机与高端笔记本的内存预算，以及二手/翻新市场的短期回暖。评论在指责市场操纵、呼吁软件优化和适应二手市场之间分歧明显，反映出技术细节与产业、政策层面的交织影响。",
-          "emoji": "😡",
-          "sarcastic_question": "这是为AI发展买内存，还是给大厂锁市场？"
         }
       }
     }
