@@ -1,6 +1,852 @@
 {
-  "updatedAt": "2026-03-01T08:37:38.610Z",
+  "updatedAt": "2026-03-01T09:35:59.481Z",
   "items": [
+    {
+      "id": 47199948,
+      "by": "surprisetalk",
+      "title": "Our Agreement with the Department of War",
+      "url": "https://openai.com/index/our-agreement-with-the-department-of-war",
+      "score": 295,
+      "detailUpdatedAt": 1772356445,
+      "createdAt": 1772313021,
+      "aiSummaryUpdatedAt": 1772356946,
+      "aisummary": {
+        "chinese_title": "OpenAI与国防部协议放宽“所有合法用途”，引发大规模监控与致命AI担忧",
+        "emoji": "😡",
+        "sarcastic_question": "把「合法即可用」当红线，不怕被独裁者利用吗？"
+      },
+      "classifications": {
+        "topics": [
+          1,
+          9,
+          10
+        ],
+        "facets": [
+          4
+        ],
+        "tags": [
+          "OpenAI",
+          "Department of War",
+          "Department of Defense",
+          "Anthropic",
+          "Sam Altman",
+          "autonomous weapons",
+          "mass surveillance",
+          "Trump administration"
+        ]
+      },
+      "classificationsUpdatedAt": 1772315463,
+      "aiSummary": {
+        "chinese_title": "OpenAI与国防部协议放宽“所有合法用途”，引发大规模监控与致命AI担忧",
+        "emoji": "😡",
+        "sarcastic_question": "把「合法即可用」当红线，不怕被独裁者利用吗？"
+      },
+      "detail": {
+        "id": 47199948,
+        "by": "surprisetalk",
+        "title": "Our Agreement with the Department of War",
+        "url": "https://openai.com/index/our-agreement-with-the-department-of-war",
+        "score": 192,
+        "detailUpdatedAt": 1772325789,
+        "createdAt": 1772313021,
+        "aiSummaryUpdatedAt": 1772326350,
+        "aisummary": {
+          "chinese_title": "OpenAI 与“Department of War”合约以“所有合法用途”为界，引发对大规模监控与致命应用的愤怒",
+          "discussion_overview": [
+            {
+              "category": "合同用语宽泛／“合法”成为主要限制",
+              "summary": "大量评论指出合约核心句子“The Department of War may use the AI System for all lawful purposes...”把约束退回到现行法律，合同仅以 Fourth Amendment、National Security Act、FISA、Executive Order 12333 等权威为合规参照，并将“不用于对美国产民的无约束监控”限定为仅在这些权威已明令禁止时才成立。评论者举例称，这意味着军方可以从私营公司采购大规模位置或金融交易等精细数据并用模型处理，对公民进行群体级别的识别与目标化，除非法律事先禁止。许多人把这种措辞称为“weasel language”，并警告“operational requirements”等条款与历史上的情报备忘录可能为越权提供法律外衣，依赖法律解释而非公司硬性红线被视为明显薄弱。不同评论反复提到，一旦行政权随意解释或修改规则，这类“只要合法” 的承诺将很快失去约束力。",
+              "supportid": [
+                "47200771",
+                "47201230",
+                "47200378",
+                "47200109",
+                "47201833",
+                "47200345"
+              ]
+            },
+            {
+              "category": "Anthropic 与 OpenAI 的谈判分歧与行业影响",
+              "summary": "评论普遍强调 Anthropic 要求的是更强的、嵌入式的安全/封锁机制：同步的人工介入与立即拒绝的权力（例如通过修改 system prompts、训练数据或人工人员介入关闭功能），而 OpenAI 接受更松的安排——把合规依赖于‘法律/运营要求’并保留事后终止合约或合约救济的路径。多条评论解释 Anthropic 的安全栈深度嵌入模型本身，技术上难以通过简单开关移除，因此政府要求定制、例外或去除 guardrails 并非小事。观察者担忧这类谈判设置了危险先例：政府可通过采购压力、承包商（如 Palantir）或政治影响力迫使厂商妥协，进而分裂国防技术生态并削弱长期的产业与军事创新能力。",
+              "supportid": [
+                "47200262",
+                "47200706",
+                "47200902",
+                "47200375",
+                "47200296",
+                "47200134"
+              ]
+            },
+            {
+              "category": "问责与法律解释：谁来决定“合法”？武器与监控的伦理风险",
+              "summary": "评论的核心焦点之一是问责问题——合同把决定权很大程度上交给执行机构或国防部，导致‘什么是合法’由实施方解释，评论者列举了行政分支曾以法律名义推进有争议军事行动的先例作为担忧依据。合同引用的 DoD Directive 3000.09 要求对自主与半自主系统进行严格的 verification/validation/testing，但该类指令为部门政策而非国会立法，容易被修改或绕开；而‘人类控制’条款被担忧可能退化为走形式的审批。鉴于近年的越界暗杀、海外军事行动与国内执法争议，多位评论认为即便有合规条款，部署后果仍可能构成战争罪或系统性侵犯公民权利，而依赖事后终止或司法救济无法及时防止伤害。",
+              "supportid": [
+                "47200449",
+                "47200547",
+                "47200534",
+                "47200379",
+                "47201620"
+              ]
+            },
+            {
+              "category": "员工与用户的反应：辞职、抵制与组织化尝试",
+              "summary": "许多评论呼吁用消费者与员工行动表达不满：取消订阅、转向 Anthropic 的 Claude 或本地推理（local inference），以及通过辞职或工会组织施压。有人认为群体性离职或工会罢工能真正改变公司决策，而反对者指出员工经济差异、期权与既得利益会削弱这类行动的可行性。几条评论提到 Anthropic 因坚持红线可能短期内成为人才招募优势，已有用户实际开始迁移以示惩戒；但也有意见认为单靠个人离场不足以遏制公司做法，需更制度化的监督与法律约束。",
+              "supportid": [
+                "47200627",
+                "47200437",
+                "47200472",
+                "47200691",
+                "47200612",
+                "47200674"
+              ]
+            },
+            {
+              "category": "部署形式与第三方绕行的技术与合同疑问",
+              "summary": "技术性疑问集中在 OpenAI 声称的‘cloud deployment surface 不允许驱动完全自主武器，完全自主需 edge deployment’这句是否成立与能否被规避。评论反问 edge 是否等同于离线/断开网络的本地部署，还是只是一种术语区分；现实中联网无人系统能否通过云端 API 实现致命动作让人怀疑云/边界说法的有效性。另有大量担忧指向下游承包商（例如 Palantir）把模型嵌入军用系统的可能性，以及 OpenAI 是否有能力或意愿对第三方集成与用途进行真正的技术与合约层面约束。",
+              "supportid": [
+                "47200822",
+                "47201762",
+                "47200296",
+                "47200902"
+              ]
+            },
+            {
+              "category": "对公司治理、历史与政治影响力的不信任",
+              "summary": "许多评论把这次合约放在 OpenAI 的历史轨迹里审视：从非营利到营利、曾经的开源与隐私承诺被一步步削弱，配合高层的政治捐款与对政府的靠近，使官方声明被广泛怀疑为公关操作。具体指控包括公告措辞与时机可疑、领导层不在文末署名、以及公司在面临金钱或政府压力时习惯性放松红线。评论者因此呼吁不仅要看公司声明，还要建立法律约束、外部监督与历史记录保存，以免未来因利益或政治交换而放纵监控与致命用途。",
+              "supportid": [
+                "47200071",
+                "47200134",
+                "47200408",
+                "47200492",
+                "47201230",
+                "47200771"
+              ]
+            }
+          ],
+          "terminologies": [
+            {
+              "term": "DoD Directive 3000.09",
+              "explanation": "美国国防部于 2023‑01‑25 发布的指令，针对自主与半自主武器系统规定部署前必须进行严格的 verification、validation 与 testing，并在法律或政策要求下保有人类控制（human control）的原则。"
+            },
+            {
+              "term": "Posse Comitatus Act",
+              "explanation": "美国法律，限制联邦军队直接参与国内民事执法，合同中以该法为界定军方在国内执法中可否使用系统的重要法律参照。"
+            },
+            {
+              "term": "FISA (Foreign Intelligence Surveillance Act of 1978)",
+              "explanation": "1978 年通过的美国情报监控法，规定外国情报监视许可与 FISA 法庭的司法程序，常被引用作为情报活动合规的法律框架。"
+            },
+            {
+              "term": "Executive Order 12333",
+              "explanation": "一项总统行政命令，规范美国情报机构（包括海外情报收集）的权限与程序，合同把它列为可用来判断情报活动合法性的权威之一。"
+            },
+            {
+              "term": "Fourth Amendment",
+              "explanation": "美国宪法第四修正案，保护公民免受无理搜查与扣押，合同在处理私有信息时将其作为隐私合规的基准。"
+            },
+            {
+              "term": "edge deployment",
+              "explanation": "边缘部署：指将模型推理放在接近传感器或执行器的本地硬件上（离线或就地运行），与云端 API 调用相对，讨论点在于是否能用于‘完全自主武器’。"
+            },
+            {
+              "term": "cloud deployment surface",
+              "explanation": "云部署面：指在云端托管并通过远程 API 提供模型服务的部署方式；合同声称云端部署不会支持完全自主致命系统，但评论者质疑该边界的实际效力与可被绕开的风险。"
+            },
+            {
+              "term": "operational requirements",
+              "explanation": "合同与军方常用术语，指基于作战或运营需要的功能/用途要求；在合约语境中被批评为可能成为解释与扩大合法用途的弹性口实。"
+            }
+          ],
+          "context": "此讨论源于 OpenAI 公布题为“Our Agreement with the Department of War”的合约说明，披露与美国国防部（DoD，在公告与评论中有时被讽称为“Department of War”）的合作条款。合约允许军方在“所有合法用途”（all lawful purposes）范围内使用模型，并引用 Fourth Amendment、National Security Act of 1947、FISA、Executive Order 12333 及 DoD Directive 3000.09 等法律与政策作为合规参照。争议集中在：将道德与安全底线交给现行法律与部门解释是否足够，会否允许通过私营数据采购、第三方承包商（如 Palantir）集成或改变部署形式来实现大规模监控与致命用途。事件背景还包括 Anthropic（主张更严格红线的 AI 公司）与 OpenAI 的谈判差异、产业与政府间的采购/投资关系，以及公众对公司治理与政治影响力的持续怀疑。",
+          "emoji": "😡",
+          "sarcastic_question": "只要说合法，是不是就能为任何暴行开绿灯?"
+        },
+        "classifications": {
+          "topics": [
+            1,
+            9,
+            10
+          ],
+          "facets": [
+            4
+          ],
+          "tags": [
+            "OpenAI",
+            "Department of War",
+            "Department of Defense",
+            "Anthropic",
+            "Sam Altman",
+            "autonomous weapons",
+            "mass surveillance",
+            "Trump administration"
+          ]
+        },
+        "classificationsUpdatedAt": 1772315463,
+        "aiSummary": {
+          "chinese_title": "OpenAI 与“Department of War”合约以“所有合法用途”为界，引发对大规模监控与致命应用的愤怒",
+          "discussion_overview": [
+            {
+              "category": "合同用语宽泛／“合法”成为主要限制",
+              "summary": "大量评论指出合约核心句子“The Department of War may use the AI System for all lawful purposes...”把约束退回到现行法律，合同仅以 Fourth Amendment、National Security Act、FISA、Executive Order 12333 等权威为合规参照，并将“不用于对美国产民的无约束监控”限定为仅在这些权威已明令禁止时才成立。评论者举例称，这意味着军方可以从私营公司采购大规模位置或金融交易等精细数据并用模型处理，对公民进行群体级别的识别与目标化，除非法律事先禁止。许多人把这种措辞称为“weasel language”，并警告“operational requirements”等条款与历史上的情报备忘录可能为越权提供法律外衣，依赖法律解释而非公司硬性红线被视为明显薄弱。不同评论反复提到，一旦行政权随意解释或修改规则，这类“只要合法” 的承诺将很快失去约束力。",
+              "supportid": [
+                "47200771",
+                "47201230",
+                "47200378",
+                "47200109",
+                "47201833",
+                "47200345"
+              ]
+            },
+            {
+              "category": "Anthropic 与 OpenAI 的谈判分歧与行业影响",
+              "summary": "评论普遍强调 Anthropic 要求的是更强的、嵌入式的安全/封锁机制：同步的人工介入与立即拒绝的权力（例如通过修改 system prompts、训练数据或人工人员介入关闭功能），而 OpenAI 接受更松的安排——把合规依赖于‘法律/运营要求’并保留事后终止合约或合约救济的路径。多条评论解释 Anthropic 的安全栈深度嵌入模型本身，技术上难以通过简单开关移除，因此政府要求定制、例外或去除 guardrails 并非小事。观察者担忧这类谈判设置了危险先例：政府可通过采购压力、承包商（如 Palantir）或政治影响力迫使厂商妥协，进而分裂国防技术生态并削弱长期的产业与军事创新能力。",
+              "supportid": [
+                "47200262",
+                "47200706",
+                "47200902",
+                "47200375",
+                "47200296",
+                "47200134"
+              ]
+            },
+            {
+              "category": "问责与法律解释：谁来决定“合法”？武器与监控的伦理风险",
+              "summary": "评论的核心焦点之一是问责问题——合同把决定权很大程度上交给执行机构或国防部，导致‘什么是合法’由实施方解释，评论者列举了行政分支曾以法律名义推进有争议军事行动的先例作为担忧依据。合同引用的 DoD Directive 3000.09 要求对自主与半自主系统进行严格的 verification/validation/testing，但该类指令为部门政策而非国会立法，容易被修改或绕开；而‘人类控制’条款被担忧可能退化为走形式的审批。鉴于近年的越界暗杀、海外军事行动与国内执法争议，多位评论认为即便有合规条款，部署后果仍可能构成战争罪或系统性侵犯公民权利，而依赖事后终止或司法救济无法及时防止伤害。",
+              "supportid": [
+                "47200449",
+                "47200547",
+                "47200534",
+                "47200379",
+                "47201620"
+              ]
+            },
+            {
+              "category": "员工与用户的反应：辞职、抵制与组织化尝试",
+              "summary": "许多评论呼吁用消费者与员工行动表达不满：取消订阅、转向 Anthropic 的 Claude 或本地推理（local inference），以及通过辞职或工会组织施压。有人认为群体性离职或工会罢工能真正改变公司决策，而反对者指出员工经济差异、期权与既得利益会削弱这类行动的可行性。几条评论提到 Anthropic 因坚持红线可能短期内成为人才招募优势，已有用户实际开始迁移以示惩戒；但也有意见认为单靠个人离场不足以遏制公司做法，需更制度化的监督与法律约束。",
+              "supportid": [
+                "47200627",
+                "47200437",
+                "47200472",
+                "47200691",
+                "47200612",
+                "47200674"
+              ]
+            },
+            {
+              "category": "部署形式与第三方绕行的技术与合同疑问",
+              "summary": "技术性疑问集中在 OpenAI 声称的‘cloud deployment surface 不允许驱动完全自主武器，完全自主需 edge deployment’这句是否成立与能否被规避。评论反问 edge 是否等同于离线/断开网络的本地部署，还是只是一种术语区分；现实中联网无人系统能否通过云端 API 实现致命动作让人怀疑云/边界说法的有效性。另有大量担忧指向下游承包商（例如 Palantir）把模型嵌入军用系统的可能性，以及 OpenAI 是否有能力或意愿对第三方集成与用途进行真正的技术与合约层面约束。",
+              "supportid": [
+                "47200822",
+                "47201762",
+                "47200296",
+                "47200902"
+              ]
+            },
+            {
+              "category": "对公司治理、历史与政治影响力的不信任",
+              "summary": "许多评论把这次合约放在 OpenAI 的历史轨迹里审视：从非营利到营利、曾经的开源与隐私承诺被一步步削弱，配合高层的政治捐款与对政府的靠近，使官方声明被广泛怀疑为公关操作。具体指控包括公告措辞与时机可疑、领导层不在文末署名、以及公司在面临金钱或政府压力时习惯性放松红线。评论者因此呼吁不仅要看公司声明，还要建立法律约束、外部监督与历史记录保存，以免未来因利益或政治交换而放纵监控与致命用途。",
+              "supportid": [
+                "47200071",
+                "47200134",
+                "47200408",
+                "47200492",
+                "47201230",
+                "47200771"
+              ]
+            }
+          ],
+          "terminologies": [
+            {
+              "term": "DoD Directive 3000.09",
+              "explanation": "美国国防部于 2023‑01‑25 发布的指令，针对自主与半自主武器系统规定部署前必须进行严格的 verification、validation 与 testing，并在法律或政策要求下保有人类控制（human control）的原则。"
+            },
+            {
+              "term": "Posse Comitatus Act",
+              "explanation": "美国法律，限制联邦军队直接参与国内民事执法，合同中以该法为界定军方在国内执法中可否使用系统的重要法律参照。"
+            },
+            {
+              "term": "FISA (Foreign Intelligence Surveillance Act of 1978)",
+              "explanation": "1978 年通过的美国情报监控法，规定外国情报监视许可与 FISA 法庭的司法程序，常被引用作为情报活动合规的法律框架。"
+            },
+            {
+              "term": "Executive Order 12333",
+              "explanation": "一项总统行政命令，规范美国情报机构（包括海外情报收集）的权限与程序，合同把它列为可用来判断情报活动合法性的权威之一。"
+            },
+            {
+              "term": "Fourth Amendment",
+              "explanation": "美国宪法第四修正案，保护公民免受无理搜查与扣押，合同在处理私有信息时将其作为隐私合规的基准。"
+            },
+            {
+              "term": "edge deployment",
+              "explanation": "边缘部署：指将模型推理放在接近传感器或执行器的本地硬件上（离线或就地运行），与云端 API 调用相对，讨论点在于是否能用于‘完全自主武器’。"
+            },
+            {
+              "term": "cloud deployment surface",
+              "explanation": "云部署面：指在云端托管并通过远程 API 提供模型服务的部署方式；合同声称云端部署不会支持完全自主致命系统，但评论者质疑该边界的实际效力与可被绕开的风险。"
+            },
+            {
+              "term": "operational requirements",
+              "explanation": "合同与军方常用术语，指基于作战或运营需要的功能/用途要求；在合约语境中被批评为可能成为解释与扩大合法用途的弹性口实。"
+            }
+          ],
+          "context": "此讨论源于 OpenAI 公布题为“Our Agreement with the Department of War”的合约说明，披露与美国国防部（DoD，在公告与评论中有时被讽称为“Department of War”）的合作条款。合约允许军方在“所有合法用途”（all lawful purposes）范围内使用模型，并引用 Fourth Amendment、National Security Act of 1947、FISA、Executive Order 12333 及 DoD Directive 3000.09 等法律与政策作为合规参照。争议集中在：将道德与安全底线交给现行法律与部门解释是否足够，会否允许通过私营数据采购、第三方承包商（如 Palantir）集成或改变部署形式来实现大规模监控与致命用途。事件背景还包括 Anthropic（主张更严格红线的 AI 公司）与 OpenAI 的谈判差异、产业与政府间的采购/投资关系，以及公众对公司治理与政治影响力的持续怀疑。",
+          "emoji": "😡",
+          "sarcastic_question": "只要说合法，是不是就能为任何暴行开绿灯?"
+        }
+      }
+    },
+    {
+      "id": 47200904,
+      "by": "ksec",
+      "title": "The Windows 95 User Interface: A Case Study in Usability Engineering",
+      "url": "https://dl.acm.org/doi/fullHtml/10.1145/238386.238611",
+      "score": 252,
+      "detailUpdatedAt": 1772354641,
+      "createdAt": 1772319623,
+      "aiSummaryUpdatedAt": 1772355784,
+      "aisummary": {
+        "chinese_title": "Windows 95 界面案例：怀旧、设计权衡与现代 UI 走样",
+        "emoji": "🖥️",
+        "sarcastic_question": "怀念 Windows 95？真想把今天的糟糕设计都一并带走吗？"
+      },
+      "classifications": {
+        "topics": [
+          11,
+          6
+        ],
+        "facets": [
+          6
+        ],
+        "tags": [
+          "Windows 95",
+          "Usability engineering",
+          "User interface",
+          "Microsoft",
+          "Flat design",
+          "Windows XP",
+          "macOS",
+          "ACM"
+        ]
+      },
+      "classificationsUpdatedAt": 1772322961,
+      "aiSummary": {
+        "chinese_title": "Windows 95 界面案例：怀旧、设计权衡与现代 UI 走样",
+        "emoji": "🖥️",
+        "sarcastic_question": "怀念 Windows 95？真想把今天的糟糕设计都一并带走吗？"
+      },
+      "detail": {
+        "id": 47200904,
+        "by": "ksec",
+        "title": "The Windows 95 User Interface: A Case Study in Usability Engineering",
+        "url": "https://dl.acm.org/doi/fullHtml/10.1145/238386.238611",
+        "score": 145,
+        "detailUpdatedAt": 1772333019,
+        "createdAt": 1772319623,
+        "aiSummaryUpdatedAt": 1772334400,
+        "aisummary": {
+          "chinese_title": "怀旧与争议：Windows 95 界面、Ribbon 与现代扁平化设计的得失",
+          "discussion_overview": [
+            {
+              "category": "怀旧与认可：90 年代微软界面之优点",
+              "summary": "大量评论表达对 1995–2000 年微软桌面生态的怀念，列举 Windows 95/NT/98/2000、Office 97、Visual Basic 6、Internet Explorer 5 等作为那段时间“既美观又实用”的代表。评论中强调 Start 菜单与任务栏带来的工作流锚定作用，以及当时小而专注的 UI 团队和严格测试（文中提到团队约 12 人、另有 12 名开发实现 UI）如何带来一致的体验。有人指出尽管那时系统也会崩溃（与 Mac System 7 相比并无明显优越），但整体功能发现性与效率令用户满意，Windows 2000 被多次称为“稳定且精致”的版本。",
+              "supportid": [
+                "47201788",
+                "47202330",
+                "47202602",
+                "47201900",
+                "47201499"
+              ]
+            },
+            {
+              "category": "Ribbon 争议：发现性（初学者） vs 效率（专家）",
+              "summary": "关于 Office 的 Ribbon（Office 2007 引入）评论分裂：有人认为 Ribbon 对初学者友好，有助于发现功能并保留旧快捷方式的兼容性；但有大量实测性批评指出 Ribbon 更像“教程模式”，增加了切换分组的点击次数并弱化了键盘加速器提示。具体抱怨包括占用大量垂直屏幕空间、某些实现仅模仿外观而丧失上下文激活、以及引入后 Office 性能下降。也有建设性意见提出折中方案：把 Ribbon 用作“Basic”布局并提供可切换到为专家优化的“Full”工作区或可折叠行为。",
+              "supportid": [
+                "47202075",
+                "47202312",
+                "47202540",
+                "47202844",
+                "47202871",
+                "47202375"
+              ]
+            },
+            {
+              "category": "平台设计退化指控：从 XP Luna 到 Apple 的 Liquid Glass",
+              "summary": "多条评论把微软与苹果近年的界面决策视为审美与可用性的倒退，举例包括 Windows XP 默认的 Fisher‑Price 风格 Luna 主题、Office 2007 的 Ribbon，以及 Apple 最近被诟病的 \"Liquid Glass\" / Tahoe 风格。批评具体指向把美学凌驾于人体工程学之上（例如过度圆角、透明和占用空间），以及由“包装设计师”主导 UI 导致的糟糕变化。评论者把这些改动与用户体验恶化联系起来，认为平台偏好迎合设计潮流而不是维持一致性与效率。",
+              "supportid": [
+                "47201788",
+                "47201474",
+                "47201650",
+                "47201572",
+                "47202454"
+              ]
+            },
+            {
+              "category": "扁平化与快捷编辑的副作用：误操作与不可测的改动",
+              "summary": "评论指出扁平化设计和把高级自定义放在显眼快捷交互中，会造成误操作与用户困惑。具体例子包括 Office 工具栏过于容易通过拖拽被意外修改、iPhone 锁屏长按进入编辑模式导致用户“屁股编辑”而丢失壁纸、以及锁屏上无需解锁即可触发的手电筒/相机按钮造成的误触。有人补充说扁平化降低了视觉线索，许多独立开发者选择扁平是因为实现成本低，但这并不等于可用性优越；另有评论区分了“flat design”与 UI 密度的不同问题。",
+              "supportid": [
+                "47202567",
+                "47201511",
+                "47201575",
+                "47202475",
+                "47203029"
+              ]
+            },
+            {
+              "category": "历史与技术约束造就统一外观：GDI、Win32 控件与 DirectDraw 的角色",
+              "summary": "长篇评论回顾了早期 Windows 一致视觉风格的技术根源：当时受限的 VRAM 与 GDI（Windows 的 2D 绘图 API）以及 Win32 common controls（COMCTL32）被高度优化以最小化重绘，从而把第三方程序“绑”在一套可复用控件上。在 DirectDraw/WinG 出现之前，应用要么做成 DOS 程序、自行实现控件库，或使用系统控件，这三种选择促成了大量软件“看起来都像 Windows”的局面。该观点也提到外来影响（如 NeXTSTEP、Motif 的视觉元素）与后续图形 API 对 UI 自由度的解放如何改变了设计谱系。",
+              "supportid": [
+                "47202330",
+                "47202920",
+                "47201922",
+                "47201960"
+              ]
+            },
+            {
+              "category": "设计决策的权力、可测量性与专家优先的主张",
+              "summary": "若干评论从更高层次批评现代 UX 流程：设计师更不易接受反馈且偏好可见的审美改动，平台频繁更换界面导致用户无法学习并产生“习得性无助”。同时有人指出可用性比功能缺陷更难以客观量化，导致团队难以以数据校正设计方向。另有观点主张优秀界面应更多为专家而非初学者设计，倾向键盘优先与最小化视觉干扰，并引用航空座舱那类高度工程化、依靠程序与训练保障的交互作为可借鉴的严谨范式。",
+              "supportid": [
+                "47201511",
+                "47202011",
+                "47202175",
+                "47202356",
+                "47202118"
+              ]
+            }
+          ],
+          "terminologies": [
+            {
+              "term": "Ribbon",
+              "explanation": "Microsoft 在 Office 2007 引入的界面范式，将命令按用户场景分成可见选项卡以强调功能发现，但被批评为占用垂直空间、增加切换点击并弱化键盘加速器的可见提示。"
+            },
+            {
+              "term": "Win32 common controls / COMCTL32",
+              "explanation": "Windows 3.x–98 时代的内建控件库，和 GDI 紧密耦合，因系统绘制与性能约束促成第三方程序使用同一套控件，从而形成一致的视觉语言。"
+            },
+            {
+              "term": "GDI (Graphics Device Interface)",
+              "explanation": "Windows 的 2D 绘图 API，90 年代被高度优化以最小化屏幕重绘量；在 GDI 主导下应用的绘制策略与性能约束直接影响当时 UI 的实现方式。"
+            },
+            {
+              "term": "DirectDraw / WinG",
+              "explanation": "WinG 是早期帮助将 DOS/游戏更容易移植到 Windows 的图形库，DirectDraw 则是更早期允许应用更直接控制屏幕缓冲与合成的 API，这些技术改变了应用能否自由绘制复杂界面的能力。"
+            },
+            {
+              "term": "Flat design / Skeuomorphism",
+              "explanation": "两种相对的视觉风格：flat design（扁平化）以极简、去装饰为主，易于实现但可能丧失视觉线索；skeuomorphism（拟物化）使用现实世界暗示来增强可感知性，二者在可用性与审美上长期争论。"
+            }
+          ],
+          "context": "这场讨论由一篇回顾性文章《The Windows 95 User Interface: A Case Study in Usability Engineering》引发，评论从技术史、界面设计哲学与当代平台决策三条线展开。Windows 95 在可用性史上被认为以 Start 菜单和任务栏奠定了桌面交互范式；当时的实现受限于 GDI、Win32 common controls（COMCTL32）与有限显存，这些约束反过来促成一致的视觉语言。后来出现的技术（如 WinG/DirectDraw）与设计潮流（如 Ribbon、扁平化、Aqua/Liquid Glass/Tahoe）改变了界面自由度与审美取向，评论者围绕“发现性 vs 专家效率”“审美与人体工程学的权衡”“设计决策的可测量性”展开辩论。",
+          "emoji": "🤨",
+          "sarcastic_question": "真怀念 Windows 95 界面吗？蓝屏也算美好回忆？"
+        },
+        "classifications": {
+          "topics": [
+            11,
+            6
+          ],
+          "facets": [
+            6
+          ],
+          "tags": [
+            "Windows 95",
+            "Usability engineering",
+            "User interface",
+            "Microsoft",
+            "Flat design",
+            "Windows XP",
+            "macOS",
+            "ACM"
+          ]
+        },
+        "classificationsUpdatedAt": 1772322961,
+        "aiSummary": {
+          "chinese_title": "怀旧与争议：Windows 95 界面、Ribbon 与现代扁平化设计的得失",
+          "discussion_overview": [
+            {
+              "category": "怀旧与认可：90 年代微软界面之优点",
+              "summary": "大量评论表达对 1995–2000 年微软桌面生态的怀念，列举 Windows 95/NT/98/2000、Office 97、Visual Basic 6、Internet Explorer 5 等作为那段时间“既美观又实用”的代表。评论中强调 Start 菜单与任务栏带来的工作流锚定作用，以及当时小而专注的 UI 团队和严格测试（文中提到团队约 12 人、另有 12 名开发实现 UI）如何带来一致的体验。有人指出尽管那时系统也会崩溃（与 Mac System 7 相比并无明显优越），但整体功能发现性与效率令用户满意，Windows 2000 被多次称为“稳定且精致”的版本。",
+              "supportid": [
+                "47201788",
+                "47202330",
+                "47202602",
+                "47201900",
+                "47201499"
+              ]
+            },
+            {
+              "category": "Ribbon 争议：发现性（初学者） vs 效率（专家）",
+              "summary": "关于 Office 的 Ribbon（Office 2007 引入）评论分裂：有人认为 Ribbon 对初学者友好，有助于发现功能并保留旧快捷方式的兼容性；但有大量实测性批评指出 Ribbon 更像“教程模式”，增加了切换分组的点击次数并弱化了键盘加速器提示。具体抱怨包括占用大量垂直屏幕空间、某些实现仅模仿外观而丧失上下文激活、以及引入后 Office 性能下降。也有建设性意见提出折中方案：把 Ribbon 用作“Basic”布局并提供可切换到为专家优化的“Full”工作区或可折叠行为。",
+              "supportid": [
+                "47202075",
+                "47202312",
+                "47202540",
+                "47202844",
+                "47202871",
+                "47202375"
+              ]
+            },
+            {
+              "category": "平台设计退化指控：从 XP Luna 到 Apple 的 Liquid Glass",
+              "summary": "多条评论把微软与苹果近年的界面决策视为审美与可用性的倒退，举例包括 Windows XP 默认的 Fisher‑Price 风格 Luna 主题、Office 2007 的 Ribbon，以及 Apple 最近被诟病的 \"Liquid Glass\" / Tahoe 风格。批评具体指向把美学凌驾于人体工程学之上（例如过度圆角、透明和占用空间），以及由“包装设计师”主导 UI 导致的糟糕变化。评论者把这些改动与用户体验恶化联系起来，认为平台偏好迎合设计潮流而不是维持一致性与效率。",
+              "supportid": [
+                "47201788",
+                "47201474",
+                "47201650",
+                "47201572",
+                "47202454"
+              ]
+            },
+            {
+              "category": "扁平化与快捷编辑的副作用：误操作与不可测的改动",
+              "summary": "评论指出扁平化设计和把高级自定义放在显眼快捷交互中，会造成误操作与用户困惑。具体例子包括 Office 工具栏过于容易通过拖拽被意外修改、iPhone 锁屏长按进入编辑模式导致用户“屁股编辑”而丢失壁纸、以及锁屏上无需解锁即可触发的手电筒/相机按钮造成的误触。有人补充说扁平化降低了视觉线索，许多独立开发者选择扁平是因为实现成本低，但这并不等于可用性优越；另有评论区分了“flat design”与 UI 密度的不同问题。",
+              "supportid": [
+                "47202567",
+                "47201511",
+                "47201575",
+                "47202475",
+                "47203029"
+              ]
+            },
+            {
+              "category": "历史与技术约束造就统一外观：GDI、Win32 控件与 DirectDraw 的角色",
+              "summary": "长篇评论回顾了早期 Windows 一致视觉风格的技术根源：当时受限的 VRAM 与 GDI（Windows 的 2D 绘图 API）以及 Win32 common controls（COMCTL32）被高度优化以最小化重绘，从而把第三方程序“绑”在一套可复用控件上。在 DirectDraw/WinG 出现之前，应用要么做成 DOS 程序、自行实现控件库，或使用系统控件，这三种选择促成了大量软件“看起来都像 Windows”的局面。该观点也提到外来影响（如 NeXTSTEP、Motif 的视觉元素）与后续图形 API 对 UI 自由度的解放如何改变了设计谱系。",
+              "supportid": [
+                "47202330",
+                "47202920",
+                "47201922",
+                "47201960"
+              ]
+            },
+            {
+              "category": "设计决策的权力、可测量性与专家优先的主张",
+              "summary": "若干评论从更高层次批评现代 UX 流程：设计师更不易接受反馈且偏好可见的审美改动，平台频繁更换界面导致用户无法学习并产生“习得性无助”。同时有人指出可用性比功能缺陷更难以客观量化，导致团队难以以数据校正设计方向。另有观点主张优秀界面应更多为专家而非初学者设计，倾向键盘优先与最小化视觉干扰，并引用航空座舱那类高度工程化、依靠程序与训练保障的交互作为可借鉴的严谨范式。",
+              "supportid": [
+                "47201511",
+                "47202011",
+                "47202175",
+                "47202356",
+                "47202118"
+              ]
+            }
+          ],
+          "terminologies": [
+            {
+              "term": "Ribbon",
+              "explanation": "Microsoft 在 Office 2007 引入的界面范式，将命令按用户场景分成可见选项卡以强调功能发现，但被批评为占用垂直空间、增加切换点击并弱化键盘加速器的可见提示。"
+            },
+            {
+              "term": "Win32 common controls / COMCTL32",
+              "explanation": "Windows 3.x–98 时代的内建控件库，和 GDI 紧密耦合，因系统绘制与性能约束促成第三方程序使用同一套控件，从而形成一致的视觉语言。"
+            },
+            {
+              "term": "GDI (Graphics Device Interface)",
+              "explanation": "Windows 的 2D 绘图 API，90 年代被高度优化以最小化屏幕重绘量；在 GDI 主导下应用的绘制策略与性能约束直接影响当时 UI 的实现方式。"
+            },
+            {
+              "term": "DirectDraw / WinG",
+              "explanation": "WinG 是早期帮助将 DOS/游戏更容易移植到 Windows 的图形库，DirectDraw 则是更早期允许应用更直接控制屏幕缓冲与合成的 API，这些技术改变了应用能否自由绘制复杂界面的能力。"
+            },
+            {
+              "term": "Flat design / Skeuomorphism",
+              "explanation": "两种相对的视觉风格：flat design（扁平化）以极简、去装饰为主，易于实现但可能丧失视觉线索；skeuomorphism（拟物化）使用现实世界暗示来增强可感知性，二者在可用性与审美上长期争论。"
+            }
+          ],
+          "context": "这场讨论由一篇回顾性文章《The Windows 95 User Interface: A Case Study in Usability Engineering》引发，评论从技术史、界面设计哲学与当代平台决策三条线展开。Windows 95 在可用性史上被认为以 Start 菜单和任务栏奠定了桌面交互范式；当时的实现受限于 GDI、Win32 common controls（COMCTL32）与有限显存，这些约束反过来促成一致的视觉语言。后来出现的技术（如 WinG/DirectDraw）与设计潮流（如 Ribbon、扁平化、Aqua/Liquid Glass/Tahoe）改变了界面自由度与审美取向，评论者围绕“发现性 vs 专家效率”“审美与人体工程学的权衡”“设计决策的可测量性”展开辩论。",
+          "emoji": "🤨",
+          "sarcastic_question": "真怀念 Windows 95 界面吗？蓝屏也算美好回忆？"
+        }
+      }
+    },
+    {
+      "id": 47199781,
+      "by": "lostmsu",
+      "title": "Qwen3.5 122B and 35B models offer Sonnet 4.5 performance on local computers",
+      "url": "https://venturebeat.com/technology/alibabas-new-open-source-qwen3-5-medium-models-offer-sonnet-4-5-performance",
+      "score": 340,
+      "detailUpdatedAt": 1772354645,
+      "createdAt": 1772320816,
+      "aiSummaryUpdatedAt": 1772355468,
+      "aisummary": {
+        "chinese_title": "Qwen3.5 122B/35B 称本地达 Sonnet 4.5，社区质疑量化与硬件差异",
+        "emoji": "🤔",
+        "sarcastic_question": "只靠本地量化跑分就敢说超越Sonnet？"
+      },
+      "classifications": {
+        "topics": [
+          1,
+          6,
+          7
+        ],
+        "facets": [
+          4,
+          10
+        ],
+        "tags": [
+          "Qwen3.5",
+          "Alibaba",
+          "Sonnet 4.5",
+          "Opus 4.6",
+          "Gemini",
+          "quantization",
+          "llama.cpp",
+          "GGUF",
+          "unsloth",
+          "MoE"
+        ]
+      },
+      "classificationsUpdatedAt": 1772321740,
+      "aiSummary": {
+        "chinese_title": "Qwen3.5 122B/35B 称本地达 Sonnet 4.5，社区质疑量化与硬件差异",
+        "emoji": "🤔",
+        "sarcastic_question": "只靠本地量化跑分就敢说超越Sonnet？"
+      },
+      "detail": {
+        "id": 47199781,
+        "by": "lostmsu",
+        "title": "Qwen3.5 122B and 35B models offer Sonnet 4.5 performance on local computers",
+        "url": "https://venturebeat.com/technology/alibabas-new-open-source-qwen3-5-medium-models-offer-sonnet-4-5-performance",
+        "score": 232,
+        "detailUpdatedAt": 1772333023,
+        "createdAt": 1772320816,
+        "aiSummaryUpdatedAt": 1772333814,
+        "aisummary": {
+          "chinese_title": "Qwen3.5（122B/35B）宣称本地可达 Sonnet 4.5 水平，社区质疑基准优化、量化与硬件瓶颈",
+          "discussion_overview": [
+            {
+              "category": "基准与优化（基准被当作目标）",
+              "summary": "评论普遍指出公开基准容易被“当成目标”来优化（Goodhart），因此基准分数常被高估且不能代表模型在开放式、真实世界任务中的稳健性。有人具体描述厂商/产品团队有声誉与商业动机，会将基准题目或相似问题纳入训练集或微调数据，导致基准成绩被人为抬高。还有人建议使用可扩展或动态的基准（例如社区提到的 apex‑testing）或把旧模型放到新基准上检验以避免泄露/过拟合干扰。总体结论是：看到“接近 Sonnet”的 benchmark 不应直接等同于通用能力的等价。",
+              "supportid": [
+                "47202047",
+                "47202229",
+                "47202643",
+                "47202094",
+                "47202816"
+              ]
+            },
+            {
+              "category": "量化与精度权衡（Q4/Q5/BF16、MXFP4 等）",
+              "summary": "大量回复集中在量化对内存占用与答题质量的权衡：4‑bit（例如 Q4_K_M、dynamic 4‑bit）在很多实测里被称为“甜点”，在多数场景下接近无损，但不同量化方案会在少量精度上产生显著差异。评论里列举了技术细节：MXFP4（4‑bit 浮点）在新显卡训练/推理中出现，122B 的 BF16 GGUF 版本体积可达 ~224GB，现实可跑的多是 Q4 系列以节省 VRAM。社区推荐 Unsloth 的动态量化作为本地部署的首选，但也警告 3‑bit 或极端量化在某些任务上会明显弱化表现，同时要注意推理参数（temperature、min_p、presence/repeat penalty）会放大量化带来的不同。",
+              "supportid": [
+                "47202822",
+                "47202953",
+                "47201008",
+                "47200766",
+                "47201013",
+                "47202631"
+              ]
+            },
+            {
+              "category": "本地硬件与热设计的实际限制",
+              "summary": "许多实测差异可归因于硬件与热设计：云端前沿模型通常跑在 H200/HBM3 级别的集群上，而笔记本（尤其轻薄 MBP）在长时高负载下会被热限流并产生极大噪音，导致响应变慢或不稳定。评论给出具体硬件建议与实测数据：入门可用双 3060 12GB，追求速度/上下文需 3090/4090/5090 或 96GB 的 RTX 6000 Pro Blackwell，A5000 24GB 可在某些量化下以可用速率运行 35B 模型。有人也提到通过更好散热、桌面/工作站替代笔记本、或把笔电放大风扇前能显著提升持续推理性能，但总体上本地算力与云端仍有本质差距。",
+              "supportid": [
+                "47201333",
+                "47201451",
+                "47202504",
+                "47200669",
+                "47200765",
+                "47200911",
+                "47200701"
+              ]
+            },
+            {
+              "category": "任务匹配与实际可用性：窄域优秀、开放式任务仍弱",
+              "summary": "多数评论认为开源本地模型在“受限、结构化”的任务上表现很好，例如 prompt 扩写、情感分析、代码重构、图像自动打标（Qwen3‑VL）或个人翻译（Gemma3），还有用户在短时间内用 35B 写出 polars 的 PCA 实现。相对地，在开放式研究问题、复杂 agentic 编排或长上下文的深度推理上，用户普遍觉得它们还难以达到 Sonnet/Opus 的一致性。具体案例显示：27B dense 在本地被视作“最聪明的本地尺寸”，而某些 35B MoE 变体速度快但稳定性差；另有个别开源模型（如 StepFun、Kimi）在特定代码库或 UX 体验上受到好评，说明“最适合的模型”很依赖场景。",
+              "supportid": [
+                "47202402",
+                "47202548",
+                "47201777",
+                "47202724",
+                "47200964",
+                "47202119",
+                "47201716"
+              ]
+            },
+            {
+              "category": "实现/工具链与 bug 导致的体验差异（Ollama、系统 prompt 等）",
+              "summary": "很多“模型差”反馈其实来自部署工具、默认推理实现或参数设置：Ollama 被多次指出对 Qwen3.5 存在参数/实现缺陷，会触发无限循环或持续“planning”行为，导致首次体验极差。评论提供了可操作的修复路径：换用 diferente 前端（llama.cpp、mlx）、使用 Unsloth quants、调整 temperature/min_p/presence/repeat penalty、或写长系统 prompt 并分解任务以避免反复自检。也有人贴出成功命令行参数与实测吞吐（例如 prompt 处理 1K tokens/s 或生成 24 tokens/s），说明正确的工具链和调参能显著改善体验。",
+              "supportid": [
+                "47202082",
+                "47201247",
+                "47201388",
+                "47201565",
+                "47202730",
+                "47202631",
+                "47202290"
+              ]
+            },
+            {
+              "category": "来源、审查与合规担忧",
+              "summary": "部分评论关注模型权重来源与内容偏向问题：有观点认为部分中国开源模型在去激进化或“被阉割”程度上比一些西方服务更宽松，但也有研究与文章指出 Qwen 在涉中英文题材上存在亲中倾向或审查模式。对于处理敏感金融/法律数据的客户，权重来源与托管方的地理位置会影响合规决策；一些人建议在本地运行或使用美国托管服务以降低风险。另一方面也有声音认为权重终究是数值集合，最终应以输出质量与可审计性为准，而不是仅凭来源彻底否定。",
+              "supportid": [
+                "47200655",
+                "47200838",
+                "47200205",
+                "47201677"
+              ]
+            }
+          ],
+          "terminologies": [
+            {
+              "term": "量化 (quantization / Q4_K_M / Q4_K_S / Q5 / Q6 / BF16 / MXFP4)",
+              "explanation": "把模型权重或激活从高精度浮点压缩到更低位宽以降低显存占用和加速推理。不同方案在精度与内存占用间折中：4‑bit（Q4）常被视为性价比选择，BF16/FP16 精度更高但体积大；MXFP4 是一种 4‑bit 浮点格式，近期在训练/推理讨论中出现。"
+            },
+            {
+              "term": "MoE (Mixture of Experts)",
+              "explanation": "一种包含大量“专家”子网络的架构，但每次推理只激活部分专家以节省计算量。评论中常见表示法如 35B‑A3B 或 122B‑A10B，其中 A3B/A10B 指在一次推理中被激活的有效参数量。"
+            },
+            {
+              "term": "Unsloth 动态量化 (Unsloth Dynamic quants)",
+              "explanation": "社区维护的一套预量化权重与量化方法，专注于为 Qwen3.5 等模型提供稳定高效的 4‑bit 变体，许多用户把它作为本地部署的首选量化版本。"
+            },
+            {
+              "term": "GGUF",
+              "explanation": "一种常见的模型权重/元数据封装格式（在 Hugging Face 与本地工具链中广泛使用），用于存放量化或非量化的模型文件；大模型的 BF16 GGUF 文件体积可达数百 GB。"
+            },
+            {
+              "term": "Ollama",
+              "explanation": "一个本地模型运行与管理工具，提供 OpenAI‑compatible API，但社区报告在与 Qwen3.5 配合时存在参数或实现缺陷，会引发无限循环或性能异常。"
+            },
+            {
+              "term": "llama.cpp / MLX",
+              "explanation": "llama.cpp 是广泛使用的本地推理 C/C++ 实现，支持 Vulkan/HIP 等后端；MLX（或 mlx‑lm）指面向苹果硬件优化的实现/变体，在 Mac 上通常能得到更好的 tokens/sec 和兼容性。"
+            }
+          ],
+          "context": "原始报道宣称 Qwen3.5（122B 与 35B）可在本地提供接近 Claude Sonnet 4.5 的表现，引发 HN 上大量实测与争论。评论者把焦点放在基准是否被当作目标（导致过拟合）、量化方案（Q4_K_M、BF16、MXFP4、Unsloth 动态量化）与模型架构（MoE vs dense）对可用性的影响，以及本地硬件与推理实现（Ollama、llama.cpp、MLX）如何放大差异。实测中有人在狭窄任务或使用特定量化时获得令人惊喜的结果，但在开放式研究问题、agentic 编程或长上下文任务上仍普遍感到不稳。讨论同时穿插具体硬件建议（从两块 3060 到 RTX 6000 Pro Blackwell / RTX 5090）和合规/审查方面的担忧，以帮助读者理解为何“同一模型”在不同环境下体验差异巨大。",
+          "emoji": "🤨",
+          "sarcastic_question": "你真的相信本地量化可媲美 Sonnet 吗？"
+        },
+        "classifications": {
+          "topics": [
+            1,
+            6,
+            7
+          ],
+          "facets": [
+            4,
+            10
+          ],
+          "tags": [
+            "Qwen3.5",
+            "Alibaba",
+            "Sonnet 4.5",
+            "Opus 4.6",
+            "Gemini",
+            "quantization",
+            "llama.cpp",
+            "GGUF",
+            "unsloth",
+            "MoE"
+          ]
+        },
+        "classificationsUpdatedAt": 1772321740,
+        "aiSummary": {
+          "chinese_title": "Qwen3.5（122B/35B）宣称本地可达 Sonnet 4.5 水平，社区质疑基准优化、量化与硬件瓶颈",
+          "discussion_overview": [
+            {
+              "category": "基准与优化（基准被当作目标）",
+              "summary": "评论普遍指出公开基准容易被“当成目标”来优化（Goodhart），因此基准分数常被高估且不能代表模型在开放式、真实世界任务中的稳健性。有人具体描述厂商/产品团队有声誉与商业动机，会将基准题目或相似问题纳入训练集或微调数据，导致基准成绩被人为抬高。还有人建议使用可扩展或动态的基准（例如社区提到的 apex‑testing）或把旧模型放到新基准上检验以避免泄露/过拟合干扰。总体结论是：看到“接近 Sonnet”的 benchmark 不应直接等同于通用能力的等价。",
+              "supportid": [
+                "47202047",
+                "47202229",
+                "47202643",
+                "47202094",
+                "47202816"
+              ]
+            },
+            {
+              "category": "量化与精度权衡（Q4/Q5/BF16、MXFP4 等）",
+              "summary": "大量回复集中在量化对内存占用与答题质量的权衡：4‑bit（例如 Q4_K_M、dynamic 4‑bit）在很多实测里被称为“甜点”，在多数场景下接近无损，但不同量化方案会在少量精度上产生显著差异。评论里列举了技术细节：MXFP4（4‑bit 浮点）在新显卡训练/推理中出现，122B 的 BF16 GGUF 版本体积可达 ~224GB，现实可跑的多是 Q4 系列以节省 VRAM。社区推荐 Unsloth 的动态量化作为本地部署的首选，但也警告 3‑bit 或极端量化在某些任务上会明显弱化表现，同时要注意推理参数（temperature、min_p、presence/repeat penalty）会放大量化带来的不同。",
+              "supportid": [
+                "47202822",
+                "47202953",
+                "47201008",
+                "47200766",
+                "47201013",
+                "47202631"
+              ]
+            },
+            {
+              "category": "本地硬件与热设计的实际限制",
+              "summary": "许多实测差异可归因于硬件与热设计：云端前沿模型通常跑在 H200/HBM3 级别的集群上，而笔记本（尤其轻薄 MBP）在长时高负载下会被热限流并产生极大噪音，导致响应变慢或不稳定。评论给出具体硬件建议与实测数据：入门可用双 3060 12GB，追求速度/上下文需 3090/4090/5090 或 96GB 的 RTX 6000 Pro Blackwell，A5000 24GB 可在某些量化下以可用速率运行 35B 模型。有人也提到通过更好散热、桌面/工作站替代笔记本、或把笔电放大风扇前能显著提升持续推理性能，但总体上本地算力与云端仍有本质差距。",
+              "supportid": [
+                "47201333",
+                "47201451",
+                "47202504",
+                "47200669",
+                "47200765",
+                "47200911",
+                "47200701"
+              ]
+            },
+            {
+              "category": "任务匹配与实际可用性：窄域优秀、开放式任务仍弱",
+              "summary": "多数评论认为开源本地模型在“受限、结构化”的任务上表现很好，例如 prompt 扩写、情感分析、代码重构、图像自动打标（Qwen3‑VL）或个人翻译（Gemma3），还有用户在短时间内用 35B 写出 polars 的 PCA 实现。相对地，在开放式研究问题、复杂 agentic 编排或长上下文的深度推理上，用户普遍觉得它们还难以达到 Sonnet/Opus 的一致性。具体案例显示：27B dense 在本地被视作“最聪明的本地尺寸”，而某些 35B MoE 变体速度快但稳定性差；另有个别开源模型（如 StepFun、Kimi）在特定代码库或 UX 体验上受到好评，说明“最适合的模型”很依赖场景。",
+              "supportid": [
+                "47202402",
+                "47202548",
+                "47201777",
+                "47202724",
+                "47200964",
+                "47202119",
+                "47201716"
+              ]
+            },
+            {
+              "category": "实现/工具链与 bug 导致的体验差异（Ollama、系统 prompt 等）",
+              "summary": "很多“模型差”反馈其实来自部署工具、默认推理实现或参数设置：Ollama 被多次指出对 Qwen3.5 存在参数/实现缺陷，会触发无限循环或持续“planning”行为，导致首次体验极差。评论提供了可操作的修复路径：换用 diferente 前端（llama.cpp、mlx）、使用 Unsloth quants、调整 temperature/min_p/presence/repeat penalty、或写长系统 prompt 并分解任务以避免反复自检。也有人贴出成功命令行参数与实测吞吐（例如 prompt 处理 1K tokens/s 或生成 24 tokens/s），说明正确的工具链和调参能显著改善体验。",
+              "supportid": [
+                "47202082",
+                "47201247",
+                "47201388",
+                "47201565",
+                "47202730",
+                "47202631",
+                "47202290"
+              ]
+            },
+            {
+              "category": "来源、审查与合规担忧",
+              "summary": "部分评论关注模型权重来源与内容偏向问题：有观点认为部分中国开源模型在去激进化或“被阉割”程度上比一些西方服务更宽松，但也有研究与文章指出 Qwen 在涉中英文题材上存在亲中倾向或审查模式。对于处理敏感金融/法律数据的客户，权重来源与托管方的地理位置会影响合规决策；一些人建议在本地运行或使用美国托管服务以降低风险。另一方面也有声音认为权重终究是数值集合，最终应以输出质量与可审计性为准，而不是仅凭来源彻底否定。",
+              "supportid": [
+                "47200655",
+                "47200838",
+                "47200205",
+                "47201677"
+              ]
+            }
+          ],
+          "terminologies": [
+            {
+              "term": "量化 (quantization / Q4_K_M / Q4_K_S / Q5 / Q6 / BF16 / MXFP4)",
+              "explanation": "把模型权重或激活从高精度浮点压缩到更低位宽以降低显存占用和加速推理。不同方案在精度与内存占用间折中：4‑bit（Q4）常被视为性价比选择，BF16/FP16 精度更高但体积大；MXFP4 是一种 4‑bit 浮点格式，近期在训练/推理讨论中出现。"
+            },
+            {
+              "term": "MoE (Mixture of Experts)",
+              "explanation": "一种包含大量“专家”子网络的架构，但每次推理只激活部分专家以节省计算量。评论中常见表示法如 35B‑A3B 或 122B‑A10B，其中 A3B/A10B 指在一次推理中被激活的有效参数量。"
+            },
+            {
+              "term": "Unsloth 动态量化 (Unsloth Dynamic quants)",
+              "explanation": "社区维护的一套预量化权重与量化方法，专注于为 Qwen3.5 等模型提供稳定高效的 4‑bit 变体，许多用户把它作为本地部署的首选量化版本。"
+            },
+            {
+              "term": "GGUF",
+              "explanation": "一种常见的模型权重/元数据封装格式（在 Hugging Face 与本地工具链中广泛使用），用于存放量化或非量化的模型文件；大模型的 BF16 GGUF 文件体积可达数百 GB。"
+            },
+            {
+              "term": "Ollama",
+              "explanation": "一个本地模型运行与管理工具，提供 OpenAI‑compatible API，但社区报告在与 Qwen3.5 配合时存在参数或实现缺陷，会引发无限循环或性能异常。"
+            },
+            {
+              "term": "llama.cpp / MLX",
+              "explanation": "llama.cpp 是广泛使用的本地推理 C/C++ 实现，支持 Vulkan/HIP 等后端；MLX（或 mlx‑lm）指面向苹果硬件优化的实现/变体，在 Mac 上通常能得到更好的 tokens/sec 和兼容性。"
+            }
+          ],
+          "context": "原始报道宣称 Qwen3.5（122B 与 35B）可在本地提供接近 Claude Sonnet 4.5 的表现，引发 HN 上大量实测与争论。评论者把焦点放在基准是否被当作目标（导致过拟合）、量化方案（Q4_K_M、BF16、MXFP4、Unsloth 动态量化）与模型架构（MoE vs dense）对可用性的影响，以及本地硬件与推理实现（Ollama、llama.cpp、MLX）如何放大差异。实测中有人在狭窄任务或使用特定量化时获得令人惊喜的结果，但在开放式研究问题、agentic 编程或长上下文任务上仍普遍感到不稳。讨论同时穿插具体硬件建议（从两块 3060 到 RTX 6000 Pro Blackwell / RTX 5090）和合规/审查方面的担忧，以帮助读者理解为何“同一模型”在不同环境下体验差异巨大。",
+          "emoji": "🤨",
+          "sarcastic_question": "你真的相信本地量化可媲美 Sonnet 吗？"
+        }
+      }
+    },
     {
       "id": 47154637,
       "by": "rbanffy",
@@ -1940,558 +2786,6 @@
       }
     },
     {
-      "id": 47200904,
-      "by": "ksec",
-      "title": "The Windows 95 User Interface: A Case Study in Usability Engineering",
-      "url": "https://dl.acm.org/doi/fullHtml/10.1145/238386.238611",
-      "score": 145,
-      "detailUpdatedAt": 1772333019,
-      "createdAt": 1772319623,
-      "aiSummaryUpdatedAt": 1772334400,
-      "aisummary": {
-        "chinese_title": "怀旧与争议：Windows 95 界面、Ribbon 与现代扁平化设计的得失",
-        "emoji": "🤨",
-        "sarcastic_question": "真怀念 Windows 95 界面吗？蓝屏也算美好回忆？"
-      },
-      "classifications": {
-        "topics": [
-          11,
-          6
-        ],
-        "facets": [
-          6
-        ],
-        "tags": [
-          "Windows 95",
-          "Usability engineering",
-          "User interface",
-          "Microsoft",
-          "Flat design",
-          "Windows XP",
-          "macOS",
-          "ACM"
-        ]
-      },
-      "classificationsUpdatedAt": 1772322961,
-      "aiSummary": {
-        "chinese_title": "怀旧与争议：Windows 95 界面、Ribbon 与现代扁平化设计的得失",
-        "emoji": "🤨",
-        "sarcastic_question": "真怀念 Windows 95 界面吗？蓝屏也算美好回忆？"
-      },
-      "detail": {
-        "id": 47200904,
-        "by": "ksec",
-        "title": "The Windows 95 User Interface: A Case Study in Usability Engineering",
-        "url": "https://dl.acm.org/doi/fullHtml/10.1145/238386.238611",
-        "score": 145,
-        "detailUpdatedAt": 1772333019,
-        "createdAt": 1772319623,
-        "aiSummaryUpdatedAt": 1772334400,
-        "aisummary": {
-          "chinese_title": "怀旧与争议：Windows 95 界面、Ribbon 与现代扁平化设计的得失",
-          "discussion_overview": [
-            {
-              "category": "怀旧与认可：90 年代微软界面之优点",
-              "summary": "大量评论表达对 1995–2000 年微软桌面生态的怀念，列举 Windows 95/NT/98/2000、Office 97、Visual Basic 6、Internet Explorer 5 等作为那段时间“既美观又实用”的代表。评论中强调 Start 菜单与任务栏带来的工作流锚定作用，以及当时小而专注的 UI 团队和严格测试（文中提到团队约 12 人、另有 12 名开发实现 UI）如何带来一致的体验。有人指出尽管那时系统也会崩溃（与 Mac System 7 相比并无明显优越），但整体功能发现性与效率令用户满意，Windows 2000 被多次称为“稳定且精致”的版本。",
-              "supportid": [
-                "47201788",
-                "47202330",
-                "47202602",
-                "47201900",
-                "47201499"
-              ]
-            },
-            {
-              "category": "Ribbon 争议：发现性（初学者） vs 效率（专家）",
-              "summary": "关于 Office 的 Ribbon（Office 2007 引入）评论分裂：有人认为 Ribbon 对初学者友好，有助于发现功能并保留旧快捷方式的兼容性；但有大量实测性批评指出 Ribbon 更像“教程模式”，增加了切换分组的点击次数并弱化了键盘加速器提示。具体抱怨包括占用大量垂直屏幕空间、某些实现仅模仿外观而丧失上下文激活、以及引入后 Office 性能下降。也有建设性意见提出折中方案：把 Ribbon 用作“Basic”布局并提供可切换到为专家优化的“Full”工作区或可折叠行为。",
-              "supportid": [
-                "47202075",
-                "47202312",
-                "47202540",
-                "47202844",
-                "47202871",
-                "47202375"
-              ]
-            },
-            {
-              "category": "平台设计退化指控：从 XP Luna 到 Apple 的 Liquid Glass",
-              "summary": "多条评论把微软与苹果近年的界面决策视为审美与可用性的倒退，举例包括 Windows XP 默认的 Fisher‑Price 风格 Luna 主题、Office 2007 的 Ribbon，以及 Apple 最近被诟病的 \"Liquid Glass\" / Tahoe 风格。批评具体指向把美学凌驾于人体工程学之上（例如过度圆角、透明和占用空间），以及由“包装设计师”主导 UI 导致的糟糕变化。评论者把这些改动与用户体验恶化联系起来，认为平台偏好迎合设计潮流而不是维持一致性与效率。",
-              "supportid": [
-                "47201788",
-                "47201474",
-                "47201650",
-                "47201572",
-                "47202454"
-              ]
-            },
-            {
-              "category": "扁平化与快捷编辑的副作用：误操作与不可测的改动",
-              "summary": "评论指出扁平化设计和把高级自定义放在显眼快捷交互中，会造成误操作与用户困惑。具体例子包括 Office 工具栏过于容易通过拖拽被意外修改、iPhone 锁屏长按进入编辑模式导致用户“屁股编辑”而丢失壁纸、以及锁屏上无需解锁即可触发的手电筒/相机按钮造成的误触。有人补充说扁平化降低了视觉线索，许多独立开发者选择扁平是因为实现成本低，但这并不等于可用性优越；另有评论区分了“flat design”与 UI 密度的不同问题。",
-              "supportid": [
-                "47202567",
-                "47201511",
-                "47201575",
-                "47202475",
-                "47203029"
-              ]
-            },
-            {
-              "category": "历史与技术约束造就统一外观：GDI、Win32 控件与 DirectDraw 的角色",
-              "summary": "长篇评论回顾了早期 Windows 一致视觉风格的技术根源：当时受限的 VRAM 与 GDI（Windows 的 2D 绘图 API）以及 Win32 common controls（COMCTL32）被高度优化以最小化重绘，从而把第三方程序“绑”在一套可复用控件上。在 DirectDraw/WinG 出现之前，应用要么做成 DOS 程序、自行实现控件库，或使用系统控件，这三种选择促成了大量软件“看起来都像 Windows”的局面。该观点也提到外来影响（如 NeXTSTEP、Motif 的视觉元素）与后续图形 API 对 UI 自由度的解放如何改变了设计谱系。",
-              "supportid": [
-                "47202330",
-                "47202920",
-                "47201922",
-                "47201960"
-              ]
-            },
-            {
-              "category": "设计决策的权力、可测量性与专家优先的主张",
-              "summary": "若干评论从更高层次批评现代 UX 流程：设计师更不易接受反馈且偏好可见的审美改动，平台频繁更换界面导致用户无法学习并产生“习得性无助”。同时有人指出可用性比功能缺陷更难以客观量化，导致团队难以以数据校正设计方向。另有观点主张优秀界面应更多为专家而非初学者设计，倾向键盘优先与最小化视觉干扰，并引用航空座舱那类高度工程化、依靠程序与训练保障的交互作为可借鉴的严谨范式。",
-              "supportid": [
-                "47201511",
-                "47202011",
-                "47202175",
-                "47202356",
-                "47202118"
-              ]
-            }
-          ],
-          "terminologies": [
-            {
-              "term": "Ribbon",
-              "explanation": "Microsoft 在 Office 2007 引入的界面范式，将命令按用户场景分成可见选项卡以强调功能发现，但被批评为占用垂直空间、增加切换点击并弱化键盘加速器的可见提示。"
-            },
-            {
-              "term": "Win32 common controls / COMCTL32",
-              "explanation": "Windows 3.x–98 时代的内建控件库，和 GDI 紧密耦合，因系统绘制与性能约束促成第三方程序使用同一套控件，从而形成一致的视觉语言。"
-            },
-            {
-              "term": "GDI (Graphics Device Interface)",
-              "explanation": "Windows 的 2D 绘图 API，90 年代被高度优化以最小化屏幕重绘量；在 GDI 主导下应用的绘制策略与性能约束直接影响当时 UI 的实现方式。"
-            },
-            {
-              "term": "DirectDraw / WinG",
-              "explanation": "WinG 是早期帮助将 DOS/游戏更容易移植到 Windows 的图形库，DirectDraw 则是更早期允许应用更直接控制屏幕缓冲与合成的 API，这些技术改变了应用能否自由绘制复杂界面的能力。"
-            },
-            {
-              "term": "Flat design / Skeuomorphism",
-              "explanation": "两种相对的视觉风格：flat design（扁平化）以极简、去装饰为主，易于实现但可能丧失视觉线索；skeuomorphism（拟物化）使用现实世界暗示来增强可感知性，二者在可用性与审美上长期争论。"
-            }
-          ],
-          "context": "这场讨论由一篇回顾性文章《The Windows 95 User Interface: A Case Study in Usability Engineering》引发，评论从技术史、界面设计哲学与当代平台决策三条线展开。Windows 95 在可用性史上被认为以 Start 菜单和任务栏奠定了桌面交互范式；当时的实现受限于 GDI、Win32 common controls（COMCTL32）与有限显存，这些约束反过来促成一致的视觉语言。后来出现的技术（如 WinG/DirectDraw）与设计潮流（如 Ribbon、扁平化、Aqua/Liquid Glass/Tahoe）改变了界面自由度与审美取向，评论者围绕“发现性 vs 专家效率”“审美与人体工程学的权衡”“设计决策的可测量性”展开辩论。",
-          "emoji": "🤨",
-          "sarcastic_question": "真怀念 Windows 95 界面吗？蓝屏也算美好回忆？"
-        },
-        "classifications": {
-          "topics": [
-            11,
-            6
-          ],
-          "facets": [
-            6
-          ],
-          "tags": [
-            "Windows 95",
-            "Usability engineering",
-            "User interface",
-            "Microsoft",
-            "Flat design",
-            "Windows XP",
-            "macOS",
-            "ACM"
-          ]
-        },
-        "classificationsUpdatedAt": 1772322961,
-        "aiSummary": {
-          "chinese_title": "怀旧与争议：Windows 95 界面、Ribbon 与现代扁平化设计的得失",
-          "discussion_overview": [
-            {
-              "category": "怀旧与认可：90 年代微软界面之优点",
-              "summary": "大量评论表达对 1995–2000 年微软桌面生态的怀念，列举 Windows 95/NT/98/2000、Office 97、Visual Basic 6、Internet Explorer 5 等作为那段时间“既美观又实用”的代表。评论中强调 Start 菜单与任务栏带来的工作流锚定作用，以及当时小而专注的 UI 团队和严格测试（文中提到团队约 12 人、另有 12 名开发实现 UI）如何带来一致的体验。有人指出尽管那时系统也会崩溃（与 Mac System 7 相比并无明显优越），但整体功能发现性与效率令用户满意，Windows 2000 被多次称为“稳定且精致”的版本。",
-              "supportid": [
-                "47201788",
-                "47202330",
-                "47202602",
-                "47201900",
-                "47201499"
-              ]
-            },
-            {
-              "category": "Ribbon 争议：发现性（初学者） vs 效率（专家）",
-              "summary": "关于 Office 的 Ribbon（Office 2007 引入）评论分裂：有人认为 Ribbon 对初学者友好，有助于发现功能并保留旧快捷方式的兼容性；但有大量实测性批评指出 Ribbon 更像“教程模式”，增加了切换分组的点击次数并弱化了键盘加速器提示。具体抱怨包括占用大量垂直屏幕空间、某些实现仅模仿外观而丧失上下文激活、以及引入后 Office 性能下降。也有建设性意见提出折中方案：把 Ribbon 用作“Basic”布局并提供可切换到为专家优化的“Full”工作区或可折叠行为。",
-              "supportid": [
-                "47202075",
-                "47202312",
-                "47202540",
-                "47202844",
-                "47202871",
-                "47202375"
-              ]
-            },
-            {
-              "category": "平台设计退化指控：从 XP Luna 到 Apple 的 Liquid Glass",
-              "summary": "多条评论把微软与苹果近年的界面决策视为审美与可用性的倒退，举例包括 Windows XP 默认的 Fisher‑Price 风格 Luna 主题、Office 2007 的 Ribbon，以及 Apple 最近被诟病的 \"Liquid Glass\" / Tahoe 风格。批评具体指向把美学凌驾于人体工程学之上（例如过度圆角、透明和占用空间），以及由“包装设计师”主导 UI 导致的糟糕变化。评论者把这些改动与用户体验恶化联系起来，认为平台偏好迎合设计潮流而不是维持一致性与效率。",
-              "supportid": [
-                "47201788",
-                "47201474",
-                "47201650",
-                "47201572",
-                "47202454"
-              ]
-            },
-            {
-              "category": "扁平化与快捷编辑的副作用：误操作与不可测的改动",
-              "summary": "评论指出扁平化设计和把高级自定义放在显眼快捷交互中，会造成误操作与用户困惑。具体例子包括 Office 工具栏过于容易通过拖拽被意外修改、iPhone 锁屏长按进入编辑模式导致用户“屁股编辑”而丢失壁纸、以及锁屏上无需解锁即可触发的手电筒/相机按钮造成的误触。有人补充说扁平化降低了视觉线索，许多独立开发者选择扁平是因为实现成本低，但这并不等于可用性优越；另有评论区分了“flat design”与 UI 密度的不同问题。",
-              "supportid": [
-                "47202567",
-                "47201511",
-                "47201575",
-                "47202475",
-                "47203029"
-              ]
-            },
-            {
-              "category": "历史与技术约束造就统一外观：GDI、Win32 控件与 DirectDraw 的角色",
-              "summary": "长篇评论回顾了早期 Windows 一致视觉风格的技术根源：当时受限的 VRAM 与 GDI（Windows 的 2D 绘图 API）以及 Win32 common controls（COMCTL32）被高度优化以最小化重绘，从而把第三方程序“绑”在一套可复用控件上。在 DirectDraw/WinG 出现之前，应用要么做成 DOS 程序、自行实现控件库，或使用系统控件，这三种选择促成了大量软件“看起来都像 Windows”的局面。该观点也提到外来影响（如 NeXTSTEP、Motif 的视觉元素）与后续图形 API 对 UI 自由度的解放如何改变了设计谱系。",
-              "supportid": [
-                "47202330",
-                "47202920",
-                "47201922",
-                "47201960"
-              ]
-            },
-            {
-              "category": "设计决策的权力、可测量性与专家优先的主张",
-              "summary": "若干评论从更高层次批评现代 UX 流程：设计师更不易接受反馈且偏好可见的审美改动，平台频繁更换界面导致用户无法学习并产生“习得性无助”。同时有人指出可用性比功能缺陷更难以客观量化，导致团队难以以数据校正设计方向。另有观点主张优秀界面应更多为专家而非初学者设计，倾向键盘优先与最小化视觉干扰，并引用航空座舱那类高度工程化、依靠程序与训练保障的交互作为可借鉴的严谨范式。",
-              "supportid": [
-                "47201511",
-                "47202011",
-                "47202175",
-                "47202356",
-                "47202118"
-              ]
-            }
-          ],
-          "terminologies": [
-            {
-              "term": "Ribbon",
-              "explanation": "Microsoft 在 Office 2007 引入的界面范式，将命令按用户场景分成可见选项卡以强调功能发现，但被批评为占用垂直空间、增加切换点击并弱化键盘加速器的可见提示。"
-            },
-            {
-              "term": "Win32 common controls / COMCTL32",
-              "explanation": "Windows 3.x–98 时代的内建控件库，和 GDI 紧密耦合，因系统绘制与性能约束促成第三方程序使用同一套控件，从而形成一致的视觉语言。"
-            },
-            {
-              "term": "GDI (Graphics Device Interface)",
-              "explanation": "Windows 的 2D 绘图 API，90 年代被高度优化以最小化屏幕重绘量；在 GDI 主导下应用的绘制策略与性能约束直接影响当时 UI 的实现方式。"
-            },
-            {
-              "term": "DirectDraw / WinG",
-              "explanation": "WinG 是早期帮助将 DOS/游戏更容易移植到 Windows 的图形库，DirectDraw 则是更早期允许应用更直接控制屏幕缓冲与合成的 API，这些技术改变了应用能否自由绘制复杂界面的能力。"
-            },
-            {
-              "term": "Flat design / Skeuomorphism",
-              "explanation": "两种相对的视觉风格：flat design（扁平化）以极简、去装饰为主，易于实现但可能丧失视觉线索；skeuomorphism（拟物化）使用现实世界暗示来增强可感知性，二者在可用性与审美上长期争论。"
-            }
-          ],
-          "context": "这场讨论由一篇回顾性文章《The Windows 95 User Interface: A Case Study in Usability Engineering》引发，评论从技术史、界面设计哲学与当代平台决策三条线展开。Windows 95 在可用性史上被认为以 Start 菜单和任务栏奠定了桌面交互范式；当时的实现受限于 GDI、Win32 common controls（COMCTL32）与有限显存，这些约束反过来促成一致的视觉语言。后来出现的技术（如 WinG/DirectDraw）与设计潮流（如 Ribbon、扁平化、Aqua/Liquid Glass/Tahoe）改变了界面自由度与审美取向，评论者围绕“发现性 vs 专家效率”“审美与人体工程学的权衡”“设计决策的可测量性”展开辩论。",
-          "emoji": "🤨",
-          "sarcastic_question": "真怀念 Windows 95 界面吗？蓝屏也算美好回忆？"
-        }
-      }
-    },
-    {
-      "id": 47199781,
-      "by": "lostmsu",
-      "title": "Qwen3.5 122B and 35B models offer Sonnet 4.5 performance on local computers",
-      "url": "https://venturebeat.com/technology/alibabas-new-open-source-qwen3-5-medium-models-offer-sonnet-4-5-performance",
-      "score": 232,
-      "detailUpdatedAt": 1772333023,
-      "createdAt": 1772320816,
-      "aiSummaryUpdatedAt": 1772333814,
-      "aisummary": {
-        "chinese_title": "Qwen3.5（122B/35B）宣称本地可达 Sonnet 4.5 水平，社区质疑基准优化、量化与硬件瓶颈",
-        "emoji": "🤨",
-        "sarcastic_question": "你真的相信本地量化可媲美 Sonnet 吗？"
-      },
-      "classifications": {
-        "topics": [
-          1,
-          6,
-          7
-        ],
-        "facets": [
-          4,
-          10
-        ],
-        "tags": [
-          "Qwen3.5",
-          "Alibaba",
-          "Sonnet 4.5",
-          "Opus 4.6",
-          "Gemini",
-          "quantization",
-          "llama.cpp",
-          "GGUF",
-          "unsloth",
-          "MoE"
-        ]
-      },
-      "classificationsUpdatedAt": 1772321740,
-      "aiSummary": {
-        "chinese_title": "Qwen3.5（122B/35B）宣称本地可达 Sonnet 4.5 水平，社区质疑基准优化、量化与硬件瓶颈",
-        "emoji": "🤨",
-        "sarcastic_question": "你真的相信本地量化可媲美 Sonnet 吗？"
-      },
-      "detail": {
-        "id": 47199781,
-        "by": "lostmsu",
-        "title": "Qwen3.5 122B and 35B models offer Sonnet 4.5 performance on local computers",
-        "url": "https://venturebeat.com/technology/alibabas-new-open-source-qwen3-5-medium-models-offer-sonnet-4-5-performance",
-        "score": 232,
-        "detailUpdatedAt": 1772333023,
-        "createdAt": 1772320816,
-        "aiSummaryUpdatedAt": 1772333814,
-        "aisummary": {
-          "chinese_title": "Qwen3.5（122B/35B）宣称本地可达 Sonnet 4.5 水平，社区质疑基准优化、量化与硬件瓶颈",
-          "discussion_overview": [
-            {
-              "category": "基准与优化（基准被当作目标）",
-              "summary": "评论普遍指出公开基准容易被“当成目标”来优化（Goodhart），因此基准分数常被高估且不能代表模型在开放式、真实世界任务中的稳健性。有人具体描述厂商/产品团队有声誉与商业动机，会将基准题目或相似问题纳入训练集或微调数据，导致基准成绩被人为抬高。还有人建议使用可扩展或动态的基准（例如社区提到的 apex‑testing）或把旧模型放到新基准上检验以避免泄露/过拟合干扰。总体结论是：看到“接近 Sonnet”的 benchmark 不应直接等同于通用能力的等价。",
-              "supportid": [
-                "47202047",
-                "47202229",
-                "47202643",
-                "47202094",
-                "47202816"
-              ]
-            },
-            {
-              "category": "量化与精度权衡（Q4/Q5/BF16、MXFP4 等）",
-              "summary": "大量回复集中在量化对内存占用与答题质量的权衡：4‑bit（例如 Q4_K_M、dynamic 4‑bit）在很多实测里被称为“甜点”，在多数场景下接近无损，但不同量化方案会在少量精度上产生显著差异。评论里列举了技术细节：MXFP4（4‑bit 浮点）在新显卡训练/推理中出现，122B 的 BF16 GGUF 版本体积可达 ~224GB，现实可跑的多是 Q4 系列以节省 VRAM。社区推荐 Unsloth 的动态量化作为本地部署的首选，但也警告 3‑bit 或极端量化在某些任务上会明显弱化表现，同时要注意推理参数（temperature、min_p、presence/repeat penalty）会放大量化带来的不同。",
-              "supportid": [
-                "47202822",
-                "47202953",
-                "47201008",
-                "47200766",
-                "47201013",
-                "47202631"
-              ]
-            },
-            {
-              "category": "本地硬件与热设计的实际限制",
-              "summary": "许多实测差异可归因于硬件与热设计：云端前沿模型通常跑在 H200/HBM3 级别的集群上，而笔记本（尤其轻薄 MBP）在长时高负载下会被热限流并产生极大噪音，导致响应变慢或不稳定。评论给出具体硬件建议与实测数据：入门可用双 3060 12GB，追求速度/上下文需 3090/4090/5090 或 96GB 的 RTX 6000 Pro Blackwell，A5000 24GB 可在某些量化下以可用速率运行 35B 模型。有人也提到通过更好散热、桌面/工作站替代笔记本、或把笔电放大风扇前能显著提升持续推理性能，但总体上本地算力与云端仍有本质差距。",
-              "supportid": [
-                "47201333",
-                "47201451",
-                "47202504",
-                "47200669",
-                "47200765",
-                "47200911",
-                "47200701"
-              ]
-            },
-            {
-              "category": "任务匹配与实际可用性：窄域优秀、开放式任务仍弱",
-              "summary": "多数评论认为开源本地模型在“受限、结构化”的任务上表现很好，例如 prompt 扩写、情感分析、代码重构、图像自动打标（Qwen3‑VL）或个人翻译（Gemma3），还有用户在短时间内用 35B 写出 polars 的 PCA 实现。相对地，在开放式研究问题、复杂 agentic 编排或长上下文的深度推理上，用户普遍觉得它们还难以达到 Sonnet/Opus 的一致性。具体案例显示：27B dense 在本地被视作“最聪明的本地尺寸”，而某些 35B MoE 变体速度快但稳定性差；另有个别开源模型（如 StepFun、Kimi）在特定代码库或 UX 体验上受到好评，说明“最适合的模型”很依赖场景。",
-              "supportid": [
-                "47202402",
-                "47202548",
-                "47201777",
-                "47202724",
-                "47200964",
-                "47202119",
-                "47201716"
-              ]
-            },
-            {
-              "category": "实现/工具链与 bug 导致的体验差异（Ollama、系统 prompt 等）",
-              "summary": "很多“模型差”反馈其实来自部署工具、默认推理实现或参数设置：Ollama 被多次指出对 Qwen3.5 存在参数/实现缺陷，会触发无限循环或持续“planning”行为，导致首次体验极差。评论提供了可操作的修复路径：换用 diferente 前端（llama.cpp、mlx）、使用 Unsloth quants、调整 temperature/min_p/presence/repeat penalty、或写长系统 prompt 并分解任务以避免反复自检。也有人贴出成功命令行参数与实测吞吐（例如 prompt 处理 1K tokens/s 或生成 24 tokens/s），说明正确的工具链和调参能显著改善体验。",
-              "supportid": [
-                "47202082",
-                "47201247",
-                "47201388",
-                "47201565",
-                "47202730",
-                "47202631",
-                "47202290"
-              ]
-            },
-            {
-              "category": "来源、审查与合规担忧",
-              "summary": "部分评论关注模型权重来源与内容偏向问题：有观点认为部分中国开源模型在去激进化或“被阉割”程度上比一些西方服务更宽松，但也有研究与文章指出 Qwen 在涉中英文题材上存在亲中倾向或审查模式。对于处理敏感金融/法律数据的客户，权重来源与托管方的地理位置会影响合规决策；一些人建议在本地运行或使用美国托管服务以降低风险。另一方面也有声音认为权重终究是数值集合，最终应以输出质量与可审计性为准，而不是仅凭来源彻底否定。",
-              "supportid": [
-                "47200655",
-                "47200838",
-                "47200205",
-                "47201677"
-              ]
-            }
-          ],
-          "terminologies": [
-            {
-              "term": "量化 (quantization / Q4_K_M / Q4_K_S / Q5 / Q6 / BF16 / MXFP4)",
-              "explanation": "把模型权重或激活从高精度浮点压缩到更低位宽以降低显存占用和加速推理。不同方案在精度与内存占用间折中：4‑bit（Q4）常被视为性价比选择，BF16/FP16 精度更高但体积大；MXFP4 是一种 4‑bit 浮点格式，近期在训练/推理讨论中出现。"
-            },
-            {
-              "term": "MoE (Mixture of Experts)",
-              "explanation": "一种包含大量“专家”子网络的架构，但每次推理只激活部分专家以节省计算量。评论中常见表示法如 35B‑A3B 或 122B‑A10B，其中 A3B/A10B 指在一次推理中被激活的有效参数量。"
-            },
-            {
-              "term": "Unsloth 动态量化 (Unsloth Dynamic quants)",
-              "explanation": "社区维护的一套预量化权重与量化方法，专注于为 Qwen3.5 等模型提供稳定高效的 4‑bit 变体，许多用户把它作为本地部署的首选量化版本。"
-            },
-            {
-              "term": "GGUF",
-              "explanation": "一种常见的模型权重/元数据封装格式（在 Hugging Face 与本地工具链中广泛使用），用于存放量化或非量化的模型文件；大模型的 BF16 GGUF 文件体积可达数百 GB。"
-            },
-            {
-              "term": "Ollama",
-              "explanation": "一个本地模型运行与管理工具，提供 OpenAI‑compatible API，但社区报告在与 Qwen3.5 配合时存在参数或实现缺陷，会引发无限循环或性能异常。"
-            },
-            {
-              "term": "llama.cpp / MLX",
-              "explanation": "llama.cpp 是广泛使用的本地推理 C/C++ 实现，支持 Vulkan/HIP 等后端；MLX（或 mlx‑lm）指面向苹果硬件优化的实现/变体，在 Mac 上通常能得到更好的 tokens/sec 和兼容性。"
-            }
-          ],
-          "context": "原始报道宣称 Qwen3.5（122B 与 35B）可在本地提供接近 Claude Sonnet 4.5 的表现，引发 HN 上大量实测与争论。评论者把焦点放在基准是否被当作目标（导致过拟合）、量化方案（Q4_K_M、BF16、MXFP4、Unsloth 动态量化）与模型架构（MoE vs dense）对可用性的影响，以及本地硬件与推理实现（Ollama、llama.cpp、MLX）如何放大差异。实测中有人在狭窄任务或使用特定量化时获得令人惊喜的结果，但在开放式研究问题、agentic 编程或长上下文任务上仍普遍感到不稳。讨论同时穿插具体硬件建议（从两块 3060 到 RTX 6000 Pro Blackwell / RTX 5090）和合规/审查方面的担忧，以帮助读者理解为何“同一模型”在不同环境下体验差异巨大。",
-          "emoji": "🤨",
-          "sarcastic_question": "你真的相信本地量化可媲美 Sonnet 吗？"
-        },
-        "classifications": {
-          "topics": [
-            1,
-            6,
-            7
-          ],
-          "facets": [
-            4,
-            10
-          ],
-          "tags": [
-            "Qwen3.5",
-            "Alibaba",
-            "Sonnet 4.5",
-            "Opus 4.6",
-            "Gemini",
-            "quantization",
-            "llama.cpp",
-            "GGUF",
-            "unsloth",
-            "MoE"
-          ]
-        },
-        "classificationsUpdatedAt": 1772321740,
-        "aiSummary": {
-          "chinese_title": "Qwen3.5（122B/35B）宣称本地可达 Sonnet 4.5 水平，社区质疑基准优化、量化与硬件瓶颈",
-          "discussion_overview": [
-            {
-              "category": "基准与优化（基准被当作目标）",
-              "summary": "评论普遍指出公开基准容易被“当成目标”来优化（Goodhart），因此基准分数常被高估且不能代表模型在开放式、真实世界任务中的稳健性。有人具体描述厂商/产品团队有声誉与商业动机，会将基准题目或相似问题纳入训练集或微调数据，导致基准成绩被人为抬高。还有人建议使用可扩展或动态的基准（例如社区提到的 apex‑testing）或把旧模型放到新基准上检验以避免泄露/过拟合干扰。总体结论是：看到“接近 Sonnet”的 benchmark 不应直接等同于通用能力的等价。",
-              "supportid": [
-                "47202047",
-                "47202229",
-                "47202643",
-                "47202094",
-                "47202816"
-              ]
-            },
-            {
-              "category": "量化与精度权衡（Q4/Q5/BF16、MXFP4 等）",
-              "summary": "大量回复集中在量化对内存占用与答题质量的权衡：4‑bit（例如 Q4_K_M、dynamic 4‑bit）在很多实测里被称为“甜点”，在多数场景下接近无损，但不同量化方案会在少量精度上产生显著差异。评论里列举了技术细节：MXFP4（4‑bit 浮点）在新显卡训练/推理中出现，122B 的 BF16 GGUF 版本体积可达 ~224GB，现实可跑的多是 Q4 系列以节省 VRAM。社区推荐 Unsloth 的动态量化作为本地部署的首选，但也警告 3‑bit 或极端量化在某些任务上会明显弱化表现，同时要注意推理参数（temperature、min_p、presence/repeat penalty）会放大量化带来的不同。",
-              "supportid": [
-                "47202822",
-                "47202953",
-                "47201008",
-                "47200766",
-                "47201013",
-                "47202631"
-              ]
-            },
-            {
-              "category": "本地硬件与热设计的实际限制",
-              "summary": "许多实测差异可归因于硬件与热设计：云端前沿模型通常跑在 H200/HBM3 级别的集群上，而笔记本（尤其轻薄 MBP）在长时高负载下会被热限流并产生极大噪音，导致响应变慢或不稳定。评论给出具体硬件建议与实测数据：入门可用双 3060 12GB，追求速度/上下文需 3090/4090/5090 或 96GB 的 RTX 6000 Pro Blackwell，A5000 24GB 可在某些量化下以可用速率运行 35B 模型。有人也提到通过更好散热、桌面/工作站替代笔记本、或把笔电放大风扇前能显著提升持续推理性能，但总体上本地算力与云端仍有本质差距。",
-              "supportid": [
-                "47201333",
-                "47201451",
-                "47202504",
-                "47200669",
-                "47200765",
-                "47200911",
-                "47200701"
-              ]
-            },
-            {
-              "category": "任务匹配与实际可用性：窄域优秀、开放式任务仍弱",
-              "summary": "多数评论认为开源本地模型在“受限、结构化”的任务上表现很好，例如 prompt 扩写、情感分析、代码重构、图像自动打标（Qwen3‑VL）或个人翻译（Gemma3），还有用户在短时间内用 35B 写出 polars 的 PCA 实现。相对地，在开放式研究问题、复杂 agentic 编排或长上下文的深度推理上，用户普遍觉得它们还难以达到 Sonnet/Opus 的一致性。具体案例显示：27B dense 在本地被视作“最聪明的本地尺寸”，而某些 35B MoE 变体速度快但稳定性差；另有个别开源模型（如 StepFun、Kimi）在特定代码库或 UX 体验上受到好评，说明“最适合的模型”很依赖场景。",
-              "supportid": [
-                "47202402",
-                "47202548",
-                "47201777",
-                "47202724",
-                "47200964",
-                "47202119",
-                "47201716"
-              ]
-            },
-            {
-              "category": "实现/工具链与 bug 导致的体验差异（Ollama、系统 prompt 等）",
-              "summary": "很多“模型差”反馈其实来自部署工具、默认推理实现或参数设置：Ollama 被多次指出对 Qwen3.5 存在参数/实现缺陷，会触发无限循环或持续“planning”行为，导致首次体验极差。评论提供了可操作的修复路径：换用 diferente 前端（llama.cpp、mlx）、使用 Unsloth quants、调整 temperature/min_p/presence/repeat penalty、或写长系统 prompt 并分解任务以避免反复自检。也有人贴出成功命令行参数与实测吞吐（例如 prompt 处理 1K tokens/s 或生成 24 tokens/s），说明正确的工具链和调参能显著改善体验。",
-              "supportid": [
-                "47202082",
-                "47201247",
-                "47201388",
-                "47201565",
-                "47202730",
-                "47202631",
-                "47202290"
-              ]
-            },
-            {
-              "category": "来源、审查与合规担忧",
-              "summary": "部分评论关注模型权重来源与内容偏向问题：有观点认为部分中国开源模型在去激进化或“被阉割”程度上比一些西方服务更宽松，但也有研究与文章指出 Qwen 在涉中英文题材上存在亲中倾向或审查模式。对于处理敏感金融/法律数据的客户，权重来源与托管方的地理位置会影响合规决策；一些人建议在本地运行或使用美国托管服务以降低风险。另一方面也有声音认为权重终究是数值集合，最终应以输出质量与可审计性为准，而不是仅凭来源彻底否定。",
-              "supportid": [
-                "47200655",
-                "47200838",
-                "47200205",
-                "47201677"
-              ]
-            }
-          ],
-          "terminologies": [
-            {
-              "term": "量化 (quantization / Q4_K_M / Q4_K_S / Q5 / Q6 / BF16 / MXFP4)",
-              "explanation": "把模型权重或激活从高精度浮点压缩到更低位宽以降低显存占用和加速推理。不同方案在精度与内存占用间折中：4‑bit（Q4）常被视为性价比选择，BF16/FP16 精度更高但体积大；MXFP4 是一种 4‑bit 浮点格式，近期在训练/推理讨论中出现。"
-            },
-            {
-              "term": "MoE (Mixture of Experts)",
-              "explanation": "一种包含大量“专家”子网络的架构，但每次推理只激活部分专家以节省计算量。评论中常见表示法如 35B‑A3B 或 122B‑A10B，其中 A3B/A10B 指在一次推理中被激活的有效参数量。"
-            },
-            {
-              "term": "Unsloth 动态量化 (Unsloth Dynamic quants)",
-              "explanation": "社区维护的一套预量化权重与量化方法，专注于为 Qwen3.5 等模型提供稳定高效的 4‑bit 变体，许多用户把它作为本地部署的首选量化版本。"
-            },
-            {
-              "term": "GGUF",
-              "explanation": "一种常见的模型权重/元数据封装格式（在 Hugging Face 与本地工具链中广泛使用），用于存放量化或非量化的模型文件；大模型的 BF16 GGUF 文件体积可达数百 GB。"
-            },
-            {
-              "term": "Ollama",
-              "explanation": "一个本地模型运行与管理工具，提供 OpenAI‑compatible API，但社区报告在与 Qwen3.5 配合时存在参数或实现缺陷，会引发无限循环或性能异常。"
-            },
-            {
-              "term": "llama.cpp / MLX",
-              "explanation": "llama.cpp 是广泛使用的本地推理 C/C++ 实现，支持 Vulkan/HIP 等后端；MLX（或 mlx‑lm）指面向苹果硬件优化的实现/变体，在 Mac 上通常能得到更好的 tokens/sec 和兼容性。"
-            }
-          ],
-          "context": "原始报道宣称 Qwen3.5（122B 与 35B）可在本地提供接近 Claude Sonnet 4.5 的表现，引发 HN 上大量实测与争论。评论者把焦点放在基准是否被当作目标（导致过拟合）、量化方案（Q4_K_M、BF16、MXFP4、Unsloth 动态量化）与模型架构（MoE vs dense）对可用性的影响，以及本地硬件与推理实现（Ollama、llama.cpp、MLX）如何放大差异。实测中有人在狭窄任务或使用特定量化时获得令人惊喜的结果，但在开放式研究问题、agentic 编程或长上下文任务上仍普遍感到不稳。讨论同时穿插具体硬件建议（从两块 3060 到 RTX 6000 Pro Blackwell / RTX 5090）和合规/审查方面的担忧，以帮助读者理解为何“同一模型”在不同环境下体验差异巨大。",
-          "emoji": "🤨",
-          "sarcastic_question": "你真的相信本地量化可媲美 Sonnet 吗？"
-        }
-      }
-    },
-    {
       "id": 47155526,
       "by": "adamnemecek",
       "title": "Woxi: Wolfram Mathematica Reimplementation in Rust",
@@ -3720,300 +4014,6 @@
           "context": "该讨论源于一篇作者把中文帖子翻译并用 Claude（一个 LLM 工具）润色后的英文公告，作者为其 PostgreSQL 分发 Pigsty 维护了一个 MinIO 的保守分支以获得可用二进制、CVE 修补并恢复管理控制台。背景是社区对 MinIO 商业化/授权策略变动（被多数人称为“企业拉地毯”或 rug pull）的反应，导致多个社区或厂商（如 Chainguard）开始维护各自 fork 或推荐替代实现。评论围绕分叉的实际价值与可持续性（尤其单人维护与依赖 LLM 的可行性）、许可证与商标风险（AGPL、CLA 等）、以及可行替代方案（Garage S3、rustfs、SeaweedFS、Ceph 等）展开，同时讨论了具体技术细节如恢复控制台、Go 版本回退与 CVE 修补。读者需了解这是一个兼具技术、法律与治理问题的综合争论，关切点既有代码/安全也有长期社区与商标风险。",
           "emoji": "🤨",
           "sarcastic_question": "靠一人用LLM就能维护整个S3生态吗？"
-        }
-      }
-    },
-    {
-      "id": 47199948,
-      "by": "surprisetalk",
-      "title": "Our Agreement with the Department of War",
-      "url": "https://openai.com/index/our-agreement-with-the-department-of-war",
-      "score": 192,
-      "detailUpdatedAt": 1772325789,
-      "createdAt": 1772313021,
-      "aiSummaryUpdatedAt": 1772326350,
-      "aisummary": {
-        "chinese_title": "OpenAI 与“Department of War”合约以“所有合法用途”为界，引发对大规模监控与致命应用的愤怒",
-        "emoji": "😡",
-        "sarcastic_question": "只要说合法，是不是就能为任何暴行开绿灯?"
-      },
-      "classifications": {
-        "topics": [
-          1,
-          9,
-          10
-        ],
-        "facets": [
-          4
-        ],
-        "tags": [
-          "OpenAI",
-          "Department of War",
-          "Department of Defense",
-          "Anthropic",
-          "Sam Altman",
-          "autonomous weapons",
-          "mass surveillance",
-          "Trump administration"
-        ]
-      },
-      "classificationsUpdatedAt": 1772315463,
-      "aiSummary": {
-        "chinese_title": "OpenAI 与“Department of War”合约以“所有合法用途”为界，引发对大规模监控与致命应用的愤怒",
-        "emoji": "😡",
-        "sarcastic_question": "只要说合法，是不是就能为任何暴行开绿灯?"
-      },
-      "detail": {
-        "id": 47199948,
-        "by": "surprisetalk",
-        "title": "Our Agreement with the Department of War",
-        "url": "https://openai.com/index/our-agreement-with-the-department-of-war",
-        "score": 192,
-        "detailUpdatedAt": 1772325789,
-        "createdAt": 1772313021,
-        "aiSummaryUpdatedAt": 1772326350,
-        "aisummary": {
-          "chinese_title": "OpenAI 与“Department of War”合约以“所有合法用途”为界，引发对大规模监控与致命应用的愤怒",
-          "discussion_overview": [
-            {
-              "category": "合同用语宽泛／“合法”成为主要限制",
-              "summary": "大量评论指出合约核心句子“The Department of War may use the AI System for all lawful purposes...”把约束退回到现行法律，合同仅以 Fourth Amendment、National Security Act、FISA、Executive Order 12333 等权威为合规参照，并将“不用于对美国产民的无约束监控”限定为仅在这些权威已明令禁止时才成立。评论者举例称，这意味着军方可以从私营公司采购大规模位置或金融交易等精细数据并用模型处理，对公民进行群体级别的识别与目标化，除非法律事先禁止。许多人把这种措辞称为“weasel language”，并警告“operational requirements”等条款与历史上的情报备忘录可能为越权提供法律外衣，依赖法律解释而非公司硬性红线被视为明显薄弱。不同评论反复提到，一旦行政权随意解释或修改规则，这类“只要合法” 的承诺将很快失去约束力。",
-              "supportid": [
-                "47200771",
-                "47201230",
-                "47200378",
-                "47200109",
-                "47201833",
-                "47200345"
-              ]
-            },
-            {
-              "category": "Anthropic 与 OpenAI 的谈判分歧与行业影响",
-              "summary": "评论普遍强调 Anthropic 要求的是更强的、嵌入式的安全/封锁机制：同步的人工介入与立即拒绝的权力（例如通过修改 system prompts、训练数据或人工人员介入关闭功能），而 OpenAI 接受更松的安排——把合规依赖于‘法律/运营要求’并保留事后终止合约或合约救济的路径。多条评论解释 Anthropic 的安全栈深度嵌入模型本身，技术上难以通过简单开关移除，因此政府要求定制、例外或去除 guardrails 并非小事。观察者担忧这类谈判设置了危险先例：政府可通过采购压力、承包商（如 Palantir）或政治影响力迫使厂商妥协，进而分裂国防技术生态并削弱长期的产业与军事创新能力。",
-              "supportid": [
-                "47200262",
-                "47200706",
-                "47200902",
-                "47200375",
-                "47200296",
-                "47200134"
-              ]
-            },
-            {
-              "category": "问责与法律解释：谁来决定“合法”？武器与监控的伦理风险",
-              "summary": "评论的核心焦点之一是问责问题——合同把决定权很大程度上交给执行机构或国防部，导致‘什么是合法’由实施方解释，评论者列举了行政分支曾以法律名义推进有争议军事行动的先例作为担忧依据。合同引用的 DoD Directive 3000.09 要求对自主与半自主系统进行严格的 verification/validation/testing，但该类指令为部门政策而非国会立法，容易被修改或绕开；而‘人类控制’条款被担忧可能退化为走形式的审批。鉴于近年的越界暗杀、海外军事行动与国内执法争议，多位评论认为即便有合规条款，部署后果仍可能构成战争罪或系统性侵犯公民权利，而依赖事后终止或司法救济无法及时防止伤害。",
-              "supportid": [
-                "47200449",
-                "47200547",
-                "47200534",
-                "47200379",
-                "47201620"
-              ]
-            },
-            {
-              "category": "员工与用户的反应：辞职、抵制与组织化尝试",
-              "summary": "许多评论呼吁用消费者与员工行动表达不满：取消订阅、转向 Anthropic 的 Claude 或本地推理（local inference），以及通过辞职或工会组织施压。有人认为群体性离职或工会罢工能真正改变公司决策，而反对者指出员工经济差异、期权与既得利益会削弱这类行动的可行性。几条评论提到 Anthropic 因坚持红线可能短期内成为人才招募优势，已有用户实际开始迁移以示惩戒；但也有意见认为单靠个人离场不足以遏制公司做法，需更制度化的监督与法律约束。",
-              "supportid": [
-                "47200627",
-                "47200437",
-                "47200472",
-                "47200691",
-                "47200612",
-                "47200674"
-              ]
-            },
-            {
-              "category": "部署形式与第三方绕行的技术与合同疑问",
-              "summary": "技术性疑问集中在 OpenAI 声称的‘cloud deployment surface 不允许驱动完全自主武器，完全自主需 edge deployment’这句是否成立与能否被规避。评论反问 edge 是否等同于离线/断开网络的本地部署，还是只是一种术语区分；现实中联网无人系统能否通过云端 API 实现致命动作让人怀疑云/边界说法的有效性。另有大量担忧指向下游承包商（例如 Palantir）把模型嵌入军用系统的可能性，以及 OpenAI 是否有能力或意愿对第三方集成与用途进行真正的技术与合约层面约束。",
-              "supportid": [
-                "47200822",
-                "47201762",
-                "47200296",
-                "47200902"
-              ]
-            },
-            {
-              "category": "对公司治理、历史与政治影响力的不信任",
-              "summary": "许多评论把这次合约放在 OpenAI 的历史轨迹里审视：从非营利到营利、曾经的开源与隐私承诺被一步步削弱，配合高层的政治捐款与对政府的靠近，使官方声明被广泛怀疑为公关操作。具体指控包括公告措辞与时机可疑、领导层不在文末署名、以及公司在面临金钱或政府压力时习惯性放松红线。评论者因此呼吁不仅要看公司声明，还要建立法律约束、外部监督与历史记录保存，以免未来因利益或政治交换而放纵监控与致命用途。",
-              "supportid": [
-                "47200071",
-                "47200134",
-                "47200408",
-                "47200492",
-                "47201230",
-                "47200771"
-              ]
-            }
-          ],
-          "terminologies": [
-            {
-              "term": "DoD Directive 3000.09",
-              "explanation": "美国国防部于 2023‑01‑25 发布的指令，针对自主与半自主武器系统规定部署前必须进行严格的 verification、validation 与 testing，并在法律或政策要求下保有人类控制（human control）的原则。"
-            },
-            {
-              "term": "Posse Comitatus Act",
-              "explanation": "美国法律，限制联邦军队直接参与国内民事执法，合同中以该法为界定军方在国内执法中可否使用系统的重要法律参照。"
-            },
-            {
-              "term": "FISA (Foreign Intelligence Surveillance Act of 1978)",
-              "explanation": "1978 年通过的美国情报监控法，规定外国情报监视许可与 FISA 法庭的司法程序，常被引用作为情报活动合规的法律框架。"
-            },
-            {
-              "term": "Executive Order 12333",
-              "explanation": "一项总统行政命令，规范美国情报机构（包括海外情报收集）的权限与程序，合同把它列为可用来判断情报活动合法性的权威之一。"
-            },
-            {
-              "term": "Fourth Amendment",
-              "explanation": "美国宪法第四修正案，保护公民免受无理搜查与扣押，合同在处理私有信息时将其作为隐私合规的基准。"
-            },
-            {
-              "term": "edge deployment",
-              "explanation": "边缘部署：指将模型推理放在接近传感器或执行器的本地硬件上（离线或就地运行），与云端 API 调用相对，讨论点在于是否能用于‘完全自主武器’。"
-            },
-            {
-              "term": "cloud deployment surface",
-              "explanation": "云部署面：指在云端托管并通过远程 API 提供模型服务的部署方式；合同声称云端部署不会支持完全自主致命系统，但评论者质疑该边界的实际效力与可被绕开的风险。"
-            },
-            {
-              "term": "operational requirements",
-              "explanation": "合同与军方常用术语，指基于作战或运营需要的功能/用途要求；在合约语境中被批评为可能成为解释与扩大合法用途的弹性口实。"
-            }
-          ],
-          "context": "此讨论源于 OpenAI 公布题为“Our Agreement with the Department of War”的合约说明，披露与美国国防部（DoD，在公告与评论中有时被讽称为“Department of War”）的合作条款。合约允许军方在“所有合法用途”（all lawful purposes）范围内使用模型，并引用 Fourth Amendment、National Security Act of 1947、FISA、Executive Order 12333 及 DoD Directive 3000.09 等法律与政策作为合规参照。争议集中在：将道德与安全底线交给现行法律与部门解释是否足够，会否允许通过私营数据采购、第三方承包商（如 Palantir）集成或改变部署形式来实现大规模监控与致命用途。事件背景还包括 Anthropic（主张更严格红线的 AI 公司）与 OpenAI 的谈判差异、产业与政府间的采购/投资关系，以及公众对公司治理与政治影响力的持续怀疑。",
-          "emoji": "😡",
-          "sarcastic_question": "只要说合法，是不是就能为任何暴行开绿灯?"
-        },
-        "classifications": {
-          "topics": [
-            1,
-            9,
-            10
-          ],
-          "facets": [
-            4
-          ],
-          "tags": [
-            "OpenAI",
-            "Department of War",
-            "Department of Defense",
-            "Anthropic",
-            "Sam Altman",
-            "autonomous weapons",
-            "mass surveillance",
-            "Trump administration"
-          ]
-        },
-        "classificationsUpdatedAt": 1772315463,
-        "aiSummary": {
-          "chinese_title": "OpenAI 与“Department of War”合约以“所有合法用途”为界，引发对大规模监控与致命应用的愤怒",
-          "discussion_overview": [
-            {
-              "category": "合同用语宽泛／“合法”成为主要限制",
-              "summary": "大量评论指出合约核心句子“The Department of War may use the AI System for all lawful purposes...”把约束退回到现行法律，合同仅以 Fourth Amendment、National Security Act、FISA、Executive Order 12333 等权威为合规参照，并将“不用于对美国产民的无约束监控”限定为仅在这些权威已明令禁止时才成立。评论者举例称，这意味着军方可以从私营公司采购大规模位置或金融交易等精细数据并用模型处理，对公民进行群体级别的识别与目标化，除非法律事先禁止。许多人把这种措辞称为“weasel language”，并警告“operational requirements”等条款与历史上的情报备忘录可能为越权提供法律外衣，依赖法律解释而非公司硬性红线被视为明显薄弱。不同评论反复提到，一旦行政权随意解释或修改规则，这类“只要合法” 的承诺将很快失去约束力。",
-              "supportid": [
-                "47200771",
-                "47201230",
-                "47200378",
-                "47200109",
-                "47201833",
-                "47200345"
-              ]
-            },
-            {
-              "category": "Anthropic 与 OpenAI 的谈判分歧与行业影响",
-              "summary": "评论普遍强调 Anthropic 要求的是更强的、嵌入式的安全/封锁机制：同步的人工介入与立即拒绝的权力（例如通过修改 system prompts、训练数据或人工人员介入关闭功能），而 OpenAI 接受更松的安排——把合规依赖于‘法律/运营要求’并保留事后终止合约或合约救济的路径。多条评论解释 Anthropic 的安全栈深度嵌入模型本身，技术上难以通过简单开关移除，因此政府要求定制、例外或去除 guardrails 并非小事。观察者担忧这类谈判设置了危险先例：政府可通过采购压力、承包商（如 Palantir）或政治影响力迫使厂商妥协，进而分裂国防技术生态并削弱长期的产业与军事创新能力。",
-              "supportid": [
-                "47200262",
-                "47200706",
-                "47200902",
-                "47200375",
-                "47200296",
-                "47200134"
-              ]
-            },
-            {
-              "category": "问责与法律解释：谁来决定“合法”？武器与监控的伦理风险",
-              "summary": "评论的核心焦点之一是问责问题——合同把决定权很大程度上交给执行机构或国防部，导致‘什么是合法’由实施方解释，评论者列举了行政分支曾以法律名义推进有争议军事行动的先例作为担忧依据。合同引用的 DoD Directive 3000.09 要求对自主与半自主系统进行严格的 verification/validation/testing，但该类指令为部门政策而非国会立法，容易被修改或绕开；而‘人类控制’条款被担忧可能退化为走形式的审批。鉴于近年的越界暗杀、海外军事行动与国内执法争议，多位评论认为即便有合规条款，部署后果仍可能构成战争罪或系统性侵犯公民权利，而依赖事后终止或司法救济无法及时防止伤害。",
-              "supportid": [
-                "47200449",
-                "47200547",
-                "47200534",
-                "47200379",
-                "47201620"
-              ]
-            },
-            {
-              "category": "员工与用户的反应：辞职、抵制与组织化尝试",
-              "summary": "许多评论呼吁用消费者与员工行动表达不满：取消订阅、转向 Anthropic 的 Claude 或本地推理（local inference），以及通过辞职或工会组织施压。有人认为群体性离职或工会罢工能真正改变公司决策，而反对者指出员工经济差异、期权与既得利益会削弱这类行动的可行性。几条评论提到 Anthropic 因坚持红线可能短期内成为人才招募优势，已有用户实际开始迁移以示惩戒；但也有意见认为单靠个人离场不足以遏制公司做法，需更制度化的监督与法律约束。",
-              "supportid": [
-                "47200627",
-                "47200437",
-                "47200472",
-                "47200691",
-                "47200612",
-                "47200674"
-              ]
-            },
-            {
-              "category": "部署形式与第三方绕行的技术与合同疑问",
-              "summary": "技术性疑问集中在 OpenAI 声称的‘cloud deployment surface 不允许驱动完全自主武器，完全自主需 edge deployment’这句是否成立与能否被规避。评论反问 edge 是否等同于离线/断开网络的本地部署，还是只是一种术语区分；现实中联网无人系统能否通过云端 API 实现致命动作让人怀疑云/边界说法的有效性。另有大量担忧指向下游承包商（例如 Palantir）把模型嵌入军用系统的可能性，以及 OpenAI 是否有能力或意愿对第三方集成与用途进行真正的技术与合约层面约束。",
-              "supportid": [
-                "47200822",
-                "47201762",
-                "47200296",
-                "47200902"
-              ]
-            },
-            {
-              "category": "对公司治理、历史与政治影响力的不信任",
-              "summary": "许多评论把这次合约放在 OpenAI 的历史轨迹里审视：从非营利到营利、曾经的开源与隐私承诺被一步步削弱，配合高层的政治捐款与对政府的靠近，使官方声明被广泛怀疑为公关操作。具体指控包括公告措辞与时机可疑、领导层不在文末署名、以及公司在面临金钱或政府压力时习惯性放松红线。评论者因此呼吁不仅要看公司声明，还要建立法律约束、外部监督与历史记录保存，以免未来因利益或政治交换而放纵监控与致命用途。",
-              "supportid": [
-                "47200071",
-                "47200134",
-                "47200408",
-                "47200492",
-                "47201230",
-                "47200771"
-              ]
-            }
-          ],
-          "terminologies": [
-            {
-              "term": "DoD Directive 3000.09",
-              "explanation": "美国国防部于 2023‑01‑25 发布的指令，针对自主与半自主武器系统规定部署前必须进行严格的 verification、validation 与 testing，并在法律或政策要求下保有人类控制（human control）的原则。"
-            },
-            {
-              "term": "Posse Comitatus Act",
-              "explanation": "美国法律，限制联邦军队直接参与国内民事执法，合同中以该法为界定军方在国内执法中可否使用系统的重要法律参照。"
-            },
-            {
-              "term": "FISA (Foreign Intelligence Surveillance Act of 1978)",
-              "explanation": "1978 年通过的美国情报监控法，规定外国情报监视许可与 FISA 法庭的司法程序，常被引用作为情报活动合规的法律框架。"
-            },
-            {
-              "term": "Executive Order 12333",
-              "explanation": "一项总统行政命令，规范美国情报机构（包括海外情报收集）的权限与程序，合同把它列为可用来判断情报活动合法性的权威之一。"
-            },
-            {
-              "term": "Fourth Amendment",
-              "explanation": "美国宪法第四修正案，保护公民免受无理搜查与扣押，合同在处理私有信息时将其作为隐私合规的基准。"
-            },
-            {
-              "term": "edge deployment",
-              "explanation": "边缘部署：指将模型推理放在接近传感器或执行器的本地硬件上（离线或就地运行），与云端 API 调用相对，讨论点在于是否能用于‘完全自主武器’。"
-            },
-            {
-              "term": "cloud deployment surface",
-              "explanation": "云部署面：指在云端托管并通过远程 API 提供模型服务的部署方式；合同声称云端部署不会支持完全自主致命系统，但评论者质疑该边界的实际效力与可被绕开的风险。"
-            },
-            {
-              "term": "operational requirements",
-              "explanation": "合同与军方常用术语，指基于作战或运营需要的功能/用途要求；在合约语境中被批评为可能成为解释与扩大合法用途的弹性口实。"
-            }
-          ],
-          "context": "此讨论源于 OpenAI 公布题为“Our Agreement with the Department of War”的合约说明，披露与美国国防部（DoD，在公告与评论中有时被讽称为“Department of War”）的合作条款。合约允许军方在“所有合法用途”（all lawful purposes）范围内使用模型，并引用 Fourth Amendment、National Security Act of 1947、FISA、Executive Order 12333 及 DoD Directive 3000.09 等法律与政策作为合规参照。争议集中在：将道德与安全底线交给现行法律与部门解释是否足够，会否允许通过私营数据采购、第三方承包商（如 Palantir）集成或改变部署形式来实现大规模监控与致命用途。事件背景还包括 Anthropic（主张更严格红线的 AI 公司）与 OpenAI 的谈判差异、产业与政府间的采购/投资关系，以及公众对公司治理与政治影响力的持续怀疑。",
-          "emoji": "😡",
-          "sarcastic_question": "只要说合法，是不是就能为任何暴行开绿灯?"
         }
       }
     },
