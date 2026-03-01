@@ -1,9 +1,9 @@
 {
   "date": "2026-03-02",
   "total_feeds": 92,
-  "success_feeds": 85,
-  "total_articles": 2427,
-  "filtered_articles": 14,
+  "success_feeds": 86,
+  "total_articles": 2437,
+  "filtered_articles": 15,
   "articles": [
     {
       "title": "Why on-device agentic AI can't keep up",
@@ -26,6 +26,26 @@
       "rank": 1
     },
     {
+      "title": "\"Why hack the DHS? I can think of a couple Pretti Good reasons!\"",
+      "title_zh": "DHS ICE 合同数据泄露与可视化",
+      "link": "https://micahflee.com/why-hack-the-dhs-i-can-think-of-a-couple-pretti-good-reasons/",
+      "pub_date": "2026-03-01T21:21:35.000Z",
+      "summary": "",
+      "source_name": "micahflee.com",
+      "score": 13,
+      "depth": 2,
+      "novelty": 6,
+      "breadth": 5,
+      "category": "security",
+      "keywords": [
+        "DHS",
+        "ICE",
+        "data leak",
+        "contracts"
+      ],
+      "rank": 2
+    },
+    {
       "title": "The two kinds of error",
       "title_zh": "软件错误的两种分类及处理策略",
       "link": "https://evanhahn.com/the-two-kinds-of-error/",
@@ -43,7 +63,7 @@
         "unexpected errors",
         "reliability"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Shell variable ~-",
@@ -62,7 +82,7 @@
         "shell",
         "OLDPWD"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Killing my inner Necron",
@@ -80,7 +100,7 @@
         "personal",
         "recovery"
       ],
-      "rank": 4
+      "rank": 5
     }
   ]
 }
