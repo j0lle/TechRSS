@@ -1,10 +1,30 @@
 {
   "date": "2026-03-02",
   "total_feeds": 92,
-  "success_feeds": 85,
-  "total_articles": 2426,
-  "filtered_articles": 12,
+  "success_feeds": 86,
+  "total_articles": 2535,
+  "filtered_articles": 14,
   "articles": [
+    {
+      "title": "The two kinds of error",
+      "title_zh": "软件错误的两种分类及处理策略",
+      "link": "https://evanhahn.com/the-two-kinds-of-error/",
+      "pub_date": "2026-03-01T00:00:00.000Z",
+      "summary": "软件错误应分为两类：预期错误属于正常操作的一部分，如用户输入验证失败、网络故障、权限不足，这些不是开发者的错误，应该被优雅处理，返回 Result 类型而非抛出异常，日志级别为 WARN 或 INFO；非预期错误如断言失败、空指针异常、逻辑错误，表明存在 bug，应该让程序崩溃或抛出异常，日志级别为 ERROR 或 FATAL。快速原型可以将所有错误视为非预期，而航天器等关键系统则应将几乎所有错误视为预期。Rust 和 Zig 等语言倾向于将更多错误归类为预期错误，而 JavaScript 和 Python 则相反。",
+      "source_name": "evanhahn.com",
+      "score": 10,
+      "depth": 3,
+      "novelty": 2,
+      "breadth": 5,
+      "category": "engineering",
+      "keywords": [
+        "error handling",
+        "expected errors",
+        "unexpected errors",
+        "reliability"
+      ],
+      "rank": 1
+    },
     {
       "title": "Shell variable ~-",
       "title_zh": "Shell 变量 ~- 的实用技巧",
@@ -22,7 +42,7 @@
         "shell",
         "OLDPWD"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Killing my inner Necron",
@@ -40,7 +60,7 @@
         "personal",
         "recovery"
       ],
-      "rank": 2
+      "rank": 3
     }
   ]
 }
