@@ -1,9 +1,9 @@
 {
   "date": "2026-03-01",
   "total_feeds": 92,
-  "success_feeds": 86,
-  "total_articles": 2435,
-  "filtered_articles": 14,
+  "success_feeds": 85,
+  "total_articles": 2425,
+  "filtered_articles": 13,
   "articles": [
     {
       "title": "Downstream Testing",
@@ -223,6 +223,24 @@
       "rank": 11
     },
     {
+      "title": "Book Review: Under Fire - Black Britain in Wartime by Stephen Bourne ★★★★☆",
+      "title_zh": "二战时期英国黑人历史书评",
+      "link": "https://shkspr.mobi/blog/2026/03/book-review-under-fire-black-britain-in-wartime-by-stephen-bourne/",
+      "pub_date": "2026-03-01T12:34:27.000Z",
+      "summary": "",
+      "source_name": "shkspr.mobi",
+      "score": 6,
+      "depth": 2,
+      "novelty": 2,
+      "breadth": 2,
+      "category": "other",
+      "keywords": [
+        "history",
+        "book review"
+      ],
+      "rank": 12
+    },
+    {
       "title": "HN Skins 0.1.0",
       "title_zh": "HN Skins 0.1.0 发布",
       "link": "https://susam.net/code/news/hnskins/0.1.0.html",
@@ -239,7 +257,7 @@
         "themes",
         "Hacker News"
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "title": "The Most Important Micros",
@@ -257,7 +275,7 @@
         "paywall",
         "substack"
       ],
-      "rank": 13
+      "rank": 14
     }
   ]
 }
