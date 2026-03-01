@@ -1,6 +1,632 @@
 {
-  "updatedAt": "2026-03-01T06:54:18.285Z",
+  "updatedAt": "2026-03-01T07:36:08.304Z",
   "items": [
+    {
+      "id": 47154637,
+      "by": "rbanffy",
+      "title": "A Man Who Stole Infinity",
+      "url": "https://www.quantamagazine.org/the-man-who-stole-infinity-20260225/",
+      "score": 120,
+      "detailUpdatedAt": 1772349224,
+      "createdAt": 1772299834,
+      "aiSummaryUpdatedAt": 1772350064,
+      "aisummary": {
+        "chinese_title": "康托被指剽窃狄德金：代数数可数与实数不可数的署名之争",
+        "emoji": "🤨",
+        "sarcastic_question": "把别人的证明据为己有就叫‘发现’吗？"
+      },
+      "classifications": {
+        "topics": [
+          8
+        ],
+        "facets": [
+          9
+        ],
+        "tags": [
+          "Cantor",
+          "Infinity",
+          "Dedekind",
+          "Real numbers",
+          "Plagiarism",
+          "Quanta Magazine",
+          "AI"
+        ]
+      },
+      "classificationsUpdatedAt": 1772303492,
+      "aiSummary": {
+        "chinese_title": "康托被指剽窃狄德金：代数数可数与实数不可数的署名之争",
+        "emoji": "🤨",
+        "sarcastic_question": "把别人的证明据为己有就叫‘发现’吗？"
+      },
+      "detail": {
+        "id": 47154637,
+        "by": "rbanffy",
+        "title": "A Man Who Stole Infinity",
+        "url": "https://www.quantamagazine.org/the-man-who-stole-infinity-20260225/",
+        "score": 120,
+        "detailUpdatedAt": 1772349224,
+        "createdAt": 1772299834,
+        "aiSummaryUpdatedAt": 1772350064,
+        "aisummary": {
+          "chinese_title": "康托被指剽窃狄德金：代数数可数与实数不可数的署名之争",
+          "discussion_overview": [
+            {
+              "category": "抄袭指控与证据争议",
+              "summary": "争论集中在 Cantor 1872 年论文里两项结果的归属：代数数（algebraic numbers）可数与实数（real numbers）不可数。多条评论指出 Dedekind 在致 Cantor 的信中写出了代数数可数性的证明，并给出了简化实数不可数性证明的思路，而 Cantor 发表时没有对 Dedekind 明确致谢。支持抄袭怀疑的证据包括 Dedekind 自称其证明与发表稿“逐字相同”、他随后停止通信并保存来信稿件等；反对意见则强调代数数可数的证明在逻辑上较为直接，真正重要且非平凡的是 Cantor 关于实数不可数性的贡献。评论里还反复提到当时的学术政治（尤其 Kronecker 的态度）作为 Cantor 未署名或不致谢的可能背景。",
+              "supportid": [
+                "47203763",
+                "47200593",
+                "47200423",
+                "47198603",
+                "47204078",
+                "47204292",
+                "47199320"
+              ]
+            },
+            {
+              "category": "学术合作与署名规范",
+              "summary": "讨论触及如何在讨论或书信往来中划分功劳：有评论把互动比作“rubber duck”式的帮助，指出口头/书信交流里很难在事后公平断定谁做了主要工作。多条评论认为若按当时学术习惯，Dedekind 的系统性写出证明或提供关键简化至少应获得致谢甚至合著署名，但也存在不同学科对何为可被记功的“贡献”标准。评论同时强调 19 世纪学术圈的人际与权力关系（如 Kronecker 的门控）会影响署名和发表路径，因而不能单以现代标准简单判定为剽窃或正当合作。",
+              "supportid": [
+                "47198333",
+                "47201293",
+                "47199320",
+                "47203763"
+              ]
+            },
+            {
+              "category": "数学概念与争点澄清",
+              "summary": "评论对基本概念做了多处澄清：algebraic numbers 是代数方程的根，典型论点是它们可被枚举（countable），而 real numbers 则通过 Cantor 的 diagonalisation 证明不可数（uncountable），并且区间 (0,1) 与整条实线有相同的基数（continuum）。讨论区区分了“密度”（density）与“基数”（cardinality）：有理数虽然在区间内处处稠密却仍为可数，而实数的无“缺口”性质常以 Dedekind completeness（Dedekind 完备性）或序列极限存在性来刻画。评论还提到 computable numbers（可计算数）与代数数同为可数，以及用 Hilbert 的旅馆悖论等直觉性例子来说明不同类型“无穷”的反直觉特征。",
+              "supportid": [
+                "47197754",
+                "47198822",
+                "47198586",
+                "47198423",
+                "47199280",
+                "47203649",
+                "47203766",
+                "47199079"
+              ]
+            },
+            {
+              "category": "媒体准确性与编辑风格批评",
+              "summary": "多名评论批评 Quanta 的事实核查与叙事取向：有人指出文章在 Emmy Noether 的出逃时间与死因上出错，作者被提醒后未回应，这令读者怀疑其它史实的可靠性。评论普遍认为 Quanta 倾向用含糊或情绪化的标题与人情化叙事吸引读者，往往以“人物轶事”代替对数学细节的精确呈现。还有人把当下新闻机构对 AI 的使用与事实核查问题（例如 Ars Technica 的 AI 生成争议与撤稿事件）联系起来，认为当代科普报道面临额外的准确性风险。",
+              "supportid": [
+                "47197471",
+                "47198273",
+                "47198530",
+                "47201207",
+                "47197736",
+                "47198438"
+              ]
+            },
+            {
+              "category": "标题耸动与读者认知差异",
+              "summary": "关于原题“A Man Who Stole Infinity”的争议既是对耸动标题的审视，也是对社区读者背景知识的讨论。部分评论认为对熟悉数学史的读者来说标题过于猎奇且不必要，建议用更中性准确的措辞；另一些人则认为夸张标题能吸引不熟悉 Cantor/Dedekind 背景的读者并激发讨论。讨论中既有对戏谑性头条的调侃，也有对版主/社区定位与审核标准的抱怨，反映出社区在学术深度与可读性之间的分歧。",
+              "supportid": [
+                "47198048",
+                "47198293",
+                "47198224",
+                "47198267",
+                "47198312"
+              ]
+            }
+          ],
+          "terminologies": [
+            {
+              "term": "countable / countability (可数性)",
+              "explanation": "一种集合大小的性质：若集合元素可以与自然数一一对应（枚举），则称为 countable。讨论中用来说明 algebraic numbers（代数数）和 computable numbers 是可数的。"
+            },
+            {
+              "term": "uncountable / uncountability (不可数性)",
+              "explanation": "不能被自然数枚举的集合属性；Cantor 的 diagonalisation 论证显示 real numbers 属于不可数，从而存在比可数无限更大的无限。"
+            },
+            {
+              "term": "algebraic numbers (代数数)",
+              "explanation": "能作为某个有理系数多项式根的数；历史争论里该命题（代数数可数）据称由 Dedekind 在给 Cantor 的信中给出，并后来出现在 Cantor 的论文里。"
+            },
+            {
+              "term": "real numbers / reals (实数)",
+              "explanation": "包含有理数与无理数的数系，具有完备性（Dedekind completeness）；Cantor 关于实数不可数性的证明是讨论焦点之一，也是后来集合论与基数理论的核心。"
+            },
+            {
+              "term": "Dedekind completeness (Dedekind 完备性)",
+              "explanation": "一种实数的完备性描述：任意将实数分成上下两部分的 Dedekind 切（cut）对应某个实数，或等价地每个有界单调序列的极限属于该集合。用来说明“无缺口”的数轴构造。"
+            },
+            {
+              "term": "diagonalisation / Cantor diagonalisation (对角线论证)",
+              "explanation": "Cantor 发明的构造法，通过在假定的枚举列表中逐位改变第 n 项的第 n 个数字，显式构造出不在任何枚举中的元素，从而证明不可数性。"
+            },
+            {
+              "term": "computable numbers (可计算数)",
+              "explanation": "能由算法或图灵机计算其数值的实数集合；评论提到可计算数与代数数同为可数，但与全部实数相比仍然稀少，说明不同“可构造性”概念的区分。"
+            },
+            {
+              "term": "cardinality / 基数",
+              "explanation": "集合的大小概念，允许比较不同无限集合的大小（例如可数与不可数）；讨论中用来说明区间 (0,1) 与整条实线有相同的基数（continuum）。"
+            }
+          ],
+          "context": "Quanta Magazine 发布了一篇以“偷走无限”为题的历史科普文，讲述 Cantor 与 Dedekind 在 19 世纪关于代数数可数性与实数不可数性的交流与争议。原始资料与学术论文（如 Goos 的分析）表明 Cantor 的一篇论文包含两项证明，其中关于代数数可数性的证明在信函中出现过，Dedekind 对证明做了简化建议，而 Cantor 发表时未致谢，学术内部的权力关系（Kronecker 的门控）被指为背景因素。评论既讨论史料证据与署名伦理，也就数学概念本身（countability、uncountability、Dedekind completeness、diagonalisation 等）展开澄清；另有读者批评 Quanta 的编辑风格与事实核查，并把现代媒体使用 AI 的风险提到议题中。",
+          "emoji": "🤨",
+          "sarcastic_question": "把别人的证明据为己有就叫‘发现’吗？"
+        },
+        "classifications": {
+          "topics": [
+            8
+          ],
+          "facets": [
+            9
+          ],
+          "tags": [
+            "Cantor",
+            "Infinity",
+            "Dedekind",
+            "Real numbers",
+            "Plagiarism",
+            "Quanta Magazine",
+            "AI"
+          ]
+        },
+        "classificationsUpdatedAt": 1772303492,
+        "aiSummary": {
+          "chinese_title": "康托被指剽窃狄德金：代数数可数与实数不可数的署名之争",
+          "discussion_overview": [
+            {
+              "category": "抄袭指控与证据争议",
+              "summary": "争论集中在 Cantor 1872 年论文里两项结果的归属：代数数（algebraic numbers）可数与实数（real numbers）不可数。多条评论指出 Dedekind 在致 Cantor 的信中写出了代数数可数性的证明，并给出了简化实数不可数性证明的思路，而 Cantor 发表时没有对 Dedekind 明确致谢。支持抄袭怀疑的证据包括 Dedekind 自称其证明与发表稿“逐字相同”、他随后停止通信并保存来信稿件等；反对意见则强调代数数可数的证明在逻辑上较为直接，真正重要且非平凡的是 Cantor 关于实数不可数性的贡献。评论里还反复提到当时的学术政治（尤其 Kronecker 的态度）作为 Cantor 未署名或不致谢的可能背景。",
+              "supportid": [
+                "47203763",
+                "47200593",
+                "47200423",
+                "47198603",
+                "47204078",
+                "47204292",
+                "47199320"
+              ]
+            },
+            {
+              "category": "学术合作与署名规范",
+              "summary": "讨论触及如何在讨论或书信往来中划分功劳：有评论把互动比作“rubber duck”式的帮助，指出口头/书信交流里很难在事后公平断定谁做了主要工作。多条评论认为若按当时学术习惯，Dedekind 的系统性写出证明或提供关键简化至少应获得致谢甚至合著署名，但也存在不同学科对何为可被记功的“贡献”标准。评论同时强调 19 世纪学术圈的人际与权力关系（如 Kronecker 的门控）会影响署名和发表路径，因而不能单以现代标准简单判定为剽窃或正当合作。",
+              "supportid": [
+                "47198333",
+                "47201293",
+                "47199320",
+                "47203763"
+              ]
+            },
+            {
+              "category": "数学概念与争点澄清",
+              "summary": "评论对基本概念做了多处澄清：algebraic numbers 是代数方程的根，典型论点是它们可被枚举（countable），而 real numbers 则通过 Cantor 的 diagonalisation 证明不可数（uncountable），并且区间 (0,1) 与整条实线有相同的基数（continuum）。讨论区区分了“密度”（density）与“基数”（cardinality）：有理数虽然在区间内处处稠密却仍为可数，而实数的无“缺口”性质常以 Dedekind completeness（Dedekind 完备性）或序列极限存在性来刻画。评论还提到 computable numbers（可计算数）与代数数同为可数，以及用 Hilbert 的旅馆悖论等直觉性例子来说明不同类型“无穷”的反直觉特征。",
+              "supportid": [
+                "47197754",
+                "47198822",
+                "47198586",
+                "47198423",
+                "47199280",
+                "47203649",
+                "47203766",
+                "47199079"
+              ]
+            },
+            {
+              "category": "媒体准确性与编辑风格批评",
+              "summary": "多名评论批评 Quanta 的事实核查与叙事取向：有人指出文章在 Emmy Noether 的出逃时间与死因上出错，作者被提醒后未回应，这令读者怀疑其它史实的可靠性。评论普遍认为 Quanta 倾向用含糊或情绪化的标题与人情化叙事吸引读者，往往以“人物轶事”代替对数学细节的精确呈现。还有人把当下新闻机构对 AI 的使用与事实核查问题（例如 Ars Technica 的 AI 生成争议与撤稿事件）联系起来，认为当代科普报道面临额外的准确性风险。",
+              "supportid": [
+                "47197471",
+                "47198273",
+                "47198530",
+                "47201207",
+                "47197736",
+                "47198438"
+              ]
+            },
+            {
+              "category": "标题耸动与读者认知差异",
+              "summary": "关于原题“A Man Who Stole Infinity”的争议既是对耸动标题的审视，也是对社区读者背景知识的讨论。部分评论认为对熟悉数学史的读者来说标题过于猎奇且不必要，建议用更中性准确的措辞；另一些人则认为夸张标题能吸引不熟悉 Cantor/Dedekind 背景的读者并激发讨论。讨论中既有对戏谑性头条的调侃，也有对版主/社区定位与审核标准的抱怨，反映出社区在学术深度与可读性之间的分歧。",
+              "supportid": [
+                "47198048",
+                "47198293",
+                "47198224",
+                "47198267",
+                "47198312"
+              ]
+            }
+          ],
+          "terminologies": [
+            {
+              "term": "countable / countability (可数性)",
+              "explanation": "一种集合大小的性质：若集合元素可以与自然数一一对应（枚举），则称为 countable。讨论中用来说明 algebraic numbers（代数数）和 computable numbers 是可数的。"
+            },
+            {
+              "term": "uncountable / uncountability (不可数性)",
+              "explanation": "不能被自然数枚举的集合属性；Cantor 的 diagonalisation 论证显示 real numbers 属于不可数，从而存在比可数无限更大的无限。"
+            },
+            {
+              "term": "algebraic numbers (代数数)",
+              "explanation": "能作为某个有理系数多项式根的数；历史争论里该命题（代数数可数）据称由 Dedekind 在给 Cantor 的信中给出，并后来出现在 Cantor 的论文里。"
+            },
+            {
+              "term": "real numbers / reals (实数)",
+              "explanation": "包含有理数与无理数的数系，具有完备性（Dedekind completeness）；Cantor 关于实数不可数性的证明是讨论焦点之一，也是后来集合论与基数理论的核心。"
+            },
+            {
+              "term": "Dedekind completeness (Dedekind 完备性)",
+              "explanation": "一种实数的完备性描述：任意将实数分成上下两部分的 Dedekind 切（cut）对应某个实数，或等价地每个有界单调序列的极限属于该集合。用来说明“无缺口”的数轴构造。"
+            },
+            {
+              "term": "diagonalisation / Cantor diagonalisation (对角线论证)",
+              "explanation": "Cantor 发明的构造法，通过在假定的枚举列表中逐位改变第 n 项的第 n 个数字，显式构造出不在任何枚举中的元素，从而证明不可数性。"
+            },
+            {
+              "term": "computable numbers (可计算数)",
+              "explanation": "能由算法或图灵机计算其数值的实数集合；评论提到可计算数与代数数同为可数，但与全部实数相比仍然稀少，说明不同“可构造性”概念的区分。"
+            },
+            {
+              "term": "cardinality / 基数",
+              "explanation": "集合的大小概念，允许比较不同无限集合的大小（例如可数与不可数）；讨论中用来说明区间 (0,1) 与整条实线有相同的基数（continuum）。"
+            }
+          ],
+          "context": "Quanta Magazine 发布了一篇以“偷走无限”为题的历史科普文，讲述 Cantor 与 Dedekind 在 19 世纪关于代数数可数性与实数不可数性的交流与争议。原始资料与学术论文（如 Goos 的分析）表明 Cantor 的一篇论文包含两项证明，其中关于代数数可数性的证明在信函中出现过，Dedekind 对证明做了简化建议，而 Cantor 发表时未致谢，学术内部的权力关系（Kronecker 的门控）被指为背景因素。评论既讨论史料证据与署名伦理，也就数学概念本身（countability、uncountability、Dedekind completeness、diagonalisation 等）展开澄清；另有读者批评 Quanta 的编辑风格与事实核查，并把现代媒体使用 AI 的风险提到议题中。",
+          "emoji": "🤨",
+          "sarcastic_question": "把别人的证明据为己有就叫‘发现’吗？"
+        }
+      }
+    },
+    {
+      "id": 47195123,
+      "by": "jbdamask",
+      "title": "Show HN: Now I Get It – Translate scientific papers into interactive webpages",
+      "url": "https://nowigetit.us",
+      "score": 226,
+      "detailUpdatedAt": 1772349223,
+      "createdAt": 1772289664,
+      "aiSummaryUpdatedAt": 1772349722,
+      "aisummary": {
+        "chinese_title": "Now I Get It：用 LLM 将论文转成互动网页——100 篇测试，LLM 成本与幻觉问题",
+        "emoji": "🤔",
+        "sarcastic_question": "把论文丢给LLM，就能避免胡编乱造吗？"
+      },
+      "classifications": {
+        "topics": [
+          1,
+          5,
+          8
+        ],
+        "facets": [
+          1,
+          4
+        ],
+        "tags": [
+          "Now I Get It",
+          "nowigetit.us",
+          "scientific papers",
+          "interactive webpages"
+        ]
+      },
+      "classificationsUpdatedAt": 1772294499,
+      "aiSummary": {
+        "chinese_title": "Now I Get It：用 LLM 将论文转成互动网页——100 篇测试，LLM 成本与幻觉问题",
+        "emoji": "🤔",
+        "sarcastic_question": "把论文丢给LLM，就能避免胡编乱造吗？"
+      },
+      "detail": {
+        "id": 47195123,
+        "by": "jbdamask",
+        "title": "Show HN: Now I Get It – Translate scientific papers into interactive webpages",
+        "url": "https://nowigetit.us",
+        "score": 122,
+        "detailUpdatedAt": 1772309593,
+        "createdAt": 1772289664,
+        "aiSummaryUpdatedAt": 1772311319,
+        "aisummary": {
+          "chinese_title": "Now I Get It：用 LLM 把论文变成交互式网页——演示、幻觉与配额问题",
+          "discussion_overview": [
+            {
+              "category": "目标用户与用途",
+              "summary": "评论普遍认为该产品对外行、视觉学习者和需要快速筛选大量论文的人有吸引力：它把论文“翻译”成可交互、易分享的单页展示，便于把研究成果展示给家人或在实验室/公司讨论。开发者也把它定位为把个人把论文丢进 LLM 做快速筛选的习惯产品化，名称 Now I Get It 强调面向 layperson 的解释风格。已有反馈显示学术作者、工程团队和非科学背景用户都看到了直接应用场景，例如把论文或架构文档做成讨论材料或放到实验室网站上。",
+              "supportid": [
+                "47199468",
+                "47199679",
+                "47196789",
+                "47196846",
+                "47196828",
+                "47197055"
+              ]
+            },
+            {
+              "category": "准确性、幻觉与理解检验",
+              "summary": "多个评论指出 LLM 生成的解释并非总可靠，会出现事实性错误与幻觉：有读者拿 \"Attention is All You Need\" 的示例对照，指出对 Q/K/V 的描述不准确、mask 在公式中被忽略以及对 softmax·V 的解释出错。另有人发现模型为原文无表图的论文生成了示意柱状图（页面以 caption 标注为“基于框架的概念示意”），代码区块在可读性上也存在问题。开发者承认质量参差并提供 'Recreate' 重生成功能，但社区对如何验证用户是真正“理解”而不是产生“理解错觉”依然存疑。",
+              "supportid": [
+                "47199035",
+                "47199163",
+                "47199537",
+                "47198044",
+                "47198353",
+                "47198390",
+                "47198485",
+                "47198549",
+                "47198191",
+                "47198308"
+              ]
+            },
+            {
+              "category": "技术限制与文件处理",
+              "summary": "产品当前在文件大小与页数、模型上下文等方面有硬性限制：界面会报 'A maximum of 100 PDF pages may be provided'，且后端没有对长文做 chunking，因此受限于模型的 context window。PDF 本身是渲染格式，直接解析常出错——有人建议把 PDF 渲染为图片再用 OCR 或用能处理图像的模型来提取文字。补充材料（supplemental tables/figures）目前被忽略，评论提出需要像 DocETL 这样的文档 ETL 流程来抽取原始数据以便重绘图表和验证作者结论。",
+              "supportid": [
+                "47197870",
+                "47198364",
+                "47198424",
+                "47198594",
+                "47199037",
+                "47196029",
+                "47196946",
+                "47197271"
+              ]
+            },
+            {
+              "category": "系统提示、安全与防注入",
+              "summary": "开发者公开了详细的 system prompt，明确把上传的 PDF 当作 'UNTRUSTED USER-UPLOADED DATA' 处理，要求模型忽略任何文档内嵌的指令以防 prompt injection。prompt 还列出输出限制：禁止生成外部 <script>、<iframe>、fetch/XMLHttpRequest、访问 document.cookie 或 localStorage、或做跳转，只允许为可视化目的的内联 JS，并限定可接受的 CDN 来源。生成流程要求先以 XML 输出 metadata，再生成单页并在页脚附原文链接与免责声明；为应对质量问题还提供上传者触发的 'Recreate' 功能。",
+              "supportid": [
+                "47197026",
+                "47197543",
+                "47197611",
+                "47198549",
+                "47199217"
+              ]
+            },
+            {
+              "category": "产品化、定价与获取",
+              "summary": "因模型调用成本，开发者对免费使用设置了配额（早期 20 篇/日，后来临时调到 100 篇/日），许多用户碰到 'daily processing limit reached'。评论中有多种变现建议：简单的 cost+ 付费、按篇计费、捐款资助更多示例，或一次性付费获得代码仓库以自托管。开发者目前未开源，正在观测用户反馈来决定商业化路径，很多用户表示若价格合理会愿意付费。",
+              "supportid": [
+                "47199200",
+                "47199343",
+                "47195606",
+                "47195700",
+                "47196625",
+                "47195837",
+                "47196020",
+                "47196919",
+                "47197730",
+                "47195716"
+              ]
+            },
+            {
+              "category": "功能建议与改进",
+              "summary": "社区提出多项可提升价值的功能：增加 'Deep Research' 自动抓取并整合引用与补充材料以便复现与比对，或允许把引用链图谱化；为每个生成页面添加 social preview metatags、可锚定的标题链接和浅色/深色模式以改进可用性。还建议增加更多预置示例并按 NCSES（National Center for Science and Engineering Statistics）的学科分类精细化检索，以及允许上传者微调 prompt、分节重做或切换模型以改善单篇论文的准确性。",
+              "supportid": [
+                "47197357",
+                "47197573",
+                "47196121",
+                "47198500",
+                "47196559",
+                "47197120",
+                "47195808",
+                "47196643",
+                "47196323",
+                "47196472",
+                "47196989",
+                "47197171",
+                "47197364",
+                "47197620"
+              ]
+            },
+            {
+              "category": "生态与竞争担忧",
+              "summary": "有人将该服务与 Google 的 NotebookLM、Emergent Mind 等类应用作比较，认为很多产品只是把相同的 foundation model 封装成不同 UI 的变体。部分评论担忧基础模型高度集中会抑制领域化和微调模型的生态发展，使得个人/领域开发者难以找到差异化生存空间。对此，开发者则持相对乐观态度，认为快速迭代可能带来大量短周期、主题化的创意产品（被比喻为 'Cambrian explosion'），仍有创作与商业机会。",
+              "supportid": [
+                "47197357",
+                "47197573",
+                "47197229",
+                "47197257",
+                "47197555"
+              ]
+            },
+            {
+              "category": "实现与架构细节",
+              "summary": "开发者透露后端实现：生成的 HTML 存在 S3，使用 CloudFront 做 CDN，链接与元数据存在 DDB（DynamoDB），Lambda 负责业务逻辑；同时有 DevLog 记录实现细节。应用目前非开源，且开发者在权衡是否放开代码或用付费方式提供 repo 访问。也有评论指出，同样的交互化摘要可以通过简短 prompt 配合较新的模型（如 Opus 4.5+、Codex 5.2+）自建实现，但会牵涉到成本与工程工作量。",
+              "supportid": [
+                "47196777",
+                "47195716",
+                "47196703",
+                "47196055",
+                "47197755"
+              ]
+            }
+          ],
+          "terminologies": [
+            {
+              "term": "LLM",
+              "explanation": "LLM（Large Language Model，大规模语言模型）：用于理解和生成自然语言，本文用来把论文摘要并生成交互式网页。"
+            },
+            {
+              "term": "prompt injection",
+              "explanation": "prompt injection（提示注入）：指上传文档中嵌入恶意或误导性的指令，试图改变模型行为；system prompt 要求忽略此类内容以保证安全。"
+            },
+            {
+              "term": "OCR",
+              "explanation": "OCR（Optical Character Recognition，光学字符识别）：把图片或 PDF 渲染图像中的文字识别为可编辑文本，常用于解析无法直接抽取文字的 PDF。"
+            },
+            {
+              "term": "context window / chunking",
+              "explanation": "context window（模型上下文窗口）是 LLM 一次能处理的最大 token 数；chunking（分块处理）是把长文分为小段顺序处理以规避上下文限制并保持连贯性。"
+            },
+            {
+              "term": "DocETL",
+              "explanation": "DocETL（文档 ETL）：一类用于从论文和补充材料中抽取结构化数据、表格与方法的工具或流水线，便于重现分析与绘图。"
+            },
+            {
+              "term": "S3 / CloudFront / DDB / Lambdas",
+              "explanation": "AWS 技术栈说明：S3 用于存储静态 HTML，CloudFront 做 CDN 分发，DDB 指 DynamoDB 存放元数据，Lambdas 指 serverless 函数处理业务逻辑。"
+            }
+          ],
+          "context": "Now I Get It 是一个把科研论文用 LLM 转成交互式单页网页的演示项目，开发者通过严格的 system prompt 与输出限制来尝试防止 prompt injection 并生成安全的前端交互。讨论集中在三个现实问题：LLM 生成内容的准确性与幻觉（例如为无表图的论文生成示意图或错误解释 Attention 机制）、PDF 与补充材料解析的技术难题（需要 OCR 或 DocETL 类的流水线来抽表与方法）、以及成本/配额与是否自托管的商业取舍。社区把该工具与 Google 的 NotebookLM、Emergent Mind 等相似产品作比较，并提出功能改进（抓取引用、锚点、社媒预览、NCSES 学科分类等）与定价建议。",
+          "emoji": "🤔",
+          "sarcastic_question": "把论文翻译成网页很酷，但谁来证明读懂了？"
+        },
+        "classifications": {
+          "topics": [
+            1,
+            5,
+            8
+          ],
+          "facets": [
+            1,
+            4
+          ],
+          "tags": [
+            "Now I Get It",
+            "nowigetit.us",
+            "scientific papers",
+            "interactive webpages"
+          ]
+        },
+        "classificationsUpdatedAt": 1772294499,
+        "aiSummary": {
+          "chinese_title": "Now I Get It：用 LLM 把论文变成交互式网页——演示、幻觉与配额问题",
+          "discussion_overview": [
+            {
+              "category": "目标用户与用途",
+              "summary": "评论普遍认为该产品对外行、视觉学习者和需要快速筛选大量论文的人有吸引力：它把论文“翻译”成可交互、易分享的单页展示，便于把研究成果展示给家人或在实验室/公司讨论。开发者也把它定位为把个人把论文丢进 LLM 做快速筛选的习惯产品化，名称 Now I Get It 强调面向 layperson 的解释风格。已有反馈显示学术作者、工程团队和非科学背景用户都看到了直接应用场景，例如把论文或架构文档做成讨论材料或放到实验室网站上。",
+              "supportid": [
+                "47199468",
+                "47199679",
+                "47196789",
+                "47196846",
+                "47196828",
+                "47197055"
+              ]
+            },
+            {
+              "category": "准确性、幻觉与理解检验",
+              "summary": "多个评论指出 LLM 生成的解释并非总可靠，会出现事实性错误与幻觉：有读者拿 \"Attention is All You Need\" 的示例对照，指出对 Q/K/V 的描述不准确、mask 在公式中被忽略以及对 softmax·V 的解释出错。另有人发现模型为原文无表图的论文生成了示意柱状图（页面以 caption 标注为“基于框架的概念示意”），代码区块在可读性上也存在问题。开发者承认质量参差并提供 'Recreate' 重生成功能，但社区对如何验证用户是真正“理解”而不是产生“理解错觉”依然存疑。",
+              "supportid": [
+                "47199035",
+                "47199163",
+                "47199537",
+                "47198044",
+                "47198353",
+                "47198390",
+                "47198485",
+                "47198549",
+                "47198191",
+                "47198308"
+              ]
+            },
+            {
+              "category": "技术限制与文件处理",
+              "summary": "产品当前在文件大小与页数、模型上下文等方面有硬性限制：界面会报 'A maximum of 100 PDF pages may be provided'，且后端没有对长文做 chunking，因此受限于模型的 context window。PDF 本身是渲染格式，直接解析常出错——有人建议把 PDF 渲染为图片再用 OCR 或用能处理图像的模型来提取文字。补充材料（supplemental tables/figures）目前被忽略，评论提出需要像 DocETL 这样的文档 ETL 流程来抽取原始数据以便重绘图表和验证作者结论。",
+              "supportid": [
+                "47197870",
+                "47198364",
+                "47198424",
+                "47198594",
+                "47199037",
+                "47196029",
+                "47196946",
+                "47197271"
+              ]
+            },
+            {
+              "category": "系统提示、安全与防注入",
+              "summary": "开发者公开了详细的 system prompt，明确把上传的 PDF 当作 'UNTRUSTED USER-UPLOADED DATA' 处理，要求模型忽略任何文档内嵌的指令以防 prompt injection。prompt 还列出输出限制：禁止生成外部 <script>、<iframe>、fetch/XMLHttpRequest、访问 document.cookie 或 localStorage、或做跳转，只允许为可视化目的的内联 JS，并限定可接受的 CDN 来源。生成流程要求先以 XML 输出 metadata，再生成单页并在页脚附原文链接与免责声明；为应对质量问题还提供上传者触发的 'Recreate' 功能。",
+              "supportid": [
+                "47197026",
+                "47197543",
+                "47197611",
+                "47198549",
+                "47199217"
+              ]
+            },
+            {
+              "category": "产品化、定价与获取",
+              "summary": "因模型调用成本，开发者对免费使用设置了配额（早期 20 篇/日，后来临时调到 100 篇/日），许多用户碰到 'daily processing limit reached'。评论中有多种变现建议：简单的 cost+ 付费、按篇计费、捐款资助更多示例，或一次性付费获得代码仓库以自托管。开发者目前未开源，正在观测用户反馈来决定商业化路径，很多用户表示若价格合理会愿意付费。",
+              "supportid": [
+                "47199200",
+                "47199343",
+                "47195606",
+                "47195700",
+                "47196625",
+                "47195837",
+                "47196020",
+                "47196919",
+                "47197730",
+                "47195716"
+              ]
+            },
+            {
+              "category": "功能建议与改进",
+              "summary": "社区提出多项可提升价值的功能：增加 'Deep Research' 自动抓取并整合引用与补充材料以便复现与比对，或允许把引用链图谱化；为每个生成页面添加 social preview metatags、可锚定的标题链接和浅色/深色模式以改进可用性。还建议增加更多预置示例并按 NCSES（National Center for Science and Engineering Statistics）的学科分类精细化检索，以及允许上传者微调 prompt、分节重做或切换模型以改善单篇论文的准确性。",
+              "supportid": [
+                "47197357",
+                "47197573",
+                "47196121",
+                "47198500",
+                "47196559",
+                "47197120",
+                "47195808",
+                "47196643",
+                "47196323",
+                "47196472",
+                "47196989",
+                "47197171",
+                "47197364",
+                "47197620"
+              ]
+            },
+            {
+              "category": "生态与竞争担忧",
+              "summary": "有人将该服务与 Google 的 NotebookLM、Emergent Mind 等类应用作比较，认为很多产品只是把相同的 foundation model 封装成不同 UI 的变体。部分评论担忧基础模型高度集中会抑制领域化和微调模型的生态发展，使得个人/领域开发者难以找到差异化生存空间。对此，开发者则持相对乐观态度，认为快速迭代可能带来大量短周期、主题化的创意产品（被比喻为 'Cambrian explosion'），仍有创作与商业机会。",
+              "supportid": [
+                "47197357",
+                "47197573",
+                "47197229",
+                "47197257",
+                "47197555"
+              ]
+            },
+            {
+              "category": "实现与架构细节",
+              "summary": "开发者透露后端实现：生成的 HTML 存在 S3，使用 CloudFront 做 CDN，链接与元数据存在 DDB（DynamoDB），Lambda 负责业务逻辑；同时有 DevLog 记录实现细节。应用目前非开源，且开发者在权衡是否放开代码或用付费方式提供 repo 访问。也有评论指出，同样的交互化摘要可以通过简短 prompt 配合较新的模型（如 Opus 4.5+、Codex 5.2+）自建实现，但会牵涉到成本与工程工作量。",
+              "supportid": [
+                "47196777",
+                "47195716",
+                "47196703",
+                "47196055",
+                "47197755"
+              ]
+            }
+          ],
+          "terminologies": [
+            {
+              "term": "LLM",
+              "explanation": "LLM（Large Language Model，大规模语言模型）：用于理解和生成自然语言，本文用来把论文摘要并生成交互式网页。"
+            },
+            {
+              "term": "prompt injection",
+              "explanation": "prompt injection（提示注入）：指上传文档中嵌入恶意或误导性的指令，试图改变模型行为；system prompt 要求忽略此类内容以保证安全。"
+            },
+            {
+              "term": "OCR",
+              "explanation": "OCR（Optical Character Recognition，光学字符识别）：把图片或 PDF 渲染图像中的文字识别为可编辑文本，常用于解析无法直接抽取文字的 PDF。"
+            },
+            {
+              "term": "context window / chunking",
+              "explanation": "context window（模型上下文窗口）是 LLM 一次能处理的最大 token 数；chunking（分块处理）是把长文分为小段顺序处理以规避上下文限制并保持连贯性。"
+            },
+            {
+              "term": "DocETL",
+              "explanation": "DocETL（文档 ETL）：一类用于从论文和补充材料中抽取结构化数据、表格与方法的工具或流水线，便于重现分析与绘图。"
+            },
+            {
+              "term": "S3 / CloudFront / DDB / Lambdas",
+              "explanation": "AWS 技术栈说明：S3 用于存储静态 HTML，CloudFront 做 CDN 分发，DDB 指 DynamoDB 存放元数据，Lambdas 指 serverless 函数处理业务逻辑。"
+            }
+          ],
+          "context": "Now I Get It 是一个把科研论文用 LLM 转成交互式单页网页的演示项目，开发者通过严格的 system prompt 与输出限制来尝试防止 prompt injection 并生成安全的前端交互。讨论集中在三个现实问题：LLM 生成内容的准确性与幻觉（例如为无表图的论文生成示意图或错误解释 Attention 机制）、PDF 与补充材料解析的技术难题（需要 OCR 或 DocETL 类的流水线来抽表与方法）、以及成本/配额与是否自托管的商业取舍。社区把该工具与 Google 的 NotebookLM、Emergent Mind 等相似产品作比较，并提出功能改进（抓取引用、锚点、社媒预览、NCSES 学科分类等）与定价建议。",
+          "emoji": "🤔",
+          "sarcastic_question": "把论文翻译成网页很酷，但谁来证明读懂了？"
+        }
+      }
+    },
     {
       "id": 47202708,
       "by": "tambourine_man",
@@ -5336,362 +5962,6 @@
           "context": "以色列宣布对伊朗发动打击并令全国进入紧急状态，随后外界迅速曝出美国亦参与并在中东调动舰队与军机。讨论把这次行动放回近年的几个关键背景：2015年的JCPOA核协议被美国退出后伊朗核活动的回升、近期伊朗国内广泛抗议与政府镇压的指控、以及去年10月7日之后持续的巴以冲突与区域代理战争。评论同时把事件与美国国内的Epstein未公开档案、特朗普与以色列领导人的司法与政治困境联系起来，认为动机可能混合地缘安全、国内政治与舆论管理。读者应了解评论里常提到的专有名词：JCPOA（伊朗核协议）、IRGC（伊朗伊斯兰革命卫队）与Quds Force（IRGC对外行动单位）、Polymarket（预测市场）等，以便理解各方论点和证据来源。",
           "emoji": "⚠️",
           "sarcastic_question": "打这场仗：保选票、保以色列，还是掩盖Epstein？"
-        }
-      }
-    },
-    {
-      "id": 47195123,
-      "by": "jbdamask",
-      "title": "Show HN: Now I Get It – Translate scientific papers into interactive webpages",
-      "url": "https://nowigetit.us",
-      "score": 122,
-      "detailUpdatedAt": 1772309593,
-      "createdAt": 1772289664,
-      "aiSummaryUpdatedAt": 1772311319,
-      "aisummary": {
-        "chinese_title": "Now I Get It：用 LLM 把论文变成交互式网页——演示、幻觉与配额问题",
-        "emoji": "🤔",
-        "sarcastic_question": "把论文翻译成网页很酷，但谁来证明读懂了？"
-      },
-      "classifications": {
-        "topics": [
-          1,
-          5,
-          8
-        ],
-        "facets": [
-          1,
-          4
-        ],
-        "tags": [
-          "Now I Get It",
-          "nowigetit.us",
-          "scientific papers",
-          "interactive webpages"
-        ]
-      },
-      "classificationsUpdatedAt": 1772294499,
-      "aiSummary": {
-        "chinese_title": "Now I Get It：用 LLM 把论文变成交互式网页——演示、幻觉与配额问题",
-        "emoji": "🤔",
-        "sarcastic_question": "把论文翻译成网页很酷，但谁来证明读懂了？"
-      },
-      "detail": {
-        "id": 47195123,
-        "by": "jbdamask",
-        "title": "Show HN: Now I Get It – Translate scientific papers into interactive webpages",
-        "url": "https://nowigetit.us",
-        "score": 122,
-        "detailUpdatedAt": 1772309593,
-        "createdAt": 1772289664,
-        "aiSummaryUpdatedAt": 1772311319,
-        "aisummary": {
-          "chinese_title": "Now I Get It：用 LLM 把论文变成交互式网页——演示、幻觉与配额问题",
-          "discussion_overview": [
-            {
-              "category": "目标用户与用途",
-              "summary": "评论普遍认为该产品对外行、视觉学习者和需要快速筛选大量论文的人有吸引力：它把论文“翻译”成可交互、易分享的单页展示，便于把研究成果展示给家人或在实验室/公司讨论。开发者也把它定位为把个人把论文丢进 LLM 做快速筛选的习惯产品化，名称 Now I Get It 强调面向 layperson 的解释风格。已有反馈显示学术作者、工程团队和非科学背景用户都看到了直接应用场景，例如把论文或架构文档做成讨论材料或放到实验室网站上。",
-              "supportid": [
-                "47199468",
-                "47199679",
-                "47196789",
-                "47196846",
-                "47196828",
-                "47197055"
-              ]
-            },
-            {
-              "category": "准确性、幻觉与理解检验",
-              "summary": "多个评论指出 LLM 生成的解释并非总可靠，会出现事实性错误与幻觉：有读者拿 \"Attention is All You Need\" 的示例对照，指出对 Q/K/V 的描述不准确、mask 在公式中被忽略以及对 softmax·V 的解释出错。另有人发现模型为原文无表图的论文生成了示意柱状图（页面以 caption 标注为“基于框架的概念示意”），代码区块在可读性上也存在问题。开发者承认质量参差并提供 'Recreate' 重生成功能，但社区对如何验证用户是真正“理解”而不是产生“理解错觉”依然存疑。",
-              "supportid": [
-                "47199035",
-                "47199163",
-                "47199537",
-                "47198044",
-                "47198353",
-                "47198390",
-                "47198485",
-                "47198549",
-                "47198191",
-                "47198308"
-              ]
-            },
-            {
-              "category": "技术限制与文件处理",
-              "summary": "产品当前在文件大小与页数、模型上下文等方面有硬性限制：界面会报 'A maximum of 100 PDF pages may be provided'，且后端没有对长文做 chunking，因此受限于模型的 context window。PDF 本身是渲染格式，直接解析常出错——有人建议把 PDF 渲染为图片再用 OCR 或用能处理图像的模型来提取文字。补充材料（supplemental tables/figures）目前被忽略，评论提出需要像 DocETL 这样的文档 ETL 流程来抽取原始数据以便重绘图表和验证作者结论。",
-              "supportid": [
-                "47197870",
-                "47198364",
-                "47198424",
-                "47198594",
-                "47199037",
-                "47196029",
-                "47196946",
-                "47197271"
-              ]
-            },
-            {
-              "category": "系统提示、安全与防注入",
-              "summary": "开发者公开了详细的 system prompt，明确把上传的 PDF 当作 'UNTRUSTED USER-UPLOADED DATA' 处理，要求模型忽略任何文档内嵌的指令以防 prompt injection。prompt 还列出输出限制：禁止生成外部 <script>、<iframe>、fetch/XMLHttpRequest、访问 document.cookie 或 localStorage、或做跳转，只允许为可视化目的的内联 JS，并限定可接受的 CDN 来源。生成流程要求先以 XML 输出 metadata，再生成单页并在页脚附原文链接与免责声明；为应对质量问题还提供上传者触发的 'Recreate' 功能。",
-              "supportid": [
-                "47197026",
-                "47197543",
-                "47197611",
-                "47198549",
-                "47199217"
-              ]
-            },
-            {
-              "category": "产品化、定价与获取",
-              "summary": "因模型调用成本，开发者对免费使用设置了配额（早期 20 篇/日，后来临时调到 100 篇/日），许多用户碰到 'daily processing limit reached'。评论中有多种变现建议：简单的 cost+ 付费、按篇计费、捐款资助更多示例，或一次性付费获得代码仓库以自托管。开发者目前未开源，正在观测用户反馈来决定商业化路径，很多用户表示若价格合理会愿意付费。",
-              "supportid": [
-                "47199200",
-                "47199343",
-                "47195606",
-                "47195700",
-                "47196625",
-                "47195837",
-                "47196020",
-                "47196919",
-                "47197730",
-                "47195716"
-              ]
-            },
-            {
-              "category": "功能建议与改进",
-              "summary": "社区提出多项可提升价值的功能：增加 'Deep Research' 自动抓取并整合引用与补充材料以便复现与比对，或允许把引用链图谱化；为每个生成页面添加 social preview metatags、可锚定的标题链接和浅色/深色模式以改进可用性。还建议增加更多预置示例并按 NCSES（National Center for Science and Engineering Statistics）的学科分类精细化检索，以及允许上传者微调 prompt、分节重做或切换模型以改善单篇论文的准确性。",
-              "supportid": [
-                "47197357",
-                "47197573",
-                "47196121",
-                "47198500",
-                "47196559",
-                "47197120",
-                "47195808",
-                "47196643",
-                "47196323",
-                "47196472",
-                "47196989",
-                "47197171",
-                "47197364",
-                "47197620"
-              ]
-            },
-            {
-              "category": "生态与竞争担忧",
-              "summary": "有人将该服务与 Google 的 NotebookLM、Emergent Mind 等类应用作比较，认为很多产品只是把相同的 foundation model 封装成不同 UI 的变体。部分评论担忧基础模型高度集中会抑制领域化和微调模型的生态发展，使得个人/领域开发者难以找到差异化生存空间。对此，开发者则持相对乐观态度，认为快速迭代可能带来大量短周期、主题化的创意产品（被比喻为 'Cambrian explosion'），仍有创作与商业机会。",
-              "supportid": [
-                "47197357",
-                "47197573",
-                "47197229",
-                "47197257",
-                "47197555"
-              ]
-            },
-            {
-              "category": "实现与架构细节",
-              "summary": "开发者透露后端实现：生成的 HTML 存在 S3，使用 CloudFront 做 CDN，链接与元数据存在 DDB（DynamoDB），Lambda 负责业务逻辑；同时有 DevLog 记录实现细节。应用目前非开源，且开发者在权衡是否放开代码或用付费方式提供 repo 访问。也有评论指出，同样的交互化摘要可以通过简短 prompt 配合较新的模型（如 Opus 4.5+、Codex 5.2+）自建实现，但会牵涉到成本与工程工作量。",
-              "supportid": [
-                "47196777",
-                "47195716",
-                "47196703",
-                "47196055",
-                "47197755"
-              ]
-            }
-          ],
-          "terminologies": [
-            {
-              "term": "LLM",
-              "explanation": "LLM（Large Language Model，大规模语言模型）：用于理解和生成自然语言，本文用来把论文摘要并生成交互式网页。"
-            },
-            {
-              "term": "prompt injection",
-              "explanation": "prompt injection（提示注入）：指上传文档中嵌入恶意或误导性的指令，试图改变模型行为；system prompt 要求忽略此类内容以保证安全。"
-            },
-            {
-              "term": "OCR",
-              "explanation": "OCR（Optical Character Recognition，光学字符识别）：把图片或 PDF 渲染图像中的文字识别为可编辑文本，常用于解析无法直接抽取文字的 PDF。"
-            },
-            {
-              "term": "context window / chunking",
-              "explanation": "context window（模型上下文窗口）是 LLM 一次能处理的最大 token 数；chunking（分块处理）是把长文分为小段顺序处理以规避上下文限制并保持连贯性。"
-            },
-            {
-              "term": "DocETL",
-              "explanation": "DocETL（文档 ETL）：一类用于从论文和补充材料中抽取结构化数据、表格与方法的工具或流水线，便于重现分析与绘图。"
-            },
-            {
-              "term": "S3 / CloudFront / DDB / Lambdas",
-              "explanation": "AWS 技术栈说明：S3 用于存储静态 HTML，CloudFront 做 CDN 分发，DDB 指 DynamoDB 存放元数据，Lambdas 指 serverless 函数处理业务逻辑。"
-            }
-          ],
-          "context": "Now I Get It 是一个把科研论文用 LLM 转成交互式单页网页的演示项目，开发者通过严格的 system prompt 与输出限制来尝试防止 prompt injection 并生成安全的前端交互。讨论集中在三个现实问题：LLM 生成内容的准确性与幻觉（例如为无表图的论文生成示意图或错误解释 Attention 机制）、PDF 与补充材料解析的技术难题（需要 OCR 或 DocETL 类的流水线来抽表与方法）、以及成本/配额与是否自托管的商业取舍。社区把该工具与 Google 的 NotebookLM、Emergent Mind 等相似产品作比较，并提出功能改进（抓取引用、锚点、社媒预览、NCSES 学科分类等）与定价建议。",
-          "emoji": "🤔",
-          "sarcastic_question": "把论文翻译成网页很酷，但谁来证明读懂了？"
-        },
-        "classifications": {
-          "topics": [
-            1,
-            5,
-            8
-          ],
-          "facets": [
-            1,
-            4
-          ],
-          "tags": [
-            "Now I Get It",
-            "nowigetit.us",
-            "scientific papers",
-            "interactive webpages"
-          ]
-        },
-        "classificationsUpdatedAt": 1772294499,
-        "aiSummary": {
-          "chinese_title": "Now I Get It：用 LLM 把论文变成交互式网页——演示、幻觉与配额问题",
-          "discussion_overview": [
-            {
-              "category": "目标用户与用途",
-              "summary": "评论普遍认为该产品对外行、视觉学习者和需要快速筛选大量论文的人有吸引力：它把论文“翻译”成可交互、易分享的单页展示，便于把研究成果展示给家人或在实验室/公司讨论。开发者也把它定位为把个人把论文丢进 LLM 做快速筛选的习惯产品化，名称 Now I Get It 强调面向 layperson 的解释风格。已有反馈显示学术作者、工程团队和非科学背景用户都看到了直接应用场景，例如把论文或架构文档做成讨论材料或放到实验室网站上。",
-              "supportid": [
-                "47199468",
-                "47199679",
-                "47196789",
-                "47196846",
-                "47196828",
-                "47197055"
-              ]
-            },
-            {
-              "category": "准确性、幻觉与理解检验",
-              "summary": "多个评论指出 LLM 生成的解释并非总可靠，会出现事实性错误与幻觉：有读者拿 \"Attention is All You Need\" 的示例对照，指出对 Q/K/V 的描述不准确、mask 在公式中被忽略以及对 softmax·V 的解释出错。另有人发现模型为原文无表图的论文生成了示意柱状图（页面以 caption 标注为“基于框架的概念示意”），代码区块在可读性上也存在问题。开发者承认质量参差并提供 'Recreate' 重生成功能，但社区对如何验证用户是真正“理解”而不是产生“理解错觉”依然存疑。",
-              "supportid": [
-                "47199035",
-                "47199163",
-                "47199537",
-                "47198044",
-                "47198353",
-                "47198390",
-                "47198485",
-                "47198549",
-                "47198191",
-                "47198308"
-              ]
-            },
-            {
-              "category": "技术限制与文件处理",
-              "summary": "产品当前在文件大小与页数、模型上下文等方面有硬性限制：界面会报 'A maximum of 100 PDF pages may be provided'，且后端没有对长文做 chunking，因此受限于模型的 context window。PDF 本身是渲染格式，直接解析常出错——有人建议把 PDF 渲染为图片再用 OCR 或用能处理图像的模型来提取文字。补充材料（supplemental tables/figures）目前被忽略，评论提出需要像 DocETL 这样的文档 ETL 流程来抽取原始数据以便重绘图表和验证作者结论。",
-              "supportid": [
-                "47197870",
-                "47198364",
-                "47198424",
-                "47198594",
-                "47199037",
-                "47196029",
-                "47196946",
-                "47197271"
-              ]
-            },
-            {
-              "category": "系统提示、安全与防注入",
-              "summary": "开发者公开了详细的 system prompt，明确把上传的 PDF 当作 'UNTRUSTED USER-UPLOADED DATA' 处理，要求模型忽略任何文档内嵌的指令以防 prompt injection。prompt 还列出输出限制：禁止生成外部 <script>、<iframe>、fetch/XMLHttpRequest、访问 document.cookie 或 localStorage、或做跳转，只允许为可视化目的的内联 JS，并限定可接受的 CDN 来源。生成流程要求先以 XML 输出 metadata，再生成单页并在页脚附原文链接与免责声明；为应对质量问题还提供上传者触发的 'Recreate' 功能。",
-              "supportid": [
-                "47197026",
-                "47197543",
-                "47197611",
-                "47198549",
-                "47199217"
-              ]
-            },
-            {
-              "category": "产品化、定价与获取",
-              "summary": "因模型调用成本，开发者对免费使用设置了配额（早期 20 篇/日，后来临时调到 100 篇/日），许多用户碰到 'daily processing limit reached'。评论中有多种变现建议：简单的 cost+ 付费、按篇计费、捐款资助更多示例，或一次性付费获得代码仓库以自托管。开发者目前未开源，正在观测用户反馈来决定商业化路径，很多用户表示若价格合理会愿意付费。",
-              "supportid": [
-                "47199200",
-                "47199343",
-                "47195606",
-                "47195700",
-                "47196625",
-                "47195837",
-                "47196020",
-                "47196919",
-                "47197730",
-                "47195716"
-              ]
-            },
-            {
-              "category": "功能建议与改进",
-              "summary": "社区提出多项可提升价值的功能：增加 'Deep Research' 自动抓取并整合引用与补充材料以便复现与比对，或允许把引用链图谱化；为每个生成页面添加 social preview metatags、可锚定的标题链接和浅色/深色模式以改进可用性。还建议增加更多预置示例并按 NCSES（National Center for Science and Engineering Statistics）的学科分类精细化检索，以及允许上传者微调 prompt、分节重做或切换模型以改善单篇论文的准确性。",
-              "supportid": [
-                "47197357",
-                "47197573",
-                "47196121",
-                "47198500",
-                "47196559",
-                "47197120",
-                "47195808",
-                "47196643",
-                "47196323",
-                "47196472",
-                "47196989",
-                "47197171",
-                "47197364",
-                "47197620"
-              ]
-            },
-            {
-              "category": "生态与竞争担忧",
-              "summary": "有人将该服务与 Google 的 NotebookLM、Emergent Mind 等类应用作比较，认为很多产品只是把相同的 foundation model 封装成不同 UI 的变体。部分评论担忧基础模型高度集中会抑制领域化和微调模型的生态发展，使得个人/领域开发者难以找到差异化生存空间。对此，开发者则持相对乐观态度，认为快速迭代可能带来大量短周期、主题化的创意产品（被比喻为 'Cambrian explosion'），仍有创作与商业机会。",
-              "supportid": [
-                "47197357",
-                "47197573",
-                "47197229",
-                "47197257",
-                "47197555"
-              ]
-            },
-            {
-              "category": "实现与架构细节",
-              "summary": "开发者透露后端实现：生成的 HTML 存在 S3，使用 CloudFront 做 CDN，链接与元数据存在 DDB（DynamoDB），Lambda 负责业务逻辑；同时有 DevLog 记录实现细节。应用目前非开源，且开发者在权衡是否放开代码或用付费方式提供 repo 访问。也有评论指出，同样的交互化摘要可以通过简短 prompt 配合较新的模型（如 Opus 4.5+、Codex 5.2+）自建实现，但会牵涉到成本与工程工作量。",
-              "supportid": [
-                "47196777",
-                "47195716",
-                "47196703",
-                "47196055",
-                "47197755"
-              ]
-            }
-          ],
-          "terminologies": [
-            {
-              "term": "LLM",
-              "explanation": "LLM（Large Language Model，大规模语言模型）：用于理解和生成自然语言，本文用来把论文摘要并生成交互式网页。"
-            },
-            {
-              "term": "prompt injection",
-              "explanation": "prompt injection（提示注入）：指上传文档中嵌入恶意或误导性的指令，试图改变模型行为；system prompt 要求忽略此类内容以保证安全。"
-            },
-            {
-              "term": "OCR",
-              "explanation": "OCR（Optical Character Recognition，光学字符识别）：把图片或 PDF 渲染图像中的文字识别为可编辑文本，常用于解析无法直接抽取文字的 PDF。"
-            },
-            {
-              "term": "context window / chunking",
-              "explanation": "context window（模型上下文窗口）是 LLM 一次能处理的最大 token 数；chunking（分块处理）是把长文分为小段顺序处理以规避上下文限制并保持连贯性。"
-            },
-            {
-              "term": "DocETL",
-              "explanation": "DocETL（文档 ETL）：一类用于从论文和补充材料中抽取结构化数据、表格与方法的工具或流水线，便于重现分析与绘图。"
-            },
-            {
-              "term": "S3 / CloudFront / DDB / Lambdas",
-              "explanation": "AWS 技术栈说明：S3 用于存储静态 HTML，CloudFront 做 CDN 分发，DDB 指 DynamoDB 存放元数据，Lambdas 指 serverless 函数处理业务逻辑。"
-            }
-          ],
-          "context": "Now I Get It 是一个把科研论文用 LLM 转成交互式单页网页的演示项目，开发者通过严格的 system prompt 与输出限制来尝试防止 prompt injection 并生成安全的前端交互。讨论集中在三个现实问题：LLM 生成内容的准确性与幻觉（例如为无表图的论文生成示意图或错误解释 Attention 机制）、PDF 与补充材料解析的技术难题（需要 OCR 或 DocETL 类的流水线来抽表与方法）、以及成本/配额与是否自托管的商业取舍。社区把该工具与 Google 的 NotebookLM、Emergent Mind 等相似产品作比较，并提出功能改进（抓取引用、锚点、社媒预览、NCSES 学科分类等）与定价建议。",
-          "emoji": "🤔",
-          "sarcastic_question": "把论文翻译成网页很酷，但谁来证明读懂了？"
         }
       }
     },
@@ -13340,284 +13610,6 @@
           "context": "IDC（市场研究机构）和媒体报道指出 2026 年智能手机出货或下滑约 13%，主因被归为内存（DRAM）供应短缺与成本上升，这会抬高整机 BOM 并压缩入门机利润。讨论把短缺原因延伸到 AI 数据中心对高容量内存（包括用于加速器的 HBM）的急速需求、少数大买家（有人点名 OpenAI）的大额采购，以及 DRAM 产业过去的价格操纵与产能节奏。话题同时牵涉到用户级体验（如 iOS / Safari 后台回收、应用为算法交互刷新的设计）、厂商为本地 AI 预留内存的策略、游戏主机与高端笔记本的内存预算，以及二手/翻新市场的短期回暖。评论在指责市场操纵、呼吁软件优化和适应二手市场之间分歧明显，反映出技术细节与产业、政策层面的交织影响。",
           "emoji": "😡",
           "sarcastic_question": "这是为AI发展买内存，还是给大厂锁市场？"
-        }
-      }
-    },
-    {
-      "id": 47181801,
-      "by": "shad42",
-      "title": "We gave terabytes of CI logs to an LLM",
-      "url": "https://www.mendral.com/blog/llms-are-good-at-sql",
-      "score": 121,
-      "detailUpdatedAt": 1772224987,
-      "createdAt": 1772208035,
-      "aiSummaryUpdatedAt": 1772226983,
-      "aisummary": {
-        "chinese_title": "用 LLM 分析 TB 级 CI 日志：分层 agent + SQL、过滤与成本争议",
-        "emoji": "🔎",
-        "sarcastic_question": "把几TB CI 日志丢给LLM就能替代平台工程师吗？"
-      },
-      "classifications": {
-        "topics": [
-          1,
-          6,
-          4
-        ],
-        "facets": [
-          5,
-          9
-        ],
-        "tags": [
-          "LLMs",
-          "SQL",
-          "CI logs",
-          "Observability",
-          "Mendral",
-          "Agents",
-          "RLM"
-        ]
-      },
-      "classificationsUpdatedAt": 1772211708,
-      "aiSummary": {
-        "chinese_title": "用 LLM 分析 TB 级 CI 日志：分层 agent + SQL、过滤与成本争议",
-        "emoji": "🔎",
-        "sarcastic_question": "把几TB CI 日志丢给LLM就能替代平台工程师吗？"
-      },
-      "detail": {
-        "id": 47181801,
-        "by": "shad42",
-        "title": "We gave terabytes of CI logs to an LLM",
-        "url": "https://www.mendral.com/blog/llms-are-good-at-sql",
-        "score": 121,
-        "detailUpdatedAt": 1772224987,
-        "createdAt": 1772208035,
-        "aiSummaryUpdatedAt": 1772226983,
-        "aisummary": {
-          "chinese_title": "用 LLM 分析 TB 级 CI 日志：分层 agent + SQL、过滤与成本争议",
-          "discussion_overview": [
-            {
-              "category": "分层 agent + SQL 的可行性与实践",
-              "summary": "许多评论支持用主/子 agent 分层编排来处理海量日志：主 agent（文中提到 Opus 4.6）负责做大局判断并下发狭窄的“log research”任务给子 agent（如 Haiku 4.5），子 agent 在限定子集上用 SQL/ClickHouse 执行相当于 tail/grep 的查询并只返回相关片段。父 agent 对这些片段进行关联、决定是否扩展查询或生成后续任务，从而避免把大量原始日志直接塞入上下文窗口。作者与多位评论者都把这种流程比作人类排查时“开多个 tab、逐步缩小范围”的工作，把 LLM 当作协调与汇总的工具而非一次性吞下整堆日志。",
-              "supportid": [
-                "47183345",
-                "47183745",
-                "47184147",
-                "47182522",
-                "47184029",
-                "47182471"
-              ]
-            },
-            {
-              "category": "预过滤与压缩以减少噪声和 token 成本",
-              "summary": "另一类评论强调在送入 LLM 前做 ML 级别或压缩层面的预处理：有人开源了 log-mcp（用 TF-IDF 初筛加 GPU 上的 BERT 做二次分类，模型约 50MB，Rust 实现能达 >1M 行/秒，训练数据 ~90GB）来把“非有趣”行剔除。还有提议用 pattern-matcher 把语义相同但文本不同的多行折叠，或结合 CLP 类字典化压缩（先字典检索再解压命中项）来只对候选行解压并分析。评论普遍认为核心难点是怎样定义“interesting”——没有领域知识很难保证过滤不漏掉关键线索，因此过滤器与解压流程最好能与可审计的查询联动。",
-              "supportid": [
-                "47183152",
-                "47183385",
-                "47183445",
-                "47183768",
-                "47183517"
-              ]
-            },
-            {
-              "category": "把 SQL / Text2SQL 当作代理与数据的通用接口",
-              "summary": "许多评论主张将日志以结构化表或暴露 schema 的方式供 LLM/agent 用 SQL 查询，这样更易于人类审计与调试。相关工具示例包括 Logchef（针对 ClickHouse 的开源日志浏览器）、MCP server（让 AI 客户端发现日志源并运行查询）和 Codd Text2SQL 引擎（把自然语言或意图翻成针对 Prometheus、Loki、Splunk 的查询）。评论指出 LLM 在大量 SQL 语料上训练得较好，直接生成 SQL 并执行比把大量原始文本塞进 prompt 更可控，但也有人提醒生成的 SQL 质量参差不齐，分析类决策仍需人工输入与约束。",
-              "supportid": [
-                "47182489",
-                "47183375",
-                "47182823",
-                "47183550",
-                "47182484"
-              ]
-            },
-            {
-              "category": "对幻觉、准确率与成本的担忧",
-              "summary": "多人提醒 LLM 在日志分析中会产生幻觉或错误归因：日志中因果链条长且并发失败多，模型容易把表象当成根因。作者与支持者回应称新一代模型（提到 Sonnet 4.x、Opus 等）加上子 agent 编排后相关性明显提升，但仍需大量调优以区分可重试与不可重试错误。关于成本，有评论要求披露调查成功率和 token 成本，作者承认每次调查有费用且需要不断优化，当前宣称能盈利但并非无代价。",
-              "supportid": [
-                "47182125",
-                "47182522",
-                "47184330",
-                "47184889",
-                "47183615"
-              ]
-            },
-            {
-              "category": "日志本身的局限与把信号迁移到度量的建议",
-              "summary": "不少人把问题根源归到日志设计：日志常噪声大、可读性差且跨服务因果链难追，导致自动化分析受限。建议包括把关键字段提升为列式存储（或利用 ClickHouse 的 JSON 字段提升）、在送入模型前做统计学预处理（如滑窗 min/mean/max、波动率分数、collapse runs）以突出异常。结论是：若日志精确可读，人类也能更快更可靠地排查；若日志差，任何 LLM 驱动的自动化都只是局部改进。",
-              "supportid": [
-                "47182478",
-                "47183681",
-                "47183180",
-                "47182928"
-              ]
-            },
-            {
-              "category": "RLM / 代理式循环架构的命名与本质争论",
-              "summary": "有人把分层 agent + 工具调用的做法归为“Recursive Language Models（RLM）”或递归/代理式架构，认为它把长上下文问题转成可编程的子任务与工具调用，从而利用近年 agent 技术的进展。反对者则认为这只是用 LLM 的一种方式，术语不应被误解为改变了模型本身；评论进一步区分了“模型（LLM）”与“围绕模型的 agentic loop/REPL 环境”。讨论集中在该命名是否有助于理解新架构，以及这种分层策略能否稳定替代人工分析流程。",
-              "supportid": [
-                "47182194",
-                "47182264",
-                "47182722",
-                "47184325"
-              ]
-            }
-          ],
-          "terminologies": [
-            {
-              "term": "ClickHouse",
-              "explanation": "列式 OLAP 数据库，擅长高吞吐的日志与指标查询，文中作为后端按 SQL 提供高效检索与聚合能力。"
-            },
-            {
-              "term": "CLP",
-              "explanation": "CLP（Compressed Log Processing）—一种字典化压缩日志方案（有开源实现与 Uber 经验分享），通过先在字典上搜索命中再只解压匹配日志来显著降低存储与 IO 成本。"
-            },
-            {
-              "term": "MCP",
-              "explanation": "MCP（文中指 MCP server/协议）—把日志源、schema 与查询能力暴露给 AI 助手的中间层，使不同 AI 客户端能发现数据源并直接执行结构化查询。"
-            },
-            {
-              "term": "RLM (Recursive Language Models)",
-              "explanation": "RLM 指一种架构范式：用层级/递归的 agent 将长上下文任务拆成子任务并结合工具调用与循环推理，而不是改变底层 LLM 的训练。"
-            },
-            {
-              "term": "Text2SQL / Intent2SQL",
-              "explanation": "将自然语言或高层意图翻译成 SQL 查询的引擎，便于 agent 用可审计的 SQL 对接 Prometheus、Loki、Splunk、ClickHouse 等观测后端。"
-            },
-            {
-              "term": "TF-IDF",
-              "explanation": "经典的信息检索特征衡量词在文档集中的重要性，常用于对日志行做轻量初筛以减少需要进一步处理的候选行数。"
-            },
-            {
-              "term": "BERT",
-              "explanation": "BERT（双向编码器表示 Transformer）—常用的预训练文本表示/分类模型，这里被用作对日志行做更精细的语义分类以判断是否“interesting”。"
-            }
-          ],
-          "context": "Mendral（一个用 LLM 与自动化 agent 解决 CI 故障排查的公司）把 TB 级 CI 日志放在列式存储（如 ClickHouse）并让分层 agent 用 SQL 在窄子集上检索、汇总后再由主 agent 做根因分析与建议修复。讨论建立在两个前提：LLM 的上下文窗口和 token 成本有限，因此需要通过预过滤（TF-IDF+BERT、模式折叠或 CLP 压缩）或把日志以结构化 schema 暴露给 SQL 查询来减少上下文。评论中提到的工具与项目包括 log-mcp（TF-IDF+BERT 的过滤器）、Logchef（ClickHouse 日志浏览器）、Codd Text2SQL（观测数据的 Text2SQL 引擎）以及模型/agent 名称如 Sonnet、Opus、Haiku 和 Claude Code。核心争论在于工程实用性：如何在不丢失线索的前提下节省 tokens、避免模型幻觉，并且衡量每次调查的准确率与成本。",
-          "emoji": "🔎",
-          "sarcastic_question": "把几TB CI 日志丢给LLM就能替代平台工程师吗？"
-        },
-        "classifications": {
-          "topics": [
-            1,
-            6,
-            4
-          ],
-          "facets": [
-            5,
-            9
-          ],
-          "tags": [
-            "LLMs",
-            "SQL",
-            "CI logs",
-            "Observability",
-            "Mendral",
-            "Agents",
-            "RLM"
-          ]
-        },
-        "classificationsUpdatedAt": 1772211708,
-        "aiSummary": {
-          "chinese_title": "用 LLM 分析 TB 级 CI 日志：分层 agent + SQL、过滤与成本争议",
-          "discussion_overview": [
-            {
-              "category": "分层 agent + SQL 的可行性与实践",
-              "summary": "许多评论支持用主/子 agent 分层编排来处理海量日志：主 agent（文中提到 Opus 4.6）负责做大局判断并下发狭窄的“log research”任务给子 agent（如 Haiku 4.5），子 agent 在限定子集上用 SQL/ClickHouse 执行相当于 tail/grep 的查询并只返回相关片段。父 agent 对这些片段进行关联、决定是否扩展查询或生成后续任务，从而避免把大量原始日志直接塞入上下文窗口。作者与多位评论者都把这种流程比作人类排查时“开多个 tab、逐步缩小范围”的工作，把 LLM 当作协调与汇总的工具而非一次性吞下整堆日志。",
-              "supportid": [
-                "47183345",
-                "47183745",
-                "47184147",
-                "47182522",
-                "47184029",
-                "47182471"
-              ]
-            },
-            {
-              "category": "预过滤与压缩以减少噪声和 token 成本",
-              "summary": "另一类评论强调在送入 LLM 前做 ML 级别或压缩层面的预处理：有人开源了 log-mcp（用 TF-IDF 初筛加 GPU 上的 BERT 做二次分类，模型约 50MB，Rust 实现能达 >1M 行/秒，训练数据 ~90GB）来把“非有趣”行剔除。还有提议用 pattern-matcher 把语义相同但文本不同的多行折叠，或结合 CLP 类字典化压缩（先字典检索再解压命中项）来只对候选行解压并分析。评论普遍认为核心难点是怎样定义“interesting”——没有领域知识很难保证过滤不漏掉关键线索，因此过滤器与解压流程最好能与可审计的查询联动。",
-              "supportid": [
-                "47183152",
-                "47183385",
-                "47183445",
-                "47183768",
-                "47183517"
-              ]
-            },
-            {
-              "category": "把 SQL / Text2SQL 当作代理与数据的通用接口",
-              "summary": "许多评论主张将日志以结构化表或暴露 schema 的方式供 LLM/agent 用 SQL 查询，这样更易于人类审计与调试。相关工具示例包括 Logchef（针对 ClickHouse 的开源日志浏览器）、MCP server（让 AI 客户端发现日志源并运行查询）和 Codd Text2SQL 引擎（把自然语言或意图翻成针对 Prometheus、Loki、Splunk 的查询）。评论指出 LLM 在大量 SQL 语料上训练得较好，直接生成 SQL 并执行比把大量原始文本塞进 prompt 更可控，但也有人提醒生成的 SQL 质量参差不齐，分析类决策仍需人工输入与约束。",
-              "supportid": [
-                "47182489",
-                "47183375",
-                "47182823",
-                "47183550",
-                "47182484"
-              ]
-            },
-            {
-              "category": "对幻觉、准确率与成本的担忧",
-              "summary": "多人提醒 LLM 在日志分析中会产生幻觉或错误归因：日志中因果链条长且并发失败多，模型容易把表象当成根因。作者与支持者回应称新一代模型（提到 Sonnet 4.x、Opus 等）加上子 agent 编排后相关性明显提升，但仍需大量调优以区分可重试与不可重试错误。关于成本，有评论要求披露调查成功率和 token 成本，作者承认每次调查有费用且需要不断优化，当前宣称能盈利但并非无代价。",
-              "supportid": [
-                "47182125",
-                "47182522",
-                "47184330",
-                "47184889",
-                "47183615"
-              ]
-            },
-            {
-              "category": "日志本身的局限与把信号迁移到度量的建议",
-              "summary": "不少人把问题根源归到日志设计：日志常噪声大、可读性差且跨服务因果链难追，导致自动化分析受限。建议包括把关键字段提升为列式存储（或利用 ClickHouse 的 JSON 字段提升）、在送入模型前做统计学预处理（如滑窗 min/mean/max、波动率分数、collapse runs）以突出异常。结论是：若日志精确可读，人类也能更快更可靠地排查；若日志差，任何 LLM 驱动的自动化都只是局部改进。",
-              "supportid": [
-                "47182478",
-                "47183681",
-                "47183180",
-                "47182928"
-              ]
-            },
-            {
-              "category": "RLM / 代理式循环架构的命名与本质争论",
-              "summary": "有人把分层 agent + 工具调用的做法归为“Recursive Language Models（RLM）”或递归/代理式架构，认为它把长上下文问题转成可编程的子任务与工具调用，从而利用近年 agent 技术的进展。反对者则认为这只是用 LLM 的一种方式，术语不应被误解为改变了模型本身；评论进一步区分了“模型（LLM）”与“围绕模型的 agentic loop/REPL 环境”。讨论集中在该命名是否有助于理解新架构，以及这种分层策略能否稳定替代人工分析流程。",
-              "supportid": [
-                "47182194",
-                "47182264",
-                "47182722",
-                "47184325"
-              ]
-            }
-          ],
-          "terminologies": [
-            {
-              "term": "ClickHouse",
-              "explanation": "列式 OLAP 数据库，擅长高吞吐的日志与指标查询，文中作为后端按 SQL 提供高效检索与聚合能力。"
-            },
-            {
-              "term": "CLP",
-              "explanation": "CLP（Compressed Log Processing）—一种字典化压缩日志方案（有开源实现与 Uber 经验分享），通过先在字典上搜索命中再只解压匹配日志来显著降低存储与 IO 成本。"
-            },
-            {
-              "term": "MCP",
-              "explanation": "MCP（文中指 MCP server/协议）—把日志源、schema 与查询能力暴露给 AI 助手的中间层，使不同 AI 客户端能发现数据源并直接执行结构化查询。"
-            },
-            {
-              "term": "RLM (Recursive Language Models)",
-              "explanation": "RLM 指一种架构范式：用层级/递归的 agent 将长上下文任务拆成子任务并结合工具调用与循环推理，而不是改变底层 LLM 的训练。"
-            },
-            {
-              "term": "Text2SQL / Intent2SQL",
-              "explanation": "将自然语言或高层意图翻译成 SQL 查询的引擎，便于 agent 用可审计的 SQL 对接 Prometheus、Loki、Splunk、ClickHouse 等观测后端。"
-            },
-            {
-              "term": "TF-IDF",
-              "explanation": "经典的信息检索特征衡量词在文档集中的重要性，常用于对日志行做轻量初筛以减少需要进一步处理的候选行数。"
-            },
-            {
-              "term": "BERT",
-              "explanation": "BERT（双向编码器表示 Transformer）—常用的预训练文本表示/分类模型，这里被用作对日志行做更精细的语义分类以判断是否“interesting”。"
-            }
-          ],
-          "context": "Mendral（一个用 LLM 与自动化 agent 解决 CI 故障排查的公司）把 TB 级 CI 日志放在列式存储（如 ClickHouse）并让分层 agent 用 SQL 在窄子集上检索、汇总后再由主 agent 做根因分析与建议修复。讨论建立在两个前提：LLM 的上下文窗口和 token 成本有限，因此需要通过预过滤（TF-IDF+BERT、模式折叠或 CLP 压缩）或把日志以结构化 schema 暴露给 SQL 查询来减少上下文。评论中提到的工具与项目包括 log-mcp（TF-IDF+BERT 的过滤器）、Logchef（ClickHouse 日志浏览器）、Codd Text2SQL（观测数据的 Text2SQL 引擎）以及模型/agent 名称如 Sonnet、Opus、Haiku 和 Claude Code。核心争论在于工程实用性：如何在不丢失线索的前提下节省 tokens、避免模型幻觉，并且衡量每次调查的准确率与成本。",
-          "emoji": "🔎",
-          "sarcastic_question": "把几TB CI 日志丢给LLM就能替代平台工程师吗？"
         }
       }
     }
