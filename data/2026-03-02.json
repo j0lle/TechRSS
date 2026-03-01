@@ -1,10 +1,30 @@
 {
   "date": "2026-03-02",
   "total_feeds": 92,
-  "success_feeds": 86,
-  "total_articles": 2535,
+  "success_feeds": 85,
+  "total_articles": 2427,
   "filtered_articles": 14,
   "articles": [
+    {
+      "title": "Why on-device agentic AI can't keep up",
+      "title_zh": "端侧 AI 代理的内存与速度困境",
+      "link": "https://martinalderson.com/posts/why-on-device-agentic-ai-cant-keep-up/?utm_source=rss",
+      "pub_date": "2026-03-01T00:00:00.000Z",
+      "summary": "端侧 AI 代理面临物理极限。当前主流设备 RAM 限制（手机 8-12GB、笔记本 16GB）难以支撑 7B 模型 + 32K 上下文，仅 KV cache 在 32K 上下文就需要约 16GB 内存。推理速度随上下文扩展急剧下降，7B 模型在 16K 上下文时从 100 tok/s 跌至 10 tok/s 以下，生成一封邮件需一分钟。Speculative decoding 等优化技术需要同时加载两个模型，加剧内存压力。DRAM 价格上涨 300% 进一步阻碍硬件升级。即使云端卸载，为 5% 的 iOS 用户提供代理能力也需要相当于整个 Anthropic 的算力规模。端侧代理在 1-2 年内难以突破内存和速度瓶颈，云端推理仍将是主流。",
+      "source_name": "martinalderson.com",
+      "score": 22,
+      "depth": 8,
+      "novelty": 7,
+      "breadth": 7,
+      "category": "ai-ml",
+      "keywords": [
+        "on-device AI",
+        "KV cache",
+        "inference speed",
+        "RAM constraints"
+      ],
+      "rank": 1
+    },
     {
       "title": "The two kinds of error",
       "title_zh": "软件错误的两种分类及处理策略",
@@ -23,7 +43,7 @@
         "unexpected errors",
         "reliability"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Shell variable ~-",
@@ -42,7 +62,7 @@
         "shell",
         "OLDPWD"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Killing my inner Necron",
@@ -60,7 +80,7 @@
         "personal",
         "recovery"
       ],
-      "rank": 3
+      "rank": 4
     }
   ]
 }
