@@ -3,7 +3,7 @@
   "total_feeds": 92,
   "success_feeds": 86,
   "total_articles": 2435,
-  "filtered_articles": 12,
+  "filtered_articles": 13,
   "articles": [
     {
       "title": "Interactive explanations",
@@ -26,6 +26,25 @@
       "rank": 1
     },
     {
+      "title": "Notes on Lagrange Interpolating Polynomials",
+      "title_zh": "拉格朗日插值多项式的数学推导",
+      "link": "https://eli.thegreenplace.net/2026/notes-on-lagrange-interpolating-polynomials/",
+      "pub_date": "2026-03-01T02:58:00.000Z",
+      "summary": "拉格朗日插值多项式通过构造一组基函数 l_i(x)，使每个基函数在对应节点 x_i 处取值为 1 而在其他节点处为 0，从而直接给出插值多项式的显式表达式 p(x)=∑y_i l_i(x)。文章从线性代数角度出发，首先展示了使用 Vandermonde 矩阵求解多项式系数的方法，指出该矩阵在数值上往往病态，因此实际计算中应采用更稳定的算法。随后详细推导了拉格朗日基函数的构造过程，通过具体示例可视化展示了归一化前后的基函数形态以及最终的插值多项式曲线。文章还证明了多项式插值定理：对于 n+1 个互不相同的点，存在且仅存在一个次数不超过 n 的多项式能够精确插值这些点。最后文章将拉格朗日多项式提升为线性代数中的基概念，证明了它们构成 P_n(R) 向量空间的一组基，并展示了在拉格朗日基下插值方程的矩阵表示退化为单位矩阵，使得系数直接等于节点处的函数值。附录部分完整推导了 Vandermonde 矩阵行列式的闭式表达式 det(V)=∏(x_j-x_i)，解释了当节点互异时矩阵可逆的原因。",
+      "source_name": "eli.thegreenplace.net",
+      "score": 14,
+      "depth": 8,
+      "novelty": 3,
+      "breadth": 3,
+      "category": "engineering",
+      "keywords": [
+        "Lagrange interpolation",
+        "polynomial",
+        "Vandermonde matrix"
+      ],
+      "rank": 2
+    },
+    {
       "title": "Trump’s Enormous Gamble on Regime Change in Iran",
       "title_zh": "特朗普对伊朗政权更迭的豪赌",
       "link": "https://www.theatlantic.com/ideas/2026/02/trumps-iran-regime-change-attack-gamble/686190/?gift=aQyUJR7AIw1mJWdQ6Ed6yOWB4bfod1kQqCyz2RXbHaY",
@@ -43,7 +62,7 @@
         "war",
         "Trump"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Why Apple’s move to video could endanger podcasting's greatest power",
@@ -63,7 +82,7 @@
         "video",
         "open standards"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "That's it, I'm cancelling my ChatGPT",
@@ -83,7 +102,7 @@
         "surveillance",
         "DoW"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "&ldquo;How old are you?&rdquo; Asked the OS",
@@ -102,7 +121,7 @@
         "regulation",
         "OS"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Working with file extensions in bash scripts",
@@ -121,7 +140,7 @@
         "file extensions",
         "shell scripting"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "HN Skins 0.1.0",
@@ -140,7 +159,7 @@
         "themes",
         "Hacker News"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "The Most Important Micros",
@@ -158,7 +177,7 @@
         "paywall",
         "substack"
       ],
-      "rank": 8
+      "rank": 9
     }
   ]
 }
