@@ -1,9 +1,9 @@
 {
   "date": "2026-03-01",
   "total_feeds": 92,
-  "success_feeds": 86,
-  "total_articles": 2435,
-  "filtered_articles": 13,
+  "success_feeds": 85,
+  "total_articles": 2524,
+  "filtered_articles": 14,
   "articles": [
     {
       "title": "Interactive explanations",
@@ -65,6 +65,26 @@
       "rank": 3
     },
     {
+      "title": "Sometimes the simplest version of a text table is printed from a command",
+      "title_zh": "命令行文本表格有时比 Web 仪表盘更实用",
+      "link": "https://utcc.utoronto.ca/~cks/space/blog/sysadmin/SimpleTextViaCommands",
+      "pub_date": "2026-03-01T03:17:38.000Z",
+      "summary": "作者在停电后恢复服务时，通过命令行脚本 promdownhosts 直接查询 Prometheus API 并打印宕机主机列表，避免了依赖 Grafana Web 界面的限制。该脚本使用 curl 和 jq 提取数据，支持通过管道和 fgrep 过滤排除已知正常的机器，在服务器控制台等无浏览器环境下快速定位问题。文本表格虽然无法呈现所有信息，但在特定场景下比 Web 仪表盘更高效、更专注。",
+      "source_name": "utcc.utoronto.ca/~cks",
+      "score": 13,
+      "depth": 5,
+      "novelty": 4,
+      "breadth": 4,
+      "category": "engineering",
+      "keywords": [
+        "Prometheus",
+        "command line",
+        "monitoring",
+        "sysadmin"
+      ],
+      "rank": 4
+    },
+    {
       "title": "Why Apple’s move to video could endanger podcasting's greatest power",
       "title_zh": "Apple 视频播客可能破坏开放生态",
       "link": "https://anildash.com/2026/02/28/apple-video-podcast-power/",
@@ -82,7 +102,7 @@
         "video",
         "open standards"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "That's it, I'm cancelling my ChatGPT",
@@ -102,7 +122,7 @@
         "surveillance",
         "DoW"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "&ldquo;How old are you?&rdquo; Asked the OS",
@@ -121,7 +141,7 @@
         "regulation",
         "OS"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Working with file extensions in bash scripts",
@@ -140,7 +160,7 @@
         "file extensions",
         "shell scripting"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "HN Skins 0.1.0",
@@ -159,7 +179,7 @@
         "themes",
         "Hacker News"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "The Most Important Micros",
@@ -177,7 +197,7 @@
         "paywall",
         "substack"
       ],
-      "rank": 9
+      "rank": 10
     }
   ]
 }
