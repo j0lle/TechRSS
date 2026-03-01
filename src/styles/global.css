@@ -40,32 +40,43 @@
 .collapsed > .inner {
   display: none;
   opacity: 0;
-  transform: translateY(-4px);
 }
 .collapsed.open > .inner {
   display: block;
-  animation: fadeSlideIn 0.2s ease-out forwards;
+  animation: fadeIn 0.15s ease-out forwards;
 }
-@keyframes fadeSlideIn {
-  to { opacity: 1; transform: translateY(0); }
+.collapsed.closing > .inner {
+  display: block;
+  animation: fadeOut 0.12s ease-in forwards;
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@keyframes fadeOut {
+  from { opacity: 1; }
+  to { opacity: 0; }
 }
 
 /* Card interactions */
-.article-card {
-  transition: box-shadow 0.2s ease, transform 0.1s ease;
+.article-card,
+.hn-card {
+  transition: box-shadow 0.2s ease, transform 0.08s ease;
 }
-.article-card:active {
-  transform: scale(0.985);
+.article-card:active,
+.hn-card:active {
+  transform: scale(0.995);
 }
 @media (hover: hover) {
-  .article-card:hover {
+  .article-card:hover,
+  .hn-card:hover {
     box-shadow: 0 2px 12px rgba(0,0,0,0.08);
   }
 }
 
 /* Chevron rotation */
 .chevron-icon {
-  transition: transform 0.3s ease;
+  transition: transform 0.2s ease;
 }
 .chevron-icon.rotated {
   transform: rotate(180deg);
@@ -81,19 +92,6 @@
 @keyframes shimmer {
   0% { background-position: 200% 0; }
   100% { background-position: -200% 0; }
-}
-
-/* HN card interactions */
-.hn-card {
-  transition: box-shadow 0.2s ease, transform 0.1s ease;
-}
-.hn-card:active {
-  transform: scale(0.985);
-}
-@media (hover: hover) {
-  .hn-card:hover {
-    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
-  }
 }
 
 /* Detail header links */
