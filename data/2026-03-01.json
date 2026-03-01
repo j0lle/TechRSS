@@ -3,8 +3,28 @@
   "total_feeds": 92,
   "success_feeds": 86,
   "total_articles": 2435,
-  "filtered_articles": 13,
+  "filtered_articles": 14,
   "articles": [
+    {
+      "title": "Downstream Testing",
+      "title_zh": "下游测试：在发布前验证依赖兼容性",
+      "link": "https://nesbitt.io/2026/03/01/downstream-testing.html",
+      "pub_date": "2026-03-01T00:00:00.000Z",
+      "summary": "库的实际使用方式存在于下游代码而非库自身的测试或文档中，Hyrum's Law 指出一旦有足够用户，所有隐式契约都会形成，而 semver 无法保护这些未记录的依赖关系。2023 年对 Maven 的研究发现 11.58% 的依赖更新包含破坏性变更，近半数发生在非主版本升级中。Debian 的 autopkgtest 在包从 unstable 迁移到 testing 时运行反向依赖的测试套件，Expat 和 Coq 的更新曾因此被阻塞。Fedora 的 tmt、Packit 和 Testing Farm 在 PR 阶段就运行下游测试，Cockpit 项目配置后核心库的 PR 会自动触发 cockpit-podman 等依赖方的测试，结果作为合并前的状态检查显示。在 PR 阶段发现破坏性变更的成本是几分钟的思考和可能的方案调整，而在发布三周后作为 issue 报告则需要重新加载上下文、理解下游用法、决定修复或回滚、发布新版本。语言生态系统缺乏发行版的结构化优势：单一依赖图、标准化测试接口、统一执行环境和基于下游结果阻止发布的权威。Rust 的 Crater 编译并测试 crates.io 上所有 crate 对比当前和提议的编译器版本，最近一个为 f32 添加 From<f16> trait 实现的 PR 在 650,587 个测试 crate 中破坏了 3,143 个，因为现有代码依赖这两种类型之间只有一条转换路径，这在 5-6 天的运行中被捕获。Node.js 的 CITGM 测试约 80 个精选 npm 包，Node 12 的重构将 isFile 从 Stats.prototype 移到 StatsBase.prototype，虽然公共 API 未变但破坏了直接遍历原型链的 esm 模块。Renovate 的 Merge Confidence 聚合数百万更新 PR 的数据告诉消费者更新是否安全，但信号在发布后到达且流向消费者而非维护者。作者计划在 ecosyste.ms 上构建下游测试服务，维护者连接 CI 后在每次 PR 或预发布分支查询包的前 N 个依赖项，克隆每个依赖项、安装提议的库版本、在隔离环境中运行测试套件，结果作为 PR 报告返回显示哪些依赖项回归、堆栈跟踪以及维护者的哪些更改可能导致每个失败。",
+      "source_name": "nesbitt.io",
+      "score": 23,
+      "depth": 8,
+      "novelty": 8,
+      "breadth": 7,
+      "category": "engineering",
+      "keywords": [
+        "downstream testing",
+        "semver",
+        "autopkgtest",
+        "crater"
+      ],
+      "rank": 1
+    },
     {
       "title": "Interactive explanations",
       "title_zh": "用交互式可视化理解 AI 生成的代码",
@@ -23,7 +43,7 @@
         "cognitive debt",
         "visualization"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Redis patterns for coding",
@@ -43,7 +63,7 @@
         "coding patterns",
         "documentation"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Notes on Lagrange Interpolating Polynomials",
@@ -62,7 +82,7 @@
         "polynomial",
         "Vandermonde matrix"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Trump’s Enormous Gamble on Regime Change in Iran",
@@ -82,7 +102,7 @@
         "war",
         "Trump"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Sometimes the simplest version of a text table is printed from a command",
@@ -102,7 +122,7 @@
         "monitoring",
         "sysadmin"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Why Apple’s move to video could endanger podcasting's greatest power",
@@ -122,7 +142,27 @@
         "video",
         "open standards"
       ],
-      "rank": 6
+      "rank": 7
+    },
+    {
+      "title": "Quoting claude.com/import-memory",
+      "title_zh": "Claude 记忆导入功能本质是个 prompt",
+      "link": "https://simonwillison.net/2026/Mar/1/claude-import-memory/#atom-everything",
+      "pub_date": "2026-03-01T11:21:45.000Z",
+      "summary": "Anthropic 的 Claude \"import memory\" 功能本质上是一个精心设计的 prompt。该 prompt 要求 Claude 导出所有存储的用户记忆和上下文，包括回复指令、个人细节、项目目标、使用的工具框架、行为偏好等，并以代码块格式输出。这个发现揭示了所谓的\"记忆功能\"在底层实现上可能只是 prompt engineering，而非独立的持久化存储机制。",
+      "source_name": "simonwillison.net",
+      "score": 12,
+      "depth": 3,
+      "novelty": 5,
+      "breadth": 4,
+      "category": "ai-ml",
+      "keywords": [
+        "Claude",
+        "memory",
+        "prompt",
+        "Anthropic"
+      ],
+      "rank": 8
     },
     {
       "title": "That's it, I'm cancelling my ChatGPT",
@@ -142,7 +182,7 @@
         "surveillance",
         "DoW"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "&ldquo;How old are you?&rdquo; Asked the OS",
@@ -161,7 +201,7 @@
         "regulation",
         "OS"
       ],
-      "rank": 8
+      "rank": 10
     },
     {
       "title": "Working with file extensions in bash scripts",
@@ -180,7 +220,7 @@
         "file extensions",
         "shell scripting"
       ],
-      "rank": 9
+      "rank": 11
     },
     {
       "title": "HN Skins 0.1.0",
@@ -199,7 +239,7 @@
         "themes",
         "Hacker News"
       ],
-      "rank": 10
+      "rank": 12
     },
     {
       "title": "The Most Important Micros",
@@ -217,7 +257,7 @@
         "paywall",
         "substack"
       ],
-      "rank": 11
+      "rank": 13
     }
   ]
 }
