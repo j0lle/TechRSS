@@ -3,7 +3,7 @@
   "total_feeds": 92,
   "success_feeds": 86,
   "total_articles": 2437,
-  "filtered_articles": 10,
+  "filtered_articles": 11,
   "articles": [
     {
       "title": "Why on-device agentic AI can't keep up",
@@ -141,6 +141,25 @@
         "recovery"
       ],
       "rank": 7
+    },
+    {
+      "title": "The Unbound Scepter",
+      "title_zh": "术后药物引发的梦境记录",
+      "link": "https://xeiaso.net/blog/2026/seroquel-xanax-trip-report/",
+      "pub_date": "2026-03-02T00:00:00.000Z",
+      "summary": "",
+      "source_name": "xeiaso.net",
+      "score": 5,
+      "depth": 1,
+      "novelty": 2,
+      "breadth": 2,
+      "category": "other",
+      "keywords": [
+        "dream",
+        "personal",
+        "medication"
+      ],
+      "rank": 8
     }
   ]
 }
