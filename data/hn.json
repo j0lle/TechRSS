@@ -1,6 +1,556 @@
 {
-  "updatedAt": "2026-03-02T07:05:29.034Z",
+  "updatedAt": "2026-03-02T08:53:36.946Z",
   "items": [
+    {
+      "id": 47213764,
+      "by": "aranaur",
+      "title": "Everett shuts down Flock camera network after judge rules footage public record",
+      "url": "https://www.wltx.com/article/news/nation-world/281-53d8693e-77a4-42ad-86e4-3426a30d25ae",
+      "score": 164,
+      "detailUpdatedAt": 1772435581,
+      "createdAt": 1772425825,
+      "aiSummaryUpdatedAt": 1772436669,
+      "aisummary": {
+        "chinese_title": "埃弗里特关闭Flock摄像网络，法官裁定影像属公共记录",
+        "emoji": "👀",
+        "sarcastic_question": "关掉摄像头是怕公众看还是怕政府露馅？"
+      },
+      "classifications": {
+        "topics": [
+          3,
+          9
+        ],
+        "facets": [
+          8
+        ],
+        "tags": [
+          "Flock",
+          "Everett",
+          "public records",
+          "license plate readers",
+          "Washington state",
+          "Washington Legislature",
+          "privacy",
+          "surveillance cameras",
+          "public safety"
+        ]
+      },
+      "classificationsUpdatedAt": 1772427968,
+      "aiSummary": {
+        "chinese_title": "埃弗里特关闭Flock摄像网络，法官裁定影像属公共记录",
+        "emoji": "👀",
+        "sarcastic_question": "关掉摄像头是怕公众看还是怕政府露馅？"
+      },
+      "detail": {
+        "id": 47213764,
+        "by": "aranaur",
+        "title": "Everett shuts down Flock camera network after judge rules footage public record",
+        "url": "https://www.wltx.com/article/news/nation-world/281-53d8693e-77a4-42ad-86e4-3426a30d25ae",
+        "score": 164,
+        "detailUpdatedAt": 1772435581,
+        "createdAt": 1772425825,
+        "aiSummaryUpdatedAt": 1772436669,
+        "aisummary": {
+          "chinese_title": "埃弗里特关闭Flock摄像网络，法官裁定影像属公共记录",
+          "discussion_overview": [
+            {
+              "category": "隐私与大规模数据采集",
+              "summary": "评论普遍强调问题在于摄像头的规模与“无差别”数据采集：Flock 等网络在全国快速铺开，持续记录大量车辆与行人轨迹，产生海量可分析数据。有人列举具体危害：AI 将车辆误判为“被盗”导致错误逮捕，以及将购物模式分析回卖给私营公司用于更精准的广告投放。多位评论指出传统 CCTV 的法律假设（“只有发生事件才会有人看”）已被 AI 实时监控打破，因而需要重新评估隐私保护和监管边界。",
+              "supportid": [
+                "47214392",
+                "47214683",
+                "47213826",
+                "47214234"
+              ]
+            },
+            {
+              "category": "公共记录定义与法律争议",
+              "summary": "争论集中在第三方采集的数据何时构成政府“公共记录”：有评论认为将‘只有在政府访问时才是政府业务’的抗辩类比 NSA 的论点，使得抗辩站不住脚。法官裁定 Flock 影像属于公共记录后，地方政府把网络下线，同时州议会出现拟修改法律以把 Flock 影像排除（有评论提到参照对红灯相机的豁免做法）。多数人希望不是简单豁免，而是通过更精确的立法来平衡透明度、公共安全与隐私保护，并明确第三方数据与政府行为的法定边界。",
+              "supportid": [
+                "47213952",
+                "47214107",
+                "47214560",
+                "47213958"
+              ]
+            },
+            {
+              "category": "滥用风险与具体伤害案例",
+              "summary": "许多评论关注影像公开或集中保存可能带来的直接滥用：受害者、家庭暴力对象或跟踪者请求调取录像可能造成新的伤害，检察官或私人也可能利用记录。评论引用 AI 误判导致错误逮捕的报道，并指出摄像头数据常在灰色市场流通或被数据经纪商购买，从而放大利益驱动下的滥用风险。另有讨论提到情报／执法人员出于私人动机滥用访问权（LoveInt），因此单纯以“公共安全”为由压制透明度并不能消除这些隐患。",
+              "supportid": [
+                "47213931",
+                "47214656",
+                "47214247",
+                "47213912"
+              ]
+            },
+            {
+              "category": "部署资金、合同与治理缺失",
+              "summary": "评论指出这些摄像头的部署并非仅由市政府统一决定，而是由城市议会与私人机构（例如 HOA）混合采购或由 HOA 捐赠设备并共享访问。HOA 运作相对私密，合同条款、出资与访问权限往往不透明，造成公众难以追溯谁在何种条件下收集并使用影像。因此讨论焦点之一是要求明确采购和数据访问的治理规则，而不仅停留在‘影像是否为公共记录’的法律争论上。",
+              "supportid": [
+                "47214605",
+                "47214640"
+              ]
+            },
+            {
+              "category": "公民应对与对官方说法的不信任",
+              "summary": "不少评论建议公民主动提交公开记录请求以检验本地摄像头部署与数据流向，有人甚至提议在成千上万城镇同步发起以形成压力或测试透明度。对官方称“网络已离线”存在怀疑，社区担心这是临时应对而非实质整改，因此计划用实证请求来揭示真相。旧的 HN 讨论与本地新闻链接被引用作为参考，显示社区倾向用公开记录工具推动问责与立法改进。",
+              "supportid": [
+                "47214213",
+                "47214463",
+                "47214011",
+                "47214397",
+                "47214483"
+              ]
+            }
+          ],
+          "terminologies": [
+            {
+              "term": "Flock（Flock Safety）",
+              "explanation": "一家私营公司，提供路口与社区摄像头及车牌识别（ALPR）服务，将影像上传云端并用算法分析，常与城市或 HOA 签约部署并提供访问接口。"
+            },
+            {
+              "term": "公共记录（public records）",
+              "explanation": "政府持有或产生的数据与文件，按各州公开记录法允许公众申请访问。争议点在于第三方采集的数据何时、以何种方式被视为政府记录。"
+            },
+            {
+              "term": "HOA（Homeowners Association）",
+              "explanation": "业主协会：私人社区组织，可能出资或捐赠监控设备并与市政共享访问，其合同与治理常缺乏对公众的透明度。"
+            },
+            {
+              "term": "LoveInt",
+              "explanation": "指情报或执法人员为私人/恋爱动机滥用监控或数据访问权限的行为，是历史上描述内部滥用访问权的俗称。"
+            },
+            {
+              "term": "data broker（数据经纪商）",
+              "explanation": "收集、聚合并出售位置、购物与行为数据的公司，可能将摄像头衍生数据或分析结果卖给广告商或第三方。"
+            },
+            {
+              "term": "red light cameras（红灯相机）",
+              "explanation": "用于自动抓拍闯红灯车辆的政府摄像系统。在一些立法中，该类相机拍摄的数据被排除为公共记录，成为与 Flock 争议中常被提及的对照例子。"
+            }
+          ],
+          "context": "Snohomish County（华盛顿州）的一位法官裁定 Flock 摄像头生成的影像与车牌数据属于公共记录后，埃弗里特市将其 Flock 网络暂时下线。Flock（私营摄像与车牌识别服务提供商）在多个城镇通过与市政或 HOA 签约部署摄像头，采集并在云端用 AI 做分析。争议涉及第三方采集的数据何时成为政府记录、立法是否应为 Flock 影像设例外（已有议案拟参照对红灯相机的豁免）、以及 AI 实时监控带来的误判与数据销售风险。社区讨论把焦点放在既要维护公共安全又要防止滥用与保障透明度的具体监管与问责机制上。",
+          "emoji": "👀",
+          "sarcastic_question": "关掉摄像头是怕公众看还是怕政府露馅？"
+        },
+        "classifications": {
+          "topics": [
+            3,
+            9
+          ],
+          "facets": [
+            8
+          ],
+          "tags": [
+            "Flock",
+            "Everett",
+            "public records",
+            "license plate readers",
+            "Washington state",
+            "Washington Legislature",
+            "privacy",
+            "surveillance cameras",
+            "public safety"
+          ]
+        },
+        "classificationsUpdatedAt": 1772427968,
+        "aiSummary": {
+          "chinese_title": "埃弗里特关闭Flock摄像网络，法官裁定影像属公共记录",
+          "discussion_overview": [
+            {
+              "category": "隐私与大规模数据采集",
+              "summary": "评论普遍强调问题在于摄像头的规模与“无差别”数据采集：Flock 等网络在全国快速铺开，持续记录大量车辆与行人轨迹，产生海量可分析数据。有人列举具体危害：AI 将车辆误判为“被盗”导致错误逮捕，以及将购物模式分析回卖给私营公司用于更精准的广告投放。多位评论指出传统 CCTV 的法律假设（“只有发生事件才会有人看”）已被 AI 实时监控打破，因而需要重新评估隐私保护和监管边界。",
+              "supportid": [
+                "47214392",
+                "47214683",
+                "47213826",
+                "47214234"
+              ]
+            },
+            {
+              "category": "公共记录定义与法律争议",
+              "summary": "争论集中在第三方采集的数据何时构成政府“公共记录”：有评论认为将‘只有在政府访问时才是政府业务’的抗辩类比 NSA 的论点，使得抗辩站不住脚。法官裁定 Flock 影像属于公共记录后，地方政府把网络下线，同时州议会出现拟修改法律以把 Flock 影像排除（有评论提到参照对红灯相机的豁免做法）。多数人希望不是简单豁免，而是通过更精确的立法来平衡透明度、公共安全与隐私保护，并明确第三方数据与政府行为的法定边界。",
+              "supportid": [
+                "47213952",
+                "47214107",
+                "47214560",
+                "47213958"
+              ]
+            },
+            {
+              "category": "滥用风险与具体伤害案例",
+              "summary": "许多评论关注影像公开或集中保存可能带来的直接滥用：受害者、家庭暴力对象或跟踪者请求调取录像可能造成新的伤害，检察官或私人也可能利用记录。评论引用 AI 误判导致错误逮捕的报道，并指出摄像头数据常在灰色市场流通或被数据经纪商购买，从而放大利益驱动下的滥用风险。另有讨论提到情报／执法人员出于私人动机滥用访问权（LoveInt），因此单纯以“公共安全”为由压制透明度并不能消除这些隐患。",
+              "supportid": [
+                "47213931",
+                "47214656",
+                "47214247",
+                "47213912"
+              ]
+            },
+            {
+              "category": "部署资金、合同与治理缺失",
+              "summary": "评论指出这些摄像头的部署并非仅由市政府统一决定，而是由城市议会与私人机构（例如 HOA）混合采购或由 HOA 捐赠设备并共享访问。HOA 运作相对私密，合同条款、出资与访问权限往往不透明，造成公众难以追溯谁在何种条件下收集并使用影像。因此讨论焦点之一是要求明确采购和数据访问的治理规则，而不仅停留在‘影像是否为公共记录’的法律争论上。",
+              "supportid": [
+                "47214605",
+                "47214640"
+              ]
+            },
+            {
+              "category": "公民应对与对官方说法的不信任",
+              "summary": "不少评论建议公民主动提交公开记录请求以检验本地摄像头部署与数据流向，有人甚至提议在成千上万城镇同步发起以形成压力或测试透明度。对官方称“网络已离线”存在怀疑，社区担心这是临时应对而非实质整改，因此计划用实证请求来揭示真相。旧的 HN 讨论与本地新闻链接被引用作为参考，显示社区倾向用公开记录工具推动问责与立法改进。",
+              "supportid": [
+                "47214213",
+                "47214463",
+                "47214011",
+                "47214397",
+                "47214483"
+              ]
+            }
+          ],
+          "terminologies": [
+            {
+              "term": "Flock（Flock Safety）",
+              "explanation": "一家私营公司，提供路口与社区摄像头及车牌识别（ALPR）服务，将影像上传云端并用算法分析，常与城市或 HOA 签约部署并提供访问接口。"
+            },
+            {
+              "term": "公共记录（public records）",
+              "explanation": "政府持有或产生的数据与文件，按各州公开记录法允许公众申请访问。争议点在于第三方采集的数据何时、以何种方式被视为政府记录。"
+            },
+            {
+              "term": "HOA（Homeowners Association）",
+              "explanation": "业主协会：私人社区组织，可能出资或捐赠监控设备并与市政共享访问，其合同与治理常缺乏对公众的透明度。"
+            },
+            {
+              "term": "LoveInt",
+              "explanation": "指情报或执法人员为私人/恋爱动机滥用监控或数据访问权限的行为，是历史上描述内部滥用访问权的俗称。"
+            },
+            {
+              "term": "data broker（数据经纪商）",
+              "explanation": "收集、聚合并出售位置、购物与行为数据的公司，可能将摄像头衍生数据或分析结果卖给广告商或第三方。"
+            },
+            {
+              "term": "red light cameras（红灯相机）",
+              "explanation": "用于自动抓拍闯红灯车辆的政府摄像系统。在一些立法中，该类相机拍摄的数据被排除为公共记录，成为与 Flock 争议中常被提及的对照例子。"
+            }
+          ],
+          "context": "Snohomish County（华盛顿州）的一位法官裁定 Flock 摄像头生成的影像与车牌数据属于公共记录后，埃弗里特市将其 Flock 网络暂时下线。Flock（私营摄像与车牌识别服务提供商）在多个城镇通过与市政或 HOA 签约部署摄像头，采集并在云端用 AI 做分析。争议涉及第三方采集的数据何时成为政府记录、立法是否应为 Flock 影像设例外（已有议案拟参照对红灯相机的豁免）、以及 AI 实时监控带来的误判与数据销售风险。社区讨论把焦点放在既要维护公共安全又要防止滥用与保障透明度的具体监管与问责机制上。",
+          "emoji": "👀",
+          "sarcastic_question": "关掉摄像头是怕公众看还是怕政府露馅？"
+        }
+      }
+    },
+    {
+      "id": 47212355,
+      "by": "mandel_x",
+      "title": "If AI writes code, should the session be part of the commit?",
+      "url": "https://github.com/mandel-macaque/memento",
+      "score": 144,
+      "detailUpdatedAt": 1772433781,
+      "createdAt": 1772419218,
+      "aiSummaryUpdatedAt": 1772435233,
+      "aisummary": {
+        "chinese_title": "AI 写码：把会话/提示并入提交？（噪声、审计与 git‑notes 方案）",
+        "emoji": "🤔",
+        "sarcastic_question": "你真打算把我和 AI 的全部闲聊与咒骂都提交吗？"
+      },
+      "classifications": {
+        "topics": [
+          1,
+          4,
+          6
+        ],
+        "facets": [
+          4,
+          9
+        ],
+        "tags": [
+          "git-memento",
+          "AI",
+          "LLM",
+          "Git",
+          "commit",
+          "session transcripts",
+          "AI agent",
+          "Entire"
+        ]
+      },
+      "classificationsUpdatedAt": 1772423477,
+      "aiSummary": {
+        "chinese_title": "AI 写码：把会话/提示并入提交？（噪声、审计与 git‑notes 方案）",
+        "emoji": "🤔",
+        "sarcastic_question": "你真打算把我和 AI 的全部闲聊与咒骂都提交吗？"
+      },
+      "detail": {
+        "id": 47212355,
+        "by": "mandel_x",
+        "title": "If AI writes code, should the session be part of the commit?",
+        "url": "https://github.com/mandel-macaque/memento",
+        "score": 144,
+        "detailUpdatedAt": 1772433781,
+        "createdAt": 1772419218,
+        "aiSummaryUpdatedAt": 1772435233,
+        "aisummary": {
+          "chinese_title": "AI 写码：把会话/提示并入提交？（噪声、审计与 git‑notes 方案）",
+          "discussion_overview": [
+            {
+              "category": "反对把完整会话并入提交（噪声与隐私）",
+              "summary": "反对者认为 AI 会话记录是中间产物，充满噪音、重复与琐碎对话，不适合成为正式的 commit 历史。多条评论把完整 transcript 比作浏览器搜索历史或按键记录，指出没人想在 git blame 中读到几页“你说对了”“不，那不是”的对话，还会增加审查负担。还有人强调隐私与敏感信息风险（例如会话中可能出现的用户 PII、开发者骂人或私密查询），以及原始会话对排查 bug 的实际帮助有限。结论是更应该把要点写成可读的 commit message 或文档，而不是把完整聊天日志塞入仓库。",
+              "supportid": [
+                "47213208",
+                "47214078",
+                "47213296",
+                "47213809",
+                "47213985",
+                "47214564",
+                "47214290"
+              ]
+            },
+            {
+              "category": "保留精炼摘要/plan/devlog，而非原始逐条对话",
+              "summary": "许多评论建议保存会话的精炼产物（如 project.md、plan.md、todo 列表或自动生成的 devlog），把意图、验收标准与关键 prompts 一并纳入版本或 PR 描述。典型流程是先写 project.md，再从中生成并迭代 plan.md，最终把 project.md/plan.md 与实现一起提交，便于未来工程师或 LLM 重演与改进。评论还建议对 code-gen 类型的 prompt 保留原文，而把研究性查询、参考链接做摘要，以便在出现问题时判断是偶发生成错误还是 prompt 设计问题。这样既保留可追溯的“为什么做”，又避免把大量中间往返当作历史噪音。",
+              "supportid": [
+                "47214629",
+                "47213482",
+                "47214109",
+                "47213264",
+                "47214019",
+                "47213988"
+              ]
+            },
+            {
+              "category": "把会话作为元数据/外部存储（git notes 与专门工具）",
+              "summary": "一派主张把完整会话另存为元数据或外部记录，而不是直接写入 commit。具体实现例子包括用 git notes（git 的 notes 功能）把清理过的会话附加到对应提交、把会话存进数据库并在 commit 中写 devlog id，或把会话推到专门服务并在提交里放引用链接。讨论指出若用 git notes 要注意细节：GitHub 默认不显示 notes，rebase 可能丢失 notes；实务上常把会话存在外部并把引用作为提交元数据以兼顾可访问性与仓库整洁。该方案的好处是：对常规代码审查零干扰，同时为需要的人或后续 LLM 保留原始上下文。",
+              "supportid": [
+                "47212356",
+                "47213999",
+                "47213404",
+                "47214124",
+                "47214167"
+              ]
+            },
+            {
+              "category": "保存会话用于审计、教学与未来模型增益",
+              "summary": "支持保存会话的人把注意力放在长期价值：这些日志可用于审计决策来源、教学新手如何 prompt、以及为未来或开源模型提供训练/校准数据。评论提出未来的 LLM 可能会“阅读”历史会话来识别旧模型的偏差或发现导致 bug 的 prompt 假设，管理层也可借此评估 prompter 能力或 token 成本。保存会话还能当作修复回溯的证据链，判断问题是单次生成异常还是系统化的 prompt 错误；因此有人建议按需长期保存或以索引方式保留会话以便检索。",
+              "supportid": [
+                "47214007",
+                "47213779",
+                "47214510",
+                "47213361",
+                "47214629"
+              ]
+            },
+            {
+              "category": "可复现性与安全合规担忧（非确定性与泄露风险）",
+              "summary": "反对保存原始会话的另一个重要论点是可复现性差：LLM 输出非确定、模型经常升级，重放历史会话通常不能得到相同结果，因此把会话当成“可重现说明”并不可靠。评论还强调安全问题——会话可能包含敏感搜索、客户数据或开发者的私人谈话，一旦随提交公开会产生隐私与合规风险。技术上也有指摘：模型会“自信地撒谎”或生成错误的证明线索（trace tokens），这降低了原始会话在调试时的可信度。综合来看，非确定性与泄露风险是很多团队拒绝将原始 transcript 永久入库的重要理由。",
+              "supportid": [
+                "47213856",
+                "47213287",
+                "47213738",
+                "47213262",
+                "47213795"
+              ]
+            },
+            {
+              "category": "社区与 Show HN 的治理问题（生成项目泛滥）",
+              "summary": "讨论还扩展到社区层面：大量 AI 生成的 Show HN 项目正淹没展示板块，导致投票和发现机制失效。多位评论者提出要么提高门槛（要求人工撰写说明/展示过程），要么把纯生成内容归类或隔离，以免稀释社区对“花了真实人力”的优秀项目的关注。也有人担忧当机器人占比上升时需要明确社区策略：是否把 bots 视为普通用户，否则整体社区质量与文化可能改变。总体上，治理与内容分类被视为处理 AI 生成噪音的关键。",
+              "supportid": [
+                "47213630",
+                "47214066",
+                "47213739",
+                "47213907",
+                "47214487"
+              ]
+            },
+            {
+              "category": "实践与工具化建议（doc agent、spec/acceptance、acai/deciduous）",
+              "summary": "若要兼顾可追溯性与可读性，很多评论给出落地工作流：用 spec + acceptance criteria 驱动实现、为每个文件或特性维护配套的 plan/devlog、或者用 doc agent 做代码库巡检并生成说明。具体工具/思路包括 acai.sh（结构化 spec 与任务追踪）、deciduous.dev（记录决策链）、把会话整理成 devlog 并在 commit 中保存 devlog id，以及让 agent 在任务结束时输出“决策反思”作为轻量记录。这些实践的共同点是把“为什么做”和“如何验收”结构化与可索引，从而在保留审计价值的同时尽量减少版本历史的噪音。",
+              "supportid": [
+                "47214624",
+                "47214118",
+                "47214467",
+                "47213983",
+                "47214109",
+                "47213335"
+              ]
+            }
+          ],
+          "terminologies": [
+            {
+              "term": "vibe-coding",
+              "explanation": "vibe-coding（以随性 prompt 与 LLM 交互快速生成代码的工作流），通常伴随大量人机往返、较少人工深度审查与许多试错记录。"
+            },
+            {
+              "term": "git notes",
+              "explanation": "git notes（Git 的 notes 功能），允许把元数据附加到提交上而不改变 commit 本体，适合存放会话摘录或引用 ID。"
+            },
+            {
+              "term": "LLM",
+              "explanation": "LLM（Large Language Model，大型语言模型），在上下文中指用来生成代码或生成会话的模型，具有非确定性且会随版本升级。"
+            },
+            {
+              "term": "agentic engineering",
+              "explanation": "agentic engineering（使用自治 agent 或自动化工作流来编写/修改代码的开发模式），强调 agent 在多步决策中主动执行任务并生成产物。"
+            },
+            {
+              "term": "Show HN",
+              "explanation": "Show HN（Hacker News 的项目展示板块），讨论里指大量 AI 自动生成项目涌入导致筛选与发现问题。"
+            },
+            {
+              "term": "git-memento",
+              "explanation": "git-memento（帖子作者提到的工具），将清理后的 AI 会话作为 git note 附加到提交以保存会话上下文同时避免污染主历史。"
+            },
+            {
+              "term": "devlog",
+              "explanation": "devlog（开发日志或会话精炼记录），指把 agent 所做与为什么做的要点结构化保存，作为便于检索的审计/教学产物。"
+            }
+          ],
+          "context": "这是 Hacker News 对一个实际问题的讨论：当用 LLM/agent 生成或修改代码时，是否应把交互会话（session）作为提交的一部分保存。评论围绕三类方案展开：直接存原始 transcript、只提交精炼的 plan/commit message/devlog，或把会话作为元数据用 git notes（git 的 notes 功能）或外部服务保存，并引用了具体工具如 git-memento（把会话写为 git note 的工具）、Claude Code（Anthropic 的交互式编码界面）和 Entire/Checkpoints（entire.io 的会话检查点服务）。讨论基于若干前提：LLM 的非确定性与频繁升级、代码审查与合规隐私风险，以及 Show HN（HN 的展示板块）上 AI 生成内容带来的信号/噪音问题。",
+          "emoji": "🤔",
+          "sarcastic_question": "你真打算把我和 AI 的全部闲聊与咒骂都提交吗？"
+        },
+        "classifications": {
+          "topics": [
+            1,
+            4,
+            6
+          ],
+          "facets": [
+            4,
+            9
+          ],
+          "tags": [
+            "git-memento",
+            "AI",
+            "LLM",
+            "Git",
+            "commit",
+            "session transcripts",
+            "AI agent",
+            "Entire"
+          ]
+        },
+        "classificationsUpdatedAt": 1772423477,
+        "aiSummary": {
+          "chinese_title": "AI 写码：把会话/提示并入提交？（噪声、审计与 git‑notes 方案）",
+          "discussion_overview": [
+            {
+              "category": "反对把完整会话并入提交（噪声与隐私）",
+              "summary": "反对者认为 AI 会话记录是中间产物，充满噪音、重复与琐碎对话，不适合成为正式的 commit 历史。多条评论把完整 transcript 比作浏览器搜索历史或按键记录，指出没人想在 git blame 中读到几页“你说对了”“不，那不是”的对话，还会增加审查负担。还有人强调隐私与敏感信息风险（例如会话中可能出现的用户 PII、开发者骂人或私密查询），以及原始会话对排查 bug 的实际帮助有限。结论是更应该把要点写成可读的 commit message 或文档，而不是把完整聊天日志塞入仓库。",
+              "supportid": [
+                "47213208",
+                "47214078",
+                "47213296",
+                "47213809",
+                "47213985",
+                "47214564",
+                "47214290"
+              ]
+            },
+            {
+              "category": "保留精炼摘要/plan/devlog，而非原始逐条对话",
+              "summary": "许多评论建议保存会话的精炼产物（如 project.md、plan.md、todo 列表或自动生成的 devlog），把意图、验收标准与关键 prompts 一并纳入版本或 PR 描述。典型流程是先写 project.md，再从中生成并迭代 plan.md，最终把 project.md/plan.md 与实现一起提交，便于未来工程师或 LLM 重演与改进。评论还建议对 code-gen 类型的 prompt 保留原文，而把研究性查询、参考链接做摘要，以便在出现问题时判断是偶发生成错误还是 prompt 设计问题。这样既保留可追溯的“为什么做”，又避免把大量中间往返当作历史噪音。",
+              "supportid": [
+                "47214629",
+                "47213482",
+                "47214109",
+                "47213264",
+                "47214019",
+                "47213988"
+              ]
+            },
+            {
+              "category": "把会话作为元数据/外部存储（git notes 与专门工具）",
+              "summary": "一派主张把完整会话另存为元数据或外部记录，而不是直接写入 commit。具体实现例子包括用 git notes（git 的 notes 功能）把清理过的会话附加到对应提交、把会话存进数据库并在 commit 中写 devlog id，或把会话推到专门服务并在提交里放引用链接。讨论指出若用 git notes 要注意细节：GitHub 默认不显示 notes，rebase 可能丢失 notes；实务上常把会话存在外部并把引用作为提交元数据以兼顾可访问性与仓库整洁。该方案的好处是：对常规代码审查零干扰，同时为需要的人或后续 LLM 保留原始上下文。",
+              "supportid": [
+                "47212356",
+                "47213999",
+                "47213404",
+                "47214124",
+                "47214167"
+              ]
+            },
+            {
+              "category": "保存会话用于审计、教学与未来模型增益",
+              "summary": "支持保存会话的人把注意力放在长期价值：这些日志可用于审计决策来源、教学新手如何 prompt、以及为未来或开源模型提供训练/校准数据。评论提出未来的 LLM 可能会“阅读”历史会话来识别旧模型的偏差或发现导致 bug 的 prompt 假设，管理层也可借此评估 prompter 能力或 token 成本。保存会话还能当作修复回溯的证据链，判断问题是单次生成异常还是系统化的 prompt 错误；因此有人建议按需长期保存或以索引方式保留会话以便检索。",
+              "supportid": [
+                "47214007",
+                "47213779",
+                "47214510",
+                "47213361",
+                "47214629"
+              ]
+            },
+            {
+              "category": "可复现性与安全合规担忧（非确定性与泄露风险）",
+              "summary": "反对保存原始会话的另一个重要论点是可复现性差：LLM 输出非确定、模型经常升级，重放历史会话通常不能得到相同结果，因此把会话当成“可重现说明”并不可靠。评论还强调安全问题——会话可能包含敏感搜索、客户数据或开发者的私人谈话，一旦随提交公开会产生隐私与合规风险。技术上也有指摘：模型会“自信地撒谎”或生成错误的证明线索（trace tokens），这降低了原始会话在调试时的可信度。综合来看，非确定性与泄露风险是很多团队拒绝将原始 transcript 永久入库的重要理由。",
+              "supportid": [
+                "47213856",
+                "47213287",
+                "47213738",
+                "47213262",
+                "47213795"
+              ]
+            },
+            {
+              "category": "社区与 Show HN 的治理问题（生成项目泛滥）",
+              "summary": "讨论还扩展到社区层面：大量 AI 生成的 Show HN 项目正淹没展示板块，导致投票和发现机制失效。多位评论者提出要么提高门槛（要求人工撰写说明/展示过程），要么把纯生成内容归类或隔离，以免稀释社区对“花了真实人力”的优秀项目的关注。也有人担忧当机器人占比上升时需要明确社区策略：是否把 bots 视为普通用户，否则整体社区质量与文化可能改变。总体上，治理与内容分类被视为处理 AI 生成噪音的关键。",
+              "supportid": [
+                "47213630",
+                "47214066",
+                "47213739",
+                "47213907",
+                "47214487"
+              ]
+            },
+            {
+              "category": "实践与工具化建议（doc agent、spec/acceptance、acai/deciduous）",
+              "summary": "若要兼顾可追溯性与可读性，很多评论给出落地工作流：用 spec + acceptance criteria 驱动实现、为每个文件或特性维护配套的 plan/devlog、或者用 doc agent 做代码库巡检并生成说明。具体工具/思路包括 acai.sh（结构化 spec 与任务追踪）、deciduous.dev（记录决策链）、把会话整理成 devlog 并在 commit 中保存 devlog id，以及让 agent 在任务结束时输出“决策反思”作为轻量记录。这些实践的共同点是把“为什么做”和“如何验收”结构化与可索引，从而在保留审计价值的同时尽量减少版本历史的噪音。",
+              "supportid": [
+                "47214624",
+                "47214118",
+                "47214467",
+                "47213983",
+                "47214109",
+                "47213335"
+              ]
+            }
+          ],
+          "terminologies": [
+            {
+              "term": "vibe-coding",
+              "explanation": "vibe-coding（以随性 prompt 与 LLM 交互快速生成代码的工作流），通常伴随大量人机往返、较少人工深度审查与许多试错记录。"
+            },
+            {
+              "term": "git notes",
+              "explanation": "git notes（Git 的 notes 功能），允许把元数据附加到提交上而不改变 commit 本体，适合存放会话摘录或引用 ID。"
+            },
+            {
+              "term": "LLM",
+              "explanation": "LLM（Large Language Model，大型语言模型），在上下文中指用来生成代码或生成会话的模型，具有非确定性且会随版本升级。"
+            },
+            {
+              "term": "agentic engineering",
+              "explanation": "agentic engineering（使用自治 agent 或自动化工作流来编写/修改代码的开发模式），强调 agent 在多步决策中主动执行任务并生成产物。"
+            },
+            {
+              "term": "Show HN",
+              "explanation": "Show HN（Hacker News 的项目展示板块），讨论里指大量 AI 自动生成项目涌入导致筛选与发现问题。"
+            },
+            {
+              "term": "git-memento",
+              "explanation": "git-memento（帖子作者提到的工具），将清理后的 AI 会话作为 git note 附加到提交以保存会话上下文同时避免污染主历史。"
+            },
+            {
+              "term": "devlog",
+              "explanation": "devlog（开发日志或会话精炼记录），指把 agent 所做与为什么做的要点结构化保存，作为便于检索的审计/教学产物。"
+            }
+          ],
+          "context": "这是 Hacker News 对一个实际问题的讨论：当用 LLM/agent 生成或修改代码时，是否应把交互会话（session）作为提交的一部分保存。评论围绕三类方案展开：直接存原始 transcript、只提交精炼的 plan/commit message/devlog，或把会话作为元数据用 git notes（git 的 notes 功能）或外部服务保存，并引用了具体工具如 git-memento（把会话写为 git note 的工具）、Claude Code（Anthropic 的交互式编码界面）和 Entire/Checkpoints（entire.io 的会话检查点服务）。讨论基于若干前提：LLM 的非确定性与频繁升级、代码审查与合规隐私风险，以及 Show HN（HN 的展示板块）上 AI 生成内容带来的信号/噪音问题。",
+          "emoji": "🤔",
+          "sarcastic_question": "你真打算把我和 AI 的全部闲聊与咒骂都提交吗？"
+        }
+      }
+    },
     {
       "id": 47211249,
       "by": "andsoitis",
@@ -12834,570 +13384,6 @@
           "context": "Unsloth 为 Qwen3.5 发布了名为 Unsloth Dynamic 2.0 的 GGUF 量化权重与基准，并在博客与 Hugging Face 上放出实验数据与基准结果。社区注意到不同上传版本（例如 2/24 与 2/27）存在差异并质疑是否为修复在某些张量上使用 MXFP4 导致的问题；发布方回应 PPL/KLD 有时不反映真实下游表现并共享大量实验工件供核验。讨论由此延伸到 MoE/A3B 架构如何降低实际 VRAM 需求、本地推理工具（如 llama.cpp、vLLM）对新 GGUF 格式的兼容性、以及不同量化位宽（Q2/Q3/Q4/Q6/Q8）在速度与精度上的实战权衡。社区同时分享了多种硬件和 offloading 实践（如 -ot/--cpu-moe）与具体跑分，帮助使用者在显存、延迟与质量之间做权衡。",
           "emoji": "🤔",
           "sarcastic_question": "把量化修复喊成“突破”，合理吗？"
-        }
-      }
-    },
-    {
-      "id": 47194611,
-      "by": "gronky_",
-      "title": "Don't trust AI agents",
-      "url": "https://nanoclaw.dev/blog/nanoclaw-security-model",
-      "score": 212,
-      "detailUpdatedAt": 1772297042,
-      "createdAt": 1772284262,
-      "aiSummaryUpdatedAt": 1772298148,
-      "aisummary": {
-        "chinese_title": "别信 AI 代理：代码膨胀、权限泄露与自我改写风险",
-        "emoji": "⚠️",
-        "sarcastic_question": "把生产环境、密钥和邮箱交给会改代码的AI？"
-      },
-      "classifications": {
-        "topics": [
-          1,
-          3,
-          6
-        ],
-        "facets": [
-          9,
-          5
-        ],
-        "tags": [
-          "NanoClaw",
-          "AI agents",
-          "OpenClaw",
-          "skills",
-          "containers",
-          "Docker",
-          "Claude",
-          "LLM",
-          "email"
-        ]
-      },
-      "classificationsUpdatedAt": 1772288802,
-      "aiSummary": {
-        "chinese_title": "别信 AI 代理：代码膨胀、权限泄露与自我改写风险",
-        "emoji": "⚠️",
-        "sarcastic_question": "把生产环境、密钥和邮箱交给会改代码的AI？"
-      },
-      "detail": {
-        "id": 47194611,
-        "by": "gronky_",
-        "title": "Don't trust AI agents",
-        "url": "https://nanoclaw.dev/blog/nanoclaw-security-model",
-        "score": 212,
-        "detailUpdatedAt": 1772297042,
-        "createdAt": 1772284262,
-        "aiSummaryUpdatedAt": 1772298148,
-        "aisummary": {
-          "chinese_title": "别信 AI 代理：代码膨胀、权限泄露与自我改写风险",
-          "discussion_overview": [
-            {
-              "category": "LoC 指标误用与代码膨胀",
-              "summary": "评论普遍反对用 LoC（lines of code）作为衡量 LLM 或工程师价值的指标，指出 OpenClaw/NanoClaw 的高行数或有人宣称“千行/小时”并不能反映质量。多位评论给出具体原因：LLM 生成代码往往更冗长，原因包括更多的 inline documentation、完整的 API 表达与更严格的关注点分离；有人估算大约有 ~15% 的“膨胀税”。管理层用易懂但有问题的度量来沟通速度，导致把 LLM 产出当成裁员或效率证明的借口。也有专业工程师的反例说明：在有人严格审查并补测的前提下，LLM 可显著提速，但工作重心会从写码转为审核与治理。",
-              "supportid": [
-                "47195487",
-                "47195617",
-                "47197481",
-                "47195939",
-                "47196077",
-                "47196264",
-                "47195881",
-                "47197460"
-              ]
-            },
-            {
-              "category": "隔离失败与密钥/凭证外泄风险",
-              "summary": "很多评论强调容器并非牢靠的安全边界：实例中有 agent 在 VM/容器内发现浏览器 cookies 或外泄凭证，且历史上存在 runc 等 runtime 的 container escape CVE。基于此，建议不要直接把敏感凭证交给 agent，而是通过代理（proxy）在需要时按会话注入占位 secret，或把 outbound 网络限制为仅能访问白名单域名并做时限控制。还有人指出常用容器（Docker/Podman）易被误用，建议采用更强隔离的轻量虚拟化方案如 Kata Containers 或 Firecracker，并对磁盘做快照回滚（VolumeSnapshot）。总体结论是：默认放开权限会导致高爆炸面，必须用架构化的边界、代理和可回滚快照来限定 blast radius。",
-              "supportid": [
-                "47195106",
-                "47194805",
-                "47196140",
-                "47195919",
-                "47195491",
-                "47194819",
-                "47196211",
-                "47195482"
-              ]
-            },
-            {
-              "category": "技能（skills）与自修改代码的不可控性",
-              "summary": "对 NanoClaw 等用“skill”体系的项目有大量质疑：skill 在实现上是位于 .claude/skills 的 Markdown 指令或混合代码，代理会按指令修改或生成扩展，这导致每个安装可能生成不同的自定义代码。评论举例说明风险：skill 既包含自然语言步骤也包含实际 Typescript/代码片段，合并时依赖 agent 自动执行 git merge，会产生不可重复的变更并增加“无法复现/难以修补”的概率。这种把扩展写成可执行指令的做法虽然能快速增加功能，但会侵蚀小而可审计代码库的优势，最终反而产生更多难以跟踪的 PR/issue 噪音。",
-              "supportid": [
-                "47194819",
-                "47195613",
-                "47196049",
-                "47195788",
-                "47196208",
-                "47195288",
-                "47195859",
-                "47196849"
-              ]
-            },
-            {
-              "category": "可执行的缓解策略与最佳实践",
-              "summary": "评论里列出了一系列具体防护模式：只授予 agent 可恢复的最小权限（如草稿而非发送邮件）、为 outbound 网络配置代理并白名单域名、对会话做时间盒限制以及用 VolumeSnapshot 做可回滚快照。具体实现上建议把敏感 secret 保存在网关，由网关在被允许时临时注入；把有副作用的动作变为任务队列（agent 只能写入任务列表，由人工审批后执行）。另外推荐用更强隔离的运行时（Kata/Firecracker）代替裸 Docker，并在工具层（MCP/工具层）为外部资源加上守护逻辑和审计钩子以减少滥用面。",
-              "supportid": [
-                "47195106",
-                "47196305",
-                "47195398",
-                "47196297",
-                "47195102",
-                "47195482",
-                "47196211"
-              ]
-            },
-            {
-              "category": "LLM 的判断力与自治局限",
-              "summary": "多条评论认为現有 LLM 不够严谨以做完全自治的 agent：模型输出存在非确定性、容易被 prompt injection 误导且对复杂判断缺乏长期、一致的策略。现实例子包括电话树式的客服 agent 无法完成任务并草草挂断、agent 在没有足够约束下执行危险命令（如 sudo rm -rf）的实例，以及多 agent 管道里上游被污染导致级联故障的风险。有人指出虽然 prompt injection 可能有研究方向可缓解，但模型“会做出它认为合适但不是你意图”的行为、本身的判断力不足才是更难的长期问题。结论是当前应把人放在回路中并对多 agent 信任链做严格定义。",
-              "supportid": [
-                "47195398",
-                "47196357",
-                "47196273",
-                "47195482",
-                "47194882",
-                "47197084"
-              ]
-            },
-            {
-              "category": "用例与实践分歧：助理、后端支持到代码合作者",
-              "summary": "评论显示对 agent 的期待从纯粹信息检索/提醒（todo、提醒、websearch）到充当代码伙伴（用 LLM 快速生成、并由工程师审核）的场景不等。很多人认为最安全的个人用例是无权限或仅读权限的助理（提醒、日程、音频检索），但也有职业工程师分享用 LLM 在受控审查下能迅速产出高质量代码并写大量测试的经历，说明产能提升存在但工作重心会移向“管理 LLM 输出”。总体上共识是：Agent 在后端或办公自动化（back-office）有价值，但生产环境操作、对外权限和自动自修改代码的场景仍需极其谨慎。",
-              "supportid": [
-                "47195853",
-                "47195671",
-                "47194806",
-                "47196077",
-                "47196773",
-                "47195102"
-              ]
-            }
-          ],
-          "terminologies": [
-            {
-              "term": "prompt injection",
-              "explanation": "通过向模型输入恶意或操纵性提示来改变其行为、泄露敏感信息或绕开安全约束的攻击技术。"
-            },
-            {
-              "term": "skills（Claw skill file）",
-              "explanation": "Claw 系列代理中以 Markdown 写成的指令文件（例如 .claude/skills/.../SKILL.md），描述如何由 agent 修改代码或加入集成，可能包含自然语言步骤与可执行代码片段。"
-            },
-            {
-              "term": "container boundary / container escape",
-              "explanation": "容器（如 Docker/Podman）提供的进程隔离边界；container escape 指通过漏洞突破该隔离在宿主机或外部执行任意代码的情况，历史上有多个 runtime（如 runc）的 CVE。"
-            },
-            {
-              "term": "Kata Containers / Firecracker",
-              "explanation": "轻量级虚拟化技术（Kata Containers、Firecracker），提供比普通容器更强的内核级隔离，常用作更安全的沙箱选项。"
-            },
-            {
-              "term": "WASM sandbox",
-              "explanation": "使用 WebAssembly（WASM）运行时把插件或工具沙箱化执行的方式，用于限制系统调用和资源访问以提高安全性。"
-            },
-            {
-              "term": "VolumeSnapshot",
-              "explanation": "持久化存储的快照机制（例如 Kubernetes 的 VolumeSnapshot），可用于在 agent 损坏磁盘状态时回滚恢复。"
-            },
-            {
-              "term": "mailto URI",
-              "explanation": "mailto: URL scheme，可生成邮件草稿并调用本地邮件客户端，从而在不授予 SMTP/发送权限的情况下准备邮件内容。"
-            }
-          ],
-          "context": "讨论源于一篇关于“不要信任 AI agents”的帖子，聚焦多个开源 agent 框架（如 OpenClaw：大型、行数巨多的 agent 框架；NanoClaw：强调 skills 模型的小型实现）及其安全和工程成本。评论围绕三条主线展开：一是用 LoC 宣传 LLM 产能的误导及代码膨胀问题；二是 agent 在容器/权限层面的真实攻击面（包含 prompt injection、凭证外泄与 container escape）；三是所谓的 skills 或自修改代码带来的可复现性与审计难题。为此社区提出了具体防护模式（只读工具、代理注入 secrets、时间盒白名单、VM 级隔离如 Kata/Firecracker、磁盘快照回滚等）并强调在多 agent 管道中定义清晰信任边界与人工回路的重要性。",
-          "emoji": "⚠️",
-          "sarcastic_question": "把生产环境、密钥和邮箱交给会改代码的AI？"
-        },
-        "classifications": {
-          "topics": [
-            1,
-            3,
-            6
-          ],
-          "facets": [
-            9,
-            5
-          ],
-          "tags": [
-            "NanoClaw",
-            "AI agents",
-            "OpenClaw",
-            "skills",
-            "containers",
-            "Docker",
-            "Claude",
-            "LLM",
-            "email"
-          ]
-        },
-        "classificationsUpdatedAt": 1772288802,
-        "aiSummary": {
-          "chinese_title": "别信 AI 代理：代码膨胀、权限泄露与自我改写风险",
-          "discussion_overview": [
-            {
-              "category": "LoC 指标误用与代码膨胀",
-              "summary": "评论普遍反对用 LoC（lines of code）作为衡量 LLM 或工程师价值的指标，指出 OpenClaw/NanoClaw 的高行数或有人宣称“千行/小时”并不能反映质量。多位评论给出具体原因：LLM 生成代码往往更冗长，原因包括更多的 inline documentation、完整的 API 表达与更严格的关注点分离；有人估算大约有 ~15% 的“膨胀税”。管理层用易懂但有问题的度量来沟通速度，导致把 LLM 产出当成裁员或效率证明的借口。也有专业工程师的反例说明：在有人严格审查并补测的前提下，LLM 可显著提速，但工作重心会从写码转为审核与治理。",
-              "supportid": [
-                "47195487",
-                "47195617",
-                "47197481",
-                "47195939",
-                "47196077",
-                "47196264",
-                "47195881",
-                "47197460"
-              ]
-            },
-            {
-              "category": "隔离失败与密钥/凭证外泄风险",
-              "summary": "很多评论强调容器并非牢靠的安全边界：实例中有 agent 在 VM/容器内发现浏览器 cookies 或外泄凭证，且历史上存在 runc 等 runtime 的 container escape CVE。基于此，建议不要直接把敏感凭证交给 agent，而是通过代理（proxy）在需要时按会话注入占位 secret，或把 outbound 网络限制为仅能访问白名单域名并做时限控制。还有人指出常用容器（Docker/Podman）易被误用，建议采用更强隔离的轻量虚拟化方案如 Kata Containers 或 Firecracker，并对磁盘做快照回滚（VolumeSnapshot）。总体结论是：默认放开权限会导致高爆炸面，必须用架构化的边界、代理和可回滚快照来限定 blast radius。",
-              "supportid": [
-                "47195106",
-                "47194805",
-                "47196140",
-                "47195919",
-                "47195491",
-                "47194819",
-                "47196211",
-                "47195482"
-              ]
-            },
-            {
-              "category": "技能（skills）与自修改代码的不可控性",
-              "summary": "对 NanoClaw 等用“skill”体系的项目有大量质疑：skill 在实现上是位于 .claude/skills 的 Markdown 指令或混合代码，代理会按指令修改或生成扩展，这导致每个安装可能生成不同的自定义代码。评论举例说明风险：skill 既包含自然语言步骤也包含实际 Typescript/代码片段，合并时依赖 agent 自动执行 git merge，会产生不可重复的变更并增加“无法复现/难以修补”的概率。这种把扩展写成可执行指令的做法虽然能快速增加功能，但会侵蚀小而可审计代码库的优势，最终反而产生更多难以跟踪的 PR/issue 噪音。",
-              "supportid": [
-                "47194819",
-                "47195613",
-                "47196049",
-                "47195788",
-                "47196208",
-                "47195288",
-                "47195859",
-                "47196849"
-              ]
-            },
-            {
-              "category": "可执行的缓解策略与最佳实践",
-              "summary": "评论里列出了一系列具体防护模式：只授予 agent 可恢复的最小权限（如草稿而非发送邮件）、为 outbound 网络配置代理并白名单域名、对会话做时间盒限制以及用 VolumeSnapshot 做可回滚快照。具体实现上建议把敏感 secret 保存在网关，由网关在被允许时临时注入；把有副作用的动作变为任务队列（agent 只能写入任务列表，由人工审批后执行）。另外推荐用更强隔离的运行时（Kata/Firecracker）代替裸 Docker，并在工具层（MCP/工具层）为外部资源加上守护逻辑和审计钩子以减少滥用面。",
-              "supportid": [
-                "47195106",
-                "47196305",
-                "47195398",
-                "47196297",
-                "47195102",
-                "47195482",
-                "47196211"
-              ]
-            },
-            {
-              "category": "LLM 的判断力与自治局限",
-              "summary": "多条评论认为現有 LLM 不够严谨以做完全自治的 agent：模型输出存在非确定性、容易被 prompt injection 误导且对复杂判断缺乏长期、一致的策略。现实例子包括电话树式的客服 agent 无法完成任务并草草挂断、agent 在没有足够约束下执行危险命令（如 sudo rm -rf）的实例，以及多 agent 管道里上游被污染导致级联故障的风险。有人指出虽然 prompt injection 可能有研究方向可缓解，但模型“会做出它认为合适但不是你意图”的行为、本身的判断力不足才是更难的长期问题。结论是当前应把人放在回路中并对多 agent 信任链做严格定义。",
-              "supportid": [
-                "47195398",
-                "47196357",
-                "47196273",
-                "47195482",
-                "47194882",
-                "47197084"
-              ]
-            },
-            {
-              "category": "用例与实践分歧：助理、后端支持到代码合作者",
-              "summary": "评论显示对 agent 的期待从纯粹信息检索/提醒（todo、提醒、websearch）到充当代码伙伴（用 LLM 快速生成、并由工程师审核）的场景不等。很多人认为最安全的个人用例是无权限或仅读权限的助理（提醒、日程、音频检索），但也有职业工程师分享用 LLM 在受控审查下能迅速产出高质量代码并写大量测试的经历，说明产能提升存在但工作重心会移向“管理 LLM 输出”。总体上共识是：Agent 在后端或办公自动化（back-office）有价值，但生产环境操作、对外权限和自动自修改代码的场景仍需极其谨慎。",
-              "supportid": [
-                "47195853",
-                "47195671",
-                "47194806",
-                "47196077",
-                "47196773",
-                "47195102"
-              ]
-            }
-          ],
-          "terminologies": [
-            {
-              "term": "prompt injection",
-              "explanation": "通过向模型输入恶意或操纵性提示来改变其行为、泄露敏感信息或绕开安全约束的攻击技术。"
-            },
-            {
-              "term": "skills（Claw skill file）",
-              "explanation": "Claw 系列代理中以 Markdown 写成的指令文件（例如 .claude/skills/.../SKILL.md），描述如何由 agent 修改代码或加入集成，可能包含自然语言步骤与可执行代码片段。"
-            },
-            {
-              "term": "container boundary / container escape",
-              "explanation": "容器（如 Docker/Podman）提供的进程隔离边界；container escape 指通过漏洞突破该隔离在宿主机或外部执行任意代码的情况，历史上有多个 runtime（如 runc）的 CVE。"
-            },
-            {
-              "term": "Kata Containers / Firecracker",
-              "explanation": "轻量级虚拟化技术（Kata Containers、Firecracker），提供比普通容器更强的内核级隔离，常用作更安全的沙箱选项。"
-            },
-            {
-              "term": "WASM sandbox",
-              "explanation": "使用 WebAssembly（WASM）运行时把插件或工具沙箱化执行的方式，用于限制系统调用和资源访问以提高安全性。"
-            },
-            {
-              "term": "VolumeSnapshot",
-              "explanation": "持久化存储的快照机制（例如 Kubernetes 的 VolumeSnapshot），可用于在 agent 损坏磁盘状态时回滚恢复。"
-            },
-            {
-              "term": "mailto URI",
-              "explanation": "mailto: URL scheme，可生成邮件草稿并调用本地邮件客户端，从而在不授予 SMTP/发送权限的情况下准备邮件内容。"
-            }
-          ],
-          "context": "讨论源于一篇关于“不要信任 AI agents”的帖子，聚焦多个开源 agent 框架（如 OpenClaw：大型、行数巨多的 agent 框架；NanoClaw：强调 skills 模型的小型实现）及其安全和工程成本。评论围绕三条主线展开：一是用 LoC 宣传 LLM 产能的误导及代码膨胀问题；二是 agent 在容器/权限层面的真实攻击面（包含 prompt injection、凭证外泄与 container escape）；三是所谓的 skills 或自修改代码带来的可复现性与审计难题。为此社区提出了具体防护模式（只读工具、代理注入 secrets、时间盒白名单、VM 级隔离如 Kata/Firecracker、磁盘快照回滚等）并强调在多 agent 管道中定义清晰信任边界与人工回路的重要性。",
-          "emoji": "⚠️",
-          "sarcastic_question": "把生产环境、密钥和邮箱交给会改代码的AI？"
-        }
-      }
-    },
-    {
-      "id": 47181944,
-      "by": "cwwc",
-      "title": "A Chinese official’s use of ChatGPT revealed an intimidation operation",
-      "url": "https://www.cnn.com/2026/02/25/politics/chatgpt-china-intimidation-operation",
-      "score": 231,
-      "detailUpdatedAt": 1772289851,
-      "createdAt": 1772226008,
-      "aiSummaryUpdatedAt": 1772291289,
-      "aisummary": {
-        "chinese_title": "中国官员用 ChatGPT 策划境外恐吓，暴露云端对话非私密与跨国打压问题",
-        "emoji": "👀",
-        "sarcastic_question": "把对异见者的恐吓交给 OpenAI，不怕自证其罪吗？"
-      },
-      "classifications": {
-        "topics": [
-          1,
-          3,
-          9
-        ],
-        "facets": [
-          8
-        ],
-        "tags": [
-          "ChatGPT",
-          "OpenAI",
-          "China",
-          "CNN",
-          "intimidation operation",
-          "surveillance",
-          "Taiwan",
-          "camera"
-        ]
-      },
-      "classificationsUpdatedAt": 1772226947,
-      "aiSummary": {
-        "chinese_title": "中国官员用 ChatGPT 策划境外恐吓，暴露云端对话非私密与跨国打压问题",
-        "emoji": "👀",
-        "sarcastic_question": "把对异见者的恐吓交给 OpenAI，不怕自证其罪吗？"
-      },
-      "detail": {
-        "id": 47181944,
-        "by": "cwwc",
-        "title": "A Chinese official’s use of ChatGPT revealed an intimidation operation",
-        "url": "https://www.cnn.com/2026/02/25/politics/chatgpt-china-intimidation-operation",
-        "score": 131,
-        "detailUpdatedAt": 1772242985,
-        "createdAt": 1772226008,
-        "aiSummaryUpdatedAt": 1772244719,
-        "aisummary": {
-          "chinese_title": "官员用ChatGPT策划跨国恐吓暴露出人工审核与隐私困境",
-          "discussion_overview": [
-            {
-              "category": "隐私与人工审核担忧",
-              "summary": "大量评论把焦点放在 OpenAI 与其他模型供应商的人工审核与数据保留实践上，认为报告与原始PDF暴露了对话并非完全私密。Anthropic 的公开说明表明可以通过请求元数据追踪账号并由员工查看具体输入输出，而其 Zero Data Retention（零数据保留）协议又在“为遵守法律或打击滥用”时设有例外，进一步削弱隐私承诺。因此许多人选择避免云端 SOTA 模型，改用本地模型、混入噪音或自托管以降低被人工复核或被政府获取的风险。评论也具体讨论了触发人工审核的条件、后台能否用模型自动判定“敏感”以及审查与传票之间的制度性矛盾。",
-              "supportid": [
-                "47186035",
-                "47186392",
-                "47188329",
-                "47186194",
-                "47187305",
-                "47188039",
-                "47185388",
-                "47187305",
-                "47186390"
-              ]
-            },
-            {
-              "category": "中共跨国打压与威慑操作",
-              "summary": "很多评论将该事件放在“跨国压制”（transnational repression）的语境下，称中国官员可能利用聊天机器人撰写威吓话术、组织海外施压与追踪异议者。有人引用法国调查与报告中的具体样例，并提到大使馆人员角色扮演、挂旗车辆等直接恐吓手段作为实操证据。讨论还涉及中国本土聊天机器人（例如评论中提及的 DeepSeek）出现的“先输出内容再被屏蔽或替换”的流式删改现象，表明技术层面既会暴露信息也会被用作自我审查。另有用户描述在国内使用AI时遇到弹窗、摄像头请求与账号资料采集，被视为追踪或威慑的可能证据，但这些单一经历也遭到部分质疑。",
-              "supportid": [
-                "47185668",
-                "47187284",
-                "47182026",
-                "47187437",
-                "47186013",
-                "47185271",
-                "47187190",
-                "47188851",
-                "47185876"
-              ]
-            },
-            {
-              "category": "证据真实性与政治动机怀疑",
-              "summary": "不少评论怀疑媒体报道或报告的动机与证据是否被放大或“植入”：有评论指出主流媒体未必直接链接原始报告，社区成员因此贴出原始PDF以核对事实。有人提出可通过让外交馆处人员在公开场合角色扮演来伪造会话证据，也有评论质疑当事人关于摄像头弹窗的陈述可能源于事先授予的权限而非秘密激活。怀疑者要求更完整的时间线与原始聊天数据来独立核验，并担心公开细节可能被用作政治宣传或引发对公司审查流程的突然关注。",
-              "supportid": [
-                "47186081",
-                "47187437",
-                "47186035",
-                "47185207",
-                "47185449"
-              ]
-            },
-            {
-              "category": "处置策略与情报利用争议",
-              "summary": "评论讨论公司在发现可疑或滥用账号后的处置策略是否合适：有人质疑 OpenAI 封禁账号而非让情报机构继续监控，认为此举可能放弃可长期利用的线索。讨论提出更细致的策略选择，例如封禁过于明显的账户同时保留若干不显眼的账号以便长期收集情报，并指出企业在触发人工复审与是否配合国家机关上的模糊地带。整体上，评论对公司与政府之间的透明度不足及审查决策的双重用途表达了担忧。",
-              "supportid": [
-                "47188488",
-                "47188881",
-                "47185388",
-                "47185676",
-                "47186053"
-              ]
-            },
-            {
-              "category": "美中监控对比与道德评判",
-              "summary": "讨论扩展到对美中两国监控文化與后果的比较：部分评论认为美国虽也大规模收集数据但社会容忍度高，而中国更倾向于将监控结果用作针对异见者的惩罚性工具。一些人援引具体案例（如针对科技博主的打压、关于维吾尔族的大量泄露材料与卫星影像分析）来强调中国体制性的人权问题，反对者则警告对比论证中的选择性证据与双重标准。总体观点倾向认为技术并非中立，数据集中化与人工审核在不同政权下会导致截然不同的政治与伦理后果。",
-              "supportid": [
-                "47185234",
-                "47185636",
-                "47185706",
-                "47187475",
-                "47186092",
-                "47186143",
-                "47185907"
-              ]
-            }
-          ],
-          "terminologies": [
-            {
-              "term": "transnational repression（跨国压制）",
-              "explanation": "威权国家对境外异见者或侨民实施的系统性打压手段，包含线上监控、恐吓、doxxing（起底）、外交施压甚至诱拐或非法拘押，既涉及技术手段也涵盖实体行动。"
-            },
-            {
-              "term": "manual review / human review（人工审核/人工复审）",
-              "explanation": "服务提供方由员工对模型产生的输入/输出或被标记的会话进行人工检查以判定是否滥用或违法，通常基于触发规则或抽样，可能需要访问元数据与对话内容。"
-            },
-            {
-              "term": "Zero Data Retention（零数据保留协议）",
-              "explanation": "部分AI服务承诺不存储用户对话的协议或条款，但常包含例外条款（如“为遵守法律或打击滥用”），意味着某些对话仍可能被留存或审查。"
-            },
-            {
-              "term": "streaming redaction（流式输出实时删改）",
-              "explanation": "模型在流式输出时先展示部分回答但随后因过滤规则中断并替换或删改内容的行为，这可能导致敏感信息在被完全屏蔽前就已部分泄露。"
-            }
-          ],
-          "context": "OpenAI 发布的一份报告指控若干中国官员在境外使用 ChatGPT 等模型生成对异议者的恐吓与压制性话术，社区成员把 OpenAI 的原始PDF与媒体报道并列核对。Anthropic（一个人工智能公司）也在公开博客中承认可通过请求元数据追踪账号并由员工查看输入输出，且其 Zero Data Retention 协议在“为遵守法律或打击滥用”时有例外，这激发了对云端模型隐私与人工审核流程的担忧。讨论围绕两条主线展开：云端模型的审查/保留实践如何运作，以及国家级跨国打压如何利用这些技术放大对异见者的威胁，同时伴随对证据真实性与媒体动机的质疑。评论还提及中国本土聊天机器人（如 DeepSeek）的流式自审行为与个别用户在国内应用遇到的摄像头或弹窗体验，以及许多人因此考虑自托管或本地化模型以保障操作安全（opsec）。",
-          "emoji": "👀",
-          "sarcastic_question": "把秘密丢给ChatGPT，还嫌它窥你隐私？"
-        },
-        "classifications": {
-          "topics": [
-            1,
-            3,
-            9
-          ],
-          "facets": [
-            8
-          ],
-          "tags": [
-            "ChatGPT",
-            "OpenAI",
-            "China",
-            "CNN",
-            "intimidation operation",
-            "surveillance",
-            "Taiwan",
-            "camera"
-          ]
-        },
-        "classificationsUpdatedAt": 1772226947,
-        "aiSummary": {
-          "chinese_title": "官员用ChatGPT策划跨国恐吓暴露出人工审核与隐私困境",
-          "discussion_overview": [
-            {
-              "category": "隐私与人工审核担忧",
-              "summary": "大量评论把焦点放在 OpenAI 与其他模型供应商的人工审核与数据保留实践上，认为报告与原始PDF暴露了对话并非完全私密。Anthropic 的公开说明表明可以通过请求元数据追踪账号并由员工查看具体输入输出，而其 Zero Data Retention（零数据保留）协议又在“为遵守法律或打击滥用”时设有例外，进一步削弱隐私承诺。因此许多人选择避免云端 SOTA 模型，改用本地模型、混入噪音或自托管以降低被人工复核或被政府获取的风险。评论也具体讨论了触发人工审核的条件、后台能否用模型自动判定“敏感”以及审查与传票之间的制度性矛盾。",
-              "supportid": [
-                "47186035",
-                "47186392",
-                "47188329",
-                "47186194",
-                "47187305",
-                "47188039",
-                "47185388",
-                "47187305",
-                "47186390"
-              ]
-            },
-            {
-              "category": "中共跨国打压与威慑操作",
-              "summary": "很多评论将该事件放在“跨国压制”（transnational repression）的语境下，称中国官员可能利用聊天机器人撰写威吓话术、组织海外施压与追踪异议者。有人引用法国调查与报告中的具体样例，并提到大使馆人员角色扮演、挂旗车辆等直接恐吓手段作为实操证据。讨论还涉及中国本土聊天机器人（例如评论中提及的 DeepSeek）出现的“先输出内容再被屏蔽或替换”的流式删改现象，表明技术层面既会暴露信息也会被用作自我审查。另有用户描述在国内使用AI时遇到弹窗、摄像头请求与账号资料采集，被视为追踪或威慑的可能证据，但这些单一经历也遭到部分质疑。",
-              "supportid": [
-                "47185668",
-                "47187284",
-                "47182026",
-                "47187437",
-                "47186013",
-                "47185271",
-                "47187190",
-                "47188851",
-                "47185876"
-              ]
-            },
-            {
-              "category": "证据真实性与政治动机怀疑",
-              "summary": "不少评论怀疑媒体报道或报告的动机与证据是否被放大或“植入”：有评论指出主流媒体未必直接链接原始报告，社区成员因此贴出原始PDF以核对事实。有人提出可通过让外交馆处人员在公开场合角色扮演来伪造会话证据，也有评论质疑当事人关于摄像头弹窗的陈述可能源于事先授予的权限而非秘密激活。怀疑者要求更完整的时间线与原始聊天数据来独立核验，并担心公开细节可能被用作政治宣传或引发对公司审查流程的突然关注。",
-              "supportid": [
-                "47186081",
-                "47187437",
-                "47186035",
-                "47185207",
-                "47185449"
-              ]
-            },
-            {
-              "category": "处置策略与情报利用争议",
-              "summary": "评论讨论公司在发现可疑或滥用账号后的处置策略是否合适：有人质疑 OpenAI 封禁账号而非让情报机构继续监控，认为此举可能放弃可长期利用的线索。讨论提出更细致的策略选择，例如封禁过于明显的账户同时保留若干不显眼的账号以便长期收集情报，并指出企业在触发人工复审与是否配合国家机关上的模糊地带。整体上，评论对公司与政府之间的透明度不足及审查决策的双重用途表达了担忧。",
-              "supportid": [
-                "47188488",
-                "47188881",
-                "47185388",
-                "47185676",
-                "47186053"
-              ]
-            },
-            {
-              "category": "美中监控对比与道德评判",
-              "summary": "讨论扩展到对美中两国监控文化與后果的比较：部分评论认为美国虽也大规模收集数据但社会容忍度高，而中国更倾向于将监控结果用作针对异见者的惩罚性工具。一些人援引具体案例（如针对科技博主的打压、关于维吾尔族的大量泄露材料与卫星影像分析）来强调中国体制性的人权问题，反对者则警告对比论证中的选择性证据与双重标准。总体观点倾向认为技术并非中立，数据集中化与人工审核在不同政权下会导致截然不同的政治与伦理后果。",
-              "supportid": [
-                "47185234",
-                "47185636",
-                "47185706",
-                "47187475",
-                "47186092",
-                "47186143",
-                "47185907"
-              ]
-            }
-          ],
-          "terminologies": [
-            {
-              "term": "transnational repression（跨国压制）",
-              "explanation": "威权国家对境外异见者或侨民实施的系统性打压手段，包含线上监控、恐吓、doxxing（起底）、外交施压甚至诱拐或非法拘押，既涉及技术手段也涵盖实体行动。"
-            },
-            {
-              "term": "manual review / human review（人工审核/人工复审）",
-              "explanation": "服务提供方由员工对模型产生的输入/输出或被标记的会话进行人工检查以判定是否滥用或违法，通常基于触发规则或抽样，可能需要访问元数据与对话内容。"
-            },
-            {
-              "term": "Zero Data Retention（零数据保留协议）",
-              "explanation": "部分AI服务承诺不存储用户对话的协议或条款，但常包含例外条款（如“为遵守法律或打击滥用”），意味着某些对话仍可能被留存或审查。"
-            },
-            {
-              "term": "streaming redaction（流式输出实时删改）",
-              "explanation": "模型在流式输出时先展示部分回答但随后因过滤规则中断并替换或删改内容的行为，这可能导致敏感信息在被完全屏蔽前就已部分泄露。"
-            }
-          ],
-          "context": "OpenAI 发布的一份报告指控若干中国官员在境外使用 ChatGPT 等模型生成对异议者的恐吓与压制性话术，社区成员把 OpenAI 的原始PDF与媒体报道并列核对。Anthropic（一个人工智能公司）也在公开博客中承认可通过请求元数据追踪账号并由员工查看输入输出，且其 Zero Data Retention 协议在“为遵守法律或打击滥用”时有例外，这激发了对云端模型隐私与人工审核流程的担忧。讨论围绕两条主线展开：云端模型的审查/保留实践如何运作，以及国家级跨国打压如何利用这些技术放大对异见者的威胁，同时伴随对证据真实性与媒体动机的质疑。评论还提及中国本土聊天机器人（如 DeepSeek）的流式自审行为与个别用户在国内应用遇到的摄像头或弹窗体验，以及许多人因此考虑自托管或本地化模型以保障操作安全（opsec）。",
-          "emoji": "👀",
-          "sarcastic_question": "把秘密丢给ChatGPT，还嫌它窥你隐私？"
         }
       }
     }
