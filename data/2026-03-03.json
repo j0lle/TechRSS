@@ -3,7 +3,7 @@
   "total_feeds": 92,
   "success_feeds": 86,
   "total_articles": 2437,
-  "filtered_articles": 15,
+  "filtered_articles": 16,
   "articles": [
     {
       "title": "GIF optimization tool using WebAssembly and Gifsicle",
@@ -43,6 +43,26 @@
         "oscillations"
       ],
       "rank": 2
+    },
+    {
+      "title": "Apple Introduces New iPad Air With M4",
+      "title_zh": "iPad Air 搭载 M4 芯片发布",
+      "link": "https://www.apple.com/newsroom/2026/03/apple-introduces-the-new-ipad-air-powered-by-m4/",
+      "pub_date": "2026-03-02T17:40:30.000Z",
+      "summary": "",
+      "source_name": "daringfireball.net",
+      "score": 13,
+      "depth": 2,
+      "novelty": 5,
+      "breadth": 6,
+      "category": "tools",
+      "keywords": [
+        "iPad Air",
+        "M4",
+        "Wi-Fi 7",
+        "iPadOS 26"
+      ],
+      "rank": 3
     }
   ]
 }
