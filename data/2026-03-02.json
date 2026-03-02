@@ -2,8 +2,8 @@
   "date": "2026-03-02",
   "total_feeds": 92,
   "success_feeds": 86,
-  "total_articles": 2437,
-  "filtered_articles": 13,
+  "total_articles": 2536,
+  "filtered_articles": 14,
   "articles": [
     {
       "title": "Why on-device agentic AI can't keep up",
@@ -206,6 +206,26 @@
       "rank": 10
     },
     {
+      "title": "The things that make me so attached to xterm as my terminal program",
+      "title_zh": "作者坚持使用 xterm 的七大技术原因",
+      "link": "https://utcc.utoronto.ca/~cks/space/blog/unix/XTermWhyAttached",
+      "pub_date": "2026-03-02T04:27:43.000Z",
+      "summary": "xterm 作为最古老的终端模拟器之一，作者详细列举了让他坚持使用 xterm 而非 gnome-terminal、urxvt 或 konsole 等现代替代品的具体原因。核心功能包括 ziconbeep（后台窗口有输出时闪烁提示）、大范围文本选择机制（通过鼠标按钮 3）、完全禁用终端颜色的能力、可自定义的双击选择词边界行为（例如双击只选中路径中的单个目录而非整个路径）、不自动识别或劫持 URL 点击、通过命令行参数控制行为而非强制使用 profile、以及每个窗口完全独立启动且不在远程服务器上产生复杂依赖。作者认为最难在其他终端中复制的两个特性是双击选择词的精确行为和大范围选择机制，后者要求终端不将鼠标右键用于弹出菜单。文章还提到 xterm 支持通过快捷键复制窗口、特殊控制字符（如 Ctrl-space）等次要功能。",
+      "source_name": "utcc.utoronto.ca/~cks",
+      "score": 10,
+      "depth": 4,
+      "novelty": 3,
+      "breadth": 3,
+      "category": "tools",
+      "keywords": [
+        "xterm",
+        "terminal emulator",
+        "Unix",
+        "Wayland"
+      ],
+      "rank": 11
+    },
+    {
       "title": "Weekly Update 493",
       "title_zh": "Troy Hunt 第 493 期周报",
       "link": "https://www.troyhunt.com/weekly-update-493/",
@@ -222,7 +242,7 @@
         "Odido breach",
         "data leak"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "Shell variable ~-",
@@ -241,7 +261,7 @@
         "shell",
         "OLDPWD"
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "title": "Killing my inner Necron",
@@ -259,7 +279,7 @@
         "personal",
         "recovery"
       ],
-      "rank": 13
+      "rank": 14
     },
     {
       "title": "The Unbound Scepter",
@@ -278,7 +298,7 @@
         "personal",
         "medication"
       ],
-      "rank": 14
+      "rank": 15
     }
   ]
 }
