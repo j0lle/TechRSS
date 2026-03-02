@@ -2,8 +2,8 @@
   "date": "2026-03-02",
   "total_feeds": 92,
   "success_feeds": 86,
-  "total_articles": 2536,
-  "filtered_articles": 14,
+  "total_articles": 2437,
+  "filtered_articles": 15,
   "articles": [
     {
       "title": "Why on-device agentic AI can't keep up",
@@ -146,6 +146,26 @@
       "rank": 7
     },
     {
+      "title": "Apple Introduces iPhone 17e",
+      "title_zh": "Apple 发布 iPhone 17e",
+      "link": "https://www.apple.com/newsroom/2026/03/apple-introduces-iphone-17e/",
+      "pub_date": "2026-03-02T15:03:16.000Z",
+      "summary": "",
+      "source_name": "daringfireball.net",
+      "score": 13,
+      "depth": 2,
+      "novelty": 4,
+      "breadth": 7,
+      "category": "other",
+      "keywords": [
+        "iPhone",
+        "A19",
+        "C1X",
+        "MagSafe"
+      ],
+      "rank": 8
+    },
+    {
       "title": "AMD Am386 released March 2, 1991",
       "title_zh": "AMD Am386 延迟六年发布的法律真相",
       "link": "https://dfarq.homeip.net/amd-am386-released-march-2-1991/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=amd-am386-released-march-2-1991",
@@ -163,7 +183,7 @@
         "Intel",
         "x86"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "The two kinds of error",
@@ -183,7 +203,7 @@
         "unexpected errors",
         "reliability"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Book Notes: “Blood In The Machine” by Brian Merchant",
@@ -203,7 +223,7 @@
         "automation",
         "labor"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "The things that make me so attached to xterm as my terminal program",
@@ -223,7 +243,7 @@
         "Unix",
         "Wayland"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "Weekly Update 493",
@@ -242,7 +262,7 @@
         "Odido breach",
         "data leak"
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "title": "Shell variable ~-",
@@ -261,7 +281,26 @@
         "shell",
         "OLDPWD"
       ],
-      "rank": 13
+      "rank": 14
+    },
+    {
+      "title": "February sponsors-only newsletter",
+      "title_zh": "Simon Willison 二月赞助者通讯",
+      "link": "https://simonwillison.net/2026/Mar/2/february-newsletter/#atom-everything",
+      "pub_date": "2026-03-02T14:53:15.000Z",
+      "summary": "",
+      "source_name": "simonwillison.net",
+      "score": 6,
+      "depth": 2,
+      "novelty": 2,
+      "breadth": 2,
+      "category": "other",
+      "keywords": [
+        "newsletter",
+        "Claude",
+        "agentic"
+      ],
+      "rank": 15
     },
     {
       "title": "Killing my inner Necron",
@@ -279,7 +318,7 @@
         "personal",
         "recovery"
       ],
-      "rank": 14
+      "rank": 16
     },
     {
       "title": "The Unbound Scepter",
@@ -298,7 +337,7 @@
         "personal",
         "medication"
       ],
-      "rank": 15
+      "rank": 17
     }
   ]
 }
