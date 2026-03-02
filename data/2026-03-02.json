@@ -3,7 +3,7 @@
   "total_feeds": 92,
   "success_feeds": 86,
   "total_articles": 2437,
-  "filtered_articles": 13,
+  "filtered_articles": 12,
   "articles": [
     {
       "title": "Why on-device agentic AI can't keep up",
@@ -26,6 +26,26 @@
       "rank": 1
     },
     {
+      "title": "Transitive Trust",
+      "title_zh": "开源供应链的传递性信任危机",
+      "link": "https://nesbitt.io/2026/03/02/transitive-trust.html",
+      "pub_date": "2026-03-02T10:00:00.000Z",
+      "summary": "Ken Thompson 在 1984 年提出的编译器后门问题揭示了信任链的脆弱性：源代码干净但二进制文件可能已被篡改，唯一的检测方式是从头重建整个工具链。现代开源生态建立在类似的传递性信任之上，一个拥有 800 个传递依赖的包能正常工作，仅仅是因为每个维护者都合理选择了自己的依赖，而没有人审计整个信任网络。npm audit、Dependabot 等工具只能扫描已知的直接依赖漏洞，但无法验证每个维护者是否也在审计他们的依赖，更无法看到构建过程中使用的 devDependencies、构建工具和 CI 脚本。event-stream 事件、xz 后门和 codecov bash uploader 被攻破展示了攻击向量：恶意维护者、潜伏两年的贡献者、被数千项目直接 curl 进构建流程的 CI 工具。Trusted publishing 通过从 CI 直接发布包来建立源代码和制品之间的可验证链接，但这只是将信任转移到了 CI 配置和 GitHub Actions 上，而 Actions 缺乏语言包管理器多年构建的供应链保护。大型公司通过 vendoring 和受控环境重建所有代码来应对，但这只是将信任边界向下移动，最终仍会在某个点停止验证并开始信任。",
+      "source_name": "nesbitt.io",
+      "score": 22,
+      "depth": 7,
+      "novelty": 7,
+      "breadth": 8,
+      "category": "security",
+      "keywords": [
+        "supply chain",
+        "transitive trust",
+        "xz backdoor",
+        "trusted publishing"
+      ],
+      "rank": 2
+    },
+    {
       "title": "Expert Beginners and Lone Wolves will dominate this early LLM era",
       "title_zh": "LLM 时代将催生 Expert Beginners 和 Lone Wolves",
       "link": "https://www.jeffgeerling.com/blog/2026/expert-beginners-and-lone-wolves-dominate-llm-era/",
@@ -43,7 +63,7 @@
         "mentorship",
         "developer roles"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "\"Why hack the DHS? I can think of a couple Pretti Good reasons!\"",
@@ -63,7 +83,7 @@
         "data leak",
         "contracts"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Pluralistic: No one wants to read your AI slop (02 Mar 2026)",
@@ -83,7 +103,7 @@
         "netiquette",
         "hallucination"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "The two kinds of error",
@@ -103,7 +123,7 @@
         "unexpected errors",
         "reliability"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Book Notes: “Blood In The Machine” by Brian Merchant",
@@ -123,7 +143,7 @@
         "automation",
         "labor"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Weekly Update 493",
@@ -142,7 +162,7 @@
         "Odido breach",
         "data leak"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Shell variable ~-",
@@ -161,7 +181,7 @@
         "shell",
         "OLDPWD"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Killing my inner Necron",
@@ -179,7 +199,7 @@
         "personal",
         "recovery"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "The Unbound Scepter",
@@ -198,7 +218,7 @@
         "personal",
         "medication"
       ],
-      "rank": 10
+      "rank": 11
     }
   ]
 }
