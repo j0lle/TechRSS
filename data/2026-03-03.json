@@ -1,0 +1,48 @@
+{
+  "date": "2026-03-03",
+  "total_feeds": 92,
+  "success_feeds": 86,
+  "total_articles": 2437,
+  "filtered_articles": 15,
+  "articles": [
+    {
+      "title": "GIF optimization tool using WebAssembly and Gifsicle",
+      "title_zh": "用 Claude Code 将 Gifsicle 编译为 WebAssembly",
+      "link": "https://simonwillison.net/guides/agentic-engineering-patterns/gif-optimization/#atom-everything",
+      "pub_date": "2026-03-02T16:35:10.000Z",
+      "summary": "作者通过 Claude Code 构建了一个 GIF 优化工具，将 30 年历史的 C 语言工具 Gifsicle 编译为 WebAssembly，实现了浏览器端的 GIF 压缩。工具支持拖拽上传、多种预设优化方案对比、手动参数调整，并展示了从 274KB 压缩到 110.4KB（59.7% 减小）的实际效果。作者在提示中让 Claude 使用自研的 Rodney 浏览器自动化工具进行测试验证，Claude 成功处理了 Emscripten 编译链、源码补丁、构建脚本等复杂任务，最终生成的 WASM 文件大小为 233KB。这个案例展示了编码代理在处理复杂工具链和反复试错方面的优势，以及如何通过让 agent 自主测试来提高代码质量。",
+      "source_name": "simonwillison.net",
+      "score": 17,
+      "depth": 7,
+      "novelty": 6,
+      "breadth": 4,
+      "category": "tools",
+      "keywords": [
+        "WebAssembly",
+        "Gifsicle",
+        "Claude Code",
+        "coding agents"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Differential equation with a small delay",
+      "title_zh": "小延迟微分方程的定性行为",
+      "link": "https://www.johndcook.com/blog/2026/03/02/small-delay/",
+      "pub_date": "2026-03-02T16:08:49.000Z",
+      "summary": "延迟微分方程 x′(t) = ax(t) + bx(t−τ) 在延迟 τ 足够小时，其定性行为与无延迟方程相同。Driver 等人证明当 −1/e < bτ exp(−aτ) < e 且 aτ < 1 时，两者行为一致。以 x′(t) = −3x(t) + 2x(t−τ) 为例，τ < 0.404218 时解单调衰减至零，τ = 3 时则出现振荡。延迟项的引入会改变解的初始条件要求，需在区间 [−τ, 0] 上指定函数值。",
+      "source_name": "johndcook.com",
+      "score": 14,
+      "depth": 7,
+      "novelty": 4,
+      "breadth": 3,
+      "category": "engineering",
+      "keywords": [
+        "delay differential equations",
+        "stability",
+        "oscillations"
+      ],
+      "rank": 2
+    }
+  ]
+}
