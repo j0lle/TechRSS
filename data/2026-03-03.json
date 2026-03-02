@@ -3,8 +3,28 @@
   "total_feeds": 92,
   "success_feeds": 86,
   "total_articles": 2437,
-  "filtered_articles": 16,
+  "filtered_articles": 18,
   "articles": [
+    {
+      "title": "‘Anthropic and Alignment’",
+      "title_zh": "Anthropic 与美国国防部的对峙",
+      "link": "https://stratechery.com/2026/anthropic-and-alignment/",
+      "pub_date": "2026-03-02T18:20:13.000Z",
+      "summary": "Anthropic 与美国国防部发生冲突，拒绝将 Claude 模型用于大规模国内监控和完全自主武器系统。国防部长 Pete Hegseth 宣布将 Anthropic 列为供应链安全风险，禁止任何与美军有业务往来的公司与其合作。Ben Thompson 指出，如果 AI 能力达到核武器级别，美国无法容忍一个私人公司掌握这种力量并试图对政府行使否决权。Anthropic CEO Dario Amodei 此前曾将向中国出售先进 AI 芯片比作向朝鲜出售核武器，但 Thompson 认为这种立场缺乏系统性思考：切断中国芯片供应可能促使中国摧毁 TSMC，而反对开源模型只会将权力集中到少数公司手中。文章认为，AI 监控能力的担忧应通过新法律和民主监督解决，而非让未受选举问责的企业高管决定国家安全的边界。",
+      "source_name": "daringfireball.net",
+      "score": 23,
+      "depth": 6,
+      "novelty": 8,
+      "breadth": 9,
+      "category": "opinion",
+      "keywords": [
+        "Anthropic",
+        "alignment",
+        "national security",
+        "autonomous weapons"
+      ],
+      "rank": 1
+    },
     {
       "title": "GIF optimization tool using WebAssembly and Gifsicle",
       "title_zh": "用 Claude Code 将 Gifsicle 编译为 WebAssembly",
@@ -23,7 +43,7 @@
         "Claude Code",
         "coding agents"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Differential equation with a small delay",
@@ -42,7 +62,7 @@
         "stability",
         "oscillations"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Apple Introduces New iPad Air With M4",
@@ -62,7 +82,46 @@
         "Wi-Fi 7",
         "iPadOS 26"
       ],
-      "rank": 3
+      "rank": 4
+    },
+    {
+      "title": "WSJ: ‘Trump Administration Shuns Anthropic, Embraces OpenAI in Clash Over Guardrails’",
+      "title_zh": "特朗普政府弃用 Anthropic 转投 OpenAI",
+      "link": "https://www.wsj.com/tech/ai/trump-will-end-government-use-of-anthropics-ai-models-ff3550d9",
+      "pub_date": "2026-03-02T17:56:51.000Z",
+      "summary": "",
+      "source_name": "daringfireball.net",
+      "score": 13,
+      "depth": 2,
+      "novelty": 5,
+      "breadth": 6,
+      "category": "other",
+      "keywords": [
+        "Anthropic",
+        "OpenAI",
+        "Pentagon",
+        "guardrails"
+      ],
+      "rank": 5
+    },
+    {
+      "title": "Seasonal Color Updates to Apple’s iPhone Cases and Apple Watch Bands",
+      "title_zh": "Apple 推出配件新配色",
+      "link": "https://www.macrumors.com/2026/03/02/iphone-cases-apple-accessories-new-colors/",
+      "pub_date": "2026-03-02T17:52:59.000Z",
+      "summary": "",
+      "source_name": "daringfireball.net",
+      "score": 5,
+      "depth": 1,
+      "novelty": 2,
+      "breadth": 2,
+      "category": "other",
+      "keywords": [
+        "Apple",
+        "accessories",
+        "colors"
+      ],
+      "rank": 6
     }
   ]
 }
