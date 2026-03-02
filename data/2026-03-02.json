@@ -3,7 +3,7 @@
   "total_feeds": 92,
   "success_feeds": 86,
   "total_articles": 2437,
-  "filtered_articles": 12,
+  "filtered_articles": 13,
   "articles": [
     {
       "title": "Why on-device agentic AI can't keep up",
@@ -66,6 +66,26 @@
       "rank": 3
     },
     {
+      "title": "Adding \"Log In With Mastodon\" to Auth0",
+      "title_zh": "Auth0 集成 Mastodon 登录的通用方案",
+      "link": "https://shkspr.mobi/blog/2026/03/adding-log-in-with-mastodon-to-auth0/",
+      "pub_date": "2026-03-02T12:34:48.000Z",
+      "summary": "Auth0 原生不支持 Mastodon 登录，但通过其 Connections API 可添加自定义 OAuth2 提供商。作者在 OpenBenches 项目中实现了一个通用解决方案：用户点击登录后输入自己的 Mastodon 实例 URL，后端服务自动调用该实例的 API 创建只读访问密钥，完成 OAuth 授权流程。Auth0 配置需创建自定义连接，授权 URL 和 Token URL 指向自建服务，Client Secret 可填任意值。该方案适用于所有实现 Mastodon API 的实例，只读权限降低了安全风险，但用户需知道自己的实例地址。",
+      "source_name": "shkspr.mobi",
+      "score": 16,
+      "depth": 6,
+      "novelty": 6,
+      "breadth": 4,
+      "category": "engineering",
+      "keywords": [
+        "Auth0",
+        "Mastodon",
+        "OAuth2",
+        "social login"
+      ],
+      "rank": 4
+    },
+    {
       "title": "\"Why hack the DHS? I can think of a couple Pretti Good reasons!\"",
       "title_zh": "DHS ICE 合同数据泄露与可视化",
       "link": "https://micahflee.com/why-hack-the-dhs-i-can-think-of-a-couple-pretti-good-reasons/",
@@ -83,7 +103,7 @@
         "data leak",
         "contracts"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Pluralistic: No one wants to read your AI slop (02 Mar 2026)",
@@ -103,7 +123,47 @@
         "netiquette",
         "hallucination"
       ],
-      "rank": 5
+      "rank": 6
+    },
+    {
+      "title": "Why we feel an aversion towards LLM articles",
+      "title_zh": "为什么我们对 LLM 生成的文章感到反感",
+      "link": "https://idiallo.com/blog/why-we-hate-llm-articles?src=feed",
+      "pub_date": "2026-03-02T12:00:00.000Z",
+      "summary": "作者用 Seth Godin 书中虚构代笔人 Mo Samuels 的比喻，揭示了 LLM 生成内容的同质化问题。作者在一年内尝试用 DeepSeek 等 LLM 辅助写作，发现这些文章充斥着相同的句式和修辞套路，如 \"It's not just X, but Y\"、\"The irony is not lost on me\"。当作者回顾自己 AI 增强的文章时，发现段落风格陌生、用词不自然，最终选择重写这些内容。作者认为读者能识别出 \"Mo Samuels\" 的声音，并引用 \"如果你懒得写，为什么要有人读\" 的观点，强调真实写作的价值。",
+      "source_name": "idiallo.com",
+      "score": 13,
+      "depth": 3,
+      "novelty": 4,
+      "breadth": 6,
+      "category": "opinion",
+      "keywords": [
+        "LLM",
+        "writing",
+        "authenticity",
+        "DeepSeek"
+      ],
+      "rank": 7
+    },
+    {
+      "title": "AMD Am386 released March 2, 1991",
+      "title_zh": "AMD Am386 延迟六年发布的法律真相",
+      "link": "https://dfarq.homeip.net/amd-am386-released-march-2-1991/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=amd-am386-released-march-2-1991",
+      "pub_date": "2026-03-02T12:00:23.000Z",
+      "summary": "",
+      "source_name": "dfarq.homeip.net",
+      "score": 11,
+      "depth": 5,
+      "novelty": 4,
+      "breadth": 2,
+      "category": "other",
+      "keywords": [
+        "AMD",
+        "Am386",
+        "Intel",
+        "x86"
+      ],
+      "rank": 8
     },
     {
       "title": "The two kinds of error",
@@ -123,7 +183,7 @@
         "unexpected errors",
         "reliability"
       ],
-      "rank": 6
+      "rank": 9
     },
     {
       "title": "Book Notes: “Blood In The Machine” by Brian Merchant",
@@ -143,7 +203,7 @@
         "automation",
         "labor"
       ],
-      "rank": 7
+      "rank": 10
     },
     {
       "title": "Weekly Update 493",
@@ -162,7 +222,7 @@
         "Odido breach",
         "data leak"
       ],
-      "rank": 8
+      "rank": 11
     },
     {
       "title": "Shell variable ~-",
@@ -181,7 +241,7 @@
         "shell",
         "OLDPWD"
       ],
-      "rank": 9
+      "rank": 12
     },
     {
       "title": "Killing my inner Necron",
@@ -199,7 +259,7 @@
         "personal",
         "recovery"
       ],
-      "rank": 10
+      "rank": 13
     },
     {
       "title": "The Unbound Scepter",
@@ -218,7 +278,7 @@
         "personal",
         "medication"
       ],
-      "rank": 11
+      "rank": 14
     }
   ]
 }
