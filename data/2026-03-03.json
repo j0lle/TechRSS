@@ -1,8 +1,8 @@
 {
   "date": "2026-03-03",
   "total_feeds": 92,
-  "success_feeds": 85,
-  "total_articles": 2427,
+  "success_feeds": 86,
+  "total_articles": 2437,
   "filtered_articles": 21,
   "articles": [
     {
@@ -185,6 +185,25 @@
       "rank": 9
     },
     {
+      "title": "Unsung Heroes: Flickr’s URLs Scheme",
+      "title_zh": "Flickr 的 URL 设计：可读可编辑的典范",
+      "link": "https://unsung.aresluna.org/unsung-heroes-flickrs-urls-scheme/",
+      "pub_date": "2026-03-02T22:59:41.000Z",
+      "summary": "Flickr 在 2000 年代后期设计的 URL 方案堪称教科书级：flickr.com/photos/mwichary/sets/72177720330077904 这种结构完全摒弃了冗余的 www.、.php 后缀和 ?&= 参数，无需 Shift 键即可输入，可读、可编辑、可预测。用户可以通过删除 URL 末尾部分向上导航，或根据已知 URL 推测其他页面地址。短 URL 能完整嵌入句子和邮件，不会被 Slack 等平台的省略号截断导致链接失效。作者认为这种设计启发了他后续所有项目的 URL 架构，并建议 2026 年可进一步简化（去掉 /photos）或添加人类可读的 slug。",
+      "source_name": "daringfireball.net",
+      "score": 10,
+      "depth": 3,
+      "novelty": 3,
+      "breadth": 4,
+      "category": "engineering",
+      "keywords": [
+        "URL design",
+        "Flickr",
+        "user interface"
+      ],
+      "rank": 10
+    },
+    {
       "title": "I built a pint-sized Macintosh",
       "title_zh": "用树莓派 Pico 打造迷你 Macintosh",
       "link": "https://www.jeffgeerling.com/blog/2026/pint-sized-macintosh-pico-micro-mac/",
@@ -202,7 +221,7 @@
         "retro computing",
         "RP2040"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "Seasonal Color Updates to Apple’s iPhone Cases and Apple Watch Bands",
@@ -221,7 +240,7 @@
         "accessories",
         "colors"
       ],
-      "rank": 11
+      "rank": 12
     }
   ]
 }
