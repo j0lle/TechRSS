@@ -2,8 +2,8 @@
   "date": "2026-03-03",
   "total_feeds": 92,
   "success_feeds": 86,
-  "total_articles": 2437,
-  "filtered_articles": 21,
+  "total_articles": 2536,
+  "filtered_articles": 23,
   "articles": [
     {
       "title": "‘Anthropic and Alignment’",
@@ -224,6 +224,25 @@
       "rank": 11
     },
     {
+      "title": "★ HazeOver — Mac Utility for Highlighting the Frontmost Window",
+      "title_zh": "Mac 窗口高亮工具 HazeOver 推荐",
+      "link": "https://daringfireball.net/2026/03/hazeover",
+      "pub_date": "2026-03-02T23:41:11.000Z",
+      "summary": "",
+      "source_name": "daringfireball.net",
+      "score": 6,
+      "depth": 2,
+      "novelty": 2,
+      "breadth": 2,
+      "category": "tools",
+      "keywords": [
+        "Mac",
+        "HazeOver",
+        "productivity"
+      ],
+      "rank": 12
+    },
+    {
       "title": "Seasonal Color Updates to Apple’s iPhone Cases and Apple Watch Bands",
       "title_zh": "Apple 推出配件新配色",
       "link": "https://www.macrumors.com/2026/03/02/iphone-cases-apple-accessories-new-colors/",
@@ -240,7 +259,7 @@
         "accessories",
         "colors"
       ],
-      "rank": 12
+      "rank": 13
     }
   ]
 }
