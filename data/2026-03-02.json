@@ -1,9 +1,9 @@
 {
   "date": "2026-03-02",
   "total_feeds": 92,
-  "success_feeds": 85,
-  "total_articles": 2427,
-  "filtered_articles": 12,
+  "success_feeds": 86,
+  "total_articles": 2437,
+  "filtered_articles": 13,
   "articles": [
     {
       "title": "Why on-device agentic AI can't keep up",
@@ -66,6 +66,26 @@
       "rank": 3
     },
     {
+      "title": "Pluralistic: No one wants to read your AI slop (02 Mar 2026)",
+      "title_zh": "没人想看你的 AI 聊天记录",
+      "link": "https://pluralistic.net/2026/03/02/nonconsensual-slopping/",
+      "pub_date": "2026-03-02T09:22:11.000Z",
+      "summary": "Cory Doctorow 批评将 AI 聊天记录分享给他人的行为，认为这就像向陌生人讲述梦境一样令人厌烦。更糟糕的做法是未经同意将 chatbot 加入对话，或用 AI 生成反驳内容后发送给原作者。这种行为本质上是将验证 AI 输出的劳动转嫁给他人，因为如果提问者不理解主题，就无法评估 AI 生成内容的质量。AI 公司自己也承认需要人工监督，这意味着让陌生人免费批改 chatbot 的作业是一种无礼的强加。",
+      "source_name": "pluralistic.net",
+      "score": 13,
+      "depth": 3,
+      "novelty": 4,
+      "breadth": 6,
+      "category": "opinion",
+      "keywords": [
+        "chatbot",
+        "AI slop",
+        "netiquette",
+        "hallucination"
+      ],
+      "rank": 4
+    },
+    {
       "title": "The two kinds of error",
       "title_zh": "软件错误的两种分类及处理策略",
       "link": "https://evanhahn.com/the-two-kinds-of-error/",
@@ -83,7 +103,7 @@
         "unexpected errors",
         "reliability"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Book Notes: “Blood In The Machine” by Brian Merchant",
@@ -103,7 +123,7 @@
         "automation",
         "labor"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Weekly Update 493",
@@ -122,7 +142,7 @@
         "Odido breach",
         "data leak"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Shell variable ~-",
@@ -141,7 +161,7 @@
         "shell",
         "OLDPWD"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Killing my inner Necron",
@@ -159,7 +179,7 @@
         "personal",
         "recovery"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "The Unbound Scepter",
@@ -178,7 +198,7 @@
         "personal",
         "medication"
       ],
-      "rank": 9
+      "rank": 10
     }
   ]
 }
