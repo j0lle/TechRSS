@@ -1,6 +1,522 @@
 {
-  "updatedAt": "2026-03-02T15:58:58.064Z",
+  "updatedAt": "2026-03-02T16:38:05.900Z",
   "items": [
+    {
+      "id": 47214645,
+      "by": "km",
+      "title": "Motorola announces a partnership with GrapheneOS Foundation",
+      "url": "https://motorolanews.com/motorola-three-new-b2b-solutions-at-mwc-2026/",
+      "score": 1321,
+      "detailUpdatedAt": 1772467983,
+      "createdAt": 1772436007,
+      "aiSummaryUpdatedAt": 1772469197,
+      "aisummary": {
+        "chinese_title": "Motorola 携手 GrapheneOS：开源隐私手机的商机与信任争议",
+        "emoji": "🛡️",
+        "sarcastic_question": "你愿意让联想主导你手机的隐私与底层吗？"
+      },
+      "classifications": {
+        "topics": [
+          3,
+          6,
+          7
+        ],
+        "facets": [
+          4
+        ],
+        "tags": [
+          "GrapheneOS",
+          "Motorola",
+          "Lenovo",
+          "Google",
+          "Pixel",
+          "Android",
+          "Google Play",
+          "Bootloader",
+          "Termux",
+          "Motorola Solutions"
+        ]
+      },
+      "classificationsUpdatedAt": 1772438726,
+      "aiSummary": {
+        "chinese_title": "Motorola 携手 GrapheneOS：开源隐私手机的商机与信任争议",
+        "emoji": "🛡️",
+        "sarcastic_question": "你愿意让联想主导你手机的隐私与底层吗？"
+      },
+      "detail": {
+        "id": 47214645,
+        "by": "km",
+        "title": "Motorola announces a partnership with GrapheneOS Foundation",
+        "url": "https://motorolanews.com/motorola-three-new-b2b-solutions-at-mwc-2026/",
+        "score": 522,
+        "detailUpdatedAt": 1772446380,
+        "createdAt": 1772436007,
+        "aiSummaryUpdatedAt": 1772447779,
+        "aisummary": {
+          "chinese_title": "摩托罗拉与GrapheneOS合作：隐私手机扩容，但更新、支付与信任成争议点",
+          "discussion_overview": [
+            {
+              "category": "期待与市场机遇",
+              "summary": "许多评论者对摩托罗拉与 GrapheneOS 的合作表现出强烈兴趣，认为摩托罗拉在硬件性价比上有优势，若能预装或长期支持 GrapheneOS，会吸引非技术用户和企业采购。具体期待包括厂商提供第一方开源、长期更新、以及把 MDM 做成一流功能以便企业部署。还有人提到摩托罗拉某些机型支持 USB‑3/DisplayPort 1.4 与外接显示、Android 16 的桌面模式，这类硬件特性若配合安全系统能成为卖点。若实现低端机型（如 €200 级别）也支持 GrapheneOS，会进一步扩大受众。",
+              "supportid": [
+                "47215464",
+                "47215970",
+                "47215561",
+                "47215101",
+                "47216050"
+              ]
+            },
+            {
+              "category": "更新政策与固件担忧",
+              "summary": "大量评论把注意力放在摩托罗拉的历史更新记录与闭源固件上：虽然部分机型（如 ThinkPhone）能拿到月度安全补丁，但旗舰线常见季度或更慢的更新节奏，导致用户不信任。更严重的是有评论指出摩托罗拉曾公开表示会利用 EU ecodesign 文字漏洞来不提供某些机型的更新，这加剧了对厂商承诺的怀疑。另一个核心担忧是闭源的 firmware blobs 与基带（radio/baseband）固件：即便 OS 有长期支持，基带或其它闭源固件不更新仍会留下安全与隐私风险。评论中还提到 GrapheneOS 对硬件有严格要求（例如基带与 OS 的严格隔离），若摩托罗拉不能满足这些要求，合作意义会大打折扣。",
+              "supportid": [
+                "47214939",
+                "47215341",
+                "47214984",
+                "47215205",
+                "47215682",
+                "47215936",
+                "47215909"
+              ]
+            },
+            {
+              "category": "NFC/支付与应用兼容性问题",
+              "summary": "支付与应用兼容被反复提及：许多银行和付款服务已迁向 Google Wallet 或 Samsung Pay，导致非‑Google 环境（如 GrapheneOS）面临可用性障碍。评论举例说明第三方方案（例如 Curve Pay、PayPal tap‑to‑pay）在 GrapheneOS 上可行，但有些新兴方案如 Wero 要求 Play Integrity 或强制设备完整性检查，反而排斥了去 Google 化的系统。GrapheneOS 有一份 attestation/兼容性清单，且多数银行应用可以在沙箱化的 Google Play 下工作，但默认情况下 GrapheneOS 会因 DEVICE_INTEGRITY 与 STRONG_INTEGRITY 检查不通过而导致部分应用受限，这成为普及的关键技术障碍。",
+              "supportid": [
+                "47215319",
+                "47215473",
+                "47215864",
+                "47215034",
+                "47215252",
+                "47215454",
+                "47215523"
+              ]
+            },
+            {
+              "category": "项目治理与透明度疑问",
+              "summary": "一些评论对 GrapheneOS 基金会的治理与技术管道透明度表示担忧，关切点包括谁掌管 CI、更新服务器、签名密钥和总体决策权。有人提到 Daniel Micay 曾宣布要“退位”为首席开发者，但同时也有证据显示他仍然参与项目；评论里有人贴出公司登记信息和 GitHub 团队以佐证不同立场。总体上，社区希望看到更明确的法人、签名钥管理与发布流程说明来建立信任，尤其当厂商合作将 GrapheneOS 推向更多用户时。",
+              "supportid": [
+                "47215893",
+                "47216006",
+                "47215973",
+                "47216056"
+              ]
+            },
+            {
+              "category": "所有权、监管与地缘政治担忧",
+              "summary": "评论里对摩托罗拉的所有权和地缘政治背景展开讨论：文章中涉及的是 Motorola Mobility（智能手机业务），自 2014 年起归 Lenovo（中国/全球化科技公司）所有，这一点让部分用户担忧与中国监管或供应链相关的风险。还有人把 Motorola Mobility 与另一个独立的 Motorola Solutions（对讲机与监控解决方案）混淆，引发关于厂商与执法机构关系的质疑。与此同时，也有声音指出全球电子产品普遍与中国制造/设计有关，关注点更多落在合约义务、法域（如美国 Cloud Act）与厂商是否会遵循对用户隐私的承诺。",
+              "supportid": [
+                "47215056",
+                "47214814",
+                "47214868",
+                "47215509"
+              ]
+            },
+            {
+              "category": "硬件体验细节与可用性",
+              "summary": "讨论同时涉及多项具体硬件体验：屏幕调光（DC dimming vs PWM）被报告会显著影响眼睛疲劳，部分用户认为摩托罗拉在 DC dimming 上优于某些 Pixel 机型。另有评论强调摩托罗拉在视频输出、外接显示（DisplayPort）和快充方面表现优异，但也指出部分型号缺失视频输出或省略磁力计等元件。电池不可拆卸、相机质量依赖软件处理（Pixel 在软件上有优势）等实际细节也被反复提及，用户关心这些硬件特性是否会在 GrapheneOS 机型上保留或改进。",
+              "supportid": [
+                "47215593",
+                "47215970",
+                "47215254",
+                "47215294",
+                "47215297"
+              ]
+            }
+          ],
+          "terminologies": [
+            {
+              "term": "GrapheneOS",
+              "explanation": "GrapheneOS（一个开源、以隐私与硬化为目标的 Android 变体）— 强调更严格的沙箱机制、尽量减少对 Google Play Services 的依赖，最初主要运行在 Google Pixel 硬件上但正寻求扩展到其他 OEM。"
+            },
+            {
+              "term": "Play Integrity / attestation",
+              "explanation": "Play Integrity（或称 attestation）是 Google 提供的设备完整性与应用行为检测服务，银行/支付与某些政府/企业应用会用它来判定设备是否被修改或符合安全策略（DEVICE_INTEGRITY、STRONG_INTEGRITY 等）。"
+            },
+            {
+              "term": "bootloader 解锁（bootloader unlock）",
+              "explanation": "bootloader unlock 指厂商允许解锁设备启动引导程序以刷入自定义 ROM 的权限，过程有时需要厂商账号、IMEI 提交或解锁码，某些厂商在不同市场对解锁施加限制。"
+            },
+            {
+              "term": "基带 / radio firmware（baseband）",
+              "explanation": "基带（radio/baseband）是手机负责蜂窝通信的闭源固件层，它与主 OS 物理隔离但具有直接外设访问能力；若基带有后门或不更新，会成为安全与隐私风险来源。"
+            },
+            {
+              "term": "DC dimming / PWM",
+              "explanation": "DC dimming 与 PWM（Pulse Width Modulation）是两种屏幕亮度调节方式：PWM 通过快速开关导致频闪，部分用户报告会引起眼疲劳；DC dimming 通过改变电流减少可感知闪烁，常被列为减少屏幕疲劳的优点。"
+            }
+          ],
+          "context": "GrapheneOS 是一个以隐私与安全为主的开源 Android 替代系统，过去主要在 Google Pixel 设备上运行。此次公告指向与 Motorola Mobility（智能手机业务，2014 年以后隶属 Lenovo）建立合作，意味着 GrapheneOS 有望脱离 Pixel 硬件生态并由厂商出货或提供更友好的安装体验。评论围绕三大技术阻力展开：厂商的更新与闭源固件（尤其基带）是否得到长期维护、Google 的 Play Integrity/attestation 机制对支付与银行应用的限制，以及项目治理与签名/发布流程的透明度。讨论同时被地缘政治（Lenovo/中国与 Motorola Solutions 的混淆）、EU ecodesign 要求与用户可用性（支付、桌面模式、电池可换性等）问题所影响。",
+          "emoji": "🔐",
+          "sarcastic_question": "你真觉得联想旗下的摩托罗拉会比谷歌更可信吗？"
+        },
+        "classifications": {
+          "topics": [
+            3,
+            6,
+            7
+          ],
+          "facets": [
+            4
+          ],
+          "tags": [
+            "GrapheneOS",
+            "Motorola",
+            "Lenovo",
+            "Google",
+            "Pixel",
+            "Android",
+            "Google Play",
+            "Bootloader",
+            "Termux",
+            "Motorola Solutions"
+          ]
+        },
+        "classificationsUpdatedAt": 1772438726,
+        "aiSummary": {
+          "chinese_title": "摩托罗拉与GrapheneOS合作：隐私手机扩容，但更新、支付与信任成争议点",
+          "discussion_overview": [
+            {
+              "category": "期待与市场机遇",
+              "summary": "许多评论者对摩托罗拉与 GrapheneOS 的合作表现出强烈兴趣，认为摩托罗拉在硬件性价比上有优势，若能预装或长期支持 GrapheneOS，会吸引非技术用户和企业采购。具体期待包括厂商提供第一方开源、长期更新、以及把 MDM 做成一流功能以便企业部署。还有人提到摩托罗拉某些机型支持 USB‑3/DisplayPort 1.4 与外接显示、Android 16 的桌面模式，这类硬件特性若配合安全系统能成为卖点。若实现低端机型（如 €200 级别）也支持 GrapheneOS，会进一步扩大受众。",
+              "supportid": [
+                "47215464",
+                "47215970",
+                "47215561",
+                "47215101",
+                "47216050"
+              ]
+            },
+            {
+              "category": "更新政策与固件担忧",
+              "summary": "大量评论把注意力放在摩托罗拉的历史更新记录与闭源固件上：虽然部分机型（如 ThinkPhone）能拿到月度安全补丁，但旗舰线常见季度或更慢的更新节奏，导致用户不信任。更严重的是有评论指出摩托罗拉曾公开表示会利用 EU ecodesign 文字漏洞来不提供某些机型的更新，这加剧了对厂商承诺的怀疑。另一个核心担忧是闭源的 firmware blobs 与基带（radio/baseband）固件：即便 OS 有长期支持，基带或其它闭源固件不更新仍会留下安全与隐私风险。评论中还提到 GrapheneOS 对硬件有严格要求（例如基带与 OS 的严格隔离），若摩托罗拉不能满足这些要求，合作意义会大打折扣。",
+              "supportid": [
+                "47214939",
+                "47215341",
+                "47214984",
+                "47215205",
+                "47215682",
+                "47215936",
+                "47215909"
+              ]
+            },
+            {
+              "category": "NFC/支付与应用兼容性问题",
+              "summary": "支付与应用兼容被反复提及：许多银行和付款服务已迁向 Google Wallet 或 Samsung Pay，导致非‑Google 环境（如 GrapheneOS）面临可用性障碍。评论举例说明第三方方案（例如 Curve Pay、PayPal tap‑to‑pay）在 GrapheneOS 上可行，但有些新兴方案如 Wero 要求 Play Integrity 或强制设备完整性检查，反而排斥了去 Google 化的系统。GrapheneOS 有一份 attestation/兼容性清单，且多数银行应用可以在沙箱化的 Google Play 下工作，但默认情况下 GrapheneOS 会因 DEVICE_INTEGRITY 与 STRONG_INTEGRITY 检查不通过而导致部分应用受限，这成为普及的关键技术障碍。",
+              "supportid": [
+                "47215319",
+                "47215473",
+                "47215864",
+                "47215034",
+                "47215252",
+                "47215454",
+                "47215523"
+              ]
+            },
+            {
+              "category": "项目治理与透明度疑问",
+              "summary": "一些评论对 GrapheneOS 基金会的治理与技术管道透明度表示担忧，关切点包括谁掌管 CI、更新服务器、签名密钥和总体决策权。有人提到 Daniel Micay 曾宣布要“退位”为首席开发者，但同时也有证据显示他仍然参与项目；评论里有人贴出公司登记信息和 GitHub 团队以佐证不同立场。总体上，社区希望看到更明确的法人、签名钥管理与发布流程说明来建立信任，尤其当厂商合作将 GrapheneOS 推向更多用户时。",
+              "supportid": [
+                "47215893",
+                "47216006",
+                "47215973",
+                "47216056"
+              ]
+            },
+            {
+              "category": "所有权、监管与地缘政治担忧",
+              "summary": "评论里对摩托罗拉的所有权和地缘政治背景展开讨论：文章中涉及的是 Motorola Mobility（智能手机业务），自 2014 年起归 Lenovo（中国/全球化科技公司）所有，这一点让部分用户担忧与中国监管或供应链相关的风险。还有人把 Motorola Mobility 与另一个独立的 Motorola Solutions（对讲机与监控解决方案）混淆，引发关于厂商与执法机构关系的质疑。与此同时，也有声音指出全球电子产品普遍与中国制造/设计有关，关注点更多落在合约义务、法域（如美国 Cloud Act）与厂商是否会遵循对用户隐私的承诺。",
+              "supportid": [
+                "47215056",
+                "47214814",
+                "47214868",
+                "47215509"
+              ]
+            },
+            {
+              "category": "硬件体验细节与可用性",
+              "summary": "讨论同时涉及多项具体硬件体验：屏幕调光（DC dimming vs PWM）被报告会显著影响眼睛疲劳，部分用户认为摩托罗拉在 DC dimming 上优于某些 Pixel 机型。另有评论强调摩托罗拉在视频输出、外接显示（DisplayPort）和快充方面表现优异，但也指出部分型号缺失视频输出或省略磁力计等元件。电池不可拆卸、相机质量依赖软件处理（Pixel 在软件上有优势）等实际细节也被反复提及，用户关心这些硬件特性是否会在 GrapheneOS 机型上保留或改进。",
+              "supportid": [
+                "47215593",
+                "47215970",
+                "47215254",
+                "47215294",
+                "47215297"
+              ]
+            }
+          ],
+          "terminologies": [
+            {
+              "term": "GrapheneOS",
+              "explanation": "GrapheneOS（一个开源、以隐私与硬化为目标的 Android 变体）— 强调更严格的沙箱机制、尽量减少对 Google Play Services 的依赖，最初主要运行在 Google Pixel 硬件上但正寻求扩展到其他 OEM。"
+            },
+            {
+              "term": "Play Integrity / attestation",
+              "explanation": "Play Integrity（或称 attestation）是 Google 提供的设备完整性与应用行为检测服务，银行/支付与某些政府/企业应用会用它来判定设备是否被修改或符合安全策略（DEVICE_INTEGRITY、STRONG_INTEGRITY 等）。"
+            },
+            {
+              "term": "bootloader 解锁（bootloader unlock）",
+              "explanation": "bootloader unlock 指厂商允许解锁设备启动引导程序以刷入自定义 ROM 的权限，过程有时需要厂商账号、IMEI 提交或解锁码，某些厂商在不同市场对解锁施加限制。"
+            },
+            {
+              "term": "基带 / radio firmware（baseband）",
+              "explanation": "基带（radio/baseband）是手机负责蜂窝通信的闭源固件层，它与主 OS 物理隔离但具有直接外设访问能力；若基带有后门或不更新，会成为安全与隐私风险来源。"
+            },
+            {
+              "term": "DC dimming / PWM",
+              "explanation": "DC dimming 与 PWM（Pulse Width Modulation）是两种屏幕亮度调节方式：PWM 通过快速开关导致频闪，部分用户报告会引起眼疲劳；DC dimming 通过改变电流减少可感知闪烁，常被列为减少屏幕疲劳的优点。"
+            }
+          ],
+          "context": "GrapheneOS 是一个以隐私与安全为主的开源 Android 替代系统，过去主要在 Google Pixel 设备上运行。此次公告指向与 Motorola Mobility（智能手机业务，2014 年以后隶属 Lenovo）建立合作，意味着 GrapheneOS 有望脱离 Pixel 硬件生态并由厂商出货或提供更友好的安装体验。评论围绕三大技术阻力展开：厂商的更新与闭源固件（尤其基带）是否得到长期维护、Google 的 Play Integrity/attestation 机制对支付与银行应用的限制，以及项目治理与签名/发布流程的透明度。讨论同时被地缘政治（Lenovo/中国与 Motorola Solutions 的混淆）、EU ecodesign 要求与用户可用性（支付、桌面模式、电池可换性等）问题所影响。",
+          "emoji": "🔐",
+          "sarcastic_question": "你真觉得联想旗下的摩托罗拉会比谷歌更可信吗？"
+        }
+      }
+    },
+    {
+      "id": 47176576,
+      "by": "alvivar",
+      "title": "Making Video Games in 2025 (without an engine)",
+      "url": "https://www.noelberry.ca/posts/making_games_in_2025/",
+      "score": 273,
+      "detailUpdatedAt": 1772464387,
+      "createdAt": 1772438404,
+      "aiSummaryUpdatedAt": 1772467010,
+      "aisummary": {
+        "chinese_title": "Celeste 作者：2025 年无引擎做游戏——用 SDL/轻量库取代大型引擎的利弊",
+        "emoji": "🛠️",
+        "sarcastic_question": "把时间都花在写引擎，游戏什么时候发售？"
+      },
+      "classifications": {
+        "topics": [
+          4,
+          11,
+          12
+        ],
+        "facets": [
+          9,
+          5
+        ],
+        "tags": [
+          "game engine",
+          "Noel Berry",
+          "Celeste",
+          "SDL",
+          "Unity",
+          "libGDX",
+          "MonoGame",
+          "Love2D"
+        ]
+      },
+      "classificationsUpdatedAt": 1772443858,
+      "aiSummary": {
+        "chinese_title": "Celeste 作者：2025 年无引擎做游戏——用 SDL/轻量库取代大型引擎的利弊",
+        "emoji": "🛠️",
+        "sarcastic_question": "把时间都花在写引擎，游戏什么时候发售？"
+      },
+      "detail": {
+        "id": 47176576,
+        "by": "alvivar",
+        "title": "Making Video Games in 2025 (without an engine)",
+        "url": "https://www.noelberry.ca/posts/making_games_in_2025/",
+        "score": 172,
+        "detailUpdatedAt": 1772451781,
+        "createdAt": 1772438404,
+        "aiSummaryUpdatedAt": 1772453176,
+        "aisummary": {
+          "chinese_title": "2025年无引擎做游戏：2D 独立路线、C#/SDL3、热重载与权衡",
+          "discussion_overview": [
+            {
+              "category": "自行造引擎 vs 使用现成引擎的权衡",
+              "summary": "多数评论认为自行实现引擎在有经验的团队或对目标非常明确的简单游戏（例如横版 2D 独立作）下是可行且有优势，但对缺乏引擎/渲染/工具经验的开发者而言非常危险，容易把精力耗在“造引擎”上以致游戏项目夭折。建议遵循 KISS（Keep It Simple, Stupid）原则：先实现扁平场景、基本渲染和输入，避免过早优化或实现未验证的复杂子系统。评论里也以早期的 Quake 引擎为反例/正例：它通过少数高影响力技术（如 BSP 划分、painter's algorithm、一些数学黑科技）达成目标，但当年工程规模与今日差距大，今天要做“同级别”引擎的工作量远超当年。与此同时，也有明显论点指出现成商用引擎（如 Unity）的价值在于跨平台支持和稳定的发布覆盖率，这对商业化和目标市场非常重要。",
+              "supportid": [
+                "47215267",
+                "47216253",
+                "47215116",
+                "47215181",
+                "47216080",
+                "47215530"
+              ]
+            },
+            {
+              "category": "语言与工作流：C#, 热重载 与 C++ 替代方案",
+              "summary": "很多人赞同把 C# 与 dotnet watch 的热重载纳入工作流来加速迭代——无需频繁重启可保持思路流畅，但也有人对托管 GC 的不可控暂停心存疑虑。NativeAOT 的兴起被认为会减少对 IL2CPP/转译 hacks 的依赖，从而让 C# 更可取用于无引擎跨平台发布；同时有人希望用 C# + SDL3 实现“无引擎”跨平台。对于偏向 C++ 的开发者，评论给出实战经验：避免大量使用标准库、用自制的 Vector/Array/Span/String 等轻量数据结构可显著缩短编译+链接时间；“把游戏代码做成动态库”的热重载手法（Handmade Hero 风格）和第三方小工具（如 fungos/cr）是可行替代。评论里还具体提到 CMake 的 FetchContent 用法、对 vcpkg/conan 的不满以及 C++ 模块与 clangd 的支持现状。",
+              "supportid": [
+                "47216633",
+                "47216794",
+                "47216463",
+                "47215932"
+              ]
+            },
+            {
+              "category": "编辑器、UI 与现有库的不足",
+              "summary": "多条评论指出，构建复杂游戏编辑器和生产级游戏 UI 是最耗时、最枯燥的部分，往往比渲染器或物理更难做。现成的轻量库（如 Dear ImGui）通常只适合调试工具，而用于最终用户的复杂 UI 框架仍然稀缺：评论里提到的选项包括 Gum、RmlUi，但大家普遍认为还不够成熟。有人建议直接复用成熟编辑器（例如用 Godot 的编辑器插件系统当作自定义关卡/对象编辑器），以避免从零重建标准的场景树、属性检视器和 3D 视口这类通用 UI。关于素材来源，评论具体推荐了 opengameart.org、Kenney 资源、Liberated Pixel Cup 套件以及 itch.io 作为原型和小作的常用素材库。",
+              "supportid": [
+                "47216463",
+                "47215212",
+                "47215838",
+                "47215919",
+                "47215971"
+              ]
+            },
+            {
+              "category": "AI 与辅助工具的定位：生产力工具而非万能解法",
+              "summary": "很多人起初以为标题会讨论 AI，但文章实际上并未强调 AI；评论对 AI 的态度较为务实：把 LLM/代码补全当作加速重复性工作和查找棘手问题的工具，而非替代设计与判断的魔法。具体用途包括更高级的 autocomplete（一次补全多行、根据文件现有模式生成模板化代码）和解决难查的问题，JetBrains 等厂商也有本地小模型用于补全；但同时多次提醒需要人工校验生成的代码，避免“垃圾进垃圾出”。也有评论者坦言出于个人乐趣或对代码掌控感的考量会刻意少用或不用 AI。",
+              "supportid": [
+                "47215041",
+                "47215536",
+                "47215833",
+                "47216371",
+                "47215721"
+              ]
+            },
+            {
+              "category": "2D 与 3D（与多人/网路）的复杂度差异",
+              "summary": "评论普遍把讨论聚焦在 2D 独立游戏：对这类作品，自己做“轻量引擎/框架”常常足够且能带来收获，但对 3D、大世界或多人实时同步的项目，使用成熟引擎几乎成为常态。多人网络代码、复杂光照、跨平台渲染管线等问题构成显著门槛：即使在 Unity 下，大厂项目也常常自己实现或定制网路模块（有例子指出某些大型项目甚至购买了 Unity 源码以便深度改造）。因此评论的结论是：如果目标是做小型 2D 游戏（像 Celeste、Dead Cells 这类），无引擎路线合理；若需要 3D 渲染或复杂联网功能，现成引擎仍更现实。",
+              "supportid": [
+                "47216737",
+                "47215382",
+                "47216253",
+                "47216123",
+                "47215447"
+              ]
+            }
+          ],
+          "terminologies": [
+            {
+              "term": "SDL3 / SDL（Simple DirectMedia Layer）",
+              "explanation": "跨平台的低级多媒体与输入库，用于创建窗口、处理渲染上下文、音频、键鼠/手柄输入等，是做“无引擎”2D/轻量 3D 游戏的常见底层选择。"
+            },
+            {
+              "term": "dotnet watch / 热重载",
+              "explanation": "dotnet watch 是 .NET 的命令行工具，可在代码变更时触发重编译或热重载，以实现无需重启程序即可快速迭代的开发工作流；游戏领域也常用“把游戏作成动态库”来实现类似热重载。"
+            },
+            {
+              "term": "NativeAOT",
+              "explanation": ".NET 的本地 AOT 编译技术，能把托管代码预编译为原生二进制，减少对 JIT 或像 IL2CPP 那样的转译手段的依赖，有利于在受限平台上发布 C# 程序。"
+            },
+            {
+              "term": "IL2CPP",
+              "explanation": "Unity 使用的一种将 C# 中间语言（IL）转译为 C++ 的技术，目的是在不允许 JIT 的平台（如某些主机或 iOS）上运行托管代码。"
+            },
+            {
+              "term": "Dear ImGui (ImGui)",
+              "explanation": "一个即时模式 GUI 库，设计用于调试工具和编辑器内部面板，而非用于制作复杂的最终游戏内用户界面。"
+            }
+          ],
+          "context": "讨论基于一篇题为“Making Video Games in 2025 (without an engine)”的文章，原文作者被评论指出为《Celeste》开发团队成员。评论者把话题放在 2D 独立游戏的可行性、使用 C#（配合 dotnet watch 热重载）或回归 C++/SDL3 的开发工作流，以及自研引擎与商用引擎（如 Unity、Godot、Unreal）之间的取舍。评论还针对具体技术细节提出经验：如何通过动态库实现热重载、用自制轻量容器缩短 C++ 编译时间、以及现有 UI 库（如 Dear ImGui、Gum、RmlUi）在“生产级游戏 UI”上的不足。读者背景假定对基本游戏开发概念熟悉，但讨论频繁涉及跨平台、发布稳定性和迭代效率等实际工程权衡。",
+          "emoji": "🛠️",
+          "sarcastic_question": "你真愿意花几年造引擎，而不是早点出游戏吗？"
+        },
+        "classifications": {
+          "topics": [
+            4,
+            11,
+            12
+          ],
+          "facets": [
+            9,
+            5
+          ],
+          "tags": [
+            "game engine",
+            "Noel Berry",
+            "Celeste",
+            "SDL",
+            "Unity",
+            "libGDX",
+            "MonoGame",
+            "Love2D"
+          ]
+        },
+        "classificationsUpdatedAt": 1772443858,
+        "aiSummary": {
+          "chinese_title": "2025年无引擎做游戏：2D 独立路线、C#/SDL3、热重载与权衡",
+          "discussion_overview": [
+            {
+              "category": "自行造引擎 vs 使用现成引擎的权衡",
+              "summary": "多数评论认为自行实现引擎在有经验的团队或对目标非常明确的简单游戏（例如横版 2D 独立作）下是可行且有优势，但对缺乏引擎/渲染/工具经验的开发者而言非常危险，容易把精力耗在“造引擎”上以致游戏项目夭折。建议遵循 KISS（Keep It Simple, Stupid）原则：先实现扁平场景、基本渲染和输入，避免过早优化或实现未验证的复杂子系统。评论里也以早期的 Quake 引擎为反例/正例：它通过少数高影响力技术（如 BSP 划分、painter's algorithm、一些数学黑科技）达成目标，但当年工程规模与今日差距大，今天要做“同级别”引擎的工作量远超当年。与此同时，也有明显论点指出现成商用引擎（如 Unity）的价值在于跨平台支持和稳定的发布覆盖率，这对商业化和目标市场非常重要。",
+              "supportid": [
+                "47215267",
+                "47216253",
+                "47215116",
+                "47215181",
+                "47216080",
+                "47215530"
+              ]
+            },
+            {
+              "category": "语言与工作流：C#, 热重载 与 C++ 替代方案",
+              "summary": "很多人赞同把 C# 与 dotnet watch 的热重载纳入工作流来加速迭代——无需频繁重启可保持思路流畅，但也有人对托管 GC 的不可控暂停心存疑虑。NativeAOT 的兴起被认为会减少对 IL2CPP/转译 hacks 的依赖，从而让 C# 更可取用于无引擎跨平台发布；同时有人希望用 C# + SDL3 实现“无引擎”跨平台。对于偏向 C++ 的开发者，评论给出实战经验：避免大量使用标准库、用自制的 Vector/Array/Span/String 等轻量数据结构可显著缩短编译+链接时间；“把游戏代码做成动态库”的热重载手法（Handmade Hero 风格）和第三方小工具（如 fungos/cr）是可行替代。评论里还具体提到 CMake 的 FetchContent 用法、对 vcpkg/conan 的不满以及 C++ 模块与 clangd 的支持现状。",
+              "supportid": [
+                "47216633",
+                "47216794",
+                "47216463",
+                "47215932"
+              ]
+            },
+            {
+              "category": "编辑器、UI 与现有库的不足",
+              "summary": "多条评论指出，构建复杂游戏编辑器和生产级游戏 UI 是最耗时、最枯燥的部分，往往比渲染器或物理更难做。现成的轻量库（如 Dear ImGui）通常只适合调试工具，而用于最终用户的复杂 UI 框架仍然稀缺：评论里提到的选项包括 Gum、RmlUi，但大家普遍认为还不够成熟。有人建议直接复用成熟编辑器（例如用 Godot 的编辑器插件系统当作自定义关卡/对象编辑器），以避免从零重建标准的场景树、属性检视器和 3D 视口这类通用 UI。关于素材来源，评论具体推荐了 opengameart.org、Kenney 资源、Liberated Pixel Cup 套件以及 itch.io 作为原型和小作的常用素材库。",
+              "supportid": [
+                "47216463",
+                "47215212",
+                "47215838",
+                "47215919",
+                "47215971"
+              ]
+            },
+            {
+              "category": "AI 与辅助工具的定位：生产力工具而非万能解法",
+              "summary": "很多人起初以为标题会讨论 AI，但文章实际上并未强调 AI；评论对 AI 的态度较为务实：把 LLM/代码补全当作加速重复性工作和查找棘手问题的工具，而非替代设计与判断的魔法。具体用途包括更高级的 autocomplete（一次补全多行、根据文件现有模式生成模板化代码）和解决难查的问题，JetBrains 等厂商也有本地小模型用于补全；但同时多次提醒需要人工校验生成的代码，避免“垃圾进垃圾出”。也有评论者坦言出于个人乐趣或对代码掌控感的考量会刻意少用或不用 AI。",
+              "supportid": [
+                "47215041",
+                "47215536",
+                "47215833",
+                "47216371",
+                "47215721"
+              ]
+            },
+            {
+              "category": "2D 与 3D（与多人/网路）的复杂度差异",
+              "summary": "评论普遍把讨论聚焦在 2D 独立游戏：对这类作品，自己做“轻量引擎/框架”常常足够且能带来收获，但对 3D、大世界或多人实时同步的项目，使用成熟引擎几乎成为常态。多人网络代码、复杂光照、跨平台渲染管线等问题构成显著门槛：即使在 Unity 下，大厂项目也常常自己实现或定制网路模块（有例子指出某些大型项目甚至购买了 Unity 源码以便深度改造）。因此评论的结论是：如果目标是做小型 2D 游戏（像 Celeste、Dead Cells 这类），无引擎路线合理；若需要 3D 渲染或复杂联网功能，现成引擎仍更现实。",
+              "supportid": [
+                "47216737",
+                "47215382",
+                "47216253",
+                "47216123",
+                "47215447"
+              ]
+            }
+          ],
+          "terminologies": [
+            {
+              "term": "SDL3 / SDL（Simple DirectMedia Layer）",
+              "explanation": "跨平台的低级多媒体与输入库，用于创建窗口、处理渲染上下文、音频、键鼠/手柄输入等，是做“无引擎”2D/轻量 3D 游戏的常见底层选择。"
+            },
+            {
+              "term": "dotnet watch / 热重载",
+              "explanation": "dotnet watch 是 .NET 的命令行工具，可在代码变更时触发重编译或热重载，以实现无需重启程序即可快速迭代的开发工作流；游戏领域也常用“把游戏作成动态库”来实现类似热重载。"
+            },
+            {
+              "term": "NativeAOT",
+              "explanation": ".NET 的本地 AOT 编译技术，能把托管代码预编译为原生二进制，减少对 JIT 或像 IL2CPP 那样的转译手段的依赖，有利于在受限平台上发布 C# 程序。"
+            },
+            {
+              "term": "IL2CPP",
+              "explanation": "Unity 使用的一种将 C# 中间语言（IL）转译为 C++ 的技术，目的是在不允许 JIT 的平台（如某些主机或 iOS）上运行托管代码。"
+            },
+            {
+              "term": "Dear ImGui (ImGui)",
+              "explanation": "一个即时模式 GUI 库，设计用于调试工具和编辑器内部面板，而非用于制作复杂的最终游戏内用户界面。"
+            }
+          ],
+          "context": "讨论基于一篇题为“Making Video Games in 2025 (without an engine)”的文章，原文作者被评论指出为《Celeste》开发团队成员。评论者把话题放在 2D 独立游戏的可行性、使用 C#（配合 dotnet watch 热重载）或回归 C++/SDL3 的开发工作流，以及自研引擎与商用引擎（如 Unity、Godot、Unreal）之间的取舍。评论还针对具体技术细节提出经验：如何通过动态库实现热重载、用自制轻量容器缩短 C++ 编译时间、以及现有 UI 库（如 Dear ImGui、Gum、RmlUi）在“生产级游戏 UI”上的不足。读者背景假定对基本游戏开发概念熟悉，但讨论频繁涉及跨平台、发布稳定性和迭代效率等实际工程权衡。",
+          "emoji": "🛠️",
+          "sarcastic_question": "你真愿意花几年造引擎，而不是早点出游戏吗？"
+        }
+      }
+    },
     {
       "id": 47216037,
       "by": "spinningslate",
@@ -2586,250 +3102,6 @@
       }
     },
     {
-      "id": 47176576,
-      "by": "alvivar",
-      "title": "Making Video Games in 2025 (without an engine)",
-      "url": "https://www.noelberry.ca/posts/making_games_in_2025/",
-      "score": 172,
-      "detailUpdatedAt": 1772451781,
-      "createdAt": 1772438404,
-      "aiSummaryUpdatedAt": 1772453176,
-      "aisummary": {
-        "chinese_title": "2025年无引擎做游戏：2D 独立路线、C#/SDL3、热重载与权衡",
-        "emoji": "🛠️",
-        "sarcastic_question": "你真愿意花几年造引擎，而不是早点出游戏吗？"
-      },
-      "classifications": {
-        "topics": [
-          4,
-          11,
-          12
-        ],
-        "facets": [
-          9,
-          5
-        ],
-        "tags": [
-          "game engine",
-          "Noel Berry",
-          "Celeste",
-          "SDL",
-          "Unity",
-          "libGDX",
-          "MonoGame",
-          "Love2D"
-        ]
-      },
-      "classificationsUpdatedAt": 1772443858,
-      "aiSummary": {
-        "chinese_title": "2025年无引擎做游戏：2D 独立路线、C#/SDL3、热重载与权衡",
-        "emoji": "🛠️",
-        "sarcastic_question": "你真愿意花几年造引擎，而不是早点出游戏吗？"
-      },
-      "detail": {
-        "id": 47176576,
-        "by": "alvivar",
-        "title": "Making Video Games in 2025 (without an engine)",
-        "url": "https://www.noelberry.ca/posts/making_games_in_2025/",
-        "score": 172,
-        "detailUpdatedAt": 1772451781,
-        "createdAt": 1772438404,
-        "aiSummaryUpdatedAt": 1772453176,
-        "aisummary": {
-          "chinese_title": "2025年无引擎做游戏：2D 独立路线、C#/SDL3、热重载与权衡",
-          "discussion_overview": [
-            {
-              "category": "自行造引擎 vs 使用现成引擎的权衡",
-              "summary": "多数评论认为自行实现引擎在有经验的团队或对目标非常明确的简单游戏（例如横版 2D 独立作）下是可行且有优势，但对缺乏引擎/渲染/工具经验的开发者而言非常危险，容易把精力耗在“造引擎”上以致游戏项目夭折。建议遵循 KISS（Keep It Simple, Stupid）原则：先实现扁平场景、基本渲染和输入，避免过早优化或实现未验证的复杂子系统。评论里也以早期的 Quake 引擎为反例/正例：它通过少数高影响力技术（如 BSP 划分、painter's algorithm、一些数学黑科技）达成目标，但当年工程规模与今日差距大，今天要做“同级别”引擎的工作量远超当年。与此同时，也有明显论点指出现成商用引擎（如 Unity）的价值在于跨平台支持和稳定的发布覆盖率，这对商业化和目标市场非常重要。",
-              "supportid": [
-                "47215267",
-                "47216253",
-                "47215116",
-                "47215181",
-                "47216080",
-                "47215530"
-              ]
-            },
-            {
-              "category": "语言与工作流：C#, 热重载 与 C++ 替代方案",
-              "summary": "很多人赞同把 C# 与 dotnet watch 的热重载纳入工作流来加速迭代——无需频繁重启可保持思路流畅，但也有人对托管 GC 的不可控暂停心存疑虑。NativeAOT 的兴起被认为会减少对 IL2CPP/转译 hacks 的依赖，从而让 C# 更可取用于无引擎跨平台发布；同时有人希望用 C# + SDL3 实现“无引擎”跨平台。对于偏向 C++ 的开发者，评论给出实战经验：避免大量使用标准库、用自制的 Vector/Array/Span/String 等轻量数据结构可显著缩短编译+链接时间；“把游戏代码做成动态库”的热重载手法（Handmade Hero 风格）和第三方小工具（如 fungos/cr）是可行替代。评论里还具体提到 CMake 的 FetchContent 用法、对 vcpkg/conan 的不满以及 C++ 模块与 clangd 的支持现状。",
-              "supportid": [
-                "47216633",
-                "47216794",
-                "47216463",
-                "47215932"
-              ]
-            },
-            {
-              "category": "编辑器、UI 与现有库的不足",
-              "summary": "多条评论指出，构建复杂游戏编辑器和生产级游戏 UI 是最耗时、最枯燥的部分，往往比渲染器或物理更难做。现成的轻量库（如 Dear ImGui）通常只适合调试工具，而用于最终用户的复杂 UI 框架仍然稀缺：评论里提到的选项包括 Gum、RmlUi，但大家普遍认为还不够成熟。有人建议直接复用成熟编辑器（例如用 Godot 的编辑器插件系统当作自定义关卡/对象编辑器），以避免从零重建标准的场景树、属性检视器和 3D 视口这类通用 UI。关于素材来源，评论具体推荐了 opengameart.org、Kenney 资源、Liberated Pixel Cup 套件以及 itch.io 作为原型和小作的常用素材库。",
-              "supportid": [
-                "47216463",
-                "47215212",
-                "47215838",
-                "47215919",
-                "47215971"
-              ]
-            },
-            {
-              "category": "AI 与辅助工具的定位：生产力工具而非万能解法",
-              "summary": "很多人起初以为标题会讨论 AI，但文章实际上并未强调 AI；评论对 AI 的态度较为务实：把 LLM/代码补全当作加速重复性工作和查找棘手问题的工具，而非替代设计与判断的魔法。具体用途包括更高级的 autocomplete（一次补全多行、根据文件现有模式生成模板化代码）和解决难查的问题，JetBrains 等厂商也有本地小模型用于补全；但同时多次提醒需要人工校验生成的代码，避免“垃圾进垃圾出”。也有评论者坦言出于个人乐趣或对代码掌控感的考量会刻意少用或不用 AI。",
-              "supportid": [
-                "47215041",
-                "47215536",
-                "47215833",
-                "47216371",
-                "47215721"
-              ]
-            },
-            {
-              "category": "2D 与 3D（与多人/网路）的复杂度差异",
-              "summary": "评论普遍把讨论聚焦在 2D 独立游戏：对这类作品，自己做“轻量引擎/框架”常常足够且能带来收获，但对 3D、大世界或多人实时同步的项目，使用成熟引擎几乎成为常态。多人网络代码、复杂光照、跨平台渲染管线等问题构成显著门槛：即使在 Unity 下，大厂项目也常常自己实现或定制网路模块（有例子指出某些大型项目甚至购买了 Unity 源码以便深度改造）。因此评论的结论是：如果目标是做小型 2D 游戏（像 Celeste、Dead Cells 这类），无引擎路线合理；若需要 3D 渲染或复杂联网功能，现成引擎仍更现实。",
-              "supportid": [
-                "47216737",
-                "47215382",
-                "47216253",
-                "47216123",
-                "47215447"
-              ]
-            }
-          ],
-          "terminologies": [
-            {
-              "term": "SDL3 / SDL（Simple DirectMedia Layer）",
-              "explanation": "跨平台的低级多媒体与输入库，用于创建窗口、处理渲染上下文、音频、键鼠/手柄输入等，是做“无引擎”2D/轻量 3D 游戏的常见底层选择。"
-            },
-            {
-              "term": "dotnet watch / 热重载",
-              "explanation": "dotnet watch 是 .NET 的命令行工具，可在代码变更时触发重编译或热重载，以实现无需重启程序即可快速迭代的开发工作流；游戏领域也常用“把游戏作成动态库”来实现类似热重载。"
-            },
-            {
-              "term": "NativeAOT",
-              "explanation": ".NET 的本地 AOT 编译技术，能把托管代码预编译为原生二进制，减少对 JIT 或像 IL2CPP 那样的转译手段的依赖，有利于在受限平台上发布 C# 程序。"
-            },
-            {
-              "term": "IL2CPP",
-              "explanation": "Unity 使用的一种将 C# 中间语言（IL）转译为 C++ 的技术，目的是在不允许 JIT 的平台（如某些主机或 iOS）上运行托管代码。"
-            },
-            {
-              "term": "Dear ImGui (ImGui)",
-              "explanation": "一个即时模式 GUI 库，设计用于调试工具和编辑器内部面板，而非用于制作复杂的最终游戏内用户界面。"
-            }
-          ],
-          "context": "讨论基于一篇题为“Making Video Games in 2025 (without an engine)”的文章，原文作者被评论指出为《Celeste》开发团队成员。评论者把话题放在 2D 独立游戏的可行性、使用 C#（配合 dotnet watch 热重载）或回归 C++/SDL3 的开发工作流，以及自研引擎与商用引擎（如 Unity、Godot、Unreal）之间的取舍。评论还针对具体技术细节提出经验：如何通过动态库实现热重载、用自制轻量容器缩短 C++ 编译时间、以及现有 UI 库（如 Dear ImGui、Gum、RmlUi）在“生产级游戏 UI”上的不足。读者背景假定对基本游戏开发概念熟悉，但讨论频繁涉及跨平台、发布稳定性和迭代效率等实际工程权衡。",
-          "emoji": "🛠️",
-          "sarcastic_question": "你真愿意花几年造引擎，而不是早点出游戏吗？"
-        },
-        "classifications": {
-          "topics": [
-            4,
-            11,
-            12
-          ],
-          "facets": [
-            9,
-            5
-          ],
-          "tags": [
-            "game engine",
-            "Noel Berry",
-            "Celeste",
-            "SDL",
-            "Unity",
-            "libGDX",
-            "MonoGame",
-            "Love2D"
-          ]
-        },
-        "classificationsUpdatedAt": 1772443858,
-        "aiSummary": {
-          "chinese_title": "2025年无引擎做游戏：2D 独立路线、C#/SDL3、热重载与权衡",
-          "discussion_overview": [
-            {
-              "category": "自行造引擎 vs 使用现成引擎的权衡",
-              "summary": "多数评论认为自行实现引擎在有经验的团队或对目标非常明确的简单游戏（例如横版 2D 独立作）下是可行且有优势，但对缺乏引擎/渲染/工具经验的开发者而言非常危险，容易把精力耗在“造引擎”上以致游戏项目夭折。建议遵循 KISS（Keep It Simple, Stupid）原则：先实现扁平场景、基本渲染和输入，避免过早优化或实现未验证的复杂子系统。评论里也以早期的 Quake 引擎为反例/正例：它通过少数高影响力技术（如 BSP 划分、painter's algorithm、一些数学黑科技）达成目标，但当年工程规模与今日差距大，今天要做“同级别”引擎的工作量远超当年。与此同时，也有明显论点指出现成商用引擎（如 Unity）的价值在于跨平台支持和稳定的发布覆盖率，这对商业化和目标市场非常重要。",
-              "supportid": [
-                "47215267",
-                "47216253",
-                "47215116",
-                "47215181",
-                "47216080",
-                "47215530"
-              ]
-            },
-            {
-              "category": "语言与工作流：C#, 热重载 与 C++ 替代方案",
-              "summary": "很多人赞同把 C# 与 dotnet watch 的热重载纳入工作流来加速迭代——无需频繁重启可保持思路流畅，但也有人对托管 GC 的不可控暂停心存疑虑。NativeAOT 的兴起被认为会减少对 IL2CPP/转译 hacks 的依赖，从而让 C# 更可取用于无引擎跨平台发布；同时有人希望用 C# + SDL3 实现“无引擎”跨平台。对于偏向 C++ 的开发者，评论给出实战经验：避免大量使用标准库、用自制的 Vector/Array/Span/String 等轻量数据结构可显著缩短编译+链接时间；“把游戏代码做成动态库”的热重载手法（Handmade Hero 风格）和第三方小工具（如 fungos/cr）是可行替代。评论里还具体提到 CMake 的 FetchContent 用法、对 vcpkg/conan 的不满以及 C++ 模块与 clangd 的支持现状。",
-              "supportid": [
-                "47216633",
-                "47216794",
-                "47216463",
-                "47215932"
-              ]
-            },
-            {
-              "category": "编辑器、UI 与现有库的不足",
-              "summary": "多条评论指出，构建复杂游戏编辑器和生产级游戏 UI 是最耗时、最枯燥的部分，往往比渲染器或物理更难做。现成的轻量库（如 Dear ImGui）通常只适合调试工具，而用于最终用户的复杂 UI 框架仍然稀缺：评论里提到的选项包括 Gum、RmlUi，但大家普遍认为还不够成熟。有人建议直接复用成熟编辑器（例如用 Godot 的编辑器插件系统当作自定义关卡/对象编辑器），以避免从零重建标准的场景树、属性检视器和 3D 视口这类通用 UI。关于素材来源，评论具体推荐了 opengameart.org、Kenney 资源、Liberated Pixel Cup 套件以及 itch.io 作为原型和小作的常用素材库。",
-              "supportid": [
-                "47216463",
-                "47215212",
-                "47215838",
-                "47215919",
-                "47215971"
-              ]
-            },
-            {
-              "category": "AI 与辅助工具的定位：生产力工具而非万能解法",
-              "summary": "很多人起初以为标题会讨论 AI，但文章实际上并未强调 AI；评论对 AI 的态度较为务实：把 LLM/代码补全当作加速重复性工作和查找棘手问题的工具，而非替代设计与判断的魔法。具体用途包括更高级的 autocomplete（一次补全多行、根据文件现有模式生成模板化代码）和解决难查的问题，JetBrains 等厂商也有本地小模型用于补全；但同时多次提醒需要人工校验生成的代码，避免“垃圾进垃圾出”。也有评论者坦言出于个人乐趣或对代码掌控感的考量会刻意少用或不用 AI。",
-              "supportid": [
-                "47215041",
-                "47215536",
-                "47215833",
-                "47216371",
-                "47215721"
-              ]
-            },
-            {
-              "category": "2D 与 3D（与多人/网路）的复杂度差异",
-              "summary": "评论普遍把讨论聚焦在 2D 独立游戏：对这类作品，自己做“轻量引擎/框架”常常足够且能带来收获，但对 3D、大世界或多人实时同步的项目，使用成熟引擎几乎成为常态。多人网络代码、复杂光照、跨平台渲染管线等问题构成显著门槛：即使在 Unity 下，大厂项目也常常自己实现或定制网路模块（有例子指出某些大型项目甚至购买了 Unity 源码以便深度改造）。因此评论的结论是：如果目标是做小型 2D 游戏（像 Celeste、Dead Cells 这类），无引擎路线合理；若需要 3D 渲染或复杂联网功能，现成引擎仍更现实。",
-              "supportid": [
-                "47216737",
-                "47215382",
-                "47216253",
-                "47216123",
-                "47215447"
-              ]
-            }
-          ],
-          "terminologies": [
-            {
-              "term": "SDL3 / SDL（Simple DirectMedia Layer）",
-              "explanation": "跨平台的低级多媒体与输入库，用于创建窗口、处理渲染上下文、音频、键鼠/手柄输入等，是做“无引擎”2D/轻量 3D 游戏的常见底层选择。"
-            },
-            {
-              "term": "dotnet watch / 热重载",
-              "explanation": "dotnet watch 是 .NET 的命令行工具，可在代码变更时触发重编译或热重载，以实现无需重启程序即可快速迭代的开发工作流；游戏领域也常用“把游戏作成动态库”来实现类似热重载。"
-            },
-            {
-              "term": "NativeAOT",
-              "explanation": ".NET 的本地 AOT 编译技术，能把托管代码预编译为原生二进制，减少对 JIT 或像 IL2CPP 那样的转译手段的依赖，有利于在受限平台上发布 C# 程序。"
-            },
-            {
-              "term": "IL2CPP",
-              "explanation": "Unity 使用的一种将 C# 中间语言（IL）转译为 C++ 的技术，目的是在不允许 JIT 的平台（如某些主机或 iOS）上运行托管代码。"
-            },
-            {
-              "term": "Dear ImGui (ImGui)",
-              "explanation": "一个即时模式 GUI 库，设计用于调试工具和编辑器内部面板，而非用于制作复杂的最终游戏内用户界面。"
-            }
-          ],
-          "context": "讨论基于一篇题为“Making Video Games in 2025 (without an engine)”的文章，原文作者被评论指出为《Celeste》开发团队成员。评论者把话题放在 2D 独立游戏的可行性、使用 C#（配合 dotnet watch 热重载）或回归 C++/SDL3 的开发工作流，以及自研引擎与商用引擎（如 Unity、Godot、Unreal）之间的取舍。评论还针对具体技术细节提出经验：如何通过动态库实现热重载、用自制轻量容器缩短 C++ 编译时间、以及现有 UI 库（如 Dear ImGui、Gum、RmlUi）在“生产级游戏 UI”上的不足。读者背景假定对基本游戏开发概念熟悉，但讨论频繁涉及跨平台、发布稳定性和迭代效率等实际工程权衡。",
-          "emoji": "🛠️",
-          "sarcastic_question": "你真愿意花几年造引擎，而不是早点出游戏吗？"
-        }
-      }
-    },
-    {
       "id": 47211280,
       "by": "TigerUniversity",
       "title": "Little Free Library Books",
@@ -3308,278 +3580,6 @@
           "context": "Timber 是一项针对传统机器学习模型的推理/服务工程（帖子宣称比 Python 快 336×），并以“像 Ollama 一样简单”的接口作为宣传点。讨论背景包括生成式 LLM 热潮下传统 ML 在生产中的广泛存在，以及工程上对延迟敏感与边缘部署的需求。评论围绕是否应接受原始输入或预先计算的特征向量、用 ONNX（模型交换与运行时）合并预处理、以及将 Timber 类比为 vLLM（高性能 LLM 服务框架）或 Ollama（本地 LLM REST 接口工具）的合理性展开。实现层面讨论包括独立进程 vs 共享库的序列化/零拷贝权衡、以及生成 C 代码的内存安全性争议（有人建议 Rust/Zig/Nim，项目方称生成的 C 为纯计算、风险可控）。",
           "emoji": "🤔",
           "sarcastic_question": "336倍加速，别告诉我只是把瓶颈转移了？"
-        }
-      }
-    },
-    {
-      "id": 47214645,
-      "by": "km",
-      "title": "Motorola announces a partnership with GrapheneOS Foundation",
-      "url": "https://motorolanews.com/motorola-three-new-b2b-solutions-at-mwc-2026/",
-      "score": 522,
-      "detailUpdatedAt": 1772446380,
-      "createdAt": 1772436007,
-      "aiSummaryUpdatedAt": 1772447779,
-      "aisummary": {
-        "chinese_title": "摩托罗拉与GrapheneOS合作：隐私手机扩容，但更新、支付与信任成争议点",
-        "emoji": "🔐",
-        "sarcastic_question": "你真觉得联想旗下的摩托罗拉会比谷歌更可信吗？"
-      },
-      "classifications": {
-        "topics": [
-          3,
-          6,
-          7
-        ],
-        "facets": [
-          4
-        ],
-        "tags": [
-          "GrapheneOS",
-          "Motorola",
-          "Lenovo",
-          "Google",
-          "Pixel",
-          "Android",
-          "Google Play",
-          "Bootloader",
-          "Termux",
-          "Motorola Solutions"
-        ]
-      },
-      "classificationsUpdatedAt": 1772438726,
-      "aiSummary": {
-        "chinese_title": "摩托罗拉与GrapheneOS合作：隐私手机扩容，但更新、支付与信任成争议点",
-        "emoji": "🔐",
-        "sarcastic_question": "你真觉得联想旗下的摩托罗拉会比谷歌更可信吗？"
-      },
-      "detail": {
-        "id": 47214645,
-        "by": "km",
-        "title": "Motorola announces a partnership with GrapheneOS Foundation",
-        "url": "https://motorolanews.com/motorola-three-new-b2b-solutions-at-mwc-2026/",
-        "score": 522,
-        "detailUpdatedAt": 1772446380,
-        "createdAt": 1772436007,
-        "aiSummaryUpdatedAt": 1772447779,
-        "aisummary": {
-          "chinese_title": "摩托罗拉与GrapheneOS合作：隐私手机扩容，但更新、支付与信任成争议点",
-          "discussion_overview": [
-            {
-              "category": "期待与市场机遇",
-              "summary": "许多评论者对摩托罗拉与 GrapheneOS 的合作表现出强烈兴趣，认为摩托罗拉在硬件性价比上有优势，若能预装或长期支持 GrapheneOS，会吸引非技术用户和企业采购。具体期待包括厂商提供第一方开源、长期更新、以及把 MDM 做成一流功能以便企业部署。还有人提到摩托罗拉某些机型支持 USB‑3/DisplayPort 1.4 与外接显示、Android 16 的桌面模式，这类硬件特性若配合安全系统能成为卖点。若实现低端机型（如 €200 级别）也支持 GrapheneOS，会进一步扩大受众。",
-              "supportid": [
-                "47215464",
-                "47215970",
-                "47215561",
-                "47215101",
-                "47216050"
-              ]
-            },
-            {
-              "category": "更新政策与固件担忧",
-              "summary": "大量评论把注意力放在摩托罗拉的历史更新记录与闭源固件上：虽然部分机型（如 ThinkPhone）能拿到月度安全补丁，但旗舰线常见季度或更慢的更新节奏，导致用户不信任。更严重的是有评论指出摩托罗拉曾公开表示会利用 EU ecodesign 文字漏洞来不提供某些机型的更新，这加剧了对厂商承诺的怀疑。另一个核心担忧是闭源的 firmware blobs 与基带（radio/baseband）固件：即便 OS 有长期支持，基带或其它闭源固件不更新仍会留下安全与隐私风险。评论中还提到 GrapheneOS 对硬件有严格要求（例如基带与 OS 的严格隔离），若摩托罗拉不能满足这些要求，合作意义会大打折扣。",
-              "supportid": [
-                "47214939",
-                "47215341",
-                "47214984",
-                "47215205",
-                "47215682",
-                "47215936",
-                "47215909"
-              ]
-            },
-            {
-              "category": "NFC/支付与应用兼容性问题",
-              "summary": "支付与应用兼容被反复提及：许多银行和付款服务已迁向 Google Wallet 或 Samsung Pay，导致非‑Google 环境（如 GrapheneOS）面临可用性障碍。评论举例说明第三方方案（例如 Curve Pay、PayPal tap‑to‑pay）在 GrapheneOS 上可行，但有些新兴方案如 Wero 要求 Play Integrity 或强制设备完整性检查，反而排斥了去 Google 化的系统。GrapheneOS 有一份 attestation/兼容性清单，且多数银行应用可以在沙箱化的 Google Play 下工作，但默认情况下 GrapheneOS 会因 DEVICE_INTEGRITY 与 STRONG_INTEGRITY 检查不通过而导致部分应用受限，这成为普及的关键技术障碍。",
-              "supportid": [
-                "47215319",
-                "47215473",
-                "47215864",
-                "47215034",
-                "47215252",
-                "47215454",
-                "47215523"
-              ]
-            },
-            {
-              "category": "项目治理与透明度疑问",
-              "summary": "一些评论对 GrapheneOS 基金会的治理与技术管道透明度表示担忧，关切点包括谁掌管 CI、更新服务器、签名密钥和总体决策权。有人提到 Daniel Micay 曾宣布要“退位”为首席开发者，但同时也有证据显示他仍然参与项目；评论里有人贴出公司登记信息和 GitHub 团队以佐证不同立场。总体上，社区希望看到更明确的法人、签名钥管理与发布流程说明来建立信任，尤其当厂商合作将 GrapheneOS 推向更多用户时。",
-              "supportid": [
-                "47215893",
-                "47216006",
-                "47215973",
-                "47216056"
-              ]
-            },
-            {
-              "category": "所有权、监管与地缘政治担忧",
-              "summary": "评论里对摩托罗拉的所有权和地缘政治背景展开讨论：文章中涉及的是 Motorola Mobility（智能手机业务），自 2014 年起归 Lenovo（中国/全球化科技公司）所有，这一点让部分用户担忧与中国监管或供应链相关的风险。还有人把 Motorola Mobility 与另一个独立的 Motorola Solutions（对讲机与监控解决方案）混淆，引发关于厂商与执法机构关系的质疑。与此同时，也有声音指出全球电子产品普遍与中国制造/设计有关，关注点更多落在合约义务、法域（如美国 Cloud Act）与厂商是否会遵循对用户隐私的承诺。",
-              "supportid": [
-                "47215056",
-                "47214814",
-                "47214868",
-                "47215509"
-              ]
-            },
-            {
-              "category": "硬件体验细节与可用性",
-              "summary": "讨论同时涉及多项具体硬件体验：屏幕调光（DC dimming vs PWM）被报告会显著影响眼睛疲劳，部分用户认为摩托罗拉在 DC dimming 上优于某些 Pixel 机型。另有评论强调摩托罗拉在视频输出、外接显示（DisplayPort）和快充方面表现优异，但也指出部分型号缺失视频输出或省略磁力计等元件。电池不可拆卸、相机质量依赖软件处理（Pixel 在软件上有优势）等实际细节也被反复提及，用户关心这些硬件特性是否会在 GrapheneOS 机型上保留或改进。",
-              "supportid": [
-                "47215593",
-                "47215970",
-                "47215254",
-                "47215294",
-                "47215297"
-              ]
-            }
-          ],
-          "terminologies": [
-            {
-              "term": "GrapheneOS",
-              "explanation": "GrapheneOS（一个开源、以隐私与硬化为目标的 Android 变体）— 强调更严格的沙箱机制、尽量减少对 Google Play Services 的依赖，最初主要运行在 Google Pixel 硬件上但正寻求扩展到其他 OEM。"
-            },
-            {
-              "term": "Play Integrity / attestation",
-              "explanation": "Play Integrity（或称 attestation）是 Google 提供的设备完整性与应用行为检测服务，银行/支付与某些政府/企业应用会用它来判定设备是否被修改或符合安全策略（DEVICE_INTEGRITY、STRONG_INTEGRITY 等）。"
-            },
-            {
-              "term": "bootloader 解锁（bootloader unlock）",
-              "explanation": "bootloader unlock 指厂商允许解锁设备启动引导程序以刷入自定义 ROM 的权限，过程有时需要厂商账号、IMEI 提交或解锁码，某些厂商在不同市场对解锁施加限制。"
-            },
-            {
-              "term": "基带 / radio firmware（baseband）",
-              "explanation": "基带（radio/baseband）是手机负责蜂窝通信的闭源固件层，它与主 OS 物理隔离但具有直接外设访问能力；若基带有后门或不更新，会成为安全与隐私风险来源。"
-            },
-            {
-              "term": "DC dimming / PWM",
-              "explanation": "DC dimming 与 PWM（Pulse Width Modulation）是两种屏幕亮度调节方式：PWM 通过快速开关导致频闪，部分用户报告会引起眼疲劳；DC dimming 通过改变电流减少可感知闪烁，常被列为减少屏幕疲劳的优点。"
-            }
-          ],
-          "context": "GrapheneOS 是一个以隐私与安全为主的开源 Android 替代系统，过去主要在 Google Pixel 设备上运行。此次公告指向与 Motorola Mobility（智能手机业务，2014 年以后隶属 Lenovo）建立合作，意味着 GrapheneOS 有望脱离 Pixel 硬件生态并由厂商出货或提供更友好的安装体验。评论围绕三大技术阻力展开：厂商的更新与闭源固件（尤其基带）是否得到长期维护、Google 的 Play Integrity/attestation 机制对支付与银行应用的限制，以及项目治理与签名/发布流程的透明度。讨论同时被地缘政治（Lenovo/中国与 Motorola Solutions 的混淆）、EU ecodesign 要求与用户可用性（支付、桌面模式、电池可换性等）问题所影响。",
-          "emoji": "🔐",
-          "sarcastic_question": "你真觉得联想旗下的摩托罗拉会比谷歌更可信吗？"
-        },
-        "classifications": {
-          "topics": [
-            3,
-            6,
-            7
-          ],
-          "facets": [
-            4
-          ],
-          "tags": [
-            "GrapheneOS",
-            "Motorola",
-            "Lenovo",
-            "Google",
-            "Pixel",
-            "Android",
-            "Google Play",
-            "Bootloader",
-            "Termux",
-            "Motorola Solutions"
-          ]
-        },
-        "classificationsUpdatedAt": 1772438726,
-        "aiSummary": {
-          "chinese_title": "摩托罗拉与GrapheneOS合作：隐私手机扩容，但更新、支付与信任成争议点",
-          "discussion_overview": [
-            {
-              "category": "期待与市场机遇",
-              "summary": "许多评论者对摩托罗拉与 GrapheneOS 的合作表现出强烈兴趣，认为摩托罗拉在硬件性价比上有优势，若能预装或长期支持 GrapheneOS，会吸引非技术用户和企业采购。具体期待包括厂商提供第一方开源、长期更新、以及把 MDM 做成一流功能以便企业部署。还有人提到摩托罗拉某些机型支持 USB‑3/DisplayPort 1.4 与外接显示、Android 16 的桌面模式，这类硬件特性若配合安全系统能成为卖点。若实现低端机型（如 €200 级别）也支持 GrapheneOS，会进一步扩大受众。",
-              "supportid": [
-                "47215464",
-                "47215970",
-                "47215561",
-                "47215101",
-                "47216050"
-              ]
-            },
-            {
-              "category": "更新政策与固件担忧",
-              "summary": "大量评论把注意力放在摩托罗拉的历史更新记录与闭源固件上：虽然部分机型（如 ThinkPhone）能拿到月度安全补丁，但旗舰线常见季度或更慢的更新节奏，导致用户不信任。更严重的是有评论指出摩托罗拉曾公开表示会利用 EU ecodesign 文字漏洞来不提供某些机型的更新，这加剧了对厂商承诺的怀疑。另一个核心担忧是闭源的 firmware blobs 与基带（radio/baseband）固件：即便 OS 有长期支持，基带或其它闭源固件不更新仍会留下安全与隐私风险。评论中还提到 GrapheneOS 对硬件有严格要求（例如基带与 OS 的严格隔离），若摩托罗拉不能满足这些要求，合作意义会大打折扣。",
-              "supportid": [
-                "47214939",
-                "47215341",
-                "47214984",
-                "47215205",
-                "47215682",
-                "47215936",
-                "47215909"
-              ]
-            },
-            {
-              "category": "NFC/支付与应用兼容性问题",
-              "summary": "支付与应用兼容被反复提及：许多银行和付款服务已迁向 Google Wallet 或 Samsung Pay，导致非‑Google 环境（如 GrapheneOS）面临可用性障碍。评论举例说明第三方方案（例如 Curve Pay、PayPal tap‑to‑pay）在 GrapheneOS 上可行，但有些新兴方案如 Wero 要求 Play Integrity 或强制设备完整性检查，反而排斥了去 Google 化的系统。GrapheneOS 有一份 attestation/兼容性清单，且多数银行应用可以在沙箱化的 Google Play 下工作，但默认情况下 GrapheneOS 会因 DEVICE_INTEGRITY 与 STRONG_INTEGRITY 检查不通过而导致部分应用受限，这成为普及的关键技术障碍。",
-              "supportid": [
-                "47215319",
-                "47215473",
-                "47215864",
-                "47215034",
-                "47215252",
-                "47215454",
-                "47215523"
-              ]
-            },
-            {
-              "category": "项目治理与透明度疑问",
-              "summary": "一些评论对 GrapheneOS 基金会的治理与技术管道透明度表示担忧，关切点包括谁掌管 CI、更新服务器、签名密钥和总体决策权。有人提到 Daniel Micay 曾宣布要“退位”为首席开发者，但同时也有证据显示他仍然参与项目；评论里有人贴出公司登记信息和 GitHub 团队以佐证不同立场。总体上，社区希望看到更明确的法人、签名钥管理与发布流程说明来建立信任，尤其当厂商合作将 GrapheneOS 推向更多用户时。",
-              "supportid": [
-                "47215893",
-                "47216006",
-                "47215973",
-                "47216056"
-              ]
-            },
-            {
-              "category": "所有权、监管与地缘政治担忧",
-              "summary": "评论里对摩托罗拉的所有权和地缘政治背景展开讨论：文章中涉及的是 Motorola Mobility（智能手机业务），自 2014 年起归 Lenovo（中国/全球化科技公司）所有，这一点让部分用户担忧与中国监管或供应链相关的风险。还有人把 Motorola Mobility 与另一个独立的 Motorola Solutions（对讲机与监控解决方案）混淆，引发关于厂商与执法机构关系的质疑。与此同时，也有声音指出全球电子产品普遍与中国制造/设计有关，关注点更多落在合约义务、法域（如美国 Cloud Act）与厂商是否会遵循对用户隐私的承诺。",
-              "supportid": [
-                "47215056",
-                "47214814",
-                "47214868",
-                "47215509"
-              ]
-            },
-            {
-              "category": "硬件体验细节与可用性",
-              "summary": "讨论同时涉及多项具体硬件体验：屏幕调光（DC dimming vs PWM）被报告会显著影响眼睛疲劳，部分用户认为摩托罗拉在 DC dimming 上优于某些 Pixel 机型。另有评论强调摩托罗拉在视频输出、外接显示（DisplayPort）和快充方面表现优异，但也指出部分型号缺失视频输出或省略磁力计等元件。电池不可拆卸、相机质量依赖软件处理（Pixel 在软件上有优势）等实际细节也被反复提及，用户关心这些硬件特性是否会在 GrapheneOS 机型上保留或改进。",
-              "supportid": [
-                "47215593",
-                "47215970",
-                "47215254",
-                "47215294",
-                "47215297"
-              ]
-            }
-          ],
-          "terminologies": [
-            {
-              "term": "GrapheneOS",
-              "explanation": "GrapheneOS（一个开源、以隐私与硬化为目标的 Android 变体）— 强调更严格的沙箱机制、尽量减少对 Google Play Services 的依赖，最初主要运行在 Google Pixel 硬件上但正寻求扩展到其他 OEM。"
-            },
-            {
-              "term": "Play Integrity / attestation",
-              "explanation": "Play Integrity（或称 attestation）是 Google 提供的设备完整性与应用行为检测服务，银行/支付与某些政府/企业应用会用它来判定设备是否被修改或符合安全策略（DEVICE_INTEGRITY、STRONG_INTEGRITY 等）。"
-            },
-            {
-              "term": "bootloader 解锁（bootloader unlock）",
-              "explanation": "bootloader unlock 指厂商允许解锁设备启动引导程序以刷入自定义 ROM 的权限，过程有时需要厂商账号、IMEI 提交或解锁码，某些厂商在不同市场对解锁施加限制。"
-            },
-            {
-              "term": "基带 / radio firmware（baseband）",
-              "explanation": "基带（radio/baseband）是手机负责蜂窝通信的闭源固件层，它与主 OS 物理隔离但具有直接外设访问能力；若基带有后门或不更新，会成为安全与隐私风险来源。"
-            },
-            {
-              "term": "DC dimming / PWM",
-              "explanation": "DC dimming 与 PWM（Pulse Width Modulation）是两种屏幕亮度调节方式：PWM 通过快速开关导致频闪，部分用户报告会引起眼疲劳；DC dimming 通过改变电流减少可感知闪烁，常被列为减少屏幕疲劳的优点。"
-            }
-          ],
-          "context": "GrapheneOS 是一个以隐私与安全为主的开源 Android 替代系统，过去主要在 Google Pixel 设备上运行。此次公告指向与 Motorola Mobility（智能手机业务，2014 年以后隶属 Lenovo）建立合作，意味着 GrapheneOS 有望脱离 Pixel 硬件生态并由厂商出货或提供更友好的安装体验。评论围绕三大技术阻力展开：厂商的更新与闭源固件（尤其基带）是否得到长期维护、Google 的 Play Integrity/attestation 机制对支付与银行应用的限制，以及项目治理与签名/发布流程的透明度。讨论同时被地缘政治（Lenovo/中国与 Motorola Solutions 的混淆）、EU ecodesign 要求与用户可用性（支付、桌面模式、电池可换性等）问题所影响。",
-          "emoji": "🔐",
-          "sarcastic_question": "你真觉得联想旗下的摩托罗拉会比谷歌更可信吗？"
         }
       }
     },
