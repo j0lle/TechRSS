@@ -1,9 +1,9 @@
 {
   "date": "2026-03-02",
   "total_feeds": 92,
-  "success_feeds": 84,
-  "total_articles": 2416,
-  "filtered_articles": 16,
+  "success_feeds": 86,
+  "total_articles": 2437,
+  "filtered_articles": 10,
   "articles": [
     {
       "title": "Why on-device agentic AI can't keep up",
@@ -86,6 +86,26 @@
       "rank": 4
     },
     {
+      "title": "Book Notes: “Blood In The Machine” by Brian Merchant",
+      "title_zh": "《Blood In The Machine》读书笔记",
+      "link": "https://blog.jim-nielsen.com/2026/book-notes-blood-in-the-machine/",
+      "pub_date": "2026-03-01T19:00:00.000Z",
+      "summary": "",
+      "source_name": "blog.jim-nielsen.com",
+      "score": 10,
+      "depth": 2,
+      "novelty": 3,
+      "breadth": 5,
+      "category": "opinion",
+      "keywords": [
+        "Luddites",
+        "AI",
+        "automation",
+        "labor"
+      ],
+      "rank": 5
+    },
+    {
       "title": "Shell variable ~-",
       "title_zh": "Shell 变量 ~- 的实用技巧",
       "link": "https://www.johndcook.com/blog/2026/03/01/tilde-dash/",
@@ -102,7 +122,7 @@
         "shell",
         "OLDPWD"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Killing my inner Necron",
@@ -120,7 +140,7 @@
         "personal",
         "recovery"
       ],
-      "rank": 6
+      "rank": 7
     }
   ]
 }
