@@ -1,9 +1,9 @@
 {
   "date": "2026-03-03",
   "total_feeds": 92,
-  "success_feeds": 86,
-  "total_articles": 2437,
-  "filtered_articles": 18,
+  "success_feeds": 85,
+  "total_articles": 2427,
+  "filtered_articles": 19,
   "articles": [
     {
       "title": "‘Anthropic and Alignment’",
@@ -26,6 +26,26 @@
       "rank": 1
     },
     {
+      "title": "SerpApi Filed Motion to Dismiss Google’s Lawsuit",
+      "title_zh": "SerpApi 驳回 Google 诉讼的法律依据",
+      "link": "https://serpapi.com/blog/google-v-serpapi-motion-to-dismiss-why-were-in-the-right/",
+      "pub_date": "2026-03-02T20:03:02.000Z",
+      "summary": "SerpApi 向法院提交驳回动议，反驳 Google 基于 DMCA 的诉讼。文章指出 DMCA 是版权保护法而非网站保护法，Google 作为网站运营商而非版权持有者，无权代表整个互联网主张访问控制。SerpApi 仅访问公开可见的网页，未解密、未绕过认证、未访问非公开数据，不构成 DMCA 定义的规避行为。Google 在投诉中承认其反爬虫工具旨在保护广告业务而非版权作品，这直接削弱了其 DMCA 主张。文章引用第九巡回法院 hiQ Labs v. LinkedIn 和第六巡回法院 Impression Products v. Lexmark 判例，反对创建信息垄断。按 Google 创造性解释计算，DMCA 法定赔偿金将达 7.06 万亿美元，超过美国 GDP，显示其主张荒谬性。",
+      "source_name": "daringfireball.net",
+      "score": 18,
+      "depth": 6,
+      "novelty": 7,
+      "breadth": 5,
+      "category": "other",
+      "keywords": [
+        "DMCA",
+        "scraping",
+        "legal",
+        "Google"
+      ],
+      "rank": 2
+    },
+    {
       "title": "GIF optimization tool using WebAssembly and Gifsicle",
       "title_zh": "用 Claude Code 将 Gifsicle 编译为 WebAssembly",
       "link": "https://simonwillison.net/guides/agentic-engineering-patterns/gif-optimization/#atom-everything",
@@ -43,7 +63,7 @@
         "Claude Code",
         "coding agents"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Differential equation with a small delay",
@@ -62,7 +82,27 @@
         "stability",
         "oscillations"
       ],
-      "rank": 3
+      "rank": 4
+    },
+    {
+      "title": "Welcome (Back) to Macintosh",
+      "title_zh": "macOS Tahoe 的长期问题与 Apple 的优先级迷失",
+      "link": "https://take.surf/2026/03/01/welcome-back-to-macintosh",
+      "pub_date": "2026-03-02T20:27:52.000Z",
+      "summary": "macOS Tahoe 存在多个长期未修复的严重问题：Time Machine 备份最终会失败，唯一解决方案是删除旧备份重新开始；Spotlight 标签索引不可靠，重建索引无效，只能重启 Finder；Finder 窗口无法及时反映文件夹变化，外部程序写入的文件经常不显示；AirPods Pro 配合 Quick Look 播放视频时音频会出现故障；全屏窗口切换后焦点丢失，键盘快捷键失效。这些问题在多个 OS 版本和不同 Mac 机型上持续存在，作者使用 2021 年 MacBook Pro M1 Max，因 macOS Tahoe 稳定性极差而拒绝升级。Apple 选择进行无人要求的界面重新设计，而非修复这些基础功能问题，甚至计划淘汰对开发者至关重要的 Rosetta 2。作者质疑 Apple 是否具备理解并优先解决这些问题的组织能力，希望公司能重新聚焦于软件质量和用户体验，而非追逐年度趋势。",
+      "source_name": "daringfireball.net",
+      "score": 14,
+      "depth": 4,
+      "novelty": 4,
+      "breadth": 6,
+      "category": "engineering",
+      "keywords": [
+        "macOS",
+        "Tahoe",
+        "Finder",
+        "Time Machine"
+      ],
+      "rank": 5
     },
     {
       "title": "Apple Introduces New iPad Air With M4",
@@ -82,7 +122,7 @@
         "Wi-Fi 7",
         "iPadOS 26"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "WSJ: ‘Trump Administration Shuns Anthropic, Embraces OpenAI in Clash Over Guardrails’",
@@ -102,7 +142,7 @@
         "Pentagon",
         "guardrails"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "Seasonal Color Updates to Apple’s iPhone Cases and Apple Watch Bands",
@@ -121,7 +161,7 @@
         "accessories",
         "colors"
       ],
-      "rank": 6
+      "rank": 8
     }
   ]
 }
