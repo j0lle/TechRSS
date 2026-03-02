@@ -1,9 +1,9 @@
 {
   "date": "2026-03-02",
   "total_feeds": 92,
-  "success_feeds": 86,
-  "total_articles": 2437,
-  "filtered_articles": 11,
+  "success_feeds": 85,
+  "total_articles": 2427,
+  "filtered_articles": 12,
   "articles": [
     {
       "title": "Why on-device agentic AI can't keep up",
@@ -106,6 +106,25 @@
       "rank": 5
     },
     {
+      "title": "Weekly Update 493",
+      "title_zh": "Troy Hunt 第 493 期周报",
+      "link": "https://www.troyhunt.com/weekly-update-493/",
+      "pub_date": "2026-03-02T07:51:14.000Z",
+      "summary": "",
+      "source_name": "troyhunt.com",
+      "score": 7,
+      "depth": 2,
+      "novelty": 2,
+      "breadth": 3,
+      "category": "security",
+      "keywords": [
+        "weekly update",
+        "Odido breach",
+        "data leak"
+      ],
+      "rank": 6
+    },
+    {
       "title": "Shell variable ~-",
       "title_zh": "Shell 变量 ~- 的实用技巧",
       "link": "https://www.johndcook.com/blog/2026/03/01/tilde-dash/",
@@ -122,7 +141,7 @@
         "shell",
         "OLDPWD"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Killing my inner Necron",
@@ -140,7 +159,7 @@
         "personal",
         "recovery"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "The Unbound Scepter",
@@ -159,7 +178,7 @@
         "personal",
         "medication"
       ],
-      "rank": 8
+      "rank": 9
     }
   ]
 }
