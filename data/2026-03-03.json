@@ -2,8 +2,8 @@
   "date": "2026-03-03",
   "total_feeds": 92,
   "success_feeds": 85,
-  "total_articles": 2427,
-  "filtered_articles": 24,
+  "total_articles": 2412,
+  "filtered_articles": 25,
   "articles": [
     {
       "title": "‘Anthropic and Alignment’",
@@ -244,6 +244,25 @@
       "rank": 12
     },
     {
+      "title": "Betting Against Substack",
+      "title_zh": "Substack 与 Polymarket 合作引发作者出走",
+      "link": "https://feed.tedium.co/link/15204/17288375/betting-against-substack",
+      "pub_date": "2026-03-03T04:56:00.000Z",
+      "summary": "",
+      "source_name": "tedium.co",
+      "score": 10,
+      "depth": 2,
+      "novelty": 3,
+      "breadth": 5,
+      "category": "opinion",
+      "keywords": [
+        "Substack",
+        "Polymarket",
+        "newsletters"
+      ],
+      "rank": 13
+    },
+    {
       "title": "I built a pint-sized Macintosh",
       "title_zh": "用树莓派 Pico 打造迷你 Macintosh",
       "link": "https://www.jeffgeerling.com/blog/2026/pint-sized-macintosh-pico-micro-mac/",
@@ -261,7 +280,7 @@
         "retro computing",
         "RP2040"
       ],
-      "rank": 13
+      "rank": 14
     },
     {
       "title": "[Sponsor] npx workos: An AI Agent That Writes Auth Directly Into Your Codebase",
@@ -281,7 +300,7 @@
         "WorkOS",
         "automation"
       ],
-      "rank": 14
+      "rank": 15
     },
     {
       "title": "★ HazeOver — Mac Utility for Highlighting the Frontmost Window",
@@ -300,7 +319,7 @@
         "HazeOver",
         "productivity"
       ],
-      "rank": 15
+      "rank": 16
     },
     {
       "title": "Seasonal Color Updates to Apple’s iPhone Cases and Apple Watch Bands",
@@ -319,7 +338,7 @@
         "accessories",
         "colors"
       ],
-      "rank": 16
+      "rank": 17
     }
   ]
 }
