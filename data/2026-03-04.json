@@ -3,8 +3,28 @@
   "total_feeds": 92,
   "success_feeds": 86,
   "total_articles": 2437,
-  "filtered_articles": 21,
+  "filtered_articles": 22,
   "articles": [
+    {
+      "title": "The AI Bubble Is An Information War",
+      "title_zh": "AI 泡沫是一场信息战",
+      "link": "https://www.wheresyoured.at/the-ai-bubble-is-an-information-war/",
+      "pub_date": "2026-03-03T17:18:22.000Z",
+      "summary": "Ed Zitron 通过分析 CoreWeave、NVIDIA、OpenAI 和 Anthropic 的财务数据，揭露 AI 行业的系统性信息操控。CoreWeave Q4 营收 15.7 亿美元但亏损 89 美分/股，每兆瓦算力收入从 Q3 的 230 万美元降至 184.7 万美元，业务随产能扩张而恶化。OpenAI 实际融资仅 150 亿美元，其余 950 亿美元为附条件承诺或分期付款，其 2025 年上半年营收 43 亿美元但推理成本 25 亿美元、训练成本 67 亿美元，亏损远超官方披露的 80 亿美元。Zitron 指出 OpenAI 和 Anthropic 通过媒体持续泄露不一致的财务预测，从 2024 年预测 2023-2028 年总亏损 440 亿美元，到 2026 年预测 2030 年前将烧掉 2300 亿美元，数字矛盾但媒体未加核实。文章同时批评两家公司与五角大楼的军事合作：Anthropic 仅拒绝大规模国内监控和完全自主武器，但支持所有其他 \"合法用途\"，包括情报评估、目标识别和作战模拟；OpenAI 签署 \"任何合法用途\" 协议，允许军方在符合法律框架下使用 ChatGPT。Zitron 认为 Altman 和 Amodei 一方面夸大 AI 能力以获取投资和公众关注，另一方面在军事应用中又声称模型 \"不够可靠\"，这种双重标准将导致致命后果。",
+      "source_name": "wheresyoured.at",
+      "score": 26,
+      "depth": 9,
+      "novelty": 8,
+      "breadth": 9,
+      "category": "opinion",
+      "keywords": [
+        "OpenAI",
+        "Anthropic",
+        "CoreWeave",
+        "military AI"
+      ],
+      "rank": 1
+    },
     {
       "title": "w0rdz aRe 1mpoRtAnt",
       "title_zh": "AI 产品的用词如何潜移默化影响用户行为",
@@ -23,7 +43,25 @@
         "behavior",
         "psychology"
       ],
-      "rank": 1
+      "rank": 2
+    },
+    {
+      "title": "Free Books",
+      "title_zh": "Logic for Programmers 免费赠书",
+      "link": "https://buttondown.com/hillelwayne/archive/free-books/",
+      "pub_date": "2026-03-03T16:34:33.000Z",
+      "summary": "",
+      "source_name": "buttondown.com/hillelwayne",
+      "score": 4,
+      "depth": 1,
+      "novelty": 1,
+      "breadth": 2,
+      "category": "other",
+      "keywords": [
+        "book",
+        "free"
+      ],
+      "rank": 3
     }
   ]
 }
