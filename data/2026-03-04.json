@@ -2,8 +2,8 @@
   "date": "2026-03-04",
   "total_feeds": 92,
   "success_feeds": 86,
-  "total_articles": 2536,
-  "filtered_articles": 23,
+  "total_articles": 2437,
+  "filtered_articles": 22,
   "articles": [
     {
       "title": "The AI Bubble Is An Information War",
@@ -66,6 +66,26 @@
       "rank": 3
     },
     {
+      "title": "Apple Introduces MacBook Pro Models With M5 Pro and M5 Max Chips",
+      "title_zh": "MacBook Pro 搭载 M5 Pro/Max 芯片发布",
+      "link": "https://www.apple.com/newsroom/2026/03/apple-introduces-macbook-pro-with-all-new-m5-pro-and-m5-max/",
+      "pub_date": "2026-03-03T20:01:28.000Z",
+      "summary": "Apple 发布搭载 M5 Pro 和 M5 Max 芯片的全新 MacBook Pro，采用 Fusion Architecture 将两个 die 整合为单一 SoC。M5 Pro 配备最多 18 核 CPU（6 个超核 + 12 个性能核），M5 Max 支持最多 128GB 统一内存和 614GB/s 内存带宽。GPU 内置 Neural Accelerator，AI 性能相比 M4 系列提升最高 4 倍，相比 M1 系列提升最高 8 倍。LLM 提示处理速度相比 M4 Pro/Max 提升 3.9-4 倍，AI 图像生成相比 M1 Pro/Max 提升 7.8-8 倍。SSD 读写速度提升至最高 14.5GB/s，M5 Pro 起步存储 1TB，M5 Max 起步 2TB。新增 Apple N1 芯片支持 Wi-Fi 7 和 Bluetooth 6，电池续航最长 24 小时，配备 Thunderbolt 5、HDMI 8K、SDXC 卡槽和 MagSafe 3。14 英寸 M5 Pro 起售价 $2,199，M5 Max 起售价 $3,599；16 英寸 M5 Pro 起售价 $2,699，M5 Max 起售价 $3,899。",
+      "source_name": "daringfireball.net",
+      "score": 21,
+      "depth": 6,
+      "novelty": 7,
+      "breadth": 8,
+      "category": "engineering",
+      "keywords": [
+        "M5 Pro",
+        "M5 Max",
+        "MacBook Pro",
+        "on-device AI"
+      ],
+      "rank": 4
+    },
+    {
       "title": "The one science reform we can all agree on, but we're too cowardly to do",
       "title_zh": "废除营利性学术出版商",
       "link": "https://www.experimental-history.com/p/the-one-science-reform-we-can-all",
@@ -83,7 +103,7 @@
         "SciHub",
         "academic journals"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "w0rdz aRe 1mpoRtAnt",
@@ -103,7 +123,26 @@
         "behavior",
         "psychology"
       ],
-      "rank": 5
+      "rank": 6
+    },
+    {
+      "title": "Just for fun: A survey of write protect notches on floppy disks and other media",
+      "title_zh": "软盘写保护缺口的历史趣谈",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260303-00/?p=112104",
+      "pub_date": "2026-03-03T15:00:00.000Z",
+      "summary": "",
+      "source_name": "devblogs.microsoft.com/oldnewthing",
+      "score": 6,
+      "depth": 2,
+      "novelty": 2,
+      "breadth": 2,
+      "category": "other",
+      "keywords": [
+        "floppy",
+        "write-protect",
+        "history"
+      ],
+      "rank": 7
     },
     {
       "title": "Free Books",
@@ -121,7 +160,7 @@
         "book",
         "free"
       ],
-      "rank": 6
+      "rank": 8
     }
   ]
 }
