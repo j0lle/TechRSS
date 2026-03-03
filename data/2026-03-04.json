@@ -2,8 +2,8 @@
   "date": "2026-03-04",
   "total_feeds": 92,
   "success_feeds": 86,
-  "total_articles": 2437,
-  "filtered_articles": 23,
+  "total_articles": 2537,
+  "filtered_articles": 26,
   "articles": [
     {
       "title": "The AI Bubble Is An Information War",
@@ -186,6 +186,45 @@
       "rank": 9
     },
     {
+      "title": "Gemini 3.1 Flash-Lite",
+      "title_zh": "Gemini 3.1 Flash-Lite 降价至 Pro 的 1/8",
+      "link": "https://simonwillison.net/2026/Mar/3/gemini-31-flash-lite/#atom-everything",
+      "pub_date": "2026-03-03T21:53:54.000Z",
+      "summary": "Google 发布 Gemini 3.1 Flash-Lite 模型，输入价格 $0.25/百万 tokens、输出 $1.5/百万 tokens，仅为 Gemini 3.1 Pro 价格的 1/8。模型支持四个思考层级，作者通过生成四张不同风格的鹈鹕骑自行车图片进行了功能验证。",
+      "source_name": "simonwillison.net",
+      "score": 13,
+      "depth": 3,
+      "novelty": 5,
+      "breadth": 5,
+      "category": "ai-ml",
+      "keywords": [
+        "Gemini",
+        "pricing",
+        "Flash-Lite"
+      ],
+      "rank": 10
+    },
+    {
+      "title": "Why Improve Your Writing?",
+      "title_zh": "开发者为什么要重视写作能力",
+      "link": "https://refactoringenglish.com/chapters/why-improve-your-writing/",
+      "pub_date": "2026-03-03T00:00:00.000Z",
+      "summary": "优秀程序员如 Dennis Ritchie、Grace Hopper、Jeff Dean 之所以被广泛认知，不仅因为技术成就，更因为他们擅长写作。在企业中，能写出有说服力的邮件和清晰设计文档的开发者更容易晋升到高级职位。写作具有无限扩展性，将答案记录在团队手册中可以一次性服务无限数量的同事，避免重复回答相同问题。作者通过详尽的文档成功出售了第一家创业公司，新买家无需担心机构知识流失。写作是思考的过程，能暴露知识和推理中的盲点，迫使作者简化工作流程。作者通过撰写关于 TinyPilot 原型的博客文章，在几小时内售罄首批库存。在 AI 时代，任何人都可以用 AI 生成文档，因此 AI 生成的内容无法帮助个人脱颖而出，也无法带来深入理解或发现思维缺陷。大多数开发者不重视写作，只要尝试就能进入前 10%。",
+      "source_name": "refactoringenglish.com",
+      "score": 12,
+      "depth": 3,
+      "novelty": 3,
+      "breadth": 6,
+      "category": "opinion",
+      "keywords": [
+        "writing",
+        "career",
+        "documentation",
+        "AI"
+      ],
+      "rank": 11
+    },
+    {
       "title": "w0rdz aRe 1mpoRtAnt",
       "title_zh": "AI 产品的用词如何潜移默化影响用户行为",
       "link": "https://blog.jim-nielsen.com/2026/w0rdz-aRe-1mpoRtAnt/",
@@ -203,7 +242,7 @@
         "behavior",
         "psychology"
       ],
-      "rank": 10
+      "rank": 12
     },
     {
       "title": "Just for fun: A survey of write protect notches on floppy disks and other media",
@@ -222,7 +261,7 @@
         "write-protect",
         "history"
       ],
-      "rank": 11
+      "rank": 13
     },
     {
       "title": "Free Books",
@@ -240,7 +279,7 @@
         "book",
         "free"
       ],
-      "rank": 12
+      "rank": 14
     }
   ]
 }
