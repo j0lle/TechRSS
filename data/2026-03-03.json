@@ -1,9 +1,9 @@
 {
   "date": "2026-03-03",
   "total_feeds": 92,
-  "success_feeds": 85,
-  "total_articles": 2412,
-  "filtered_articles": 25,
+  "success_feeds": 86,
+  "total_articles": 2536,
+  "filtered_articles": 26,
   "articles": [
     {
       "title": "‘Anthropic and Alignment’",
@@ -185,6 +185,25 @@
       "rank": 9
     },
     {
+      "title": "Log messages are mostly for the people operating your software",
+      "title_zh": "日志消息主要写给运维人员",
+      "link": "https://utcc.utoronto.ca/~cks/space/blog/programming/LogMessagesAreForOperation",
+      "pub_date": "2026-03-03T04:48:37.000Z",
+      "summary": "日志消息主要面向软件运维人员而非开发者。开发者在编写日志时常陷入以自我为中心的陷阱，记录对调试有用但对运维无意义的信息。成功的软件最终由非开发者运行，包括未来遗忘代码细节的自己。日志需要提供对运维人员有意义且可理解的信息，而非需要",
+      "source_name": "utcc.utoronto.ca/~cks",
+      "score": 12,
+      "depth": 4,
+      "novelty": 3,
+      "breadth": 5,
+      "category": "engineering",
+      "keywords": [
+        "logging",
+        "operations",
+        "debugging"
+      ],
+      "rank": 10
+    },
+    {
       "title": "An AI Odyssey, Part 1: Correctness Conundrum",
       "title_zh": "AI 系统的正确性困境",
       "link": "https://www.johndcook.com/blog/2026/03/02/an-ai-odyssey-part-1-correctness-conundrum/",
@@ -202,7 +221,7 @@
         "formal verification",
         "agentic AI"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "What sort of horrible things happen if my dialog has a non-button with the control ID of IDCANCEL?",
@@ -222,7 +241,7 @@
         "BN_CLICKED",
         "dialog"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "Unsung Heroes: Flickr’s URLs Scheme",
@@ -241,7 +260,7 @@
         "Flickr",
         "user interface"
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "title": "Betting Against Substack",
@@ -260,7 +279,7 @@
         "Polymarket",
         "newsletters"
       ],
-      "rank": 13
+      "rank": 14
     },
     {
       "title": "I built a pint-sized Macintosh",
@@ -280,7 +299,7 @@
         "retro computing",
         "RP2040"
       ],
-      "rank": 14
+      "rank": 15
     },
     {
       "title": "[Sponsor] npx workos: An AI Agent That Writes Auth Directly Into Your Codebase",
@@ -300,7 +319,7 @@
         "WorkOS",
         "automation"
       ],
-      "rank": 15
+      "rank": 16
     },
     {
       "title": "★ HazeOver — Mac Utility for Highlighting the Frontmost Window",
@@ -319,7 +338,7 @@
         "HazeOver",
         "productivity"
       ],
-      "rank": 16
+      "rank": 17
     },
     {
       "title": "Seasonal Color Updates to Apple’s iPhone Cases and Apple Watch Bands",
@@ -338,7 +357,7 @@
         "accessories",
         "colors"
       ],
-      "rank": 17
+      "rank": 18
     }
   ]
 }
