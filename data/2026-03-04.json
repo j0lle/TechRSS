@@ -1,0 +1,29 @@
+{
+  "date": "2026-03-04",
+  "total_feeds": 92,
+  "success_feeds": 86,
+  "total_articles": 2437,
+  "filtered_articles": 21,
+  "articles": [
+    {
+      "title": "w0rdz aRe 1mpoRtAnt",
+      "title_zh": "AI 产品的用词如何潜移默化影响用户行为",
+      "link": "https://blog.jim-nielsen.com/2026/w0rdz-aRe-1mpoRtAnt/",
+      "pub_date": "2026-03-03T19:00:00.000Z",
+      "summary": "",
+      "source_name": "blog.jim-nielsen.com",
+      "score": 9,
+      "depth": 2,
+      "novelty": 3,
+      "breadth": 4,
+      "category": "opinion",
+      "keywords": [
+        "UX",
+        "wording",
+        "behavior",
+        "psychology"
+      ],
+      "rank": 1
+    }
+  ]
+}
