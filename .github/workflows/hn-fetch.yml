@@ -17,6 +17,7 @@ permissions:
 jobs:
   hn-fetch-and-deploy:
     runs-on: ubuntu-latest
+    container: mcr.microsoft.com/playwright:v1.58.2-noble
     environment:
       name: github-pages
       url: ${{ steps.deploy.outputs.page_url }}
@@ -25,14 +26,13 @@ jobs:
       cancel-in-progress: true
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with:
-          node-version: '22'
+      - run: git config --global --add safe.directory "$GITHUB_WORKSPACE"
       - run: npm ci
-
       - run: git pull --rebase
 
       - run: npx tsx scripts/hn.ts
+        env:
+          AWS_BEARER_TOKEN_BEDROCK: ${{ secrets.AWS_BEARER_TOKEN_BEDROCK }}
 
       - run: |
           git config user.name "github-actions[bot]"

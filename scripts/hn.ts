@@ -1,6 +1,8 @@
 import { writeFile, readFile, mkdir } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
 import path from 'node:path';
+import { fetchWithPlaywright, closeBrowser } from './fetch-content';
+import { summarizeArticle } from '../src/lib/ai';
 
 const DATA_DIR = path.join(process.cwd(), 'data');
 const HN_FILE = path.join(DATA_DIR, 'hn.json');
@@ -23,6 +25,7 @@ interface NhListItem {
     terminologies?: { term: string; explanation: string }[];
   };
   aisummary?: NhListItem['aiSummary'];
+  articleSummary?: string;
   classifications?: { tags?: string[] };
   detail?: Record<string, unknown>;
 }
@@ -55,6 +58,7 @@ async function fetchDetail(id: number): Promise<Record<string, unknown> | null> 
 }
 
 async function main() {
+  try {
   console.log('[hn] Fetching top stories from newshacker.me...');
   const r = await fetch(`${NH_API}/list?page=1&pageSize=${LIST_SIZE}&minScore=100`);
   if (!r.ok) {
@@ -84,6 +88,30 @@ async function main() {
   }
   console.log(`[hn] Fetched ${fetchedCount} new details (${items.length - fetchedCount} cached)`);
 
+  // Carry over cached articleSummary
+  for (const item of items) {
+    const cached = existing.get(item.id);
+    if (cached?.articleSummary && !item.articleSummary) {
+      item.articleSummary = cached.articleSummary;
+    }
+  }
+
+  // Fetch article content + AI summarize
+  const ARTICLE_CONCURRENCY = 5;
+  const needSummary = items.filter(item => item.url && !item.articleSummary);
+  console.log(`[hn] ${needSummary.length} items need article summary`);
+
+  for (let i = 0; i < needSummary.length; i += ARTICLE_CONCURRENCY) {
+    const batch = needSummary.slice(i, i + ARTICLE_CONCURRENCY);
+    await Promise.all(batch.map(async (item) => {
+      const content = await fetchWithPlaywright(item.url!);
+      if (!content || content.length < 200) return;
+      const summary = await summarizeArticle(item.title, content);
+      if (summary) item.articleSummary = summary;
+    }));
+    console.log(`[hn] Article summary: ${Math.min(i + ARTICLE_CONCURRENCY, needSummary.length)}/${needSummary.length}`);
+  }
+
   // Write output
   await mkdir(DATA_DIR, { recursive: true });
   const output: StoredData = {
@@ -93,6 +121,9 @@ async function main() {
   await writeFile(HN_FILE, JSON.stringify(output, null, 2));
   console.log(`[hn] Written ${HN_FILE}`);
   console.log('[hn] Done!');
+  } finally {
+    await closeBrowser();
+  }
 }
 
 main().catch(err => {

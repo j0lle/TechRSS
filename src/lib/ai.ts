@@ -157,6 +157,29 @@ function buildPrompt(article: { title: string; content: string; sourceName: stri
 ${articleText}`;
 }
 
+export async function summarizeArticle(title: string, content: string): Promise<string | null> {
+  const MAX_CONTENT_CHARS = 15_000;
+  const truncated = content.length > MAX_CONTENT_CHARS
+    ? content.slice(0, MAX_CONTENT_CHARS) + '\n\n[...truncated]'
+    : content;
+  try {
+    const { text } = await generateText({
+      model: bedrock(MODEL_ID),
+      prompt: `你是一个技术内容摘要助手。请用中文总结以下文章，200-500字，直接陈述事实和关键信息，不要用"文章讨论了"、"本文介绍了"等元叙述句式。保留具体的技术名词、数字和数据。
+
+标题：${title}
+
+${truncated}`,
+      maxOutputTokens: 2048,
+      temperature: 0.3,
+    });
+    return text?.trim() || null;
+  } catch (e) {
+    console.warn(`[ai] summarizeArticle failed "${title}": ${e instanceof Error ? e.message : e}`);
+    return null;
+  }
+}
+
 export async function processArticles(articles: Article[]): Promise<Map<number, ArticleResult>> {
   const allResults = new Map<number, ArticleResult>();
 

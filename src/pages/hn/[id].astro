@@ -66,6 +66,14 @@ function timeAgo(ts: number): string {
     </div>
   </div>
 
+  <!-- Article Summary -->
+  {item.articleSummary && (
+    <div class="bg-bg-card rounded-xl border border-gray-200/60 px-3 py-3 mb-3">
+      <h2 class="text-sm font-semibold text-text-primary mb-2">文章摘要</h2>
+      <p class="text-[13px] leading-relaxed text-text-secondary">{item.articleSummary}</p>
+    </div>
+  )}
+
   <!-- Context -->
   {context && (
     <div class="bg-bg-card rounded-xl border border-gray-200/60 px-3 py-3 mb-3">

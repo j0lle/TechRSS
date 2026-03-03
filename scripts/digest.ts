@@ -5,6 +5,7 @@ import TurndownService from 'turndown';
 import { RSS_FEEDS } from '../src/lib/feeds';
 import { fetchAllFeeds } from '../src/lib/rss';
 import { processArticles } from '../src/lib/ai';
+import { fetchWithPlaywright, closeBrowser } from './fetch-content';
 import type { Article } from '../src/lib/types';
 
 const DATA_DIR = path.join(process.cwd(), 'data');
@@ -48,8 +49,9 @@ async function loadTodayData(today: string): Promise<{ articles: any[] } | null>
   }
 }
 
-/** Fetch full article content from URL, convert HTML to markdown */
+/** Fetch full article content from URL, convert HTML to markdown. Falls back to Playwright. */
 async function fetchArticleContent(url: string): Promise<string | null> {
+  // Try plain fetch first (fast)
   try {
     const controller = new AbortController();
     const timeout = setTimeout(() => controller.abort(), CONTENT_FETCH_TIMEOUT_MS);
@@ -58,12 +60,15 @@ async function fetchArticleContent(url: string): Promise<string | null> {
       headers: { 'User-Agent': 'TechDigest/1.0 (RSS Reader)' },
     });
     clearTimeout(timeout);
-    if (!response.ok) return null;
-    const html = await response.text();
-    return turndown.turndown(html);
-  } catch {
-    return null;
-  }
+    if (response.ok) {
+      const html = await response.text();
+      const md = turndown.turndown(html);
+      if (md && md.length > 200) return md;
+    }
+  } catch { /* fall through to Playwright */ }
+
+  // Fallback: Playwright
+  return fetchWithPlaywright(url);
 }
 
 /** Fetch full content for all articles, replacing content field. Falls back to RSS content. */
@@ -83,6 +88,7 @@ async function fetchAllContent(articles: Article[]): Promise<void> {
 }
 
 async function main() {
+  try {
   const today = getTodayDate();
   console.log(`[digest] === TechDigest — ${today} ===`);
 
@@ -190,6 +196,9 @@ async function main() {
   await writeFile(outPath, JSON.stringify(output, null, 2));
   console.log(`[digest] Written ${outPath}`);
   console.log(`[digest] Done! ${existingArticles.length} existing + ${newArticles.length} new -> ${top.length} total`);
+  } finally {
+    await closeBrowser();
+  }
 }
 
 main().catch(err => {

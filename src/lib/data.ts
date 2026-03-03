@@ -47,6 +47,7 @@ export interface HnStoredItem {
     terminologies?: { term: string; explanation: string }[];
   };
   aisummary?: HnStoredItem['aiSummary'];
+  articleSummary?: string;
   classifications?: { tags?: string[] };
   detail?: {
     aiSummary?: HnStoredItem['aiSummary'];
