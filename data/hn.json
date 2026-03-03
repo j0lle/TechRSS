@@ -1,6 +1,289 @@
 {
-  "updatedAt": "2026-03-03T15:43:04.732Z",
+  "updatedAt": "2026-03-03T16:05:28.248Z",
   "items": [
+    {
+      "id": 47231242,
+      "by": "vanyauhalin",
+      "title": "Mullvad VPN: Banned TV Ad in the Streets of London [video]",
+      "url": "https://www.youtube.com/watch?v=rwhznrpgl7k",
+      "score": 182,
+      "detailUpdatedAt": 1772552632,
+      "createdAt": 1772542266,
+      "aiSummaryUpdatedAt": 1772553442,
+      "aisummary": {
+        "chinese_title": "Mullvad 广告遭 Clearcast 拒绝引争议：审查、合规还是营销炒作？",
+        "emoji": "🤨",
+        "sarcastic_question": "私营机构拒播就能等同国家审查吗？"
+      },
+      "classifications": {
+        "topics": [
+          3,
+          9,
+          10
+        ],
+        "facets": [
+          12
+        ],
+        "tags": [
+          "Mullvad VPN",
+          "VPN",
+          "Clearcast",
+          "ASA",
+          "Ofcom",
+          "UK",
+          "TV ad",
+          "ad ban",
+          "YouTube",
+          "port forwarding"
+        ]
+      },
+      "classificationsUpdatedAt": 1772544390,
+      "aiSummary": {
+        "chinese_title": "Mullvad 广告遭 Clearcast 拒绝引争议：审查、合规还是营销炒作？",
+        "emoji": "🤨",
+        "sarcastic_question": "私营机构拒播就能等同国家审查吗？"
+      },
+      "detail": {
+        "id": 47231242,
+        "by": "vanyauhalin",
+        "title": "Mullvad VPN: Banned TV Ad in the Streets of London [video]",
+        "url": "https://www.youtube.com/watch?v=rwhznrpgl7k",
+        "score": 182,
+        "detailUpdatedAt": 1772552632,
+        "createdAt": 1772542266,
+        "aiSummaryUpdatedAt": 1772553442,
+        "aisummary": {
+          "chinese_title": "Mullvad 广告遭 Clearcast 拒绝引争议：审查、合规还是营销炒作？",
+          "discussion_overview": [
+            {
+              "category": "行业自律与预审：Clearcast 不是政府部门",
+              "summary": "多名评论者指出 Clearcast 是由英国广播公司运营的私营机构，承担对电视广告的 pre-clearance（广告预审）职责，用以判断广告是否符合 BCAP Code（广播广告守则）。他们强调 Ofcom（英国通信监管机构）才具法定监管权，ASA（Advertising Standards Authority）在实际运作中也偏向行业自律而非直接政府执法。因此，Clearcast 的拒绝通常被解读为广播商为规避事后法律与监管风险所做的合规决定，而非直接的国家“禁播”命令。评论中还提到，广播公司在商业上要求 Clearcast 认证是自愿但在实践上非常必要的步骤。",
+              "supportid": [
+                "47231765",
+                "47231911",
+                "47231995",
+                "47232386"
+              ]
+            },
+            {
+              "category": "审查担忧：预审可能演变为言论封锁",
+              "summary": "一些评论者将 Clearcast 的做法视为事先审查的实例，担心在政府法律与行业自律交织的情况下，敏感或批判性内容会被排除在电视传播之外。Clearcast 对 Mullvad 广告的书面理由（例如“overall concept lacks clarity”及称广告列举的 paedophiles、rapists、murderers 等内容“与普通消费者使用 VPN 的体验无关”）被用来说明敏感议题被直接移除的事实。有人援引 Communications Act 2003 和 Ofcom 的监管框架，认为制度赋予了广泛的限制空间，从而可能在政府或大型媒体压力下演变为事实上的言论封锁。评论还把这种做法与英国/欧盟范围内“审查正常化”的担忧相联系，强调外包给私营机构的审查风险。",
+              "supportid": [
+                "47231502",
+                "47231882",
+                "47231542",
+                "47232285",
+                "47231595"
+              ]
+            },
+            {
+              "category": "炒作或营销策略：‘被拒→被禁’带来的传播红利",
+              "summary": "不少人怀疑厂商将 Clearcast 的拒绝包装为“被禁”以制造话题：Mullvad 在伦敦投放“and then?”海报，公开宣称电视广告被拒，而视频仍可在 YouTube 观看，这一连串操作被评论者拆解为典型的病毒营销。具体质疑包括只有厂商在宣称“禁播”、广告线上可见且媒体报道被厂商的话术放大等，令外界难辨到底是制度性禁播还是有意制造争议。即便存在 Clearcast 的书面拒绝理由，许多评论者仍认为厂商从“被拒”消息中获得了过度的曝光与同情点。",
+              "supportid": [
+                "47231800",
+                "47232005",
+                "47232166",
+                "47232369",
+                "47232165"
+              ]
+            },
+            {
+              "category": "创意与传播问题：广告叙事是否清晰且相关",
+              "summary": "Clearcast 指出广告“整体概念不清晰”，并认为广告中展示的一系列极端情境与普通消费者的 VPN 使用体验无直接关联，许多评论者也觉得视频叙事抽象、冗长（约 4 分钟），难以在电视商业广告场景下传达明确的产品价值。有人建议若目的是影响公众政策，应更直接点名拟议法律或政治对象，而不是通过戏剧化场景来间接提示隐私风险。也有评论承认作品的艺术性或震撼力，但认为这类表达更适合长格式或线上渠道，而非典型的电视广告时间与受众期待。",
+              "supportid": [
+                "47232005",
+                "47231243",
+                "47231681",
+                "47231674",
+                "47232182"
+              ]
+            },
+            {
+              "category": "VPN 实用性与匿名化问题：Mullvad 的脆弱点",
+              "summary": "讨论延伸到 Mullvad 产品本身：有人指出英国可能推动对 VPN 的身份验证要求，这会直接冲击 Mullvad 允许邮寄现金匿名支付的运营模式并影响其匿名性承诺。用户反馈还提到 Mullvad 的部分 IP 段被网站屏蔽（导致无法访问某些银行或播放 YouTube 内容），以及 Mullvad 为防滥用移除 port forwarding（端口转发），这些变化降低了某些使用场景的可行性。总体论点认为，VPN 能在一定程度上缓解 ISP 级别的跟踪，但并非全面解决方案，且在立法或商业封锁加剧时更为脆弱。",
+              "supportid": [
+                "47232494",
+                "47231868",
+                "47231441",
+                "47234011",
+                "47232610"
+              ]
+            },
+            {
+              "category": "美英言论保护比较：事前审查与事后救济的权衡",
+              "summary": "评论中存在明显的美英制度对比：支持美国 First Amendment 的人强调美国通常避免事前审查、采取事后惩罚的模式以保护更广泛的表达自由，而反对者指出美国在广告、烟草/酒精等领域也有严格监管且其他国家有不同的权衡（如诽谤法或仇恨言论禁令）。讨论认为两种体系各有利弊：事前合规可阻止欺诈性/误导性内容立即传播，但也可能导致过度抑制；事后救济虽保护言论但事已造成的影响难以完全弥补。评论者引用具体案例（如 Pentagon Papers、对新闻与政治信息的威胁）来说明法律文本与实际执行之间的差距与风险。",
+              "supportid": [
+                "47231563",
+                "47231971",
+                "47232076",
+                "47232781",
+                "47232102"
+              ]
+            }
+          ],
+          "terminologies": [
+            {
+              "term": "Clearcast",
+              "explanation": "Clearcast（Clearcast）是由英国广播商委托的私营广告预审机构，负责在电视播出前依据 BCAP Code 对广告合规性进行评估，广播商常以其通过与否来决定是否转播。"
+            },
+            {
+              "term": "ASA（Advertising Standards Authority）",
+              "explanation": "ASA（Advertising Standards Authority）是英国的广告行业监管/自律机构，负责发布广告守则并处理投诉，但实际运作上大量依赖行业自律机制而非直接国家执法。"
+            },
+            {
+              "term": "Ofcom",
+              "explanation": "Ofcom（Office of Communications）是英国的官方通信与广播监管机构，具备法律授权来执行广播与通信相关规则并对违规行为采取行政措施。"
+            },
+            {
+              "term": "BCAP Code",
+              "explanation": "BCAP Code（Broadcast Committee of Advertising Practice Code）是英国的广播广告守则，规定电视/广播广告不得误导、不得对未成年人造成身心伤害等，是 Clearcast/ASA 用以评估广告的主要标准。"
+            },
+            {
+              "term": "pre-clearance（广告预审）",
+              "explanation": "pre-clearance（广告预审）指在广告播出前由第三方对其内容合规性进行审查的流程，目的是在播出前发现问题以降低事后法律或监管风险。"
+            },
+            {
+              "term": "industry self-regulation（行业自律）",
+              "explanation": "industry self-regulation（行业自律）指业界自行制定并执行规范（例如广告守则和预审流程），这种做法常与官方监管（如 Ofcom）交织运作，既有灵活性也可能被外部力量利用。"
+            },
+            {
+              "term": "port forwarding（端口转发）",
+              "explanation": "port forwarding（端口转发）是网络功能，允许外部设备通过指定端口访问内网服务；许多 VPN 为减少滥用或非法托管风险而限制或移除此功能。"
+            }
+          ],
+          "context": "事件起因是 Mullvad（一家以支持匿名现金支付著称的瑞典 VPN 服务商）发布的一支电视/户外广告并称其在英国电视广告预审机构 Clearcast 被拒。Clearcast 给出的书面理由包括“overall concept lacks clarity”，并认为广告列举的 paedophiles、rapists、murderers 等内容“与普通消费者使用 VPN 的体验无关”，于是广播方不愿播放。Mullvad 在伦敦投放“and then?”主题海报并把拒绝宣传为“禁播”，由此引发两类主要争论：一是这是政府或制度性审查的例证，二是厂商是否在利用“被拒/被禁”话术进行病毒式营销。讨论同时牵扯到 Ofcom、ASA、BCAP Code 等监管与自律机构的角色，以及 VPN 的匿名支付、端口转发与实际可用性等现实问题。",
+          "emoji": "🤨",
+          "sarcastic_question": "私营机构拒播就能等同国家审查吗？"
+        },
+        "classifications": {
+          "topics": [
+            3,
+            9,
+            10
+          ],
+          "facets": [
+            12
+          ],
+          "tags": [
+            "Mullvad VPN",
+            "VPN",
+            "Clearcast",
+            "ASA",
+            "Ofcom",
+            "UK",
+            "TV ad",
+            "ad ban",
+            "YouTube",
+            "port forwarding"
+          ]
+        },
+        "classificationsUpdatedAt": 1772544390,
+        "aiSummary": {
+          "chinese_title": "Mullvad 广告遭 Clearcast 拒绝引争议：审查、合规还是营销炒作？",
+          "discussion_overview": [
+            {
+              "category": "行业自律与预审：Clearcast 不是政府部门",
+              "summary": "多名评论者指出 Clearcast 是由英国广播公司运营的私营机构，承担对电视广告的 pre-clearance（广告预审）职责，用以判断广告是否符合 BCAP Code（广播广告守则）。他们强调 Ofcom（英国通信监管机构）才具法定监管权，ASA（Advertising Standards Authority）在实际运作中也偏向行业自律而非直接政府执法。因此，Clearcast 的拒绝通常被解读为广播商为规避事后法律与监管风险所做的合规决定，而非直接的国家“禁播”命令。评论中还提到，广播公司在商业上要求 Clearcast 认证是自愿但在实践上非常必要的步骤。",
+              "supportid": [
+                "47231765",
+                "47231911",
+                "47231995",
+                "47232386"
+              ]
+            },
+            {
+              "category": "审查担忧：预审可能演变为言论封锁",
+              "summary": "一些评论者将 Clearcast 的做法视为事先审查的实例，担心在政府法律与行业自律交织的情况下，敏感或批判性内容会被排除在电视传播之外。Clearcast 对 Mullvad 广告的书面理由（例如“overall concept lacks clarity”及称广告列举的 paedophiles、rapists、murderers 等内容“与普通消费者使用 VPN 的体验无关”）被用来说明敏感议题被直接移除的事实。有人援引 Communications Act 2003 和 Ofcom 的监管框架，认为制度赋予了广泛的限制空间，从而可能在政府或大型媒体压力下演变为事实上的言论封锁。评论还把这种做法与英国/欧盟范围内“审查正常化”的担忧相联系，强调外包给私营机构的审查风险。",
+              "supportid": [
+                "47231502",
+                "47231882",
+                "47231542",
+                "47232285",
+                "47231595"
+              ]
+            },
+            {
+              "category": "炒作或营销策略：‘被拒→被禁’带来的传播红利",
+              "summary": "不少人怀疑厂商将 Clearcast 的拒绝包装为“被禁”以制造话题：Mullvad 在伦敦投放“and then?”海报，公开宣称电视广告被拒，而视频仍可在 YouTube 观看，这一连串操作被评论者拆解为典型的病毒营销。具体质疑包括只有厂商在宣称“禁播”、广告线上可见且媒体报道被厂商的话术放大等，令外界难辨到底是制度性禁播还是有意制造争议。即便存在 Clearcast 的书面拒绝理由，许多评论者仍认为厂商从“被拒”消息中获得了过度的曝光与同情点。",
+              "supportid": [
+                "47231800",
+                "47232005",
+                "47232166",
+                "47232369",
+                "47232165"
+              ]
+            },
+            {
+              "category": "创意与传播问题：广告叙事是否清晰且相关",
+              "summary": "Clearcast 指出广告“整体概念不清晰”，并认为广告中展示的一系列极端情境与普通消费者的 VPN 使用体验无直接关联，许多评论者也觉得视频叙事抽象、冗长（约 4 分钟），难以在电视商业广告场景下传达明确的产品价值。有人建议若目的是影响公众政策，应更直接点名拟议法律或政治对象，而不是通过戏剧化场景来间接提示隐私风险。也有评论承认作品的艺术性或震撼力，但认为这类表达更适合长格式或线上渠道，而非典型的电视广告时间与受众期待。",
+              "supportid": [
+                "47232005",
+                "47231243",
+                "47231681",
+                "47231674",
+                "47232182"
+              ]
+            },
+            {
+              "category": "VPN 实用性与匿名化问题：Mullvad 的脆弱点",
+              "summary": "讨论延伸到 Mullvad 产品本身：有人指出英国可能推动对 VPN 的身份验证要求，这会直接冲击 Mullvad 允许邮寄现金匿名支付的运营模式并影响其匿名性承诺。用户反馈还提到 Mullvad 的部分 IP 段被网站屏蔽（导致无法访问某些银行或播放 YouTube 内容），以及 Mullvad 为防滥用移除 port forwarding（端口转发），这些变化降低了某些使用场景的可行性。总体论点认为，VPN 能在一定程度上缓解 ISP 级别的跟踪，但并非全面解决方案，且在立法或商业封锁加剧时更为脆弱。",
+              "supportid": [
+                "47232494",
+                "47231868",
+                "47231441",
+                "47234011",
+                "47232610"
+              ]
+            },
+            {
+              "category": "美英言论保护比较：事前审查与事后救济的权衡",
+              "summary": "评论中存在明显的美英制度对比：支持美国 First Amendment 的人强调美国通常避免事前审查、采取事后惩罚的模式以保护更广泛的表达自由，而反对者指出美国在广告、烟草/酒精等领域也有严格监管且其他国家有不同的权衡（如诽谤法或仇恨言论禁令）。讨论认为两种体系各有利弊：事前合规可阻止欺诈性/误导性内容立即传播，但也可能导致过度抑制；事后救济虽保护言论但事已造成的影响难以完全弥补。评论者引用具体案例（如 Pentagon Papers、对新闻与政治信息的威胁）来说明法律文本与实际执行之间的差距与风险。",
+              "supportid": [
+                "47231563",
+                "47231971",
+                "47232076",
+                "47232781",
+                "47232102"
+              ]
+            }
+          ],
+          "terminologies": [
+            {
+              "term": "Clearcast",
+              "explanation": "Clearcast（Clearcast）是由英国广播商委托的私营广告预审机构，负责在电视播出前依据 BCAP Code 对广告合规性进行评估，广播商常以其通过与否来决定是否转播。"
+            },
+            {
+              "term": "ASA（Advertising Standards Authority）",
+              "explanation": "ASA（Advertising Standards Authority）是英国的广告行业监管/自律机构，负责发布广告守则并处理投诉，但实际运作上大量依赖行业自律机制而非直接国家执法。"
+            },
+            {
+              "term": "Ofcom",
+              "explanation": "Ofcom（Office of Communications）是英国的官方通信与广播监管机构，具备法律授权来执行广播与通信相关规则并对违规行为采取行政措施。"
+            },
+            {
+              "term": "BCAP Code",
+              "explanation": "BCAP Code（Broadcast Committee of Advertising Practice Code）是英国的广播广告守则，规定电视/广播广告不得误导、不得对未成年人造成身心伤害等，是 Clearcast/ASA 用以评估广告的主要标准。"
+            },
+            {
+              "term": "pre-clearance（广告预审）",
+              "explanation": "pre-clearance（广告预审）指在广告播出前由第三方对其内容合规性进行审查的流程，目的是在播出前发现问题以降低事后法律或监管风险。"
+            },
+            {
+              "term": "industry self-regulation（行业自律）",
+              "explanation": "industry self-regulation（行业自律）指业界自行制定并执行规范（例如广告守则和预审流程），这种做法常与官方监管（如 Ofcom）交织运作，既有灵活性也可能被外部力量利用。"
+            },
+            {
+              "term": "port forwarding（端口转发）",
+              "explanation": "port forwarding（端口转发）是网络功能，允许外部设备通过指定端口访问内网服务；许多 VPN 为减少滥用或非法托管风险而限制或移除此功能。"
+            }
+          ],
+          "context": "事件起因是 Mullvad（一家以支持匿名现金支付著称的瑞典 VPN 服务商）发布的一支电视/户外广告并称其在英国电视广告预审机构 Clearcast 被拒。Clearcast 给出的书面理由包括“overall concept lacks clarity”，并认为广告列举的 paedophiles、rapists、murderers 等内容“与普通消费者使用 VPN 的体验无关”，于是广播方不愿播放。Mullvad 在伦敦投放“and then?”主题海报并把拒绝宣传为“禁播”，由此引发两类主要争论：一是这是政府或制度性审查的例证，二是厂商是否在利用“被拒/被禁”话术进行病毒式营销。讨论同时牵扯到 Ofcom、ASA、BCAP Code 等监管与自律机构的角色，以及 VPN 的匿名支付、端口转发与实际可用性等现实问题。",
+          "emoji": "🤨",
+          "sarcastic_question": "私营机构拒播就能等同国家审查吗？"
+        }
+      },
+      "articleSummary": "很抱歉，我无法直接分析这篇文章。\n\n**原因如下：**\n你提供的“待分析文章”内容实际上是 YouTube 网页的源代码（HTML、JavaScript 配置、CSS 样式等），而不是一篇关于 Mullvad VPN 广告的技术文章或博客正文。源代码中混杂了大量的 `window.ytcfg`、Polymer 配置和错误处理逻辑，并不包含关于“伦敦街头广告被禁”的具体故事情节、技术实现细节或逻辑链条。\n\n**建议：**\n如果你能提供这篇文章的**纯文本内容**（比如原文链接或复制的正文文字），我很乐意按照你的要求，用讲故事的方式为你拆解它的精髓。"
+    },
     {
       "id": 47230704,
       "by": "memalign",
@@ -12930,283 +13213,6 @@
         }
       },
       "articleSummary": "现代人普遍回避在公共场合与陌生人交谈，这种社交退缩现象比公开演讲恐惧更为普遍。研究表明，与陌生人互动能带来显著的积极影响，包括提升个人幸福感、增强社会凝聚力以及减少孤独感。心理学家指出，这种互动能激发大脑的奖励机制，释放催产素，有助于建立信任和归属感。\n\n具体数据显示，主动与陌生人交谈的实验参与者，其情绪评分比预期高出约20%。此外，这种社交行为还能改善认知功能，延缓大脑衰老。研究还发现，即使是简短的交流也能显著提升日常生活的满意度。\n\n社会学家建议，可以通过简单的技巧打破沉默，例如观察周围环境、提出开放式问题或分享个人经历。这些方法能有效降低社交焦虑，促进更广泛的社会连接。"
-    },
-    {
-      "id": 47207236,
-      "by": "glth",
-      "title": "Why XML Tags Are So Fundamental to Claude",
-      "url": "https://glthr.com/XML-fundamental-to-Claude",
-      "score": 136,
-      "detailUpdatedAt": 1772404992,
-      "createdAt": 1772378417,
-      "aiSummaryUpdatedAt": 1772406386,
-      "aisummary": {
-        "chinese_title": "为什么 Claude 偏好 XML：结构化提示、工具调用与越狱风险",
-        "emoji": "⚠️",
-        "sarcastic_question": "现在连日常提问都要写XML才算规范？"
-      },
-      "classifications": {
-        "topics": [
-          1,
-          4
-        ],
-        "facets": [
-          9
-        ],
-        "tags": [
-          "Claude",
-          "XML",
-          "Anthropic",
-          "prompting",
-          "<think>",
-          "Sonnet"
-        ]
-      },
-      "classificationsUpdatedAt": 1772384166,
-      "aiSummary": {
-        "chinese_title": "为什么 Claude 偏好 XML：结构化提示、工具调用与越狱风险",
-        "emoji": "⚠️",
-        "sarcastic_question": "现在连日常提问都要写XML才算规范？"
-      },
-      "detail": {
-        "id": 47207236,
-        "by": "glth",
-        "title": "Why XML Tags Are So Fundamental to Claude",
-        "url": "https://glthr.com/XML-fundamental-to-Claude",
-        "score": 136,
-        "detailUpdatedAt": 1772404992,
-        "createdAt": 1772378417,
-        "aiSummaryUpdatedAt": 1772406386,
-        "aisummary": {
-          "chinese_title": "为什么 Claude 偏好 XML：结构化提示、工具调用与越狱风险",
-          "discussion_overview": [
-            {
-              "category": "Anthropic/Claude 的 XML 用法与工具调用",
-              "summary": "评论指出 Anthropic 在文档与早期实现中以 XML 标签作为 tool calling 的接口样式，示例中能看到像 <antml:invoke name=\"Read\"> 这样的 XML 模板用于传参和触发外部功能。历史上 <think> 等标签也被用来给模型“留白”做推理，部分用户沿用这些约定来控制模型的内部步骤。多数人认为这些 XML 结构更多是由 wrapper/harness 在上下文预处理时注入，而不是期望终端用户手工撰写完整 XML。",
-              "supportid": [
-                "47210276",
-                "47207659",
-                "47207966",
-                "47208248",
-                "47209136",
-                "47210031",
-                "47208859"
-              ]
-            },
-            {
-              "category": "结构化提示的工程收益与实战经验",
-              "summary": "实务经验显示，用标签把不同语义区块（instructions、examples、input、output）明确分隔能显著提高结构化输出的一致性，便于 few-shot 示范和后端解析。工程师也普遍强调需要防御性解析：模型偶尔会漏闭合标签、嵌套错误或虚构标签，因此需要宽容的解析器、回退策略或 schema 校验。尽管 XML 带来解析与校验便利，部分人仍偏好用 JSON+行分隔/冒号的约定或 Markdown 来实现相似分区，选择往往取决于任务类型和模型的训练偏好。",
-              "supportid": [
-                "47210904",
-                "47208674",
-                "47210045",
-                "47211347",
-                "47210096",
-                "47210588",
-                "47208030"
-              ]
-            },
-            {
-              "category": "安全与越狱风险（提示注入）",
-              "summary": "评论中明确提到用 XML 标签做 prompt injection 或 jailbreaking 的案例：攻击者会插入或伪造诸如 <ethic_reminders>、<cyber_warning> 等标签以欺骗或绕过模型约束，甚至在 API 层被剥离或覆写。此类利用既能导致敏感数据外泄，也可被用来反推或逆向模型行为，部分平台至今仍然脆弱。为缓解风险，有人建议引入每 token 的元数据流来区分用户输入与系统元信息、或使用几乎不会出现在正常文本中的隔离字符，但这些方案在兼容性与工程代价上有明显挑战。",
-              "supportid": [
-                "47211613",
-                "47210256",
-                "47210112",
-                "47210652",
-                "47210291",
-                "47210182",
-                "47210374"
-              ]
-            },
-            {
-              "category": "XML 的历史地位与行业标准化使用",
-              "summary": "许多评论把 XML 视为“企业老技术”，但同时列举了其在出版与行业标准中的长期存在性，例如 JATS、EPUB、DOCX/XLSX（Office 文件内部为压缩的 XML）、SVG、XBRL，以及金融与物流中仍在运行的 EDI 生态。这些例子说明 XML 并非完全被淘汰，而是在互操作性、标准化和文档标记等场景有不可替代的遗留优势。另一方面，JSON、Protobuf、YAML、TOML 等现代格式在新项目中更受欢迎，XML 的冗长、历史上的性能与安全问题是其被回避的主要原因。",
-              "supportid": [
-                "47209780",
-                "47209998",
-                "47210756",
-                "47210419",
-                "47210151",
-                "47211358",
-                "47211005"
-              ]
-            },
-            {
-              "category": "是否应在端到端流程强制使用 XML 及可替代方案",
-              "summary": "有人质疑是否要把 XML 扩展到 skills、子 agent、命令等所有会进入 Claude 上下文的输入层，担心对 Claude 优化会损害与其他模型或工具的互操作性。多数观点认为 XML 更适合由 harness 或自动化层生成，而非期望终端用户直接写 XML；替代方案包括 JSON、Markdown 或简单的分隔符约定来标记语义区块。评论中也呼吁需要实证评估（evals）来量化 XML 相较其他格式在可靠性和安全性上的真实收益。",
-              "supportid": [
-                "47210652",
-                "47208111",
-                "47208052",
-                "47209811",
-                "47208674",
-                "47210031"
-              ]
-            },
-            {
-              "category": "训练数据偏好与标记语言敏感性",
-              "summary": "不少人认为模型对标签敏感主要源于训练语料里 HTML/SGML/XML 类标记的大量出现，模型把标签视作一类显著信号，因此即便是自定义标签也会被识别为结构化指令。换言之，XML 的效果更多是数据驱动而非语法自身有“魔力”，任何一致的、模型见过或微调过的分隔方式通常都有效。评论还提醒注意 HTML 与 XML 的实际差异（如 HTML5 放弃严格 XML 语法），这会影响模型在面对不规范或半结构化输入时的解析行为。",
-              "supportid": [
-                "47208859",
-                "47209033",
-                "47208942",
-                "47209985",
-                "47209005"
-              ]
-            }
-          ],
-          "terminologies": [
-            {
-              "term": "prompt injection / jailbreak（提示注入 / 越狱）",
-              "explanation": "通过在模型上下文中插入恶意或欺骗性标签与指令，使模型违反约束、执行未授权操作或泄露敏感信息的攻击手法。"
-            },
-            {
-              "term": "tool calling（工具调用）",
-              "explanation": "在模型上下文里以结构化格式（如 XML 模板）指示模型触发或传参给外部工具、API 或技能的交互模式，常由 wrapper 或平台在上下文中注入。"
-            },
-            {
-              "term": "XSLT",
-              "explanation": "一套用于将 XML 文档转换为另一种 XML 或文本格式的规范语言，历史上被视为成熟但在现代工程中较少被提及。"
-            },
-            {
-              "term": "SGML",
-              "explanation": "Standard Generalized Markup Language，XML 与早期 HTML 的祖先标准，理解其历史有助于分辨 HTML、XHTML 与 XML 之间的关系。"
-            },
-            {
-              "term": "EDI（Electronic Data Interchange）",
-              "explanation": "老牌的企业间电子数据交换格式，长期用于物流与金融系统，XML 曾被期待作为其更自描述化的替代方案。"
-            }
-          ],
-          "context": "讨论基于一篇指出 Claude（Anthropic 的模型）在提示中对 XML 标签有明显偏好的文章与相关评论展开。背景包括 Anthropic 文档和早期实现里使用 XML 模板做工具调用与 <think> 类推理区域的惯例，以及用户在实践中发现 XML 标签能帮助模型产生结构化输出但也带来越狱/提示注入风险。评论里同时回顾了 XML 在出版、Office 格式、金融 XBRL/EDI 等领域的长期存在，以及 JSON/Markdown 等现代替代方案在多数新项目中的流行。总体争论集中在工程可行性、安全性、训练数据偏好和是否应把 XML 作为接口约定由 harness 层生成而非让终端用户手写。",
-          "emoji": "⚠️",
-          "sarcastic_question": "现在连日常提问都要写XML才算规范？"
-        },
-        "classifications": {
-          "topics": [
-            1,
-            4
-          ],
-          "facets": [
-            9
-          ],
-          "tags": [
-            "Claude",
-            "XML",
-            "Anthropic",
-            "prompting",
-            "<think>",
-            "Sonnet"
-          ]
-        },
-        "classificationsUpdatedAt": 1772384166,
-        "aiSummary": {
-          "chinese_title": "为什么 Claude 偏好 XML：结构化提示、工具调用与越狱风险",
-          "discussion_overview": [
-            {
-              "category": "Anthropic/Claude 的 XML 用法与工具调用",
-              "summary": "评论指出 Anthropic 在文档与早期实现中以 XML 标签作为 tool calling 的接口样式，示例中能看到像 <antml:invoke name=\"Read\"> 这样的 XML 模板用于传参和触发外部功能。历史上 <think> 等标签也被用来给模型“留白”做推理，部分用户沿用这些约定来控制模型的内部步骤。多数人认为这些 XML 结构更多是由 wrapper/harness 在上下文预处理时注入，而不是期望终端用户手工撰写完整 XML。",
-              "supportid": [
-                "47210276",
-                "47207659",
-                "47207966",
-                "47208248",
-                "47209136",
-                "47210031",
-                "47208859"
-              ]
-            },
-            {
-              "category": "结构化提示的工程收益与实战经验",
-              "summary": "实务经验显示，用标签把不同语义区块（instructions、examples、input、output）明确分隔能显著提高结构化输出的一致性，便于 few-shot 示范和后端解析。工程师也普遍强调需要防御性解析：模型偶尔会漏闭合标签、嵌套错误或虚构标签，因此需要宽容的解析器、回退策略或 schema 校验。尽管 XML 带来解析与校验便利，部分人仍偏好用 JSON+行分隔/冒号的约定或 Markdown 来实现相似分区，选择往往取决于任务类型和模型的训练偏好。",
-              "supportid": [
-                "47210904",
-                "47208674",
-                "47210045",
-                "47211347",
-                "47210096",
-                "47210588",
-                "47208030"
-              ]
-            },
-            {
-              "category": "安全与越狱风险（提示注入）",
-              "summary": "评论中明确提到用 XML 标签做 prompt injection 或 jailbreaking 的案例：攻击者会插入或伪造诸如 <ethic_reminders>、<cyber_warning> 等标签以欺骗或绕过模型约束，甚至在 API 层被剥离或覆写。此类利用既能导致敏感数据外泄，也可被用来反推或逆向模型行为，部分平台至今仍然脆弱。为缓解风险，有人建议引入每 token 的元数据流来区分用户输入与系统元信息、或使用几乎不会出现在正常文本中的隔离字符，但这些方案在兼容性与工程代价上有明显挑战。",
-              "supportid": [
-                "47211613",
-                "47210256",
-                "47210112",
-                "47210652",
-                "47210291",
-                "47210182",
-                "47210374"
-              ]
-            },
-            {
-              "category": "XML 的历史地位与行业标准化使用",
-              "summary": "许多评论把 XML 视为“企业老技术”，但同时列举了其在出版与行业标准中的长期存在性，例如 JATS、EPUB、DOCX/XLSX（Office 文件内部为压缩的 XML）、SVG、XBRL，以及金融与物流中仍在运行的 EDI 生态。这些例子说明 XML 并非完全被淘汰，而是在互操作性、标准化和文档标记等场景有不可替代的遗留优势。另一方面，JSON、Protobuf、YAML、TOML 等现代格式在新项目中更受欢迎，XML 的冗长、历史上的性能与安全问题是其被回避的主要原因。",
-              "supportid": [
-                "47209780",
-                "47209998",
-                "47210756",
-                "47210419",
-                "47210151",
-                "47211358",
-                "47211005"
-              ]
-            },
-            {
-              "category": "是否应在端到端流程强制使用 XML 及可替代方案",
-              "summary": "有人质疑是否要把 XML 扩展到 skills、子 agent、命令等所有会进入 Claude 上下文的输入层，担心对 Claude 优化会损害与其他模型或工具的互操作性。多数观点认为 XML 更适合由 harness 或自动化层生成，而非期望终端用户直接写 XML；替代方案包括 JSON、Markdown 或简单的分隔符约定来标记语义区块。评论中也呼吁需要实证评估（evals）来量化 XML 相较其他格式在可靠性和安全性上的真实收益。",
-              "supportid": [
-                "47210652",
-                "47208111",
-                "47208052",
-                "47209811",
-                "47208674",
-                "47210031"
-              ]
-            },
-            {
-              "category": "训练数据偏好与标记语言敏感性",
-              "summary": "不少人认为模型对标签敏感主要源于训练语料里 HTML/SGML/XML 类标记的大量出现，模型把标签视作一类显著信号，因此即便是自定义标签也会被识别为结构化指令。换言之，XML 的效果更多是数据驱动而非语法自身有“魔力”，任何一致的、模型见过或微调过的分隔方式通常都有效。评论还提醒注意 HTML 与 XML 的实际差异（如 HTML5 放弃严格 XML 语法），这会影响模型在面对不规范或半结构化输入时的解析行为。",
-              "supportid": [
-                "47208859",
-                "47209033",
-                "47208942",
-                "47209985",
-                "47209005"
-              ]
-            }
-          ],
-          "terminologies": [
-            {
-              "term": "prompt injection / jailbreak（提示注入 / 越狱）",
-              "explanation": "通过在模型上下文中插入恶意或欺骗性标签与指令，使模型违反约束、执行未授权操作或泄露敏感信息的攻击手法。"
-            },
-            {
-              "term": "tool calling（工具调用）",
-              "explanation": "在模型上下文里以结构化格式（如 XML 模板）指示模型触发或传参给外部工具、API 或技能的交互模式，常由 wrapper 或平台在上下文中注入。"
-            },
-            {
-              "term": "XSLT",
-              "explanation": "一套用于将 XML 文档转换为另一种 XML 或文本格式的规范语言，历史上被视为成熟但在现代工程中较少被提及。"
-            },
-            {
-              "term": "SGML",
-              "explanation": "Standard Generalized Markup Language，XML 与早期 HTML 的祖先标准，理解其历史有助于分辨 HTML、XHTML 与 XML 之间的关系。"
-            },
-            {
-              "term": "EDI（Electronic Data Interchange）",
-              "explanation": "老牌的企业间电子数据交换格式，长期用于物流与金融系统，XML 曾被期待作为其更自描述化的替代方案。"
-            }
-          ],
-          "context": "讨论基于一篇指出 Claude（Anthropic 的模型）在提示中对 XML 标签有明显偏好的文章与相关评论展开。背景包括 Anthropic 文档和早期实现里使用 XML 模板做工具调用与 <think> 类推理区域的惯例，以及用户在实践中发现 XML 标签能帮助模型产生结构化输出但也带来越狱/提示注入风险。评论里同时回顾了 XML 在出版、Office 格式、金融 XBRL/EDI 等领域的长期存在，以及 JSON/Markdown 等现代替代方案在多数新项目中的流行。总体争论集中在工程可行性、安全性、训练数据偏好和是否应把 XML 作为接口约定由 harness 层生成而非让终端用户手写。",
-          "emoji": "⚠️",
-          "sarcastic_question": "现在连日常提问都要写XML才算规范？"
-        }
-      },
-      "articleSummary": "XML标签在Claude模型中具有基础性作用，主要体现在以下几个方面：\n\n1. **结构化输出控制**：XML标签为模型提供明确的输出结构框架，使其能够生成格式化的响应，如JSON、代码片段或特定格式的数据。这种结构化方式减少了模型生成无效或混乱输出的可能性。\n\n2. **指令与内容分离**：通过XML标签（如`<instruction>`、`<input>`等），模型可以清晰区分指令性文本和实际内容，提高任务执行的准确性。例如，在代码生成任务中，标签可帮助模型区分需求描述和代码实现。\n\n3. **多轮对话管理**：XML标签用于标记对话的不同部分（如`<user>`、`<assistant>`），支持上下文保持和角色切换，尤其在复杂任务中维持对话连贯性。\n\n4. **工具调用与函数执行**：Claude通过XML标签（如`<function_calls>`）触发外部工具或API调用，标签内包含函数名和参数，确保调用的语法正确性。\n\n5. **减少幻觉现象**：标签约束模型的生成范围，使其更专注于标签定义的内容，从而降低无关或错误信息的生成概率。\n\n6. **兼容性与扩展性**：XML作为通用标记语言，便于与其他系统集成，同时支持自定义标签以适应特定领域需求。\n\n实际应用中，Claude的提示工程常依赖XML标签来优化性能，例如在数据提取、文本分类和代码审查等任务中，标签的使用显著提升了输出的一致性和可靠性。"
     }
   ]
 }
