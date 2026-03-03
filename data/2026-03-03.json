@@ -2,8 +2,8 @@
   "date": "2026-03-03",
   "total_feeds": 92,
   "success_feeds": 86,
-  "total_articles": 2536,
-  "filtered_articles": 26,
+  "total_articles": 2437,
+  "filtered_articles": 23,
   "articles": [
     {
       "title": "‘Anthropic and Alignment’",
@@ -26,6 +26,26 @@
       "rank": 1
     },
     {
+      "title": "Package Management is Naming All the Way Down",
+      "title_zh": "包管理系统的命名本质",
+      "link": "https://nesbitt.io/2026/03/03/package-management-is-naming-all-the-way-down.html",
+      "pub_date": "2026-03-03T10:00:00.000Z",
+      "summary": "包管理系统的本质是命名问题。从注册表 URL 到命名空间、包名、版本号、依赖约束、平台标识和源仓库，每一层都是字符串解析和上下文转换。不同生态系统的命名约定差异巨大：npm 用 `@scope/name`，Maven 用 `group:artifact`，PyPI 扁平化且规范化大小写和符号，Go 直接用 URL 作为包标识。版本号本质上是字符串而非数字，`1.0.0-beta.2+build.456`、Python 的 `1.0a1.post2.dev3`、Debian 的 epoch 前缀 `2:1.0.0` 各有各的解析规则。依赖约束是描述版本名称集合的小型语言，Ruby 的 `~> 2.0`、npm 的 `^2.0`、Python 的 `>=2.0,<3.0` 语法和语义都不同。平台标识尤其模糊，同一台 M1 Mac 在 LLVM、RubyGems、Go、Python wheels 中分别叫 `aarch64-apple-darwin`、`arm64-darwin`、`darwin/arm64`、`macosx_11_0_arm64`。Zooko 三角指出人类可读、去中心化和安全三者不可兼得，注册表的存在就是为了在三者中妥协。整个依赖链的信任是传递的，每一层命名都假设名称解析到预期的实体，但没有任何机制强制执行这种对应关系。",
+      "source_name": "nesbitt.io",
+      "score": 22,
+      "depth": 7,
+      "novelty": 7,
+      "breadth": 8,
+      "category": "engineering",
+      "keywords": [
+        "package management",
+        "namespaces",
+        "versioning",
+        "Zooko's triangle"
+      ],
+      "rank": 2
+    },
+    {
       "title": "Giving LLMs a personality is just good engineering",
       "title_zh": "LLM 人格化是工程必然而非营销",
       "link": "https://seangoedecke.com/giving-llms-a-personality/",
@@ -43,7 +63,7 @@
         "post-training",
         "base model"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "SerpApi Filed Motion to Dismiss Google’s Lawsuit",
@@ -63,7 +83,7 @@
         "legal",
         "Google"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "GIF optimization tool using WebAssembly and Gifsicle",
@@ -83,7 +103,7 @@
         "Claude Code",
         "coding agents"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Differential equation with a small delay",
@@ -102,7 +122,7 @@
         "stability",
         "oscillations"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Welcome (Back) to Macintosh",
@@ -122,7 +142,7 @@
         "Finder",
         "Time Machine"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Apple Introduces New iPad Air With M4",
@@ -142,7 +162,7 @@
         "Wi-Fi 7",
         "iPadOS 26"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "WSJ: ‘Trump Administration Shuns Anthropic, Embraces OpenAI in Clash Over Guardrails’",
@@ -162,7 +182,7 @@
         "Pentagon",
         "guardrails"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "ChangeTheHeaders",
@@ -182,7 +202,7 @@
         "User-Agent",
         "Accept"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Log messages are mostly for the people operating your software",
@@ -201,7 +221,7 @@
         "operations",
         "debugging"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "An AI Odyssey, Part 1: Correctness Conundrum",
@@ -221,7 +241,7 @@
         "formal verification",
         "agentic AI"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "What sort of horrible things happen if my dialog has a non-button with the control ID of IDCANCEL?",
@@ -241,7 +261,7 @@
         "BN_CLICKED",
         "dialog"
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "title": "Unsung Heroes: Flickr’s URLs Scheme",
@@ -260,7 +280,7 @@
         "Flickr",
         "user interface"
       ],
-      "rank": 13
+      "rank": 14
     },
     {
       "title": "Betting Against Substack",
@@ -279,7 +299,7 @@
         "Polymarket",
         "newsletters"
       ],
-      "rank": 14
+      "rank": 15
     },
     {
       "title": "I built a pint-sized Macintosh",
@@ -299,7 +319,7 @@
         "retro computing",
         "RP2040"
       ],
-      "rank": 15
+      "rank": 16
     },
     {
       "title": "[Sponsor] npx workos: An AI Agent That Writes Auth Directly Into Your Codebase",
@@ -319,7 +339,7 @@
         "WorkOS",
         "automation"
       ],
-      "rank": 16
+      "rank": 17
     },
     {
       "title": "★ HazeOver — Mac Utility for Highlighting the Frontmost Window",
@@ -338,7 +358,7 @@
         "HazeOver",
         "productivity"
       ],
-      "rank": 17
+      "rank": 18
     },
     {
       "title": "Seasonal Color Updates to Apple’s iPhone Cases and Apple Watch Bands",
@@ -357,7 +377,7 @@
         "accessories",
         "colors"
       ],
-      "rank": 18
+      "rank": 19
     }
   ]
 }
