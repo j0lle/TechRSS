@@ -3,7 +3,7 @@
   "total_feeds": 92,
   "success_feeds": 85,
   "total_articles": 2427,
-  "filtered_articles": 22,
+  "filtered_articles": 24,
   "articles": [
     {
       "title": "‘Anthropic and Alignment’",
@@ -26,6 +26,26 @@
       "rank": 1
     },
     {
+      "title": "Giving LLMs a personality is just good engineering",
+      "title_zh": "LLM 人格化是工程必然而非营销",
+      "link": "https://seangoedecke.com/giving-llms-a-personality/",
+      "pub_date": "2026-03-03T00:00:00.000Z",
+      "summary": "LLM 的拟人化人格不是营销手段或哲学错误，而是让模型变得可用的工程必要。基础模型从训练数据中涌现后，是一个难以预测的混沌整体，会输出代码漏洞、种族歧视内容或无意义文本。要构建有用的 AI 系统，必须在后训练阶段为模型塑造人格，将其引导至符合人类利益的区域——既要在伦理上不滥用用户，也要在实践上提高正确输出率。人类之所以不会随意打翻咖啡，是因为我们不是那样的人；Claude 不会输出种族歧视内容，也不是因为技术上做不到，而是因为那不是它的\"人格\"。模型训练自人类写给人类的文本，需要通过人格设定来激活训练数据中有用的部分而非有害部分。改变模型人格之所以困难，是因为要在近乎无限的基础模型流形中导航，微小的方向调整可能引发不可预料的输出变化。",
+      "source_name": "seangoedecke.com",
+      "score": 20,
+      "depth": 6,
+      "novelty": 7,
+      "breadth": 7,
+      "category": "ai-ml",
+      "keywords": [
+        "LLM",
+        "personality",
+        "post-training",
+        "base model"
+      ],
+      "rank": 2
+    },
+    {
       "title": "SerpApi Filed Motion to Dismiss Google’s Lawsuit",
       "title_zh": "SerpApi 驳回 Google 诉讼的法律依据",
       "link": "https://serpapi.com/blog/google-v-serpapi-motion-to-dismiss-why-were-in-the-right/",
@@ -43,7 +63,7 @@
         "legal",
         "Google"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "GIF optimization tool using WebAssembly and Gifsicle",
@@ -63,7 +83,7 @@
         "Claude Code",
         "coding agents"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Differential equation with a small delay",
@@ -82,7 +102,7 @@
         "stability",
         "oscillations"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Welcome (Back) to Macintosh",
@@ -102,7 +122,7 @@
         "Finder",
         "Time Machine"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Apple Introduces New iPad Air With M4",
@@ -122,7 +142,7 @@
         "Wi-Fi 7",
         "iPadOS 26"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "WSJ: ‘Trump Administration Shuns Anthropic, Embraces OpenAI in Clash Over Guardrails’",
@@ -142,7 +162,7 @@
         "Pentagon",
         "guardrails"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "ChangeTheHeaders",
@@ -162,7 +182,27 @@
         "User-Agent",
         "Accept"
       ],
-      "rank": 8
+      "rank": 9
+    },
+    {
+      "title": "An AI Odyssey, Part 1: Correctness Conundrum",
+      "title_zh": "AI 系统的正确性困境",
+      "link": "https://www.johndcook.com/blog/2026/03/02/an-ai-odyssey-part-1-correctness-conundrum/",
+      "pub_date": "2026-03-03T02:40:22.000Z",
+      "summary": "AI 模型在专业任务中能提升生产力，但无法保证正确性。即使是先进的推理模型和代理系统也会出现事实性错误，例如在制作演示文稿幻灯片时多次出错。当前 AI 系统存在基础的技术不可预测性，这一问题尚未解决。传统工程领域有 Six Sigma 质量标准、形式化验证等可靠性保障机制，而 AI 模型的概率性特征使得错误边界难以界定。在缺乏可证明正确性或严格认证流程的情况下，将 AI 用于金融数据等关键资产管理存在风险。AI 系统的行为边界、验证和认证仍是开放技术问题，需要在能力提升的同时建立领域适用的可靠性保障框架。",
+      "source_name": "johndcook.com",
+      "score": 11,
+      "depth": 3,
+      "novelty": 3,
+      "breadth": 5,
+      "category": "opinion",
+      "keywords": [
+        "AI reliability",
+        "hallucinations",
+        "formal verification",
+        "agentic AI"
+      ],
+      "rank": 10
     },
     {
       "title": "What sort of horrible things happen if my dialog has a non-button with the control ID of IDCANCEL?",
@@ -182,7 +222,7 @@
         "BN_CLICKED",
         "dialog"
       ],
-      "rank": 9
+      "rank": 11
     },
     {
       "title": "Unsung Heroes: Flickr’s URLs Scheme",
@@ -201,7 +241,7 @@
         "Flickr",
         "user interface"
       ],
-      "rank": 10
+      "rank": 12
     },
     {
       "title": "I built a pint-sized Macintosh",
@@ -221,7 +261,7 @@
         "retro computing",
         "RP2040"
       ],
-      "rank": 11
+      "rank": 13
     },
     {
       "title": "[Sponsor] npx workos: An AI Agent That Writes Auth Directly Into Your Codebase",
@@ -241,7 +281,7 @@
         "WorkOS",
         "automation"
       ],
-      "rank": 12
+      "rank": 14
     },
     {
       "title": "★ HazeOver — Mac Utility for Highlighting the Frontmost Window",
@@ -260,7 +300,7 @@
         "HazeOver",
         "productivity"
       ],
-      "rank": 13
+      "rank": 15
     },
     {
       "title": "Seasonal Color Updates to Apple’s iPhone Cases and Apple Watch Bands",
@@ -279,7 +319,7 @@
         "accessories",
         "colors"
       ],
-      "rank": 14
+      "rank": 16
     }
   ]
 }
