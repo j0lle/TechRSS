@@ -3,7 +3,7 @@
   "total_feeds": 92,
   "success_feeds": 86,
   "total_articles": 2437,
-  "filtered_articles": 22,
+  "filtered_articles": 23,
   "articles": [
     {
       "title": "The AI Bubble Is An Information War",
@@ -106,6 +106,86 @@
       "rank": 5
     },
     {
+      "title": "A soft-landing manual for the second gilded age",
+      "title_zh": "AI 时代的软着陆路线图",
+      "link": "https://www.joanwestenberg.com/a-soft-landing-manual-for-the-second-gilded-age/",
+      "pub_date": "2026-03-03T21:06:34.000Z",
+      "summary": "文章反对 AI 时代的两种主流叙事：加速主义者的市场万能论和末日论者的技术决定论。作者引用历史案例，特别是战后柏林的重建，证明大规模社会转型在政治意愿存在时可以快速完成。文章以 Jeff Atwood 的农村保障最低收入计划为案例，结合 David Graeber 和 Rutger Bregman 的研究，论证了无条件现金转移不会导致懒惰，反而能促进创业和社区互助。作者提出了一个 10 年路线图，包括建立公共 AI 基础设施、普及基本服务、可携带福利制度、算法透明度立法，以及从失业保险向转型保险的转变。核心观点是 AI 带来的经济转型结果并非注定，取决于我们选择建立什么样的制度。",
+      "source_name": "joanwestenberg.com",
+      "score": 16,
+      "depth": 4,
+      "novelty": 5,
+      "breadth": 7,
+      "category": "opinion",
+      "keywords": [
+        "AI",
+        "guaranteed minimum income",
+        "social safety net",
+        "policy"
+      ],
+      "rank": 6
+    },
+    {
+      "title": "Apple Announces Updated Studio Display and All-New Studio Display XDR",
+      "title_zh": "Apple 发布 Studio Display XDR 显示器",
+      "link": "https://www.apple.com/newsroom/2026/03/apple-unveils-new-studio-display-and-all-new-studio-display-xdr/",
+      "pub_date": "2026-03-03T21:25:07.000Z",
+      "summary": "",
+      "source_name": "daringfireball.net",
+      "score": 13,
+      "depth": 2,
+      "novelty": 5,
+      "breadth": 6,
+      "category": "tools",
+      "keywords": [
+        "display",
+        "XDR",
+        "mini-LED",
+        "Thunderbolt 5"
+      ],
+      "rank": 7
+    },
+    {
+      "title": "New MacBook Air With M5",
+      "title_zh": "MacBook Air 搭载 M5 芯片发布",
+      "link": "https://www.apple.com/newsroom/2026/03/apple-introduces-the-new-macbook-air-with-m5/",
+      "pub_date": "2026-03-03T21:08:42.000Z",
+      "summary": "",
+      "source_name": "daringfireball.net",
+      "score": 13,
+      "depth": 2,
+      "novelty": 5,
+      "breadth": 6,
+      "category": "tools",
+      "keywords": [
+        "MacBook Air",
+        "M5",
+        "Apple",
+        "hardware"
+      ],
+      "rank": 8
+    },
+    {
+      "title": "Apple Might Have Prematurely Leaked the Name ‘MacBook Neo’",
+      "title_zh": "Apple 意外泄露 MacBook Neo 名称",
+      "link": "https://www.macrumors.com/2026/03/03/apple-accidentally-leaks-macbook-neo/",
+      "pub_date": "2026-03-03T20:59:43.000Z",
+      "summary": "",
+      "source_name": "daringfireball.net",
+      "score": 13,
+      "depth": 2,
+      "novelty": 5,
+      "breadth": 6,
+      "category": "other",
+      "keywords": [
+        "MacBook Neo",
+        "Apple",
+        "leak",
+        "A18 Pro"
+      ],
+      "rank": 9
+    },
+    {
       "title": "w0rdz aRe 1mpoRtAnt",
       "title_zh": "AI 产品的用词如何潜移默化影响用户行为",
       "link": "https://blog.jim-nielsen.com/2026/w0rdz-aRe-1mpoRtAnt/",
@@ -123,7 +203,7 @@
         "behavior",
         "psychology"
       ],
-      "rank": 6
+      "rank": 10
     },
     {
       "title": "Just for fun: A survey of write protect notches on floppy disks and other media",
@@ -142,7 +222,7 @@
         "write-protect",
         "history"
       ],
-      "rank": 7
+      "rank": 11
     },
     {
       "title": "Free Books",
@@ -160,7 +240,7 @@
         "book",
         "free"
       ],
-      "rank": 8
+      "rank": 12
     }
   ]
 }
