@@ -141,6 +141,33 @@
   to { opacity: 1; transform: translateY(0); }
 }
 
+/* Article summary markdown */
+.article-summary h2 {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: var(--color-text-primary);
+  margin-top: 0.75rem;
+  margin-bottom: 0.25rem;
+}
+.article-summary h2:first-child {
+  margin-top: 0;
+}
+.article-summary h3 {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: var(--color-text-primary);
+  margin-top: 0.875rem;
+  margin-bottom: 0.25rem;
+}
+.article-summary p {
+  margin-top: 0.375rem;
+  margin-bottom: 0.375rem;
+}
+.article-summary strong {
+  color: var(--color-text-primary);
+  font-weight: 600;
+}
+
 /* Focus accessibility */
 :focus-visible {
   outline: 2px solid var(--color-accent-warm);
