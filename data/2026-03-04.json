@@ -2,8 +2,8 @@
   "date": "2026-03-04",
   "total_feeds": 92,
   "success_feeds": 86,
-  "total_articles": 2437,
-  "filtered_articles": 22,
+  "total_articles": 2536,
+  "filtered_articles": 23,
   "articles": [
     {
       "title": "The AI Bubble Is An Information War",
@@ -26,6 +26,66 @@
       "rank": 1
     },
     {
+      "title": "Apple Debuts M5 Pro and M5 Max, and Renames Its M-Series CPU Cores",
+      "title_zh": "Apple M5 Pro/Max 芯片发布",
+      "link": "https://www.apple.com/newsroom/2026/03/apple-debuts-m5-pro-and-m5-max-to-supercharge-the-most-demanding-pro-workflows/",
+      "pub_date": "2026-03-03T18:11:32.000Z",
+      "summary": "Apple 发布 M5 Pro 和 M5 Max 芯片，采用全新的 Fusion Architecture 将两块 3nm die 封装为单一 SoC。M5 Pro 配备 18 核 CPU（6 个 super cores + 12 个 performance cores）和最多 20 核 GPU，支持 64GB 统一内存，带宽达 307GB/s；M5 Max 同样为 18 核 CPU，GPU 扩展至最多 40 核，支持 128GB 统一内存，带宽达 614GB/s。CPU 多线程性能相比 M4 Pro/Max 提升 15-30%，相比 M1 Pro/Max 提升 2.5 倍。GPU 集成 Neural Accelerator，AI 计算峰值相比前代提升 4 倍以上，相比 M1 系列提升 6 倍。光线追踪性能相比 M4 系列提升 30-35%。芯片还配备 16 核 Neural Engine、Thunderbolt 5 控制器、Memory Integrity Enforcement 内存安全机制，以及支持 AV1 解码和 ProRes 编解码的 Media Engine。新芯片将用于 MacBook Pro，3 月 11 日上市。",
+      "source_name": "daringfireball.net",
+      "score": 21,
+      "depth": 6,
+      "novelty": 7,
+      "breadth": 8,
+      "category": "engineering",
+      "keywords": [
+        "M5 Pro",
+        "M5 Max",
+        "Fusion Architecture",
+        "Apple silicon"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "Pluralistic: Supreme Court saves artists from AI (03 Mar 2026)",
+      "title_zh": "最高法院确认 AI 作品不受版权保护",
+      "link": "https://pluralistic.net/2026/03/03/its-a-trap-2/",
+      "pub_date": "2026-03-03T18:26:13.000Z",
+      "summary": "美国最高法院拒绝受理 Thaler 对 AI 作品版权的申诉，确认 AI 生成内容不受版权保护。版权法核心原则是版权仅适用于人类创作，即当人类进行创造性活动并形成物理记录时，版权才会产生。AI 输出虽然可被固定，但因缺乏人类作者身份而无法获得版权。这一裁决对创意工作者有利，意味着雇主若想获得可版权的作品，必须支付人类创作者报酬。人类参与度越高，作品版权越强；反之，AI 生成部分自动进入公有领域。作者指出，媒体巨头起诉 AI 公司并非为了保护艺术家，而是为了建立训练许可的垄断地位。一旦获得新版权，这些公司会通过合同迫使创作者让渡权利，然后与 AI 公司达成合作，用 AI 替代人类创作。过去 40 年版权扩张的历史表明，媒体公司利润增长而创作者收入份额下降。真正保护创作者的途径不是扩大版权，而是像好莱坞编剧工会那样通过行业集体谈判争取权益。",
+      "source_name": "pluralistic.net",
+      "score": 21,
+      "depth": 6,
+      "novelty": 7,
+      "breadth": 8,
+      "category": "opinion",
+      "keywords": [
+        "copyright",
+        "AI",
+        "Supreme Court",
+        "creative labor"
+      ],
+      "rank": 3
+    },
+    {
+      "title": "The one science reform we can all agree on, but we're too cowardly to do",
+      "title_zh": "废除营利性学术出版商",
+      "link": "https://www.experimental-history.com/p/the-one-science-reform-we-can-all",
+      "pub_date": "2026-03-03T17:47:57.000Z",
+      "summary": "美国大学每年向商业出版商支付约 25 亿美元，其中大部分来自纳税人资金。这些出版商利润率高达 40%，高于微软，主要业务仅是校对、格式化和存储 PDF。作者发表论文不仅得不到报酬，还需支付数千美元的\"开放获取\"费用，而读者又需付费订阅。SciHub 等盗版网站被广泛使用，说明现行系统依赖违规行为才能运转。2012 年超过 1 万名学者签署抵制 Elsevier 的承诺，但四年后 38% 的人违背了誓言。作者建议政府拨款应禁止在营利性期刊发表，并提到 Navigation Fund 已停止资助期刊发表，研究人员变得更注重实用价值而非影响因子。",
+      "source_name": "experimental-history.com",
+      "score": 18,
+      "depth": 7,
+      "novelty": 6,
+      "breadth": 5,
+      "category": "opinion",
+      "keywords": [
+        "open access",
+        "publishing",
+        "SciHub",
+        "academic journals"
+      ],
+      "rank": 4
+    },
+    {
       "title": "w0rdz aRe 1mpoRtAnt",
       "title_zh": "AI 产品的用词如何潜移默化影响用户行为",
       "link": "https://blog.jim-nielsen.com/2026/w0rdz-aRe-1mpoRtAnt/",
@@ -43,7 +103,7 @@
         "behavior",
         "psychology"
       ],
-      "rank": 2
+      "rank": 5
     },
     {
       "title": "Free Books",
@@ -61,7 +121,7 @@
         "book",
         "free"
       ],
-      "rank": 3
+      "rank": 6
     }
   ]
 }
