@@ -1,9 +1,9 @@
 {
   "date": "2026-03-04",
   "total_feeds": 92,
-  "success_feeds": 86,
-  "total_articles": 2438,
-  "filtered_articles": 18,
+  "success_feeds": 82,
+  "total_articles": 2453,
+  "filtered_articles": 19,
   "articles": [
     {
       "title": "The AI Bubble Is An Information War",
@@ -304,6 +304,26 @@
       "rank": 15
     },
     {
+      "title": "‘In Other Words, Batman Has Become Superman and Robin Has Become Batman’",
+      "title_zh": "Apple M5 CPU 核心命名变更",
+      "link": "https://sixcolors.com/post/2026/03/apple-gives-in-to-temptation-and-renames-its-cpu-cores/",
+      "pub_date": "2026-03-04T13:42:46.000Z",
+      "summary": "",
+      "source_name": "daringfireball.net",
+      "score": 11,
+      "depth": 3,
+      "novelty": 4,
+      "breadth": 4,
+      "category": "engineering",
+      "keywords": [
+        "Apple",
+        "M5",
+        "CPU cores",
+        "naming"
+      ],
+      "rank": 16
+    },
+    {
       "title": "w0rdz aRe 1mpoRtAnt",
       "title_zh": "AI 产品的用词如何潜移默化影响用户行为",
       "link": "https://blog.jim-nielsen.com/2026/w0rdz-aRe-1mpoRtAnt/",
@@ -321,7 +341,7 @@
         "behavior",
         "psychology"
       ],
-      "rank": 16
+      "rank": 17
     },
     {
       "title": "How many hours do you need to work to afford a pint of beer?",
@@ -340,7 +360,7 @@
         "minimum wage",
         "statistics"
       ],
-      "rank": 17
+      "rank": 18
     },
     {
       "title": "Homebrew Computer Club in Menlo Park",
@@ -360,7 +380,7 @@
         "Apple",
         "Altair 8800"
       ],
-      "rank": 18
+      "rank": 19
     },
     {
       "title": "Just for fun: A survey of write protect notches on floppy disks and other media",
@@ -379,7 +399,7 @@
         "write-protect",
         "history"
       ],
-      "rank": 19
+      "rank": 20
     },
     {
       "title": "Free Books",
@@ -397,7 +417,7 @@
         "book",
         "free"
       ],
-      "rank": 20
+      "rank": 21
     }
   ]
 }
