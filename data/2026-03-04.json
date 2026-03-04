@@ -264,6 +264,26 @@
       "rank": 13
     },
     {
+      "title": "Interruption-Driven Development",
+      "title_zh": "打断驱动的开发困境",
+      "link": "https://idiallo.com/blog/interruption-driven-development?src=feed",
+      "pub_date": "2026-03-04T12:00:00.000Z",
+      "summary": "软件开发需要连续专注的时间，但频繁的打断让深度工作变得不可能。作者描述了调试时被同事搭话、远程工作中被拉入各种会议的典型场景，指出打断的成本完全由被打断者承担——需要重建心理状态才能继续前进。管理者通过频繁的会议和状态更新获得掌控感，但开发者整天在解释和安抚中度过，实际产出为零。缩短会议时间并不能解决问题，三次会议就是三次打断。作者将这种工作环境比作医院——医生开了休息处方，但护士每20分钟就进来一次，休息根本无法实现。",
+      "source_name": "idiallo.com",
+      "score": 13,
+      "depth": 4,
+      "novelty": 3,
+      "breadth": 6,
+      "category": "opinion",
+      "keywords": [
+        "productivity",
+        "focus",
+        "meetings",
+        "remote work"
+      ],
+      "rank": 14
+    },
+    {
       "title": "Why Improve Your Writing?",
       "title_zh": "开发者为什么要重视写作能力",
       "link": "https://refactoringenglish.com/chapters/why-improve-your-writing/",
@@ -281,7 +301,7 @@
         "documentation",
         "AI"
       ],
-      "rank": 14
+      "rank": 15
     },
     {
       "title": "w0rdz aRe 1mpoRtAnt",
@@ -301,7 +321,46 @@
         "behavior",
         "psychology"
       ],
-      "rank": 15
+      "rank": 16
+    },
+    {
+      "title": "How many hours do you need to work to afford a pint of beer?",
+      "title_zh": "啤酒价格与最低工资的历史对比",
+      "link": "https://shkspr.mobi/blog/2026/03/how-many-hours-do-you-need-to-work-to-afford-a-pint-of-beer/",
+      "pub_date": "2026-03-04T12:34:22.000Z",
+      "summary": "",
+      "source_name": "shkspr.mobi",
+      "score": 8,
+      "depth": 3,
+      "novelty": 2,
+      "breadth": 3,
+      "category": "other",
+      "keywords": [
+        "beer",
+        "minimum wage",
+        "statistics"
+      ],
+      "rank": 17
+    },
+    {
+      "title": "Homebrew Computer Club in Menlo Park",
+      "title_zh": "Homebrew Computer Club 成立 50 周年回顾",
+      "link": "https://dfarq.homeip.net/homebrew-computer-club-in-menlo-park/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=homebrew-computer-club-in-menlo-park",
+      "pub_date": "2026-03-04T12:00:52.000Z",
+      "summary": "",
+      "source_name": "dfarq.homeip.net",
+      "score": 8,
+      "depth": 3,
+      "novelty": 2,
+      "breadth": 3,
+      "category": "other",
+      "keywords": [
+        "retro computing",
+        "Homebrew Computer Club",
+        "Apple",
+        "Altair 8800"
+      ],
+      "rank": 18
     },
     {
       "title": "Just for fun: A survey of write protect notches on floppy disks and other media",
@@ -320,7 +379,7 @@
         "write-protect",
         "history"
       ],
-      "rank": 16
+      "rank": 19
     },
     {
       "title": "Free Books",
@@ -338,7 +397,7 @@
         "book",
         "free"
       ],
-      "rank": 17
+      "rank": 20
     }
   ]
 }
