@@ -2,8 +2,8 @@
   "date": "2026-03-04",
   "total_feeds": 92,
   "success_feeds": 86,
-  "total_articles": 2537,
-  "filtered_articles": 19,
+  "total_articles": 2438,
+  "filtered_articles": 18,
   "articles": [
     {
       "title": "The AI Bubble Is An Information War",
@@ -26,6 +26,26 @@
       "rank": 1
     },
     {
+      "title": "Package Managers Need to Cool Down",
+      "title_zh": "包管理器依赖冷却机制现状调查",
+      "link": "https://nesbitt.io/2026/03/04/package-managers-need-to-cool-down.html",
+      "pub_date": "2026-03-04T10:00:00.000Z",
+      "summary": "依赖冷却机制在过去一年快速普及，JavaScript 生态处于领先地位。pnpm、Yarn、Bun、npm 和 Deno 在六个月内相继推出 minimumReleaseAge 或类似功能，支持 7 天冷却期以阻止恶意包自动传播。Python 的 uv 和 pip 也分别通过 --exclude-newer 和 --uploaded-prior-to 提供支持，但 pip 仅接受绝对时间戳。Ruby 生态的 gem.coop 从索引层面强制 48 小时冷却，用户无需修改工具配置。Rust、Go、PHP 和 .NET 仍处于讨论阶段，仅 Cargo 有第三方 cargo-cooldown 包装器。更新工具方面，Renovate 支持多年，Dependabot 在 2025 年 7 月加入 cooldown 配置，Snyk 采用激进的 21 天不可配置冷却期。zizmor、StepSecurity 和 OpenRewrite 等工具提供配置检查和自动修复。当前主要问题是配置命名不统一（至少 10 种名称），以及 Cargo、Go、Bundler、Composer 等核心工具缺乏原生支持，本地手动更新仍可能绕过冷却保护。",
+      "source_name": "nesbitt.io",
+      "score": 22,
+      "depth": 7,
+      "novelty": 7,
+      "breadth": 8,
+      "category": "security",
+      "keywords": [
+        "dependency cooldown",
+        "package manager",
+        "supply chain security",
+        "minimumReleaseAge"
+      ],
+      "rank": 2
+    },
+    {
       "title": "Apple Debuts M5 Pro and M5 Max, and Renames Its M-Series CPU Cores",
       "title_zh": "Apple M5 Pro/Max 芯片发布",
       "link": "https://www.apple.com/newsroom/2026/03/apple-debuts-m5-pro-and-m5-max-to-supercharge-the-most-demanding-pro-workflows/",
@@ -43,7 +63,7 @@
         "Fusion Architecture",
         "Apple silicon"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Pluralistic: Supreme Court saves artists from AI (03 Mar 2026)",
@@ -63,7 +83,7 @@
         "Supreme Court",
         "creative labor"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Apple Introduces MacBook Pro Models With M5 Pro and M5 Max Chips",
@@ -83,7 +103,7 @@
         "MacBook Pro",
         "on-device AI"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "The one science reform we can all agree on, but we're too cowardly to do",
@@ -103,7 +123,7 @@
         "SciHub",
         "academic journals"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "A soft-landing manual for the second gilded age",
@@ -123,7 +143,7 @@
         "social safety net",
         "policy"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "A taxonomy of text output (from tools that want to be too clever)",
@@ -143,7 +163,7 @@
         "output",
         "apt"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Apple Announces Updated Studio Display and All-New Studio Display XDR",
@@ -163,7 +183,7 @@
         "mini-LED",
         "Thunderbolt 5"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "New MacBook Air With M5",
@@ -183,7 +203,7 @@
         "Apple",
         "hardware"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Apple Might Have Prematurely Leaked the Name ‘MacBook Neo’",
@@ -203,7 +223,7 @@
         "leak",
         "A18 Pro"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "Gemini 3.1 Flash-Lite",
@@ -222,7 +242,7 @@
         "pricing",
         "Flash-Lite"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "Quoting Donald Knuth",
@@ -241,7 +261,7 @@
         "Donald Knuth",
         "generative-ai"
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "title": "Why Improve Your Writing?",
@@ -261,7 +281,7 @@
         "documentation",
         "AI"
       ],
-      "rank": 13
+      "rank": 14
     },
     {
       "title": "w0rdz aRe 1mpoRtAnt",
@@ -281,7 +301,7 @@
         "behavior",
         "psychology"
       ],
-      "rank": 14
+      "rank": 15
     },
     {
       "title": "Just for fun: A survey of write protect notches on floppy disks and other media",
@@ -300,7 +320,7 @@
         "write-protect",
         "history"
       ],
-      "rank": 15
+      "rank": 16
     },
     {
       "title": "Free Books",
@@ -318,7 +338,7 @@
         "book",
         "free"
       ],
-      "rank": 16
+      "rank": 17
     }
   ]
 }
