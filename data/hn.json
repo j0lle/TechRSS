@@ -1,6 +1,325 @@
 {
-  "updatedAt": "2026-03-04T13:34:34.279Z",
+  "updatedAt": "2026-03-04T13:54:50.843Z",
   "items": [
+    {
+      "id": 47244291,
+      "by": "P_qRs",
+      "title": "RFC 9849. TLS Encrypted Client Hello",
+      "url": "https://www.rfc-editor.org/rfc/rfc9849.html",
+      "score": 133,
+      "detailUpdatedAt": 1772630035,
+      "createdAt": 1772611261,
+      "aiSummaryUpdatedAt": 1772631468,
+      "aisummary": {
+        "chinese_title": "RFC 9849 发布：TLS Encrypted ClientHello (ECH) 的隐私、部署与运维折衷",
+        "emoji": "🔒",
+        "sarcastic_question": "把ClientHello全加密了，运维去哪儿排查故障？"
+      },
+      "classifications": {
+        "topics": [
+          3,
+          5,
+          6
+        ],
+        "facets": [
+          7
+        ],
+        "tags": [
+          "Encrypted Client Hello (ECH)",
+          "TLS",
+          "RFC 9849",
+          "Cloudflare",
+          "Firefox",
+          "split DNS",
+          "load balancer",
+          "SSL Labs",
+          "RFC 9848"
+        ]
+      },
+      "classificationsUpdatedAt": 1772618226,
+      "aiSummary": {
+        "chinese_title": "RFC 9849 发布：TLS Encrypted ClientHello (ECH) 的隐私、部署与运维折衷",
+        "emoji": "🔒",
+        "sarcastic_question": "把ClientHello全加密了，运维去哪儿排查故障？"
+      },
+      "detail": {
+        "id": 47244291,
+        "by": "P_qRs",
+        "title": "RFC 9849. TLS Encrypted Client Hello",
+        "url": "https://www.rfc-editor.org/rfc/rfc9849.html",
+        "score": 133,
+        "detailUpdatedAt": 1772630035,
+        "createdAt": 1772611261,
+        "aiSummaryUpdatedAt": 1772631468,
+        "aisummary": {
+          "chinese_title": "RFC 9849 发布：TLS Encrypted ClientHello (ECH) 的隐私、部署与运维折衷",
+          "discussion_overview": [
+            {
+              "category": "隐私与反审查：ECH 的核心用例",
+              "summary": "评论指出 ECH（从早期 ESNI 演化而来）能有效阻止中间盒或 ISP 通过 SNI 识别客户端访问的具体站点，实际案例包括在印度对抗 Jio 的网站封锁。多位评论者强调要配合加密 DNS（DoH/DoT/DNSCrypt）才能避免 DNS 层泄露域名，否认单靠 ECH 就能完全隐藏。ECH 还允许客户端在 outer 握手中使用一个由中间盒“接受”的 public_name 作为伪装（MAY 不强制服务器验证 public_name），这被当作规避审查的技战术之一。实现层面已有 nginx 分支、Caddy 支持、Android 应用和 rustls 讨论，说明隐私用途是推动部署的重要动力但并非无代价。",
+              "supportid": [
+                "47245088",
+                "47245421",
+                "47245787",
+                "47245510",
+                "47245813",
+                "47245919"
+              ]
+            },
+            {
+              "category": "部署与生态：服务器、库和引导机制",
+              "summary": "RFC 9849 定义了 ECH，RFC 9848（DNS Service Bindings / SVCB/HTTPS）给出通过 DNS 引导 ECH 的方法，社区已有文章和实例演示如何使用这些规范。实务中 Caddy 已经通过 DNS 插件自动化 SVCB/HTTPS 记录来启用 ECH，部分团队也在 nginx、rustls 和 Go 代码里做实现或测试。工具生态正在跟进：有人提到 Hardenize 用于持续 TLS/PKI 报告，testssl.sh 可做离线检测，这些工具帮助运维评估 ECH 配置与互操作性。",
+              "supportid": [
+                "47244674",
+                "47245452",
+                "47245088",
+                "47245510",
+                "47246316",
+                "47246616"
+              ]
+            },
+            {
+              "category": "对爬虫检测与 TLS 指纹的影响",
+              "summary": "将 ClientHello 的敏感字段加密会削弱基于 ClientHello 的被动 TLS 指纹（如 JA3/JA4）作为爬虫识别信号的有效性，评论中指出这会让依赖该层的 Bot Management 产品失去一部分检测能力。另一方面，若服务端或 CDN 自行终止 ECH（例如使用其自己的 ECH keys），它们仍能解密 inner ClientHello 并继续指纹，所以对托管在同一 CDN 的站点影响有限。复杂的对抗性爬虫已经在使用 curl-impersonate、got-scraping 等技术伪造 TLS 指纹，ECH 在 CDN 终端场景反而可能让伪装更容易通过“看起来像真实浏览器”的指纹检查。",
+              "supportid": [
+                "47245562",
+                "47245612",
+                "47245638",
+                "47246470",
+                "47245624",
+                "47245991"
+              ]
+            },
+            {
+              "category": "运维兼容性与降级风险",
+              "summary": "运维关注点包括负载均衡器如何与 ECH 配合：一种做法是所谓的 split mode，让中间件只解密用于路由的 SNI 并把会话转发给后端，但也有人指出负载均衡器可强制降级。为防止网络或恶意中间人通过篡改 SVCB/HTTPS 记录或强制降级来绕过 ECH，评论建议用 DNSSEC、DoH/DoT 保护引导记录，并考虑浏览器端类似 HSTS preload 的预加载表来拒绝降级。实际部署例子里还有短期问题：Cloudflare 在某些套餐下默认启用且无法关闭，导致 split‑DNS/内网场景中浏览器记忆了 ECH 配置后出现间歇性挂起或 ECH Error，排查困难。",
+              "supportid": [
+                "47244609",
+                "47244836",
+                "47244721",
+                "47245446",
+                "47246684",
+                "47245059",
+                "47245104",
+                "47245198"
+              ]
+            },
+            {
+              "category": "小型主机与 IP 证书局限",
+              "summary": "RFC 要求用于 outer 证书的 public_name 为基于 DNS 的引用身份，显式排除了把 IP 字面量当作证书名的做法。评论认为这对直接以单一 IP 托管的小站不利：如果你总是直接连接到唯一 IP，ECH 对隐藏访问的具体域没有实际帮助。社区提出的变通办法包括把 public_name 指向大型 CDN 或另购一个域名作为掩护，但这会把隐私保护依赖转移给第三方或增加成本，暴露了 ECH 对孤立主机的局限性。",
+              "supportid": [
+                "47245416",
+                "47245813",
+                "47245729",
+                "47245578",
+                "47245906",
+                "47246510",
+                "47246536"
+              ]
+            },
+            {
+              "category": "网络可见性与故障排查的担忧",
+              "summary": "多位评论者警告：随着更多握手元数据被加密，网络层的可见性迅速被吞噬，传统抓包与被动监测手段失效会让运维和网络团队难以排查故障。抽象层带来的便利往往比替代可观测工具投入要快得多，组织内部也常常不愿意把能力交还或投入足够资源来建立新流程。因此推广 ECH 时需要同步考虑替代的可观测手段和运维流程，否则故障发生时排查成本会显著上升。",
+              "supportid": [
+                "47246415",
+                "47246467",
+                "47246607"
+              ]
+            }
+          ],
+          "terminologies": [
+            {
+              "term": "ECH (Encrypted Client Hello)",
+              "explanation": "一种 TLS 扩展（RFC 9849），用于把 ClientHello 中的敏感字段（例如 SNI）加密，从而防止中间盒/ISP 通过握手明文识别目标主机名。"
+            },
+            {
+              "term": "ESNI (Encrypted SNI)",
+              "explanation": "ECH 的早期草案与前身，最初只关注加密 SNI 字段，后来扩展为更广的 ECH 设计。"
+            },
+            {
+              "term": "SNI (Server Name Indication)",
+              "explanation": "TLS 客户端在握手中以明文形式指示希望访问的主机名，用于虚拟主机路由，但会泄露目标站点信息。"
+            },
+            {
+              "term": "ClientHello (TLS ClientHello)",
+              "explanation": "TLS 握手的首个报文，包含加密套件、扩展和 SNI 等字段，是指纹技术（如 JA3/JA4）和路由决策的主要信息源；ECH 的目标就是加密其敏感部分。"
+            },
+            {
+              "term": "JA3 / JA4",
+              "explanation": "基于 TLS 握手字段生成的指纹哈希，常被用于被动识别客户端类型或爬虫行为，是许多 Bot 管理系统的信号之一。"
+            },
+            {
+              "term": "DoH / DoT (DNS over HTTPS / DNS over TLS)",
+              "explanation": "将 DNS 查询通过 HTTPS 或 TLS 加密以防止 DNS 查询被窃听或篡改，配合 ECH 可避免 DNS 层泄露域名。"
+            },
+            {
+              "term": "SVCB / HTTPS（DNS Service Bindings）",
+              "explanation": "一种 DNS 记录类型（RFC 9848），用于向客户端发布服务配置（例如指向 ECH 引导信息或替代端点），常被用作自动化 ECH 引导机制。"
+            },
+            {
+              "term": "DNSSEC",
+              "explanation": "为 DNS 响应提供签名与验证的扩展，用以防止攻击者伪造或篡改 SVCB/HTTPS 等引导记录。"
+            },
+            {
+              "term": "HSTS preload",
+              "explanation": "浏览器内置的强制使用 HTTPS 的域名白名单（预加载列表），可阻止降级到不安全的连接，评论中被提出作为防止 ECH 降级攻击的参考机制。"
+            },
+            {
+              "term": "OuterSNI",
+              "explanation": "在 ECH 的 outer 握手中公开的 SNI 值，用于路由；它可以与被加密的 inner hostname 不同，部署时可作为伪装或掩护使用。"
+            }
+          ],
+          "context": "RFC 9849 正式将 ECH（TLS Encrypted Client Hello）标准化，作为早期 ESNI 草案的演进，用以加密 TLS ClientHello 中会暴露目标主机名的字段。RFC 9848（DNS Service Bindings / SVCB/HTTPS）提供了通过 DNS 引导 ECH 的方法，实际部署常与 DoH/DoT 和 DNSSEC 结合以避免引导记录被篡改。讨论聚焦在真实世界部署（Caddy、nginx 分支、rustls、Android 集成）、运维兼容性（负载均衡、split DNS、回退策略）以及对被动 TLS 指纹（如 JA3/JA4）与爬虫检测的影响。评论同时提出用浏览器预加载机制（类似 HSTS preload）和加密/签名的 DNS 引导来缓解降级与中间人风险。",
+          "emoji": "🔒",
+          "sarcastic_question": "把ClientHello全加密了，运维去哪儿排查故障？"
+        },
+        "classifications": {
+          "topics": [
+            3,
+            5,
+            6
+          ],
+          "facets": [
+            7
+          ],
+          "tags": [
+            "Encrypted Client Hello (ECH)",
+            "TLS",
+            "RFC 9849",
+            "Cloudflare",
+            "Firefox",
+            "split DNS",
+            "load balancer",
+            "SSL Labs",
+            "RFC 9848"
+          ]
+        },
+        "classificationsUpdatedAt": 1772618226,
+        "aiSummary": {
+          "chinese_title": "RFC 9849 发布：TLS Encrypted ClientHello (ECH) 的隐私、部署与运维折衷",
+          "discussion_overview": [
+            {
+              "category": "隐私与反审查：ECH 的核心用例",
+              "summary": "评论指出 ECH（从早期 ESNI 演化而来）能有效阻止中间盒或 ISP 通过 SNI 识别客户端访问的具体站点，实际案例包括在印度对抗 Jio 的网站封锁。多位评论者强调要配合加密 DNS（DoH/DoT/DNSCrypt）才能避免 DNS 层泄露域名，否认单靠 ECH 就能完全隐藏。ECH 还允许客户端在 outer 握手中使用一个由中间盒“接受”的 public_name 作为伪装（MAY 不强制服务器验证 public_name），这被当作规避审查的技战术之一。实现层面已有 nginx 分支、Caddy 支持、Android 应用和 rustls 讨论，说明隐私用途是推动部署的重要动力但并非无代价。",
+              "supportid": [
+                "47245088",
+                "47245421",
+                "47245787",
+                "47245510",
+                "47245813",
+                "47245919"
+              ]
+            },
+            {
+              "category": "部署与生态：服务器、库和引导机制",
+              "summary": "RFC 9849 定义了 ECH，RFC 9848（DNS Service Bindings / SVCB/HTTPS）给出通过 DNS 引导 ECH 的方法，社区已有文章和实例演示如何使用这些规范。实务中 Caddy 已经通过 DNS 插件自动化 SVCB/HTTPS 记录来启用 ECH，部分团队也在 nginx、rustls 和 Go 代码里做实现或测试。工具生态正在跟进：有人提到 Hardenize 用于持续 TLS/PKI 报告，testssl.sh 可做离线检测，这些工具帮助运维评估 ECH 配置与互操作性。",
+              "supportid": [
+                "47244674",
+                "47245452",
+                "47245088",
+                "47245510",
+                "47246316",
+                "47246616"
+              ]
+            },
+            {
+              "category": "对爬虫检测与 TLS 指纹的影响",
+              "summary": "将 ClientHello 的敏感字段加密会削弱基于 ClientHello 的被动 TLS 指纹（如 JA3/JA4）作为爬虫识别信号的有效性，评论中指出这会让依赖该层的 Bot Management 产品失去一部分检测能力。另一方面，若服务端或 CDN 自行终止 ECH（例如使用其自己的 ECH keys），它们仍能解密 inner ClientHello 并继续指纹，所以对托管在同一 CDN 的站点影响有限。复杂的对抗性爬虫已经在使用 curl-impersonate、got-scraping 等技术伪造 TLS 指纹，ECH 在 CDN 终端场景反而可能让伪装更容易通过“看起来像真实浏览器”的指纹检查。",
+              "supportid": [
+                "47245562",
+                "47245612",
+                "47245638",
+                "47246470",
+                "47245624",
+                "47245991"
+              ]
+            },
+            {
+              "category": "运维兼容性与降级风险",
+              "summary": "运维关注点包括负载均衡器如何与 ECH 配合：一种做法是所谓的 split mode，让中间件只解密用于路由的 SNI 并把会话转发给后端，但也有人指出负载均衡器可强制降级。为防止网络或恶意中间人通过篡改 SVCB/HTTPS 记录或强制降级来绕过 ECH，评论建议用 DNSSEC、DoH/DoT 保护引导记录，并考虑浏览器端类似 HSTS preload 的预加载表来拒绝降级。实际部署例子里还有短期问题：Cloudflare 在某些套餐下默认启用且无法关闭，导致 split‑DNS/内网场景中浏览器记忆了 ECH 配置后出现间歇性挂起或 ECH Error，排查困难。",
+              "supportid": [
+                "47244609",
+                "47244836",
+                "47244721",
+                "47245446",
+                "47246684",
+                "47245059",
+                "47245104",
+                "47245198"
+              ]
+            },
+            {
+              "category": "小型主机与 IP 证书局限",
+              "summary": "RFC 要求用于 outer 证书的 public_name 为基于 DNS 的引用身份，显式排除了把 IP 字面量当作证书名的做法。评论认为这对直接以单一 IP 托管的小站不利：如果你总是直接连接到唯一 IP，ECH 对隐藏访问的具体域没有实际帮助。社区提出的变通办法包括把 public_name 指向大型 CDN 或另购一个域名作为掩护，但这会把隐私保护依赖转移给第三方或增加成本，暴露了 ECH 对孤立主机的局限性。",
+              "supportid": [
+                "47245416",
+                "47245813",
+                "47245729",
+                "47245578",
+                "47245906",
+                "47246510",
+                "47246536"
+              ]
+            },
+            {
+              "category": "网络可见性与故障排查的担忧",
+              "summary": "多位评论者警告：随着更多握手元数据被加密，网络层的可见性迅速被吞噬，传统抓包与被动监测手段失效会让运维和网络团队难以排查故障。抽象层带来的便利往往比替代可观测工具投入要快得多，组织内部也常常不愿意把能力交还或投入足够资源来建立新流程。因此推广 ECH 时需要同步考虑替代的可观测手段和运维流程，否则故障发生时排查成本会显著上升。",
+              "supportid": [
+                "47246415",
+                "47246467",
+                "47246607"
+              ]
+            }
+          ],
+          "terminologies": [
+            {
+              "term": "ECH (Encrypted Client Hello)",
+              "explanation": "一种 TLS 扩展（RFC 9849），用于把 ClientHello 中的敏感字段（例如 SNI）加密，从而防止中间盒/ISP 通过握手明文识别目标主机名。"
+            },
+            {
+              "term": "ESNI (Encrypted SNI)",
+              "explanation": "ECH 的早期草案与前身，最初只关注加密 SNI 字段，后来扩展为更广的 ECH 设计。"
+            },
+            {
+              "term": "SNI (Server Name Indication)",
+              "explanation": "TLS 客户端在握手中以明文形式指示希望访问的主机名，用于虚拟主机路由，但会泄露目标站点信息。"
+            },
+            {
+              "term": "ClientHello (TLS ClientHello)",
+              "explanation": "TLS 握手的首个报文，包含加密套件、扩展和 SNI 等字段，是指纹技术（如 JA3/JA4）和路由决策的主要信息源；ECH 的目标就是加密其敏感部分。"
+            },
+            {
+              "term": "JA3 / JA4",
+              "explanation": "基于 TLS 握手字段生成的指纹哈希，常被用于被动识别客户端类型或爬虫行为，是许多 Bot 管理系统的信号之一。"
+            },
+            {
+              "term": "DoH / DoT (DNS over HTTPS / DNS over TLS)",
+              "explanation": "将 DNS 查询通过 HTTPS 或 TLS 加密以防止 DNS 查询被窃听或篡改，配合 ECH 可避免 DNS 层泄露域名。"
+            },
+            {
+              "term": "SVCB / HTTPS（DNS Service Bindings）",
+              "explanation": "一种 DNS 记录类型（RFC 9848），用于向客户端发布服务配置（例如指向 ECH 引导信息或替代端点），常被用作自动化 ECH 引导机制。"
+            },
+            {
+              "term": "DNSSEC",
+              "explanation": "为 DNS 响应提供签名与验证的扩展，用以防止攻击者伪造或篡改 SVCB/HTTPS 等引导记录。"
+            },
+            {
+              "term": "HSTS preload",
+              "explanation": "浏览器内置的强制使用 HTTPS 的域名白名单（预加载列表），可阻止降级到不安全的连接，评论中被提出作为防止 ECH 降级攻击的参考机制。"
+            },
+            {
+              "term": "OuterSNI",
+              "explanation": "在 ECH 的 outer 握手中公开的 SNI 值，用于路由；它可以与被加密的 inner hostname 不同，部署时可作为伪装或掩护使用。"
+            }
+          ],
+          "context": "RFC 9849 正式将 ECH（TLS Encrypted Client Hello）标准化，作为早期 ESNI 草案的演进，用以加密 TLS ClientHello 中会暴露目标主机名的字段。RFC 9848（DNS Service Bindings / SVCB/HTTPS）提供了通过 DNS 引导 ECH 的方法，实际部署常与 DoH/DoT 和 DNSSEC 结合以避免引导记录被篡改。讨论聚焦在真实世界部署（Caddy、nginx 分支、rustls、Android 集成）、运维兼容性（负载均衡、split DNS、回退策略）以及对被动 TLS 指纹（如 JA3/JA4）与爬虫检测的影响。评论同时提出用浏览器预加载机制（类似 HSTS preload）和加密/签名的 DNS 引导来缓解降级与中间人风险。",
+          "emoji": "🔒",
+          "sarcastic_question": "把ClientHello全加密了，运维去哪儿排查故障？"
+        }
+      },
+      "articleSummary": "## 一句话总结\nRFC 9849 定义了 ECH（Encrypted Client Hello）标准，通过在 TLS 握手阶段加密 Client Hello 消息，彻底解决了网络中间人窥探用户访问域名的问题。\n\n### TLS 握手最大的隐私漏洞：明文 SNI\n我们都知道 TLS 1.3 加密了几乎所有内容，但有一个明显的例外：Client Hello 消息中的 Server Name Indication (SNI)。说白了，当你的浏览器想访问 `example.com` 时，它必须先明文告诉服务器我想连谁。这就给网络中间人（ISP、防火墙）留下了可乘之机，他们不需要解密流量，只要看一眼 SNI，就知道你访问了哪个网站。虽然 ESN（Encrypted SNI）曾尝试解决这个问题，但它只加密了 SNI 字段，其他元数据仍可能泄露，而且部署复杂，最终没能成为标准。\n\n### 核心思路：把整个 Client Hello 装进加密信封\nECH 的核心思路其实很简单：既然只加密 SNI 不够，那就把整个 Client Hello 都加密。RFC 9849 引入了一个新的概念叫 \"ClientHelloOuter\" 和 \"ClientHelloInner\"。客户端会构造一个包含真实敏感信息（如真实域名、ALPN）的 \"Inner\" 消息，然后用服务器的公钥加密它。加密后的数据块被塞进 \"Outer\" 消息的扩展里。这样，中间人看到的 Outer 消息里只有伪装的域名，而真实意图被完全隐藏了起来。\n\n### 这里有个巧妙的设计：GREASE 填充防止流量分析\n光加密还不够，如果加密后的数据包长度特征太明显，攻击者还是能猜出你在访问什么。ECH 采用了 GREASE (Generate Random Extensions And Sustain Extensibility) 策略。客户端会在 Outer 消息中填充随机长度的无用数据，使得加密后的数据包长度看起来像是一个普通的 TLS 握手。这种混淆手段让基于数据包长度的流量分析变得极其困难，进一步增强了隐私保护。\n\n### 服务端如何解密：HPKE 密钥协商机制\n那服务器怎么知道怎么解密呢？这就用到了 HPKE (Hybrid Public Key Encryption)。服务器在 DNS 记录（如 HTTPS RR）中公布自己的 ECH 公钥。客户端拿到公钥后，用 HPKE 算法加密 Inner 消息。服务器收到后，用对应的私钥解密，还原出真实的 Client Hello。如果解密失败，服务器会回退到 Outer 消息中的配置，确保连接不会因为解密错误而直接中断，这是一种向后兼容的兜底设计。\n\n### 兼容性难题：如何处理不支持 ECH 的旧服务器\n现实情况是，并不是所有服务器都支持 ECH。如果客户端盲目发送 ECH 数据，可能会导致握手失败。RFC 9849 规定，客户端必须先检查 DNS 记录。如果服务器没有发布 ECH 配置，客户端就按标准 TLS 走；如果有，才尝试 ECH。更有意思的是，为了防止被探测，客户端在 \"尝试 ECH\" 和 \"不尝试 ECH\" 两种模式下，发送的 Outer 消息应该尽量相似，以免攻击者通过行为模式判断出客户端是否开启了隐私保护。\n\n### 最终效果：让网络监控变得“又瞎又聋”\n一旦 ECH 部署完成，网络监控者看到的将只是一堆乱码和一个伪装的域名（比如 `www.cloudflare.com`），完全无法判断用户真实访问的是哪个具体服务。这对于对抗审查和保护用户隐私意义重大。虽然目前这需要客户端和服务器（以及 DNS 提供商）的协同支持，但 RFC 9849 已经为未来的互联网隐私铺设了标准化的基石。"
+    },
     {
       "id": 47242193,
       "by": "abetusk",
@@ -13352,243 +13671,6 @@
         }
       },
       "articleSummary": "Noel Berry 拥有20年游戏开发经验，坚持不使用Unity或Unreal等商业引擎，而是基于现代C#和开源库构建自定义工作流。他认为这能提供更多控制权、减少开销，并避免引擎供应商的潜在风险。\n\n编程语言方面，Berry 采用现代 C#，利用其高性能、语法改进及 Native-AOT 工具链实现跨平台编译。他使用 `dotnet watch` 实现代码热重载，并利用 C# 反射机制结合 Dear ImGui 快速构建编辑器工具。\n\n底层技术栈选用 SDL3 作为跨平台抽象层，处理窗口、输入及渲染（支持 DirectX、Vulkan、Metal），并覆盖 Linux、Windows、Mac 及主机平台。音频方面使用 FMOD。资产加载采用直接读取或按需加载的简单实现，例如《City of None》的所有资产可在 0.4 秒内加载完毕。开发环境已完全迁移至 Linux，仅保留 Windows 用于测试。"
-    },
-    {
-      "id": 47216047,
-      "by": "robtherobber",
-      "title": "Microsoft bans the word \"Microslop\" on its Discord, then locks the server",
-      "url": "https://www.windowslatest.com/2026/03/02/microsoft-gets-tired-of-microslop-bans-the-word-on-its-discord-then-locks-the-server-after-backlash/",
-      "score": 909,
-      "detailUpdatedAt": 1772484195,
-      "createdAt": 1772454008,
-      "aiSummaryUpdatedAt": 1772484690,
-      "aisummary": {
-        "chinese_title": "Microsoft 在官方 Discord 封禁 “Microslop” 并锁服，引发 Streisand 效应",
-        "emoji": "💩",
-        "sarcastic_question": "封禁“Microslop”就能修好你们的产品吗？"
-      },
-      "classifications": {
-        "topics": [
-          9,
-          10,
-          1
-        ],
-        "facets": [
-          8
-        ],
-        "tags": [
-          "Microsoft",
-          "Discord",
-          "Microslop",
-          "Copilot",
-          "content-moderation",
-          "censorship",
-          "AI"
-        ]
-      },
-      "classificationsUpdatedAt": 1772454938,
-      "aiSummary": {
-        "chinese_title": "Microsoft 在官方 Discord 封禁 “Microslop” 并锁服，引发 Streisand 效应",
-        "emoji": "💩",
-        "sarcastic_question": "封禁“Microslop”就能修好你们的产品吗？"
-      },
-      "detail": {
-        "id": 47216047,
-        "by": "robtherobber",
-        "title": "Microsoft bans the word \"Microslop\" on its Discord, then locks the server",
-        "url": "https://www.windowslatest.com/2026/03/02/microsoft-gets-tired-of-microslop-bans-the-word-on-its-discord-then-locks-the-server-after-backlash/",
-        "score": 118,
-        "detailUpdatedAt": 1772454120,
-        "createdAt": 1772454008,
-        "aiSummaryUpdatedAt": 1772454670,
-        "aisummary": {
-          "chinese_title": "微软在官方 Copilot Discord 禁用“Microslop”并锁定服务器，引发审查与戏谑争议",
-          "discussion_overview": [
-            {
-              "category": "嘲讽绰号与怀旧传统",
-              "summary": "许多评论把“Microslop”视为延续微软被戏谑的长期传统，举例早期的别名如 Micro$oft、Microshaft、Windoze，以及 Amiga 平台上能读写 PC 磁盘的 MessyDos。评论还引用语言/地域变体（德语恶搞如 Klopilot、Vibrierkot）和当年篡改启动画面的怀旧梗（“Sinnlos 98”）来说明这种戏谑由来已久。有人进一步把嘲讽做成实体，例如指出已有 microslop.com 域名，显示现代社群会把这种绰号转化为标签或笑料素材。",
-              "supportid": [
-                "47216833",
-                "47216931",
-                "47216981",
-                "47217016",
-                "47216782"
-              ]
-            },
-            {
-              "category": "对微软审查/敏感性的批评",
-              "summary": "部分评论把禁词与锁服看作对批评的不耐受，直言这是公司“不能接受批评”的表现并且可能是更大模式的一部分，甚至有人把这种收敛和与政府关系挂钩来形容。评论指出这是官方的 Copilot Discord（官方产品社群），官方行为导致更多的媒体关注和讽刺，反而放大了负面影响。还有评论把管理者行为与“版主刻板印象”联系起来，认为过度删除和锁群是企业化社群治理的常见问题，而非个别小事。",
-              "supportid": [
-                "47216921",
-                "47217026",
-                "47216987",
-                "47216650",
-                "47216481"
-              ]
-            },
-            {
-              "category": "禁词合理性之争",
-              "summary": "评论中对“Microslop”是否构成侮辱存在明显分歧：一些人认为这是对公司名称的刻意贬损、属于侮辱性称呼，应被禁止；另一些人则把它视为反映产品质量不佳的合理批评，称若公司一直在交付“slop”，用户有权讥讽。争论中出现具体对比（如 M$ 与 Micro$oft 的用法）与防守/反击论据，有人以公司“自招的劣质产品”作为嘲讽正当性的证据，甚至用夸张玩笑（如把 Copilot/markdown 弄进 notepad 导致 RCE）来强调嘲讽缘由。整体讨论围绕“社群礼仪 vs. 真实批评”的界限，以及禁言是否为公关失误展开。",
-              "supportid": [
-                "47216623",
-                "47216976",
-                "47216645",
-                "47216930",
-                "47216963",
-                "47217013",
-                "47216714",
-                "47216910",
-                "47216949",
-                "47216660"
-              ]
-            },
-            {
-              "category": "自动化审核、AI 替代与公域社群风险",
-              "summary": "有评论怀疑是自动化审核/AI 阻断了该词，并进一步警惕公司用 AI 当作既省钱又便于推脱责任的藉口，认为高管可以指向“AI 决策”来规避问责。另一些人则质疑公开企业 Discord 的必要性，指出公域社群容易演变成需不断调停的戏剧现场，带来显著的监管开销。与此同时也有人提醒私有渠道并非万无一失：内部聊天可能变成“永久记录”并用于处分，反过来有人强调对 AI 这类具有政治与社会影响的技术维持公开讨论的重要性。",
-              "supportid": [
-                "47216924",
-                "47216954",
-                "47216975",
-                "47216315",
-                "47216669",
-                "47216740"
-              ]
-            },
-            {
-              "category": "戏谑、域名与轻松反应",
-              "summary": "另有一批评论把整件事当成可笑的插曲或无关痛痒的小事来反应，立即衍生各种玩笑绰号（如 Microshlong、Macroslop）并嘲讽报道本身的存在感。有人指出已有域名 microslop.com，说明戏谑被迅速商品化或品牌化；还有人提议把未来 AI 仍存在的劣品统一称为 'Microslop'，把讽刺转为标签式幽默。总体来看，这类评论以轻松、戏谑的语气淡化事件严肃性。",
-              "supportid": [
-                "47216600",
-                "47216650",
-                "47216782",
-                "47216718",
-                "47216642"
-              ]
-            }
-          ],
-          "terminologies": [
-            {
-              "term": "Microslop",
-              "explanation": "对 Microsoft 或其产品的贬称，指责产出质量低劣（slop），属于对公司名称的讥讽绰号，延续了像 Micro$oft、Windoze 之类的戏谑传统。"
-            },
-            {
-              "term": "Discord",
-              "explanation": "Discord（一个即时通讯与社群平台），常被用来建立公开或私有的项目/产品社区，支持频道、版主和自动化机器人用于审核与管理讨论。"
-            },
-            {
-              "term": "Copilot",
-              "explanation": "Copilot（Microsoft 的 AI 助手/产品系列，用于代码与生产力辅助），本次讨论涉及的 Discord 被提及为官方 Copilot 社群。"
-            }
-          ],
-          "context": "事情起因是微软在其官方社区（一处为 Copilot 产品服务的 Discord 服务器）屏蔽了“Microslop”这一讥讽性词汇并最终锁定服务器。评论把这件小事放在更大的语境里讨论：一方面延续了针对微软的历史性戏谑绰号传统，另一方面又触及企业社群治理、自动化审核与言论边界等现代议题。讨论假设读者了解公司会用公开 Discord 作为用户/开发者社群平台，但补充说明这种公开空间常伴随监管负担与 PR 风险。许多评论把 AI 审核、版主行为与公司政策联系起来，认为处理方式本身比被禁的词更能说明问题。",
-          "emoji": "🤦‍♂️",
-          "sarcastic_question": "连戏谑绰号都不能说，谁来保护言论自由？"
-        },
-        "classifications": {
-          "topics": [
-            9,
-            10,
-            1
-          ],
-          "facets": [
-            8
-          ],
-          "tags": [
-            "Microsoft",
-            "Discord",
-            "Microslop",
-            "Copilot",
-            "content-moderation",
-            "censorship",
-            "AI"
-          ]
-        },
-        "classificationsUpdatedAt": 1772454938,
-        "aiSummary": {
-          "chinese_title": "微软在官方 Copilot Discord 禁用“Microslop”并锁定服务器，引发审查与戏谑争议",
-          "discussion_overview": [
-            {
-              "category": "嘲讽绰号与怀旧传统",
-              "summary": "许多评论把“Microslop”视为延续微软被戏谑的长期传统，举例早期的别名如 Micro$oft、Microshaft、Windoze，以及 Amiga 平台上能读写 PC 磁盘的 MessyDos。评论还引用语言/地域变体（德语恶搞如 Klopilot、Vibrierkot）和当年篡改启动画面的怀旧梗（“Sinnlos 98”）来说明这种戏谑由来已久。有人进一步把嘲讽做成实体，例如指出已有 microslop.com 域名，显示现代社群会把这种绰号转化为标签或笑料素材。",
-              "supportid": [
-                "47216833",
-                "47216931",
-                "47216981",
-                "47217016",
-                "47216782"
-              ]
-            },
-            {
-              "category": "对微软审查/敏感性的批评",
-              "summary": "部分评论把禁词与锁服看作对批评的不耐受，直言这是公司“不能接受批评”的表现并且可能是更大模式的一部分，甚至有人把这种收敛和与政府关系挂钩来形容。评论指出这是官方的 Copilot Discord（官方产品社群），官方行为导致更多的媒体关注和讽刺，反而放大了负面影响。还有评论把管理者行为与“版主刻板印象”联系起来，认为过度删除和锁群是企业化社群治理的常见问题，而非个别小事。",
-              "supportid": [
-                "47216921",
-                "47217026",
-                "47216987",
-                "47216650",
-                "47216481"
-              ]
-            },
-            {
-              "category": "禁词合理性之争",
-              "summary": "评论中对“Microslop”是否构成侮辱存在明显分歧：一些人认为这是对公司名称的刻意贬损、属于侮辱性称呼，应被禁止；另一些人则把它视为反映产品质量不佳的合理批评，称若公司一直在交付“slop”，用户有权讥讽。争论中出现具体对比（如 M$ 与 Micro$oft 的用法）与防守/反击论据，有人以公司“自招的劣质产品”作为嘲讽正当性的证据，甚至用夸张玩笑（如把 Copilot/markdown 弄进 notepad 导致 RCE）来强调嘲讽缘由。整体讨论围绕“社群礼仪 vs. 真实批评”的界限，以及禁言是否为公关失误展开。",
-              "supportid": [
-                "47216623",
-                "47216976",
-                "47216645",
-                "47216930",
-                "47216963",
-                "47217013",
-                "47216714",
-                "47216910",
-                "47216949",
-                "47216660"
-              ]
-            },
-            {
-              "category": "自动化审核、AI 替代与公域社群风险",
-              "summary": "有评论怀疑是自动化审核/AI 阻断了该词，并进一步警惕公司用 AI 当作既省钱又便于推脱责任的藉口，认为高管可以指向“AI 决策”来规避问责。另一些人则质疑公开企业 Discord 的必要性，指出公域社群容易演变成需不断调停的戏剧现场，带来显著的监管开销。与此同时也有人提醒私有渠道并非万无一失：内部聊天可能变成“永久记录”并用于处分，反过来有人强调对 AI 这类具有政治与社会影响的技术维持公开讨论的重要性。",
-              "supportid": [
-                "47216924",
-                "47216954",
-                "47216975",
-                "47216315",
-                "47216669",
-                "47216740"
-              ]
-            },
-            {
-              "category": "戏谑、域名与轻松反应",
-              "summary": "另有一批评论把整件事当成可笑的插曲或无关痛痒的小事来反应，立即衍生各种玩笑绰号（如 Microshlong、Macroslop）并嘲讽报道本身的存在感。有人指出已有域名 microslop.com，说明戏谑被迅速商品化或品牌化；还有人提议把未来 AI 仍存在的劣品统一称为 'Microslop'，把讽刺转为标签式幽默。总体来看，这类评论以轻松、戏谑的语气淡化事件严肃性。",
-              "supportid": [
-                "47216600",
-                "47216650",
-                "47216782",
-                "47216718",
-                "47216642"
-              ]
-            }
-          ],
-          "terminologies": [
-            {
-              "term": "Microslop",
-              "explanation": "对 Microsoft 或其产品的贬称，指责产出质量低劣（slop），属于对公司名称的讥讽绰号，延续了像 Micro$oft、Windoze 之类的戏谑传统。"
-            },
-            {
-              "term": "Discord",
-              "explanation": "Discord（一个即时通讯与社群平台），常被用来建立公开或私有的项目/产品社区，支持频道、版主和自动化机器人用于审核与管理讨论。"
-            },
-            {
-              "term": "Copilot",
-              "explanation": "Copilot（Microsoft 的 AI 助手/产品系列，用于代码与生产力辅助），本次讨论涉及的 Discord 被提及为官方 Copilot 社群。"
-            }
-          ],
-          "context": "事情起因是微软在其官方社区（一处为 Copilot 产品服务的 Discord 服务器）屏蔽了“Microslop”这一讥讽性词汇并最终锁定服务器。评论把这件小事放在更大的语境里讨论：一方面延续了针对微软的历史性戏谑绰号传统，另一方面又触及企业社群治理、自动化审核与言论边界等现代议题。讨论假设读者了解公司会用公开 Discord 作为用户/开发者社群平台，但补充说明这种公开空间常伴随监管负担与 PR 风险。许多评论把 AI 审核、版主行为与公司政策联系起来，认为处理方式本身比被禁的词更能说明问题。",
-          "emoji": "🤦‍♂️",
-          "sarcastic_question": "连戏谑绰号都不能说，谁来保护言论自由？"
-        }
-      },
-      "articleSummary": "微软在其官方Discord服务器上屏蔽了“Microslop”一词，并随后因用户反弹而锁定了服务器。该措施主要针对Copilot官方Discord频道，管理员使用Automod工具将“Microslop”列为被禁词汇，触犯该规则的用户会被自动封禁。此举引发了用户的不满，导致部分用户在频道内刷屏使用不雅绰号以抗议审查。作为回应，微软暂时锁定了相关频道以控制局势。此次事件反映了微软在推广AI产品过程中面临的社区管理挑战，特别是在处理用户负面反馈和品牌批评时的紧张关系。"
     }
   ]
 }
