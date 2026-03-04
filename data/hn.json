@@ -1,6 +1,488 @@
 {
-  "updatedAt": "2026-03-04T12:42:56.934Z",
+  "updatedAt": "2026-03-04T13:34:34.279Z",
   "items": [
+    {
+      "id": 47242193,
+      "by": "abetusk",
+      "title": "Graphics Programming Resources",
+      "url": "https://develop--gpvm-website.netlify.app/resources/",
+      "score": 125,
+      "detailUpdatedAt": 1772630037,
+      "createdAt": 1772594458,
+      "aiSummaryUpdatedAt": 1772630787,
+      "aisummary": {
+        "chinese_title": "图形编程资源：develop 分支未合并、嵌入式无GPU粗线算法与体素参考",
+        "emoji": "🛠️",
+        "sarcastic_question": "没有 GPU，就指望画又快又粗的线？"
+      },
+      "classifications": {
+        "topics": [
+          4,
+          7
+        ],
+        "facets": [
+          5
+        ],
+        "tags": [
+          "Graphics Programming",
+          "Graphics Programming Virtual Meetup (GPVM)",
+          "Line drawing",
+          "Thick lines",
+          "No GPU",
+          "Netlify"
+        ]
+      },
+      "classificationsUpdatedAt": 1772614604,
+      "aiSummary": {
+        "chinese_title": "图形编程资源：develop 分支未合并、嵌入式无GPU粗线算法与体素参考",
+        "emoji": "🛠️",
+        "sarcastic_question": "没有 GPU，就指望画又快又粗的线？"
+      },
+      "detail": {
+        "id": 47242193,
+        "by": "abetusk",
+        "title": "Graphics Programming Resources",
+        "url": "https://develop--gpvm-website.netlify.app/resources/",
+        "score": 125,
+        "detailUpdatedAt": 1772630037,
+        "createdAt": 1772594458,
+        "aiSummaryUpdatedAt": 1772630787,
+        "aisummary": {
+          "chinese_title": "图形编程资源：develop 分支未合并、嵌入式无GPU粗线算法与体素参考",
+          "discussion_overview": [
+            {
+              "category": "资源状态与来源说明",
+              "summary": "评论指出该资源尚未合并到主站，而是放在仓库的 develop 分支，页面上还有很多条目未被添加，发布者甚至为此专门注册账号提醒。原提交者在回复中承认是自己发的，并说明这来源于 lobste.rs 的帖子，同时贴出父页面“Graphics Programming Virtual Meetup”（gpvm-website.netlify.app）。另有评论核实提交者身份，指出新闻下方的提交者链接显示为 abetusk，表明这是社区共享的草稿型清单而非最终整理版。",
+              "supportid": [
+                "47242777",
+                "47243617",
+                "47242984"
+              ]
+            },
+            {
+              "category": "嵌入式无GPU环境下的粗线绘制算法与折衷",
+              "summary": "一位读者抱怨在仅有 framebuffer、无 GPU 的嵌入式 CPU 上苦于实现高速带宽的粗线绘制，讨论聚焦在如何在软件渲染中兼顾性能与视觉正确性。有人推荐经典教材《Computer Graphics: Principles and Practice》、公开 gist 示例与 Bresenham 算法作为入门，但也指出 Bresenham 本身只给出单像素线，不能直接处理线宽问题。更详细的方案讨论包括将线段沿法线扩展为矩形并连接角点（但这样会引入需要三角形或扫描线光栅化的情形），以及“拖动画笔”法——在每个像素位置绘制圆形/精灵来模拟线宽，虽然实现简单但会导致大量过绘和性能开销。部分评论建议用 LLM（如 Gemini/ChatGPT/Claude）生成示例代码以快速验证思路，但也有评论直接批评这些建议“很糟糕”，反映实现时性能与正确性间真实的权衡与争议。",
+              "supportid": [
+                "47243855",
+                "47244123",
+                "47244692",
+                "47243934",
+                "47244408",
+                "47244435",
+                "47245778"
+              ]
+            },
+            {
+              "category": "体积渲染（Volumetrics）与体素（Voxel）资料缺失与补充",
+              "summary": "有人指出资源列表中缺少体积渲染（volumetrics）相关内容，认为这是一个明显的空白领域。作为补充，其他评论者提供了 voxel.wiki 的参考页，推荐把体素（voxel）与体积渲染相关的文献和参考集合加入资源清单。该回复把读者直接引导到专门的体素/体积参考集合，弥补了原清单在体积渲染方向的不足。",
+              "supportid": [
+                "47242721",
+                "47245473"
+              ]
+            }
+          ],
+          "terminologies": [
+            {
+              "term": "framebuffer",
+              "explanation": "framebuffer（帧缓冲）：保存显示器或屏幕像素数据的内存区域，常见于无 GPU 的嵌入式设备上，软件需要直接写入此缓冲区来实现渲染。"
+            },
+            {
+              "term": "GPU",
+              "explanation": "GPU（图形处理单元）：用于并行加速光栅化、着色等图形操作的专用硬件；在没有 GPU 的平台上，所有渲染负担需由 CPU 和软件算法承担。"
+            },
+            {
+              "term": "Bresenham's line algorithm",
+              "explanation": "Bresenham's line algorithm：一种高效的整数算法，用于在栅格上绘制单像素直线，常作为软件绘线的基础但并不直接支持线宽。"
+            },
+            {
+              "term": "scanline rasterizer",
+              "explanation": "scanline rasterizer（扫描线光栅化器）：按水平扫描线逐行处理并填充多边形像素的渲染方法，适用于软件光栅化以解决连接与填充问题。"
+            },
+            {
+              "term": "triangle rasterizer",
+              "explanation": "triangle rasterizer（三角形光栅化器）：将三角形投影到屏幕并逐像素确定填充的方法，是将顶点/边缘连接后实现正确闭合绘制的基础组件。"
+            },
+            {
+              "term": "volumetrics",
+              "explanation": "volumetrics（体积渲染）：处理烟雾、雾、体积光等三维体积数据的渲染技术，通常依赖体素或体积纹理与光线步进算法。"
+            },
+            {
+              "term": "voxel",
+              "explanation": "voxel（体素）：三维栅格空间中的体积单元，相当于 3D 的像素，常用于体积表示与体素渲染的基本单元。"
+            },
+            {
+              "term": "software rendering",
+              "explanation": "software rendering（软件渲染）：在 CPU 上以软件方式实现图形管线和光栅化流程，不依赖 GPU 硬件，常用于嵌入式或教学场景但对性能和实现复杂度有较高要求。"
+            }
+          ],
+          "context": "贴子链接到一个面向图形编程的资源清单（当前在 develop 分支上），评论提出该清单未合并且条目不全。讨论既涉及资源的来源与维护（交叉发布于 lobste.rs，提交者为 abetusk，父页面为 Graphics Programming Virtual Meetup），也聚焦技术问题，尤其是在只有 framebuffer、无 GPU 的嵌入式环境下如何高效实现带宽的线段绘制。社区引用了经典教材《Computer Graphics: Principles and Practice》、Bresenham 算法、gist 示例以及 voxel.wiki 等外部参考，并展开关于将线扩展为矩形、连接角点需要三角/扫描线光栅化或采用“画笔”过绘法等具体折衷的讨论。讨论假定读者懂得 GPU 与软件渲染的区别、栅格化基础与嵌入式平台性能限制，核心是寻找在受限硬件上兼顾性能与视觉正确性的可行方案。",
+          "emoji": "🛠️",
+          "sarcastic_question": "没有 GPU，就指望画又快又粗的线？"
+        },
+        "classifications": {
+          "topics": [
+            4,
+            7
+          ],
+          "facets": [
+            5
+          ],
+          "tags": [
+            "Graphics Programming",
+            "Graphics Programming Virtual Meetup (GPVM)",
+            "Line drawing",
+            "Thick lines",
+            "No GPU",
+            "Netlify"
+          ]
+        },
+        "classificationsUpdatedAt": 1772614604,
+        "aiSummary": {
+          "chinese_title": "图形编程资源：develop 分支未合并、嵌入式无GPU粗线算法与体素参考",
+          "discussion_overview": [
+            {
+              "category": "资源状态与来源说明",
+              "summary": "评论指出该资源尚未合并到主站，而是放在仓库的 develop 分支，页面上还有很多条目未被添加，发布者甚至为此专门注册账号提醒。原提交者在回复中承认是自己发的，并说明这来源于 lobste.rs 的帖子，同时贴出父页面“Graphics Programming Virtual Meetup”（gpvm-website.netlify.app）。另有评论核实提交者身份，指出新闻下方的提交者链接显示为 abetusk，表明这是社区共享的草稿型清单而非最终整理版。",
+              "supportid": [
+                "47242777",
+                "47243617",
+                "47242984"
+              ]
+            },
+            {
+              "category": "嵌入式无GPU环境下的粗线绘制算法与折衷",
+              "summary": "一位读者抱怨在仅有 framebuffer、无 GPU 的嵌入式 CPU 上苦于实现高速带宽的粗线绘制，讨论聚焦在如何在软件渲染中兼顾性能与视觉正确性。有人推荐经典教材《Computer Graphics: Principles and Practice》、公开 gist 示例与 Bresenham 算法作为入门，但也指出 Bresenham 本身只给出单像素线，不能直接处理线宽问题。更详细的方案讨论包括将线段沿法线扩展为矩形并连接角点（但这样会引入需要三角形或扫描线光栅化的情形），以及“拖动画笔”法——在每个像素位置绘制圆形/精灵来模拟线宽，虽然实现简单但会导致大量过绘和性能开销。部分评论建议用 LLM（如 Gemini/ChatGPT/Claude）生成示例代码以快速验证思路，但也有评论直接批评这些建议“很糟糕”，反映实现时性能与正确性间真实的权衡与争议。",
+              "supportid": [
+                "47243855",
+                "47244123",
+                "47244692",
+                "47243934",
+                "47244408",
+                "47244435",
+                "47245778"
+              ]
+            },
+            {
+              "category": "体积渲染（Volumetrics）与体素（Voxel）资料缺失与补充",
+              "summary": "有人指出资源列表中缺少体积渲染（volumetrics）相关内容，认为这是一个明显的空白领域。作为补充，其他评论者提供了 voxel.wiki 的参考页，推荐把体素（voxel）与体积渲染相关的文献和参考集合加入资源清单。该回复把读者直接引导到专门的体素/体积参考集合，弥补了原清单在体积渲染方向的不足。",
+              "supportid": [
+                "47242721",
+                "47245473"
+              ]
+            }
+          ],
+          "terminologies": [
+            {
+              "term": "framebuffer",
+              "explanation": "framebuffer（帧缓冲）：保存显示器或屏幕像素数据的内存区域，常见于无 GPU 的嵌入式设备上，软件需要直接写入此缓冲区来实现渲染。"
+            },
+            {
+              "term": "GPU",
+              "explanation": "GPU（图形处理单元）：用于并行加速光栅化、着色等图形操作的专用硬件；在没有 GPU 的平台上，所有渲染负担需由 CPU 和软件算法承担。"
+            },
+            {
+              "term": "Bresenham's line algorithm",
+              "explanation": "Bresenham's line algorithm：一种高效的整数算法，用于在栅格上绘制单像素直线，常作为软件绘线的基础但并不直接支持线宽。"
+            },
+            {
+              "term": "scanline rasterizer",
+              "explanation": "scanline rasterizer（扫描线光栅化器）：按水平扫描线逐行处理并填充多边形像素的渲染方法，适用于软件光栅化以解决连接与填充问题。"
+            },
+            {
+              "term": "triangle rasterizer",
+              "explanation": "triangle rasterizer（三角形光栅化器）：将三角形投影到屏幕并逐像素确定填充的方法，是将顶点/边缘连接后实现正确闭合绘制的基础组件。"
+            },
+            {
+              "term": "volumetrics",
+              "explanation": "volumetrics（体积渲染）：处理烟雾、雾、体积光等三维体积数据的渲染技术，通常依赖体素或体积纹理与光线步进算法。"
+            },
+            {
+              "term": "voxel",
+              "explanation": "voxel（体素）：三维栅格空间中的体积单元，相当于 3D 的像素，常用于体积表示与体素渲染的基本单元。"
+            },
+            {
+              "term": "software rendering",
+              "explanation": "software rendering（软件渲染）：在 CPU 上以软件方式实现图形管线和光栅化流程，不依赖 GPU 硬件，常用于嵌入式或教学场景但对性能和实现复杂度有较高要求。"
+            }
+          ],
+          "context": "贴子链接到一个面向图形编程的资源清单（当前在 develop 分支上），评论提出该清单未合并且条目不全。讨论既涉及资源的来源与维护（交叉发布于 lobste.rs，提交者为 abetusk，父页面为 Graphics Programming Virtual Meetup），也聚焦技术问题，尤其是在只有 framebuffer、无 GPU 的嵌入式环境下如何高效实现带宽的线段绘制。社区引用了经典教材《Computer Graphics: Principles and Practice》、Bresenham 算法、gist 示例以及 voxel.wiki 等外部参考，并展开关于将线扩展为矩形、连接角点需要三角/扫描线光栅化或采用“画笔”过绘法等具体折衷的讨论。讨论假定读者懂得 GPU 与软件渲染的区别、栅格化基础与嵌入式平台性能限制，核心是寻找在受限硬件上兼顾性能与视觉正确性的可行方案。",
+          "emoji": "🛠️",
+          "sarcastic_question": "没有 GPU，就指望画又快又粗的线？"
+        }
+      },
+      "articleSummary": "## 一句话总结\n这是一个图形编程领域的精选资源导航站，涵盖了从 OpenGL 入门、光线追踪原理到 Vulkan/CUDA 底层优化的全链路硬核学习路径。\n\n### 资源站不是简单的链接堆砌，而是按学习路径精心分类的地图\n这个页面由图形编程聚会（GPVM）的参与者共同维护，核心目的是解决开发者“不知道该学什么”的痛点。它没有罗列所有网上的资料，而是精选了高质量的教程、书籍和课程。页面左侧的侧边栏分类非常细致，从 Beginner Friendly 到具体的 Ray Tracing、Vulkan、CUDA 等细分领域，基本上你能想到的图形学技术点都能在这里找到对应的入口。\n\n### 想学实时渲染？Learn OpenGL 依然是绕不开的“第一课”\n对于想入门实时渲染的开发者，Learn OpenGL 被放在了推荐首位。虽然它教的是 OpenGL，但核心价值在于它通过 C++ 和 GLSL 讲透了渲染管线背后的技术原理。这比单纯看 API 文档要有效得多。如果你想从零开始写一个渲染器，这里依然是最好的起点，因为它把理论和代码结合得非常紧密。\n\n### 光线追踪入门：从“周末系列”到工业级 PBRT 的进阶之路\n在光线追踪领域，资源站给出了清晰的进阶路线。入门首推 Ray Tracing in One Weekend 系列，它用最简短的 C++ 代码让你快速跑通一个 Path Tracer。但这只是玩具级渲染器，想深入理解工业级实现，必须看 Dartmouth 的 CS87 课程，它填补了玩具渲染器和 PBRT（Physically Based Rendering）之间的巨大鸿沟。PBRT 这本书则是业界的“圣经”，专门讲物理渲染和光线传输理论。\n\n### 软件渲染器是理解 GPU 工作原理的最佳捷径\n有时候 API 调用会掩盖底层真相，所以 Tinyrenderer 这个项目非常值得一看。它只用 500 行 C++ 代码实现了一个软件光栅化器。这能帮你彻底搞清楚三角形是怎么画到屏幕上的，透视投影和纹理映射到底是怎么算的。这种“手写”的过程，能让你对现代 GPU 的固定功能管线有更深的直觉。\n\n### 现代 API 开发：Vulkan 和 CUDA 的硬核实战\n当你转向现代底层 API 时，VkGuide 是学习 Vulkan 的最佳实战教程，它的目标是让你能真正上手做项目，而不仅仅是读懂概念。配合官方的 Vulkan Specification 随时查阅，基本能解决大部分开发问题。而在 GPU 计算方面，UPenn 的 CIS 5650 课程（2025版）非常硬核，它结合了 CUDA 和图形学应用，专门讲 GPU 并行编程架构，适合想深入 Compute Shader 的开发者。\n\n### 性能优化的关键：掌握 BVH 加速结构\n图形学里很多性能瓶颈都在于算法，尤其是光线求交。资源里专门推荐了 How to build a BVH 系列博客和 PBRT 中关于 Bounding Volume Hierarchies 的章节。BVH（包围体层次结构）是加速光线追踪的核心数据结构，搞懂它的构建和遍历算法，是写出高性能渲染器的必修课。这部分内容比较数学化，但也是区分“能跑”和“跑得快”的分水岭。"
+    },
+    {
+      "id": 47243069,
+      "by": "cypres",
+      "title": "A CPU that runs entirely on GPU",
+      "url": "https://github.com/robertcprice/nCPU",
+      "score": 133,
+      "detailUpdatedAt": 1772628236,
+      "createdAt": 1772605262,
+      "aiSummaryUpdatedAt": 1772629104,
+      "aisummary": {
+        "chinese_title": "在GPU上用神经网络实现完整CPU（Aarch64 仿真，目标在GPU上运行操作系统）",
+        "emoji": "🧪",
+        "sarcastic_question": "把GPU当CPU用，是技术进步还是能源浪费？"
+      },
+      "classifications": {
+        "topics": [
+          6,
+          7,
+          1
+        ],
+        "facets": [
+          4
+        ],
+        "tags": [
+          "nCPU",
+          "GPU",
+          "CPU",
+          "neural network",
+          "LLMs",
+          "Linux",
+          "robertcprice",
+          "GitHub"
+        ]
+      },
+      "classificationsUpdatedAt": 1772609192,
+      "aiSummary": {
+        "chinese_title": "在GPU上用神经网络实现完整CPU（Aarch64 仿真，目标在GPU上运行操作系统）",
+        "emoji": "🧪",
+        "sarcastic_question": "把GPU当CPU用，是技术进步还是能源浪费？"
+      },
+      "detail": {
+        "id": 47243069,
+        "by": "cypres",
+        "title": "A CPU that runs entirely on GPU",
+        "url": "https://github.com/robertcprice/nCPU",
+        "score": 133,
+        "detailUpdatedAt": 1772628236,
+        "createdAt": 1772605262,
+        "aiSummaryUpdatedAt": 1772629104,
+        "aisummary": {
+          "chinese_title": "在GPU上用神经网络实现完整CPU（Aarch64 仿真，目标在GPU上运行操作系统）",
+          "discussion_overview": [
+            {
+              "category": "实验性与趣味性（能做但效率低）",
+              "summary": "作者把该项目定义为一个“can I do it”的实验性尝试，目标是用神经网络在 GPU 上模拟完整的 Aarch64 ISA，最终希望能在 GPU 上运行操作系统或“learned systems”。评论普遍把它看作创意十足的黑客式证明概念，不是为性能优化：有人测得基于加减运算的实现比 2.5GHz 的 CPU 慢约 625,000 倍。许多回复以类似“在 Game of Life 或 Minecraft 里实现 CPU”的趣味项目为类比，称赞新奇但质疑实用价值与可扩展性。对“每个 ALU 操作由训练好的神经网络替代”这一思路，有人既感到好奇也觉得不符合他们对“有趣”的期待。",
+              "supportid": [
+                "47246559",
+                "47243836",
+                "47244199",
+                "47246083",
+                "47245613"
+              ]
+            },
+            {
+              "category": "架构差异与不可完全替代性",
+              "summary": "多位评论者强调 GPU 与 CPU 在设计哲学和内存/调度模型上根本不同：CPU 尽力最小化延迟并擅长分支密集与非线性内存访问，而 GPU 借助大规模并行来隐藏延迟、偏好线性访问和高局部性。因此在需要精确控制流或串行依赖的工作负载上，GPU 难以直接替代 CPU；有人以内存体系（HBM 与 NUMA）和访问模式为例说明这一点。一些评论认为未来更可能是异构融合（例如 Apple M 系列那类统一内存的 APU/iGPU），而不是把所有工作负载都迁到 GPU。评论还提到厂商策略和生态（如 Nvidia 的护城河）会影响这种融合的进程。",
+              "supportid": [
+                "47245005",
+                "47245933",
+                "47246186",
+                "47245217",
+                "47246063",
+                "47245640"
+              ]
+            },
+            {
+              "category": "实现细节与性能怪异（MUL/ADD差异、硬件与训练选择）",
+              "summary": "技术讨论集中在为什么用 NN 实现会导致奇怪的指令速度比：评论指出作者的神经型查找表或映射消除了某些串联依赖，从而使得乘法在该实现中反而比加法快（评论里提到 multiplication 比 addition 快约 12x）。有人解释了传统硬件中单周期乘法需要专用电路，否则需要用移位和多次加法实现，因此不同实现路径的复杂度不同。许多人质疑为何用 NN 去学那些 GPU 本身已有的硬件操作（如 sqrt、ADD/MUL），并建议若要追求速度应直接利用 GPU 的浮点指令或采用 qemu 式的指令到 shader 的翻译策略以大幅提升仿真速度。这些具体实现选择直接导致了“速度奇异”和精度/训练开销等现实权衡。",
+              "supportid": [
+                "47244086",
+                "47243809",
+                "47244767",
+                "47245291",
+                "47245909",
+                "47244199"
+              ]
+            },
+            {
+              "category": "软件生态与应用场景（运行OS、图形仿真、LLM集成）",
+              "summary": "评论讨论了该项目在软件生态中的潜在用途：有人建议把这个 ISA 作为后端去实现像 LLVMPipe（Mesa 的软件 OpenGL 光栅器）那样的软件渲染“硬件加速”版，或将已有软件（如 Linux、Doom）在该层面跑起来以示范完整性。关于 AI/LLM，有评论认为能让大型语言模型在内部可靠地做精确算术是有价值的——有人设想把部分字节码或关键循环交给这种“学习型 CPU”做精确计算以辅助推理。也有人异想天开地猜测如果自改进的 AI 把这种技术纳入自身架构，可能带来“语言+二进制”层面的能力融合。总体上，应用讨论既有现实性的工具整合想法，也有较多的幽默/夸张设想。",
+              "supportid": [
+                "47246175",
+                "47244607",
+                "47243836",
+                "47243763",
+                "47246559",
+                "47245872"
+              ]
+            },
+            {
+              "category": "能耗、商业与实用性的讽刺与担忧",
+              "summary": "部分评论以讽刺或愤慨口吻质疑把 GPU 用作通用 CPU 的商业与能耗合理性，有人直言这是“do-because-I-can”的作法并揶揄 GPU 与电力公司将成为受益者。评论里出现夸张能耗预估（例如接近一兆瓦的戏谑）以强调用 GPU 仿真 CPU 在功耗上的荒谬性。也有人把鼓吹全面用 GPU 的观点称为“clueless”，用比喻指出不同工具应当用于不同任务。整体情绪混合了好奇、揶揄与对实际成本的担忧。",
+              "supportid": [
+                "47246489",
+                "47244322",
+                "47245377",
+                "47244741"
+              ]
+            }
+          ],
+          "terminologies": [
+            {
+              "term": "ALU",
+              "explanation": "Arithmetic Logic Unit，算术逻辑单元，CPU 中执行加/减/乘/逻辑等基本运算的部件；讨论中指作者用训练好的神经网络替代传统 ALU 实现运算。"
+            },
+            {
+              "term": "ISA",
+              "explanation": "Instruction Set Architecture，指令集架构，定义机器可执行指令的集合；项目声称在 GPU 上模拟完整的 ISA（具体为 Aarch64）。"
+            },
+            {
+              "term": "Aarch64",
+              "explanation": "Aarch64：ARM 的 64 位指令集（ARMv8 及以后），常见于移动和服务器 CPU，评论提到作者实现了 Aarch64 的仿真。"
+            },
+            {
+              "term": "LLVMPipe",
+              "explanation": "LLVMPipe（Mesa 的软件 OpenGL 光栅器/后端），用于 CPU 上的软件渲染；评论建议把该项目当作后端以实现“软件渲染+硬件号称加速”。"
+            },
+            {
+              "term": "HBM",
+              "explanation": "HBM (High Bandwidth Memory)，高带宽内存，常见于 GPU 封装侧，评论中被提出为可能把 GPU 类内存集成在封装上的方案以降低数据移动成本。"
+            },
+            {
+              "term": "NUMA",
+              "explanation": "NUMA (Non-Uniform Memory Access)，非一致性内存访问，指多处理器系统中不同内存区域访问延迟不同；评论用它来类比 GPU 的私有/全局内存层次与 CPU 的内存语义差异。"
+            },
+            {
+              "term": "qemu",
+              "explanation": "qemu（开源虚拟化与动态二进制翻译工具），可以将一套指令动态翻译为宿主架构的代码；评论提到用 qemu 式的指令到 shader 的翻译可以显著加速在 GPU 上的 CPU 仿真。"
+            },
+            {
+              "term": "shader",
+              "explanation": "shader（图形着色器），在 GPU 上运行的小程序单元；讨论中有人建议将 CPU 指令预编译为 shader 以提高仿真速度。"
+            }
+          ],
+          "context": "讨论围绕一个把完整 CPU 指令集（作者实现了 Aarch64 仿真）完全在 GPU 上，并用训练好的神经网络替代 ALU 操作的实验项目展开。作者称这是个“能不能做”的实验，长期目标包括在 GPU 上运行操作系统或用“learned systems”重构系统组件。评论基于硬件架构差异（GPU 以并行隐藏延迟，CPU 以低延迟和对分支/非线性内存访问的优化为主）、内存体系（如 HBM——GPU 高带宽内存 与 NUMA——非一致性内存访问）以及实现策略（如用 qemu 式翻译或把指令编译为 shader）来评估可行性与实用性。总体上社区把该项目视为有趣的技术展示，但对其性能、能耗和能否替代传统 CPU 持高度怀疑。",
+          "emoji": "🧪",
+          "sarcastic_question": "把GPU当CPU用，是技术进步还是能源浪费？"
+        },
+        "classifications": {
+          "topics": [
+            6,
+            7,
+            1
+          ],
+          "facets": [
+            4
+          ],
+          "tags": [
+            "nCPU",
+            "GPU",
+            "CPU",
+            "neural network",
+            "LLMs",
+            "Linux",
+            "robertcprice",
+            "GitHub"
+          ]
+        },
+        "classificationsUpdatedAt": 1772609192,
+        "aiSummary": {
+          "chinese_title": "在GPU上用神经网络实现完整CPU（Aarch64 仿真，目标在GPU上运行操作系统）",
+          "discussion_overview": [
+            {
+              "category": "实验性与趣味性（能做但效率低）",
+              "summary": "作者把该项目定义为一个“can I do it”的实验性尝试，目标是用神经网络在 GPU 上模拟完整的 Aarch64 ISA，最终希望能在 GPU 上运行操作系统或“learned systems”。评论普遍把它看作创意十足的黑客式证明概念，不是为性能优化：有人测得基于加减运算的实现比 2.5GHz 的 CPU 慢约 625,000 倍。许多回复以类似“在 Game of Life 或 Minecraft 里实现 CPU”的趣味项目为类比，称赞新奇但质疑实用价值与可扩展性。对“每个 ALU 操作由训练好的神经网络替代”这一思路，有人既感到好奇也觉得不符合他们对“有趣”的期待。",
+              "supportid": [
+                "47246559",
+                "47243836",
+                "47244199",
+                "47246083",
+                "47245613"
+              ]
+            },
+            {
+              "category": "架构差异与不可完全替代性",
+              "summary": "多位评论者强调 GPU 与 CPU 在设计哲学和内存/调度模型上根本不同：CPU 尽力最小化延迟并擅长分支密集与非线性内存访问，而 GPU 借助大规模并行来隐藏延迟、偏好线性访问和高局部性。因此在需要精确控制流或串行依赖的工作负载上，GPU 难以直接替代 CPU；有人以内存体系（HBM 与 NUMA）和访问模式为例说明这一点。一些评论认为未来更可能是异构融合（例如 Apple M 系列那类统一内存的 APU/iGPU），而不是把所有工作负载都迁到 GPU。评论还提到厂商策略和生态（如 Nvidia 的护城河）会影响这种融合的进程。",
+              "supportid": [
+                "47245005",
+                "47245933",
+                "47246186",
+                "47245217",
+                "47246063",
+                "47245640"
+              ]
+            },
+            {
+              "category": "实现细节与性能怪异（MUL/ADD差异、硬件与训练选择）",
+              "summary": "技术讨论集中在为什么用 NN 实现会导致奇怪的指令速度比：评论指出作者的神经型查找表或映射消除了某些串联依赖，从而使得乘法在该实现中反而比加法快（评论里提到 multiplication 比 addition 快约 12x）。有人解释了传统硬件中单周期乘法需要专用电路，否则需要用移位和多次加法实现，因此不同实现路径的复杂度不同。许多人质疑为何用 NN 去学那些 GPU 本身已有的硬件操作（如 sqrt、ADD/MUL），并建议若要追求速度应直接利用 GPU 的浮点指令或采用 qemu 式的指令到 shader 的翻译策略以大幅提升仿真速度。这些具体实现选择直接导致了“速度奇异”和精度/训练开销等现实权衡。",
+              "supportid": [
+                "47244086",
+                "47243809",
+                "47244767",
+                "47245291",
+                "47245909",
+                "47244199"
+              ]
+            },
+            {
+              "category": "软件生态与应用场景（运行OS、图形仿真、LLM集成）",
+              "summary": "评论讨论了该项目在软件生态中的潜在用途：有人建议把这个 ISA 作为后端去实现像 LLVMPipe（Mesa 的软件 OpenGL 光栅器）那样的软件渲染“硬件加速”版，或将已有软件（如 Linux、Doom）在该层面跑起来以示范完整性。关于 AI/LLM，有评论认为能让大型语言模型在内部可靠地做精确算术是有价值的——有人设想把部分字节码或关键循环交给这种“学习型 CPU”做精确计算以辅助推理。也有人异想天开地猜测如果自改进的 AI 把这种技术纳入自身架构，可能带来“语言+二进制”层面的能力融合。总体上，应用讨论既有现实性的工具整合想法，也有较多的幽默/夸张设想。",
+              "supportid": [
+                "47246175",
+                "47244607",
+                "47243836",
+                "47243763",
+                "47246559",
+                "47245872"
+              ]
+            },
+            {
+              "category": "能耗、商业与实用性的讽刺与担忧",
+              "summary": "部分评论以讽刺或愤慨口吻质疑把 GPU 用作通用 CPU 的商业与能耗合理性，有人直言这是“do-because-I-can”的作法并揶揄 GPU 与电力公司将成为受益者。评论里出现夸张能耗预估（例如接近一兆瓦的戏谑）以强调用 GPU 仿真 CPU 在功耗上的荒谬性。也有人把鼓吹全面用 GPU 的观点称为“clueless”，用比喻指出不同工具应当用于不同任务。整体情绪混合了好奇、揶揄与对实际成本的担忧。",
+              "supportid": [
+                "47246489",
+                "47244322",
+                "47245377",
+                "47244741"
+              ]
+            }
+          ],
+          "terminologies": [
+            {
+              "term": "ALU",
+              "explanation": "Arithmetic Logic Unit，算术逻辑单元，CPU 中执行加/减/乘/逻辑等基本运算的部件；讨论中指作者用训练好的神经网络替代传统 ALU 实现运算。"
+            },
+            {
+              "term": "ISA",
+              "explanation": "Instruction Set Architecture，指令集架构，定义机器可执行指令的集合；项目声称在 GPU 上模拟完整的 ISA（具体为 Aarch64）。"
+            },
+            {
+              "term": "Aarch64",
+              "explanation": "Aarch64：ARM 的 64 位指令集（ARMv8 及以后），常见于移动和服务器 CPU，评论提到作者实现了 Aarch64 的仿真。"
+            },
+            {
+              "term": "LLVMPipe",
+              "explanation": "LLVMPipe（Mesa 的软件 OpenGL 光栅器/后端），用于 CPU 上的软件渲染；评论建议把该项目当作后端以实现“软件渲染+硬件号称加速”。"
+            },
+            {
+              "term": "HBM",
+              "explanation": "HBM (High Bandwidth Memory)，高带宽内存，常见于 GPU 封装侧，评论中被提出为可能把 GPU 类内存集成在封装上的方案以降低数据移动成本。"
+            },
+            {
+              "term": "NUMA",
+              "explanation": "NUMA (Non-Uniform Memory Access)，非一致性内存访问，指多处理器系统中不同内存区域访问延迟不同；评论用它来类比 GPU 的私有/全局内存层次与 CPU 的内存语义差异。"
+            },
+            {
+              "term": "qemu",
+              "explanation": "qemu（开源虚拟化与动态二进制翻译工具），可以将一套指令动态翻译为宿主架构的代码；评论提到用 qemu 式的指令到 shader 的翻译可以显著加速在 GPU 上的 CPU 仿真。"
+            },
+            {
+              "term": "shader",
+              "explanation": "shader（图形着色器），在 GPU 上运行的小程序单元；讨论中有人建议将 CPU 指令预编译为 shader 以提高仿真速度。"
+            }
+          ],
+          "context": "讨论围绕一个把完整 CPU 指令集（作者实现了 Aarch64 仿真）完全在 GPU 上，并用训练好的神经网络替代 ALU 操作的实验项目展开。作者称这是个“能不能做”的实验，长期目标包括在 GPU 上运行操作系统或用“learned systems”重构系统组件。评论基于硬件架构差异（GPU 以并行隐藏延迟，CPU 以低延迟和对分支/非线性内存访问的优化为主）、内存体系（如 HBM——GPU 高带宽内存 与 NUMA——非一致性内存访问）以及实现策略（如用 qemu 式翻译或把指令编译为 shader）来评估可行性与实用性。总体上社区把该项目视为有趣的技术展示，但对其性能、能耗和能否替代传统 CPU 持高度怀疑。",
+          "emoji": "🧪",
+          "sarcastic_question": "把GPU当CPU用，是技术进步还是能源浪费？"
+        }
+      },
+      "articleSummary": "## 一句话总结\n这篇文章介绍了一个名为 nCPU 的项目，它通过把 CPU 指令集映射成 Tensor 运算，让一个 RISC-V CPU 完全在 GPU 上运行，从而探索了在纯 Tensor 环境下执行通用逻辑的潜力。\n\n---\n\n### 为什么要在 GPU 上模拟一个 CPU？\n通常我们认为 GPU 是为了矩阵运算设计的，CPU 才是处理通用逻辑的王者。但作者提出了一个反直觉的问题：如果我们把 CPU 的指令集看作一种特殊的计算图，能不能直接在 GPU 的 Tensor Core 上跑起来？这不仅仅是炫技，随着 AI 硬件越来越专用化，传统的 CPU 逻辑可能会成为瓶颈。如果能证明 CPU 指令可以完全转化为 Tensor 操作，就意味着未来我们可能不需要单独的通用逻辑单元，或者至少能找到一种更高效的异构计算方式。\n\n### 核心思路：把指令变成 Tensor 运算\nnCPU 的做法其实很巧妙，它没有试图用 CUDA 写一个传统的模拟器，而是选择了 RISC-V 这种模块化极强的指令集作为蓝本。核心思路是将 CPU 的寄存器堆视为一个巨大的 Tensor，把每一条指令（如 ADD、MUL）都映射成对这个 Tensor 的操作。说白了，就是不再一条条串行执行指令，而是把一段程序当成一个 Batch 的 Tensor 运算丢给 GPU。这种“Model-native”的设计，让 CPU 的行为模式天然契合了 GPU 的并行计算架构。\n\n### 架构选择：RISC-V 的天然优势\n为什么选 RISC-V 而不是 x86？因为 x86 的指令集太复杂，充满了历史包袱，而 RISC-V 结构清晰、模块化，非常适合这种“数学化”的拆解。nCPU 实现了一个 RV32IMC 的子集，覆盖了整数运算、乘法和压缩指令。作者发现，RISC-V 指令的解码过程其实可以看作是一个查表操作，这在 GPU 上用 One-Hot 编码或者 Embedding 层来实现简直轻而易举，完全不需要复杂的条件判断逻辑。\n\n### 遇到的挑战：分支预测与内存墙\n但问题来了，CPU 里最头疼的“分支预测”和“内存访问”在 GPU 上怎么处理？GPU 极度讨厌发散，如果程序里全是 `if-else`，性能会直接崩盘。nCPU 的解决方案是采用“Speculative Execution”（推测执行）的思路，利用 GPU 的并行能力，同时计算多个分支的结果，最后根据条件选择正确的路径。至于内存，作者把内存地址空间也映射成了 Tensor 索引，虽然这牺牲了一些随机访问的灵活性，但换来了极高的吞吐量。\n\n### 实际效果：慢，但很有启发性\n那性能到底怎么样？说实话，跟原生 CPU 比肯定是很慢的，毕竟中间隔了一层指令到 Tensor 的转换层。但在某些特定的并行场景下，比如同时模拟数千个 CPU 实例进行模糊测试或者状态搜索时，GPU 的并行优势就体现出来了。Benchmark 数据显示，随着 Batch Size 的增加，nCPU 的吞吐量能呈线性增长，这是单线程 CPU 永远做不到的。\n\n### 这项技术的真正价值在哪里？\nnCPU 的意义不在于取代你的桌面 CPU，而在于它展示了一种新的计算范式。它证明了所谓的“控制逻辑”和“数据计算”界限并没有那么分明。对于 AI 推理或者模拟工作负载来说，这种设计允许我们在同一个 GPU Kernel 里完成模型推理和环境控制，彻底消除了 CPU 和 GPU 之间的数据传输瓶颈。这可能是未来“AI Native”计算机架构的一个雏形。"
+    },
     {
       "id": 47241551,
       "by": "pabs3",
@@ -13107,612 +13589,6 @@
         }
       },
       "articleSummary": "微软在其官方Discord服务器上屏蔽了“Microslop”一词，并随后因用户反弹而锁定了服务器。该措施主要针对Copilot官方Discord频道，管理员使用Automod工具将“Microslop”列为被禁词汇，触犯该规则的用户会被自动封禁。此举引发了用户的不满，导致部分用户在频道内刷屏使用不雅绰号以抗议审查。作为回应，微软暂时锁定了相关频道以控制局势。此次事件反映了微软在推广AI产品过程中面临的社区管理挑战，特别是在处理用户负面反馈和品牌批评时的紧张关系。"
-    },
-    {
-      "id": 47216037,
-      "by": "spinningslate",
-      "title": "Jolla phone – a full-stack European alternative",
-      "url": "https://commerce.jolla.com/products/jolla-phone-sept-26",
-      "score": 393,
-      "detailUpdatedAt": 1772478793,
-      "createdAt": 1772448604,
-      "aiSummaryUpdatedAt": 1772480191,
-      "aisummary": {
-        "chinese_title": "Jolla 推新机：宣称“欧洲全栈”，但芯片来源与兼容性遭质疑",
-        "emoji": "🤔",
-        "sarcastic_question": "声称欧洲“全栈”？基带和芯片哪国造？"
-      },
-      "classifications": {
-        "topics": [
-          6,
-          7,
-          9
-        ],
-        "facets": [
-          4
-        ],
-        "tags": [
-          "Jolla",
-          "Jolla Phone",
-          "Sailfish OS",
-          "Android apps",
-          "European",
-          "Banking apps"
-        ]
-      },
-      "classificationsUpdatedAt": 1772449552,
-      "aiSummary": {
-        "chinese_title": "Jolla 推新机：宣称“欧洲全栈”，但芯片来源与兼容性遭质疑",
-        "emoji": "🤔",
-        "sarcastic_question": "声称欧洲“全栈”？基带和芯片哪国造？"
-      },
-      "detail": {
-        "id": 47216037,
-        "by": "spinningslate",
-        "title": "Jolla phone – a full-stack European alternative",
-        "url": "https://commerce.jolla.com/products/jolla-phone-sept-26",
-        "score": 180,
-        "detailUpdatedAt": 1772457182,
-        "createdAt": 1772448604,
-        "aiSummaryUpdatedAt": 1772457684,
-        "aisummary": {
-          "chinese_title": "Jolla 推出基于 Sailfish 的“欧洲全栈”手机：硬件、兼容性与主权疑问",
-          "discussion_overview": [
-            {
-              "category": "“欧洲”身份与技术主权争议",
-              "summary": "多条评论认为“全栈欧洲替代”说法具有误导性：Jolla 是芬兰公司，但关键芯片（例如来自台湾的 Mediatek）与主要制造仍在亚洲或土耳其，只有最终组装、质检和刷机可能在芬兰完成。评论强调技术主权不是单靠消费者选择能解决的政治问题，需要国家级补贴、R&D 投入和法规推动政府机构支持本土方案。另有观点指出欧洲已失去基带/芯片厂商，因而所谓“欧洲手机”多半只在软件层自称欧洲化，供应链独立性仍有缺口。基于此，一些人警告不要被“欧盟主权”口号蒙蔽，实际可控范围有限。",
-              "supportid": [
-                "47217526",
-                "47216189",
-                "47216873",
-                "47216332",
-                "47216216"
-              ]
-            },
-            {
-              "category": "应用兼容性：银行与政府 App 的生死线",
-              "summary": "评论普遍把能否运行主流银行和政府应用视为成败关键：多数金融与官方服务仅提供 iOS/Android 版本，若新手机不能无缝运行这些应用就很难被普通用户采纳。虽然 Sailfish 能运行部分 Android 应用（社区也维护兼容性 Wiki），但许多应用依赖 Google Play Services 或设备 attestation，兼容层或仿真可能随 Google 更新被阻断，导致支付与验证功能失效。讨论中出现两条出路：强制监管要求开发者支持其他平台，或推动标准化 Web/FIDO2 身份，但评论普遍认为这两条路短期内都不现实，兼容性仍是主要障碍。",
-              "supportid": [
-                "47216339",
-                "47216556",
-                "47216395",
-                "47216228",
-                "47216272",
-                "47216903",
-                "47217159",
-                "47216729"
-              ]
-            },
-            {
-              "category": "技术实现：Sailfish、兼容层与沙箱",
-              "summary": "许多评论讨论技术细节：Jolla 用 Sailfish OS（基于 Linux）作为系统基础，但为了运行现有 Android 应用或使用厂商驱动，常通过兼容层来桥接 Android 驱动而非完全自主重写驱动。底层蜂窝栈和厂商驱动多来自芯片厂（例如 Mediatek），因此项目会使用 libhybris/类似方案或 Halium 等中间层来调用这些 Android HAL；应用层还可采用 Waydroid 等容器化方案运行 Android 用户空间。安全方面，Jolla 有基于 Firejail 的 SailJail 沙箱实现来限制应用权限，但有人指出系统中仍有专有组件，影响可审计性与长期信任。",
-              "supportid": [
-                "47216189",
-                "47216810",
-                "47216956",
-                "47216787",
-                "47216999",
-                "47216873",
-                "47217415",
-                "47216574"
-              ]
-            },
-            {
-              "category": "市场可行性、定价与供应链断裂",
-              "summary": "评论对价格与性价比提出质疑：有人认为 600+ 欧元的定价但配中端 Mediatek 芯片、带刘海与凸起相机，很多人感到像为“软件溢价”付钱而非硬件价值。讨论中也提到预购与需求问题（虽有说法称预购达 10k，但页面展示不明显），让人怀疑市场规模。回顾历史有评论指出欧洲曾有完整手机产业（如 Nokia/Siemens），但制造与 R&D 外移后恢复本土产业需高成本与政策支持，因此小众低量生产会导致单价高、规模不足的悖论。",
-              "supportid": [
-                "47216415",
-                "47216546",
-                "47216216",
-                "47216246",
-                "47216710",
-                "47217468",
-                "47216512",
-                "47216391"
-              ]
-            },
-            {
-              "category": "对 Jolla 历史與信任的担忧",
-              "summary": "多条评论提及 Jolla 过去的争议会影响信任：此前平板众筹失败、公司所有权变动、曾与俄罗斯相关的衍生项目 AuroraOS、以及早期被批评的闭源或锁 bootloader、收费恢复等记录，都使部分用户对长期支持与透明度保持怀疑。也有评论指出公司已与过去不同并清理俄方关系，但许多人依然觉得历史问题是评估是否把身份和金融服务迁移到该平台的重要考量。信任缺失被视为阻碍用户采纳新移动生态的实际障碍。",
-              "supportid": [
-                "47216557",
-                "47216592",
-                "47216667",
-                "47216884",
-                "47216574"
-              ]
-            },
-            {
-              "category": "生态比较与可选替代方案",
-              "summary": "评论中有人把 Jolla 与其他替代方案进行比较：Fairphone 被用于强调硬件可持续性，GrapheneOS 与 Lineage 被视为更专注安全或去 Google 的替代，e.foundation（e-os）、Ubuntu Touch 和 postmarketOS 等社区项目则代表不同的去 Google 化与社区驱动路线。讨论指出社区移植常常需要更多时间来达到广泛应用兼容性，而工业化或更成熟的替代方案在关键应用支持上可能更可靠。因此部分评论建议在支持 Jolla 前先对比这些替代生态的实际可用性与长期维护能力。",
-              "supportid": [
-                "47217371",
-                "47216893",
-                "47216886",
-                "47216824",
-                "47216478",
-                "47217055"
-              ]
-            }
-          ],
-          "terminologies": [
-            {
-              "term": "Sailfish OS",
-              "explanation": "由 Jolla 维护的基于 Linux 的移动操作系统，强调隐私与多任务，包含开源与专有组件，作为 Jolla 手機的软件基础。"
-            },
-            {
-              "term": "libhybris",
-              "explanation": "一种兼容层，允许非 Android 的 Linux 系统调用 Android 的硬件抽象层（HAL）和厂商驱动，从而在 Linux 上使用厂商提供的 Android 驱动。"
-            },
-            {
-              "term": "Halium",
-              "explanation": "社区项目，旨在统一不同 Linux 移动系统与 Android 驱动之间的接口，降低将 GNU/Linux 移植到 Android 硬件的复杂度。"
-            },
-            {
-              "term": "Waydroid",
-              "explanation": "在 Linux 上以容器方式运行 Android 用户空间的项目，可在纯 Linux 手机上启动大部分 Android 应用而不运行完整 Android 系统。"
-            },
-            {
-              "term": "SailJail / Firejail",
-              "explanation": "SailJail 是 Sailfish OS 使用的自定义应用沙箱，基于 Firejail 工具，用于限制应用权限和进程访问以增强隔离与安全性。"
-            },
-            {
-              "term": "Mediatek",
-              "explanation": "台湾的 SoC（系统芯片）供应商，提供处理器、基带与平台软件，许多手机的底层驱动和蜂窝栈依赖其闭源组件。"
-            }
-          ],
-          "context": "Jolla 是一家芬兰公司，长期维护 Sailfish OS（基于 Linux 的移动系统），这次宣称推出“全栈欧洲替代”以对抗 Android/Apple 双寡头。评论指出“欧洲”主张通常只涵盖软件层或最终组装，关键芯片（如 Mediatek 的基带和驱动）与大部分制造仍来自亚洲或土耳其，暴露出供应链与主权的现实差距。大量讨论聚焦在应用兼容性：银行与政府服务普遍只支持 iOS/Android，并依赖 Google Play Services 的设备认证，兼容层可能无法保证这些关键应用长期可用。此外，Jolla 过去的众筹、所有权变动与闭源/锁 bootloader 争议加剧了对长期支持与信任的担忧。",
-          "emoji": "🤨",
-          "sarcastic_question": "称用台湾芯片亚洲代工就是“欧洲替代”？"
-        },
-        "classifications": {
-          "topics": [
-            6,
-            7,
-            9
-          ],
-          "facets": [
-            4
-          ],
-          "tags": [
-            "Jolla",
-            "Jolla Phone",
-            "Sailfish OS",
-            "Android apps",
-            "European",
-            "Banking apps"
-          ]
-        },
-        "classificationsUpdatedAt": 1772449552,
-        "aiSummary": {
-          "chinese_title": "Jolla 推出基于 Sailfish 的“欧洲全栈”手机：硬件、兼容性与主权疑问",
-          "discussion_overview": [
-            {
-              "category": "“欧洲”身份与技术主权争议",
-              "summary": "多条评论认为“全栈欧洲替代”说法具有误导性：Jolla 是芬兰公司，但关键芯片（例如来自台湾的 Mediatek）与主要制造仍在亚洲或土耳其，只有最终组装、质检和刷机可能在芬兰完成。评论强调技术主权不是单靠消费者选择能解决的政治问题，需要国家级补贴、R&D 投入和法规推动政府机构支持本土方案。另有观点指出欧洲已失去基带/芯片厂商，因而所谓“欧洲手机”多半只在软件层自称欧洲化，供应链独立性仍有缺口。基于此，一些人警告不要被“欧盟主权”口号蒙蔽，实际可控范围有限。",
-              "supportid": [
-                "47217526",
-                "47216189",
-                "47216873",
-                "47216332",
-                "47216216"
-              ]
-            },
-            {
-              "category": "应用兼容性：银行与政府 App 的生死线",
-              "summary": "评论普遍把能否运行主流银行和政府应用视为成败关键：多数金融与官方服务仅提供 iOS/Android 版本，若新手机不能无缝运行这些应用就很难被普通用户采纳。虽然 Sailfish 能运行部分 Android 应用（社区也维护兼容性 Wiki），但许多应用依赖 Google Play Services 或设备 attestation，兼容层或仿真可能随 Google 更新被阻断，导致支付与验证功能失效。讨论中出现两条出路：强制监管要求开发者支持其他平台，或推动标准化 Web/FIDO2 身份，但评论普遍认为这两条路短期内都不现实，兼容性仍是主要障碍。",
-              "supportid": [
-                "47216339",
-                "47216556",
-                "47216395",
-                "47216228",
-                "47216272",
-                "47216903",
-                "47217159",
-                "47216729"
-              ]
-            },
-            {
-              "category": "技术实现：Sailfish、兼容层与沙箱",
-              "summary": "许多评论讨论技术细节：Jolla 用 Sailfish OS（基于 Linux）作为系统基础，但为了运行现有 Android 应用或使用厂商驱动，常通过兼容层来桥接 Android 驱动而非完全自主重写驱动。底层蜂窝栈和厂商驱动多来自芯片厂（例如 Mediatek），因此项目会使用 libhybris/类似方案或 Halium 等中间层来调用这些 Android HAL；应用层还可采用 Waydroid 等容器化方案运行 Android 用户空间。安全方面，Jolla 有基于 Firejail 的 SailJail 沙箱实现来限制应用权限，但有人指出系统中仍有专有组件，影响可审计性与长期信任。",
-              "supportid": [
-                "47216189",
-                "47216810",
-                "47216956",
-                "47216787",
-                "47216999",
-                "47216873",
-                "47217415",
-                "47216574"
-              ]
-            },
-            {
-              "category": "市场可行性、定价与供应链断裂",
-              "summary": "评论对价格与性价比提出质疑：有人认为 600+ 欧元的定价但配中端 Mediatek 芯片、带刘海与凸起相机，很多人感到像为“软件溢价”付钱而非硬件价值。讨论中也提到预购与需求问题（虽有说法称预购达 10k，但页面展示不明显），让人怀疑市场规模。回顾历史有评论指出欧洲曾有完整手机产业（如 Nokia/Siemens），但制造与 R&D 外移后恢复本土产业需高成本与政策支持，因此小众低量生产会导致单价高、规模不足的悖论。",
-              "supportid": [
-                "47216415",
-                "47216546",
-                "47216216",
-                "47216246",
-                "47216710",
-                "47217468",
-                "47216512",
-                "47216391"
-              ]
-            },
-            {
-              "category": "对 Jolla 历史與信任的担忧",
-              "summary": "多条评论提及 Jolla 过去的争议会影响信任：此前平板众筹失败、公司所有权变动、曾与俄罗斯相关的衍生项目 AuroraOS、以及早期被批评的闭源或锁 bootloader、收费恢复等记录，都使部分用户对长期支持与透明度保持怀疑。也有评论指出公司已与过去不同并清理俄方关系，但许多人依然觉得历史问题是评估是否把身份和金融服务迁移到该平台的重要考量。信任缺失被视为阻碍用户采纳新移动生态的实际障碍。",
-              "supportid": [
-                "47216557",
-                "47216592",
-                "47216667",
-                "47216884",
-                "47216574"
-              ]
-            },
-            {
-              "category": "生态比较与可选替代方案",
-              "summary": "评论中有人把 Jolla 与其他替代方案进行比较：Fairphone 被用于强调硬件可持续性，GrapheneOS 与 Lineage 被视为更专注安全或去 Google 的替代，e.foundation（e-os）、Ubuntu Touch 和 postmarketOS 等社区项目则代表不同的去 Google 化与社区驱动路线。讨论指出社区移植常常需要更多时间来达到广泛应用兼容性，而工业化或更成熟的替代方案在关键应用支持上可能更可靠。因此部分评论建议在支持 Jolla 前先对比这些替代生态的实际可用性与长期维护能力。",
-              "supportid": [
-                "47217371",
-                "47216893",
-                "47216886",
-                "47216824",
-                "47216478",
-                "47217055"
-              ]
-            }
-          ],
-          "terminologies": [
-            {
-              "term": "Sailfish OS",
-              "explanation": "由 Jolla 维护的基于 Linux 的移动操作系统，强调隐私与多任务，包含开源与专有组件，作为 Jolla 手機的软件基础。"
-            },
-            {
-              "term": "libhybris",
-              "explanation": "一种兼容层，允许非 Android 的 Linux 系统调用 Android 的硬件抽象层（HAL）和厂商驱动，从而在 Linux 上使用厂商提供的 Android 驱动。"
-            },
-            {
-              "term": "Halium",
-              "explanation": "社区项目，旨在统一不同 Linux 移动系统与 Android 驱动之间的接口，降低将 GNU/Linux 移植到 Android 硬件的复杂度。"
-            },
-            {
-              "term": "Waydroid",
-              "explanation": "在 Linux 上以容器方式运行 Android 用户空间的项目，可在纯 Linux 手机上启动大部分 Android 应用而不运行完整 Android 系统。"
-            },
-            {
-              "term": "SailJail / Firejail",
-              "explanation": "SailJail 是 Sailfish OS 使用的自定义应用沙箱，基于 Firejail 工具，用于限制应用权限和进程访问以增强隔离与安全性。"
-            },
-            {
-              "term": "Mediatek",
-              "explanation": "台湾的 SoC（系统芯片）供应商，提供处理器、基带与平台软件，许多手机的底层驱动和蜂窝栈依赖其闭源组件。"
-            }
-          ],
-          "context": "Jolla 是一家芬兰公司，长期维护 Sailfish OS（基于 Linux 的移动系统），这次宣称推出“全栈欧洲替代”以对抗 Android/Apple 双寡头。评论指出“欧洲”主张通常只涵盖软件层或最终组装，关键芯片（如 Mediatek 的基带和驱动）与大部分制造仍来自亚洲或土耳其，暴露出供应链与主权的现实差距。大量讨论聚焦在应用兼容性：银行与政府服务普遍只支持 iOS/Android，并依赖 Google Play Services 的设备认证，兼容层可能无法保证这些关键应用长期可用。此外，Jolla 过去的众筹、所有权变动与闭源/锁 bootloader 争议加剧了对长期支持与信任的担忧。",
-          "emoji": "🤨",
-          "sarcastic_question": "称用台湾芯片亚洲代工就是“欧洲替代”？"
-        }
-      },
-      "articleSummary": "Jolla Phone（2026年9月版）是Jolla推出的全栈欧洲替代智能手机，旨在提供非主流操作系统的选择。该设备运行基于Linux的Sailfish OS，强调隐私安全、数据主权及用户对设备的控制权。硬件配置包括高性能处理器、长续航电池及高分辨率显示屏，支持5G网络连接。Jolla Phone采用模块化设计，便于维修和升级，符合欧洲环保标准。系统预装Jolla自研应用商店，支持Android应用兼容层，同时提供端到端加密通信功能。设备定价为499欧元，面向注重隐私和数字主权的用户群体。Jolla强调其供应链和数据中心均位于欧洲，以规避地缘政治风险。"
-    },
-    {
-      "id": 47215427,
-      "by": "prvnsmpth",
-      "title": "Show HN: Omni – Open-source workplace search and chat, built on Postgres",
-      "url": "https://github.com/getomnico/omni",
-      "score": 125,
-      "detailUpdatedAt": 1772475193,
-      "createdAt": 1772443204,
-      "aiSummaryUpdatedAt": 1772476936,
-      "aisummary": {
-        "chinese_title": "Omni：基于 Postgres 的开源工作区搜索与聊天（pgvector + ParadeDB；权限与自托管争议）",
-        "emoji": "🔧",
-        "sarcastic_question": "把模型交给 OpenAI，你还叫“自托管”吗？"
-      },
-      "classifications": {
-        "topics": [
-          6,
-          1,
-          11
-        ],
-        "facets": [
-          1,
-          4
-        ],
-        "tags": [
-          "Omni",
-          "Postgres",
-          "pgvector",
-          "vector search",
-          "RAG",
-          "ParadeDB",
-          "pgsearch",
-          "Tantivy",
-          "Slack",
-          "Jira"
-        ]
-      },
-      "classificationsUpdatedAt": 1772453130,
-      "aiSummary": {
-        "chinese_title": "Omni：基于 Postgres 的开源工作区搜索与聊天（pgvector + ParadeDB；权限与自托管争议）",
-        "emoji": "🔧",
-        "sarcastic_question": "把模型交给 OpenAI，你还叫“自托管”吗？"
-      },
-      "detail": {
-        "id": 47215427,
-        "by": "prvnsmpth",
-        "title": "Show HN: Omni – Open-source workplace search and chat, built on Postgres",
-        "url": "https://github.com/getomnico/omni",
-        "score": 125,
-        "detailUpdatedAt": 1772475193,
-        "createdAt": 1772443204,
-        "aiSummaryUpdatedAt": 1772476936,
-        "aisummary": {
-          "chinese_title": "Omni：基于 Postgres 的开源工作区搜索与聊天（pgvector + ParadeDB；权限与自托管争议）",
-          "discussion_overview": [
-            {
-              "category": "ParadeDB 支持与部署兼容性",
-              "summary": "评论中指出 ParadeDB 被用于 Omni 的搜索层，ParadeDB 的维护者对该用例表示支持并愿意协助。ParadeDB 通过带入 pgsearch 扩展并内嵌 Tantivy（类似 Lucene）来提供 BM25 与全文检索能力，这被用来补强 Postgres 的搜索功能。有人担心托管平台（例如 Render）对扩展的白名单策略会影响部署兼容性，因此在实际上线前需要确认扩展可用性和调优。维护者和作者在评论里也讨论了 ParadeDB 索引设置的调优需求。",
-              "supportid": [
-                "47220435",
-                "47221472",
-                "47220606",
-                "47215920"
-              ]
-            },
-            {
-              "category": "Postgres-only 搜索后端的实用性与隐患",
-              "summary": "多位评论者认为把全文检索（tsvector）、模糊匹配（pg_trgm）和语义向量（pgvector）都放在 Postgres 中在实践上能显著简化运维和提高一致性。Postgres 的事务一致性避免了外部索引同步滞后问题，省去了 Elasticsearch + 向量库那类额外服务的运维负担，对小团队尤其友好。但需要警惕 GIN 索引膨胀（index bloat）、autovac 跟不上以及大量 schema 或索引时的开销问题，这些都会带来长期维护成本。总体结论是：对中小到中等规模组织 Postgres-only 是务实选项，但应提前规划索引维护和扩展策略。",
-              "supportid": [
-                "47218875",
-                "47215968",
-                "47215920",
-                "47216516",
-                "47215813",
-                "47218166"
-              ]
-            },
-            {
-              "category": "权限模型与多用户/组织数据隔离",
-              "summary": "权限目前大多在应用层通过 WHERE 过滤实现，作者表示计划未来使用 Postgres 的 RLS（Row Level Security）把权限下沉到数据库层以增强安全性。对 Google Workspace，采用域级委托（domain‑wide delegation）和服务账号模拟用户进行索引，并在索引时持久化文件的 ACL（用户/群组）信息，但 Google Drive 的权限模型复杂，存在采集与映射的缝隙。Slack 连接当前只索引公共频道，私有频道和随时间变动的成员关系的实时同步仍具有工程难点。评论普遍认为权限同步与边界复现是自托管工作区搜索中最棘手的部分，需要额外工程投入来保证准确性与实时性。",
-              "supportid": [
-                "47219441",
-                "47220063",
-                "47215803",
-                "47218166"
-              ]
-            },
-            {
-              "category": "自托管声明与 BYO LLM 的隐私矛盾",
-              "summary": "项目宣传中写到“Self-hosted: Runs entirely on your infrastructure. No data leaves your network.”，但评论指出如果用户选择 Anthropic、OpenAI 或 Gemini 等云端模型并通过网络调用，就并非真正“数据不出网”。企业可以采用云厂商提供的私有模型端点把推理留在 VPC 内，但对于受出口管制或需限定为特定国籍人员访问的敏感工作，仍需 govcloud 或真正的本地部署。作者在评论里表示会对文案做出澄清，并支持多种 BYO LLM 的部署选项。总体提醒是：“自托管”需要明确是否包含外部模型调用，否则会误导对隐私有严格要求的用户。",
-              "supportid": [
-                "47217045",
-                "47217243",
-                "47217060",
-                "47217267",
-                "47217157"
-              ]
-            },
-            {
-              "category": "超越基础 RAG：用 LLM 做索引查询的编排",
-              "summary": "关于“not just a basic RAG”的讨论指出，传统 RAG 直接用用户查询的 embedding 去检索常常产生效果欠佳的结果。更优的实现是先把用户查询发给 LLM，利用模型通过工具调用（tool calling）构造精确的检索请求或 SQL/查询表达，再去索引检索并生成答案。作者表示 Omni 采用这种 LLM‑driven 的查询编排方法，以提高检索相关性和最终回答质量。评论认为这类做法不是革命性发明，但确实比简单用 query embedding 直搜要好得多。",
-              "supportid": [
-                "47217008",
-                "47217092",
-                "47215968"
-              ]
-            },
-            {
-              "category": "与 Onyx/Danswer（vespa.ai） 的关键区别",
-              "summary": "对比 Onyx（前身 Danswer），评论指出两者在本质上很相似，但检索后端不同：Onyx 使用 vespa.ai 提供 BM25 与向量搜索，而 Omni 选择走 Postgres‑only 路线。这一差异带来运维与扩展的权衡：vespa.ai 是为信息检索优化的专用引擎，适合大量 IR 需求；Postgres‑only 则降低运维复杂度，更适合资源有限或偏向快速迭代的小团队。评论将此视为工程权衡而非技术优劣的绝对判断，依据团队规模与运维能力选择后端。",
-              "supportid": [
-                "47217434",
-                "47217577"
-              ]
-            },
-            {
-              "category": "性能基准与大规模向量索引的操作问题",
-              "summary": "作者在小规模实验（100–500k 行）中观察到 p95 延迟仍然小于 1 秒，并准备公开基准工具链，但 ParadeDB 的索引设置还需调优以便进行大规模测试。评论经验提示，当向量数量接近或超过百万级时，HNSW 等近邻索引的重建时间会成为瓶颈，需要采用增量插入、后台重建或分片策略来缓解。实战经验亦表明多数企业在成长早期不会立即触达 Postgres 的极限，但一旦达到瓶颈需要专门工程来拆分或水平扩展。因此对中等规模数据 Postgres 可用，但必须事先规划索引维护和扩展方案。",
-              "supportid": [
-                "47215813",
-                "47215920",
-                "47216516",
-                "47218166"
-              ]
-            },
-            {
-              "category": "API 文档与可用性差距",
-              "summary": "有用户发现多个页面指向的 API Reference 返回 404，项目方承认该页面仍在开发中并尚未推送完整文档。原计划是公开主要搜索与聊天 API 以方便第三方集成（例如 Slack 等），但文档不完整会增加集成门槛并阻碍采用。评论建议尽快补齐 API 文档和示例以降低用户试用成本并吸引更多集成贡献。",
-              "supportid": [
-                "47215911",
-                "47215956"
-              ]
-            },
-            {
-              "category": "术语语义争议与 Microsoft Teams 集成难度",
-              "summary": "社区中有人反感将“chat”一词扩展为智能 agent 界面，认为语义漂移会造成混淆，产品在宣称“chat”能力时应明确是纯文本接口还是带工具调用的代理系统。另有针对 Microsoft Teams 的讨论：作者表示已有微软连接器但主要覆盖 SharePoint、OneDrive、Outlook，Teams 本身需要特殊设置尚未完整支持；评论者抱怨 Teams API 难以对接，有人通过解析系统日志来绕过复杂的 REST API。综上，术语定义和第三方平台（尤其微软生态）的接入限制都对自托管搜索系统的可用性造成实际影响。",
-              "supportid": [
-                "47217384",
-                "47217621",
-                "47217027",
-                "47217128",
-                "47217058"
-              ]
-            }
-          ],
-          "terminologies": [
-            {
-              "term": "ParadeDB",
-              "explanation": "ParadeDB（为 Postgres 提供的扩展/发行方案）通过 pgsearch 扩展将 Tantivy（类似 Lucene 的全文检索引擎）引入 Postgres，使数据库支持 BM25 等传统 IR 能力与全文检索。"
-            },
-            {
-              "term": "pgvector",
-              "explanation": "pgvector（Postgres 扩展）为 PostgreSQL 增加向量数据类型和相似度查询函数，常用于存储文本 embeddings 并在数据库内做近邻搜索，作为一种内嵌的 vector DB 方案。"
-            },
-            {
-              "term": "RAG",
-              "explanation": "RAG（Retrieval‑Augmented Generation，检索增强生成）是一种结合检索器与生成式模型的策略：先检索相关文档再让 LLM 基于检索结果生成回答，用于提升生成内容的事实性与上下文相关性。"
-            },
-            {
-              "term": "BM25",
-              "explanation": "BM25 是信息检索领域常用的打分函数，用于评估文档与查询的相关性，广泛应用于传统全文检索引擎（如 Lucene、Tantivy、Vespa）。"
-            },
-            {
-              "term": "vector DB",
-              "explanation": "向量数据库（vector DB）用于存储高维 embedding 并支持近邻搜索（例如 ANN 算法），既可以是专门的外部服务，也可以通过扩展如 pgvector 在 Postgres 内实现。"
-            }
-          ],
-          "context": "Omni 是一个开源的工作区搜索与聊天系统，设计核心是尽可能把全文检索与向量搜索放在 Postgres（借助 pgvector、tsvector、pg_trgm 或 ParadeDB 的 pgsearch/Tantivy）里，从而减少外部检索服务。项目提供多种数据源连接器（如 Google Workspace、Slack、SharePoint/OneDrive/Outlook），并支持“Bring Your Own LLM”，这同时引发了关于“自托管”与数据是否离网的讨论。评论主要围绕部署兼容性（扩展白名单）、权限与 ACL 的同步复杂性、以及大规模向量索引的重建与索引膨胀等工程挑战展开。作者在评论中回应了权限方案（应用层过滤与将来引入 RLS）、文档缺口与用 LLM 做查询编排以提升 RAG 效果的实现思路。",
-          "emoji": "🔧",
-          "sarcastic_question": "把模型交给 OpenAI，你还叫“自托管”吗？"
-        },
-        "classifications": {
-          "topics": [
-            6,
-            1,
-            11
-          ],
-          "facets": [
-            1,
-            4
-          ],
-          "tags": [
-            "Omni",
-            "Postgres",
-            "pgvector",
-            "vector search",
-            "RAG",
-            "ParadeDB",
-            "pgsearch",
-            "Tantivy",
-            "Slack",
-            "Jira"
-          ]
-        },
-        "classificationsUpdatedAt": 1772453130,
-        "aiSummary": {
-          "chinese_title": "Omni：基于 Postgres 的开源工作区搜索与聊天（pgvector + ParadeDB；权限与自托管争议）",
-          "discussion_overview": [
-            {
-              "category": "ParadeDB 支持与部署兼容性",
-              "summary": "评论中指出 ParadeDB 被用于 Omni 的搜索层，ParadeDB 的维护者对该用例表示支持并愿意协助。ParadeDB 通过带入 pgsearch 扩展并内嵌 Tantivy（类似 Lucene）来提供 BM25 与全文检索能力，这被用来补强 Postgres 的搜索功能。有人担心托管平台（例如 Render）对扩展的白名单策略会影响部署兼容性，因此在实际上线前需要确认扩展可用性和调优。维护者和作者在评论里也讨论了 ParadeDB 索引设置的调优需求。",
-              "supportid": [
-                "47220435",
-                "47221472",
-                "47220606",
-                "47215920"
-              ]
-            },
-            {
-              "category": "Postgres-only 搜索后端的实用性与隐患",
-              "summary": "多位评论者认为把全文检索（tsvector）、模糊匹配（pg_trgm）和语义向量（pgvector）都放在 Postgres 中在实践上能显著简化运维和提高一致性。Postgres 的事务一致性避免了外部索引同步滞后问题，省去了 Elasticsearch + 向量库那类额外服务的运维负担，对小团队尤其友好。但需要警惕 GIN 索引膨胀（index bloat）、autovac 跟不上以及大量 schema 或索引时的开销问题，这些都会带来长期维护成本。总体结论是：对中小到中等规模组织 Postgres-only 是务实选项，但应提前规划索引维护和扩展策略。",
-              "supportid": [
-                "47218875",
-                "47215968",
-                "47215920",
-                "47216516",
-                "47215813",
-                "47218166"
-              ]
-            },
-            {
-              "category": "权限模型与多用户/组织数据隔离",
-              "summary": "权限目前大多在应用层通过 WHERE 过滤实现，作者表示计划未来使用 Postgres 的 RLS（Row Level Security）把权限下沉到数据库层以增强安全性。对 Google Workspace，采用域级委托（domain‑wide delegation）和服务账号模拟用户进行索引，并在索引时持久化文件的 ACL（用户/群组）信息，但 Google Drive 的权限模型复杂，存在采集与映射的缝隙。Slack 连接当前只索引公共频道，私有频道和随时间变动的成员关系的实时同步仍具有工程难点。评论普遍认为权限同步与边界复现是自托管工作区搜索中最棘手的部分，需要额外工程投入来保证准确性与实时性。",
-              "supportid": [
-                "47219441",
-                "47220063",
-                "47215803",
-                "47218166"
-              ]
-            },
-            {
-              "category": "自托管声明与 BYO LLM 的隐私矛盾",
-              "summary": "项目宣传中写到“Self-hosted: Runs entirely on your infrastructure. No data leaves your network.”，但评论指出如果用户选择 Anthropic、OpenAI 或 Gemini 等云端模型并通过网络调用，就并非真正“数据不出网”。企业可以采用云厂商提供的私有模型端点把推理留在 VPC 内，但对于受出口管制或需限定为特定国籍人员访问的敏感工作，仍需 govcloud 或真正的本地部署。作者在评论里表示会对文案做出澄清，并支持多种 BYO LLM 的部署选项。总体提醒是：“自托管”需要明确是否包含外部模型调用，否则会误导对隐私有严格要求的用户。",
-              "supportid": [
-                "47217045",
-                "47217243",
-                "47217060",
-                "47217267",
-                "47217157"
-              ]
-            },
-            {
-              "category": "超越基础 RAG：用 LLM 做索引查询的编排",
-              "summary": "关于“not just a basic RAG”的讨论指出，传统 RAG 直接用用户查询的 embedding 去检索常常产生效果欠佳的结果。更优的实现是先把用户查询发给 LLM，利用模型通过工具调用（tool calling）构造精确的检索请求或 SQL/查询表达，再去索引检索并生成答案。作者表示 Omni 采用这种 LLM‑driven 的查询编排方法，以提高检索相关性和最终回答质量。评论认为这类做法不是革命性发明，但确实比简单用 query embedding 直搜要好得多。",
-              "supportid": [
-                "47217008",
-                "47217092",
-                "47215968"
-              ]
-            },
-            {
-              "category": "与 Onyx/Danswer（vespa.ai） 的关键区别",
-              "summary": "对比 Onyx（前身 Danswer），评论指出两者在本质上很相似，但检索后端不同：Onyx 使用 vespa.ai 提供 BM25 与向量搜索，而 Omni 选择走 Postgres‑only 路线。这一差异带来运维与扩展的权衡：vespa.ai 是为信息检索优化的专用引擎，适合大量 IR 需求；Postgres‑only 则降低运维复杂度，更适合资源有限或偏向快速迭代的小团队。评论将此视为工程权衡而非技术优劣的绝对判断，依据团队规模与运维能力选择后端。",
-              "supportid": [
-                "47217434",
-                "47217577"
-              ]
-            },
-            {
-              "category": "性能基准与大规模向量索引的操作问题",
-              "summary": "作者在小规模实验（100–500k 行）中观察到 p95 延迟仍然小于 1 秒，并准备公开基准工具链，但 ParadeDB 的索引设置还需调优以便进行大规模测试。评论经验提示，当向量数量接近或超过百万级时，HNSW 等近邻索引的重建时间会成为瓶颈，需要采用增量插入、后台重建或分片策略来缓解。实战经验亦表明多数企业在成长早期不会立即触达 Postgres 的极限，但一旦达到瓶颈需要专门工程来拆分或水平扩展。因此对中等规模数据 Postgres 可用，但必须事先规划索引维护和扩展方案。",
-              "supportid": [
-                "47215813",
-                "47215920",
-                "47216516",
-                "47218166"
-              ]
-            },
-            {
-              "category": "API 文档与可用性差距",
-              "summary": "有用户发现多个页面指向的 API Reference 返回 404，项目方承认该页面仍在开发中并尚未推送完整文档。原计划是公开主要搜索与聊天 API 以方便第三方集成（例如 Slack 等），但文档不完整会增加集成门槛并阻碍采用。评论建议尽快补齐 API 文档和示例以降低用户试用成本并吸引更多集成贡献。",
-              "supportid": [
-                "47215911",
-                "47215956"
-              ]
-            },
-            {
-              "category": "术语语义争议与 Microsoft Teams 集成难度",
-              "summary": "社区中有人反感将“chat”一词扩展为智能 agent 界面，认为语义漂移会造成混淆，产品在宣称“chat”能力时应明确是纯文本接口还是带工具调用的代理系统。另有针对 Microsoft Teams 的讨论：作者表示已有微软连接器但主要覆盖 SharePoint、OneDrive、Outlook，Teams 本身需要特殊设置尚未完整支持；评论者抱怨 Teams API 难以对接，有人通过解析系统日志来绕过复杂的 REST API。综上，术语定义和第三方平台（尤其微软生态）的接入限制都对自托管搜索系统的可用性造成实际影响。",
-              "supportid": [
-                "47217384",
-                "47217621",
-                "47217027",
-                "47217128",
-                "47217058"
-              ]
-            }
-          ],
-          "terminologies": [
-            {
-              "term": "ParadeDB",
-              "explanation": "ParadeDB（为 Postgres 提供的扩展/发行方案）通过 pgsearch 扩展将 Tantivy（类似 Lucene 的全文检索引擎）引入 Postgres，使数据库支持 BM25 等传统 IR 能力与全文检索。"
-            },
-            {
-              "term": "pgvector",
-              "explanation": "pgvector（Postgres 扩展）为 PostgreSQL 增加向量数据类型和相似度查询函数，常用于存储文本 embeddings 并在数据库内做近邻搜索，作为一种内嵌的 vector DB 方案。"
-            },
-            {
-              "term": "RAG",
-              "explanation": "RAG（Retrieval‑Augmented Generation，检索增强生成）是一种结合检索器与生成式模型的策略：先检索相关文档再让 LLM 基于检索结果生成回答，用于提升生成内容的事实性与上下文相关性。"
-            },
-            {
-              "term": "BM25",
-              "explanation": "BM25 是信息检索领域常用的打分函数，用于评估文档与查询的相关性，广泛应用于传统全文检索引擎（如 Lucene、Tantivy、Vespa）。"
-            },
-            {
-              "term": "vector DB",
-              "explanation": "向量数据库（vector DB）用于存储高维 embedding 并支持近邻搜索（例如 ANN 算法），既可以是专门的外部服务，也可以通过扩展如 pgvector 在 Postgres 内实现。"
-            }
-          ],
-          "context": "Omni 是一个开源的工作区搜索与聊天系统，设计核心是尽可能把全文检索与向量搜索放在 Postgres（借助 pgvector、tsvector、pg_trgm 或 ParadeDB 的 pgsearch/Tantivy）里，从而减少外部检索服务。项目提供多种数据源连接器（如 Google Workspace、Slack、SharePoint/OneDrive/Outlook），并支持“Bring Your Own LLM”，这同时引发了关于“自托管”与数据是否离网的讨论。评论主要围绕部署兼容性（扩展白名单）、权限与 ACL 的同步复杂性、以及大规模向量索引的重建与索引膨胀等工程挑战展开。作者在评论中回应了权限方案（应用层过滤与将来引入 RLS）、文档缺口与用 LLM 做查询编排以提升 RAG 效果的实现思路。",
-          "emoji": "🔧",
-          "sarcastic_question": "把模型交给 OpenAI，你还叫“自托管”吗？"
-        }
-      },
-      "articleSummary": "Omni 是一个开源的工作场所搜索和聊天平台，基于 Postgres 构建，定位为 Workplace AI Assistant and Search Platform。该项目托管在 GitHub 上，仓库地址为 getomnico/omni，目前拥有 405 个 Star 和 11 个 Fork，采用 Apache-2.0 许可证。Omni 旨在提供企业级的 AI 助手和搜索功能，允许用户通过单一平台整合和检索工作场所信息。其技术核心依赖于 Postgres 数据库，强调开源和可扩展性，适用于需要内部知识管理和智能问答的团队或企业。"
     }
   ]
 }
