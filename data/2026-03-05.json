@@ -1,0 +1,49 @@
+{
+  "date": "2026-03-05",
+  "total_feeds": 92,
+  "success_feeds": 86,
+  "total_articles": 2537,
+  "filtered_articles": 22,
+  "articles": [
+    {
+      "title": "Something is afoot in the land of Qwen",
+      "title_zh": "Qwen 团队核心成员集体辞职",
+      "link": "https://simonwillison.net/2026/Mar/4/qwen/#atom-everything",
+      "pub_date": "2026-03-04T15:50:03.000Z",
+      "summary": "Qwen 团队核心成员在 3 月 4 日集体辞职，包括技术负责人林俊阳、Qwen-Coder 系列负责人 Binyuan Hui、Qwen-Instruct 系列负责人 Bowen Yu 等多位核心研究员。36Kr 报道称，阿里集团 CEO 吴泳铭在紧急全员会议上回应了此事。辞职的导火索疑似是阿里从 Google Gemini 团队引入新研究员接管 Qwen 项目。这次人事动荡发生在 Qwen 3.5 模型系列发布之后，该系列包含从 397B 到 0.8B 的多个尺寸，其中 2B 模型仅 4.57GB 且支持推理和多模态能力，27B 和 35B 模型在编码任务上表现优异。Qwen 团队在资源有限的情况下持续优化小模型性能，其技术成果在开源社区获得广泛认可。核心成员的流失可能影响 Qwen 项目的后续发展，尤其是该团队在模型压缩和效率优化方面的独特积累。",
+      "source_name": "simonwillison.net",
+      "score": 18,
+      "depth": 3,
+      "novelty": 8,
+      "breadth": 7,
+      "category": "ai-ml",
+      "keywords": [
+        "Qwen",
+        "open-weight",
+        "team",
+        "resignation"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Compatibility Notes on the New Studio Displays",
+      "title_zh": "新款 Studio Display 不支持 Intel Mac",
+      "link": "https://www.macrumors.com/2026/03/03/apple-studio-display-no-intel-mac-support/",
+      "pub_date": "2026-03-04T16:10:32.000Z",
+      "summary": "",
+      "source_name": "daringfireball.net",
+      "score": 11,
+      "depth": 2,
+      "novelty": 4,
+      "breadth": 5,
+      "category": "tools",
+      "keywords": [
+        "Studio Display",
+        "Intel Mac",
+        "Apple silicon",
+        "compatibility"
+      ],
+      "rank": 2
+    }
+  ]
+}
