@@ -46,6 +46,46 @@
       "rank": 2
     },
     {
+      "title": "Maybe there’s a pattern here?",
+      "title_zh": "武器发明者的和平幻想与历史现实",
+      "link": "https://dynomight.net/pattern/",
+      "pub_date": "2026-03-04T00:00:00.000Z",
+      "summary": "文章通过六个历史案例揭示了一个反复出现的模式：技术发明者往往怀着减少战争伤亡的初衷创造武器，但最终这些技术都被用于更大规模的杀戮。加特林机枪发明者认为一挺机枪可替代百人军队从而减少战场暴露；德国太空旅行协会的民用火箭研究被纳粹军方接管，最终成为轰炸伦敦的 V-2 火箭；Santos-Dumont 发明飞机后呼吁禁止其军事用途，但一战和二战中飞机成为主要战争工具；诺贝尔发明炸药时认为更致命的武器能通过威慑带来和平，晚年甚至建议通过细菌战让战争对平民同样致命；卡拉什尼科夫晚年为 AK-47 的杀戮感到道德煎熬；西拉德参与曼哈顿项目后起草请愿书反对对日本使用原子弹，认为这会开启军备竞赛。这些发明者共同相信技术威慑可以终结战争，但历史证明这种信念是错误的。",
+      "source_name": "dynomight.net",
+      "score": 16,
+      "depth": 5,
+      "novelty": 6,
+      "breadth": 5,
+      "category": "opinion",
+      "keywords": [
+        "history",
+        "weapons",
+        "inventors",
+        "war"
+      ],
+      "rank": 3
+    },
+    {
+      "title": "Studio Display vs. Studio Display XDR",
+      "title_zh": "Apple 发布 Studio Display 和 Studio Display XDR",
+      "link": "https://www.apple.com/displays/",
+      "pub_date": "2026-03-04T18:04:43.000Z",
+      "summary": "",
+      "source_name": "daringfireball.net",
+      "score": 13,
+      "depth": 2,
+      "novelty": 5,
+      "breadth": 6,
+      "category": "tools",
+      "keywords": [
+        "Studio Display",
+        "Studio Display XDR",
+        "5K",
+        "Thunderbolt 5"
+      ],
+      "rank": 4
+    },
+    {
       "title": "Compatibility Notes on the New Studio Displays",
       "title_zh": "新款 Studio Display 不支持 Intel Mac",
       "link": "https://www.macrumors.com/2026/03/03/apple-studio-display-no-intel-mac-support/",
@@ -63,7 +103,27 @@
         "Apple silicon",
         "compatibility"
       ],
-      "rank": 3
+      "rank": 5
+    },
+    {
+      "title": "Aha, I found a counterexample to the documentation that says that Query­Performance­Counter never fails",
+      "title_zh": "QueryPerformanceCounter 失败的反例",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260304-00/?p=112110",
+      "pub_date": "2026-03-04T15:00:00.000Z",
+      "summary": "",
+      "source_name": "devblogs.microsoft.com/oldnewthing",
+      "score": 10,
+      "depth": 4,
+      "novelty": 3,
+      "breadth": 3,
+      "category": "engineering",
+      "keywords": [
+        "QueryPerformanceCounter",
+        "Windows",
+        "alignment",
+        "LARGE_INTEGER"
+      ],
+      "rank": 6
     }
   ]
 }
