@@ -3,7 +3,7 @@
   "total_feeds": 92,
   "success_feeds": 86,
   "total_articles": 2438,
-  "filtered_articles": 21,
+  "filtered_articles": 19,
   "articles": [
     {
       "title": "Something is afoot in the land of Qwen",
@@ -86,6 +86,25 @@
       "rank": 4
     },
     {
+      "title": "★ Thoughts and Observations on the MacBook Neo",
+      "title_zh": "MacBook Neo：599 美元的新入门笔记本",
+      "link": "https://daringfireball.net/2026/03/599_not_a_piece_of_junk_macbook_neo",
+      "pub_date": "2026-03-04T20:40:11.000Z",
+      "summary": "",
+      "source_name": "daringfireball.net",
+      "score": 13,
+      "depth": 3,
+      "novelty": 5,
+      "breadth": 5,
+      "category": "tools",
+      "keywords": [
+        "MacBook Neo",
+        "Apple Silicon",
+        "A18 Pro"
+      ],
+      "rank": 5
+    },
+    {
       "title": "Compatibility Notes on the New Studio Displays",
       "title_zh": "新款 Studio Display 不支持 Intel Mac",
       "link": "https://www.macrumors.com/2026/03/03/apple-studio-display-no-intel-mac-support/",
@@ -103,7 +122,7 @@
         "Apple silicon",
         "compatibility"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Aha, I found a counterexample to the documentation that says that Query­Performance­Counter never fails",
@@ -123,7 +142,7 @@
         "alignment",
         "LARGE_INTEGER"
       ],
-      "rank": 6
+      "rank": 7
     }
   ]
 }
