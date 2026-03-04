@@ -2,8 +2,8 @@
   "date": "2026-03-04",
   "total_feeds": 92,
   "success_feeds": 86,
-  "total_articles": 2438,
-  "filtered_articles": 20,
+  "total_articles": 2537,
+  "filtered_articles": 19,
   "articles": [
     {
       "title": "The AI Bubble Is An Information War",
@@ -126,6 +126,26 @@
       "rank": 6
     },
     {
+      "title": "A taxonomy of text output (from tools that want to be too clever)",
+      "title_zh": "命令行工具文本输出的八级分类",
+      "link": "https://utcc.utoronto.ca/~cks/space/blog/sysadmin/ProgramTextOutputTaxonomy",
+      "pub_date": "2026-03-04T01:41:02.000Z",
+      "summary": "命令行工具的文本输出应保持简单可解析，从纯文本逐行输出到全屏 TUI 共分为八个等级。纯文本逐行输出最便于脚本捕获和日志记录，而带颜色代码、光标控制、进度条动画的输出会破坏可解析性。最糟糕的是将输出移动到屏幕其他位置（如 apt 在底部显示进度条），这使程序看起来像全屏 TUI 而非 CLI，破坏了终端滚动历史，且在窗口大小错误或终端类型不匹配时会彻底崩溃。工具应提供命令行开关禁用智能输出，并自动检测 $TERM 环境变量或非终端输出时回退到简单模式。",
+      "source_name": "utcc.utoronto.ca/~cks",
+      "score": 15,
+      "depth": 5,
+      "novelty": 6,
+      "breadth": 4,
+      "category": "engineering",
+      "keywords": [
+        "CLI",
+        "terminal",
+        "output",
+        "apt"
+      ],
+      "rank": 7
+    },
+    {
       "title": "Apple Announces Updated Studio Display and All-New Studio Display XDR",
       "title_zh": "Apple 发布 Studio Display XDR 显示器",
       "link": "https://www.apple.com/newsroom/2026/03/apple-unveils-new-studio-display-and-all-new-studio-display-xdr/",
@@ -143,7 +163,7 @@
         "mini-LED",
         "Thunderbolt 5"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "New MacBook Air With M5",
@@ -163,7 +183,7 @@
         "Apple",
         "hardware"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Apple Might Have Prematurely Leaked the Name ‘MacBook Neo’",
@@ -183,7 +203,7 @@
         "leak",
         "A18 Pro"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Gemini 3.1 Flash-Lite",
@@ -202,7 +222,7 @@
         "pricing",
         "Flash-Lite"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "Quoting Donald Knuth",
@@ -221,7 +241,7 @@
         "Donald Knuth",
         "generative-ai"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "Why Improve Your Writing?",
@@ -241,7 +261,7 @@
         "documentation",
         "AI"
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "title": "w0rdz aRe 1mpoRtAnt",
@@ -261,7 +281,7 @@
         "behavior",
         "psychology"
       ],
-      "rank": 13
+      "rank": 14
     },
     {
       "title": "Just for fun: A survey of write protect notches on floppy disks and other media",
@@ -280,7 +300,7 @@
         "write-protect",
         "history"
       ],
-      "rank": 14
+      "rank": 15
     },
     {
       "title": "Free Books",
@@ -298,7 +318,7 @@
         "book",
         "free"
       ],
-      "rank": 15
+      "rank": 16
     }
   ]
 }
