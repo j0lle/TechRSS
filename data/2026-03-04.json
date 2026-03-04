@@ -1,9 +1,9 @@
 {
   "date": "2026-03-04",
   "total_feeds": 92,
-  "success_feeds": 82,
-  "total_articles": 2453,
-  "filtered_articles": 19,
+  "success_feeds": 86,
+  "total_articles": 2537,
+  "filtered_articles": 22,
   "articles": [
     {
       "title": "The AI Bubble Is An Information War",
@@ -146,6 +146,26 @@
       "rank": 7
     },
     {
+      "title": "From logistic regression to AI",
+      "title_zh": "Logistic 回归与 LLM 的参数比例相似性",
+      "link": "https://www.johndcook.com/blog/2026/03/04/from-logistic-regression-to-ai/",
+      "pub_date": "2026-03-04T14:15:02.000Z",
+      "summary": "Logistic regression 与 LLM 在数据量与参数比例上存在惊人相似性。传统统计学的经验法则要求至少 10 个事件对应 1 个参数（EVP），在 200 个样本的临床试验中通常只能拟合 4 个参数。而现代 LLM 的经验法则约为 100 个 token 对应 1 个参数，两者在数据位与参数位的比例上大致相当——logistic regression 约为 20-200 比特数据对应 1 比特参数，LLM 约为 400 比特训练数据对应 1 比特推理参数。这种相似性令人惊讶，因为两者之间存在从几个参数到数十亿参数的巨大鸿沟，而 \"more is different\"——规模变化会涌现出小规模模型无法预测的新现象。",
+      "source_name": "johndcook.com",
+      "score": 16,
+      "depth": 5,
+      "novelty": 6,
+      "breadth": 5,
+      "category": "ai-ml",
+      "keywords": [
+        "logistic regression",
+        "LLM",
+        "scaling laws",
+        "EVP"
+      ],
+      "rank": 8
+    },
+    {
       "title": "A taxonomy of text output (from tools that want to be too clever)",
       "title_zh": "命令行工具文本输出的八级分类",
       "link": "https://utcc.utoronto.ca/~cks/space/blog/sysadmin/ProgramTextOutputTaxonomy",
@@ -163,7 +183,7 @@
         "output",
         "apt"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Apple Announces Updated Studio Display and All-New Studio Display XDR",
@@ -183,7 +203,7 @@
         "mini-LED",
         "Thunderbolt 5"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "New MacBook Air With M5",
@@ -203,7 +223,7 @@
         "Apple",
         "hardware"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "Apple Might Have Prematurely Leaked the Name ‘MacBook Neo’",
@@ -223,7 +243,7 @@
         "leak",
         "A18 Pro"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "Gemini 3.1 Flash-Lite",
@@ -242,7 +262,7 @@
         "pricing",
         "Flash-Lite"
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "title": "Quoting Donald Knuth",
@@ -261,7 +281,7 @@
         "Donald Knuth",
         "generative-ai"
       ],
-      "rank": 13
+      "rank": 14
     },
     {
       "title": "Interruption-Driven Development",
@@ -281,7 +301,7 @@
         "meetings",
         "remote work"
       ],
-      "rank": 14
+      "rank": 15
     },
     {
       "title": "Why Improve Your Writing?",
@@ -301,7 +321,7 @@
         "documentation",
         "AI"
       ],
-      "rank": 15
+      "rank": 16
     },
     {
       "title": "‘In Other Words, Batman Has Become Superman and Robin Has Become Batman’",
@@ -321,7 +341,27 @@
         "CPU cores",
         "naming"
       ],
-      "rank": 16
+      "rank": 17
+    },
+    {
+      "title": "An AI Odyssey, Part 2: Prompting Peril",
+      "title_zh": "LLM 输出不可复现性的现实",
+      "link": "https://www.johndcook.com/blog/2026/03/04/an-ai-odyssey-part-2-prompting-peril/",
+      "pub_date": "2026-03-04T14:04:30.000Z",
+      "summary": "两个同事向 ChatGPT 提出相同问题，一个得到否定回答，另一个得到肯定回答并指向 OpenAI Responses API。这种不一致性源于大语言模型作为条件概率系统的本质：即使 temperature=0，输出仍受 prompt 措辞、上下文窗口内容、系统指令、模型配置等因素影响。GPU 浮点运算不确定性、分布式操作顺序差异、token 概率接近时的随机选择、后端基础设施变更、模型路由差异、隐藏系统提示词变化或工具可用性差异都会导致非确定性输出。作者认为 AI 聊天机器人的响应质量直接影响工具效果，甚至可能实质性影响项目结果，因此需要保持坚持、警惕和灵活的态度来获取可靠答案。",
+      "source_name": "johndcook.com",
+      "score": 10,
+      "depth": 3,
+      "novelty": 2,
+      "breadth": 5,
+      "category": "ai-ml",
+      "keywords": [
+        "LLM",
+        "reproducibility",
+        "nondeterminism",
+        "prompt engineering"
+      ],
+      "rank": 18
     },
     {
       "title": "w0rdz aRe 1mpoRtAnt",
@@ -341,7 +381,7 @@
         "behavior",
         "psychology"
       ],
-      "rank": 17
+      "rank": 19
     },
     {
       "title": "How many hours do you need to work to afford a pint of beer?",
@@ -360,7 +400,7 @@
         "minimum wage",
         "statistics"
       ],
-      "rank": 18
+      "rank": 20
     },
     {
       "title": "Homebrew Computer Club in Menlo Park",
@@ -380,7 +420,7 @@
         "Apple",
         "Altair 8800"
       ],
-      "rank": 19
+      "rank": 21
     },
     {
       "title": "Just for fun: A survey of write protect notches on floppy disks and other media",
@@ -399,7 +439,7 @@
         "write-protect",
         "history"
       ],
-      "rank": 20
+      "rank": 22
     },
     {
       "title": "Free Books",
@@ -417,7 +457,7 @@
         "book",
         "free"
       ],
-      "rank": 21
+      "rank": 23
     }
   ]
 }
