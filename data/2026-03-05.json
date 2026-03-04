@@ -2,8 +2,8 @@
   "date": "2026-03-05",
   "total_feeds": 92,
   "success_feeds": 86,
-  "total_articles": 2537,
-  "filtered_articles": 22,
+  "total_articles": 2438,
+  "filtered_articles": 21,
   "articles": [
     {
       "title": "Something is afoot in the land of Qwen",
@@ -26,6 +26,26 @@
       "rank": 1
     },
     {
+      "title": "Anti-patterns: things to avoid",
+      "title_zh": "Agentic 编程中的代码审查反模式",
+      "link": "https://simonwillison.net/guides/agentic-engineering-patterns/anti-patterns/#atom-everything",
+      "pub_date": "2026-03-04T17:34:42.000Z",
+      "summary": "AI 辅助编程时代，将未审查的代码直接提交 PR 成为常见反模式。开发者不应将数百行 AI 生成的代码未经验证就推给同事审查，这本质上是将实际工作转嫁给他人。合格的 agentic 工程 PR 应满足四个条件：代码确实可用且提交者有信心、变更足够小以降低认知负担、包含高层目标和相关链接等上下文、PR 描述也需经过人工验证。作者建议通过手动测试记录、实现选择说明、功能截图或视频等方式证明已投入审查工作，避免浪费评审者的时间。",
+      "source_name": "simonwillison.net",
+      "score": 18,
+      "depth": 5,
+      "novelty": 6,
+      "breadth": 7,
+      "category": "engineering",
+      "keywords": [
+        "coding-agents",
+        "code-review",
+        "agentic-engineering",
+        "AI-assisted-programming"
+      ],
+      "rank": 2
+    },
+    {
       "title": "Compatibility Notes on the New Studio Displays",
       "title_zh": "新款 Studio Display 不支持 Intel Mac",
       "link": "https://www.macrumors.com/2026/03/03/apple-studio-display-no-intel-mac-support/",
@@ -43,7 +63,7 @@
         "Apple silicon",
         "compatibility"
       ],
-      "rank": 2
+      "rank": 3
     }
   ]
 }
