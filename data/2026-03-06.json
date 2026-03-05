@@ -1,9 +1,9 @@
 {
   "date": "2026-03-06",
   "total_feeds": 92,
-  "success_feeds": 84,
-  "total_articles": 2403,
-  "filtered_articles": 7,
+  "success_feeds": 86,
+  "total_articles": 2438,
+  "filtered_articles": 8,
   "articles": [
     {
       "title": "Can coding agents relicense open source through a “clean room” implementation of code?",
@@ -44,6 +44,26 @@
         "slopforks"
       ],
       "rank": 2
+    },
+    {
+      "title": "Pluralistic: Blowtorching the frog (05 Mar 2026) executive-dysfunction",
+      "title_zh": "危机如何推动变革：从欧洲能源转型到逃离 Twitter",
+      "link": "https://pluralistic.net/2026/03/05/executive-dysfunction/",
+      "pub_date": "2026-03-05T19:31:30.000Z",
+      "summary": "Cory Doctorow 用 \"constant bearing, decreasing range\" 的航海术语和 \"煮青蛙\" 的寓言来解释人类为何难以应对渐进式危机。文章指出，缓慢的恶化（如气候危机、平台 enshittification）往往因为每次变化都很小而被合理化接受，直到累积成灾难。但危机也能促成改变：普京入侵乌克兰迫使欧洲在三年内从落后气候目标几十年变成提前十年完成，马斯克对 Twitter 的激进破坏推动数百万人转向联邦化社交网络。作者宣布离开 Twitter，迁移到自建的 Bluesky 服务器 @doctorow.pluralistic.net，以规避 Bluesky 公司的强制仲裁条款，同时保持与 Bluesky 社区的连接。",
+      "source_name": "pluralistic.net",
+      "score": 17,
+      "depth": 4,
+      "novelty": 6,
+      "breadth": 7,
+      "category": "opinion",
+      "keywords": [
+        "enshittification",
+        "Bluesky",
+        "Twitter",
+        "federation"
+      ],
+      "rank": 3
     }
   ]
 }
