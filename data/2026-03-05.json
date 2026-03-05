@@ -2,9 +2,29 @@
   "date": "2026-03-05",
   "total_feeds": 92,
   "success_feeds": 86,
-  "total_articles": 2537,
-  "filtered_articles": 14,
+  "total_articles": 2438,
+  "filtered_articles": 13,
   "articles": [
+    {
+      "title": "Package Manager Magic Files",
+      "title_zh": "包管理器的魔法配置文件全指南",
+      "link": "https://nesbitt.io/2026/03/05/package-manager-magic-files.html",
+      "pub_date": "2026-03-05T10:00:00.000Z",
+      "summary": "包管理器除了 manifest 和 lockfile 外还有大量配置文件控制依赖来源、发布内容和安装行为。.npmrc 可设置 registry URL、auth tokens 和 shell/git 路径，恶意 .npmrc 能在 package.json 未被修改的情况下劫持脚本执行。.yarnrc.yml 的 yarnPath 指向任意 JavaScript 文件作为包管理器二进制，存在被劫持风险。Cargo 的 .cargo/config.toml 采用层级合并机制，无扩展名的旧版配置会覆盖新版设置。npm 的 overrides、Yarn 的 resolutions、pnpm 的 pnpm.overrides 可强制指定传递依赖版本，.pnpmfile.cjs 的 readPackage 钩子能在安装时编程重写任何包的 package.json。NuGet 的 Directory.Packages.props 实现了集中式版本管理，Gradle 的 libs.versions.toml 提供类型安全的版本目录。这些文件大多文档缺失、命名不一致，但掌握它们能解决依赖冲突、提升构建可重复性，同时也是供应链攻击的潜在入口。",
+      "source_name": "nesbitt.io",
+      "score": 23,
+      "depth": 7,
+      "novelty": 8,
+      "breadth": 8,
+      "category": "engineering",
+      "keywords": [
+        "package manager",
+        "npm",
+        "cargo",
+        "overrides"
+      ],
+      "rank": 1
+    },
     {
       "title": "Something is afoot in the land of Qwen",
       "title_zh": "Qwen 团队核心成员集体辞职",
@@ -23,7 +43,7 @@
         "team",
         "resignation"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Anti-patterns: things to avoid",
@@ -43,7 +63,7 @@
         "agentic-engineering",
         "AI-assisted-programming"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Maybe there’s a pattern here?",
@@ -63,7 +83,7 @@
         "inventors",
         "war"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Studio Display vs. Studio Display XDR",
@@ -83,7 +103,7 @@
         "5K",
         "Thunderbolt 5"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "★ Thoughts and Observations on the MacBook Neo",
@@ -102,7 +122,7 @@
         "Apple Silicon",
         "A18 Pro"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Sometimes, non-general solutions are the right answer",
@@ -122,7 +142,7 @@
         "cgroups",
         "python"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Compatibility Notes on the New Studio Displays",
@@ -142,7 +162,7 @@
         "Apple silicon",
         "compatibility"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Aha, I found a counterexample to the documentation that says that Query­Performance­Counter never fails",
@@ -162,7 +182,7 @@
         "alignment",
         "LARGE_INTEGER"
       ],
-      "rank": 8
+      "rank": 9
     }
   ]
 }
