@@ -3,7 +3,7 @@
   "total_feeds": 92,
   "success_feeds": 86,
   "total_articles": 2438,
-  "filtered_articles": 8,
+  "filtered_articles": 10,
   "articles": [
     {
       "title": "Can coding agents relicense open source through a “clean room” implementation of code?",
@@ -64,6 +64,26 @@
         "federation"
       ],
       "rank": 3
+    },
+    {
+      "title": "The mystery of the posted message that was dispatched before reaching the main message loop",
+      "title_zh": "Windows 消息过早分派的谜题",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260305-00/?p=112114",
+      "pub_date": "2026-03-05T15:00:00.000Z",
+      "summary": "Windows 消息循环中的 posted 消息可能在进入主消息循环前就被处理。系统无法区分哪个是主消息循环，任何调用 GetMessage/PeekMessage 和 DispatchMessage 的代码都会处理 posted 消息。客户在窗口创建后、主消息循环前的准备工作中可能包含了临时消息循环（如 DDE 通信或跨进程 COM 调用），这些操作会泵送消息并导致 posted 消息过早分派。解决方案是推迟消息发送，直到所有准备工作完成。",
+      "source_name": "devblogs.microsoft.com/oldnewthing",
+      "score": 12,
+      "depth": 5,
+      "novelty": 4,
+      "breadth": 3,
+      "category": "engineering",
+      "keywords": [
+        "Windows",
+        "message loop",
+        "GetMessage",
+        "DispatchMessage"
+      ],
+      "rank": 4
     }
   ]
 }
