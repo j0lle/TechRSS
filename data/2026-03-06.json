@@ -1,10 +1,30 @@
 {
   "date": "2026-03-06",
   "total_feeds": 92,
-  "success_feeds": 86,
-  "total_articles": 2438,
-  "filtered_articles": 9,
+  "success_feeds": 84,
+  "total_articles": 2403,
+  "filtered_articles": 7,
   "articles": [
+    {
+      "title": "Can coding agents relicense open source through a “clean room” implementation of code?",
+      "title_zh": "AI 编码代理能否实现合法的 clean room 重写",
+      "link": "https://simonwillison.net/2026/Mar/5/chardet/#atom-everything",
+      "pub_date": "2026-03-05T16:49:33.000Z",
+      "summary": "chardet 7.0.0 发布者 Dan Blanchard 使用 Claude Code 完成了从 LGPL 到 MIT 许可证的代码重写，声称这是独立实现。他使用 JPlag 工具检测显示新代码与旧版本相似度仅 1.29%，远低于历史版本间的 80-93%。重写过程包括在空仓库中明确指示 Claude 不基于 LGPL/GPL 代码，并保留了详细的设计文档和重写计划。原作者 Mark Pilgrim 反对这一做法，认为维护者长期接触原代码，且 AI 工具的使用不能改变许可证约束。争议焦点包括：传统 clean-room 要求的人员隔离在此不存在、Claude 本身可能训练过 chardet 代码、以及重写后仍使用相同 PyPI 包名的合理性。这起事件暴露了 AI 编码代理在开源许可证合规性上的法律灰色地带，预计商业公司面临类似 IP 威胁时会引发诉讼。",
+      "source_name": "simonwillison.net",
+      "score": 24,
+      "depth": 7,
+      "novelty": 9,
+      "breadth": 8,
+      "category": "other",
+      "keywords": [
+        "clean room",
+        "licensing",
+        "Claude Code",
+        "open source"
+      ],
+      "rank": 1
+    },
     {
       "title": "AI And The Ship of Theseus",
       "title_zh": "AI 重写如何颠覆软件许可体系",
@@ -23,7 +43,7 @@
         "AI",
         "slopforks"
       ],
-      "rank": 1
+      "rank": 2
     }
   ]
 }
