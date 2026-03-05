@@ -3,7 +3,7 @@
   "total_feeds": 92,
   "success_feeds": 86,
   "total_articles": 2438,
-  "filtered_articles": 13,
+  "filtered_articles": 12,
   "articles": [
     {
       "title": "Package Manager Magic Files",
@@ -183,6 +183,45 @@
         "LARGE_INTEGER"
       ],
       "rank": 9
+    },
+    {
+      "title": "Remembering the Michelangelo virus",
+      "title_zh": "回顾 1992 年 Michelangelo 病毒事件",
+      "link": "https://dfarq.homeip.net/remembering-michelangelo/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=remembering-michelangelo",
+      "pub_date": "2026-03-05T12:00:08.000Z",
+      "summary": "",
+      "source_name": "dfarq.homeip.net",
+      "score": 7,
+      "depth": 3,
+      "novelty": 2,
+      "breadth": 2,
+      "category": "security",
+      "keywords": [
+        "Michelangelo",
+        "virus",
+        "MBR",
+        "DOS"
+      ],
+      "rank": 10
+    },
+    {
+      "title": "Book Review: Katabasis by R. F. Kuang ★★★★⯪",
+      "title_zh": "R.F. Kuang《Katabasis》书评",
+      "link": "https://shkspr.mobi/blog/2026/03/book-review-katabasis-by-r-f-kuang/",
+      "pub_date": "2026-03-05T12:34:44.000Z",
+      "summary": "",
+      "source_name": "shkspr.mobi",
+      "score": 3,
+      "depth": 1,
+      "novelty": 1,
+      "breadth": 1,
+      "category": "other",
+      "keywords": [
+        "book review",
+        "Katabasis",
+        "R.F. Kuang"
+      ],
+      "rank": 11
     }
   ]
 }
