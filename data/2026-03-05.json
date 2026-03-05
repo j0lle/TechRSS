@@ -3,7 +3,7 @@
   "total_feeds": 92,
   "success_feeds": 86,
   "total_articles": 2438,
-  "filtered_articles": 12,
+  "filtered_articles": 9,
   "articles": [
     {
       "title": "Package Manager Magic Files",
@@ -86,6 +86,26 @@
       "rank": 4
     },
     {
+      "title": "JJ LSP Follow Up",
+      "title_zh": "LSP 3.18 虚拟文档支持 Magit 风格 UX",
+      "link": "https://matklad.github.io/2026/03/05/jj-lsp-followup.html",
+      "pub_date": "2026-03-05T00:00:00.000Z",
+      "summary": "LSP 3.18 新增 Text Document Content Request 特性，允许服务器提供虚拟文档而无需在磁盘上实际创建文件。这意味着 Magit 风格的 git 操作界面可以通过 LSP 协议实现：diff 视图作为虚拟文档，语义高亮由 semantic tokens 提供，\"签出此提交\"等操作作为 code actions，\"跳转到定义\"可以从虚拟 diff 直接跳转到工作树中的真实文件。这一特性让 jj 版本控制工具的 LSP 集成方案从 hacky 变得规范可行。",
+      "source_name": "matklad.github.io",
+      "score": 16,
+      "depth": 5,
+      "novelty": 7,
+      "breadth": 4,
+      "category": "engineering",
+      "keywords": [
+        "LSP",
+        "jj",
+        "virtual documents",
+        "Magit"
+      ],
+      "rank": 5
+    },
+    {
       "title": "Studio Display vs. Studio Display XDR",
       "title_zh": "Apple 发布 Studio Display 和 Studio Display XDR",
       "link": "https://www.apple.com/displays/",
@@ -103,7 +123,7 @@
         "5K",
         "Thunderbolt 5"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "★ Thoughts and Observations on the MacBook Neo",
@@ -122,7 +142,7 @@
         "Apple Silicon",
         "A18 Pro"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Sometimes, non-general solutions are the right answer",
@@ -142,7 +162,7 @@
         "cgroups",
         "python"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Compatibility Notes on the New Studio Displays",
@@ -162,7 +182,7 @@
         "Apple silicon",
         "compatibility"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Aha, I found a counterexample to the documentation that says that Query­Performance­Counter never fails",
@@ -182,7 +202,7 @@
         "alignment",
         "LARGE_INTEGER"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Remembering the Michelangelo virus",
@@ -202,7 +222,7 @@
         "MBR",
         "DOS"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "Book Review: Katabasis by R. F. Kuang ★★★★⯪",
@@ -221,7 +241,7 @@
         "Katabasis",
         "R.F. Kuang"
       ],
-      "rank": 11
+      "rank": 12
     }
   ]
 }
