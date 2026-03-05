@@ -1,0 +1,29 @@
+{
+  "date": "2026-03-06",
+  "total_feeds": 92,
+  "success_feeds": 86,
+  "total_articles": 2438,
+  "filtered_articles": 9,
+  "articles": [
+    {
+      "title": "AI And The Ship of Theseus",
+      "title_zh": "AI 重写如何颠覆软件许可体系",
+      "link": "https://lucumr.pocoo.org/2026/3/5/theseus/",
+      "pub_date": "2026-03-05T00:00:00.000Z",
+      "summary": "AI 时代代码重写成本趋近于零，仅凭测试套件就能重新实现现有库。chardet 维护者通过 AI 将其从 LGPL 重写为 MIT，新实现速度更快、支持多核并行，且通过 JPlag 验证与原作代码结构不同。这引发了一个核心问题：当 GPL 等/copyleft 许可证依赖版权摩擦来强制执行时，AI 重写是否会让这些许可证失效？作者认为这可能催生大量 \"slopforks\"——功能相同但许可证更宽松的复制品。Vercel 用 AI 重写了 bash，却对别人用同样方式重写 Next.js 表示不满，暴露了双重标准。更深层的问题是，AI 生成的代码可能因缺乏足够的人类输入而被法院判定为公有领域。作者认为这标志着软件许可和版权体系面临根本性挑战，copyleft 与宽松许可的旧争论将在 AI 时代重新上演。",
+      "source_name": "lucumr.pocoo.org",
+      "score": 21,
+      "depth": 5,
+      "novelty": 8,
+      "breadth": 8,
+      "category": "opinion",
+      "keywords": [
+        "licensing",
+        "copyleft",
+        "AI",
+        "slopforks"
+      ],
+      "rank": 1
+    }
+  ]
+}
