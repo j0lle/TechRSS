@@ -2,8 +2,8 @@
   "date": "2026-03-05",
   "total_feeds": 92,
   "success_feeds": 86,
-  "total_articles": 2438,
-  "filtered_articles": 19,
+  "total_articles": 2537,
+  "filtered_articles": 14,
   "articles": [
     {
       "title": "Something is afoot in the land of Qwen",
@@ -105,6 +105,26 @@
       "rank": 5
     },
     {
+      "title": "Sometimes, non-general solutions are the right answer",
+      "title_zh": "硬编码有时是正确的工程选择",
+      "link": "https://utcc.utoronto.ca/~cks/space/blog/python/HardcodingCanBeTheRightAnswer",
+      "pub_date": "2026-03-05T03:33:13.000Z",
+      "summary": "作者在开发一个按 cgroup 显示 Linux 内存信息的 Python 程序时，最初只有两个字段（user 和 cache），后来发现需要显示第三个字段（kernel memory）。作者曾考虑设计一个通用的解决方案来支持任意数量的字段输出，但实现复杂度很高，需要重构整个输出逻辑和 argparse 参数处理。最终作者选择了一个非通用的硬编码方案：添加一个新的命令行参数 '-b'（both）来同时显示三个字段，而不是重新设计整个输出系统。这个硬编码方案虽然不够优雅，但实现速度快，解决了当前需求，且不阻塞未来可能的通用化重构。",
+      "source_name": "utcc.utoronto.ca/~cks",
+      "score": 12,
+      "depth": 4,
+      "novelty": 4,
+      "breadth": 4,
+      "category": "engineering",
+      "keywords": [
+        "hardcoding",
+        "argparse",
+        "cgroups",
+        "python"
+      ],
+      "rank": 6
+    },
+    {
       "title": "Compatibility Notes on the New Studio Displays",
       "title_zh": "新款 Studio Display 不支持 Intel Mac",
       "link": "https://www.macrumors.com/2026/03/03/apple-studio-display-no-intel-mac-support/",
@@ -122,7 +142,7 @@
         "Apple silicon",
         "compatibility"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Aha, I found a counterexample to the documentation that says that Query­Performance­Counter never fails",
@@ -142,7 +162,7 @@
         "alignment",
         "LARGE_INTEGER"
       ],
-      "rank": 7
+      "rank": 8
     }
   ]
 }
