@@ -1,10 +1,30 @@
 {
   "date": "2026-03-07",
   "total_feeds": 92,
-  "success_feeds": 86,
-  "total_articles": 2439,
-  "filtered_articles": 20,
+  "success_feeds": 85,
+  "total_articles": 2414,
+  "filtered_articles": 24,
   "articles": [
+    {
+      "title": "The Verge Interviews Tim Sweeney After Victory in ‘Epic v. Google’",
+      "title_zh": "Epic CEO 胜诉后披露 Google 反竞争内幕",
+      "link": "https://www.theverge.com/23996474/epic-tim-sweeney-interview-win-google-antitrust-lawsuit-district-court",
+      "pub_date": "2026-03-06T18:09:10.000Z",
+      "summary": "Epic CEO Tim Sweeney 在赢得对 Google 的反垄断诉讼后接受采访，详细披露了 Google 在 Android 生态系统中的反竞争行为。Sweeney 指出 Google 通过 Project Hug 项目向 27 家游戏开发商支付费用，阻止它们推出自己的应用商店，其中包括 Activision、Riot 和 Supercell。Google 还与运营商和 OEM 厂商达成秘密协议，阻止竞争对手商店的预装。Sweeney 揭露 Google 内部员工在讨论敏感反垄断话题时会关闭聊天记录以销毁证据。Spotify 获得了 Google 给予的特殊待遇，可以使用自己的支付系统并保留 100% 收入，而其他开发者需支付 30% 的费用。Sweeney 强调 Epic 拒绝接受只针对自己的特殊交易，坚持为所有开发者争取公平竞争环境。",
+      "source_name": "daringfireball.net",
+      "score": 20,
+      "depth": 6,
+      "novelty": 7,
+      "breadth": 7,
+      "category": "other",
+      "keywords": [
+        "Google",
+        "antitrust",
+        "Epic",
+        "Android"
+      ],
+      "rank": 1
+    },
     {
       "title": "How cosplaying Ancient Rome led to the scientific revolution",
       "title_zh": "复古罗马如何引发科学革命",
@@ -23,7 +43,27 @@
         "scientific revolution",
         "history"
       ],
-      "rank": 1
+      "rank": 2
+    },
+    {
+      "title": "Tim Sweeney Signed Away His Right to Criticize Google’s Play Store Until 2032",
+      "title_zh": "Sweeney 承诺 2032 年前不批评 Google Play",
+      "link": "https://www.theverge.com/news/889595/tim-sweeney-signed-away-his-right-to-criticize-google-until-2032",
+      "pub_date": "2026-03-06T17:36:16.000Z",
+      "summary": "Epic CEO Tim Sweeney 在与 Google 的和解协议中签署了条款，承诺在 2032 年 9 月前不得批评 Google Play Store 的分发政策、费用和游戏应用处理方式。协议要求 Epic 声明 Google 和 Android 平台在协议变更后具有促进竞争性，并成为应用商店和平台运营的典范。Sweeney 还需做出善意努力倡导相同立场，并可能需要在其他法院为该协议辩护。Epic 仍可参与 Coalition for App Fairness，但只能将该组织针对 Apple。协议将在 Google 完成服务费用变更后五年到期，Google 计划在 2027 年 9 月 30 日前完成变更。",
+      "source_name": "daringfireball.net",
+      "score": 19,
+      "depth": 6,
+      "novelty": 7,
+      "breadth": 6,
+      "category": "other",
+      "keywords": [
+        "Google",
+        "Epic",
+        "antitrust",
+        "settlement"
+      ],
+      "rank": 3
     },
     {
       "title": "How to Host your Own Email Server",
@@ -43,7 +83,7 @@
         "DKIM",
         "DMARC"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "‘Never the Same Game Twice’",
@@ -63,7 +103,46 @@
         "Pop Art",
         "board games"
       ],
-      "rank": 3
+      "rank": 5
+    },
+    {
+      "title": "When Read­Directory­ChangesW reports that a deletion occurred, how can I learn more about the deleted thing?",
+      "title_zh": "ReadDirectoryChangesW 获取删除文件信息",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260306-00/?p=112116",
+      "pub_date": "2026-03-06T15:00:00.000Z",
+      "summary": "ReadDirectoryChangesW 在报告 FILE_ACTION_REMOVED 时仅提供文件名，不包含文件属性或大小信息。Raymond Chen 解释了该 API 的设计意图：配合 FindFirstFile/FindNextFile 构建内存缓存，通过增量更新维护目录状态。但这种方法存在竞态条件，当文件被快速添加又删除时，缓存可能无法捕获文件信息。解决方案是使用 ReadDirectoryChangesExW 并请求 ReadDirectoryNotifyExtendedInformation，该扩展结构在 FILE_ACTION_REMOVED 通知中包含 FileAttributes 和 FileSize 字段，可直接获取删除项的文件类型和大小。",
+      "source_name": "devblogs.microsoft.com/oldnewthing",
+      "score": 14,
+      "depth": 7,
+      "novelty": 4,
+      "breadth": 3,
+      "category": "engineering",
+      "keywords": [
+        "ReadDirectoryChangesW",
+        "Windows API",
+        "file monitoring",
+        "ReadDirectoryChangesExW"
+      ],
+      "rank": 6
+    },
+    {
+      "title": "Anthropic and the Pentagon",
+      "title_zh": "Anthropic 与五角大楼合作分析",
+      "link": "https://simonwillison.net/2026/Mar/6/anthropic-and-the-pentagon/#atom-everything",
+      "pub_date": "2026-03-06T17:26:50.000Z",
+      "summary": "",
+      "source_name": "simonwillison.net",
+      "score": 13,
+      "depth": 3,
+      "novelty": 4,
+      "breadth": 6,
+      "category": "opinion",
+      "keywords": [
+        "Anthropic",
+        "AI ethics",
+        "Pentagon"
+      ],
+      "rank": 7
     },
     {
       "title": "The MacBook Neo’s Price, Looking to the Past and Future",
@@ -81,7 +160,7 @@
         "MacBook Neo",
         "pricing"
       ],
-      "rank": 4
+      "rank": 8
     },
     {
       "title": "The Mystery of Rennes-le-Château, Part 1: The Priest’s Treasure",
@@ -100,7 +179,7 @@
         "history",
         "Rennes-le-Château"
       ],
-      "rank": 5
+      "rank": 9
     }
   ]
 }
