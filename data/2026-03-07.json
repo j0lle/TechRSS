@@ -1,10 +1,30 @@
 {
   "date": "2026-03-07",
   "total_feeds": 92,
-  "success_feeds": 85,
-  "total_articles": 2513,
+  "success_feeds": 86,
+  "total_articles": 2439,
   "filtered_articles": 24,
   "articles": [
+    {
+      "title": "Google’s Threat Intelligence Group on Coruna a Powerful iOS Exploit Kit of Mysterious Origin",
+      "title_zh": "Coruna：iOS 漏洞利用工具包的扩散路径",
+      "link": "https://cloud.google.com/blog/topics/threat-intelligence/coruna-powerful-ios-exploit-kit",
+      "pub_date": "2026-03-06T20:32:47.000Z",
+      "summary": "Google Threat Intelligence Group 披露了一个名为 Coruna 的 iOS 漏洞利用工具包，包含 23 个漏洞利用，覆盖 iOS 13.0 至 17.2.1 版本。该工具包最初由商业监控供应商客户使用，后被俄罗斯间谍组织 UNC6353 用于针对乌克兰用户的 watering hole 攻击，最终被中国金融动机威胁行为者 UNC6691 在大规模加密货币诈骗网站中部署。工具包架构高度工程化，包含设备指纹识别、基于 cookie 的资源 URL 生成、ChaCha20 加密的二进制载荷（LZW 压缩，自定义文件格式头 0xf00dbeef），以及 PAC 绕过和沙箱逃逸模块。最终载荷 PlasmaLoader（代号 PLASMAGRID）注入到 powerd 守护进程，能够窃取加密货币钱包助记词、银行账户信息，并支持通过 C2 远程加载额外模块。攻击者针对 MetaMask、Trust Wallet、Phantom 等 18 个加密货币钱包应用部署了功能钩子模块。Google 已将相关域名添加到 Safe Browsing，并建议用户更新到最新 iOS 版本或启用 Lockdown Mode。",
+      "source_name": "daringfireball.net",
+      "score": 26,
+      "depth": 9,
+      "novelty": 9,
+      "breadth": 8,
+      "category": "security",
+      "keywords": [
+        "Coruna",
+        "iOS",
+        "exploit kit",
+        "PLASMAGRID"
+      ],
+      "rank": 1
+    },
     {
       "title": "The Verge Interviews Tim Sweeney After Victory in ‘Epic v. Google’",
       "title_zh": "Epic CEO 胜诉后披露 Google 反竞争内幕",
@@ -23,7 +43,7 @@
         "Epic",
         "Android"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "How cosplaying Ancient Rome led to the scientific revolution",
@@ -43,7 +63,7 @@
         "scientific revolution",
         "history"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Tim Sweeney Signed Away His Right to Criticize Google’s Play Store Until 2032",
@@ -63,7 +83,7 @@
         "antitrust",
         "settlement"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "How to Host your Own Email Server",
@@ -83,7 +103,7 @@
         "DKIM",
         "DMARC"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "‘The Window Chrome of Our Discontent’",
@@ -103,7 +123,7 @@
         "Liquid Glass",
         "Pages"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "‘Never the Same Game Twice’",
@@ -123,7 +143,7 @@
         "Pop Art",
         "board games"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "When Read­Directory­ChangesW reports that a deletion occurred, how can I learn more about the deleted thing?",
@@ -143,7 +163,7 @@
         "file monitoring",
         "ReadDirectoryChangesExW"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Anthropic and the Pentagon",
@@ -162,7 +182,7 @@
         "AI ethics",
         "Pentagon"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "The MacBook Neo’s Price, Looking to the Past and Future",
@@ -180,7 +200,7 @@
         "MacBook Neo",
         "pricing"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "The Mystery of Rennes-le-Château, Part 1: The Priest’s Treasure",
@@ -199,7 +219,7 @@
         "history",
         "Rennes-le-Château"
       ],
-      "rank": 10
+      "rank": 11
     }
   ]
 }
