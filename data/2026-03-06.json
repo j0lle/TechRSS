@@ -3,7 +3,7 @@
   "total_feeds": 92,
   "success_feeds": 86,
   "total_articles": 2439,
-  "filtered_articles": 14,
+  "filtered_articles": 15,
   "articles": [
     {
       "title": "Clinejection — Compromising Cline's Production Releases just by Prompting an Issue Triager",
@@ -284,6 +284,25 @@
       "rank": 14
     },
     {
+      "title": "Advice for staying in the hospital for a week",
+      "title_zh": "住院一周的生存建议",
+      "link": "https://xeiaso.net/blog/2026/hospital-advice/",
+      "pub_date": "2026-03-06T00:00:00.000Z",
+      "summary": "",
+      "source_name": "xeiaso.net",
+      "score": 6,
+      "depth": 2,
+      "novelty": 2,
+      "breadth": 2,
+      "category": "other",
+      "keywords": [
+        "hospital",
+        "recovery",
+        "personal"
+      ],
+      "rank": 15
+    },
+    {
       "title": "Blue Monday by New Order released, 1983",
       "title_zh": "1983 年 New Order 发布 Blue Monday",
       "link": "https://dfarq.homeip.net/blue-monday-by-new-order-released-1983/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=blue-monday-by-new-order-released-1983",
@@ -300,7 +319,7 @@
         "Blue Monday",
         "Joy Division"
       ],
-      "rank": 15
+      "rank": 16
     }
   ]
 }
