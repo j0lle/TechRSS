@@ -3,8 +3,28 @@
   "total_feeds": 92,
   "success_feeds": 86,
   "total_articles": 2439,
-  "filtered_articles": 19,
+  "filtered_articles": 20,
   "articles": [
+    {
+      "title": "How cosplaying Ancient Rome led to the scientific revolution",
+      "title_zh": "复古罗马如何引发科学革命",
+      "link": "https://www.dwarkesh.com/p/ada-palmer",
+      "pub_date": "2026-03-06T17:14:20.000Z",
+      "summary": "文艺复兴时期，Petrarch 试图通过复兴罗马古典教育来培养理想统治者，但结果适得其反。他推动建立的图书馆和古典文本收集运动，在两百年后意外催生了科学革命。印刷术的普及让卢克莱修等古典著作得以广泛传播，医学学生开始质疑原子论和疾病机制，最终导向细菌理论和疫苗的诞生。历史表明，人们试图塑造历史的努力往往事与愿违，但可能产生意想不到的积极后果。",
+      "source_name": "dwarkesh.com",
+      "score": 19,
+      "depth": 7,
+      "novelty": 8,
+      "breadth": 4,
+      "category": "other",
+      "keywords": [
+        "Renaissance",
+        "printing press",
+        "scientific revolution",
+        "history"
+      ],
+      "rank": 1
+    },
     {
       "title": "How to Host your Own Email Server",
       "title_zh": "从零搭建自托管邮件服务器实战指南",
@@ -23,7 +43,7 @@
         "DKIM",
         "DMARC"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "‘Never the Same Game Twice’",
@@ -43,7 +63,7 @@
         "Pop Art",
         "board games"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "The MacBook Neo’s Price, Looking to the Past and Future",
@@ -61,7 +81,26 @@
         "MacBook Neo",
         "pricing"
       ],
-      "rank": 3
+      "rank": 4
+    },
+    {
+      "title": "The Mystery of Rennes-le-Château, Part 1: The Priest’s Treasure",
+      "title_zh": "Rennes-le-Château 神秘传说起源",
+      "link": "https://www.filfre.net/2026/03/the-mystery-of-rennes-le-chateau-part-1-the-priests-treasure/",
+      "pub_date": "2026-03-06T16:50:42.000Z",
+      "summary": "",
+      "source_name": "filfre.net",
+      "score": 6,
+      "depth": 2,
+      "novelty": 2,
+      "breadth": 2,
+      "category": "other",
+      "keywords": [
+        "conspiracy",
+        "history",
+        "Rennes-le-Château"
+      ],
+      "rank": 5
     }
   ]
 }
