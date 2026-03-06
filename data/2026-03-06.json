@@ -3,7 +3,7 @@
   "total_feeds": 92,
   "success_feeds": 86,
   "total_articles": 2537,
-  "filtered_articles": 12,
+  "filtered_articles": 13,
   "articles": [
     {
       "title": "Clinejection — Compromising Cline's Production Releases just by Prompting an Issue Triager",
@@ -204,6 +204,63 @@
         "Jevons paradox"
       ],
       "rank": 10
+    },
+    {
+      "title": "Boy I was wrong about the Fediverse",
+      "title_zh": "Fediverse 在美国新闻崩溃中的价值",
+      "link": "https://matduggan.com/boy-i-was-wrong-about-the-fediverse/",
+      "pub_date": "2026-03-06T12:21:23.000Z",
+      "summary": "",
+      "source_name": "matduggan.com",
+      "score": 9,
+      "depth": 2,
+      "novelty": 3,
+      "breadth": 4,
+      "category": "opinion",
+      "keywords": [
+        "fediverse",
+        "mastodon",
+        "socialmedia"
+      ],
+      "rank": 11
+    },
+    {
+      "title": "Firmware Update for the Treedix TRX5-0816 Cable Tester",
+      "title_zh": "Treedix USB 线缆测试器固件更新",
+      "link": "https://shkspr.mobi/blog/2026/03/firmware-update-for-the-treedix-trx5-0816-cable-tester/",
+      "pub_date": "2026-03-06T12:34:43.000Z",
+      "summary": "",
+      "source_name": "shkspr.mobi",
+      "score": 6,
+      "depth": 2,
+      "novelty": 2,
+      "breadth": 2,
+      "category": "tools",
+      "keywords": [
+        "firmware",
+        "USB",
+        "cable tester"
+      ],
+      "rank": 12
+    },
+    {
+      "title": "Blue Monday by New Order released, 1983",
+      "title_zh": "1983 年 New Order 发布 Blue Monday",
+      "link": "https://dfarq.homeip.net/blue-monday-by-new-order-released-1983/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=blue-monday-by-new-order-released-1983",
+      "pub_date": "2026-03-06T12:00:57.000Z",
+      "summary": "",
+      "source_name": "dfarq.homeip.net",
+      "score": 3,
+      "depth": 1,
+      "novelty": 1,
+      "breadth": 1,
+      "category": "other",
+      "keywords": [
+        "New Order",
+        "Blue Monday",
+        "Joy Division"
+      ],
+      "rank": 13
     }
   ]
 }
