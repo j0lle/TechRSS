@@ -2,8 +2,8 @@
   "date": "2026-03-06",
   "total_feeds": 92,
   "success_feeds": 86,
-  "total_articles": 2438,
-  "filtered_articles": 11,
+  "total_articles": 2537,
+  "filtered_articles": 12,
   "articles": [
     {
       "title": "Clinejection — Compromising Cline's Production Releases just by Prompting an Issue Triager",
@@ -146,6 +146,26 @@
       "rank": 7
     },
     {
+      "title": "How I think systemd IP address restrictions on socket units works",
+      "title_zh": "Systemd socket 单元 IP 限制的 eBPF 机制",
+      "link": "https://utcc.utoronto.ca/~cks/space/blog/linux/SystemdSocketIPRestrictions",
+      "pub_date": "2026-03-06T04:43:52.000Z",
+      "summary": "Systemd 的 IPAddressAllow 和 IPAddressDeny 通过 eBPF 实现 IP 访问控制。在 .service 单元上设置时，会限制所有入站和出站流量，包括 DNS 查询等。在 .socket 单元上设置时，限制仅应用于该 socket，不影响服务进程的其他网络连接。作者通过 bpftool 观察 Ubuntu 24.04 的 ssh.socket，发现 eBPF 程序附加到 socket 的 cgroup 上，但该 cgroup 中没有进程。作者推断机制是：在 cgroup 中创建或使用的 socket 会绑定到该 cgroup 的 eBPF 程序，即使 socket 被传递给不同 cgroup 的进程，绑定关系仍然保留。这意味着 systemd 并没有为特定端口编写专门的 eBPF 过滤程序，而是将特定 socket 连接到通用的 IP 访问控制 eBPF 程序。因此无法将此功能扩展到 .service 单元实现基于端口的 IP 访问控制，因为自行创建监听 socket 的服务不会自动附加 eBPF 程序。",
+      "source_name": "utcc.utoronto.ca/~cks",
+      "score": 16,
+      "depth": 7,
+      "novelty": 6,
+      "breadth": 3,
+      "category": "engineering",
+      "keywords": [
+        "systemd",
+        "eBPF",
+        "socket",
+        "IP restrictions"
+      ],
+      "rank": 8
+    },
+    {
       "title": "The mystery of the posted message that was dispatched before reaching the main message loop",
       "title_zh": "Windows 消息过早分派的谜题",
       "link": "https://devblogs.microsoft.com/oldnewthing/20260305-00/?p=112114",
@@ -163,7 +183,7 @@
         "GetMessage",
         "DispatchMessage"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "I don't know if my job will still exist in ten years",
@@ -183,7 +203,7 @@
         "job security",
         "Jevons paradox"
       ],
-      "rank": 9
+      "rank": 10
     }
   ]
 }
