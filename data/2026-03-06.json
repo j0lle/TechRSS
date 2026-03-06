@@ -2,8 +2,8 @@
   "date": "2026-03-06",
   "total_feeds": 92,
   "success_feeds": 86,
-  "total_articles": 2537,
-  "filtered_articles": 13,
+  "total_articles": 2439,
+  "filtered_articles": 14,
   "articles": [
     {
       "title": "Clinejection — Compromising Cline's Production Releases just by Prompting an Issue Triager",
@@ -126,6 +126,26 @@
       "rank": 6
     },
     {
+      "title": "A History of Operation Breakthrough",
+      "title_zh": "美国工业化住宅计划 Operation Breakthrough 的失败",
+      "link": "https://www.construction-physics.com/p/a-history-of-operation-breakthrough",
+      "pub_date": "2026-03-06T13:03:16.000Z",
+      "summary": "Operation Breakthrough 是 1969-1974 年间美国 HUD 推动的工业化住宅项目，旨在通过工厂化生产降低住房成本。项目收到 632 份提案，最终选出 22 个建筑系统，在 9 个示范点建造了近 2800 套住房。然而项目最终失败：超过一半的系统在实施前需要重大修改，许多创新系统在实际建造中遇到严重问题，如 Material Systems Corporation 的复合板材漏水导致居民搬离。项目成本约 7200 万美元（约合 2026 年 5 亿美元），但未能实现规模化生产的目标。到 1976 年，22 个系统中只有 5 个仍在市场，如今工厂建造的住房仅占美国新建住房的 10%。作者认为失败的根本原因在于工业化建造方法难以实现预期的成本和效率提升，即使像瑞典这样大规模采用工厂化建造的国家，也未获得显著的生产率或成本优势。",
+      "source_name": "construction-physics.com",
+      "score": 18,
+      "depth": 8,
+      "novelty": 7,
+      "breadth": 3,
+      "category": "engineering",
+      "keywords": [
+        "prefabrication",
+        "industrialized construction",
+        "housing",
+        "Operation Breakthrough"
+      ],
+      "rank": 7
+    },
+    {
       "title": "Pluralistic: Blowtorching the frog (05 Mar 2026) executive-dysfunction",
       "title_zh": "危机如何推动变革：从欧洲能源转型到逃离 Twitter",
       "link": "https://pluralistic.net/2026/03/05/executive-dysfunction/",
@@ -143,7 +163,7 @@
         "Twitter",
         "federation"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "How I think systemd IP address restrictions on socket units works",
@@ -163,7 +183,7 @@
         "socket",
         "IP restrictions"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "The mystery of the posted message that was dispatched before reaching the main message loop",
@@ -183,7 +203,27 @@
         "GetMessage",
         "DispatchMessage"
       ],
-      "rank": 9
+      "rank": 10
+    },
+    {
+      "title": "Lijstduwer, Felipe Rodriquez Award, BNR, NRC, btw en meer",
+      "title_zh": "荷兰增值税系统外包美国引发数据主权争议",
+      "link": "https://berthub.eu/articles/posts/lijstduwer-fra-award-bnr-nrc-btw-meer/",
+      "pub_date": "2026-03-06T13:08:09.000Z",
+      "summary": "荷兰税务计划将增值税管理系统外包给美国公司 Fast Enterprises，尽管服务器位于阿珀尔多伦，但软件和服务器管理权完全掌握在美国企业手中。这一决策未向议会通报，引发媒体关注和专家质疑。荷兰议会将于周二投票决定是否暂停该项目，作者呼吁阻止这一可能危及数据主权的计划。",
+      "source_name": "berthub.eu",
+      "score": 12,
+      "depth": 3,
+      "novelty": 4,
+      "breadth": 5,
+      "category": "security",
+      "keywords": [
+        "data sovereignty",
+        "privacy",
+        "cloud",
+        "government"
+      ],
+      "rank": 11
     },
     {
       "title": "I don't know if my job will still exist in ten years",
@@ -203,7 +243,7 @@
         "job security",
         "Jevons paradox"
       ],
-      "rank": 10
+      "rank": 12
     },
     {
       "title": "Boy I was wrong about the Fediverse",
@@ -222,7 +262,7 @@
         "mastodon",
         "socialmedia"
       ],
-      "rank": 11
+      "rank": 13
     },
     {
       "title": "Firmware Update for the Treedix TRX5-0816 Cable Tester",
@@ -241,7 +281,7 @@
         "USB",
         "cable tester"
       ],
-      "rank": 12
+      "rank": 14
     },
     {
       "title": "Blue Monday by New Order released, 1983",
@@ -260,7 +300,7 @@
         "Blue Monday",
         "Joy Division"
       ],
-      "rank": 13
+      "rank": 15
     }
   ]
 }
