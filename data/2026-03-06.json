@@ -2,8 +2,8 @@
   "date": "2026-03-06",
   "total_feeds": 92,
   "success_feeds": 86,
-  "total_articles": 2439,
-  "filtered_articles": 15,
+  "total_articles": 2538,
+  "filtered_articles": 17,
   "articles": [
     {
       "title": "Clinejection — Compromising Cline's Production Releases just by Prompting an Issue Triager",
@@ -186,6 +186,26 @@
       "rank": 9
     },
     {
+      "title": "A PTP Wall Clock is impractical and a little too precise",
+      "title_zh": "用 Raspberry Pi 构建 PTP 墙钟",
+      "link": "https://www.jeffgeerling.com/blog/2026/ptp-wall-clock-impractical-too-precise/",
+      "pub_date": "2026-03-06T15:00:00.000Z",
+      "summary": "作者受 39C3 演讲启发，用 Raspberry Pi 4、Adafruit RGB Matrix HAT 和两块 64x32 LED 矩阵屏复现了 PTP 墙钟。硬件成本约 120-150 美元，Pi 4 的 Broadcom NIC 支持硬件时间戳，满足 PTP 要求。软件配置包括禁用音频模块、隔离 CPU 核心、编译 hzeller 的 RGB LED Matrix 库，以及构建 PTP Wallclock C++ 应用。作者还设计了 3D 打印支架固定两块显示屏，并分享了调试 PTP 流量的步骤（tcpdump 检查端口 319/320、确认 twoStepFlag 配置）。实际使用中发现 GPS 时间源与 UTC 偏差数秒，怀疑 Intel i226 NIC 的 PPS 输入处理有问题，计划切换到 Pi 时间服务器。",
+      "source_name": "jeffgeerling.com",
+      "score": 13,
+      "depth": 6,
+      "novelty": 4,
+      "breadth": 3,
+      "category": "engineering",
+      "keywords": [
+        "PTP",
+        "Raspberry Pi",
+        "LED matrix",
+        "hardware timestamping"
+      ],
+      "rank": 10
+    },
+    {
       "title": "The mystery of the posted message that was dispatched before reaching the main message loop",
       "title_zh": "Windows 消息过早分派的谜题",
       "link": "https://devblogs.microsoft.com/oldnewthing/20260305-00/?p=112114",
@@ -203,7 +223,7 @@
         "GetMessage",
         "DispatchMessage"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "Lijstduwer, Felipe Rodriquez Award, BNR, NRC, btw en meer",
@@ -223,7 +243,7 @@
         "cloud",
         "government"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "I don't know if my job will still exist in ten years",
@@ -243,7 +263,7 @@
         "job security",
         "Jevons paradox"
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "title": "Boy I was wrong about the Fediverse",
@@ -262,7 +282,7 @@
         "mastodon",
         "socialmedia"
       ],
-      "rank": 13
+      "rank": 14
     },
     {
       "title": "Firmware Update for the Treedix TRX5-0816 Cable Tester",
@@ -281,7 +301,7 @@
         "USB",
         "cable tester"
       ],
-      "rank": 14
+      "rank": 15
     },
     {
       "title": "Advice for staying in the hospital for a week",
@@ -300,7 +320,27 @@
         "recovery",
         "personal"
       ],
-      "rank": 15
+      "rank": 16
+    },
+    {
+      "title": "Another Steve Jobs Quote on Lower-Priced Macs",
+      "title_zh": "乔布斯：苹果不会制造 500 美元电脑",
+      "link": "https://technologizer.com/2008/10/22/the-case-for-a-mac-netbook/index.html",
+      "pub_date": "2026-03-06T15:22:21.000Z",
+      "summary": "",
+      "source_name": "daringfireball.net",
+      "score": 5,
+      "depth": 1,
+      "novelty": 1,
+      "breadth": 3,
+      "category": "other",
+      "keywords": [
+        "Steve Jobs",
+        "Apple",
+        "netbook",
+        "pricing"
+      ],
+      "rank": 17
     },
     {
       "title": "Blue Monday by New Order released, 1983",
@@ -319,7 +359,7 @@
         "Blue Monday",
         "Joy Division"
       ],
-      "rank": 16
+      "rank": 18
     }
   ]
 }
