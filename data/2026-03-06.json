@@ -3,8 +3,28 @@
   "total_feeds": 92,
   "success_feeds": 86,
   "total_articles": 2438,
-  "filtered_articles": 8,
+  "filtered_articles": 9,
   "articles": [
+    {
+      "title": "Clinejection — Compromising Cline's Production Releases just by Prompting an Issue Triager",
+      "title_zh": "Cline 遭遇 prompt injection 攻击导致 NPM 包被劫持",
+      "link": "https://simonwillison.net/2026/Mar/6/clinejection/#atom-everything",
+      "pub_date": "2026-03-06T02:39:04.000Z",
+      "summary": "Cline 项目通过 GitHub Actions 运行 Claude Code 进行 issue 自动分类，配置中将 issue 标题直接注入 prompt，导致任何人都可以通过构造 issue 标题实现 prompt injection。攻击者利用这一漏洞让 Claude 执行 `npm install` 安装恶意包，该包通过 preinstall 脚本运行任意代码。由于 issue triage workflow 本身没有 NPM 发布权限，攻击者进一步利用 GitHub Actions 缓存机制：通过 cacheract 包向缓存写入 11GB 垃圾数据触发缓存驱逐，然后注入包含窃密机制的缓存文件。Cline 的 issue triage workflow 和 nightly release workflow 使用相同的缓存键 `${{ runner.os }}-npm-${{ hashFiles('package-lock.json') }}`，使得被污染的缓存被 release workflow 加载，最终泄露 NPM 发布密钥。Cline 未及时处理负责任披露，攻击者成功发布 cline@2.3.0（现已撤回），该版本被植入了 OpenClaw。这一案例揭示了 AI agent 与 CI/CD 系统集成时的安全盲区：prompt injection 可以跨越权限边界，通过共享缓存实现横向移动。",
+      "source_name": "simonwillison.net",
+      "score": 26,
+      "depth": 9,
+      "novelty": 9,
+      "breadth": 8,
+      "category": "security",
+      "keywords": [
+        "prompt injection",
+        "GitHub Actions",
+        "cache poisoning",
+        "Claude Code"
+      ],
+      "rank": 1
+    },
     {
       "title": "Can coding agents relicense open source through a “clean room” implementation of code?",
       "title_zh": "AI 编码代理能否实现合法的 clean room 重写",
@@ -23,7 +43,7 @@
         "Claude Code",
         "open source"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "AI And The Ship of Theseus",
@@ -43,7 +63,7 @@
         "AI",
         "slopforks"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Introducing GPT‑5.4",
@@ -63,7 +83,7 @@
         "context window",
         "benchmark"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Pluralistic: Blowtorching the frog (05 Mar 2026) executive-dysfunction",
@@ -83,7 +103,7 @@
         "Twitter",
         "federation"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "The mystery of the posted message that was dispatched before reaching the main message loop",
@@ -103,7 +123,7 @@
         "GetMessage",
         "DispatchMessage"
       ],
-      "rank": 5
+      "rank": 6
     }
   ]
 }
