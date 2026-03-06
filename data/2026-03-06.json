@@ -3,7 +3,7 @@
   "total_feeds": 92,
   "success_feeds": 86,
   "total_articles": 2438,
-  "filtered_articles": 9,
+  "filtered_articles": 8,
   "articles": [
     {
       "title": "Can coding agents relicense open source through a “clean room” implementation of code?",
@@ -46,6 +46,26 @@
       "rank": 2
     },
     {
+      "title": "Introducing GPT‑5.4",
+      "title_zh": "OpenAI 发布 GPT-5.4：百万上下文与办公能力提升",
+      "link": "https://simonwillison.net/2026/Mar/5/introducing-gpt54/#atom-everything",
+      "pub_date": "2026-03-05T23:56:09.000Z",
+      "summary": "OpenAI 发布 GPT-5.4 和 GPT-5.4-pro 两个新 API 模型，知识截止日期为 2025 年 8 月 31 日，支持 100 万 token 上下文窗口。定价略高于 GPT-5.2 系列，当上下文超过 27.2 万 token 时价格会进一步上涨。GPT-5.4 在所有相关基准测试中击败了专门的代码模型 GPT-5.3-Codex，这可能意味着代码模型线已被合并到主线模型中。OpenAI 特别强调了在办公文档处理方面的改进，在内部投资银行分析师级别的电子表格建模基准测试中，GPT-5.4 达到 87.3% 的平均分，而 GPT-5.2 为 68.4%。Simon Willison 测试了图像生成能力，GPT-5.4-pro 生成一张鹈鹕骑自行车的图片耗时 4 分 45 秒，成本为 1.55 美元。",
+      "source_name": "simonwillison.net",
+      "score": 19,
+      "depth": 3,
+      "novelty": 7,
+      "breadth": 9,
+      "category": "ai-ml",
+      "keywords": [
+        "GPT-5.4",
+        "OpenAI",
+        "context window",
+        "benchmark"
+      ],
+      "rank": 3
+    },
+    {
       "title": "Pluralistic: Blowtorching the frog (05 Mar 2026) executive-dysfunction",
       "title_zh": "危机如何推动变革：从欧洲能源转型到逃离 Twitter",
       "link": "https://pluralistic.net/2026/03/05/executive-dysfunction/",
@@ -63,7 +83,7 @@
         "Twitter",
         "federation"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "The mystery of the posted message that was dispatched before reaching the main message loop",
@@ -83,7 +103,7 @@
         "GetMessage",
         "DispatchMessage"
       ],
-      "rank": 4
+      "rank": 5
     }
   ]
 }
