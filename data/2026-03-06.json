@@ -3,7 +3,7 @@
   "total_feeds": 92,
   "success_feeds": 86,
   "total_articles": 2438,
-  "filtered_articles": 9,
+  "filtered_articles": 10,
   "articles": [
     {
       "title": "Clinejection — Compromising Cline's Production Releases just by Prompting an Issue Triager",
@@ -66,6 +66,26 @@
       "rank": 3
     },
     {
+      "title": "Agentic manual testing",
+      "title_zh": "让代码代理执行手动测试的工程模式",
+      "link": "https://simonwillison.net/guides/agentic-engineering-patterns/agentic-manual-testing/#atom-everything",
+      "pub_date": "2026-03-06T05:43:54.000Z",
+      "summary": "代码代理的核心优势在于能够执行自己生成的代码，但通过自动化测试并不足以验证代码正确性。让代理进行手动测试可以揭示自动化测试遗漏的问题，例如使用 `python -c` 快速验证函数、用 `curl` 探索 JSON API、或通过 Playwright 等浏览器自动化工具测试 Web UI。作者介绍了自己开发的 Rodney（基于 Chrome DevTools Protocol）和 Showboat（记录测试过程和输出）两个工具，通过具体 prompt 示例展示如何让代理执行手动测试并生成可追溯的测试文档。这种方式不仅提高了代码质量，还降低了维护浏览器自动化测试的负担，因为代理可以快速更新因界面变化而失效的测试。",
+      "source_name": "simonwillison.net",
+      "score": 20,
+      "depth": 7,
+      "novelty": 7,
+      "breadth": 6,
+      "category": "engineering",
+      "keywords": [
+        "coding-agents",
+        "Playwright",
+        "testing",
+        "manual-testing"
+      ],
+      "rank": 4
+    },
+    {
       "title": "Introducing GPT‑5.4",
       "title_zh": "OpenAI 发布 GPT-5.4：百万上下文与办公能力提升",
       "link": "https://simonwillison.net/2026/Mar/5/introducing-gpt54/#atom-everything",
@@ -83,7 +103,7 @@
         "context window",
         "benchmark"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Pluralistic: Blowtorching the frog (05 Mar 2026) executive-dysfunction",
@@ -103,7 +123,7 @@
         "Twitter",
         "federation"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "The mystery of the posted message that was dispatched before reaching the main message loop",
@@ -123,7 +143,7 @@
         "GetMessage",
         "DispatchMessage"
       ],
-      "rank": 6
+      "rank": 7
     }
   ]
 }
