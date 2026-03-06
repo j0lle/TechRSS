@@ -1,9 +1,9 @@
 {
   "date": "2026-03-07",
   "total_feeds": 92,
-  "success_feeds": 81,
-  "total_articles": 2429,
-  "filtered_articles": 25,
+  "success_feeds": 86,
+  "total_articles": 2439,
+  "filtered_articles": 27,
   "articles": [
     {
       "title": "Google’s Threat Intelligence Group on Coruna a Powerful iOS Exploit Kit of Mysterious Origin",
@@ -185,6 +185,26 @@
       "rank": 9
     },
     {
+      "title": "Quoting Ally Piechowski",
+      "title_zh": "审计 Rails 代码库的三个问题清单",
+      "link": "https://simonwillison.net/2026/Mar/6/ally-piechowski/#atom-everything",
+      "pub_date": "2026-03-06T21:58:33.000Z",
+      "summary": "",
+      "source_name": "simonwillison.net",
+      "score": 11,
+      "depth": 3,
+      "novelty": 3,
+      "breadth": 5,
+      "category": "engineering",
+      "keywords": [
+        "Rails",
+        "audit",
+        "technical debt",
+        "legacy codebase"
+      ],
+      "rank": 10
+    },
+    {
       "title": "It Depends",
       "title_zh": "专家为何总说",
       "link": "https://idiallo.com/blog/it-depends-experts-never-give-straight-answers?src=feed",
@@ -201,7 +221,7 @@
         "decision-making",
         "engineering"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "The MacBook Neo’s Price, Looking to the Past and Future",
@@ -219,7 +239,7 @@
         "MacBook Neo",
         "pricing"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "The Mystery of Rennes-le-Château, Part 1: The Priest’s Treasure",
@@ -238,7 +258,25 @@
         "history",
         "Rennes-le-Château"
       ],
-      "rank": 12
+      "rank": 13
+    },
+    {
+      "title": "Daring Fireball Weekly Sponsorship Openings",
+      "title_zh": "Daring Fireball 广告位招租信息",
+      "link": "https://daringfireball.net/feeds/sponsors/",
+      "pub_date": "2026-03-06T21:59:49.000Z",
+      "summary": "",
+      "source_name": "daringfireball.net",
+      "score": 4,
+      "depth": 1,
+      "novelty": 1,
+      "breadth": 2,
+      "category": "other",
+      "keywords": [
+        "sponsorship",
+        "advertising"
+      ],
+      "rank": 14
     }
   ]
 }
