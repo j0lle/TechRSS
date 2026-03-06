@@ -3,7 +3,7 @@
   "total_feeds": 92,
   "success_feeds": 86,
   "total_articles": 2438,
-  "filtered_articles": 10,
+  "filtered_articles": 11,
   "articles": [
     {
       "title": "Clinejection — Compromising Cline's Production Releases just by Prompting an Issue Triager",
@@ -66,6 +66,26 @@
       "rank": 3
     },
     {
+      "title": ".gitlocal",
+      "title_zh": "Git 应允许文件声明自己不被跟踪",
+      "link": "https://nesbitt.io/2026/03/06/gitlocal.html",
+      "pub_date": "2026-03-06T10:00:00.000Z",
+      "summary": "Git 现有的忽略机制（.gitignore、--assume-unchanged、--skip-worktree、.git/info/exclude）都需要工具之外的人来操作，工具作者无法声明自己的文件不应被跟踪。作者提出 .gitlocal 方案：工具在其配置目录中放置一个空的 .gitlocal 标记文件，Git 自动忽略整个目录；标记文件也可包含类似 .gitignore 的 glob 模式，实现更细粒度的控制。对于独立文件，工具可使用 .local.json 或 .gitlocal 扩展名，或在支持注释的格式文件首行添加 # gitlocal 注释。该机制仅对未跟踪目录生效，已在 git status 中明确显示，可通过 git check-ignore 查询。作者已实现 pre-commit hook 作为概念验证，工具作者可立即采用该约定，为未来纳入 Git 核心积累证据。GitHub 每年撤销数百万个泄露的令牌，工具作者最了解哪些文件敏感，却缺乏预防机制。",
+      "source_name": "nesbitt.io",
+      "score": 21,
+      "depth": 7,
+      "novelty": 8,
+      "breadth": 6,
+      "category": "engineering",
+      "keywords": [
+        "git",
+        "security",
+        "secrets",
+        "tooling"
+      ],
+      "rank": 4
+    },
+    {
       "title": "Agentic manual testing",
       "title_zh": "让代码代理执行手动测试的工程模式",
       "link": "https://simonwillison.net/guides/agentic-engineering-patterns/agentic-manual-testing/#atom-everything",
@@ -83,7 +103,7 @@
         "testing",
         "manual-testing"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Introducing GPT‑5.4",
@@ -103,7 +123,7 @@
         "context window",
         "benchmark"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Pluralistic: Blowtorching the frog (05 Mar 2026) executive-dysfunction",
@@ -123,7 +143,7 @@
         "Twitter",
         "federation"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "The mystery of the posted message that was dispatched before reaching the main message loop",
@@ -143,7 +163,27 @@
         "GetMessage",
         "DispatchMessage"
       ],
-      "rank": 7
+      "rank": 8
+    },
+    {
+      "title": "I don't know if my job will still exist in ten years",
+      "title_zh": "十年后软件工程师还会存在吗",
+      "link": "https://seangoedecke.com/will-my-job-still-exist/",
+      "pub_date": "2026-03-06T00:00:00.000Z",
+      "summary": "",
+      "source_name": "seangoedecke.com",
+      "score": 11,
+      "depth": 2,
+      "novelty": 2,
+      "breadth": 7,
+      "category": "opinion",
+      "keywords": [
+        "AI agents",
+        "software engineering",
+        "job security",
+        "Jevons paradox"
+      ],
+      "rank": 9
     }
   ]
 }
