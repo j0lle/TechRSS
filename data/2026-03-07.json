@@ -1,8 +1,8 @@
 {
   "date": "2026-03-07",
   "total_feeds": 92,
-  "success_feeds": 84,
-  "total_articles": 2395,
+  "success_feeds": 85,
+  "total_articles": 2415,
   "filtered_articles": 17,
   "articles": [
     {
@@ -166,6 +166,26 @@
       "rank": 8
     },
     {
+      "title": "Using Clankers to Help Me Process Surgery",
+      "title_zh": "术后恢复期间 AI 助手的陪伴与思考",
+      "link": "https://xeiaso.net/blog/2026/surgery-recovery-clankers/",
+      "pub_date": "2026-03-07T00:00:00.000Z",
+      "summary": "作者在重大手术后恢复期间，使用 Claude、Gemini 等 AI 助手作为 24 小时可用的陪伴和思考工具。具体用途包括：询问术后恢复里程碑是否正常（如第 4 天步行 50 英尺）、生理症状的初步分诊（区分正常反应与需要就医的情况）、饮食问题咨询，以及作为写作的思考伙伴帮助整理情绪和经历。作者明确指出 AI 是分诊层而非医疗替代品，其价值 70% 在于提问本身的外化过程，30% 在于回答。AI 的优势在于随时可用、零内疚感、无限耐心，但无法提供物理陪伴、主动关怀或真正的被看见感。作者认为丈夫和 AI 在恢复过程中承担完全不同的角色，互为补充而非替代。",
+      "source_name": "xeiaso.net",
+      "score": 14,
+      "depth": 4,
+      "novelty": 6,
+      "breadth": 4,
+      "category": "ai-ml",
+      "keywords": [
+        "Claude",
+        "recovery",
+        "emotional processing",
+        "availability"
+      ],
+      "rank": 9
+    },
+    {
       "title": "Anthropic and the Pentagon",
       "title_zh": "Anthropic 与五角大楼合作分析",
       "link": "https://simonwillison.net/2026/Mar/6/anthropic-and-the-pentagon/#atom-everything",
@@ -182,7 +202,7 @@
         "AI ethics",
         "Pentagon"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Your terminal program has to be where xterm's ziconbeep feature is handled",
@@ -202,7 +222,7 @@
         "X11",
         "Wayland"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "Quoting Ally Piechowski",
@@ -222,7 +242,7 @@
         "technical debt",
         "legacy codebase"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "Book Review: The Electronic Criminals by Robert Farr (1975) ★★★⯪☆",
@@ -241,7 +261,7 @@
         "history",
         "book review"
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "title": "It Depends",
@@ -260,7 +280,7 @@
         "decision-making",
         "engineering"
       ],
-      "rank": 13
+      "rank": 14
     },
     {
       "title": "Announcing New Working Groups",
@@ -279,7 +299,7 @@
         "governance",
         "satire"
       ],
-      "rank": 14
+      "rank": 15
     },
     {
       "title": "The MacBook Neo’s Price, Looking to the Past and Future",
@@ -297,7 +317,7 @@
         "MacBook Neo",
         "pricing"
       ],
-      "rank": 15
+      "rank": 16
     },
     {
       "title": "Reading List 03/07/2026",
@@ -317,7 +337,7 @@
         "infrastructure",
         "data centers"
       ],
-      "rank": 16
+      "rank": 17
     },
     {
       "title": "The Mystery of Rennes-le-Château, Part 1: The Priest’s Treasure",
@@ -336,7 +356,7 @@
         "history",
         "Rennes-le-Château"
       ],
-      "rank": 17
+      "rank": 18
     },
     {
       "title": "Daring Fireball Weekly Sponsorship Openings",
@@ -354,7 +374,7 @@
         "sponsorship",
         "advertising"
       ],
-      "rank": 18
+      "rank": 19
     }
   ]
 }
