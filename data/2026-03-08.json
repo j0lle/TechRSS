@@ -1,1 +1,48 @@
-null
+{
+  "date": "2026-03-08",
+  "total_feeds": 92,
+  "success_feeds": 86,
+  "total_articles": 2440,
+  "filtered_articles": 10,
+  "articles": [
+    {
+      "title": "Pluralistic: The web is bearable with RSS (07 Mar 2026)",
+      "title_zh": "用 RSS 和 Reader View 对抗 Web 恶化",
+      "link": "https://pluralistic.net/2026/03/07/reader-mode/",
+      "pub_date": "2026-03-07T18:02:49.000Z",
+      "summary": "RSS 作为开放 Web 的基础协议，在 2013 年 Google Reader 被关闭后陷入沉寂。Google 杀死 Reader 是为了将用户推向失败的 Google+，这一策略反而推动了用户转向 Facebook。尽管 RSS 仍被 WordPress、Ghost、Substack 等平台默认支持，但已成为小众工具。Firefox 的 Reader View 功能可将网页重新渲染为黑字白底，配合 Activate Reader View 插件可强制启用。对于需要登录的网站，切换到 Reader View 可绕过登录弹窗。Kill Sticky bookmarklet 可删除页面中的固定元素，Javascript Toggler 可禁用特定网站的脚本，Element Blocker 可永久屏蔽页面元素。这些工具组合能有效对抗 Web 的 enshittification，但移动端浏览器因引擎限制和 App 的封闭性，用户体验远不如桌面端可定制。",
+      "source_name": "pluralistic.net",
+      "score": 14,
+      "depth": 4,
+      "novelty": 4,
+      "breadth": 6,
+      "category": "opinion",
+      "keywords": [
+        "RSS",
+        "Reader View",
+        "Firefox",
+        "enshittification"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Codex for Open Source",
+      "title_zh": "OpenAI 推出开源项目 Codex 免费计划",
+      "link": "https://simonwillison.net/2026/Mar/7/codex-for-open-source/#atom-everything",
+      "pub_date": "2026-03-07T18:13:39.000Z",
+      "summary": "",
+      "source_name": "simonwillison.net",
+      "score": 13,
+      "depth": 2,
+      "novelty": 5,
+      "breadth": 6,
+      "category": "tools",
+      "keywords": [
+        "Codex",
+        "open-source",
+        "ChatGPT Pro"
+      ],
+      "rank": 2
+    }
+  ]
+}
