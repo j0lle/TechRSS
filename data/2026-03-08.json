@@ -3,7 +3,7 @@
   "total_feeds": 92,
   "success_feeds": 86,
   "total_articles": 2441,
-  "filtered_articles": 12,
+  "filtered_articles": 10,
   "articles": [
     {
       "title": "Is the AI Compute Crunch Here?",
@@ -65,6 +65,25 @@
       "rank": 3
     },
     {
+      "title": "‘npx workos’",
+      "title_zh": "WorkOS AuthKit CLI 安装器",
+      "link": "https://workos.com/docs/authkit/cli-installer?utm_source=tldrdev&utm_medium=newsletter&utm_campaign=q12026",
+      "pub_date": "2026-03-07T22:53:37.000Z",
+      "summary": "",
+      "source_name": "daringfireball.net",
+      "score": 8,
+      "depth": 2,
+      "novelty": 3,
+      "breadth": 3,
+      "category": "tools",
+      "keywords": [
+        "CLI",
+        "AuthKit",
+        "WorkOS"
+      ],
+      "rank": 4
+    },
+    {
       "title": "Remove annoying banners",
       "title_zh": "移除网页固定横幅的 JS 脚本",
       "link": "https://maurycyz.com/projects/fixsite/",
@@ -82,7 +101,7 @@
         "CSS",
         "cleanup"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "HN Skins 0.3.0",
@@ -101,7 +120,7 @@
         "themes",
         "Hacker News"
       ],
-      "rank": 5
+      "rank": 6
     }
   ]
 }
