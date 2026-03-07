@@ -2,8 +2,8 @@
   "date": "2026-03-07",
   "total_feeds": 92,
   "success_feeds": 86,
-  "total_articles": 2439,
-  "filtered_articles": 27,
+  "total_articles": 2538,
+  "filtered_articles": 25,
   "articles": [
     {
       "title": "Google’s Threat Intelligence Group on Coruna a Powerful iOS Exploit Kit of Mysterious Origin",
@@ -185,6 +185,26 @@
       "rank": 9
     },
     {
+      "title": "Your terminal program has to be where xterm's ziconbeep feature is handled",
+      "title_zh": "xterm 的 ziconbeep 功能为何无法移至窗口管理器",
+      "link": "https://utcc.utoronto.ca/~cks/space/blog/unix/XTermHasToDoZiconbeep",
+      "pub_date": "2026-03-07T03:26:47.000Z",
+      "summary": "xterm 的 ziconbeep 功能在窗口最小化时检测输出并触发提醒，但窗口管理器无法可靠实现这一功能。X 和 Wayland 协议都不提供检测程序是否渲染新输出的机制，且现代 GUI 框架即使窗口最小化也会持续绘制以支持实时预览。更重要的是，窗口管理器无法区分哪些外观变化具有语义意义，只有程序本身知道哪些事件值得用户注意。邮件客户端可能只对特定类型的新邮件触发提醒，终端程序可能需要在命令执行完成而非文本输出时提醒，这些都需要通过转义序列在程序层面实现。",
+      "source_name": "utcc.utoronto.ca/~cks",
+      "score": 12,
+      "depth": 5,
+      "novelty": 4,
+      "breadth": 3,
+      "category": "engineering",
+      "keywords": [
+        "xterm",
+        "window manager",
+        "X11",
+        "Wayland"
+      ],
+      "rank": 10
+    },
+    {
       "title": "Quoting Ally Piechowski",
       "title_zh": "审计 Rails 代码库的三个问题清单",
       "link": "https://simonwillison.net/2026/Mar/6/ally-piechowski/#atom-everything",
@@ -202,7 +222,7 @@
         "technical debt",
         "legacy codebase"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "It Depends",
@@ -221,7 +241,7 @@
         "decision-making",
         "engineering"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "The MacBook Neo’s Price, Looking to the Past and Future",
@@ -239,7 +259,7 @@
         "MacBook Neo",
         "pricing"
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "title": "The Mystery of Rennes-le-Château, Part 1: The Priest’s Treasure",
@@ -258,7 +278,7 @@
         "history",
         "Rennes-le-Château"
       ],
-      "rank": 13
+      "rank": 14
     },
     {
       "title": "Daring Fireball Weekly Sponsorship Openings",
@@ -276,7 +296,7 @@
         "sponsorship",
         "advertising"
       ],
-      "rank": 14
+      "rank": 15
     }
   ]
 }
