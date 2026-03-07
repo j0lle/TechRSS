@@ -2,9 +2,29 @@
   "date": "2026-03-08",
   "total_feeds": 92,
   "success_feeds": 86,
-  "total_articles": 2440,
-  "filtered_articles": 10,
+  "total_articles": 2441,
+  "filtered_articles": 12,
   "articles": [
+    {
+      "title": "Is the AI Compute Crunch Here?",
+      "title_zh": "AI 算力危机已至：1% 渗透率下的供应瓶颈",
+      "link": "https://martinalderson.com/posts/is-the-ai-compute-crunch-here/?utm_source=rss&utm_medium=rss&utm_campaign=feed",
+      "pub_date": "2026-03-07T00:00:00.000Z",
+      "summary": "Claude Code 拥有 200-300 万用户，仅占全球知识工作者的 1-2%，但 Anthropic 已被迫降级服务以释放算力，包括降低 Opus 4.6 默认 effort、移除旧模型访问权限。OpenRouter 数据显示 Alibaba Cloud 的 Qwen3.5 397B 模型吞吐量仅 6 tps，延迟 1.26 秒，表明全行业推理资源严重紧缺。作者估算 DRAM 供应将在 2027 年前将 AI 基础设施限制在约 15GW，DDR5 价格从 2025 年 5 月的 110 美元飙升至 12 月的 415 美元，印证了存储产能瓶颈。如果企业试点项目转为全面部署，需求可能激增 10 倍以上，当前 1-2% 渗透率已导致服务降级，5% 渗透率将使行业难以承受。作者建议企业锁定长期合同，个人用户保持多供应商策略以应对 2026-2027 年持续恶化的推理供应约束。",
+      "source_name": "martinalderson.com",
+      "score": 23,
+      "depth": 7,
+      "novelty": 8,
+      "breadth": 8,
+      "category": "engineering",
+      "keywords": [
+        "compute",
+        "Claude Code",
+        "DRAM",
+        "inference"
+      ],
+      "rank": 1
+    },
     {
       "title": "Pluralistic: The web is bearable with RSS (07 Mar 2026)",
       "title_zh": "用 RSS 和 Reader View 对抗 Web 恶化",
@@ -23,7 +43,7 @@
         "Firefox",
         "enshittification"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Codex for Open Source",
@@ -42,7 +62,27 @@
         "open-source",
         "ChatGPT Pro"
       ],
-      "rank": 2
+      "rank": 3
+    },
+    {
+      "title": "Remove annoying banners",
+      "title_zh": "移除网页固定横幅的 JS 脚本",
+      "link": "https://maurycyz.com/projects/fixsite/",
+      "pub_date": "2026-03-07T00:00:00.000Z",
+      "summary": "",
+      "source_name": "maurycyz.com",
+      "score": 7,
+      "depth": 2,
+      "novelty": 2,
+      "breadth": 3,
+      "category": "tools",
+      "keywords": [
+        "javascript",
+        "bookmarklet",
+        "CSS",
+        "cleanup"
+      ],
+      "rank": 4
     }
   ]
 }
