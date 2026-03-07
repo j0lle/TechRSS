@@ -2,8 +2,8 @@
   "date": "2026-03-07",
   "total_feeds": 92,
   "success_feeds": 86,
-  "total_articles": 2538,
-  "filtered_articles": 25,
+  "total_articles": 2440,
+  "filtered_articles": 22,
   "articles": [
     {
       "title": "Google’s Threat Intelligence Group on Coruna a Powerful iOS Exploit Kit of Mysterious Origin",
@@ -244,6 +244,25 @@
       "rank": 12
     },
     {
+      "title": "Announcing New Working Groups",
+      "title_zh": "讽刺开源治理官僚主义的七个工作组",
+      "link": "https://nesbitt.io/2026/03/07/announcing-new-working-groups.html",
+      "pub_date": "2026-03-07T10:00:00.000Z",
+      "summary": "",
+      "source_name": "nesbitt.io",
+      "score": 8,
+      "depth": 2,
+      "novelty": 3,
+      "breadth": 3,
+      "category": "opinion",
+      "keywords": [
+        "open-source",
+        "governance",
+        "satire"
+      ],
+      "rank": 13
+    },
+    {
       "title": "The MacBook Neo’s Price, Looking to the Past and Future",
       "title_zh": "MacBook Neo 定价的历史与未来",
       "link": "https://x.com/ethan_is_online/status/2029331836137291941?s=42",
@@ -259,7 +278,7 @@
         "MacBook Neo",
         "pricing"
       ],
-      "rank": 13
+      "rank": 14
     },
     {
       "title": "The Mystery of Rennes-le-Château, Part 1: The Priest’s Treasure",
@@ -278,7 +297,7 @@
         "history",
         "Rennes-le-Château"
       ],
-      "rank": 14
+      "rank": 15
     },
     {
       "title": "Daring Fireball Weekly Sponsorship Openings",
@@ -296,7 +315,7 @@
         "sponsorship",
         "advertising"
       ],
-      "rank": 15
+      "rank": 16
     }
   ]
 }
