@@ -83,6 +83,25 @@
         "cleanup"
       ],
       "rank": 4
+    },
+    {
+      "title": "HN Skins 0.3.0",
+      "title_zh": "HN Skins 0.3.0 发布",
+      "link": "https://susam.net/code/news/hnskins/0.3.0.html",
+      "pub_date": "2026-03-07T00:00:00.000Z",
+      "summary": "",
+      "source_name": "susam.net",
+      "score": 4,
+      "depth": 1,
+      "novelty": 1,
+      "breadth": 2,
+      "category": "tools",
+      "keywords": [
+        "userscript",
+        "themes",
+        "Hacker News"
+      ],
+      "rank": 5
     }
   ]
 }
