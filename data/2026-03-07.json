@@ -2,8 +2,8 @@
   "date": "2026-03-07",
   "total_feeds": 92,
   "success_feeds": 86,
-  "total_articles": 2440,
-  "filtered_articles": 22,
+  "total_articles": 2539,
+  "filtered_articles": 20,
   "articles": [
     {
       "title": "Google’s Threat Intelligence Group on Coruna a Powerful iOS Exploit Kit of Mysterious Origin",
@@ -225,6 +225,25 @@
       "rank": 11
     },
     {
+      "title": "Book Review: The Electronic Criminals by Robert Farr (1975) ★★★⯪☆",
+      "title_zh": "1975年电子犯罪书籍回顾",
+      "link": "https://shkspr.mobi/blog/2026/03/book-review-the-electronic-criminals-by-robert-farr-1975/",
+      "pub_date": "2026-03-07T12:34:04.000Z",
+      "summary": "",
+      "source_name": "shkspr.mobi",
+      "score": 10,
+      "depth": 3,
+      "novelty": 4,
+      "breadth": 3,
+      "category": "security",
+      "keywords": [
+        "cybersecurity",
+        "history",
+        "book review"
+      ],
+      "rank": 12
+    },
+    {
       "title": "It Depends",
       "title_zh": "专家为何总说",
       "link": "https://idiallo.com/blog/it-depends-experts-never-give-straight-answers?src=feed",
@@ -241,7 +260,7 @@
         "decision-making",
         "engineering"
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "title": "Announcing New Working Groups",
@@ -260,7 +279,7 @@
         "governance",
         "satire"
       ],
-      "rank": 13
+      "rank": 14
     },
     {
       "title": "The MacBook Neo’s Price, Looking to the Past and Future",
@@ -278,7 +297,7 @@
         "MacBook Neo",
         "pricing"
       ],
-      "rank": 14
+      "rank": 15
     },
     {
       "title": "The Mystery of Rennes-le-Château, Part 1: The Priest’s Treasure",
@@ -297,7 +316,7 @@
         "history",
         "Rennes-le-Château"
       ],
-      "rank": 15
+      "rank": 16
     },
     {
       "title": "Daring Fireball Weekly Sponsorship Openings",
@@ -315,7 +334,7 @@
         "sponsorship",
         "advertising"
       ],
-      "rank": 16
+      "rank": 17
     }
   ]
 }
