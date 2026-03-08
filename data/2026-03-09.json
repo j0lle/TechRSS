@@ -3,8 +3,48 @@
   "total_feeds": 92,
   "success_feeds": 85,
   "total_articles": 2416,
-  "filtered_articles": 10,
+  "filtered_articles": 11,
   "articles": [
+    {
+      "title": "Can Coding Agents Relicense Open Source Through a ‘Clean Room’ Implementation of Code?",
+      "title_zh": "AI 重写 chardet 引发的许可争议",
+      "link": "https://simonwillison.net/2026/Mar/5/chardet/",
+      "pub_date": "2026-03-08T17:59:09.000Z",
+      "summary": "chardet 7.0.0 发布者 Dan Blanchard 使用 Claude Code 将原 LGPL 授权的 Python 字符编码检测库完全重写为 MIT 授权，声称这是独立实现而非衍生作品。原作者 Mark Pilgrim 指出这违反 LGPL，因为 Dan 长期维护该项目且接触过原始代码，不符合传统净室实现的人员隔离要求。Dan 使用 JPlag 工具进行代码相似度检测，显示新版本与旧版本最大相似度仅 1.29%，远低于其他版本间的 80-93%。他公开了完整重写过程文档，包括在空仓库中通过测试驱动方式让 Claude 生成新代码，并明确禁止参考 LGPL/GPL 代码。但争议点依然存在：Claude 本身可能训练过 chardet 代码；重写过程中确实引用了原仓库的 metadata/charsets.py 文件；Dan 十年的维护经历使其对原始实现有深刻认知。这个案例暴露了 AI 时代开源许可的核心困境：当代码生成成本趋近于零，仅通过测试套件就能重建功能时，许可证的边界在哪里？类似 Compaq 当年通过净室实现克隆 IBM BIOS 的模式，现在可以在几小时内完成，但法律和伦理框架尚未跟上。作者认为这很可能引发商业领域的诉讼潮，因为一旦公司发现其核心 IP 可被 AI 重新实现，必然会采取法律行动。",
+      "source_name": "daringfireball.net",
+      "score": 24,
+      "depth": 7,
+      "novelty": 9,
+      "breadth": 8,
+      "category": "opinion",
+      "keywords": [
+        "licensing",
+        "clean room",
+        "Claude Code",
+        "open source"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Donald Knuth on Claude Opus Solving a Computer Science Problem",
+      "title_zh": "Knuth 用 Claude Opus 解决图论问题",
+      "link": "https://www-cs-faculty.stanford.edu/~knuth/papers/claude-cycles.pdf",
+      "pub_date": "2026-03-08T17:49:08.000Z",
+      "summary": "Donald Knuth 记录了他使用 Claude Opus 解决图论中一个关于有向图循环的开放问题的过程。这个问题涉及寻找具有特定循环结构的图，Knuth 提出了猜想并尝试用数学方法证明。Claude Opus 在多次对话中提供了帮助，包括生成反例、验证猜想、提出改进建议，最终帮助 Knuth 找到了一个 6 顶点的反例，推翻了他最初的猜想。Knuth 详细记录了与 AI 的交互过程，包括他如何调整问题表述、AI 如何理解数学符号和概念，以及最终如何通过 AI 的辅助发现新结果。这份文档展示了顶尖数学家如何将 LLM 作为研究工具，以及 AI 在纯数学研究中的潜力和局限性。",
+      "source_name": "daringfireball.net",
+      "score": 23,
+      "depth": 9,
+      "novelty": 8,
+      "breadth": 6,
+      "category": "ai-ml",
+      "keywords": [
+        "Claude Opus",
+        "graph theory",
+        "Knuth",
+        "mathematical research"
+      ],
+      "rank": 2
+    },
     {
       "title": "GNU and the AI reimplementations",
       "title_zh": "AI 重写代码的合法性与历史先例",
@@ -23,7 +63,27 @@
         "GNU",
         "AI"
       ],
-      "rank": 1
+      "rank": 3
+    },
+    {
+      "title": "How much certainty is worthwhile?",
+      "title_zh": "形式化验证的经济学权衡",
+      "link": "https://www.johndcook.com/blog/2026/03/08/how-much-certainty-is-worthwhile/",
+      "pub_date": "2026-03-08T18:09:48.000Z",
+      "summary": "形式化验证的投入程度应根据应用场景的风险等级决定。作者通过三角函数和反三角函数恒等式的验证案例说明，检查几个随机点在已知答案形式的情况下能提供极高置信度，但形式化系统仍存在转录等人为错误。Schwartz-Zippel 引理将这一思想应用于零知识证明，通过有限域上多元多项式的随机点采样实现高概率验证。心脏起搏器或核电站等关键系统需要比博客文章更高程度的确定性，但完全验证所有内容既不可能也不经济。",
+      "source_name": "johndcook.com",
+      "score": 14,
+      "depth": 5,
+      "novelty": 4,
+      "breadth": 5,
+      "category": "engineering",
+      "keywords": [
+        "formal verification",
+        "Schwartz-Zippel lemma",
+        "zero knowledge proofs",
+        "testing"
+      ],
+      "rank": 4
     },
     {
       "title": "Introducing llm-eliza",
@@ -42,7 +102,7 @@
         "LLM",
         "plugin"
       ],
-      "rank": 2
+      "rank": 5
     }
   ]
 }
