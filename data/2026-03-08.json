@@ -1,9 +1,9 @@
 {
   "date": "2026-03-08",
   "total_feeds": 92,
-  "success_feeds": 86,
-  "total_articles": 2441,
-  "filtered_articles": 10,
+  "success_feeds": 85,
+  "total_articles": 2515,
+  "filtered_articles": 7,
   "articles": [
     {
       "title": "Is the AI Compute Crunch Here?",
@@ -26,6 +26,26 @@
       "rank": 1
     },
     {
+      "title": "Restricting IP address access to specific ports in eBPF: a sketch",
+      "title_zh": "eBPF 实现端口级 IP 访问限制的设计方案",
+      "link": "https://utcc.utoronto.ca/~cks/space/blog/linux/EBPFPerPortIPRestrictions",
+      "pub_date": "2026-03-08T03:04:11.000Z",
+      "summary": "eBPF 的 LPM map key 通常只包含 CIDR 前缀长度和 IP 地址，但 key 的剩余部分长度可变。通过将 key 扩展 16 位，把端口号放在 IP 地址前面，就能实现端口+IP 的组合匹配。例如匹配来自 128.100.0.0/16 的端口 22 流量，key 结构为 32 位前缀长度后跟端口号和 IP 地址。如果多个端口共享同一 IP 限制，可以用普通 LPM map 配合 hash map 分别检查端口和 IP。两种方案各有适用场景：前者适合每个端口有独立 IP 限制，后者适合端口分组共享限制。这种设计让 eBPF 程序保持简单，只需动态更新 map 条目，适合 systemd 等需要运行时生成规则的场景。",
+      "source_name": "utcc.utoronto.ca/~cks",
+      "score": 15,
+      "depth": 6,
+      "novelty": 5,
+      "breadth": 4,
+      "category": "engineering",
+      "keywords": [
+        "eBPF",
+        "LPM map",
+        "systemd",
+        "network filtering"
+      ],
+      "rank": 2
+    },
+    {
       "title": "Pluralistic: The web is bearable with RSS (07 Mar 2026)",
       "title_zh": "用 RSS 和 Reader View 对抗 Web 恶化",
       "link": "https://pluralistic.net/2026/03/07/reader-mode/",
@@ -43,7 +63,7 @@
         "Firefox",
         "enshittification"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Codex for Open Source",
@@ -62,7 +82,7 @@
         "open-source",
         "ChatGPT Pro"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "‘npx workos’",
@@ -81,7 +101,7 @@
         "AuthKit",
         "WorkOS"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Remove annoying banners",
@@ -101,7 +121,7 @@
         "CSS",
         "cleanup"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "HN Skins 0.3.0",
@@ -120,7 +140,7 @@
         "themes",
         "Hacker News"
       ],
-      "rank": 6
+      "rank": 7
     }
   ]
 }
