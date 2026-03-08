@@ -2,8 +2,8 @@
   "date": "2026-03-08",
   "total_feeds": 92,
   "success_feeds": 86,
-  "total_articles": 2441,
-  "filtered_articles": 6,
+  "total_articles": 2540,
+  "filtered_articles": 7,
   "articles": [
     {
       "title": "If It Quacks Like a Package Manager",
@@ -105,6 +105,26 @@
       "rank": 5
     },
     {
+      "title": "What's the source of Einstein's \"citizen of the world\" quip?",
+      "title_zh": "爱因斯坦名言的考证之旅",
+      "link": "https://shkspr.mobi/blog/2026/03/whats-the-source-of-einsteins-citizen-of-the-world-quip/",
+      "pub_date": "2026-03-08T12:34:03.000Z",
+      "summary": "爱因斯坦关于相对论成功与否时各国对他身份描述的著名言论在网络广泛流传，但缺乏可靠来源。作者通过查阅犹太通讯社 1929 年 12 月 4 日的报道、法国国家图书馆的报纸档案、德国数字图书馆和英国报纸档案，未找到任何原始记录。更早的 1922 年 4 月索邦大学访问记录也被证实是混淆。作者发现爱因斯坦在 1919 年和 1924 年曾表达过类似但更冗长的观点，推测网络流传的精简版本可能是后人润色或记者加工的结果。文章展示了历史考证的严谨过程，也揭示了 AI 搜索工具在引证溯源时可能产生幻觉的问题。",
+      "source_name": "shkspr.mobi",
+      "score": 13,
+      "depth": 6,
+      "novelty": 5,
+      "breadth": 2,
+      "category": "other",
+      "keywords": [
+        "Einstein",
+        "quote",
+        "fact-checking",
+        "historical research"
+      ],
+      "rank": 6
+    },
+    {
       "title": "‘npx workos’",
       "title_zh": "WorkOS AuthKit CLI 安装器",
       "link": "https://workos.com/docs/authkit/cli-installer?utm_source=tldrdev&utm_medium=newsletter&utm_campaign=q12026",
@@ -121,7 +141,7 @@
         "AuthKit",
         "WorkOS"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Remove annoying banners",
@@ -141,7 +161,7 @@
         "CSS",
         "cleanup"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "HN Skins 0.3.0",
@@ -160,7 +180,7 @@
         "themes",
         "Hacker News"
       ],
-      "rank": 8
+      "rank": 9
     }
   ]
 }
