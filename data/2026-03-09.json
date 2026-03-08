@@ -3,7 +3,7 @@
   "total_feeds": 92,
   "success_feeds": 85,
   "total_articles": 2416,
-  "filtered_articles": 11,
+  "filtered_articles": 12,
   "articles": [
     {
       "title": "Can Coding Agents Relicense Open Source Through a ‘Clean Room’ Implementation of Code?",
@@ -86,6 +86,26 @@
       "rank": 4
     },
     {
+      "title": "The Neo solves Apple’s embarrassment",
+      "title_zh": "MacBook Neo：M1 Air 的品牌重塑",
+      "link": "https://anildash.com/2026/03/08/neo-apple-embarassment/",
+      "pub_date": "2026-03-08T00:00:00.000Z",
+      "summary": "MacBook Neo 本质上是 M1 MacBook Air 的品牌重塑，两者配置几乎完全相同：13 英寸屏幕、8GB 内存、256GB 存储、16 小时续航、约 3 磅重量，价格同为 499 美元。Apple 多年来已在 Walmart 以 499 美元销售 M1 Air，但旧设计和通过大众零售渠道销售对 Apple 品牌形象构成挑战。Neo 通过新配色、独立于 San Francisco 字体的圆润字体、面向首次电脑用户的营销定位，将同一产品重新包装为全新品类。Apple 的营销策略成功掩盖了 Neo 与现有产品的同质性，也暴露了科技媒体对普通消费者在 Walmart 等渠道购买习惯的盲区。",
+      "source_name": "anildash.com",
+      "score": 14,
+      "depth": 4,
+      "novelty": 5,
+      "breadth": 5,
+      "category": "opinion",
+      "keywords": [
+        "MacBook Neo",
+        "Apple",
+        "marketing",
+        "hardware"
+      ],
+      "rank": 5
+    },
+    {
       "title": "Introducing llm-eliza",
       "title_zh": "LLM CLI 的 ELIZA 插件",
       "link": "https://evanhahn.com/llm-eliza/",
@@ -102,7 +122,7 @@
         "LLM",
         "plugin"
       ],
-      "rank": 5
+      "rank": 6
     }
   ]
 }
