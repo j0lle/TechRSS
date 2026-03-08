@@ -1,9 +1,9 @@
 {
   "date": "2026-03-08",
   "total_feeds": 92,
-  "success_feeds": 86,
-  "total_articles": 2441,
-  "filtered_articles": 7,
+  "success_feeds": 85,
+  "total_articles": 2416,
+  "filtered_articles": 8,
   "articles": [
     {
       "title": "If It Quacks Like a Package Manager",
@@ -183,6 +183,25 @@
       "rank": 9
     },
     {
+      "title": "Steve Lemay Hits Apple’s Leadership Page",
+      "title_zh": "Steve Lemay 晋升 Apple 人机交互设计副总裁",
+      "link": "https://www.apple.com/leadership/steve-lemay/",
+      "pub_date": "2026-03-08T15:28:36.000Z",
+      "summary": "",
+      "source_name": "daringfireball.net",
+      "score": 8,
+      "depth": 1,
+      "novelty": 3,
+      "breadth": 4,
+      "category": "other",
+      "keywords": [
+        "Apple",
+        "leadership",
+        "Human Interface Design"
+      ],
+      "rank": 10
+    },
+    {
       "title": "Remove annoying banners",
       "title_zh": "移除网页固定横幅的 JS 脚本",
       "link": "https://maurycyz.com/projects/fixsite/",
@@ -200,7 +219,7 @@
         "CSS",
         "cleanup"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "HN Skins 0.3.0",
@@ -219,7 +238,7 @@
         "themes",
         "Hacker News"
       ],
-      "rank": 11
+      "rank": 12
     }
   ]
 }
