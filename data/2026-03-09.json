@@ -3,7 +3,7 @@
   "total_feeds": 92,
   "success_feeds": 85,
   "total_articles": 2416,
-  "filtered_articles": 9,
+  "filtered_articles": 10,
   "articles": [
     {
       "title": "GNU and the AI reimplementations",
@@ -24,6 +24,25 @@
         "AI"
       ],
       "rank": 1
+    },
+    {
+      "title": "Introducing llm-eliza",
+      "title_zh": "LLM CLI 的 ELIZA 插件",
+      "link": "https://evanhahn.com/llm-eliza/",
+      "pub_date": "2026-03-08T00:00:00.000Z",
+      "summary": "llm-eliza 是 LLM CLI 工具的一个插件，将 1966 年发布的 ELIZA 对话程序封装为可用模型。ELIZA 基于简单的模式匹配规则，无需 GPU 即可运行，响应延迟低于 1 毫秒。这个项目本质上是一个技术玩笑，用现代 AI 工具的包装形式呈现半个世纪前的自然语言处理实验。",
+      "source_name": "evanhahn.com",
+      "score": 7,
+      "depth": 2,
+      "novelty": 3,
+      "breadth": 2,
+      "category": "tools",
+      "keywords": [
+        "ELIZA",
+        "LLM",
+        "plugin"
+      ],
+      "rank": 2
     }
   ]
 }
