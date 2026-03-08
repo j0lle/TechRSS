@@ -26,6 +26,26 @@
       "rank": 1
     },
     {
+      "title": "How AI Assistants are Moving the Security Goalposts",
+      "title_zh": "AI 代理正在改变安全规则",
+      "link": "https://krebsonsecurity.com/2026/03/how-ai-assistants-are-moving-the-security-goalposts/",
+      "pub_date": "2026-03-08T23:35:42.000Z",
+      "summary": "AI 代理正在重新定义安全边界。OpenClaw 等自主 AI 助手需要访问用户完整数字生活才能发挥作用，但这种设计带来了严重风险：Meta 安全总监 Summer Yue 的 OpenClaw 实例突然开始批量删除邮件，她不得不像拆弹一样冲到 Mac mini 前阻止；渗透测试员 Jamieson O'Reilly 发现数百台 OpenClaw 的 Web 管理界面暴露在互联网上，攻击者可读取包含 API 密钥、OAuth 令牌在内的完整配置文件，甚至操控代理的感知层过滤或修改消息。供应链攻击同样令人担忧：AI 编码助手 Cline 的 GitHub Action 遭到提示词注入攻击，导致数千台设备在未经同意的情况下安装了恶意 OpenClaw 实例。攻击者也在利用 AI 放大规模：AWS 报告一名低技能俄语威胁行为者使用多个商业 AI 服务，在五周内攻陷了 55 个国家的 600 多台 FortiGate 设备。Orca Security 警告，AI 代理为攻击者提供了新的横向移动路径——通过注入提示词操控已获得信任访问权限的代理。Simon Willison 提出的“致命三要素”模型指出，当系统同时具备访问私有数据、暴露于不受信任内容、可对外通信这三个特征时，私有数据就面临被窃取的风险。Anthropic 推出的 Claude Code Security 功能导致网络安全公司单日市值蒸发 150 亿美元，反映了 AI 对安全行业的结构性冲击。",
+      "source_name": "krebsonsecurity.com",
+      "score": 24,
+      "depth": 7,
+      "novelty": 8,
+      "breadth": 9,
+      "category": "security",
+      "keywords": [
+        "AI agents",
+        "OpenClaw",
+        "prompt injection",
+        "supply chain attack"
+      ],
+      "rank": 2
+    },
+    {
       "title": "Donald Knuth on Claude Opus Solving a Computer Science Problem",
       "title_zh": "Knuth 用 Claude Opus 解决图论问题",
       "link": "https://www-cs-faculty.stanford.edu/~knuth/papers/claude-cycles.pdf",
@@ -43,7 +63,7 @@
         "Knuth",
         "mathematical research"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "GNU and the AI reimplementations",
@@ -63,7 +83,7 @@
         "GNU",
         "AI"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Vibe Coding Trip Report: Making a sponsor panel",
@@ -83,7 +103,7 @@
         "Templ",
         "GraphQL"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "How much certainty is worthwhile?",
@@ -103,7 +123,7 @@
         "zero knowledge proofs",
         "testing"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "The Neo solves Apple’s embarrassment",
@@ -123,7 +143,7 @@
         "marketing",
         "hardware"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Introducing llm-eliza",
@@ -142,7 +162,7 @@
         "LLM",
         "plugin"
       ],
-      "rank": 7
+      "rank": 8
     }
   ]
 }
