@@ -2,8 +2,8 @@
   "date": "2026-03-08",
   "total_feeds": 92,
   "success_feeds": 86,
-  "total_articles": 2540,
-  "filtered_articles": 7,
+  "total_articles": 2441,
+  "filtered_articles": 6,
   "articles": [
     {
       "title": "If It Quacks Like a Package Manager",
@@ -125,6 +125,26 @@
       "rank": 6
     },
     {
+      "title": "Paywalls For Minimalists",
+      "title_zh": "用 Ko-Fi 和开源工具搭建极简付费墙",
+      "link": "https://feed.tedium.co/link/15204/17295750/minimal-paywall-setup-idea",
+      "pub_date": "2026-03-08T13:20:05.000Z",
+      "summary": "",
+      "source_name": "tedium.co",
+      "score": 12,
+      "depth": 5,
+      "novelty": 4,
+      "breadth": 3,
+      "category": "engineering",
+      "keywords": [
+        "paywall",
+        "Ko-Fi",
+        "self-hosting",
+        "webhook"
+      ],
+      "rank": 7
+    },
+    {
       "title": "‘npx workos’",
       "title_zh": "WorkOS AuthKit CLI 安装器",
       "link": "https://workos.com/docs/authkit/cli-installer?utm_source=tldrdev&utm_medium=newsletter&utm_campaign=q12026",
@@ -141,7 +161,7 @@
         "AuthKit",
         "WorkOS"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Remove annoying banners",
@@ -161,7 +181,7 @@
         "CSS",
         "cleanup"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "HN Skins 0.3.0",
@@ -180,7 +200,7 @@
         "themes",
         "Hacker News"
       ],
-      "rank": 9
+      "rank": 10
     }
   ]
 }
