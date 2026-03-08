@@ -1,9 +1,9 @@
 {
   "date": "2026-03-09",
   "total_feeds": 92,
-  "success_feeds": 85,
-  "total_articles": 2416,
-  "filtered_articles": 12,
+  "success_feeds": 86,
+  "total_articles": 2441,
+  "filtered_articles": 13,
   "articles": [
     {
       "title": "Can Coding Agents Relicense Open Source Through a ‘Clean Room’ Implementation of Code?",
@@ -66,6 +66,26 @@
       "rank": 3
     },
     {
+      "title": "Vibe Coding Trip Report: Making a sponsor panel",
+      "title_zh": "用 Claude Code 完成 GitHub Sponsors 面板开发",
+      "link": "https://xeiaso.net/blog/2026/vibe-coding-sponsor-panel/",
+      "pub_date": "2026-03-09T00:00:00.000Z",
+      "summary": "作者使用 Claude Code 的 agent 团队完成了困扰数月的 GitHub Sponsors 面板开发，核心突破在于为模型准备了四个技能文档：templ-syntax、templ-components、templ-htmx 和 templ-http。这些文档让模型能够复制权威模式而非猜测语法，生成的 Templ 代码首次编译即通过。技术栈包括 Go 后端、Templ 渲染、HTMX 交互、Neon PostgreSQL 持久化、GitHub OAuth 和 Tigris 对象存储。agent 生成的 GraphQL 代码虽然丑陋——使用原始查询字符串和手动 JSON 解析——但比 shurcooL/graphql 库的复杂反射和结构体标签更直接有效。项目在一个周末内完成，此前多次尝试都因 Go 与 GraphQL 的生态问题而夭折。作者认为对于非安全关键系统，vibe coding 配合精心准备的上下文可以突破开发瓶颈，但不会用于需要逐行审计的代码。",
+      "source_name": "xeiaso.net",
+      "score": 20,
+      "depth": 7,
+      "novelty": 7,
+      "breadth": 6,
+      "category": "engineering",
+      "keywords": [
+        "Claude Code",
+        "vibe coding",
+        "Templ",
+        "GraphQL"
+      ],
+      "rank": 4
+    },
+    {
       "title": "How much certainty is worthwhile?",
       "title_zh": "形式化验证的经济学权衡",
       "link": "https://www.johndcook.com/blog/2026/03/08/how-much-certainty-is-worthwhile/",
@@ -83,7 +103,7 @@
         "zero knowledge proofs",
         "testing"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "The Neo solves Apple’s embarrassment",
@@ -103,7 +123,7 @@
         "marketing",
         "hardware"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Introducing llm-eliza",
@@ -122,7 +142,7 @@
         "LLM",
         "plugin"
       ],
-      "rank": 6
+      "rank": 7
     }
   ]
 }
