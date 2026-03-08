@@ -3,7 +3,7 @@
   "total_feeds": 92,
   "success_feeds": 86,
   "total_articles": 2441,
-  "filtered_articles": 6,
+  "filtered_articles": 7,
   "articles": [
     {
       "title": "If It Quacks Like a Package Manager",
@@ -145,6 +145,25 @@
       "rank": 7
     },
     {
+      "title": "Quoting Joseph Weizenbaum",
+      "title_zh": "ELIZA 作者谈 AI 诱导妄想",
+      "link": "https://simonwillison.net/2026/Mar/8/joseph-weizenbaum/#atom-everything",
+      "pub_date": "2026-03-08T14:59:48.000Z",
+      "summary": "",
+      "source_name": "simonwillison.net",
+      "score": 9,
+      "depth": 2,
+      "novelty": 3,
+      "breadth": 4,
+      "category": "opinion",
+      "keywords": [
+        "ELIZA",
+        "AI ethics",
+        "delusional thinking"
+      ],
+      "rank": 8
+    },
+    {
       "title": "‘npx workos’",
       "title_zh": "WorkOS AuthKit CLI 安装器",
       "link": "https://workos.com/docs/authkit/cli-installer?utm_source=tldrdev&utm_medium=newsletter&utm_campaign=q12026",
@@ -161,7 +180,7 @@
         "AuthKit",
         "WorkOS"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Remove annoying banners",
@@ -181,7 +200,7 @@
         "CSS",
         "cleanup"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "HN Skins 0.3.0",
@@ -200,7 +219,7 @@
         "themes",
         "Hacker News"
       ],
-      "rank": 10
+      "rank": 11
     }
   ]
 }
