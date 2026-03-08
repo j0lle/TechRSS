@@ -1,0 +1,29 @@
+{
+  "date": "2026-03-09",
+  "total_feeds": 92,
+  "success_feeds": 85,
+  "total_articles": 2416,
+  "filtered_articles": 9,
+  "articles": [
+    {
+      "title": "GNU and the AI reimplementations",
+      "title_zh": "AI 重写代码的合法性与历史先例",
+      "link": "http://antirez.com/news/162",
+      "pub_date": "2026-03-08T16:08:41.000Z",
+      "summary": "Antirez 通过回顾 GNU 项目和 Linux 内核的历史，论证了 AI 辅助的代码重写在法律和伦理上的合理性。版权法保护的是“受保护的表达”（即源代码本身），而非思想和行为。Stallman 在 90 年代指导 GNU 项目重写 UNIX 用户空间时，就要求开发者通过规范和实际测试来重新实现行为，而非直接复制代码，并刻意添加新特性以避免版权争议。Linus 编写 Linux 内核时虽然接触了 MINIX 源码，但 Tanenbaum 并未指控其侵权，因为重写本身是合法的。AI 只是让这一过程变得更快更便宜，并未改变其本质。作者认为，AI 重写不会导致软件质量下降，反而可能让小团队有能力与大公司竞争，加速开源生态发展。真正的价值不在于代码本身，而在于设计、创新、支持和实用性。",
+      "source_name": "antirez.com",
+      "score": 20,
+      "depth": 6,
+      "novelty": 7,
+      "breadth": 7,
+      "category": "opinion",
+      "keywords": [
+        "copyright",
+        "reimplementation",
+        "GNU",
+        "AI"
+      ],
+      "rank": 1
+    }
+  ]
+}
