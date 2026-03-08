@@ -1,10 +1,30 @@
 {
   "date": "2026-03-08",
   "total_feeds": 92,
-  "success_feeds": 85,
-  "total_articles": 2515,
-  "filtered_articles": 7,
+  "success_feeds": 86,
+  "total_articles": 2441,
+  "filtered_articles": 6,
   "articles": [
+    {
+      "title": "If It Quacks Like a Package Manager",
+      "title_zh": "伪装成插件的包管理器安全陷阱",
+      "link": "https://nesbitt.io/2026/03/08/if-it-quacks-like-a-package-manager.html",
+      "pub_date": "2026-03-08T10:00:00.000Z",
+      "summary": "GitHub Actions、Ansible Galaxy、Terraform 和 Helm 等工具已发展出传递性依赖树，却缺乏传统包管理器的安全防护机制。GitHub Actions 的 PrepareActionsRecursiveAsync 递归下载最多十层依赖，但无约束求解和 lockfile，2025 年 3 月的 tj-actions/changed-files 攻击通过 reviewdog/action-setup 这一二级依赖影响超过 23,000 个仓库。Ansible Galaxy 使用 resolvelib 解析器但无 lockfile，galaxy.ansible.com 允许覆盖已发布版本。Terraform 的 .terraform.lock.hcl 仅锁定 provider 不锁定 module，git tag 可被静默替换。Helm 的 Chart.lock 记录版本号而非内容哈希，传统 chart repo 允许覆盖版本，GHSA-557j-xg8c-q2mm 漏洞曾允许通过 Chart.lock 执行任意代码。任何具备传递性执行能力的工具本质上都是包管理器，必须解决可重现性、供应链放大、可变引用、完整性验证等核心问题。",
+      "source_name": "nesbitt.io",
+      "score": 24,
+      "depth": 8,
+      "novelty": 8,
+      "breadth": 8,
+      "category": "security",
+      "keywords": [
+        "package manager",
+        "supply chain security",
+        "GitHub Actions",
+        "transitive dependencies"
+      ],
+      "rank": 1
+    },
     {
       "title": "Is the AI Compute Crunch Here?",
       "title_zh": "AI 算力危机已至：1% 渗透率下的供应瓶颈",
@@ -23,7 +43,7 @@
         "DRAM",
         "inference"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Restricting IP address access to specific ports in eBPF: a sketch",
@@ -43,7 +63,7 @@
         "systemd",
         "network filtering"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Pluralistic: The web is bearable with RSS (07 Mar 2026)",
@@ -63,7 +83,7 @@
         "Firefox",
         "enshittification"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Codex for Open Source",
@@ -82,7 +102,7 @@
         "open-source",
         "ChatGPT Pro"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "‘npx workos’",
@@ -101,7 +121,7 @@
         "AuthKit",
         "WorkOS"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Remove annoying banners",
@@ -121,7 +141,7 @@
         "CSS",
         "cleanup"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "HN Skins 0.3.0",
@@ -140,7 +160,7 @@
         "themes",
         "Hacker News"
       ],
-      "rank": 7
+      "rank": 8
     }
   ]
 }
