@@ -1,9 +1,9 @@
 {
   "date": "2026-03-10",
   "total_feeds": 92,
-  "success_feeds": 85,
-  "total_articles": 2417,
-  "filtered_articles": 15,
+  "success_feeds": 84,
+  "total_articles": 2407,
+  "filtered_articles": 16,
   "articles": [
     {
       "title": "Fav tech museums",
@@ -24,6 +24,26 @@
         "Globe key"
       ],
       "rank": 1
+    },
+    {
+      "title": "Pluralistic: Billionaires are a danger to themselves and (especially) us (09 Mar 2026)",
+      "title_zh": "亿万富豪是制造政策失败的机器",
+      "link": "https://pluralistic.net/2026/03/09/autocrats-of-trade-2/",
+      "pub_date": "2026-03-09T16:46:33.000Z",
+      "summary": "亿万富豪的错误信念会造成灾难性后果，因为他们拥有将愚蠢想法转化为大规模伤害的资源和权力。文章以 Henry Ford 在亚马逊丛林复制 Dearborn 城市的失败案例、Steve Jobs 因拒绝正规医疗而缩短寿命、Paul Singer 通过 Elliott Investment Management 摧毁 Southwest Airlines 为例，说明财富如何放大个人错误的破坏力。Bill Gates 在教育改革和公共卫生领域的慈善项目同样造成广泛伤害，他推动的特许学校运动摧毁了贫困社区的公立教育系统，其极端的知识产权立场阻止了南非获取抗艾滋病药物，并干预 Oxford 放弃开源疫苗承诺。Jeffrey Epstein 和 Elon Musk 则体现了财富如何助长优生学等危险思想。文章反驳了",
+      "source_name": "pluralistic.net",
+      "score": 18,
+      "depth": 5,
+      "novelty": 6,
+      "breadth": 7,
+      "category": "opinion",
+      "keywords": [
+        "billionaireism",
+        "policy failure",
+        "enshittification",
+        "meritocracy"
+      ],
+      "rank": 2
     }
   ]
 }
