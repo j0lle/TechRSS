@@ -2,9 +2,29 @@
   "date": "2026-03-10",
   "total_feeds": 92,
   "success_feeds": 86,
-  "total_articles": 2442,
-  "filtered_articles": 18,
+  "total_articles": 2443,
+  "filtered_articles": 19,
   "articles": [
+    {
+      "title": "No, it doesn't cost Anthropic $5k per Claude Code user",
+      "title_zh": "Claude Code 的 $5,000 成本迷思",
+      "link": "https://martinalderson.com/posts/no-it-doesnt-cost-anthropic-5k-per-claude-code-user/?utm_source=rss&utm_medium=rss&utm_campaign=feed",
+      "pub_date": "2026-03-09T00:00:00.000Z",
+      "summary": "Forbes 声称 Claude Code Max 用户每月消耗 $5,000 算力，但该数字混淆了零售 API 价格与实际计算成本。Opus 4.6 的 API 定价为 $5/MTok 输入、$25/MTok 输出，而 OpenRouter 上同等规模的 Qwen 3.5 397B 和 Kimi K2.5 仅需约 $0.39-$0.45/MTok 输入、$2.25-$2.34/MTok 输出，约为 Anthropic API 价格的 10%。缓存读取成本同样呈现 10 倍差距。若重度用户按 API 价格消耗 $5,000，Anthropic 的实际计算成本约 $500，每月亏损 $300 而非 $4,800。Anthropic 自身数据显示，90% 用户日均 API 等价支出低于 $12，平均 $6/天，换算实际成本 $18/月，订阅费 $20-$200 可覆盖。$5,000 数字实为 Cursor 的内部分析——Cursor 需按零售 API 价格向 Anthropic 付费，而非 Anthropic 自身的成本。AI 推理并非亏损主因，训练成本、人才薪资和算力承诺才是真正支出。高 API 定价形成的“推理昂贵”叙事有利于前沿实验室维持护城河，抑制竞争。",
+      "source_name": "martinalderson.com",
+      "score": 23,
+      "depth": 7,
+      "novelty": 8,
+      "breadth": 8,
+      "category": "ai-ml",
+      "keywords": [
+        "Claude Code",
+        "inference cost",
+        "API pricing",
+        "OpenRouter"
+      ],
+      "rank": 1
+    },
     {
       "title": "Fav tech museums",
       "title_zh": "Apple Fn/Globe 键的十四年混乱史",
@@ -23,7 +43,7 @@
         "Apple",
         "Globe key"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Pluralistic: Billionaires are a danger to themselves and (especially) us (09 Mar 2026)",
@@ -43,7 +63,7 @@
         "enshittification",
         "meritocracy"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Learning to read C++ compiler errors: Ambiguous overloaded operator",
@@ -63,7 +83,7 @@
         "STL",
         "C++/WinRT"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Trig composition table",
@@ -82,7 +102,7 @@
         "inverse functions",
         "mathematical identities"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "★ The iPhone 17e",
@@ -102,7 +122,7 @@
         "A19",
         "review"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "The fine print giveth and the bold print taketh away: The countdown timer",
@@ -121,7 +141,7 @@
         "terms of service",
         "UX"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "[Sponsor] Finalist",
@@ -140,7 +160,7 @@
         "productivity",
         "HealthKit"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "MacBook Neo Wallpapers Now Available for All Macs in MacOS Tahoe 26.4 Beta",
@@ -159,7 +179,7 @@
         "wallpaper",
         "MacBook Neo"
       ],
-      "rank": 8
+      "rank": 9
     }
   ]
 }
