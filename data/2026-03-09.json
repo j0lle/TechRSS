@@ -1,9 +1,9 @@
 {
   "date": "2026-03-09",
   "total_feeds": 92,
-  "success_feeds": 86,
-  "total_articles": 2441,
-  "filtered_articles": 13,
+  "success_feeds": 85,
+  "total_articles": 2393,
+  "filtered_articles": 9,
   "articles": [
     {
       "title": "Can Coding Agents Relicense Open Source Through a ‘Clean Room’ Implementation of Code?",
@@ -106,6 +106,26 @@
       "rank": 5
     },
     {
+      "title": "The Noble Path",
+      "title_zh": "技术创造不应只有创业这一条路",
+      "link": "https://www.joanwestenberg.com/the-noble-path/",
+      "pub_date": "2026-03-08T23:56:18.000Z",
+      "summary": "现代技术文化将所有创造活动都纳入创业逻辑，每个工具都被期待成为产品、每个脚本都被视为 SaaS。这种单一价值观让开发者因为不商业化而感到内疚。作者援引人类学家 Marcel Mauss 的礼物经济理论和本笃会修道士的劳动哲学，指出开源软件运动最初理解了礼物的本质——Linux、Apache、Python 等工具作为礼物构建了万亿美元产业的基础。但礼物经济已被创业经济吸收，开源变成 go-to-market 策略，免费工具变成 lead magnet。规模逻辑毒害了创造过程，大多数好事物是本地化的、小规模的。当礼物变成你从未申请的工作，开源维护者精疲力竭，问题的根源不仅是资金，而是文化上缺乏让事物保持小规模的许可。市场擅长解决大规模付费问题，但无法解决长尾中的小众问题。礼物经济填补了这一空白，一个为 100 人每周节省 20 分钟的免费工具，每年回馈 3000 小时人类时间，这些价值不会出现在 GDP 中但真实存在。作者反对将创业作为唯一合法创造模式的单一文化，主张恢复第三类别：作为礼物的创造，为特定社区表达关怀。",
+      "source_name": "joanwestenberg.com",
+      "score": 16,
+      "depth": 3,
+      "novelty": 6,
+      "breadth": 7,
+      "category": "opinion",
+      "keywords": [
+        "gift economy",
+        "open source",
+        "indie hacker",
+        "monoculture"
+      ],
+      "rank": 6
+    },
+    {
       "title": "How much certainty is worthwhile?",
       "title_zh": "形式化验证的经济学权衡",
       "link": "https://www.johndcook.com/blog/2026/03/08/how-much-certainty-is-worthwhile/",
@@ -123,7 +143,7 @@
         "zero knowledge proofs",
         "testing"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "The Neo solves Apple’s embarrassment",
@@ -143,7 +163,7 @@
         "marketing",
         "hardware"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Introducing llm-eliza",
@@ -162,7 +182,7 @@
         "LLM",
         "plugin"
       ],
-      "rank": 8
+      "rank": 9
     }
   ]
 }
