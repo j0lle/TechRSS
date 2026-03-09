@@ -3,7 +3,7 @@
   "total_feeds": 92,
   "success_feeds": 86,
   "total_articles": 2442,
-  "filtered_articles": 17,
+  "filtered_articles": 18,
   "articles": [
     {
       "title": "Fav tech museums",
@@ -124,6 +124,25 @@
       "rank": 6
     },
     {
+      "title": "[Sponsor] Finalist",
+      "title_zh": "日程管理应用 Finalist 3.6 发布",
+      "link": "https://www.finalist.works/finalist-36/",
+      "pub_date": "2026-03-09T22:44:03.000Z",
+      "summary": "",
+      "source_name": "daringfireball.net",
+      "score": 7,
+      "depth": 2,
+      "novelty": 2,
+      "breadth": 3,
+      "category": "tools",
+      "keywords": [
+        "Finalist",
+        "productivity",
+        "HealthKit"
+      ],
+      "rank": 7
+    },
+    {
       "title": "MacBook Neo Wallpapers Now Available for All Macs in MacOS Tahoe 26.4 Beta",
       "title_zh": "macOS Tahoe 26.4 新增壁纸",
       "link": "https://www.macrumors.com/2026/03/09/macos-tahoe-26-4-beta-4-neo-wallpapers/",
@@ -140,7 +159,7 @@
         "wallpaper",
         "MacBook Neo"
       ],
-      "rank": 7
+      "rank": 8
     }
   ]
 }
