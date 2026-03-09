@@ -1,9 +1,9 @@
 {
   "date": "2026-03-10",
   "total_feeds": 92,
-  "success_feeds": 84,
-  "total_articles": 2407,
-  "filtered_articles": 16,
+  "success_feeds": 85,
+  "total_articles": 2412,
+  "filtered_articles": 13,
   "articles": [
     {
       "title": "Fav tech museums",
@@ -44,6 +44,45 @@
         "meritocracy"
       ],
       "rank": 2
+    },
+    {
+      "title": "Learning to read C++ compiler errors: Ambiguous overloaded operator",
+      "title_zh": "C++/WinRT 升级引发的 operator<< 歧义错误",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260309-00/?p=112118",
+      "pub_date": "2026-03-09T14:00:00.000Z",
+      "summary": "C++/WinRT 要求 C++17，导致项目升级到 STL 12.0。旧代码中为 32 位构建自定义的 `operator<<` 重载（针对 `const __int64&`）与 STL 新增的 `__int64` 重载冲突，仅在 32 位编译时触发 C2593 歧义错误。原代码通过 `#if !defined(_WIN64) && !defined(_STL70_) && !defined(_STL110_)` 屏蔽冲突，但未处理 STL 12.0。作者建议直接删除该代码块或添加 `__cplusplus < 201700` 条件，避免未来升级时重复出现同样问题。",
+      "source_name": "devblogs.microsoft.com/oldnewthing",
+      "score": 14,
+      "depth": 6,
+      "novelty": 4,
+      "breadth": 4,
+      "category": "engineering",
+      "keywords": [
+        "C++",
+        "operator overloading",
+        "STL",
+        "C++/WinRT"
+      ],
+      "rank": 3
+    },
+    {
+      "title": "The fine print giveth and the bold print taketh away: The countdown timer",
+      "title_zh": "倒计时器与条款阅读的矛盾",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260309-01/?p=112120",
+      "pub_date": "2026-03-09T14:00:01.000Z",
+      "summary": "",
+      "source_name": "devblogs.microsoft.com/oldnewthing",
+      "score": 7,
+      "depth": 2,
+      "novelty": 3,
+      "breadth": 2,
+      "category": "other",
+      "keywords": [
+        "countdown timer",
+        "terms of service",
+        "UX"
+      ],
+      "rank": 4
     }
   ]
 }
