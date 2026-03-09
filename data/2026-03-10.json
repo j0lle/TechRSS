@@ -1,0 +1,29 @@
+{
+  "date": "2026-03-10",
+  "total_feeds": 92,
+  "success_feeds": 85,
+  "total_articles": 2417,
+  "filtered_articles": 15,
+  "articles": [
+    {
+      "title": "Fav tech museums",
+      "title_zh": "Apple Fn/Globe 键的十四年混乱史",
+      "link": "https://aresluna.org/fn",
+      "pub_date": "2026-03-09T16:22:40.000Z",
+      "summary": "Apple 的 Fn/Globe 键设计陷入混乱。文章从 1984 年 IBM PCjr 的首个 Fn 键讲起，梳理了 Fn 键从硬件层模拟缺失键位到承担系统功能的演变历史。2012 年 macOS Mountain Lion 首次让 Fn 键独立触发听写功能，2015 年 iPad Pro 引入 Globe 键切换布局，2021 年 Apple 将其扩展为类似 Windows 键的系统级修饰键，但仅限自家键盘使用。这导致第三方键盘用户无法使用菜单中显示的快捷键，iPad 和 Mac 上的 Globe 快捷键行为也不一致。作者指出当前方案不可持续，Apple 底部修饰键已增至五个，造成认知负担和人体工学问题，建议重新设计如复用 Caps Lock 键等方案。",
+      "source_name": "aresluna.org",
+      "score": 18,
+      "depth": 7,
+      "novelty": 6,
+      "breadth": 5,
+      "category": "engineering",
+      "keywords": [
+        "keyboard",
+        "modifier keys",
+        "Apple",
+        "Globe key"
+      ],
+      "rank": 1
+    }
+  ]
+}
