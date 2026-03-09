@@ -1,9 +1,9 @@
 {
   "date": "2026-03-09",
   "total_feeds": 92,
-  "success_feeds": 85,
-  "total_articles": 2393,
-  "filtered_articles": 9,
+  "success_feeds": 86,
+  "total_articles": 2441,
+  "filtered_articles": 13,
   "articles": [
     {
       "title": "Can Coding Agents Relicense Open Source Through a ‘Clean Room’ Implementation of Code?",
@@ -166,6 +166,26 @@
       "rank": 8
     },
     {
+      "title": "Two of My Favorite Things Together at Last: Pies and Subdomains",
+      "title_zh": "从 Instagram 导出数据搭建个人烘焙相册",
+      "link": "https://blog.jim-nielsen.com/2026/pies-and-subdomains/",
+      "pub_date": "2026-03-08T19:00:00.000Z",
+      "summary": "作者从 Instagram 导出个人烘焙照片数据，通过自建脚本解析 JSON 归档文件，提取图片和说明文字，生成 feed.json 文件并部署到 CDN，最终使用 Web Origami 静态站点生成器构建了 pies.jim-nielsen.com 独立相册网站。Instagram Basic Display API 已于 2024 年 9 月弃用，现在只能通过 GUI 导出工具获取数据，作者希望 Instagram 保持 .zip 文件结构稳定以便定期更新归档。",
+      "source_name": "blog.jim-nielsen.com",
+      "score": 10,
+      "depth": 4,
+      "novelty": 3,
+      "breadth": 3,
+      "category": "engineering",
+      "keywords": [
+        "Instagram",
+        "data export",
+        "static site",
+        "Web Origami"
+      ],
+      "rank": 9
+    },
+    {
       "title": "Introducing llm-eliza",
       "title_zh": "LLM CLI 的 ELIZA 插件",
       "link": "https://evanhahn.com/llm-eliza/",
@@ -182,7 +202,7 @@
         "LLM",
         "plugin"
       ],
-      "rank": 9
+      "rank": 10
     }
   ]
 }
