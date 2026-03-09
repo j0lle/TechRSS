@@ -1,10 +1,30 @@
 {
   "date": "2026-03-09",
   "total_feeds": 92,
-  "success_feeds": 85,
-  "total_articles": 2416,
+  "success_feeds": 86,
+  "total_articles": 2441,
   "filtered_articles": 15,
   "articles": [
+    {
+      "title": "Low-Wage Contractors in Kenya See What Users See While Using Meta’s AI Smart Glasses",
+      "title_zh": "Meta 智能眼镜的私密数据流向肯尼亚标注员",
+      "link": "https://www.svd.se/a/K8nrV4/metas-ai-smart-glasses-and-data-privacy-concerns-workers-say-we-see-everything",
+      "pub_date": "2026-03-09T14:16:19.000Z",
+      "summary": "Meta Ray-Ban 智能眼镜的 AI 功能需要将用户数据传输至云端处理，但 Meta 未明确告知用户这些数据会被人工审核。调查显示，Meta 通过肯尼亚内罗毕的外包公司 Sama 雇佣数千名数据标注员，他们能看到用户通过眼镜拍摄的私密视频片段，包括浴室场景、性行为、银行卡信息等。标注员称匿名化处理并不总是有效，人脸有时仍然可见。记者走访瑞典十家眼镜零售店，发现销售人员对数据去向说法不一，多数错误地认为数据仅存储在本地。网络流量分析证实，眼镜必须联网才能使用 AI 功能，数据会传输至 Meta 位于瑞典卢雷奥和丹麦的服务器。欧盟隐私律师指出，用户可能不知道摄像头在 AI 激活时仍在录制，这违反了 GDPR 的透明度要求。瑞典隐私保护局表示尚未审查该产品。Meta 拒绝直接回答关于私密内容如何流向肯尼亚标注员的问题，仅引用其隐私政策作为回应。",
+      "source_name": "daringfireball.net",
+      "score": 25,
+      "depth": 8,
+      "novelty": 9,
+      "breadth": 8,
+      "category": "security",
+      "keywords": [
+        "Meta",
+        "smart glasses",
+        "privacy",
+        "data annotation"
+      ],
+      "rank": 1
+    },
     {
       "title": "Can Coding Agents Relicense Open Source Through a ‘Clean Room’ Implementation of Code?",
       "title_zh": "AI 重写 chardet 引发的许可争议",
@@ -23,7 +43,7 @@
         "Claude Code",
         "open source"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "How AI Assistants are Moving the Security Goalposts",
@@ -43,7 +63,7 @@
         "prompt injection",
         "supply chain attack"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Donald Knuth on Claude Opus Solving a Computer Science Problem",
@@ -63,7 +83,7 @@
         "Knuth",
         "mathematical research"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "GNU and the AI reimplementations",
@@ -83,7 +103,7 @@
         "GNU",
         "AI"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Vibe Coding Trip Report: Making a sponsor panel",
@@ -103,7 +123,7 @@
         "Templ",
         "GraphQL"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Perhaps not Boring Technology after all",
@@ -123,7 +143,27 @@
         "context window",
         "boring technology"
       ],
-      "rank": 6
+      "rank": 7
+    },
+    {
+      "title": "Production query plans without production data",
+      "title_zh": "PostgreSQL 18 无需生产数据复现查询计划",
+      "link": "https://simonwillison.net/2026/Mar/9/production-query-plans-without-production-data/#atom-everything",
+      "pub_date": "2026-03-09T15:05:15.000Z",
+      "summary": "PostgreSQL 18 新增 pg_restore_relation_stats() 和 pg_restore_attribute_stats() 函数，允许将生产环境的统计信息导出并导入到开发环境。统计转储文件极小，数百表数千列的数据库统计信息不到 1MB，而生产数据可能达数百 GB。通过模拟生产数据分布（如 status 列 95% 为 delivered），查询优化器可以在开发环境复现生产环境的执行计划，对低选择性值使用索引，对高选择性值执行全表扫描。SQLite 早已支持类似功能，sqlite_stat1 和 sqlite_stat4 表可读写，.fullschema 命令可导出统计信息用于复现查询问题。",
+      "source_name": "simonwillison.net",
+      "score": 18,
+      "depth": 7,
+      "novelty": 6,
+      "breadth": 5,
+      "category": "engineering",
+      "keywords": [
+        "PostgreSQL",
+        "query planner",
+        "statistics",
+        "SQLite"
+      ],
+      "rank": 8
     },
     {
       "title": "The Noble Path",
@@ -143,7 +183,7 @@
         "indie hacker",
         "monoculture"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "How much certainty is worthwhile?",
@@ -163,7 +203,7 @@
         "zero knowledge proofs",
         "testing"
       ],
-      "rank": 8
+      "rank": 10
     },
     {
       "title": "The Neo solves Apple’s embarrassment",
@@ -183,7 +223,7 @@
         "marketing",
         "hardware"
       ],
-      "rank": 9
+      "rank": 11
     },
     {
       "title": "Why Am I Paranoid, You Say?",
@@ -203,7 +243,7 @@
         "terms of service",
         "Siri"
       ],
-      "rank": 10
+      "rank": 12
     },
     {
       "title": "Two of My Favorite Things Together at Last: Pies and Subdomains",
@@ -223,7 +263,7 @@
         "static site",
         "Web Origami"
       ],
-      "rank": 11
+      "rank": 13
     },
     {
       "title": "Introducing llm-eliza",
@@ -242,7 +282,7 @@
         "LLM",
         "plugin"
       ],
-      "rank": 12
+      "rank": 14
     },
     {
       "title": "100 Posts",
@@ -261,7 +301,7 @@
         "blogging",
         "writing"
       ],
-      "rank": 13
+      "rank": 15
     },
     {
       "title": "IBM PC/XT Model 5160",
@@ -281,7 +321,7 @@
         "8088",
         "hardware"
       ],
-      "rank": 14
+      "rank": 16
     },
     {
       "title": "Book Review: There Is No Antimemetics Division by qntm ★★★★★",
@@ -300,7 +340,7 @@
         "sci-fi",
         "antimemetics"
       ],
-      "rank": 15
+      "rank": 17
     },
     {
       "title": "Test",
@@ -317,7 +357,7 @@
       "keywords": [
         "test"
       ],
-      "rank": 16
+      "rank": 18
     }
   ]
 }
