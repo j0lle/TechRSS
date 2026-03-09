@@ -3,7 +3,7 @@
   "total_feeds": 92,
   "success_feeds": 86,
   "total_articles": 2441,
-  "filtered_articles": 14,
+  "filtered_articles": 15,
   "articles": [
     {
       "title": "Can Coding Agents Relicense Open Source Through a ‘Clean Room’ Implementation of Code?",
@@ -166,6 +166,26 @@
       "rank": 8
     },
     {
+      "title": "Why Am I Paranoid, You Say?",
+      "title_zh": "为何我拒绝所有智能服务",
+      "link": "https://idiallo.com/blog/why-am-i-paranoid?src=feed",
+      "pub_date": "2026-03-09T12:00:00.000Z",
+      "summary": "现代科技产品背后是数据饥渴的公司，而非纯粹的软硬件。作者拒绝使用 Siri、Alexa、智能电视语音搜索、Google 登录、免费试用等服务，因为这些服务要求用户放弃数据控制权。Apple 因 Siri 隐私问题支付了 9500 万美元和解金，作者的孩子在婴儿时期就遭遇了数据泄露，Google 账号被越南登录尝试锁定导致同时失去多个网站访问权限。当服务条款可以随时变更且用户毫无控制时，技术便利不值得用隐私交换。",
+      "source_name": "idiallo.com",
+      "score": 11,
+      "depth": 3,
+      "novelty": 3,
+      "breadth": 5,
+      "category": "opinion",
+      "keywords": [
+        "privacy",
+        "data collection",
+        "terms of service",
+        "Siri"
+      ],
+      "rank": 9
+    },
+    {
       "title": "Two of My Favorite Things Together at Last: Pies and Subdomains",
       "title_zh": "从 Instagram 导出数据搭建个人烘焙相册",
       "link": "https://blog.jim-nielsen.com/2026/pies-and-subdomains/",
@@ -183,7 +203,7 @@
         "static site",
         "Web Origami"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Introducing llm-eliza",
@@ -202,7 +222,7 @@
         "LLM",
         "plugin"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "100 Posts",
@@ -221,7 +241,7 @@
         "blogging",
         "writing"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "IBM PC/XT Model 5160",
@@ -241,7 +261,26 @@
         "8088",
         "hardware"
       ],
-      "rank": 12
+      "rank": 13
+    },
+    {
+      "title": "Book Review: There Is No Antimemetics Division by qntm ★★★★★",
+      "title_zh": "科幻小说《反模因部》新版书评",
+      "link": "https://shkspr.mobi/blog/2026/03/book-review-there-is-no-antimemetics-division-by-qntm/",
+      "pub_date": "2026-03-09T12:34:47.000Z",
+      "summary": "",
+      "source_name": "shkspr.mobi",
+      "score": 7,
+      "depth": 2,
+      "novelty": 3,
+      "breadth": 2,
+      "category": "other",
+      "keywords": [
+        "book review",
+        "sci-fi",
+        "antimemetics"
+      ],
+      "rank": 14
     },
     {
       "title": "Test",
@@ -258,7 +297,7 @@
       "keywords": [
         "test"
       ],
-      "rank": 13
+      "rank": 15
     }
   ]
 }
