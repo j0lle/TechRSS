@@ -1,9 +1,9 @@
 {
   "date": "2026-03-09",
   "total_feeds": 92,
-  "success_feeds": 84,
-  "total_articles": 2406,
-  "filtered_articles": 12,
+  "success_feeds": 86,
+  "total_articles": 2441,
+  "filtered_articles": 14,
   "articles": [
     {
       "title": "Can Coding Agents Relicense Open Source Through a ‘Clean Room’ Implementation of Code?",
@@ -224,6 +224,26 @@
       "rank": 11
     },
     {
+      "title": "IBM PC/XT Model 5160",
+      "title_zh": "IBM PC/XT 5160 历史回顾",
+      "link": "https://dfarq.homeip.net/ibm-pc-xt-model-5160/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=ibm-pc-xt-model-5160",
+      "pub_date": "2026-03-09T11:00:18.000Z",
+      "summary": "",
+      "source_name": "dfarq.homeip.net",
+      "score": 7,
+      "depth": 3,
+      "novelty": 2,
+      "breadth": 2,
+      "category": "other",
+      "keywords": [
+        "IBM PC/XT",
+        "retro computing",
+        "8088",
+        "hardware"
+      ],
+      "rank": 12
+    },
+    {
       "title": "Test",
       "title_zh": "测试页面",
       "link": "https://www.joanwestenberg.com/test/",
@@ -238,7 +258,7 @@
       "keywords": [
         "test"
       ],
-      "rank": 12
+      "rank": 13
     }
   ]
 }
