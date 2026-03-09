@@ -3,7 +3,7 @@
   "total_feeds": 92,
   "success_feeds": 86,
   "total_articles": 2442,
-  "filtered_articles": 15,
+  "filtered_articles": 17,
   "articles": [
     {
       "title": "Fav tech museums",
@@ -66,6 +66,45 @@
       "rank": 3
     },
     {
+      "title": "Trig composition table",
+      "title_zh": "三角函数与反三角函数的复合运算表",
+      "link": "https://www.johndcook.com/blog/2026/03/09/trig-composition-table/",
+      "pub_date": "2026-03-09T22:16:09.000Z",
+      "summary": "三角函数与反三角函数的复合运算可以表示为 14 种形式，每个表达式都是集合 A={1}、B={x}、C={√(1−x²), √(x²−1), √(1+x²)} 中元素的比值。文章给出了 3×3 和 6×6 的复合运算表，并提供了 Python 代码验证这些恒等式。由于 holomorphic 函数在实数区间上相等即可推广到整个复平面，几何证明的结论适用于复数域。",
+      "source_name": "johndcook.com",
+      "score": 13,
+      "depth": 6,
+      "novelty": 4,
+      "breadth": 3,
+      "category": "other",
+      "keywords": [
+        "trigonometry",
+        "inverse functions",
+        "mathematical identities"
+      ],
+      "rank": 4
+    },
+    {
+      "title": "★ The iPhone 17e",
+      "title_zh": "iPhone 17e 评测：MagSafe 回归的年度小幅升级",
+      "link": "https://daringfireball.net/2026/03/the_iphone_17e",
+      "pub_date": "2026-03-09T21:57:35.000Z",
+      "summary": "",
+      "source_name": "daringfireball.net",
+      "score": 11,
+      "depth": 4,
+      "novelty": 3,
+      "breadth": 4,
+      "category": "other",
+      "keywords": [
+        "iPhone",
+        "MagSafe",
+        "A19",
+        "review"
+      ],
+      "rank": 5
+    },
+    {
       "title": "The fine print giveth and the bold print taketh away: The countdown timer",
       "title_zh": "倒计时器与条款阅读的矛盾",
       "link": "https://devblogs.microsoft.com/oldnewthing/20260309-01/?p=112120",
@@ -82,7 +121,7 @@
         "terms of service",
         "UX"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "MacBook Neo Wallpapers Now Available for All Macs in MacOS Tahoe 26.4 Beta",
@@ -101,7 +140,7 @@
         "wallpaper",
         "MacBook Neo"
       ],
-      "rank": 5
+      "rank": 7
     }
   ]
 }
