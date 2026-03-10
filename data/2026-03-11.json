@@ -3,8 +3,48 @@
   "total_feeds": 92,
   "success_feeds": 86,
   "total_articles": 2443,
-  "filtered_articles": 14,
+  "filtered_articles": 15,
   "articles": [
+    {
+      "title": "LLMs are bad at vibing specifications",
+      "title_zh": "LLM 无法胜任形式化规范编写",
+      "link": "https://buttondown.com/hillelwayne/archive/llms-are-bad-at-vibing-specifications/",
+      "pub_date": "2026-03-10T17:12:30.000Z",
+      "summary": "LLM 生成的形式化规范存在根本性缺陷：作者分析了 GitHub 上由 Claude 生成的 TLA+ 和 Alloy 规范，发现这些代码往往无法编译，甚至从未运行过模型检查。更严重的是，AI 只能生成\"显而易见\"的属性（如 P || Q 的简单逻辑重述），这些属性是重言式，无法捕获并发、非确定性或跨步骤的微妙错误。形式化方法的核心价值恰恰在于发现这些微妙属性，而 LLM 在这方面完全失效。作者对比了专家用户（如 Cheng Huang）生成的复杂属性，发现专家能引导 AI 产出更有价值的规范，但这意味着用户必须先掌握形式化方法技能。如果需要 80 小时学习才能让 AI 帮上忙，那么 AI 降低门槛的效果可能微乎其微。文章质疑了\"AI 将使形式化验证主流化\"的乐观叙事，指出容易写规范不等于能写出正确的规范。",
+      "source_name": "buttondown.com/hillelwayne",
+      "score": 21,
+      "depth": 8,
+      "novelty": 8,
+      "breadth": 5,
+      "category": "engineering",
+      "keywords": [
+        "TLA+",
+        "Alloy",
+        "formal methods",
+        "specifications"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Writing an LLM from scratch, part 32e -- Interventions: the learning rate",
+      "title_zh": "学习率调度让测试损失降低 0.09",
+      "link": "https://www.gilesthomas.com/2026/03/llm-from-scratch-32e-interventions-learning-rate",
+      "pub_date": "2026-03-10T23:55:00.000Z",
+      "summary": "作者在从零训练 GPT-2 small 基础模型时，将学习率从 0.0004 调整为 0.0014，并引入了 5% 步数的线性 warmup 后接余弦衰减调度策略。基于 DeepSeek 论文的超参数缩放公式 ηopt=0.3118×C−0.1250，针对 5×10^18 FLOPs 的计算预算计算出最优学习率为 1.4×10^-3。对比实验显示，仅提高学习率到 0.0014 会导致训练发散，损失变为 NaN；而采用 warmup-cosine 调度后，测试集损失从基线的 3.692 降至 3.602，这是系列实验中效果最显著的改进。文章详细解释了固定学习率在 V 形损失曲线上的振荡问题、余弦退火的理论背景，以及使用 PyTorch 的 LinearLR、CosineAnnealingLR 和 SequentialLR 实现调度器的完整代码，包括 checkpoint 恢复时的状态保存与加载细节。",
+      "source_name": "gilesthomas.com",
+      "score": 19,
+      "depth": 8,
+      "novelty": 6,
+      "breadth": 5,
+      "category": "ai-ml",
+      "keywords": [
+        "learning rate",
+        "cosine annealing",
+        "warmup",
+        "AdamW"
+      ],
+      "rank": 2
+    },
     {
       "title": "Pluralistic: Ad-tech is fascist tech (10 Mar 2026)",
       "title_zh": "广告技术是法西斯技术",
@@ -23,7 +63,7 @@
         "privacy",
         "ICE"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "Simplifying expressions in SymPy",
@@ -42,7 +82,7 @@
         "Python",
         "simplification"
       ],
-      "rank": 2
+      "rank": 4
     }
   ]
 }
