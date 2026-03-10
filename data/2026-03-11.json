@@ -3,7 +3,7 @@
   "total_feeds": 92,
   "success_feeds": 86,
   "total_articles": 2443,
-  "filtered_articles": 16,
+  "filtered_articles": 18,
   "articles": [
     {
       "title": "The Beginning Of History",
@@ -86,6 +86,26 @@
       "rank": 4
     },
     {
+      "title": "I'm Not Lying, I'm Hallucinating",
+      "title_zh": "LLM 幻觉：从预测错误到神经障碍",
+      "link": "https://idiallo.com/byte-size/im-not-lying-im-hallucinating?src=feed",
+      "pub_date": "2026-03-10T20:43:30.000Z",
+      "summary": "",
+      "source_name": "idiallo.com",
+      "score": 10,
+      "depth": 2,
+      "novelty": 3,
+      "breadth": 5,
+      "category": "opinion",
+      "keywords": [
+        "hallucination",
+        "LLM",
+        "Karpathy",
+        "vibe coding"
+      ],
+      "rank": 5
+    },
+    {
       "title": "Simplifying expressions in SymPy",
       "title_zh": "SymPy 表达式简化的边界陷阱",
       "link": "https://www.johndcook.com/blog/2026/03/10/simplifying-expressions-in-sympy/",
@@ -102,7 +122,27 @@
         "Python",
         "simplification"
       ],
-      "rank": 5
+      "rank": 6
+    },
+    {
+      "title": "HN Skins 0.4.0 - Black Bar Updates",
+      "title_zh": "HN Skins 0.4.0 修复悼念黑条显示问题",
+      "link": "https://susam.net/code/news/hnskins/0.4.0.html",
+      "pub_date": "2026-03-10T00:00:00.000Z",
+      "summary": "HN Skins 0.4.0 修复了 Hacker News 纪念性黑条在部分主题下被遮挡的问题。当技术或科学界重要人物去世时，Hacker News 会在页面顶部显示黑色悼念条。此前某些皮肤会隐藏该元素，此次更新确保黑条在所有主题下均可见。深色主题中黑条渲染为浅灰色以保持足够对比度。",
+      "source_name": "susam.net",
+      "score": 6,
+      "depth": 2,
+      "novelty": 2,
+      "breadth": 2,
+      "category": "tools",
+      "keywords": [
+        "HN Skins",
+        "userscript",
+        "Hacker News",
+        "themes"
+      ],
+      "rank": 7
     },
     {
       "title": "A snappy answer when asked about dressing casually at IBM",
@@ -121,7 +161,7 @@
         "culture",
         "history"
       ],
-      "rank": 6
+      "rank": 8
     }
   ]
 }
