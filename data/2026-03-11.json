@@ -103,6 +103,25 @@
         "simplification"
       ],
       "rank": 5
+    },
+    {
+      "title": "A snappy answer when asked about dressing casually at IBM",
+      "title_zh": "IBM 办公着装文化轶事",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260310-00/?p=112131",
+      "pub_date": "2026-03-10T14:00:00.000Z",
+      "summary": "",
+      "source_name": "devblogs.microsoft.com/oldnewthing",
+      "score": 5,
+      "depth": 1,
+      "novelty": 2,
+      "breadth": 2,
+      "category": "other",
+      "keywords": [
+        "IBM",
+        "culture",
+        "history"
+      ],
+      "rank": 6
     }
   ]
 }
