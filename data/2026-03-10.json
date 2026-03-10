@@ -1,9 +1,9 @@
 {
   "date": "2026-03-10",
   "total_feeds": 92,
-  "success_feeds": 86,
-  "total_articles": 2443,
-  "filtered_articles": 17,
+  "success_feeds": 84,
+  "total_articles": 2401,
+  "filtered_articles": 13,
   "articles": [
     {
       "title": "No, it doesn't cost Anthropic $5k per Claude Code user",
@@ -125,6 +125,26 @@
       "rank": 6
     },
     {
+      "title": "sinh( arccosh(x) )",
+      "title_zh": "Mathematica 为何不简化 sinh(arccosh(x))",
+      "link": "https://www.johndcook.com/blog/2026/03/10/sinh-arccosh/",
+      "pub_date": "2026-03-10T15:12:03.000Z",
+      "summary": "Mathematica 在计算 Sinh[ArcCosh[x]] 时返回 √((x-1)/(x+1)) × (x+1) 而非预期的 √(x²-1)。作者通过复分析解释了这一差异：arccosh 函数在复平面上的分支割线为 (−∞, 1]，当 x < -1 时，arccosh(x) 返回复数而非实数。简单表达式 √(x²-1) 隐含假设 x ≥ -1，而 Mathematica 的结果对所有复数输入都正确。类似地，平方根函数的分支割线为 (−∞, 0]，√(x+1)² = x+1 仅在 x ≥ -1 时成立。通过添加 Assumptions -> {x >= -1}，Mathematica 可简化为 √(x²-1)。",
+      "source_name": "johndcook.com",
+      "score": 13,
+      "depth": 6,
+      "novelty": 5,
+      "breadth": 2,
+      "category": "other",
+      "keywords": [
+        "Mathematica",
+        "branch cuts",
+        "complex analysis",
+        "hyperbolic functions"
+      ],
+      "rank": 7
+    },
+    {
       "title": "Power glitches can leave computer hardware in weird states",
       "title_zh": "电力故障会让硬件进入异常状态",
       "link": "https://utcc.utoronto.ca/~cks/space/blog/tech/PowerGlitchesWeirdHardwareStates",
@@ -142,7 +162,7 @@
         "BMC",
         "flea power"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "★ The iPhone 17e",
@@ -162,7 +182,7 @@
         "A19",
         "review"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "If there are URLs in your HTTP User-Agent, they should exist and work",
@@ -182,7 +202,7 @@
         "spam",
         "blocking"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Rebasing in Magit",
@@ -202,7 +222,7 @@
         "rebase",
         "Emacs"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "When the dotcom bubble burst",
@@ -221,7 +241,7 @@
         "NASDAQ",
         "history"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "Unstructured Data and the Joy of having Something Else think for you",
@@ -240,7 +260,7 @@
         "unstructured data",
         "productivity"
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "title": "Weekly Update 494",
@@ -259,7 +279,7 @@
         "data breach",
         "weekly update"
       ],
-      "rank": 13
+      "rank": 14
     },
     {
       "title": "The fine print giveth and the bold print taketh away: The countdown timer",
@@ -278,7 +298,7 @@
         "terms of service",
         "UX"
       ],
-      "rank": 14
+      "rank": 15
     },
     {
       "title": "[Sponsor] Finalist",
@@ -297,7 +317,7 @@
         "productivity",
         "HealthKit"
       ],
-      "rank": 15
+      "rank": 16
     },
     {
       "title": "Update to the Ghost theme that powers this site",
@@ -316,7 +336,7 @@
         "theme",
         "Mastodon"
       ],
-      "rank": 16
+      "rank": 17
     },
     {
       "title": "MacBook Neo Wallpapers Now Available for All Macs in MacOS Tahoe 26.4 Beta",
@@ -335,7 +355,7 @@
         "wallpaper",
         "MacBook Neo"
       ],
-      "rank": 17
+      "rank": 18
     }
   ]
 }
