@@ -26,6 +26,26 @@
       "rank": 1
     },
     {
+      "title": "Just Use Postgres",
+      "title_zh": "将 git push 部署到单一 Postgres 进程",
+      "link": "https://nesbitt.io/2026/03/10/just-use-postgres.html",
+      "pub_date": "2026-03-10T10:00:00.000Z",
+      "summary": "omni_git 扩展在 Postgres 内部实现了 git smart HTTP 协议，配合 omnigres 框架将数据库转变为完整的应用平台。作者用 PL/pgSQL 实现了 pkt-line 编码和 ref 广告，用约 200 行 C 代码处理 packfile 的解压与生成，通过 libgit2 的 SPI 接口将 git 对象插入数据库。HTTP 路由通过 omni_httpd 的表驱动系统配置，三个端点分别处理 info/refs、git-receive-pack 和 git-upload-pack。部署触发器在 ref 更新时扫描 deploy/ 目录，按字母顺序执行 SQL 迁移文件，通过 omni_python 运行 Python 代码，最后执行 seed 文件注册路由。整个架构将 git 远程、HTTP 服务器、部署目标和应用运行时合并到单一 Postgres 进程中，利用流式复制和 WAL 日志同时同步代码、历史和应用状态，pg_dump 可一次性备份所有内容，点时间恢复能确保代码与数据的完全一致性。作者承认大型仓库性能受限、缺少认证和并发控制，但这一实现展示了“just use Postgres”理念的逻辑终点。",
+      "source_name": "nesbitt.io",
+      "score": 22,
+      "depth": 8,
+      "novelty": 9,
+      "breadth": 5,
+      "category": "engineering",
+      "keywords": [
+        "Postgres",
+        "git",
+        "omnigres",
+        "deployment"
+      ],
+      "rank": 2
+    },
+    {
       "title": "Fav tech museums",
       "title_zh": "Apple Fn/Globe 键的十四年混乱史",
       "link": "https://aresluna.org/fn",
@@ -43,7 +63,7 @@
         "Apple",
         "Globe key"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Pluralistic: Billionaires are a danger to themselves and (especially) us (09 Mar 2026)",
@@ -63,7 +83,7 @@
         "enshittification",
         "meritocracy"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Learning to read C++ compiler errors: Ambiguous overloaded operator",
@@ -83,7 +103,7 @@
         "STL",
         "C++/WinRT"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Trig composition table",
@@ -102,7 +122,7 @@
         "inverse functions",
         "mathematical identities"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Power glitches can leave computer hardware in weird states",
@@ -122,7 +142,7 @@
         "BMC",
         "flea power"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "★ The iPhone 17e",
@@ -142,7 +162,7 @@
         "A19",
         "review"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "If there are URLs in your HTTP User-Agent, they should exist and work",
@@ -162,7 +182,7 @@
         "spam",
         "blocking"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Rebasing in Magit",
@@ -182,7 +202,7 @@
         "rebase",
         "Emacs"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Weekly Update 494",
@@ -201,7 +221,7 @@
         "data breach",
         "weekly update"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "The fine print giveth and the bold print taketh away: The countdown timer",
@@ -220,7 +240,7 @@
         "terms of service",
         "UX"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "[Sponsor] Finalist",
@@ -239,7 +259,7 @@
         "productivity",
         "HealthKit"
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "title": "Update to the Ghost theme that powers this site",
@@ -258,7 +278,7 @@
         "theme",
         "Mastodon"
       ],
-      "rank": 13
+      "rank": 14
     },
     {
       "title": "MacBook Neo Wallpapers Now Available for All Macs in MacOS Tahoe 26.4 Beta",
@@ -277,7 +297,7 @@
         "wallpaper",
         "MacBook Neo"
       ],
-      "rank": 14
+      "rank": 15
     }
   ]
 }
