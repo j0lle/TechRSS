@@ -3,7 +3,7 @@
   "total_feeds": 92,
   "success_feeds": 86,
   "total_articles": 2443,
-  "filtered_articles": 17,
+  "filtered_articles": 18,
   "articles": [
     {
       "title": "No, it doesn't cost Anthropic $5k per Claude Code user",
@@ -242,6 +242,25 @@
       "rank": 12
     },
     {
+      "title": "Update to the Ghost theme that powers this site",
+      "title_zh": "Ghost 主题更新：图片说明和 Mastodon 集成",
+      "link": "https://matduggan.com/update-to-the-ghost-theme-that-powers-this-site/",
+      "pub_date": "2026-03-10T09:26:47.000Z",
+      "summary": "",
+      "source_name": "matduggan.com",
+      "score": 6,
+      "depth": 2,
+      "novelty": 2,
+      "breadth": 2,
+      "category": "tools",
+      "keywords": [
+        "Ghost",
+        "theme",
+        "Mastodon"
+      ],
+      "rank": 13
+    },
+    {
       "title": "MacBook Neo Wallpapers Now Available for All Macs in MacOS Tahoe 26.4 Beta",
       "title_zh": "macOS Tahoe 26.4 新增壁纸",
       "link": "https://www.macrumors.com/2026/03/09/macos-tahoe-26-4-beta-4-neo-wallpapers/",
@@ -258,7 +277,7 @@
         "wallpaper",
         "MacBook Neo"
       ],
-      "rank": 13
+      "rank": 14
     }
   ]
 }
