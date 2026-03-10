@@ -3,8 +3,28 @@
   "total_feeds": 92,
   "success_feeds": 86,
   "total_articles": 2443,
-  "filtered_articles": 15,
+  "filtered_articles": 16,
   "articles": [
+    {
+      "title": "The Beginning Of History",
+      "title_zh": "能源危机刺破 AI 泡沫的债务陷阱",
+      "link": "https://www.wheresyoured.at/the-beginning-of-history/",
+      "pub_date": "2026-03-10T18:34:49.000Z",
+      "summary": "伊朗封锁霍尔木兹海峡导致全球油价一夜暴涨 30%，每桶突破 100 美元。能源价格飙升将推高通胀，迫使美联储维持或提高利率，进而摧毁依赖廉价债务的 AI 泡沫。Anthropic CFO 在法庭宣誓文件中承认公司累计收入仅 50 亿美元，但对外宣称的年化收入加总超过 66 亿美元，存在严重误导。OpenAI 已退出 Stargate Abilene 数据中心后续扩建项目，该项目目前仅 200MW 电力，新增电力需一年以上。AI 行业建立在债务基础上，利率上升将使数据中心建设和运营成本大幅增加，而能源危机正在加速这一进程。",
+      "source_name": "wheresyoured.at",
+      "score": 26,
+      "depth": 8,
+      "novelty": 9,
+      "breadth": 9,
+      "category": "opinion",
+      "keywords": [
+        "AI bubble",
+        "energy crisis",
+        "Anthropic",
+        "debt"
+      ],
+      "rank": 1
+    },
     {
       "title": "LLMs are bad at vibing specifications",
       "title_zh": "LLM 无法胜任形式化规范编写",
@@ -23,7 +43,7 @@
         "formal methods",
         "specifications"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Writing an LLM from scratch, part 32e -- Interventions: the learning rate",
@@ -43,7 +63,7 @@
         "warmup",
         "AdamW"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Pluralistic: Ad-tech is fascist tech (10 Mar 2026)",
@@ -63,7 +83,7 @@
         "privacy",
         "ICE"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Simplifying expressions in SymPy",
@@ -82,7 +102,7 @@
         "Python",
         "simplification"
       ],
-      "rank": 4
+      "rank": 5
     }
   ]
 }
