@@ -1,0 +1,48 @@
+{
+  "date": "2026-03-11",
+  "total_feeds": 92,
+  "success_feeds": 86,
+  "total_articles": 2443,
+  "filtered_articles": 14,
+  "articles": [
+    {
+      "title": "Pluralistic: Ad-tech is fascist tech (10 Mar 2026)",
+      "title_zh": "广告技术是法西斯技术",
+      "link": "https://pluralistic.net/2026/03/10/ice-tech/",
+      "pub_date": "2026-03-10T15:23:43.000Z",
+      "summary": "Google 从基于内容的广告转向基于监控的广告，并非因为技术必然性，而是因为政策环境允许。美国自 1988 年以来未通过任何实质性的消费者隐私法律，欧盟 GDPR 虽然存在但缺乏有效执行。执法机构和情报部门长期游说反对隐私法律，因为商业监控数据库为他们提供了无需搜查令即可获取的监控数据。这一公私合营的监控体系如今被 ICE 用于决定绑架、引送和酷刑的目标。20 年前作者在《Scroogled》中就预言了 DHS 会突击搜查广告技术数据库的行为，这一预言已成为现实。实时竞价系统被 Johnny Ryan 称为史上最大的数据泄露，因为参与竞价的所有方都能看到用户隐私数据，但失败者本应删除数据却从未执行。广告技术行业不仅危险，其有效性也被严重夸大，数据准确率远低于宣称水平。广告技术高管 David Nyurenberg 承认隐私激进主义者一直是对的，但行业在几十年间拒绝与批评者对话。政策制定者本应预见并阻止这一结果，他们确实知情却选择不作为。",
+      "source_name": "pluralistic.net",
+      "score": 18,
+      "depth": 5,
+      "novelty": 6,
+      "breadth": 7,
+      "category": "opinion",
+      "keywords": [
+        "surveillance",
+        "ad-tech",
+        "privacy",
+        "ICE"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Simplifying expressions in SymPy",
+      "title_zh": "SymPy 表达式简化的边界陷阱",
+      "link": "https://www.johndcook.com/blog/2026/03/10/simplifying-expressions-in-sympy/",
+      "pub_date": "2026-03-10T16:08:15.000Z",
+      "summary": "",
+      "source_name": "johndcook.com",
+      "score": 7,
+      "depth": 3,
+      "novelty": 2,
+      "breadth": 2,
+      "category": "tools",
+      "keywords": [
+        "SymPy",
+        "Python",
+        "simplification"
+      ],
+      "rank": 2
+    }
+  ]
+}
