@@ -1,9 +1,9 @@
 {
   "date": "2026-03-11",
   "total_feeds": 92,
-  "success_feeds": 86,
-  "total_articles": 2542,
-  "filtered_articles": 18,
+  "success_feeds": 85,
+  "total_articles": 2418,
+  "filtered_articles": 17,
   "articles": [
     {
       "title": "The Beginning Of History",
@@ -26,6 +26,26 @@
       "rank": 1
     },
     {
+      "title": "★ The MacBook Neo",
+      "title_zh": "MacBook Neo 深度评测：600 美元 A18 Pro 笔记本",
+      "link": "https://daringfireball.net/2026/03/the_macbook_neo",
+      "pub_date": "2026-03-10T22:48:40.000Z",
+      "summary": "苹果推出售价 600 美元的 MacBook Neo，直接采用 iPhone 16 Pro 的 A18 Pro 芯片。作者实测一周后发现，8GB 内存和 A18 Pro 的组合在日常生产力场景下表现流畅，未出现明显卡顿。屏幕亮度 500 尼特，扬声器音质出色，电池续航持久。为控制成本，Neo 采用机械触控板而非 Force Touch，缺少环境光传感器导致自动亮度调节不准确，第二个 USB-C 端口仅支持 USB 2.0 速度，摄像头无硬件指示灯。整机重量 2.7 磅，与 M5 MacBook Air 相同。作者认为 Neo 是 iPad 的理想替代品，对不使用 Apple Pencil 的用户而言，运行完整 macOS 的 Neo 比 iPad + Magic Keyboard 组合更实用且便宜。",
+      "source_name": "daringfireball.net",
+      "score": 22,
+      "depth": 7,
+      "novelty": 7,
+      "breadth": 8,
+      "category": "engineering",
+      "keywords": [
+        "MacBook Neo",
+        "A18 Pro",
+        "Apple Silicon",
+        "review"
+      ],
+      "rank": 2
+    },
+    {
       "title": "LLMs are bad at vibing specifications",
       "title_zh": "LLM 无法胜任形式化规范编写",
       "link": "https://buttondown.com/hillelwayne/archive/llms-are-bad-at-vibing-specifications/",
@@ -43,7 +63,7 @@
         "formal methods",
         "specifications"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Writing an LLM from scratch, part 32e -- Interventions: the learning rate",
@@ -63,7 +83,7 @@
         "warmup",
         "AdamW"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Pluralistic: Ad-tech is fascist tech (10 Mar 2026)",
@@ -83,7 +103,7 @@
         "privacy",
         "ICE"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "AI should help us produce better code",
@@ -103,7 +123,7 @@
         "refactoring",
         "compound-engineering"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "I'm Not Lying, I'm Hallucinating",
@@ -123,7 +143,7 @@
         "Karpathy",
         "vibe coding"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Simplifying expressions in SymPy",
@@ -142,7 +162,7 @@
         "Python",
         "simplification"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "HN Skins 0.4.0 - Black Bar Updates",
@@ -162,7 +182,7 @@
         "Hacker News",
         "themes"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "A snappy answer when asked about dressing casually at IBM",
@@ -181,7 +201,7 @@
         "culture",
         "history"
       ],
-      "rank": 9
+      "rank": 10
     }
   ]
 }
