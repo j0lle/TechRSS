@@ -1,6 +1,795 @@
 {
-  "updatedAt": "2026-03-10T13:58:43.191Z",
+  "updatedAt": "2026-03-10T14:53:40.665Z",
   "items": [
+    {
+      "id": 47286657,
+      "by": "janandonly",
+      "title": "The Gervais Principle, or the Office According to \"The Office\"",
+      "url": "https://www.ribbonfarm.com/2009/10/07/the-gervais-principle-or-the-office-according-to-the-office/",
+      "score": 150,
+      "detailUpdatedAt": 1773152035,
+      "createdAt": 1773139863,
+      "aiSummaryUpdatedAt": 1773153430,
+      "aisummary": {
+        "chinese_title": "加维斯原则：以 The Office 解构职场三类人及争议",
+        "emoji": "😒",
+        "sarcastic_question": "难道升职就是会说话的病态人格的专利吗？"
+      },
+      "classifications": {
+        "topics": [
+          12,
+          10
+        ],
+        "facets": [
+          9
+        ],
+        "tags": [
+          "Gervais Principle",
+          "The Office",
+          "ribbonfarm"
+        ]
+      },
+      "classificationsUpdatedAt": 1773144095,
+      "aiSummary": {
+        "chinese_title": "加维斯原则：以 The Office 解构职场三类人及争议",
+        "emoji": "😒",
+        "sarcastic_question": "难道升职就是会说话的病态人格的专利吗？"
+      },
+      "detail": {
+        "id": 47286657,
+        "by": "janandonly",
+        "title": "The Gervais Principle, or the Office According to \"The Office\"",
+        "url": "https://www.ribbonfarm.com/2009/10/07/the-gervais-principle-or-the-office-according-to-the-office/",
+        "score": 150,
+        "detailUpdatedAt": 1773152035,
+        "createdAt": 1773139863,
+        "aiSummaryUpdatedAt": 1773153430,
+        "aisummary": {
+          "chinese_title": "加维斯原则：以 The Office 解构职场三类人及争议",
+          "discussion_overview": [
+            {
+              "category": "模型有用且具启发性",
+              "summary": "不少评论者认为将职场行为抽象为 Loser、Clueless、Sociopath 三类，配合 Gametalk/Power talk 的语言分析，能有效解释组织内的信息流与奖励分配。评论里举出具体例子：KPIs 常被用于推责而非识别真正贡献者，满足指标不等于创造实际价值；因此掌握信息与话语比机械达标更能保身或升迁。有人表示读后能更清晰地认识自己在组织中的位置，并把这套模型当作个人职业策略和自省的工具；也有人表示愿意把论文买成书或听有声书以深入理解。整体看法是该模型在解读权力话语与灰色激励机制上具有实用价值。",
+              "supportid": [
+                "47322225",
+                "47321899",
+                "47321642",
+                "47321952"
+              ]
+            },
+            {
+              "category": "过度简化与现实不符的批评",
+              "summary": "许多评论反对把复杂的人性和组织动态强行套入三格模型，认为现实职场中个体特质是混合的，同一人可能既有同情心又会功利操作。有人指出晋升并非总由“病态自利者”主导，组织高层也会出现真诚或同理心较强的领导，行业、公司规模和文化差异会打散所谓的阶层密度分离。另一类批评针对论文内对特定角色的极端标签化，称需要更多经验证据而非戏剧化断言。总体态度是怀疑模型的普适性，主张更细腻的描述语言。",
+              "supportid": [
+                "47323319",
+                "47322057",
+                "47322348"
+              ]
+            },
+            {
+              "category": "用剧中人物映射职场角色时的细节争议",
+              "summary": "评论对把《The Office》人物一一对应到三类角色展开细致争论，认为剧中人物往往更复杂且情节导向会影响观众判断。具体争点包括：主角更像是被提升到不适合职位的中层（Clueless）而非纯粹的Sociopath；高层在剧中很少露面，升迁常由简历与面试表现驱动而非现场识别真绩效；还有人以Gareth、Neil、David Wallace等角色为例讨论勤奋、表演与权力掩饰之间的差异。结论是把电视剧人物作为理论示例有启发，但不能把戏剧简化等同于现实因果。",
+              "supportid": [
+                "47323025",
+                "47323584",
+                "47322348",
+                "47322654"
+              ]
+            },
+            {
+              "category": "交易分析框架与话语类型（Gametalk/Power talk）的讨论",
+              "summary": "多位评论把该分析放在 Transactional Analysis（TA，Eric Berne 提出的心理学/人际互动框架）之下，关注作者如何用 Gametalk、Power talk、Straighttalk 来解释职场语言与信号传递。评论具体指出：Gametalk 是一种仪式化、安抚性的社交话语，容易向更具工具性的管理者发出可利用的信号；Power talk/straighttalk 则是直接索取信息或重分注意力的手段；同时有评论援引书评与入门书目来检验这些理论的实证基础。还有人讨论 KPIs 被当作推责工具的现象，并建议回到 TA 原著或现代综述去寻找更可靠的理论支撑。",
+              "supportid": [
+                "47322091",
+                "47321617",
+                "47322164",
+                "47321899"
+              ]
+            },
+            {
+              "category": "沉默员工与发声、留痕的实用建议",
+              "summary": "一部分讨论从实务角度聚焦‘会不会沉默的能人被埋没’的问题，既有对安静但有能力员工被忽视的抱怨，也有具体应对策略。评论里给出的实务建议包括：在关键时刻必须发声、及时把重要异议以书面形式保存以备追责时使用；并举出真实案例说明保存邮件如何在指责会议上自保。但同时也有人指出“何时发声”往往难以把握，组织很少提供低层表达异议的窗口，因此现实中自保仍有操作难度。",
+              "supportid": [
+                "47322743",
+                "47322783",
+                "47323591",
+                "47322933"
+              ]
+            }
+          ],
+          "terminologies": [
+            {
+              "term": "Gervais Principle（加维斯原则）",
+              "explanation": "一篇将电视剧 The Office 用作案例的长文/书籍命题，提出用 Loser、Clueless、Sociopath 三类来分析职场权力、语言和升迁机制，并讨论 Gametalk、Power talk 等语用策略与 KPI 在组织中的作用。"
+            },
+            {
+              "term": "Loser / Clueless / Sociopath（三类）",
+              "explanation": "该框架里的三类标签：Loser 指投入较多但回报少、以仪式化社交为主的基层；Clueless 指通过遵守规则或表演获得晋升但并不擅长管理的中层；Sociopath 指以目标为导向、运用权力话语操控资源与信息的高层或投机者。"
+            },
+            {
+              "term": "Gametalk / Power talk / Straighttalk",
+              "explanation": "用于描述职场语域的术语：Gametalk 是安抚性、例行的社交话语（常为 Loser 所用）；Power talk/ Straighttalk 是直接、目的性强的表达，用于分配注意力、索取信息或施加影响，常被视为晋升或控制的工具。"
+            },
+            {
+              "term": "Transactional Analysis (TA)",
+              "explanation": "由 Eric Berne 提出的心理治疗与人际交往理论，强调人际“游戏”(games)与剧本，被用于为职场话语和信号互动提供理论基础。"
+            }
+          ],
+          "context": "这次讨论围绕一篇用电视剧 The Office（The Office，英美两版的办公室情景喜剧）为例来解读职场权力与语言的论文/书籍展开。作者把职场行为分为 Loser、Clueless、Sociopath 三类，并借用 Gametalk、Power talk 等术语来说明信息流与升迁动力。评论既有认同者指出该模型在解释 KPI 被用作推责、以及用来做职业自省时的实用性，也有批评者认为模型过度简化、剧集人物更复杂且行业差异大。讨论还牵扯到 Transactional Analysis（TA，Eric Berne 的框架）、对相关书评与博客的引用（如 Astral Codex Ten、Melting Asphalt），以及关于沉默员工如何发声与留存证据的具体经验。",
+          "emoji": "😒",
+          "sarcastic_question": "难道升职就是会说话的病态人格的专利吗？"
+        },
+        "classifications": {
+          "topics": [
+            12,
+            10
+          ],
+          "facets": [
+            9
+          ],
+          "tags": [
+            "Gervais Principle",
+            "The Office",
+            "ribbonfarm"
+          ]
+        },
+        "classificationsUpdatedAt": 1773144095,
+        "aiSummary": {
+          "chinese_title": "加维斯原则：以 The Office 解构职场三类人及争议",
+          "discussion_overview": [
+            {
+              "category": "模型有用且具启发性",
+              "summary": "不少评论者认为将职场行为抽象为 Loser、Clueless、Sociopath 三类，配合 Gametalk/Power talk 的语言分析，能有效解释组织内的信息流与奖励分配。评论里举出具体例子：KPIs 常被用于推责而非识别真正贡献者，满足指标不等于创造实际价值；因此掌握信息与话语比机械达标更能保身或升迁。有人表示读后能更清晰地认识自己在组织中的位置，并把这套模型当作个人职业策略和自省的工具；也有人表示愿意把论文买成书或听有声书以深入理解。整体看法是该模型在解读权力话语与灰色激励机制上具有实用价值。",
+              "supportid": [
+                "47322225",
+                "47321899",
+                "47321642",
+                "47321952"
+              ]
+            },
+            {
+              "category": "过度简化与现实不符的批评",
+              "summary": "许多评论反对把复杂的人性和组织动态强行套入三格模型，认为现实职场中个体特质是混合的，同一人可能既有同情心又会功利操作。有人指出晋升并非总由“病态自利者”主导，组织高层也会出现真诚或同理心较强的领导，行业、公司规模和文化差异会打散所谓的阶层密度分离。另一类批评针对论文内对特定角色的极端标签化，称需要更多经验证据而非戏剧化断言。总体态度是怀疑模型的普适性，主张更细腻的描述语言。",
+              "supportid": [
+                "47323319",
+                "47322057",
+                "47322348"
+              ]
+            },
+            {
+              "category": "用剧中人物映射职场角色时的细节争议",
+              "summary": "评论对把《The Office》人物一一对应到三类角色展开细致争论，认为剧中人物往往更复杂且情节导向会影响观众判断。具体争点包括：主角更像是被提升到不适合职位的中层（Clueless）而非纯粹的Sociopath；高层在剧中很少露面，升迁常由简历与面试表现驱动而非现场识别真绩效；还有人以Gareth、Neil、David Wallace等角色为例讨论勤奋、表演与权力掩饰之间的差异。结论是把电视剧人物作为理论示例有启发，但不能把戏剧简化等同于现实因果。",
+              "supportid": [
+                "47323025",
+                "47323584",
+                "47322348",
+                "47322654"
+              ]
+            },
+            {
+              "category": "交易分析框架与话语类型（Gametalk/Power talk）的讨论",
+              "summary": "多位评论把该分析放在 Transactional Analysis（TA，Eric Berne 提出的心理学/人际互动框架）之下，关注作者如何用 Gametalk、Power talk、Straighttalk 来解释职场语言与信号传递。评论具体指出：Gametalk 是一种仪式化、安抚性的社交话语，容易向更具工具性的管理者发出可利用的信号；Power talk/straighttalk 则是直接索取信息或重分注意力的手段；同时有评论援引书评与入门书目来检验这些理论的实证基础。还有人讨论 KPIs 被当作推责工具的现象，并建议回到 TA 原著或现代综述去寻找更可靠的理论支撑。",
+              "supportid": [
+                "47322091",
+                "47321617",
+                "47322164",
+                "47321899"
+              ]
+            },
+            {
+              "category": "沉默员工与发声、留痕的实用建议",
+              "summary": "一部分讨论从实务角度聚焦‘会不会沉默的能人被埋没’的问题，既有对安静但有能力员工被忽视的抱怨，也有具体应对策略。评论里给出的实务建议包括：在关键时刻必须发声、及时把重要异议以书面形式保存以备追责时使用；并举出真实案例说明保存邮件如何在指责会议上自保。但同时也有人指出“何时发声”往往难以把握，组织很少提供低层表达异议的窗口，因此现实中自保仍有操作难度。",
+              "supportid": [
+                "47322743",
+                "47322783",
+                "47323591",
+                "47322933"
+              ]
+            }
+          ],
+          "terminologies": [
+            {
+              "term": "Gervais Principle（加维斯原则）",
+              "explanation": "一篇将电视剧 The Office 用作案例的长文/书籍命题，提出用 Loser、Clueless、Sociopath 三类来分析职场权力、语言和升迁机制，并讨论 Gametalk、Power talk 等语用策略与 KPI 在组织中的作用。"
+            },
+            {
+              "term": "Loser / Clueless / Sociopath（三类）",
+              "explanation": "该框架里的三类标签：Loser 指投入较多但回报少、以仪式化社交为主的基层；Clueless 指通过遵守规则或表演获得晋升但并不擅长管理的中层；Sociopath 指以目标为导向、运用权力话语操控资源与信息的高层或投机者。"
+            },
+            {
+              "term": "Gametalk / Power talk / Straighttalk",
+              "explanation": "用于描述职场语域的术语：Gametalk 是安抚性、例行的社交话语（常为 Loser 所用）；Power talk/ Straighttalk 是直接、目的性强的表达，用于分配注意力、索取信息或施加影响，常被视为晋升或控制的工具。"
+            },
+            {
+              "term": "Transactional Analysis (TA)",
+              "explanation": "由 Eric Berne 提出的心理治疗与人际交往理论，强调人际“游戏”(games)与剧本，被用于为职场话语和信号互动提供理论基础。"
+            }
+          ],
+          "context": "这次讨论围绕一篇用电视剧 The Office（The Office，英美两版的办公室情景喜剧）为例来解读职场权力与语言的论文/书籍展开。作者把职场行为分为 Loser、Clueless、Sociopath 三类，并借用 Gametalk、Power talk 等术语来说明信息流与升迁动力。评论既有认同者指出该模型在解释 KPI 被用作推责、以及用来做职业自省时的实用性，也有批评者认为模型过度简化、剧集人物更复杂且行业差异大。讨论还牵扯到 Transactional Analysis（TA，Eric Berne 的框架）、对相关书评与博客的引用（如 Astral Codex Ten、Melting Asphalt），以及关于沉默员工如何发声与留存证据的具体经验。",
+          "emoji": "😒",
+          "sarcastic_question": "难道升职就是会说话的病态人格的专利吗？"
+        }
+      },
+      "articleSummary": "抱歉，我无法直接分析这篇文章。\n\n你提供的文本内容主要是网页的 CSS 样式代码（如 `img:is`, `wp-block-synced-color` 等）以及一些导航栏的 HTML 片段，**并没有包含文章\"The Gervais Principle\"的实际正文内容**。\n\n为了能帮你把这篇关于办公室政治的经典文章用讲故事的方式讲清楚，我需要文章的正文文本。你可以：\n\n1.  **复制粘贴文章的正文内容**（跳过开头和结尾的网页代码）。\n2.  或者提供文章的**原文链接**。\n\n一旦拿到内容，我马上为你生成符合技术博主风格的深度解读。"
+    },
+    {
+      "id": 47321233,
+      "by": "lukakopajtic",
+      "title": "I put my whole life into a single database",
+      "url": "https://howisfelix.today/",
+      "score": 218,
+      "detailUpdatedAt": 1773152034,
+      "createdAt": 1773141064,
+      "aiSummaryUpdatedAt": 1773153165,
+      "aisummary": {
+        "chinese_title": "把一生装进单一数据库：自建量化的得与失",
+        "emoji": "🤔",
+        "sarcastic_question": "把一生都装进一个数据库，究竟值不值得？"
+      },
+      "classifications": {
+        "topics": [
+          6,
+          4,
+          11
+        ],
+        "facets": [
+          9
+        ],
+        "tags": [
+          "personal database",
+          "howisfelix.today",
+          "quantified self",
+          "life-logging"
+        ]
+      },
+      "classificationsUpdatedAt": 1773143801,
+      "aiSummary": {
+        "chinese_title": "把一生装进单一数据库：自建量化的得与失",
+        "emoji": "🤔",
+        "sarcastic_question": "把一生都装进一个数据库，究竟值不值得？"
+      },
+      "detail": {
+        "id": 47321233,
+        "by": "lukakopajtic",
+        "title": "I put my whole life into a single database",
+        "url": "https://howisfelix.today/",
+        "score": 218,
+        "detailUpdatedAt": 1773152034,
+        "createdAt": 1773141064,
+        "aiSummaryUpdatedAt": 1773153165,
+        "aisummary": {
+          "chinese_title": "把一生装进单一数据库：自建量化的得与失",
+          "discussion_overview": [
+            {
+              "category": "自建量化库的高成本低回报",
+              "summary": "作者花了数百小时、三年时间把每天超过100种数据类型汇入单一数据库，最终结论是“自建解决方案不值得”。评论里很多人认同投入时间与产出不成比例：若没有明确目标或低摩擦的数据源，边际回报在数周或数月内迅速递减，长期持续也常成为强迫性行为或记账负担。有人指出项目很容易被放置（例：库最新数据距今四年），因此更推荐时间盒化实验或采用更简单、低维护的方案。",
+              "supportid": [
+                "47321748",
+                "47323164",
+                "47322174",
+                "47321672",
+                "47322464",
+                "47321992"
+              ]
+            },
+            {
+              "category": "在医疗和关键时刻长期数据可救命或改变诊断",
+              "summary": "若目的明确，长期客观数据有时能显著改变医疗判断：一位长期佩戴 Apple Watch 的人说十年心率/节律记录帮助医生识别这是长期稳定的“弱节律”而非进行性心衰，从而避免误诊。另有留言者通过长期就诊记录和皮肤照片推动医生做基因与免疫检测，直接影响了诊断与治疗路径。评论同时也提供反例与谨慎意见——在急性怀疑时短期监测（Holter 等）可能足够，但长期记录在个别案例价值非常高。",
+              "supportid": [
+                "47321984",
+                "47322829",
+                "47322810"
+              ]
+            },
+            {
+              "category": "有明确目标时（如健美/训练）详尽追踪回报明显",
+              "summary": "在有具体目标的场景，精细追踪能带来可量化的改进：多位评论者描述在增肌期用 7 点皮褶卡尺、腰围、每周进度照、定期 DEXA 扫描和称重食物来控制 200–300 卡路里的微小盈余，进而优化体脂与肌肉增长。力量训练方面，记录每次动作的负重、组数和次数对于长期“progressive overload”非常重要，尤其在超出新手阶段后细微进步需要可追溯的数据来判断。评论也提醒这类细致追踪对大多数人过度，但对有目标的爱好者或受教练指导的人非常有用。",
+              "supportid": [
+                "47322674",
+                "47323425",
+                "47323334",
+                "47323107"
+              ]
+            },
+            {
+              "category": "把追踪当成工程/爱好可收获技能与故事性",
+              "summary": "对工程师和数据爱好者来说，构建并解析海量个人数据是个有趣的工程练习：有人详述解析 Garmin 的 FIT files、设计可查询 schema、做可视化和模式匹配的过程，尽管最终自动化收益有限但学到的技能可复用。另一些人强调把日记、照片、地理数据组合在一起的价值——不仅是数字洞察，还是重构生活记忆和情感轨迹的“人生收据”。总体看来，项目能提供学习、探索与叙事价值，即便实际健康收益有限。",
+              "supportid": [
+                "47322174",
+                "47322504",
+                "47323037",
+                "47323005"
+              ]
+            },
+            {
+              "category": "自动化与低摩擦采集决定能否长期维持",
+              "summary": "多条评论指出，长期追踪的关键在于把数据采集的摩擦降到最低：一些人用 Claude（语言模型/代理）生成并调整计划，用脚本或集成把 Fitbit/RescueTime/Owntracks 等数据自动拉入。实践中常见组合包括 Obsidian + QuickAdd + Dataview + Chart.js 做轻量可视化，或用 ActivityWatch、Owntracks、Home Assistant 做本地化数据采集。结论是：当采集与审阅能被自动化为“少量审批”时项目更可能持续，否则很快被搁置。",
+              "supportid": [
+                "47322304",
+                "47321841",
+                "47322369",
+                "47322621",
+                "47322003"
+              ]
+            },
+            {
+              "category": "隐私、数据共享与货币化的担忧与想法",
+              "summary": "有人对将一生数据公开或交由第三方持有表示强烈顾虑，担心滥用和不可逆的泄露风险；也有人提出可以把个人数据作为有偿、受控的资源提供给企业，从而实现伦理化的交换。Palantir 的玩笑反映出对集中化商业公司“整个人生数据”的讽刺，而另一些评论则指出作者既然公开发布就难以完全担心被窥探。讨论因此集中在本地存储、访问控制与是否将数据货币化三个维度上。",
+              "supportid": [
+                "47322003",
+                "47322497",
+                "47322940",
+                "47322875"
+              ]
+            },
+            {
+              "category": "旅行碳排与频繁飞行的道德争议",
+              "summary": "作者的飞行记录被拿来计算碳排（有人估算其飞行年排放约 70–110 吨 CO2），引发是否应谴责“频繁飞行者”的讨论。支持批评者用巴黎协定 1.5 吨/年的人均目标作对比，认为作者飞行排放远超常人；反对者认为羞辱个人效果有限，改变行为应通过提高飞行成本（征税等制度手段）而非道德指责。讨论同时出现“个体行为是滴水”的反驳与“高频飞行确实是制度与职业角色叠加的产物”的权衡。",
+              "supportid": [
+                "47322615",
+                "47323476",
+                "47323463",
+                "47322792",
+                "47322928",
+                "47323273"
+              ]
+            },
+            {
+              "category": "心理健康、强迫性记录与量化副作用",
+              "summary": "多条评论把持续、过度的自我量化与强迫/完美主义联系起来，甚至直言“Quantified Self 运动更像是 OCD”。这些评论指出继续每天记录已无新洞察时往往成为强迫性行为，建议把试验时间盒化并把追踪当作工具而非目的。另一方面也有声音强调追踪能帮助自我管理（例如 ADHD 样的注意力问题或情绪波动识别），所以关键在于动机、期限和可用性，而非单纯否定量化本身。",
+              "supportid": [
+                "47321748",
+                "47321879",
+                "47323210",
+                "47323164"
+              ]
+            }
+          ],
+          "terminologies": [
+            {
+              "term": "Quantified Self",
+              "explanation": "Quantified Self（自我量化运动）：以可测量数据记录个人生理、行为与日常活动，旨在发现模式或优化生活，但评论中讨论其边际效益与心理副作用。"
+            },
+            {
+              "term": "FIT files",
+              "explanation": "FIT files：Garmin 等健身设备使用的二进制运动数据文件格式，需专门解析才能提取心率、步数、轨迹等原始记录。"
+            },
+            {
+              "term": "DEXA (Dexa scan)",
+              "explanation": "DEXA（双能 X 光吸收法，Dexa scan）：医学级别的体成分和骨密度扫描，健美/减脂人群用于精准测量体脂变化。"
+            },
+            {
+              "term": "ActivityWatch",
+              "explanation": "ActivityWatch：一个开源的、本地运行的电脑使用追踪器，用于记录应用/网站使用时间并可导出做个人分析。"
+            },
+            {
+              "term": "Obsidian + Dataview + Chart.js",
+              "explanation": "Obsidian（笔记应用）配合 Dataview 插件和 Chart.js 可以把笔记或表格数据转为可视化图表，实现轻量本地化的数据记录与展示。"
+            },
+            {
+              "term": "Claude",
+              "explanation": "Claude：Anthropic 的语言模型/代理，被评论者用来自动生成计划、整合数据源与减少人工维护的工作量。"
+            }
+          ],
+          "context": "原帖记录者在约三年内每天追踪超过100种个人数据并把这些数据归入单一数据库、做出可视化（文章提到约几十万条数据点），最终认为耗费数百小时自建系统不值得。评论围绕成本/收益、医疗与训练中长期数据的价值、爱好者作为工程练习的收获、隐私与数据共享、以及作者频繁飞行带来的碳排争议展开。讨论里提到的技术与工具包括 Apple Watch（智能手表）、Garmin/FIT files（运动文件格式）、ActivityWatch（开源本地使用追踪器）、Obsidian（笔记工具）以及用 Claude（语言模型代理）做自动化，评论普遍强调“低摩擦采集+明确目标”是是否值得的关键。",
+          "emoji": "🤔",
+          "sarcastic_question": "把一生都装进一个数据库，究竟值不值得？"
+        },
+        "classifications": {
+          "topics": [
+            6,
+            4,
+            11
+          ],
+          "facets": [
+            9
+          ],
+          "tags": [
+            "personal database",
+            "howisfelix.today",
+            "quantified self",
+            "life-logging"
+          ]
+        },
+        "classificationsUpdatedAt": 1773143801,
+        "aiSummary": {
+          "chinese_title": "把一生装进单一数据库：自建量化的得与失",
+          "discussion_overview": [
+            {
+              "category": "自建量化库的高成本低回报",
+              "summary": "作者花了数百小时、三年时间把每天超过100种数据类型汇入单一数据库，最终结论是“自建解决方案不值得”。评论里很多人认同投入时间与产出不成比例：若没有明确目标或低摩擦的数据源，边际回报在数周或数月内迅速递减，长期持续也常成为强迫性行为或记账负担。有人指出项目很容易被放置（例：库最新数据距今四年），因此更推荐时间盒化实验或采用更简单、低维护的方案。",
+              "supportid": [
+                "47321748",
+                "47323164",
+                "47322174",
+                "47321672",
+                "47322464",
+                "47321992"
+              ]
+            },
+            {
+              "category": "在医疗和关键时刻长期数据可救命或改变诊断",
+              "summary": "若目的明确，长期客观数据有时能显著改变医疗判断：一位长期佩戴 Apple Watch 的人说十年心率/节律记录帮助医生识别这是长期稳定的“弱节律”而非进行性心衰，从而避免误诊。另有留言者通过长期就诊记录和皮肤照片推动医生做基因与免疫检测，直接影响了诊断与治疗路径。评论同时也提供反例与谨慎意见——在急性怀疑时短期监测（Holter 等）可能足够，但长期记录在个别案例价值非常高。",
+              "supportid": [
+                "47321984",
+                "47322829",
+                "47322810"
+              ]
+            },
+            {
+              "category": "有明确目标时（如健美/训练）详尽追踪回报明显",
+              "summary": "在有具体目标的场景，精细追踪能带来可量化的改进：多位评论者描述在增肌期用 7 点皮褶卡尺、腰围、每周进度照、定期 DEXA 扫描和称重食物来控制 200–300 卡路里的微小盈余，进而优化体脂与肌肉增长。力量训练方面，记录每次动作的负重、组数和次数对于长期“progressive overload”非常重要，尤其在超出新手阶段后细微进步需要可追溯的数据来判断。评论也提醒这类细致追踪对大多数人过度，但对有目标的爱好者或受教练指导的人非常有用。",
+              "supportid": [
+                "47322674",
+                "47323425",
+                "47323334",
+                "47323107"
+              ]
+            },
+            {
+              "category": "把追踪当成工程/爱好可收获技能与故事性",
+              "summary": "对工程师和数据爱好者来说，构建并解析海量个人数据是个有趣的工程练习：有人详述解析 Garmin 的 FIT files、设计可查询 schema、做可视化和模式匹配的过程，尽管最终自动化收益有限但学到的技能可复用。另一些人强调把日记、照片、地理数据组合在一起的价值——不仅是数字洞察，还是重构生活记忆和情感轨迹的“人生收据”。总体看来，项目能提供学习、探索与叙事价值，即便实际健康收益有限。",
+              "supportid": [
+                "47322174",
+                "47322504",
+                "47323037",
+                "47323005"
+              ]
+            },
+            {
+              "category": "自动化与低摩擦采集决定能否长期维持",
+              "summary": "多条评论指出，长期追踪的关键在于把数据采集的摩擦降到最低：一些人用 Claude（语言模型/代理）生成并调整计划，用脚本或集成把 Fitbit/RescueTime/Owntracks 等数据自动拉入。实践中常见组合包括 Obsidian + QuickAdd + Dataview + Chart.js 做轻量可视化，或用 ActivityWatch、Owntracks、Home Assistant 做本地化数据采集。结论是：当采集与审阅能被自动化为“少量审批”时项目更可能持续，否则很快被搁置。",
+              "supportid": [
+                "47322304",
+                "47321841",
+                "47322369",
+                "47322621",
+                "47322003"
+              ]
+            },
+            {
+              "category": "隐私、数据共享与货币化的担忧与想法",
+              "summary": "有人对将一生数据公开或交由第三方持有表示强烈顾虑，担心滥用和不可逆的泄露风险；也有人提出可以把个人数据作为有偿、受控的资源提供给企业，从而实现伦理化的交换。Palantir 的玩笑反映出对集中化商业公司“整个人生数据”的讽刺，而另一些评论则指出作者既然公开发布就难以完全担心被窥探。讨论因此集中在本地存储、访问控制与是否将数据货币化三个维度上。",
+              "supportid": [
+                "47322003",
+                "47322497",
+                "47322940",
+                "47322875"
+              ]
+            },
+            {
+              "category": "旅行碳排与频繁飞行的道德争议",
+              "summary": "作者的飞行记录被拿来计算碳排（有人估算其飞行年排放约 70–110 吨 CO2），引发是否应谴责“频繁飞行者”的讨论。支持批评者用巴黎协定 1.5 吨/年的人均目标作对比，认为作者飞行排放远超常人；反对者认为羞辱个人效果有限，改变行为应通过提高飞行成本（征税等制度手段）而非道德指责。讨论同时出现“个体行为是滴水”的反驳与“高频飞行确实是制度与职业角色叠加的产物”的权衡。",
+              "supportid": [
+                "47322615",
+                "47323476",
+                "47323463",
+                "47322792",
+                "47322928",
+                "47323273"
+              ]
+            },
+            {
+              "category": "心理健康、强迫性记录与量化副作用",
+              "summary": "多条评论把持续、过度的自我量化与强迫/完美主义联系起来，甚至直言“Quantified Self 运动更像是 OCD”。这些评论指出继续每天记录已无新洞察时往往成为强迫性行为，建议把试验时间盒化并把追踪当作工具而非目的。另一方面也有声音强调追踪能帮助自我管理（例如 ADHD 样的注意力问题或情绪波动识别），所以关键在于动机、期限和可用性，而非单纯否定量化本身。",
+              "supportid": [
+                "47321748",
+                "47321879",
+                "47323210",
+                "47323164"
+              ]
+            }
+          ],
+          "terminologies": [
+            {
+              "term": "Quantified Self",
+              "explanation": "Quantified Self（自我量化运动）：以可测量数据记录个人生理、行为与日常活动，旨在发现模式或优化生活，但评论中讨论其边际效益与心理副作用。"
+            },
+            {
+              "term": "FIT files",
+              "explanation": "FIT files：Garmin 等健身设备使用的二进制运动数据文件格式，需专门解析才能提取心率、步数、轨迹等原始记录。"
+            },
+            {
+              "term": "DEXA (Dexa scan)",
+              "explanation": "DEXA（双能 X 光吸收法，Dexa scan）：医学级别的体成分和骨密度扫描，健美/减脂人群用于精准测量体脂变化。"
+            },
+            {
+              "term": "ActivityWatch",
+              "explanation": "ActivityWatch：一个开源的、本地运行的电脑使用追踪器，用于记录应用/网站使用时间并可导出做个人分析。"
+            },
+            {
+              "term": "Obsidian + Dataview + Chart.js",
+              "explanation": "Obsidian（笔记应用）配合 Dataview 插件和 Chart.js 可以把笔记或表格数据转为可视化图表，实现轻量本地化的数据记录与展示。"
+            },
+            {
+              "term": "Claude",
+              "explanation": "Claude：Anthropic 的语言模型/代理，被评论者用来自动生成计划、整合数据源与减少人工维护的工作量。"
+            }
+          ],
+          "context": "原帖记录者在约三年内每天追踪超过100种个人数据并把这些数据归入单一数据库、做出可视化（文章提到约几十万条数据点），最终认为耗费数百小时自建系统不值得。评论围绕成本/收益、医疗与训练中长期数据的价值、爱好者作为工程练习的收获、隐私与数据共享、以及作者频繁飞行带来的碳排争议展开。讨论里提到的技术与工具包括 Apple Watch（智能手表）、Garmin/FIT files（运动文件格式）、ActivityWatch（开源本地使用追踪器）、Obsidian（笔记工具）以及用 Claude（语言模型代理）做自动化，评论普遍强调“低摩擦采集+明确目标”是是否值得的关键。",
+          "emoji": "🤔",
+          "sarcastic_question": "把一生都装进一个数据库，究竟值不值得？"
+        }
+      },
+      "articleSummary": "## 一句话总结\n作者 Felix Krause 没有使用复杂的微服务或云原生架构，而是通过一个精心设计的 JSON API，将体重、睡眠、代码提交记录甚至 Instagram Stories 等异构数据全部聚合，构建了一个极简但功能强大的\"个人生活仪表盘\"。\n\n### 前端逻辑全靠原生 JS，没有框架负担\n有意思的地方在于，整个页面的交互逻辑完全是用原生 JavaScript 写的。代码里没有 React 或 Vue，直接操作 DOM。比如处理 Stories（快拍）播放时，作者通过 `XMLHttpRequest` 拉取 `stories.json`，然后手动创建 `div` 元素来渲染进度条。这种做法虽然看起来\"老派\"，但对于这种单页面的个人项目来说，零依赖意味着极致的加载速度和极低的维护成本。核心思路其实很简单：数据来了就解析，解析完就往页面上塞，不需要 Virtual Diff 那套复杂的流程。\n\n### 数据聚合的核心：一个统一的 JSON 接口\n为了把散落在各个服务的数据（如 Withings 的健康数据、RescueTime 的生产力数据、Git 提交记录）统一起来，作者设计了一个名为 `api.json` 的聚合接口。前端只需要发起一次 HTTP 请求，就能拿到所有需要渲染的数据。这个 JSON 结构非常清晰，包含了 `currentCityText`（当前城市）、`otherFxLifeData`（健康与睡眠数据）以及 `nextStays`（未来的行程安排）。这种设计避免了前端在页面加载时发起数十个并行请求，大大简化了异步处理的逻辑。\n\n### 时间处理与状态管理的细节\n在处理时间相关的逻辑时，作者写了一套专门的工具函数，比如 `daysAgo` 和 `daysOrHoursAgo`。这些函数负责计算时间差，并返回人类可读的格式（如 \"today\" 或 \"5 hours ago\"）。这不仅仅是格式化，更是为了解决数据源时间戳不一致的问题。比如体重数据可能是一天前的，而邮件数据是实时的，通过统一的时间处理函数，前端可以无差别地渲染这些元数据，而不需要后端去做额外的格式化处理。\n\n### Instagram Stories 的本地化实现\n文章中贴出的代码很大一部分是关于 Instagram Stories 的播放器。作者没有直接嵌入 Instagram 的官方 SDK，而是自己写了一个播放器。通过 `signed_url` 获取图片或视频资源，利用 CSS Animation (`storyViewProgress`) 来控制进度条。这里有个巧妙的设计：对于视频，监听 `onended` 事件自动跳转；对于图片，则使用 `setTimeout` 固定展示 4 秒。这种\" Poor person's pre-loading\"（穷人的预加载）策略，通过在展示当前 Story 时提前加载下一张图片，保证了切换时的流畅度。\n\n### 极简架构带来的可维护性\n说白了就是：能用数据库解决的，就不写业务逻辑；能用原生 JS 实现的，就不引入框架。所有的状态（如 `currentIndex`、`storiesToShow`）都保存在全局变量里，虽然不符合现代工程化的最佳实践，但对于一个由一个人维护、展示个人数据的网站来说，这是最直观的方案。当需要添加新的数据源（比如 Trello 任务数）时，只需要在 `api.json` 里加一个字段，然后在 HTML 里找个地方 `innerHTML` 插进去即可。这种架构让 Felix 可以轻松地把\"整个生活\"塞进一个数据库里，并通过一个页面展示出来。"
+    },
+    {
+      "id": 47279761,
+      "by": "robenkleene",
+      "title": "macOS Tahoe windows have different corner radiuses",
+      "url": "https://lapcatsoftware.com/articles/2026/3/1.html",
+      "score": 245,
+      "detailUpdatedAt": 1773152041,
+      "createdAt": 1773127849,
+      "aiSummaryUpdatedAt": 1773152896,
+      "aisummary": {
+        "chinese_title": "macOS Tahoe 窗口圆角不一致触发对苹果设计退化的争议",
+        "emoji": "🙄",
+        "sarcastic_question": "苹果是随机化窗口圆角来测试我们的容忍度吗？"
+      },
+      "classifications": {
+        "topics": [
+          11,
+          6
+        ],
+        "facets": [
+          9
+        ],
+        "tags": [
+          "macOS Tahoe",
+          "Apple",
+          "corner radius",
+          "UI",
+          "design system",
+          "SIP"
+        ]
+      },
+      "classificationsUpdatedAt": 1773128787,
+      "aiSummary": {
+        "chinese_title": "macOS Tahoe 窗口圆角不一致触发对苹果设计退化的争议",
+        "emoji": "🙄",
+        "sarcastic_question": "苹果是随机化窗口圆角来测试我们的容忍度吗？"
+      },
+      "detail": {
+        "id": 47279761,
+        "by": "robenkleene",
+        "title": "macOS Tahoe windows have different corner radiuses",
+        "url": "https://lapcatsoftware.com/articles/2026/3/1.html",
+        "score": 141,
+        "detailUpdatedAt": 1773137634,
+        "createdAt": 1773127849,
+        "aiSummaryUpdatedAt": 1773138172,
+        "aisummary": {
+          "chinese_title": "macOS Tahoe 窗口圆角半径不一致引发界面一致性争议",
+          "discussion_overview": [
+            {
+              "category": "外观不一致与细节缺失的批评",
+              "summary": "很多用户觉得 macOS Tahoe 的多层不同圆角在最大化或平铺窗口时形成明显的视觉叠加，显得凌乱且浪费屏幕空间。有人发图指出可见三层不同圆角，评论里有人把这视为苹果对细节关注下降的证据，称这是“丢失的打磨”。这种不一致被一些人当作更大范围 UX 退化的信号，甚至成为推迟升级或考虑换平台的理由。",
+              "supportid": [
+                "47320035",
+                "47282484",
+                "47320377",
+                "47319963",
+                "47320693",
+                "47320572"
+              ]
+            },
+            {
+              "category": "官方设计意图：WWDC 上的解释（有意为之）",
+              "summary": "多位评论指出这并非 Bug，而是 Apple 在 WWDC 上公开的设计系统决定：窗口圆角会根据窗口类型变化，带工具栏的窗口采用更大半径以“同心包裹”玻璃工具栏元素，只有标题栏的窗口则保留较小半径。拥护者引用 WWDC 的原话来表明这是系统层面的规范而非疏忽。反对者则认为这段说明有时像事后解释，实际呈现的曲线与控件对齐仍存在问题。",
+              "supportid": [
+                "47320534",
+                "47319858",
+                "47320295",
+                "47320053"
+              ]
+            },
+            {
+              "category": "支持者：自适应圆角的合理性",
+              "summary": "部分评论者认为按内容和窗口样式调整圆角是合理的自适应设计：当有工具栏时可以使用更大圆角以避免工具栏图标靠近外角，而迷你窗口或弹窗用较小圆角以保留可视空间。支持者把这种差异看作为不同容器提供视觉层次和辨识度的手段，而不是单一统一的设计规范。尽管他们中不少人并不喜欢 Liquid Glass 的美学，但仍认为圆角差异出于功能考量。",
+              "supportid": [
+                "47320187",
+                "47320657",
+                "47320726"
+              ]
+            },
+            {
+              "category": "可读性与“Liquid Glass”引发的无障碍担忧",
+              "summary": "关于 Tahoe 的半透明/玻璃化风格（“Liquid Glass”）有不少可读性投诉：有人举例 iOS 锁屏/通知的透明幕布在对比强烈的背景下导致图标动画混乱或遮挡失败。还有评论指出 Apple 在初期把效果做得过于透明，后来逐步改为更模糊的 frosted（磨砂）以改善可读性，这反映出设计从实验到回退的过程。讨论进一步延伸到 AR/VR 场景，评论者担心透明界面对可见性、输入和隐私带来系统性问题。",
+              "supportid": [
+                "47320477",
+                "47320698",
+                "47321128",
+                "47321256"
+              ]
+            },
+            {
+              "category": "产品决策与流程问题的指责",
+              "summary": "许多评论把这类视觉倒退归因于苹果的优先级与组织决策：大家认为 iPhone/iPad 的成功与统一战略把资源和注意力转向移动与跨设备一致性，桌面体验维护被边缘化。有人用 MacBook Neo、iOS‑化趋向、以及与安全相关的政策（例如 notarization 费用和对 Gatekeeper 的调整）来举例说明公司决策倾向。评论里也有人认为当前流程允许把有争议的实验性想法推到产品中，说明公司无法及时放弃不可行的设计。",
+              "supportid": [
+                "47320377",
+                "47320478",
+                "47320745",
+                "47319912",
+                "47321128"
+              ]
+            },
+            {
+              "category": "实际影响：用户延迟升级或转向其他系统",
+              "summary": "若干用户表示因此会推迟从 Sequoia 升级到 Tahoe、延迟购买新机或直接考虑换回 Linux。有人亲自试用现代 GNOME 与 KDE，发现外观与一致性已不输 macOS，从而强化了“视觉优势不再”的观点。同时也有用户在功能改进（如 Spotlight 新能力）和视觉退化之间摇摆，导致升级决策分裂。",
+              "supportid": [
+                "47319963",
+                "47320572",
+                "47321031",
+                "47320300"
+              ]
+            },
+            {
+              "category": "捍卫者：功能改进与生产力提升",
+              "summary": "另一派评论强调 Tahoe 的功能性改进，例如 Spotlight 的快捷、Spotlight 剪贴板历史和 LLM actions，对高级用户的工作流有实际提升，他们认为“Design is how it works”。这些支持者指出一些可见问题可能是升级后的临时索引或兼容性问题，并不代表整体体验的倒退。反对者则回应说功能改进不能掩盖界面一致性、对齐和可读性上的缺陷。",
+              "supportid": [
+                "47320678",
+                "47320737",
+                "47321162"
+              ]
+            }
+          ],
+          "terminologies": [
+            {
+              "term": "macOS Tahoe",
+              "explanation": "Apple 最新一代 macOS 的代号（Tahoe），本次更新带来了“Liquid Glass”样式与调整后的窗口圆角策略。"
+            },
+            {
+              "term": "Liquid Glass",
+              "explanation": "Apple 在近期系统中使用的半透明/玻璃化视效（最初较为透明，后部分改为更模糊的 frosted），涉及磨砂模糊与透视效果，影响可读性与层次感。"
+            },
+            {
+              "term": "WWDC",
+              "explanation": "WWDC（Apple 的 Worldwide Developers Conference，苹果全球开发者大会），Apple 在会上公布和解释了新设计系统与窗口圆角的意图。"
+            },
+            {
+              "term": "SIP",
+              "explanation": "SIP（System Integrity Protection，macOS 的系统完整性保护），一项限制对系统文件修改的安全机制，有评论讨论过是否值得因视觉修补而关闭它。"
+            },
+            {
+              "term": "Gatekeeper",
+              "explanation": "macOS 的应用签名与运行限制机制；讨论中提到与 notarization（应用公证）政策和费用相关的用户体验与生态影响。"
+            },
+            {
+              "term": "Spotlight",
+              "explanation": "macOS 的全局搜索与启动器，Tahoe 中被提及为带来新快捷与 clipboard history 的生产力改进，但也有用户抱怨搜索准确性下降。"
+            }
+          ],
+          "context": "讨论源于一篇注意到 macOS Tahoe 窗口在最大化/平铺时出现不同圆角半径的帖子。多位评论指出这在 WWDC 的设计系统中是有意为之：窗口半径会随窗口样式（如是否有工具栏）变化以“同心包裹” chrome 元素，但实际呈现引发了对对齐、可读性和视觉一致性的质疑。相关讨论延伸到 Apple 的 Liquid Glass 视觉风格、iOS‑化与设备统一策略、以及安全/生态决策（如 notarization、Gatekeeper、SIP）对用户感受的影响。有人因此推迟升级或考虑换平台，也有人强调 Tahoe 在功能性（Spotlight、LLM actions）上的改进。",
+          "emoji": "🤦",
+          "sarcastic_question": "不同圆角是设计聪明，还是设计师下班走人了？"
+        },
+        "classifications": {
+          "topics": [
+            11,
+            6
+          ],
+          "facets": [
+            9
+          ],
+          "tags": [
+            "macOS Tahoe",
+            "Apple",
+            "corner radius",
+            "UI",
+            "design system",
+            "SIP"
+          ]
+        },
+        "classificationsUpdatedAt": 1773128787,
+        "aiSummary": {
+          "chinese_title": "macOS Tahoe 窗口圆角半径不一致引发界面一致性争议",
+          "discussion_overview": [
+            {
+              "category": "外观不一致与细节缺失的批评",
+              "summary": "很多用户觉得 macOS Tahoe 的多层不同圆角在最大化或平铺窗口时形成明显的视觉叠加，显得凌乱且浪费屏幕空间。有人发图指出可见三层不同圆角，评论里有人把这视为苹果对细节关注下降的证据，称这是“丢失的打磨”。这种不一致被一些人当作更大范围 UX 退化的信号，甚至成为推迟升级或考虑换平台的理由。",
+              "supportid": [
+                "47320035",
+                "47282484",
+                "47320377",
+                "47319963",
+                "47320693",
+                "47320572"
+              ]
+            },
+            {
+              "category": "官方设计意图：WWDC 上的解释（有意为之）",
+              "summary": "多位评论指出这并非 Bug，而是 Apple 在 WWDC 上公开的设计系统决定：窗口圆角会根据窗口类型变化，带工具栏的窗口采用更大半径以“同心包裹”玻璃工具栏元素，只有标题栏的窗口则保留较小半径。拥护者引用 WWDC 的原话来表明这是系统层面的规范而非疏忽。反对者则认为这段说明有时像事后解释，实际呈现的曲线与控件对齐仍存在问题。",
+              "supportid": [
+                "47320534",
+                "47319858",
+                "47320295",
+                "47320053"
+              ]
+            },
+            {
+              "category": "支持者：自适应圆角的合理性",
+              "summary": "部分评论者认为按内容和窗口样式调整圆角是合理的自适应设计：当有工具栏时可以使用更大圆角以避免工具栏图标靠近外角，而迷你窗口或弹窗用较小圆角以保留可视空间。支持者把这种差异看作为不同容器提供视觉层次和辨识度的手段，而不是单一统一的设计规范。尽管他们中不少人并不喜欢 Liquid Glass 的美学，但仍认为圆角差异出于功能考量。",
+              "supportid": [
+                "47320187",
+                "47320657",
+                "47320726"
+              ]
+            },
+            {
+              "category": "可读性与“Liquid Glass”引发的无障碍担忧",
+              "summary": "关于 Tahoe 的半透明/玻璃化风格（“Liquid Glass”）有不少可读性投诉：有人举例 iOS 锁屏/通知的透明幕布在对比强烈的背景下导致图标动画混乱或遮挡失败。还有评论指出 Apple 在初期把效果做得过于透明，后来逐步改为更模糊的 frosted（磨砂）以改善可读性，这反映出设计从实验到回退的过程。讨论进一步延伸到 AR/VR 场景，评论者担心透明界面对可见性、输入和隐私带来系统性问题。",
+              "supportid": [
+                "47320477",
+                "47320698",
+                "47321128",
+                "47321256"
+              ]
+            },
+            {
+              "category": "产品决策与流程问题的指责",
+              "summary": "许多评论把这类视觉倒退归因于苹果的优先级与组织决策：大家认为 iPhone/iPad 的成功与统一战略把资源和注意力转向移动与跨设备一致性，桌面体验维护被边缘化。有人用 MacBook Neo、iOS‑化趋向、以及与安全相关的政策（例如 notarization 费用和对 Gatekeeper 的调整）来举例说明公司决策倾向。评论里也有人认为当前流程允许把有争议的实验性想法推到产品中，说明公司无法及时放弃不可行的设计。",
+              "supportid": [
+                "47320377",
+                "47320478",
+                "47320745",
+                "47319912",
+                "47321128"
+              ]
+            },
+            {
+              "category": "实际影响：用户延迟升级或转向其他系统",
+              "summary": "若干用户表示因此会推迟从 Sequoia 升级到 Tahoe、延迟购买新机或直接考虑换回 Linux。有人亲自试用现代 GNOME 与 KDE，发现外观与一致性已不输 macOS，从而强化了“视觉优势不再”的观点。同时也有用户在功能改进（如 Spotlight 新能力）和视觉退化之间摇摆，导致升级决策分裂。",
+              "supportid": [
+                "47319963",
+                "47320572",
+                "47321031",
+                "47320300"
+              ]
+            },
+            {
+              "category": "捍卫者：功能改进与生产力提升",
+              "summary": "另一派评论强调 Tahoe 的功能性改进，例如 Spotlight 的快捷、Spotlight 剪贴板历史和 LLM actions，对高级用户的工作流有实际提升，他们认为“Design is how it works”。这些支持者指出一些可见问题可能是升级后的临时索引或兼容性问题，并不代表整体体验的倒退。反对者则回应说功能改进不能掩盖界面一致性、对齐和可读性上的缺陷。",
+              "supportid": [
+                "47320678",
+                "47320737",
+                "47321162"
+              ]
+            }
+          ],
+          "terminologies": [
+            {
+              "term": "macOS Tahoe",
+              "explanation": "Apple 最新一代 macOS 的代号（Tahoe），本次更新带来了“Liquid Glass”样式与调整后的窗口圆角策略。"
+            },
+            {
+              "term": "Liquid Glass",
+              "explanation": "Apple 在近期系统中使用的半透明/玻璃化视效（最初较为透明，后部分改为更模糊的 frosted），涉及磨砂模糊与透视效果，影响可读性与层次感。"
+            },
+            {
+              "term": "WWDC",
+              "explanation": "WWDC（Apple 的 Worldwide Developers Conference，苹果全球开发者大会），Apple 在会上公布和解释了新设计系统与窗口圆角的意图。"
+            },
+            {
+              "term": "SIP",
+              "explanation": "SIP（System Integrity Protection，macOS 的系统完整性保护），一项限制对系统文件修改的安全机制，有评论讨论过是否值得因视觉修补而关闭它。"
+            },
+            {
+              "term": "Gatekeeper",
+              "explanation": "macOS 的应用签名与运行限制机制；讨论中提到与 notarization（应用公证）政策和费用相关的用户体验与生态影响。"
+            },
+            {
+              "term": "Spotlight",
+              "explanation": "macOS 的全局搜索与启动器，Tahoe 中被提及为带来新快捷与 clipboard history 的生产力改进，但也有用户抱怨搜索准确性下降。"
+            }
+          ],
+          "context": "讨论源于一篇注意到 macOS Tahoe 窗口在最大化/平铺时出现不同圆角半径的帖子。多位评论指出这在 WWDC 的设计系统中是有意为之：窗口半径会随窗口样式（如是否有工具栏）变化以“同心包裹” chrome 元素，但实际呈现引发了对对齐、可读性和视觉一致性的质疑。相关讨论延伸到 Apple 的 Liquid Glass 视觉风格、iOS‑化与设备统一策略、以及安全/生态决策（如 notarization、Gatekeeper、SIP）对用户感受的影响。有人因此推迟升级或考虑换平台，也有人强调 Tahoe 在功能性（Spotlight、LLM actions）上的改进。",
+          "emoji": "🤦",
+          "sarcastic_question": "不同圆角是设计聪明，还是设计师下班走人了？"
+        }
+      },
+      "articleSummary": "## 一句话总结\nmacOS Tahoe 的窗口圆角半径不再统一，仅仅因为有没有 Toolbar，同一个应用的窗口圆角就会变得完全不一样。\n\n### 视觉上的违和感不是错觉，是圆角真的不一样\n作者最近在测试 macOS 26 Tahoe 时发现了一个让人抓狂的细节。他早就知道新系统的窗口圆角变得非常夸张，但直到最近才意识到，这个圆角并不是统一的。当你把一个 TextEdit 窗口和一个 Calculator 窗口叠在一起时，你会发现TextEdit 的窗口角会从 Calculator 后面“戳”出来。这种视觉上的不一致感非常强烈，显然不是设计上的巧合，而是系统层面的逻辑差异。\n\n### 决定圆角大小的关键竟然是 Toolbar\n为了搞清楚到底是什么导致了这种差异，作者做了一个简单的实验。他新建了一个标准的 Xcode 项目，发现默认的主窗口圆角比较小，和 TextEdit 一样。但是，一旦他给这个窗口加上一个 Toolbar，圆角半径瞬间就变大了，变得和 Calculator 一样夸张。说白了就是，系统判断窗口圆角大小的逻辑极其简单粗暴：有 Toolbar 就是大圆角，没 Toolbar 就是小圆角。\n\n### 这种设计让开发者完全无法预测 UI 表现\n这个发现之所以让人无语，是因为它破坏了 UI 的一致性。Sidebar 等其他窗口元素据说也会触发圆角的变化。这意味着，作为开发者，你很难预测你的应用在用户面前长什么样。用户可能只是开关了一个工具栏，整个窗口的形状就变了。这种缺乏统一规范的设计，让原本以一致性著称的 macOS 界面变得支离破碎。\n\n### 连 Apple 自己的工程师都被这改动坑了\n这种混乱不仅困扰第三方开发者，连 Apple 内部的工程师似乎也没适应。作者引用了 WebKit 的一个 commit 来佐证这一点。Safari 使用的 WebKit 引擎专门修了一个 bug：因为窗口圆角的变化，根滚动条的底部竟然会被切掉。这说明这种 UI 变动不仅丑，还实实在在地破坏了布局逻辑，连系统自带的浏览器都中招了。"
+    },
     {
       "id": 47279633,
       "by": "TMWNN",
@@ -1401,283 +2190,6 @@
         }
       },
       "articleSummary": "## 一句话总结\n那个“Anthropic 每个用户亏 5000 美元”的传言纯属误解，真相是 API 零售价和实际推理成本之间有着高达 10 倍的差价，Anthropic 在 Claude Code 业务上大概率是赚钱的。\n\n### 传言的源头是把“零售价”当成了“成本价”\n最近 Forbes 的一篇文章在圈子里疯传，说 Anthropic 的 Claude Code Max 计划（月费 200 美元）实际上每个用户要消耗掉 5000 美元的算力。乍一听这数字很吓人，仿佛 Anthropic 在疯狂烧钱。但仔细推敲就会发现，这个算法其实有个巨大的逻辑漏洞：它直接用 Anthropic 公开的 API 零售价来反推成本。Opus 4.6 的 API 价格是输入 5 美元/百万 tokens、输出 25 美元/百万 tokens，按这个标准算，重度用户确实能用到 5000 美元。但问题是，API 价格是给客户定的，不是 Anthropic 自己的账单成本。\n\n### OpenRouter 上的价格揭示了真实的成本底线\n那真实的推理成本到底是多少？我们不妨看看 OpenRouter 上那些开源模型的价格，那里是多家提供商打价格战的地方，最能反映市场底线。拿 Qwen 3.5 397B-A17B 来说，这个 MoE 模型的规模和 Opus 4.6 差不多，在 OpenRouter 上输入只要 0.39 美元/百万 tokens，输出 2.34 美元/百万 tokens。Kimi K2.5 1T 参数（32B 激活）的价格也差不多，甚至更便宜。这基本上只有 Anthropic API 价格的 10%。这些提供商也是要买 GPU、要赚钱的，如果他们能在这个价格下活得好好的，那说明顶级模型的实际推理成本也就这个水平。\n\n### 算笔账：Anthropic 其实没亏多少\n既然实际成本大概是 API 价格的 10%，那账就好算了。如果一个重度用户用掉了价值 5000 美元的 API 额度，Anthropic 的实际硬件成本大概只有 500 美元。对比 200 美元的月费，这确实亏了 300 美元，但绝不是传言中的 4800 美元。更何况，这种“把额度用满”的用户属于极少数。Anthropic 自己说过，只有不到 5% 的用户会触及每周的上限。大多数普通用户的 API 等价花费大概在 180 美元/月左右，换算成实际成本才 18 美元，这对 Anthropic 来说是稳赚不赔的生意。\n\n### 真正“亏” 5000 美元的其实是 Cursor\n那这 5000 美元的数字到底是谁算出来的？原文提到，这其实是 Cursor 内部分析的结果。这很合理，因为 Cursor 必须按接近零售 API 的价格向 Anthropic 付费。如果 Cursor 想提供和 Claude Code 一样的体验，它确实得为每个重度用户支付 5000 美元的账单。这对 Cursor 来说是个巨大的难题：开发者们认准了 Anthropic 的模型，觉得比开源的好用，但 Cursor 却得背负高昂的 API 成本，这就是为什么 Cursor 最近在定价上如此纠结。\n\n### Anthropic 确实不赚钱，但不是推理的锅\n当然，Anthropic 整体公司肯定还没盈利，但这锅不能甩给推理服务。训练前沿模型的天价投入、顶级研究员的巨额薪水、几十亿的 GPU 硬件承诺，这些才是真正的吞金兽。在单用户的推理服务上，Anthropic 不仅没亏，甚至可能利润丰厚。那个“AI 推理是无底洞”的说法，其实某种程度上是巨头们为了维持高溢价而放出的烟雾弹。如果大家都以为推理很贵，就不会有人去质疑那 10 倍的加价了，这反而帮他们挖了更深的护城河。"
-    },
-    {
-      "id": 47279761,
-      "by": "robenkleene",
-      "title": "macOS Tahoe windows have different corner radiuses",
-      "url": "https://lapcatsoftware.com/articles/2026/3/1.html",
-      "score": 141,
-      "detailUpdatedAt": 1773137634,
-      "createdAt": 1773127849,
-      "aiSummaryUpdatedAt": 1773138172,
-      "aisummary": {
-        "chinese_title": "macOS Tahoe 窗口圆角半径不一致引发界面一致性争议",
-        "emoji": "🤦",
-        "sarcastic_question": "不同圆角是设计聪明，还是设计师下班走人了？"
-      },
-      "classifications": {
-        "topics": [
-          11,
-          6
-        ],
-        "facets": [
-          9
-        ],
-        "tags": [
-          "macOS Tahoe",
-          "Apple",
-          "corner radius",
-          "UI",
-          "design system",
-          "SIP"
-        ]
-      },
-      "classificationsUpdatedAt": 1773128787,
-      "aiSummary": {
-        "chinese_title": "macOS Tahoe 窗口圆角半径不一致引发界面一致性争议",
-        "emoji": "🤦",
-        "sarcastic_question": "不同圆角是设计聪明，还是设计师下班走人了？"
-      },
-      "detail": {
-        "id": 47279761,
-        "by": "robenkleene",
-        "title": "macOS Tahoe windows have different corner radiuses",
-        "url": "https://lapcatsoftware.com/articles/2026/3/1.html",
-        "score": 141,
-        "detailUpdatedAt": 1773137634,
-        "createdAt": 1773127849,
-        "aiSummaryUpdatedAt": 1773138172,
-        "aisummary": {
-          "chinese_title": "macOS Tahoe 窗口圆角半径不一致引发界面一致性争议",
-          "discussion_overview": [
-            {
-              "category": "外观不一致与细节缺失的批评",
-              "summary": "很多用户觉得 macOS Tahoe 的多层不同圆角在最大化或平铺窗口时形成明显的视觉叠加，显得凌乱且浪费屏幕空间。有人发图指出可见三层不同圆角，评论里有人把这视为苹果对细节关注下降的证据，称这是“丢失的打磨”。这种不一致被一些人当作更大范围 UX 退化的信号，甚至成为推迟升级或考虑换平台的理由。",
-              "supportid": [
-                "47320035",
-                "47282484",
-                "47320377",
-                "47319963",
-                "47320693",
-                "47320572"
-              ]
-            },
-            {
-              "category": "官方设计意图：WWDC 上的解释（有意为之）",
-              "summary": "多位评论指出这并非 Bug，而是 Apple 在 WWDC 上公开的设计系统决定：窗口圆角会根据窗口类型变化，带工具栏的窗口采用更大半径以“同心包裹”玻璃工具栏元素，只有标题栏的窗口则保留较小半径。拥护者引用 WWDC 的原话来表明这是系统层面的规范而非疏忽。反对者则认为这段说明有时像事后解释，实际呈现的曲线与控件对齐仍存在问题。",
-              "supportid": [
-                "47320534",
-                "47319858",
-                "47320295",
-                "47320053"
-              ]
-            },
-            {
-              "category": "支持者：自适应圆角的合理性",
-              "summary": "部分评论者认为按内容和窗口样式调整圆角是合理的自适应设计：当有工具栏时可以使用更大圆角以避免工具栏图标靠近外角，而迷你窗口或弹窗用较小圆角以保留可视空间。支持者把这种差异看作为不同容器提供视觉层次和辨识度的手段，而不是单一统一的设计规范。尽管他们中不少人并不喜欢 Liquid Glass 的美学，但仍认为圆角差异出于功能考量。",
-              "supportid": [
-                "47320187",
-                "47320657",
-                "47320726"
-              ]
-            },
-            {
-              "category": "可读性与“Liquid Glass”引发的无障碍担忧",
-              "summary": "关于 Tahoe 的半透明/玻璃化风格（“Liquid Glass”）有不少可读性投诉：有人举例 iOS 锁屏/通知的透明幕布在对比强烈的背景下导致图标动画混乱或遮挡失败。还有评论指出 Apple 在初期把效果做得过于透明，后来逐步改为更模糊的 frosted（磨砂）以改善可读性，这反映出设计从实验到回退的过程。讨论进一步延伸到 AR/VR 场景，评论者担心透明界面对可见性、输入和隐私带来系统性问题。",
-              "supportid": [
-                "47320477",
-                "47320698",
-                "47321128",
-                "47321256"
-              ]
-            },
-            {
-              "category": "产品决策与流程问题的指责",
-              "summary": "许多评论把这类视觉倒退归因于苹果的优先级与组织决策：大家认为 iPhone/iPad 的成功与统一战略把资源和注意力转向移动与跨设备一致性，桌面体验维护被边缘化。有人用 MacBook Neo、iOS‑化趋向、以及与安全相关的政策（例如 notarization 费用和对 Gatekeeper 的调整）来举例说明公司决策倾向。评论里也有人认为当前流程允许把有争议的实验性想法推到产品中，说明公司无法及时放弃不可行的设计。",
-              "supportid": [
-                "47320377",
-                "47320478",
-                "47320745",
-                "47319912",
-                "47321128"
-              ]
-            },
-            {
-              "category": "实际影响：用户延迟升级或转向其他系统",
-              "summary": "若干用户表示因此会推迟从 Sequoia 升级到 Tahoe、延迟购买新机或直接考虑换回 Linux。有人亲自试用现代 GNOME 与 KDE，发现外观与一致性已不输 macOS，从而强化了“视觉优势不再”的观点。同时也有用户在功能改进（如 Spotlight 新能力）和视觉退化之间摇摆，导致升级决策分裂。",
-              "supportid": [
-                "47319963",
-                "47320572",
-                "47321031",
-                "47320300"
-              ]
-            },
-            {
-              "category": "捍卫者：功能改进与生产力提升",
-              "summary": "另一派评论强调 Tahoe 的功能性改进，例如 Spotlight 的快捷、Spotlight 剪贴板历史和 LLM actions，对高级用户的工作流有实际提升，他们认为“Design is how it works”。这些支持者指出一些可见问题可能是升级后的临时索引或兼容性问题，并不代表整体体验的倒退。反对者则回应说功能改进不能掩盖界面一致性、对齐和可读性上的缺陷。",
-              "supportid": [
-                "47320678",
-                "47320737",
-                "47321162"
-              ]
-            }
-          ],
-          "terminologies": [
-            {
-              "term": "macOS Tahoe",
-              "explanation": "Apple 最新一代 macOS 的代号（Tahoe），本次更新带来了“Liquid Glass”样式与调整后的窗口圆角策略。"
-            },
-            {
-              "term": "Liquid Glass",
-              "explanation": "Apple 在近期系统中使用的半透明/玻璃化视效（最初较为透明，后部分改为更模糊的 frosted），涉及磨砂模糊与透视效果，影响可读性与层次感。"
-            },
-            {
-              "term": "WWDC",
-              "explanation": "WWDC（Apple 的 Worldwide Developers Conference，苹果全球开发者大会），Apple 在会上公布和解释了新设计系统与窗口圆角的意图。"
-            },
-            {
-              "term": "SIP",
-              "explanation": "SIP（System Integrity Protection，macOS 的系统完整性保护），一项限制对系统文件修改的安全机制，有评论讨论过是否值得因视觉修补而关闭它。"
-            },
-            {
-              "term": "Gatekeeper",
-              "explanation": "macOS 的应用签名与运行限制机制；讨论中提到与 notarization（应用公证）政策和费用相关的用户体验与生态影响。"
-            },
-            {
-              "term": "Spotlight",
-              "explanation": "macOS 的全局搜索与启动器，Tahoe 中被提及为带来新快捷与 clipboard history 的生产力改进，但也有用户抱怨搜索准确性下降。"
-            }
-          ],
-          "context": "讨论源于一篇注意到 macOS Tahoe 窗口在最大化/平铺时出现不同圆角半径的帖子。多位评论指出这在 WWDC 的设计系统中是有意为之：窗口半径会随窗口样式（如是否有工具栏）变化以“同心包裹” chrome 元素，但实际呈现引发了对对齐、可读性和视觉一致性的质疑。相关讨论延伸到 Apple 的 Liquid Glass 视觉风格、iOS‑化与设备统一策略、以及安全/生态决策（如 notarization、Gatekeeper、SIP）对用户感受的影响。有人因此推迟升级或考虑换平台，也有人强调 Tahoe 在功能性（Spotlight、LLM actions）上的改进。",
-          "emoji": "🤦",
-          "sarcastic_question": "不同圆角是设计聪明，还是设计师下班走人了？"
-        },
-        "classifications": {
-          "topics": [
-            11,
-            6
-          ],
-          "facets": [
-            9
-          ],
-          "tags": [
-            "macOS Tahoe",
-            "Apple",
-            "corner radius",
-            "UI",
-            "design system",
-            "SIP"
-          ]
-        },
-        "classificationsUpdatedAt": 1773128787,
-        "aiSummary": {
-          "chinese_title": "macOS Tahoe 窗口圆角半径不一致引发界面一致性争议",
-          "discussion_overview": [
-            {
-              "category": "外观不一致与细节缺失的批评",
-              "summary": "很多用户觉得 macOS Tahoe 的多层不同圆角在最大化或平铺窗口时形成明显的视觉叠加，显得凌乱且浪费屏幕空间。有人发图指出可见三层不同圆角，评论里有人把这视为苹果对细节关注下降的证据，称这是“丢失的打磨”。这种不一致被一些人当作更大范围 UX 退化的信号，甚至成为推迟升级或考虑换平台的理由。",
-              "supportid": [
-                "47320035",
-                "47282484",
-                "47320377",
-                "47319963",
-                "47320693",
-                "47320572"
-              ]
-            },
-            {
-              "category": "官方设计意图：WWDC 上的解释（有意为之）",
-              "summary": "多位评论指出这并非 Bug，而是 Apple 在 WWDC 上公开的设计系统决定：窗口圆角会根据窗口类型变化，带工具栏的窗口采用更大半径以“同心包裹”玻璃工具栏元素，只有标题栏的窗口则保留较小半径。拥护者引用 WWDC 的原话来表明这是系统层面的规范而非疏忽。反对者则认为这段说明有时像事后解释，实际呈现的曲线与控件对齐仍存在问题。",
-              "supportid": [
-                "47320534",
-                "47319858",
-                "47320295",
-                "47320053"
-              ]
-            },
-            {
-              "category": "支持者：自适应圆角的合理性",
-              "summary": "部分评论者认为按内容和窗口样式调整圆角是合理的自适应设计：当有工具栏时可以使用更大圆角以避免工具栏图标靠近外角，而迷你窗口或弹窗用较小圆角以保留可视空间。支持者把这种差异看作为不同容器提供视觉层次和辨识度的手段，而不是单一统一的设计规范。尽管他们中不少人并不喜欢 Liquid Glass 的美学，但仍认为圆角差异出于功能考量。",
-              "supportid": [
-                "47320187",
-                "47320657",
-                "47320726"
-              ]
-            },
-            {
-              "category": "可读性与“Liquid Glass”引发的无障碍担忧",
-              "summary": "关于 Tahoe 的半透明/玻璃化风格（“Liquid Glass”）有不少可读性投诉：有人举例 iOS 锁屏/通知的透明幕布在对比强烈的背景下导致图标动画混乱或遮挡失败。还有评论指出 Apple 在初期把效果做得过于透明，后来逐步改为更模糊的 frosted（磨砂）以改善可读性，这反映出设计从实验到回退的过程。讨论进一步延伸到 AR/VR 场景，评论者担心透明界面对可见性、输入和隐私带来系统性问题。",
-              "supportid": [
-                "47320477",
-                "47320698",
-                "47321128",
-                "47321256"
-              ]
-            },
-            {
-              "category": "产品决策与流程问题的指责",
-              "summary": "许多评论把这类视觉倒退归因于苹果的优先级与组织决策：大家认为 iPhone/iPad 的成功与统一战略把资源和注意力转向移动与跨设备一致性，桌面体验维护被边缘化。有人用 MacBook Neo、iOS‑化趋向、以及与安全相关的政策（例如 notarization 费用和对 Gatekeeper 的调整）来举例说明公司决策倾向。评论里也有人认为当前流程允许把有争议的实验性想法推到产品中，说明公司无法及时放弃不可行的设计。",
-              "supportid": [
-                "47320377",
-                "47320478",
-                "47320745",
-                "47319912",
-                "47321128"
-              ]
-            },
-            {
-              "category": "实际影响：用户延迟升级或转向其他系统",
-              "summary": "若干用户表示因此会推迟从 Sequoia 升级到 Tahoe、延迟购买新机或直接考虑换回 Linux。有人亲自试用现代 GNOME 与 KDE，发现外观与一致性已不输 macOS，从而强化了“视觉优势不再”的观点。同时也有用户在功能改进（如 Spotlight 新能力）和视觉退化之间摇摆，导致升级决策分裂。",
-              "supportid": [
-                "47319963",
-                "47320572",
-                "47321031",
-                "47320300"
-              ]
-            },
-            {
-              "category": "捍卫者：功能改进与生产力提升",
-              "summary": "另一派评论强调 Tahoe 的功能性改进，例如 Spotlight 的快捷、Spotlight 剪贴板历史和 LLM actions，对高级用户的工作流有实际提升，他们认为“Design is how it works”。这些支持者指出一些可见问题可能是升级后的临时索引或兼容性问题，并不代表整体体验的倒退。反对者则回应说功能改进不能掩盖界面一致性、对齐和可读性上的缺陷。",
-              "supportid": [
-                "47320678",
-                "47320737",
-                "47321162"
-              ]
-            }
-          ],
-          "terminologies": [
-            {
-              "term": "macOS Tahoe",
-              "explanation": "Apple 最新一代 macOS 的代号（Tahoe），本次更新带来了“Liquid Glass”样式与调整后的窗口圆角策略。"
-            },
-            {
-              "term": "Liquid Glass",
-              "explanation": "Apple 在近期系统中使用的半透明/玻璃化视效（最初较为透明，后部分改为更模糊的 frosted），涉及磨砂模糊与透视效果，影响可读性与层次感。"
-            },
-            {
-              "term": "WWDC",
-              "explanation": "WWDC（Apple 的 Worldwide Developers Conference，苹果全球开发者大会），Apple 在会上公布和解释了新设计系统与窗口圆角的意图。"
-            },
-            {
-              "term": "SIP",
-              "explanation": "SIP（System Integrity Protection，macOS 的系统完整性保护），一项限制对系统文件修改的安全机制，有评论讨论过是否值得因视觉修补而关闭它。"
-            },
-            {
-              "term": "Gatekeeper",
-              "explanation": "macOS 的应用签名与运行限制机制；讨论中提到与 notarization（应用公证）政策和费用相关的用户体验与生态影响。"
-            },
-            {
-              "term": "Spotlight",
-              "explanation": "macOS 的全局搜索与启动器，Tahoe 中被提及为带来新快捷与 clipboard history 的生产力改进，但也有用户抱怨搜索准确性下降。"
-            }
-          ],
-          "context": "讨论源于一篇注意到 macOS Tahoe 窗口在最大化/平铺时出现不同圆角半径的帖子。多位评论指出这在 WWDC 的设计系统中是有意为之：窗口半径会随窗口样式（如是否有工具栏）变化以“同心包裹” chrome 元素，但实际呈现引发了对对齐、可读性和视觉一致性的质疑。相关讨论延伸到 Apple 的 Liquid Glass 视觉风格、iOS‑化与设备统一策略、以及安全/生态决策（如 notarization、Gatekeeper、SIP）对用户感受的影响。有人因此推迟升级或考虑换平台，也有人强调 Tahoe 在功能性（Spotlight、LLM actions）上的改进。",
-          "emoji": "🤦",
-          "sarcastic_question": "不同圆角是设计聪明，还是设计师下班走人了？"
-        }
-      },
-      "articleSummary": "## 一句话总结\nmacOS Tahoe 的窗口圆角半径不再统一，仅仅因为有没有 Toolbar，同一个应用的窗口圆角就会变得完全不一样。\n\n### 视觉上的违和感不是错觉，是圆角真的不一样\n作者最近在测试 macOS 26 Tahoe 时发现了一个让人抓狂的细节。他早就知道新系统的窗口圆角变得非常夸张，但直到最近才意识到，这个圆角并不是统一的。当你把一个 TextEdit 窗口和一个 Calculator 窗口叠在一起时，你会发现TextEdit 的窗口角会从 Calculator 后面“戳”出来。这种视觉上的不一致感非常强烈，显然不是设计上的巧合，而是系统层面的逻辑差异。\n\n### 决定圆角大小的关键竟然是 Toolbar\n为了搞清楚到底是什么导致了这种差异，作者做了一个简单的实验。他新建了一个标准的 Xcode 项目，发现默认的主窗口圆角比较小，和 TextEdit 一样。但是，一旦他给这个窗口加上一个 Toolbar，圆角半径瞬间就变大了，变得和 Calculator 一样夸张。说白了就是，系统判断窗口圆角大小的逻辑极其简单粗暴：有 Toolbar 就是大圆角，没 Toolbar 就是小圆角。\n\n### 这种设计让开发者完全无法预测 UI 表现\n这个发现之所以让人无语，是因为它破坏了 UI 的一致性。Sidebar 等其他窗口元素据说也会触发圆角的变化。这意味着，作为开发者，你很难预测你的应用在用户面前长什么样。用户可能只是开关了一个工具栏，整个窗口的形状就变了。这种缺乏统一规范的设计，让原本以一致性著称的 macOS 界面变得支离破碎。\n\n### 连 Apple 自己的工程师都被这改动坑了\n这种混乱不仅困扰第三方开发者，连 Apple 内部的工程师似乎也没适应。作者引用了 WebKit 的一个 commit 来佐证这一点。Safari 使用的 WebKit 引擎专门修了一个 bug：因为窗口圆角的变化，根滚动条的底部竟然会被切掉。这说明这种 UI 变动不仅丑，还实实在在地破坏了布局逻辑，连系统自带的浏览器都中招了。"
     },
     {
       "id": 47318421,
@@ -12982,544 +13494,6 @@
         }
       },
       "articleSummary": "## 一句话总结\nApple 悄悄下架了配备 512GB 统一内存的 Mac Studio，这看似微小的配置调整，实则是行业级 RAM 严重缺货的无奈之举。\n\n### 512GB 版本的静默消失\nApple 最近更新了 Mac Studio 的产品线，大家都在关注 M4 Max 和 M3 Ultra 的性能表现，但有个细节被很多人忽略了：那个配备 512GB 统一内存的顶配版本不见了。以前你想堆满内存，选这个配置就行，现在官网最高只到 192GB。这可不是简单的产品迭代，而是一个不寻常的信号。对于需要大内存的专业用户来说，这个选项的消失意味着什么？显然，这不是因为没人买，而是因为造不出来。\n\n### 统一内存的特殊“体质”\n为什么偏偏是 Mac Studio 中招？这得从 Apple Silicon 的架构说起。Mac Studio 用的 M 系列芯片采用的是统一内存架构（Unified Memory），CPU 和 GPU 共享同一块内存。这种设计虽然带宽爆炸，但对内存颗粒的要求极高。不同于普通 PC 可以随便插几条 DDR5 内存条，Apple 的内存是直接封装在芯片旁边的。这意味着一旦缺货，Apple 不能像其他厂商那样灵活调整供应链，只能硬着头皮砍配置。\n\n### 行业性的 RAM 短缺危机\n这事儿不能全怪 Apple，整个行业现在都缺 RAM。不管是 DDR5 还是 HBM，产能都跟不上需求。尤其是高性能内存，制造工艺复杂，良品率一直上不去。对于 Apple 这种出货量巨大的厂商来说，哪怕是一点点产能波动，都会直接影响最终产品的组装。512GB 这种大容量配置，用的都是高密度颗粒，自然成了缺货的重灾区。说白了，现在的局面是：有钱也未必能买到货。\n\n### 供应链的无奈妥协\n那怎么办？Apple 的选择很现实：保住主流配置，牺牲小众顶配。192GB 的配置对于绝大多数用户已经够用了，而且更容易保证供货。把 512GB 版本下架，可以腾出有限的内存资源去生产更多标准版机器。这虽然让少数需要极限性能的用户失望，但从商业逻辑上看，这是最合理的止损方式。毕竟，与其让用户下单后无限期等待，不如直接告诉用户没货。\n\n### 对专业用户的潜在影响\n对于那些真正需要 512GB 内存的开发者或视频剪辑师，这无疑是个坏消息。虽然你可以考虑 Mac Pro，但那价格可是天差地别。这也暴露了统一内存架构的一个隐性风险：供应链的容错率太低。一旦上游掉链子，下游的高配机型就得跟着陪葬。短期内，如果你急需大内存 Mac Studio，可能得去二手市场碰碰运气了。Apple 这次的操作，其实是在用行动告诉我们：硬件供应链的寒冬还没过去。"
-    },
-    {
-      "id": 47292522,
-      "by": "Curiositry",
-      "title": "How to run Qwen 3.5 locally",
-      "url": "https://unsloth.ai/docs/models/qwen3.5",
-      "score": 370,
-      "detailUpdatedAt": 1772991800,
-      "createdAt": 1772953820,
-      "aiSummaryUpdatedAt": 1772993023,
-      "aisummary": {
-        "chinese_title": "本地跑 Qwen 3.5：性能、量化与部署权衡",
-        "emoji": "🚀",
-        "sarcastic_question": "只要把 Qwen 丢本地就能省钱又媲美前沿模型吗？"
-      },
-      "classifications": {
-        "topics": [
-          1,
-          6,
-          7
-        ],
-        "facets": [
-          5
-        ],
-        "tags": [
-          "Qwen 3.5",
-          "local inference",
-          "llama.cpp",
-          "quantization",
-          "GPU offloading",
-          "Ollama",
-          "Claude Code",
-          "9B",
-          "27B",
-          "35B"
-        ]
-      },
-      "classificationsUpdatedAt": 1772954777,
-      "aiSummary": {
-        "chinese_title": "本地跑 Qwen 3.5：性能、量化与部署权衡",
-        "emoji": "🚀",
-        "sarcastic_question": "只要把 Qwen 丢本地就能省钱又媲美前沿模型吗？"
-      },
-      "detail": {
-        "id": 47292522,
-        "by": "Curiositry",
-        "title": "How to run Qwen 3.5 locally",
-        "url": "https://unsloth.ai/docs/models/qwen3.5",
-        "score": 158,
-        "detailUpdatedAt": 1772964797,
-        "createdAt": 1772953820,
-        "aiSummaryUpdatedAt": 1772966273,
-        "aisummary": {
-          "chinese_title": "在本地运行 Qwen 3.5：量化选项、硬件与工具链实测",
-          "discussion_overview": [
-            {
-              "category": "本地推理性能与硬件可行性",
-              "summary": "社区实测显示在消费级 GPU 和 Apple 硬件上运行 Qwen 3.5 的吞吐差异很大：有人在 ASUS 5070ti 16GB 上用 9B 模型跑到约 100 tok/s，RTX 4070 12GB 上 9B 4-bit 约 60 tok/s，35B-A3B 在不同平台常见于 14–22 tok/s 的区间。通过 GPU→系统内存的 offloading 或 mmap 可以在低显存卡上启用更大模型（有人在 8GB RTX 3050、M 系列 Mac 上跑起 35B/4B/3B 小模型），但代价是明显的性能下降与 I/O 成本。CPU-only 可用于 OCR/文本清理等任务但速度缓慢，且在低端显卡上构建 GPU offload 常遇到内存分配失败或兼容性问题。",
-              "supportid": [
-                "47294937",
-                "47296002",
-                "47295404",
-                "47295741",
-                "47295562",
-                "47294044",
-                "47294894",
-                "47295342",
-                "47295504"
-              ]
-            },
-            {
-              "category": "量化与模型大小的折衷",
-              "summary": "讨论围绕 Q4/Q5/Q6/q4_k_m/q8_0 等量化格式与参数规模的权衡：普遍规则是更大的模型能承受更激进的量化而保持质量，较小模型在低位宽下表现会迅速恶化。实测显示 27B 的 4-bit 变体能装入 16GB VRAM 并保持较高质量，有人在 4090 上用 27b-q4_k_m 得到约 30–35 tok/s；在编码评测中 qwen3.5:35b-a3b-q8_0 与 q4_k_m 得分接近，说明量化策略能在一定程度上保留质量。评论也提醒不要把 <70B 的模型量化到过低位宽（例如低于 4 bit），并指出 KV quant 在 Qwen 3.5 上存在兼容性或稳定性问题，工具调用场景通常需要提高量化等级（Q5/Q6）以保证稳定性。",
-              "supportid": [
-                "47295236",
-                "47296060",
-                "47295979",
-                "47295836",
-                "47295706",
-                "47295562",
-                "47295592",
-                "47295692"
-              ]
-            },
-            {
-              "category": "模型质量、适用场景与比较",
-              "summary": "多数评论认为 Qwen 3.5 在编码與工具化任务上表现突出：有实测案例显示它能自动完成 HTML/CSS 任务、做代码定位与修复，并被用于本地化的邮件财务数据抽取项目。与此同时，也有用户抱怨对话过度谄媚、在 agent/工具调用中卡循环或忽视指令，对于复杂编码任务云端服务（如 Claude/Opus）在可靠性上仍占优。独立 benchmark（以 Claude Opus 为判官的 DeepSeek 测试）显示部分 35B 量化变体在一次性回复的编码评测中可逼近基准，但在多轮 agent 使用或工具链集成场景中差异更明显。",
-              "supportid": [
-                "47294911",
-                "47295976",
-                "47296018",
-                "47296010",
-                "47295783",
-                "47295445",
-                "47296002",
-                "47295836",
-                "47295706"
-              ]
-            },
-            {
-              "category": "工具链、部署细节与兼容性问题",
-              "summary": "本地部署依赖多套工具：llama.cpp（开源推理引擎）、ik_llama.cpp（性能优化分支）、Ollama（本地模型管理）和 LM Studio（桌面部署），不同组合会显著影响速度与稳定性。常见痛点包括 Vulkan/CUDA 构建与 GPU offloading 的内存分配失败、Ollama 在 MoE/多卡场景下的已知 bug、以及某些模型对 'thinking' 参数或特定 API 的兼容性问题，需要按应用使用专门的 gist 或 workaround。总体经验是 ik_llama.cpp 在吞吐上常优于主线 llama.cpp，而 llama.cpp 的 offload/mmap 功能能容许在显存受限时运行更大模型但会牺牲性能。",
-              "supportid": [
-                "47295692",
-                "47295404",
-                "47295976",
-                "47295445",
-                "47295325",
-                "47294894",
-                "47295342",
-                "47295745",
-                "47295741",
-                "47295046"
-              ]
-            },
-            {
-              "category": "对集中文档、基准与硬件建议的需求",
-              "summary": "多位评论者抱怨缺乏一处汇总常见模型变体、量化选项、典型显存占用与推荐硬件的权威资料，Reddit 等讨论零散且缺少清晰配置示例。有人提到 localscore.ai 曾被期待承担此类汇总但目前条目不足，社区因此在评论中给出经验性建议：小模型和游戏卡适合轻量任务、Apple M 系列在静音环境下能跑更大模型、而频繁使用或长上下文场景仍推荐 NVIDIA 服务器 GPU。实操建议是对不同 model×quant×offload 组合做 A/B 测试，以 Q4 作为本地通用基线并在需要工具调用或长上下文时上调量化等级与内存配置。",
-              "supportid": [
-                "47295692",
-                "47296121",
-                "47295449",
-                "47295859",
-                "47295562"
-              ]
-            }
-          ],
-          "terminologies": [
-            {
-              "term": "Quantization（Q4 / q4_k_m / q8_0 / bpw）",
-              "explanation": "将模型权重从浮点精度降低为更低位宽以节省显存并加速推理。Q4、Q8 等表示不同位宽/编码方案，q4_k_m、q8_0 是常见的具体实现或格式，bpw 表示 bits per weight（每个权重的位数）。"
-            },
-            {
-              "term": "MoE（Mixture of Experts）",
-              "explanation": "一种包含多个“专家”子网络的架构，推理时只激活部分专家以降低计算。未激活的专家权重可以通过 mmap 从磁盘流式加载以节省显存，但会引入 I/O 和延迟开销。"
-            },
-            {
-              "term": "llama.cpp",
-              "explanation": "一个开源的 C/C++ 本地 LLM 推理引擎，支持多种量化格式、CPU/GPU offload 和 GGUF 型模型，常用于在本地运行量化模型。"
-            },
-            {
-              "term": "ik_llama.cpp",
-              "explanation": "llama.cpp 的高性能分支或优化版本，针对量化推理和更高吞吐进行了特殊优化，能在许多量化场景下显著提升 tokens/s。"
-            },
-            {
-              "term": "Ollama",
-              "explanation": "本地模型管理/运行工具，负责模型下载与本地 API 抽象，便于桌面或服务器部署，但在 MoE、多卡或某些模型参数上有已报告的兼容性问题。"
-            },
-            {
-              "term": "LM Studio",
-              "explanation": "桌面化的模型部署与调试工具，可以把本地模型以 API 形式暴露给其它应用，适合交互式测试和集成。"
-            },
-            {
-              "term": "Offloading / mmap（GPU→系统内存/磁盘）",
-              "explanation": "把模型权重或上下文从 GPU 映射或移动到系统内存或磁盘以绕过显存限制。该手段允许运行超显存模型但会降低吞吐并增加延迟与 I/O 负担。"
-            }
-          ],
-          "context": "Qwen 3.5 是社区广泛尝试在本地部署的模型家族，用户主要在试图用不同量化版本（如 Q4/q4_k_m/q8_0）在消费级 GPU 或 Apple M 系列上运行以节省成本和本地化数据处理。讨论集中在实际吞吐（tokens/s）、模型质量在编码/agent 场景的表现、量化与模型大小的折衷，以及使用 llama.cpp、ik_llama.cpp、Ollama、LM Studio 等工具链时的兼容性与 offloading 策略。评论里给出了大量实测数字（RTX 4090/4070/3050、M1/M3/M4、不同量化配置）并指出若干已知坑，如 KV quant 兼容性、MoE 多卡问题和特定工具的崩溃行为。读者应基于任务类型（编码、OCR、agent）、硬件资源与对延迟/吞吐的要求，择优选择 model×quant×推理后端并多做 A/B 测试。",
-          "emoji": "🛠️",
-          "sarcastic_question": "想凭直觉猜出Q4变体各自的代价吗？"
-        },
-        "classifications": {
-          "topics": [
-            1,
-            6,
-            7
-          ],
-          "facets": [
-            5
-          ],
-          "tags": [
-            "Qwen 3.5",
-            "local inference",
-            "llama.cpp",
-            "quantization",
-            "GPU offloading",
-            "Ollama",
-            "Claude Code",
-            "9B",
-            "27B",
-            "35B"
-          ]
-        },
-        "classificationsUpdatedAt": 1772954777,
-        "aiSummary": {
-          "chinese_title": "在本地运行 Qwen 3.5：量化选项、硬件与工具链实测",
-          "discussion_overview": [
-            {
-              "category": "本地推理性能与硬件可行性",
-              "summary": "社区实测显示在消费级 GPU 和 Apple 硬件上运行 Qwen 3.5 的吞吐差异很大：有人在 ASUS 5070ti 16GB 上用 9B 模型跑到约 100 tok/s，RTX 4070 12GB 上 9B 4-bit 约 60 tok/s，35B-A3B 在不同平台常见于 14–22 tok/s 的区间。通过 GPU→系统内存的 offloading 或 mmap 可以在低显存卡上启用更大模型（有人在 8GB RTX 3050、M 系列 Mac 上跑起 35B/4B/3B 小模型），但代价是明显的性能下降与 I/O 成本。CPU-only 可用于 OCR/文本清理等任务但速度缓慢，且在低端显卡上构建 GPU offload 常遇到内存分配失败或兼容性问题。",
-              "supportid": [
-                "47294937",
-                "47296002",
-                "47295404",
-                "47295741",
-                "47295562",
-                "47294044",
-                "47294894",
-                "47295342",
-                "47295504"
-              ]
-            },
-            {
-              "category": "量化与模型大小的折衷",
-              "summary": "讨论围绕 Q4/Q5/Q6/q4_k_m/q8_0 等量化格式与参数规模的权衡：普遍规则是更大的模型能承受更激进的量化而保持质量，较小模型在低位宽下表现会迅速恶化。实测显示 27B 的 4-bit 变体能装入 16GB VRAM 并保持较高质量，有人在 4090 上用 27b-q4_k_m 得到约 30–35 tok/s；在编码评测中 qwen3.5:35b-a3b-q8_0 与 q4_k_m 得分接近，说明量化策略能在一定程度上保留质量。评论也提醒不要把 <70B 的模型量化到过低位宽（例如低于 4 bit），并指出 KV quant 在 Qwen 3.5 上存在兼容性或稳定性问题，工具调用场景通常需要提高量化等级（Q5/Q6）以保证稳定性。",
-              "supportid": [
-                "47295236",
-                "47296060",
-                "47295979",
-                "47295836",
-                "47295706",
-                "47295562",
-                "47295592",
-                "47295692"
-              ]
-            },
-            {
-              "category": "模型质量、适用场景与比较",
-              "summary": "多数评论认为 Qwen 3.5 在编码與工具化任务上表现突出：有实测案例显示它能自动完成 HTML/CSS 任务、做代码定位与修复，并被用于本地化的邮件财务数据抽取项目。与此同时，也有用户抱怨对话过度谄媚、在 agent/工具调用中卡循环或忽视指令，对于复杂编码任务云端服务（如 Claude/Opus）在可靠性上仍占优。独立 benchmark（以 Claude Opus 为判官的 DeepSeek 测试）显示部分 35B 量化变体在一次性回复的编码评测中可逼近基准，但在多轮 agent 使用或工具链集成场景中差异更明显。",
-              "supportid": [
-                "47294911",
-                "47295976",
-                "47296018",
-                "47296010",
-                "47295783",
-                "47295445",
-                "47296002",
-                "47295836",
-                "47295706"
-              ]
-            },
-            {
-              "category": "工具链、部署细节与兼容性问题",
-              "summary": "本地部署依赖多套工具：llama.cpp（开源推理引擎）、ik_llama.cpp（性能优化分支）、Ollama（本地模型管理）和 LM Studio（桌面部署），不同组合会显著影响速度与稳定性。常见痛点包括 Vulkan/CUDA 构建与 GPU offloading 的内存分配失败、Ollama 在 MoE/多卡场景下的已知 bug、以及某些模型对 'thinking' 参数或特定 API 的兼容性问题，需要按应用使用专门的 gist 或 workaround。总体经验是 ik_llama.cpp 在吞吐上常优于主线 llama.cpp，而 llama.cpp 的 offload/mmap 功能能容许在显存受限时运行更大模型但会牺牲性能。",
-              "supportid": [
-                "47295692",
-                "47295404",
-                "47295976",
-                "47295445",
-                "47295325",
-                "47294894",
-                "47295342",
-                "47295745",
-                "47295741",
-                "47295046"
-              ]
-            },
-            {
-              "category": "对集中文档、基准与硬件建议的需求",
-              "summary": "多位评论者抱怨缺乏一处汇总常见模型变体、量化选项、典型显存占用与推荐硬件的权威资料，Reddit 等讨论零散且缺少清晰配置示例。有人提到 localscore.ai 曾被期待承担此类汇总但目前条目不足，社区因此在评论中给出经验性建议：小模型和游戏卡适合轻量任务、Apple M 系列在静音环境下能跑更大模型、而频繁使用或长上下文场景仍推荐 NVIDIA 服务器 GPU。实操建议是对不同 model×quant×offload 组合做 A/B 测试，以 Q4 作为本地通用基线并在需要工具调用或长上下文时上调量化等级与内存配置。",
-              "supportid": [
-                "47295692",
-                "47296121",
-                "47295449",
-                "47295859",
-                "47295562"
-              ]
-            }
-          ],
-          "terminologies": [
-            {
-              "term": "Quantization（Q4 / q4_k_m / q8_0 / bpw）",
-              "explanation": "将模型权重从浮点精度降低为更低位宽以节省显存并加速推理。Q4、Q8 等表示不同位宽/编码方案，q4_k_m、q8_0 是常见的具体实现或格式，bpw 表示 bits per weight（每个权重的位数）。"
-            },
-            {
-              "term": "MoE（Mixture of Experts）",
-              "explanation": "一种包含多个“专家”子网络的架构，推理时只激活部分专家以降低计算。未激活的专家权重可以通过 mmap 从磁盘流式加载以节省显存，但会引入 I/O 和延迟开销。"
-            },
-            {
-              "term": "llama.cpp",
-              "explanation": "一个开源的 C/C++ 本地 LLM 推理引擎，支持多种量化格式、CPU/GPU offload 和 GGUF 型模型，常用于在本地运行量化模型。"
-            },
-            {
-              "term": "ik_llama.cpp",
-              "explanation": "llama.cpp 的高性能分支或优化版本，针对量化推理和更高吞吐进行了特殊优化，能在许多量化场景下显著提升 tokens/s。"
-            },
-            {
-              "term": "Ollama",
-              "explanation": "本地模型管理/运行工具，负责模型下载与本地 API 抽象，便于桌面或服务器部署，但在 MoE、多卡或某些模型参数上有已报告的兼容性问题。"
-            },
-            {
-              "term": "LM Studio",
-              "explanation": "桌面化的模型部署与调试工具，可以把本地模型以 API 形式暴露给其它应用，适合交互式测试和集成。"
-            },
-            {
-              "term": "Offloading / mmap（GPU→系统内存/磁盘）",
-              "explanation": "把模型权重或上下文从 GPU 映射或移动到系统内存或磁盘以绕过显存限制。该手段允许运行超显存模型但会降低吞吐并增加延迟与 I/O 负担。"
-            }
-          ],
-          "context": "Qwen 3.5 是社区广泛尝试在本地部署的模型家族，用户主要在试图用不同量化版本（如 Q4/q4_k_m/q8_0）在消费级 GPU 或 Apple M 系列上运行以节省成本和本地化数据处理。讨论集中在实际吞吐（tokens/s）、模型质量在编码/agent 场景的表现、量化与模型大小的折衷，以及使用 llama.cpp、ik_llama.cpp、Ollama、LM Studio 等工具链时的兼容性与 offloading 策略。评论里给出了大量实测数字（RTX 4090/4070/3050、M1/M3/M4、不同量化配置）并指出若干已知坑，如 KV quant 兼容性、MoE 多卡问题和特定工具的崩溃行为。读者应基于任务类型（编码、OCR、agent）、硬件资源与对延迟/吞吐的要求，择优选择 model×quant×推理后端并多做 A/B 测试。",
-          "emoji": "🛠️",
-          "sarcastic_question": "想凭直觉猜出Q4变体各自的代价吗？"
-        }
-      },
-      "articleSummary": "## 一句话总结\nUnsloth 通过 GGUF 量化技术，让 Qwen 3.5 这种大模型能在消费级显卡甚至 CPU 上流畅跑起来，同时提供了详细的性能基准和微调指南。\n\n### Qwen 3.5 本地化部署的硬件门槛其实不高\n很多开发者觉得跑 Qwen 3.5 这种级别的模型必须得上工业级显卡，但事实并非如此。Unsloth 的文档核心在于告诉你：只要选对量化方案，消费级硬件完全能胜任。文章并没有一上来就堆砌配置参数，而是先帮你理清了思路——本地部署的关键不在于你有多大的显存，而在于你如何通过 GGUF 格式压缩模型体积。说白了，就是用极小的精度损失，换取硬件需求的断崖式下降。\n\n### GGUF 量化是让模型“瘦身”的核心手段\n那具体怎么实现“瘦身”呢？这里就要提到 GGUF (GPT-Generated Unified Format) 了。这是一种专门为 `llama.cpp` 推理引擎设计的文件格式，它能把原本 FP16 或 FP32 的模型权重，压缩成 4-bit 甚至更低。有意思的地方在于，这种压缩并不是简单的删减数据，而是通过量化算法保留了模型的关键特征。这意味着你可以在一块 RTX 3060 甚至 Mac 的 M 系列芯片上，跑动原本需要 A100 才能载入的大模型。\n\n### 量化参数的选择要在速度和效果间找平衡\n但问题是，量化等级这么多，选哪个才合适？文档里给出了非常具体的建议：如果你追求极致速度，Q4_K_M 是首选，它在保持较好推理质量的同时，体积压缩得非常狠；如果你对输出质量要求极高，那 Q6_K 或者 Q8_0 可能更稳妥。这里有个巧妙的设计：Unsloth 提供了不同量化等级的 Benchmark 数据，让你能直观看到显存占用和推理速度的变化。这比单纯听人说“我觉得这个好用”要靠谱得多。\n\n### 性能基准数据帮你避开“盲选”陷阱\n为了让你不踩坑，文章直接甩出了实测数据。比如在特定硬件上，使用 Q4_K_M 量化后的 Qwen 3.5，推理速度能达到多少 tokens/s，显存占用具体是多少 GB。这些硬核数据非常有价值，因为它们帮你建立了预期。你不需要自己一个个去试错，直接对照表格，就能知道自己手里的机器能跑什么档位的模型。这种“所见即所得”的体验，对于急着上手的开发者来说太重要了。\n\n### 微调本地模型不再是云端专属\n除了推理，文档还花了不少篇幅讲怎么在本地微调 Qwen 3.5。以前大家觉得微调必须租昂贵的 GPU 云服务器，但现在结合 Unsloth 的优化，你在本地就能完成 LoRA 微调。核心思路其实很简单：利用量化后的模型作为基底，只训练极少量的参数，就能让模型适应特定任务。这样做的好处是不仅成本低，而且数据隐私完全掌握在自己手里，不用担心敏感代码传到云端。\n\n### 从下载到运行的完整链路都打通了\n最后，文章把整个流程串了起来：从 Hugging Face 下载 GGUF 格式的模型文件，到配置 `llama.cpp`，再到编写推理脚本。它没有停留在理论层面，而是给出了具体的命令行操作。对于有经验的开发者来说，这部分最实用，因为它帮你省去了查阅大量文档的时间。你只需要照着做，很快就能在本地终端里看到 Qwen 3.5 吐出第一个回复。"
-    },
-    {
-      "id": 47295837,
-      "by": "vinhnx",
-      "title": "Notes on Writing WASM",
-      "url": "https://notes.brooklynzelenka.com/Blog/Notes-on-Writing-Wasm",
-      "score": 134,
-      "detailUpdatedAt": 1772990000,
-      "createdAt": 1772964622,
-      "aiSummaryUpdatedAt": 1772991113,
-      "aisummary": {
-        "chinese_title": "写 WASM 的笔记：组件模型、绑定与工具痛点",
-        "emoji": "🤔",
-        "sarcastic_question": "把字符串传输优化好，就能让WASM普及吗？"
-      },
-      "classifications": {
-        "topics": [
-          4,
-          5,
-          6
-        ],
-        "facets": [
-          5
-        ],
-        "tags": [
-          "WASM",
-          "Rust",
-          "wasm-bindgen"
-        ]
-      },
-      "classificationsUpdatedAt": 1772971554,
-      "aiSummary": {
-        "chinese_title": "写 WASM 的笔记：组件模型、绑定与工具痛点",
-        "emoji": "🤔",
-        "sarcastic_question": "把字符串传输优化好，就能让WASM普及吗？"
-      },
-      "detail": {
-        "id": 47295837,
-        "by": "vinhnx",
-        "title": "Notes on Writing WASM",
-        "url": "https://notes.brooklynzelenka.com/Blog/Notes-on-Writing-Wasm",
-        "score": 134,
-        "detailUpdatedAt": 1772990000,
-        "createdAt": 1772964622,
-        "aiSummaryUpdatedAt": 1772991113,
-        "aisummary": {
-          "chinese_title": "写 WASM 的笔记：组件模型、绑定与工具痛点",
-          "discussion_overview": [
-            {
-              "category": "WASM Component Model：浏览器集成的争议",
-              "summary": "多位评论提到 Mozilla/Firefox 在推动将 Web APIs 直接暴露给 WASM 的早期提案（基于 WASM Component Model），目标是让 WebAssembly 在浏览器中成为一等公民并减少 JS shim。支持者认为这能降低唤醒 JS 引擎的开销、改善字符串编组性能并提升开发者体验，还能让不同语言通过高层接口互操作，避免把一切退回到 C 风格接口。反对者则指出 Component Model 会带来大量复杂性且收益有限：示例中的性能提升主要体现在字符串传输场景，并不能自动解决像 WebGPU 那类需要在 WGPUBuffer 与 JS ArrayBuffer 之间拷贝的大量数据通路问题。",
-              "supportid": [
-                "47297922",
-                "47298868",
-                "47298352",
-                "47298681"
-              ]
-            },
-            {
-              "category": "绑定工具与实践：自动绑定的成本",
-              "summary": "评论普遍批评自动绑定工具（如 Emscripten 的 embind 或 wasm-bindgen）容易引入体积膨胀、复杂的 glue code 和调优难题，建议不要盲目自动映射复杂语言的原生类型。实务经验是采用混合式工程：把非琐碎工作放在手写的 JS/宿主中、或通过设计良好的 C API 隧道进行互操作，而不是把 C++/Rust 的大语义表面直接暴露到 JS。评论还指出 wasm-bindgen 曾有维护停滞的问题（影响体验），相比之下像 PyO3 在 Python 生态的工具链体验被认为更好，且有报道 2025 年起社区与公司（如 Cloudflare）开始推动相关工具的活跃度回升。",
-              "supportid": [
-                "47296624",
-                "47296439",
-                "47296557",
-                "47296609",
-                "47297178"
-              ]
-            },
-            {
-              "category": "采纳与用途：是小众还是关键组件？",
-              "summary": "有人断言 WASM 使用者规模非常小、注定成为小众技术，但反方列举了多个现实落地的场景来反驳这一点。实用案例包括浏览器端将计算密集任务交给 WASM 的创意/生产力工具（如 Figma、Miro），以及后端/边缘把 WASM 当作沙箱或插件运行时（如 Istio、Helm、OPA）；另有团队用 WASM 在浏览器部署机器学习模型。讨论还指出，若能实现更直接的 DOM 访问或减少 JS glue，某些用例会更容易采用，但当前跨界的字符串编码、内存拷贝等互操作成本仍然是阻力。",
-              "supportid": [
-                "47296536",
-                "47297260",
-                "47296794",
-                "47297014"
-              ]
-            },
-            {
-              "category": "GC 支持与语言生态变化",
-              "summary": "评论中关于 WASM GC 的讨论来自正在尝试基于 WASM GC 写语言的人与使用者，他们报告了具体设计权衡：WASM 的 GC 把 ref/struct/array 等类型交由运行时管理，vtable 实现较直接但接口设计受限，fat pointer/接口需要对象来表达。浏览器方面的好处是 GC 可以跨 DOM、JS 与 WASM 协作实现统一回收，但缺点是跨边界的数据传输需要更多拷贝——例如 GCed 字节数组对外不透明，需要提供逐字节访问或先拷贝到 linear memory；字符串处理尤为麻烦且多线程支持尚不足，部分提案（如 stringref）已停滞，WASI 向 GC 类型的 lowering 也在讨论之中。",
-              "supportid": [
-                "47297912",
-                "47298636",
-                "47299002",
-                "47297957"
-              ]
-            },
-            {
-              "category": "实践经验与工具链现实",
-              "summary": "多名开发者分享了不同语言在 WASM 上的实战体验：在游戏 jam 中 C++ 遇到 Emscripten 的编译 bug，Zig 在生态与文档上不足，Rust 因借用检查和严格编译带来学习与开发摩擦，而 Odin 在短期项目中体验良好。很多人因为互操作开销与绑定复杂性最终回退到 JS/TS，或选择在后端以 WASM 作为轻量沙箱；同时工具链（如 wasm2c/wasm2go）展示了 WASM 本身可以是较小的运行目标。评论还回顾了 asm.js 到 WebAssembly 的演进，解释了为何现在既有针对性能的设计，也有为 POSIX 仿真带来的 bloat 和不同用途的工具链分歧。",
-              "supportid": [
-                "47297874",
-                "47297827",
-                "47296681",
-                "47296439",
-                "47297857"
-              ]
-            }
-          ],
-          "terminologies": [
-            {
-              "term": "WASM Component Model",
-              "explanation": "一个旨在让 WebAssembly 能直接调用高层 Web API 的规范提案，目标是简化跨语言绑定、减少 JS shim 并改善类型与字符串互操作。"
-            },
-            {
-              "term": "wasm-bindgen",
-              "explanation": "Rust ↔ JavaScript 的绑定生成工具，用于把 Rust 类型与函数导出给 JS 使用；评论提到其维护活跃度直接影响开发体验。"
-            },
-            {
-              "term": "Emscripten",
-              "explanation": "把 C/C++ 编译到 JavaScript 或 Wasm 的工具链，包含 embind 自动绑定与 POSIX 仿真，经常被指出会引入体积膨胀与运行时边界。"
-            },
-            {
-              "term": "WASI（WebAssembly System Interface）",
-              "explanation": "为 WebAssembly 在非浏览器环境提供系统调用抽象的接口层，类似 POSIX，用于文件、内存与资源访问；讨论中涉及 WASI preview 0.2 与向 GC 类型的 lowering。"
-            },
-            {
-              "term": "linear memory（线性内存）",
-              "explanation": "WASM 的一块连续字节内存区域（linear memory），通常用于在 wasm 与宿主（JS/WASI）之间传输原始数据，并常作为跨界拷贝的桥梁。"
-            },
-            {
-              "term": "WASM GC（Garbage Collection）",
-              "explanation": "WebAssembly 新增的垃圾回收支持，提供 ref/struct/array 等受 GC 管理的类型，但当前跨边界访问、字符串处理与多线程支持仍存在限制。"
-            },
-            {
-              "term": "asm.js",
-              "explanation": "早期将 C/C++ 编译为高性能 JavaScript 子集的技术，是推动后来 WebAssembly 设计与演进的重要历史阶段。"
-            }
-          ],
-          "context": "本帖围绕一篇名为“Notes on Writing WASM”的文章及其评论展开，很多回复实际上是在讨论把 Rust/C++ 等语言编译到 WebAssembly 时的绑定、编码与工具链问题，而非手写原始 Wasm 二进制。讨论反复涉及历史与生态背景：asm.js 与 Emscripten（把 C/C++ 编译到 JS/WASM 的工具链）、wasm-bindgen/embind 这样的绑定工具的权衡，以及 Mozilla 倡导的 WASM Component Model（一个让 Wasm 直接调用高层 Web API 的提案）。技术前提包括字符串编码差异（JS 常用 UTF-16，Rust/Wasm 常用 UTF-8）、WASM 的 linear memory（线性内存）模型、WASI（WebAssembly System Interface）在服务端的角色，以及近期关于 WASM GC（垃圾回收）和跨界拷贝开销的争议。争论的核心是追求更原生的跨语言性能与更低的互操作复杂性之间的权衡：是继续依赖 JS glue，还是在浏览器/运行时层面增加复杂机制来简化绑定。",
-          "emoji": "🤔",
-          "sarcastic_question": "把字符串传输优化好，就能让WASM普及吗？"
-        },
-        "classifications": {
-          "topics": [
-            4,
-            5,
-            6
-          ],
-          "facets": [
-            5
-          ],
-          "tags": [
-            "WASM",
-            "Rust",
-            "wasm-bindgen"
-          ]
-        },
-        "classificationsUpdatedAt": 1772971554,
-        "aiSummary": {
-          "chinese_title": "写 WASM 的笔记：组件模型、绑定与工具痛点",
-          "discussion_overview": [
-            {
-              "category": "WASM Component Model：浏览器集成的争议",
-              "summary": "多位评论提到 Mozilla/Firefox 在推动将 Web APIs 直接暴露给 WASM 的早期提案（基于 WASM Component Model），目标是让 WebAssembly 在浏览器中成为一等公民并减少 JS shim。支持者认为这能降低唤醒 JS 引擎的开销、改善字符串编组性能并提升开发者体验，还能让不同语言通过高层接口互操作，避免把一切退回到 C 风格接口。反对者则指出 Component Model 会带来大量复杂性且收益有限：示例中的性能提升主要体现在字符串传输场景，并不能自动解决像 WebGPU 那类需要在 WGPUBuffer 与 JS ArrayBuffer 之间拷贝的大量数据通路问题。",
-              "supportid": [
-                "47297922",
-                "47298868",
-                "47298352",
-                "47298681"
-              ]
-            },
-            {
-              "category": "绑定工具与实践：自动绑定的成本",
-              "summary": "评论普遍批评自动绑定工具（如 Emscripten 的 embind 或 wasm-bindgen）容易引入体积膨胀、复杂的 glue code 和调优难题，建议不要盲目自动映射复杂语言的原生类型。实务经验是采用混合式工程：把非琐碎工作放在手写的 JS/宿主中、或通过设计良好的 C API 隧道进行互操作，而不是把 C++/Rust 的大语义表面直接暴露到 JS。评论还指出 wasm-bindgen 曾有维护停滞的问题（影响体验），相比之下像 PyO3 在 Python 生态的工具链体验被认为更好，且有报道 2025 年起社区与公司（如 Cloudflare）开始推动相关工具的活跃度回升。",
-              "supportid": [
-                "47296624",
-                "47296439",
-                "47296557",
-                "47296609",
-                "47297178"
-              ]
-            },
-            {
-              "category": "采纳与用途：是小众还是关键组件？",
-              "summary": "有人断言 WASM 使用者规模非常小、注定成为小众技术，但反方列举了多个现实落地的场景来反驳这一点。实用案例包括浏览器端将计算密集任务交给 WASM 的创意/生产力工具（如 Figma、Miro），以及后端/边缘把 WASM 当作沙箱或插件运行时（如 Istio、Helm、OPA）；另有团队用 WASM 在浏览器部署机器学习模型。讨论还指出，若能实现更直接的 DOM 访问或减少 JS glue，某些用例会更容易采用，但当前跨界的字符串编码、内存拷贝等互操作成本仍然是阻力。",
-              "supportid": [
-                "47296536",
-                "47297260",
-                "47296794",
-                "47297014"
-              ]
-            },
-            {
-              "category": "GC 支持与语言生态变化",
-              "summary": "评论中关于 WASM GC 的讨论来自正在尝试基于 WASM GC 写语言的人与使用者，他们报告了具体设计权衡：WASM 的 GC 把 ref/struct/array 等类型交由运行时管理，vtable 实现较直接但接口设计受限，fat pointer/接口需要对象来表达。浏览器方面的好处是 GC 可以跨 DOM、JS 与 WASM 协作实现统一回收，但缺点是跨边界的数据传输需要更多拷贝——例如 GCed 字节数组对外不透明，需要提供逐字节访问或先拷贝到 linear memory；字符串处理尤为麻烦且多线程支持尚不足，部分提案（如 stringref）已停滞，WASI 向 GC 类型的 lowering 也在讨论之中。",
-              "supportid": [
-                "47297912",
-                "47298636",
-                "47299002",
-                "47297957"
-              ]
-            },
-            {
-              "category": "实践经验与工具链现实",
-              "summary": "多名开发者分享了不同语言在 WASM 上的实战体验：在游戏 jam 中 C++ 遇到 Emscripten 的编译 bug，Zig 在生态与文档上不足，Rust 因借用检查和严格编译带来学习与开发摩擦，而 Odin 在短期项目中体验良好。很多人因为互操作开销与绑定复杂性最终回退到 JS/TS，或选择在后端以 WASM 作为轻量沙箱；同时工具链（如 wasm2c/wasm2go）展示了 WASM 本身可以是较小的运行目标。评论还回顾了 asm.js 到 WebAssembly 的演进，解释了为何现在既有针对性能的设计，也有为 POSIX 仿真带来的 bloat 和不同用途的工具链分歧。",
-              "supportid": [
-                "47297874",
-                "47297827",
-                "47296681",
-                "47296439",
-                "47297857"
-              ]
-            }
-          ],
-          "terminologies": [
-            {
-              "term": "WASM Component Model",
-              "explanation": "一个旨在让 WebAssembly 能直接调用高层 Web API 的规范提案，目标是简化跨语言绑定、减少 JS shim 并改善类型与字符串互操作。"
-            },
-            {
-              "term": "wasm-bindgen",
-              "explanation": "Rust ↔ JavaScript 的绑定生成工具，用于把 Rust 类型与函数导出给 JS 使用；评论提到其维护活跃度直接影响开发体验。"
-            },
-            {
-              "term": "Emscripten",
-              "explanation": "把 C/C++ 编译到 JavaScript 或 Wasm 的工具链，包含 embind 自动绑定与 POSIX 仿真，经常被指出会引入体积膨胀与运行时边界。"
-            },
-            {
-              "term": "WASI（WebAssembly System Interface）",
-              "explanation": "为 WebAssembly 在非浏览器环境提供系统调用抽象的接口层，类似 POSIX，用于文件、内存与资源访问；讨论中涉及 WASI preview 0.2 与向 GC 类型的 lowering。"
-            },
-            {
-              "term": "linear memory（线性内存）",
-              "explanation": "WASM 的一块连续字节内存区域（linear memory），通常用于在 wasm 与宿主（JS/WASI）之间传输原始数据，并常作为跨界拷贝的桥梁。"
-            },
-            {
-              "term": "WASM GC（Garbage Collection）",
-              "explanation": "WebAssembly 新增的垃圾回收支持，提供 ref/struct/array 等受 GC 管理的类型，但当前跨边界访问、字符串处理与多线程支持仍存在限制。"
-            },
-            {
-              "term": "asm.js",
-              "explanation": "早期将 C/C++ 编译为高性能 JavaScript 子集的技术，是推动后来 WebAssembly 设计与演进的重要历史阶段。"
-            }
-          ],
-          "context": "本帖围绕一篇名为“Notes on Writing WASM”的文章及其评论展开，很多回复实际上是在讨论把 Rust/C++ 等语言编译到 WebAssembly 时的绑定、编码与工具链问题，而非手写原始 Wasm 二进制。讨论反复涉及历史与生态背景：asm.js 与 Emscripten（把 C/C++ 编译到 JS/WASM 的工具链）、wasm-bindgen/embind 这样的绑定工具的权衡，以及 Mozilla 倡导的 WASM Component Model（一个让 Wasm 直接调用高层 Web API 的提案）。技术前提包括字符串编码差异（JS 常用 UTF-16，Rust/Wasm 常用 UTF-8）、WASM 的 linear memory（线性内存）模型、WASI（WebAssembly System Interface）在服务端的角色，以及近期关于 WASM GC（垃圾回收）和跨界拷贝开销的争议。争论的核心是追求更原生的跨语言性能与更低的互操作复杂性之间的权衡：是继续依赖 JS glue，还是在浏览器/运行时层面增加复杂机制来简化绑定。",
-          "emoji": "🤔",
-          "sarcastic_question": "把字符串传输优化好，就能让WASM普及吗？"
-        }
-      },
-      "articleSummary": "## 一句话总结\n写高性能 Wasm 的核心不在于死磕指令层面的微优化，而在于理解线性内存模型，通过精心设计数据布局来最小化内存访问开销。\n\n### 线性内存模型是性能的基石，也是陷阱\nWasm 的内存模型非常独特，它是一个巨大的、连续的字节数组。这听起来简单，但意味着你在 C++ 或 Rust 里习以为常的指针操作，在 Wasm 里都会变成显式的内存偏移量计算。核心思路其实很简单：因为内存是线性的，CPU 缓存行的利用率直接决定了你的代码跑得快不快。如果你像在宿主机上那样随意分配对象，导致数据在内存里支离破碎，缓存命中率就会暴跌，性能自然上不去。\n\n### 数据布局比算法选择更能决定生死\n有意思的地方在于，很多时候我们优化算法，却忽略了数据在内存里是怎么摆的。文章里提到了一个关键点：把经常一起访问的数据紧紧挨着存放。这叫 \"Struct of Arrays\" (SoA) 或者类似的紧凑布局策略。这样做的好处是，当 CPU 读取一个数据时，它顺带把周围的数据也加载进缓存了，下一次访问就是命中。说白了就是，为了榨干性能，你可能得牺牲一点代码的可读性，去迁就硬件的喜好。\n\n### 指令宽度不是越大越好，够用就行\n很多开发者觉得 Wasm64 或者 128-bit SIMD 指令集是性能银弹，但这其实是个误区。文章指出，使用更大的指令宽度会增加代码体积，导致下载和解析时间变长，这在 Web 场景下是致命的。更糟糕的是，如果你的数据本身没有对齐，或者没法填满这些宽指令，CPU 的执行单元就会空转。所以，真正的技巧在于根据你的实际数据类型，选择最合适的指令宽度，而不是盲目求大。\n\n### 垃圾回收在 Wasm 里是个沉重的包袱\n如果你习惯于写 Go 或 Java，可能会期待 Wasm 的 GC (Garbage Collection) 能帮你自动管理内存。但问题是，目前的 Wasm GC 实现往往伴随着不可预测的暂停。对于需要 60fps 流畅度的图形渲染或高频交易场景，这种由 GC 引起的卡顿是没法接受的。作者的建议很直接：在性能关键的路径上，尽量手动管理内存，或者使用 Rust 这种没有 GC 的语言编译到 Wasm。\n\n### 边界检查是安全锁，也是性能瓶颈\nWasm 为了安全，默认会在每次内存访问前检查边界。这就像你每次进房间都要保安查证件，安全是安全，但太慢了。虽然现代编译器很聪明，能通过循环分析消除掉很多检查，但在复杂的逻辑里，漏网之鱼依然很多。这里有个巧妙的设计：如果你能保证访问是安全的（比如通过数学证明），可以使用 `unsafe` 块或者特定的编译器指令来绕过检查，但这需要你对代码逻辑有绝对的掌控力。\n\n### 跨语言调用的开销比你想象的大\n很多架构喜欢把核心逻辑用 C++ 写成 Wasm，然后用 JS 胶水代码粘合。但问题是，JS 和 Wasm 之间的数据传递是有成本的。每次调用都要经过 \"边界\" (boundary)，数据可能需要被复制或者序列化。核心思路其实很简单：尽量减少跨边界的调用次数。不要在 JS 里写个循环去调 Wasm 函数，而是把数据一次性传过去，让 Wasm 内部处理完再一次性吐回来。\n\n### 最终的瓶颈往往在 I/O，而不是计算\n做了这么多优化，最后你可能会发现，计算已经不是瓶颈了。真正的瓶颈在于把数据从硬盘搬到内存，或者从服务器下载到浏览器。文章提醒我们，不要为了优化计算速度，把数据结构搞得过于复杂，导致 I/O 时间暴增。有时候，一个稍微慢一点但数据布局更友好的算法，反而能让整体吞吐量更高，因为它让 I/O 和 CPU 配合得更默契。"
     }
   ]
 }
