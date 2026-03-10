@@ -205,6 +205,25 @@
       "rank": 10
     },
     {
+      "title": "When the dotcom bubble burst",
+      "title_zh": "互联网泡沫破裂的历史回顾",
+      "link": "https://dfarq.homeip.net/when-the-dotcom-bubble-burst/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=when-the-dotcom-bubble-burst",
+      "pub_date": "2026-03-10T11:00:45.000Z",
+      "summary": "",
+      "source_name": "dfarq.homeip.net",
+      "score": 9,
+      "depth": 3,
+      "novelty": 2,
+      "breadth": 4,
+      "category": "opinion",
+      "keywords": [
+        "dotcom bubble",
+        "NASDAQ",
+        "history"
+      ],
+      "rank": 11
+    },
+    {
       "title": "Weekly Update 494",
       "title_zh": "Troy Hunt 每周更新 494",
       "link": "https://www.troyhunt.com/weekly-update-494/",
@@ -221,7 +240,7 @@
         "data breach",
         "weekly update"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "The fine print giveth and the bold print taketh away: The countdown timer",
@@ -240,7 +259,7 @@
         "terms of service",
         "UX"
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "title": "[Sponsor] Finalist",
@@ -259,7 +278,7 @@
         "productivity",
         "HealthKit"
       ],
-      "rank": 13
+      "rank": 14
     },
     {
       "title": "Update to the Ghost theme that powers this site",
@@ -278,7 +297,7 @@
         "theme",
         "Mastodon"
       ],
-      "rank": 14
+      "rank": 15
     },
     {
       "title": "MacBook Neo Wallpapers Now Available for All Macs in MacOS Tahoe 26.4 Beta",
@@ -297,7 +316,7 @@
         "wallpaper",
         "MacBook Neo"
       ],
-      "rank": 15
+      "rank": 16
     }
   ]
 }
