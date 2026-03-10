@@ -2,8 +2,8 @@
   "date": "2026-03-10",
   "total_feeds": 92,
   "success_feeds": 86,
-  "total_articles": 2443,
-  "filtered_articles": 19,
+  "total_articles": 2542,
+  "filtered_articles": 17,
   "articles": [
     {
       "title": "No, it doesn't cost Anthropic $5k per Claude Code user",
@@ -125,6 +125,45 @@
       "rank": 6
     },
     {
+      "title": "If there are URLs in your HTTP User-Agent, they should exist and work",
+      "title_zh": "User-Agent 中的 URL 必须真实可访问",
+      "link": "https://utcc.utoronto.ca/~cks/space/blog/web/UserAgentURLsShouldExist",
+      "pub_date": "2026-03-09T02:18:01.000Z",
+      "summary": "在 HTTP User-Agent 头中放置 URL 是良好实践，但作者指出这些 URL 必须真实可访问且内容有效。作者运营的网站会根据 User-Agent 识别并决定是否允许访问，无法识别的通用 User-Agent 会被阻止。比缺少 URL 更可疑的是放置了无效 URL，这看起来像试图伪装成合法代理但实际并非如此。作者反复看到各种错误情况，包括使用 example.com 等 RFC 示例域名、.lan 和 .local 等本地域名。这些通常来自软件提供了默认值而非要求用户配置。作者建议软件不应提供默认值，应强制用户配置自己的 URL，否则服务器管理员可能会直接阻止所有包含 example.com 的请求。",
+      "source_name": "utcc.utoronto.ca/~cks",
+      "score": 10,
+      "depth": 3,
+      "novelty": 3,
+      "breadth": 4,
+      "category": "engineering",
+      "keywords": [
+        "User-Agent",
+        "HTTP",
+        "spam",
+        "blocking"
+      ],
+      "rank": 7
+    },
+    {
+      "title": "Weekly Update 494",
+      "title_zh": "Troy Hunt 每周更新 494",
+      "link": "https://www.troyhunt.com/weekly-update-494/",
+      "pub_date": "2026-03-10T01:29:35.000Z",
+      "summary": "",
+      "source_name": "troyhunt.com",
+      "score": 8,
+      "depth": 2,
+      "novelty": 2,
+      "breadth": 4,
+      "category": "security",
+      "keywords": [
+        "HIBP",
+        "data breach",
+        "weekly update"
+      ],
+      "rank": 8
+    },
+    {
       "title": "The fine print giveth and the bold print taketh away: The countdown timer",
       "title_zh": "倒计时器与条款阅读的矛盾",
       "link": "https://devblogs.microsoft.com/oldnewthing/20260309-01/?p=112120",
@@ -141,7 +180,7 @@
         "terms of service",
         "UX"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "[Sponsor] Finalist",
@@ -160,7 +199,7 @@
         "productivity",
         "HealthKit"
       ],
-      "rank": 8
+      "rank": 10
     },
     {
       "title": "MacBook Neo Wallpapers Now Available for All Macs in MacOS Tahoe 26.4 Beta",
@@ -179,7 +218,7 @@
         "wallpaper",
         "MacBook Neo"
       ],
-      "rank": 9
+      "rank": 11
     }
   ]
 }
