@@ -2,7 +2,7 @@
   "date": "2026-03-11",
   "total_feeds": 92,
   "success_feeds": 86,
-  "total_articles": 2443,
+  "total_articles": 2542,
   "filtered_articles": 18,
   "articles": [
     {
@@ -86,6 +86,26 @@
       "rank": 4
     },
     {
+      "title": "AI should help us produce better code",
+      "title_zh": "用 AI 编码代理提升代码质量",
+      "link": "https://simonwillison.net/guides/agentic-engineering-patterns/better-code/#atom-everything",
+      "pub_date": "2026-03-10T22:25:09.000Z",
+      "summary": "AI 编码代理应该用于提升代码质量而非降低标准。技术债务往往源于那些概念简单但耗时的重构任务，如 API 设计调整、命名规范统一、功能合并和模块拆分，这些任务正是编码代理的理想应用场景。通过 Gemini Jules、OpenAI Codex 或 Claude Code 等异步代理在后台分支执行重构，开发者可以在 Pull Request 中评估结果，成本已降至可以零容忍代码异味。LLM 还能帮助发现训练数据中常见的 Boring Technology 方案，避免遗漏显而易见的解决方案。更重要的是，编码代理可以快速构建探索性原型，例如为高并发活动 feed 测试 Redis 适用性，通过负载测试验证技术选择。Every 公司的 Compound Engineering 方法强调在每个项目结束后进行回顾，将有效经验文档化以指导未来的代理运行。代码改进成本的大幅降低意味着开发者可以同时交付新功能和提升代码质量，小改进会随时间复利增长。",
+      "source_name": "simonwillison.net",
+      "score": 18,
+      "depth": 5,
+      "novelty": 6,
+      "breadth": 7,
+      "category": "engineering",
+      "keywords": [
+        "coding-agents",
+        "technical-debt",
+        "refactoring",
+        "compound-engineering"
+      ],
+      "rank": 5
+    },
+    {
       "title": "I'm Not Lying, I'm Hallucinating",
       "title_zh": "LLM 幻觉：从预测错误到神经障碍",
       "link": "https://idiallo.com/byte-size/im-not-lying-im-hallucinating?src=feed",
@@ -103,7 +123,7 @@
         "Karpathy",
         "vibe coding"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Simplifying expressions in SymPy",
@@ -122,7 +142,7 @@
         "Python",
         "simplification"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "HN Skins 0.4.0 - Black Bar Updates",
@@ -142,7 +162,7 @@
         "Hacker News",
         "themes"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "A snappy answer when asked about dressing casually at IBM",
@@ -161,7 +181,7 @@
         "culture",
         "history"
       ],
-      "rank": 8
+      "rank": 9
     }
   ]
 }
