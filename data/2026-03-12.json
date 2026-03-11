@@ -1,1 +1,29 @@
-null
+{
+  "date": "2026-03-12",
+  "total_feeds": 92,
+  "success_feeds": 86,
+  "total_articles": 2443,
+  "filtered_articles": 13,
+  "articles": [
+    {
+      "title": "Iran-Backed Hackers Claim Wiper Attack on Medtech Firm Stryker",
+      "title_zh": "伊朗黑客利用 Microsoft Intune 擦除 Stryker 设备",
+      "link": "https://krebsonsecurity.com/2026/03/iran-backed-hackers-claim-wiper-attack-on-medtech-firm-stryker/",
+      "pub_date": "2026-03-11T16:20:13.000Z",
+      "summary": "伊朗支持的黑客组织 Handala 声称对医疗技术公司 Stryker 发起大规模数据擦除攻击，声称影响 79 个国家超过 20 万台系统、服务器和移动设备。Stryker 爱尔兰分部已让 5000 多名员工回家，美国总部电话提示建筑紧急情况。匿名消息源透露，攻击者可能通过 Microsoft Intune 管理平台下发远程擦除命令，而非传统恶意软件。Reddit 上多名自称 Stryker 员工的用户称收到紧急卸载 Intune 的通知，员工个人设备上的 Outlook 也被擦除，登录页面被替换为 Handala 标志。Palo Alto Networks 将 Handala 归因为伊朗情报与安全部（MOIS）关联的 Void Manticore 组织，该组织此前主要针对以色列目标，此次攻击被描述为对 2 月 28 日导弹袭击伊朗学校的报复。",
+      "source_name": "krebsonsecurity.com",
+      "score": 23,
+      "depth": 7,
+      "novelty": 8,
+      "breadth": 8,
+      "category": "security",
+      "keywords": [
+        "wiper attack",
+        "Microsoft Intune",
+        "Handala",
+        "Stryker"
+      ],
+      "rank": 1
+    }
+  ]
+}
