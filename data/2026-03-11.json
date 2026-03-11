@@ -1,8 +1,8 @@
 {
   "date": "2026-03-11",
   "total_feeds": 92,
-  "success_feeds": 84,
-  "total_articles": 2401,
+  "success_feeds": 85,
+  "total_articles": 2418,
   "filtered_articles": 16,
   "articles": [
     {
@@ -226,6 +226,25 @@
       "rank": 11
     },
     {
+      "title": "Amiga 600: The Amiga no one wanted",
+      "title_zh": "Amiga 600：无人问津的失败机型",
+      "link": "https://dfarq.homeip.net/amiga-600-the-amiga-no-one-wanted/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=amiga-600-the-amiga-no-one-wanted",
+      "pub_date": "2026-03-11T11:00:23.000Z",
+      "summary": "",
+      "source_name": "dfarq.homeip.net",
+      "score": 9,
+      "depth": 4,
+      "novelty": 3,
+      "breadth": 2,
+      "category": "other",
+      "keywords": [
+        "Amiga",
+        "Commodore",
+        "retro computing"
+      ],
+      "rank": 12
+    },
+    {
       "title": "Simplifying expressions in SymPy",
       "title_zh": "SymPy 表达式简化的边界陷阱",
       "link": "https://www.johndcook.com/blog/2026/03/10/simplifying-expressions-in-sympy/",
@@ -242,7 +261,7 @@
         "Python",
         "simplification"
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "title": "The Server Older than my Kids!",
@@ -262,7 +281,7 @@
         "Ubuntu",
         "Nginx"
       ],
-      "rank": 13
+      "rank": 14
     },
     {
       "title": "HN Skins 0.4.0 - Black Bar Updates",
@@ -282,7 +301,7 @@
         "Hacker News",
         "themes"
       ],
-      "rank": 14
+      "rank": 15
     },
     {
       "title": "A snappy answer when asked about dressing casually at IBM",
@@ -301,7 +320,7 @@
         "culture",
         "history"
       ],
-      "rank": 15
+      "rank": 16
     }
   ]
 }
