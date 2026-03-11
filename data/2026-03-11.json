@@ -3,7 +3,7 @@
   "total_feeds": 92,
   "success_feeds": 86,
   "total_articles": 2443,
-  "filtered_articles": 17,
+  "filtered_articles": 16,
   "articles": [
     {
       "title": "The Beginning Of History",
@@ -265,6 +265,25 @@
       "rank": 13
     },
     {
+      "title": "Quoting John Carmack",
+      "title_zh": "John Carmack：过度架构往往得不偿失",
+      "link": "https://simonwillison.net/2026/Mar/11/john-carmack/#atom-everything",
+      "pub_date": "2026-03-11T14:47:09.000Z",
+      "summary": "",
+      "source_name": "simonwillison.net",
+      "score": 9,
+      "depth": 2,
+      "novelty": 2,
+      "breadth": 5,
+      "category": "opinion",
+      "keywords": [
+        "YAGNI",
+        "software-engineering",
+        "architecture"
+      ],
+      "rank": 14
+    },
+    {
       "title": "Simplifying expressions in SymPy",
       "title_zh": "SymPy 表达式简化的边界陷阱",
       "link": "https://www.johndcook.com/blog/2026/03/10/simplifying-expressions-in-sympy/",
@@ -281,7 +300,7 @@
         "Python",
         "simplification"
       ],
-      "rank": 14
+      "rank": 15
     },
     {
       "title": "The Server Older than my Kids!",
@@ -301,7 +320,7 @@
         "Ubuntu",
         "Nginx"
       ],
-      "rank": 15
+      "rank": 16
     },
     {
       "title": "HN Skins 0.4.0 - Black Bar Updates",
@@ -321,7 +340,7 @@
         "Hacker News",
         "themes"
       ],
-      "rank": 16
+      "rank": 17
     },
     {
       "title": "A snappy answer when asked about dressing casually at IBM",
@@ -340,7 +359,7 @@
         "culture",
         "history"
       ],
-      "rank": 17
+      "rank": 18
     },
     {
       "title": "Game Review: It Takes Two ★★★★★",
@@ -358,7 +377,7 @@
         "co-op",
         "game review"
       ],
-      "rank": 18
+      "rank": 19
     }
   ]
 }
