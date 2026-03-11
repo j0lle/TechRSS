@@ -3,7 +3,7 @@
   "total_feeds": 92,
   "success_feeds": 85,
   "total_articles": 2418,
-  "filtered_articles": 16,
+  "filtered_articles": 17,
   "articles": [
     {
       "title": "The Beginning Of History",
@@ -146,6 +146,26 @@
       "rank": 7
     },
     {
+      "title": "Every minute you aren’t running 69 agents, you are falling behind",
+      "title_zh": "AI 不会递归，别被社交媒体焦虑绑架",
+      "link": "https://geohot.github.io//blog/jekyll/update/2026/03/11/running-69-agents.html",
+      "pub_date": "2026-03-10T16:00:00.000Z",
+      "summary": "AI 只是搜索和优化的延续，不会发生递归奇点。社交媒体散布的焦虑毫无根据，AI 在某些领域有优势，在其他领域有劣势。真正面临淘汰的是那些制造复杂性的寻租者，裁员是大玩家整合寻租行为的结果。出路是创造价值而非参与零和游戏，只要创造的价值超过消耗，就能在任何良好运转的社区立足。",
+      "source_name": "geohot.github.io",
+      "score": 16,
+      "depth": 4,
+      "novelty": 6,
+      "breadth": 6,
+      "category": "opinion",
+      "keywords": [
+        "AI",
+        "agents",
+        "rent seeking",
+        "value creation"
+      ],
+      "rank": 8
+    },
+    {
       "title": "I'm Not Lying, I'm Hallucinating",
       "title_zh": "LLM 幻觉：从预测错误到神经障碍",
       "link": "https://idiallo.com/byte-size/im-not-lying-im-hallucinating?src=feed",
@@ -163,7 +183,7 @@
         "Karpathy",
         "vibe coding"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Simplifying expressions in SymPy",
@@ -182,7 +202,7 @@
         "Python",
         "simplification"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "The Server Older than my Kids!",
@@ -202,7 +222,7 @@
         "Ubuntu",
         "Nginx"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "HN Skins 0.4.0 - Black Bar Updates",
@@ -222,7 +242,7 @@
         "Hacker News",
         "themes"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "A snappy answer when asked about dressing casually at IBM",
@@ -241,7 +261,7 @@
         "culture",
         "history"
       ],
-      "rank": 12
+      "rank": 13
     }
   ]
 }
