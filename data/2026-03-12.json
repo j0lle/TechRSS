@@ -46,6 +46,26 @@
       "rank": 2
     },
     {
+      "title": "I don't know if I like working at higher levels of abstraction",
+      "title_zh": "AI 抽象层对工程工艺的侵蚀",
+      "link": "https://xeiaso.net/blog/2026/ai-abstraction/",
+      "pub_date": "2026-03-11T00:00:00.000Z",
+      "summary": "AI 工具将开发者推向更高抽象层，从编写代码转向描述意图。作者使用 Claude 后发现，虽然产出速度大幅提升，但每个成果都像标准化的公文，缺乏个人风格和情感重量。生成式 AI 会磨平棱角，让内容趋向平均值，默认输出是权威解释者口吻，与所有人雷同。要保持独特声音需要刻意抵抗这种同质化倾向。行业陷入双重思维：资深工程师说 AI 只是工具，公司却裁掉原本可以学会负责任使用工具的初级工程师；领导层声称重视工艺，却设定了不依赖机器就无法完成的截止日期。AI 输出正确、称职、平庸，而平庸是作者作为写作者和工程师最反对的。作者选择保留低抽象层和额外工时，以维护独特的写作声音和工艺质量。",
+      "source_name": "xeiaso.net",
+      "score": 16,
+      "depth": 3,
+      "novelty": 6,
+      "breadth": 7,
+      "category": "opinion",
+      "keywords": [
+        "Claude",
+        "abstraction",
+        "craft",
+        "junior engineers"
+      ],
+      "rank": 3
+    },
+    {
       "title": "How do compilers ensure that large stack allocations do not skip over the guard page?",
       "title_zh": "编译器如何防止大栈分配跳过保护页",
       "link": "https://devblogs.microsoft.com/oldnewthing/20260311-00/?p=112134",
@@ -63,7 +83,7 @@
         "_chkstk",
         "compiler"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "From the DF Archive: ‘And Oranges’",
@@ -83,7 +103,7 @@
         "Ubuntu",
         "ideology"
       ],
-      "rank": 4
+      "rank": 5
     }
   ]
 }
