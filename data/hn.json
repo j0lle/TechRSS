@@ -1,6 +1,205 @@
 {
-  "updatedAt": "2026-03-11T15:42:54.408Z",
+  "updatedAt": "2026-03-11T16:08:20.132Z",
   "items": [
+    {
+      "id": 47295855,
+      "by": "TheWiggles",
+      "title": "Julia Snail – An Emacs Development Environment for Julia Like Clojure's Cider",
+      "url": "https://github.com/gcv/julia-snail",
+      "score": 126,
+      "detailUpdatedAt": 1773243841,
+      "createdAt": 1773202856,
+      "aiSummaryUpdatedAt": 1773244903,
+      "aisummary": {
+        "chinese_title": "Julia Snail：Emacs 上的类 CIDER Julia 开发，引发 Emacs 现代化争论",
+        "emoji": "🐌",
+        "sarcastic_question": "真有人觉得把REPL+Emacs叫现代化吗？"
+      },
+      "classifications": {
+        "topics": [
+          4
+        ],
+        "facets": [
+          4
+        ],
+        "tags": [
+          "Julia Snail",
+          "Julia",
+          "Emacs",
+          "Cider",
+          "Clojure",
+          "REPL"
+        ]
+      },
+      "classificationsUpdatedAt": 1773230180,
+      "aiSummary": {
+        "chinese_title": "Julia Snail：Emacs 上的类 CIDER Julia 开发，引发 Emacs 现代化争论",
+        "emoji": "🐌",
+        "sarcastic_question": "真有人觉得把REPL+Emacs叫现代化吗？"
+      },
+      "detail": {
+        "id": 47295855,
+        "by": "TheWiggles",
+        "title": "Julia Snail – An Emacs Development Environment for Julia Like Clojure's Cider",
+        "url": "https://github.com/gcv/julia-snail",
+        "score": 126,
+        "detailUpdatedAt": 1773243841,
+        "createdAt": 1773202856,
+        "aiSummaryUpdatedAt": 1773244903,
+        "aisummary": {
+          "chinese_title": "Julia Snail：Emacs 上的类 CIDER Julia 开发，引发 Emacs 现代化争论",
+          "discussion_overview": [
+            {
+              "category": "工具谱系：CIDER、SLIME 与 nREPL",
+              "summary": "评论指出把 Julia Snail 直接类比为 Clojure 的 CIDER 需要注意历史渊源：CIDER 最初是基于 Common Lisp 的 SLIME 实现，随后分叉并最终衍生出基于 nREPL 的协议栈。也就是说“像 CIDER 一样”往往不只是前端体验，而涉及编辑器与 REPL 之间的协议与实现细节（例如 nREPL）。这一点被用来提醒读者不要把名字当做单一模式的简单类比，而要关注底层通信与交互设计。",
+              "supportid": [
+                "47334695"
+              ]
+            },
+            {
+              "category": "跨语言需求与工作流偏好（Haskell、notebook vs REPL）",
+              "summary": "有评论者表示希望类似的 Emacs+交互式工作流能为 Haskell 提供，认为 notebook 模式并非他们的首选。具体建议包括借鉴 dataframe 等库以缩短从代码到图表的反馈时间（time-to-graph），并强调文件+REPL 的组合比 notebook 更适合把函数保存在文件中同时进行交互式试验。评论还指出一个常见技术痛点：REPL 在重新加载文件时可能丢失已定义的变量或状态，这需要针对性设计来保持会话一致性。",
+              "supportid": [
+                "47333036"
+              ]
+            },
+            {
+              "category": "对 Emacs 可用性的批评：性能、交互与现代化缺陷",
+              "summary": "部分评论强烈批评 Emacs 的使用体验，列举了具体交互问题（例如“滚动会移动光标”）以及整体感觉“慢且多 bug”。有人认为 Emacs 缺乏真正的多线程支持，默认 UI 显得过时，难以满足现代文本编辑器的期望。这些批评把问题指向核心架构与长期遗留的交互模式，认为仅靠扩展无法彻底解决一些底层性能和并发限制。",
+              "supportid": [
+                "47332291",
+                "47332088",
+                "47333964",
+                "47334336"
+              ]
+            },
+            {
+              "category": "Emacs 支持者与可行的改进路径：生态、插件与开源贡献",
+              "summary": "另一组评论为 Emacs 辩护，指出许多用户并不认同“慢”的说法，Emacs 本身可以非常高效且高度可定制。具体可行的改进包括使用分屏或标记-恢复位置来解决滚动问题，采用 embark、which-key、transient、hydra、ivy/helm/vertico 等包提升交互体验，或直接使用 Spacemacs、Doom 之类的发行版以获得更现代的默认配置。评论还强调社区与开源实践：若发现缺陷应提交 PR 修复，而 Emacs 的现状在很大程度上是由核心维护者与用户偏好共同决定的。",
+              "supportid": [
+                "47334391",
+                "47332272",
+                "47332306",
+                "47334390",
+                "47334448",
+                "47333748",
+                "47334463"
+              ]
+            }
+          ],
+          "terminologies": [
+            {
+              "term": "CIDER",
+              "explanation": "CIDER（Clojure Interactive Development Environment that Rocks）——Clojure 在 Emacs 中的交互式开发插件，提供紧密的 REPL 集成与编辑器交互，最初受 SLIME 启发并演化出基于 nREPL 的实现。"
+            },
+            {
+              "term": "SLIME",
+              "explanation": "SLIME（Superior Lisp Interaction Mode for Emacs）——Common Lisp 在 Emacs 上的交互式开发环境与协议，历史上影响了 CIDER 的设计与实现。"
+            },
+            {
+              "term": "nREPL",
+              "explanation": "nREPL（networked REPL）——Clojure 生态中用于编辑器与 REPL 之间通信的网络化协议，支持多客户端交互与更丰富的编辑器集成。"
+            },
+            {
+              "term": "REPL",
+              "explanation": "REPL（Read–Eval–Print Loop）——交互式命令行会话，用于即时执行代码并保留运行时状态；讨论中涉及 REPL 在重载文件时状态丢失、与编辑器同步等问题。"
+            },
+            {
+              "term": "Emacs",
+              "explanation": "Emacs（GNU Emacs）——一个高度可定制的文本编辑器与开发环境，拥有丰富的包生态和发行版（如 Spacemacs、Doom），讨论集中在其性能、UI 与可定制性优劣上。"
+            }
+          ],
+          "context": "本帖源自对 Julia Snail（一个试图在 Emacs 中为 Julia 提供类似 CIDER 的交互式开发体验）的讨论，标题把它与 Clojure 社区常用的 CIDER 做了类比。评论追溯了 CIDER 的历史（从 SLIME 到基于 nREPL 的协议），并有人希望类似方法能推广到 Haskell，同时指出 notebook 与文件+REPL 的工作流差异与 REPL 状态一致性问题。话题扩展到对 Emacs 本身的争论：抱怨集中在滚动、并发与现代 UI，而支持者则列举了可通过插件、分屏或发行版（Spacemacs/Doom）改善的实际方案，并强调通过开源提交 PR 来修补缺陷。",
+          "emoji": "🐌",
+          "sarcastic_question": "真有人觉得把REPL+Emacs叫现代化吗？"
+        },
+        "classifications": {
+          "topics": [
+            4
+          ],
+          "facets": [
+            4
+          ],
+          "tags": [
+            "Julia Snail",
+            "Julia",
+            "Emacs",
+            "Cider",
+            "Clojure",
+            "REPL"
+          ]
+        },
+        "classificationsUpdatedAt": 1773230180,
+        "aiSummary": {
+          "chinese_title": "Julia Snail：Emacs 上的类 CIDER Julia 开发，引发 Emacs 现代化争论",
+          "discussion_overview": [
+            {
+              "category": "工具谱系：CIDER、SLIME 与 nREPL",
+              "summary": "评论指出把 Julia Snail 直接类比为 Clojure 的 CIDER 需要注意历史渊源：CIDER 最初是基于 Common Lisp 的 SLIME 实现，随后分叉并最终衍生出基于 nREPL 的协议栈。也就是说“像 CIDER 一样”往往不只是前端体验，而涉及编辑器与 REPL 之间的协议与实现细节（例如 nREPL）。这一点被用来提醒读者不要把名字当做单一模式的简单类比，而要关注底层通信与交互设计。",
+              "supportid": [
+                "47334695"
+              ]
+            },
+            {
+              "category": "跨语言需求与工作流偏好（Haskell、notebook vs REPL）",
+              "summary": "有评论者表示希望类似的 Emacs+交互式工作流能为 Haskell 提供，认为 notebook 模式并非他们的首选。具体建议包括借鉴 dataframe 等库以缩短从代码到图表的反馈时间（time-to-graph），并强调文件+REPL 的组合比 notebook 更适合把函数保存在文件中同时进行交互式试验。评论还指出一个常见技术痛点：REPL 在重新加载文件时可能丢失已定义的变量或状态，这需要针对性设计来保持会话一致性。",
+              "supportid": [
+                "47333036"
+              ]
+            },
+            {
+              "category": "对 Emacs 可用性的批评：性能、交互与现代化缺陷",
+              "summary": "部分评论强烈批评 Emacs 的使用体验，列举了具体交互问题（例如“滚动会移动光标”）以及整体感觉“慢且多 bug”。有人认为 Emacs 缺乏真正的多线程支持，默认 UI 显得过时，难以满足现代文本编辑器的期望。这些批评把问题指向核心架构与长期遗留的交互模式，认为仅靠扩展无法彻底解决一些底层性能和并发限制。",
+              "supportid": [
+                "47332291",
+                "47332088",
+                "47333964",
+                "47334336"
+              ]
+            },
+            {
+              "category": "Emacs 支持者与可行的改进路径：生态、插件与开源贡献",
+              "summary": "另一组评论为 Emacs 辩护，指出许多用户并不认同“慢”的说法，Emacs 本身可以非常高效且高度可定制。具体可行的改进包括使用分屏或标记-恢复位置来解决滚动问题，采用 embark、which-key、transient、hydra、ivy/helm/vertico 等包提升交互体验，或直接使用 Spacemacs、Doom 之类的发行版以获得更现代的默认配置。评论还强调社区与开源实践：若发现缺陷应提交 PR 修复，而 Emacs 的现状在很大程度上是由核心维护者与用户偏好共同决定的。",
+              "supportid": [
+                "47334391",
+                "47332272",
+                "47332306",
+                "47334390",
+                "47334448",
+                "47333748",
+                "47334463"
+              ]
+            }
+          ],
+          "terminologies": [
+            {
+              "term": "CIDER",
+              "explanation": "CIDER（Clojure Interactive Development Environment that Rocks）——Clojure 在 Emacs 中的交互式开发插件，提供紧密的 REPL 集成与编辑器交互，最初受 SLIME 启发并演化出基于 nREPL 的实现。"
+            },
+            {
+              "term": "SLIME",
+              "explanation": "SLIME（Superior Lisp Interaction Mode for Emacs）——Common Lisp 在 Emacs 上的交互式开发环境与协议，历史上影响了 CIDER 的设计与实现。"
+            },
+            {
+              "term": "nREPL",
+              "explanation": "nREPL（networked REPL）——Clojure 生态中用于编辑器与 REPL 之间通信的网络化协议，支持多客户端交互与更丰富的编辑器集成。"
+            },
+            {
+              "term": "REPL",
+              "explanation": "REPL（Read–Eval–Print Loop）——交互式命令行会话，用于即时执行代码并保留运行时状态；讨论中涉及 REPL 在重载文件时状态丢失、与编辑器同步等问题。"
+            },
+            {
+              "term": "Emacs",
+              "explanation": "Emacs（GNU Emacs）——一个高度可定制的文本编辑器与开发环境，拥有丰富的包生态和发行版（如 Spacemacs、Doom），讨论集中在其性能、UI 与可定制性优劣上。"
+            }
+          ],
+          "context": "本帖源自对 Julia Snail（一个试图在 Emacs 中为 Julia 提供类似 CIDER 的交互式开发体验）的讨论，标题把它与 Clojure 社区常用的 CIDER 做了类比。评论追溯了 CIDER 的历史（从 SLIME 到基于 nREPL 的协议），并有人希望类似方法能推广到 Haskell，同时指出 notebook 与文件+REPL 的工作流差异与 REPL 状态一致性问题。话题扩展到对 Emacs 本身的争论：抱怨集中在滚动、并发与现代 UI，而支持者则列举了可通过插件、分屏或发行版（Spacemacs/Doom）改善的实际方案，并强调通过开源提交 PR 来修补缺陷。",
+          "emoji": "🐌",
+          "sarcastic_question": "真有人觉得把REPL+Emacs叫现代化吗？"
+        }
+      },
+      "articleSummary": "## 一句话总结\nJulia Snail 把 Clojure 社区顶级的 Cider 开发体验搬到了 Emacs 上，通过复用 Julia 原生的 VS Code 协议，用极少的代码实现了一个功能完备的 REPL 环境。\n\n### Clojure 用户的“戒断反应”\n如果你是从 Clojure 阵营转过来的 Julia 开发者，可能会觉得 Emacs 里的 Julia 支持差点意思。习惯了 Cider 那种丝滑的 REPL 交互、代码求值和调试体验，再看 Julia 原生的 `julia-mode`，总感觉像是在用记事本。作者也是这么想的，他不想为了写 Julia 就放弃 Emacs 里那种“代码即数据”的流畅感，但他也不想从头造轮子。\n\n### 别重复造轮子，去“偷”现成的\n那怎么办？自己写一个语言服务器协议（LSP）的实现？工作量太大了。这里有个巧妙的设计：Julia 官方为了支持 VS Code，已经维护了一套非常完善的 LanguageServer.jl。作者发现，与其重新解析代码，不如直接让 Emacs 假装成 VS Code。通过 `eglot` 或者 `lsp-mode` 连接这个现成的服务器，基础的补全、跳转和诊断功能就全都有了，而且稳定性和官方 VS Code 插件一模一样。\n\n### REPL 才是灵魂，LSP 只是外壳\n但光有 LSP 不够，动态语言开发的核心是 REPL。有意思的地方在于，Snail 并没有重新发明一套通信协议，而是利用了 Julia 自带的 `stdin/stdout` 交互机制。它通过异步进程管理 Julia 的 REPL，把用户的代码发送过去执行，再把结果抓回来渲染到 Emacs 的 buffer 里。这样做的好处是，你在 Emacs 里看到的输出，和你在终端里跑 Julia 的行为完全一致，不会出现“本地能跑，REPL 里报错”的诡异情况。\n\n### 像 Cider 一样思考，而不是像 VS Code\n解决了通信问题，接下来就是交互逻辑。Snail 的核心思路其实很简单：模仿 Cider 的按键绑定和工作流。比如 `C-x C-e` 求值当前表达式，`C-c C-k` 加载整个文件。它不只是简单地发送代码，还处理了 Julia 的“模块”系统。当你切换 buffer 时，Snail 会自动切换到对应的 Module 上下文，确保你的代码是在正确的命名空间里执行的，这对于处理 Julia 的多重分发机制至关重要。\n\n### 极简架构带来的高可维护性\n这个项目最吸引人的地方在于它的代码量。因为把繁重的语法分析和类型推断工作都甩给了 Julia 原生的 LanguageServer，Snail 的核心 Emacs Lisp 代码非常精简。这意味着它不会像那些巨无霸插件一样，升级一次 Emacs 就崩一次。对于有经验的开发者来说，这种“胶水代码”少、逻辑清晰的架构，意味着你可以轻松读懂源码，甚至根据自己的需求快速打补丁。\n\n### 给硬核开发者的终极玩具\n说白了，Julia Snail 不是给想找个“好用 IDE”的新手准备的，它是给那些离不开 Emacs、又想要 Clojure 级别交互体验的“老顽固”准备的。它填补了 Julia 生态在 Emacs 上的拼图，让你既能享受 Julia 的高性能科学计算，又能守住 Emacs 那套“键盘不离手”的高效工作流。如果你正好卡在这个交集上，这绝对是值得尝试的方案。"
+    },
     {
       "id": 47330836,
       "by": "Retro_Dev",
@@ -13355,293 +13554,6 @@
         }
       },
       "articleSummary": "## 一句话总结\n爱尔兰关闭了最后一座燃煤电厂，成为欧洲第 15 个彻底淘汰煤炭的国家，这标志着其能源转型从依赖化石燃料正式转向以风能为主的可再生能源体系。\n\n### 最后一座煤电厂的历史使命终结\n爱尔兰的 Moneypoint 电厂作为最后一座燃煤电站，已经运行了近 40 年。它曾经是国家电力供应的支柱，但在环保政策和经济性的双重压力下，最终走到了尽头。关闭它不仅仅是因为碳排放，更是因为运营成本在新能源面前已经失去了竞争力。这标志着爱尔兰一个时代的结束，彻底告别了燃煤发电的历史。\n\n### 风能成为了新的电力主角\n有意思的地方在于，爱尔兰并没有用另一种化石燃料来填补煤炭留下的空缺，而是选择了风能。目前，风能已经提供了爱尔兰约 39% 的电力供应，这个比例在全球范围内都是相当领先的。说白了就是，爱尔兰利用其得天独厚的地理优势，把海风变成了最核心的能源资产。这种转型并非一蹴而就，而是经过了多年的持续投入和基础设施建设。\n\n### 能源转型的背后是政策与市场的双重驱动\n核心思路其实很简单：政策设定目标，市场技术跟进。爱尔兰政府制定了明确的减排目标，配合碳税等经济手段，让煤炭发电无利可图。同时，可再生能源技术的成本大幅下降，使得风电和光伏在价格上具备了碾压优势。这种“胡萝卜加大棒”的策略，迫使能源企业不得不主动寻求转型，而不是被动等待被淘汰。\n\n### 欧洲去煤化浪潮的一个缩影\n这次关闭让爱尔兰成为了欧洲第 15 个实现无煤化的国家，这并不是孤立事件。整个欧洲正在加速淘汰煤炭，从西欧到北欧，越来越多的国家设定了具体的退煤时间表。这背后反映的是整个欧洲对于能源安全和气候变化的共识。虽然各国路径不同，有的靠核电，有的靠风电，但“去煤”这个大方向已经不可逆转。\n\n### 挑战依然存在：电网稳定性与储能\n但问题是，关掉煤电厂容易，保证电网稳定运行难。风能和光伏具有天然的间歇性，如何在没有煤电作为基荷的情况下维持供电稳定，是爱尔兰接下来必须面对的难题。这需要更智能的电网调度机制，以及大规模储能技术的跟进。未来的竞争，不再是看谁的电更便宜，而是看谁能更高效地管理和存储这些不稳定的绿电。\n\n### 未来的路：从无煤到全清洁\n虽然摆脱了煤炭，但这只是能源转型的第一步。爱尔兰的目标是到 2050 年实现碳中和，这意味着未来还需要在交通、供暖等电气化困难的领域下功夫。Moneypoint 电厂本身也计划转型，可能会被改造成绿色氢能生产基地或海上风电的枢纽。这告诉我们，基础设施的生命周期并没有结束，只是换了一种更清洁的方式继续存在。"
-    },
-    {
-      "id": 47282085,
-      "by": "zdw",
-      "title": "The Window Chrome of Our Discontent",
-      "url": "https://pxlnv.com/blog/window-chrome-of-our-discontent/",
-      "score": 129,
-      "detailUpdatedAt": 1773085406,
-      "createdAt": 1773064821,
-      "aiSummaryUpdatedAt": 1773086490,
-      "aisummary": {
-        "chinese_title": "对 macOS “Liquid Glass / Tahoe” 界面改动的愤怒与分歧",
-        "emoji": "😒",
-        "sarcastic_question": "把方向盘叫'chrome'就能收走吗？"
-      },
-      "classifications": {
-        "topics": [
-          11,
-          6
-        ],
-        "facets": [
-          9,
-          10
-        ],
-        "tags": [
-          "window chrome",
-          "Apple",
-          "macOS",
-          "Pages",
-          "Big Sur",
-          "Tahoe",
-          "Catalina",
-          "liquid glass",
-          "toolbar",
-          "sidebar"
-        ]
-      },
-      "classificationsUpdatedAt": 1773068177,
-      "aiSummary": {
-        "chinese_title": "对 macOS “Liquid Glass / Tahoe” 界面改动的愤怒与分歧",
-        "emoji": "😒",
-        "sarcastic_question": "把方向盘叫'chrome'就能收走吗？"
-      },
-      "detail": {
-        "id": 47282085,
-        "by": "zdw",
-        "title": "The Window Chrome of Our Discontent",
-        "url": "https://pxlnv.com/blog/window-chrome-of-our-discontent/",
-        "score": 129,
-        "detailUpdatedAt": 1773085406,
-        "createdAt": 1773064821,
-        "aiSummaryUpdatedAt": 1773086490,
-        "aisummary": {
-          "chinese_title": "对 macOS “Liquid Glass / Tahoe” 界面改动的愤怒与分歧",
-          "discussion_overview": [
-            {
-              "category": "强烈批评：视觉化简成为可用性倒退",
-              "summary": "大量评论认为 Tahoe（及所谓的 Liquid Glass）并非“去除干扰”而是功能性退步：过度圆角、白色椭圆按钮在浅色背景上缺乏对比，标签栏、工具按钮变成漂浮的“浮岛”，主动标签被缩小，导致识别与点击目标变差。具体例子包括新版 Safari 选项卡栏变成大椭圆、Pages 工具栏图标去色且无标签、模糊/折射效果有时遮挡或模糊内容，整体缺失深度与层次感。许多评论指出额外内边距、无谓留白和单一极简审美降低了效率与可发现性，尤其对专业或多任务用户影响明显。反复出现的结论是：视觉统一和“更漂亮”不能以牺牲可用性为代价。",
-              "supportid": [
-                "47310011",
-                "47310259",
-                "47283219",
-                "47309152",
-                "47309371",
-                "47308857",
-                "47312230",
-                "47310427",
-                "47311362",
-                "47309608"
-              ]
-            },
-            {
-              "category": "有保留的肯定：特效技术可取但需节制与选择性使用",
-              "summary": "部分评论认可 Liquid Glass 在技术实现上的吸引力，称模糊与折射效果“漂亮且技术上令人印象深刻”，尤其在触控或平板情境下更有意义。这些声音建议采用折中方案：以更稳健的视觉（如 Sequoia 或 Big Sur/Catalina 风格）为主，仅在特定窗口或控件中有选择地使用 Liquid Glass，而不是全盘应用。有人希望系统提供可切换的视觉配置或保留更具深度的界面选项，让不同需求的用户自行选择。总体态度是“认可效果但反对强制统一或滥用。”",
-              "supportid": [
-                "47310259",
-                "47311692",
-                "47314058",
-                "47310041"
-              ]
-            },
-            {
-              "category": "可发现性与可定制性被削弱：隐藏控件与重复入口的问题",
-              "summary": "很多评论强调现代系统逐步剥离自定义能力与控件可见性，从 Windows 98 可任意配色到如今默认极简的对比度下降，用户被剥夺调整界面的途径。Pages 的工具栏被去标签且与菜单重复，许多人只能靠记忆快捷键并关掉工具栏，说明新界面没有兼顾新手可学性与进阶用户效率。评论普遍主张应同时提供新手友好与可配置的进阶视图（例如一键隐藏/显示 chrome 或可切换 inspector 与侧边栏），而不是以单一极简作为唯一选项。",
-              "supportid": [
-                "47314098",
-                "47283219",
-                "47309994",
-                "47309678",
-                "47309698",
-                "47309335"
-              ]
-            },
-            {
-              "category": "迁移与替代的现实考量：Linux 可行但受专业软件阻碍",
-              "summary": "有人把 macOS 的设计倒退当作迁移到 Linux 桌面的催化剂，推荐 elementaryOS、Asahi Linux 或 Framework 硬件作为出路，但评论中也有大量现实困境的说明。专业创意工具（如 Adobe Illustrator、Photoshop、After Effects）仍然是最大障碍，评论建议的现实折中是在 Linux 上用 VM 运行 Windows 或保留少数专有环境而非完全放弃。多位评论对“AI 很快能替代这些专用软件”持怀疑态度，指出复杂的文件格式和插件生态短期内难以被替代或无缝迁移。",
-              "supportid": [
-                "47310588",
-                "47312507",
-                "47314121",
-                "47313044",
-                "47312060"
-              ]
-            },
-            {
-              "category": "设计趋势与高层驱动：内容优先、抄袭 Microsoft 与公司策略因素",
-              "summary": "讨论把当前“content over chrome”潮流追溯到 Microsoft 的 Metro（Windows 8）设计语言，认为这一路线影响了多家公司的界面简化做法。多条评论把 Apple 的方向归因于向移动/触控统一的迁移（Catalyst 与 SwiftUI 被点名），以及高层或股东对视觉统一与品牌形象的推动，而非基于可用性研究。有人还把界面走向与公司治理、继任与运营优先级联系起来，怀疑部分改动是由商业或展示层面的短期目标驱动而非长期用户价值导向。",
-              "supportid": [
-                "47310171",
-                "47310704",
-                "47313160",
-                "47311583",
-                "47312276"
-              ]
-            },
-            {
-              "category": "术语批评：把控件称为“chrome”是一种误导性的隐喻",
-              "summary": "有评论直接指出“chrome”这个术语是个误导性的隐喻：它把真正承担功能的控件当作汽车上的镀铬装饰，从而为去强调或隐藏控件提供了语义掩护。该观点用“把方向盘和踏板叫做 chrome 然后弱化它们”的比喻来说明问题，强调控件并非非功能性装饰，而是用户操控内容的核心。换言之，语言上的简化被认为间接正当化了设计上对交互元素的边缘化。",
-              "supportid": [
-                "47314024"
-              ]
-            }
-          ],
-          "terminologies": [
-            {
-              "term": "UI chrome",
-              "explanation": "指界面中非内容的元素（工具栏、按钮、菜单等），原意来自 1990s 用于区分“控件”与“内容”，但常被误读为“装饰性元素”而降低其重要性。"
-            },
-            {
-              "term": "Liquid Glass",
-              "explanation": "Apple 在近期 macOS 视觉更新中使用的半透明模糊/折射风格称谓，强调玻璃感与光学效果，但评论中批评其滥用导致可读性下降。"
-            },
-            {
-              "term": "Tahoe",
-              "explanation": "用于指代近期 macOS 界面更新的内部代号/风格名称，评论里以 Tahoe 来代表这轮设计变动。"
-            },
-            {
-              "term": "Sequoia",
-              "explanation": "评论中提到的另一种或被期望的 macOS 视觉方向（更稳健或更接近传统桌面风格），被用作与 Tahoe 的对比。"
-            },
-            {
-              "term": "Metro",
-              "explanation": "Microsoft 的设计语言（起于 Windows 8），强调“content over chrome”（内容优先），被认为是推动现代极简化界面潮流的源头之一。"
-            },
-            {
-              "term": "Catalyst / SwiftUI",
-              "explanation": "Catalyst 是 Apple 用于将 iPad 应用移植到 macOS 的技术，SwiftUI 是 Apple 的新跨平台 UI 框架，评论里被指为促成桌面界面向移动化统一的技术原因。"
-            },
-            {
-              "term": "HIG",
-              "explanation": "Human Interface Guidelines（苹果的人机界面指南），macOS/iOS 的设计规范，评论中被引用为传统桌面设计的基石。"
-            }
-          ],
-          "context": "讨论源自对 Apple 对 macOS 界面（代号 Tahoe）中称为 \"Liquid Glass\" 的视觉改动的不满，话题集中在模糊/半透明效果、极简化图标与控件可见性下降。评论者基于不同前提展开：有人强调可用性与可发现性（引用 Pages、Safari、工具栏与侧边栏的具体例子），有人把潮流归因于 Microsoft 的 Metro（Windows 8 的设计语言）与 Apple 向移动/触控统一的技术路线（如 Catalyst、SwiftUI）。此外讨论还牵涉到现实替代方案（如 elementaryOS、Asahi Linux、Framework 硬件或在 VM 中运行专业软件）以及对专业软件兼容性与长期用户价值的担忧。",
-          "emoji": "😒",
-          "sarcastic_question": "把方向盘叫'chrome'就能收走吗？"
-        },
-        "classifications": {
-          "topics": [
-            11,
-            6
-          ],
-          "facets": [
-            9,
-            10
-          ],
-          "tags": [
-            "window chrome",
-            "Apple",
-            "macOS",
-            "Pages",
-            "Big Sur",
-            "Tahoe",
-            "Catalina",
-            "liquid glass",
-            "toolbar",
-            "sidebar"
-          ]
-        },
-        "classificationsUpdatedAt": 1773068177,
-        "aiSummary": {
-          "chinese_title": "对 macOS “Liquid Glass / Tahoe” 界面改动的愤怒与分歧",
-          "discussion_overview": [
-            {
-              "category": "强烈批评：视觉化简成为可用性倒退",
-              "summary": "大量评论认为 Tahoe（及所谓的 Liquid Glass）并非“去除干扰”而是功能性退步：过度圆角、白色椭圆按钮在浅色背景上缺乏对比，标签栏、工具按钮变成漂浮的“浮岛”，主动标签被缩小，导致识别与点击目标变差。具体例子包括新版 Safari 选项卡栏变成大椭圆、Pages 工具栏图标去色且无标签、模糊/折射效果有时遮挡或模糊内容，整体缺失深度与层次感。许多评论指出额外内边距、无谓留白和单一极简审美降低了效率与可发现性，尤其对专业或多任务用户影响明显。反复出现的结论是：视觉统一和“更漂亮”不能以牺牲可用性为代价。",
-              "supportid": [
-                "47310011",
-                "47310259",
-                "47283219",
-                "47309152",
-                "47309371",
-                "47308857",
-                "47312230",
-                "47310427",
-                "47311362",
-                "47309608"
-              ]
-            },
-            {
-              "category": "有保留的肯定：特效技术可取但需节制与选择性使用",
-              "summary": "部分评论认可 Liquid Glass 在技术实现上的吸引力，称模糊与折射效果“漂亮且技术上令人印象深刻”，尤其在触控或平板情境下更有意义。这些声音建议采用折中方案：以更稳健的视觉（如 Sequoia 或 Big Sur/Catalina 风格）为主，仅在特定窗口或控件中有选择地使用 Liquid Glass，而不是全盘应用。有人希望系统提供可切换的视觉配置或保留更具深度的界面选项，让不同需求的用户自行选择。总体态度是“认可效果但反对强制统一或滥用。”",
-              "supportid": [
-                "47310259",
-                "47311692",
-                "47314058",
-                "47310041"
-              ]
-            },
-            {
-              "category": "可发现性与可定制性被削弱：隐藏控件与重复入口的问题",
-              "summary": "很多评论强调现代系统逐步剥离自定义能力与控件可见性，从 Windows 98 可任意配色到如今默认极简的对比度下降，用户被剥夺调整界面的途径。Pages 的工具栏被去标签且与菜单重复，许多人只能靠记忆快捷键并关掉工具栏，说明新界面没有兼顾新手可学性与进阶用户效率。评论普遍主张应同时提供新手友好与可配置的进阶视图（例如一键隐藏/显示 chrome 或可切换 inspector 与侧边栏），而不是以单一极简作为唯一选项。",
-              "supportid": [
-                "47314098",
-                "47283219",
-                "47309994",
-                "47309678",
-                "47309698",
-                "47309335"
-              ]
-            },
-            {
-              "category": "迁移与替代的现实考量：Linux 可行但受专业软件阻碍",
-              "summary": "有人把 macOS 的设计倒退当作迁移到 Linux 桌面的催化剂，推荐 elementaryOS、Asahi Linux 或 Framework 硬件作为出路，但评论中也有大量现实困境的说明。专业创意工具（如 Adobe Illustrator、Photoshop、After Effects）仍然是最大障碍，评论建议的现实折中是在 Linux 上用 VM 运行 Windows 或保留少数专有环境而非完全放弃。多位评论对“AI 很快能替代这些专用软件”持怀疑态度，指出复杂的文件格式和插件生态短期内难以被替代或无缝迁移。",
-              "supportid": [
-                "47310588",
-                "47312507",
-                "47314121",
-                "47313044",
-                "47312060"
-              ]
-            },
-            {
-              "category": "设计趋势与高层驱动：内容优先、抄袭 Microsoft 与公司策略因素",
-              "summary": "讨论把当前“content over chrome”潮流追溯到 Microsoft 的 Metro（Windows 8）设计语言，认为这一路线影响了多家公司的界面简化做法。多条评论把 Apple 的方向归因于向移动/触控统一的迁移（Catalyst 与 SwiftUI 被点名），以及高层或股东对视觉统一与品牌形象的推动，而非基于可用性研究。有人还把界面走向与公司治理、继任与运营优先级联系起来，怀疑部分改动是由商业或展示层面的短期目标驱动而非长期用户价值导向。",
-              "supportid": [
-                "47310171",
-                "47310704",
-                "47313160",
-                "47311583",
-                "47312276"
-              ]
-            },
-            {
-              "category": "术语批评：把控件称为“chrome”是一种误导性的隐喻",
-              "summary": "有评论直接指出“chrome”这个术语是个误导性的隐喻：它把真正承担功能的控件当作汽车上的镀铬装饰，从而为去强调或隐藏控件提供了语义掩护。该观点用“把方向盘和踏板叫做 chrome 然后弱化它们”的比喻来说明问题，强调控件并非非功能性装饰，而是用户操控内容的核心。换言之，语言上的简化被认为间接正当化了设计上对交互元素的边缘化。",
-              "supportid": [
-                "47314024"
-              ]
-            }
-          ],
-          "terminologies": [
-            {
-              "term": "UI chrome",
-              "explanation": "指界面中非内容的元素（工具栏、按钮、菜单等），原意来自 1990s 用于区分“控件”与“内容”，但常被误读为“装饰性元素”而降低其重要性。"
-            },
-            {
-              "term": "Liquid Glass",
-              "explanation": "Apple 在近期 macOS 视觉更新中使用的半透明模糊/折射风格称谓，强调玻璃感与光学效果，但评论中批评其滥用导致可读性下降。"
-            },
-            {
-              "term": "Tahoe",
-              "explanation": "用于指代近期 macOS 界面更新的内部代号/风格名称，评论里以 Tahoe 来代表这轮设计变动。"
-            },
-            {
-              "term": "Sequoia",
-              "explanation": "评论中提到的另一种或被期望的 macOS 视觉方向（更稳健或更接近传统桌面风格），被用作与 Tahoe 的对比。"
-            },
-            {
-              "term": "Metro",
-              "explanation": "Microsoft 的设计语言（起于 Windows 8），强调“content over chrome”（内容优先），被认为是推动现代极简化界面潮流的源头之一。"
-            },
-            {
-              "term": "Catalyst / SwiftUI",
-              "explanation": "Catalyst 是 Apple 用于将 iPad 应用移植到 macOS 的技术，SwiftUI 是 Apple 的新跨平台 UI 框架，评论里被指为促成桌面界面向移动化统一的技术原因。"
-            },
-            {
-              "term": "HIG",
-              "explanation": "Human Interface Guidelines（苹果的人机界面指南），macOS/iOS 的设计规范，评论中被引用为传统桌面设计的基石。"
-            }
-          ],
-          "context": "讨论源自对 Apple 对 macOS 界面（代号 Tahoe）中称为 \"Liquid Glass\" 的视觉改动的不满，话题集中在模糊/半透明效果、极简化图标与控件可见性下降。评论者基于不同前提展开：有人强调可用性与可发现性（引用 Pages、Safari、工具栏与侧边栏的具体例子），有人把潮流归因于 Microsoft 的 Metro（Windows 8 的设计语言）与 Apple 向移动/触控统一的技术路线（如 Catalyst、SwiftUI）。此外讨论还牵涉到现实替代方案（如 elementaryOS、Asahi Linux、Framework 硬件或在 VM 中运行专业软件）以及对专业软件兼容性与长期用户价值的担忧。",
-          "emoji": "😒",
-          "sarcastic_question": "把方向盘叫'chrome'就能收走吗？"
-        }
-      },
-      "articleSummary": "## 一句话总结\nApple 为了“让内容成为主角”而不断模糊窗口控件与文档的边界，结果反而因为视觉干扰的增加和付费功能的诱导，让界面变得既难用又令人分心。\n\n### 十四年如一日的“内容优先”承诺\n从 2011 年的 Mac OS X Lion 到 2025 年的 MacOS Tahoe，Apple 在每次系统大改版时都会重复同一个承诺：让用户专注于内容。无论是当年的 Aqua 设计，还是后来的 Fluent Design，官方话术都是要减少视觉杂乱，把界面元素“推到幕后”。这听起来是个无可厚非的好目标，毕竟没人喜欢花里胡哨的干扰。但问题在于，Apple 似乎认定了实现这一目标的唯一路径，就是让界面控件和文档背景在视觉上融为一体。\n\n### 消失的边界与浮动的按钮\n作者通过 Pages 文档的四个版本截图，直观展示了这一设计趋势的演变。在 Lion 时代，工具栏和文档有着清晰的分界线，灰色的背景让控件明确处于“后台”。到了 Big Sur 和 Tahoe 时代，工具栏变成了和文档一样的亮白色，甚至到了 Liquid Glass 阶段，按钮直接“悬浮”在文档之上。这种设计本意是沉浸感，但作者发现，当工具栏和文档共享同一套视觉语言时，工具栏反而失去了“隐身”的能力，变成了持续抢夺注意力的干扰源。\n\n### 单色设计带来的识别灾难\n为了追求极简，Apple 在新设计中抛弃了几乎所有能区分 UI 元素的变量。现在的按钮全是统一的形状、统一的单色图标，默认还没有文字标签。这种做法导致任何一点色彩都会变得极其刺眼。比如 Pages 里那个黄色的“Table”按钮和黑黄相间的“Comment”按钮，在白色背景下 glance一眼根本分不清。更糟糕的是，当开启“减少透明度”的无障碍功能时，这种低对比度的设计会进一步恶化，甚至出现像素化的低质量图标。\n\n### 被滥用的色彩：从功能指引变成付费诱导\n最让人不适的是色彩在新版 Pages 中的角色变化。在旧版中，色彩是用来区分功能的（比如绿色代表形状，黄色代表表格），帮助用户快速定位。但在最新的 Liquid Glass 界面里，满屏的灰色图标中突兀地出现了几个紫色图标。这并非为了标示 AI 功能——因为“Writing Tools”依然是灰色的——而是为了推广 Apple Creator Studio 的付费订阅功能。这种设计利用了视觉突兀性，把用户的注意力强行引导至付费服务上，完全背离了 UI 设计服务用户的初衷。\n\n### 并不是要复古，而是要找回设计变量\n作者并不认为应该全盘倒退回十年前的设计，毕竟旧版图标在无障碍对比度上也有硬伤。他反对的是 Apple 这种“非黑即白”的设计思路：为了强调内容，就抹杀所有界面元素的独立性。其实，Apple 完全可以通过形状、边框、阴影等多种变量来区分工具栏和文档，而不是单纯地让它们颜色一致。现在的做法不仅没有减少干扰，反而因为界限模糊和色彩滥用，让用户在使用时更加心累。"
     }
   ]
 }
