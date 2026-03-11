@@ -1,9 +1,9 @@
 {
   "date": "2026-03-11",
   "total_feeds": 92,
-  "success_feeds": 85,
-  "total_articles": 2418,
-  "filtered_articles": 16,
+  "success_feeds": 86,
+  "total_articles": 2443,
+  "filtered_articles": 17,
   "articles": [
     {
       "title": "The Beginning Of History",
@@ -206,6 +206,26 @@
       "rank": 10
     },
     {
+      "title": "Where did you think the training data was coming from?",
+      "title_zh": "Meta 眼镜的数据采集不是意外",
+      "link": "https://idiallo.com/blog/where-did-the-training-data-come-from-meta-ai-rayban-glasses?src=feed",
+      "pub_date": "2026-03-11T12:00:00.000Z",
+      "summary": "Meta Ray-Ban 智能眼镜将用户视频上传至 Facebook 服务器供人工处理，这并非意外而是商业模式必然。Windows 10 许可协议明确允许微软使用本地数据训练 AI 模型，Chromebook 强制绑定 Google 账号用于数据收集。Meta 98% 的收入来自广告，其数据收集动机远超 Google 和 Microsoft。Yann LeCun 七年前就公开承认使用数十亿张 Instagram 图片进行模型训练。AI 的能力来自对用户视频、音频、文本数据的持续采集，任何联网设备都不应被默认视为私密。",
+      "source_name": "idiallo.com",
+      "score": 13,
+      "depth": 4,
+      "novelty": 3,
+      "breadth": 6,
+      "category": "security",
+      "keywords": [
+        "Meta",
+        "privacy",
+        "training data",
+        "Ray-Ban"
+      ],
+      "rank": 11
+    },
+    {
       "title": "I'm Not Lying, I'm Hallucinating",
       "title_zh": "LLM 幻觉：从预测错误到神经障碍",
       "link": "https://idiallo.com/byte-size/im-not-lying-im-hallucinating?src=feed",
@@ -223,7 +243,7 @@
         "Karpathy",
         "vibe coding"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "Amiga 600: The Amiga no one wanted",
@@ -242,7 +262,7 @@
         "Commodore",
         "retro computing"
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "title": "Simplifying expressions in SymPy",
@@ -261,7 +281,7 @@
         "Python",
         "simplification"
       ],
-      "rank": 13
+      "rank": 14
     },
     {
       "title": "The Server Older than my Kids!",
@@ -281,7 +301,7 @@
         "Ubuntu",
         "Nginx"
       ],
-      "rank": 14
+      "rank": 15
     },
     {
       "title": "HN Skins 0.4.0 - Black Bar Updates",
@@ -301,7 +321,7 @@
         "Hacker News",
         "themes"
       ],
-      "rank": 15
+      "rank": 16
     },
     {
       "title": "A snappy answer when asked about dressing casually at IBM",
@@ -320,7 +340,25 @@
         "culture",
         "history"
       ],
-      "rank": 16
+      "rank": 17
+    },
+    {
+      "title": "Game Review: It Takes Two ★★★★★",
+      "title_zh": "双人合作游戏 It Takes Two 评测",
+      "link": "https://shkspr.mobi/blog/2026/03/game-review-it-takes-two/",
+      "pub_date": "2026-03-11T12:34:02.000Z",
+      "summary": "",
+      "source_name": "shkspr.mobi",
+      "score": 3,
+      "depth": 1,
+      "novelty": 1,
+      "breadth": 1,
+      "category": "other",
+      "keywords": [
+        "co-op",
+        "game review"
+      ],
+      "rank": 18
     }
   ]
 }
