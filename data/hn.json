@@ -1,6 +1,570 @@
 {
-  "updatedAt": "2026-03-11T08:51:59.624Z",
+  "updatedAt": "2026-03-11T09:51:13.982Z",
   "items": [
+    {
+      "id": 47328214,
+      "by": "todsacerdoti",
+      "title": "RISC-V Is Sloooow",
+      "url": "https://marcin.juszkiewicz.com.pl/2026/03/10/risc-v-is-sloooow/",
+      "score": 231,
+      "detailUpdatedAt": 1773220438,
+      "createdAt": 1773174055,
+      "aiSummaryUpdatedAt": 1773221232,
+      "aisummary": {
+        "chinese_title": "RISC-V 性能落后：是 ISA 设计、硅实现还是生态工具链？",
+        "emoji": "🤨",
+        "sarcastic_question": "等RVA23普及就能赶上x86吗？"
+      },
+      "classifications": {
+        "topics": [
+          7,
+          4
+        ],
+        "facets": [
+          10,
+          9
+        ],
+        "tags": [
+          "RISC-V",
+          "ARM",
+          "x86",
+          "cross-compilation",
+          "s390x"
+        ]
+      },
+      "classificationsUpdatedAt": 1773176516,
+      "aiSummary": {
+        "chinese_title": "RISC-V 性能落后：是 ISA 设计、硅实现还是生态工具链？",
+        "emoji": "🤨",
+        "sarcastic_question": "等RVA23普及就能赶上x86吗？"
+      },
+      "detail": {
+        "id": 47328214,
+        "by": "todsacerdoti",
+        "title": "RISC-V Is Sloooow",
+        "url": "https://marcin.juszkiewicz.com.pl/2026/03/10/risc-v-is-sloooow/",
+        "score": 127,
+        "detailUpdatedAt": 1773184431,
+        "createdAt": 1773174055,
+        "aiSummaryUpdatedAt": 1773184931,
+        "aisummary": {
+          "chinese_title": "RISC‑V 慢：是硅实现、ISA 设计还是生态不足？",
+          "discussion_overview": [
+            {
+              "category": "硅实现与软件支持不成熟",
+              "summary": "许多评论指出性能问题更多源自当前的硅实现和缺乏针对性的软硬件优化，而不是 ISA 本身。具体例子包括现有芯片多为面向嵌入式或早期样片，且系统级设计（缓存组织、DDR、PCIe 等）需要模拟/RF VLSI 专业知识，若做得不好会导致性能大幅下降。编译器和库尚未为各种可选扩展或实际微架构做深入调优，社区（如 Fedora/RHEL 的 RISC‑V enablement）正在努力补位。文章用的开发板（例如 Banana Pi）被认为不足以代表高端实现，因此不能单凭这些样板断言 ISA 问题。",
+              "supportid": [
+                "47328343",
+                "47328855",
+                "47329571",
+                "47328817",
+                "47328372"
+              ]
+            },
+            {
+              "category": "ISA 设计与可选扩展导致性能/可移植性问题",
+              "summary": "另一类评论把问题指向 RISC‑V 的规范和可选扩展策略：有人指出规范中存在如强制 4 KiB 页面大小等设计，以及把位操作(bitmanip)从核心剥离，导致在无扩展的实现上需用慢速指令序列实现常见操作。缺少 carry 位、宽乘(widening multiply/MAC) 或对带符号整数溢出的硬件检测，会迫使软件插入额外指令，从而影响性能与可靠性。为此社区正在推动像 RVA22/RVA23 这类 profile 把常用扩展纳入标准，而早期也出现了自定义扩展（如 Xh3bextm）去弥补规范空白，反映出规范与实现之间的折衷与碎片化问题。",
+              "supportid": [
+                "47328930",
+                "47328996",
+                "47329311",
+                "47329322",
+                "47329283",
+                "47329596",
+                "47329748",
+                "47329041"
+              ]
+            },
+            {
+              "category": "编译器与微架构调优影响性能",
+              "summary": "很多评论强调编译器后端与微架构细节对最终性能有实质影响：LLVM/GCC 对不同微架构的特有预取、分支预测或加载带宽等“怪癖”不能自动推断，顶级性能有时仍依赖手工汇编或库级优化。RISC‑V 的多种碎片化实现令后端工程更复杂，部分 LLVM issue 和尚未完善的后端会影响生成指令质量。构建/测试流程也受限于工具：跨编译、user‑mode QEMU、binfmt_misc、dockcross、t2linux 等都被提为实际方案，但仿真通常比 KVM 慢，因此要得出结论需谨慎；有评论建议先用 -O0 导出汇编做逐步诊断。",
+              "supportid": [
+                "47328976",
+                "47329141",
+                "47329360",
+                "47328519",
+                "47328514",
+                "47328644",
+                "47328786"
+              ]
+            },
+            {
+              "category": "商业、生态与投资驱动因素",
+              "summary": "多条评论把问题归结为行业投资与商业激励不足：设计高性能 CPU 需要巨额投入，而现有大厂（Intel/AMD/Apple/Qualcomm）对既有 x86/ARM 投资难以放弃，因而没动机大规模转向 RISC‑V。此外许多参与者倾向做 IP 授权而非量产芯片，导致市场上可买到的高性能硅片稀缺。地缘政治与供应链事件（如 SOPHGO 的禁令、Milk‑V Oasis 取消、Rivos 被 Meta 收购）也被提到会直接影响可用的高性能开发板与 SoC；有评论认为中国供应商或会率先推出有竞争力的实现。",
+              "supportid": [
+                "47328865",
+                "47329571",
+                "47328658",
+                "47328632",
+                "47328412",
+                "47328435"
+              ]
+            },
+            {
+              "category": "RISC‑V 的潜力与即将到来的高性能实现",
+              "summary": "也有乐观的声音认为 RISC‑V 并非注定落后：随着 RVA23 等 profile 把 bitmanip、vector 等扩展规范化，新一代核心将能消除许多早期瓶颈。评论里列举了若干正在开发或样片阶段的高性能实现（如 SiFive P870、Tenstorrent Ascalon、SpaceMIT/SpacemiT K3），并指出部分芯片在单核/多核或 AI 加速上已有亮点。不过这些方案多数尚未广泛量产或可购，社区普遍认为还需数年时间、资金与软件生态的齐头并进才能达到与 ARM/x86 的完全可比性。",
+              "supportid": [
+                "47328343",
+                "47329322",
+                "47329837",
+                "47329897",
+                "47328604",
+                "47328732"
+              ]
+            },
+            {
+              "category": "基准方法学与构建实践的批评与建议",
+              "summary": "许多评论质疑文章的基准方法和标题的概括性：批评点包括缺乏具体硬件型号、成本与频率信息，用单一开发板或按架构汇总构建时间来断言整体性能不严谨。对比数据中出现的异常（例如 i686 比 x86_64 更快）被指出可能源于测试覆盖差异（有人提到 x86_64 构建运行更多 linker tests），而非硬件本身。实用建议包括使用 ccache 或 firebuild 加速构建、通过 cross‑compile 或 user‑mode QEMU 跑测试、或先检查生成汇编以定位瓶颈，从而获得更具说服力的结论。",
+              "supportid": [
+                "47328372",
+                "47328390",
+                "47329113",
+                "47329400",
+                "47328587",
+                "47328401"
+              ]
+            }
+          ],
+          "terminologies": [
+            {
+              "term": "ISA（Instruction Set Architecture）",
+              "explanation": "定义处理器可用指令、寻址方式和 ABI 的规范。评论中反复区分 ISA 规范本身与具体硅实现/微架构对性能的不同影响。"
+            },
+            {
+              "term": "RVA22 / RVA23 profile",
+              "explanation": "RISC‑V 的配置文件（profile），把常用扩展（如 bitmanip、vector 等）列为标准集合以减少实现碎片和提升可移植性与性能。"
+            },
+            {
+              "term": "bitmanip（位操作扩展，Zb*）",
+              "explanation": "包含 rotate、bitfield、位提取/插入等位操作指令；若作为可选扩展而非基础指令，缺失时会被软件用多条指令模拟，造成性能开销。"
+            },
+            {
+              "term": "vector extension（RISC‑V 向量扩展）",
+              "explanation": "用于 SIMD/批量浮点与 AI 工作负载的指令集扩展，可以显著提高多数据并行计算的吞吐和 AI 推理性能。"
+            },
+            {
+              "term": "integer overflow detection（整数溢出检测，硬件 vs 软件）",
+              "explanation": "带符号整数溢出的硬件检测（如专门标志位）能以低成本判断 overflow；RISC‑V 缺乏内建的带符号溢出标志会迫使软件插入多条指令来检测，影响代码尺寸与执行时间。"
+            },
+            {
+              "term": "QEMU 与跨编译（cross‑compilation）",
+              "explanation": "QEMU 是常用的用户态或系统级仿真器，可用于在无实机时运行/测试 RISC‑V 二进制；跨编译工具链（如 dockcross、t2linux）可在 x86 主机上生成 RISC‑V 可执行文件，但仿真通常比 KVM 慢，测试结果需谨慎解读。"
+            },
+            {
+              "term": "barrel shifter（并行移位单元）",
+              "explanation": "硬件移位器能在一个周期内完成任意位移，但完整 32‑bit barrel shifter 占用较多硅面积，嵌入式实现常选用窄位或软件补偿，影响位操作性能。"
+            }
+          ],
+          "context": "RISC‑V 是一个开放的指令集架构（ISA），因其简洁和可扩展性在教学与嵌入式领域获得广泛关注。讨论的核心是：当前观测到的“慢”是 ISA 本身的设计缺陷，还是由早期/低成本的硅实现、系统级电路设计（缓存、DDR、PCIe）和软件生态（LLVM/GCC 后端、发行版适配）共同造成。社区尝试通过规范化 profile（如 RVA22/RVA23）和发行版适配（例如 Fedora/RHEL 的 RISC‑V enablement）来减少碎片化，但高性能实现还依赖大量资金与厂商投入。地缘政治与供应链事件（如 SOPHGO 相关限制、Milk‑V 板取消、Rivos 被收购）也直接影响可用高性能开发板与 SoC 的供给。",
+          "emoji": "🐢",
+          "sarcastic_question": "真的要等 Intel 和 Apple 全部改用 RISC‑V 才会快吗？"
+        },
+        "classifications": {
+          "topics": [
+            7,
+            4
+          ],
+          "facets": [
+            10,
+            9
+          ],
+          "tags": [
+            "RISC-V",
+            "ARM",
+            "x86",
+            "cross-compilation",
+            "s390x"
+          ]
+        },
+        "classificationsUpdatedAt": 1773176516,
+        "aiSummary": {
+          "chinese_title": "RISC‑V 慢：是硅实现、ISA 设计还是生态不足？",
+          "discussion_overview": [
+            {
+              "category": "硅实现与软件支持不成熟",
+              "summary": "许多评论指出性能问题更多源自当前的硅实现和缺乏针对性的软硬件优化，而不是 ISA 本身。具体例子包括现有芯片多为面向嵌入式或早期样片，且系统级设计（缓存组织、DDR、PCIe 等）需要模拟/RF VLSI 专业知识，若做得不好会导致性能大幅下降。编译器和库尚未为各种可选扩展或实际微架构做深入调优，社区（如 Fedora/RHEL 的 RISC‑V enablement）正在努力补位。文章用的开发板（例如 Banana Pi）被认为不足以代表高端实现，因此不能单凭这些样板断言 ISA 问题。",
+              "supportid": [
+                "47328343",
+                "47328855",
+                "47329571",
+                "47328817",
+                "47328372"
+              ]
+            },
+            {
+              "category": "ISA 设计与可选扩展导致性能/可移植性问题",
+              "summary": "另一类评论把问题指向 RISC‑V 的规范和可选扩展策略：有人指出规范中存在如强制 4 KiB 页面大小等设计，以及把位操作(bitmanip)从核心剥离，导致在无扩展的实现上需用慢速指令序列实现常见操作。缺少 carry 位、宽乘(widening multiply/MAC) 或对带符号整数溢出的硬件检测，会迫使软件插入额外指令，从而影响性能与可靠性。为此社区正在推动像 RVA22/RVA23 这类 profile 把常用扩展纳入标准，而早期也出现了自定义扩展（如 Xh3bextm）去弥补规范空白，反映出规范与实现之间的折衷与碎片化问题。",
+              "supportid": [
+                "47328930",
+                "47328996",
+                "47329311",
+                "47329322",
+                "47329283",
+                "47329596",
+                "47329748",
+                "47329041"
+              ]
+            },
+            {
+              "category": "编译器与微架构调优影响性能",
+              "summary": "很多评论强调编译器后端与微架构细节对最终性能有实质影响：LLVM/GCC 对不同微架构的特有预取、分支预测或加载带宽等“怪癖”不能自动推断，顶级性能有时仍依赖手工汇编或库级优化。RISC‑V 的多种碎片化实现令后端工程更复杂，部分 LLVM issue 和尚未完善的后端会影响生成指令质量。构建/测试流程也受限于工具：跨编译、user‑mode QEMU、binfmt_misc、dockcross、t2linux 等都被提为实际方案，但仿真通常比 KVM 慢，因此要得出结论需谨慎；有评论建议先用 -O0 导出汇编做逐步诊断。",
+              "supportid": [
+                "47328976",
+                "47329141",
+                "47329360",
+                "47328519",
+                "47328514",
+                "47328644",
+                "47328786"
+              ]
+            },
+            {
+              "category": "商业、生态与投资驱动因素",
+              "summary": "多条评论把问题归结为行业投资与商业激励不足：设计高性能 CPU 需要巨额投入，而现有大厂（Intel/AMD/Apple/Qualcomm）对既有 x86/ARM 投资难以放弃，因而没动机大规模转向 RISC‑V。此外许多参与者倾向做 IP 授权而非量产芯片，导致市场上可买到的高性能硅片稀缺。地缘政治与供应链事件（如 SOPHGO 的禁令、Milk‑V Oasis 取消、Rivos 被 Meta 收购）也被提到会直接影响可用的高性能开发板与 SoC；有评论认为中国供应商或会率先推出有竞争力的实现。",
+              "supportid": [
+                "47328865",
+                "47329571",
+                "47328658",
+                "47328632",
+                "47328412",
+                "47328435"
+              ]
+            },
+            {
+              "category": "RISC‑V 的潜力与即将到来的高性能实现",
+              "summary": "也有乐观的声音认为 RISC‑V 并非注定落后：随着 RVA23 等 profile 把 bitmanip、vector 等扩展规范化，新一代核心将能消除许多早期瓶颈。评论里列举了若干正在开发或样片阶段的高性能实现（如 SiFive P870、Tenstorrent Ascalon、SpaceMIT/SpacemiT K3），并指出部分芯片在单核/多核或 AI 加速上已有亮点。不过这些方案多数尚未广泛量产或可购，社区普遍认为还需数年时间、资金与软件生态的齐头并进才能达到与 ARM/x86 的完全可比性。",
+              "supportid": [
+                "47328343",
+                "47329322",
+                "47329837",
+                "47329897",
+                "47328604",
+                "47328732"
+              ]
+            },
+            {
+              "category": "基准方法学与构建实践的批评与建议",
+              "summary": "许多评论质疑文章的基准方法和标题的概括性：批评点包括缺乏具体硬件型号、成本与频率信息，用单一开发板或按架构汇总构建时间来断言整体性能不严谨。对比数据中出现的异常（例如 i686 比 x86_64 更快）被指出可能源于测试覆盖差异（有人提到 x86_64 构建运行更多 linker tests），而非硬件本身。实用建议包括使用 ccache 或 firebuild 加速构建、通过 cross‑compile 或 user‑mode QEMU 跑测试、或先检查生成汇编以定位瓶颈，从而获得更具说服力的结论。",
+              "supportid": [
+                "47328372",
+                "47328390",
+                "47329113",
+                "47329400",
+                "47328587",
+                "47328401"
+              ]
+            }
+          ],
+          "terminologies": [
+            {
+              "term": "ISA（Instruction Set Architecture）",
+              "explanation": "定义处理器可用指令、寻址方式和 ABI 的规范。评论中反复区分 ISA 规范本身与具体硅实现/微架构对性能的不同影响。"
+            },
+            {
+              "term": "RVA22 / RVA23 profile",
+              "explanation": "RISC‑V 的配置文件（profile），把常用扩展（如 bitmanip、vector 等）列为标准集合以减少实现碎片和提升可移植性与性能。"
+            },
+            {
+              "term": "bitmanip（位操作扩展，Zb*）",
+              "explanation": "包含 rotate、bitfield、位提取/插入等位操作指令；若作为可选扩展而非基础指令，缺失时会被软件用多条指令模拟，造成性能开销。"
+            },
+            {
+              "term": "vector extension（RISC‑V 向量扩展）",
+              "explanation": "用于 SIMD/批量浮点与 AI 工作负载的指令集扩展，可以显著提高多数据并行计算的吞吐和 AI 推理性能。"
+            },
+            {
+              "term": "integer overflow detection（整数溢出检测，硬件 vs 软件）",
+              "explanation": "带符号整数溢出的硬件检测（如专门标志位）能以低成本判断 overflow；RISC‑V 缺乏内建的带符号溢出标志会迫使软件插入多条指令来检测，影响代码尺寸与执行时间。"
+            },
+            {
+              "term": "QEMU 与跨编译（cross‑compilation）",
+              "explanation": "QEMU 是常用的用户态或系统级仿真器，可用于在无实机时运行/测试 RISC‑V 二进制；跨编译工具链（如 dockcross、t2linux）可在 x86 主机上生成 RISC‑V 可执行文件，但仿真通常比 KVM 慢，测试结果需谨慎解读。"
+            },
+            {
+              "term": "barrel shifter（并行移位单元）",
+              "explanation": "硬件移位器能在一个周期内完成任意位移，但完整 32‑bit barrel shifter 占用较多硅面积，嵌入式实现常选用窄位或软件补偿，影响位操作性能。"
+            }
+          ],
+          "context": "RISC‑V 是一个开放的指令集架构（ISA），因其简洁和可扩展性在教学与嵌入式领域获得广泛关注。讨论的核心是：当前观测到的“慢”是 ISA 本身的设计缺陷，还是由早期/低成本的硅实现、系统级电路设计（缓存、DDR、PCIe）和软件生态（LLVM/GCC 后端、发行版适配）共同造成。社区尝试通过规范化 profile（如 RVA22/RVA23）和发行版适配（例如 Fedora/RHEL 的 RISC‑V enablement）来减少碎片化，但高性能实现还依赖大量资金与厂商投入。地缘政治与供应链事件（如 SOPHGO 相关限制、Milk‑V 板取消、Rivos 被收购）也直接影响可用高性能开发板与 SoC 的供给。",
+          "emoji": "🐢",
+          "sarcastic_question": "真的要等 Intel 和 Apple 全部改用 RISC‑V 才会快吗？"
+        }
+      },
+      "articleSummary": "## 一句话总结\nRISC-V 当前的硬件性能实在太弱，导致 Fedora 的构建时间比其他架构慢 4 倍以上，以至于开发者不得不依赖 QEMU 模拟器来加速编译。\n\n### 真正的瓶颈是硬件性能，而不是代码量\n作者最近三个月在搞 Fedora 的 RISC-V 移植工作，处理了 Tracker 里的大部分条目，还顺手修了 86 个包。但工作流程越顺，那个尴尬的问题就越明显：速度太慢了。这不仅仅是“有点卡”的感觉，而是实打实的生产力阻碍。为了说明问题，作者直接甩出了一张 `binutils` 包的构建时间对比表，数据非常残酷。\n\n### RISC-V 的构建时间是其他架构的 4 倍\n在这张对比表里，x86_64 和 i686 只需要 25 到 29 分钟，aarch64 也只要 36 分钟。哪怕是 ppc64le 这种非主流架构，也就 46 分钟。但 riscv64 呢？足足花了 143 分钟。这还是在禁用了 LTO（Link Time Optimization）的前提下。之所以禁用 LTO，完全是因为现在的 RISC-V 构建机扛不住那个内存和 CPU 开销。说白了，现在的硬件水平逼着开发者必须在编译优化和构建速度之间做取舍，而且只能选后者。\n\n### 核心算力仅相当于 ARM 的入门级核心\n为什么这么慢？目前的 RISC-V 构建机配置大多是 4 到 8 核，内存 8GB 到 32GB。这些核心的性能大概也就和 ARM Cortex-A55 持平。要知道，Cortex-A55 在 ARM 的芯片谱系里属于“小核”，是今天 ARM 芯片里性能最低的那一档。虽然像 Milk-V Titan（搭载 UltraRISC UR-DP1000）或者 SpacemiT K3 这样的新板子能改善一点情况，甚至把内存加到 64GB，但作者很清醒：这只是改善，不是解药。\n\n### 想成为 Fedora 主力架构，性能必须翻倍\n作者给了一个很硬的指标：要想让 RISC-V 成为 Fedora 官方支持的主架构，硬件必须能在 1 小时内构建完 `binutils`，而且还得是开着 LTO 的那种。现在的硬件连关了 LTO 都要两个多小时，离这个目标差得远。更关键的是，这些硬件得像普通服务器一样可上架、可管理，而不是像开发板那样只能放在桌子上跑。\n\n### 有意思的地方在于：模拟器竟然比真机快\n既然真机不给力，作者换了个思路：用 QEMU 模拟。他在 QEMU 上开了 80 个模拟核心，结果发现构建像 `llvm15` 这种重型包只要 4 小时。相比之下，在 Banana Pi BPI-F3 这种真机构建器上，同样的包要跑 10.5 小时。这事儿听起来挺讽刺，但逻辑很简单：虽然模拟有损耗，但 80 个核心并行带来的吞吐量优势，直接碾压了真机那几个慢吞吞的物理核心。\n\n### 未来的指望：更强的核心与更细的分工\n接下来的计划很务实。Fedora 44 的构建会继续，内核版本也会统一，但 LTO 短期内还是开不了。解决性能问题的唯一出路就是引入更强的构建机。作者已经在规划把那些更重的包（比如 LLVM）分配给性能更强的新机器去跑。在这之前，RISC-V 的开发者们恐怕还得继续在 QEMU 的虚拟核心里寻找慰藉了。"
+    },
+    {
+      "id": 47324054,
+      "by": "speckx",
+      "title": "Turing Award winner and former Oxford professor Tony Hoare passed away",
+      "url": "https://blog.computationalcomplexity.org/2026/03/tony-hoare-1934-2026.html",
+      "score": 1750,
+      "detailUpdatedAt": 1773218638,
+      "createdAt": 1773154866,
+      "aiSummaryUpdatedAt": 1773219817,
+      "aisummary": {
+        "chinese_title": "图灵奖得主、前牛津教授Tony Hoare逝世：从Quicksort到Hoare Logic与空引用之争",
+        "emoji": "🕊️",
+        "sarcastic_question": "把程序正确性全部交给LLM就完事了吗？"
+      },
+      "classifications": {
+        "topics": [
+          4,
+          6
+        ],
+        "facets": [
+          9
+        ],
+        "tags": [
+          "Tony Hoare",
+          "Turing Award",
+          "Oxford",
+          "CSP",
+          "computationalcomplexity.org"
+        ]
+      },
+      "classificationsUpdatedAt": 1773158198,
+      "aiSummary": {
+        "chinese_title": "图灵奖得主、前牛津教授Tony Hoare逝世：从Quicksort到Hoare Logic与空引用之争",
+        "emoji": "🕊️",
+        "sarcastic_question": "把程序正确性全部交给LLM就完事了吗？"
+      },
+      "detail": {
+        "id": 47324054,
+        "by": "speckx",
+        "title": "Turing Award winner and former Oxford professor Tony Hoare passed away",
+        "url": "https://blog.computationalcomplexity.org/2026/03/tony-hoare-1934-2026.html",
+        "score": 1437,
+        "detailUpdatedAt": 1773189829,
+        "createdAt": 1773154866,
+        "aiSummaryUpdatedAt": 1773190321,
+        "aisummary": {
+          "chinese_title": "图灵奖得主 Tony Hoare 逝世：Quicksort、Hoare logic、CSP 与“十亿美元错误”的遗产",
+          "discussion_overview": [
+            {
+              "category": "学术遗产与核心贡献",
+              "summary": "评论集中缅怀他的奠基性科研成果：Quicksort、Hoare logic（用于程序正确性证明的公理体系）和 Communicating Sequential Processes (CSP)。许多读者提到他在 ALGOL 60 课程中发现 Quicksort 的轶事与早期重要论文《An Axiomatic Basis for Computer Programming》，并引用其 Turing Award 讲演《The Emperor's Old Clothes》的洞见。回忆中常提到他能够从问题条件推导出可证明正确的代码，既体现理论深度又有教学耐心。总体观点认为这些工作长期影响了并发、编程语言设计与形式化验证领域。",
+              "supportid": [
+                "47324179",
+                "47324427",
+                "47317333",
+                "47317445",
+                "47329728"
+              ]
+            },
+            {
+              "category": "“十亿美元错误”（空引用）与类型系统争论",
+              "summary": "关于他所称的“billion dollar mistake”（空引用）讨论激烈且细致：有人指出他发明空引用本意是实现 optional 类型的简便机制，但真正的问题在于把所有引用默认设为可空，从而产生大量空解引用的运行时错误和漏洞。评论反复提出替代方案，包括显式 nullable/Optional/Maybe、代数和（sum types）以及由类型系统强制的非空检查，并引用 Rust、C# 等现代实践作为对比。也有为他辩护的声音认为 optional 类型有其价值，错误更多是历史实现权衡与类型系统能力限制，讨论甚至延伸到指针与引用早期发明的学术争议。",
+              "supportid": [
+                "47324459",
+                "47325101",
+                "47325781",
+                "47317141",
+                "47325281"
+              ]
+            },
+            {
+              "category": "个人回忆与教学风范",
+              "summary": "大量评论为个人见闻与回忆：许多人在 UT Austin、Cambridge、EuroPython 或牛津听过他的讲座，记得他讲课清晰、幽默且回答问题谦和。读者提到他能把复杂证明讲得看似简单、愿意与学生深入讨论并发与验证问题，还有为 DPhil 学生泡茶等细节，体现亲和力与耐心。这些回忆既表达对其学术成就的敬意，也怀念其作为导师和沟通者的风采。",
+              "supportid": [
+                "47325200",
+                "47325271",
+                "47324523",
+                "47324502",
+                "47325844"
+              ]
+            },
+            {
+              "category": "形式化方法的得失与未来",
+              "summary": "很多评论对他推动形式化方法感到敬佩同时也有遗憾：评论者认为他几十年倡导的软件证明与正确性方法未被工业广泛采用。有人提出历史上的成功案例（例如与工业合作的 FPU 形式化验证）证明可行性，但整体落地受限于工具与成本。部分读者乐观地认为随着 AI/LLM 与更成熟的自动化工具，形式化验证可能迎来回归并缓解生成代码的验证瓶颈。",
+              "supportid": [
+                "47317350",
+                "47317445",
+                "47317647",
+                "47317685"
+              ]
+            },
+            {
+              "category": "简洁 vs 复杂：名言的当代映射",
+              "summary": "他那句“把软件做得足够简单以显然无错误，或做得复杂以无明显错误”的名言在评论里被频繁引用以批评当代软件复杂化。许多人把 Turing 讲演的上下文和管理者轶事（如 Andrew St. Johnston 指出“你让程序员做你不理解的事”）与现代用 LLM/委托式开发相联系，担忧复杂性掩盖缺陷。讨论还谈到小团队/个人作品与委员会式设计的权衡，以及现在流行的“vibe coding”与工程质量之间的张力。总体上评论把这句箴言用于反思管理、工具与工程实践的失衡。",
+              "supportid": [
+                "47325225",
+                "47325498",
+                "47328848",
+                "47326290",
+                "47328496"
+              ]
+            },
+            {
+              "category": "语言影响与并发范式之争",
+              "summary": "评论细数他对编程语言与并发设计的深远影响：CSP 的思想催生了 Occam（为 Transputer 设计的并行语言），并通过实践者影响到 Go 的 channels 等实现。有人列出他对记录处理、关键字设计（如 case、new 等）的贡献，也讨论了 Actor model、软件事务内存（STM）等并发替代方案。总体讨论呈现学术价值与工程权衡并存的局面，说明其理论至今仍在不同社区被继承或被批评。",
+              "supportid": [
+                "47325029",
+                "47326703",
+                "47329466",
+                "47317685"
+              ]
+            },
+            {
+              "category": "纪念方式与轻佻笑话的争议（Hoare House）",
+              "summary": "一则关于牛津命名建筑为“Hoare House”发音双关的趣闻引发热议：有人回忆学校为避免低俗笑话采用 'C.A.R. Hoare Residence' 或设立 Tony Hoare Room 的处理。评论在是否应以俏皮方式纪念与应保持庄重之间出现分歧，一派认为幽默能帮助记忆，另一派认为长期管理与形象风险更重要。这个小插曲被用来反映学术纪念、幽默感与机构稳重之间的权衡。",
+              "supportid": [
+                "47324442",
+                "47325385",
+                "47325646",
+                "47327226"
+              ]
+            }
+          ],
+          "terminologies": [
+            {
+              "term": "Quicksort",
+              "explanation": "由 Tony Hoare 在 ALGOL 60 背景下提出的分治排序算法，核心是选取基准（pivot）将数组划分并递归排序，平均时间复杂度为 O(n log n)，实现简洁且影响深远。"
+            },
+            {
+              "term": "Communicating Sequential Processes (CSP)",
+              "explanation": "一种并发模型和理论框架，强调独立进程通过同步通信通道交换消息而不共享状态，奠定了并发语言（如 Occam）和后续通道设计（如 Go channels）的理论基础。"
+            },
+            {
+              "term": "Hoare logic",
+              "explanation": "用于对程序正确性进行形式化证明的公理化体系，使用前置条件/后置条件以及 Hoare triple ({P} C {Q}) 来推导和证明程序满足规范，是形式化方法的核心工具之一。"
+            },
+            {
+              "term": "null reference（billion dollar mistake）",
+              "explanation": "Hoare 所称的“十亿美元错误”指空引用（null pointer/reference）导致的空解引用、崩溃和安全漏洞；讨论焦点是是否应由类型系统显式表达可空性（Optional/Maybe、sum types）以避免运行时错误。"
+            },
+            {
+              "term": "Occam",
+              "explanation": "为 Transputer（并行处理器）设计的并发编程语言，直接实现 CSP 的同步通信语义，曾用于并行硬件研究与并发系统验证。"
+            }
+          ],
+          "context": "Tony Hoare（C. A. R. Hoare）是图灵奖得主与前牛津教授，因 Quicksort、Hoare logic 以及 Communicating Sequential Processes (CSP) 等奠基性工作受到广泛纪念。讨论大量引用他在 1980 年 Turing Award 讲演《The Emperor's Old Clothes》里的洞见和他对空引用（'billion dollar mistake'）的反思，评论把这些观点用来审视当代软件工程、并发设计与 AI 生成代码的风险与机遇。主题涵盖并发模型（CSP——强调通过同步通道通信的理论）、编程语言影响（如 Occam，为 Transputer 设计的并行语言；及 Go 的 channels）与形式化方法在工业化落地的历史与未来。许多评论来自曾听过他讲座或与他共事的研究者，既有学术细节也夹杂个人怀念与教学轶事。",
+          "emoji": "🕯️",
+          "sarcastic_question": "现在的招聘流程会录用像Hoare那样慢想的天才吗？"
+        },
+        "classifications": {
+          "topics": [
+            4,
+            6
+          ],
+          "facets": [
+            9
+          ],
+          "tags": [
+            "Tony Hoare",
+            "Turing Award",
+            "Oxford",
+            "CSP",
+            "computationalcomplexity.org"
+          ]
+        },
+        "classificationsUpdatedAt": 1773158198,
+        "aiSummary": {
+          "chinese_title": "图灵奖得主 Tony Hoare 逝世：Quicksort、Hoare logic、CSP 与“十亿美元错误”的遗产",
+          "discussion_overview": [
+            {
+              "category": "学术遗产与核心贡献",
+              "summary": "评论集中缅怀他的奠基性科研成果：Quicksort、Hoare logic（用于程序正确性证明的公理体系）和 Communicating Sequential Processes (CSP)。许多读者提到他在 ALGOL 60 课程中发现 Quicksort 的轶事与早期重要论文《An Axiomatic Basis for Computer Programming》，并引用其 Turing Award 讲演《The Emperor's Old Clothes》的洞见。回忆中常提到他能够从问题条件推导出可证明正确的代码，既体现理论深度又有教学耐心。总体观点认为这些工作长期影响了并发、编程语言设计与形式化验证领域。",
+              "supportid": [
+                "47324179",
+                "47324427",
+                "47317333",
+                "47317445",
+                "47329728"
+              ]
+            },
+            {
+              "category": "“十亿美元错误”（空引用）与类型系统争论",
+              "summary": "关于他所称的“billion dollar mistake”（空引用）讨论激烈且细致：有人指出他发明空引用本意是实现 optional 类型的简便机制，但真正的问题在于把所有引用默认设为可空，从而产生大量空解引用的运行时错误和漏洞。评论反复提出替代方案，包括显式 nullable/Optional/Maybe、代数和（sum types）以及由类型系统强制的非空检查，并引用 Rust、C# 等现代实践作为对比。也有为他辩护的声音认为 optional 类型有其价值，错误更多是历史实现权衡与类型系统能力限制，讨论甚至延伸到指针与引用早期发明的学术争议。",
+              "supportid": [
+                "47324459",
+                "47325101",
+                "47325781",
+                "47317141",
+                "47325281"
+              ]
+            },
+            {
+              "category": "个人回忆与教学风范",
+              "summary": "大量评论为个人见闻与回忆：许多人在 UT Austin、Cambridge、EuroPython 或牛津听过他的讲座，记得他讲课清晰、幽默且回答问题谦和。读者提到他能把复杂证明讲得看似简单、愿意与学生深入讨论并发与验证问题，还有为 DPhil 学生泡茶等细节，体现亲和力与耐心。这些回忆既表达对其学术成就的敬意，也怀念其作为导师和沟通者的风采。",
+              "supportid": [
+                "47325200",
+                "47325271",
+                "47324523",
+                "47324502",
+                "47325844"
+              ]
+            },
+            {
+              "category": "形式化方法的得失与未来",
+              "summary": "很多评论对他推动形式化方法感到敬佩同时也有遗憾：评论者认为他几十年倡导的软件证明与正确性方法未被工业广泛采用。有人提出历史上的成功案例（例如与工业合作的 FPU 形式化验证）证明可行性，但整体落地受限于工具与成本。部分读者乐观地认为随着 AI/LLM 与更成熟的自动化工具，形式化验证可能迎来回归并缓解生成代码的验证瓶颈。",
+              "supportid": [
+                "47317350",
+                "47317445",
+                "47317647",
+                "47317685"
+              ]
+            },
+            {
+              "category": "简洁 vs 复杂：名言的当代映射",
+              "summary": "他那句“把软件做得足够简单以显然无错误，或做得复杂以无明显错误”的名言在评论里被频繁引用以批评当代软件复杂化。许多人把 Turing 讲演的上下文和管理者轶事（如 Andrew St. Johnston 指出“你让程序员做你不理解的事”）与现代用 LLM/委托式开发相联系，担忧复杂性掩盖缺陷。讨论还谈到小团队/个人作品与委员会式设计的权衡，以及现在流行的“vibe coding”与工程质量之间的张力。总体上评论把这句箴言用于反思管理、工具与工程实践的失衡。",
+              "supportid": [
+                "47325225",
+                "47325498",
+                "47328848",
+                "47326290",
+                "47328496"
+              ]
+            },
+            {
+              "category": "语言影响与并发范式之争",
+              "summary": "评论细数他对编程语言与并发设计的深远影响：CSP 的思想催生了 Occam（为 Transputer 设计的并行语言），并通过实践者影响到 Go 的 channels 等实现。有人列出他对记录处理、关键字设计（如 case、new 等）的贡献，也讨论了 Actor model、软件事务内存（STM）等并发替代方案。总体讨论呈现学术价值与工程权衡并存的局面，说明其理论至今仍在不同社区被继承或被批评。",
+              "supportid": [
+                "47325029",
+                "47326703",
+                "47329466",
+                "47317685"
+              ]
+            },
+            {
+              "category": "纪念方式与轻佻笑话的争议（Hoare House）",
+              "summary": "一则关于牛津命名建筑为“Hoare House”发音双关的趣闻引发热议：有人回忆学校为避免低俗笑话采用 'C.A.R. Hoare Residence' 或设立 Tony Hoare Room 的处理。评论在是否应以俏皮方式纪念与应保持庄重之间出现分歧，一派认为幽默能帮助记忆，另一派认为长期管理与形象风险更重要。这个小插曲被用来反映学术纪念、幽默感与机构稳重之间的权衡。",
+              "supportid": [
+                "47324442",
+                "47325385",
+                "47325646",
+                "47327226"
+              ]
+            }
+          ],
+          "terminologies": [
+            {
+              "term": "Quicksort",
+              "explanation": "由 Tony Hoare 在 ALGOL 60 背景下提出的分治排序算法，核心是选取基准（pivot）将数组划分并递归排序，平均时间复杂度为 O(n log n)，实现简洁且影响深远。"
+            },
+            {
+              "term": "Communicating Sequential Processes (CSP)",
+              "explanation": "一种并发模型和理论框架，强调独立进程通过同步通信通道交换消息而不共享状态，奠定了并发语言（如 Occam）和后续通道设计（如 Go channels）的理论基础。"
+            },
+            {
+              "term": "Hoare logic",
+              "explanation": "用于对程序正确性进行形式化证明的公理化体系，使用前置条件/后置条件以及 Hoare triple ({P} C {Q}) 来推导和证明程序满足规范，是形式化方法的核心工具之一。"
+            },
+            {
+              "term": "null reference（billion dollar mistake）",
+              "explanation": "Hoare 所称的“十亿美元错误”指空引用（null pointer/reference）导致的空解引用、崩溃和安全漏洞；讨论焦点是是否应由类型系统显式表达可空性（Optional/Maybe、sum types）以避免运行时错误。"
+            },
+            {
+              "term": "Occam",
+              "explanation": "为 Transputer（并行处理器）设计的并发编程语言，直接实现 CSP 的同步通信语义，曾用于并行硬件研究与并发系统验证。"
+            }
+          ],
+          "context": "Tony Hoare（C. A. R. Hoare）是图灵奖得主与前牛津教授，因 Quicksort、Hoare logic 以及 Communicating Sequential Processes (CSP) 等奠基性工作受到广泛纪念。讨论大量引用他在 1980 年 Turing Award 讲演《The Emperor's Old Clothes》里的洞见和他对空引用（'billion dollar mistake'）的反思，评论把这些观点用来审视当代软件工程、并发设计与 AI 生成代码的风险与机遇。主题涵盖并发模型（CSP——强调通过同步通道通信的理论）、编程语言影响（如 Occam，为 Transputer 设计的并行语言；及 Go 的 channels）与形式化方法在工业化落地的历史与未来。许多评论来自曾听过他讲座或与他共事的研究者，既有学术细节也夹杂个人怀念与教学轶事。",
+          "emoji": "🕯️",
+          "sarcastic_question": "现在的招聘流程会录用像Hoare那样慢想的天才吗？"
+        }
+      },
+      "articleSummary": "## 一句话总结\n图灵奖得主、快速排序算法发明者 Tony Hoare 去世了，但他留下的逻辑严谨性至今仍在定义现代编程的基石。\n\n### 从\"价值十亿美元的错误\"到排序之王\nTony Hoare 的大名，在程序员圈子里如雷贯耳。他最广为人知的成就有两个：一个是发明了 Quicksort（快速排序），另一个是创造了 Null Reference（空引用）。有意思的是，他对这两件事的态度截然不同。Quicksort 是他在 1960 年还是程序员时为了解决排序问题想出来的，至今仍是最高效的通用排序算法之一。而 Null Reference，他后来称之为自己的\"价值十亿美元的错误\"，因为它引发了无数系统崩溃和 Bug。这种对技术两面性的深刻认知，正是他作为大师的体现。\n\n### 不仅仅是算法，更是编程哲学\nHoare 的贡献远不止于写出一个高效的排序函数。他真正厉害的地方在于，把数学逻辑引入了编程语言的设计中。他在 1969 年提出了公理语义学，说白了就是用数学公理来证明程序的正确性。这听起来很理论，但核心思路其实很简单：如果你能在写代码前用数学逻辑证明它是对的，那运行时出错的可能性就会大大降低。这种思维方式，直接催生了后来形式化验证方法的发展，让软件工程从\"手艺\"向\"科学\"迈进了一大步。\n\n### 沟通过程中的逻辑证明\nHoare 不仅关注代码怎么写，更关注人怎么理解代码。他在 1978 年提出了 CSP（Communicating Sequential Processes），这是一种描述并发系统中交互过程的数学语言。这玩意儿后来成了 Go 语言中 Channel（通道）设计的理论基础。为什么这很重要？因为在多线程编程里，最难搞的就是共享内存带来的锁竞争和死锁。Hoare 的核心思路是：不要共享内存来通信，而要通过通信来共享内存。这个设计理念，至今仍是解决并发问题的黄金法则。\n\n### 学术界与工业界的双重桥梁\n很多搞理论的学者，写出来的东西工业界根本看不懂或者用不上。但 Hoare 不一样，他曾在牛津大学任教，也在微软研究院（Microsoft Research）工作过。这种经历让他非常清楚理论落地时的痛点。他在微软期间主导的\"Spec#\"项目，就是试图把形式化验证方法应用到实际的 C# 开发中。虽然这没能彻底改变业界现状，但他证明了在大型商业软件中应用严谨逻辑验证的可行性。他不仅是个理论家，更是个懂工程落地的实践者。\n\n### 一位追求极致严谨的绅士\n读 Hoare 的文章或听他演讲，你会发现他极其讲究语言的精确性。他不喜欢模糊不清的表达，认为这是导致软件混乱的根源。他常说，编程的本质是把人类意图精确地映射到机器行为上。如果意图本身是模糊的，那代码注定是一团糟。这种对\"清晰\"和\"证明\"的执着，贯穿了他的一生。对于我们这些天天写代码的人来说，Hoare 留下的最大遗产或许不是某个具体算法，而是一种思维方式：在动手写代码之前，先想清楚逻辑闭环。"
+    },
     {
       "id": 47329557,
       "by": "jeffpalmer",
@@ -3027,570 +3591,6 @@
         }
       },
       "articleSummary": "## 一句话总结\n因为 AWS 至少发生了两起由 AI 编码助手引发的严重宕机事故，Amazon 决定强制要求所有 AI 生成的代码变更必须经过资深工程师的人工审核。\n\n### AI 写代码的效率陷阱：快是快了，但隐患也埋下了\nAmazon 内部推广 AI 编程助手（类似 Copilot）本来是为了提升开发效率，这事儿大家都在干。但有意思的地方在于，AWS 最近至少遭遇了两次直接由 AI 辅助代码引发的服务中断。说白了就是，AI 帮你把代码写出来了，甚至还能跑通，但它可能引入了一些非常隐蔽、且只有在大规模并发下才会暴露的 Bug。对于像 AWS 这种对稳定性要求极高的系统来说，这种“看起来没问题”的代码反而是最危险的。\n\n### 核心问题：AI 生成的代码往往“知其然不知其所以然”\n为什么 AI 写的代码容易搞挂生产环境？核心原因在于上下文理解的偏差。AI 模型通常是基于海量公开代码训练的，它可能很擅长写出语法正确的片段，但并不完全理解 Amazon 内部复杂的架构依赖和遗留系统的“潜规则”。当工程师直接采纳 AI 建议的代码片段，而没有深入理解其背后的逻辑链路时，就等于在系统中埋下了一颗定时炸弹。\n\n### 新规落地：资深工程师必须成为“守门员”\n那怎么办？完全禁用 AI 助手显然不现实，效率提升太明显了。Amazon 的解决方案是引入强制的人工审核机制。具体来说，以后凡是使用了 AI 辅助生成的代码变更，在部署上线前，必须由资深工程师进行 Sign-off（签字确认）。这不仅仅是走个流程，而是要求资深人员必须真正读懂 AI 生成的逻辑，确认它不会破坏现有的系统稳定性。\n\n### 这背后的逻辑：用“人的经验”对冲“模型的幻觉”\n这个政策调整其实揭示了一个行业趋势：我们不能把 AI 当成一个全知全能的程序员，而应该把它当成一个需要“带教”的初级员工。AI 可以负责繁琐的重复性工作，提供代码片段建议，但最终的判断权和责任归属，必须牢牢掌握在懂业务、懂架构的资深工程师手里。毕竟，出了事故，AI 可不会背锅，背锅的还是写代码的人。"
-    },
-    {
-      "id": 47324054,
-      "by": "speckx",
-      "title": "Turing Award winner and former Oxford professor Tony Hoare passed away",
-      "url": "https://blog.computationalcomplexity.org/2026/03/tony-hoare-1934-2026.html",
-      "score": 1437,
-      "detailUpdatedAt": 1773189829,
-      "createdAt": 1773154866,
-      "aiSummaryUpdatedAt": 1773190321,
-      "aisummary": {
-        "chinese_title": "图灵奖得主 Tony Hoare 逝世：Quicksort、Hoare logic、CSP 与“十亿美元错误”的遗产",
-        "emoji": "🕯️",
-        "sarcastic_question": "现在的招聘流程会录用像Hoare那样慢想的天才吗？"
-      },
-      "classifications": {
-        "topics": [
-          4,
-          6
-        ],
-        "facets": [
-          9
-        ],
-        "tags": [
-          "Tony Hoare",
-          "Turing Award",
-          "Oxford",
-          "CSP",
-          "computationalcomplexity.org"
-        ]
-      },
-      "classificationsUpdatedAt": 1773158198,
-      "aiSummary": {
-        "chinese_title": "图灵奖得主 Tony Hoare 逝世：Quicksort、Hoare logic、CSP 与“十亿美元错误”的遗产",
-        "emoji": "🕯️",
-        "sarcastic_question": "现在的招聘流程会录用像Hoare那样慢想的天才吗？"
-      },
-      "detail": {
-        "id": 47324054,
-        "by": "speckx",
-        "title": "Turing Award winner and former Oxford professor Tony Hoare passed away",
-        "url": "https://blog.computationalcomplexity.org/2026/03/tony-hoare-1934-2026.html",
-        "score": 1437,
-        "detailUpdatedAt": 1773189829,
-        "createdAt": 1773154866,
-        "aiSummaryUpdatedAt": 1773190321,
-        "aisummary": {
-          "chinese_title": "图灵奖得主 Tony Hoare 逝世：Quicksort、Hoare logic、CSP 与“十亿美元错误”的遗产",
-          "discussion_overview": [
-            {
-              "category": "学术遗产与核心贡献",
-              "summary": "评论集中缅怀他的奠基性科研成果：Quicksort、Hoare logic（用于程序正确性证明的公理体系）和 Communicating Sequential Processes (CSP)。许多读者提到他在 ALGOL 60 课程中发现 Quicksort 的轶事与早期重要论文《An Axiomatic Basis for Computer Programming》，并引用其 Turing Award 讲演《The Emperor's Old Clothes》的洞见。回忆中常提到他能够从问题条件推导出可证明正确的代码，既体现理论深度又有教学耐心。总体观点认为这些工作长期影响了并发、编程语言设计与形式化验证领域。",
-              "supportid": [
-                "47324179",
-                "47324427",
-                "47317333",
-                "47317445",
-                "47329728"
-              ]
-            },
-            {
-              "category": "“十亿美元错误”（空引用）与类型系统争论",
-              "summary": "关于他所称的“billion dollar mistake”（空引用）讨论激烈且细致：有人指出他发明空引用本意是实现 optional 类型的简便机制，但真正的问题在于把所有引用默认设为可空，从而产生大量空解引用的运行时错误和漏洞。评论反复提出替代方案，包括显式 nullable/Optional/Maybe、代数和（sum types）以及由类型系统强制的非空检查，并引用 Rust、C# 等现代实践作为对比。也有为他辩护的声音认为 optional 类型有其价值，错误更多是历史实现权衡与类型系统能力限制，讨论甚至延伸到指针与引用早期发明的学术争议。",
-              "supportid": [
-                "47324459",
-                "47325101",
-                "47325781",
-                "47317141",
-                "47325281"
-              ]
-            },
-            {
-              "category": "个人回忆与教学风范",
-              "summary": "大量评论为个人见闻与回忆：许多人在 UT Austin、Cambridge、EuroPython 或牛津听过他的讲座，记得他讲课清晰、幽默且回答问题谦和。读者提到他能把复杂证明讲得看似简单、愿意与学生深入讨论并发与验证问题，还有为 DPhil 学生泡茶等细节，体现亲和力与耐心。这些回忆既表达对其学术成就的敬意，也怀念其作为导师和沟通者的风采。",
-              "supportid": [
-                "47325200",
-                "47325271",
-                "47324523",
-                "47324502",
-                "47325844"
-              ]
-            },
-            {
-              "category": "形式化方法的得失与未来",
-              "summary": "很多评论对他推动形式化方法感到敬佩同时也有遗憾：评论者认为他几十年倡导的软件证明与正确性方法未被工业广泛采用。有人提出历史上的成功案例（例如与工业合作的 FPU 形式化验证）证明可行性，但整体落地受限于工具与成本。部分读者乐观地认为随着 AI/LLM 与更成熟的自动化工具，形式化验证可能迎来回归并缓解生成代码的验证瓶颈。",
-              "supportid": [
-                "47317350",
-                "47317445",
-                "47317647",
-                "47317685"
-              ]
-            },
-            {
-              "category": "简洁 vs 复杂：名言的当代映射",
-              "summary": "他那句“把软件做得足够简单以显然无错误，或做得复杂以无明显错误”的名言在评论里被频繁引用以批评当代软件复杂化。许多人把 Turing 讲演的上下文和管理者轶事（如 Andrew St. Johnston 指出“你让程序员做你不理解的事”）与现代用 LLM/委托式开发相联系，担忧复杂性掩盖缺陷。讨论还谈到小团队/个人作品与委员会式设计的权衡，以及现在流行的“vibe coding”与工程质量之间的张力。总体上评论把这句箴言用于反思管理、工具与工程实践的失衡。",
-              "supportid": [
-                "47325225",
-                "47325498",
-                "47328848",
-                "47326290",
-                "47328496"
-              ]
-            },
-            {
-              "category": "语言影响与并发范式之争",
-              "summary": "评论细数他对编程语言与并发设计的深远影响：CSP 的思想催生了 Occam（为 Transputer 设计的并行语言），并通过实践者影响到 Go 的 channels 等实现。有人列出他对记录处理、关键字设计（如 case、new 等）的贡献，也讨论了 Actor model、软件事务内存（STM）等并发替代方案。总体讨论呈现学术价值与工程权衡并存的局面，说明其理论至今仍在不同社区被继承或被批评。",
-              "supportid": [
-                "47325029",
-                "47326703",
-                "47329466",
-                "47317685"
-              ]
-            },
-            {
-              "category": "纪念方式与轻佻笑话的争议（Hoare House）",
-              "summary": "一则关于牛津命名建筑为“Hoare House”发音双关的趣闻引发热议：有人回忆学校为避免低俗笑话采用 'C.A.R. Hoare Residence' 或设立 Tony Hoare Room 的处理。评论在是否应以俏皮方式纪念与应保持庄重之间出现分歧，一派认为幽默能帮助记忆，另一派认为长期管理与形象风险更重要。这个小插曲被用来反映学术纪念、幽默感与机构稳重之间的权衡。",
-              "supportid": [
-                "47324442",
-                "47325385",
-                "47325646",
-                "47327226"
-              ]
-            }
-          ],
-          "terminologies": [
-            {
-              "term": "Quicksort",
-              "explanation": "由 Tony Hoare 在 ALGOL 60 背景下提出的分治排序算法，核心是选取基准（pivot）将数组划分并递归排序，平均时间复杂度为 O(n log n)，实现简洁且影响深远。"
-            },
-            {
-              "term": "Communicating Sequential Processes (CSP)",
-              "explanation": "一种并发模型和理论框架，强调独立进程通过同步通信通道交换消息而不共享状态，奠定了并发语言（如 Occam）和后续通道设计（如 Go channels）的理论基础。"
-            },
-            {
-              "term": "Hoare logic",
-              "explanation": "用于对程序正确性进行形式化证明的公理化体系，使用前置条件/后置条件以及 Hoare triple ({P} C {Q}) 来推导和证明程序满足规范，是形式化方法的核心工具之一。"
-            },
-            {
-              "term": "null reference（billion dollar mistake）",
-              "explanation": "Hoare 所称的“十亿美元错误”指空引用（null pointer/reference）导致的空解引用、崩溃和安全漏洞；讨论焦点是是否应由类型系统显式表达可空性（Optional/Maybe、sum types）以避免运行时错误。"
-            },
-            {
-              "term": "Occam",
-              "explanation": "为 Transputer（并行处理器）设计的并发编程语言，直接实现 CSP 的同步通信语义，曾用于并行硬件研究与并发系统验证。"
-            }
-          ],
-          "context": "Tony Hoare（C. A. R. Hoare）是图灵奖得主与前牛津教授，因 Quicksort、Hoare logic 以及 Communicating Sequential Processes (CSP) 等奠基性工作受到广泛纪念。讨论大量引用他在 1980 年 Turing Award 讲演《The Emperor's Old Clothes》里的洞见和他对空引用（'billion dollar mistake'）的反思，评论把这些观点用来审视当代软件工程、并发设计与 AI 生成代码的风险与机遇。主题涵盖并发模型（CSP——强调通过同步通道通信的理论）、编程语言影响（如 Occam，为 Transputer 设计的并行语言；及 Go 的 channels）与形式化方法在工业化落地的历史与未来。许多评论来自曾听过他讲座或与他共事的研究者，既有学术细节也夹杂个人怀念与教学轶事。",
-          "emoji": "🕯️",
-          "sarcastic_question": "现在的招聘流程会录用像Hoare那样慢想的天才吗？"
-        },
-        "classifications": {
-          "topics": [
-            4,
-            6
-          ],
-          "facets": [
-            9
-          ],
-          "tags": [
-            "Tony Hoare",
-            "Turing Award",
-            "Oxford",
-            "CSP",
-            "computationalcomplexity.org"
-          ]
-        },
-        "classificationsUpdatedAt": 1773158198,
-        "aiSummary": {
-          "chinese_title": "图灵奖得主 Tony Hoare 逝世：Quicksort、Hoare logic、CSP 与“十亿美元错误”的遗产",
-          "discussion_overview": [
-            {
-              "category": "学术遗产与核心贡献",
-              "summary": "评论集中缅怀他的奠基性科研成果：Quicksort、Hoare logic（用于程序正确性证明的公理体系）和 Communicating Sequential Processes (CSP)。许多读者提到他在 ALGOL 60 课程中发现 Quicksort 的轶事与早期重要论文《An Axiomatic Basis for Computer Programming》，并引用其 Turing Award 讲演《The Emperor's Old Clothes》的洞见。回忆中常提到他能够从问题条件推导出可证明正确的代码，既体现理论深度又有教学耐心。总体观点认为这些工作长期影响了并发、编程语言设计与形式化验证领域。",
-              "supportid": [
-                "47324179",
-                "47324427",
-                "47317333",
-                "47317445",
-                "47329728"
-              ]
-            },
-            {
-              "category": "“十亿美元错误”（空引用）与类型系统争论",
-              "summary": "关于他所称的“billion dollar mistake”（空引用）讨论激烈且细致：有人指出他发明空引用本意是实现 optional 类型的简便机制，但真正的问题在于把所有引用默认设为可空，从而产生大量空解引用的运行时错误和漏洞。评论反复提出替代方案，包括显式 nullable/Optional/Maybe、代数和（sum types）以及由类型系统强制的非空检查，并引用 Rust、C# 等现代实践作为对比。也有为他辩护的声音认为 optional 类型有其价值，错误更多是历史实现权衡与类型系统能力限制，讨论甚至延伸到指针与引用早期发明的学术争议。",
-              "supportid": [
-                "47324459",
-                "47325101",
-                "47325781",
-                "47317141",
-                "47325281"
-              ]
-            },
-            {
-              "category": "个人回忆与教学风范",
-              "summary": "大量评论为个人见闻与回忆：许多人在 UT Austin、Cambridge、EuroPython 或牛津听过他的讲座，记得他讲课清晰、幽默且回答问题谦和。读者提到他能把复杂证明讲得看似简单、愿意与学生深入讨论并发与验证问题，还有为 DPhil 学生泡茶等细节，体现亲和力与耐心。这些回忆既表达对其学术成就的敬意，也怀念其作为导师和沟通者的风采。",
-              "supportid": [
-                "47325200",
-                "47325271",
-                "47324523",
-                "47324502",
-                "47325844"
-              ]
-            },
-            {
-              "category": "形式化方法的得失与未来",
-              "summary": "很多评论对他推动形式化方法感到敬佩同时也有遗憾：评论者认为他几十年倡导的软件证明与正确性方法未被工业广泛采用。有人提出历史上的成功案例（例如与工业合作的 FPU 形式化验证）证明可行性，但整体落地受限于工具与成本。部分读者乐观地认为随着 AI/LLM 与更成熟的自动化工具，形式化验证可能迎来回归并缓解生成代码的验证瓶颈。",
-              "supportid": [
-                "47317350",
-                "47317445",
-                "47317647",
-                "47317685"
-              ]
-            },
-            {
-              "category": "简洁 vs 复杂：名言的当代映射",
-              "summary": "他那句“把软件做得足够简单以显然无错误，或做得复杂以无明显错误”的名言在评论里被频繁引用以批评当代软件复杂化。许多人把 Turing 讲演的上下文和管理者轶事（如 Andrew St. Johnston 指出“你让程序员做你不理解的事”）与现代用 LLM/委托式开发相联系，担忧复杂性掩盖缺陷。讨论还谈到小团队/个人作品与委员会式设计的权衡，以及现在流行的“vibe coding”与工程质量之间的张力。总体上评论把这句箴言用于反思管理、工具与工程实践的失衡。",
-              "supportid": [
-                "47325225",
-                "47325498",
-                "47328848",
-                "47326290",
-                "47328496"
-              ]
-            },
-            {
-              "category": "语言影响与并发范式之争",
-              "summary": "评论细数他对编程语言与并发设计的深远影响：CSP 的思想催生了 Occam（为 Transputer 设计的并行语言），并通过实践者影响到 Go 的 channels 等实现。有人列出他对记录处理、关键字设计（如 case、new 等）的贡献，也讨论了 Actor model、软件事务内存（STM）等并发替代方案。总体讨论呈现学术价值与工程权衡并存的局面，说明其理论至今仍在不同社区被继承或被批评。",
-              "supportid": [
-                "47325029",
-                "47326703",
-                "47329466",
-                "47317685"
-              ]
-            },
-            {
-              "category": "纪念方式与轻佻笑话的争议（Hoare House）",
-              "summary": "一则关于牛津命名建筑为“Hoare House”发音双关的趣闻引发热议：有人回忆学校为避免低俗笑话采用 'C.A.R. Hoare Residence' 或设立 Tony Hoare Room 的处理。评论在是否应以俏皮方式纪念与应保持庄重之间出现分歧，一派认为幽默能帮助记忆，另一派认为长期管理与形象风险更重要。这个小插曲被用来反映学术纪念、幽默感与机构稳重之间的权衡。",
-              "supportid": [
-                "47324442",
-                "47325385",
-                "47325646",
-                "47327226"
-              ]
-            }
-          ],
-          "terminologies": [
-            {
-              "term": "Quicksort",
-              "explanation": "由 Tony Hoare 在 ALGOL 60 背景下提出的分治排序算法，核心是选取基准（pivot）将数组划分并递归排序，平均时间复杂度为 O(n log n)，实现简洁且影响深远。"
-            },
-            {
-              "term": "Communicating Sequential Processes (CSP)",
-              "explanation": "一种并发模型和理论框架，强调独立进程通过同步通信通道交换消息而不共享状态，奠定了并发语言（如 Occam）和后续通道设计（如 Go channels）的理论基础。"
-            },
-            {
-              "term": "Hoare logic",
-              "explanation": "用于对程序正确性进行形式化证明的公理化体系，使用前置条件/后置条件以及 Hoare triple ({P} C {Q}) 来推导和证明程序满足规范，是形式化方法的核心工具之一。"
-            },
-            {
-              "term": "null reference（billion dollar mistake）",
-              "explanation": "Hoare 所称的“十亿美元错误”指空引用（null pointer/reference）导致的空解引用、崩溃和安全漏洞；讨论焦点是是否应由类型系统显式表达可空性（Optional/Maybe、sum types）以避免运行时错误。"
-            },
-            {
-              "term": "Occam",
-              "explanation": "为 Transputer（并行处理器）设计的并发编程语言，直接实现 CSP 的同步通信语义，曾用于并行硬件研究与并发系统验证。"
-            }
-          ],
-          "context": "Tony Hoare（C. A. R. Hoare）是图灵奖得主与前牛津教授，因 Quicksort、Hoare logic 以及 Communicating Sequential Processes (CSP) 等奠基性工作受到广泛纪念。讨论大量引用他在 1980 年 Turing Award 讲演《The Emperor's Old Clothes》里的洞见和他对空引用（'billion dollar mistake'）的反思，评论把这些观点用来审视当代软件工程、并发设计与 AI 生成代码的风险与机遇。主题涵盖并发模型（CSP——强调通过同步通道通信的理论）、编程语言影响（如 Occam，为 Transputer 设计的并行语言；及 Go 的 channels）与形式化方法在工业化落地的历史与未来。许多评论来自曾听过他讲座或与他共事的研究者，既有学术细节也夹杂个人怀念与教学轶事。",
-          "emoji": "🕯️",
-          "sarcastic_question": "现在的招聘流程会录用像Hoare那样慢想的天才吗？"
-        }
-      },
-      "articleSummary": "## 一句话总结\n图灵奖得主、快速排序算法发明者 Tony Hoare 去世了，但他留下的逻辑严谨性至今仍在定义现代编程的基石。\n\n### 从\"价值十亿美元的错误\"到排序之王\nTony Hoare 的大名，在程序员圈子里如雷贯耳。他最广为人知的成就有两个：一个是发明了 Quicksort（快速排序），另一个是创造了 Null Reference（空引用）。有意思的是，他对这两件事的态度截然不同。Quicksort 是他在 1960 年还是程序员时为了解决排序问题想出来的，至今仍是最高效的通用排序算法之一。而 Null Reference，他后来称之为自己的\"价值十亿美元的错误\"，因为它引发了无数系统崩溃和 Bug。这种对技术两面性的深刻认知，正是他作为大师的体现。\n\n### 不仅仅是算法，更是编程哲学\nHoare 的贡献远不止于写出一个高效的排序函数。他真正厉害的地方在于，把数学逻辑引入了编程语言的设计中。他在 1969 年提出了公理语义学，说白了就是用数学公理来证明程序的正确性。这听起来很理论，但核心思路其实很简单：如果你能在写代码前用数学逻辑证明它是对的，那运行时出错的可能性就会大大降低。这种思维方式，直接催生了后来形式化验证方法的发展，让软件工程从\"手艺\"向\"科学\"迈进了一大步。\n\n### 沟通过程中的逻辑证明\nHoare 不仅关注代码怎么写，更关注人怎么理解代码。他在 1978 年提出了 CSP（Communicating Sequential Processes），这是一种描述并发系统中交互过程的数学语言。这玩意儿后来成了 Go 语言中 Channel（通道）设计的理论基础。为什么这很重要？因为在多线程编程里，最难搞的就是共享内存带来的锁竞争和死锁。Hoare 的核心思路是：不要共享内存来通信，而要通过通信来共享内存。这个设计理念，至今仍是解决并发问题的黄金法则。\n\n### 学术界与工业界的双重桥梁\n很多搞理论的学者，写出来的东西工业界根本看不懂或者用不上。但 Hoare 不一样，他曾在牛津大学任教，也在微软研究院（Microsoft Research）工作过。这种经历让他非常清楚理论落地时的痛点。他在微软期间主导的\"Spec#\"项目，就是试图把形式化验证方法应用到实际的 C# 开发中。虽然这没能彻底改变业界现状，但他证明了在大型商业软件中应用严谨逻辑验证的可行性。他不仅是个理论家，更是个懂工程落地的实践者。\n\n### 一位追求极致严谨的绅士\n读 Hoare 的文章或听他演讲，你会发现他极其讲究语言的精确性。他不喜欢模糊不清的表达，认为这是导致软件混乱的根源。他常说，编程的本质是把人类意图精确地映射到机器行为上。如果意图本身是模糊的，那代码注定是一团糟。这种对\"清晰\"和\"证明\"的执着，贯穿了他的一生。对于我们这些天天写代码的人来说，Hoare 留下的最大遗产或许不是某个具体算法，而是一种思维方式：在动手写代码之前，先想清楚逻辑闭环。"
-    },
-    {
-      "id": 47328214,
-      "by": "todsacerdoti",
-      "title": "RISC-V Is Sloooow",
-      "url": "https://marcin.juszkiewicz.com.pl/2026/03/10/risc-v-is-sloooow/",
-      "score": 127,
-      "detailUpdatedAt": 1773184431,
-      "createdAt": 1773174055,
-      "aiSummaryUpdatedAt": 1773184931,
-      "aisummary": {
-        "chinese_title": "RISC‑V 慢：是硅实现、ISA 设计还是生态不足？",
-        "emoji": "🐢",
-        "sarcastic_question": "真的要等 Intel 和 Apple 全部改用 RISC‑V 才会快吗？"
-      },
-      "classifications": {
-        "topics": [
-          7,
-          4
-        ],
-        "facets": [
-          10,
-          9
-        ],
-        "tags": [
-          "RISC-V",
-          "ARM",
-          "x86",
-          "cross-compilation",
-          "s390x"
-        ]
-      },
-      "classificationsUpdatedAt": 1773176516,
-      "aiSummary": {
-        "chinese_title": "RISC‑V 慢：是硅实现、ISA 设计还是生态不足？",
-        "emoji": "🐢",
-        "sarcastic_question": "真的要等 Intel 和 Apple 全部改用 RISC‑V 才会快吗？"
-      },
-      "detail": {
-        "id": 47328214,
-        "by": "todsacerdoti",
-        "title": "RISC-V Is Sloooow",
-        "url": "https://marcin.juszkiewicz.com.pl/2026/03/10/risc-v-is-sloooow/",
-        "score": 127,
-        "detailUpdatedAt": 1773184431,
-        "createdAt": 1773174055,
-        "aiSummaryUpdatedAt": 1773184931,
-        "aisummary": {
-          "chinese_title": "RISC‑V 慢：是硅实现、ISA 设计还是生态不足？",
-          "discussion_overview": [
-            {
-              "category": "硅实现与软件支持不成熟",
-              "summary": "许多评论指出性能问题更多源自当前的硅实现和缺乏针对性的软硬件优化，而不是 ISA 本身。具体例子包括现有芯片多为面向嵌入式或早期样片，且系统级设计（缓存组织、DDR、PCIe 等）需要模拟/RF VLSI 专业知识，若做得不好会导致性能大幅下降。编译器和库尚未为各种可选扩展或实际微架构做深入调优，社区（如 Fedora/RHEL 的 RISC‑V enablement）正在努力补位。文章用的开发板（例如 Banana Pi）被认为不足以代表高端实现，因此不能单凭这些样板断言 ISA 问题。",
-              "supportid": [
-                "47328343",
-                "47328855",
-                "47329571",
-                "47328817",
-                "47328372"
-              ]
-            },
-            {
-              "category": "ISA 设计与可选扩展导致性能/可移植性问题",
-              "summary": "另一类评论把问题指向 RISC‑V 的规范和可选扩展策略：有人指出规范中存在如强制 4 KiB 页面大小等设计，以及把位操作(bitmanip)从核心剥离，导致在无扩展的实现上需用慢速指令序列实现常见操作。缺少 carry 位、宽乘(widening multiply/MAC) 或对带符号整数溢出的硬件检测，会迫使软件插入额外指令，从而影响性能与可靠性。为此社区正在推动像 RVA22/RVA23 这类 profile 把常用扩展纳入标准，而早期也出现了自定义扩展（如 Xh3bextm）去弥补规范空白，反映出规范与实现之间的折衷与碎片化问题。",
-              "supportid": [
-                "47328930",
-                "47328996",
-                "47329311",
-                "47329322",
-                "47329283",
-                "47329596",
-                "47329748",
-                "47329041"
-              ]
-            },
-            {
-              "category": "编译器与微架构调优影响性能",
-              "summary": "很多评论强调编译器后端与微架构细节对最终性能有实质影响：LLVM/GCC 对不同微架构的特有预取、分支预测或加载带宽等“怪癖”不能自动推断，顶级性能有时仍依赖手工汇编或库级优化。RISC‑V 的多种碎片化实现令后端工程更复杂，部分 LLVM issue 和尚未完善的后端会影响生成指令质量。构建/测试流程也受限于工具：跨编译、user‑mode QEMU、binfmt_misc、dockcross、t2linux 等都被提为实际方案，但仿真通常比 KVM 慢，因此要得出结论需谨慎；有评论建议先用 -O0 导出汇编做逐步诊断。",
-              "supportid": [
-                "47328976",
-                "47329141",
-                "47329360",
-                "47328519",
-                "47328514",
-                "47328644",
-                "47328786"
-              ]
-            },
-            {
-              "category": "商业、生态与投资驱动因素",
-              "summary": "多条评论把问题归结为行业投资与商业激励不足：设计高性能 CPU 需要巨额投入，而现有大厂（Intel/AMD/Apple/Qualcomm）对既有 x86/ARM 投资难以放弃，因而没动机大规模转向 RISC‑V。此外许多参与者倾向做 IP 授权而非量产芯片，导致市场上可买到的高性能硅片稀缺。地缘政治与供应链事件（如 SOPHGO 的禁令、Milk‑V Oasis 取消、Rivos 被 Meta 收购）也被提到会直接影响可用的高性能开发板与 SoC；有评论认为中国供应商或会率先推出有竞争力的实现。",
-              "supportid": [
-                "47328865",
-                "47329571",
-                "47328658",
-                "47328632",
-                "47328412",
-                "47328435"
-              ]
-            },
-            {
-              "category": "RISC‑V 的潜力与即将到来的高性能实现",
-              "summary": "也有乐观的声音认为 RISC‑V 并非注定落后：随着 RVA23 等 profile 把 bitmanip、vector 等扩展规范化，新一代核心将能消除许多早期瓶颈。评论里列举了若干正在开发或样片阶段的高性能实现（如 SiFive P870、Tenstorrent Ascalon、SpaceMIT/SpacemiT K3），并指出部分芯片在单核/多核或 AI 加速上已有亮点。不过这些方案多数尚未广泛量产或可购，社区普遍认为还需数年时间、资金与软件生态的齐头并进才能达到与 ARM/x86 的完全可比性。",
-              "supportid": [
-                "47328343",
-                "47329322",
-                "47329837",
-                "47329897",
-                "47328604",
-                "47328732"
-              ]
-            },
-            {
-              "category": "基准方法学与构建实践的批评与建议",
-              "summary": "许多评论质疑文章的基准方法和标题的概括性：批评点包括缺乏具体硬件型号、成本与频率信息，用单一开发板或按架构汇总构建时间来断言整体性能不严谨。对比数据中出现的异常（例如 i686 比 x86_64 更快）被指出可能源于测试覆盖差异（有人提到 x86_64 构建运行更多 linker tests），而非硬件本身。实用建议包括使用 ccache 或 firebuild 加速构建、通过 cross‑compile 或 user‑mode QEMU 跑测试、或先检查生成汇编以定位瓶颈，从而获得更具说服力的结论。",
-              "supportid": [
-                "47328372",
-                "47328390",
-                "47329113",
-                "47329400",
-                "47328587",
-                "47328401"
-              ]
-            }
-          ],
-          "terminologies": [
-            {
-              "term": "ISA（Instruction Set Architecture）",
-              "explanation": "定义处理器可用指令、寻址方式和 ABI 的规范。评论中反复区分 ISA 规范本身与具体硅实现/微架构对性能的不同影响。"
-            },
-            {
-              "term": "RVA22 / RVA23 profile",
-              "explanation": "RISC‑V 的配置文件（profile），把常用扩展（如 bitmanip、vector 等）列为标准集合以减少实现碎片和提升可移植性与性能。"
-            },
-            {
-              "term": "bitmanip（位操作扩展，Zb*）",
-              "explanation": "包含 rotate、bitfield、位提取/插入等位操作指令；若作为可选扩展而非基础指令，缺失时会被软件用多条指令模拟，造成性能开销。"
-            },
-            {
-              "term": "vector extension（RISC‑V 向量扩展）",
-              "explanation": "用于 SIMD/批量浮点与 AI 工作负载的指令集扩展，可以显著提高多数据并行计算的吞吐和 AI 推理性能。"
-            },
-            {
-              "term": "integer overflow detection（整数溢出检测，硬件 vs 软件）",
-              "explanation": "带符号整数溢出的硬件检测（如专门标志位）能以低成本判断 overflow；RISC‑V 缺乏内建的带符号溢出标志会迫使软件插入多条指令来检测，影响代码尺寸与执行时间。"
-            },
-            {
-              "term": "QEMU 与跨编译（cross‑compilation）",
-              "explanation": "QEMU 是常用的用户态或系统级仿真器，可用于在无实机时运行/测试 RISC‑V 二进制；跨编译工具链（如 dockcross、t2linux）可在 x86 主机上生成 RISC‑V 可执行文件，但仿真通常比 KVM 慢，测试结果需谨慎解读。"
-            },
-            {
-              "term": "barrel shifter（并行移位单元）",
-              "explanation": "硬件移位器能在一个周期内完成任意位移，但完整 32‑bit barrel shifter 占用较多硅面积，嵌入式实现常选用窄位或软件补偿，影响位操作性能。"
-            }
-          ],
-          "context": "RISC‑V 是一个开放的指令集架构（ISA），因其简洁和可扩展性在教学与嵌入式领域获得广泛关注。讨论的核心是：当前观测到的“慢”是 ISA 本身的设计缺陷，还是由早期/低成本的硅实现、系统级电路设计（缓存、DDR、PCIe）和软件生态（LLVM/GCC 后端、发行版适配）共同造成。社区尝试通过规范化 profile（如 RVA22/RVA23）和发行版适配（例如 Fedora/RHEL 的 RISC‑V enablement）来减少碎片化，但高性能实现还依赖大量资金与厂商投入。地缘政治与供应链事件（如 SOPHGO 相关限制、Milk‑V 板取消、Rivos 被收购）也直接影响可用高性能开发板与 SoC 的供给。",
-          "emoji": "🐢",
-          "sarcastic_question": "真的要等 Intel 和 Apple 全部改用 RISC‑V 才会快吗？"
-        },
-        "classifications": {
-          "topics": [
-            7,
-            4
-          ],
-          "facets": [
-            10,
-            9
-          ],
-          "tags": [
-            "RISC-V",
-            "ARM",
-            "x86",
-            "cross-compilation",
-            "s390x"
-          ]
-        },
-        "classificationsUpdatedAt": 1773176516,
-        "aiSummary": {
-          "chinese_title": "RISC‑V 慢：是硅实现、ISA 设计还是生态不足？",
-          "discussion_overview": [
-            {
-              "category": "硅实现与软件支持不成熟",
-              "summary": "许多评论指出性能问题更多源自当前的硅实现和缺乏针对性的软硬件优化，而不是 ISA 本身。具体例子包括现有芯片多为面向嵌入式或早期样片，且系统级设计（缓存组织、DDR、PCIe 等）需要模拟/RF VLSI 专业知识，若做得不好会导致性能大幅下降。编译器和库尚未为各种可选扩展或实际微架构做深入调优，社区（如 Fedora/RHEL 的 RISC‑V enablement）正在努力补位。文章用的开发板（例如 Banana Pi）被认为不足以代表高端实现，因此不能单凭这些样板断言 ISA 问题。",
-              "supportid": [
-                "47328343",
-                "47328855",
-                "47329571",
-                "47328817",
-                "47328372"
-              ]
-            },
-            {
-              "category": "ISA 设计与可选扩展导致性能/可移植性问题",
-              "summary": "另一类评论把问题指向 RISC‑V 的规范和可选扩展策略：有人指出规范中存在如强制 4 KiB 页面大小等设计，以及把位操作(bitmanip)从核心剥离，导致在无扩展的实现上需用慢速指令序列实现常见操作。缺少 carry 位、宽乘(widening multiply/MAC) 或对带符号整数溢出的硬件检测，会迫使软件插入额外指令，从而影响性能与可靠性。为此社区正在推动像 RVA22/RVA23 这类 profile 把常用扩展纳入标准，而早期也出现了自定义扩展（如 Xh3bextm）去弥补规范空白，反映出规范与实现之间的折衷与碎片化问题。",
-              "supportid": [
-                "47328930",
-                "47328996",
-                "47329311",
-                "47329322",
-                "47329283",
-                "47329596",
-                "47329748",
-                "47329041"
-              ]
-            },
-            {
-              "category": "编译器与微架构调优影响性能",
-              "summary": "很多评论强调编译器后端与微架构细节对最终性能有实质影响：LLVM/GCC 对不同微架构的特有预取、分支预测或加载带宽等“怪癖”不能自动推断，顶级性能有时仍依赖手工汇编或库级优化。RISC‑V 的多种碎片化实现令后端工程更复杂，部分 LLVM issue 和尚未完善的后端会影响生成指令质量。构建/测试流程也受限于工具：跨编译、user‑mode QEMU、binfmt_misc、dockcross、t2linux 等都被提为实际方案，但仿真通常比 KVM 慢，因此要得出结论需谨慎；有评论建议先用 -O0 导出汇编做逐步诊断。",
-              "supportid": [
-                "47328976",
-                "47329141",
-                "47329360",
-                "47328519",
-                "47328514",
-                "47328644",
-                "47328786"
-              ]
-            },
-            {
-              "category": "商业、生态与投资驱动因素",
-              "summary": "多条评论把问题归结为行业投资与商业激励不足：设计高性能 CPU 需要巨额投入，而现有大厂（Intel/AMD/Apple/Qualcomm）对既有 x86/ARM 投资难以放弃，因而没动机大规模转向 RISC‑V。此外许多参与者倾向做 IP 授权而非量产芯片，导致市场上可买到的高性能硅片稀缺。地缘政治与供应链事件（如 SOPHGO 的禁令、Milk‑V Oasis 取消、Rivos 被 Meta 收购）也被提到会直接影响可用的高性能开发板与 SoC；有评论认为中国供应商或会率先推出有竞争力的实现。",
-              "supportid": [
-                "47328865",
-                "47329571",
-                "47328658",
-                "47328632",
-                "47328412",
-                "47328435"
-              ]
-            },
-            {
-              "category": "RISC‑V 的潜力与即将到来的高性能实现",
-              "summary": "也有乐观的声音认为 RISC‑V 并非注定落后：随着 RVA23 等 profile 把 bitmanip、vector 等扩展规范化，新一代核心将能消除许多早期瓶颈。评论里列举了若干正在开发或样片阶段的高性能实现（如 SiFive P870、Tenstorrent Ascalon、SpaceMIT/SpacemiT K3），并指出部分芯片在单核/多核或 AI 加速上已有亮点。不过这些方案多数尚未广泛量产或可购，社区普遍认为还需数年时间、资金与软件生态的齐头并进才能达到与 ARM/x86 的完全可比性。",
-              "supportid": [
-                "47328343",
-                "47329322",
-                "47329837",
-                "47329897",
-                "47328604",
-                "47328732"
-              ]
-            },
-            {
-              "category": "基准方法学与构建实践的批评与建议",
-              "summary": "许多评论质疑文章的基准方法和标题的概括性：批评点包括缺乏具体硬件型号、成本与频率信息，用单一开发板或按架构汇总构建时间来断言整体性能不严谨。对比数据中出现的异常（例如 i686 比 x86_64 更快）被指出可能源于测试覆盖差异（有人提到 x86_64 构建运行更多 linker tests），而非硬件本身。实用建议包括使用 ccache 或 firebuild 加速构建、通过 cross‑compile 或 user‑mode QEMU 跑测试、或先检查生成汇编以定位瓶颈，从而获得更具说服力的结论。",
-              "supportid": [
-                "47328372",
-                "47328390",
-                "47329113",
-                "47329400",
-                "47328587",
-                "47328401"
-              ]
-            }
-          ],
-          "terminologies": [
-            {
-              "term": "ISA（Instruction Set Architecture）",
-              "explanation": "定义处理器可用指令、寻址方式和 ABI 的规范。评论中反复区分 ISA 规范本身与具体硅实现/微架构对性能的不同影响。"
-            },
-            {
-              "term": "RVA22 / RVA23 profile",
-              "explanation": "RISC‑V 的配置文件（profile），把常用扩展（如 bitmanip、vector 等）列为标准集合以减少实现碎片和提升可移植性与性能。"
-            },
-            {
-              "term": "bitmanip（位操作扩展，Zb*）",
-              "explanation": "包含 rotate、bitfield、位提取/插入等位操作指令；若作为可选扩展而非基础指令，缺失时会被软件用多条指令模拟，造成性能开销。"
-            },
-            {
-              "term": "vector extension（RISC‑V 向量扩展）",
-              "explanation": "用于 SIMD/批量浮点与 AI 工作负载的指令集扩展，可以显著提高多数据并行计算的吞吐和 AI 推理性能。"
-            },
-            {
-              "term": "integer overflow detection（整数溢出检测，硬件 vs 软件）",
-              "explanation": "带符号整数溢出的硬件检测（如专门标志位）能以低成本判断 overflow；RISC‑V 缺乏内建的带符号溢出标志会迫使软件插入多条指令来检测，影响代码尺寸与执行时间。"
-            },
-            {
-              "term": "QEMU 与跨编译（cross‑compilation）",
-              "explanation": "QEMU 是常用的用户态或系统级仿真器，可用于在无实机时运行/测试 RISC‑V 二进制；跨编译工具链（如 dockcross、t2linux）可在 x86 主机上生成 RISC‑V 可执行文件，但仿真通常比 KVM 慢，测试结果需谨慎解读。"
-            },
-            {
-              "term": "barrel shifter（并行移位单元）",
-              "explanation": "硬件移位器能在一个周期内完成任意位移，但完整 32‑bit barrel shifter 占用较多硅面积，嵌入式实现常选用窄位或软件补偿，影响位操作性能。"
-            }
-          ],
-          "context": "RISC‑V 是一个开放的指令集架构（ISA），因其简洁和可扩展性在教学与嵌入式领域获得广泛关注。讨论的核心是：当前观测到的“慢”是 ISA 本身的设计缺陷，还是由早期/低成本的硅实现、系统级电路设计（缓存、DDR、PCIe）和软件生态（LLVM/GCC 后端、发行版适配）共同造成。社区尝试通过规范化 profile（如 RVA22/RVA23）和发行版适配（例如 Fedora/RHEL 的 RISC‑V enablement）来减少碎片化，但高性能实现还依赖大量资金与厂商投入。地缘政治与供应链事件（如 SOPHGO 相关限制、Milk‑V 板取消、Rivos 被收购）也直接影响可用高性能开发板与 SoC 的供给。",
-          "emoji": "🐢",
-          "sarcastic_question": "真的要等 Intel 和 Apple 全部改用 RISC‑V 才会快吗？"
-        }
-      },
-      "articleSummary": "## 一句话总结\nRISC-V 当前的硬件性能实在太弱，导致 Fedora 的构建时间比其他架构慢 4 倍以上，以至于开发者不得不依赖 QEMU 模拟器来加速编译。\n\n### 真正的瓶颈是硬件性能，而不是代码量\n作者最近三个月在搞 Fedora 的 RISC-V 移植工作，处理了 Tracker 里的大部分条目，还顺手修了 86 个包。但工作流程越顺，那个尴尬的问题就越明显：速度太慢了。这不仅仅是“有点卡”的感觉，而是实打实的生产力阻碍。为了说明问题，作者直接甩出了一张 `binutils` 包的构建时间对比表，数据非常残酷。\n\n### RISC-V 的构建时间是其他架构的 4 倍\n在这张对比表里，x86_64 和 i686 只需要 25 到 29 分钟，aarch64 也只要 36 分钟。哪怕是 ppc64le 这种非主流架构，也就 46 分钟。但 riscv64 呢？足足花了 143 分钟。这还是在禁用了 LTO（Link Time Optimization）的前提下。之所以禁用 LTO，完全是因为现在的 RISC-V 构建机扛不住那个内存和 CPU 开销。说白了，现在的硬件水平逼着开发者必须在编译优化和构建速度之间做取舍，而且只能选后者。\n\n### 核心算力仅相当于 ARM 的入门级核心\n为什么这么慢？目前的 RISC-V 构建机配置大多是 4 到 8 核，内存 8GB 到 32GB。这些核心的性能大概也就和 ARM Cortex-A55 持平。要知道，Cortex-A55 在 ARM 的芯片谱系里属于“小核”，是今天 ARM 芯片里性能最低的那一档。虽然像 Milk-V Titan（搭载 UltraRISC UR-DP1000）或者 SpacemiT K3 这样的新板子能改善一点情况，甚至把内存加到 64GB，但作者很清醒：这只是改善，不是解药。\n\n### 想成为 Fedora 主力架构，性能必须翻倍\n作者给了一个很硬的指标：要想让 RISC-V 成为 Fedora 官方支持的主架构，硬件必须能在 1 小时内构建完 `binutils`，而且还得是开着 LTO 的那种。现在的硬件连关了 LTO 都要两个多小时，离这个目标差得远。更关键的是，这些硬件得像普通服务器一样可上架、可管理，而不是像开发板那样只能放在桌子上跑。\n\n### 有意思的地方在于：模拟器竟然比真机快\n既然真机不给力，作者换了个思路：用 QEMU 模拟。他在 QEMU 上开了 80 个模拟核心，结果发现构建像 `llvm15` 这种重型包只要 4 小时。相比之下，在 Banana Pi BPI-F3 这种真机构建器上，同样的包要跑 10.5 小时。这事儿听起来挺讽刺，但逻辑很简单：虽然模拟有损耗，但 80 个核心并行带来的吞吐量优势，直接碾压了真机那几个慢吞吞的物理核心。\n\n### 未来的指望：更强的核心与更细的分工\n接下来的计划很务实。Fedora 44 的构建会继续，内核版本也会统一，但 LTO 短期内还是开不了。解决性能问题的唯一出路就是引入更强的构建机。作者已经在规划把那些更重的包（比如 LLVM）分配给性能更强的新机器去跑。在这之前，RISC-V 的开发者们恐怕还得继续在 QEMU 的虚拟核心里寻找慰藉了。"
     },
     {
       "id": 47323900,
