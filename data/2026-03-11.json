@@ -3,7 +3,7 @@
   "total_feeds": 92,
   "success_feeds": 85,
   "total_articles": 2418,
-  "filtered_articles": 17,
+  "filtered_articles": 16,
   "articles": [
     {
       "title": "The Beginning Of History",
@@ -86,6 +86,26 @@
       "rank": 4
     },
     {
+      "title": "Microsoft Patch Tuesday, March 2026 Edition",
+      "title_zh": "微软 3 月补丁日修复 77 个漏洞",
+      "link": "https://krebsonsecurity.com/2026/03/microsoft-patch-tuesday-march-2026-edition/",
+      "pub_date": "2026-03-11T00:32:51.000Z",
+      "summary": "Microsoft 3 月补丁日修复 77 个漏洞，无零日漏洞。CVE-2026-21262 是 SQL Server 权限提升漏洞，CVSS 8.8 分，授权攻击者可从网络提升至 sysadmin。CVE-2026-26113 和 CVE-2026-26110 是 Office 远程代码执行漏洞，仅需在预览窗格查看恶意邮件即可触发。55% 的补丁为权限提升类，其中 6 个被标记为 \"exploitation more likely\"，涉及 Windows Graphics Component、SMB Server、Winlogon 等组件。CVE-2026-21536 是首个由 AI 渗透测试工具 XBOW 发现并获 CVE 编号的 Windows 漏洞，CVSS 9.8 分，Microsoft 已在服务端修复。Adobe 同日发布 80 个漏洞补丁，Firefox 148.0.2 修复 3 个高危漏洞。",
+      "source_name": "krebsonsecurity.com",
+      "score": 19,
+      "depth": 5,
+      "novelty": 6,
+      "breadth": 8,
+      "category": "security",
+      "keywords": [
+        "CVE",
+        "Microsoft",
+        "XBOW",
+        "SQL Server"
+      ],
+      "rank": 5
+    },
+    {
       "title": "Pluralistic: Ad-tech is fascist tech (10 Mar 2026)",
       "title_zh": "广告技术是法西斯技术",
       "link": "https://pluralistic.net/2026/03/10/ice-tech/",
@@ -103,7 +123,7 @@
         "privacy",
         "ICE"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "AI should help us produce better code",
@@ -123,7 +143,7 @@
         "refactoring",
         "compound-engineering"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "I'm Not Lying, I'm Hallucinating",
@@ -143,7 +163,7 @@
         "Karpathy",
         "vibe coding"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Simplifying expressions in SymPy",
@@ -162,7 +182,27 @@
         "Python",
         "simplification"
       ],
-      "rank": 8
+      "rank": 9
+    },
+    {
+      "title": "The Server Older than my Kids!",
+      "title_zh": "运行 7 年的服务器终于要退役了",
+      "link": "https://idiallo.com/byte-size/my-server-is-older-than-my-kids?src=feed",
+      "pub_date": "2026-03-11T01:38:25.000Z",
+      "summary": "",
+      "source_name": "idiallo.com",
+      "score": 7,
+      "depth": 3,
+      "novelty": 2,
+      "breadth": 2,
+      "category": "engineering",
+      "keywords": [
+        "server",
+        "migration",
+        "Ubuntu",
+        "Nginx"
+      ],
+      "rank": 10
     },
     {
       "title": "HN Skins 0.4.0 - Black Bar Updates",
@@ -182,7 +222,7 @@
         "Hacker News",
         "themes"
       ],
-      "rank": 9
+      "rank": 11
     },
     {
       "title": "A snappy answer when asked about dressing casually at IBM",
@@ -201,7 +241,7 @@
         "culture",
         "history"
       ],
-      "rank": 10
+      "rank": 12
     }
   ]
 }
