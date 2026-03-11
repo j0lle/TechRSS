@@ -2,8 +2,8 @@
   "date": "2026-03-12",
   "total_feeds": 92,
   "success_feeds": 86,
-  "total_articles": 2443,
-  "filtered_articles": 15,
+  "total_articles": 2542,
+  "filtered_articles": 16,
   "articles": [
     {
       "title": "Iran-Backed Hackers Claim Wiper Attack on Medtech Firm Stryker",
@@ -26,6 +26,26 @@
       "rank": 1
     },
     {
+      "title": "I’m glad the Anthropic fight is happening now",
+      "title_zh": "Anthropic 与国防部的冲突预示 AI 治理危机",
+      "link": "https://www.dwarkesh.com/p/dow-anthropic",
+      "pub_date": "2026-03-11T18:55:20.000Z",
+      "summary": "美国国防部因 Anthropic 拒绝移除对大规模监控和自主武器的使用限制，将其列为供应链风险。文章认为这场冲突是未来更高风险谈判的前奏，揭示了 AI 时代最核心的问题：当 99% 的军事、政府和私营部门劳动力都由 AI 构成时，这些 AI 应该对谁负责、由谁决定？作者计算了 AI 驱动全美 1 亿个摄像头的成本：当前约 300 亿美元，每年成本下降 10 倍，到 2030 年可能比装修白宫还便宜。一旦技术能力存在，唯一阻止监控国家的就是政治预期，而 Anthropic 的立场正在帮助建立这种规范。文章批评 AI 安全界对监管的呼吁是幼稚的，因为像“灾难性风险”“国家安全威胁”“自主性风险”这样的术语过于模糊，容易被滥用。作者认为 AI 更像工业化而非核武器，应该禁止特定破坏性用途，而不是让政府全面接管。最终结论是：只有通过政治系统建立法律和规范，明确政府使用 AI 进行监控和审查是不可接受的，才能维护自由社会。",
+      "source_name": "dwarkesh.com",
+      "score": 23,
+      "depth": 7,
+      "novelty": 8,
+      "breadth": 8,
+      "category": "opinion",
+      "keywords": [
+        "Anthropic",
+        "surveillance",
+        "alignment",
+        "regulation"
+      ],
+      "rank": 2
+    },
+    {
       "title": "Pluralistic: AI \"journalists\" prove that media bosses don't give a shit (11 Mar 2026)",
       "title_zh": "AI 替代新闻业背后的质量降级逻辑",
       "link": "https://pluralistic.net/2026/03/11/modal-dialog-a-palooza/",
@@ -43,7 +63,7 @@
         "media",
         "automation"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "I don't know if I like working at higher levels of abstraction",
@@ -63,7 +83,7 @@
         "craft",
         "junior engineers"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "How do compilers ensure that large stack allocations do not skip over the guard page?",
@@ -83,7 +103,7 @@
         "_chkstk",
         "compiler"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "From the DF Archive: ‘And Oranges’",
@@ -103,7 +123,24 @@
         "Ubuntu",
         "ideology"
       ],
-      "rank": 5
+      "rank": 6
+    },
+    {
+      "title": "We desperately need a Reality Literacy",
+      "title_zh": "付费文章无法评估",
+      "link": "https://www.joanwestenberg.com/we-desperately-need-a-reality-literacy/",
+      "pub_date": "2026-03-11T22:47:17.000Z",
+      "summary": "",
+      "source_name": "joanwestenberg.com",
+      "score": 3,
+      "depth": 1,
+      "novelty": 1,
+      "breadth": 1,
+      "category": "other",
+      "keywords": [
+        "paywall"
+      ],
+      "rank": 7
     }
   ]
 }
