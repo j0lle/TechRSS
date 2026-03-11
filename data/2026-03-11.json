@@ -2,8 +2,8 @@
   "date": "2026-03-11",
   "total_feeds": 92,
   "success_feeds": 85,
-  "total_articles": 2418,
-  "filtered_articles": 17,
+  "total_articles": 2517,
+  "filtered_articles": 18,
   "articles": [
     {
       "title": "The Beginning Of History",
@@ -166,6 +166,26 @@
       "rank": 8
     },
     {
+      "title": "The story of one of my worst programming failures",
+      "title_zh": "在过小机器上开发导致研究项目失败",
+      "link": "https://utcc.utoronto.ca/~cks/space/blog/programming/DevelopedTooSmallFailure",
+      "pub_date": "2026-03-11T01:58:42.000Z",
+      "summary": "作者在本科期间为教授研究项目开发 Ultrix 内核的磁盘 IO 追踪功能，将追踪记录的字段设计得尽可能紧凑以节省空间。在实验室的小容量磁盘机器上测试正常后，带着代码到 DEC 客户现场部署，刚启动追踪就触发内核 panic——磁盘块号字段溢出。客户服务器的磁盘远大于实验室机器，作者设计的字段（可能是 24 位）无法容纳更大的块地址。虽然修复很简单，但无法在现场重建内核，只能空手而归，这个研究项目此后再无进展。作者还提到另一个失败：从文件系统级追踪扩展到块 IO 级追踪时，同步写入缓冲区的机制导致频繁死锁，不得不重构为复杂的多进程异步写入方案。",
+      "source_name": "utcc.utoronto.ca/~cks",
+      "score": 15,
+      "depth": 6,
+      "novelty": 5,
+      "breadth": 4,
+      "category": "engineering",
+      "keywords": [
+        "kernel",
+        "disk IO",
+        "Ultrix",
+        "field size"
+      ],
+      "rank": 9
+    },
+    {
       "title": "I'm Not Lying, I'm Hallucinating",
       "title_zh": "LLM 幻觉：从预测错误到神经障碍",
       "link": "https://idiallo.com/byte-size/im-not-lying-im-hallucinating?src=feed",
@@ -183,7 +203,7 @@
         "Karpathy",
         "vibe coding"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Simplifying expressions in SymPy",
@@ -202,7 +222,7 @@
         "Python",
         "simplification"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "The Server Older than my Kids!",
@@ -222,7 +242,7 @@
         "Ubuntu",
         "Nginx"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "HN Skins 0.4.0 - Black Bar Updates",
@@ -242,7 +262,7 @@
         "Hacker News",
         "themes"
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "title": "A snappy answer when asked about dressing casually at IBM",
@@ -261,7 +281,7 @@
         "culture",
         "history"
       ],
-      "rank": 13
+      "rank": 14
     }
   ]
 }
