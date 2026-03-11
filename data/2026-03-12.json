@@ -3,7 +3,7 @@
   "total_feeds": 92,
   "success_feeds": 86,
   "total_articles": 2443,
-  "filtered_articles": 13,
+  "filtered_articles": 16,
   "articles": [
     {
       "title": "Iran-Backed Hackers Claim Wiper Attack on Medtech Firm Stryker",
@@ -24,6 +24,66 @@
         "Stryker"
       ],
       "rank": 1
+    },
+    {
+      "title": "Pluralistic: AI \"journalists\" prove that media bosses don't give a shit (11 Mar 2026)",
+      "title_zh": "AI 替代新闻业背后的质量降级逻辑",
+      "link": "https://pluralistic.net/2026/03/11/modal-dialog-a-palooza/",
+      "pub_date": "2026-03-11T19:11:59.000Z",
+      "summary": "媒体公司用 AI 替代人工写作，本质是降低质量而非提升效率。Hearst 让一名自由撰稿人完成本需数十人的 64 页夏季阅读指南，导致出现不存在的书籍。Grammarly 推出 \"Expert Review\" 功能，声称能模仿知名作家风格提供写作建议，但实际只是基于已发表作品的统计建模，与真正的写作教学无关。这些案例揭示了一个共同逻辑：老板们根本不在乎新闻质量，AI 只是他们进一步贬低内容价值的工具。从客服中心到新闻编辑室，\"我们用 AI 做这个\" 翻译过来就是 \"我们本来就不想做这件事，也不在乎做得好不好\"。AI 本身只是自动化工具，问题在于资本主义的自动化模式：以数量压倒质量，用机器降低期望，从而以更差的产品卖更高的价格。",
+      "source_name": "pluralistic.net",
+      "score": 18,
+      "depth": 5,
+      "novelty": 6,
+      "breadth": 7,
+      "category": "opinion",
+      "keywords": [
+        "AI journalism",
+        "Grammarly",
+        "media",
+        "automation"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "How do compilers ensure that large stack allocations do not skip over the guard page?",
+      "title_zh": "编译器如何防止大栈分配跳过保护页",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260311-00/?p=112134",
+      "pub_date": "2026-03-11T14:00:00.000Z",
+      "summary": "当函数的栈帧大小超过一个页面（通常为 4KB）时，如果直接访问最低地址的局部变量，会跳过保护页直接进入保留区域导致进程崩溃。编译器通过生成对 `_chkstk` 等辅助函数的调用来解决这个问题，该函数按顺序触碰所有涉及的页面，确保保护页被逐个转换为已提交内存。系统只维护一个保护页，即已分配栈空间正下方的页面，触碰保护页后系统会将其转换为已提交页面、更新栈限制，并在下一页创建新的保护页。这种顺序访问机制保证了栈溢出检测的正确性。",
+      "source_name": "devblogs.microsoft.com/oldnewthing",
+      "score": 15,
+      "depth": 7,
+      "novelty": 4,
+      "breadth": 4,
+      "category": "engineering",
+      "keywords": [
+        "stack",
+        "guard page",
+        "_chkstk",
+        "compiler"
+      ],
+      "rank": 3
+    },
+    {
+      "title": "From the DF Archive: ‘And Oranges’",
+      "title_zh": "苹果与开源：2006 年的开放性辩论",
+      "link": "https://daringfireball.net/2006/06/and_oranges",
+      "pub_date": "2026-03-11T19:02:11.000Z",
+      "summary": "",
+      "source_name": "daringfireball.net",
+      "score": 8,
+      "depth": 3,
+      "novelty": 2,
+      "breadth": 3,
+      "category": "opinion",
+      "keywords": [
+        "openness",
+        "Mac OS X",
+        "Ubuntu",
+        "ideology"
+      ],
+      "rank": 4
     }
   ]
 }
