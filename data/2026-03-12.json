@@ -3,8 +3,28 @@
   "total_feeds": 92,
   "success_feeds": 85,
   "total_articles": 2418,
-  "filtered_articles": 20,
+  "filtered_articles": 22,
   "articles": [
+    {
+      "title": "Are LLMs not getting better?",
+      "title_zh": "SWE-bench 数据显示 LLM 编程能力已停滞一年",
+      "link": "https://entropicthoughts.com/no-swe-bench-improvement",
+      "pub_date": "2026-03-11T23:00:00.000Z",
+      "summary": "METR 对 SWE-bench 数据的分析显示，当成功标准从\"通过所有测试\"提升到\"会被维护者合并\"时，LLM 的 50% 成功时间从 50 分钟骤降至 8 分钟。作者重新分析 METR 提供的合并率数据，使用留一法交叉验证比较线性增长模型、分段常数模型和常数模型的 Brier 分数。常数模型得分 0.0100，优于线性模型的 0.0129，表明 2025 年以来 LLM 的代码合并率没有实质性提升。这意味着 LLM 在编程能力上已经停滞超过一年，与模型发布时的宣传形成鲜明对比。",
+      "source_name": "entropicthoughts.com",
+      "score": 24,
+      "depth": 7,
+      "novelty": 9,
+      "breadth": 8,
+      "category": "ai-ml",
+      "keywords": [
+        "SWE-bench",
+        "merge rate",
+        "LLM",
+        "programming"
+      ],
+      "rank": 1
+    },
     {
       "title": "Iran-Backed Hackers Claim Wiper Attack on Medtech Firm Stryker",
       "title_zh": "伊朗黑客利用 Microsoft Intune 擦除 Stryker 设备",
@@ -23,7 +43,7 @@
         "Handala",
         "Stryker"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "I’m glad the Anthropic fight is happening now",
@@ -43,7 +63,7 @@
         "alignment",
         "regulation"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Pluralistic: AI \"journalists\" prove that media bosses don't give a shit (11 Mar 2026)",
@@ -63,7 +83,7 @@
         "media",
         "automation"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Reviewing ENISA’s Package Manager Advisory",
@@ -83,7 +103,7 @@
         "ENISA",
         "SBOM"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "I don't know if I like working at higher levels of abstraction",
@@ -103,7 +123,7 @@
         "craft",
         "junior engineers"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "How do compilers ensure that large stack allocations do not skip over the guard page?",
@@ -123,7 +143,7 @@
         "_chkstk",
         "compiler"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Changing my mind on UBI",
@@ -143,7 +163,27 @@
         "underground economy",
         "government budget"
       ],
-      "rank": 7
+      "rank": 8
+    },
+    {
+      "title": "The modern formatting addiction in writing",
+      "title_zh": "现代写作的格式化成瘾",
+      "link": "https://dynomight.net/formatting/",
+      "pub_date": "2026-03-12T00:00:00.000Z",
+      "summary": "现代写作中充斥着过度格式化——70% 的内容是标题、列表和层级结构，而非连贯的段落。这种现象不仅存在于人类写作中，AI 生成的内容也表现出相同的倾向。作者提出五个解释：格式化在 SEO 内容中确实有用；当读者不信任作者时，格式化能快速判断内容质量；格式化便于思维发散和结构实验；过度格式化掩盖了内容的连贯性问题；人类和 AI 都倾向于用格式化来",
+      "source_name": "dynomight.net",
+      "score": 15,
+      "depth": 4,
+      "novelty": 6,
+      "breadth": 5,
+      "category": "opinion",
+      "keywords": [
+        "writing",
+        "formatting",
+        "AI",
+        "content"
+      ],
+      "rank": 9
     },
     {
       "title": "Introduction to SQLAlchemy 2 In Practice",
@@ -163,7 +203,7 @@
         "Python",
         "database"
       ],
-      "rank": 8
+      "rank": 10
     },
     {
       "title": "Git Checkout, Reset and Restore",
@@ -183,7 +223,7 @@
         "git checkout",
         "git reset"
       ],
-      "rank": 9
+      "rank": 11
     },
     {
       "title": "UEFI-only booting with GRUB has gone okay on our (Ubuntu 24.04) servers",
@@ -203,7 +243,7 @@
         "Ubuntu",
         "boot"
       ],
-      "rank": 10
+      "rank": 12
     },
     {
       "title": "Halide Cofounder Sebastiaan De Joined Apple’s Design Team in January",
@@ -223,7 +263,7 @@
         "design",
         "hiring"
       ],
-      "rank": 11
+      "rank": 13
     },
     {
       "title": "Sorting algorithms",
@@ -242,7 +282,7 @@
         "Claude Artifacts",
         "visualization"
       ],
-      "rank": 12
+      "rank": 14
     },
     {
       "title": "Apple Has Changed Several Key Cap Labels From Words to Glyphs on Its Latest MacBook Keyboards",
@@ -262,7 +302,27 @@
         "Apple",
         "glyphs"
       ],
-      "rank": 13
+      "rank": 15
+    },
+    {
+      "title": "The 1989 proposal that led to the World Wide Web",
+      "title_zh": "1989 年万维网诞生的提案",
+      "link": "https://dfarq.homeip.net/the-1989-proposal-that-led-to-the-world-wide-web/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=the-1989-proposal-that-led-to-the-world-wide-web",
+      "pub_date": "2026-03-12T11:00:50.000Z",
+      "summary": "",
+      "source_name": "dfarq.homeip.net",
+      "score": 9,
+      "depth": 2,
+      "novelty": 2,
+      "breadth": 5,
+      "category": "other",
+      "keywords": [
+        "World Wide Web",
+        "Tim Berners-Lee",
+        "CERN",
+        "HTTP"
+      ],
+      "rank": 16
     },
     {
       "title": "From the DF Archive: ‘And Oranges’",
@@ -282,7 +342,7 @@
         "Ubuntu",
         "ideology"
       ],
-      "rank": 14
+      "rank": 17
     },
     {
       "title": "Another One From the Archive: ‘Web Kit’ vs. ‘WebKit’",
@@ -301,7 +361,7 @@
         "Apple",
         "naming"
       ],
-      "rank": 15
+      "rank": 18
     },
     {
       "title": "★ Modifier Key Order for Keyboard Shortcuts",
@@ -319,7 +379,7 @@
         "keyboard shortcuts",
         "Apple Style Guide"
       ],
-      "rank": 16
+      "rank": 19
     },
     {
       "title": "Jason Snell Is on Jeopardy Next Week",
@@ -337,7 +397,7 @@
         "Jeopardy",
         "personal"
       ],
-      "rank": 17
+      "rank": 20
     },
     {
       "title": "We desperately need a Reality Literacy",
@@ -354,7 +414,7 @@
       "keywords": [
         "paywall"
       ],
-      "rank": 18
+      "rank": 21
     }
   ]
 }
