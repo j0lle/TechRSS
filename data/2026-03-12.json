@@ -1,9 +1,9 @@
 {
   "date": "2026-03-12",
   "total_feeds": 92,
-  "success_feeds": 82,
-  "total_articles": 2467,
-  "filtered_articles": 19,
+  "success_feeds": 85,
+  "total_articles": 2418,
+  "filtered_articles": 20,
   "articles": [
     {
       "title": "Iran-Backed Hackers Claim Wiper Attack on Medtech Firm Stryker",
@@ -66,6 +66,26 @@
       "rank": 3
     },
     {
+      "title": "Reviewing ENISA’s Package Manager Advisory",
+      "title_zh": "评 ENISA 包管理器安全指南",
+      "link": "https://nesbitt.io/2026/03/12/reviewing-enisas-package-manager-advisory.html",
+      "pub_date": "2026-03-12T10:00:00.000Z",
+      "summary": "ENISA 发布的包管理器安全指南提出了正确的威胁分类框架，区分了固有漏洞和供应链攻击，并强调了可触达性分析的重要性——未调用的函数漏洞优先级应低于热路径中的漏洞。指南按选择、集成、监控、缓解四个生命周期阶段组织建议，但作者指出其存在多处不足：依赖 stars、downloads 等流行度指标评估包质量不可靠，应更关注依赖该包的其他包数量；typosquatting 防护建议过于基础，未涵盖 homoglyphs、combosquatting 等实际攻击技术；lockfile 和 SBOM 被视为独立工具，但两者记录大量重复信息且转换存在数据丢失风险。指南完全忽略了操作系统包管理器与语言包管理器之间的边界安全问题，如 OpenSSL 等系统库通过原生扩展被引入但无法被 lockfile 或 SBOM 准确追踪。GitHub Actions 作为事实上的包管理器缺乏 lockfile、完整性验证和依赖树可见性，却未被提及。AI 辅助开发部分指出了 slopsquatting 和 LLM 泛化包名的风险，但缓解措施过于模糊，作者建议将安全检查直接嵌入 AI 工作流而非依赖开发者手动审查。",
+      "source_name": "nesbitt.io",
+      "score": 18,
+      "depth": 6,
+      "novelty": 5,
+      "breadth": 7,
+      "category": "security",
+      "keywords": [
+        "package managers",
+        "supply chain security",
+        "ENISA",
+        "SBOM"
+      ],
+      "rank": 4
+    },
+    {
       "title": "I don't know if I like working at higher levels of abstraction",
       "title_zh": "AI 抽象层对工程工艺的侵蚀",
       "link": "https://xeiaso.net/blog/2026/ai-abstraction/",
@@ -83,7 +103,7 @@
         "craft",
         "junior engineers"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "How do compilers ensure that large stack allocations do not skip over the guard page?",
@@ -103,7 +123,7 @@
         "_chkstk",
         "compiler"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Changing my mind on UBI",
@@ -123,7 +143,27 @@
         "underground economy",
         "government budget"
       ],
-      "rank": 6
+      "rank": 7
+    },
+    {
+      "title": "Introduction to SQLAlchemy 2 In Practice",
+      "title_zh": "SQLAlchemy 2 实战教程免费发布",
+      "link": "https://blog.miguelgrinberg.com/post/introduction-to-sqlalchemy-2-in-practice",
+      "pub_date": "2026-03-12T09:43:25.000Z",
+      "summary": "Miguel Grinberg 将其 2023 年出版的《SQLAlchemy 2 In Practice》书籍内容免费发布到博客，本文为前言部分。全书通过构建一个虚构的复古电脑商店 RetroFun 的数据库项目，涵盖数据库表设计、一对多和多对多关系、异步 SQLAlchemy、Web 集成等主题。代码示例在 SQLite、MySQL 和 PostgreSQL 上测试通过，适用于 SQLAlchemy 2.0，需要读者具备 Python 基础和基本关系数据库知识。",
+      "source_name": "miguelgrinberg.com",
+      "score": 13,
+      "depth": 6,
+      "novelty": 3,
+      "breadth": 4,
+      "category": "engineering",
+      "keywords": [
+        "SQLAlchemy",
+        "ORM",
+        "Python",
+        "database"
+      ],
+      "rank": 8
     },
     {
       "title": "Git Checkout, Reset and Restore",
@@ -143,7 +183,7 @@
         "git checkout",
         "git reset"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "UEFI-only booting with GRUB has gone okay on our (Ubuntu 24.04) servers",
@@ -163,7 +203,7 @@
         "Ubuntu",
         "boot"
       ],
-      "rank": 8
+      "rank": 10
     },
     {
       "title": "Halide Cofounder Sebastiaan De Joined Apple’s Design Team in January",
@@ -183,7 +223,7 @@
         "design",
         "hiring"
       ],
-      "rank": 9
+      "rank": 11
     },
     {
       "title": "Sorting algorithms",
@@ -202,7 +242,7 @@
         "Claude Artifacts",
         "visualization"
       ],
-      "rank": 10
+      "rank": 12
     },
     {
       "title": "Apple Has Changed Several Key Cap Labels From Words to Glyphs on Its Latest MacBook Keyboards",
@@ -222,7 +262,7 @@
         "Apple",
         "glyphs"
       ],
-      "rank": 11
+      "rank": 13
     },
     {
       "title": "From the DF Archive: ‘And Oranges’",
@@ -242,7 +282,7 @@
         "Ubuntu",
         "ideology"
       ],
-      "rank": 12
+      "rank": 14
     },
     {
       "title": "Another One From the Archive: ‘Web Kit’ vs. ‘WebKit’",
@@ -261,7 +301,7 @@
         "Apple",
         "naming"
       ],
-      "rank": 13
+      "rank": 15
     },
     {
       "title": "★ Modifier Key Order for Keyboard Shortcuts",
@@ -279,7 +319,7 @@
         "keyboard shortcuts",
         "Apple Style Guide"
       ],
-      "rank": 14
+      "rank": 16
     },
     {
       "title": "Jason Snell Is on Jeopardy Next Week",
@@ -297,7 +337,7 @@
         "Jeopardy",
         "personal"
       ],
-      "rank": 15
+      "rank": 17
     },
     {
       "title": "We desperately need a Reality Literacy",
@@ -314,7 +354,7 @@
       "keywords": [
         "paywall"
       ],
-      "rank": 16
+      "rank": 18
     }
   ]
 }
