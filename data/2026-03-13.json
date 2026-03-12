@@ -3,7 +3,7 @@
   "total_feeds": 92,
   "success_feeds": 86,
   "total_articles": 2445,
-  "filtered_articles": 25,
+  "filtered_articles": 26,
   "articles": [
     {
       "title": "Can the MacBook Neo replace my M4 Air?",
@@ -105,6 +105,26 @@
       "rank": 5
     },
     {
+      "title": "Windows stack limit checking retrospective: x86-32, also known as i386",
+      "title_zh": "Windows x86-32 栈检查的古怪调用约定",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260312-00/?p=112136",
+      "pub_date": "2026-03-12T14:00:00.000Z",
+      "summary": "Windows 在 x86-32 平台上的原始 `_chkstk` 函数采用了一种极其罕见的调用约定：函数返回时栈指针比调用前更大。该函数通过逐页触摸内存来触发栈溢出异常，使用 `or dword ptr [ecx], 0` 指令确保每个页面都被访问，最后通过手动恢复寄存器和跳转到返回地址的方式返回。这种设计既非 caller-clean 也非 callee-clean，而是 callee-dirty，作者称其为 x86-32 历史上最古怪的调用约定之一。",
+      "source_name": "devblogs.microsoft.com/oldnewthing",
+      "score": 14,
+      "depth": 6,
+      "novelty": 5,
+      "breadth": 3,
+      "category": "engineering",
+      "keywords": [
+        "stack",
+        "x86-32",
+        "calling convention",
+        "_chkstk"
+      ],
+      "rank": 6
+    },
+    {
       "title": "On Making",
       "title_zh": "AI 时代亲手创作的满足感",
       "link": "http://beej.us/blog/data/ai-making/",
@@ -122,7 +142,7 @@
         "Claude",
         "fulfillment"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Inverse cosine",
@@ -142,7 +162,7 @@
         "analytic continuation",
         "branch cut"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "MALUS - Clean Room as a Service",
@@ -162,7 +182,7 @@
         "clean room",
         "satire"
       ],
-      "rank": 8
+      "rank": 9
     }
   ]
 }
