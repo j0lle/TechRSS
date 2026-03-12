@@ -1,8 +1,8 @@
 {
   "date": "2026-03-12",
   "total_feeds": 92,
-  "success_feeds": 86,
-  "total_articles": 2443,
+  "success_feeds": 82,
+  "total_articles": 2467,
   "filtered_articles": 19,
   "articles": [
     {
@@ -146,6 +146,26 @@
       "rank": 7
     },
     {
+      "title": "UEFI-only booting with GRUB has gone okay on our (Ubuntu 24.04) servers",
+      "title_zh": "Ubuntu 24.04 服务器 UEFI-only 启动两年实践",
+      "link": "https://utcc.utoronto.ca/~cks/space/blog/linux/UEFIOnlyBootHasGoneOkay",
+      "pub_date": "2026-03-12T01:24:33.000Z",
+      "summary": "Chris Siebenmann 团队在过去两年中将所有 Ubuntu 24.04 服务器从传统 MBR BIOS 启动迁移到 UEFI-only 模式，使用 GRUB 作为默认引导加载器。所有服务器采用镜像系统盘配置，迁移过程未遇到重大问题，运行稳定。作者提到尚未实际处理过单盘故障后的 UEFI 启动盘冗余恢复问题，这在理论上可行但仍存担忧。Ubuntu 安装程序在 /boot/efi 分区磁盘选择上存在不一致性，可能导致分区位置与预期不符。尽管作者对 UEFI 长期持保留态度，但承认 UEFI 规范化了一些 MBR BIOS 时代较为混乱的配置，如串口控制台设置。团队将继续使用 GRUB，主要原因是 Ubuntu 官方提供积极支持，确保与 UEFI 磁盘冗余方案的兼容性。",
+      "source_name": "utcc.utoronto.ca/~cks",
+      "score": 11,
+      "depth": 4,
+      "novelty": 3,
+      "breadth": 4,
+      "category": "engineering",
+      "keywords": [
+        "UEFI",
+        "GRUB",
+        "Ubuntu",
+        "boot"
+      ],
+      "rank": 8
+    },
+    {
       "title": "Halide Cofounder Sebastiaan De Joined Apple’s Design Team in January",
       "title_zh": "Halide 联合创始人加入 Apple 设计团队",
       "link": "https://9to5mac.com/2026/01/28/halide-cofounder-sebastiaan-de-with-joins-apples-design-team/",
@@ -163,7 +183,7 @@
         "design",
         "hiring"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Sorting algorithms",
@@ -182,7 +202,7 @@
         "Claude Artifacts",
         "visualization"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Apple Has Changed Several Key Cap Labels From Words to Glyphs on Its Latest MacBook Keyboards",
@@ -202,7 +222,7 @@
         "Apple",
         "glyphs"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "From the DF Archive: ‘And Oranges’",
@@ -222,7 +242,7 @@
         "Ubuntu",
         "ideology"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "Another One From the Archive: ‘Web Kit’ vs. ‘WebKit’",
@@ -241,7 +261,7 @@
         "Apple",
         "naming"
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "title": "★ Modifier Key Order for Keyboard Shortcuts",
@@ -259,7 +279,7 @@
         "keyboard shortcuts",
         "Apple Style Guide"
       ],
-      "rank": 13
+      "rank": 14
     },
     {
       "title": "Jason Snell Is on Jeopardy Next Week",
@@ -277,7 +297,7 @@
         "Jeopardy",
         "personal"
       ],
-      "rank": 14
+      "rank": 15
     },
     {
       "title": "We desperately need a Reality Literacy",
@@ -294,7 +314,7 @@
       "keywords": [
         "paywall"
       ],
-      "rank": 15
+      "rank": 16
     }
   ]
 }
