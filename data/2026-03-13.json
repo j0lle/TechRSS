@@ -3,7 +3,7 @@
   "total_feeds": 92,
   "success_feeds": 86,
   "total_articles": 2443,
-  "filtered_articles": 21,
+  "filtered_articles": 22,
   "articles": [
     {
       "title": "Quoting Les Orchard",
@@ -43,6 +43,26 @@
         "macOS"
       ],
       "rank": 2
+    },
+    {
+      "title": "Inverse cosine",
+      "title_zh": "sin(arccos) 恒等式的复数证明",
+      "link": "https://www.johndcook.com/blog/2026/03/12/arccos/",
+      "pub_date": "2026-03-12T16:37:46.000Z",
+      "summary": "sin(arccos(x)) = √(1-x²) 在实数范围内可通过几何构造证明：设直角三角形斜边为 1、一条直角边为 x，则 cosθ = x，sinθ = √(1-x²)。对于复数域，需考虑分支切割和解析延拓。arccos(z) 在 (-∞,-1] 和 [1,∞) 处有分支切割，按惯例从第二象限连续延拓。复数平方根函数在 (-∞,0] 处有分支切割，同样从第二象限连续延拓。由于两个函数在实数区间 (-1,1) 上相等，且该区间包含极限点，根据解析函数唯一性定理，它们在公共定义域上处处相等。分支切割上的等式也由连续性保证。",
+      "source_name": "johndcook.com",
+      "score": 11,
+      "depth": 5,
+      "novelty": 3,
+      "breadth": 3,
+      "category": "engineering",
+      "keywords": [
+        "arccos",
+        "complex analysis",
+        "analytic continuation",
+        "branch cut"
+      ],
+      "rank": 3
     }
   ]
 }
