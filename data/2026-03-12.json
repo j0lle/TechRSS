@@ -3,7 +3,7 @@
   "total_feeds": 92,
   "success_feeds": 86,
   "total_articles": 2443,
-  "filtered_articles": 18,
+  "filtered_articles": 17,
   "articles": [
     {
       "title": "Iran-Backed Hackers Claim Wiper Attack on Medtech Firm Stryker",
@@ -185,6 +185,61 @@
       "rank": 9
     },
     {
+      "title": "Another One From the Archive: ‘Web Kit’ vs. ‘WebKit’",
+      "title_zh": "WebKit 还是 Web Kit：Apple 的命名混乱",
+      "link": "https://daringfireball.net/2006/05/web_kit_vs_webkit",
+      "pub_date": "2026-03-12T00:26:22.000Z",
+      "summary": "",
+      "source_name": "daringfireball.net",
+      "score": 6,
+      "depth": 2,
+      "novelty": 1,
+      "breadth": 3,
+      "category": "opinion",
+      "keywords": [
+        "WebKit",
+        "Apple",
+        "naming"
+      ],
+      "rank": 10
+    },
+    {
+      "title": "★ Modifier Key Order for Keyboard Shortcuts",
+      "title_zh": "Mac 快捷键修饰键的正确书写顺序",
+      "link": "https://daringfireball.net/2026/03/modifier_key_order_for_keyboard_shortcuts",
+      "pub_date": "2026-03-12T00:15:20.000Z",
+      "summary": "",
+      "source_name": "daringfireball.net",
+      "score": 6,
+      "depth": 2,
+      "novelty": 2,
+      "breadth": 2,
+      "category": "tools",
+      "keywords": [
+        "keyboard shortcuts",
+        "Apple Style Guide"
+      ],
+      "rank": 11
+    },
+    {
+      "title": "Jason Snell Is on Jeopardy Next Week",
+      "title_zh": "Jason Snell 将参加 Jeopardy 节目",
+      "link": "https://sixcolors.com/post/2026/03/ill-take-beach-reading-for-1000-ken/",
+      "pub_date": "2026-03-12T00:46:59.000Z",
+      "summary": "",
+      "source_name": "daringfireball.net",
+      "score": 4,
+      "depth": 1,
+      "novelty": 2,
+      "breadth": 1,
+      "category": "other",
+      "keywords": [
+        "Jeopardy",
+        "personal"
+      ],
+      "rank": 12
+    },
+    {
       "title": "We desperately need a Reality Literacy",
       "title_zh": "付费文章无法评估",
       "link": "https://www.joanwestenberg.com/we-desperately-need-a-reality-literacy/",
@@ -199,7 +254,7 @@
       "keywords": [
         "paywall"
       ],
-      "rank": 10
+      "rank": 13
     }
   ]
 }
