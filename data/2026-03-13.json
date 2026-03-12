@@ -3,7 +3,7 @@
   "total_feeds": 92,
   "success_feeds": 86,
   "total_articles": 2445,
-  "filtered_articles": 24,
+  "filtered_articles": 25,
   "articles": [
     {
       "title": "Can the MacBook Neo replace my M4 Air?",
@@ -143,6 +143,26 @@
         "branch cut"
       ],
       "rank": 7
+    },
+    {
+      "title": "MALUS - Clean Room as a Service",
+      "title_zh": "讽刺 AI 洗牌开源许可证的恶搞服务",
+      "link": "https://simonwillison.net/2026/Mar/12/malus/#atom-everything",
+      "pub_date": "2026-03-12T20:08:55.000Z",
+      "summary": "",
+      "source_name": "simonwillison.net",
+      "score": 11,
+      "depth": 2,
+      "novelty": 4,
+      "breadth": 5,
+      "category": "opinion",
+      "keywords": [
+        "open source",
+        "license",
+        "clean room",
+        "satire"
+      ],
+      "rank": 8
     }
   ]
 }
