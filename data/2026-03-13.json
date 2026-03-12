@@ -3,7 +3,7 @@
   "total_feeds": 92,
   "success_feeds": 86,
   "total_articles": 2445,
-  "filtered_articles": 26,
+  "filtered_articles": 24,
   "articles": [
     {
       "title": "Can the MacBook Neo replace my M4 Air?",
@@ -85,6 +85,26 @@
       "rank": 4
     },
     {
+      "title": "Coding After Coders: The End of Computer Programming as We Know It",
+      "title_zh": "纽约时报：AI 如何重塑编程职业",
+      "link": "https://simonwillison.net/2026/Mar/12/coding-after-coders/#atom-everything",
+      "pub_date": "2026-03-12T19:23:44.000Z",
+      "summary": "纽约时报杂志发表了一篇关于 AI 辅助编程的长篇报道，采访了 70 多位来自 Google、Amazon、Microsoft、Apple 等公司的软件工程师。报道指出，AI 编程工具正在改变软件开发的工作方式，开发者通过让 AI 生成代码并自动测试来验证正确性，这种可验证性使编程相比法律等其他领域更具优势。大多数受访者对 AI 辅持乐观态度，认为 Jevons 悖论可能会增加对开发者的总体需求。少数声音表达了对手写代码乐趣丧失的遗憾，一位 Apple 工程师因担心批评公司 AI 战略而要求匿名，反映了企业内部对这一话题的讨论可能受到压制。",
+      "source_name": "simonwillison.net",
+      "score": 14,
+      "depth": 3,
+      "novelty": 4,
+      "breadth": 7,
+      "category": "opinion",
+      "keywords": [
+        "AI-assisted programming",
+        "Claude",
+        "ChatGPT",
+        "career"
+      ],
+      "rank": 5
+    },
+    {
       "title": "On Making",
       "title_zh": "AI 时代亲手创作的满足感",
       "link": "http://beej.us/blog/data/ai-making/",
@@ -102,7 +122,7 @@
         "Claude",
         "fulfillment"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Inverse cosine",
@@ -122,7 +142,7 @@
         "analytic continuation",
         "branch cut"
       ],
-      "rank": 6
+      "rank": 7
     }
   ]
 }
