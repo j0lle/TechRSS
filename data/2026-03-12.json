@@ -3,7 +3,7 @@
   "total_feeds": 92,
   "success_feeds": 86,
   "total_articles": 2443,
-  "filtered_articles": 18,
+  "filtered_articles": 19,
   "articles": [
     {
       "title": "Iran-Backed Hackers Claim Wiper Attack on Medtech Firm Stryker",
@@ -106,6 +106,26 @@
       "rank": 5
     },
     {
+      "title": "Changing my mind on UBI",
+      "title_zh": "支持 UBI：用贬值货币终结社保体系",
+      "link": "https://geohot.github.io//blog/jekyll/update/2026/03/12/changing-my-mind-on-ubi.html",
+      "pub_date": "2026-03-11T16:00:00.000Z",
+      "summary": "作者通过一个思想实验论证 UBI 会导致通货膨胀和地下经济：UBI 推高鸡蛋价格后，人们开始养鸡，但 UBI 货币购买力下降，最终促使人们用黄金等硬通货建立地下交易体系。作者指出美国政府预算中 60% 是强制性支出，无法削减，因此支持通过印钞实施 UBI，用贬值货币支付社保等福利，从而在名义上保留福利体系的同时实际消除其财政负担。",
+      "source_name": "geohot.github.io",
+      "score": 15,
+      "depth": 3,
+      "novelty": 6,
+      "breadth": 6,
+      "category": "opinion",
+      "keywords": [
+        "UBI",
+        "inflation",
+        "underground economy",
+        "government budget"
+      ],
+      "rank": 6
+    },
+    {
       "title": "Git Checkout, Reset and Restore",
       "title_zh": "Git restore 与 checkout/reset 命令对照",
       "link": "https://susam.net/git-checkout-reset-restore.html",
@@ -123,7 +143,7 @@
         "git checkout",
         "git reset"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Halide Cofounder Sebastiaan De Joined Apple’s Design Team in January",
@@ -143,7 +163,7 @@
         "design",
         "hiring"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Sorting algorithms",
@@ -162,7 +182,7 @@
         "Claude Artifacts",
         "visualization"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Apple Has Changed Several Key Cap Labels From Words to Glyphs on Its Latest MacBook Keyboards",
@@ -182,7 +202,7 @@
         "Apple",
         "glyphs"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "From the DF Archive: ‘And Oranges’",
@@ -202,7 +222,7 @@
         "Ubuntu",
         "ideology"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "Another One From the Archive: ‘Web Kit’ vs. ‘WebKit’",
@@ -221,7 +241,7 @@
         "Apple",
         "naming"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "★ Modifier Key Order for Keyboard Shortcuts",
@@ -239,7 +259,7 @@
         "keyboard shortcuts",
         "Apple Style Guide"
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "title": "Jason Snell Is on Jeopardy Next Week",
@@ -257,7 +277,7 @@
         "Jeopardy",
         "personal"
       ],
-      "rank": 13
+      "rank": 14
     },
     {
       "title": "We desperately need a Reality Literacy",
@@ -274,7 +294,7 @@
       "keywords": [
         "paywall"
       ],
-      "rank": 14
+      "rank": 15
     }
   ]
 }
