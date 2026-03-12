@@ -3,7 +3,7 @@
   "total_feeds": 92,
   "success_feeds": 86,
   "total_articles": 2443,
-  "filtered_articles": 17,
+  "filtered_articles": 18,
   "articles": [
     {
       "title": "Iran-Backed Hackers Claim Wiper Attack on Medtech Firm Stryker",
@@ -106,6 +106,26 @@
       "rank": 5
     },
     {
+      "title": "Git Checkout, Reset and Restore",
+      "title_zh": "Git restore 与 checkout/reset 命令对照",
+      "link": "https://susam.net/git-checkout-reset-restore.html",
+      "pub_date": "2026-03-12T00:00:00.000Z",
+      "summary": "Git 2.23 引入的 git restore 命令为重置工作树和索引提供了更清晰的接口。文章通过实验对比了三组命令：git checkout . 和 git restore . 都只重置工作树到索引状态，不影响暂存区；git reset 和 git restore -S . 都只重置索引到 HEAD，保留工作树未暂存修改；git reset --hard 和 git restore -WS . 则同时重置工作树和索引到 HEAD，会丢弃所有未提交更改。作者指出新旧命令并非完全等价，但可完成相同任务，所有测试在 Git 2.47.3 和 Debian 13.2 上验证。",
+      "source_name": "susam.net",
+      "score": 11,
+      "depth": 4,
+      "novelty": 2,
+      "breadth": 5,
+      "category": "tools",
+      "keywords": [
+        "git",
+        "git restore",
+        "git checkout",
+        "git reset"
+      ],
+      "rank": 6
+    },
+    {
       "title": "Halide Cofounder Sebastiaan De Joined Apple’s Design Team in January",
       "title_zh": "Halide 联合创始人加入 Apple 设计团队",
       "link": "https://9to5mac.com/2026/01/28/halide-cofounder-sebastiaan-de-with-joins-apples-design-team/",
@@ -123,7 +143,7 @@
         "design",
         "hiring"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Sorting algorithms",
@@ -142,7 +162,7 @@
         "Claude Artifacts",
         "visualization"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Apple Has Changed Several Key Cap Labels From Words to Glyphs on Its Latest MacBook Keyboards",
@@ -162,7 +182,7 @@
         "Apple",
         "glyphs"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "From the DF Archive: ‘And Oranges’",
@@ -182,7 +202,7 @@
         "Ubuntu",
         "ideology"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Another One From the Archive: ‘Web Kit’ vs. ‘WebKit’",
@@ -201,7 +221,7 @@
         "Apple",
         "naming"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "★ Modifier Key Order for Keyboard Shortcuts",
@@ -219,7 +239,7 @@
         "keyboard shortcuts",
         "Apple Style Guide"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "Jason Snell Is on Jeopardy Next Week",
@@ -237,7 +257,7 @@
         "Jeopardy",
         "personal"
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "title": "We desperately need a Reality Literacy",
@@ -254,7 +274,7 @@
       "keywords": [
         "paywall"
       ],
-      "rank": 13
+      "rank": 14
     }
   ]
 }
