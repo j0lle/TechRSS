@@ -1,8 +1,8 @@
 {
   "date": "2026-03-12",
   "total_feeds": 92,
-  "success_feeds": 85,
-  "total_articles": 2418,
+  "success_feeds": 86,
+  "total_articles": 2443,
   "filtered_articles": 22,
   "articles": [
     {
@@ -106,6 +106,26 @@
       "rank": 5
     },
     {
+      "title": "The Elusive Cost Savings of the Prefabricated Home",
+      "title_zh": "预制住宅难以实现的成本节约",
+      "link": "https://www.construction-physics.com/p/the-elusive-cost-savings-of-the-prefabricated",
+      "pub_date": "2026-03-12T12:03:45.000Z",
+      "summary": "工厂化建房的成本节约远低于预期，历史数据显示预制房屋通常只能节省 5-20% 的成本，甚至完全没有优势。从 1930 年代的 Gunnison Homes 到 2010 年代的 Katerra，数十家公司试图成为\"住房界的福特\"，但都未能实现类似汽车制造业那样的成本大幅下降。即使在高采用率的瑞典（85% 独栋住宅预制），2023 年新建房屋单价仍比美国高 70%。唯一显著例外是移动房屋，单宽式比传统住宅便宜 40-50%，但这类产品受尺寸和法规限制，难以推广。作者认为，简单地将施工搬进工厂无法自动带来生产力提升，需要更深入理解工业化生产模式在建筑领域的具体应用机制。",
+      "source_name": "construction-physics.com",
+      "score": 18,
+      "depth": 8,
+      "novelty": 7,
+      "breadth": 3,
+      "category": "engineering",
+      "keywords": [
+        "prefabricated",
+        "construction",
+        "cost",
+        "manufacturing"
+      ],
+      "rank": 6
+    },
+    {
       "title": "I don't know if I like working at higher levels of abstraction",
       "title_zh": "AI 抽象层对工程工艺的侵蚀",
       "link": "https://xeiaso.net/blog/2026/ai-abstraction/",
@@ -123,7 +143,7 @@
         "craft",
         "junior engineers"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "How do compilers ensure that large stack allocations do not skip over the guard page?",
@@ -143,7 +163,7 @@
         "_chkstk",
         "compiler"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Changing my mind on UBI",
@@ -163,7 +183,7 @@
         "underground economy",
         "government budget"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "The modern formatting addiction in writing",
@@ -183,7 +203,7 @@
         "AI",
         "content"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Introduction to SQLAlchemy 2 In Practice",
@@ -203,7 +223,7 @@
         "Python",
         "database"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "Git Checkout, Reset and Restore",
@@ -223,7 +243,7 @@
         "git checkout",
         "git reset"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "UEFI-only booting with GRUB has gone okay on our (Ubuntu 24.04) servers",
@@ -243,7 +263,7 @@
         "Ubuntu",
         "boot"
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "title": "Halide Cofounder Sebastiaan De Joined Apple’s Design Team in January",
@@ -263,7 +283,7 @@
         "design",
         "hiring"
       ],
-      "rank": 13
+      "rank": 14
     },
     {
       "title": "Sorting algorithms",
@@ -282,7 +302,7 @@
         "Claude Artifacts",
         "visualization"
       ],
-      "rank": 14
+      "rank": 15
     },
     {
       "title": "Apple Has Changed Several Key Cap Labels From Words to Glyphs on Its Latest MacBook Keyboards",
@@ -302,7 +322,7 @@
         "Apple",
         "glyphs"
       ],
-      "rank": 15
+      "rank": 16
     },
     {
       "title": "The 1989 proposal that led to the World Wide Web",
@@ -322,7 +342,7 @@
         "CERN",
         "HTTP"
       ],
-      "rank": 16
+      "rank": 17
     },
     {
       "title": "From the DF Archive: ‘And Oranges’",
@@ -342,7 +362,27 @@
         "Ubuntu",
         "ideology"
       ],
-      "rank": 17
+      "rank": 18
+    },
+    {
+      "title": "Historic Energy Price Cap Data (FOI success!)",
+      "title_zh": "通过 FOI 获取英国历史能源价格上限数据",
+      "link": "https://shkspr.mobi/blog/2026/03/historic-energy-price-cap-data-foi-success/",
+      "pub_date": "2026-03-12T12:34:01.000Z",
+      "summary": "",
+      "source_name": "shkspr.mobi",
+      "score": 7,
+      "depth": 2,
+      "novelty": 3,
+      "breadth": 2,
+      "category": "other",
+      "keywords": [
+        "FOI",
+        "Ofgem",
+        "energy price cap",
+        "open data"
+      ],
+      "rank": 19
     },
     {
       "title": "Another One From the Archive: ‘Web Kit’ vs. ‘WebKit’",
@@ -361,7 +401,7 @@
         "Apple",
         "naming"
       ],
-      "rank": 18
+      "rank": 20
     },
     {
       "title": "★ Modifier Key Order for Keyboard Shortcuts",
@@ -379,7 +419,7 @@
         "keyboard shortcuts",
         "Apple Style Guide"
       ],
-      "rank": 19
+      "rank": 21
     },
     {
       "title": "Jason Snell Is on Jeopardy Next Week",
@@ -397,7 +437,7 @@
         "Jeopardy",
         "personal"
       ],
-      "rank": 20
+      "rank": 22
     },
     {
       "title": "We desperately need a Reality Literacy",
@@ -414,7 +454,7 @@
       "keywords": [
         "paywall"
       ],
-      "rank": 21
+      "rank": 23
     }
   ]
 }
