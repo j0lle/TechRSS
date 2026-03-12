@@ -2,9 +2,49 @@
   "date": "2026-03-13",
   "total_feeds": 92,
   "success_feeds": 86,
-  "total_articles": 2443,
-  "filtered_articles": 22,
+  "total_articles": 2445,
+  "filtered_articles": 26,
   "articles": [
+    {
+      "title": "Can the MacBook Neo replace my M4 Air?",
+      "title_zh": "MacBook Neo 性能实测与 M4 Air 对比",
+      "link": "https://www.jeffgeerling.com/blog/2026/macbook-neo-replace-m4-air/",
+      "pub_date": "2026-03-12T17:50:00.000Z",
+      "summary": "MacBook Neo 搭载 iPhone 同款芯片，8GB RAM 配置，GravityMark GPU 跑分约 15000 分与 M1 持平，内存带宽达 30-36 GB/s。Llama 3.2:3B 模型推理速度为 19.98 tokens/s，优于 Minisforum MS-R1 的 Orion O6 CPU。设备空闲功耗约 2W，满载约 15-20W。主要硬件短板包括仅两个 USB-C 端口（一个 USB 3、一个 USB 2）和较慢的内部存储。持续负载下 CPU 核心几秒后即降频，重负载表现不如 M4 Air。适合轻办公用户，不适合视频编辑和重度开发。",
+      "source_name": "jeffgeerling.com",
+      "score": 16,
+      "depth": 6,
+      "novelty": 5,
+      "breadth": 5,
+      "category": "engineering",
+      "keywords": [
+        "MacBook Neo",
+        "benchmark",
+        "LLM",
+        "performance"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Windows 11 after two decades of macOS: okay, but also awful",
+      "title_zh": "从 macOS 迁移到 Windows 11 的六周体验",
+      "link": "https://rakhim.exotext.com/windows-11-experience",
+      "pub_date": "2026-03-12T00:00:00.000Z",
+      "summary": "作者放弃 Mac Studio M2 Max，将 Windows 11 作为主力系统使用数周。硬件配置为 Ryzen 5 9600X、RTX 5070 Ti、32GB DDR5。Windows 的优势包括：文件资源管理器优于 Finder、任务栏更直观、原生包管理器 winget 覆盖 95% 软件需求、窗口管理无需第三方工具、Unreal Engine 表现最佳、WSL2 可运行 Linux GUI 应用。但问题同样突出：安装时强制登录 Microsoft 账号导致用户名被截断为 email 前五位、键盘布局配置逻辑混乱需通过 PowerShell 命令清理、UI 存在至少六种不同设计风格且新旧控制面板并存、字体渲染质量差、外接显示器亮度控制需依赖第三方 TwinkleTray、磁盘盘符分配机制可能导致程序误写入错误位置。作者尝试通过 SharpKeys、PowerToys、AutoHotKey 复刻 macOS 键盘快捷键，但细节行为不一致且游戏会检测 AHK 为作弊工具。WSL2 虽能实现跨系统文件访问，但文件系统性能慢、备份需处理 vhdx 虚拟磁盘、部分 CLI 工具的浏览器登录流程需在 WSL 内安装浏览器。最终作者因键盘习惯、Things 3 应用依赖和持续的系统调优成本，购入二手 M1 MacBook Air 回归 macOS。",
+      "source_name": "rakhim.exotext.com",
+      "score": 15,
+      "depth": 6,
+      "novelty": 4,
+      "breadth": 5,
+      "category": "engineering",
+      "keywords": [
+        "Windows 11",
+        "WSL",
+        "keyboard shortcuts",
+        "Unreal Engine"
+      ],
+      "rank": 2
+    },
     {
       "title": "Quoting Les Orchard",
       "title_zh": "AI 辅助编程暴露开发者群体的隐性分化",
@@ -22,7 +62,7 @@
         "developer-motivation",
         "career"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "Software Proprioception",
@@ -42,7 +82,27 @@
         "interaction design",
         "macOS"
       ],
-      "rank": 2
+      "rank": 4
+    },
+    {
+      "title": "On Making",
+      "title_zh": "AI 时代亲手创作的满足感",
+      "link": "http://beej.us/blog/data/ai-making/",
+      "pub_date": "2026-03-12T00:00:00.000Z",
+      "summary": "作者认为通过 AI 生成的内容无法带来真正的创作满足感。他区分了\"亲手制作\"和\"委托他人制作\"两种行为，认为只有亲手编写代码、制作物品才能获得成就感。他举例说明自己手写了一个简单的西班牙语单词卡片系统，虽然代码量只有 177 行，但比任何 AI 生成的代码都让他自豪。文章还探讨了编译器和 AI 的边界差异，认为使用编译器更像使用锤子这样的工具，而使用 AI 更像雇佣承包商。这种区分关乎个人对\"制作\"的定义和认同感。",
+      "source_name": "beej.us",
+      "score": 12,
+      "depth": 3,
+      "novelty": 4,
+      "breadth": 5,
+      "category": "opinion",
+      "keywords": [
+        "AI",
+        "craft",
+        "Claude",
+        "fulfillment"
+      ],
+      "rank": 5
     },
     {
       "title": "Inverse cosine",
@@ -62,7 +122,7 @@
         "analytic continuation",
         "branch cut"
       ],
-      "rank": 3
+      "rank": 6
     }
   ]
 }
