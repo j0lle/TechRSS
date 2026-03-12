@@ -1,0 +1,48 @@
+{
+  "date": "2026-03-13",
+  "total_feeds": 92,
+  "success_feeds": 86,
+  "total_articles": 2443,
+  "filtered_articles": 21,
+  "articles": [
+    {
+      "title": "Quoting Les Orchard",
+      "title_zh": "AI 辅助编程暴露开发者群体的隐性分化",
+      "link": "https://simonwillison.net/2026/Mar/12/les-orchard/#atom-everything",
+      "pub_date": "2026-03-12T16:28:07.000Z",
+      "summary": "AI 辅助编程让开发者群体出现分化：一类人选择让机器写代码，自己专注于构建方向；另一类人坚持手写代码。这种选择暴露了原本隐藏的开发动机差异——热爱编程技艺的人与只想让产品跑起来的人，在 AI 时代走上了不同的道路。",
+      "source_name": "simonwillison.net",
+      "score": 14,
+      "depth": 3,
+      "novelty": 4,
+      "breadth": 7,
+      "category": "opinion",
+      "keywords": [
+        "ai-assisted-programming",
+        "developer-motivation",
+        "career"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Software Proprioception",
+      "title_zh": "软件感知硬件的交互设计原则",
+      "link": "https://unsung.aresluna.org/software-proprioception/",
+      "pub_date": "2026-03-12T15:32:04.000Z",
+      "summary": "软件应当感知硬件的物理位置和特性，通过视觉引导而非文字描述来帮助用户操作。iPhone 的 Siri 动画从侧边按钮位置发出、iPad 指向摄像头位置、iPhone X 的屏幕边缘滑动提示条，都是软件与硬件深度整合的典型案例。作者提出“指向而非描述”的设计原则，认为直接用箭头或动画指向目标位置比文字说明更直观。MacBook Neo 的两个 USB-C 端口速度不同，macOS 仅用文字通知提醒用户，作者认为这是错失了在屏幕对应位置显示视觉引导的机会。从早期的功能键映射到 Dynamic Island，软件对硬件的感知能力可以显著提升用户体验，减少用户的认知负担和操作困惑。",
+      "source_name": "daringfireball.net",
+      "score": 14,
+      "depth": 4,
+      "novelty": 6,
+      "breadth": 4,
+      "category": "engineering",
+      "keywords": [
+        "UI/UX",
+        "hardware integration",
+        "interaction design",
+        "macOS"
+      ],
+      "rank": 2
+    }
+  ]
+}
