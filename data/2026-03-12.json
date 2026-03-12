@@ -1,9 +1,9 @@
 {
   "date": "2026-03-12",
   "total_feeds": 92,
-  "success_feeds": 86,
-  "total_articles": 2443,
-  "filtered_articles": 22,
+  "success_feeds": 84,
+  "total_articles": 2370,
+  "filtered_articles": 15,
   "articles": [
     {
       "title": "Are LLMs not getting better?",
@@ -345,6 +345,26 @@
       "rank": 17
     },
     {
+      "title": "How I use generative AI on this blog",
+      "title_zh": "个人博客中使用生成式 AI 的克制方式",
+      "link": "https://evanhahn.com/how-i-use-gen-ai-on-this-blog/",
+      "pub_date": "2026-03-12T00:00:00.000Z",
+      "summary": "作者在个人博客中使用生成式 AI 的方式仅限于两个场景：作为同义词词典（如询问如何表达“过度正面”并采纳“flattering”一词）和快速头脑风暴具体例子（如列出软件错误类型时采纳了“null pointer exceptions”）。作者的核心原则是最终文本必须与不使用 AI 时逐字一致，AI 仅作为辅助工具而非内容生成器。作者偏好本地模型，在手机和笔记本电脑上运行。尽管作者认为生成式 AI 的弊端远大于收益，但仍选择使用它，目的是通过实际使用经验来增强对“AI 拥护者”批评的可信度，而非仅仅向已经反对 AI 的人群传教。",
+      "source_name": "evanhahn.com",
+      "score": 9,
+      "depth": 3,
+      "novelty": 3,
+      "breadth": 3,
+      "category": "opinion",
+      "keywords": [
+        "generative AI",
+        "local models",
+        "writing",
+        "ethics"
+      ],
+      "rank": 18
+    },
+    {
       "title": "From the DF Archive: ‘And Oranges’",
       "title_zh": "苹果与开源：2006 年的开放性辩论",
       "link": "https://daringfireball.net/2006/06/and_oranges",
@@ -362,7 +382,7 @@
         "Ubuntu",
         "ideology"
       ],
-      "rank": 18
+      "rank": 19
     },
     {
       "title": "Historic Energy Price Cap Data (FOI success!)",
@@ -382,7 +402,7 @@
         "energy price cap",
         "open data"
       ],
-      "rank": 19
+      "rank": 20
     },
     {
       "title": "Another One From the Archive: ‘Web Kit’ vs. ‘WebKit’",
@@ -401,7 +421,7 @@
         "Apple",
         "naming"
       ],
-      "rank": 20
+      "rank": 21
     },
     {
       "title": "★ Modifier Key Order for Keyboard Shortcuts",
@@ -419,7 +439,7 @@
         "keyboard shortcuts",
         "Apple Style Guide"
       ],
-      "rank": 21
+      "rank": 22
     },
     {
       "title": "Jason Snell Is on Jeopardy Next Week",
@@ -437,7 +457,7 @@
         "Jeopardy",
         "personal"
       ],
-      "rank": 22
+      "rank": 23
     },
     {
       "title": "We desperately need a Reality Literacy",
@@ -454,7 +474,7 @@
       "keywords": [
         "paywall"
       ],
-      "rank": 23
+      "rank": 24
     }
   ]
 }
