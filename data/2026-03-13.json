@@ -1,9 +1,9 @@
 {
   "date": "2026-03-13",
   "total_feeds": 92,
-  "success_feeds": 85,
-  "total_articles": 2416,
-  "filtered_articles": 19,
+  "success_feeds": 86,
+  "total_articles": 2446,
+  "filtered_articles": 23,
   "articles": [
     {
       "title": "Shopify/liquid: Performance: 53% faster parse+render, 61% fewer allocations",
@@ -46,6 +46,26 @@
       "rank": 2
     },
     {
+      "title": "‘Software Bonkers’",
+      "title_zh": "用 Claude Code 五天构建定制会计软件",
+      "link": "https://craigmod.com/essays/software_bonkers/",
+      "pub_date": "2026-03-13T14:54:52.000Z",
+      "summary": "作者使用 Claude Code 在五天内构建了一套完整的会计软件 TaxBot2000，替代了使用十年的 Quicken。该软件基于 Python、Flask 和 SQLite，支持多币种、多国家银行账户、CSV 导入、自动分类、汇率历史记录、美日两国税务格式要求，并能处理 1099、K1 等税务文件。作者还用 Claude Code 重构了 Twitter（7 天消失、每日 2 条推文限制、1-bit 图片）、为会员平台构建了视频索引工具和章节生成器。作者认为 AI 辅助编程让个人能够构建高度定制化的 N=1 软件，未来软件将更加流动化、个性化，SaaS 订阅模式可能面临挑战。",
+      "source_name": "daringfireball.net",
+      "score": 21,
+      "depth": 7,
+      "novelty": 7,
+      "breadth": 7,
+      "category": "engineering",
+      "keywords": [
+        "Claude Code",
+        "personal software",
+        "Python",
+        "Flask"
+      ],
+      "rank": 3
+    },
+    {
       "title": "Everything's Casino",
       "title_zh": "赌场化社会如何吞噬美国",
       "link": "https://www.joanwestenberg.com/everythings-casino/",
@@ -63,7 +83,7 @@
         "Trump",
         "casino"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Forge",
@@ -83,7 +103,7 @@
         "GitHub",
         "GitLab"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Btw: Software, turnkey, beheerd, as a service",
@@ -103,7 +123,7 @@
         "tax system",
         "outsourcing"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "What do coders do after AI?",
@@ -123,7 +143,27 @@
         "career",
         "automation"
       ],
-      "rank": 6
+      "rank": 7
+    },
+    {
+      "title": "‘Grief and the AI Split’",
+      "title_zh": "AI 时代开发者的两种悲伤",
+      "link": "https://blog.lmorchard.com/2026/03/11/grief-and-the-ai-split/",
+      "pub_date": "2026-03-13T14:21:54.000Z",
+      "summary": "AI 辅助编程揭示了开发者群体中一直存在但此前不可见的分裂：一类开发者热爱编程本身的手工技艺，另一类则将代码视为实现目标的工具。作者属于后者，从 7 岁开始编程，经历了从 BASIC 到 6502 汇编再到现代语言的转变，始终关注的是让计算机完成想要做的事情。过去 18-24 个月的调整期中，作者曾担心无法理解新工具、失去判断代码质量的能力、谜题式解决问题的乐趣消失，但这些恐惧大多被现实证伪。代码审查能力没有消失，只是谜题从语法层面上升到架构和组合层面。作者真正的悲伤不在于失去手工编写代码的体验，而在于 Web 生态系统和职业环境的变化：AI 在公共内容上训练、互联网体验的进一步集中化、Web 开发不再热门、AI 工程占据主导。作者区分了两种悲伤：对技艺本身的丧失和对环境变化的焦虑。前者需要寻找新的满足来源或接受工作感觉的改变，后者则可以通过学习新工具和推动理想中的 Web 来应对。经过 40 多年的编程经历，作者仍然在看到自己构建的东西成功运行时获得同样的满足感，只是代码到达那里的方式不同了。",
+      "source_name": "daringfireball.net",
+      "score": 17,
+      "depth": 4,
+      "novelty": 6,
+      "breadth": 7,
+      "category": "opinion",
+      "keywords": [
+        "AI-assisted coding",
+        "developer grief",
+        "craft vs utility",
+        "career transition"
+      ],
+      "rank": 8
     },
     {
       "title": "Can the MacBook Neo replace my M4 Air?",
@@ -143,7 +183,7 @@
         "LLM",
         "performance"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "Windows 11 after two decades of macOS: okay, but also awful",
@@ -163,7 +203,7 @@
         "keyboard shortcuts",
         "Unreal Engine"
       ],
-      "rank": 8
+      "rank": 10
     },
     {
       "title": "Quoting Les Orchard",
@@ -182,7 +222,7 @@
         "developer-motivation",
         "career"
       ],
-      "rank": 9
+      "rank": 11
     },
     {
       "title": "Software Proprioception",
@@ -202,7 +242,7 @@
         "interaction design",
         "macOS"
       ],
-      "rank": 10
+      "rank": 12
     },
     {
       "title": "Coding After Coders: The End of Computer Programming as We Know It",
@@ -222,7 +262,7 @@
         "ChatGPT",
         "career"
       ],
-      "rank": 11
+      "rank": 13
     },
     {
       "title": "Windows stack limit checking retrospective: x86-32, also known as i386",
@@ -242,7 +282,27 @@
         "calling convention",
         "_chkstk"
       ],
-      "rank": 12
+      "rank": 14
+    },
+    {
+      "title": "Windows stack limit checking retrospective: MIPS",
+      "title_zh": "Windows 在 MIPS 上的栈检查机制",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260313-00/?p=112138",
+      "pub_date": "2026-03-13T14:00:00.000Z",
+      "summary": "Windows 在 MIPS 架构上的栈限制检查机制与 x86-32 有显著差异。MIPS 版本通过检查栈指针最高位来判断运行在用户模式还是内核模式，并从不同位置获取栈边界。代码采用短路优化：仅在需要扩展栈时才触发页面错误，避免不必要的内存页和缓存行加载。探测循环通过写入而非读取来触发内存分配，因为写入会扩展栈且线程独占。MIPS 版本验证栈可扩展性后返回，由调用者实际移动栈指针，而 x86-32 版本总是触碰栈。MIPS 的延迟槽特性使代码更复杂，分支后的指令无论是否跳转都会执行。",
+      "source_name": "devblogs.microsoft.com/oldnewthing",
+      "score": 14,
+      "depth": 7,
+      "novelty": 4,
+      "breadth": 3,
+      "category": "engineering",
+      "keywords": [
+        "MIPS",
+        "stack probing",
+        "Windows",
+        "delay slot"
+      ],
+      "rank": 15
     },
     {
       "title": "On Making",
@@ -262,7 +322,7 @@
         "Claude",
         "fulfillment"
       ],
-      "rank": 13
+      "rank": 16
     },
     {
       "title": "Inverse cosine",
@@ -282,7 +342,7 @@
         "analytic continuation",
         "branch cut"
       ],
-      "rank": 14
+      "rank": 17
     },
     {
       "title": "MALUS - Clean Room as a Service",
@@ -302,7 +362,7 @@
         "clean room",
         "satire"
       ],
-      "rank": 15
+      "rank": 18
     },
     {
       "title": "Apple’s Platform Security Guide Adds a Brief Note on the MacBook Neo’s On-Screen Camera Indicator",
@@ -322,7 +382,7 @@
         "MacBook Neo",
         "indicator light"
       ],
-      "rank": 16
+      "rank": 19
     },
     {
       "title": "Eddy Cue Says F1 on Apple TV Opened to Increased Viewership",
@@ -342,7 +402,7 @@
         "viewership",
         "Eddy Cue"
       ],
-      "rank": 17
+      "rank": 20
     },
     {
       "title": "It's Work that taught me how to think",
@@ -361,7 +421,7 @@
         "self-learning",
         "automation"
       ],
-      "rank": 18
+      "rank": 21
     },
     {
       "title": "An odd font rendering bug in Firefox and Safari",
@@ -381,7 +441,7 @@
         "Safari",
         "CSS"
       ],
-      "rank": 19
+      "rank": 22
     },
     {
       "title": "Microsoft’s 1986 IPO",
@@ -400,7 +460,27 @@
         "IPO",
         "history"
       ],
-      "rank": 20
+      "rank": 23
+    },
+    {
+      "title": "Restoring an Xserve G5: When Apple built real servers",
+      "title_zh": "Xserve G5 服务器修复与电源改造",
+      "link": "https://www.jeffgeerling.com/blog/2026/restoring-xserve-g5-apple-server/",
+      "pub_date": "2026-03-13T14:00:00.000Z",
+      "summary": "",
+      "source_name": "jeffgeerling.com",
+      "score": 9,
+      "depth": 4,
+      "novelty": 3,
+      "breadth": 2,
+      "category": "engineering",
+      "keywords": [
+        "Xserve",
+        "G5",
+        "recap",
+        "power supply"
+      ],
+      "rank": 24
     },
     {
       "title": "You (I) should document the forms of your Django web application",
@@ -419,7 +499,7 @@
         "forms",
         "documentation"
       ],
-      "rank": 21
+      "rank": 25
     },
     {
       "title": "Accents",
@@ -438,7 +518,7 @@
         "accent colors",
         "iMac"
       ],
-      "rank": 22
+      "rank": 26
     }
   ]
 }
