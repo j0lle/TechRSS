@@ -1,9 +1,9 @@
 {
   "date": "2026-03-13",
   "total_feeds": 92,
-  "success_feeds": 83,
-  "total_articles": 2497,
-  "filtered_articles": 20,
+  "success_feeds": 85,
+  "total_articles": 2420,
+  "filtered_articles": 19,
   "articles": [
     {
       "title": "Shopify/liquid: Performance: 53% faster parse+render, 61% fewer allocations",
@@ -325,6 +325,25 @@
       "rank": 16
     },
     {
+      "title": "Microsoft’s 1986 IPO",
+      "title_zh": "微软 1986 年 IPO 回顾",
+      "link": "https://dfarq.homeip.net/microsofts-1986-ipo/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=microsofts-1986-ipo",
+      "pub_date": "2026-03-13T11:00:44.000Z",
+      "summary": "",
+      "source_name": "dfarq.homeip.net",
+      "score": 9,
+      "depth": 3,
+      "novelty": 2,
+      "breadth": 4,
+      "category": "other",
+      "keywords": [
+        "Microsoft",
+        "IPO",
+        "history"
+      ],
+      "rank": 17
+    },
+    {
       "title": "You (I) should document the forms of your Django web application",
       "title_zh": "Django 表单权限逻辑需要文档化",
       "link": "https://utcc.utoronto.ca/~cks/space/blog/python/DjangoDocumentYourForms",
@@ -341,7 +360,7 @@
         "forms",
         "documentation"
       ],
-      "rank": 17
+      "rank": 18
     },
     {
       "title": "Accents",
@@ -360,7 +379,7 @@
         "accent colors",
         "iMac"
       ],
-      "rank": 18
+      "rank": 19
     }
   ]
 }
