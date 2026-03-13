@@ -3,8 +3,68 @@
   "total_feeds": 92,
   "success_feeds": 85,
   "total_articles": 2420,
-  "filtered_articles": 16,
+  "filtered_articles": 19,
   "articles": [
+    {
+      "title": "Shopify/liquid: Performance: 53% faster parse+render, 61% fewer allocations",
+      "title_zh": "Shopify CEO 用 AI 代理优化 Liquid 性能 53%",
+      "link": "https://simonwillison.net/2026/Mar/13/liquid/#atom-everything",
+      "pub_date": "2026-03-13T03:44:34.000Z",
+      "summary": "Shopify CEO Tobias Lütke 使用 Andrej Karpathy 的 autoresearch 模式，通过 Pi 编码代理在两天内运行约 120 次自动化实验，对 Liquid 模板引擎进行了性能优化。最终 PR 包含 93 个提交，实现了 53% 的解析+渲染速度提升和 61% 的内存分配减少。关键优化包括用 String#byteindex 替换 StringScanner tokenizer（单字节搜索比 regex 快 40%，单独减少 12% 解析时间）、纯字节级别的 parse_tag_token 实现（避免每次 token 都重置 StringScanner）、预缓存 0-999 的整数 to_s 字符串（每次渲染减少 267 次分配）。这个 20 年历史的代码库此前已有数百名贡献者优化，仍能通过 AI 代理实现如此大幅度的提升。作者指出，974 个单元测试的稳健测试套件是使用编码代理的前提条件，autoresearch 模式让代理能够系统性地尝试大量潜在改进，基准测试脚本将“让它更快”转化为可执行目标。Tobi 的贡献图显示 2025 年 11 月后编码代理能力提升后，其代码提交量显著增加，说明编码代理让高管等高中断角色也能高效参与代码工作。",
+      "source_name": "simonwillison.net",
+      "score": 24,
+      "depth": 8,
+      "novelty": 9,
+      "breadth": 7,
+      "category": "engineering",
+      "keywords": [
+        "Liquid",
+        "autoresearch",
+        "coding agents",
+        "performance"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Pluralistic: Three more AI psychoses (12 Mar 2026)",
+      "title_zh": "AI 泡沫的三种集体认知失调",
+      "link": "https://pluralistic.net/2026/03/12/normal-technology/",
+      "pub_date": "2026-03-13T02:17:20.000Z",
+      "summary": "\"AI psychosis\" 原指聊天机器人强化或诱发妄想，现扩展至三种群体性认知失调：投资者妄想认为 AI 是值得押注的资产，尽管行业累计亏损 6000-7000 亿美元、年营收仅 600 亿美元、单位经济模型为负；管理者妄想相信 AI 能替代人类员工，导致 AWS 等关键服务因自动化工具故障而宕机；批评者妄想认为 AI 是异常邪恶的技术，忽视了它只是由糟糕的人推动的普通技术。AI 的环境代价和就业威胁源于资本泡沫而非技术本身，将 AI 视为特殊存在反而强化了公司维持泡沫所需的叙事。",
+      "source_name": "pluralistic.net",
+      "score": 22,
+      "depth": 6,
+      "novelty": 8,
+      "breadth": 8,
+      "category": "opinion",
+      "keywords": [
+        "AI psychosis",
+        "bubble",
+        "unit economics",
+        "automation"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "Everything's Casino",
+      "title_zh": "赌场化社会如何吞噬美国",
+      "link": "https://www.joanwestenberg.com/everythings-casino/",
+      "pub_date": "2026-03-13T02:38:03.000Z",
+      "summary": "特朗普对伊朗发动代号为 Epic Fury 的空袭行动，两周内造成 1200 名平民死亡、12000 人受伤。3 月 7 日一枚导弹击中 Minab 的小学，造成 168 人死亡，其中大部分是儿童。五角大楼将此归咎于过时的目标信息，特朗普则将责任推给伊朗。参议员 Mark Kelly 指出政府没有计划、没有时间表、没有退出策略。Foreign Affairs、Bloomberg、华盛顿邮报等多家媒体将此次行动描述为一场赌博。特朗普声称伊朗正在建造可到达美国的导弹，但美国情报部门不支持这一说法。2025 年 1 月 17 日，特朗普在就职前三天宣布推出 $TRUMP memecoin，在 Solana 区块链上发行 10 亿枚代币，其中 8 亿枚由特朗普控制的公司持有。代币在 1 月 19 日达到 75 美元的峰值，市值 145 亿美元。Chainalysis 分析显示，19 天内 813,294 个钱包亏损约 20 亿美元，特朗普关联实体从中赚取 1 亿美元交易费用。到 2026 年初，代币跌至 2.86 美元，较峰值下跌 96%，近 200 万个钱包买入，零售投资者累计亏损超过 43 亿美元。58 个钱包赚取超过 1000 万美元。皮尤研究中心数据显示，1958 年 73% 的美国人信任联邦政府，到 2025 年降至 17%。2010 年一半美国人认为美国梦仍然有效，到 2025 年降至 27%。42% 的美国人和 46% 的 Z 世代同意无论多么努力工作都无法负担理想住房。67% 的千禧一代租房者没有首付储蓄。2022 年房价中位数是家庭收入中位数的 5.81 倍，高于 1984 年的 3.57 倍。普林斯顿经济学家 Case 和 Deaton 追踪发现，2018 年有 158,000 名美国人死于药物过量或酒精相关原因，高于 1995 年的 65,000 人。美国预期寿命连续三年下降，这是自 1918 年以来首次出现的逆转。",
+      "source_name": "joanwestenberg.com",
+      "score": 19,
+      "depth": 5,
+      "novelty": 6,
+      "breadth": 8,
+      "category": "opinion",
+      "keywords": [
+        "financialization",
+        "memecoin",
+        "Trump",
+        "casino"
+      ],
+      "rank": 3
+    },
     {
       "title": "Can the MacBook Neo replace my M4 Air?",
       "title_zh": "MacBook Neo 性能实测与 M4 Air 对比",
@@ -23,7 +83,7 @@
         "LLM",
         "performance"
       ],
-      "rank": 1
+      "rank": 4
     },
     {
       "title": "Windows 11 after two decades of macOS: okay, but also awful",
@@ -43,7 +103,7 @@
         "keyboard shortcuts",
         "Unreal Engine"
       ],
-      "rank": 2
+      "rank": 5
     },
     {
       "title": "Quoting Les Orchard",
@@ -62,7 +122,7 @@
         "developer-motivation",
         "career"
       ],
-      "rank": 3
+      "rank": 6
     },
     {
       "title": "Software Proprioception",
@@ -82,7 +142,7 @@
         "interaction design",
         "macOS"
       ],
-      "rank": 4
+      "rank": 7
     },
     {
       "title": "Coding After Coders: The End of Computer Programming as We Know It",
@@ -102,7 +162,7 @@
         "ChatGPT",
         "career"
       ],
-      "rank": 5
+      "rank": 8
     },
     {
       "title": "Windows stack limit checking retrospective: x86-32, also known as i386",
@@ -122,7 +182,7 @@
         "calling convention",
         "_chkstk"
       ],
-      "rank": 6
+      "rank": 9
     },
     {
       "title": "On Making",
@@ -142,7 +202,7 @@
         "Claude",
         "fulfillment"
       ],
-      "rank": 7
+      "rank": 10
     },
     {
       "title": "Inverse cosine",
@@ -162,7 +222,7 @@
         "analytic continuation",
         "branch cut"
       ],
-      "rank": 8
+      "rank": 11
     },
     {
       "title": "MALUS - Clean Room as a Service",
@@ -182,7 +242,7 @@
         "clean room",
         "satire"
       ],
-      "rank": 9
+      "rank": 12
     },
     {
       "title": "Apple’s Platform Security Guide Adds a Brief Note on the MacBook Neo’s On-Screen Camera Indicator",
@@ -202,7 +262,7 @@
         "MacBook Neo",
         "indicator light"
       ],
-      "rank": 10
+      "rank": 13
     },
     {
       "title": "Eddy Cue Says F1 on Apple TV Opened to Increased Viewership",
@@ -222,7 +282,7 @@
         "viewership",
         "Eddy Cue"
       ],
-      "rank": 11
+      "rank": 14
     },
     {
       "title": "Accents",
@@ -241,7 +301,7 @@
         "accent colors",
         "iMac"
       ],
-      "rank": 12
+      "rank": 15
     }
   ]
 }
