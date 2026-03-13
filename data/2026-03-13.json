@@ -2,8 +2,8 @@
   "date": "2026-03-13",
   "total_feeds": 92,
   "success_feeds": 85,
-  "total_articles": 2425,
-  "filtered_articles": 18,
+  "total_articles": 2420,
+  "filtered_articles": 20,
   "articles": [
     {
       "title": "Shopify/liquid: Performance: 53% faster parse+render, 61% fewer allocations",
@@ -66,6 +66,26 @@
       "rank": 3
     },
     {
+      "title": "What do coders do after AI?",
+      "title_zh": "AI 时代程序员的身份危机与出路",
+      "link": "https://anildash.com/2026/03/13/coders-after-ai/",
+      "pub_date": "2026-03-13T00:00:00.000Z",
+      "summary": "LLM 正在成为虚拟软件工厂，改变代码创作的经济结构和权力动态。文章将程序员分为两类：将编码视为稳定职业的朝九晚五者，以及将编码视为身份认同的业余爱好者。前者面临被大规模裁员的风险，因为 AI 可以生成数量级更多的标准化业务代码；后者则面临技艺被抽象化的失落感，从编写代码转向描述软件。与艺术领域不同，LLM 在编程领域移除了枯燥部分而保留了人性化的创造性工作，这解释了为何程序员对 AI 的态度与艺术家截然不同。文章指出，程序员群体缺乏劳工组织传统，且长期认同自己是未来创始人而非工人，导致对自动化的接受度与其他行业不同。过去几年科技行业已有 70 万人被裁员，作者呼吁有灵魂的黑客抓住这一时刻，独立构建而不依赖那些大规模裁员的资本力量。",
+      "source_name": "anildash.com",
+      "score": 17,
+      "depth": 4,
+      "novelty": 5,
+      "breadth": 8,
+      "category": "opinion",
+      "keywords": [
+        "LLM",
+        "coding",
+        "career",
+        "automation"
+      ],
+      "rank": 4
+    },
+    {
       "title": "Can the MacBook Neo replace my M4 Air?",
       "title_zh": "MacBook Neo 性能实测与 M4 Air 对比",
       "link": "https://www.jeffgeerling.com/blog/2026/macbook-neo-replace-m4-air/",
@@ -83,7 +103,7 @@
         "LLM",
         "performance"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Windows 11 after two decades of macOS: okay, but also awful",
@@ -103,7 +123,7 @@
         "keyboard shortcuts",
         "Unreal Engine"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Quoting Les Orchard",
@@ -122,7 +142,7 @@
         "developer-motivation",
         "career"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Software Proprioception",
@@ -142,7 +162,7 @@
         "interaction design",
         "macOS"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Coding After Coders: The End of Computer Programming as We Know It",
@@ -162,7 +182,7 @@
         "ChatGPT",
         "career"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Windows stack limit checking retrospective: x86-32, also known as i386",
@@ -182,7 +202,7 @@
         "calling convention",
         "_chkstk"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "On Making",
@@ -202,7 +222,7 @@
         "Claude",
         "fulfillment"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "Inverse cosine",
@@ -222,7 +242,7 @@
         "analytic continuation",
         "branch cut"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "MALUS - Clean Room as a Service",
@@ -242,7 +262,7 @@
         "clean room",
         "satire"
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "title": "Apple’s Platform Security Guide Adds a Brief Note on the MacBook Neo’s On-Screen Camera Indicator",
@@ -262,7 +282,7 @@
         "MacBook Neo",
         "indicator light"
       ],
-      "rank": 13
+      "rank": 14
     },
     {
       "title": "Eddy Cue Says F1 on Apple TV Opened to Increased Viewership",
@@ -282,7 +302,7 @@
         "viewership",
         "Eddy Cue"
       ],
-      "rank": 14
+      "rank": 15
     },
     {
       "title": "Accents",
@@ -301,7 +321,7 @@
         "accent colors",
         "iMac"
       ],
-      "rank": 15
+      "rank": 16
     }
   ]
 }
