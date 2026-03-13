@@ -1,6 +1,1148 @@
 {
-  "updatedAt": "2026-03-13T03:32:01.384Z",
+  "updatedAt": "2026-03-13T05:16:03.493Z",
   "items": [
+    {
+      "id": 47352459,
+      "by": "coloneltcb",
+      "title": "The Met Releases High-Def 3D Scans of 140 Famous Art Objects",
+      "url": "https://www.openculture.com/2026/03/the-met-releases-high-definition-3d-scans-of-140-famous-art-objects.html",
+      "score": 252,
+      "detailUpdatedAt": 1773377030,
+      "createdAt": 1773331266,
+      "aiSummaryUpdatedAt": 1773377841,
+      "aisummary": {
+        "chinese_title": "大都会公布140件高精3D模型：可下载(GLB/USDZ/FBX)、CC0 与质量争议",
+        "emoji": "🎨",
+        "sarcastic_question": "这些“高精”3D是为学术保存，还是只为吸流量？"
+      },
+      "classifications": {
+        "topics": [
+          5,
+          11,
+          7
+        ],
+        "facets": [
+          4
+        ],
+        "tags": [
+          "The Met",
+          "3D scans",
+          "glb",
+          "USDZ",
+          "OBJ",
+          "STL",
+          "Open Access",
+          "AR"
+        ]
+      },
+      "classificationsUpdatedAt": 1773336416,
+      "aiSummary": {
+        "chinese_title": "大都会公布140件高精3D模型：可下载(GLB/USDZ/FBX)、CC0 与质量争议",
+        "emoji": "🎨",
+        "sarcastic_question": "这些“高精”3D是为学术保存，还是只为吸流量？"
+      },
+      "detail": {
+        "id": 47352459,
+        "by": "coloneltcb",
+        "title": "The Met Releases High-Def 3D Scans of 140 Famous Art Objects",
+        "url": "https://www.openculture.com/2026/03/the-met-releases-high-definition-3d-scans-of-140-famous-art-objects.html",
+        "score": 146,
+        "detailUpdatedAt": 1773348212,
+        "createdAt": 1773331266,
+        "aiSummaryUpdatedAt": 1773349624,
+        "aisummary": {
+          "chinese_title": "大都会公布140件高精3D扫描：可下载GLB/USDZ/FBX但材质与交互仍受争议",
+          "discussion_overview": [
+            {
+              "category": "开放访问、下载与 API 集成",
+              "summary": "评论者指出这些模型在网页上可直接获取，且很多条目标注为 CC0（公共领域）。有用户发布了脚本（InconsolableCellist/met_scans）批量下载约135个公开的 GLB 并将元数据整理为 JSON，另外也有人提示页面中存在名为 masters 的 JSON 文件，列出 glb/usdz/fbx 等可用格式，可以在浏览器的 Network 面板直接抓取 .glb。The Met 的 Open Access 项目与 The Met Collection API 被实际用于商业或创意整合（例如把藏品流接入应用），但也有评论提醒并非所有条目都属于开放访问，部分图像仍受限或需要请求授权。",
+              "supportid": [
+                "47355230",
+                "47353586",
+                "47353620",
+                "47354314",
+                "47355157",
+                "47353499",
+                "47353354",
+                "47352994"
+              ]
+            },
+            {
+              "category": "材质捕捉与真实性质疑（PBR/metalness 问题）",
+              "summary": "对材质层面的批评集中在金属度（metallic/metalness）通道并未被有效捕捉：评论者查看 USDZ 等文件后发现 metalness 贴图通常是纯白或没有数据，导入 Houdini 时被翻译为 USDPreview 材质，只有 basecolor、roughness（有较好贴图）和 normal map，metallic 没有实质信息。因此有人觉得渲染出现“过于光滑/亮泽”的着色效果，像早期游戏风格而非真实艺术品材质，建议博物馆同时公布原始拍摄图像以便用其它重建流程重现真实金属表现。社区还提出替代技术（例如使用更先进的重建或渲染方法）和不同采集设备会影响结果，有人举例 Brussels 使用的 CultArm3D FT20 机器人臂相机作为采集参考。",
+              "supportid": [
+                "47353317",
+                "47354276",
+                "47355887",
+                "47356077",
+                "47353644"
+              ]
+            },
+            {
+              "category": "查看器交互、缩放限制与设备差异",
+              "summary": "用户普遍反馈内置 3D 查看器在交互上有意限制视距以保持物体完整进视窗，导致无法靠近观察像素或三角网格细节，桌面和移动端表现差异明显。移动端（例如在 Safari 的 AR 预览）被多次称为“运行良好”，但在桌面 Firefox 上有评论表示缩放到物体充满视场后无法继续靠近，亦有人在巨型显示器上能获得更近的视点。另有评论提到 WebXR 的实现能在不同设备上工作（Vision Pro 常用 USDZ，Meta Quest 常用 glTF/GLB），但缺乏必要的背景解说或语境会降低这些沉浸式展示的价值。",
+              "supportid": [
+                "47353262",
+                "47353561",
+                "47354061",
+                "47356512",
+                "47353449"
+              ]
+            },
+            {
+              "category": "3D 打印可行性与格式转换实务",
+              "summary": "讨论包含如何将博物馆提供的格式转换为可打印文件以及打印时的实际问题：评论者指出页面提供 glb/usdz/fbx，可通过 masters.json 定位并把 usdz 转为 OBJ/STL 用于打印，也可直接抓取 .glb 文件。用户关心打印模型的展示适配性（有些雕像“放家里很怪”）、支撑结构和填充（实心或空心）问题，并分享创意用途，例如把底座灌注混凝土做书挡。若要打印这些高精模型，需考虑重新拓扑、支撑设计和美观性改造，社区成员互相询问并交换实务经验。",
+              "supportid": [
+                "47356691",
+                "47352994",
+                "47354014",
+                "47353620",
+                "47354314",
+                "47354534",
+                "47354607",
+                "47355659",
+                "47356500",
+                "47354280"
+              ]
+            },
+            {
+              "category": "对开放数字化的赞赏与对更多藏品的期待",
+              "summary": "很多评论对大都会发布高质量 3D 扫描表示感谢和赞赏，称这些扫描“非常漂亮”并让人高兴，认为提高了公众可访问性。部分评论具体表达了对某些被捕捉藏品的兴奋（指出现场观感极佳），也有人希望博物馆能加入更吸引眼球的藏品比如 Fabergé 彩蛋。总体上正面反馈和技术批评并存：公众欢迎开放与可下载的发放，但同时期望在材质真实感、源影像公开与交互体验上进一步改进以提升教育和研究价值。",
+              "supportid": [
+                "47354400",
+                "47355442",
+                "47352792",
+                "47353449"
+              ]
+            }
+          ],
+          "terminologies": [
+            {
+              "term": "glTF / GLB",
+              "explanation": "glTF 是一个开放的 3D 传输格式，GLB 是其二进制封装，常用于网页与 AR 场景，包含网格、纹理和 PBR 材质通道，便于在浏览器和实时引擎中加载。"
+            },
+            {
+              "term": "USDZ",
+              "explanation": "USDZ 是 Apple 推广的无压缩打包格式，用于 iOS/AR Quick Look 和 Vision Pro 的 AR 预览，通常封装 USD 场景与纹理以便在苹果生态展示。"
+            },
+            {
+              "term": "FBX",
+              "explanation": "FBX 是 Autodesk 的 3D 交换格式，常用于在建模软件、游戏引擎和动画流水线间传递几何、材质与动画数据。"
+            },
+            {
+              "term": "STL / OBJ",
+              "explanation": "STL 与 OBJ 是常见的网格与打印交换格式：STL 多用于 3D 打印，OBJ 支持纹理坐标，二者经常需要由 glb/usdz 转换以适配打印或传统 3D 软件。"
+            },
+            {
+              "term": "PBR 通道（basecolor, roughness, metallic, normal）",
+              "explanation": "PBR（Physically Based Rendering）使用一组贴图通道还原真实光照响应：basecolor（基色）、roughness（粗糙度）、metallic（金属度）和 normal（法线）。评论中提到 metalness 通道常为空白或全白，表示真实金属特性未被捕获。"
+            },
+            {
+              "term": "WebXR / AR",
+              "explanation": "WebXR 是用于在浏览器中实现 VR/AR 的 Web 标准，AR（增强现实）是把虚拟内容叠加到真实世界；讨论里涉及 WebXR 在不同设备（例如 Vision Pro 使用 USDZ、Meta Quest 使用 glTF/GLB、Safari 的 AR 预览）上的表现差异。"
+            },
+            {
+              "term": "CC0 / Open Access",
+              "explanation": "CC0（Creative Commons Zero）表示放弃版权、进入公共领域。The Met 的 Open Access 项目和 The Met Collection API 提供大量标注为 CC0 的数据和图像，可供无偿商用或非商用使用，但并非所有馆藏均为开放。"
+            },
+            {
+              "term": "masters.json",
+              "explanation": "在 The Met 的藏品页面中常见的一个 JSON 元数据文件（名为 masters），列出该藏品可用的模型文件名与格式（如 glb/usdz/fbx），是定位与下载原始模型的入口之一。"
+            },
+            {
+              "term": "GLTF-Sample-Viewer",
+              "explanation": "GLTF-Sample-Viewer 是由 Khronos 提供的 glTF 示例查看器，能直接加载 GLB/glTF 文件用以检查网格、相机与 PBR 材质，常用于快速预览与调试。"
+            },
+            {
+              "term": "USDPreview material",
+              "explanation": "USDPreview material 是 USD 生态中常用的一种预览材质表示，通常映射为 basecolor/roughness/metallic 等通道；评论者在导入工具中看到的导出结果被翻译为这种简化材质。"
+            }
+          ],
+          "context": "大都会艺术博物馆（The Metropolitan Museum of Art）在其藏品页面上以多种 3D 文件格式（glb、usdz、fbx 等）发布了约 140 件艺术品的三维扫描并提供网页查看与 AR 预览。讨论基于评论者实际试用发现的可下载路径（如 masters.json 和浏览器 Network 面板）与 The Met 的 Open Access/CC0 政策，以及通过 The Met Collection API 将资源整合到其他应用的案例。技术争议集中在材质与 PBR 通道的完整性（尤其 metalness 未被捕捉）与缺乏原始拍摄图像以便重建更真实材质，另有关于 WebXR/AR 在不同设备（Vision Pro、Meta Quest、Safari）的渲染与交互差异的反馈。社区既赞赏博物馆开放高质量 3D 资源，也提出希望公开源影像并改进材质表达与交互体验的具体期待。",
+          "emoji": "🔍",
+          "sarcastic_question": "公布一堆glb就能算“高精3D扫描”吗？"
+        },
+        "classifications": {
+          "topics": [
+            5,
+            11,
+            7
+          ],
+          "facets": [
+            4
+          ],
+          "tags": [
+            "The Met",
+            "3D scans",
+            "glb",
+            "USDZ",
+            "OBJ",
+            "STL",
+            "Open Access",
+            "AR"
+          ]
+        },
+        "classificationsUpdatedAt": 1773336416,
+        "aiSummary": {
+          "chinese_title": "大都会公布140件高精3D扫描：可下载GLB/USDZ/FBX但材质与交互仍受争议",
+          "discussion_overview": [
+            {
+              "category": "开放访问、下载与 API 集成",
+              "summary": "评论者指出这些模型在网页上可直接获取，且很多条目标注为 CC0（公共领域）。有用户发布了脚本（InconsolableCellist/met_scans）批量下载约135个公开的 GLB 并将元数据整理为 JSON，另外也有人提示页面中存在名为 masters 的 JSON 文件，列出 glb/usdz/fbx 等可用格式，可以在浏览器的 Network 面板直接抓取 .glb。The Met 的 Open Access 项目与 The Met Collection API 被实际用于商业或创意整合（例如把藏品流接入应用），但也有评论提醒并非所有条目都属于开放访问，部分图像仍受限或需要请求授权。",
+              "supportid": [
+                "47355230",
+                "47353586",
+                "47353620",
+                "47354314",
+                "47355157",
+                "47353499",
+                "47353354",
+                "47352994"
+              ]
+            },
+            {
+              "category": "材质捕捉与真实性质疑（PBR/metalness 问题）",
+              "summary": "对材质层面的批评集中在金属度（metallic/metalness）通道并未被有效捕捉：评论者查看 USDZ 等文件后发现 metalness 贴图通常是纯白或没有数据，导入 Houdini 时被翻译为 USDPreview 材质，只有 basecolor、roughness（有较好贴图）和 normal map，metallic 没有实质信息。因此有人觉得渲染出现“过于光滑/亮泽”的着色效果，像早期游戏风格而非真实艺术品材质，建议博物馆同时公布原始拍摄图像以便用其它重建流程重现真实金属表现。社区还提出替代技术（例如使用更先进的重建或渲染方法）和不同采集设备会影响结果，有人举例 Brussels 使用的 CultArm3D FT20 机器人臂相机作为采集参考。",
+              "supportid": [
+                "47353317",
+                "47354276",
+                "47355887",
+                "47356077",
+                "47353644"
+              ]
+            },
+            {
+              "category": "查看器交互、缩放限制与设备差异",
+              "summary": "用户普遍反馈内置 3D 查看器在交互上有意限制视距以保持物体完整进视窗，导致无法靠近观察像素或三角网格细节，桌面和移动端表现差异明显。移动端（例如在 Safari 的 AR 预览）被多次称为“运行良好”，但在桌面 Firefox 上有评论表示缩放到物体充满视场后无法继续靠近，亦有人在巨型显示器上能获得更近的视点。另有评论提到 WebXR 的实现能在不同设备上工作（Vision Pro 常用 USDZ，Meta Quest 常用 glTF/GLB），但缺乏必要的背景解说或语境会降低这些沉浸式展示的价值。",
+              "supportid": [
+                "47353262",
+                "47353561",
+                "47354061",
+                "47356512",
+                "47353449"
+              ]
+            },
+            {
+              "category": "3D 打印可行性与格式转换实务",
+              "summary": "讨论包含如何将博物馆提供的格式转换为可打印文件以及打印时的实际问题：评论者指出页面提供 glb/usdz/fbx，可通过 masters.json 定位并把 usdz 转为 OBJ/STL 用于打印，也可直接抓取 .glb 文件。用户关心打印模型的展示适配性（有些雕像“放家里很怪”）、支撑结构和填充（实心或空心）问题，并分享创意用途，例如把底座灌注混凝土做书挡。若要打印这些高精模型，需考虑重新拓扑、支撑设计和美观性改造，社区成员互相询问并交换实务经验。",
+              "supportid": [
+                "47356691",
+                "47352994",
+                "47354014",
+                "47353620",
+                "47354314",
+                "47354534",
+                "47354607",
+                "47355659",
+                "47356500",
+                "47354280"
+              ]
+            },
+            {
+              "category": "对开放数字化的赞赏与对更多藏品的期待",
+              "summary": "很多评论对大都会发布高质量 3D 扫描表示感谢和赞赏，称这些扫描“非常漂亮”并让人高兴，认为提高了公众可访问性。部分评论具体表达了对某些被捕捉藏品的兴奋（指出现场观感极佳），也有人希望博物馆能加入更吸引眼球的藏品比如 Fabergé 彩蛋。总体上正面反馈和技术批评并存：公众欢迎开放与可下载的发放，但同时期望在材质真实感、源影像公开与交互体验上进一步改进以提升教育和研究价值。",
+              "supportid": [
+                "47354400",
+                "47355442",
+                "47352792",
+                "47353449"
+              ]
+            }
+          ],
+          "terminologies": [
+            {
+              "term": "glTF / GLB",
+              "explanation": "glTF 是一个开放的 3D 传输格式，GLB 是其二进制封装，常用于网页与 AR 场景，包含网格、纹理和 PBR 材质通道，便于在浏览器和实时引擎中加载。"
+            },
+            {
+              "term": "USDZ",
+              "explanation": "USDZ 是 Apple 推广的无压缩打包格式，用于 iOS/AR Quick Look 和 Vision Pro 的 AR 预览，通常封装 USD 场景与纹理以便在苹果生态展示。"
+            },
+            {
+              "term": "FBX",
+              "explanation": "FBX 是 Autodesk 的 3D 交换格式，常用于在建模软件、游戏引擎和动画流水线间传递几何、材质与动画数据。"
+            },
+            {
+              "term": "STL / OBJ",
+              "explanation": "STL 与 OBJ 是常见的网格与打印交换格式：STL 多用于 3D 打印，OBJ 支持纹理坐标，二者经常需要由 glb/usdz 转换以适配打印或传统 3D 软件。"
+            },
+            {
+              "term": "PBR 通道（basecolor, roughness, metallic, normal）",
+              "explanation": "PBR（Physically Based Rendering）使用一组贴图通道还原真实光照响应：basecolor（基色）、roughness（粗糙度）、metallic（金属度）和 normal（法线）。评论中提到 metalness 通道常为空白或全白，表示真实金属特性未被捕获。"
+            },
+            {
+              "term": "WebXR / AR",
+              "explanation": "WebXR 是用于在浏览器中实现 VR/AR 的 Web 标准，AR（增强现实）是把虚拟内容叠加到真实世界；讨论里涉及 WebXR 在不同设备（例如 Vision Pro 使用 USDZ、Meta Quest 使用 glTF/GLB、Safari 的 AR 预览）上的表现差异。"
+            },
+            {
+              "term": "CC0 / Open Access",
+              "explanation": "CC0（Creative Commons Zero）表示放弃版权、进入公共领域。The Met 的 Open Access 项目和 The Met Collection API 提供大量标注为 CC0 的数据和图像，可供无偿商用或非商用使用，但并非所有馆藏均为开放。"
+            },
+            {
+              "term": "masters.json",
+              "explanation": "在 The Met 的藏品页面中常见的一个 JSON 元数据文件（名为 masters），列出该藏品可用的模型文件名与格式（如 glb/usdz/fbx），是定位与下载原始模型的入口之一。"
+            },
+            {
+              "term": "GLTF-Sample-Viewer",
+              "explanation": "GLTF-Sample-Viewer 是由 Khronos 提供的 glTF 示例查看器，能直接加载 GLB/glTF 文件用以检查网格、相机与 PBR 材质，常用于快速预览与调试。"
+            },
+            {
+              "term": "USDPreview material",
+              "explanation": "USDPreview material 是 USD 生态中常用的一种预览材质表示，通常映射为 basecolor/roughness/metallic 等通道；评论者在导入工具中看到的导出结果被翻译为这种简化材质。"
+            }
+          ],
+          "context": "大都会艺术博物馆（The Metropolitan Museum of Art）在其藏品页面上以多种 3D 文件格式（glb、usdz、fbx 等）发布了约 140 件艺术品的三维扫描并提供网页查看与 AR 预览。讨论基于评论者实际试用发现的可下载路径（如 masters.json 和浏览器 Network 面板）与 The Met 的 Open Access/CC0 政策，以及通过 The Met Collection API 将资源整合到其他应用的案例。技术争议集中在材质与 PBR 通道的完整性（尤其 metalness 未被捕捉）与缺乏原始拍摄图像以便重建更真实材质，另有关于 WebXR/AR 在不同设备（Vision Pro、Meta Quest、Safari）的渲染与交互差异的反馈。社区既赞赏博物馆开放高质量 3D 资源，也提出希望公开源影像并改进材质表达与交互体验的具体期待。",
+          "emoji": "🔍",
+          "sarcastic_question": "公布一堆glb就能算“高精3D扫描”吗？"
+        }
+      },
+      "articleSummary": "## 一句话总结\n大都会艺术博物馆（The Met）公开了 140 件珍贵藏品的高清 3D 扫描数据，采用 CC0 协议完全开放，意味着开发者可以免费下载、修改甚至用于商业项目。\n\n### 从 2D 图片到 3D 资产的跨越\n这次发布最核心的变化在于维度的升级。以前我们访问博物馆官网，只能看到高分辨率的平面图片。但现在，The Met 直接放出了 3D 模型。这不仅仅是“看起来立体”，而是实实在在的几何数据。对于开发者来说，这意味着你可以直接把这些模型导入 Unity、Unreal Engine 或者 Blender 里。不管是做 VR 体验，还是做游戏资产，素材门槛直接被拉平了。\n\n### 140 件精选藏品的含金量\n数量上 140 件听起来不算海量，但质量非常硬核。这次开放的包括梵高的画作、大理石雕塑，甚至还有古埃及的石棺。有意思的地方在于，这些模型不仅仅是“看起来像”，而是保留了极高的细节精度。文章特别提到了“High-Definition”，说明扫描的拓扑结构和纹理贴图都达到了专业级标准。这对于需要高质量参考数据的 3D 艺术家来说，简直是难得的练手素材。\n\n### CC0 协议才是真正的杀手锏\n技术细节再好，如果授权麻烦也是白搭。The Met 这次做得最彻底的一点，是采用了 CC0（Creative Commons Zero）协议。说白了就是“放弃版权”，公有领域。你不需要去申请许可，不需要署名（虽然出于礼貌建议署名），更不用担心律师函。这对于商业项目极其友好，你可以放心地把这些模型用在你的付费游戏或企业级应用里，而不用担心法律风险。\n\n### 扫描技术背后的工程挑战\n虽然文章没细说具体的扫描设备，但从“High-Definition”和涵盖“Sarcophagi（石棺）”这种大型物体来看，这绝对不是拍几张照片就能搞定的。通常这种级别的数字化，会用到激光扫描或结构光摄影测量。核心难点在于处理反光材质（比如大理石）和复杂几何结构。The Met 能把这些处理成可用的 3D 网格，说明他们在后期的数据清洗和重建上下了不少功夫。\n\n### 开发者能拿这些数据做什么？\n除了显而易见的游戏开发，这些数据在教育和研究领域大有可为。比如，你可以做一个 Web 端的 3D 展厅，让学生能 360 度旋转观察梵高的笔触。或者利用这些高精度模型训练 AI，让机器学习理解艺术品的 3D 结构。因为数据是开放的，这实际上为整个数字人文领域提供了一个高质量的 Benchmark 数据集。\n\n### 下载与集成的技术细节\n目前这些数据已经可以通过 The Met 的官方渠道获取。对于开发者来说，关注点应该放在模型的格式兼容性上。通常这类公开数据会提供 .obj 或 .gltf 格式，这两种格式对 Web 3D 引擎（如 Three.js）非常友好。如果你在做一个数字孪生项目，或者需要高质量的现实世界物体作为测试数据，这批现成的模型能帮你省去大量的建模时间。"
+    },
+    {
+      "id": 47350931,
+      "by": "souvlakee",
+      "title": "Kotlin creator's new language: a formal way to talk to LLMs instead of English",
+      "url": "https://codespeak.dev/",
+      "score": 280,
+      "detailUpdatedAt": 1773377040,
+      "createdAt": 1773328261,
+      "aiSummaryUpdatedAt": 1773377527,
+      "aisummary": {
+        "chinese_title": "Kotlin 创造者推 CodeSpeak：用规格驱动 LLM 生成并维护代码",
+        "emoji": "🤔",
+        "sarcastic_question": "把会胡扯的LLM当正规编译器，你信吗？"
+      },
+      "classifications": {
+        "topics": [
+          1,
+          4
+        ],
+        "facets": [
+          4
+        ],
+        "tags": [
+          "CodeSpeak",
+          "LLMs",
+          "Kotlin",
+          "formal-specifications",
+          "agents",
+          "spec-driven development",
+          "Gherkin"
+        ]
+      },
+      "classificationsUpdatedAt": 1773330708,
+      "aiSummary": {
+        "chinese_title": "Kotlin 创造者推 CodeSpeak：用规格驱动 LLM 生成并维护代码",
+        "emoji": "🤔",
+        "sarcastic_question": "把会胡扯的LLM当正规编译器，你信吗？"
+      },
+      "detail": {
+        "id": 47350931,
+        "by": "souvlakee",
+        "title": "Kotlin creator's new language: a formal way to talk to LLMs instead of English",
+        "url": "https://codespeak.dev/",
+        "score": 180,
+        "detailUpdatedAt": 1773339212,
+        "createdAt": 1773328261,
+        "aiSummaryUpdatedAt": 1773340043,
+        "aisummary": {
+          "chinese_title": "Kotlin 创始人推出 CodeSpeak：把规范当“语言”对 LLM 下指令？",
+          "discussion_overview": [
+            {
+              "category": "不是新语言，而是工作流/编排/Markdown 式规范",
+              "summary": "大量评论认为 CodeSpeak 本质上并非一门全新编程语言，而更像一套把 Markdown/规范文件映射到 LLM 调用的编排工具。演示示例就是把规范文本作为输入，让模型生成或修改代码，并将这些提示与规范一起版本化保存；这更像是现有 LLM wrapper 或 JSON/YAML 风格的结构化写法。不少人指责官网和示例并未清晰展示新的语法或形式化基础，很多地方看起来像是“更有结构的 README”而非严格语法。还有人注意到项目中仍有 codespeak.json 等传统配置文件，暗示项目并未完全用自家“语言”自吃（dogfood）。",
+              "supportid": [
+                "47352366",
+                "47354292",
+                "47354647",
+                "47351140",
+                "47354191",
+                "47354664",
+                "47354059"
+              ]
+            },
+            {
+              "category": "规范驱动开发的实践与工具演进",
+              "summary": "许多评论给出了实际的 spec-driven 开发工作流例子：有人用 AGENTS.md、DESIGN.md、TECHNICAL-SPEC.md 把提示和设计文档作为长期源，另有开源项目（如 blackbird、incrmd）把文档转为结构化任务并按依赖顺序执行。实务中常见的问题是规范会与实现漂移，评论建议把规范、测试和代码一起作为可审计的版本化对象，并用构建系统或任务依赖来保持一致。既有贡献者也展示了把规范当作“已保存提示”的习惯，并讨论在“冲刺模式”与“马拉松维护”之间切换的使用场景。社区还提出了把规范拆为更小任务、在每步做人工或自动审查以避免大幅度一次性重写的实践。",
+              "supportid": [
+                "47352300",
+                "47352448",
+                "47353176",
+                "47353055",
+                "47353667",
+                "47352394",
+                "47353489"
+              ]
+            },
+            {
+              "category": "LLM 非确定性与可验证性问题（需要测试或形式化）",
+              "summary": "评论反复指出 LLM 输出并非完全可复现：温度设置、批处理策略、并行实现和模型版本都会导致同一规范下不同代码结果。因此单靠把自然语言变成“更结构化”的规范并不能自动解决正确性问题；有人建议把规范转成可验证的形式规格或至少自动生成测试/差分测试来验证实现。也有评论强调，如果能以形式化方式证明结果正确，代码层面的非确定性就不重要，但同时承认大多数现实项目要做到完整形式化验证几乎不现实。实务建议包括基于规范生成测试、对生成过程做多次采样（如不同 seed）并用验证套件筛选可靠结果。",
+              "supportid": [
+                "47352008",
+                "47353203",
+                "47353255",
+                "47352595",
+                "47353784",
+                "47354577",
+                "47352782"
+              ]
+            },
+            {
+              "category": "知识与上下文才是主要瓶颈，而非“语言”本身",
+              "summary": "有评论提出真正的障碍不是用哪种“语言”与模型沟通，而是模型缺乏领域特有的、非文档化的‘部落知识’和对代码库全局上下文的理解。作者给出的“esoteric knowledge ratio”度量（对开源项目通常只有 40–55%）被用来说明模型在缺少上下文时会自信但错误地输出实现。上下文窗口、记忆/检索策略和模型内部表示对结果影响很大，因此把提示形式化不能弥补模型无法访问或理解那部分领域事实的缺陷。评论建议把更多领域知识结构化注入或改进检索/记忆系统，而不是仅仅设计新语法。",
+              "supportid": [
+                "47354893",
+                "47351928",
+                "47353739",
+                "47353489"
+              ]
+            },
+            {
+              "category": "可重复性与版本化的潜在优势（把提示/规范作为事实来源）",
+              "summary": "支持者认为把提示和规范存入仓库、把规范变更映射为代码 diff 的做法有明显工程好处：提示不会丢失、变更可追溯，团队可以对规范变更做 code review。将规范作为“source of truth”能让生成流程更透明，便于在变更后同时提交规范与代码以维持一致性。批评者则提醒这种方法也有盲点：当某些行为只存在于实现而未写入规范时，规范并不能完全描述系统，规范与实现仍会漂移。项目团队正在探索把代码反向生成规范（如 codespeak takeover）来减少这种漂移。",
+              "supportid": [
+                "47352366",
+                "47353489",
+                "47352300",
+                "47352772",
+                "47352499"
+              ]
+            },
+            {
+              "category": "商业化与开源可行性怀疑",
+              "summary": "多名评论者质疑这个想法能否作为闭源商业产品长期变现，理由是思路相对简单且容易被开源替代实现。有人指出类似功能可以在短时间内用现成 LLM wrapper 重构出来，闭源策略反而会阻碍采用与信任。另有人拿项目自身配置（如 codespeak.json）举例，讽刺项目未完全以自家“语言”构建，增加了对其商业可行性的怀疑。总体呈现出对专有化商业模式的普遍怀疑。",
+              "supportid": [
+                "47352366",
+                "47353009",
+                "47354059"
+              ]
+            },
+            {
+              "category": "偏好形式化/可证明的方法，担心回归松散自然语句",
+              "summary": "部分程序员明确反对把软件工程回退到“伪英语”或非正式规范，认为编程应保持数学/形式化特征，测试和良好代码本身才是规范。有人主张把人类工作集中在写测试（如 Gherkin/BDD）而让工具填实现，或使用已有的形式化方法（如更强类型系统或形式验证工具）来保证正确性。对这些评论者来说，CodeSpeak 似乎是在降低工程严格性，可能导致更多未知的副作用而非更可靠的软件。讨论也提到已有的 BDD、literate programming 等成熟实践更值得融合而非被替换。",
+              "supportid": [
+                "47353875",
+                "47354471",
+                "47351515",
+                "47352206"
+              ]
+            },
+            {
+              "category": "社区给出的改进建议与替代原型",
+              "summary": "评论中有很多具体改进建议：在提示管线加“拦截器/清洗器”把自由文本转成结构化 prompt，或者自动从规范生成测试并用差分测试验证实现。开源原型也被列举出来（例如 blackbird、incrmd、AIL、Simplex、Langflow、n8n 等），它们展示了把规范拆成任务、按依赖执行并在每步加入人工或自动审查的可行性。还有实践建议如不要每次重生成整个程序、而是对现有代码做定向修改、对生成过程记录 token/成本并限制 planner 深度以控制费用。总体上社区更倾向于渐进式工具链和测试/验证的补强，而非把所有依赖交给单一新“语言”。",
+              "supportid": [
+                "47352394",
+                "47353176",
+                "47353902",
+                "47352782",
+                "47353667",
+                "47352247"
+              ]
+            }
+          ],
+          "terminologies": [
+            {
+              "term": "CodeSpeak",
+              "explanation": "本文讨论的项目名称，由 Kotlin 创始人提出的一套以 Markdown/规范文件为输入、通过 LLM 生成或修改代码的工具链，核心在于把规范差异映射为代码变更并把提示与规范一起版本化。"
+            },
+            {
+              "term": "规范驱动开发（spec-driven development）",
+              "explanation": "以规范（spec）为主要驱动，把需求/设计写成机器可读或 LLM 可消费的规范文件，再由生成器或模型将其转为代码，同时配合测试和构建系统保证实现与规范一致的实践。"
+            },
+            {
+              "term": "agent / agentic",
+              "explanation": "指由 LLM 驱动的自治代理（agent），可以链式调用多个提示、操作工具或文件系统来完成任务，即 agentic architecture，常用于把高层规范分解并自动执行生成/修改步骤。"
+            },
+            {
+              "term": "BDD / Gherkin",
+              "explanation": "Behavior Driven Development（行为驱动开发）及其常用的 Gherkin 语法，一种用接近自然语言但结构化表述测试/行为的方式，评论中被提出作为人类可写且适合自动化验证的规范格式。"
+            }
+          ],
+          "context": "Kotlin 创始人提出的 CodeSpeak 旨在用一种结构化、Markdown 风格的“规范”替代直接用英语与 LLM 交互，工作流是把仓库里的规格文件当作输入，让模型基于规范生成或修改代码，并把提示与规范一起提交到版本库。演示中要求 Anthropic 的 API key（即使用 Claude，Anthropic 的语言模型）并展示了诸如 codespeak takeover 用来尝试把代码转换回规范的实验性功能。讨论围绕几项关键假设展开：模型是否能稳定地把规范映射为正确实现、规范是否能涵盖工程中所有隐含行为、以及上下文/知识检索与验证（测试或形式化）如何落地。这场争论与已有实践交叉，包括 spec-driven 开发、agent/agentic 管线、BDD/Gherkin 可执行需求和更严格的形式化验证工具。",
+          "emoji": "🤔",
+          "sarcastic_question": "把英语换成CodeSpeak，就能保证不出错吗？"
+        },
+        "classifications": {
+          "topics": [
+            1,
+            4
+          ],
+          "facets": [
+            4
+          ],
+          "tags": [
+            "CodeSpeak",
+            "LLMs",
+            "Kotlin",
+            "formal-specifications",
+            "agents",
+            "spec-driven development",
+            "Gherkin"
+          ]
+        },
+        "classificationsUpdatedAt": 1773330708,
+        "aiSummary": {
+          "chinese_title": "Kotlin 创始人推出 CodeSpeak：把规范当“语言”对 LLM 下指令？",
+          "discussion_overview": [
+            {
+              "category": "不是新语言，而是工作流/编排/Markdown 式规范",
+              "summary": "大量评论认为 CodeSpeak 本质上并非一门全新编程语言，而更像一套把 Markdown/规范文件映射到 LLM 调用的编排工具。演示示例就是把规范文本作为输入，让模型生成或修改代码，并将这些提示与规范一起版本化保存；这更像是现有 LLM wrapper 或 JSON/YAML 风格的结构化写法。不少人指责官网和示例并未清晰展示新的语法或形式化基础，很多地方看起来像是“更有结构的 README”而非严格语法。还有人注意到项目中仍有 codespeak.json 等传统配置文件，暗示项目并未完全用自家“语言”自吃（dogfood）。",
+              "supportid": [
+                "47352366",
+                "47354292",
+                "47354647",
+                "47351140",
+                "47354191",
+                "47354664",
+                "47354059"
+              ]
+            },
+            {
+              "category": "规范驱动开发的实践与工具演进",
+              "summary": "许多评论给出了实际的 spec-driven 开发工作流例子：有人用 AGENTS.md、DESIGN.md、TECHNICAL-SPEC.md 把提示和设计文档作为长期源，另有开源项目（如 blackbird、incrmd）把文档转为结构化任务并按依赖顺序执行。实务中常见的问题是规范会与实现漂移，评论建议把规范、测试和代码一起作为可审计的版本化对象，并用构建系统或任务依赖来保持一致。既有贡献者也展示了把规范当作“已保存提示”的习惯，并讨论在“冲刺模式”与“马拉松维护”之间切换的使用场景。社区还提出了把规范拆为更小任务、在每步做人工或自动审查以避免大幅度一次性重写的实践。",
+              "supportid": [
+                "47352300",
+                "47352448",
+                "47353176",
+                "47353055",
+                "47353667",
+                "47352394",
+                "47353489"
+              ]
+            },
+            {
+              "category": "LLM 非确定性与可验证性问题（需要测试或形式化）",
+              "summary": "评论反复指出 LLM 输出并非完全可复现：温度设置、批处理策略、并行实现和模型版本都会导致同一规范下不同代码结果。因此单靠把自然语言变成“更结构化”的规范并不能自动解决正确性问题；有人建议把规范转成可验证的形式规格或至少自动生成测试/差分测试来验证实现。也有评论强调，如果能以形式化方式证明结果正确，代码层面的非确定性就不重要，但同时承认大多数现实项目要做到完整形式化验证几乎不现实。实务建议包括基于规范生成测试、对生成过程做多次采样（如不同 seed）并用验证套件筛选可靠结果。",
+              "supportid": [
+                "47352008",
+                "47353203",
+                "47353255",
+                "47352595",
+                "47353784",
+                "47354577",
+                "47352782"
+              ]
+            },
+            {
+              "category": "知识与上下文才是主要瓶颈，而非“语言”本身",
+              "summary": "有评论提出真正的障碍不是用哪种“语言”与模型沟通，而是模型缺乏领域特有的、非文档化的‘部落知识’和对代码库全局上下文的理解。作者给出的“esoteric knowledge ratio”度量（对开源项目通常只有 40–55%）被用来说明模型在缺少上下文时会自信但错误地输出实现。上下文窗口、记忆/检索策略和模型内部表示对结果影响很大，因此把提示形式化不能弥补模型无法访问或理解那部分领域事实的缺陷。评论建议把更多领域知识结构化注入或改进检索/记忆系统，而不是仅仅设计新语法。",
+              "supportid": [
+                "47354893",
+                "47351928",
+                "47353739",
+                "47353489"
+              ]
+            },
+            {
+              "category": "可重复性与版本化的潜在优势（把提示/规范作为事实来源）",
+              "summary": "支持者认为把提示和规范存入仓库、把规范变更映射为代码 diff 的做法有明显工程好处：提示不会丢失、变更可追溯，团队可以对规范变更做 code review。将规范作为“source of truth”能让生成流程更透明，便于在变更后同时提交规范与代码以维持一致性。批评者则提醒这种方法也有盲点：当某些行为只存在于实现而未写入规范时，规范并不能完全描述系统，规范与实现仍会漂移。项目团队正在探索把代码反向生成规范（如 codespeak takeover）来减少这种漂移。",
+              "supportid": [
+                "47352366",
+                "47353489",
+                "47352300",
+                "47352772",
+                "47352499"
+              ]
+            },
+            {
+              "category": "商业化与开源可行性怀疑",
+              "summary": "多名评论者质疑这个想法能否作为闭源商业产品长期变现，理由是思路相对简单且容易被开源替代实现。有人指出类似功能可以在短时间内用现成 LLM wrapper 重构出来，闭源策略反而会阻碍采用与信任。另有人拿项目自身配置（如 codespeak.json）举例，讽刺项目未完全以自家“语言”构建，增加了对其商业可行性的怀疑。总体呈现出对专有化商业模式的普遍怀疑。",
+              "supportid": [
+                "47352366",
+                "47353009",
+                "47354059"
+              ]
+            },
+            {
+              "category": "偏好形式化/可证明的方法，担心回归松散自然语句",
+              "summary": "部分程序员明确反对把软件工程回退到“伪英语”或非正式规范，认为编程应保持数学/形式化特征，测试和良好代码本身才是规范。有人主张把人类工作集中在写测试（如 Gherkin/BDD）而让工具填实现，或使用已有的形式化方法（如更强类型系统或形式验证工具）来保证正确性。对这些评论者来说，CodeSpeak 似乎是在降低工程严格性，可能导致更多未知的副作用而非更可靠的软件。讨论也提到已有的 BDD、literate programming 等成熟实践更值得融合而非被替换。",
+              "supportid": [
+                "47353875",
+                "47354471",
+                "47351515",
+                "47352206"
+              ]
+            },
+            {
+              "category": "社区给出的改进建议与替代原型",
+              "summary": "评论中有很多具体改进建议：在提示管线加“拦截器/清洗器”把自由文本转成结构化 prompt，或者自动从规范生成测试并用差分测试验证实现。开源原型也被列举出来（例如 blackbird、incrmd、AIL、Simplex、Langflow、n8n 等），它们展示了把规范拆成任务、按依赖执行并在每步加入人工或自动审查的可行性。还有实践建议如不要每次重生成整个程序、而是对现有代码做定向修改、对生成过程记录 token/成本并限制 planner 深度以控制费用。总体上社区更倾向于渐进式工具链和测试/验证的补强，而非把所有依赖交给单一新“语言”。",
+              "supportid": [
+                "47352394",
+                "47353176",
+                "47353902",
+                "47352782",
+                "47353667",
+                "47352247"
+              ]
+            }
+          ],
+          "terminologies": [
+            {
+              "term": "CodeSpeak",
+              "explanation": "本文讨论的项目名称，由 Kotlin 创始人提出的一套以 Markdown/规范文件为输入、通过 LLM 生成或修改代码的工具链，核心在于把规范差异映射为代码变更并把提示与规范一起版本化。"
+            },
+            {
+              "term": "规范驱动开发（spec-driven development）",
+              "explanation": "以规范（spec）为主要驱动，把需求/设计写成机器可读或 LLM 可消费的规范文件，再由生成器或模型将其转为代码，同时配合测试和构建系统保证实现与规范一致的实践。"
+            },
+            {
+              "term": "agent / agentic",
+              "explanation": "指由 LLM 驱动的自治代理（agent），可以链式调用多个提示、操作工具或文件系统来完成任务，即 agentic architecture，常用于把高层规范分解并自动执行生成/修改步骤。"
+            },
+            {
+              "term": "BDD / Gherkin",
+              "explanation": "Behavior Driven Development（行为驱动开发）及其常用的 Gherkin 语法，一种用接近自然语言但结构化表述测试/行为的方式，评论中被提出作为人类可写且适合自动化验证的规范格式。"
+            }
+          ],
+          "context": "Kotlin 创始人提出的 CodeSpeak 旨在用一种结构化、Markdown 风格的“规范”替代直接用英语与 LLM 交互，工作流是把仓库里的规格文件当作输入，让模型基于规范生成或修改代码，并把提示与规范一起提交到版本库。演示中要求 Anthropic 的 API key（即使用 Claude，Anthropic 的语言模型）并展示了诸如 codespeak takeover 用来尝试把代码转换回规范的实验性功能。讨论围绕几项关键假设展开：模型是否能稳定地把规范映射为正确实现、规范是否能涵盖工程中所有隐含行为、以及上下文/知识检索与验证（测试或形式化）如何落地。这场争论与已有实践交叉，包括 spec-driven 开发、agent/agentic 管线、BDD/Gherkin 可执行需求和更严格的形式化验证工具。",
+          "emoji": "🤔",
+          "sarcastic_question": "把英语换成CodeSpeak，就能保证不出错吗？"
+        }
+      },
+      "articleSummary": "## 一句话总结\nKotlin 之父 Andrey Breslav 的新项目 CodeSpeak 试图用一种受 LLM 友好的形式化语言替代自然语言 Prompt，通过维护简短的 Spec 来自动生成 Python、Go 等生产级代码，宣称能将代码库体积缩减 5 到 10 倍。\n\n### 告别自然语言，用形式化 Spec 跟 LLM 对话\n现在大家跟 LLM 交互主要靠写 Prompt，也就是自然语言。但这玩意儿有个大坑：模糊、不可控，稍微改个描述，生成的代码可能就天差地别。CodeSpeak 的核心思路是，别用英语跟 AI 瞎聊了，咱们发明一种专门给 AI 看的编程语言。你写的是形式化的 Spec（规格说明），AI 负责把它“编译”成 Python、Go、JavaScript 或 TypeScript。说白了，就是把 Prompt 变成了严谨的代码，让 LLM 的输出变得可预测、可维护。\n\n### 目标是生产级系统，不是写个 Demo 就跑路\n市面上很多 AI 编程工具，给人的感觉就是用来写个脚本或者 Prototype，真要上生产环境大家心里都打鼓。CodeSpeak 明确表示它是为“长期项目”和“复杂软件”准备的。它不是给那些只想快速出活的“vibe-coders”用的，而是给正经工程师团队用的。这意味着它关注的是工程化属性：怎么处理依赖、怎么在混合项目中工作（既有手写代码也有生成代码），以及怎么保证生成的代码质量能扛得住生产环境的考验。\n\n### 维护 Spec 而非代码，实现 5-10 倍的代码缩减\n这项目最吸引人的地方在于它承诺的“Shrink Factor”（缩减系数）。他们的逻辑是：既然 LLM 这么强，我们为什么还要维护那一堆繁琐的实现细节？你只需要维护核心逻辑的 Spec，剩下的脏活累活交给 LLM。官方放了一组真实开源项目的 Case Study，数据确实挺吓人。比如处理 WebVTT 字幕的功能，原代码 255 行，Spec 只有 38 行，缩减了 6.7 倍；最夸张的是 markitdown 的 EML 转换器，139 行代码变成了 14 行 Spec，直接缩减了 9.9 倍。\n\n### 真实 Case Study：代码少了，测试反而多了\n光说代码变短了没用，还得看生成的代码靠不靠谱。在上述的案例中，CodeSpeak 不仅减少了代码量，还保证了测试通过率。以 yt-dlp 的 WebVTT 支持为例，重构前测试通过了 1241 个，重构后通过了 1278 个（甚至还多加了 37 个测试）。beautifulsoup4 的编码检测模块，代码从 826 行缩到 141 行，测试通过数也从 889 提升到了 914。这说明生成的代码在功能正确性上不仅没打折扣，甚至可能因为规范化的描述而覆盖了更多边缘情况。\n\n### 混合模式与逆向工程：新老项目都能接得住\n那老项目怎么办？总不能重写吧。CodeSpeak 提供了一个“Mixed Mode”（混合模式），允许在一个项目中同时存在手写代码和由 Spec 生成的代码。更有意思的是，他们正在搞“Turning Code into Specs”功能，也就是逆向工程。它能把你现有的烂代码“吃进去”，吐出一份简短的 Spec。以后你维护这份 Spec 就行了，再次编译又能生成新的代码。这对那些背负着巨大历史包袱的项目来说，可能是个真正的救命稻草。"
+    },
+    {
+      "id": 47353558,
+      "by": "guyb3",
+      "title": "Show HN: OneCLI – Vault for AI Agents in Rust",
+      "url": "https://github.com/onecli/onecli",
+      "score": 130,
+      "detailUpdatedAt": 1773375234,
+      "createdAt": 1773334257,
+      "aiSummaryUpdatedAt": 1773375786,
+      "aisummary": {
+        "chinese_title": "OneCLI（Rust）：代理式 Vault 为 AI agent 注入凭据，能否防泄露与滥用？",
+        "emoji": "⚠️",
+        "sarcastic_question": "给模型占位密钥就能阻止它乱删生产数据吗？"
+      },
+      "classifications": {
+        "topics": [
+          1,
+          3,
+          4
+        ],
+        "facets": [
+          1,
+          4
+        ],
+        "tags": [
+          "OneCLI",
+          "Rust",
+          "AI agents",
+          "Vault",
+          "secrets",
+          "proxy",
+          "AWS",
+          "1Password"
+        ]
+      },
+      "classificationsUpdatedAt": 1773338200,
+      "aiSummary": {
+        "chinese_title": "OneCLI（Rust）：代理式 Vault 为 AI agent 注入凭据，能否防泄露与滥用？",
+        "emoji": "⚠️",
+        "sarcastic_question": "给模型占位密钥就能阻止它乱删生产数据吗？"
+      },
+      "detail": {
+        "id": 47353558,
+        "by": "guyb3",
+        "title": "Show HN: OneCLI – Vault for AI Agents in Rust",
+        "url": "https://github.com/onecli/onecli",
+        "score": 130,
+        "detailUpdatedAt": 1773375234,
+        "createdAt": 1773334257,
+        "aiSummaryUpdatedAt": 1773375786,
+        "aisummary": {
+          "chinese_title": "OneCLI（Rust）：代理式 Vault 为 AI agent 注入凭据，能否防泄露与滥用？",
+          "discussion_overview": [
+            {
+              "category": "支持：代理拦截（proxy-intercept）与 OneCLI 思路",
+              "summary": "许多评论认为代理拦截是正确的体系结构：把占位/假 API key 交给 agent，而在代理端替换或注入真实凭据，保证真实密钥不进入 agent 内存或日志。OneCLI 被视为把秘密存储（vault）和代理结合的合理实现，且用 Rust 实现被认为适合安全敏感组件。代理还能在转发前审查请求、按主机或路径注入凭据，并在多数 SaaS 不支持细粒度授权时弥补不足。实战经验（如类似 Airut / OpenClaw 的实现）显示这种方式能显著减少凭据被写入仓库、日志或模型输出的风险。",
+              "supportid": [
+                "47359912",
+                "47355698",
+                "47354122",
+                "47355069",
+                "47354879",
+                "47357558"
+              ]
+            },
+            {
+              "category": "质疑：代理无法根本防止 prompt‑injection 与滥用",
+              "summary": "反对者指出代理只是将信任边界移动到网络侧，并不能从根本上阻止被 prompt‑injected 的 agent 滥用能力：即便 agent 看不到真实密钥，它仍可利用被注入的占位 token 发起恶意请求、删除数据或产生费用。更严重的是 agent 可能把代理返回的令牌或代理认证令牌泄露出去，从而实现凭据重用。被认为更“牢靠”的方案是把认证材料放在与 agent 隔离的 sidecar 并用 mTLS，但这会引入 PKI/证书管理和高昂运维复杂度。评论普遍认为还需要请求级别的授权（如 OPA 策略）、主机/路径限定和短期令牌等附加控制，单靠占位 token 容易产生假安全感。",
+              "supportid": [
+                "47356645",
+                "47358129",
+                "47360369",
+                "47356415",
+                "47359147",
+                "47354790",
+                "47356630"
+              ]
+            },
+            {
+              "category": "实现难点与工程实践细节",
+              "summary": "工程实现存在很多实际障碍：部分客户端不遵守 HTTP_PROXY（需要特殊变量，如 Node 24+ 的 NODE_USE_ENV_PROXY=1），对 AWS 等服务还必须精确复现并重新签名 SigV4/SigV4A 请求。实践者倾向于在独立容器里运行透明 MITM proxy，并把自签证书注入被代理进程的信任存储，或在 Kubernetes 中用 sidecar + iptables 做流量重定向。可行的硬化措施包括对凭据做主机/路径限定、为每个请求做 HMAC 签名与审计、以及使用短期/按任务派生令牌；同时需注意占位符密钥可能触发企业密钥扫描器，需要在格式上做兼容处理。",
+              "supportid": [
+                "47354122",
+                "47354640",
+                "47354854",
+                "47353933",
+                "47354798",
+                "47356190",
+                "47355136",
+                "47357868",
+                "47353841",
+                "47356758"
+              ]
+            },
+            {
+              "category": "使用现有 Vault/Secrets Manager 与最佳实践",
+              "summary": "很多人主张不要盲目自建秘密管理：HashiCorp Vault、AWS Secrets Manager/STS 等成熟产品支持 RBAC、动态短期凭证与审计，能更安全地按需下发受限凭据。正确做法是用最小权限和按需发放机制，让 agent 或其工具以受限凭据在代理/sidecar 中按需获取密钥，而不是把长期或 root 级凭据直接交给 agent。评论中有人分享了基于 Vault 的脚本和在 OpenClaw 场景下的实作经验，也有团队把代理和 vault 后端结合，做组级访问控制与每次请求的 HMAC 签名以满足团队与 CI 的审计需求。总体观点是：代理可作为一层防护，但应与成熟的 secrets 管理、短期令牌和严格授权策略结合使用，否则容易重现安全漏洞。",
+              "supportid": [
+                "47354125",
+                "47359912",
+                "47359147",
+                "47355168",
+                "47355698",
+                "47354879",
+                "47355069"
+              ]
+            }
+          ],
+          "terminologies": [
+            {
+              "term": "mTLS (mutual TLS)",
+              "explanation": "双向 TLS，客户端和服务器互相验证证书，用于把认证材料绑定在代理/sidecar 上而不暴露给被代理进程；需要证书颁发、轮换和 PKI 运维。"
+            },
+            {
+              "term": "MITM proxy / transparent MITM",
+              "explanation": "能终止并重新加密 TLS 的代理，通过呈现受信/自签证书来解密 HTTPS 流量以便注入或替换凭据，通常要求将代理证书加入被代理环境的信任存储。"
+            },
+            {
+              "term": "sidecar container",
+              "explanation": "一种将辅助进程（如代理）与主应用同宿主的容器模式，常通过 iptables 或流量拦截把主进程的网络流量导入代理，从而在进程隔离层面防止密钥泄露。"
+            },
+            {
+              "term": "HTTP_PROXY / HTTPS_PROXY",
+              "explanation": "常用的环境变量，很多 HTTP 客户端据此将流量发往代理；部分平台（例如 Node）历史上默认不遵守该变量，需要额外配置（如 NODE_USE_ENV_PROXY=1）。"
+            },
+            {
+              "term": "HashiCorp Vault（Vault）",
+              "explanation": "成熟的秘密/凭据管理系统，支持 RBAC、动态短期凭证与审计，用于按需发放受限凭据并实现最小权限与审计追踪。"
+            },
+            {
+              "term": "短期/按任务派生令牌 (short‑lived derived tokens)",
+              "explanation": "为特定任务或主机生成的临时凭据，作用域有限且可在任务完成后撤销，用以缩小凭据泄露带来的影响面。"
+            },
+            {
+              "term": "SigV4 / SigV4A",
+              "explanation": "AWS 的请求签名协议，替换或注入 AWS 凭据时需要对请求重新签名，精确复现签名算法存在实现复杂度。"
+            }
+          ],
+          "context": "Show HN 帖子展示了 OneCLI——一个用 Rust 写的面向 AI agent 的“vault/代理”工具，设计思路是让 agent 使用占位（fake）API key，代理在转发时注入真实凭据以避免密钥落地或进入模型内存。讨论在“代理+密钥存储”是否能真正降低泄露风险上分歧很大：支持者认为能防止密钥被写入仓库或日志并弥补 SaaS 缺乏细粒度授权的短板；反对者指出 prompt‑injection、滥用能力和凭据重用仍可能造成严重后果。评论还引出了大量实施细节和运维问题，涉及 MITM/forward‑proxy（需要注入证书）、sidecar 与 iptables 重定向、Node 对 HTTP_PROXY 的兼容性、对 AWS 的 SigV4 签名问题，以及将代理与成熟的 Vault（如 HashiCorp Vault）或 AWS STS 等短期凭证服务结合的实践与风险评估。多位评论建议将代理作为一层防护并配合 RBAC、短期令牌、主机作用域限制、请求级授权（如 OPA/Open Policy Agent）和审计，以在团队和 CI 场景下达成可接受的安全性。",
+          "emoji": "⚠️",
+          "sarcastic_question": "给模型占位密钥就能阻止它乱删生产数据吗？"
+        },
+        "classifications": {
+          "topics": [
+            1,
+            3,
+            4
+          ],
+          "facets": [
+            1,
+            4
+          ],
+          "tags": [
+            "OneCLI",
+            "Rust",
+            "AI agents",
+            "Vault",
+            "secrets",
+            "proxy",
+            "AWS",
+            "1Password"
+          ]
+        },
+        "classificationsUpdatedAt": 1773338200,
+        "aiSummary": {
+          "chinese_title": "OneCLI（Rust）：代理式 Vault 为 AI agent 注入凭据，能否防泄露与滥用？",
+          "discussion_overview": [
+            {
+              "category": "支持：代理拦截（proxy-intercept）与 OneCLI 思路",
+              "summary": "许多评论认为代理拦截是正确的体系结构：把占位/假 API key 交给 agent，而在代理端替换或注入真实凭据，保证真实密钥不进入 agent 内存或日志。OneCLI 被视为把秘密存储（vault）和代理结合的合理实现，且用 Rust 实现被认为适合安全敏感组件。代理还能在转发前审查请求、按主机或路径注入凭据，并在多数 SaaS 不支持细粒度授权时弥补不足。实战经验（如类似 Airut / OpenClaw 的实现）显示这种方式能显著减少凭据被写入仓库、日志或模型输出的风险。",
+              "supportid": [
+                "47359912",
+                "47355698",
+                "47354122",
+                "47355069",
+                "47354879",
+                "47357558"
+              ]
+            },
+            {
+              "category": "质疑：代理无法根本防止 prompt‑injection 与滥用",
+              "summary": "反对者指出代理只是将信任边界移动到网络侧，并不能从根本上阻止被 prompt‑injected 的 agent 滥用能力：即便 agent 看不到真实密钥，它仍可利用被注入的占位 token 发起恶意请求、删除数据或产生费用。更严重的是 agent 可能把代理返回的令牌或代理认证令牌泄露出去，从而实现凭据重用。被认为更“牢靠”的方案是把认证材料放在与 agent 隔离的 sidecar 并用 mTLS，但这会引入 PKI/证书管理和高昂运维复杂度。评论普遍认为还需要请求级别的授权（如 OPA 策略）、主机/路径限定和短期令牌等附加控制，单靠占位 token 容易产生假安全感。",
+              "supportid": [
+                "47356645",
+                "47358129",
+                "47360369",
+                "47356415",
+                "47359147",
+                "47354790",
+                "47356630"
+              ]
+            },
+            {
+              "category": "实现难点与工程实践细节",
+              "summary": "工程实现存在很多实际障碍：部分客户端不遵守 HTTP_PROXY（需要特殊变量，如 Node 24+ 的 NODE_USE_ENV_PROXY=1），对 AWS 等服务还必须精确复现并重新签名 SigV4/SigV4A 请求。实践者倾向于在独立容器里运行透明 MITM proxy，并把自签证书注入被代理进程的信任存储，或在 Kubernetes 中用 sidecar + iptables 做流量重定向。可行的硬化措施包括对凭据做主机/路径限定、为每个请求做 HMAC 签名与审计、以及使用短期/按任务派生令牌；同时需注意占位符密钥可能触发企业密钥扫描器，需要在格式上做兼容处理。",
+              "supportid": [
+                "47354122",
+                "47354640",
+                "47354854",
+                "47353933",
+                "47354798",
+                "47356190",
+                "47355136",
+                "47357868",
+                "47353841",
+                "47356758"
+              ]
+            },
+            {
+              "category": "使用现有 Vault/Secrets Manager 与最佳实践",
+              "summary": "很多人主张不要盲目自建秘密管理：HashiCorp Vault、AWS Secrets Manager/STS 等成熟产品支持 RBAC、动态短期凭证与审计，能更安全地按需下发受限凭据。正确做法是用最小权限和按需发放机制，让 agent 或其工具以受限凭据在代理/sidecar 中按需获取密钥，而不是把长期或 root 级凭据直接交给 agent。评论中有人分享了基于 Vault 的脚本和在 OpenClaw 场景下的实作经验，也有团队把代理和 vault 后端结合，做组级访问控制与每次请求的 HMAC 签名以满足团队与 CI 的审计需求。总体观点是：代理可作为一层防护，但应与成熟的 secrets 管理、短期令牌和严格授权策略结合使用，否则容易重现安全漏洞。",
+              "supportid": [
+                "47354125",
+                "47359912",
+                "47359147",
+                "47355168",
+                "47355698",
+                "47354879",
+                "47355069"
+              ]
+            }
+          ],
+          "terminologies": [
+            {
+              "term": "mTLS (mutual TLS)",
+              "explanation": "双向 TLS，客户端和服务器互相验证证书，用于把认证材料绑定在代理/sidecar 上而不暴露给被代理进程；需要证书颁发、轮换和 PKI 运维。"
+            },
+            {
+              "term": "MITM proxy / transparent MITM",
+              "explanation": "能终止并重新加密 TLS 的代理，通过呈现受信/自签证书来解密 HTTPS 流量以便注入或替换凭据，通常要求将代理证书加入被代理环境的信任存储。"
+            },
+            {
+              "term": "sidecar container",
+              "explanation": "一种将辅助进程（如代理）与主应用同宿主的容器模式，常通过 iptables 或流量拦截把主进程的网络流量导入代理，从而在进程隔离层面防止密钥泄露。"
+            },
+            {
+              "term": "HTTP_PROXY / HTTPS_PROXY",
+              "explanation": "常用的环境变量，很多 HTTP 客户端据此将流量发往代理；部分平台（例如 Node）历史上默认不遵守该变量，需要额外配置（如 NODE_USE_ENV_PROXY=1）。"
+            },
+            {
+              "term": "HashiCorp Vault（Vault）",
+              "explanation": "成熟的秘密/凭据管理系统，支持 RBAC、动态短期凭证与审计，用于按需发放受限凭据并实现最小权限与审计追踪。"
+            },
+            {
+              "term": "短期/按任务派生令牌 (short‑lived derived tokens)",
+              "explanation": "为特定任务或主机生成的临时凭据，作用域有限且可在任务完成后撤销，用以缩小凭据泄露带来的影响面。"
+            },
+            {
+              "term": "SigV4 / SigV4A",
+              "explanation": "AWS 的请求签名协议，替换或注入 AWS 凭据时需要对请求重新签名，精确复现签名算法存在实现复杂度。"
+            }
+          ],
+          "context": "Show HN 帖子展示了 OneCLI——一个用 Rust 写的面向 AI agent 的“vault/代理”工具，设计思路是让 agent 使用占位（fake）API key，代理在转发时注入真实凭据以避免密钥落地或进入模型内存。讨论在“代理+密钥存储”是否能真正降低泄露风险上分歧很大：支持者认为能防止密钥被写入仓库或日志并弥补 SaaS 缺乏细粒度授权的短板；反对者指出 prompt‑injection、滥用能力和凭据重用仍可能造成严重后果。评论还引出了大量实施细节和运维问题，涉及 MITM/forward‑proxy（需要注入证书）、sidecar 与 iptables 重定向、Node 对 HTTP_PROXY 的兼容性、对 AWS 的 SigV4 签名问题，以及将代理与成熟的 Vault（如 HashiCorp Vault）或 AWS STS 等短期凭证服务结合的实践与风险评估。多位评论建议将代理作为一层防护并配合 RBAC、短期令牌、主机作用域限制、请求级授权（如 OPA/Open Policy Agent）和审计，以在团队和 CI 场景下达成可接受的安全性。",
+          "emoji": "⚠️",
+          "sarcastic_question": "给模型占位密钥就能阻止它乱删生产数据吗？"
+        }
+      },
+      "articleSummary": "## 一句话总结\nOneCLI 是一个用 Rust 写的开源凭证管理工具，旨在解决 AI Agent 访问第三方服务时的密钥泄露难题，它通过本地 Vault 机制让 Agent 只持有短期 Token，从而实现\"零信任\"访问。\n\n### AI Agent 的权限困境：给密钥怕泄露，不给密钥没法干\n现在的 AI Agent 越来越强，能帮你修 Bug、跑 CI 甚至操作云资源。但这就带来了一个棘手的安全问题：Agent 需要访问 GitHub、AWS 或 Jira 等服务，你必须把 API Key 交给它。一旦 Agent 被提示词注入攻击或者产生幻觉，这些密钥就可能被泄露到日志里，甚至被恶意发送出去。说白了，就是你想让 Agent 干活，又不敢把真正的\"家门钥匙\"直接交到它手上。\n\n### 核心思路：把 Vault 搬到本地，做 Agent 的专属\"守门人\"\nOneCLI 的解决方案是引入一个中间层。它不在云端存储密钥，而是作为一个本地运行的 Vault（类似 1Password 的 CLI 版本），专门负责管理这些敏感凭证。AI Agent 不再直接持有长期的 API Key，而是通过 OneCLI 申请一个有时效性的访问令牌。这个令牌权限受限、过期时间短，即使泄露了，损失也控制在极小范围内。\n\n### 为什么选择 Rust：安全与性能的双重考量\n有意思的地方在于技术选型，作者特意用了 Rust 来实现这个工具。对于这种直接处理敏感数据的底层组件，内存安全是第一位的，Rust 的所有权机制天然避免了缓冲区溢出这类漏洞。而且，作为一个 CLI 工具，它需要极快的启动速度和低资源占用，Rust 编译出的二进制文件正好满足这种\"单文件、零依赖、即插即用\"的需求。\n\n### 工作流设计：从\"静态配置\"到\"动态授权\"\n传统的做法是把密钥写死在 `.env` 文件里，或者塞进配置系统。OneCLI 把这变成了一个动态的授权流程：当 Agent 需要访问 GitHub API 时，它会向本地的 OneCLI 发起请求。OneCLI 验证请求的合法性后，生成一个短期 Token 返回给 Agent。Agent 拿着这个 Token 去调用 GitHub API，业务完成后 Token 失效。整个过程，真正的 API Key 从未离开过本地 Vault。\n\n### 对开发者的实际价值：把安全策略代码化\n对于有经验的开发者来说，OneCLI 的价值不仅仅是\"藏密钥\"。它允许你定义精细的访问策略，比如限制某个 Agent 只能读取特定的 Repo，或者限制 Token 的有效期只有 5 分钟。这种策略是代码可配置的，而不是简单的\"全有或全无\"。这意味着你可以放心地给 Agent 更高的权限去执行复杂任务，因为底层有 OneCLI 在做严格的访问控制。\n\n### 现状与挑战：生态还在早期，但方向很对\n目前 OneCLI 作为一个开源项目刚刚起步，Star 数还不算多，文档和集成案例还在完善中。它面临的挑战主要是如何让主流的 Agent 框架（如 LangChain 或 AutoGPT）无痛接入这种模式。不过，它切中的是 AI Agent 落地企业级场景的必经之路——安全治理。如果你正在构建需要高权限操作的 Agent，这个项目值得你关注甚至贡献代码。"
+    },
+    {
+      "id": 47349334,
+      "by": "4diii",
+      "title": "Are LLMs not getting better?",
+      "url": "https://entropicthoughts.com/no-swe-bench-improvement",
+      "score": 123,
+      "detailUpdatedAt": 1773371635,
+      "createdAt": 1773318665,
+      "aiSummaryUpdatedAt": 1773372728,
+      "aisummary": {
+        "chinese_title": "LLM 编程能力真的停滞？METR、one-shot PRs 与模型本身 vs harness（Opus/Sonnet/Claude Code）之争",
+        "emoji": "🤔",
+        "sarcastic_question": "非得等模型永远不出错，你才会承认它进步吗？"
+      },
+      "classifications": {
+        "topics": [
+          1,
+          4
+        ],
+        "facets": [
+          9
+        ],
+        "tags": [
+          "LLMs",
+          "SWE-bench",
+          "Opus",
+          "Claude",
+          "Claude Code",
+          "Sonnet",
+          "GPT",
+          "Codex",
+          "Gemini",
+          "agentic workflows"
+        ]
+      },
+      "classificationsUpdatedAt": 1773321090,
+      "aiSummary": {
+        "chinese_title": "LLM 编程能力真的停滞？METR、one-shot PRs 与模型本身 vs harness（Opus/Sonnet/Claude Code）之争",
+        "emoji": "🤔",
+        "sarcastic_question": "非得等模型永远不出错，你才会承认它进步吗？"
+      },
+      "detail": {
+        "id": 47349334,
+        "by": "4diii",
+        "title": "Are LLMs not getting better?",
+        "url": "https://entropicthoughts.com/no-swe-bench-improvement",
+        "score": 123,
+        "detailUpdatedAt": 1773371635,
+        "createdAt": 1773318665,
+        "aiSummaryUpdatedAt": 1773372728,
+        "aisummary": {
+          "chinese_title": "LLM 编程能力真的停滞？METR、one-shot PRs 与模型本身 vs harness（Opus/Sonnet/Claude Code）之争",
+          "discussion_overview": [
+            {
+              "category": "认为模型确实进步（尤其 Opus 4.5/4.6 与 Codex/GPT 更新）",
+              "summary": "不少从业者和业余项目持有明显相反的结论：他们在日常开发里感受到最近几次版本带来了实质性提升，尤其指向 Anthropic 的 Opus 4.5/4.6 和 OpenAI/Codex 的点释版本。具体例子包括有人说 Opus 4.6 在 Claude Code 中把 agentic 编程从“实验性质”变成可依赖的生产力工具（有评论提到完成了项目中约 75% 的功能），另有用户指出 Codex 5.3 在小众语言如 QML/C++ 上产出更符合习惯用法的代码。常见的正面变化包括减少重复代码、改进的重构/查找既有工具函数能力，以及更好的指令遵循，令实际工作流速度明显提升。多位评论用“night and day”、“game changer”来形容体验差距，称这些改进在工程实践中能显著节省时间。",
+              "supportid": [
+                "47349939",
+                "47349914",
+                "47349792",
+                "47349671",
+                "47349800",
+                "47350058",
+                "47349741"
+              ]
+            },
+            {
+              "category": "质疑 METR 数据与方法（样本少、混合不同实验室与遗漏关键模型）",
+              "summary": "对 METR 结论的主要反驳集中在方法论与数据集上：研究以“one-shot PRs”（无需人类反馈即可合并的 PR）为度量，但样本点稀少且把不同厂商/模型混在同一条时间线里。评论指出研究遗漏了被广泛认为关键的发布（如 Opus 4.5/4.6、Gemini），并且 OpenAI 只有一个数据点（GPT5）会把右侧表现人为拉低，从而改变拟合结论。还有人批评统计处理（如 cross-validation、Brier score 的使用和模型比较）可能被误解或过拟合，且把不同实验室的模型当作单一时间序列来拟合本身有偏差。总体观点是：以如此有限且混合的观测来断言“模型一年没进步”并不可靠，应该按厂商/系列分开或补上漏掉的关键版本再判断。",
+              "supportid": [
+                "47349929",
+                "47349966",
+                "47349660",
+                "47349995",
+                "47349763",
+                "47349937",
+                "47349669"
+              ]
+            },
+            {
+              "category": "进步主要来自 harness/工具与 agentic 工作流，而非模型本身",
+              "summary": "大量评论认为感知到的生产力跃迁更大程度源于上层工程（即所谓的 harness），例如 Claude Code 的 agentic tool loops、CLI/终端集成、sub-agents、persistent context/rollbacks 等。这样的 harness 允许模型拆解任务、调用工具、运行 smoke tests 和做多文件变更，从而把模型的原生 one-shot 表现放大为可靠的工作流能力。若只测量模型的单次输出（one-shot PR），就忽视了这些系统级改进对实际合并率与开发速度的贡献；许多用户把日常效率提升归因于工具整合和上下文管理而非模型“单步推理”能力的大幅跃迁。评论里也提到终端/agentic 界面比传统聊天界面在某些场景体验上优很多，这进一步说明是工程化而非单纯模型参数带来的变化。",
+              "supportid": [
+                "47349868",
+                "47350286",
+                "47352958",
+                "47349961",
+                "47349741",
+                "47349983"
+              ]
+            },
+            {
+              "category": "真实代码质量仍有明显缺陷，需要大量人工审查",
+              "summary": "多位使用者的共识是：模型可以交付更大块的产出，但代码质量、架构合理性和细节可靠性仍未同步达到可完全信任的水平。评论举例包括过度嵌套控制流、不符合既有代码风格的变化、前端用 CSS hack 替代正确重构，以及出现“useless AI slop comment”之类的质量问题；还有人形容模型像“聪明但有严重额叶缺损的朋友”，自信输出却会漏掉关键验证。结果是虽然交互轮数可能减少，但审查单次产出所需的认知负担可能上升——你必须在更大代码块里寻找并修复隐藏的问题。整体结论是：产出量和块大小提高了，但复杂任务仍然要靠人工密集回顾、测试和设计判断。",
+              "supportid": [
+                "47350010",
+                "47359143",
+                "47350095",
+                "47350479",
+                "47349864"
+              ]
+            },
+            {
+              "category": "边际收益递减、数据瓶颈与成本导向的工程取向",
+              "summary": "有评论把当下的缓和归因于训练数据与经济现实：互联网语料有限，新代码里越来越多由 LLM 产出带来 Ouroboros（自我循环）和污染风险，使得单靠规模扩大不再容易带来巨幅提升。与此同时，企业在 token-use 优化、合成数据和后训练（post-training）/RL 管线等方向投入以控制成本，研究重点逐步从单纯放大参数转向 agentic 工程与 harness 优化。多位评论认为未来几年更可能是生态系统、工具链与成本下降的改进期，而不是像 2023/24 那样的能力跨越式提升。该观点也结合了对模型策划、数据净化与长期可训练集稀缺性的担忧。",
+              "supportid": [
+                "47349805",
+                "47354053",
+                "47350058",
+                "47349677"
+              ]
+            },
+            {
+              "category": "评估困难与认知偏差：盲测、用户技能和文化接受度影响感知",
+              "summary": "若以盲测或标准化任务来对比，不少人认为常见日常任务难以区分 4.5 与 4.6，感知差异部分来自用户 prompt 技能、工具熟练度以及行业对 agentic 流程的接受度升级。部分自托管者出于对闭源 scaffolding 的不信任减少频繁测试，有些人也承认自己随时间学会了更好地“驾驭”模型，从而觉得工具变好了。因此“我感觉进步很大”和“研究显示没进步”之间，可能存在样本偏差、文化采样与主观认知差异。评论建议更多标准化、面向反馈循环（incorporate feedback）的 benchmark 来衡量长期进步而非单次合并率。",
+              "supportid": [
+                "47349897",
+                "47349650",
+                "47349714",
+                "47349955",
+                "47349983"
+              ]
+            }
+          ],
+          "terminologies": [
+            {
+              "term": "harness",
+              "explanation": "指在 LLM 之上的工程化工具与工作流（例如 Claude Code、agentic loops、终端/CLI 集成），负责上下文管理、工具调用与多步执行，从而把模型能力“放大”为可用产品化功能。"
+            },
+            {
+              "term": "one-shot PRs（merge rate）",
+              "explanation": "METR 用的度量：AI 生成的 pull request 在没有人类反馈的情况下被维护者直接合并的比例；该指标对维护者偏好、仓库隐含约定和评审 rubric 非常敏感。"
+            },
+            {
+              "term": "METR（metr.org 的 Many SWE Bench）",
+              "explanation": "来自 metr.org 的研究，把维护者对 AI 生成 PR 的接受/拒绝及拒绝原因作为实测数据，试图量化 LLM 在真实代码库的一次性合并能力。"
+            },
+            {
+              "term": "agentic / agent",
+              "explanation": "能够主动拆解任务、调用外部工具（如 CLI、子 agent、网络 API）并在多步循环中执行的系统或工作流，常用于实现自动化的“agentic coding”。"
+            },
+            {
+              "term": "Brier score 与 cross-validation",
+              "explanation": "Brier score 是衡量概率预测误差的指标；cross-validation（如 leave‑one‑out）用于评估模型预测的泛化能力，二者在文中被用来比较拟合函数与测试预测力。"
+            },
+            {
+              "term": "PSP/TSP",
+              "explanation": "PSP/TSP（Personal/Team Software Process）是软件工程里的质量改进方法，强调对任务分解、回顾与缺陷根因分析的个人/团队责任，评论者用它来类比如何持续发现并修复 LLM 产出的常见错误。"
+            }
+          ],
+          "context": "METR（来自 metr.org）的研究以“one-shot PRs”（无需人类反馈即可直接合并的 PR）为核心指标，得出在该指标上模型在过去一年没有显著改进的结论。讨论触及两条主线：一是许多开发者在实际工作中感受到 Opus/Sonnet、Codex 等近期版本与 agentic 工具（如 Claude Code）带来的生产力跃迁；二是批评者指出 METR 的样本稀少、遗漏关键版本并把不同厂商模型混合分析，从而使统计结论可疑。评论还把争论扩展到评估方法（如 Brier score、cross‑validation）、工程化改进（agentic tool loops、context rollbacks）与软件工程类比（PSP/TSP），并讨论数据污染（Ouroboros）与成本优化对未来改进路径的影响。",
+          "emoji": "🤔",
+          "sarcastic_question": "非得等模型永远不出错，你才会承认它进步吗？"
+        },
+        "classifications": {
+          "topics": [
+            1,
+            4
+          ],
+          "facets": [
+            9
+          ],
+          "tags": [
+            "LLMs",
+            "SWE-bench",
+            "Opus",
+            "Claude",
+            "Claude Code",
+            "Sonnet",
+            "GPT",
+            "Codex",
+            "Gemini",
+            "agentic workflows"
+          ]
+        },
+        "classificationsUpdatedAt": 1773321090,
+        "aiSummary": {
+          "chinese_title": "LLM 编程能力真的停滞？METR、one-shot PRs 与模型本身 vs harness（Opus/Sonnet/Claude Code）之争",
+          "discussion_overview": [
+            {
+              "category": "认为模型确实进步（尤其 Opus 4.5/4.6 与 Codex/GPT 更新）",
+              "summary": "不少从业者和业余项目持有明显相反的结论：他们在日常开发里感受到最近几次版本带来了实质性提升，尤其指向 Anthropic 的 Opus 4.5/4.6 和 OpenAI/Codex 的点释版本。具体例子包括有人说 Opus 4.6 在 Claude Code 中把 agentic 编程从“实验性质”变成可依赖的生产力工具（有评论提到完成了项目中约 75% 的功能），另有用户指出 Codex 5.3 在小众语言如 QML/C++ 上产出更符合习惯用法的代码。常见的正面变化包括减少重复代码、改进的重构/查找既有工具函数能力，以及更好的指令遵循，令实际工作流速度明显提升。多位评论用“night and day”、“game changer”来形容体验差距，称这些改进在工程实践中能显著节省时间。",
+              "supportid": [
+                "47349939",
+                "47349914",
+                "47349792",
+                "47349671",
+                "47349800",
+                "47350058",
+                "47349741"
+              ]
+            },
+            {
+              "category": "质疑 METR 数据与方法（样本少、混合不同实验室与遗漏关键模型）",
+              "summary": "对 METR 结论的主要反驳集中在方法论与数据集上：研究以“one-shot PRs”（无需人类反馈即可合并的 PR）为度量，但样本点稀少且把不同厂商/模型混在同一条时间线里。评论指出研究遗漏了被广泛认为关键的发布（如 Opus 4.5/4.6、Gemini），并且 OpenAI 只有一个数据点（GPT5）会把右侧表现人为拉低，从而改变拟合结论。还有人批评统计处理（如 cross-validation、Brier score 的使用和模型比较）可能被误解或过拟合，且把不同实验室的模型当作单一时间序列来拟合本身有偏差。总体观点是：以如此有限且混合的观测来断言“模型一年没进步”并不可靠，应该按厂商/系列分开或补上漏掉的关键版本再判断。",
+              "supportid": [
+                "47349929",
+                "47349966",
+                "47349660",
+                "47349995",
+                "47349763",
+                "47349937",
+                "47349669"
+              ]
+            },
+            {
+              "category": "进步主要来自 harness/工具与 agentic 工作流，而非模型本身",
+              "summary": "大量评论认为感知到的生产力跃迁更大程度源于上层工程（即所谓的 harness），例如 Claude Code 的 agentic tool loops、CLI/终端集成、sub-agents、persistent context/rollbacks 等。这样的 harness 允许模型拆解任务、调用工具、运行 smoke tests 和做多文件变更，从而把模型的原生 one-shot 表现放大为可靠的工作流能力。若只测量模型的单次输出（one-shot PR），就忽视了这些系统级改进对实际合并率与开发速度的贡献；许多用户把日常效率提升归因于工具整合和上下文管理而非模型“单步推理”能力的大幅跃迁。评论里也提到终端/agentic 界面比传统聊天界面在某些场景体验上优很多，这进一步说明是工程化而非单纯模型参数带来的变化。",
+              "supportid": [
+                "47349868",
+                "47350286",
+                "47352958",
+                "47349961",
+                "47349741",
+                "47349983"
+              ]
+            },
+            {
+              "category": "真实代码质量仍有明显缺陷，需要大量人工审查",
+              "summary": "多位使用者的共识是：模型可以交付更大块的产出，但代码质量、架构合理性和细节可靠性仍未同步达到可完全信任的水平。评论举例包括过度嵌套控制流、不符合既有代码风格的变化、前端用 CSS hack 替代正确重构，以及出现“useless AI slop comment”之类的质量问题；还有人形容模型像“聪明但有严重额叶缺损的朋友”，自信输出却会漏掉关键验证。结果是虽然交互轮数可能减少，但审查单次产出所需的认知负担可能上升——你必须在更大代码块里寻找并修复隐藏的问题。整体结论是：产出量和块大小提高了，但复杂任务仍然要靠人工密集回顾、测试和设计判断。",
+              "supportid": [
+                "47350010",
+                "47359143",
+                "47350095",
+                "47350479",
+                "47349864"
+              ]
+            },
+            {
+              "category": "边际收益递减、数据瓶颈与成本导向的工程取向",
+              "summary": "有评论把当下的缓和归因于训练数据与经济现实：互联网语料有限，新代码里越来越多由 LLM 产出带来 Ouroboros（自我循环）和污染风险，使得单靠规模扩大不再容易带来巨幅提升。与此同时，企业在 token-use 优化、合成数据和后训练（post-training）/RL 管线等方向投入以控制成本，研究重点逐步从单纯放大参数转向 agentic 工程与 harness 优化。多位评论认为未来几年更可能是生态系统、工具链与成本下降的改进期，而不是像 2023/24 那样的能力跨越式提升。该观点也结合了对模型策划、数据净化与长期可训练集稀缺性的担忧。",
+              "supportid": [
+                "47349805",
+                "47354053",
+                "47350058",
+                "47349677"
+              ]
+            },
+            {
+              "category": "评估困难与认知偏差：盲测、用户技能和文化接受度影响感知",
+              "summary": "若以盲测或标准化任务来对比，不少人认为常见日常任务难以区分 4.5 与 4.6，感知差异部分来自用户 prompt 技能、工具熟练度以及行业对 agentic 流程的接受度升级。部分自托管者出于对闭源 scaffolding 的不信任减少频繁测试，有些人也承认自己随时间学会了更好地“驾驭”模型，从而觉得工具变好了。因此“我感觉进步很大”和“研究显示没进步”之间，可能存在样本偏差、文化采样与主观认知差异。评论建议更多标准化、面向反馈循环（incorporate feedback）的 benchmark 来衡量长期进步而非单次合并率。",
+              "supportid": [
+                "47349897",
+                "47349650",
+                "47349714",
+                "47349955",
+                "47349983"
+              ]
+            }
+          ],
+          "terminologies": [
+            {
+              "term": "harness",
+              "explanation": "指在 LLM 之上的工程化工具与工作流（例如 Claude Code、agentic loops、终端/CLI 集成），负责上下文管理、工具调用与多步执行，从而把模型能力“放大”为可用产品化功能。"
+            },
+            {
+              "term": "one-shot PRs（merge rate）",
+              "explanation": "METR 用的度量：AI 生成的 pull request 在没有人类反馈的情况下被维护者直接合并的比例；该指标对维护者偏好、仓库隐含约定和评审 rubric 非常敏感。"
+            },
+            {
+              "term": "METR（metr.org 的 Many SWE Bench）",
+              "explanation": "来自 metr.org 的研究，把维护者对 AI 生成 PR 的接受/拒绝及拒绝原因作为实测数据，试图量化 LLM 在真实代码库的一次性合并能力。"
+            },
+            {
+              "term": "agentic / agent",
+              "explanation": "能够主动拆解任务、调用外部工具（如 CLI、子 agent、网络 API）并在多步循环中执行的系统或工作流，常用于实现自动化的“agentic coding”。"
+            },
+            {
+              "term": "Brier score 与 cross-validation",
+              "explanation": "Brier score 是衡量概率预测误差的指标；cross-validation（如 leave‑one‑out）用于评估模型预测的泛化能力，二者在文中被用来比较拟合函数与测试预测力。"
+            },
+            {
+              "term": "PSP/TSP",
+              "explanation": "PSP/TSP（Personal/Team Software Process）是软件工程里的质量改进方法，强调对任务分解、回顾与缺陷根因分析的个人/团队责任，评论者用它来类比如何持续发现并修复 LLM 产出的常见错误。"
+            }
+          ],
+          "context": "METR（来自 metr.org）的研究以“one-shot PRs”（无需人类反馈即可直接合并的 PR）为核心指标，得出在该指标上模型在过去一年没有显著改进的结论。讨论触及两条主线：一是许多开发者在实际工作中感受到 Opus/Sonnet、Codex 等近期版本与 agentic 工具（如 Claude Code）带来的生产力跃迁；二是批评者指出 METR 的样本稀少、遗漏关键版本并把不同厂商模型混合分析，从而使统计结论可疑。评论还把争论扩展到评估方法（如 Brier score、cross‑validation）、工程化改进（agentic tool loops、context rollbacks）与软件工程类比（PSP/TSP），并讨论数据污染（Ouroboros）与成本优化对未来改进路径的影响。",
+          "emoji": "🤔",
+          "sarcastic_question": "非得等模型永远不出错，你才会承认它进步吗？"
+        }
+      },
+      "articleSummary": "## 一句话总结\n基于 SWE-Bench 的严谨数据分析表明，LLM 在编程任务上的实际代码合并率在过去一年里几乎停滞不前，所谓的性能提升可能只是测试通过率的虚高。\n\n### 测试通过不代表代码能合并\n文章从 METR 的一篇报告切入，指出了一个被忽视的现状：LLM 在编程任务上“通过所有测试”的概率，远高于“代码被维护者合并”的概率。当把成功标准从“跑通测试”提高到“可合并质量”时，模型的性能表现出现了断崖式下跌。这种差距说明，现在的模型虽然能写出通过单元测试的代码，但往往达不到真正能进入生产线的质量标准。\n\n### 数据里的“平线”比“斜线”更准确\n作者重新审视了 METR 提供的图表，特别是关注了更具含金量的“合并率”数据。虽然 METR 认为数据呈现“温和上升”的趋势，但作者肉眼观察发现，自 2024 年末出现一次能力跃升后，2025 年初至今的数据曲线几乎是一条水平线。为了验证直觉，作者没有只靠肉眼，而是引入了更正式的数学模型来对比。\n\n### 数学验证：常数模型打败了增长模型\n作者使用了留一法交叉验证，对比了三种模型的 Brier 分数（一种衡量预测准确率的指标，越低越好）。结果显示，METR 提出的“温和上升斜线”模型得分为 0.0129，而作者提出的“分段常数函数”得分更低（0.0117）。更有意思的是，如果假设整个后半段时间合并率完全不变（常数模型），得分竟然是最低的 0.0100。这意味着，预测“模型没进步”竟然比预测“模型在进步”要准确得多。\n\n### 核心结论：编程能力停滞了一年\n这个统计结果揭示了一个令人不安的事实：在图表覆盖的后半段时间里，LLM 的编程能力并没有实质性提升。尽管厂商们不断发布新模型，但在解决真实编程难题（以代码合并率为准）的能力上，我们可能已经陷入了一年的平台期。这直接挑战了“模型越新越强”的普遍认知。\n\n### 营销热度与实际表现的巨大温差\n作者在文末补充道，虽然坊间传闻最近四个月 Anthropic 和 Google 的新模型又带来了能力飞跃，但目前缺乏像 METR 这样严谨的“合并率”数据支持。回顾 2025 年，当时人们也以为模型在突飞猛进，但现在的数据证明那只是错觉。这让我们不得不怀疑：现在的热度是否又是一次脱离实际的炒作？在缺乏硬数据之前，保持怀疑或许才是最理性的态度。"
+    },
     {
       "id": 47351371,
       "by": "colinprince",
@@ -3263,303 +4405,6 @@
       "articleSummary": "## 一句话总结\n伊朗背景的黑客组织 \"Tahini Team\" 声称对医疗巨头 Stryker 发动了数据擦除攻击，这标志着地缘政治冲突中的网络战手段正从单纯的勒索转向更具破坏性的基础设施摧毁。\n\n### 医疗巨头遭遇的不仅是勒索，而是“擦除器”\nStryker 作为全球知名的医疗技术公司，这次摊上大事了。攻击者不是普通的网络罪犯，而是与伊朗情报机构有关联的黑客组织 \"Tahini Team\"。有意思的地方在于，他们这次的目的不是为了勒索赎金，而是直接破坏数据。这种攻击手段被称为 \"Wiper Attack\"，说白了就是恶意软件进入系统后，把硬盘数据彻底清空，让系统无法启动。对于医疗行业这种对数据完整性和可用性要求极高的领域，这比单纯的加密勒索要致命得多。\n\n### 攻击者的身份并不神秘，甚至很“高调”\n这次跳出来认领的组织叫 \"Tahini Team\"，安全圈对他们并不陌生。他们通常被归类为 \"Hacktivist\"（黑客行动主义者），但情报机构追踪显示，其背后有伊朗官方的支持。这帮人行事风格很激进，不像传统勒索软件团伙那样偷偷摸摸谈赎金，而是更倾向于通过破坏来展示政治立场或报复。这次他们宣称对 Stryker 发动攻击，很可能是因为 Stryker 的业务涉及某些敏感地区或被视为特定立场的象征。\n\n### 从“加密”到“擦除”，攻击逻辑变了\n为什么说这次攻击性质变了？传统的勒索软件是把文件加密，手里留着解密钥匙，目的是换钱。但 Wiper 恶意软件没有解密钥匙，它的设计初衷就是毁灭。这意味着即便 Stryker 有备份，恢复业务的时间成本和复杂度也会直线上升。攻击者这么做，通常是为了制造混乱、瘫痪运营，或者作为一种“焦土政策”来掩盖之前的渗透痕迹。对于企业安全团队来说，这意味着防御重点不能只放在防勒索上，还得防“删库”。\n\n### 地缘政治冲突正在数字化溢出\n这起事件再次印证了一个趋势：现实世界的地缘政治紧张局势，正在直接映射到网络空间。伊朗背景的黑客组织近期活动频繁，针对关键基础设施和大型企业的攻击明显增加。Stryker 作为医疗设备制造商，属于关键基础设施的一部分。攻击这类目标，不仅能造成巨大的经济损失，还可能间接影响到医疗服务的正常运转，社会破坏力极大。\n\n### 防御者的新课题：如何应对“不可逆”的破坏\n那怎么办？面对这种不图钱、只图搞破坏的攻击，传统的“花钱消灾”策略完全失效。企业必须假设攻击者最终会突破防线，重点转向快速检测和快速恢复。这包括离线备份的强制性、网络分段的严格执行，以及对异常写入行为的实时监控。一旦检测到 Wiper 特征，唯一的办法就是断网止损，然后依靠冷备份重建。这不仅是技术问题，更是业务连续性规划的极限压力测试。"
     },
     {
-      "id": 47352459,
-      "by": "coloneltcb",
-      "title": "The Met Releases High-Def 3D Scans of 140 Famous Art Objects",
-      "url": "https://www.openculture.com/2026/03/the-met-releases-high-definition-3d-scans-of-140-famous-art-objects.html",
-      "score": 146,
-      "detailUpdatedAt": 1773348212,
-      "createdAt": 1773331266,
-      "aiSummaryUpdatedAt": 1773349624,
-      "aisummary": {
-        "chinese_title": "大都会公布140件高精3D扫描：可下载GLB/USDZ/FBX但材质与交互仍受争议",
-        "emoji": "🔍",
-        "sarcastic_question": "公布一堆glb就能算“高精3D扫描”吗？"
-      },
-      "classifications": {
-        "topics": [
-          5,
-          11,
-          7
-        ],
-        "facets": [
-          4
-        ],
-        "tags": [
-          "The Met",
-          "3D scans",
-          "glb",
-          "USDZ",
-          "OBJ",
-          "STL",
-          "Open Access",
-          "AR"
-        ]
-      },
-      "classificationsUpdatedAt": 1773336416,
-      "aiSummary": {
-        "chinese_title": "大都会公布140件高精3D扫描：可下载GLB/USDZ/FBX但材质与交互仍受争议",
-        "emoji": "🔍",
-        "sarcastic_question": "公布一堆glb就能算“高精3D扫描”吗？"
-      },
-      "detail": {
-        "id": 47352459,
-        "by": "coloneltcb",
-        "title": "The Met Releases High-Def 3D Scans of 140 Famous Art Objects",
-        "url": "https://www.openculture.com/2026/03/the-met-releases-high-definition-3d-scans-of-140-famous-art-objects.html",
-        "score": 146,
-        "detailUpdatedAt": 1773348212,
-        "createdAt": 1773331266,
-        "aiSummaryUpdatedAt": 1773349624,
-        "aisummary": {
-          "chinese_title": "大都会公布140件高精3D扫描：可下载GLB/USDZ/FBX但材质与交互仍受争议",
-          "discussion_overview": [
-            {
-              "category": "开放访问、下载与 API 集成",
-              "summary": "评论者指出这些模型在网页上可直接获取，且很多条目标注为 CC0（公共领域）。有用户发布了脚本（InconsolableCellist/met_scans）批量下载约135个公开的 GLB 并将元数据整理为 JSON，另外也有人提示页面中存在名为 masters 的 JSON 文件，列出 glb/usdz/fbx 等可用格式，可以在浏览器的 Network 面板直接抓取 .glb。The Met 的 Open Access 项目与 The Met Collection API 被实际用于商业或创意整合（例如把藏品流接入应用），但也有评论提醒并非所有条目都属于开放访问，部分图像仍受限或需要请求授权。",
-              "supportid": [
-                "47355230",
-                "47353586",
-                "47353620",
-                "47354314",
-                "47355157",
-                "47353499",
-                "47353354",
-                "47352994"
-              ]
-            },
-            {
-              "category": "材质捕捉与真实性质疑（PBR/metalness 问题）",
-              "summary": "对材质层面的批评集中在金属度（metallic/metalness）通道并未被有效捕捉：评论者查看 USDZ 等文件后发现 metalness 贴图通常是纯白或没有数据，导入 Houdini 时被翻译为 USDPreview 材质，只有 basecolor、roughness（有较好贴图）和 normal map，metallic 没有实质信息。因此有人觉得渲染出现“过于光滑/亮泽”的着色效果，像早期游戏风格而非真实艺术品材质，建议博物馆同时公布原始拍摄图像以便用其它重建流程重现真实金属表现。社区还提出替代技术（例如使用更先进的重建或渲染方法）和不同采集设备会影响结果，有人举例 Brussels 使用的 CultArm3D FT20 机器人臂相机作为采集参考。",
-              "supportid": [
-                "47353317",
-                "47354276",
-                "47355887",
-                "47356077",
-                "47353644"
-              ]
-            },
-            {
-              "category": "查看器交互、缩放限制与设备差异",
-              "summary": "用户普遍反馈内置 3D 查看器在交互上有意限制视距以保持物体完整进视窗，导致无法靠近观察像素或三角网格细节，桌面和移动端表现差异明显。移动端（例如在 Safari 的 AR 预览）被多次称为“运行良好”，但在桌面 Firefox 上有评论表示缩放到物体充满视场后无法继续靠近，亦有人在巨型显示器上能获得更近的视点。另有评论提到 WebXR 的实现能在不同设备上工作（Vision Pro 常用 USDZ，Meta Quest 常用 glTF/GLB），但缺乏必要的背景解说或语境会降低这些沉浸式展示的价值。",
-              "supportid": [
-                "47353262",
-                "47353561",
-                "47354061",
-                "47356512",
-                "47353449"
-              ]
-            },
-            {
-              "category": "3D 打印可行性与格式转换实务",
-              "summary": "讨论包含如何将博物馆提供的格式转换为可打印文件以及打印时的实际问题：评论者指出页面提供 glb/usdz/fbx，可通过 masters.json 定位并把 usdz 转为 OBJ/STL 用于打印，也可直接抓取 .glb 文件。用户关心打印模型的展示适配性（有些雕像“放家里很怪”）、支撑结构和填充（实心或空心）问题，并分享创意用途，例如把底座灌注混凝土做书挡。若要打印这些高精模型，需考虑重新拓扑、支撑设计和美观性改造，社区成员互相询问并交换实务经验。",
-              "supportid": [
-                "47356691",
-                "47352994",
-                "47354014",
-                "47353620",
-                "47354314",
-                "47354534",
-                "47354607",
-                "47355659",
-                "47356500",
-                "47354280"
-              ]
-            },
-            {
-              "category": "对开放数字化的赞赏与对更多藏品的期待",
-              "summary": "很多评论对大都会发布高质量 3D 扫描表示感谢和赞赏，称这些扫描“非常漂亮”并让人高兴，认为提高了公众可访问性。部分评论具体表达了对某些被捕捉藏品的兴奋（指出现场观感极佳），也有人希望博物馆能加入更吸引眼球的藏品比如 Fabergé 彩蛋。总体上正面反馈和技术批评并存：公众欢迎开放与可下载的发放，但同时期望在材质真实感、源影像公开与交互体验上进一步改进以提升教育和研究价值。",
-              "supportid": [
-                "47354400",
-                "47355442",
-                "47352792",
-                "47353449"
-              ]
-            }
-          ],
-          "terminologies": [
-            {
-              "term": "glTF / GLB",
-              "explanation": "glTF 是一个开放的 3D 传输格式，GLB 是其二进制封装，常用于网页与 AR 场景，包含网格、纹理和 PBR 材质通道，便于在浏览器和实时引擎中加载。"
-            },
-            {
-              "term": "USDZ",
-              "explanation": "USDZ 是 Apple 推广的无压缩打包格式，用于 iOS/AR Quick Look 和 Vision Pro 的 AR 预览，通常封装 USD 场景与纹理以便在苹果生态展示。"
-            },
-            {
-              "term": "FBX",
-              "explanation": "FBX 是 Autodesk 的 3D 交换格式，常用于在建模软件、游戏引擎和动画流水线间传递几何、材质与动画数据。"
-            },
-            {
-              "term": "STL / OBJ",
-              "explanation": "STL 与 OBJ 是常见的网格与打印交换格式：STL 多用于 3D 打印，OBJ 支持纹理坐标，二者经常需要由 glb/usdz 转换以适配打印或传统 3D 软件。"
-            },
-            {
-              "term": "PBR 通道（basecolor, roughness, metallic, normal）",
-              "explanation": "PBR（Physically Based Rendering）使用一组贴图通道还原真实光照响应：basecolor（基色）、roughness（粗糙度）、metallic（金属度）和 normal（法线）。评论中提到 metalness 通道常为空白或全白，表示真实金属特性未被捕获。"
-            },
-            {
-              "term": "WebXR / AR",
-              "explanation": "WebXR 是用于在浏览器中实现 VR/AR 的 Web 标准，AR（增强现实）是把虚拟内容叠加到真实世界；讨论里涉及 WebXR 在不同设备（例如 Vision Pro 使用 USDZ、Meta Quest 使用 glTF/GLB、Safari 的 AR 预览）上的表现差异。"
-            },
-            {
-              "term": "CC0 / Open Access",
-              "explanation": "CC0（Creative Commons Zero）表示放弃版权、进入公共领域。The Met 的 Open Access 项目和 The Met Collection API 提供大量标注为 CC0 的数据和图像，可供无偿商用或非商用使用，但并非所有馆藏均为开放。"
-            },
-            {
-              "term": "masters.json",
-              "explanation": "在 The Met 的藏品页面中常见的一个 JSON 元数据文件（名为 masters），列出该藏品可用的模型文件名与格式（如 glb/usdz/fbx），是定位与下载原始模型的入口之一。"
-            },
-            {
-              "term": "GLTF-Sample-Viewer",
-              "explanation": "GLTF-Sample-Viewer 是由 Khronos 提供的 glTF 示例查看器，能直接加载 GLB/glTF 文件用以检查网格、相机与 PBR 材质，常用于快速预览与调试。"
-            },
-            {
-              "term": "USDPreview material",
-              "explanation": "USDPreview material 是 USD 生态中常用的一种预览材质表示，通常映射为 basecolor/roughness/metallic 等通道；评论者在导入工具中看到的导出结果被翻译为这种简化材质。"
-            }
-          ],
-          "context": "大都会艺术博物馆（The Metropolitan Museum of Art）在其藏品页面上以多种 3D 文件格式（glb、usdz、fbx 等）发布了约 140 件艺术品的三维扫描并提供网页查看与 AR 预览。讨论基于评论者实际试用发现的可下载路径（如 masters.json 和浏览器 Network 面板）与 The Met 的 Open Access/CC0 政策，以及通过 The Met Collection API 将资源整合到其他应用的案例。技术争议集中在材质与 PBR 通道的完整性（尤其 metalness 未被捕捉）与缺乏原始拍摄图像以便重建更真实材质，另有关于 WebXR/AR 在不同设备（Vision Pro、Meta Quest、Safari）的渲染与交互差异的反馈。社区既赞赏博物馆开放高质量 3D 资源，也提出希望公开源影像并改进材质表达与交互体验的具体期待。",
-          "emoji": "🔍",
-          "sarcastic_question": "公布一堆glb就能算“高精3D扫描”吗？"
-        },
-        "classifications": {
-          "topics": [
-            5,
-            11,
-            7
-          ],
-          "facets": [
-            4
-          ],
-          "tags": [
-            "The Met",
-            "3D scans",
-            "glb",
-            "USDZ",
-            "OBJ",
-            "STL",
-            "Open Access",
-            "AR"
-          ]
-        },
-        "classificationsUpdatedAt": 1773336416,
-        "aiSummary": {
-          "chinese_title": "大都会公布140件高精3D扫描：可下载GLB/USDZ/FBX但材质与交互仍受争议",
-          "discussion_overview": [
-            {
-              "category": "开放访问、下载与 API 集成",
-              "summary": "评论者指出这些模型在网页上可直接获取，且很多条目标注为 CC0（公共领域）。有用户发布了脚本（InconsolableCellist/met_scans）批量下载约135个公开的 GLB 并将元数据整理为 JSON，另外也有人提示页面中存在名为 masters 的 JSON 文件，列出 glb/usdz/fbx 等可用格式，可以在浏览器的 Network 面板直接抓取 .glb。The Met 的 Open Access 项目与 The Met Collection API 被实际用于商业或创意整合（例如把藏品流接入应用），但也有评论提醒并非所有条目都属于开放访问，部分图像仍受限或需要请求授权。",
-              "supportid": [
-                "47355230",
-                "47353586",
-                "47353620",
-                "47354314",
-                "47355157",
-                "47353499",
-                "47353354",
-                "47352994"
-              ]
-            },
-            {
-              "category": "材质捕捉与真实性质疑（PBR/metalness 问题）",
-              "summary": "对材质层面的批评集中在金属度（metallic/metalness）通道并未被有效捕捉：评论者查看 USDZ 等文件后发现 metalness 贴图通常是纯白或没有数据，导入 Houdini 时被翻译为 USDPreview 材质，只有 basecolor、roughness（有较好贴图）和 normal map，metallic 没有实质信息。因此有人觉得渲染出现“过于光滑/亮泽”的着色效果，像早期游戏风格而非真实艺术品材质，建议博物馆同时公布原始拍摄图像以便用其它重建流程重现真实金属表现。社区还提出替代技术（例如使用更先进的重建或渲染方法）和不同采集设备会影响结果，有人举例 Brussels 使用的 CultArm3D FT20 机器人臂相机作为采集参考。",
-              "supportid": [
-                "47353317",
-                "47354276",
-                "47355887",
-                "47356077",
-                "47353644"
-              ]
-            },
-            {
-              "category": "查看器交互、缩放限制与设备差异",
-              "summary": "用户普遍反馈内置 3D 查看器在交互上有意限制视距以保持物体完整进视窗，导致无法靠近观察像素或三角网格细节，桌面和移动端表现差异明显。移动端（例如在 Safari 的 AR 预览）被多次称为“运行良好”，但在桌面 Firefox 上有评论表示缩放到物体充满视场后无法继续靠近，亦有人在巨型显示器上能获得更近的视点。另有评论提到 WebXR 的实现能在不同设备上工作（Vision Pro 常用 USDZ，Meta Quest 常用 glTF/GLB），但缺乏必要的背景解说或语境会降低这些沉浸式展示的价值。",
-              "supportid": [
-                "47353262",
-                "47353561",
-                "47354061",
-                "47356512",
-                "47353449"
-              ]
-            },
-            {
-              "category": "3D 打印可行性与格式转换实务",
-              "summary": "讨论包含如何将博物馆提供的格式转换为可打印文件以及打印时的实际问题：评论者指出页面提供 glb/usdz/fbx，可通过 masters.json 定位并把 usdz 转为 OBJ/STL 用于打印，也可直接抓取 .glb 文件。用户关心打印模型的展示适配性（有些雕像“放家里很怪”）、支撑结构和填充（实心或空心）问题，并分享创意用途，例如把底座灌注混凝土做书挡。若要打印这些高精模型，需考虑重新拓扑、支撑设计和美观性改造，社区成员互相询问并交换实务经验。",
-              "supportid": [
-                "47356691",
-                "47352994",
-                "47354014",
-                "47353620",
-                "47354314",
-                "47354534",
-                "47354607",
-                "47355659",
-                "47356500",
-                "47354280"
-              ]
-            },
-            {
-              "category": "对开放数字化的赞赏与对更多藏品的期待",
-              "summary": "很多评论对大都会发布高质量 3D 扫描表示感谢和赞赏，称这些扫描“非常漂亮”并让人高兴，认为提高了公众可访问性。部分评论具体表达了对某些被捕捉藏品的兴奋（指出现场观感极佳），也有人希望博物馆能加入更吸引眼球的藏品比如 Fabergé 彩蛋。总体上正面反馈和技术批评并存：公众欢迎开放与可下载的发放，但同时期望在材质真实感、源影像公开与交互体验上进一步改进以提升教育和研究价值。",
-              "supportid": [
-                "47354400",
-                "47355442",
-                "47352792",
-                "47353449"
-              ]
-            }
-          ],
-          "terminologies": [
-            {
-              "term": "glTF / GLB",
-              "explanation": "glTF 是一个开放的 3D 传输格式，GLB 是其二进制封装，常用于网页与 AR 场景，包含网格、纹理和 PBR 材质通道，便于在浏览器和实时引擎中加载。"
-            },
-            {
-              "term": "USDZ",
-              "explanation": "USDZ 是 Apple 推广的无压缩打包格式，用于 iOS/AR Quick Look 和 Vision Pro 的 AR 预览，通常封装 USD 场景与纹理以便在苹果生态展示。"
-            },
-            {
-              "term": "FBX",
-              "explanation": "FBX 是 Autodesk 的 3D 交换格式，常用于在建模软件、游戏引擎和动画流水线间传递几何、材质与动画数据。"
-            },
-            {
-              "term": "STL / OBJ",
-              "explanation": "STL 与 OBJ 是常见的网格与打印交换格式：STL 多用于 3D 打印，OBJ 支持纹理坐标，二者经常需要由 glb/usdz 转换以适配打印或传统 3D 软件。"
-            },
-            {
-              "term": "PBR 通道（basecolor, roughness, metallic, normal）",
-              "explanation": "PBR（Physically Based Rendering）使用一组贴图通道还原真实光照响应：basecolor（基色）、roughness（粗糙度）、metallic（金属度）和 normal（法线）。评论中提到 metalness 通道常为空白或全白，表示真实金属特性未被捕获。"
-            },
-            {
-              "term": "WebXR / AR",
-              "explanation": "WebXR 是用于在浏览器中实现 VR/AR 的 Web 标准，AR（增强现实）是把虚拟内容叠加到真实世界；讨论里涉及 WebXR 在不同设备（例如 Vision Pro 使用 USDZ、Meta Quest 使用 glTF/GLB、Safari 的 AR 预览）上的表现差异。"
-            },
-            {
-              "term": "CC0 / Open Access",
-              "explanation": "CC0（Creative Commons Zero）表示放弃版权、进入公共领域。The Met 的 Open Access 项目和 The Met Collection API 提供大量标注为 CC0 的数据和图像，可供无偿商用或非商用使用，但并非所有馆藏均为开放。"
-            },
-            {
-              "term": "masters.json",
-              "explanation": "在 The Met 的藏品页面中常见的一个 JSON 元数据文件（名为 masters），列出该藏品可用的模型文件名与格式（如 glb/usdz/fbx），是定位与下载原始模型的入口之一。"
-            },
-            {
-              "term": "GLTF-Sample-Viewer",
-              "explanation": "GLTF-Sample-Viewer 是由 Khronos 提供的 glTF 示例查看器，能直接加载 GLB/glTF 文件用以检查网格、相机与 PBR 材质，常用于快速预览与调试。"
-            },
-            {
-              "term": "USDPreview material",
-              "explanation": "USDPreview material 是 USD 生态中常用的一种预览材质表示，通常映射为 basecolor/roughness/metallic 等通道；评论者在导入工具中看到的导出结果被翻译为这种简化材质。"
-            }
-          ],
-          "context": "大都会艺术博物馆（The Metropolitan Museum of Art）在其藏品页面上以多种 3D 文件格式（glb、usdz、fbx 等）发布了约 140 件艺术品的三维扫描并提供网页查看与 AR 预览。讨论基于评论者实际试用发现的可下载路径（如 masters.json 和浏览器 Network 面板）与 The Met 的 Open Access/CC0 政策，以及通过 The Met Collection API 将资源整合到其他应用的案例。技术争议集中在材质与 PBR 通道的完整性（尤其 metalness 未被捕捉）与缺乏原始拍摄图像以便重建更真实材质，另有关于 WebXR/AR 在不同设备（Vision Pro、Meta Quest、Safari）的渲染与交互差异的反馈。社区既赞赏博物馆开放高质量 3D 资源，也提出希望公开源影像并改进材质表达与交互体验的具体期待。",
-          "emoji": "🔍",
-          "sarcastic_question": "公布一堆glb就能算“高精3D扫描”吗？"
-        }
-      },
-      "articleSummary": "## 一句话总结\n大都会艺术博物馆（The Met）公开了 140 件珍贵藏品的高清 3D 扫描数据，采用 CC0 协议完全开放，意味着开发者可以免费下载、修改甚至用于商业项目。\n\n### 从 2D 图片到 3D 资产的跨越\n这次发布最核心的变化在于维度的升级。以前我们访问博物馆官网，只能看到高分辨率的平面图片。但现在，The Met 直接放出了 3D 模型。这不仅仅是“看起来立体”，而是实实在在的几何数据。对于开发者来说，这意味着你可以直接把这些模型导入 Unity、Unreal Engine 或者 Blender 里。不管是做 VR 体验，还是做游戏资产，素材门槛直接被拉平了。\n\n### 140 件精选藏品的含金量\n数量上 140 件听起来不算海量，但质量非常硬核。这次开放的包括梵高的画作、大理石雕塑，甚至还有古埃及的石棺。有意思的地方在于，这些模型不仅仅是“看起来像”，而是保留了极高的细节精度。文章特别提到了“High-Definition”，说明扫描的拓扑结构和纹理贴图都达到了专业级标准。这对于需要高质量参考数据的 3D 艺术家来说，简直是难得的练手素材。\n\n### CC0 协议才是真正的杀手锏\n技术细节再好，如果授权麻烦也是白搭。The Met 这次做得最彻底的一点，是采用了 CC0（Creative Commons Zero）协议。说白了就是“放弃版权”，公有领域。你不需要去申请许可，不需要署名（虽然出于礼貌建议署名），更不用担心律师函。这对于商业项目极其友好，你可以放心地把这些模型用在你的付费游戏或企业级应用里，而不用担心法律风险。\n\n### 扫描技术背后的工程挑战\n虽然文章没细说具体的扫描设备，但从“High-Definition”和涵盖“Sarcophagi（石棺）”这种大型物体来看，这绝对不是拍几张照片就能搞定的。通常这种级别的数字化，会用到激光扫描或结构光摄影测量。核心难点在于处理反光材质（比如大理石）和复杂几何结构。The Met 能把这些处理成可用的 3D 网格，说明他们在后期的数据清洗和重建上下了不少功夫。\n\n### 开发者能拿这些数据做什么？\n除了显而易见的游戏开发，这些数据在教育和研究领域大有可为。比如，你可以做一个 Web 端的 3D 展厅，让学生能 360 度旋转观察梵高的笔触。或者利用这些高精度模型训练 AI，让机器学习理解艺术品的 3D 结构。因为数据是开放的，这实际上为整个数字人文领域提供了一个高质量的 Benchmark 数据集。\n\n### 下载与集成的技术细节\n目前这些数据已经可以通过 The Met 的官方渠道获取。对于开发者来说，关注点应该放在模型的格式兼容性上。通常这类公开数据会提供 .obj 或 .gltf 格式，这两种格式对 Web 3D 引擎（如 Three.js）非常友好。如果你在做一个数字孪生项目，或者需要高质量的现实世界物体作为测试数据，这批现成的模型能帮你省去大量的建模时间。"
-    },
-    {
       "id": 47352297,
       "by": "amarcheschi",
       "title": "Italian prosecutors seek trial for Amazon, 4 execs in alleged $1.4B tax evasion",
@@ -4361,309 +5206,6 @@
         }
       },
       "articleSummary": "## 一句话总结\n因伊朗战争导致霍尔木兹海峡封锁，亚洲各国被迫通过推行四天工作制、强制远程办公和价格干预等极端手段，来应对原油飙升至可能触及 200 美元/桶的能源危机。\n\n### 霍尔木兹海峡被切断，亚洲成了最惨的“背锅侠”\n这次危机的根源很直接：伊朗战争导致霍尔木兹海峡这一关键航道被切断，而亚洲对中东石油的依赖度高得吓人。日本和韩国分别有 90% 和 70% 的石油来自该地区，供应链一旦受阻，整个亚洲的能源安全瞬间就悬了。这不是简单的价格波动，而是实打实的“断供”风险。Wood Mackenzie 分析师甚至指出，这次危机的风险量级比 2022 年俄乌冲突时还要大，油价飙到 200 美元/桶并非天方夜谭。\n\n### 泰国的“抠门”策略：走楼梯、穿短袖、不开空调\n面对危机，各国政府的应对措施可以说是“五花八门”，泰国政府的操作尤其硬核。3 月 10 日，泰国直接命令公务员走楼梯、禁止坐电梯，同时强制执行远程办公。为了省电，他们把空调温度调高到了 27 摄氏度，甚至让公务员脱掉西装改穿短袖。这并非小题大做，因为据路透社报道，泰国的能源储备只剩下大约 95 天了。这种近乎“战时”的节能指令，核心逻辑就是通过减少通勤和办公能耗，尽可能压低石油消耗速度。\n\n### 从越南到南亚，四天工作制成了“救命稻草”\n泰国不是个例，整个亚洲都在通过减少“物理流动”来省油。越南呼吁企业让员工居家办公，直接目的就是减少交通出行带来的燃油消耗。菲律宾和巴基斯坦则更进一步，直接推行四天工作制，并限制政府官员的非必要出行。孟加拉国为了省油，甚至让大学提前放假。有意思的地方在于，这些原本是为了提升员工福利的“灵活办公”政策，现在却成了应对国家能源危机的紧急刹车。\n\n### 印尼和韩国的“烧钱”与“限价”大法\n除了让员工少出门，各国政府也在直接干预市场，试图稳住失控的油价。韩国总统李在明宣布将对石油产品实施价格上限，因为每天有约 170 万桶运往韩国的石油被截停，这对经济是“巨大负担”。印尼则选择了“钞能力”方案，财政部长宣布拨出 381.3 万亿印尼盾（约 226 亿美元）作为能源补贴，并支付给国有能源企业 Pertamina，强行把民用燃料和电力价格按住。泰国也计划冻结烹饪气价格直到 5 月，并推广生物柴油等替代能源。\n\n### 全球总动员：IEA 释放 4 亿桶储备也难解近渴\n眼看局势失控，国际社会终于出手了。3 月 11 日，国际能源署（IEA）的 32 个成员国一致同意释放 4 亿桶紧急石油储备，这是史上最大规模的释放行动。虽然 WTI 原油价格从周一的 115 美元/桶回落到了 90 美元/桶左右，但这更多是市场情绪的波动。只要霍尔木兹海峡还在封锁，供应端的硬伤就存在。正如分析师所言，这次危机的严重程度可能远超以往，亚洲各国目前的极端措施，恐怕还得持续很长一段时间。"
-    },
-    {
-      "id": 47350931,
-      "by": "souvlakee",
-      "title": "Kotlin creator's new language: a formal way to talk to LLMs instead of English",
-      "url": "https://codespeak.dev/",
-      "score": 180,
-      "detailUpdatedAt": 1773339212,
-      "createdAt": 1773328261,
-      "aiSummaryUpdatedAt": 1773340043,
-      "aisummary": {
-        "chinese_title": "Kotlin 创始人推出 CodeSpeak：把规范当“语言”对 LLM 下指令？",
-        "emoji": "🤔",
-        "sarcastic_question": "把英语换成CodeSpeak，就能保证不出错吗？"
-      },
-      "classifications": {
-        "topics": [
-          1,
-          4
-        ],
-        "facets": [
-          4
-        ],
-        "tags": [
-          "CodeSpeak",
-          "LLMs",
-          "Kotlin",
-          "formal-specifications",
-          "agents",
-          "spec-driven development",
-          "Gherkin"
-        ]
-      },
-      "classificationsUpdatedAt": 1773330708,
-      "aiSummary": {
-        "chinese_title": "Kotlin 创始人推出 CodeSpeak：把规范当“语言”对 LLM 下指令？",
-        "emoji": "🤔",
-        "sarcastic_question": "把英语换成CodeSpeak，就能保证不出错吗？"
-      },
-      "detail": {
-        "id": 47350931,
-        "by": "souvlakee",
-        "title": "Kotlin creator's new language: a formal way to talk to LLMs instead of English",
-        "url": "https://codespeak.dev/",
-        "score": 180,
-        "detailUpdatedAt": 1773339212,
-        "createdAt": 1773328261,
-        "aiSummaryUpdatedAt": 1773340043,
-        "aisummary": {
-          "chinese_title": "Kotlin 创始人推出 CodeSpeak：把规范当“语言”对 LLM 下指令？",
-          "discussion_overview": [
-            {
-              "category": "不是新语言，而是工作流/编排/Markdown 式规范",
-              "summary": "大量评论认为 CodeSpeak 本质上并非一门全新编程语言，而更像一套把 Markdown/规范文件映射到 LLM 调用的编排工具。演示示例就是把规范文本作为输入，让模型生成或修改代码，并将这些提示与规范一起版本化保存；这更像是现有 LLM wrapper 或 JSON/YAML 风格的结构化写法。不少人指责官网和示例并未清晰展示新的语法或形式化基础，很多地方看起来像是“更有结构的 README”而非严格语法。还有人注意到项目中仍有 codespeak.json 等传统配置文件，暗示项目并未完全用自家“语言”自吃（dogfood）。",
-              "supportid": [
-                "47352366",
-                "47354292",
-                "47354647",
-                "47351140",
-                "47354191",
-                "47354664",
-                "47354059"
-              ]
-            },
-            {
-              "category": "规范驱动开发的实践与工具演进",
-              "summary": "许多评论给出了实际的 spec-driven 开发工作流例子：有人用 AGENTS.md、DESIGN.md、TECHNICAL-SPEC.md 把提示和设计文档作为长期源，另有开源项目（如 blackbird、incrmd）把文档转为结构化任务并按依赖顺序执行。实务中常见的问题是规范会与实现漂移，评论建议把规范、测试和代码一起作为可审计的版本化对象，并用构建系统或任务依赖来保持一致。既有贡献者也展示了把规范当作“已保存提示”的习惯，并讨论在“冲刺模式”与“马拉松维护”之间切换的使用场景。社区还提出了把规范拆为更小任务、在每步做人工或自动审查以避免大幅度一次性重写的实践。",
-              "supportid": [
-                "47352300",
-                "47352448",
-                "47353176",
-                "47353055",
-                "47353667",
-                "47352394",
-                "47353489"
-              ]
-            },
-            {
-              "category": "LLM 非确定性与可验证性问题（需要测试或形式化）",
-              "summary": "评论反复指出 LLM 输出并非完全可复现：温度设置、批处理策略、并行实现和模型版本都会导致同一规范下不同代码结果。因此单靠把自然语言变成“更结构化”的规范并不能自动解决正确性问题；有人建议把规范转成可验证的形式规格或至少自动生成测试/差分测试来验证实现。也有评论强调，如果能以形式化方式证明结果正确，代码层面的非确定性就不重要，但同时承认大多数现实项目要做到完整形式化验证几乎不现实。实务建议包括基于规范生成测试、对生成过程做多次采样（如不同 seed）并用验证套件筛选可靠结果。",
-              "supportid": [
-                "47352008",
-                "47353203",
-                "47353255",
-                "47352595",
-                "47353784",
-                "47354577",
-                "47352782"
-              ]
-            },
-            {
-              "category": "知识与上下文才是主要瓶颈，而非“语言”本身",
-              "summary": "有评论提出真正的障碍不是用哪种“语言”与模型沟通，而是模型缺乏领域特有的、非文档化的‘部落知识’和对代码库全局上下文的理解。作者给出的“esoteric knowledge ratio”度量（对开源项目通常只有 40–55%）被用来说明模型在缺少上下文时会自信但错误地输出实现。上下文窗口、记忆/检索策略和模型内部表示对结果影响很大，因此把提示形式化不能弥补模型无法访问或理解那部分领域事实的缺陷。评论建议把更多领域知识结构化注入或改进检索/记忆系统，而不是仅仅设计新语法。",
-              "supportid": [
-                "47354893",
-                "47351928",
-                "47353739",
-                "47353489"
-              ]
-            },
-            {
-              "category": "可重复性与版本化的潜在优势（把提示/规范作为事实来源）",
-              "summary": "支持者认为把提示和规范存入仓库、把规范变更映射为代码 diff 的做法有明显工程好处：提示不会丢失、变更可追溯，团队可以对规范变更做 code review。将规范作为“source of truth”能让生成流程更透明，便于在变更后同时提交规范与代码以维持一致性。批评者则提醒这种方法也有盲点：当某些行为只存在于实现而未写入规范时，规范并不能完全描述系统，规范与实现仍会漂移。项目团队正在探索把代码反向生成规范（如 codespeak takeover）来减少这种漂移。",
-              "supportid": [
-                "47352366",
-                "47353489",
-                "47352300",
-                "47352772",
-                "47352499"
-              ]
-            },
-            {
-              "category": "商业化与开源可行性怀疑",
-              "summary": "多名评论者质疑这个想法能否作为闭源商业产品长期变现，理由是思路相对简单且容易被开源替代实现。有人指出类似功能可以在短时间内用现成 LLM wrapper 重构出来，闭源策略反而会阻碍采用与信任。另有人拿项目自身配置（如 codespeak.json）举例，讽刺项目未完全以自家“语言”构建，增加了对其商业可行性的怀疑。总体呈现出对专有化商业模式的普遍怀疑。",
-              "supportid": [
-                "47352366",
-                "47353009",
-                "47354059"
-              ]
-            },
-            {
-              "category": "偏好形式化/可证明的方法，担心回归松散自然语句",
-              "summary": "部分程序员明确反对把软件工程回退到“伪英语”或非正式规范，认为编程应保持数学/形式化特征，测试和良好代码本身才是规范。有人主张把人类工作集中在写测试（如 Gherkin/BDD）而让工具填实现，或使用已有的形式化方法（如更强类型系统或形式验证工具）来保证正确性。对这些评论者来说，CodeSpeak 似乎是在降低工程严格性，可能导致更多未知的副作用而非更可靠的软件。讨论也提到已有的 BDD、literate programming 等成熟实践更值得融合而非被替换。",
-              "supportid": [
-                "47353875",
-                "47354471",
-                "47351515",
-                "47352206"
-              ]
-            },
-            {
-              "category": "社区给出的改进建议与替代原型",
-              "summary": "评论中有很多具体改进建议：在提示管线加“拦截器/清洗器”把自由文本转成结构化 prompt，或者自动从规范生成测试并用差分测试验证实现。开源原型也被列举出来（例如 blackbird、incrmd、AIL、Simplex、Langflow、n8n 等），它们展示了把规范拆成任务、按依赖执行并在每步加入人工或自动审查的可行性。还有实践建议如不要每次重生成整个程序、而是对现有代码做定向修改、对生成过程记录 token/成本并限制 planner 深度以控制费用。总体上社区更倾向于渐进式工具链和测试/验证的补强，而非把所有依赖交给单一新“语言”。",
-              "supportid": [
-                "47352394",
-                "47353176",
-                "47353902",
-                "47352782",
-                "47353667",
-                "47352247"
-              ]
-            }
-          ],
-          "terminologies": [
-            {
-              "term": "CodeSpeak",
-              "explanation": "本文讨论的项目名称，由 Kotlin 创始人提出的一套以 Markdown/规范文件为输入、通过 LLM 生成或修改代码的工具链，核心在于把规范差异映射为代码变更并把提示与规范一起版本化。"
-            },
-            {
-              "term": "规范驱动开发（spec-driven development）",
-              "explanation": "以规范（spec）为主要驱动，把需求/设计写成机器可读或 LLM 可消费的规范文件，再由生成器或模型将其转为代码，同时配合测试和构建系统保证实现与规范一致的实践。"
-            },
-            {
-              "term": "agent / agentic",
-              "explanation": "指由 LLM 驱动的自治代理（agent），可以链式调用多个提示、操作工具或文件系统来完成任务，即 agentic architecture，常用于把高层规范分解并自动执行生成/修改步骤。"
-            },
-            {
-              "term": "BDD / Gherkin",
-              "explanation": "Behavior Driven Development（行为驱动开发）及其常用的 Gherkin 语法，一种用接近自然语言但结构化表述测试/行为的方式，评论中被提出作为人类可写且适合自动化验证的规范格式。"
-            }
-          ],
-          "context": "Kotlin 创始人提出的 CodeSpeak 旨在用一种结构化、Markdown 风格的“规范”替代直接用英语与 LLM 交互，工作流是把仓库里的规格文件当作输入，让模型基于规范生成或修改代码，并把提示与规范一起提交到版本库。演示中要求 Anthropic 的 API key（即使用 Claude，Anthropic 的语言模型）并展示了诸如 codespeak takeover 用来尝试把代码转换回规范的实验性功能。讨论围绕几项关键假设展开：模型是否能稳定地把规范映射为正确实现、规范是否能涵盖工程中所有隐含行为、以及上下文/知识检索与验证（测试或形式化）如何落地。这场争论与已有实践交叉，包括 spec-driven 开发、agent/agentic 管线、BDD/Gherkin 可执行需求和更严格的形式化验证工具。",
-          "emoji": "🤔",
-          "sarcastic_question": "把英语换成CodeSpeak，就能保证不出错吗？"
-        },
-        "classifications": {
-          "topics": [
-            1,
-            4
-          ],
-          "facets": [
-            4
-          ],
-          "tags": [
-            "CodeSpeak",
-            "LLMs",
-            "Kotlin",
-            "formal-specifications",
-            "agents",
-            "spec-driven development",
-            "Gherkin"
-          ]
-        },
-        "classificationsUpdatedAt": 1773330708,
-        "aiSummary": {
-          "chinese_title": "Kotlin 创始人推出 CodeSpeak：把规范当“语言”对 LLM 下指令？",
-          "discussion_overview": [
-            {
-              "category": "不是新语言，而是工作流/编排/Markdown 式规范",
-              "summary": "大量评论认为 CodeSpeak 本质上并非一门全新编程语言，而更像一套把 Markdown/规范文件映射到 LLM 调用的编排工具。演示示例就是把规范文本作为输入，让模型生成或修改代码，并将这些提示与规范一起版本化保存；这更像是现有 LLM wrapper 或 JSON/YAML 风格的结构化写法。不少人指责官网和示例并未清晰展示新的语法或形式化基础，很多地方看起来像是“更有结构的 README”而非严格语法。还有人注意到项目中仍有 codespeak.json 等传统配置文件，暗示项目并未完全用自家“语言”自吃（dogfood）。",
-              "supportid": [
-                "47352366",
-                "47354292",
-                "47354647",
-                "47351140",
-                "47354191",
-                "47354664",
-                "47354059"
-              ]
-            },
-            {
-              "category": "规范驱动开发的实践与工具演进",
-              "summary": "许多评论给出了实际的 spec-driven 开发工作流例子：有人用 AGENTS.md、DESIGN.md、TECHNICAL-SPEC.md 把提示和设计文档作为长期源，另有开源项目（如 blackbird、incrmd）把文档转为结构化任务并按依赖顺序执行。实务中常见的问题是规范会与实现漂移，评论建议把规范、测试和代码一起作为可审计的版本化对象，并用构建系统或任务依赖来保持一致。既有贡献者也展示了把规范当作“已保存提示”的习惯，并讨论在“冲刺模式”与“马拉松维护”之间切换的使用场景。社区还提出了把规范拆为更小任务、在每步做人工或自动审查以避免大幅度一次性重写的实践。",
-              "supportid": [
-                "47352300",
-                "47352448",
-                "47353176",
-                "47353055",
-                "47353667",
-                "47352394",
-                "47353489"
-              ]
-            },
-            {
-              "category": "LLM 非确定性与可验证性问题（需要测试或形式化）",
-              "summary": "评论反复指出 LLM 输出并非完全可复现：温度设置、批处理策略、并行实现和模型版本都会导致同一规范下不同代码结果。因此单靠把自然语言变成“更结构化”的规范并不能自动解决正确性问题；有人建议把规范转成可验证的形式规格或至少自动生成测试/差分测试来验证实现。也有评论强调，如果能以形式化方式证明结果正确，代码层面的非确定性就不重要，但同时承认大多数现实项目要做到完整形式化验证几乎不现实。实务建议包括基于规范生成测试、对生成过程做多次采样（如不同 seed）并用验证套件筛选可靠结果。",
-              "supportid": [
-                "47352008",
-                "47353203",
-                "47353255",
-                "47352595",
-                "47353784",
-                "47354577",
-                "47352782"
-              ]
-            },
-            {
-              "category": "知识与上下文才是主要瓶颈，而非“语言”本身",
-              "summary": "有评论提出真正的障碍不是用哪种“语言”与模型沟通，而是模型缺乏领域特有的、非文档化的‘部落知识’和对代码库全局上下文的理解。作者给出的“esoteric knowledge ratio”度量（对开源项目通常只有 40–55%）被用来说明模型在缺少上下文时会自信但错误地输出实现。上下文窗口、记忆/检索策略和模型内部表示对结果影响很大，因此把提示形式化不能弥补模型无法访问或理解那部分领域事实的缺陷。评论建议把更多领域知识结构化注入或改进检索/记忆系统，而不是仅仅设计新语法。",
-              "supportid": [
-                "47354893",
-                "47351928",
-                "47353739",
-                "47353489"
-              ]
-            },
-            {
-              "category": "可重复性与版本化的潜在优势（把提示/规范作为事实来源）",
-              "summary": "支持者认为把提示和规范存入仓库、把规范变更映射为代码 diff 的做法有明显工程好处：提示不会丢失、变更可追溯，团队可以对规范变更做 code review。将规范作为“source of truth”能让生成流程更透明，便于在变更后同时提交规范与代码以维持一致性。批评者则提醒这种方法也有盲点：当某些行为只存在于实现而未写入规范时，规范并不能完全描述系统，规范与实现仍会漂移。项目团队正在探索把代码反向生成规范（如 codespeak takeover）来减少这种漂移。",
-              "supportid": [
-                "47352366",
-                "47353489",
-                "47352300",
-                "47352772",
-                "47352499"
-              ]
-            },
-            {
-              "category": "商业化与开源可行性怀疑",
-              "summary": "多名评论者质疑这个想法能否作为闭源商业产品长期变现，理由是思路相对简单且容易被开源替代实现。有人指出类似功能可以在短时间内用现成 LLM wrapper 重构出来，闭源策略反而会阻碍采用与信任。另有人拿项目自身配置（如 codespeak.json）举例，讽刺项目未完全以自家“语言”构建，增加了对其商业可行性的怀疑。总体呈现出对专有化商业模式的普遍怀疑。",
-              "supportid": [
-                "47352366",
-                "47353009",
-                "47354059"
-              ]
-            },
-            {
-              "category": "偏好形式化/可证明的方法，担心回归松散自然语句",
-              "summary": "部分程序员明确反对把软件工程回退到“伪英语”或非正式规范，认为编程应保持数学/形式化特征，测试和良好代码本身才是规范。有人主张把人类工作集中在写测试（如 Gherkin/BDD）而让工具填实现，或使用已有的形式化方法（如更强类型系统或形式验证工具）来保证正确性。对这些评论者来说，CodeSpeak 似乎是在降低工程严格性，可能导致更多未知的副作用而非更可靠的软件。讨论也提到已有的 BDD、literate programming 等成熟实践更值得融合而非被替换。",
-              "supportid": [
-                "47353875",
-                "47354471",
-                "47351515",
-                "47352206"
-              ]
-            },
-            {
-              "category": "社区给出的改进建议与替代原型",
-              "summary": "评论中有很多具体改进建议：在提示管线加“拦截器/清洗器”把自由文本转成结构化 prompt，或者自动从规范生成测试并用差分测试验证实现。开源原型也被列举出来（例如 blackbird、incrmd、AIL、Simplex、Langflow、n8n 等），它们展示了把规范拆成任务、按依赖执行并在每步加入人工或自动审查的可行性。还有实践建议如不要每次重生成整个程序、而是对现有代码做定向修改、对生成过程记录 token/成本并限制 planner 深度以控制费用。总体上社区更倾向于渐进式工具链和测试/验证的补强，而非把所有依赖交给单一新“语言”。",
-              "supportid": [
-                "47352394",
-                "47353176",
-                "47353902",
-                "47352782",
-                "47353667",
-                "47352247"
-              ]
-            }
-          ],
-          "terminologies": [
-            {
-              "term": "CodeSpeak",
-              "explanation": "本文讨论的项目名称，由 Kotlin 创始人提出的一套以 Markdown/规范文件为输入、通过 LLM 生成或修改代码的工具链，核心在于把规范差异映射为代码变更并把提示与规范一起版本化。"
-            },
-            {
-              "term": "规范驱动开发（spec-driven development）",
-              "explanation": "以规范（spec）为主要驱动，把需求/设计写成机器可读或 LLM 可消费的规范文件，再由生成器或模型将其转为代码，同时配合测试和构建系统保证实现与规范一致的实践。"
-            },
-            {
-              "term": "agent / agentic",
-              "explanation": "指由 LLM 驱动的自治代理（agent），可以链式调用多个提示、操作工具或文件系统来完成任务，即 agentic architecture，常用于把高层规范分解并自动执行生成/修改步骤。"
-            },
-            {
-              "term": "BDD / Gherkin",
-              "explanation": "Behavior Driven Development（行为驱动开发）及其常用的 Gherkin 语法，一种用接近自然语言但结构化表述测试/行为的方式，评论中被提出作为人类可写且适合自动化验证的规范格式。"
-            }
-          ],
-          "context": "Kotlin 创始人提出的 CodeSpeak 旨在用一种结构化、Markdown 风格的“规范”替代直接用英语与 LLM 交互，工作流是把仓库里的规格文件当作输入，让模型基于规范生成或修改代码，并把提示与规范一起提交到版本库。演示中要求 Anthropic 的 API key（即使用 Claude，Anthropic 的语言模型）并展示了诸如 codespeak takeover 用来尝试把代码转换回规范的实验性功能。讨论围绕几项关键假设展开：模型是否能稳定地把规范映射为正确实现、规范是否能涵盖工程中所有隐含行为、以及上下文/知识检索与验证（测试或形式化）如何落地。这场争论与已有实践交叉，包括 spec-driven 开发、agent/agentic 管线、BDD/Gherkin 可执行需求和更严格的形式化验证工具。",
-          "emoji": "🤔",
-          "sarcastic_question": "把英语换成CodeSpeak，就能保证不出错吗？"
-        }
-      },
-      "articleSummary": "## 一句话总结\nKotlin 之父 Andrey Breslav 的新项目 CodeSpeak 试图用一种受 LLM 友好的形式化语言替代自然语言 Prompt，通过维护简短的 Spec 来自动生成 Python、Go 等生产级代码，宣称能将代码库体积缩减 5 到 10 倍。\n\n### 告别自然语言，用形式化 Spec 跟 LLM 对话\n现在大家跟 LLM 交互主要靠写 Prompt，也就是自然语言。但这玩意儿有个大坑：模糊、不可控，稍微改个描述，生成的代码可能就天差地别。CodeSpeak 的核心思路是，别用英语跟 AI 瞎聊了，咱们发明一种专门给 AI 看的编程语言。你写的是形式化的 Spec（规格说明），AI 负责把它“编译”成 Python、Go、JavaScript 或 TypeScript。说白了，就是把 Prompt 变成了严谨的代码，让 LLM 的输出变得可预测、可维护。\n\n### 目标是生产级系统，不是写个 Demo 就跑路\n市面上很多 AI 编程工具，给人的感觉就是用来写个脚本或者 Prototype，真要上生产环境大家心里都打鼓。CodeSpeak 明确表示它是为“长期项目”和“复杂软件”准备的。它不是给那些只想快速出活的“vibe-coders”用的，而是给正经工程师团队用的。这意味着它关注的是工程化属性：怎么处理依赖、怎么在混合项目中工作（既有手写代码也有生成代码），以及怎么保证生成的代码质量能扛得住生产环境的考验。\n\n### 维护 Spec 而非代码，实现 5-10 倍的代码缩减\n这项目最吸引人的地方在于它承诺的“Shrink Factor”（缩减系数）。他们的逻辑是：既然 LLM 这么强，我们为什么还要维护那一堆繁琐的实现细节？你只需要维护核心逻辑的 Spec，剩下的脏活累活交给 LLM。官方放了一组真实开源项目的 Case Study，数据确实挺吓人。比如处理 WebVTT 字幕的功能，原代码 255 行，Spec 只有 38 行，缩减了 6.7 倍；最夸张的是 markitdown 的 EML 转换器，139 行代码变成了 14 行 Spec，直接缩减了 9.9 倍。\n\n### 真实 Case Study：代码少了，测试反而多了\n光说代码变短了没用，还得看生成的代码靠不靠谱。在上述的案例中，CodeSpeak 不仅减少了代码量，还保证了测试通过率。以 yt-dlp 的 WebVTT 支持为例，重构前测试通过了 1241 个，重构后通过了 1278 个（甚至还多加了 37 个测试）。beautifulsoup4 的编码检测模块，代码从 826 行缩到 141 行，测试通过数也从 889 提升到了 914。这说明生成的代码在功能正确性上不仅没打折扣，甚至可能因为规范化的描述而覆盖了更多边缘情况。\n\n### 混合模式与逆向工程：新老项目都能接得住\n那老项目怎么办？总不能重写吧。CodeSpeak 提供了一个“Mixed Mode”（混合模式），允许在一个项目中同时存在手写代码和由 Spec 生成的代码。更有意思的是，他们正在搞“Turning Code into Specs”功能，也就是逆向工程。它能把你现有的烂代码“吃进去”，吐出一份简短的 Spec。以后你维护这份 Spec 就行了，再次编译又能生成新的代码。这对那些背负着巨大历史包袱的项目来说，可能是个真正的救命稻草。"
     },
     {
       "id": 47349798,
@@ -13165,489 +13707,6 @@
         }
       },
       "articleSummary": "## 一句话总结\nAI 只是技术演进的延续，真正的生存之道不是陷入零和博弈的内卷，而是去创造实实在在的价值。\n\n### 别被标题党吓到了，这只是个玩笑\n文章开头就来了个急刹车。作者 George Hotz 直接表示标题里的“每分钟不跑 69 个 agent 你就落后了”纯属开玩笑。他发现最近社交媒体上的氛围太有毒了，到处都在贩卖焦虑。什么“三分钟内不逃离底层”、“你的时薪只值 0.003 美元”，这种极端言论居然还有人当真。作者写这篇文章的目的，就是想给这种过热的 rhetoric 降降温，告诉大家别被这些情绪化的内容带偏了节奏。\n\n### AI 不是魔法，只是搜索和优化\n那怎么看待现在的 AI 热潮？作者的观点很直接：AI 不是什么颠覆性的魔法，它只是技术指数级进步的自然延续。虽然它在某些领域是巨大的进步，但本质上它依然是 search 和 optimization。如果你 CS 基础打得牢，就会知道这些东西是有边界的，不可能像某些人吹嘘的那样“递归进化”到失控。像 Andrej Karpathy 的 autoresearch 项目确实很酷，但那是搜索的胜利，不是科幻小说里的奇点降临。\n\n### 真正的危机是“制造复杂度”的人\n既然 AI 没那么可怕，那为什么大家还是这么焦虑？作者指出了一个残酷的现实：如果你的工作本质是给别人制造复杂度，那你确实该慌了。那些靠“寻租”生存的日子快到头了。这倒不是因为 AI 消灭了寻租行为，而是因为寻租是个零和游戏。在大公司利用 AI 工具把这种寻租能力集中化之后，个体玩家根本赢不了。所谓的裁员潮，本质上是大玩家在收割这些零和游戏的筹码，只不过他们打着 AI 的旗号来拉升股价罢了。\n\n### 避开零和游戏，去创造价值\n那怎么办？作者给出的核心建议是：别玩零和游戏。这是他一直强调的生存法则。与其担心被替代，不如去为他人创造价值。只要你创造的价值多于你消耗的，你在任何运转良好的社区里都是受欢迎的。不需要追求无限增长，也不需要时刻和别人比较，只要做到“more than you consume”就足够了。世界不是红皇后的赛跑，不需要为了留在原地而拼命奔跑。\n\n### 少看焦虑文，多做实在事\n最后作者自嘲说，这种讲道理的文章肯定比那些贩卖焦虑的“末日论”流量要少。但他认为这才是真正的出路。在这个充满噪音的时代，保持清醒，专注于创造正向价值，才是对抗不确定性的最佳手段。别管那些说你不用新工具就一文不值的人，把注意力放在解决问题上，回报自然会来。"
-    },
-    {
-      "id": 47335572,
-      "by": "raldi",
-      "title": "Whistleblower: DOGE member took Social Security data to new job",
-      "url": "https://www.washingtonpost.com/politics/2026/03/10/social-security-data-breach-doge-2/",
-      "score": 391,
-      "detailUpdatedAt": 1773245638,
-      "createdAt": 1773238265,
-      "aiSummaryUpdatedAt": 1773246711,
-      "aisummary": {
-        "chinese_title": "告密：前 DOGE 成员疑携社会保障数据入职，暴露权限滥用与审计缺失",
-        "emoji": "😡",
-        "sarcastic_question": "允许未审查人员带走敏感数据，这叫政府吗？"
-      },
-      "classifications": {
-        "topics": [
-          3,
-          9,
-          6
-        ],
-        "facets": [
-          8
-        ],
-        "tags": [
-          "Social Security Administration (SSA)",
-          "DOGE",
-          "data exfiltration",
-          "Washington Post"
-        ]
-      },
-      "classificationsUpdatedAt": 1773239804,
-      "aiSummary": {
-        "chinese_title": "告密：前 DOGE 成员疑携社会保障数据入职，暴露权限滥用与审计缺失",
-        "emoji": "😡",
-        "sarcastic_question": "允许未审查人员带走敏感数据，这叫政府吗？"
-      },
-      "detail": {
-        "id": 47335572,
-        "by": "raldi",
-        "title": "Whistleblower: DOGE member took Social Security data to new job",
-        "url": "https://www.washingtonpost.com/politics/2026/03/10/social-security-data-breach-doge-2/",
-        "score": 391,
-        "detailUpdatedAt": 1773245638,
-        "createdAt": 1773238265,
-        "aiSummaryUpdatedAt": 1773246711,
-        "aisummary": {
-          "chinese_title": "告密：前 DOGE 成员疑携社会保障数据入职，暴露权限滥用与审计缺失",
-          "discussion_overview": [
-            {
-              "category": "安全漏洞与数据外泄指控",
-              "summary": "告密者称有前 DOGE 成员把 Social Security 数据拷到 flash drive（U盘）并带走；机构回应称数据存于“secure environment walled‑off from the internet”，评论指出两者自相矛盾，USB 外泄与所谓“隔离环境”不可能并存。多条 contemporaneous 报道和评论称 DOGE 人员被授予 root 级权限、审计与日志被削弱/关闭，并有将数据放到 S3 buckets 的说法，意味着传统联邦数据保护模型被绕过。评论者因此认为即便单个指控未完全证实，整体情境（异常权限、审计被禁、外包人员广泛访问）使得数据外泄指控极为可信且值得彻查。",
-              "supportid": [
-                "47335750",
-                "47337068",
-                "47337143",
-                "47335783",
-                "47336994",
-                "47336162",
-                "47336277"
-              ]
-            },
-            {
-              "category": "内部人风险、招聘与文化问题",
-              "summary": "许多评论把责任部分归于招聘与文化：年轻工程师可能出于“数据收藏癖”而私自保留敏感信息，类似 Harold T. Martin 的案例被拿来警示。更重要的是，有人指出对敏感岗位的背景审查、岗位匹配和分权控制不够，DOGE 被指用政治人员压过流程，让未经充分审查或经验不足的人获得高权限。评论普遍强调应以制度设计（least privilege、临时权限、签批流程、真实审计与执行）来防范人为失误或好奇心造成的损害，而不是只寄希望于个体自律。",
-              "supportid": [
-                "47335730",
-                "47335967",
-                "47336093",
-                "47336621",
-                "47335912",
-                "47335962"
-              ]
-            },
-            {
-              "category": "政治滥用与数据商品化风险",
-              "summary": "评论者担忧若此类社会保障数据外泄，会被用于政治目标（如更复杂的选民预测、剔除选民名册或精细化定向），将是比 Cambridge Analytica 更大规模的滥用风险。潜在“买家”被提及包括 xAI、广告技术公司、Palantir、数据经纪人、甚至外国政府；还讨论了通过 LLM 洗数据以提供“insights”从而规避直接买卖痕迹的可能性。诸多评论认为数据被广泛可用后，危害不仅是隐私泄露，还可能演变成系统性选举与治理风险。",
-              "supportid": [
-                "47335908",
-                "47336167",
-                "47337433",
-                "47336338",
-                "47336062",
-                "47336206"
-              ]
-            },
-            {
-              "category": "执法、追责与赦免的现实担忧",
-              "summary": "不少评论呼吁严格立案起诉并以最重刑责追究（类比 Chelsea Manning 的处置），但同时对能否真正实现司法后果持悲观态度。主要理由包括总统 pardon power（总统特赦权）可能阻断追责、联邦层面政治干预或高层阻止起诉，以及过去对类似事件追责不足导致的示范效应。有人主张即便结果可能被政治化，也应先提起诉讼以形成记录、公开事实并施加压力，否则没有后果只会鼓励更多滥用。",
-              "supportid": [
-                "47335916",
-                "47336067",
-                "47336098",
-                "47335873",
-                "47336116",
-                "47336792"
-              ]
-            },
-            {
-              "category": "媒体、证据与点名争议",
-              "summary": "关于媒体不点名被指控者的争论很集中：报纸声明未独立证实指控细节，因此拒绝公开被告名，评论分别指出这既是法律/伦理考虑也可能被公众解读为遮掩。有人强调区分“有权限的联邦雇员名单（公共信息）”与“未证实的犯罪指控公开化”两者不同，担忧公开会被用于骚扰。另有评论提到已存在的法庭文件与宣誓证词（部分被上传到 YouTube/存档），这些材料在一定程度上削弱了当局的否认并成为讨论焦点。",
-              "supportid": [
-                "47336362",
-                "47336506",
-                "47336470",
-                "47336369",
-                "47335760",
-                "47336743"
-              ]
-            },
-            {
-              "category": "DOGE 的政治功能与体制性后果",
-              "summary": "部分评论认为 DOGE 不只是一次糟糕的雇佣，而可能被用作媒体话题与掩护，吸引注意力同时方便行政层面推进更广泛的政策与机构重整（例如削弱监管、调整人事）。他们指出 DOGE 期间有监督人员被解雇、高权限被授予外来人员、审计被削弱等操作，认为这类做法体现系统性意图而非孤立错误。该观点警告：若把制度控制权交给未受限的外部团队，后果可能长期且难以修复，许多滥用行为也可能永远不会完全浮出水面，除非有更多告密与司法介入。",
-              "supportid": [
-                "47337338",
-                "47336433",
-                "47336928",
-                "47335908",
-                "47337100"
-              ]
-            }
-          ],
-          "terminologies": [
-            {
-              "term": "DOGE",
-              "explanation": "评论与报道中使用的简称，指涉一批被引入联邦机构的外部技术/顾问人员与相关项目，评论里指其曾获异常高权限并被指绕过安全控制。"
-            },
-            {
-              "term": "data exfiltration（数据外泄）",
-              "explanation": "未经授权将敏感数据复制或转移到外部媒介（如 flash drive、个人设备或外部云存储）的行为，评论中是核心指控之一。"
-            },
-            {
-              "term": "S3",
-              "explanation": "Amazon S3（云对象存储服务），评论中提及有报道称数据被放入 S3 buckets 以说明可能的外部存储与访问路径。"
-            },
-            {
-              "term": "SCIF",
-              "explanation": "SCIF（Sensitive Compartmented Information Facility），处理高度机密信息的受控隔离房间/设施，评论中用作讨论何为“secure environment”的对比参照。"
-            },
-            {
-              "term": "GDPR",
-              "explanation": "GDPR（欧盟通用数据保护条例），评论中用来对比美国在公民数据保护与执法上的差异与教训。"
-            },
-            {
-              "term": "LLM",
-              "explanation": "LLM（large language model，大规模语言模型），评论提出可能把非法数据“洗”进 LLM 以生成可用洞见并模糊来源的风险。"
-            },
-            {
-              "term": "pardon power（总统特赦权）",
-              "explanation": "美国总统的赦免权，评论中被多次提及为可能阻碍对涉案人员刑事追责的制度性问题。"
-            }
-          ],
-          "context": "本次讨论源自一份告密者投诉，指称一名前 DOGE 成员将 Social Security（社会保障）数据带到新雇主并可能复制到外部媒介。早期报道与法庭文件曾提到 DOGE 人员在多处机构获得异常高权限、审计被削弱、并有将数据转移到 S3 的说法；媒体在报道中并未点名被指控者，引发关于证据、命名与骚扰的争论。评论围绕技术细节（flash drive、root 权限、审计日志、S3）、内部人风险、潜在的政治/选举滥用、以及司法追责与总统赦免可能带来的制度性后果展开。",
-          "emoji": "😡",
-          "sarcastic_question": "允许未审查人员带走敏感数据，这叫政府吗？"
-        },
-        "classifications": {
-          "topics": [
-            3,
-            9,
-            6
-          ],
-          "facets": [
-            8
-          ],
-          "tags": [
-            "Social Security Administration (SSA)",
-            "DOGE",
-            "data exfiltration",
-            "Washington Post"
-          ]
-        },
-        "classificationsUpdatedAt": 1773239804,
-        "aiSummary": {
-          "chinese_title": "告密：前 DOGE 成员疑携社会保障数据入职，暴露权限滥用与审计缺失",
-          "discussion_overview": [
-            {
-              "category": "安全漏洞与数据外泄指控",
-              "summary": "告密者称有前 DOGE 成员把 Social Security 数据拷到 flash drive（U盘）并带走；机构回应称数据存于“secure environment walled‑off from the internet”，评论指出两者自相矛盾，USB 外泄与所谓“隔离环境”不可能并存。多条 contemporaneous 报道和评论称 DOGE 人员被授予 root 级权限、审计与日志被削弱/关闭，并有将数据放到 S3 buckets 的说法，意味着传统联邦数据保护模型被绕过。评论者因此认为即便单个指控未完全证实，整体情境（异常权限、审计被禁、外包人员广泛访问）使得数据外泄指控极为可信且值得彻查。",
-              "supportid": [
-                "47335750",
-                "47337068",
-                "47337143",
-                "47335783",
-                "47336994",
-                "47336162",
-                "47336277"
-              ]
-            },
-            {
-              "category": "内部人风险、招聘与文化问题",
-              "summary": "许多评论把责任部分归于招聘与文化：年轻工程师可能出于“数据收藏癖”而私自保留敏感信息，类似 Harold T. Martin 的案例被拿来警示。更重要的是，有人指出对敏感岗位的背景审查、岗位匹配和分权控制不够，DOGE 被指用政治人员压过流程，让未经充分审查或经验不足的人获得高权限。评论普遍强调应以制度设计（least privilege、临时权限、签批流程、真实审计与执行）来防范人为失误或好奇心造成的损害，而不是只寄希望于个体自律。",
-              "supportid": [
-                "47335730",
-                "47335967",
-                "47336093",
-                "47336621",
-                "47335912",
-                "47335962"
-              ]
-            },
-            {
-              "category": "政治滥用与数据商品化风险",
-              "summary": "评论者担忧若此类社会保障数据外泄，会被用于政治目标（如更复杂的选民预测、剔除选民名册或精细化定向），将是比 Cambridge Analytica 更大规模的滥用风险。潜在“买家”被提及包括 xAI、广告技术公司、Palantir、数据经纪人、甚至外国政府；还讨论了通过 LLM 洗数据以提供“insights”从而规避直接买卖痕迹的可能性。诸多评论认为数据被广泛可用后，危害不仅是隐私泄露，还可能演变成系统性选举与治理风险。",
-              "supportid": [
-                "47335908",
-                "47336167",
-                "47337433",
-                "47336338",
-                "47336062",
-                "47336206"
-              ]
-            },
-            {
-              "category": "执法、追责与赦免的现实担忧",
-              "summary": "不少评论呼吁严格立案起诉并以最重刑责追究（类比 Chelsea Manning 的处置），但同时对能否真正实现司法后果持悲观态度。主要理由包括总统 pardon power（总统特赦权）可能阻断追责、联邦层面政治干预或高层阻止起诉，以及过去对类似事件追责不足导致的示范效应。有人主张即便结果可能被政治化，也应先提起诉讼以形成记录、公开事实并施加压力，否则没有后果只会鼓励更多滥用。",
-              "supportid": [
-                "47335916",
-                "47336067",
-                "47336098",
-                "47335873",
-                "47336116",
-                "47336792"
-              ]
-            },
-            {
-              "category": "媒体、证据与点名争议",
-              "summary": "关于媒体不点名被指控者的争论很集中：报纸声明未独立证实指控细节，因此拒绝公开被告名，评论分别指出这既是法律/伦理考虑也可能被公众解读为遮掩。有人强调区分“有权限的联邦雇员名单（公共信息）”与“未证实的犯罪指控公开化”两者不同，担忧公开会被用于骚扰。另有评论提到已存在的法庭文件与宣誓证词（部分被上传到 YouTube/存档），这些材料在一定程度上削弱了当局的否认并成为讨论焦点。",
-              "supportid": [
-                "47336362",
-                "47336506",
-                "47336470",
-                "47336369",
-                "47335760",
-                "47336743"
-              ]
-            },
-            {
-              "category": "DOGE 的政治功能与体制性后果",
-              "summary": "部分评论认为 DOGE 不只是一次糟糕的雇佣，而可能被用作媒体话题与掩护，吸引注意力同时方便行政层面推进更广泛的政策与机构重整（例如削弱监管、调整人事）。他们指出 DOGE 期间有监督人员被解雇、高权限被授予外来人员、审计被削弱等操作，认为这类做法体现系统性意图而非孤立错误。该观点警告：若把制度控制权交给未受限的外部团队，后果可能长期且难以修复，许多滥用行为也可能永远不会完全浮出水面，除非有更多告密与司法介入。",
-              "supportid": [
-                "47337338",
-                "47336433",
-                "47336928",
-                "47335908",
-                "47337100"
-              ]
-            }
-          ],
-          "terminologies": [
-            {
-              "term": "DOGE",
-              "explanation": "评论与报道中使用的简称，指涉一批被引入联邦机构的外部技术/顾问人员与相关项目，评论里指其曾获异常高权限并被指绕过安全控制。"
-            },
-            {
-              "term": "data exfiltration（数据外泄）",
-              "explanation": "未经授权将敏感数据复制或转移到外部媒介（如 flash drive、个人设备或外部云存储）的行为，评论中是核心指控之一。"
-            },
-            {
-              "term": "S3",
-              "explanation": "Amazon S3（云对象存储服务），评论中提及有报道称数据被放入 S3 buckets 以说明可能的外部存储与访问路径。"
-            },
-            {
-              "term": "SCIF",
-              "explanation": "SCIF（Sensitive Compartmented Information Facility），处理高度机密信息的受控隔离房间/设施，评论中用作讨论何为“secure environment”的对比参照。"
-            },
-            {
-              "term": "GDPR",
-              "explanation": "GDPR（欧盟通用数据保护条例），评论中用来对比美国在公民数据保护与执法上的差异与教训。"
-            },
-            {
-              "term": "LLM",
-              "explanation": "LLM（large language model，大规模语言模型），评论提出可能把非法数据“洗”进 LLM 以生成可用洞见并模糊来源的风险。"
-            },
-            {
-              "term": "pardon power（总统特赦权）",
-              "explanation": "美国总统的赦免权，评论中被多次提及为可能阻碍对涉案人员刑事追责的制度性问题。"
-            }
-          ],
-          "context": "本次讨论源自一份告密者投诉，指称一名前 DOGE 成员将 Social Security（社会保障）数据带到新雇主并可能复制到外部媒介。早期报道与法庭文件曾提到 DOGE 人员在多处机构获得异常高权限、审计被削弱、并有将数据转移到 S3 的说法；媒体在报道中并未点名被指控者，引发关于证据、命名与骚扰的争论。评论围绕技术细节（flash drive、root 权限、审计日志、S3）、内部人风险、潜在的政治/选举滥用、以及司法追责与总统赦免可能带来的制度性后果展开。",
-          "emoji": "😡",
-          "sarcastic_question": "允许未审查人员带走敏感数据，这叫政府吗？"
-        }
-      }
-    },
-    {
-      "id": 47295855,
-      "by": "TheWiggles",
-      "title": "Julia Snail – An Emacs Development Environment for Julia Like Clojure's Cider",
-      "url": "https://github.com/gcv/julia-snail",
-      "score": 126,
-      "detailUpdatedAt": 1773243841,
-      "createdAt": 1773202856,
-      "aiSummaryUpdatedAt": 1773244903,
-      "aisummary": {
-        "chinese_title": "Julia Snail：Emacs 上的类 CIDER Julia 开发，引发 Emacs 现代化争论",
-        "emoji": "🐌",
-        "sarcastic_question": "真有人觉得把REPL+Emacs叫现代化吗？"
-      },
-      "classifications": {
-        "topics": [
-          4
-        ],
-        "facets": [
-          4
-        ],
-        "tags": [
-          "Julia Snail",
-          "Julia",
-          "Emacs",
-          "Cider",
-          "Clojure",
-          "REPL"
-        ]
-      },
-      "classificationsUpdatedAt": 1773230180,
-      "aiSummary": {
-        "chinese_title": "Julia Snail：Emacs 上的类 CIDER Julia 开发，引发 Emacs 现代化争论",
-        "emoji": "🐌",
-        "sarcastic_question": "真有人觉得把REPL+Emacs叫现代化吗？"
-      },
-      "detail": {
-        "id": 47295855,
-        "by": "TheWiggles",
-        "title": "Julia Snail – An Emacs Development Environment for Julia Like Clojure's Cider",
-        "url": "https://github.com/gcv/julia-snail",
-        "score": 126,
-        "detailUpdatedAt": 1773243841,
-        "createdAt": 1773202856,
-        "aiSummaryUpdatedAt": 1773244903,
-        "aisummary": {
-          "chinese_title": "Julia Snail：Emacs 上的类 CIDER Julia 开发，引发 Emacs 现代化争论",
-          "discussion_overview": [
-            {
-              "category": "工具谱系：CIDER、SLIME 与 nREPL",
-              "summary": "评论指出把 Julia Snail 直接类比为 Clojure 的 CIDER 需要注意历史渊源：CIDER 最初是基于 Common Lisp 的 SLIME 实现，随后分叉并最终衍生出基于 nREPL 的协议栈。也就是说“像 CIDER 一样”往往不只是前端体验，而涉及编辑器与 REPL 之间的协议与实现细节（例如 nREPL）。这一点被用来提醒读者不要把名字当做单一模式的简单类比，而要关注底层通信与交互设计。",
-              "supportid": [
-                "47334695"
-              ]
-            },
-            {
-              "category": "跨语言需求与工作流偏好（Haskell、notebook vs REPL）",
-              "summary": "有评论者表示希望类似的 Emacs+交互式工作流能为 Haskell 提供，认为 notebook 模式并非他们的首选。具体建议包括借鉴 dataframe 等库以缩短从代码到图表的反馈时间（time-to-graph），并强调文件+REPL 的组合比 notebook 更适合把函数保存在文件中同时进行交互式试验。评论还指出一个常见技术痛点：REPL 在重新加载文件时可能丢失已定义的变量或状态，这需要针对性设计来保持会话一致性。",
-              "supportid": [
-                "47333036"
-              ]
-            },
-            {
-              "category": "对 Emacs 可用性的批评：性能、交互与现代化缺陷",
-              "summary": "部分评论强烈批评 Emacs 的使用体验，列举了具体交互问题（例如“滚动会移动光标”）以及整体感觉“慢且多 bug”。有人认为 Emacs 缺乏真正的多线程支持，默认 UI 显得过时，难以满足现代文本编辑器的期望。这些批评把问题指向核心架构与长期遗留的交互模式，认为仅靠扩展无法彻底解决一些底层性能和并发限制。",
-              "supportid": [
-                "47332291",
-                "47332088",
-                "47333964",
-                "47334336"
-              ]
-            },
-            {
-              "category": "Emacs 支持者与可行的改进路径：生态、插件与开源贡献",
-              "summary": "另一组评论为 Emacs 辩护，指出许多用户并不认同“慢”的说法，Emacs 本身可以非常高效且高度可定制。具体可行的改进包括使用分屏或标记-恢复位置来解决滚动问题，采用 embark、which-key、transient、hydra、ivy/helm/vertico 等包提升交互体验，或直接使用 Spacemacs、Doom 之类的发行版以获得更现代的默认配置。评论还强调社区与开源实践：若发现缺陷应提交 PR 修复，而 Emacs 的现状在很大程度上是由核心维护者与用户偏好共同决定的。",
-              "supportid": [
-                "47334391",
-                "47332272",
-                "47332306",
-                "47334390",
-                "47334448",
-                "47333748",
-                "47334463"
-              ]
-            }
-          ],
-          "terminologies": [
-            {
-              "term": "CIDER",
-              "explanation": "CIDER（Clojure Interactive Development Environment that Rocks）——Clojure 在 Emacs 中的交互式开发插件，提供紧密的 REPL 集成与编辑器交互，最初受 SLIME 启发并演化出基于 nREPL 的实现。"
-            },
-            {
-              "term": "SLIME",
-              "explanation": "SLIME（Superior Lisp Interaction Mode for Emacs）——Common Lisp 在 Emacs 上的交互式开发环境与协议，历史上影响了 CIDER 的设计与实现。"
-            },
-            {
-              "term": "nREPL",
-              "explanation": "nREPL（networked REPL）——Clojure 生态中用于编辑器与 REPL 之间通信的网络化协议，支持多客户端交互与更丰富的编辑器集成。"
-            },
-            {
-              "term": "REPL",
-              "explanation": "REPL（Read–Eval–Print Loop）——交互式命令行会话，用于即时执行代码并保留运行时状态；讨论中涉及 REPL 在重载文件时状态丢失、与编辑器同步等问题。"
-            },
-            {
-              "term": "Emacs",
-              "explanation": "Emacs（GNU Emacs）——一个高度可定制的文本编辑器与开发环境，拥有丰富的包生态和发行版（如 Spacemacs、Doom），讨论集中在其性能、UI 与可定制性优劣上。"
-            }
-          ],
-          "context": "本帖源自对 Julia Snail（一个试图在 Emacs 中为 Julia 提供类似 CIDER 的交互式开发体验）的讨论，标题把它与 Clojure 社区常用的 CIDER 做了类比。评论追溯了 CIDER 的历史（从 SLIME 到基于 nREPL 的协议），并有人希望类似方法能推广到 Haskell，同时指出 notebook 与文件+REPL 的工作流差异与 REPL 状态一致性问题。话题扩展到对 Emacs 本身的争论：抱怨集中在滚动、并发与现代 UI，而支持者则列举了可通过插件、分屏或发行版（Spacemacs/Doom）改善的实际方案，并强调通过开源提交 PR 来修补缺陷。",
-          "emoji": "🐌",
-          "sarcastic_question": "真有人觉得把REPL+Emacs叫现代化吗？"
-        },
-        "classifications": {
-          "topics": [
-            4
-          ],
-          "facets": [
-            4
-          ],
-          "tags": [
-            "Julia Snail",
-            "Julia",
-            "Emacs",
-            "Cider",
-            "Clojure",
-            "REPL"
-          ]
-        },
-        "classificationsUpdatedAt": 1773230180,
-        "aiSummary": {
-          "chinese_title": "Julia Snail：Emacs 上的类 CIDER Julia 开发，引发 Emacs 现代化争论",
-          "discussion_overview": [
-            {
-              "category": "工具谱系：CIDER、SLIME 与 nREPL",
-              "summary": "评论指出把 Julia Snail 直接类比为 Clojure 的 CIDER 需要注意历史渊源：CIDER 最初是基于 Common Lisp 的 SLIME 实现，随后分叉并最终衍生出基于 nREPL 的协议栈。也就是说“像 CIDER 一样”往往不只是前端体验，而涉及编辑器与 REPL 之间的协议与实现细节（例如 nREPL）。这一点被用来提醒读者不要把名字当做单一模式的简单类比，而要关注底层通信与交互设计。",
-              "supportid": [
-                "47334695"
-              ]
-            },
-            {
-              "category": "跨语言需求与工作流偏好（Haskell、notebook vs REPL）",
-              "summary": "有评论者表示希望类似的 Emacs+交互式工作流能为 Haskell 提供，认为 notebook 模式并非他们的首选。具体建议包括借鉴 dataframe 等库以缩短从代码到图表的反馈时间（time-to-graph），并强调文件+REPL 的组合比 notebook 更适合把函数保存在文件中同时进行交互式试验。评论还指出一个常见技术痛点：REPL 在重新加载文件时可能丢失已定义的变量或状态，这需要针对性设计来保持会话一致性。",
-              "supportid": [
-                "47333036"
-              ]
-            },
-            {
-              "category": "对 Emacs 可用性的批评：性能、交互与现代化缺陷",
-              "summary": "部分评论强烈批评 Emacs 的使用体验，列举了具体交互问题（例如“滚动会移动光标”）以及整体感觉“慢且多 bug”。有人认为 Emacs 缺乏真正的多线程支持，默认 UI 显得过时，难以满足现代文本编辑器的期望。这些批评把问题指向核心架构与长期遗留的交互模式，认为仅靠扩展无法彻底解决一些底层性能和并发限制。",
-              "supportid": [
-                "47332291",
-                "47332088",
-                "47333964",
-                "47334336"
-              ]
-            },
-            {
-              "category": "Emacs 支持者与可行的改进路径：生态、插件与开源贡献",
-              "summary": "另一组评论为 Emacs 辩护，指出许多用户并不认同“慢”的说法，Emacs 本身可以非常高效且高度可定制。具体可行的改进包括使用分屏或标记-恢复位置来解决滚动问题，采用 embark、which-key、transient、hydra、ivy/helm/vertico 等包提升交互体验，或直接使用 Spacemacs、Doom 之类的发行版以获得更现代的默认配置。评论还强调社区与开源实践：若发现缺陷应提交 PR 修复，而 Emacs 的现状在很大程度上是由核心维护者与用户偏好共同决定的。",
-              "supportid": [
-                "47334391",
-                "47332272",
-                "47332306",
-                "47334390",
-                "47334448",
-                "47333748",
-                "47334463"
-              ]
-            }
-          ],
-          "terminologies": [
-            {
-              "term": "CIDER",
-              "explanation": "CIDER（Clojure Interactive Development Environment that Rocks）——Clojure 在 Emacs 中的交互式开发插件，提供紧密的 REPL 集成与编辑器交互，最初受 SLIME 启发并演化出基于 nREPL 的实现。"
-            },
-            {
-              "term": "SLIME",
-              "explanation": "SLIME（Superior Lisp Interaction Mode for Emacs）——Common Lisp 在 Emacs 上的交互式开发环境与协议，历史上影响了 CIDER 的设计与实现。"
-            },
-            {
-              "term": "nREPL",
-              "explanation": "nREPL（networked REPL）——Clojure 生态中用于编辑器与 REPL 之间通信的网络化协议，支持多客户端交互与更丰富的编辑器集成。"
-            },
-            {
-              "term": "REPL",
-              "explanation": "REPL（Read–Eval–Print Loop）——交互式命令行会话，用于即时执行代码并保留运行时状态；讨论中涉及 REPL 在重载文件时状态丢失、与编辑器同步等问题。"
-            },
-            {
-              "term": "Emacs",
-              "explanation": "Emacs（GNU Emacs）——一个高度可定制的文本编辑器与开发环境，拥有丰富的包生态和发行版（如 Spacemacs、Doom），讨论集中在其性能、UI 与可定制性优劣上。"
-            }
-          ],
-          "context": "本帖源自对 Julia Snail（一个试图在 Emacs 中为 Julia 提供类似 CIDER 的交互式开发体验）的讨论，标题把它与 Clojure 社区常用的 CIDER 做了类比。评论追溯了 CIDER 的历史（从 SLIME 到基于 nREPL 的协议），并有人希望类似方法能推广到 Haskell，同时指出 notebook 与文件+REPL 的工作流差异与 REPL 状态一致性问题。话题扩展到对 Emacs 本身的争论：抱怨集中在滚动、并发与现代 UI，而支持者则列举了可通过插件、分屏或发行版（Spacemacs/Doom）改善的实际方案，并强调通过开源提交 PR 来修补缺陷。",
-          "emoji": "🐌",
-          "sarcastic_question": "真有人觉得把REPL+Emacs叫现代化吗？"
-        }
-      },
-      "articleSummary": "## 一句话总结\nJulia Snail 把 Clojure 社区顶级的 Cider 开发体验搬到了 Emacs 上，通过复用 Julia 原生的 VS Code 协议，用极少的代码实现了一个功能完备的 REPL 环境。\n\n### Clojure 用户的“戒断反应”\n如果你是从 Clojure 阵营转过来的 Julia 开发者，可能会觉得 Emacs 里的 Julia 支持差点意思。习惯了 Cider 那种丝滑的 REPL 交互、代码求值和调试体验，再看 Julia 原生的 `julia-mode`，总感觉像是在用记事本。作者也是这么想的，他不想为了写 Julia 就放弃 Emacs 里那种“代码即数据”的流畅感，但他也不想从头造轮子。\n\n### 别重复造轮子，去“偷”现成的\n那怎么办？自己写一个语言服务器协议（LSP）的实现？工作量太大了。这里有个巧妙的设计：Julia 官方为了支持 VS Code，已经维护了一套非常完善的 LanguageServer.jl。作者发现，与其重新解析代码，不如直接让 Emacs 假装成 VS Code。通过 `eglot` 或者 `lsp-mode` 连接这个现成的服务器，基础的补全、跳转和诊断功能就全都有了，而且稳定性和官方 VS Code 插件一模一样。\n\n### REPL 才是灵魂，LSP 只是外壳\n但光有 LSP 不够，动态语言开发的核心是 REPL。有意思的地方在于，Snail 并没有重新发明一套通信协议，而是利用了 Julia 自带的 `stdin/stdout` 交互机制。它通过异步进程管理 Julia 的 REPL，把用户的代码发送过去执行，再把结果抓回来渲染到 Emacs 的 buffer 里。这样做的好处是，你在 Emacs 里看到的输出，和你在终端里跑 Julia 的行为完全一致，不会出现“本地能跑，REPL 里报错”的诡异情况。\n\n### 像 Cider 一样思考，而不是像 VS Code\n解决了通信问题，接下来就是交互逻辑。Snail 的核心思路其实很简单：模仿 Cider 的按键绑定和工作流。比如 `C-x C-e` 求值当前表达式，`C-c C-k` 加载整个文件。它不只是简单地发送代码，还处理了 Julia 的“模块”系统。当你切换 buffer 时，Snail 会自动切换到对应的 Module 上下文，确保你的代码是在正确的命名空间里执行的，这对于处理 Julia 的多重分发机制至关重要。\n\n### 极简架构带来的高可维护性\n这个项目最吸引人的地方在于它的代码量。因为把繁重的语法分析和类型推断工作都甩给了 Julia 原生的 LanguageServer，Snail 的核心 Emacs Lisp 代码非常精简。这意味着它不会像那些巨无霸插件一样，升级一次 Emacs 就崩一次。对于有经验的开发者来说，这种“胶水代码”少、逻辑清晰的架构，意味着你可以轻松读懂源码，甚至根据自己的需求快速打补丁。\n\n### 给硬核开发者的终极玩具\n说白了，Julia Snail 不是给想找个“好用 IDE”的新手准备的，它是给那些离不开 Emacs、又想要 Clojure 级别交互体验的“老顽固”准备的。它填补了 Julia 生态在 Emacs 上的拼图，让你既能享受 Julia 的高性能科学计算，又能守住 Emacs 那套“键盘不离手”的高效工作流。如果你正好卡在这个交集上，这绝对是值得尝试的方案。"
     }
   ]
 }
