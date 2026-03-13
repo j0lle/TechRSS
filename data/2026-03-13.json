@@ -1,9 +1,9 @@
 {
   "date": "2026-03-13",
   "total_feeds": 92,
-  "success_feeds": 85,
-  "total_articles": 2420,
-  "filtered_articles": 19,
+  "success_feeds": 86,
+  "total_articles": 2446,
+  "filtered_articles": 20,
   "articles": [
     {
       "title": "Shopify/liquid: Performance: 53% faster parse+render, 61% fewer allocations",
@@ -86,6 +86,26 @@
       "rank": 4
     },
     {
+      "title": "Btw: Software, turnkey, beheerd, as a service",
+      "title_zh": "荷兰税务局增值税系统外包风险分析",
+      "link": "https://berthub.eu/articles/posts/software-turnkey-as-a-service/",
+      "pub_date": "2026-03-13T11:43:53.000Z",
+      "summary": "荷兰税务局计划将增值税系统外包给美国公司，采用完全托管的模式。文章将软件采购模式分为六个等级：0级自建（如税务局现有核心系统、选举计票软件Abacus）、1级购买许可证自行安装、2级供应商安装、3级交钥匙集成、4级交钥匙加托管管理、5级完全SaaS。每增加一级，客户对系统的控制力和理解度递减，对供应商的依赖度递增。税务局的增值税方案选择第4级，意味着软件和服务器完全由美国公司管理，荷兰方面无法接管维护，也无法了解系统内部运作。这涉及每年800亿欧元税收收入的控制权，一旦供应商停止服务或出现故障，税务局将陷入被动。文章指出荷兰政府广泛采用Microsoft 365等SaaS服务，违反了必须制定退出计划的国家云政策。",
+      "source_name": "berthub.eu",
+      "score": 18,
+      "depth": 5,
+      "novelty": 6,
+      "breadth": 7,
+      "category": "engineering",
+      "keywords": [
+        "managed service",
+        "software procurement",
+        "tax system",
+        "outsourcing"
+      ],
+      "rank": 5
+    },
+    {
       "title": "What do coders do after AI?",
       "title_zh": "AI 时代程序员的身份危机与出路",
       "link": "https://anildash.com/2026/03/13/coders-after-ai/",
@@ -103,7 +123,7 @@
         "career",
         "automation"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Can the MacBook Neo replace my M4 Air?",
@@ -123,7 +143,7 @@
         "LLM",
         "performance"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Windows 11 after two decades of macOS: okay, but also awful",
@@ -143,7 +163,7 @@
         "keyboard shortcuts",
         "Unreal Engine"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Quoting Les Orchard",
@@ -162,7 +182,7 @@
         "developer-motivation",
         "career"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Software Proprioception",
@@ -182,7 +202,7 @@
         "interaction design",
         "macOS"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Coding After Coders: The End of Computer Programming as We Know It",
@@ -202,7 +222,7 @@
         "ChatGPT",
         "career"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "Windows stack limit checking retrospective: x86-32, also known as i386",
@@ -222,7 +242,7 @@
         "calling convention",
         "_chkstk"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "On Making",
@@ -242,7 +262,7 @@
         "Claude",
         "fulfillment"
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "title": "Inverse cosine",
@@ -262,7 +282,7 @@
         "analytic continuation",
         "branch cut"
       ],
-      "rank": 13
+      "rank": 14
     },
     {
       "title": "MALUS - Clean Room as a Service",
@@ -282,7 +302,7 @@
         "clean room",
         "satire"
       ],
-      "rank": 14
+      "rank": 15
     },
     {
       "title": "Apple’s Platform Security Guide Adds a Brief Note on the MacBook Neo’s On-Screen Camera Indicator",
@@ -302,7 +322,7 @@
         "MacBook Neo",
         "indicator light"
       ],
-      "rank": 15
+      "rank": 16
     },
     {
       "title": "Eddy Cue Says F1 on Apple TV Opened to Increased Viewership",
@@ -322,7 +342,7 @@
         "viewership",
         "Eddy Cue"
       ],
-      "rank": 16
+      "rank": 17
     },
     {
       "title": "Microsoft’s 1986 IPO",
@@ -341,7 +361,7 @@
         "IPO",
         "history"
       ],
-      "rank": 17
+      "rank": 18
     },
     {
       "title": "You (I) should document the forms of your Django web application",
@@ -360,7 +380,7 @@
         "forms",
         "documentation"
       ],
-      "rank": 18
+      "rank": 19
     },
     {
       "title": "Accents",
@@ -379,7 +399,7 @@
         "accent colors",
         "iMac"
       ],
-      "rank": 19
+      "rank": 20
     }
   ]
 }
