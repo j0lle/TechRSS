@@ -1,8 +1,8 @@
 {
   "date": "2026-03-13",
   "total_feeds": 92,
-  "success_feeds": 86,
-  "total_articles": 2446,
+  "success_feeds": 85,
+  "total_articles": 2421,
   "filtered_articles": 20,
   "articles": [
     {
@@ -345,6 +345,45 @@
       "rank": 17
     },
     {
+      "title": "It's Work that taught me how to think",
+      "title_zh": "工作而非学校教会我如何思考",
+      "link": "https://idiallo.com/blog/work-taught-me-how-to-think?src=feed",
+      "pub_date": "2026-03-13T12:00:00.000Z",
+      "summary": "作者通过个人经历对比了学校教育与实际工作的差异。在大学 CS 课程中，学生只关心考试分数，教授展示的 Snake 游戏编程演示被学生以\"这会考吗\"回应。作者退学后在家具仓库工作，面对查找收据的低效流程，自学 VBScript、OCR 和 Excel 宏，用一个月时间构建了自动化系统，将查找时间从数小时缩短到一分钟。多年后面对陌生的硬件设备，作者不再恐慌，而是通过拆解问题、查阅手册、Telnet 连接逐步解决。学校教授已知问题的标准解法，工作则要求面对未知问题并自行构建解决方案，这种面对陌生问题的能力才是真正的思考训练。",
+      "source_name": "idiallo.com",
+      "score": 10,
+      "depth": 3,
+      "novelty": 3,
+      "breadth": 4,
+      "category": "opinion",
+      "keywords": [
+        "problem-solving",
+        "self-learning",
+        "automation"
+      ],
+      "rank": 18
+    },
+    {
+      "title": "An odd font rendering bug in Firefox and Safari",
+      "title_zh": "Firefox 和 Safari 的字体渲染怪异 bug",
+      "link": "https://shkspr.mobi/blog/2026/03/an-odd-font-rendering-bug-in-firefox-and-safari/",
+      "pub_date": "2026-03-13T12:34:09.000Z",
+      "summary": "",
+      "source_name": "shkspr.mobi",
+      "score": 10,
+      "depth": 4,
+      "novelty": 3,
+      "breadth": 3,
+      "category": "engineering",
+      "keywords": [
+        "font",
+        "Firefox",
+        "Safari",
+        "CSS"
+      ],
+      "rank": 19
+    },
+    {
       "title": "Microsoft’s 1986 IPO",
       "title_zh": "微软 1986 年 IPO 回顾",
       "link": "https://dfarq.homeip.net/microsofts-1986-ipo/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=microsofts-1986-ipo",
@@ -361,7 +400,7 @@
         "IPO",
         "history"
       ],
-      "rank": 18
+      "rank": 20
     },
     {
       "title": "You (I) should document the forms of your Django web application",
@@ -380,7 +419,7 @@
         "forms",
         "documentation"
       ],
-      "rank": 19
+      "rank": 21
     },
     {
       "title": "Accents",
@@ -399,7 +438,7 @@
         "accent colors",
         "iMac"
       ],
-      "rank": 20
+      "rank": 22
     }
   ]
 }
