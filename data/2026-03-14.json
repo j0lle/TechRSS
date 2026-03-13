@@ -1,0 +1,29 @@
+{
+  "date": "2026-03-14",
+  "total_feeds": 92,
+  "success_feeds": 86,
+  "total_articles": 2446,
+  "filtered_articles": 23,
+  "articles": [
+    {
+      "title": "Typesetting sheet music with AI",
+      "title_zh": "AI 识别乐谱来源但生成 Lilypond 代码失败",
+      "link": "https://www.johndcook.com/blog/2026/03/13/typesetting-sheet-music-with-ai/",
+      "pub_date": "2026-03-13T15:15:50.000Z",
+      "summary": "作者测试了 Grok 和 ChatGPT 将乐谱图片转换为 Lilypond 代码的能力。测试使用了两张图片：一张古典音乐（Bach）和一张爵士乐（《Rainy Day》）。结果显示两个模型生成的乐谱都严重失真，Grok 将一小节变成八小节，ChatGPT 甚至产生双声部和声幻觉。但两个模型在识别来源方面表现出色：Grok 正确推断出 Bach 作曲并识别出《Rainy Day》的作曲者 Johnny Burke 和 Jimmy Van Heusen，ChatGPT 在被追问后也识别出《Misty》。和弦符号方面，两个模型都能正确识别爵士乐的和弦，但音符几乎与原曲无关。作者认为 AI 在生成 Lilypond 代码方面表现糟糕，但在音乐识别方面意外准确，考虑到 Lilypond 是一种冷门语言，训练数据应该很有限。",
+      "source_name": "johndcook.com",
+      "score": 11,
+      "depth": 4,
+      "novelty": 4,
+      "breadth": 3,
+      "category": "ai-ml",
+      "keywords": [
+        "Lilypond",
+        "music recognition",
+        "Grok",
+        "ChatGPT"
+      ],
+      "rank": 1
+    }
+  ]
+}
