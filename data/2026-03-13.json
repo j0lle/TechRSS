@@ -1,8 +1,8 @@
 {
   "date": "2026-03-13",
   "total_feeds": 92,
-  "success_feeds": 86,
-  "total_articles": 2445,
+  "success_feeds": 83,
+  "total_articles": 2497,
   "filtered_articles": 20,
   "articles": [
     {
@@ -66,6 +66,26 @@
       "rank": 3
     },
     {
+      "title": "Forge",
+      "title_zh": "统一 GitHub/GitLab/Gitea 的 CLI 工具 Forge",
+      "link": "https://nesbitt.io/2026/03/13/forge.html",
+      "pub_date": "2026-03-13T10:00:00.000Z",
+      "summary": "Forge 是一个统一的 CLI 工具和 Go 模块，为 GitHub、GitLab、Gitea、Forgejo 和 Bitbucket 提供一致的命令行接口。它通过检测 git remote 自动识别 forge 类型，支持 repos、issues、pull requests、releases、CI pipelines、labels、milestones、deploy keys、secrets 和 comments 等操作。认证方式包括交互式登录、CLI 参数、环境变量（如 GITHUB_TOKEN、GITLAB_TOKEN）和配置文件，所有命令都支持 --output json 用于脚本化。作为 Go 模块，Forge 提供统一的编程接口，每个 forge 后端实现相同的接口，开发者无需为不同平台编写条件逻辑。作者指出 AI coding agents 正在直接与 forges 交互，但大多数被硬编码为 GitHub API，Forge 的统一接口可以简化 agent 代码并减少 forge 选择带来的锁定风险。",
+      "source_name": "nesbitt.io",
+      "score": 19,
+      "depth": 7,
+      "novelty": 6,
+      "breadth": 6,
+      "category": "tools",
+      "keywords": [
+        "forge",
+        "CLI",
+        "GitHub",
+        "GitLab"
+      ],
+      "rank": 4
+    },
+    {
       "title": "What do coders do after AI?",
       "title_zh": "AI 时代程序员的身份危机与出路",
       "link": "https://anildash.com/2026/03/13/coders-after-ai/",
@@ -83,7 +103,7 @@
         "career",
         "automation"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Can the MacBook Neo replace my M4 Air?",
@@ -103,7 +123,7 @@
         "LLM",
         "performance"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Windows 11 after two decades of macOS: okay, but also awful",
@@ -123,7 +143,7 @@
         "keyboard shortcuts",
         "Unreal Engine"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Quoting Les Orchard",
@@ -142,7 +162,7 @@
         "developer-motivation",
         "career"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Software Proprioception",
@@ -162,7 +182,7 @@
         "interaction design",
         "macOS"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Coding After Coders: The End of Computer Programming as We Know It",
@@ -182,7 +202,7 @@
         "ChatGPT",
         "career"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Windows stack limit checking retrospective: x86-32, also known as i386",
@@ -202,7 +222,7 @@
         "calling convention",
         "_chkstk"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "On Making",
@@ -222,7 +242,7 @@
         "Claude",
         "fulfillment"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "Inverse cosine",
@@ -242,7 +262,7 @@
         "analytic continuation",
         "branch cut"
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "title": "MALUS - Clean Room as a Service",
@@ -262,7 +282,7 @@
         "clean room",
         "satire"
       ],
-      "rank": 13
+      "rank": 14
     },
     {
       "title": "Apple’s Platform Security Guide Adds a Brief Note on the MacBook Neo’s On-Screen Camera Indicator",
@@ -282,7 +302,7 @@
         "MacBook Neo",
         "indicator light"
       ],
-      "rank": 14
+      "rank": 15
     },
     {
       "title": "Eddy Cue Says F1 on Apple TV Opened to Increased Viewership",
@@ -302,7 +322,26 @@
         "viewership",
         "Eddy Cue"
       ],
-      "rank": 15
+      "rank": 16
+    },
+    {
+      "title": "You (I) should document the forms of your Django web application",
+      "title_zh": "Django 表单权限逻辑需要文档化",
+      "link": "https://utcc.utoronto.ca/~cks/space/blog/python/DjangoDocumentYourForms",
+      "pub_date": "2026-03-13T03:18:17.000Z",
+      "summary": "作者在维护一个处理 Unix 账户请求的 Django 应用时，添加了新的 'held' 状态来处理延迟入学的研究生账户请求。由于忘记了自己编写的表单权限逻辑，作者误以为 'held' 状态较弱，教授可以轻易解除并批准请求，实际上该状态更接近 'frozen'，教授需要找到特定位置才能操作，且不会意外批准。作者后来尝试添加真正的 'frozen' 状态，才发现原有实现已经满足需求。这次经历让作者意识到应该为每个表单编写简明文档，记录谁可以看到什么表单以及表单显示的内容，而不是依赖 Python docstrings（作者承认自己不会去读）。作者考虑将文档放在 urls.py 或单独的 README.forms 文件中，避免放在已经过大的 views.py 里。",
+      "source_name": "utcc.utoronto.ca/~cks",
+      "score": 8,
+      "depth": 3,
+      "novelty": 2,
+      "breadth": 3,
+      "category": "engineering",
+      "keywords": [
+        "Django",
+        "forms",
+        "documentation"
+      ],
+      "rank": 17
     },
     {
       "title": "Accents",
@@ -321,7 +360,7 @@
         "accent colors",
         "iMac"
       ],
-      "rank": 16
+      "rank": 18
     }
   ]
 }
