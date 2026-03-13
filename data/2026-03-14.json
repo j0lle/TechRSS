@@ -1,9 +1,9 @@
 {
   "date": "2026-03-14",
   "total_feeds": 92,
-  "success_feeds": 85,
-  "total_articles": 2421,
-  "filtered_articles": 26,
+  "success_feeds": 86,
+  "total_articles": 2545,
+  "filtered_articles": 28,
   "articles": [
     {
       "title": "Dylan Patel — Deep Dive on the 3 Big Bottlenecks to Scaling AI Compute",
@@ -66,6 +66,25 @@
       "rank": 3
     },
     {
+      "title": "Quoting Craig Mod",
+      "title_zh": "五天用 AI 构建定制化会计软件",
+      "link": "https://simonwillison.net/2026/Mar/13/craig-mod/#atom-everything",
+      "pub_date": "2026-03-13T17:14:29.000Z",
+      "summary": "Craig Mod 用五天时间构建了一套完全本地化的会计软件，支持多货币、自动汇率更新、CSV 导入、美日两国税务格式化、PDF 分类整理和国际汇款对账。系统通过学习用户的分类习惯实现自动分类，发现异常时可直接与 Claude 交互批量处理数百条记录，避免了手动修改。作者将这种 AI 辅助编程的体验比作用光剑开路，软件能够根据需求快速迭代和调整功能。",
+      "source_name": "simonwillison.net",
+      "score": 16,
+      "depth": 5,
+      "novelty": 6,
+      "breadth": 5,
+      "category": "engineering",
+      "keywords": [
+        "Claude",
+        "AI-assisted programming",
+        "personal software"
+      ],
+      "rank": 4
+    },
+    {
       "title": "Typesetting sheet music with AI",
       "title_zh": "AI 识别乐谱来源但生成 Lilypond 代码失败",
       "link": "https://www.johndcook.com/blog/2026/03/13/typesetting-sheet-music-with-ai/",
@@ -83,7 +102,7 @@
         "Grok",
         "ChatGPT"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "NYT: ‘Meta Delays Rollout of New AI Model After Performance Concerns’",
@@ -102,7 +121,45 @@
         "AI model",
         "delay"
       ],
-      "rank": 5
+      "rank": 6
+    },
+    {
+      "title": "Sports Programming Accounts for Almost 30 Percent of All Ad-Supported TV Viewing",
+      "title_zh": "体育节目占美国广告支持电视观看的近30%",
+      "link": "https://deadline.com/2026/03/sports-tv-viewing-advertising-nielsen-1236750721/",
+      "pub_date": "2026-03-13T16:55:46.000Z",
+      "summary": "体育节目占美国广告支持电视观看的近30%，Nielsen 数据揭示其统治地位",
+      "source_name": "daringfireball.net",
+      "score": 9,
+      "depth": 2,
+      "novelty": 3,
+      "breadth": 4,
+      "category": "other",
+      "keywords": [
+        "Nielsen",
+        "sports",
+        "streaming",
+        "TV"
+      ],
+      "rank": 7
+    },
+    {
+      "title": "This Week on The Analog Antiquarian",
+      "title_zh": "本周 Analog Antiquarian 更新",
+      "link": "https://www.filfre.net/2026/03/this-week-on-the-analog-antiquarian/",
+      "pub_date": "2026-03-13T17:33:40.000Z",
+      "summary": "",
+      "source_name": "filfre.net",
+      "score": 3,
+      "depth": 1,
+      "novelty": 1,
+      "breadth": 1,
+      "category": "other",
+      "keywords": [
+        "history",
+        "blog"
+      ],
+      "rank": 8
     }
   ]
 }
