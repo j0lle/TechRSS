@@ -3,7 +3,7 @@
   "total_feeds": 92,
   "success_feeds": 85,
   "total_articles": 2422,
-  "filtered_articles": 26,
+  "filtered_articles": 25,
   "articles": [
     {
       "title": "Dylan Patel — Deep Dive on the 3 Big Bottlenecks to Scaling AI Compute",
@@ -184,6 +184,25 @@
       "rank": 9
     },
     {
+      "title": "Tim Cook: ‘50 Years of Thinking Different’",
+      "title_zh": "Apple 庆祝成立 50 周年",
+      "link": "https://www.apple.com/50-years-of-thinking-different/",
+      "pub_date": "2026-03-13T23:49:17.000Z",
+      "summary": "",
+      "source_name": "daringfireball.net",
+      "score": 9,
+      "depth": 1,
+      "novelty": 2,
+      "breadth": 6,
+      "category": "other",
+      "keywords": [
+        "Apple",
+        "anniversary",
+        "brand"
+      ],
+      "rank": 10
+    },
+    {
       "title": "This Week on The Analog Antiquarian",
       "title_zh": "本周 Analog Antiquarian 更新",
       "link": "https://www.filfre.net/2026/03/this-week-on-the-analog-antiquarian/",
@@ -199,7 +218,7 @@
         "history",
         "blog"
       ],
-      "rank": 10
+      "rank": 11
     }
   ]
 }
