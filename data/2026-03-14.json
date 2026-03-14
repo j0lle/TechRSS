@@ -1,9 +1,9 @@
 {
   "date": "2026-03-14",
   "total_feeds": 92,
-  "success_feeds": 85,
-  "total_articles": 2422,
-  "filtered_articles": 25,
+  "success_feeds": 86,
+  "total_articles": 2447,
+  "filtered_articles": 23,
   "articles": [
     {
       "title": "Dylan Patel — Deep Dive on the 3 Big Bottlenecks to Scaling AI Compute",
@@ -106,6 +106,26 @@
       "rank": 5
     },
     {
+      "title": "Big tech engineers need big egos",
+      "title_zh": "大厂工程师的自我悖论",
+      "link": "https://seangoedecke.com/big-tech-needs-big-egos/",
+      "pub_date": "2026-03-14T00:00:00.000Z",
+      "summary": "大型科技公司的软件工程师需要强大的自我来应对日常工作中的持续不确定性和困惑。在处理复杂代码库时，工程师必须相信自己能够解决看似不可能的问题；在组织决策中，需要敢于在技术问题上明确表态、愿意得罪人、纠正错误的技术主张。然而，真正有效的工程师还需要在关键时刻放下自我，服从上级决策，接受项目被取消或因政治斗争被惩罚的现实。最成功的工程师是变色龙：面对高管时保持低自我，面对组织其他成员时展现高自我。这种自信与谦逊的微妙平衡极其罕见，但却是大型科技公司中高级工程师生存和取得成效的必要条件。",
+      "source_name": "seangoedecke.com",
+      "score": 17,
+      "depth": 5,
+      "novelty": 6,
+      "breadth": 6,
+      "category": "opinion",
+      "keywords": [
+        "ego",
+        "big tech",
+        "career",
+        "leadership"
+      ],
+      "rank": 6
+    },
+    {
       "title": "Quoting Craig Mod",
       "title_zh": "五天用 AI 构建定制化会计软件",
       "link": "https://simonwillison.net/2026/Mar/13/craig-mod/#atom-everything",
@@ -122,7 +142,7 @@
         "AI-assisted programming",
         "personal software"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Typesetting sheet music with AI",
@@ -142,7 +162,7 @@
         "Grok",
         "ChatGPT"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "NYT: ‘Meta Delays Rollout of New AI Model After Performance Concerns’",
@@ -161,7 +181,7 @@
         "AI model",
         "delay"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Sports Programming Accounts for Almost 30 Percent of All Ad-Supported TV Viewing",
@@ -181,7 +201,7 @@
         "streaming",
         "TV"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Tim Cook: ‘50 Years of Thinking Different’",
@@ -200,7 +220,7 @@
         "anniversary",
         "brand"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "This Week on The Analog Antiquarian",
@@ -218,7 +238,7 @@
         "history",
         "blog"
       ],
-      "rank": 11
+      "rank": 12
     }
   ]
 }
