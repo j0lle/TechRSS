@@ -3,7 +3,7 @@
   "total_feeds": 92,
   "success_feeds": 86,
   "total_articles": 2447,
-  "filtered_articles": 13,
+  "filtered_articles": 14,
   "articles": [
     {
       "title": "My fireside chat about agentic engineering at the Pragmatic Summit",
@@ -26,6 +26,26 @@
       "rank": 1
     },
     {
+      "title": "PC Makers Are Not Ready for the MacBook Neo",
+      "title_zh": "PC 厂商低估 MacBook Neo 的威胁",
+      "link": "https://www.theverge.com/report/894090/macbook-neo-pc-windows-laptop-competition-asus-footinmouth",
+      "pub_date": "2026-03-14T20:02:36.000Z",
+      "summary": "## 一句话总结\nPC 厂商对 599 美元的 MacBook Neo 存在严重的战略误判，他们只盯着 8GB 内存这种纸面参数，却忽略了 Apple 凭借垂直整合供应链和极致体验，正在降维打击整个入门级 Windows 笔记本市场。\n\n### 599 美元的“休克疗法”与傲慢的对手\nApple 推出的 MacBook Neo 定价仅为 599 美元，这个价格直接杀入了 Windows 笔记本的传统腹地。Asus 的 CFO Nick Wu 在财报会上承认这给市场带来了“shock（震惊）”，尽管他们早在 2025 年就听到了风声，但显然没准备好应对方案。更有意思的是 Wu 对这款产品的评价，他认为 Neo 只有 8GB 内存，定位应该更偏向“内容消费”，甚至把它比作大号平板。这种论调听起来非常耳熟，像极了当年嘲笑 MacBook Air 性能不足、或者 Steve Ballmer 嘲讽 iPhone 时的傲慢。说白了，PC 厂商的高管们至今没搞懂用户到底想要什么。\n\n### 8GB 内存不是短板，是 Windows 的遮羞布\nAsus 高管将 Neo 归类为“内容消费机器”的逻辑非常站不住脚，因为它运行的是完整的 macOS，而不是 iPadOS。CNET 2025 年的调查数据显示，52% 的用户用笔记本电脑来处理文档，只有 35% 的人主要用来流媒体播放。这些日常任务 Neo 完全能胜任，而且它还拥有 Windows 低价本通常缺失的优质触控板、键盘和屏幕。这里有个关键的技术细节：macOS 对内存的管理效率远高于 Windows。在 RAM 价格飞涨的当下，Apple 凭借垂直整合的供应链优势，能把 8GB 内存的体验做到极致，而 Windows 厂商即便堆同样的料，成本也压不下来，体验还更差。\n\n### 单核性能吊打旗舰，性价比的降维打击\nBenchmark 的数据非常残酷，直接撕开了 Windows 阵营的遮羞布。在反映日常任务表现的单核测试中，Neo 搭载的 A18 Pro 芯片竟然击败了 Asus 自家售价 2400 美元的 Zenbook Duo——那台机器用的可是 Intel 最新的旗舰级 Panther Lake 芯片。当然，Neo 在重度视频编辑或 3D 游戏上肯定比不过那些高性能本，但问题是，对于绝大多数普通用户，四倍的价格差换来的那点性能提升根本感知不到。Apple 用一颗手机芯片，在绝大多数日常场景下实现了对传统 x86 笔记本的超越，这才是最让 PC 厂商绝望的地方。\n\n### PC 厂商的回应：要么逃避，要么拿烂货凑数\n面对 Neo 的冲击，各大 PC 厂商的反应基本可以概括为“不知所措”。Gigabyte 的态度还算诚实，表示自己专注于游戏本，根本不打算在这个段位和 Apple 硬碰硬。Dell 则显得有些尴尬，虽然宣称要推出“史上最便宜”的 XPS 13，但目前在这个价位能拿出来的产品只有一款 Dell 15：屏幕昏暗、塑料机身、用着三年前的 Intel 芯片，而且也是 8GB 内存，跑的还是 Windows 11。这种配置不仅没法和 Neo 打，甚至可以说是在侮辱用户的智商。PC 厂商似乎还没意识到，现在的竞争不是比谁参数高，而是比谁能在低价位提供一个“不让人感到受罪”的完整体验。\n\n### 体验才是护城河，参数党终将被市场抛弃\n归根结底，MacBook Neo 的可怕之处不在于它有多便宜，而在于它在这个价位提供了一个“完整包”。Apple 依靠强大的制造能力和对技术栈的完全掌控，把做工、屏幕、键盘和系统体验做到了高度统一。Windows 笔记本制造商如果不能理解这一点，继续在参数表上做文章，或者把低价本做成“电子垃圾”，那他们失去的不仅仅是入门级市场，而是整整一代不再迷信参数、只在乎体验的消费者。当用户花 599 美元就能在 Apple Store 买到一台好用的电脑时，谁还愿意去 Best Buy 买一台卡顿的 Windows 本呢？",
+      "source_name": "daringfireball.net",
+      "score": 18,
+      "depth": 6,
+      "novelty": 5,
+      "breadth": 7,
+      "category": "engineering",
+      "keywords": [
+        "MacBook Neo",
+        "Windows laptops",
+        "benchmark",
+        "Asus"
+      ],
+      "rank": 2
+    },
+    {
       "title": "Quoting Jannis Leidel",
       "title_zh": "AI spam 迫使 Jazzband 关闭开放成员模式",
       "link": "https://simonwillison.net/2026/Mar/14/jannis-leidel/#atom-everything",
@@ -43,7 +63,7 @@
         "open source",
         "Jazzband"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Ars Technica Fires Reporter Benj Edwards After He Published Story With AI-Fabricated Quotes",
@@ -63,7 +83,7 @@
         "ethics",
         "Claude"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "human.json",
@@ -82,7 +102,7 @@
         "protocol",
         "web of trust"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Lil Finder Guy",
@@ -102,7 +122,7 @@
         "TikTok",
         "character"
       ],
-      "rank": 5
+      "rank": 6
     }
   ]
 }
