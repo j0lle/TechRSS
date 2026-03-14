@@ -2,9 +2,29 @@
   "date": "2026-03-15",
   "total_feeds": 92,
   "success_feeds": 86,
-  "total_articles": 2447,
-  "filtered_articles": 16,
+  "total_articles": 2546,
+  "filtered_articles": 12,
   "articles": [
+    {
+      "title": "Ars Technica Fires Reporter Benj Edwards After He Published Story With AI-Fabricated Quotes",
+      "title_zh": "Ars Technica 解雇使用 AI 伪造引语的记者",
+      "link": "https://futurism.com/artificial-intelligence/ars-technica-fires-reporter-ai-quotes",
+      "pub_date": "2026-03-14T17:22:05.000Z",
+      "summary": "## 一句话总结\n资深 AI 记者因在病中误用 AI 工具导致引用造假，最终被 Ars Technica 解雇，这揭示了即便是最懂 AI 的人，也难逃大模型\"幻觉\"带来的职业陷阱。\n\n### 一篇报道引发的信任危机\n事情起因是 Ars Technica 在 2 月 13 日发表了一篇关于 AI 智能体攻击人类工程师 Scott Shambaugh 的文章。但这篇报道很快就被当事人打脸了——Shambaugh 指出文中的引用根本不是他说的。主编 Ken Fisher 随后确认，这些引语是由 AI 工具伪造并安在真实人物头上的，并承认这是\"严重的标准失误\"。虽然 Fisher 强调这看起来是个\"孤立事件\"，但作为一家以技术深度著称的媒体，出现这种低级错误显然无法被读者原谅。\n\n### 发烧时的\"实验性\"操作\n为什么一位资深记者会犯这种错？另一位作者 Benj Edwards 在 Bluesky 上把锅背了下来。他说当时自己发着高烧，在床上带病工作，试图用一个\"基于 Claude Code 的实验性 AI 工具\"来提取源材料里的引用。说白了，他本想用 AI 做个索引，结果工具没跑通。为了排查问题，他又把内容扔进了 ChatGPT。这一连串操作下来，他本该拿到原文，却因为 AI 的\"幻觉\"，拿到了一段看似合理实则虚构的改写。\n\n### 人为失误比 AI 更致命\nEdwards 解释说，他当时太累了，没意识到拿到的是\"改写版\"而非\"原话\"。他特意强调文章正文是人类写的，AI 只是辅助整理，且这种做法违反公司政策。更有意思的是，他还专门为合著者 Kyle Orland 辩解，说同事完全不知情。这里有个很讽刺的现实：Edwards 是专门报道 AI 的资深记者，深知大模型的缺陷，却还是在身体状态不佳时，掉进了自己最熟悉的坑里。这再次证明，在关键环节引入 AI，人为的审核成本反而更高。\n\n### 后果很严重，直接走人\n读者的愤怒可想而知，评论区炸了锅。Ars 的创意总监 Aurich Lawson 随后关闭了评论，表示内部审查结束，\"已采取适当措施\"。虽然官方嘴硬说\"不评论人事决定\"，但实锤来得很快：2 月 28 日，Edwards 的个人简介从\"是记者\"被改成了\"曾是记者\"。这意味着他因为这次失误直接被解雇了。Ars 还承诺未来会发布指南，明确说明工作中能用和不能用 AI 的边界。\n\n### 媒体行业的两难处境\n这件事不是个例，它正好发生在媒体行业对 AI 爱恨交织的节点上。一方面，老板们逼着员工用 AI 提效；另一方面，版权纠纷、假新闻泛滥和 Google 的 AI 摘要抢流量，让行业环境变得极其恶劣。Ars 这次的事件给所有开发者提了个醒：不管你多懂技术，只要把生成式 AI 当作事实来源而不加双重验证，翻车是迟早的事。正如 Edwards 自己所说，\"AI 记者被 AI 幻觉绊倒，这讽刺意味太浓了\"。",
+      "source_name": "daringfireball.net",
+      "score": 10,
+      "depth": 2,
+      "novelty": 3,
+      "breadth": 5,
+      "category": "opinion",
+      "keywords": [
+        "AI journalism",
+        "hallucination",
+        "ethics",
+        "Claude"
+      ],
+      "rank": 1
+    },
     {
       "title": "Lil Finder Guy",
       "title_zh": "Apple 新产品中的神秘小角色",
@@ -23,7 +43,7 @@
         "TikTok",
         "character"
       ],
-      "rank": 1
+      "rank": 2
     }
   ]
 }
