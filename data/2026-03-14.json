@@ -1,9 +1,9 @@
 {
   "date": "2026-03-14",
   "total_feeds": 92,
-  "success_feeds": 85,
-  "total_articles": 2427,
-  "filtered_articles": 19,
+  "success_feeds": 86,
+  "total_articles": 2546,
+  "filtered_articles": 21,
   "articles": [
     {
       "title": "Dylan Patel — Deep dive on the 3 big bottlenecks to scaling AI compute",
@@ -146,6 +146,26 @@
       "rank": 7
     },
     {
+      "title": "How Can Governments Pay Open Source Maintainers?",
+      "title_zh": "政府资助开源维护者的现实困境",
+      "link": "https://shkspr.mobi/blog/2026/03/how-can-governments-pay-open-source-maintainers/",
+      "pub_date": "2026-03-14T12:34:42.000Z",
+      "summary": "## 一句话总结\n与其纠结政府怎么给开源维护者发钱，不如直接把开源项目纳入政府采购清单，让维护者像卖软件一样卖服务。\n\n---\n\n### 免费午餐的代价：基础设施没人买单\n我们每天都在用开源，但很少有人意识到这背后的危机。说白了就是，现代数字基础设施严重依赖那些\"免费\"的项目，但维护者却拿不到足够的回报。这不仅仅是钱的问题，更是系统性的脆弱。如果关键项目的维护者因为 burnout 而退出，或者被恶意攻击者收买，整个互联网都要遭殃。作者指出，现在的模式就像是在免费的高速公路上跑车，却没人愿意出钱修路，迟早要出大事。\n\n### 政府不是慈善机构，是最大的受益者\n那怎么办？让企业捐款吗？作者觉得这不够靠谱。真正的大头其实是政府。想想看，政府部门、公共服务系统，哪个不是跑在 Linux、Apache 或者其他开源软件上的？既然政府是最大的用户，理应成为最大的买单方。但这并不意味着政府要直接给维护者发工资，这不符合商业逻辑，也容易滋生官僚主义。核心思路其实很简单：把开源维护者视为供应商，而不是乞讨者。\n\n### 采购清单里的隐形门槛\n有意思的地方在于，政府其实有一套成熟的采购流程，但开源项目往往进不去。为什么？因为政府采购通常要求\"供应商\"必须是一家公司，有稳定的支持服务和法律责任。一个单打独斗的开发者，或者一个松散的社区，很难满足这些硬性指标。这就导致了一个尴尬的局面：政府想用开源软件，但只能通过像 Red Hat 这样的中间商购买\"企业版\"，原生的开源项目反而拿不到合同。\n\n### 把维护者变成\"微型供应商\"\n这里有个巧妙的设计：政府可以设立专门的框架协议，允许开源项目以\"微型供应商\"的身份入驻。说白了就是，政府列出它需要的开源技术栈，然后邀请对应的维护者来注册。一旦注册成功，维护者就能像正规公司一样，通过提供安全更新、Bug 修复或技术咨询来收费。这样做的好处是，它绕过了繁琐的设立公司的流程，同时给了政府合规的付款渠道。\n\n### 用纳税人的钱，买纳税人的安全\n你可能会问，这跟企业赞助有什么区别？区别在于\"确定性\"。企业赞助往往看心情或者商业利益，而政府采购是基于公共利益的长期投入。比如，政府可以出资资助某个加密库的安全审计，或者支付关键基础设施的维护费用。这不仅仅是帮维护者付房租，更是在保障国家数字基础设施的安全。作者强调，这笔钱花得值，因为它避免了未来可能发生的巨大安全事故。\n\n### 别让完美的方案阻碍了第一步\n当然，这事儿实施起来肯定有坑。比如怎么界定谁该拿钱？怎么防止有人骗补？但作者认为，我们不能因为这些问题就停滞不前。可以先从小的试点开始，比如资助几个被政府广泛使用的特定库。关键在于转变观念：开源不是免费的午餐，而是一种需要持续投入的公共服务。只要政府愿意带头，市场自然会跟进，最终形成一个良性的生态循环。",
+      "source_name": "shkspr.mobi",
+      "score": 14,
+      "depth": 4,
+      "novelty": 5,
+      "breadth": 5,
+      "category": "opinion",
+      "keywords": [
+        "open source",
+        "government",
+        "funding",
+        "maintainers"
+      ],
+      "rank": 8
+    },
+    {
       "title": "NYT: ‘Meta Delays Rollout of New AI Model After Performance Concerns’",
       "title_zh": "Meta 因性能问题推迟新 AI 模型发布",
       "link": "https://www.nytimes.com/2026/03/12/technology/meta-avocado-ai-model-delayed.html?unlocked_article_code=1.S1A.vI_6.4j717gwtFem0",
@@ -162,7 +182,7 @@
         "AI model",
         "delay"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Typesetting sheet music with AI",
@@ -182,7 +202,7 @@
         "ChatGPT",
         "music transcription"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Quoting Craig Mod",
@@ -201,7 +221,7 @@
         "AI-assisted-programming",
         "personal-software"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "Tim Cook: ‘50 Years of Thinking Different’",
@@ -220,7 +240,7 @@
         "anniversary",
         "brand"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "You Digg?",
@@ -240,7 +260,7 @@
         "AI",
         "community"
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "title": "Last-Run Syndication",
@@ -259,7 +279,7 @@
         "television",
         "media"
       ],
-      "rank": 13
+      "rank": 14
     },
     {
       "title": "Reading List 03/14/26",
@@ -279,7 +299,7 @@
         "oil",
         "shipping"
       ],
-      "rank": 14
+      "rank": 15
     },
     {
       "title": "Sports Programming Accounts for Almost 30 Percent of All Ad-Supported TV Viewing",
@@ -299,7 +319,7 @@
         "streaming",
         "TV viewing"
       ],
-      "rank": 15
+      "rank": 16
     },
     {
       "title": "This Week on The Analog Antiquarian",
@@ -317,7 +337,7 @@
         "history",
         "Galileo"
       ],
-      "rank": 16
+      "rank": 17
     }
   ]
 }
