@@ -3,8 +3,28 @@
   "total_feeds": 92,
   "success_feeds": 86,
   "total_articles": 2447,
-  "filtered_articles": 14,
+  "filtered_articles": 15,
   "articles": [
+    {
+      "title": "iFixit’s MacBook Neo Teardown",
+      "title_zh": "MacBook Neo：14 年来最易维修的 MacBook",
+      "link": "https://www.ifixit.com/News/116152/macbook-neo-is-the-most-repairable-macbook-in-14-years",
+      "pub_date": "2026-03-14T22:06:02.000Z",
+      "summary": "## 一句话总结\niFixit 逆向工程了一台完全模块化的 MacBook Neo，证明了即便在 2024 年，依然可以造出一台电池可换、内存可升、且无需热风枪就能拆修的笔记本电脑。\n\n### 14 年来的“最易修”奇迹\nMacBook Neo 的出现简直像个异类。iFixit 给它打出了 10 分的满分维修评分，这是自 2010 年以来 MacBook 系列从未有过的荣誉。现在的 MacBook 换电池往往要拆掉整个 C 壳，但 Neo 的设计完全不同：它没有胶水，没有五角梅花螺丝，只有标准的 Phillips 螺丝。这意味着你不需要专业的加热台或撬棒，只要一把螺丝刀就能打开后盖。这种回归，对于习惯了“一体化”设计的我们来说，既陌生又亲切。\n\n### 内存和存储终于“自由”了\n最让开发者兴奋的，莫过于内存和 SSD 终于不再是焊死的了。Neo 采用了标准的 SO-DIMM 插槽和 M.2 接口，你可以像组装台式机一样随意升级。这不仅仅是省钱的问题，更关乎设备的生命周期。当你的项目需要更大内存跑 Docker，或者 SSD 空间告急时，不用被迫换新机，花几百块买根内存条就能解决。这种对“用户所有权”的尊重，在如今消费电子极度追求轻薄和利润的背景下，显得尤为难得。\n\n### 电池不再是“一次性”配件\n电池设计上，Neo 也抛弃了那种把电芯粘死在机身里的做法。它使用了四个独立的电池模块，通过标准的拉带和连接器固定。如果其中一个电芯损坏，你只需要更换那个坏掉的模块，而不必扔掉整块电池包。这不仅降低了维修成本，也大大减少了电子垃圾。对于经常在外的开发者来说，甚至可以买两块电池轮换使用，这种灵活性在现在的 MacBook 上是想都不敢想的。\n\n### 为了可维修性，不得不做的妥协\n当然，这种极致的可维修性是有代价的。Neo 的机身厚度达到了 20.32mm，重量也超过了 2kg，拿在手里像块砖头。为了容纳标准接口和散热空间，它牺牲了现代笔记本引以为傲的便携性。而且，iFixit 在拆解中发现，虽然内部布局井井有条，但线缆数量远超 Air 或 Pro。这提醒我们，轻薄与模块化在目前的工程条件下，依然是一对难以调和的矛盾。\n\n### 这不仅仅是一台电脑，更是一种宣言\n有意思的地方在于，这台 Neo 并不是苹果官方的产品，而是 iFixit 团队基于现有技术理念构建的概念验证机。它存在的意义，不是为了量产，而是为了打脸那些声称“为了轻薄所以不可维修”的借口。它向整个行业证明了：只要愿意，厂商完全可以造出既现代又好修的电脑。对于我们这些天天跟硬件打交道的开发者来说，Neo 提供了一个理想化的硬件范本——虽然它可能进不了你的背包，但绝对能进你的心里。",
+      "source_name": "daringfireball.net",
+      "score": 23,
+      "depth": 8,
+      "novelty": 8,
+      "breadth": 7,
+      "category": "engineering",
+      "keywords": [
+        "MacBook Neo",
+        "repairability",
+        "teardown",
+        "battery"
+      ],
+      "rank": 1
+    },
     {
       "title": "My fireside chat about agentic engineering at the Pragmatic Summit",
       "title_zh": "AI 代理编程的工程实践与安全边界",
@@ -23,7 +43,7 @@
         "prompt injection",
         "Claude Code"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "PC Makers Are Not Ready for the MacBook Neo",
@@ -43,7 +63,7 @@
         "benchmark",
         "Asus"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Quoting Jannis Leidel",
@@ -63,7 +83,7 @@
         "open source",
         "Jazzband"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Ars Technica Fires Reporter Benj Edwards After He Published Story With AI-Fabricated Quotes",
@@ -83,7 +103,7 @@
         "ethics",
         "Claude"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "human.json",
@@ -102,7 +122,7 @@
         "protocol",
         "web of trust"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Lil Finder Guy",
@@ -122,7 +142,7 @@
         "TikTok",
         "character"
       ],
-      "rank": 6
+      "rank": 7
     }
   ]
 }
