@@ -1,8 +1,8 @@
 {
   "date": "2026-03-14",
   "total_feeds": 92,
-  "success_feeds": 86,
-  "total_articles": 2546,
+  "success_feeds": 85,
+  "total_articles": 2422,
   "filtered_articles": 22,
   "articles": [
     {
@@ -203,6 +203,26 @@
       "rank": 10
     },
     {
+      "title": "You Digg?",
+      "title_zh": "Digg 因 AI 机器人问题再次关闭",
+      "link": "https://idiallo.com/byte-size/digg-is-gone-again?src=feed",
+      "pub_date": "2026-03-14T08:41:00.000Z",
+      "summary": "## 一句话总结\nDigg 再次关闭，CEO 归咎于 AI 驱动的 Bot 攻击，这标志着不受干扰的真实人类在线社区正在消亡。\n\n### 社区记忆的起点：Digg 与 V4 的教训\n对于作者来说，互联网社区生活的起点是 Digg，它是 Reddit 的前身。当年 Digg 推出 V4 改版时，不仅设计让用户反感，更糟糕的是移除了 \"bury\"（踩）按钮。作者指出，很多社交网站都在移除 downvote 功能，这背后可能有某种理论支撑，但在他看来这毫无道理。这种忽视社区声音的做法，或许早已为后来的衰落埋下了伏笔。\n\n### 怀旧的重启与短暂的狂欢\n2026 年 1 月，Digg 宣布回归，作者第一时间申请了邀请码。重新登录的感觉充满了怀旧色彩，看着社区在旧址上重新活跃起来，仿佛一切都没有改变。作者甚至在 technology 板块发了一个帖子，看着它开始获得关注，一切似乎都在往好的方向发展。这种短暂的复苏，让人误以为那个黄金时代真的回来了。\n\n### AI Bot：压垮社区的最后一根稻草\n然而好景不长，Digg 今天宣布再次关闭。CEO 给出的理由非常直接：他们遭遇了 \"史无前例的 Bot 问题\"。这不再是我们以前熟悉的简单脚本，而是由 AI 驱动的 Bot。它们能迅速绕过传统的检测机制，并在每一个对话中充斥着毫无意义的文本。这种破坏力是毁灭性的，直接摧毁了社区赖以生存的交流环境。\n\n### 真实对话的消亡与博主的退守\n这不仅仅是 Digg 的悲剧，更是我们不得不面对的新现实。现在互联网上已经很难找到可以进行真实对话的地方了，这显然不是大家期待的未来。面对这种局面，作者选择了退守：他决定安静地写自己的博客，并忽略未来可能出现的任何新社区。Rest in peace, Digg。",
+      "source_name": "idiallo.com",
+      "score": 8,
+      "depth": 2,
+      "novelty": 3,
+      "breadth": 3,
+      "category": "opinion",
+      "keywords": [
+        "Digg",
+        "bots",
+        "AI",
+        "community"
+      ],
+      "rank": 11
+    },
+    {
       "title": "Last-Run Syndication",
       "title_zh": "电视首播联合发行模式的衰落",
       "link": "https://feed.tedium.co/link/15204/17299183/television-first-run-syndication-decline",
@@ -219,7 +239,7 @@
         "television",
         "media"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "Sports Programming Accounts for Almost 30 Percent of All Ad-Supported TV Viewing",
@@ -239,7 +259,7 @@
         "streaming",
         "TV viewing"
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "title": "This Week on The Analog Antiquarian",
@@ -257,7 +277,7 @@
         "history",
         "Galileo"
       ],
-      "rank": 13
+      "rank": 14
     }
   ]
 }
