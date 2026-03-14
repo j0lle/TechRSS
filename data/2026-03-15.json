@@ -3,7 +3,7 @@
   "total_feeds": 92,
   "success_feeds": 86,
   "total_articles": 2447,
-  "filtered_articles": 11,
+  "filtered_articles": 13,
   "articles": [
     {
       "title": "My fireside chat about agentic engineering at the Pragmatic Summit",
@@ -26,6 +26,26 @@
       "rank": 1
     },
     {
+      "title": "Quoting Jannis Leidel",
+      "title_zh": "AI spam 迫使 Jazzband 关闭开放成员模式",
+      "link": "https://simonwillison.net/2026/Mar/14/jannis-leidel/#atom-everything",
+      "pub_date": "2026-03-14T18:41:25.000Z",
+      "summary": "## 一句话总结\nGitHub 上泛滥的 AI 垃圾 PR（Slopocalypse）导致基于“默认信任”的 Jazzband 开源协作模式彻底失效，不得不宣告终结。\n\n### 曾经的“乌托邦”：建立在善意之上的开放权限\nJazzband 曾是 Python 社区里一个很酷的实验，它的核心逻辑是“开放成员资格 + 共享 Push 权限”。说白了就是，只要你加入，默认就给你合并代码的权限。这种设计在以前行得通，是因为大家默认假设贡献者都是人类，且怀有善意。那时候最坏的情况，也不过是有人手滑合并了错误的 PR。这种基于“信任成本极低”的协作模式，曾经让维护变得非常高效。\n\n### 现实的暴击：AI 垃圾代码淹没了 GitHub\n但现在的环境完全变了，GitHub 正经历一场所谓的“Slopocalypse”（垃圾末日）。铺天盖地的 AI 生成的垃圾 PR 和 Issues 让平台不堪重负。这不再是偶尔的失误，而是一场持续的、自动化的攻击。原本为了方便人类协作设计的开放机制，现在成了 AI 垃圾代码涌入的快速通道。这种量级的噪音，直接击穿了原本脆弱的信任模型。\n\n### 触目惊心的数据：只有 10% 的 PR 能用\n问题到底有多严重？数据给出了残酷的答案。现在的现实是，AI 生成的 PR 中只有 10% 能达到项目的标准。这意味着维护者要花 90% 的精力去筛选垃圾。更离谱的是，连 curl 这种老牌项目都因为确认率跌破 5%，被迫关掉了 Bug Bounty 计划。因为根本分不清哪些是真正的漏洞报告，哪些是 AI 幻觉生成的胡言乱语。\n\n### 平台的无奈：甚至需要“一键关掉 PR”\n面对这种局面，连 GitHub 自己都慌了。他们的应对方式简单粗暴：直接搞了个“Kill Switch”来彻底禁用 Pull Request 功能。这其实是一个很强烈的信号——当平台不得不考虑“彻底切断代码提交入口”来保命时，说明基于开放提交的协作生态已经崩坏了。在这种环境下，任何给陌生人开放权限的操作都无异于自杀。\n\n### 模式的终结：信任成本高到无法承受\n回到 Jazzband 的问题，它的模式在 AI 时代已经无法安全运转了。以前我们担心的是“人犯错”，现在我们面临的是“AI 批量制造垃圾”。一个给所有加入者开放 Push 权限的组织，在今天已经不可能安全运营。Jannis Leidel 的决定很明确：既然环境变了，建立在旧环境之上的协作模型也必须随之退役。这不是倒退，而是面对新威胁的必然止损。",
+      "source_name": "simonwillison.net",
+      "score": 15,
+      "depth": 3,
+      "novelty": 5,
+      "breadth": 7,
+      "category": "engineering",
+      "keywords": [
+        "GitHub",
+        "AI spam",
+        "open source",
+        "Jazzband"
+      ],
+      "rank": 2
+    },
+    {
       "title": "Ars Technica Fires Reporter Benj Edwards After He Published Story With AI-Fabricated Quotes",
       "title_zh": "Ars Technica 解雇使用 AI 伪造引语的记者",
       "link": "https://futurism.com/artificial-intelligence/ars-technica-fires-reporter-ai-quotes",
@@ -43,7 +63,26 @@
         "ethics",
         "Claude"
       ],
-      "rank": 2
+      "rank": 3
+    },
+    {
+      "title": "human.json",
+      "title_zh": "human.json 协议简介",
+      "link": "https://evanhahn.com/human-dot-json/",
+      "pub_date": "2026-03-14T00:00:00.000Z",
+      "summary": "## 一句话总结\n`human.json` 是一个利用 URL 所有权作为身份标识，通过站点间的相互背书来证明内容“人类作者身份”的去中心化协议。\n\n### 证明“我是人”成了刚需\n随着 AI 生成内容的泛滥，如何证明网络上的内容是由真人创作的，变得越来越棘手。传统的验证方式往往依赖中心化平台，但这并不适合开放的去中心化网络。`human.json` 协议试图解决这个问题，它的核心思路其实很简单：让人类声明对自己网站内容的所有权，并为其他人的人性提供担保。这不仅仅是一个简单的标签，而是一套完整的身份验证机制。\n\n### 用 URL 所有权替代账号系统\n这个协议最巧妙的设计在于它对“身份”的定义。它不需要你注册新账号，而是直接使用 URL 所有权作为身份标识。说白了就是，你能控制某个域名，你就拥有了这个身份。这种方式天然契合现有的 Web 生态，不需要引入额外的登录系统或第三方认证机构，极大地降低了使用门槛。\n\n### 构建可爬取的信任网络\n光有身份还不够，信任是如何传播的呢？协议规定，信任通过站点间的“背书”来传播。这些背书关系形成了一个可被爬虫抓取的网络。当 A 站点在 `human.json` 中声明信任 B 站点时，这种关系就被记录下来。通过爬虫遍历这个网络，就可以建立起一个去中心化的信任图谱，从而验证某个内容创作者是否处于这个“人类信任圈”内。\n\n### 落地就是一个静态 JSON 文件\n对于开发者来说，集成这个协议非常容易。你只需要在自己的网站根目录下放一个 `human.json` 文件即可。作者 Evan Hahn 已经在他的站点 `evanhahn.com/human.json` 上部署了这个文件。这种轻量级的实现方式意味着任何静态站点生成器或传统网站都能快速接入，不需要复杂的后端逻辑支持。\n\n### 去中心化验证的新尝试\n`human.json` 的价值在于它提供了一种不依赖大厂平台的验证方案。它把身份和信任的控制权交还给了网站所有者。虽然目前这还是一个相对小众的协议，但在 AI 内容日益泛滥的今天，这种基于 Web 原生标准的信任机制，为维护互联网的真实性提供了一个很有意思的思路。",
+      "source_name": "evanhahn.com",
+      "score": 8,
+      "depth": 1,
+      "novelty": 4,
+      "breadth": 3,
+      "category": "tools",
+      "keywords": [
+        "human.json",
+        "protocol",
+        "web of trust"
+      ],
+      "rank": 4
     },
     {
       "title": "Lil Finder Guy",
@@ -63,7 +102,7 @@
         "TikTok",
         "character"
       ],
-      "rank": 3
+      "rank": 5
     }
   ]
 }
