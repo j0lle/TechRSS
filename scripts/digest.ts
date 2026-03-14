@@ -4,7 +4,7 @@ import path from 'node:path';
 import TurndownService from 'turndown';
 import { RSS_FEEDS } from '../src/lib/feeds';
 import { fetchAllFeeds } from '../src/lib/rss';
-import { processArticles } from '../src/lib/ai';
+import { processArticles, summarizeArticle } from '../src/lib/ai';
 import { fetchWithPlaywright, closeBrowser } from './fetch-content';
 import type { Article } from '../src/lib/types';
 
@@ -155,6 +155,20 @@ async function main() {
     retryResults.forEach((v, retryIdx) => { results.set(failedIndices[retryIdx], v); });
   }
 
+  // Generate detailed article summaries (same as HN logic)
+  const ARTICLE_CONCURRENCY = 5;
+  const articleSummaries = new Map<number, string>();
+  const needArticleSummary = deduped.map((a, i) => ({ article: a, index: i })).filter(({ article }) => article.content && article.content.length >= 200);
+  console.log(`[digest] Generating article summaries for ${needArticleSummary.length} articles...`);
+  for (let i = 0; i < needArticleSummary.length; i += ARTICLE_CONCURRENCY) {
+    const batch = needArticleSummary.slice(i, i + ARTICLE_CONCURRENCY);
+    await Promise.all(batch.map(async ({ article, index }) => {
+      const summary = await summarizeArticle(article.title, article.content);
+      if (summary) articleSummaries.set(index, summary);
+    }));
+    console.log(`[digest] Article summary: ${Math.min(i + ARTICLE_CONCURRENCY, needArticleSummary.length)}/${needArticleSummary.length}`);
+  }
+
   const newArticles = deduped.map((article, index) => {
     const r = results.get(index);
     if (!r) return null;
@@ -164,7 +178,7 @@ async function main() {
       title_zh: r.titleZh || article.title,
       link: article.link,
       pub_date: article.pubDate.toISOString(),
-      summary: r.summary || '',
+      summary: articleSummaries.get(index) || r.summary || '',
       source_name: article.sourceName,
       score,
       depth: r.depth,

@@ -1,6 +1,7 @@
 ---
 import type { ArticleRow } from '../lib/types';
 import { CATEGORY_META, type CategoryId } from '../lib/types';
+import { marked } from 'marked';
 
 interface Props {
   article: ArticleRow;
@@ -56,7 +57,7 @@ const catColor = catColorMap[article.category] || catColorMap['other'];
     <div class="inner mt-2">
       <div class="bg-bg-expanded rounded-lg p-2.5 space-y-2">
         {article.summary && (
-          <p class="text-[13px] leading-relaxed text-text-primary">{article.summary}</p>
+          <div class="article-summary prose prose-sm max-w-none text-[13px] leading-relaxed text-text-secondary" set:html={marked.parse(article.summary)} />
         )}
         {article.keywords && article.keywords.length > 0 && (
           <div class="flex flex-wrap gap-1">
