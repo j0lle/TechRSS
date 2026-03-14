@@ -1,6 +1,325 @@
 {
-  "updatedAt": "2026-03-14T15:48:17.997Z",
+  "updatedAt": "2026-03-14T16:25:49.457Z",
   "items": [
+    {
+      "id": 47375764,
+      "by": "y1n0",
+      "title": "XML Is a Cheap DSL",
+      "url": "https://unplannedobsolescence.com/blog/xml-cheap-dsl/",
+      "score": 152,
+      "detailUpdatedAt": 1773503023,
+      "createdAt": 1773491450,
+      "aiSummaryUpdatedAt": 1773504722,
+      "aisummary": {
+        "chinese_title": "XML 作为“廉价”DSL 的争论：生态可用性、解析成本与替代方案",
+        "emoji": "🤨",
+        "sarcastic_question": "把税法写成 XML，是省钱还是自找麻烦？"
+      },
+      "classifications": {
+        "topics": [
+          4,
+          5
+        ],
+        "facets": [
+          9
+        ],
+        "tags": [
+          "XML",
+          "DSL",
+          "JSON",
+          "XSD",
+          "Java"
+        ]
+      },
+      "classificationsUpdatedAt": 1773494780,
+      "aiSummary": {
+        "chinese_title": "XML 作为“廉价”DSL 的争论：生态可用性、解析成本与替代方案",
+        "emoji": "🤨",
+        "sarcastic_question": "把税法写成 XML，是省钱还是自找麻烦？"
+      },
+      "detail": {
+        "id": 47375764,
+        "by": "y1n0",
+        "title": "XML Is a Cheap DSL",
+        "url": "https://unplannedobsolescence.com/blog/xml-cheap-dsl/",
+        "score": 152,
+        "detailUpdatedAt": 1773503023,
+        "createdAt": 1773491450,
+        "aiSummaryUpdatedAt": 1773504722,
+        "aisummary": {
+          "chinese_title": "XML 作为“廉价”DSL 的争论：生态可用性、解析成本与替代方案",
+          "discussion_overview": [
+            {
+              "category": "解析复杂度与性能成本",
+              "summary": "评论中反复指出，完整的 XML 支持并不“便宜”：现实中解析器实现集中在少数开源库（libxml2、expat、Xerces），要做到合规通常代价高。DOM 解析会占用大量内存与 CPU，在企业级 Java 场景中常成为瓶颈，若使用流式 SAX 可以缓解内存但编程复杂度上升。还有人提到老库维护不充分、行业格式（如 SAP idocs）带来的额外负担，说明实际工程里“便宜”不能等同于“轻量级运行时开销”。",
+              "supportid": [
+                "47376221",
+                "47376617",
+                "47376682",
+                "47376891",
+                "47377508",
+                "47376673"
+              ]
+            },
+            {
+              "category": "“廉价（cheap）”的含义与生态优势",
+              "summary": "作者和支持者强调“cheap”指的是实现与推广成本低：XML 有成熟的、跨语言的库和成熟工具链，能把现成的解析器、查询与验证工具直接套用到 DSL 上，从而在多个平台快速部署。对小团队或想快速让多种环境互通的项目，这种“生态便捷”比纯计算效率更重要。评论也指出 XML 本质上是一个通用的 lexer/parser（把文本变为 AST 的工具），其大规模可用的工具链是核心优势而非语法本身的每个特性。",
+              "supportid": [
+                "47376743",
+                "47376943",
+                "47376576",
+                "47376936"
+              ]
+            },
+            {
+              "category": "XML 与 JSON/YAML 的权衡",
+              "summary": "许多评论把争论拉回到 JSON 和 YAML 的优缺点：JSON 因语法极简、几乎所有语言都有解析器而广受欢迎，但被批评缺少注释、数据类型和内建验证机制，会被社区以非标准扩展（comments、type hints）“破坏”。YAML 则被指含有大量脚手架式陷阱（anchors、隐式类型等），会导致安全或意外转换问题。有人提到用 JSON+schema 工具（如 zod、JSON5）或设计更严格的 YAML 子集可以缓解，但这些都是工程权衡而非纯格式优劣的绝对结论。",
+              "supportid": [
+                "47376773",
+                "47377532",
+                "47377557",
+                "47376580",
+                "47376820"
+              ]
+            },
+            {
+              "category": "可写性与人工可读性的痛点（DSL 作者体验）",
+              "summary": "大量评论抱怨 XML 作为手写 DSL 时的冗长与易错：角括号语法、强语法要求和 schema 验证带来较高的心智负担，使调试与手工编辑变得痛苦。有人给出更友好的文本 DSL 草案（例如发票语法）或用 Raku Grammar 做解析的例子，强调最好把人类可写性与机器可验证性分离。调试困难、维护成本和注释/保留信息在生成与编辑流程中的损失，是反对手写 XML 的实际理由。",
+              "supportid": [
+                "47376439",
+                "47376447",
+                "47376151",
+                "47376333"
+              ]
+            },
+            {
+              "category": "替代方案：S-expressions、宿主语言 eDSL 与约束逻辑",
+              "summary": "不少人建议用更易解析或更有表达力的替代品：S-expressions（Lisp 风格）因解析极简常被拿来做 DSL；函数式语言（Haskell、OCaml、Scala）或 Lisp/Raku 这种对 eDSL 友好的宿主语言能直接表达依赖与并行化规则；还有人提出用 Python 运算符重载把可读语法编译成中间 JSON。对约束与证明感兴趣的评论则提到 Prolog 与 clpBNR（约束库）能天然表达计算图和约束求解，但把图编码成代价更高的可操作代码也有困难。总体上讨论集中在“用现有编程语言或更轻量语法能避免重写解析器与工具链”的观点上。",
+              "supportid": [
+                "47376324",
+                "47377326",
+                "47377439",
+                "47376960",
+                "47377116",
+                "47377190"
+              ]
+            },
+            {
+              "category": "企业级验证、标准与遗留系统适配",
+              "summary": "在企业与金融领域，XML 的强验证与成熟标准（XSD、XSLT、SOAP 等）仍然有明显价值，许多系统依赖这些机制来确保结构正确性和互操作性。评论举例说明金融机构广泛使用 XML，但生产端输出风格差异大，需要大量适配工作；也有观点说在这些场景中强模式验证（XSD 或 RELAX-NG）确实能减少错误。因此对于需要严格契约与跨组织数据交换的用例，XML 仍是实用的选择。",
+              "supportid": [
+                "47376187",
+                "47376442",
+                "47376955",
+                "47376278"
+              ]
+            },
+            {
+              "category": "安全性与错误配置风险",
+              "summary": "评论中警告：XML 的丰富特性（DTD、实体、XInclude、namespaces 等）如果被默认解析或误配置，容易带来安全与互操作性问题。攻击者可以构造含有不应被解析的扩展特性文档触发不期望行为，许多组织需要显式禁用危险功能或采用安全解析配置。尽管存在最佳实践，但现实中不少项目依赖默认、功能齐全的解析器，从而暴露风险。",
+              "supportid": [
+                "47377005",
+                "47377393",
+                "47376814",
+                "47376773"
+              ]
+            },
+            {
+              "category": "历史、生态与标准选择的后果",
+              "summary": "讨论把问题放回历史脉络：XML 在 Web 与企业早期占位，但社区后来转向 JSON，部分原因是开发者对 XML 的复杂性反感以及某些标准（如 SOAP、XHTML/XSLT）的糟糕体验。有人指出 XMLHttpRequest 名称的历史由来与当年实现决策有关，另有评论认为 W3C 和标准化路线在优先级上做出过度复杂化的选择。总结来看，XML 的兴衰既有技术权衡也有社区采纳与工具生态的长期影响。",
+              "supportid": [
+                "47376209",
+                "47376578",
+                "47376278",
+                "47377384"
+              ]
+            }
+          ],
+          "terminologies": [
+            {
+              "term": "SAX",
+              "explanation": "SAX（Simple API for XML）是一种基于事件的流式 XML 解析方式，按元素触发回调，内存占用低但编码模型更复杂，适合大文档的逐步处理。"
+            },
+            {
+              "term": "DOM",
+              "explanation": "DOM（Document Object Model）把 XML 解析成内存中的树结构，便于随机访问和修改但会占用较多内存与 CPU，常见于小到中等文档的处理。"
+            },
+            {
+              "term": "XSD",
+              "explanation": "XSD（XML Schema Definition）是 W3C 的 XML 模式语言，用来声明元素与属性的类型和结构，从而对 XML 文档做静态验证。"
+            },
+            {
+              "term": "XML Namespaces",
+              "explanation": "XML Namespaces（命名空间）用于区分不同词汇表中的元素/属性名以避免冲突，但会增加解析和匹配的复杂性，且并非所有解析器对命名空间的支持一致。"
+            },
+            {
+              "term": "S-expressions",
+              "explanation": "S-expressions（符号表达式）是 Lisp 一类语言使用的括号表示法，语法极简、解析容易，常被用作实现轻量 DSL 或中间表示。"
+            },
+            {
+              "term": "XSLT",
+              "explanation": "XSLT（XSL Transformations）是一种用 XML 编写的声明式文档转换语言，用于将 XML 转换为另一种 XML、HTML 或文本格式，曾被广泛用于管道式数据转换。"
+            },
+            {
+              "term": "DTD",
+              "explanation": "DTD（Document Type Definition）是较早的 XML/SGML 结构定义语言，用于声明元素、属性和实体，但比 XSD 功能更有限且容易被滥用。"
+            },
+            {
+              "term": "SGML",
+              "explanation": "SGML（Standard Generalized Markup Language）是 XML 的祖先，是一套通用的标记语言标准，设计更为复杂，XML 继承并精简了其部分理念。"
+            }
+          ],
+          "context": "原文主张把 XML 用作“廉价”的 DSL（示例是税务计算），理由是现成的 XML 工具链能让 DSL 在多语言/多环境中快速落地。评论讨论的前提包括两类权衡：一方面是生态与实现成本（大量成熟库如 libxml2、expat、Xerces，以及 DOM/SAX 等解析模型）带来的部署便利；另一方面是 XML 的复杂特性（attributes、namespaces、CDATA、DTD、XInclude 等）导致的性能、互操作与安全隐患。讨论还扩展到替代路线：以 JSON/YAML、S-expressions、宿主语言的 eDSL、以及基于约束的 Prolog/clpBNR 等方式来表达计算图或 DSL。许多评论把问题放在历史与行业背景上，指出 XML 在企业级验证（XSD、XSLT、SOAP）有积累，但也因复杂标准和糟糕生态选择被社区部分抛弃。",
+          "emoji": "🤨",
+          "sarcastic_question": "把税法写成 XML，是省钱还是自找麻烦？"
+        },
+        "classifications": {
+          "topics": [
+            4,
+            5
+          ],
+          "facets": [
+            9
+          ],
+          "tags": [
+            "XML",
+            "DSL",
+            "JSON",
+            "XSD",
+            "Java"
+          ]
+        },
+        "classificationsUpdatedAt": 1773494780,
+        "aiSummary": {
+          "chinese_title": "XML 作为“廉价”DSL 的争论：生态可用性、解析成本与替代方案",
+          "discussion_overview": [
+            {
+              "category": "解析复杂度与性能成本",
+              "summary": "评论中反复指出，完整的 XML 支持并不“便宜”：现实中解析器实现集中在少数开源库（libxml2、expat、Xerces），要做到合规通常代价高。DOM 解析会占用大量内存与 CPU，在企业级 Java 场景中常成为瓶颈，若使用流式 SAX 可以缓解内存但编程复杂度上升。还有人提到老库维护不充分、行业格式（如 SAP idocs）带来的额外负担，说明实际工程里“便宜”不能等同于“轻量级运行时开销”。",
+              "supportid": [
+                "47376221",
+                "47376617",
+                "47376682",
+                "47376891",
+                "47377508",
+                "47376673"
+              ]
+            },
+            {
+              "category": "“廉价（cheap）”的含义与生态优势",
+              "summary": "作者和支持者强调“cheap”指的是实现与推广成本低：XML 有成熟的、跨语言的库和成熟工具链，能把现成的解析器、查询与验证工具直接套用到 DSL 上，从而在多个平台快速部署。对小团队或想快速让多种环境互通的项目，这种“生态便捷”比纯计算效率更重要。评论也指出 XML 本质上是一个通用的 lexer/parser（把文本变为 AST 的工具），其大规模可用的工具链是核心优势而非语法本身的每个特性。",
+              "supportid": [
+                "47376743",
+                "47376943",
+                "47376576",
+                "47376936"
+              ]
+            },
+            {
+              "category": "XML 与 JSON/YAML 的权衡",
+              "summary": "许多评论把争论拉回到 JSON 和 YAML 的优缺点：JSON 因语法极简、几乎所有语言都有解析器而广受欢迎，但被批评缺少注释、数据类型和内建验证机制，会被社区以非标准扩展（comments、type hints）“破坏”。YAML 则被指含有大量脚手架式陷阱（anchors、隐式类型等），会导致安全或意外转换问题。有人提到用 JSON+schema 工具（如 zod、JSON5）或设计更严格的 YAML 子集可以缓解，但这些都是工程权衡而非纯格式优劣的绝对结论。",
+              "supportid": [
+                "47376773",
+                "47377532",
+                "47377557",
+                "47376580",
+                "47376820"
+              ]
+            },
+            {
+              "category": "可写性与人工可读性的痛点（DSL 作者体验）",
+              "summary": "大量评论抱怨 XML 作为手写 DSL 时的冗长与易错：角括号语法、强语法要求和 schema 验证带来较高的心智负担，使调试与手工编辑变得痛苦。有人给出更友好的文本 DSL 草案（例如发票语法）或用 Raku Grammar 做解析的例子，强调最好把人类可写性与机器可验证性分离。调试困难、维护成本和注释/保留信息在生成与编辑流程中的损失，是反对手写 XML 的实际理由。",
+              "supportid": [
+                "47376439",
+                "47376447",
+                "47376151",
+                "47376333"
+              ]
+            },
+            {
+              "category": "替代方案：S-expressions、宿主语言 eDSL 与约束逻辑",
+              "summary": "不少人建议用更易解析或更有表达力的替代品：S-expressions（Lisp 风格）因解析极简常被拿来做 DSL；函数式语言（Haskell、OCaml、Scala）或 Lisp/Raku 这种对 eDSL 友好的宿主语言能直接表达依赖与并行化规则；还有人提出用 Python 运算符重载把可读语法编译成中间 JSON。对约束与证明感兴趣的评论则提到 Prolog 与 clpBNR（约束库）能天然表达计算图和约束求解，但把图编码成代价更高的可操作代码也有困难。总体上讨论集中在“用现有编程语言或更轻量语法能避免重写解析器与工具链”的观点上。",
+              "supportid": [
+                "47376324",
+                "47377326",
+                "47377439",
+                "47376960",
+                "47377116",
+                "47377190"
+              ]
+            },
+            {
+              "category": "企业级验证、标准与遗留系统适配",
+              "summary": "在企业与金融领域，XML 的强验证与成熟标准（XSD、XSLT、SOAP 等）仍然有明显价值，许多系统依赖这些机制来确保结构正确性和互操作性。评论举例说明金融机构广泛使用 XML，但生产端输出风格差异大，需要大量适配工作；也有观点说在这些场景中强模式验证（XSD 或 RELAX-NG）确实能减少错误。因此对于需要严格契约与跨组织数据交换的用例，XML 仍是实用的选择。",
+              "supportid": [
+                "47376187",
+                "47376442",
+                "47376955",
+                "47376278"
+              ]
+            },
+            {
+              "category": "安全性与错误配置风险",
+              "summary": "评论中警告：XML 的丰富特性（DTD、实体、XInclude、namespaces 等）如果被默认解析或误配置，容易带来安全与互操作性问题。攻击者可以构造含有不应被解析的扩展特性文档触发不期望行为，许多组织需要显式禁用危险功能或采用安全解析配置。尽管存在最佳实践，但现实中不少项目依赖默认、功能齐全的解析器，从而暴露风险。",
+              "supportid": [
+                "47377005",
+                "47377393",
+                "47376814",
+                "47376773"
+              ]
+            },
+            {
+              "category": "历史、生态与标准选择的后果",
+              "summary": "讨论把问题放回历史脉络：XML 在 Web 与企业早期占位，但社区后来转向 JSON，部分原因是开发者对 XML 的复杂性反感以及某些标准（如 SOAP、XHTML/XSLT）的糟糕体验。有人指出 XMLHttpRequest 名称的历史由来与当年实现决策有关，另有评论认为 W3C 和标准化路线在优先级上做出过度复杂化的选择。总结来看，XML 的兴衰既有技术权衡也有社区采纳与工具生态的长期影响。",
+              "supportid": [
+                "47376209",
+                "47376578",
+                "47376278",
+                "47377384"
+              ]
+            }
+          ],
+          "terminologies": [
+            {
+              "term": "SAX",
+              "explanation": "SAX（Simple API for XML）是一种基于事件的流式 XML 解析方式，按元素触发回调，内存占用低但编码模型更复杂，适合大文档的逐步处理。"
+            },
+            {
+              "term": "DOM",
+              "explanation": "DOM（Document Object Model）把 XML 解析成内存中的树结构，便于随机访问和修改但会占用较多内存与 CPU，常见于小到中等文档的处理。"
+            },
+            {
+              "term": "XSD",
+              "explanation": "XSD（XML Schema Definition）是 W3C 的 XML 模式语言，用来声明元素与属性的类型和结构，从而对 XML 文档做静态验证。"
+            },
+            {
+              "term": "XML Namespaces",
+              "explanation": "XML Namespaces（命名空间）用于区分不同词汇表中的元素/属性名以避免冲突，但会增加解析和匹配的复杂性，且并非所有解析器对命名空间的支持一致。"
+            },
+            {
+              "term": "S-expressions",
+              "explanation": "S-expressions（符号表达式）是 Lisp 一类语言使用的括号表示法，语法极简、解析容易，常被用作实现轻量 DSL 或中间表示。"
+            },
+            {
+              "term": "XSLT",
+              "explanation": "XSLT（XSL Transformations）是一种用 XML 编写的声明式文档转换语言，用于将 XML 转换为另一种 XML、HTML 或文本格式，曾被广泛用于管道式数据转换。"
+            },
+            {
+              "term": "DTD",
+              "explanation": "DTD（Document Type Definition）是较早的 XML/SGML 结构定义语言，用于声明元素、属性和实体，但比 XSD 功能更有限且容易被滥用。"
+            },
+            {
+              "term": "SGML",
+              "explanation": "SGML（Standard Generalized Markup Language）是 XML 的祖先，是一套通用的标记语言标准，设计更为复杂，XML 继承并精简了其部分理念。"
+            }
+          ],
+          "context": "原文主张把 XML 用作“廉价”的 DSL（示例是税务计算），理由是现成的 XML 工具链能让 DSL 在多语言/多环境中快速落地。评论讨论的前提包括两类权衡：一方面是生态与实现成本（大量成熟库如 libxml2、expat、Xerces，以及 DOM/SAX 等解析模型）带来的部署便利；另一方面是 XML 的复杂特性（attributes、namespaces、CDATA、DTD、XInclude 等）导致的性能、互操作与安全隐患。讨论还扩展到替代路线：以 JSON/YAML、S-expressions、宿主语言的 eDSL、以及基于约束的 Prolog/clpBNR 等方式来表达计算图或 DSL。许多评论把问题放在历史与行业背景上，指出 XML 在企业级验证（XSD、XSLT、SOAP）有积累，但也因复杂标准和糟糕生态选择被社区部分抛弃。",
+          "emoji": "🤨",
+          "sarcastic_question": "把税法写成 XML，是省钱还是自找麻烦？"
+        }
+      },
+      "articleSummary": "### 一句话总结\nXML 并非过时的遗留物，当它被用作构建声明式 DSL（领域特定语言）时，其处理复杂嵌套逻辑和自描述性的能力，远胜于 JSON 和传统的命令式代码。\n\n### 用 XML 描述复杂的税务逻辑\nIRS 新开源的 Tax Withholding Estimator（TWE）项目，核心是一个名为 Fact Graph 的逻辑引擎。这个引擎通过解析 XML 配置来计算税务，作者用了一个很直观的例子：计算“总欠税额”。在 XML 里，这被描述为一个减法操作，从“总税额”中减去“总已付税额”。虽然乍一看标签很多、略显冗长，但这种结构非常清晰地表达了数据的依赖关系。比如处理“可退还信贷”时，XML 直接把 Earned Income Credit、Child Tax Credit 等多个信贷来源列在一个 `<Add>` 标签里。对于非开发者（比如税务专家）来说，这种写法比代码更接近业务文档，一眼就能看懂业务逻辑。\n\n### 命令式代码在业务建模上的硬伤\n既然 XML 看起来啰嗦，为什么不用 JavaScript 这种简洁的语言写？作者尝试把同样的逻辑翻译成了 JS，看起来确实像代数公式一样清爽。但问题在于，JS 是命令式的，它描述的是“执行步骤”而不是“逻辑关系”。一旦逻辑变复杂，比如需要根据用户输入动态决定计算顺序，或者需要遍历集合求和，代码里就会混入大量 `map`、`reduce` 这种编程概念。这导致业务逻辑被实现细节淹没，税务专家看不懂，开发者维护起来也头疼。更糟糕的是，命令式代码执行完中间值就丢了，如果算出来的税额不对，你很难回溯到底是哪一步出了问题。\n\n### 声明式 DSL 带来的可追溯性\n核心思路其实很简单：把“怎么算”交给引擎，开发者只负责描述“算什么”。这就是声明式 DSL 的价值。在 Fact Graph 的 XML 模型里，所有的计算都是命名好的 Fact，它们之间的依赖关系形成了一张图。引擎负责解析这张图，自动决定执行顺序。这样做最大的好处是“可审计性”。因为中间状态都被保留在图里，你可以随时问系统：“这个数字是怎么算出来的？”系统就能把完整的依赖链展示给你看。这对于像美国税法这样极其复杂的领域至关重要，毕竟没人能凭脑力保证几百步计算不出错。\n\n### 为什么 JSON 搞不定这种 DSL\n既然需要结构化数据，现在更流行的 JSON 行不行？作者做了一个对比实验，把那段计算逻辑转成了 JSON。结果发现，JSON 处理这种任意嵌套的表达式非常吃力。为了表达一个简单的减法或取最大值，你需要引入大量的 `type`、`kind`、`children` 字段来区分节点类型。XML 在这方面有天然优势：标签名本身就是类型，属性可以携带元数据，结构既灵活又自描述。说白了，JSON 适合做数据传输，但当你需要设计一门“语言”来描述复杂逻辑时，XML 是更廉价、更强大的载体。"
+    },
     {
       "id": 47340203,
       "by": "billybuckwheat",
@@ -13430,297 +13749,6 @@
         }
       },
       "articleSummary": "## 一句话总结\n这台仅售 800 美元的入门级 MacBook（配备 8GB 内存和手机芯片），凭借 DuckDB 的 Out-of-Core 能力，竟然在冷启动查询中跑赢了昂贵的中型云服务器，甚至能抗住 TPC-DS SF300 这种大数据量级的压测。\n\n### 入门级 MacBook 的硬件底色：手机芯加小内存\n这次测试的主角是最新发布的 MacBook Neo，这机器最大的卖点就是便宜。为了验证它能不能跑大数据，作者特意选了 512GB 硬盘的顶配版，价格也就 800 美元。但硬件参数确实很寒碜：内存只有 8GB，CPU 竟然是 iPhone 16 Pro 同款的 Apple A18 Pro 芯片（6 核）。虽然之前测试过这颗芯片在手机上跑 TPC-H 表现不错，但把它塞进笔记本里跑数据库，还是让人心里打鼓。毕竟，这配置看起来完全不是为重度计算准备的。\n\n### ClickBench 冷启动：本地 SSD 碾压云服务器网络 I/O\n第一个测试是 ClickBench，这是一个针对聚合和过滤操作的基准测试，数据量是 1 亿行（约 14GB Parquet）。作者把这台“弱鸡”笔记本拉出来，和两款 AWS 云服务器对比：一个是 16 核 32GB 内存的 c6a.4xlarge，另一个是 192 核 384GB 内存的怪兽级实例 c8g.metal-48xl。结果非常反直觉：在冷启动（Cold run）场景下，MacBook Neo 竟然赢了。它的中位数查询耗时不到 1 秒，总耗时不到 1 分钟。核心原因不在于算力，而在于 I/O。云服务器用的是网络附加存储，磁盘读取慢；而 MacBook 虽然硬盘一般，但毕竟是本地 NVMe SSD，首读速度优势巨大。\n\n### 热启动：算力差距显现，但 A18 Pro 依然能打\n到了热启动（Hot run）阶段，数据进了缓存，云服务器的算力优势就爆发了。那个 192 核的怪兽实例总耗时只有 4.35 秒，吊打全场。但有意思的是，MacBook Neo 并没有输得太难看。它的总耗时只比 16 核的 c6a.4xlarge 慢了 13% 左右，甚至在单次查询的中位数耗时上还赢了对方。这说明，对于很多日常的分析查询，只要不是那种极端的并发场景，A18 Pro 这颗手机芯片的能效比确实有点东西。\n\n### TPC-DS 压测：内存不够，硬盘来凑\n为了进一步压榨机器，作者换了更复杂的 TPC-DS 基准测试，这玩意儿有 99 个查询，包含大量窗口函数。在 SF100（100GB 规模）下，MacBook Neo 跑得很轻松，中位数耗时 1.63 秒。但在 SF300（300GB 规模）下，8GB 内存的瓶颈彻底暴露了。DuckDB 不得不频繁把数据 Spill 到磁盘上，临时占用了 80GB 的磁盘空间。最夸张的一个查询跑了 51 分钟，但最终它还是扛住了，全部跑完只用了 79 分钟。这全靠 DuckDB 的 Out-of-core processing 机制，把硬盘当内存用，才没让程序崩掉。\n\n### 购买建议：别当主力机，但做客户端真香\n那这机器到底值不值得买？说实话，如果你打算天天在本地搞几百 GB 的数据处理，这台机器的硬盘 I/O（只有 1.5GB/s）和 8GB 内存还是会让你抓狂。加钱上 MacBook Air 或者 Pro 肯定更爽。但如果你主要是在云端跑 DuckDB，只是偶尔需要在本地连一下或者处理点小数据，这台 Neo 绝对够用。它证明了现在的移动芯片配合优秀的数据库设计，已经能干以前不敢想的活了。"
-    },
-    {
-      "id": 47350516,
-      "by": "jrswab",
-      "title": "Show HN: Axe A 12MB binary that replaces your AI framework",
-      "url": "https://github.com/jrswab/axe",
-      "score": 132,
-      "detailUpdatedAt": 1773359016,
-      "createdAt": 1773325868,
-      "aiSummaryUpdatedAt": 1773360403,
-      "aisummary": {
-        "chinese_title": "Axe：将 LLM 代理当 Unix 工具的 12MB CLI 运行时",
-        "emoji": "🪓",
-        "sarcastic_question": "12MB 二进制就能替代 AI 框架，真有这么神？"
-      },
-      "classifications": {
-        "topics": [
-          1,
-          4,
-          3
-        ],
-        "facets": [
-          1,
-          4
-        ],
-        "tags": [
-          "Axe",
-          "LLM agents",
-          "CLI",
-          "Go",
-          "TOML",
-          "OpenAI",
-          "Anthropic",
-          "Ollama",
-          "prompt-injection",
-          "jrswab"
-        ]
-      },
-      "classificationsUpdatedAt": 1773330136,
-      "aiSummary": {
-        "chinese_title": "Axe：将 LLM 代理当 Unix 工具的 12MB CLI 运行时",
-        "emoji": "🪓",
-        "sarcastic_question": "12MB 二进制就能替代 AI 框架，真有这么神？"
-      },
-      "detail": {
-        "id": 47350516,
-        "by": "jrswab",
-        "title": "Show HN: Axe A 12MB binary that replaces your AI framework",
-        "url": "https://github.com/jrswab/axe",
-        "score": 132,
-        "detailUpdatedAt": 1773359016,
-        "createdAt": 1773325868,
-        "aiSummaryUpdatedAt": 1773360403,
-        "aisummary": {
-          "chinese_title": "Axe：将 LLM 代理当 Unix 工具的 12MB CLI 运行时",
-          "discussion_overview": [
-            {
-              "category": "Unix 风格可组合代理（设计理念）",
-              "summary": "Axe 的核心理念是把每个 LLM 代理设计成小而专一的 CLI 程序，用 stdin/stdout 管道组合并通过 TOML 描述其行为。评论里有人用具体示例（如 git diff --staged | ai-commit-msg | git commit -F -）展示这种把任务拆成小工具并串联的做法。支持者认为单一职责提高可预测性、易于版本控制和调试，也便于把 AI 嵌入现有 shell/自动化流水线。反对者提醒，把工作拆得过细在人类团队里会难以协作，但对 LLM 来说窄范围指令往往更可靠。",
-              "supportid": [
-                "47352823",
-                "47358479",
-                "47352198",
-                "47351200",
-                "47351773",
-                "47351032"
-              ]
-            },
-            {
-              "category": "实际工作流与应用示例",
-              "summary": "评论中出现大量实战流水线示例：把 YouTube 转录交给一连串 agent 生成博客并上传到 Instapaper；用手机语音笔记经 syncthing 同步，再由一串 agent 搜索相关笔记、起草并清洗文章；以及用小脚本把 git diff 生成 single-line conventional commit message。许多用户把中间结果保存为文件或子目录，形成可人工干预和版本控制的工件（artifact），这使得工作流更像数据流系统而非一次性聊天输出。这些流程既适用于本地模型，也用于内网 LLM 或 CI 场景，用户通常在自动化结束前仍保留人工审阅环节。",
-              "supportid": [
-                "47352131",
-                "47358479",
-                "47356256",
-                "47352198",
-                "47352552",
-                "47351200",
-                "47354227"
-              ]
-            },
-            {
-              "category": "安全性与权限控制担忧",
-              "summary": "多条评论强调自动化 agent 面临 prompt injection 等风险，尤其当 agent 拥有对邮箱、日历或公司内部 API 的访问权限时，可能被提示劫持导致数据外泄或破坏。社区提出多种缓解措施：限制外联域名/IP 白名单、实现输出 allowlist、在 Docker 容器中运行 agent 以隔离破坏性动作，以及在 agent 执行前后用简单的 guard/validator（如 grep、jq）验证输出。评论也指出容器不能完全解决被授予第三方账户的滥用问题，因此需要更细粒度的权限管理与审计。总体建议把最小权限、网络/输出限制和运行时隔离作为并行防护手段。",
-              "supportid": [
-                "47357268",
-                "47357395",
-                "47351938",
-                "47352235",
-                "47358479"
-              ]
-            },
-            {
-              "category": "成本控制与上下文管理",
-              "summary": "有人提出成本悖论：把大量信息塞进一个大上下文窗口很昂贵，但把同一任务不经意地拆成多个 agent（多次 API 调用）也可能比一次大窗口更贵。讨论建议给 LLM 调用设置 token 或次数配额、只把每个 agent 传入必要的最小上下文，并通过文件工件减少跨 agent 的大文本传递来降低成本。评论者把这视为 Unix 式工具链的责任问题——工具强大但需要使用者在设计工作流时主动平衡成本与可预测性；有用户会在定义好非交互式 pipeline 后再回到交互式 chat 进行精细迭代与清理工作。",
-              "supportid": [
-                "47351292",
-                "47351651",
-                "47352198",
-                "47357564",
-                "47352552"
-              ]
-            },
-            {
-              "category": "二进制体积与实现争议（12MB、Go、静态链接）",
-              "summary": "项目宣称“12MB 二进制”引发争论：部分人认为与用 Zig 等语言做的极小静态二进制相比并不突出，举例说可在数百 KB 实现完整 HTTP+TLS+调用堆栈；另有人指出 Go 运行时和静态链接会把最小可执行体积推高，因此 12MB 在 Go 生态里尚算合理。还有评论注意到 FreeBSD 的 ldd 输出显示并非完全静态链接，提示实现细节会影响体积和移植性。更重要的争议点是把体积当作“可替代框架”证据并不足，真正需要看基准测试、模型支持范围和部署健壮性。",
-              "supportid": [
-                "47356014",
-                "47356115",
-                "47357589",
-                "47357196",
-                "47351547",
-                "47356814"
-              ]
-            },
-            {
-              "category": "生态比较与功能成熟度",
-              "summary": "评论把 Axe 与现有开源工具比较：如 ell（把 prompts 当小程序）、runprompt、sgpt（偏交互）以及 Google 的 dotprompt（作为应用内 prompt 模板），结论是 Axe 更偏向面向 shell 的自动化运行时而非交互式 REPL。社区指出 README 中关于 MCP 的表述需要更新（有用户找不到对接说明），并就 Gemini、Openrouter、Ollama 等兼容性和集成提出需求，作者对部分集成给出会支持或已支持的回应。额外功能诉求包括用 chat 界面生成 agent 配置、引入 session 概念以跟踪状态，以及对配置格式的偏好（json5 vs TOML）。总体看法是 Axe 填补了面向 CLI/流水线的细分市场，但文档、示例和集成仍需完善以推动更广泛采用。",
-              "supportid": [
-                "47351032",
-                "47351773",
-                "47351427",
-                "47355884",
-                "47357486",
-                "47352594",
-                "47351134",
-                "47351690",
-                "47353724",
-                "47352561",
-                "47352928"
-              ]
-            }
-          ],
-          "terminologies": [
-            {
-              "term": "LLM agent",
-              "explanation": "把大型语言模型（LLM）封装为单一职责的执行单元或代理，通常通过命令行的 stdin/stdout 接受输入并输出结果，以便像 Unix 工具那样串联。"
-            },
-            {
-              "term": "TOML",
-              "explanation": "一种轻量配置文件格式（Tom's Obvious, Minimal Language），在本项目用于描述每个 agent 的参数、技能与行为。"
-            },
-            {
-              "term": "prompt injection",
-              "explanation": "一种针对模型的攻击手法：在输入或数据中嵌入恶意提示以诱导模型泄露敏感信息或执行不当操作，是自动化 agent 场景的主要安全风险之一。"
-            },
-            {
-              "term": "MCP",
-              "explanation": "评论中提到的 MCP server，指一种可把注释或评论发布到 GitLab Merge Request 的桥接/消息服务；作者表示 Axe 可以连接 MCP 以驱动外部注释动作（需文档/配置支持）。"
-            },
-            {
-              "term": "Unix pipeline",
-              "explanation": "传统的 Unix 管道方式（stdout → stdin），在此语境指把小型 agent 作为命令行工具，通过管道串联形成复杂工作流与数据流。"
-            }
-          ],
-          "context": "Axe 是一个用 Go 实现、约宣称 12MB 的 CLI 可执行文件，定位为把 LLM 代理当作小型、可组合的 Unix 工具来运行——每个 agent 用 TOML 配置并通过 stdin/stdout 串联。讨论围绕实战示例（例如自动生成 commit message、把转录变博客、分阶段保存文件工件）、安全与权限（prompt injection、网络白名单、容器隔离）以及成本/上下文切分（token 消耗、调用次数）展开。社区还比较了类似开源工具（ell、sgpt、dotprompt 等）、就体积与实现细节（Go 运行时、静态链接与与 Zig 对比）发生争议，并提出文档、集成（MCP、Gemini、Openrouter、Ollama）和 UI（用 chat 生成 config、session 跟踪）方面的改进建议。",
-          "emoji": "🪓",
-          "sarcastic_question": "12MB 二进制就能替代 AI 框架，真有这么神？"
-        },
-        "classifications": {
-          "topics": [
-            1,
-            4,
-            3
-          ],
-          "facets": [
-            1,
-            4
-          ],
-          "tags": [
-            "Axe",
-            "LLM agents",
-            "CLI",
-            "Go",
-            "TOML",
-            "OpenAI",
-            "Anthropic",
-            "Ollama",
-            "prompt-injection",
-            "jrswab"
-          ]
-        },
-        "classificationsUpdatedAt": 1773330136,
-        "aiSummary": {
-          "chinese_title": "Axe：将 LLM 代理当 Unix 工具的 12MB CLI 运行时",
-          "discussion_overview": [
-            {
-              "category": "Unix 风格可组合代理（设计理念）",
-              "summary": "Axe 的核心理念是把每个 LLM 代理设计成小而专一的 CLI 程序，用 stdin/stdout 管道组合并通过 TOML 描述其行为。评论里有人用具体示例（如 git diff --staged | ai-commit-msg | git commit -F -）展示这种把任务拆成小工具并串联的做法。支持者认为单一职责提高可预测性、易于版本控制和调试，也便于把 AI 嵌入现有 shell/自动化流水线。反对者提醒，把工作拆得过细在人类团队里会难以协作，但对 LLM 来说窄范围指令往往更可靠。",
-              "supportid": [
-                "47352823",
-                "47358479",
-                "47352198",
-                "47351200",
-                "47351773",
-                "47351032"
-              ]
-            },
-            {
-              "category": "实际工作流与应用示例",
-              "summary": "评论中出现大量实战流水线示例：把 YouTube 转录交给一连串 agent 生成博客并上传到 Instapaper；用手机语音笔记经 syncthing 同步，再由一串 agent 搜索相关笔记、起草并清洗文章；以及用小脚本把 git diff 生成 single-line conventional commit message。许多用户把中间结果保存为文件或子目录，形成可人工干预和版本控制的工件（artifact），这使得工作流更像数据流系统而非一次性聊天输出。这些流程既适用于本地模型，也用于内网 LLM 或 CI 场景，用户通常在自动化结束前仍保留人工审阅环节。",
-              "supportid": [
-                "47352131",
-                "47358479",
-                "47356256",
-                "47352198",
-                "47352552",
-                "47351200",
-                "47354227"
-              ]
-            },
-            {
-              "category": "安全性与权限控制担忧",
-              "summary": "多条评论强调自动化 agent 面临 prompt injection 等风险，尤其当 agent 拥有对邮箱、日历或公司内部 API 的访问权限时，可能被提示劫持导致数据外泄或破坏。社区提出多种缓解措施：限制外联域名/IP 白名单、实现输出 allowlist、在 Docker 容器中运行 agent 以隔离破坏性动作，以及在 agent 执行前后用简单的 guard/validator（如 grep、jq）验证输出。评论也指出容器不能完全解决被授予第三方账户的滥用问题，因此需要更细粒度的权限管理与审计。总体建议把最小权限、网络/输出限制和运行时隔离作为并行防护手段。",
-              "supportid": [
-                "47357268",
-                "47357395",
-                "47351938",
-                "47352235",
-                "47358479"
-              ]
-            },
-            {
-              "category": "成本控制与上下文管理",
-              "summary": "有人提出成本悖论：把大量信息塞进一个大上下文窗口很昂贵，但把同一任务不经意地拆成多个 agent（多次 API 调用）也可能比一次大窗口更贵。讨论建议给 LLM 调用设置 token 或次数配额、只把每个 agent 传入必要的最小上下文，并通过文件工件减少跨 agent 的大文本传递来降低成本。评论者把这视为 Unix 式工具链的责任问题——工具强大但需要使用者在设计工作流时主动平衡成本与可预测性；有用户会在定义好非交互式 pipeline 后再回到交互式 chat 进行精细迭代与清理工作。",
-              "supportid": [
-                "47351292",
-                "47351651",
-                "47352198",
-                "47357564",
-                "47352552"
-              ]
-            },
-            {
-              "category": "二进制体积与实现争议（12MB、Go、静态链接）",
-              "summary": "项目宣称“12MB 二进制”引发争论：部分人认为与用 Zig 等语言做的极小静态二进制相比并不突出，举例说可在数百 KB 实现完整 HTTP+TLS+调用堆栈；另有人指出 Go 运行时和静态链接会把最小可执行体积推高，因此 12MB 在 Go 生态里尚算合理。还有评论注意到 FreeBSD 的 ldd 输出显示并非完全静态链接，提示实现细节会影响体积和移植性。更重要的争议点是把体积当作“可替代框架”证据并不足，真正需要看基准测试、模型支持范围和部署健壮性。",
-              "supportid": [
-                "47356014",
-                "47356115",
-                "47357589",
-                "47357196",
-                "47351547",
-                "47356814"
-              ]
-            },
-            {
-              "category": "生态比较与功能成熟度",
-              "summary": "评论把 Axe 与现有开源工具比较：如 ell（把 prompts 当小程序）、runprompt、sgpt（偏交互）以及 Google 的 dotprompt（作为应用内 prompt 模板），结论是 Axe 更偏向面向 shell 的自动化运行时而非交互式 REPL。社区指出 README 中关于 MCP 的表述需要更新（有用户找不到对接说明），并就 Gemini、Openrouter、Ollama 等兼容性和集成提出需求，作者对部分集成给出会支持或已支持的回应。额外功能诉求包括用 chat 界面生成 agent 配置、引入 session 概念以跟踪状态，以及对配置格式的偏好（json5 vs TOML）。总体看法是 Axe 填补了面向 CLI/流水线的细分市场，但文档、示例和集成仍需完善以推动更广泛采用。",
-              "supportid": [
-                "47351032",
-                "47351773",
-                "47351427",
-                "47355884",
-                "47357486",
-                "47352594",
-                "47351134",
-                "47351690",
-                "47353724",
-                "47352561",
-                "47352928"
-              ]
-            }
-          ],
-          "terminologies": [
-            {
-              "term": "LLM agent",
-              "explanation": "把大型语言模型（LLM）封装为单一职责的执行单元或代理，通常通过命令行的 stdin/stdout 接受输入并输出结果，以便像 Unix 工具那样串联。"
-            },
-            {
-              "term": "TOML",
-              "explanation": "一种轻量配置文件格式（Tom's Obvious, Minimal Language），在本项目用于描述每个 agent 的参数、技能与行为。"
-            },
-            {
-              "term": "prompt injection",
-              "explanation": "一种针对模型的攻击手法：在输入或数据中嵌入恶意提示以诱导模型泄露敏感信息或执行不当操作，是自动化 agent 场景的主要安全风险之一。"
-            },
-            {
-              "term": "MCP",
-              "explanation": "评论中提到的 MCP server，指一种可把注释或评论发布到 GitLab Merge Request 的桥接/消息服务；作者表示 Axe 可以连接 MCP 以驱动外部注释动作（需文档/配置支持）。"
-            },
-            {
-              "term": "Unix pipeline",
-              "explanation": "传统的 Unix 管道方式（stdout → stdin），在此语境指把小型 agent 作为命令行工具，通过管道串联形成复杂工作流与数据流。"
-            }
-          ],
-          "context": "Axe 是一个用 Go 实现、约宣称 12MB 的 CLI 可执行文件，定位为把 LLM 代理当作小型、可组合的 Unix 工具来运行——每个 agent 用 TOML 配置并通过 stdin/stdout 串联。讨论围绕实战示例（例如自动生成 commit message、把转录变博客、分阶段保存文件工件）、安全与权限（prompt injection、网络白名单、容器隔离）以及成本/上下文切分（token 消耗、调用次数）展开。社区还比较了类似开源工具（ell、sgpt、dotprompt 等）、就体积与实现细节（Go 运行时、静态链接与与 Zig 对比）发生争议，并提出文档、集成（MCP、Gemini、Openrouter、Ollama）和 UI（用 chat 生成 config、session 跟踪）方面的改进建议。",
-          "emoji": "🪓",
-          "sarcastic_question": "12MB 二进制就能替代 AI 框架，真有这么神？"
-        }
-      },
-      "articleSummary": "## 一句话总结\nAxe 是一个仅 12MB 的静态二进制文件，它抛弃了臃肿的 Python 依赖，通过 TOML 配置文件直接调用 LLM API，让你能在终端、Git Hooks 或 CI 流水线里轻量级地运行专用 AI Agent。\n\n### 现代开发环境的“依赖肥胖症”\n现在的 AI 开发有个通病，为了跑个简单的模型调用，你得先拉下来几个 GB 的 Python 环境。\n如果你想在 CI/CD 里用 AI 做代码审查，或者在 Git Hooks 里加个自动生成 Commit Message 的功能，光是配置环境就能劝退不少人。\n作者 jrswab 遇到的也是这个问题：他不想为了这种“单用途”的任务，去维护一套笨重的 AI 框架。\n说白了，他需要的不是一个大而全的操作系统，而是一把能随身携带的“瑞士军刀”。\n\n### 用 Rust 重新定义“轻量级”\n那怎么办？作者选择了 Rust，目标非常明确：编译成一个静态链接的二进制文件。\n最终产物只有 12MB，这意味着你不需要安装 Python、不需要 `pip install` 一堆依赖，下载下来就能跑。\n这种设计极其适合嵌入式环境或者 CI 容器，因为它是完全独立的，不会污染你的系统环境。\n对于有经验的开发者来说，这种“单文件分发”的诱惑力在于零配置成本和极高的可移植性。\n\n### 配置即代码：用 TOML 定义 Agent\nAxe 的核心思路其实很简单：把 Agent 的定义完全交给配置文件，而不是写代码。\n你只需要写一个 TOML 文件，在里面定义好 System Prompt、要调用的模型（比如 OpenAI 的 `gpt-4o` 或者 Ollama 的本地模型）以及输入输出的处理方式。\n这里有个巧妙的设计：它把 Agent 当作一个“黑盒”，你通过 stdin 喂数据，它吐出处理后的结果。\n这种抽象让它能完美融入 Unix 哲学，你可以轻松地把它 pipe 到其他命令里，或者塞进 `bash` 脚本里。\n\n### 从终端到流水线的无缝集成\n因为足够轻，Axe 的使用场景就变得非常灵活。\n在终端里，你可以直接 `cat main.rs | axe -a code-review` 来让 AI 帮你审查代码。\n在 Git Hooks 里，你可以配置 `prepare-commit-msg`，自动把 `git diff` 的内容传给 Axe，让它帮你写一个规范的 Commit Message。\n甚至在 GitHub Actions 里，你也可以直接用这 12MB 的文件，而不用担心因为下载依赖超时导致构建失败。\n这种灵活性是那些重型框架很难做到的，因为重型框架的启动成本和资源消耗太高了。\n\n### 性能与自由的权衡\n有意思的地方在于，Axe 并没有试图去解决模型推理的问题，它只解决“如何方便地调用模型”这个问题。\n它本身不运行模型，而是作为一个轻量的客户端，去跟 OpenAI、Anthropic 或者 Ollama 对话。\n这样做的好处是，你可以随时切换底部的模型提供商，而不需要修改你的业务逻辑。\nBenchmark 数据显示，由于是编译型语言，它的启动速度和内存占用都远低于基于 Python 的同类工具。\n对于追求极致性能和简洁性的开发者来说，这可能是目前最优雅的解决方案之一。"
     }
   ]
 }
