@@ -2,9 +2,29 @@
   "date": "2026-03-15",
   "total_feeds": 92,
   "success_feeds": 86,
-  "total_articles": 2546,
-  "filtered_articles": 12,
+  "total_articles": 2447,
+  "filtered_articles": 11,
   "articles": [
+    {
+      "title": "My fireside chat about agentic engineering at the Pragmatic Summit",
+      "title_zh": "AI 代理编程的工程实践与安全边界",
+      "link": "https://simonwillison.net/2026/Mar/14/pragmatic-summit/#atom-everything",
+      "pub_date": "2026-03-14T18:19:38.000Z",
+      "summary": "## 一句话总结\nAgentic Engineering 的核心不在于让 AI 写代码，而在于通过 TDD、沙箱环境和一致性模式，建立一套让 AI 可信、可控且高质量的工程化交付体系。\n\n### 从“偶尔帮忙”到“完全不看代码”的演进\nSimon 一上来就梳理了开发者接纳 AI 的几个阶段。最开始只是把 ChatGPT 当问答机，后来进化到让 Agent 写片段代码，直到六个月前，出现了 Agent 写的代码比人还多的转折点。更有意思的是最近三周出现的新趋势：像 StrongDM 这样的团队甚至宣称“不写代码、不读代码”。虽然这听起来像疯话，但作为一家安全公司，这种极端做法反而值得深思——这说明在某些场景下，AI 的交付能力已经突破了人类的心理防线。\n\n### 像信任同事一样信任 AI，但前提是它够强\n那怎么敢不读代码就运行呢？Simon 的观点很务实：这就像在大公司里调用其他团队的 API，你平时也不会去查他们的源码，除非出事了才去 Debug。信任 AI 也是同理，关键在于模型是否靠谱。他觉得 Opus 4.5 是第一个让他建立起这种信任的模型，对于构建 JSON API 或数据库分页这类常见任务，他现在有信心让它直接搞定，而不必逐行审查。说白了，信任不是盲目的，而是基于模型在特定任务类型上表现出的稳定性。\n\n### 红绿 TDD：让 Agent 免费写测试的魔法\n这里有个非常实用的技巧：每次让 Agent 写代码前，先让它跑测试，然后指令只有短短五个词——“use red-green TDD”。Simon 承认自己以前讨厌 TDD，觉得繁琐拖慢进度，但让 Agent 去做就不一样了，反正浪费的是机器的时间。现在的测试成本几乎为零，如果不写测试简直是愚蠢。通过先写测试再写实现，Agent 产出可用代码的概率大幅提升，这比直接让它生成代码要靠谱得多。\n\n### 光跑测试不够，还得让 Agent 手动“点点点”\n有意思的是，Simon 发现光有自动化测试还不够，因为测试通过不代表服务器能正常启动。他会强制 Agent 在后台启动服务器，然后用 curl 命令去手动调用 API。这种“手动测试”往往能发现测试覆盖不到的 Bug。为了记录这个过程，他还写了个叫 Showboat 的小工具，让 Agent 把手动测试的过程和输出生成一份 Markdown 文档。这就像给 Agent 配了个“演示员”，既能验证功能，又能留下可追溯的文档。\n\n### 逆向工程标准：用多语言实现来定义需求\n在给 Datasette 添加文件上传功能时，Simon 用了一个很聪明的“逆向工程”思路。他没有手写测试规范，而是让 Claude 针对文件上传功能，写一套能同时通过 Go、Node.js、Django 和 Starlette 六个不同框架实现的测试套件。一旦这套测试通过了现有框架，它就变成了一个事实上的“标准”。然后再让 Agent 基于这套测试为 Datasette 写新实现。这招非常狠，相当于通过归纳多个成熟实现，自动生成了完美的需求文档。\n\n### 代码质量烂？那是你懒得让 Agent 重构\n关于 AI 写的代码质量差，Simon 的观点很犀利：烂代码是你选择接受的结果。如果 Agent 吐出 2000 行面条代码，你完全可以要求它用设计模式重构。人类开发者可能因为偷懒不想做这种耗时优化，但 Agent 不介意。只要你在 Prompt 里坚持要求高质量，Agent 甚至能写出比人类手写更整洁的代码，因为它没有“差不多就行”的惰性。而且，如果你的代码库里本来就有高质量的模式，Agent 会惊人地一致地模仿这些风格，所以维护好模板至关重要。\n\n### 致命三角：私有数据、恶意指令与泄露渠道\n聊到安全，Simon 提到了他提出的“Lethal Trifecta”（致命三角）概念。当 Agent 同时拥有这三样东西时就很危险：访问私有数据（如 API Key）、暴露在恶意指令下（如 Prompt Injection）、以及有数据外泄途径。比如一个能读邮件的 AI，如果收到一封伪造的邮件要求转发密码重置邮件，它很可能照做。虽然“Prompt Injection”这个名字容易让人联想到 SQL 注入，但实际上它更难防御，因为你没法像参数化查询那样简单地隔离指令和数据。\n\n### 沙箱是底线，虽然我也经常“裸奔”\n怎么防御？最重要的就是沙箱。Simon 推荐使用 Claude Code for Web，因为它在 Anthropic 管理的容器里运行，就算被攻击，最坏也就是泄露源码。但他也坦诚，为了方便，自己在 Mac 上经常直接用 `--dangerously-skip-permissions` 模式，虽然他是世界上最懂这风险的人之一。这种“YOLO 模式”虽然爽，但前提是你别去处理不可信的输入。至于测试数据，他强烈建议不要用生产数据脱敏，而是让 Agent 生成模拟数据，甚至专门构造极端边界情况的数据来压测系统。",
+      "source_name": "simonwillison.net",
+      "score": 22,
+      "depth": 7,
+      "novelty": 7,
+      "breadth": 8,
+      "category": "ai-ml",
+      "keywords": [
+        "coding agents",
+        "TDD",
+        "prompt injection",
+        "Claude Code"
+      ],
+      "rank": 1
+    },
     {
       "title": "Ars Technica Fires Reporter Benj Edwards After He Published Story With AI-Fabricated Quotes",
       "title_zh": "Ars Technica 解雇使用 AI 伪造引语的记者",
@@ -23,7 +43,7 @@
         "ethics",
         "Claude"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Lil Finder Guy",
@@ -43,7 +63,7 @@
         "TikTok",
         "character"
       ],
-      "rank": 2
+      "rank": 3
     }
   ]
 }
