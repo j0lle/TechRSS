@@ -1,4 +1,7 @@
 ---
+import { listDigestDates } from '../lib/data';
 const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
+const latestDay = listDigestDates()[0];
+const target = latestDay ? `${base}day/${latestDay}/` : `${base}day/`;
 ---
-<meta http-equiv="refresh" content={`0;url=${base}hn/`} />
+<meta http-equiv="refresh" content={`0;url=${target}`} />

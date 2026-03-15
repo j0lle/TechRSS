@@ -9,13 +9,11 @@ const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
 const path = Astro.url.pathname;
 const latestDay = listDigestDates()[0];
 
-const isHn = path.includes("/hn");
-const isDay = path.includes("/day");
-const hnClass = "px-2 py-0.5 rounded-md transition-colors " + (isHn ? "bg-white/20 text-white" : "text-white/60 hover:text-white/80");
+const isDay = path === "/" || path.includes("/day");
 const dayClass = "px-2 py-0.5 rounded-md transition-colors " + (isDay ? "bg-white/20 text-white" : "text-white/60 hover:text-white/80");
 ---
 <!doctype html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
@@ -29,8 +27,7 @@ const dayClass = "px-2 py-0.5 rounded-md transition-colors " + (isDay ? "bg-whit
     <div class="max-w-2xl mx-auto px-3 sm:px-4 flex items-center gap-2 sm:gap-3">
       <a class="text-white font-bold text-base sm:text-lg whitespace-nowrap hover:no-underline" href={base}>TechDigest</a>
       <nav class="flex items-center gap-1 ml-auto text-sm">
-        <a class={hnClass} href={`${base}hn/`}>HN</a>
-        <a class={dayClass} href={latestDay ? `${base}day/${latestDay}/` : `${base}day/`}>日报</a>
+        <a class={dayClass} href={latestDay ? `${base}day/${latestDay}/` : `${base}day/`}>Digest</a>
       </nav>
     </div>
   </header>
@@ -39,7 +36,7 @@ const dayClass = "px-2 py-0.5 rounded-md transition-colors " + (isDay ? "bg-whit
   </main>
   <footer class="text-center py-4 text-xs text-text-tertiary safe-bottom">
     <div class="max-w-2xl mx-auto px-3 sm:px-4">
-      基于 Karpathy 推荐的 HN 热门博客 RSS 源
+      Built from Karpathy-recommended independent tech blog RSS feeds
     </div>
   </footer>
   <script is:inline>

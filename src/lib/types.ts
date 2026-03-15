@@ -2,11 +2,11 @@ export type CategoryId = 'ai-ml' | 'security' | 'engineering' | 'tools' | 'opini
 
 export const CATEGORY_META: Record<CategoryId, { emoji: string; label: string }> = {
   'ai-ml': { emoji: '🤖', label: 'AI / ML' },
-  'security': { emoji: '🔒', label: '安全' },
-  'engineering': { emoji: '⚙️', label: '工程' },
-  'tools': { emoji: '🛠', label: '工具 / 开源' },
-  'opinion': { emoji: '💡', label: '观点 / 杂谈' },
-  'other': { emoji: '📝', label: '其他' },
+  'security': { emoji: '🔒', label: 'Security' },
+  'engineering': { emoji: '⚙️', label: 'Engineering' },
+  'tools': { emoji: '🛠', label: 'Tools / OSS' },
+  'opinion': { emoji: '💡', label: 'Opinion' },
+  'other': { emoji: '📝', label: 'Other' },
 };
 
 export interface Article {
@@ -20,15 +20,18 @@ export interface Article {
 
 export interface ArticleRow {
   title: string;
-  title_zh: string;
+  title_display?: string;
+  title_zh?: string;
   link: string;
   pub_date: string;
   summary: string;
   source_name: string;
+  source_type?: 'rss' | 'hn';
+  hn_points?: number;
   score: number;
-  depth: number;
-  novelty: number;
-  breadth: number;
+  depth?: number;
+  novelty?: number;
+  breadth?: number;
   category: string;
   keywords: string[];
   rank: number;

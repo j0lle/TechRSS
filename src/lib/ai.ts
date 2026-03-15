@@ -1,11 +1,100 @@
 import { createAmazonBedrock } from '@ai-sdk/amazon-bedrock';
+import { createOpenAI } from '@ai-sdk/openai';
 import { generateText, Output } from 'ai';
 import { z } from 'zod';
 import type { Article } from './types';
 
-const bedrock = createAmazonBedrock({ region: 'us-east-1' });
-const MODEL_ID = 'zai.glm-4.7';
-const MAX_CONCURRENT = 10;
+type SupportedProvider = 'bedrock' | 'openai';
+type ProviderSetting = SupportedProvider | 'auto';
+
+function env(name: string): string | undefined {
+  const value = process.env[name];
+  if (!value) return undefined;
+  const trimmed = value.trim();
+  return trimmed.length > 0 ? trimmed : undefined;
+}
+
+function hasEnv(name: string): boolean {
+  return Boolean(env(name));
+}
+
+function normalizeOpenAIBaseUrl(value: string | undefined): string {
+  const base = value || 'https://api.openai.com/v1';
+  try {
+    // Validate absolute URL early so runtime errors are actionable.
+    new URL(base);
+    return base;
+  } catch {
+    throw new Error(`[ai] OPENAI_BASE_URL must be an absolute URL (for example: https://api.openai.com/v1). Received: "${base}"`);
+  }
+}
+
+function parsePositiveInt(value: string | undefined, fallback: number): number {
+  if (!value) return fallback;
+  const parsed = Number.parseInt(value, 10);
+  return Number.isFinite(parsed) && parsed > 0 ? parsed : fallback;
+}
+
+function resolveProvider(): SupportedProvider {
+  const configured = (env('AI_PROVIDER') || 'auto').toLowerCase() as ProviderSetting;
+
+  if (configured === 'auto') {
+    // Prefer OpenAI when its key is present; otherwise fall back to Bedrock.
+    return env('OPENAI_API_KEY') ? 'openai' : 'bedrock';
+  }
+
+  if (configured === 'bedrock' || configured === 'openai') {
+    return configured;
+  }
+  throw new Error(`[ai] Unsupported AI_PROVIDER "${configured}". Use "auto", "bedrock", or "openai".`);
+}
+
+function createModel() {
+  const provider = resolveProvider();
+
+  if (provider === 'openai') {
+    const apiKey = env('OPENAI_API_KEY');
+    if (!apiKey) {
+      throw new Error('[ai] OPENAI_API_KEY is required when AI_PROVIDER=openai.');
+    }
+    const baseURL = normalizeOpenAIBaseUrl(env('OPENAI_BASE_URL'));
+    const openai = createOpenAI({
+      apiKey,
+      baseURL,
+      organization: env('OPENAI_ORG'),
+      project: env('OPENAI_PROJECT'),
+    });
+    const modelId = env('AI_MODEL') || env('OPENAI_MODEL') || 'gpt-4.1-mini';
+    return {
+      model: openai(modelId),
+      provider,
+      modelId,
+    };
+  }
+
+  const hasLikelyBedrockAuth = hasEnv('AWS_BEARER_TOKEN_BEDROCK')
+    || hasEnv('AWS_ACCESS_KEY_ID')
+    || hasEnv('AWS_PROFILE')
+    || hasEnv('AWS_WEB_IDENTITY_TOKEN_FILE');
+  if (!hasLikelyBedrockAuth) {
+    console.warn('[ai] Using Bedrock but no obvious AWS auth env vars were found. If you intended OpenAI, set AI_PROVIDER=openai and OPENAI_API_KEY.');
+  }
+
+  const bedrock = createAmazonBedrock({
+    region: env('BEDROCK_REGION') || env('AWS_REGION') || 'us-east-1',
+  });
+  const modelId = env('AI_MODEL') || env('BEDROCK_MODEL_ID') || 'zai.glm-4.7';
+  return {
+    model: bedrock(modelId),
+    provider,
+    modelId,
+  };
+}
+
+const { model: aiModel, provider: aiProvider, modelId } = createModel();
+const MAX_CONCURRENT = parsePositiveInt(env('AI_MAX_CONCURRENT'), 10);
+
+console.log(`[ai] Provider=${aiProvider} Model=${modelId} Concurrency=${MAX_CONCURRENT}`);
 
 const articleResultSchema = z.object({
   depth: z.number(),
@@ -13,7 +102,7 @@ const articleResultSchema = z.object({
   breadth: z.number(),
   category: z.string(),
   keywords: z.array(z.string()),
-  titleZh: z.string(),
+  titleDisplay: z.string(),
   summary: z.string(),
 });
 
@@ -22,137 +111,122 @@ export type ArticleResult = z.infer<typeof articleResultSchema>;
 function buildPrompt(article: { title: string; content: string; sourceName: string; link: string }): string {
   const articleText = `[${article.sourceName}] ${article.title}\nURL: ${article.link}\n${article.content}`;
 
-  return `你是一个技术内容策展人，正在为一份面向 AI 和软件工程从业者的每日精选摘要筛选文章。文章来源主要是独立技术博客，话题以 AI/LLM、安全和系统工程为主。你的目标是帮读者筛出真正值得阅读的内容，评分区分度至关重要。
+  return `You are a technical content curator preparing a daily digest for AI and software engineers. Most sources are independent technical blogs about AI/LLMs, security, and systems engineering.
 
-请对以下文章进行三个维度的评分（1-10 整数），分配分类标签，提取关键词，并生成中文标题和摘要。
-
----
-
-# 第一部分：评分
-
-## 评分纪律
-
-- 大胆使用极端分数：水文/简讯给 1-3，深度技术内容给 8-10
-- 不要因为话题热门（如 AI）就自动给高分，要看文章本身的质量
-
-## 评分维度
-
-### 1. 深度 (depth) - 技术研究深度和证据质量
-
-高分信号：
-- AI 类：有 eval 数据（MMLU、HumanEval、SWE-bench 等）、训练细节（compute、数据配比）、推理性能指标（tokens/s、延迟、成本对比）、ablation 实验、生产环境部署经验
-- 工程类：有 benchmark、profiling 数据、代码实现细节、架构图、故障复盘、迁移经验
-- 安全类：有 PoC、漏洞分析、攻击链细节、影响范围评估
-
-低分信号：
-- "Introducing..."、"We're excited to announce..." 等公关文风
-- 泛泛而谈 "AI 将改变一切"、"N 个 ChatGPT 技巧" 之类
-- 纯新闻转述、周报汇总、无一手信息
-
-评分：8-10 有一手数据/代码/实验 | 5-7 有具体技术细节但无一手数据 | 3-4 准确但泛泛 | 1-2 纯公告/转述
-
-### 2. 新颖性 (novelty) - 信息或观点的独特程度
-
-高分信号：
-- 新模型/架构首次发布或首个深度评测
-- 挑战主流叙事的观点（如质疑 scaling laws、反思 agent 范式）且有论据支撑
-- 首次披露的安全漏洞或未被广泛报道的技术方案
-- 从业者一手经验分享（"我在生产环境中用 X 模型做 Y，发现了 Z"）
-
-低分信号：
-- 又一篇 RAG 教程 / 又一个 ChatGPT wrapper
-- 热点事件的第 N 篇跟风报道
-- 重复已有认知且无增量信息
-
-评分：8-10 首次披露/原创研究/独特视角 | 5-7 有新角度但话题非全新 | 3-4 又一篇同质内容 | 1-2 纯转述
-
-### 3. 广度 (breadth) - 对技术从业者群体的覆盖面
-
-高分信号：
-- 主流模型的重大更新（GPT/Claude/Gemini 新版本、重大能力变化）
-- 影响多语言/多框架的安全漏洞或范式转变
-- AI 对软件工程实践的结构性影响（如 agentic coding 改变开发流程）
-
-低分信号：
-- 仅适用于某个特定模型的 fine-tuning 技巧
-- 某个小众框架的使用心得
-- 纯个人经历、周记、月度总结
-
-评分：8-10 全行业关注 | 5-7 跨多个领域有参考价值 | 3-4 仅特定领域 | 1-2 极小众
-
-## 分类标签（选最主要的一个）
-- ai-ml: AI、机器学习、LLM、深度学习、prompt engineering、AI 应用
-- security: 安全、隐私、漏洞、加密
-- engineering: 软件工程、架构、编程语言、系统设计
-- tools: 开发工具、开源项目、新发布的库/框架
-- opinion: 行业观点、个人思考、职业发展、文化评论
-- other: 以上都不太适合的
-当文章跨多个分类时，选内容篇幅最大的那个主题。
-
-## 校准示例
-
-| 文章类型 | depth | novelty | breadth | 理由 |
-|---------|-------|---------|---------|------|
-| 新模型首发评测（含 eval 对比和推理成本）| 9 | 9 | 9 | 有一手 benchmark + 首次评测 + 全行业关注 |
-| "我用 Claude Code 重写了整个项目"实战复盘 | 8 | 7 | 8 | 一手经验 + 具体数据，对所有开发者有参考 |
-| 又一篇 "如何搭建 RAG pipeline" 教程 | 4 | 2 | 4 | 技术准确但无新意，教程类文章泛滥 |
-| "AI 将取代程序员" 的泛泛观点文 | 2 | 2 | 6 | 无数据无论据，但话题本身广度大 |
-| 挑战 scaling laws 的深度分析（含实验数据）| 8 | 9 | 8 | 逆主流 + 有实验支撑 + 影响 AI 方向认知 |
-| 某 LLM 的 fine-tuning 参数调优经验 | 7 | 5 | 3 | 有技术深度但极其小众 |
-| 重大 CVE 首次披露（含 PoC）| 8 | 10 | 10 | 首次披露 + 所有人都需关注 |
-| 个人周记/月度回顾 | 2 | 2 | 2 | 无深度、无新意、受众极窄 |
-| 带生产数据的架构迁移复盘 | 9 | 8 | 7 | 一手经验 + 罕见真实案例 |
-| "XX 发布 v2.0" 新闻简讯 | 2 | 5 | 6 | 无分析纯公告，但版本本身有新意 |
-
-## 关键词
-提取 2-4 个英文关键词，专有名词保持原样，其余小写。如 "Claude", "RAG", "inference", "performance"。
+Evaluate the article with strict score separation. Return three integer scores (1-10), one main category, 2-4 keywords, an English digest title, and an English summary.
 
 ---
 
-# 第二部分：中文标题和摘要
+# Part 1: Scoring
 
-## 中文标题 (titleZh)
+## Scoring discipline
+- Use extreme scores when deserved: low-signal updates can be 1-3, deep original work can be 8-10.
+- Do not reward hype. Judge evidence and technical value.
 
-用一句简短的中文概括文章讲了什么。不是翻译原标题，而是提炼核心信息。如果原标题已经是中文且足够好则保持不变。
+## Dimensions
 
-要求：
-- 控制在 20-25 个字以内，宁短勿长
-- 突出最关键的一个信息点，不要试图涵盖所有内容
-- 技术名词保留英文（如 Rust、RAG、Claude）
+### 1. depth
+How strong is the technical evidence and implementation detail?
 
-示例：
-- "Writing about agentic patterns" → "编码代理的六种工程模式"
-- "Ladybird adopts Rust, with help from AI" → "Ladybird 借助 AI 从 Swift 迁移到 Rust"
-- "Everyone in AI is building the wrong thing" → "AI 创业者的集体方向迷失"
+High-score signals:
+- AI: eval data (MMLU, HumanEval, SWE-bench, etc.), training details, latency/cost data, ablations, production lessons
+- Engineering: benchmarks, profiling, architecture details, migration/postmortem details
+- Security: PoC, exploit chain, impact analysis
 
-## 摘要 (summary)
+Low-score signals:
+- PR language ("Introducing...", "We're excited...")
+- Generic hot takes with no supporting evidence
+- News rewrites or roundups without first-hand insight
 
-让读者不点原文就能获取核心信息。用中文撰写。
+Guide: 8-10 strong first-hand evidence | 5-7 good technical detail but limited evidence | 3-4 accurate but shallow | 1-2 announcement/rehash
 
-⚠️ 字数要求（必须严格遵守）：先根据你自己的评分计算平均分 (depth+novelty+breadth)/3：
-- 平均分 >= 6 的文章写 500 字左右摘要
-- 平均分 > 3 且 < 6 的文章写 80-120 字摘要
-- 平均分 <= 3 的文章不写摘要，summary 字段留空字符串
+### 2. novelty
+How original is the information or viewpoint?
 
-写法规则：
-- 第一句直接给出核心事实或结论，不要铺垫
-- 中间句展开关键论据、技术细节或数据
-- 最后一句给出意义、影响或作者的核心判断
-- AI 相关文章：提及具体模型名、eval 指标、性能数据、应用场景
-- 工程类文章：提及具体技术栈、方案对比、迁移前后变化
-- 安全类文章：提及漏洞编号、影响范围、攻击方式
+High-score signals:
+- First deep review of a new model/system
+- Evidence-backed challenge to mainstream assumptions
+- Newly disclosed vulnerability or underreported technical approach
+- First-hand production experience with concrete findings
 
-禁止的写法（整篇摘要中都不能出现，不只是开头）：
-- ❌ "文章讨论了..."、"文章分析了..."、"文章探讨了..."
-- ❌ "本文介绍了..."、"该文指出..."、"作者认为..."
-- ✅ 直接陈述事实："Ladybird 浏览器放弃 Swift 转向 Rust，首个迁移目标是 LibJS 引擎。"
-- ✅ 直接给结论："代码生成成本趋近于零，传统的设计评审和工时估算流程需要根本性调整。"
+Low-score signals:
+- Another generic tutorial/wrapper post
+- Follow-up echo of already saturated news
+- Repeating known ideas without incremental insight
 
-保留具体信息：数字、版本号、模型名、百分比、基准测试名称。不要用 "显著提升" 替代 "提升 40%"，不要用 "某大模型" 替代 "Claude 3.5 Sonnet"。
+Guide: 8-10 original disclosure/research/angle | 5-7 partially new angle | 3-4 mostly repetitive | 1-2 pure retelling
+
+### 3. breadth
+How many technical practitioners can benefit?
+
+High-score signals:
+- Major model/platform releases with broad impact
+- Cross-language or cross-framework security/engineering implications
+- Structural changes to software development practice
+
+Low-score signals:
+- Niche tweak for one model or niche framework
+- Personal diary-style post with limited transferability
+
+Guide: 8-10 broad industry relevance | 5-7 useful across multiple domains | 3-4 narrow audience | 1-2 very niche
+
+## Category (choose one)
+- ai-ml
+- security
+- engineering
+- tools
+- opinion
+- other
+
+When multiple themes appear, choose the dominant one by article weight.
+
+## Calibration examples
+| Article type | depth | novelty | breadth | Why |
+|---|---:|---:|---:|---|
+| New model deep benchmark with cost/perf comparisons | 9 | 9 | 9 | First-hand data + strong impact |
+| Production coding-agent retrospective with real metrics | 8 | 7 | 8 | Practical first-hand insight |
+| Generic "build a RAG pipeline" tutorial | 4 | 2 | 4 | Useful but saturated |
+| "AI will replace all programmers" opinion piece | 2 | 2 | 6 | Broad topic, weak evidence |
+| Deep scaling-law critique with experiments | 8 | 9 | 8 | Contrarian and evidence-backed |
+| Narrow fine-tuning parameter tuning note | 7 | 5 | 3 | Technically deep but niche |
+| First public critical CVE disclosure with PoC | 8 | 10 | 10 | Original and urgent |
+| Personal weekly diary | 2 | 2 | 2 | Low transferability |
+| Migration postmortem with production metrics | 9 | 8 | 7 | Rare operational evidence |
+| "X released v2.0" brief | 2 | 5 | 6 | Announcement, little analysis |
+
+## Keywords
+Return 2-4 English keywords. Keep proper nouns as-is; use lowercase for generic terms.
 
 ---
 
-## 待处理文章
+# Part 2: English title and summary
+
+## Digest title (titleDisplay)
+Write a concise English title that captures the key information.
+
+Requirements:
+- Max 12 words
+- Focus on one core point
+- Preserve technical names (Rust, RAG, Claude, etc.)
+- Do not mechanically rewrite the original headline
+
+## Summary (summary)
+Give readers enough information without opening the source.
+
+Length rules based on average score = (depth + novelty + breadth) / 3:
+- average >= 6: 180-260 words
+- average > 3 and < 6: 40-80 words
+- average <= 3: empty string
+
+Writing rules:
+- Open with the key fact or conclusion immediately
+- Include concrete evidence: metrics, versions, model names, benchmark names
+- Explain practical significance in the final sentence
+- Avoid vague phrasing like "significantly improved" without numbers
+
+---
+
+# Article to process
 
 ${articleText}`;
 }
@@ -164,40 +238,33 @@ export async function summarizeArticle(title: string, content: string): Promise<
     : content;
   try {
     const { text } = await generateText({
-      model: bedrock(MODEL_ID),
-      prompt: `你是一位技术博主，擅长把复杂的技术文章用讲故事的方式说清楚。你的读者是有经验的开发者——不需要科普基础概念，但需要你帮他们快速抓住一篇长文的精髓。
+      model: aiModel,
+      prompt: `You are a technical writer for experienced software engineers.
 
-# 写作风格
+Write an English long-form summary that explains the article as a coherent story, not a bullet dump.
 
-- **像写博客，不像写报告**。用自然的叙事节奏，有铺垫、有展开、有收尾。可以用问句引入（"那怎么办？"），用转折制造节奏（"但问题是……"、"有意思的地方在于……"）。
-- **说人话**。"说白了就是……"、"核心思路其实很简单：……"、"这里有个巧妙的设计：……" 这些表达都可以用。但不要刻意卖萌或堆砌口语词。
-- **不要罗列，要讲逻辑链**。读者要的不是"文章提到了 A、B、C"，而是"因为 A 行不通，所以作者尝试了 B，结果发现 C 才是关键"。
-- **保留关键技术细节和数据**。具体的数字、模型名、benchmark 结果、架构选择不能丢。这些是读者判断是否值得读原文的依据。
+# Style
+- Write like a strong engineering blog post, not a formal report.
+- Keep technical precision while staying readable.
+- Preserve key details: metrics, versions, model names, benchmarks, architecture choices.
+- Explain reasoning, trade-offs, and why decisions were made.
 
-# 输出结构
+# Output format
+## One-sentence takeaway
+One sentence capturing the core point.
 
-## 一句话总结
-用一句话讲清楚这篇文章最核心的 takeaway。
+## Body
+- 4-8 sections with informative level-3 headings (###).
+- Keep clear narrative flow: problem -> attempt -> findings -> approach -> outcome.
+- Short to medium sentences. Split overly long sentences.
 
-## 正文
-这是主体，占全文 80% 以上。按文章的逻辑线索，用连贯的段落把故事讲完。
+# Constraints
+1. Stay faithful to the source, no invented claims.
+2. Keep terminology accurate.
+3. Write in English.
 
-要求：
-- 分 4-8 个段落，每段有小标题（用 ### ）。小标题要有信息量，不要写"背景介绍"这种废话标题，写"遗留代码的真正难题不是代码烂，是没人敢动"。
-- 段落之间要有逻辑衔接，读者能感受到"问题→尝试→发现→方案→效果"的叙事弧线。
-- 每段 5-8 句话，宁短勿长。如果一句话超过 40 字，拆成两句。
-- **保留 why**：不光讲"做了什么"，更要讲"为什么这么做"、"这样做的好处是什么"。
-
----
-
-# 原则
-1. 忠于原文，不添加原文没有的观点
-2. 技术术语精确，不为了通俗牺牲准确
-3. 用中文写作，技术名词保留英文
-
-# 待分析文章
-
-标题：${title}
+# Article
+Title: ${title}
 
 ${truncated}`,
       maxOutputTokens: 4096,
@@ -223,7 +290,7 @@ export async function processArticles(articles: Article[]): Promise<Map<number, 
       const index = i + j;
       try {
         const { output } = await generateText({
-          model: bedrock(MODEL_ID),
+          model: aiModel,
           output: Output.object({ schema: articleResultSchema }),
           prompt: buildPrompt({ title: article.title, content: article.content, sourceName: article.sourceName, link: article.link }),
           maxOutputTokens: 4096,

@@ -14,7 +14,13 @@ const dates = listDigestDates();
 const idx = dates.indexOf(date!);
 const prevDate = idx < dates.length - 1 ? dates[idx + 1] : undefined;
 const nextDate = idx > 0 ? dates[idx - 1] : undefined;
-const articles = digest?.articles || [];
+const articles = (digest?.articles || []).slice().sort((a, b) => {
+  const dateDiff = new Date(b.pub_date).getTime() - new Date(a.pub_date).getTime();
+  if (dateDiff !== 0) return dateDiff;
+  return b.score - a.score;
+});
+const rssCount = articles.filter(a => (a.source_type || 'rss') === 'rss').length;
+const hnCount = articles.filter(a => a.source_type === 'hn').length;
 ---
 <Layout title={`TechDigest — ${date}`}>
   <DateNav date={date!} prevDate={prevDate} nextDate={nextDate} />
@@ -22,19 +28,64 @@ const articles = digest?.articles || [];
 {digest && (
     <div class="flex items-center gap-1.5 text-xs text-text-tertiary mb-4">
       <span class="w-1.5 h-1.5 rounded-full bg-green-500 inline-block"></span>
-      扫描 {digest.success_feeds}/{digest.total_feeds} 源 · 获取 {digest.total_articles} 篇 · 精选 {articles.length} 篇
+      Scanned {digest.success_feeds}/{digest.total_feeds} feeds · Collected {digest.total_articles} posts · Selected {articles.length}
     </div>
   )}
 
   {articles.length > 0 ? (
-    <div class="space-y-2">
-      {articles.map((article) => (
-        <ArticleItem article={article} />
-      ))}
-    </div>
+    <>
+      <div class="flex items-center gap-2 mb-3 text-xs" id="source-filter">
+        <button type="button" data-source-filter="all" class="source-filter-btn px-2 py-1 rounded-md border border-gray-300 bg-gray-900 text-white font-medium">
+          All ({articles.length})
+        </button>
+        <button type="button" data-source-filter="rss" class="source-filter-btn px-2 py-1 rounded-md border border-gray-300 text-text-secondary hover:bg-gray-100">
+          RSS ({rssCount})
+        </button>
+        <button type="button" data-source-filter="hn" class="source-filter-btn px-2 py-1 rounded-md border border-gray-300 text-text-secondary hover:bg-gray-100">
+          HN ({hnCount})
+        </button>
+      </div>
+      <div class="space-y-2" id="digest-list">
+        {articles.map((article) => (
+          <div class="digest-item" data-source-type={article.source_type || 'rss'}>
+            <ArticleItem article={article} />
+          </div>
+        ))}
+      </div>
+    </>
   ) : (
-    <div class="text-center py-16 text-text-tertiary"><p>今日暂无文章</p></div>
+    <div class="text-center py-16 text-text-tertiary"><p>No articles for this day yet</p></div>
   )}
 
   <DateNav date={date!} prevDate={prevDate} nextDate={nextDate} />
+  <script is:inline>
+    (function() {
+      var container = document.getElementById("source-filter");
+      if (!container) return;
+      var list = document.getElementById("digest-list");
+      if (!list) return;
+      var buttons = Array.from(container.querySelectorAll("[data-source-filter]"));
+      var cards = Array.from(list.querySelectorAll(".digest-item"));
+
+      function applyFilter(filter) {
+        cards.forEach(function(card) {
+          var source = card.getAttribute("data-source-type") || "rss";
+          card.style.display = filter === "all" || source === filter ? "" : "none";
+        });
+        buttons.forEach(function(btn) {
+          var isActive = btn.getAttribute("data-source-filter") === filter;
+          btn.classList.toggle("bg-gray-900", isActive);
+          btn.classList.toggle("text-white", isActive);
+          btn.classList.toggle("font-medium", isActive);
+          btn.classList.toggle("text-text-secondary", !isActive);
+        });
+      }
+
+      container.addEventListener("click", function(e) {
+        var button = e.target.closest("[data-source-filter]");
+        if (!button) return;
+        applyFilter(button.getAttribute("data-source-filter") || "all");
+      });
+    })();
+  </script>
 </Layout>

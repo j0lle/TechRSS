@@ -7,14 +7,16 @@ interface Props {
 const { date, prevDate, nextDate } = Astro.props;
 const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
 
-// Format center date as "2月24日"
+const monthNames = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+
+// Format center date as "Feb 24"
 const [, m, d] = date.split('-');
-const centerDate = `${parseInt(m)}月${parseInt(d)}日`;
+const centerDate = `${monthNames[Math.max(0, parseInt(m, 10) - 1)]} ${parseInt(d, 10)}`;
 
 // Format compact nav dates as "2/23"
 function compactDate(ds: string) {
   const [, mm, dd] = ds.split('-');
-  return `${parseInt(mm)}/${parseInt(dd)}`;
+  return `${parseInt(mm, 10)}/${parseInt(dd, 10)}`;
 }
 ---
 <nav class="flex justify-between items-center py-3">
