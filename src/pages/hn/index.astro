@@ -43,7 +43,7 @@ const sorted = [...items].sort((a, b) => b.createdAt - a.createdAt);
             {tags.length > 0 && (
               <div class="flex flex-wrap gap-1">
                 {tags.map(tag => (
-                  <span class="inline-block px-1.5 py-px rounded-full bg-gray-100 text-[10px] text-text-secondary">{tag}</span>
+                  <span class="keyword-pill">{tag}</span>
                 ))}
               </div>
             )}

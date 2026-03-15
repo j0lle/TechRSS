@@ -7,7 +7,7 @@ import { RSS_FEEDS } from '../src/lib/feeds';
 import { fetchAllFeeds } from '../src/lib/rss';
 import { processArticles, summarizeArticle } from '../src/lib/ai';
 import { fetchWithPlaywright, closeBrowser } from './fetch-content';
-import type { Article } from '../src/lib/types';
+import type { Article, ArticleRow } from '../src/lib/types';
 
 const DATA_DIR = path.join(process.cwd(), 'data');
 const HN_FILE = path.join(DATA_DIR, 'hn.json');
@@ -30,6 +30,14 @@ interface HnItem {
   classifications?: { tags?: string[] };
   aiSummary?: { context?: string };
   aisummary?: { context?: string };
+}
+
+interface CandidateArticle {
+  article: Article;
+  sourceType: 'rss' | 'hn';
+  hnPoints?: number;
+  fallbackSummary: string;
+  fallbackKeywords: string[];
 }
 
 function getTodayDate(): string {
@@ -57,7 +65,7 @@ async function loadRecentLinks(excludeDate: string, days: number): Promise<Set<s
 }
 
 /** Load today's existing data file if it exists */
-async function loadTodayData(today: string): Promise<{ articles: any[] } | null> {
+async function loadTodayData(today: string): Promise<{ articles: ArticleRow[] } | null> {
   const filePath = path.join(DATA_DIR, `${today}.json`);
   if (!existsSync(filePath)) return null;
   try {
@@ -100,24 +108,24 @@ function normalizeHnScore(points: number): number {
   return Math.min(30, Math.max(8, scaled));
 }
 
-function mapHnItemsToDigestRows(items: HnItem[], cutoffMs: number) {
+function mapHnItemsToCandidates(items: HnItem[], cutoffMs: number): CandidateArticle[] {
   return items
     .filter(item => item.createdAt * 1000 > cutoffMs)
     .map(item => {
-      const hnLink = `https://news.ycombinator.com/item?id=${item.id}`;
-      const summary = (item.articleSummary || item.aiSummary?.context || item.aisummary?.context || '').trim();
+      const discussionLink = `https://news.ycombinator.com/item?id=${item.id}`;
       return {
-        title: item.title,
-        title_display: item.title,
-        link: item.url || hnLink,
-        pub_date: new Date(item.createdAt * 1000).toISOString(),
-        summary,
-        source_name: 'Hacker News',
-        source_type: 'hn' as const,
-        hn_points: item.score,
-        score: normalizeHnScore(item.score),
-        category: 'other',
-        keywords: (item.classifications?.tags || []).slice(0, 4),
+        article: {
+          title: item.title,
+          link: item.url || discussionLink,
+          pubDate: new Date(item.createdAt * 1000),
+          content: '',
+          sourceName: 'Hacker News',
+          sourceUrl: discussionLink,
+        },
+        sourceType: 'hn' as const,
+        hnPoints: item.score,
+        fallbackSummary: (item.articleSummary || item.aiSummary?.context || item.aisummary?.context || '').trim(),
+        fallbackKeywords: (item.classifications?.tags || []).slice(0, 4),
       };
     });
 }
@@ -136,6 +144,13 @@ function dedupeByLink<T extends { link: string; score: number }>(articles: T[]):
 function toTimestamp(pubDate: string): number {
   const ts = Date.parse(pubDate);
   return Number.isFinite(ts) ? ts : 0;
+}
+
+function needsHnReprocessing(row: ArticleRow): boolean {
+  if ((row.source_type || 'rss') !== 'hn') return false;
+  const hasSummary = typeof row.summary === 'string' && row.summary.trim().length > 0;
+  const hasAiScores = typeof row.depth === 'number' && typeof row.novelty === 'number' && typeof row.breadth === 'number';
+  return !hasSummary || !hasAiScores;
 }
 
 /** Fetch full article content from URL, convert HTML to markdown. Falls back to Playwright. */
@@ -184,7 +199,8 @@ async function main() {
   // Load existing today's data for incremental update
   const existingData = await loadTodayData(today);
   const existingArticles = existingData?.articles || [];
-  const existingLinksToday = new Set(existingArticles.map((a: any) => a.link));
+  const existingByLink = new Map(existingArticles.map(a => [a.link, a]));
+  const existingLinksToday = new Set(existingArticles.map(a => a.link));
   console.log(`[digest] Existing articles today: ${existingArticles.length}`);
 
   // Step 1: Fetch feeds
@@ -214,42 +230,63 @@ async function main() {
     process.exit(1);
   }
 
-  // Step 3: Dedup against cross-day AND today's existing articles
+  // Step 3: Build and dedup RSS + HN candidates
   console.log('[digest] Step 3/4: Dedup...');
   const existingLinks = await loadRecentLinks(today, 3);
-  const deduped = recent.filter(a => !existingLinks.has(a.link) && !existingLinksToday.has(a.link));
-  console.log(`[digest] ${deduped.length} new articles after dedup`);
+  const dedupedRss = recent.filter(a => !existingLinks.has(a.link) && !existingLinksToday.has(a.link));
+  console.log(`[digest] ${dedupedRss.length} new RSS articles after dedup`);
   const hnItems = await loadHnItems();
-  const hnRows = hnItems
-    ? mapHnItemsToDigestRows(hnItems, cutoff.getTime())
-    : existingArticles.filter((a: any) => a.source_type === 'hn');
-  console.log(`[digest] HN items in window: ${hnRows.length}${hnItems === null ? ' (reused cached from digest file)' : ''}`);
+  const hnCandidates = hnItems ? mapHnItemsToCandidates(hnItems, cutoff.getTime()) : [];
+  const dedupedHn = hnCandidates.filter(c => {
+    if (existingLinks.has(c.article.link)) return false;
+    const existingToday = existingByLink.get(c.article.link);
+    if (!existingToday) return true;
+    return needsHnReprocessing(existingToday);
+  });
+  const fallbackExistingHnCount = existingArticles.filter(a => (a.source_type || 'rss') === 'hn').length;
+  console.log(`[digest] ${hnItems === null ? fallbackExistingHnCount : hnCandidates.length} HN items in window${hnItems === null ? ' (reused cached from digest file)' : ''}`);
+  console.log(`[digest] ${dedupedHn.length} new HN articles after dedup`);
 
-  let newArticles: any[] = [];
+  const candidates: CandidateArticle[] = [
+    ...dedupedRss.map(article => ({
+      article,
+      sourceType: 'rss' as const,
+      fallbackSummary: '',
+      fallbackKeywords: [],
+    })),
+    ...dedupedHn,
+  ];
+  console.log(`[digest] ${candidates.length} total new articles to process`);
 
-  if (deduped.length === 0) {
-    console.log('[digest] No new RSS articles. Skipping RSS AI calls.');
+  let newArticles: ArticleRow[] = [];
+
+  if (candidates.length === 0) {
+    console.log('[digest] No new articles. Skipping AI calls.');
   } else {
+    const candidateArticles = candidates.map(c => c.article);
+
     // Fetch full article content
-    await fetchAllContent(deduped);
+    await fetchAllContent(candidateArticles);
 
     // Step 4: AI process (score + summarize in one call)
-    console.log(`[digest] Step 4/4: AI processing ${deduped.length} new articles...`);
-    let results = await processArticles(deduped);
+    console.log(`[digest] Step 4/4: AI processing ${candidateArticles.length} new articles...`);
+    let results = await processArticles(candidateArticles);
 
     // Retry failed articles
-    const failedIndices = deduped.map((_, i) => i).filter(i => !results.has(i));
+    const failedIndices = candidateArticles.map((_, i) => i).filter(i => !results.has(i));
     if (failedIndices.length > 0) {
       console.log(`[digest] Retrying ${failedIndices.length} failed articles...`);
-      const retryArticles = failedIndices.map(i => deduped[i]);
+      const retryArticles = failedIndices.map(i => candidateArticles[i]);
       const retryResults = await processArticles(retryArticles);
       retryResults.forEach((v, retryIdx) => { results.set(failedIndices[retryIdx], v); });
     }
 
-    // Generate detailed article summaries (same as HN logic)
+    // Generate detailed article summaries from fetched article content.
     const ARTICLE_CONCURRENCY = 5;
     const articleSummaries = new Map<number, string>();
-    const needArticleSummary = deduped.map((a, i) => ({ article: a, index: i })).filter(({ article }) => article.content && article.content.length >= 200);
+    const needArticleSummary = candidateArticles
+      .map((article, index) => ({ article, index }))
+      .filter(({ article }) => article.content && article.content.length >= 200);
     console.log(`[digest] Generating article summaries for ${needArticleSummary.length} articles...`);
     for (let i = 0; i < needArticleSummary.length; i += ARTICLE_CONCURRENCY) {
       const batch = needArticleSummary.slice(i, i + ARTICLE_CONCURRENCY);
@@ -260,38 +297,59 @@ async function main() {
       console.log(`[digest] Article summary: ${Math.min(i + ARTICLE_CONCURRENCY, needArticleSummary.length)}/${needArticleSummary.length}`);
     }
 
-    newArticles = deduped.map((article, index) => {
+    const mappedRows: Array<ArticleRow | null> = candidateArticles.map((article, index) => {
+      const candidate = candidates[index];
       const r = results.get(index);
-      if (!r) return null;
+      if (!r) {
+        if (candidate.sourceType !== 'hn') return null;
+        return {
+          title: article.title,
+          title_display: article.title,
+          link: article.link,
+          pub_date: article.pubDate.toISOString(),
+          summary: articleSummaries.get(index) || candidate.fallbackSummary || '',
+          source_name: 'Hacker News',
+          source_type: 'hn' as const,
+          hn_points: candidate.hnPoints,
+          score: normalizeHnScore(candidate.hnPoints || 0),
+          category: 'other',
+          keywords: candidate.fallbackKeywords,
+          rank: 0,
+        };
+      }
       const score = r.depth + r.novelty + r.breadth;
       return {
         title: article.title,
         title_display: r.titleDisplay || article.title,
         link: article.link,
         pub_date: article.pubDate.toISOString(),
-        summary: articleSummaries.get(index) || r.summary || '',
-        source_name: article.sourceName,
-        source_type: 'rss' as const,
+        summary: articleSummaries.get(index) || r.summary || candidate.fallbackSummary || '',
+        source_name: candidate.sourceType === 'hn' ? 'Hacker News' : article.sourceName,
+        source_type: candidate.sourceType,
+        hn_points: candidate.hnPoints,
         score,
         depth: r.depth,
         novelty: r.novelty,
         breadth: r.breadth,
         category: r.category,
-        keywords: r.keywords,
+        keywords: r.keywords.length > 0 ? r.keywords : candidate.fallbackKeywords,
+        rank: 0,
       };
-    }).filter((a): a is NonNullable<typeof a> => a !== null);
+    });
+    newArticles = mappedRows.filter((a): a is ArticleRow => a !== null);
   }
 
   // Merge: existing + new, order by publish date (newest first), re-rank
-  const existingRss = existingArticles.filter((a: any) => (a.source_type || 'rss') !== 'hn');
-  const merged = dedupeByLink([...existingRss, ...newArticles, ...hnRows]);
-  merged.sort((a: any, b: any) => {
+  const newLinks = new Set(newArticles.map(a => a.link));
+  const existingWithoutReplaced = existingArticles.filter(a => !newLinks.has(a.link));
+  const merged = dedupeByLink<ArticleRow>([...existingWithoutReplaced, ...newArticles]);
+  merged.sort((a, b) => {
     const dateDiff = toTimestamp(b.pub_date) - toTimestamp(a.pub_date);
     if (dateDiff !== 0) return dateDiff;
     return b.score - a.score;
   });
   const top = merged.slice(0, 100);
-  top.forEach((a: any, i: number) => { a.rank = i + 1; });
+  top.forEach((a, i) => { a.rank = i + 1; });
 
   // Write JSON
   await mkdir(DATA_DIR, { recursive: true });
@@ -300,7 +358,7 @@ async function main() {
     total_feeds: RSS_FEEDS.length,
     success_feeds: successCount,
     total_articles: allArticles.length,
-    filtered_articles: recent.length + hnRows.length,
+    filtered_articles: recent.length + (hnItems === null ? fallbackExistingHnCount : hnCandidates.length),
     articles: top,
   };
 

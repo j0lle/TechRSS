@@ -86,7 +86,7 @@ function timeAgo(ts: number): string {
     <div class="mb-3">
       <div class="flex items-center gap-2 mb-2.5">
         <h2 class="text-sm font-semibold text-text-primary">Discussion highlights</h2>
-        <span class="text-[10px] text-accent-muted bg-gray-100 px-1.5 py-0.5 rounded-full font-medium">{discussions.length} viewpoints</span>
+        <span class="badge-pill text-[10px]">{discussions.length} viewpoints</span>
       </div>
       <div class="space-y-2.5">
         {discussions.map((d, i) => (
