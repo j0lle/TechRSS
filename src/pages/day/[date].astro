@@ -14,13 +14,52 @@ const dates = listDigestDates();
 const idx = dates.indexOf(date!);
 const prevDate = idx < dates.length - 1 ? dates[idx + 1] : undefined;
 const nextDate = idx > 0 ? dates[idx - 1] : undefined;
+
+function normalizeKeyword(value: string): string {
+  return value.trim().toLowerCase().replace(/\s+/g, ' ');
+}
+
 const articles = (digest?.articles || []).slice().sort((a, b) => {
   const dateDiff = new Date(b.pub_date).getTime() - new Date(a.pub_date).getTime();
   if (dateDiff !== 0) return dateDiff;
   return b.score - a.score;
 });
-const rssCount = articles.filter(a => (a.source_type || 'rss') === 'rss').length;
-const hnCount = articles.filter(a => a.source_type === 'hn').length;
+
+const tagStats = new Map<string, { key: string; label: string; count: number; weight: number }>();
+
+for (const article of articles) {
+  const ageHours = Math.max(0, (Date.now() - new Date(article.pub_date).getTime()) / 3_600_000);
+  const recencyBoost = ageHours <= 12 ? 0.35 : 0;
+  const uniqueKeys = new Set(
+    (article.keywords || [])
+      .map(normalizeKeyword)
+      .filter(Boolean),
+  );
+
+  for (const key of uniqueKeys) {
+    const existing = tagStats.get(key);
+    const sourceLabel = (article.keywords || []).find(k => normalizeKeyword(k) === key) || key;
+    if (!existing) {
+      tagStats.set(key, {
+        key,
+        label: sourceLabel,
+        count: 1,
+        weight: 1 + (article.score / 30) + recencyBoost,
+      });
+      continue;
+    }
+    existing.count += 1;
+    existing.weight += 1 + (article.score / 30) + recencyBoost;
+  }
+}
+
+const smartTags = Array.from(tagStats.values())
+  .sort((a, b) => {
+    if (b.weight !== a.weight) return b.weight - a.weight;
+    if (b.count !== a.count) return b.count - a.count;
+    return a.label.localeCompare(b.label);
+  })
+  .slice(0, 10);
 ---
 <Layout title={`TechDigest — ${date}`}>
   <DateNav date={date!} prevDate={prevDate} nextDate={nextDate} />
@@ -34,20 +73,32 @@ const hnCount = articles.filter(a => a.source_type === 'hn').length;
 
   {articles.length > 0 ? (
     <>
-      <div class="flex items-center gap-2 mb-3 text-xs" id="source-filter">
-        <button type="button" data-source-filter="all" class="source-filter-btn px-2 py-1 rounded-md border border-gray-300 bg-gray-900 text-white font-medium">
+      <div class="mb-3" id="smart-filter">
+        <p class="text-[11px] text-text-tertiary mb-1">Smart filters</p>
+        <div class="flex flex-wrap items-center gap-2 text-xs">
+        <button type="button" data-filter-kind="all" class="source-filter-btn is-active">
           All ({articles.length})
         </button>
-        <button type="button" data-source-filter="rss" class="source-filter-btn px-2 py-1 rounded-md border border-gray-300 text-text-secondary hover:bg-gray-100">
-          RSS ({rssCount})
-        </button>
-        <button type="button" data-source-filter="hn" class="source-filter-btn px-2 py-1 rounded-md border border-gray-300 text-text-secondary hover:bg-gray-100">
-          HN ({hnCount})
-        </button>
+        {smartTags.map(tag => (
+          <button
+            type="button"
+            data-filter-kind="tag"
+            data-filter-value={tag.key}
+            class="source-filter-btn"
+            title={`Appears in ${tag.count} articles`}
+          >
+            {tag.label} ({tag.count})
+          </button>
+        ))}
+        </div>
       </div>
       <div class="space-y-2" id="digest-list">
         {articles.map((article) => (
-          <div class="digest-item" data-source-type={article.source_type || 'rss'}>
+          <div
+            class="digest-item"
+            data-source-type={article.source_type || 'rss'}
+            data-tags={Array.from(new Set((article.keywords || []).map(normalizeKeyword).filter(Boolean))).join('|')}
+          >
             <ArticleItem article={article} />
           </div>
         ))}
@@ -60,31 +111,36 @@ const hnCount = articles.filter(a => a.source_type === 'hn').length;
   <DateNav date={date!} prevDate={prevDate} nextDate={nextDate} />
   <script is:inline>
     (function() {
-      var container = document.getElementById("source-filter");
+      var container = document.getElementById("smart-filter");
       if (!container) return;
       var list = document.getElementById("digest-list");
       if (!list) return;
-      var buttons = Array.from(container.querySelectorAll("[data-source-filter]"));
+      var buttons = Array.from(container.querySelectorAll("[data-filter-kind]"));
       var cards = Array.from(list.querySelectorAll(".digest-item"));
 
-      function applyFilter(filter) {
+      function applyFilter(kind, value) {
         cards.forEach(function(card) {
-          var source = card.getAttribute("data-source-type") || "rss";
-          card.style.display = filter === "all" || source === filter ? "" : "none";
+          if (kind === "all") {
+            card.style.display = "";
+            return;
+          }
+          var tags = (card.getAttribute("data-tags") || "").split("|").filter(Boolean);
+          card.style.display = tags.indexOf(value) !== -1 ? "" : "none";
         });
         buttons.forEach(function(btn) {
-          var isActive = btn.getAttribute("data-source-filter") === filter;
-          btn.classList.toggle("bg-gray-900", isActive);
-          btn.classList.toggle("text-white", isActive);
-          btn.classList.toggle("font-medium", isActive);
-          btn.classList.toggle("text-text-secondary", !isActive);
+          var btnKind = btn.getAttribute("data-filter-kind") || "all";
+          var btnValue = btn.getAttribute("data-filter-value") || "";
+          var isActive = btnKind === kind && btnValue === (value || "");
+          btn.classList.toggle("is-active", isActive);
         });
       }
 
       container.addEventListener("click", function(e) {
-        var button = e.target.closest("[data-source-filter]");
+        var button = e.target.closest("[data-filter-kind]");
         if (!button) return;
-        applyFilter(button.getAttribute("data-source-filter") || "all");
+        var kind = button.getAttribute("data-filter-kind") || "all";
+        var value = button.getAttribute("data-filter-value") || "";
+        applyFilter(kind, value);
       });
     })();
   </script>

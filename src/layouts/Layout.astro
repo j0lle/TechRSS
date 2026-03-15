@@ -10,24 +10,40 @@ const path = Astro.url.pathname;
 const latestDay = listDigestDates()[0];
 
 const isDay = path === "/" || path.includes("/day");
-const dayClass = "px-2 py-0.5 rounded-md transition-colors " + (isDay ? "bg-white/20 text-white" : "text-white/60 hover:text-white/80");
+const dayClass = "nav-pill" + (isDay ? " is-active" : "");
 ---
 <!doctype html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="color-scheme" content="light dark" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
   <title>{title}</title>
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📰</text></svg>" />
+  <script is:inline>
+    (function() {
+      var root = document.documentElement;
+      var stored = null;
+      try { stored = localStorage.getItem("theme"); } catch (_) {}
+      var prefersDark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
+      var isDark = stored ? stored === "dark" : prefersDark;
+      root.classList.toggle("theme-dark", isDark);
+      root.style.colorScheme = isDark ? "dark" : "light";
+    })();
+  </script>
 </head>
 <body class="bg-bg-page text-text-primary font-sans leading-relaxed antialiased overflow-x-hidden">
-  <header class="sticky top-0 z-50 bg-accent/95 backdrop-blur-sm py-2.5 safe-top">
+  <header class="site-header sticky top-0 z-50 py-2.5 safe-top">
     <div class="max-w-2xl mx-auto px-3 sm:px-4 flex items-center gap-2 sm:gap-3">
       <a class="text-white font-bold text-base sm:text-lg whitespace-nowrap hover:no-underline" href={base}>TechDigest</a>
       <nav class="flex items-center gap-1 ml-auto text-sm">
         <a class={dayClass} href={latestDay ? `${base}day/${latestDay}/` : `${base}day/`}>Digest</a>
+        <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Switch theme" title="Toggle dark mode">
+          <svg class="icon-moon" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M20.354 15.354A9 9 0 018.646 3.646 9 9 0 1020.354 15.354z"/></svg>
+          <svg class="icon-sun" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.2M12 18.8V21M3 12h2.2M18.8 12H21M5.64 5.64l1.56 1.56M16.8 16.8l1.56 1.56M5.64 18.36l1.56-1.56M16.8 7.2l1.56-1.56M12 16.5A4.5 4.5 0 1112 7.5a4.5 4.5 0 010 9z"/></svg>
+        </button>
       </nav>
     </div>
   </header>
@@ -51,6 +67,29 @@ const dayClass = "px-2 py-0.5 rounded-md transition-colors " + (isDay ? "bg-whit
         if (chevron) chevron.classList.toggle("rotated", details.classList.contains("open"));
       }
     });
+
+    (function() {
+      var root = document.documentElement;
+      var toggle = document.getElementById("theme-toggle");
+      if (!toggle) return;
+
+      function setMode(isDark, persist) {
+        root.classList.toggle("theme-dark", isDark);
+        root.style.colorScheme = isDark ? "dark" : "light";
+        toggle.setAttribute("aria-label", isDark ? "Switch to light mode" : "Switch to dark mode");
+        toggle.setAttribute("title", isDark ? "Switch to light mode" : "Switch to dark mode");
+        if (persist) {
+          try { localStorage.setItem("theme", isDark ? "dark" : "light"); } catch (_) {}
+        }
+      }
+
+      setMode(root.classList.contains("theme-dark"), false);
+
+      toggle.addEventListener("click", function(e) {
+        e.stopPropagation();
+        setMode(!root.classList.contains("theme-dark"), true);
+      });
+    })();
   </script>
 </body>
 </html>
