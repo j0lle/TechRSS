@@ -29,11 +29,12 @@ async function main() {
     return {
       rank: i + 1,
       title: a.title,
-      title_zh: `[模拟中文] ${a.title}`,
+      title_display: `[Mock] ${a.title}`,
       link: a.link,
       pub_date: a.pubDate.toISOString(),
-      summary: `这是一篇来自 ${a.sourceName} 的文章。${a.content.slice(0, 200)}`,
+      summary: `This post comes from ${a.sourceName}. ${a.content.slice(0, 200)}`,
       source_name: a.sourceName,
+      source_type: 'rss',
       score,
       category: cat,
       keywords: ['tech', 'blog'],
@@ -50,7 +51,7 @@ async function main() {
       <div>
         <span class="article-rank">${a.rank}.</span>
         <span class="article-title">
-          <a href="${a.link}" target="_blank" rel="noopener">${a.title_zh}</a>
+          <a href="${a.link}" target="_blank" rel="noopener">${a.title_display}</a>
         </span>
         <span style="font-size:0.8em;color:#828282">(${a.domain})</span>
       </div>
@@ -61,19 +62,19 @@ async function main() {
         &middot; ${a.timeAgo}
         &middot; ${a.source_name}
         &middot;
-        <button class="toggle-btn" onclick="this.closest('.article-item').querySelector('.article-details').classList.toggle('open'); this.textContent = this.textContent === '展开' ? '收起' : '展开';">展开</button>
+        <button class="toggle-btn" onclick="this.closest('.article-item').querySelector('.article-details').classList.toggle('open'); this.textContent = this.textContent === 'Expand' ? 'Collapse' : 'Expand';">Expand</button>
       </div>
       <div class="article-details">
         <div class="summary">${a.summary}</div>
         <div style="margin-top:4px;font-size:0.9em;color:#999">${a.keywords.join(' · ')}</div>
         <div style="margin-top:6px">
-          <a href="${a.link}" target="_blank" rel="noopener" style="color:#ff6600;font-size:0.9em">阅读原文 &rarr;</a>
+          <a href="${a.link}" target="_blank" rel="noopener" style="color:#ff6600;font-size:0.9em">Read article &rarr;</a>
         </div>
       </div>
     </li>`).join('\n');
 
   const html = `<!doctype html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -116,7 +117,7 @@ async function main() {
   <header>
     <div class="container">
       <a class="logo" href="/">TechDigest</a>
-      <span class="tagline">90 个顶级技术博客，AI 每日精选</span>
+      <span class="tagline">90 top tech blogs, AI-curated daily</span>
     </div>
   </header>
   <main class="container">
@@ -127,7 +128,7 @@ async function main() {
     </nav>
 
     <div class="stats">
-      扫描 85/90 源 · 获取 342 篇 · 精选 ${mockArticles.length} 篇
+      Scanned 85/90 feeds · Collected 342 posts · Selected ${mockArticles.length}
     </div>
 
     <ol class="article-list">
@@ -142,7 +143,7 @@ async function main() {
   </main>
   <footer>
     <div class="container">
-      基于 Karpathy 推荐的 HN 热门博客 RSS 源
+      Built from Karpathy-recommended independent tech blog RSS feeds
     </div>
   </footer>
 </body>

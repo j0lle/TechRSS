@@ -16,10 +16,10 @@ function timeAgo(ts: number): string {
 
 const sorted = [...items].sort((a, b) => b.createdAt - a.createdAt);
 ---
-<Layout title="HN 讨论 - TechDigest">
+<Layout title="HN Discussions - TechDigest">
   {items.length === 0 ? (
     <div class="text-center py-8">
-      <p class="text-text-secondary text-sm">暂无数据</p>
+      <p class="text-text-secondary text-sm">No data yet</p>
     </div>
   ) : (
     <div class="space-y-2">
@@ -27,14 +27,14 @@ const sorted = [...items].sort((a, b) => b.createdAt - a.createdAt);
         const ai = item.aiSummary || item.aisummary || {};
         const tags = item.classifications?.tags || [];
         const emoji = ai.emoji || '';
-        const title = ai.chinese_title || item.title;
+        const title = item.title;
         return (
           <a href={`${base}hn/${item.id}/`} class="hn-card block bg-bg-card rounded-xl border border-gray-200/60 px-3 py-2.5 no-underline text-inherit">
             <h3 class="text-[15px] font-medium leading-snug mb-1.5 text-text-primary break-words">
               {emoji} {title}
             </h3>
             <div class="flex flex-wrap items-center gap-x-1.5 gap-y-1 text-[11px] text-text-secondary leading-none mb-1.5">
-              <span class="font-medium text-accent-warm">{item.score} 分</span>
+              <span class="font-medium text-accent-warm">{item.score} points</span>
               <span class="opacity-30">·</span>
               <span>{item.by}</span>
               <span class="opacity-30">·</span>

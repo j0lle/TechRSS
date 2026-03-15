@@ -1,7 +1,6 @@
 import { writeFile, mkdir } from 'node:fs/promises';
 import path from 'node:path';
 import { fetchFeed } from '../src/lib/rss';
-import { CATEGORY_META } from '../src/lib/types';
 
 const DATA_DIR = path.join(process.cwd(), 'data');
 const feed = { name: 'simonwillison.net', xmlUrl: 'https://simonwillison.net/atom/everything/', htmlUrl: 'https://simonwillison.net' };
@@ -22,11 +21,12 @@ async function main() {
     filtered_articles: 127,
     articles: articles.slice(0, 15).map((a, i) => ({
       title: a.title,
-      title_zh: `[模拟] ${a.title}`,
+      title_display: `[Mock] ${a.title}`,
       link: a.link,
       pub_date: a.pubDate.toISOString(),
-      summary: `这是来自 ${a.sourceName} 的文章摘要。${a.content.slice(0, 150)}`,
+      summary: `Summary from ${a.sourceName}. ${a.content.slice(0, 150)}`,
       source_name: a.sourceName,
+      source_type: 'rss',
       score: 30 - i,
       category: categories[i % categories.length],
       keywords: ['tech', 'blog'],
