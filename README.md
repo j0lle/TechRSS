@@ -1,7 +1,5 @@
-Made an English version with codex. Added openai.
+Made an English version with codex. Added openai. Added docker.
 Thank you Dayuan Jiang for making this!
-
-Original README:
 
 # TechRSS
 
@@ -31,6 +29,23 @@ npm install
 npm run dev        # Dev server
 npm run digest     # Run the digest pipeline (requires provider credentials)
 npm run build      # Build static site
+```
+
+## Docker
+
+Use `.env` for provider credentials, then run:
+
+```bash
+docker compose build
+docker compose run --rm digest   # Run digest pipeline, writes to ./data
+docker compose up web            # Start frontend at http://localhost:4321
+```
+
+Or via npm shortcuts:
+
+```bash
+npm run docker:digest
+npm run docker:web
 ```
 
 ## AI Provider Config

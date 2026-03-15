@@ -1,0 +1,23 @@
+services:
+  digest:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    env_file:
+      - .env
+    command: npm run digest
+    volumes:
+      - ./data:/app/data
+    restart: "no"
+
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    env_file:
+      - .env
+    command: npm run dev -- --host 0.0.0.0 --port 4321
+    ports:
+      - "4321:4321"
+    volumes:
+      - ./data:/app/data
