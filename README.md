@@ -1,3 +1,8 @@
+Made an English version with codex. Added openai.
+Thank you Dayuan Jiang for making this!
+
+Original README:
+
 # TechRSS
 
 AI-curated daily tech digest from 94 independent blogs, scored and summarized in Chinese.
