@@ -6,7 +6,9 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "digest": "tsx scripts/digest.ts"
+    "digest": "tsx scripts/digest.ts",
+    "docker:web": "docker compose up --build web",
+    "docker:digest": "docker compose run --rm digest"
   },
   "dependencies": {
     "@ai-sdk/amazon-bedrock": "^4.0.63",
