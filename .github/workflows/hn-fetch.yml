@@ -26,13 +26,18 @@ jobs:
       cancel-in-progress: true
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
       - run: git config --global --add safe.directory "$GITHUB_WORKSPACE"
       - run: npm ci
       - run: git pull --rebase
 
       - run: npx tsx scripts/hn.ts
         env:
-          AWS_BEARER_TOKEN_BEDROCK: ${{ secrets.AWS_BEARER_TOKEN_BEDROCK }}
+          AI_PROVIDER: openai
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: ${{ vars.OPENAI_MODEL }}
+          AI_MAX_CONCURRENT: ${{ vars.AI_MAX_CONCURRENT }}
 
       - run: |
           git config user.name "github-actions[bot]"

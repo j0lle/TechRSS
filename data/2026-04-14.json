@@ -1,0 +1,463 @@
+{
+  "date": "2026-04-14",
+  "total_feeds": 92,
+  "success_feeds": 89,
+  "total_articles": 2541,
+  "filtered_articles": 43,
+  "articles": [
+    {
+      "title": "A new spam policy for \"back button hijacking\"",
+      "title_display": "A new spam policy for \"back button hijacking\"",
+      "link": "https://developers.google.com/search/blog/2026/04/back-button-hijacking",
+      "pub_date": "2026-04-14T03:50:31.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 329,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "back button hijacking",
+        "spam policy",
+        "Google Search",
+        "window.history.pushState"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "DaVinci Resolve releases Photo Editor",
+      "title_display": "DaVinci Resolve releases Photo Editor",
+      "link": "https://www.blackmagicdesign.com/products/davinciresolve/photo",
+      "pub_date": "2026-04-14T03:10:31.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 339,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "DaVinci Resolve Photo Editor",
+        "DaVinci Resolve",
+        "Blackmagic Design",
+        "RAW"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "WiiFin – Jellyfin Client for Nintendo Wii",
+      "title_display": "WiiFin – Jellyfin Client for Nintendo Wii",
+      "link": "https://github.com/fabienmillet/WiiFin",
+      "pub_date": "2026-04-14T00:50:31.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 133,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "WiiFin",
+        "Jellyfin",
+        "Nintendo Wii",
+        "GitHub"
+      ],
+      "rank": 3
+    },
+    {
+      "title": "Lean proved this program was correct; then I found a bug",
+      "title_display": "Lean proved this program was correct; then I found a bug",
+      "link": "https://kirancodes.me/posts/log-who-watches-the-watchers.html",
+      "pub_date": "2026-04-14T00:40:31.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 252,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "Lean",
+        "formal verification",
+        "proof assistants",
+        "Lean runtime"
+      ],
+      "rank": 4
+    },
+    {
+      "title": "Stanford report highlights growing disconnect between AI insiders and everyone",
+      "title_display": "Stanford report highlights growing disconnect between AI insiders and everyone",
+      "link": "https://techcrunch.com/2026/04/13/stanford-report-highlights-growing-disconnect-between-ai-insiders-and-everyone-else/",
+      "pub_date": "2026-04-13T21:30:31.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 178,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "AI",
+        "Stanford",
+        "TechCrunch"
+      ],
+      "rank": 5
+    },
+    {
+      "title": "(AMD) Build AI Agents That Run Locally",
+      "title_display": "(AMD) Build AI Agents That Run Locally",
+      "link": "https://amd-gaia.ai/docs",
+      "pub_date": "2026-04-13T21:10:30.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 131,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "AMD GAIA",
+        "AMD",
+        "AI agents",
+        "local inference"
+      ],
+      "rank": 6
+    },
+    {
+      "title": "GitHub Stacked PRs",
+      "title_display": "GitHub Stacked PRs",
+      "link": "https://github.github.com/gh-stack/",
+      "pub_date": "2026-04-13T20:50:28.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 614,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "GitHub",
+        "stacked PRs",
+        "gh-stack",
+        "GitHub CLI (gh)"
+      ],
+      "rank": 7
+    },
+    {
+      "title": "An Introduction to Obsidian",
+      "title_display": "An Introduction to Obsidian",
+      "link": "https://bryanhogan.com/blog/obsidian-introduction",
+      "pub_date": "2026-04-13T20:20:30.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 138,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Obsidian",
+        "Vaults",
+        "Obsidian Sync"
+      ],
+      "rank": 8
+    },
+    {
+      "title": "How to make Firefox builds 17% faster",
+      "title_display": "How to make Firefox builds 17% faster",
+      "link": "https://blog.farre.se/posts/2026/04/10/caching-webidl-codegen/",
+      "pub_date": "2026-04-13T19:20:30.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 149,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Firefox",
+        "WebIDL codegen",
+        "build performance",
+        "Rust"
+      ],
+      "rank": 9
+    },
+    {
+      "title": "Your Startup Is Probably Dead on Arrival",
+      "title_display": "Your Startup Is Probably Dead on Arrival",
+      "link": "https://steveblank.com/2026/03/17/your-startup-is-probably-dead-on-arrival/",
+      "pub_date": "2026-04-13T19:20:30.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 136,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "startups",
+        "AI",
+        "Steve Blank",
+        "agents"
+      ],
+      "rank": 10
+    },
+    {
+      "title": "Show HN: Ithihāsas – a character explorer for Hindu epics, built in a few hours",
+      "title_display": "Show HN: Ithihāsas – a character explorer for Hindu epics, built in a few hours",
+      "link": "https://www.ithihasas.in",
+      "pub_date": "2026-04-13T19:20:29.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 133,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Ithihasas",
+        "Hindu epics",
+        "Mahabharata",
+        "Ramayana"
+      ],
+      "rank": 11
+    },
+    {
+      "title": "Someone Bought 30 WordPress Plugins and Planted a Backdoor in All of Them",
+      "title_display": "Someone Bought 30 WordPress Plugins and Planted a Backdoor in All of Them",
+      "link": "https://anchor.host/someone-bought-30-wordpress-plugins-and-planted-a-backdoor-in-all-of-them/",
+      "pub_date": "2026-04-13T18:20:29.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 738,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "WordPress",
+        "WordPress plugins",
+        "backdoor",
+        "supply chain"
+      ],
+      "rank": 12
+    },
+    {
+      "title": "The Future of Everything Is Lies, I Guess: Safety",
+      "title_display": "The Future of Everything Is Lies, I Guess: Safety",
+      "link": "https://aphyr.com/posts/417-the-future-of-everything-is-lies-i-guess-safety",
+      "pub_date": "2026-04-13T16:30:30.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 281,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "LLMs",
+        "AI safety",
+        "alignment",
+        "RLHF"
+      ],
+      "rank": 13
+    },
+    {
+      "title": "Building a CLI for All of Cloudflare",
+      "title_display": "Building a CLI for All of Cloudflare",
+      "link": "https://blog.cloudflare.com/cf-cli-local-explorer/",
+      "pub_date": "2026-04-13T16:10:32.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 259,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "Cloudflare",
+        "cf CLI",
+        "TypeScript",
+        "technical preview"
+      ],
+      "rank": 14
+    },
+    {
+      "title": "Nothing Ever Happens: Polymarket bot that always buys No on non-sports markets",
+      "title_display": "Nothing Ever Happens: Polymarket bot that always buys No on non-sports markets",
+      "link": "https://github.com/sterlingcrispin/nothing-ever-happens",
+      "pub_date": "2026-04-13T16:00:30.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 357,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Polymarket",
+        "nothing-ever-happens",
+        "bot",
+        "prediction-market"
+      ],
+      "rank": 15
+    },
+    {
+      "title": "We May Be Living Through the Most Consequential Hundred Days in Cyber History",
+      "title_display": "We May Be Living Through the Most Consequential Hundred Days in Cyber History",
+      "link": "https://ringmast4r.substack.com/p/we-may-be-living-through-the-most",
+      "pub_date": "2026-04-13T15:20:32.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 251,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "Scattered LAPSUS$ Hunters",
+        "LAPSUS$",
+        "Scattered Spider",
+        "ShinyHunters"
+      ],
+      "rank": 16
+    },
+    {
+      "title": "Microsoft isn't removing Copilot from Windows 11, it's just renaming it",
+      "title_display": "Microsoft isn't removing Copilot from Windows 11, it's just renaming it",
+      "link": "https://www.neowin.net/opinions/microsoft-isnt-removing-copilot-from-windows-11-its-just-renaming-it/",
+      "pub_date": "2026-04-13T15:00:32.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 258,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "Copilot",
+        "Windows 11",
+        "Microsoft",
+        "Notepad"
+      ],
+      "rank": 17
+    },
+    {
+      "title": "Make Tmux Pretty and Usable",
+      "title_display": "Make Tmux Pretty and Usable",
+      "link": "https://hamvocke.com/blog/a-guide-to-customizing-your-tmux-conf/",
+      "pub_date": "2026-04-13T15:00:31.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 388,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "tmux",
+        "tmux.conf",
+        "Zellij",
+        "vim"
+      ],
+      "rank": 18
+    },
+    {
+      "title": "US appeals court declares 158-year-old home distilling ban unconstitutional",
+      "title_display": "US appeals court declares 158-year-old home distilling ban unconstitutional",
+      "link": "https://nypost.com/2026/04/11/us-news/us-appeals-court-declares-158-year-old-home-distilling-ban-unconstitutional/",
+      "pub_date": "2026-04-13T14:00:33.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 318,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "home distilling",
+        "Commerce Clause",
+        "Wickard v. Filburn",
+        "5th Circuit"
+      ],
+      "rank": 19
+    },
+    {
+      "title": "Servo is now available on crates.io",
+      "title_display": "Servo is now available on crates.io",
+      "link": "https://servo.org/blog/2026/04/13/servo-0.1.0-release/",
+      "pub_date": "2026-04-13T13:50:34.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 350,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Servo",
+        "crates.io",
+        "Rust",
+        "docs.rs"
+      ],
+      "rank": 20
+    },
+    {
+      "title": "AI could be the end of the digital wave, not the next big thing",
+      "title_display": "AI could be the end of the digital wave, not the next big thing",
+      "link": "https://thenextwavefutures.wordpress.com/2026/04/07/ai-end-digital-wave-technology-innovation-perez/",
+      "pub_date": "2026-04-13T13:00:33.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 155,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "AI",
+        "Carlota Perez",
+        "digital wave",
+        "Large language models"
+      ],
+      "rank": 21
+    },
+    {
+      "title": "Michigan 'digital age' bills pulled after privacy concerns raised",
+      "title_display": "Michigan 'digital age' bills pulled after privacy concerns raised",
+      "link": "https://www.thecentersquare.com/michigan/article_7ca4e268-4a68-42fb-9042-f9d8604ebd7f.html",
+      "pub_date": "2026-04-13T12:50:31.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 141,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "privacy",
+        "Michigan",
+        "digital age bills",
+        "GDPR"
+      ],
+      "rank": 22
+    },
+    {
+      "title": "I went to America's worst national parks so you don't have to",
+      "title_display": "I went to America's worst national parks so you don't have to",
+      "link": "https://substack.com/home/post/p-193626949",
+      "pub_date": "2026-04-13T12:50:30.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 186,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "National Parks",
+        "Grand Canyon",
+        "Yosemite",
+        "Havasupai Gardens"
+      ],
+      "rank": 23
+    },
+    {
+      "title": "Android now stops you sharing your location in photos",
+      "title_display": "Android now stops you sharing your location in photos",
+      "link": "https://shkspr.mobi/blog/2026/04/android-now-stops-you-sharing-your-location-in-photos/",
+      "pub_date": "2026-04-13T12:30:34.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 314,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Android",
+        "EXIF",
+        "location metadata",
+        "photo picker"
+      ],
+      "rank": 24
+    }
+  ]
+}

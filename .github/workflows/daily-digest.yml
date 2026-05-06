@@ -21,6 +21,8 @@ jobs:
       cancel-in-progress: false
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
       - run: git config --global --add safe.directory "$GITHUB_WORKSPACE"
       - run: npm ci
 
@@ -30,7 +32,10 @@ jobs:
       # 2. Fetch RSS, score with AI, write JSON (incremental)
       - run: npx tsx scripts/digest.ts
         env:
-          AWS_BEARER_TOKEN_BEDROCK: ${{ secrets.AWS_BEARER_TOKEN_BEDROCK }}
+          AI_PROVIDER: openai
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: ${{ vars.OPENAI_MODEL }}
+          AI_MAX_CONCURRENT: ${{ vars.AI_MAX_CONCURRENT }}
 
       # 3. Commit data JSON to repo
       - run: |
