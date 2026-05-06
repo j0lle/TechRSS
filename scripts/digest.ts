@@ -40,6 +40,94 @@ interface CandidateArticle {
   fallbackKeywords: string[];
 }
 
+const HN_TECH_KEYWORDS = [
+  'adbc',
+  'airflow',
+  'analytics',
+  'apache arrow',
+  'api',
+  'benchmark',
+  'cache',
+  'clickhouse',
+  'cli',
+  'code',
+  'compiler',
+  'cve',
+  'data engineering',
+  'data frame',
+  'database',
+  'dataframe',
+  'debug',
+  'deploy',
+  'developer',
+  'devops',
+  'distributed',
+  'django',
+  'docker',
+  'duckdb',
+  'embedding',
+  'etl',
+  'exploit',
+  'fastapi',
+  'filesystem',
+  'framework',
+  'git',
+  'github',
+  'inference',
+  'influxdb',
+  'infrastructure',
+  'jupyter',
+  'kafka',
+  'kubernetes',
+  'latency',
+  'library',
+  'linux',
+  'memory',
+  'monitoring',
+  'network',
+  'notebook',
+  'numpy',
+  'observability',
+  'olap',
+  'open source',
+  'opentelemetry',
+  'oss',
+  'package',
+  'pandas',
+  'parquet',
+  'performance',
+  'polars',
+  'postgres',
+  'profil',
+  'programming',
+  'pydata',
+  'python',
+  'queue',
+  'rag',
+  'repo',
+  'repository',
+  'runtime',
+  'sdk',
+  'security',
+  'server',
+  'software',
+  'spark',
+  'sql',
+  'sqlite',
+  'storage',
+  'streaming',
+  'time series',
+  'time-series',
+  'timescale',
+  'timeseries',
+  'tls',
+  'training',
+  'tsdb',
+  'vulnerability',
+  'webassembly',
+  'weights',
+];
+
 function parsePositiveInt(value: string | undefined, fallback: number): number {
   if (!value) return fallback;
   const parsed = Number.parseInt(value, 10);
@@ -123,6 +211,28 @@ function mapHnItemsToCandidates(items: HnItem[], cutoffMs: number): CandidateArt
         fallbackKeywords: (item.classifications?.tags || []).slice(0, 4),
       };
     });
+}
+
+function isRepositoryUrl(url: string | undefined): boolean {
+  if (!url) return false;
+  try {
+    const parsed = new URL(url);
+    const host = parsed.hostname.replace(/^www\./, '');
+    return ['github.com', 'gitlab.com', 'codeberg.org', 'sr.ht'].includes(host);
+  } catch {
+    return false;
+  }
+}
+
+function isTechnicalHnItem(item: HnItem): boolean {
+  if (isRepositoryUrl(item.url)) return true;
+  const haystack = [
+    item.title,
+    item.url || '',
+    ...(item.classifications?.tags || []),
+  ].join(' ').toLowerCase();
+
+  return HN_TECH_KEYWORDS.some(keyword => haystack.includes(keyword));
 }
 
 function dedupeByLink<T extends { link: string; score: number }>(articles: T[]): T[] {
@@ -238,7 +348,11 @@ async function main() {
   const dedupedRss = recent.filter(a => !existingLinks.has(a.link) && !existingLinksToday.has(a.link));
   console.log(`[digest] ${dedupedRss.length} new RSS articles after dedup`);
   const hnItems = await loadHnItems();
-  const hnCandidates = hnItems ? mapHnItemsToCandidates(hnItems, cutoff.getTime()) : [];
+  const technicalHnItems = hnItems ? hnItems.filter(isTechnicalHnItem) : [];
+  if (hnItems) {
+    console.log(`[digest] HN technical gate: kept ${technicalHnItems.length}/${hnItems.length}, dropped ${hnItems.length - technicalHnItems.length}`);
+  }
+  const hnCandidates = mapHnItemsToCandidates(technicalHnItems, cutoff.getTime());
   const dedupedHn = hnCandidates.filter(c => {
     if (existingLinks.has(c.article.link)) return false;
     const existingToday = existingByLink.get(c.article.link);

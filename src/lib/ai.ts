@@ -111,7 +111,7 @@ export type ArticleResult = z.infer<typeof articleResultSchema>;
 function buildPrompt(article: { title: string; content: string; sourceName: string; link: string }): string {
   const articleText = `[${article.sourceName}] ${article.title}\nURL: ${article.link}\n${article.content}`;
 
-  return `You are a technical content curator preparing a daily digest for AI and software engineers. Most sources are independent technical blogs about AI/LLMs, security, and systems engineering.
+  return `You are a technical content curator preparing a daily digest for AI and software engineers. The digest favors Python, software development, open-source repositories, data engineering, databases, time series, infrastructure, security, and practical engineering writeups.
 
 Evaluate the article with strict score separation. Return three integer scores (1-10), one main category, 2-4 keywords, an English digest title, and an English summary.
 
@@ -122,6 +122,7 @@ Evaluate the article with strict score separation. Return three integer scores (
 ## Scoring discipline
 - Use extreme scores when deserved: low-signal updates can be 1-3, deep original work can be 8-10.
 - Do not reward hype. Judge evidence and technical value.
+- Treat business, policy, market, and general tech commentary as low-value unless it has direct engineering impact.
 
 ## Dimensions
 
