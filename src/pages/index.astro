@@ -1,7 +1,241 @@
 ---
-import { listDigestDates } from '../lib/data';
-const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
+import Layout from '../layouts/Layout.astro';
+import ArticleItem from '../components/ArticleItem.astro';
+import { listDigestDates, loadDigest } from '../lib/data';
+import { CATEGORY_META, type CategoryId } from '../lib/types';
+
 const latestDay = listDigestDates()[0];
-const target = latestDay ? `${base}day/${latestDay}/` : `${base}day/`;
+const digest = latestDay ? loadDigest(latestDay) : null;
+
+function normalizeKeyword(value: string): string {
+  return value.trim().toLowerCase().replace(/\s+/g, ' ');
+}
+
+function formatDigestDate(date: string): string {
+  return new Date(`${date}T00:00:00Z`).toLocaleDateString('en', {
+    month: 'short',
+    day: 'numeric',
+    year: 'numeric',
+    timeZone: 'UTC',
+  });
+}
+
+const articles = (digest?.articles || []).slice().sort((a, b) => {
+  const dateDiff = new Date(b.pub_date).getTime() - new Date(a.pub_date).getTime();
+  if (dateDiff !== 0) return dateDiff;
+  return b.score - a.score;
+});
+
+const rssCount = articles.filter(article => (article.source_type || 'rss') === 'rss').length;
+const hnCount = articles.filter(article => (article.source_type || 'rss') === 'hn').length;
+
+const categoryCounts = new Map<string, number>();
+const tagStats = new Map<string, { key: string; label: string; count: number; weight: number }>();
+
+for (const article of articles) {
+  categoryCounts.set(article.category, (categoryCounts.get(article.category) || 0) + 1);
+
+  const ageHours = Math.max(0, (Date.now() - new Date(article.pub_date).getTime()) / 3_600_000);
+  const recencyBoost = ageHours <= 12 ? 0.35 : 0;
+  const uniqueKeys = new Set(
+    (article.keywords || [])
+      .map(normalizeKeyword)
+      .filter(Boolean),
+  );
+
+  for (const key of uniqueKeys) {
+    const sourceLabel = (article.keywords || []).find(k => normalizeKeyword(k) === key) || key;
+    const existing = tagStats.get(key);
+    if (!existing) {
+      tagStats.set(key, {
+        key,
+        label: sourceLabel,
+        count: 1,
+        weight: 1 + (article.score / 30) + recencyBoost,
+      });
+      continue;
+    }
+    existing.count += 1;
+    existing.weight += 1 + (article.score / 30) + recencyBoost;
+  }
+}
+
+const categories = (Object.entries(CATEGORY_META) as [CategoryId, { emoji: string; label: string }][])
+  .map(([key, meta]) => ({ key, label: meta.label, count: categoryCounts.get(key) || 0 }))
+  .filter(category => category.count > 0);
+
+const smartTags = Array.from(tagStats.values())
+  .sort((a, b) => {
+    if (b.weight !== a.weight) return b.weight - a.weight;
+    if (b.count !== a.count) return b.count - a.count;
+    return a.label.localeCompare(b.label);
+  })
+  .slice(0, 10);
 ---
-<meta http-equiv="refresh" content={`0;url=${target}`} />
+<Layout title={latestDay ? `TechDigest - ${latestDay}` : 'TechDigest'}>
+  {digest ? (
+    <>
+      <section class="mb-4 space-y-3">
+        <div>
+          <h1 class="text-xl font-bold leading-tight text-text-primary">{formatDigestDate(digest.date)}</h1>
+          <div class="flex flex-wrap items-center gap-1.5 text-xs text-text-tertiary mt-1">
+            <span class="w-1.5 h-1.5 rounded-full bg-green-500 inline-block"></span>
+            <span>Scanned {digest.success_feeds}/{digest.total_feeds} feeds</span>
+            <span class="opacity-30">·</span>
+            <span>Collected {digest.total_articles} posts</span>
+            <span class="opacity-30">·</span>
+            <span>Selected {articles.length}</span>
+          </div>
+        </div>
+
+        {articles.length > 0 && (
+          <div id="news-filters" class="space-y-2.5">
+            <div class="flex flex-wrap items-center gap-2 text-xs">
+              <span class="text-[11px] font-medium uppercase text-text-tertiary">Source</span>
+              <button type="button" data-filter-type="reset" class="source-filter-btn is-active">
+                All ({articles.length})
+              </button>
+              <button type="button" data-filter-type="source" data-filter-value="rss" class="source-filter-btn">
+                RSS ({rssCount})
+              </button>
+              <button type="button" data-filter-type="source" data-filter-value="hn" class="source-filter-btn">
+                HN ({hnCount})
+              </button>
+            </div>
+
+            {categories.length > 0 && (
+              <div class="flex flex-wrap items-center gap-2 text-xs">
+                <span class="text-[11px] font-medium uppercase text-text-tertiary">Category</span>
+                {categories.map(category => (
+                  <button
+                    type="button"
+                    data-filter-type="category"
+                    data-filter-value={category.key}
+                    class="source-filter-btn"
+                  >
+                    {category.label} ({category.count})
+                  </button>
+                ))}
+              </div>
+            )}
+
+            {smartTags.length > 0 && (
+              <div class="flex flex-wrap items-center gap-2 text-xs">
+                <span class="text-[11px] font-medium uppercase text-text-tertiary">Topics</span>
+                {smartTags.map(tag => (
+                  <button
+                    type="button"
+                    data-filter-type="tag"
+                    data-filter-value={tag.key}
+                    class="source-filter-btn"
+                    title={`Appears in ${tag.count} articles`}
+                  >
+                    {tag.label} ({tag.count})
+                  </button>
+                ))}
+              </div>
+            )}
+          </div>
+        )}
+      </section>
+
+      {articles.length > 0 ? (
+        <>
+          <div class="space-y-2" id="digest-list">
+            {articles.map(article => (
+              <div
+                class="digest-item"
+                data-source-type={article.source_type || 'rss'}
+                data-category={article.category}
+                data-tags={Array.from(new Set((article.keywords || []).map(normalizeKeyword).filter(Boolean))).join('|')}
+              >
+                <ArticleItem article={article} />
+              </div>
+            ))}
+          </div>
+          <div id="no-results" class="hidden text-center py-12 text-text-tertiary text-sm">
+            No articles match the selected filters.
+          </div>
+        </>
+      ) : (
+        <div class="text-center py-16 text-text-tertiary"><p>No articles yet</p></div>
+      )}
+    </>
+  ) : (
+    <div class="text-center py-16 text-text-tertiary"><p>No digest data yet</p></div>
+  )}
+
+  <script is:inline>
+    (function() {
+      var controls = document.getElementById("news-filters");
+      var list = document.getElementById("digest-list");
+      if (!controls || !list) return;
+
+      var cards = Array.from(list.querySelectorAll(".digest-item"));
+      var buttons = Array.from(controls.querySelectorAll("[data-filter-type]"));
+      var empty = document.getElementById("no-results");
+      var state = {
+        source: "all",
+        category: "all",
+        tag: "all",
+      };
+
+      function matches(card) {
+        if (state.source !== "all" && card.getAttribute("data-source-type") !== state.source) return false;
+        if (state.category !== "all" && card.getAttribute("data-category") !== state.category) return false;
+        if (state.tag !== "all") {
+          var tags = (card.getAttribute("data-tags") || "").split("|").filter(Boolean);
+          if (tags.indexOf(state.tag) === -1) return false;
+        }
+        return true;
+      }
+
+      function updateButtons() {
+        var isReset = state.source === "all" && state.category === "all" && state.tag === "all";
+        buttons.forEach(function(button) {
+          var type = button.getAttribute("data-filter-type") || "";
+          var value = button.getAttribute("data-filter-value") || "";
+          var active = false;
+          if (type === "reset") active = isReset;
+          if (type === "source") active = state.source === value;
+          if (type === "category") active = state.category === value;
+          if (type === "tag") active = state.tag === value;
+          button.classList.toggle("is-active", active);
+        });
+      }
+
+      function applyFilters() {
+        var visibleCount = 0;
+        cards.forEach(function(card) {
+          var visible = matches(card);
+          card.style.display = visible ? "" : "none";
+          if (visible) visibleCount += 1;
+        });
+        if (empty) empty.classList.toggle("hidden", visibleCount !== 0);
+        updateButtons();
+      }
+
+      controls.addEventListener("click", function(event) {
+        var button = event.target.closest("[data-filter-type]");
+        if (!button) return;
+        var type = button.getAttribute("data-filter-type") || "";
+        var value = button.getAttribute("data-filter-value") || "all";
+
+        if (type === "reset") {
+          state.source = "all";
+          state.category = "all";
+          state.tag = "all";
+        } else if (type === "source") {
+          state.source = state.source === value ? "all" : value;
+        } else if (type === "category") {
+          state.category = state.category === value ? "all" : value;
+        } else if (type === "tag") {
+          state.tag = state.tag === value ? "all" : value;
+        }
+        applyFilters();
+      });
+
+      applyFilters();
+    })();
+  </script>
+</Layout>

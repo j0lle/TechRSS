@@ -10,7 +10,6 @@ import { fetchWithPlaywright, closeBrowser } from './fetch-content';
 import type { Article, ArticleRow } from '../src/lib/types';
 
 const DATA_DIR = path.join(process.cwd(), 'data');
-const HN_FILE = path.join(DATA_DIR, 'hn.json');
 const NH_API = 'https://api.newshacker.me';
 const HN_LIST_SIZE = 50;
 const HN_MIN_SCORE = 100;
@@ -75,19 +74,8 @@ async function loadTodayData(today: string): Promise<{ articles: ArticleRow[] } 
   }
 }
 
-/** Load HN items from local cache first, then API fallback. */
+/** Load current HN items directly so the digest has a single source of truth. */
 async function loadHnItems(): Promise<HnItem[] | null> {
-  if (existsSync(HN_FILE)) {
-    try {
-      const cached = JSON.parse(await readFile(HN_FILE, 'utf-8')) as { items?: HnItem[] };
-      if (Array.isArray(cached.items)) {
-        return cached.items;
-      }
-    } catch {
-      // Ignore invalid cache and fall through to API.
-    }
-  }
-
   try {
     const response = await fetch(`${NH_API}/list?page=1&pageSize=${HN_LIST_SIZE}&minScore=${HN_MIN_SCORE}`);
     if (!response.ok) {
@@ -243,8 +231,7 @@ async function main() {
     if (!existingToday) return true;
     return needsHnReprocessing(existingToday);
   });
-  const fallbackExistingHnCount = existingArticles.filter(a => (a.source_type || 'rss') === 'hn').length;
-  console.log(`[digest] ${hnItems === null ? fallbackExistingHnCount : hnCandidates.length} HN items in window${hnItems === null ? ' (reused cached from digest file)' : ''}`);
+  console.log(`[digest] ${hnCandidates.length} HN items in window${hnItems === null ? ' (API unavailable)' : ''}`);
   console.log(`[digest] ${dedupedHn.length} new HN articles after dedup`);
 
   const candidates: CandidateArticle[] = [
@@ -358,7 +345,7 @@ async function main() {
     total_feeds: RSS_FEEDS.length,
     success_feeds: successCount,
     total_articles: allArticles.length,
-    filtered_articles: recent.length + (hnItems === null ? fallbackExistingHnCount : hnCandidates.length),
+    filtered_articles: recent.length + hnCandidates.length,
     articles: top,
   };
 

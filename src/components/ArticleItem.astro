@@ -38,7 +38,7 @@ const metaScoreText = sourceType === 'hn'
   ? `HN ${article.hn_points ?? article.score} points`
   : `Depth ${article.depth ?? '-'} · Novelty ${article.novelty ?? '-'} · Breadth ${article.breadth ?? '-'}`;
 ---
-<article class="article-card bg-bg-card rounded-xl border border-gray-200/60 px-3 py-2.5 cursor-pointer">
+<article class="article-card bg-bg-card rounded-lg border border-gray-200/60 px-3 py-2.5 cursor-pointer">
   {/* Title */}
   <h3 class="text-[15px] font-medium leading-snug mb-1.5 text-text-primary break-words">
     {article.title_display || article.title}

@@ -3,16 +3,16 @@ Thank you Dayuan Jiang for making this!
 
 # TechRSS
 
-AI-curated daily tech digest from 94 independent blogs, scored and summarized in English.
+AI-curated single-page tech digest from 94 independent blogs plus recent Hacker News links, scored and summarized in English.
 
-**Live site**: https://dayuanjiang.github.io/TechRSS/
+**Live site**: https://j0lle.github.io/TechRSS/
 
 ## How it works
 
 1. **Fetch** - Pulls RSS feeds from 94 independent tech blogs and merges recent Hacker News items
 2. **Score** - Each article is scored by AI on three dimensions: depth, novelty, and breadth (1-10)
 3. **Summarize** - Top articles get an English digest title and summary
-4. **Publish** - Static site rebuilt and deployed to GitHub Pages
+4. **Publish** - One static news page is rebuilt and deployed to GitHub Pages
 
 Runs incrementally every 30 minutes via GitHub Actions. Only new articles trigger AI calls.
 
