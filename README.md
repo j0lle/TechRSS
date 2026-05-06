@@ -73,7 +73,14 @@ BEDROCK_MODEL_ID=zai.glm-4.7
 ```bash
 AI_PROVIDER=openai
 OPENAI_API_KEY=...
-OPENAI_MODEL=gpt-4.1-mini
+OPENAI_MODEL=gpt-5.4-mini
 # Optional, for OpenAI-compatible endpoints:
 # OPENAI_BASE_URL=https://your-endpoint/v1
+```
+
+## Performance knobs
+
+```bash
+AI_MAX_CONCURRENT=10          # Increase only if your provider rate limits allow it
+CONTENT_FETCH_MIN_CHARS=600   # Fetch full pages only when feed content is shorter
 ```

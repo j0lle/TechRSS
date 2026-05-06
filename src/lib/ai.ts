@@ -64,7 +64,7 @@ function createModel() {
       organization: env('OPENAI_ORG'),
       project: env('OPENAI_PROJECT'),
     });
-    const modelId = env('AI_MODEL') || env('OPENAI_MODEL') || 'gpt-4.1-mini';
+    const modelId = env('AI_MODEL') || env('OPENAI_MODEL') || 'gpt-5.4-mini';
     return {
       model: openai(modelId),
       provider,
@@ -229,52 +229,6 @@ Writing rules:
 # Article to process
 
 ${articleText}`;
-}
-
-export async function summarizeArticle(title: string, content: string): Promise<string | null> {
-  const MAX_CONTENT_CHARS = 15_000;
-  const truncated = content.length > MAX_CONTENT_CHARS
-    ? content.slice(0, MAX_CONTENT_CHARS) + '\n\n[...truncated]'
-    : content;
-  try {
-    const { text } = await generateText({
-      model: aiModel,
-      prompt: `You are a technical writer for experienced software engineers.
-
-Write an English long-form summary that explains the article as a coherent story, not a bullet dump.
-
-# Style
-- Write like a strong engineering blog post, not a formal report.
-- Keep technical precision while staying readable.
-- Preserve key details: metrics, versions, model names, benchmarks, architecture choices.
-- Explain reasoning, trade-offs, and why decisions were made.
-
-# Output format
-## One-sentence takeaway
-One sentence capturing the core point.
-
-## Body
-- 4-8 sections with informative level-3 headings (###).
-- Keep clear narrative flow: problem -> attempt -> findings -> approach -> outcome.
-- Short to medium sentences. Split overly long sentences.
-
-# Constraints
-1. Stay faithful to the source, no invented claims.
-2. Keep terminology accurate.
-3. Write in English.
-
-# Article
-Title: ${title}
-
-${truncated}`,
-      maxOutputTokens: 4096,
-      temperature: 0.3,
-    });
-    return text?.trim() || null;
-  } catch (e) {
-    console.warn(`[ai] summarizeArticle failed "${title}": ${e instanceof Error ? e.message : e}`);
-    return null;
-  }
 }
 
 export async function processArticles(articles: Article[]): Promise<Map<number, ArticleResult>> {

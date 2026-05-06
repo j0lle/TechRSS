@@ -5,7 +5,7 @@ import path from 'node:path';
 import TurndownService from 'turndown';
 import { RSS_FEEDS } from '../src/lib/feeds';
 import { fetchAllFeeds } from '../src/lib/rss';
-import { processArticles, summarizeArticle } from '../src/lib/ai';
+import { processArticles } from '../src/lib/ai';
 import { fetchWithPlaywright, closeBrowser } from './fetch-content';
 import type { Article, ArticleRow } from '../src/lib/types';
 
@@ -15,6 +15,7 @@ const HN_LIST_SIZE = 50;
 const HN_MIN_SCORE = 100;
 const CONTENT_FETCH_TIMEOUT_MS = 10_000;
 const CONTENT_CONCURRENCY = 10;
+const CONTENT_FETCH_MIN_CHARS = parsePositiveInt(process.env.CONTENT_FETCH_MIN_CHARS, 600);
 
 const turndown = new TurndownService({ headingStyle: 'atx', codeBlockStyle: 'fenced' });
 
@@ -37,6 +38,12 @@ interface CandidateArticle {
   hnPoints?: number;
   fallbackSummary: string;
   fallbackKeywords: string[];
+}
+
+function parsePositiveInt(value: string | undefined, fallback: number): number {
+  if (!value) return fallback;
+  const parsed = Number.parseInt(value, 10);
+  return Number.isFinite(parsed) && parsed > 0 ? parsed : fallback;
 }
 
 function getTodayDate(): string {
@@ -163,19 +170,26 @@ async function fetchArticleContent(url: string): Promise<string | null> {
   return fetchWithPlaywright(url);
 }
 
-/** Fetch full content for all articles, replacing content field. Falls back to RSS content. */
-async function fetchAllContent(articles: Article[]): Promise<void> {
-  console.log(`[digest] Fetching full content for ${articles.length} articles...`);
-  for (let i = 0; i < articles.length; i += CONTENT_CONCURRENCY) {
-    const batch = articles.slice(i, i + CONTENT_CONCURRENCY);
+function hasUsableContent(article: Article): boolean {
+  return article.content.trim().length >= CONTENT_FETCH_MIN_CHARS;
+}
+
+/** Fetch full content only when feed content is too short. Falls back to RSS content. */
+async function fetchMissingContent(articles: Article[]): Promise<void> {
+  const needsFetch = articles.filter(article => !hasUsableContent(article));
+  console.log(`[digest] Full content fetch needed for ${needsFetch.length}/${articles.length} articles (min ${CONTENT_FETCH_MIN_CHARS} chars)`);
+  if (needsFetch.length === 0) return;
+
+  for (let i = 0; i < needsFetch.length; i += CONTENT_CONCURRENCY) {
+    const batch = needsFetch.slice(i, i + CONTENT_CONCURRENCY);
     await Promise.all(batch.map(async (article) => {
       const fullContent = await fetchArticleContent(article.link);
       if (fullContent) {
         article.content = fullContent;
       }
     }));
-    const progress = Math.min(i + CONTENT_CONCURRENCY, articles.length);
-    console.log(`[digest] Content fetch: ${progress}/${articles.length}`);
+    const progress = Math.min(i + CONTENT_CONCURRENCY, needsFetch.length);
+    console.log(`[digest] Content fetch: ${progress}/${needsFetch.length}`);
   }
 }
 
@@ -252,8 +266,8 @@ async function main() {
   } else {
     const candidateArticles = candidates.map(c => c.article);
 
-    // Fetch full article content
-    await fetchAllContent(candidateArticles);
+    // Fetch full article content only when RSS/HN metadata is too short.
+    await fetchMissingContent(candidateArticles);
 
     // Step 4: AI process (score + summarize in one call)
     console.log(`[digest] Step 4/4: AI processing ${candidateArticles.length} new articles...`);
@@ -268,22 +282,6 @@ async function main() {
       retryResults.forEach((v, retryIdx) => { results.set(failedIndices[retryIdx], v); });
     }
 
-    // Generate detailed article summaries from fetched article content.
-    const ARTICLE_CONCURRENCY = 5;
-    const articleSummaries = new Map<number, string>();
-    const needArticleSummary = candidateArticles
-      .map((article, index) => ({ article, index }))
-      .filter(({ article }) => article.content && article.content.length >= 200);
-    console.log(`[digest] Generating article summaries for ${needArticleSummary.length} articles...`);
-    for (let i = 0; i < needArticleSummary.length; i += ARTICLE_CONCURRENCY) {
-      const batch = needArticleSummary.slice(i, i + ARTICLE_CONCURRENCY);
-      await Promise.all(batch.map(async ({ article, index }) => {
-        const summary = await summarizeArticle(article.title, article.content);
-        if (summary) articleSummaries.set(index, summary);
-      }));
-      console.log(`[digest] Article summary: ${Math.min(i + ARTICLE_CONCURRENCY, needArticleSummary.length)}/${needArticleSummary.length}`);
-    }
-
     const mappedRows: Array<ArticleRow | null> = candidateArticles.map((article, index) => {
       const candidate = candidates[index];
       const r = results.get(index);
@@ -294,7 +292,7 @@ async function main() {
           title_display: article.title,
           link: article.link,
           pub_date: article.pubDate.toISOString(),
-          summary: articleSummaries.get(index) || candidate.fallbackSummary || '',
+          summary: candidate.fallbackSummary || '',
           source_name: 'Hacker News',
           source_type: 'hn' as const,
           hn_points: candidate.hnPoints,
@@ -310,7 +308,7 @@ async function main() {
         title_display: r.titleDisplay || article.title,
         link: article.link,
         pub_date: article.pubDate.toISOString(),
-        summary: articleSummaries.get(index) || r.summary || candidate.fallbackSummary || '',
+        summary: r.summary || candidate.fallbackSummary || '',
         source_name: candidate.sourceType === 'hn' ? 'Hacker News' : article.sourceName,
         source_type: candidate.sourceType,
         hn_points: candidate.hnPoints,
