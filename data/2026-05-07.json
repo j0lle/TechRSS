@@ -1,9 +1,9 @@
 {
   "date": "2026-05-07",
-  "total_feeds": 92,
-  "success_feeds": 85,
-  "total_articles": 2549,
-  "filtered_articles": 44,
+  "total_feeds": 95,
+  "success_feeds": 89,
+  "total_articles": 3268,
+  "filtered_articles": 35,
   "articles": [
     {
       "title": "SQLAlchemy 2 In Practice - Chapter 7: Asynchronous SQLAlchemy",
@@ -27,6 +27,27 @@
       "rank": 1
     },
     {
+      "title": "Talk Python to Me: #547: Parallel Python at Any Scale with Ray",
+      "title_display": "Ray Powers Python at Scale for AI Workloads",
+      "link": "https://talkpython.fm/episodes/show/547/parallel-python-at-any-scale-with-ray",
+      "pub_date": "2026-05-06T20:40:14.000Z",
+      "summary": "This Talk Python episode is a practical overview of Ray, an open-source Python distributed execution engine used for large-scale AI workloads. The guests, Edward Oakes and Richard Liaw, discuss Ray’s origins at UC Berkeley’s RISE Lab, its early focus on reinforcement learning, and how it later became relevant again for post-training and large model pipelines. The episode covers Ray Data for multimodal pipelines, the Ray dashboard, VS Code remote debugging, and KubRay for running Ray on Kubernetes. It also positions Ray against multiprocessing, asyncio, and Dask, helping Python engineers understand where it fits in the distributed stack. The main value is architectural orientation and ecosystem context rather than new benchmarks or experimental results.",
+      "source_name": "planetpython.org",
+      "source_type": "rss",
+      "score": 13,
+      "depth": 3,
+      "novelty": 3,
+      "breadth": 7,
+      "category": "engineering",
+      "keywords": [
+        "Ray",
+        "distributed computing",
+        "Python",
+        "Kubernetes"
+      ],
+      "rank": 2
+    },
+    {
       "title": "Broadcast Booths Around Baseball Tip Their Caps to John Sterling",
       "title_display": "Baseball Broadcasts Honor John Sterling with Signature Calls",
       "link": "https://www.mlb.com/news/broadcast-booths-around-baseball-mirror-john-sterling-signature-calls",
@@ -45,7 +66,7 @@
         "baseball",
         "tribute"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Triangular analog of the squircle",
@@ -66,7 +87,7 @@
         "geometry",
         "Lebesgue norm"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Claris CEO Ryan McCann on FileMaker in the Age of Agentic Coding",
@@ -87,7 +108,7 @@
         "AI-assisted development",
         "software deployment"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Luca Maestri Runs the Cafeteria",
@@ -108,7 +129,7 @@
         "corporate services",
         "Luca Maestri"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "BYD overtakes Tesla and Kia as the best-selling EV brand in key overseas markets",
@@ -130,7 +151,27 @@
         "market share",
         "overseas sales"
       ],
-      "rank": 6
+      "rank": 7
+    },
+    {
+      "title": "Talk Python Blog: Announcing German Subtitles on Courses",
+      "title_display": "Talk Python Adds German Subtitles to Courses",
+      "link": "https://talkpython.fm/blog/posts/announcing-german-subtitles-on-courses/",
+      "pub_date": "2026-05-06T18:05:47.000Z",
+      "summary": "Talk Python Training has added German transcripts and subtitles to all course videos, enabled through the player’s CC menu with a one-click switch to Deutsch. The site also now lets viewers resize captions for readability. The post says the rollout covers 13,750 transcript files across 280 hours of audio, and that Spanish subtitles are next. This is mainly a product/localization update rather than a technical engineering writeup, but it does show the scale of the transcription and translation effort behind multilingual course support.",
+      "source_name": "planetpython.org",
+      "source_type": "rss",
+      "score": 6,
+      "depth": 2,
+      "novelty": 1,
+      "breadth": 3,
+      "category": "engineering",
+      "keywords": [
+        "subtitles",
+        "localization",
+        "Talk Python"
+      ],
+      "rank": 8
     },
     {
       "title": "From Supabase to Clerk to Better Auth",
@@ -152,7 +193,7 @@
         "vendor risk",
         "Better Auth"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "Higher usage limits for Claude and a compute deal with SpaceX",
@@ -174,7 +215,7 @@
         "SpaceX",
         "API rate limits"
       ],
-      "rank": 8
+      "rank": 10
     },
     {
       "title": "New Logic for Programmers (and the future of this newsletter)",
@@ -195,7 +236,7 @@
         "software engineering",
         "newsletter"
       ],
-      "rank": 9
+      "rank": 11
     },
     {
       "title": "Appearing Productive in the Workplace",
@@ -217,7 +258,7 @@
         "output-competence decoupling",
         "AI overconfidence"
       ],
-      "rank": 10
+      "rank": 12
     },
     {
       "title": "Unified config files",
@@ -238,7 +279,7 @@
         "bashrc",
         "emacs"
       ],
-      "rank": 11
+      "rank": 13
     },
     {
       "title": "Valve releases Steam Controller CAD files under Creative Commons license",
@@ -260,7 +301,7 @@
         "creative commons",
         "modding"
       ],
-      "rank": 12
+      "rank": 14
     },
     {
       "title": "CNN founder Ted Turner, a pioneer of cable TV news, dies at 87",
@@ -279,7 +320,7 @@
         "cable TV news",
         "Desert Storm"
       ],
-      "rank": 13
+      "rank": 15
     },
     {
       "title": "Live blog: Code w/ Claude 2026",
@@ -300,7 +341,7 @@
         "multi-agent orchestration",
         "code automation"
       ],
-      "rank": 14
+      "rank": 16
     },
     {
       "title": "Vibe coding and agentic engineering are getting closer than I'd like",
@@ -322,7 +363,7 @@
         "AI coding tools",
         "software development"
       ],
-      "rank": 15
+      "rank": 17
     },
     {
       "title": "Am I Meant To Be Impressed?",
@@ -343,7 +384,7 @@
         "anthropic",
         "cloud compute"
       ],
-      "rank": 16
+      "rank": 18
     },
     {
       "title": "Vibe coding and agentic engineering are getting closer than I'd like",
@@ -364,7 +405,7 @@
         "AI coding tools",
         "software development"
       ],
-      "rank": 17
+      "rank": 19
     },
     {
       "title": "Why not have changes in API behavior depend on the SDK you link against?",
@@ -385,7 +426,49 @@
         "Windows",
         "CoInitializeSecurity"
       ],
-      "rank": 18
+      "rank": 20
+    },
+    {
+      "title": "Real Python: ChatterBot: Build a Chatbot With Python",
+      "title_display": "Real Python Revives ChatterBot With Ollama Support",
+      "link": "https://realpython.com/build-a-chatbot-python-chatterbot/",
+      "pub_date": "2026-05-06T14:00:00.000Z",
+      "summary": "Real Python’s tutorial shows how to build a simple command-line chatbot with ChatterBot, train it on WhatsApp chat exports, and optionally connect a local LLM through Ollama. The writeup covers basic setup, ListTrainer-based training, SQLite-backed response lookup using Levenshtein distance, and newer 2025-era features such as spaCy-based NLP plus CSV/JSON trainers. It is mainly a hands-on learning guide rather than original research, but it is useful for Python developers who want a lightweight chatbot project and a practical example of mixing classical chatbot logic with a local LLM.",
+      "source_name": "planetpython.org",
+      "source_type": "rss",
+      "score": 10,
+      "depth": 3,
+      "novelty": 3,
+      "breadth": 4,
+      "category": "tools",
+      "keywords": [
+        "ChatterBot",
+        "Ollama",
+        "SQLite",
+        "spaCy"
+      ],
+      "rank": 21
+    },
+    {
+      "title": "Mike Driscoll: Textual – An Intro to DOM Queries (Part II)",
+      "title_display": "Textual DOMQuery Methods for Bulk Widget Updates",
+      "link": "https://blog.pythonlibrary.org/2026/05/06/textual-an-intro-to-dom-queries-part-ii/",
+      "pub_date": "2026-05-06T12:47:50.000Z",
+      "summary": "This is a beginner-friendly Textual tutorial on DOMQuery basics rather than an original engineering writeup. It shows how query() returns a list-like DOMQuery object, then demonstrates first() and last() for selecting boundary widgets, plus filter() and exclude() for narrowing results. The post also lists bulk operations such as add_class(), remove_class(), toggle_class(), focus(), blur(), refresh(), remove(), and set() for applying changes across matched widgets without manual loops. Code examples use simple Button, Label, and Input widgets, but there are no benchmarks, production lessons, or new implementation details. The practical value is helping Python UI developers understand Textual’s query API for cleaner bulk widget manipulation.",
+      "source_name": "planetpython.org",
+      "source_type": "rss",
+      "score": 9,
+      "depth": 3,
+      "novelty": 2,
+      "breadth": 4,
+      "category": "tools",
+      "keywords": [
+        "Textual",
+        "DOMQuery",
+        "Python",
+        "widgets"
+      ],
+      "rank": 22
     },
     {
       "title": "The bottleneck was never the code",
@@ -407,7 +490,7 @@
         "organizational coherence",
         "context management"
       ],
-      "rank": 19
+      "rank": 23
     },
     {
       "title": "Asimov's three laws are merely a suggestion",
@@ -428,7 +511,47 @@
         "jailbreak",
         "safety"
       ],
-      "rank": 20
+      "rank": 24
+    },
+    {
+      "title": "Real Python: Quiz: How to Use OpenCode for AI-Assisted Python Coding",
+      "title_display": "Real Python Quiz on OpenCode for Python Coding",
+      "link": "https://realpython.com/quizzes/opencode-guide/",
+      "pub_date": "2026-05-06T12:00:00.000Z",
+      "summary": "This is a quiz-style Real Python piece about using OpenCode for AI-assisted Python development. It covers installation, connecting to an AI provider, configuring project context with AGENTS.md, switching models mid-session, and using built-in language servers. The article is instructional but lightweight, with no benchmarks, production experience, or deeper technical analysis. It is mainly useful for Python developers who want a quick refresher on OpenCode’s workflow and features.",
+      "source_name": "planetpython.org",
+      "source_type": "rss",
+      "score": 8,
+      "depth": 2,
+      "novelty": 2,
+      "breadth": 4,
+      "category": "tools",
+      "keywords": [
+        "OpenCode",
+        "Python",
+        "AI-assisted coding"
+      ],
+      "rank": 25
+    },
+    {
+      "title": "Real Python: Quiz: Python & APIs: A Winning Combo for Reading Public Data",
+      "title_display": "Real Python Publishes API Quiz for Beginners",
+      "link": "https://realpython.com/quizzes/python-api/",
+      "pub_date": "2026-05-06T12:00:00.000Z",
+      "summary": "Real Python published a 12-question interactive quiz that reviews Python API basics: request/response flow, the requests library, HTTP status codes and headers, authentication, pagination, and rate limits. It is tied to the tutorial “Python & APIs: A Winning Combo for Reading Public Data” and the related course on consuming REST APIs with Python. The content is educational and practical for beginners, but it does not add new technical findings, benchmarks, or implementation insights.",
+      "source_name": "planetpython.org",
+      "source_type": "rss",
+      "score": 5,
+      "depth": 1,
+      "novelty": 1,
+      "breadth": 3,
+      "category": "tools",
+      "keywords": [
+        "Python",
+        "APIs",
+        "requests"
+      ],
+      "rank": 26
     },
     {
       "title": "The mythology of category theory",
@@ -449,7 +572,7 @@
         "mythology",
         "pattern language"
       ],
-      "rank": 21
+      "rank": 27
     },
     {
       "title": "Wolfenstein 3D for Gameboy Color on custom cartridge (2016)",
@@ -471,7 +594,7 @@
         "arm cortex-m0",
         "custom cartridge"
       ],
-      "rank": 22
+      "rank": 28
     },
     {
       "title": "Show HN: Red Squares – GitHub outages as contributions",
@@ -493,7 +616,7 @@
         "visualization",
         "satire"
       ],
-      "rank": 23
+      "rank": 29
     },
     {
       "title": "Adobe’s subscription model",
@@ -514,7 +637,7 @@
         "software-as-a-service",
         "business model"
       ],
-      "rank": 24
+      "rank": 30
     },
     {
       "title": "Pluralistic: In praise of vultures (06 May 2026)",
@@ -535,7 +658,7 @@
         "mass arbitration",
         "consumer rights"
       ],
-      "rank": 25
+      "rank": 31
     },
     {
       "title": "Revisiting the 2015 Open Source Census",
@@ -556,7 +679,7 @@
         "maintainer activity",
         "vulnerabilities"
       ],
-      "rank": 26
+      "rank": 32
     },
     {
       "title": "Batteries Not Included, or Required, for These Smart Home Sensors",
@@ -578,7 +701,7 @@
         "activity recognition",
         "low-power"
       ],
-      "rank": 27
+      "rank": 33
     },
     {
       "title": "Knitting bullshit",
@@ -600,7 +723,7 @@
         "content quality",
         "bullshit"
       ],
-      "rank": 28
+      "rank": 34
     },
     {
       "title": "Reverse-engineering the 1998 Ultima Online demo server",
@@ -622,7 +745,7 @@
         "MMORPG",
         "server emulation"
       ],
-      "rank": 29
+      "rank": 35
     },
     {
       "title": "CARA 2.0 – \"I Built a Better Robot Dog\"",
@@ -644,7 +767,27 @@
         "quasi direct drive actuator",
         "motor rewinding"
       ],
-      "rank": 30
+      "rank": 36
+    },
+    {
+      "title": "Python GUIs: Sorting and Filtering a QTableView with QSortFilterProxyModel — Learn how to add interactive sorting and filtering to your PyQt/PySide table views without touching your underlying data",
+      "title_display": "Sorting and Filtering QTableView with QSortFilterProxyModel",
+      "link": "https://www.pythonguis.com/faq/add-some-explanation-on-sorting-a-qtableview/",
+      "pub_date": "2026-05-06T06:00:00.000Z",
+      "summary": "This tutorial shows how to add interactive sorting and filtering to a PyQt6/QTableView by inserting QSortFilterProxyModel between the source model and the view. It explains enabling header-click sorting with setSortingEnabled(True), simple text filtering with setFilterKeyColumn() and setFilterFixedString(), and how to search across all columns by setting the key column to -1. The article also covers an important Qt model/view pitfall: proxy indexes are not source indexes, so mapToSource() is required when acting on clicked rows or modifying underlying data. Beyond the basics, it demonstrates safe model update patterns using layoutAboutToBeChanged/layoutChanged, dataChanged, and beginInsertRows/endInsertRows, then shows how to customize sorting with lessThan() and filtering with filterAcceptsRow(). Practical, but largely a standard Qt patterns walkthrough rather than original experimentation.",
+      "source_name": "planetpython.org",
+      "source_type": "rss",
+      "score": 12,
+      "depth": 4,
+      "novelty": 3,
+      "breadth": 5,
+      "category": "tools",
+      "keywords": [
+        "PyQt6",
+        "QSortFilterProxyModel",
+        "QTableView"
+      ],
+      "rank": 37
     },
     {
       "title": "YouTube, your RSS feeds are broken",
@@ -666,7 +809,7 @@
         "feed readers",
         "content delivery"
       ],
-      "rank": 31
+      "rank": 38
     },
     {
       "title": "Industry-Leading 245TB Micron 6600 Ion Data Center SSD Now Shipping",
@@ -688,7 +831,7 @@
         "storage density",
         "energy efficiency"
       ],
-      "rank": 32
+      "rank": 39
     },
     {
       "title": "Ombudsman column: The Pentagon is trying to silence me",
@@ -710,7 +853,7 @@
         "stars and stripes",
         "censorship"
       ],
-      "rank": 33
+      "rank": 40
     },
     {
       "title": "Agents can now create Cloudflare accounts, buy domains, and deploy",
@@ -732,7 +875,7 @@
         "agents",
         "automation"
       ],
-      "rank": 34
+      "rank": 41
     },
     {
       "title": "Splitting up my .emacs, or \"use-package doesn't solve all problems\"",
@@ -752,7 +895,7 @@
         "configuration",
         "use-package"
       ],
-      "rank": 35
+      "rank": 42
     },
     {
       "title": "StarFighter 16-Inch",
@@ -774,7 +917,7 @@
         "hardware design",
         "privacy features"
       ],
-      "rank": 36
+      "rank": 43
     },
     {
       "title": "Telus Uses AI to Alter Call-Agent Accents",
@@ -796,7 +939,7 @@
         "speech-synthesis",
         "tomato-ai"
       ],
-      "rank": 37
+      "rank": 44
     },
     {
       "title": "Apple Cuts More Mac Studio and Mac Mini RAM Options as Memory Shortage Worsens",
@@ -817,7 +960,28 @@
         "Mac mini",
         "RAM shortage"
       ],
-      "rank": 38
+      "rank": 45
+    },
+    {
+      "title": "Django Weblog: Announcing the Google Summer of Code 2026 contributors for Django",
+      "title_display": "Django Announces 2026 Google Summer of Code Contributors",
+      "link": "https://www.djangoproject.com/weblog/2026/may/05/gsoc-2026-django-contributors/",
+      "pub_date": "2026-05-06T00:34:44.000Z",
+      "summary": "",
+      "source_name": "planetpython.org",
+      "source_type": "rss",
+      "score": 10,
+      "depth": 2,
+      "novelty": 2,
+      "breadth": 6,
+      "category": "engineering",
+      "keywords": [
+        "Django",
+        "Google Summer of Code",
+        "ORM",
+        "Playwright"
+      ],
+      "rank": 46
     },
     {
       "title": "Apple Settles Class Action Lawsuit Over AI Features That Were Advertised but Didn’t Ship for $250 Million",
@@ -838,7 +1002,7 @@
         "lawsuit",
         "settlement"
       ],
-      "rank": 39
+      "rank": 47
     },
     {
       "title": "Emotional regulation is a dying art.",
@@ -859,7 +1023,7 @@
         "technology",
         "psychology"
       ],
-      "rank": 40
+      "rank": 48
     },
     {
       "title": "Weekly Update 502",
@@ -880,7 +1044,7 @@
         "data breach",
         "vishing"
       ],
-      "rank": 41
+      "rank": 49
     },
     {
       "title": "Open weights are quietly closing up - and that's a problem",
@@ -901,7 +1065,7 @@
         "model licensing",
         "market competition"
       ],
-      "rank": 42
+      "rank": 50
     },
     {
       "title": "datasette-referrer-policy 0.1",
@@ -922,7 +1086,7 @@
         "openstreetmap",
         "http headers"
       ],
-      "rank": 43
+      "rank": 51
     },
     {
       "title": "NPR finds \"no sign\" of Polymarket at its Panama HQ address",
@@ -944,7 +1108,7 @@
         "prediction markets",
         "regulation"
       ],
-      "rank": 44
+      "rank": 52
     }
   ]
 }
