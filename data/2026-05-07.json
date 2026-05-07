@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3268,
-  "filtered_articles": 34,
+  "filtered_articles": 35,
   "articles": [
     {
       "title": "Programming Still Sucks",
@@ -27,6 +27,27 @@
       "rank": 1
     },
     {
+      "title": "SQLite Is a Library of Congress Recommended Storage Format",
+      "title_display": "SQLite Named a Library of Congress Storage Format",
+      "link": "https://sqlite.org/locrsf.html",
+      "pub_date": "2026-05-07T03:10:42.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 151,
+      "score": 11,
+      "depth": 2,
+      "novelty": 2,
+      "breadth": 7,
+      "category": "engineering",
+      "keywords": [
+        "SQLite",
+        "digital preservation",
+        "Library of Congress"
+      ],
+      "rank": 2
+    },
+    {
       "title": "Your Linux distribution may no longer auto-generate new SSH host keys",
       "title_display": "Linux Distros Differ on SSH Host Key Regeneration",
       "link": "https://utcc.utoronto.ca/~cks/space/blog/linux/SSHHostKeysAndAutogeneration",
@@ -45,7 +66,7 @@
         "Fedora",
         "systemd"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "SQLAlchemy 2 In Practice - Chapter 7: Asynchronous SQLAlchemy",
@@ -66,7 +87,7 @@
         "database drivers",
         "asynchronous programming"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Talk Python to Me: #547: Parallel Python at Any Scale with Ray",
@@ -87,7 +108,7 @@
         "Python",
         "Kubernetes"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Talk Python to Me: #547: Parallel Python at Anyscale with Ray",
@@ -108,7 +129,7 @@
         "Python",
         "Kubernetes"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Broadcast Booths Around Baseball Tip Their Caps to John Sterling",
@@ -129,7 +150,7 @@
         "baseball",
         "tribute"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Google Cloud fraud defense, the next evolution of reCAPTCHA",
@@ -150,7 +171,7 @@
         "fraud defense",
         "agentic web"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Life During Class Wartime",
@@ -171,7 +192,7 @@
         "tax policy",
         "dynasty trusts"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Triangular analog of the squircle",
@@ -192,7 +213,7 @@
         "geometry",
         "Lebesgue norm"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Claris CEO Ryan McCann on FileMaker in the Age of Agentic Coding",
@@ -213,7 +234,7 @@
         "AI-assisted development",
         "software deployment"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "Luca Maestri Runs the Cafeteria",
@@ -234,7 +255,7 @@
         "corporate services",
         "Luca Maestri"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "BYD overtakes Tesla and Kia as the best-selling EV brand in key overseas markets",
@@ -256,7 +277,7 @@
         "market share",
         "overseas sales"
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "title": "Talk Python Blog: Announcing German Subtitles on Courses",
@@ -276,7 +297,7 @@
         "localization",
         "Talk Python"
       ],
-      "rank": 13
+      "rank": 14
     },
     {
       "title": "From Supabase to Clerk to Better Auth",
@@ -298,11 +319,11 @@
         "vendor risk",
         "Better Auth"
       ],
-      "rank": 14
+      "rank": 15
     },
     {
       "title": "Show HN: Hallucinopedia",
-      "title_display": "Hallucinopedia: an AI encyclopedia parody",
+      "title_display": "Hallucinopedia: Satirical Encyclopedia of Hallucinations",
       "link": "http://halupedia.com/",
       "pub_date": "2026-05-06T17:30:32.000Z",
       "summary": "",
@@ -316,10 +337,10 @@
       "category": "other",
       "keywords": [
         "Hacker News",
-        "Hallucinopedia",
-        "LLM satire"
+        "LLM",
+        "satire"
       ],
-      "rank": 15
+      "rank": 16
     },
     {
       "title": "Higher usage limits for Claude and a compute deal with SpaceX",
@@ -341,7 +362,7 @@
         "SpaceX",
         "API rate limits"
       ],
-      "rank": 16
+      "rank": 17
     },
     {
       "title": "New Logic for Programmers (and the future of this newsletter)",
@@ -362,7 +383,7 @@
         "software engineering",
         "newsletter"
       ],
-      "rank": 17
+      "rank": 18
     },
     {
       "title": "Appearing Productive in the Workplace",
@@ -384,7 +405,7 @@
         "output-competence decoupling",
         "AI overconfidence"
       ],
-      "rank": 18
+      "rank": 19
     },
     {
       "title": "Unified config files",
@@ -405,7 +426,7 @@
         "bashrc",
         "emacs"
       ],
-      "rank": 19
+      "rank": 20
     },
     {
       "title": "Show HN: Tilde.run – Agent Sandbox with a Transactional, Versioned Filesystem",
@@ -426,7 +447,7 @@
         "transactional filesystem",
         "audit logging"
       ],
-      "rank": 20
+      "rank": 21
     },
     {
       "title": "Valve releases Steam Controller CAD files under Creative Commons license",
@@ -448,7 +469,7 @@
         "creative commons",
         "modding"
       ],
-      "rank": 21
+      "rank": 22
     },
     {
       "title": "CNN founder Ted Turner, a pioneer of cable TV news, dies at 87",
@@ -467,7 +488,7 @@
         "cable TV news",
         "Desert Storm"
       ],
-      "rank": 22
+      "rank": 23
     },
     {
       "title": "Live blog: Code w/ Claude 2026",
@@ -488,7 +509,7 @@
         "multi-agent orchestration",
         "code automation"
       ],
-      "rank": 23
+      "rank": 24
     },
     {
       "title": "Vibe coding and agentic engineering are getting closer than I'd like",
@@ -510,7 +531,7 @@
         "AI coding tools",
         "software development"
       ],
-      "rank": 24
+      "rank": 25
     },
     {
       "title": "Am I Meant To Be Impressed?",
@@ -531,7 +552,7 @@
         "anthropic",
         "cloud compute"
       ],
-      "rank": 25
+      "rank": 26
     },
     {
       "title": "Vibe coding and agentic engineering are getting closer than I'd like",
@@ -552,7 +573,7 @@
         "AI coding tools",
         "software development"
       ],
-      "rank": 26
+      "rank": 27
     },
     {
       "title": "Why not have changes in API behavior depend on the SDK you link against?",
@@ -573,7 +594,7 @@
         "Windows",
         "CoInitializeSecurity"
       ],
-      "rank": 27
+      "rank": 28
     },
     {
       "title": "Real Python: ChatterBot: Build a Chatbot With Python",
@@ -594,7 +615,7 @@
         "SQLite",
         "spaCy"
       ],
-      "rank": 28
+      "rank": 29
     },
     {
       "title": "Mike Driscoll: Textual – An Intro to DOM Queries (Part II)",
@@ -615,7 +636,7 @@
         "Python",
         "widgets"
       ],
-      "rank": 29
+      "rank": 30
     },
     {
       "title": "Setting up a Sun Ray server on OpenIndiana Hipster 2025.10",
@@ -637,7 +658,7 @@
         "Proxmox",
         "SRSS"
       ],
-      "rank": 30
+      "rank": 31
     },
     {
       "title": "The bottleneck was never the code",
@@ -659,7 +680,7 @@
         "organizational coherence",
         "context management"
       ],
-      "rank": 31
+      "rank": 32
     },
     {
       "title": "Asimov's three laws are merely a suggestion",
@@ -680,7 +701,7 @@
         "jailbreak",
         "safety"
       ],
-      "rank": 32
+      "rank": 33
     },
     {
       "title": "Real Python: Quiz: How to Use OpenCode for AI-Assisted Python Coding",
@@ -700,7 +721,7 @@
         "Python",
         "AI-assisted coding"
       ],
-      "rank": 33
+      "rank": 34
     },
     {
       "title": "Real Python: Quiz: Python & APIs: A Winning Combo for Reading Public Data",
@@ -720,7 +741,7 @@
         "APIs",
         "requests"
       ],
-      "rank": 34
+      "rank": 35
     },
     {
       "title": "The mythology of category theory",
@@ -741,7 +762,7 @@
         "mythology",
         "pattern language"
       ],
-      "rank": 35
+      "rank": 36
     },
     {
       "title": "Wolfenstein 3D for Gameboy Color on custom cartridge (2016)",
@@ -763,7 +784,7 @@
         "arm cortex-m0",
         "custom cartridge"
       ],
-      "rank": 36
+      "rank": 37
     },
     {
       "title": "Show HN: Red Squares – GitHub outages as contributions",
@@ -785,7 +806,7 @@
         "visualization",
         "satire"
       ],
-      "rank": 37
+      "rank": 38
     },
     {
       "title": "Adobe’s subscription model",
@@ -806,7 +827,7 @@
         "software-as-a-service",
         "business model"
       ],
-      "rank": 38
+      "rank": 39
     },
     {
       "title": "Pluralistic: In praise of vultures (06 May 2026)",
@@ -827,7 +848,7 @@
         "mass arbitration",
         "consumer rights"
       ],
-      "rank": 39
+      "rank": 40
     },
     {
       "title": "Revisiting the 2015 Open Source Census",
@@ -848,7 +869,7 @@
         "maintainer activity",
         "vulnerabilities"
       ],
-      "rank": 40
+      "rank": 41
     },
     {
       "title": "Batteries Not Included, or Required, for These Smart Home Sensors",
@@ -870,7 +891,7 @@
         "activity recognition",
         "low-power"
       ],
-      "rank": 41
+      "rank": 42
     },
     {
       "title": "Knitting bullshit",
@@ -892,7 +913,7 @@
         "content quality",
         "bullshit"
       ],
-      "rank": 42
+      "rank": 43
     },
     {
       "title": "Reverse-engineering the 1998 Ultima Online demo server",
@@ -914,7 +935,7 @@
         "MMORPG",
         "server emulation"
       ],
-      "rank": 43
+      "rank": 44
     },
     {
       "title": "CARA 2.0 – \"I Built a Better Robot Dog\"",
@@ -936,7 +957,7 @@
         "quasi direct drive actuator",
         "motor rewinding"
       ],
-      "rank": 44
+      "rank": 45
     },
     {
       "title": "Python GUIs: Sorting and Filtering a QTableView with QSortFilterProxyModel — Learn how to add interactive sorting and filtering to your PyQt/PySide table views without touching your underlying data",
@@ -956,7 +977,7 @@
         "QSortFilterProxyModel",
         "QTableView"
       ],
-      "rank": 45
+      "rank": 46
     },
     {
       "title": "YouTube, your RSS feeds are broken",
@@ -978,7 +999,7 @@
         "feed readers",
         "content delivery"
       ],
-      "rank": 46
+      "rank": 47
     },
     {
       "title": "Industry-Leading 245TB Micron 6600 Ion Data Center SSD Now Shipping",
@@ -1000,7 +1021,7 @@
         "storage density",
         "energy efficiency"
       ],
-      "rank": 47
+      "rank": 48
     },
     {
       "title": "Ombudsman column: The Pentagon is trying to silence me",
@@ -1022,7 +1043,7 @@
         "stars and stripes",
         "censorship"
       ],
-      "rank": 48
+      "rank": 49
     },
     {
       "title": "Agents can now create Cloudflare accounts, buy domains, and deploy",
@@ -1044,7 +1065,7 @@
         "agents",
         "automation"
       ],
-      "rank": 49
+      "rank": 50
     },
     {
       "title": "Splitting up my .emacs, or \"use-package doesn't solve all problems\"",
@@ -1064,7 +1085,7 @@
         "configuration",
         "use-package"
       ],
-      "rank": 50
+      "rank": 51
     },
     {
       "title": "StarFighter 16-Inch",
@@ -1086,7 +1107,7 @@
         "hardware design",
         "privacy features"
       ],
-      "rank": 51
+      "rank": 52
     },
     {
       "title": "Telus Uses AI to Alter Call-Agent Accents",
@@ -1108,7 +1129,7 @@
         "speech-synthesis",
         "tomato-ai"
       ],
-      "rank": 52
+      "rank": 53
     },
     {
       "title": "Apple Cuts More Mac Studio and Mac Mini RAM Options as Memory Shortage Worsens",
@@ -1129,7 +1150,7 @@
         "Mac mini",
         "RAM shortage"
       ],
-      "rank": 53
+      "rank": 54
     },
     {
       "title": "Django Weblog: Announcing the Google Summer of Code 2026 contributors for Django",
@@ -1150,7 +1171,7 @@
         "ORM",
         "Playwright"
       ],
-      "rank": 54
+      "rank": 55
     },
     {
       "title": "Apple Settles Class Action Lawsuit Over AI Features That Were Advertised but Didn’t Ship for $250 Million",
@@ -1171,7 +1192,7 @@
         "lawsuit",
         "settlement"
       ],
-      "rank": 55
+      "rank": 56
     },
     {
       "title": "Emotional regulation is a dying art.",
@@ -1192,7 +1213,7 @@
         "technology",
         "psychology"
       ],
-      "rank": 56
+      "rank": 57
     },
     {
       "title": "Weekly Update 502",
@@ -1213,7 +1234,7 @@
         "data breach",
         "vishing"
       ],
-      "rank": 57
+      "rank": 58
     },
     {
       "title": "Open weights are quietly closing up - and that's a problem",
@@ -1234,7 +1255,7 @@
         "model licensing",
         "market competition"
       ],
-      "rank": 58
+      "rank": 59
     },
     {
       "title": "datasette-referrer-policy 0.1",
@@ -1255,7 +1276,7 @@
         "openstreetmap",
         "http headers"
       ],
-      "rank": 59
+      "rank": 60
     },
     {
       "title": "NPR finds \"no sign\" of Polymarket at its Panama HQ address",
@@ -1277,7 +1298,7 @@
         "prediction markets",
         "regulation"
       ],
-      "rank": 60
+      "rank": 61
     }
   ]
 }
