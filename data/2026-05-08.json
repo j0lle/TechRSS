@@ -1,10 +1,30 @@
 {
   "date": "2026-05-08",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3274,
-  "filtered_articles": 30,
+  "success_feeds": 88,
+  "total_articles": 3246,
+  "filtered_articles": 34,
   "articles": [
+    {
+      "title": "Smoothed polygons",
+      "title_display": "Smoothed Polygons via Level-Set Products",
+      "link": "https://www.johndcook.com/blog/2026/05/07/smoothed-polygons/",
+      "pub_date": "2026-05-07T18:19:24.000Z",
+      "summary": "This post shows a simple geometric trick for making smooth approximations of polygons: multiply the linear functions that define each side, then use the level sets of the product. For triangles, the product is zero exactly on the three boundary lines, and small positive values produce rounded, nearly triangular curves. The author notes the method generalizes to any polygon and can also be adapted to curved boundaries. It is a concise mathematical construction, but it is mostly an illustrative note rather than a deep technical derivation or empirical result.",
+      "source_name": "johndcook.com",
+      "source_type": "rss",
+      "score": 9,
+      "depth": 3,
+      "novelty": 3,
+      "breadth": 3,
+      "category": "engineering",
+      "keywords": [
+        "geometry",
+        "level sets",
+        "polygons"
+      ],
+      "rank": 1
+    },
     {
       "title": "Behind the Scenes Hardening Firefox with Claude Mythos Preview",
       "title_display": "Mozilla Used Claude to Harden Firefox Security",
@@ -24,7 +44,7 @@
         "vulnerability hunting",
         "Mozilla"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Notes on the xAI/Anthropic data center deal",
@@ -45,7 +65,7 @@
         "data centers",
         "compute"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Introducing Postgres Query Insights in ClickHouse Cloud",
@@ -66,7 +86,28 @@
         "query insights",
         "pg_stat_ch"
       ],
-      "rank": 3
+      "rank": 4
+    },
+    {
+      "title": "AlphaEvolve: Gemini-powered coding agent scaling impact across fields",
+      "title_display": "AlphaEvolve Shows Broad Gains in Science and Infrastructure",
+      "link": "https://deepmind.google/blog/alphaevolve-impact/",
+      "pub_date": "2026-05-07T15:10:30.000Z",
+      "summary": "Google DeepMind says AlphaEvolve, its Gemini-powered coding agent, is now producing measurable gains across science, infrastructure, and commercial workloads. Reported results include a 30% reduction in variant detection errors for DeepConsensus in genomics, AC optimal power flow feasibility rising from 14% to over 88% for a trained GNN, a 5% improvement in aggregate natural-disaster prediction accuracy across 20 categories, and 10x lower-error quantum circuits for Willow experiments. It also improved Google Spanner LSM-tree compaction heuristics, reducing write amplification by 20%, and cut software storage footprint by nearly 9% via compiler optimizations. Outside Google, the post cites Klarna doubling training speed on a large transformer, FM Logistic improving routing efficiency by 10.4%, and Schrödinger reporting roughly 4x MLFF speedups. The article is broad and metrics-rich, but it is still a vendor roundup with limited methodological detail, so it reads more as impact reporting than a deep technical disclosure. For engineers, the practical signal is that algorithm-discovery agents are moving beyond demos into repeatable optimization work across ML systems, databases, hardware, and operations.",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 163,
+      "score": 19,
+      "depth": 6,
+      "novelty": 5,
+      "breadth": 8,
+      "category": "ai-ml",
+      "keywords": [
+        "AlphaEvolve",
+        "Gemini",
+        "optimization"
+      ],
+      "rank": 5
     },
     {
       "title": "When you upgrade your resource strings to Unicode, don’t forget to specify the L prefix",
@@ -87,7 +128,7 @@
         "L prefix",
         "Visual Studio"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "Boris Cherny: TI-83 Plus Basic Programming Tutorial (2004)",
@@ -109,7 +150,27 @@
         "BASIC",
         "tutorial"
       ],
-      "rank": 5
+      "rank": 7
+    },
+    {
+      "title": "GitHub Repo Stats",
+      "title_display": "GitHub Repo Stats Browser Tool",
+      "link": "https://simonwillison.net/2026/May/7/github-repo-stats/#atom-everything",
+      "pub_date": "2026-05-07T07:25:14.000Z",
+      "summary": "Simon Willison published GitHub Repo Stats, a browser-based tool that takes a GitHub repo URL or owner/repo identifier and shows repository metadata fetched directly from the GitHub REST API. It reports commits, contributors, branches, tags, releases, open pull requests, language breakdown, top contributors, latest release, license, and key dates. The key implementation detail is using the `Link` header on `?per_page=1` requests to derive total counts without paging through every item. The practical value is a fast way to inspect repository activity and maturity, especially when GitHub’s mobile layout hides the commit count.",
+      "source_name": "simonwillison.net",
+      "source_type": "rss",
+      "score": 7,
+      "depth": 2,
+      "novelty": 2,
+      "breadth": 3,
+      "category": "tools",
+      "keywords": [
+        "GitHub",
+        "REST API",
+        "browser tool"
+      ],
+      "rank": 8
     },
     {
       "title": "Chevrolet Performance eCrate package (400v/200hp)",
@@ -131,7 +192,28 @@
         "battery pack",
         "crate engine"
       ],
-      "rank": 6
+      "rank": 9
+    },
+    {
+      "title": "Community firmware for the Xteink X4 e-paper reader",
+      "title_display": "Open-Source Firmware for the Xteink X4 Reader",
+      "link": "https://github.com/crosspoint-reader/crosspoint-reader",
+      "pub_date": "2026-05-07T00:20:41.000Z",
+      "summary": "CrossPoint Reader is a community firmware replacement for the Xteink X4 e-paper reader, built with PlatformIO for the ESP32-C3. The repository describes a practical, drop-in alternative to the official closed firmware and includes EPUB 2/3 parsing and rendering, image support, saved reading position, Wi‑Fi book upload, Wi‑Fi OTA updates, KOReader Sync integration, screen rotation, and configurable fonts/layout/display options. The project also documents multilingual EPUB support and provides install paths via a web flasher, release binaries, or `esptool.py` on the command line.\n\nThe most technically interesting part is the internals section: the firmware is aggressively cache-based to fit within the ESP32-C3’s roughly 380 KB of usable RAM, storing parsed book metadata, progress, cover art, and chapter layout data under a `.crosspoint` directory on the SD card. That design keeps the reader usable on constrained hardware, but it also introduces some caveats, such as cache entries not being automatically cleared when a book is deleted and progress resetting when a file is moved.\n\nThis is useful for embedded and firmware engineers who care about open hardware enablement, memory-constrained document rendering, and practical OTA/flash workflows, but it is still primarily a project README rather than a benchmarked technical report.",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 138,
+      "score": 16,
+      "depth": 6,
+      "novelty": 5,
+      "breadth": 5,
+      "category": "engineering",
+      "keywords": [
+        "e-paper",
+        "firmware",
+        "ESP32-C3"
+      ],
+      "rank": 10
     },
     {
       "title": "Python 3.15.0 beta 1 is here!",
@@ -152,7 +234,7 @@
         "JIT",
         "CPython"
       ],
-      "rank": 7
+      "rank": 11
     }
   ]
 }
