@@ -3,8 +3,50 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3274,
-  "filtered_articles": 28,
+  "filtered_articles": 30,
   "articles": [
+    {
+      "title": "Behind the Scenes Hardening Firefox with Claude Mythos Preview",
+      "title_display": "Mozilla Used Claude to Harden Firefox Security",
+      "link": "https://simonwillison.net/2026/May/7/firefox-claude-mythos/#atom-everything",
+      "pub_date": "2026-05-07T17:56:25.000Z",
+      "summary": "Mozilla reports that access to Claude Mythos Preview helped it find and fix hundreds of Firefox vulnerabilities by dramatically improving AI-assisted bug reporting. The team says the shift came from both stronger models and better harnessing techniques: steering, scaling, and stacking models to raise signal and filter out noise. Many candidate issues were rejected by Firefox’s existing defense-in-depth protections, which Mozilla cites as a reassuring sign. The post highlights concrete bug examples, including a 20-year-old XSLT issue and a 15-year-old bug in the <legend> element. Mozilla was fixing about 20–30 security bugs per month through 2025, then reached 423 fixes in April. This is a strong signal that modern LLMs can materially accelerate real-world security auditing when paired with careful workflows.",
+      "source_name": "simonwillison.net",
+      "source_type": "rss",
+      "score": 24,
+      "depth": 8,
+      "novelty": 8,
+      "breadth": 8,
+      "category": "security",
+      "keywords": [
+        "Firefox",
+        "Claude Mythos Preview",
+        "vulnerability hunting",
+        "Mozilla"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Notes on the xAI/Anthropic data center deal",
+      "title_display": "Anthropic Leases xAI’s Colossus 1 Compute",
+      "link": "https://simonwillison.net/2026/May/7/xai-anthropic/#atom-everything",
+      "pub_date": "2026-05-07T17:09:28.000Z",
+      "summary": "Anthropic is reportedly leasing all available capacity of xAI’s Colossus 1 data center, a facility previously criticized for operating gas turbines without proper permits or pollution controls. The note highlights two practical concerns: the reputational risk of relying on a highly controversial data center, and the operational risk that xAI could reclaim compute under vague “harm humanity” conditions. It also mentions xAI’s separate deprecation notice for Grok 4.1 Fast and related models with only two weeks’ notice, underscoring the fragility of vendor dependencies. The main takeaway for engineers is that compute availability, contract terms, and infrastructure risk are becoming as important as model quality when choosing AI providers.",
+      "source_name": "simonwillison.net",
+      "source_type": "rss",
+      "score": 13,
+      "depth": 3,
+      "novelty": 4,
+      "breadth": 6,
+      "category": "opinion",
+      "keywords": [
+        "Anthropic",
+        "xAI",
+        "data centers",
+        "compute"
+      ],
+      "rank": 2
+    },
     {
       "title": "Introducing Postgres Query Insights in ClickHouse Cloud",
       "title_display": "ClickHouse Adds PostgreSQL Query Insights",
@@ -24,7 +66,7 @@
         "query insights",
         "pg_stat_ch"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "When you upgrade your resource strings to Unicode, don’t forget to specify the L prefix",
@@ -45,7 +87,51 @@
         "L prefix",
         "Visual Studio"
       ],
-      "rank": 2
+      "rank": 4
+    },
+    {
+      "title": "Boris Cherny: TI-83 Plus Basic Programming Tutorial (2004)",
+      "title_display": "TI-83 Plus BASIC Tutorial for Beginners",
+      "link": "https://www.ticalc.org/programming/columns/83plus-bas/cherny/",
+      "pub_date": "2026-05-07T10:00:50.000Z",
+      "summary": "This is a 2004 beginner tutorial for TI-83 Plus BASIC, covering core calculator-programming primitives such as Disp, Output, ClrHome, Lbl/Goto, Pause, Menu, Input, Prompt, Stop, variables, loops, strings, GETKEY, random functions, lists, matrices, and drawing commands. It includes step-by-step examples, small review exercises, and challenge prompts for making simple games and utilities on the calculator. The piece is practical as an introductory reference, but it is mainly a teaching walkthrough rather than an original technical investigation, benchmark, or production writeup. For engineers, its value is mostly historical and educational for understanding constrained-device programming patterns.",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 136,
+      "score": 8,
+      "depth": 3,
+      "novelty": 1,
+      "breadth": 4,
+      "category": "tools",
+      "keywords": [
+        "TI-83 Plus",
+        "calculator programming",
+        "BASIC",
+        "tutorial"
+      ],
+      "rank": 5
+    },
+    {
+      "title": "Chevrolet Performance eCrate package (400v/200hp)",
+      "title_display": "Chevrolet Launches First eCrate EV Conversion Package",
+      "link": "https://www.chevrolet.com/performance-parts/crate-engines/ecrate",
+      "pub_date": "2026-05-07T07:00:46.000Z",
+      "summary": "Chevrolet Performance is publishing the first eCrate package for classic-car EV conversions: a 400V system built around a 66 kWh NMC lithium-ion battery pack and a 200 hp motor producing 266 lb-ft of torque. The kit is CARB EO B-88 and claimed 50-state street legal when installed per the executive order. Chevrolet says the current package is designed to work with GM 4-speed automatic transmissions such as the 4L60/4L65/4L70/4L75, requires an approved installer, and ships to that installer rather than directly to consumers. Charging options listed are 120V Level 1, 240V Level 2, and 480V DC fast charging, with Chevrolet providing a bundled Level 1 charger and optional Level 2 charger. The battery is specified at 947 lb and roughly 50.2 x 71.1 inches, which matters for packaging and vehicle fitment. This is mostly a product announcement, but the concrete specs make it relevant to shops and builders evaluating off-the-shelf EV conversion hardware.",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 126,
+      "score": 14,
+      "depth": 4,
+      "novelty": 3,
+      "breadth": 7,
+      "category": "engineering",
+      "keywords": [
+        "electric vehicle conversion",
+        "Chevrolet Performance",
+        "battery pack",
+        "crate engine"
+      ],
+      "rank": 6
     },
     {
       "title": "Python 3.15.0 beta 1 is here!",
@@ -66,7 +152,7 @@
         "JIT",
         "CPython"
       ],
-      "rank": 3
+      "rank": 7
     }
   ]
 }
