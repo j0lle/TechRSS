@@ -1,0 +1,30 @@
+{
+  "date": "2026-05-08",
+  "total_feeds": 95,
+  "success_feeds": 89,
+  "total_articles": 3268,
+  "filtered_articles": 29,
+  "articles": [
+    {
+      "title": "Python 3.15.0 beta 1 is here!",
+      "title_display": "Python 3.15 Beta 1 Opens Feature Freeze",
+      "link": "https://blog.python.org/2026/05/python-3150-beta-1/",
+      "pub_date": "2026-05-07T00:00:00.000Z",
+      "summary": "Python 3.15.0b1 is the first beta of the 3.15 series and marks feature freeze. The release is aimed at broad community testing before final stabilization, with maintainers strongly encouraged to validate third-party packages now, report issues to the CPython tracker, and publish pre-release wheels. Python’s release team says the goal is to avoid ABI changes after beta 4 and keep code churn minimal after rc1, while recommending that production users wait until 3.15.0rc1.\n\nThe post highlights several user-visible changes: explicit lazy imports for faster startup, new built-in types such as `frozendict` and `sentinel`, a dedicated profiling package, a new sampling profiler named Tachyon, frame pointers enabled by default for better observability, UTF-8 as the default encoding, unpacking in comprehensions, package startup configuration files, typed extra items for `TypedDict`, a `TypeForm` annotation, and a new `PyBytesWriter` C API. It also calls out stable ABI work for free-threaded builds, improved error messages, and more color in the runtime. The most concrete performance note is an upgraded JIT compiler, reported to deliver an 8–9% geometric mean speedup on x86-64 Linux over the standard interpreter and 12–13% on AArch64 macOS over the tail-calling interpreter. For engineers, this is mainly a signal to start compatibility and performance testing now.",
+      "source_name": "blog.python.org",
+      "source_type": "rss",
+      "score": 15,
+      "depth": 4,
+      "novelty": 2,
+      "breadth": 9,
+      "category": "engineering",
+      "keywords": [
+        "Python",
+        "release",
+        "JIT",
+        "CPython"
+      ],
+      "rank": 1
+    }
+  ]
+}
