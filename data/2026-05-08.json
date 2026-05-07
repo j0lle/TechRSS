@@ -1,10 +1,30 @@
 {
   "date": "2026-05-08",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3246,
-  "filtered_articles": 38,
+  "success_feeds": 89,
+  "total_articles": 3274,
+  "filtered_articles": 36,
   "articles": [
+    {
+      "title": "llm-gemini 0.31",
+      "title_display": "llm-gemini 0.31 Adds Gemini 3.1 Flash-Lite GA",
+      "link": "https://simonwillison.net/2026/May/7/llm-gemini/#atom-everything",
+      "pub_date": "2026-05-07T19:57:06.000Z",
+      "summary": "",
+      "source_name": "simonwillison.net",
+      "source_type": "rss",
+      "score": 5,
+      "depth": 1,
+      "novelty": 1,
+      "breadth": 3,
+      "category": "tools",
+      "keywords": [
+        "Gemini",
+        "llm-gemini",
+        "release"
+      ],
+      "rank": 1
+    },
     {
       "title": "Big Words",
       "title_display": "Simon Willison Adds a URL-Driven Slide Tool",
@@ -23,7 +43,7 @@
         "presentation",
         "query parameters"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Smoothed polygons",
@@ -43,7 +63,7 @@
         "level sets",
         "polygons"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Behind the Scenes Hardening Firefox with Claude Mythos Preview",
@@ -64,28 +84,29 @@
         "vulnerability hunting",
         "Mozilla"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Chrome removes claim of On-device Al not sending data to Google Servers",
-      "title_display": "Chrome Drops On-Device AI Data-Claim Language",
+      "title_display": "Chrome Removes On-Device AI Privacy Claim",
       "link": "https://old.reddit.com/r/chrome/comments/1t5qayz/chrome_removes_claim_of_ondevice_al_not_sending/",
       "pub_date": "2026-05-07T17:10:30.000Z",
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
       "hn_points": 230,
-      "score": 6,
+      "score": 9,
       "depth": 1,
       "novelty": 2,
-      "breadth": 3,
+      "breadth": 6,
       "category": "other",
       "keywords": [
         "Chrome",
-        "privacy",
-        "on-device AI"
+        "on-device AI",
+        "Google",
+        "privacy"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Notes on the xAI/Anthropic data center deal",
@@ -106,7 +127,7 @@
         "data centers",
         "compute"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Introducing Postgres Query Insights in ClickHouse Cloud",
@@ -127,7 +148,7 @@
         "query insights",
         "pg_stat_ch"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "AlphaEvolve: Gemini-powered coding agent scaling impact across fields",
@@ -148,7 +169,7 @@
         "Gemini",
         "optimization"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "When you upgrade your resource strings to Unicode, don’t forget to specify the L prefix",
@@ -169,7 +190,7 @@
         "L prefix",
         "Visual Studio"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "RaTeX: KaTeX-compatible LaTeX rendering engine in pure Rust",
@@ -191,7 +212,7 @@
         "WASM",
         "math rendering"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Boris Cherny: TI-83 Plus Basic Programming Tutorial (2004)",
@@ -213,7 +234,7 @@
         "BASIC",
         "tutorial"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "GitHub Repo Stats",
@@ -233,7 +254,7 @@
         "REST API",
         "browser tool"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "Chevrolet Performance eCrate package (400v/200hp)",
@@ -255,7 +276,7 @@
         "battery pack",
         "crate engine"
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "title": "ProgramBench: Can Language Models Rebuild Programs from Scratch?",
@@ -277,7 +298,7 @@
         "code generation",
         "fuzzing"
       ],
-      "rank": 13
+      "rank": 14
     },
     {
       "title": "Community firmware for the Xteink X4 e-paper reader",
@@ -298,7 +319,7 @@
         "firmware",
         "ESP32-C3"
       ],
-      "rank": 14
+      "rank": 15
     },
     {
       "title": "Python 3.15.0 beta 1 is here!",
@@ -319,7 +340,7 @@
         "JIT",
         "CPython"
       ],
-      "rank": 15
+      "rank": 16
     },
     {
       "title": "Seth Michael Larson: Library dependency version specifiers aren't for fixing vulnerabilities",
@@ -339,7 +360,7 @@
         "dependency management",
         "vulnerabilities"
       ],
-      "rank": 16
+      "rank": 17
     }
   ]
 }
