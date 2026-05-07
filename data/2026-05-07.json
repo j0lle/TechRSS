@@ -3,8 +3,49 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3268,
-  "filtered_articles": 36,
+  "filtered_articles": 32,
   "articles": [
+    {
+      "title": "Five Warning Signs Your Database Needs Different Architecture",
+      "title_display": "Five Signs Your Postgres Workload Needs New Architecture",
+      "link": "https://www.tigerdata.com/blog/five-warning-signs-your-database-needs-different-architecture",
+      "pub_date": "2026-05-07T11:40:41.000Z",
+      "summary": "This article argues that recurring Postgres performance pain is often an architecture mismatch, not a tuning issue. It lists five warning signs: optimization work that keeps repeating, autovacuum constantly running on mostly append-only tables, query latency growing linearly with data volume, indexes forcing read/write tradeoffs, and storage costs rising with retained history. The post uses concrete Postgres concepts such as MVCC, autovacuum, pg_stat_user_tables, B-tree indexes, partitioning, and insert throughput to explain why these symptoms appear.\n\nThe core recommendation is to stop treating the problem as configuration drift once several of these signs show up. Instead, the author suggests moving to a system with automatic time-based partitioning, hybrid row/columnar storage, and lifecycle management, positioning TimescaleDB as an extension of Postgres for time-series and analytical workloads rather than a replacement. The practical value is a simple diagnostic framework for deciding when continued tuning is likely to buy only temporary relief.",
+      "source_name": "timescale.com",
+      "source_type": "rss",
+      "score": 10,
+      "depth": 3,
+      "novelty": 2,
+      "breadth": 5,
+      "category": "engineering",
+      "keywords": [
+        "Postgres",
+        "TimescaleDB",
+        "autovacuum",
+        "time-series"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "I've found just the right paper for my Bottom Hole problem",
+      "title_display": "Finding the Newspaper Behind a TV Prop",
+      "link": "https://shkspr.mobi/blog/2026/05/ive-found-just-the-right-paper-for-my-bottom-hole-problem/",
+      "pub_date": "2026-05-07T11:34:54.000Z",
+      "summary": "",
+      "source_name": "shkspr.mobi",
+      "source_type": "rss",
+      "score": 4,
+      "depth": 1,
+      "novelty": 2,
+      "breadth": 1,
+      "category": "other",
+      "keywords": [
+        "archives",
+        "newspaper",
+        "microfiche"
+      ],
+      "rank": 2
+    },
     {
       "title": "Intel Pentium II introduced May 7, 1997",
       "title_display": "Pentium II’s 1997 launch and why it mattered",
@@ -23,7 +64,7 @@
         "retro computing",
         "Intel"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "Monitor your devices with LibreNMS on FreeBSD",
@@ -44,7 +85,7 @@
         "monitoring",
         "php-fpm"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "Free as in Tribbles",
@@ -65,7 +106,7 @@
         "SBOM",
         "AI-assisted coding"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "The Intolerable Hypocrisy of Cyberlibertarianism",
@@ -85,7 +126,7 @@
         "internet governance",
         "platform power"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "Pluralistic: Bubbles are REALLY evil (07 May 2026)",
@@ -105,7 +146,7 @@
         "market bubbles",
         "retirement savings"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "Programming Still Sucks",
@@ -126,7 +167,7 @@
         "engineering leadership",
         "apprenticeship"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "SQLite Is a Library of Congress Recommended Storage Format",
@@ -147,7 +188,7 @@
         "Library of Congress",
         "data preservation"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "Your Linux distribution may no longer auto-generate new SSH host keys",
@@ -168,7 +209,7 @@
         "Fedora",
         "systemd"
       ],
-      "rank": 8
+      "rank": 10
     },
     {
       "title": "Permacomputing Principles",
@@ -189,7 +230,48 @@
         "hardware lifecycle",
         "resilience"
       ],
-      "rank": 9
+      "rank": 11
+    },
+    {
+      "title": "Delta Grows Up: Writes, Unity Catalog and Time Travel",
+      "title_display": "DuckDB Adds Delta Writes and Unity Catalog Support",
+      "link": "https://duckdb.org/2026/05/07/delta-uc-updates.html",
+      "pub_date": "2026-05-07T00:00:00.000Z",
+      "summary": "DuckDB’s Delta extension is no longer read-only: it now supports INSERTs, time travel by Delta version, and Unity Catalog integration, and the Unity Catalog extension has also left experimental status. The post shows concrete SQL examples for writing to Delta tables, including atomic multi-INSERTs inside BEGIN/COMMIT, and querying historical versions with `AT (VERSION => ...)`, `VERSION` at ATTACH time, or `PIN_SNAPSHOT` for stable reads. It also introduces Catalog Managed Tables (CMT), where writes are staged and committed through Unity Catalog so only one concurrent writer wins per table version while others receive conflict errors.\n\nThe article includes a practical OSS Unity Catalog + DuckDB Docker playground, demonstrates reading and writing a UC-managed Delta table, and shows the resulting `_delta_log` and Parquet files on disk. For concurrency, it reports a test with 20 concurrent writers at concurrency 8, producing 5 successful inserts and 15 conflicts, resulting in 35 total rows from a seeded 10-row table plus five 5-row inserts. It also notes incremental Delta snapshot loading, which reuses nearby metadata to make time travel faster, and says that support is already in nightly builds and will land in DuckDB v1.5.3.\n\nThis is a useful update for engineers building lakehouse workflows with DuckDB, Delta, and governed multi-engine data access.",
+      "source_name": "duckdb.org",
+      "source_type": "rss",
+      "score": 23,
+      "depth": 8,
+      "novelty": 7,
+      "breadth": 8,
+      "category": "engineering",
+      "keywords": [
+        "DuckDB",
+        "Delta Lake",
+        "Unity Catalog",
+        "time travel"
+      ],
+      "rank": 12
+    },
+    {
+      "title": "Article previews in RSS",
+      "title_display": "Adding Article Previews to an RSS Feed",
+      "link": "https://entropicthoughts.com/article-previews-in-rss",
+      "pub_date": "2026-05-06T22:00:00.000Z",
+      "summary": "The post describes a simple RSS-feed generation setup in Emacs Lisp and Org mode, then notes the author wants to add article previews or full text to the feed. It mainly explains the current two-step export pipeline: a loop builds an Org syntax tree for RSS content, writes it to a temporary file, and Org’s ox-rss backend exports it. The piece is more of a workflow note than a technical deep dive, with little detail on implementation choices, edge cases, or measurable impact. It may be useful to readers maintaining Org-based publishing systems, but it does not provide much broadly reusable engineering insight.",
+      "source_name": "entropicthoughts.com",
+      "source_type": "rss",
+      "score": 6,
+      "depth": 2,
+      "novelty": 2,
+      "breadth": 2,
+      "category": "engineering",
+      "keywords": [
+        "RSS",
+        "Emacs Lisp",
+        "Org mode"
+      ],
+      "rank": 13
     },
     {
       "title": "SQLAlchemy 2 In Practice - Chapter 7: Asynchronous SQLAlchemy",
@@ -210,7 +292,7 @@
         "database drivers",
         "asynchronous programming"
       ],
-      "rank": 10
+      "rank": 14
     },
     {
       "title": "Talk Python to Me: #547: Parallel Python at Any Scale with Ray",
@@ -231,7 +313,7 @@
         "Python",
         "Kubernetes"
       ],
-      "rank": 11
+      "rank": 15
     },
     {
       "title": "Talk Python to Me: #547: Parallel Python at Anyscale with Ray",
@@ -252,7 +334,7 @@
         "Python",
         "Kubernetes"
       ],
-      "rank": 12
+      "rank": 16
     },
     {
       "title": "Broadcast Booths Around Baseball Tip Their Caps to John Sterling",
@@ -273,7 +355,7 @@
         "baseball",
         "tribute"
       ],
-      "rank": 13
+      "rank": 17
     },
     {
       "title": "Google Cloud fraud defense, the next evolution of reCAPTCHA",
@@ -294,7 +376,7 @@
         "fraud defense",
         "agentic web"
       ],
-      "rank": 14
+      "rank": 18
     },
     {
       "title": "Life During Class Wartime",
@@ -315,7 +397,7 @@
         "tax policy",
         "dynasty trusts"
       ],
-      "rank": 15
+      "rank": 19
     },
     {
       "title": "Triangular analog of the squircle",
@@ -336,7 +418,7 @@
         "geometry",
         "Lebesgue norm"
       ],
-      "rank": 16
+      "rank": 20
     },
     {
       "title": "Claris CEO Ryan McCann on FileMaker in the Age of Agentic Coding",
@@ -357,7 +439,7 @@
         "AI-assisted development",
         "software deployment"
       ],
-      "rank": 17
+      "rank": 21
     },
     {
       "title": "Luca Maestri Runs the Cafeteria",
@@ -378,7 +460,7 @@
         "corporate services",
         "Luca Maestri"
       ],
-      "rank": 18
+      "rank": 22
     },
     {
       "title": "BYD overtakes Tesla and Kia as the best-selling EV brand in key overseas markets",
@@ -400,7 +482,7 @@
         "market share",
         "overseas sales"
       ],
-      "rank": 19
+      "rank": 23
     },
     {
       "title": "Talk Python Blog: Announcing German Subtitles on Courses",
@@ -420,7 +502,7 @@
         "localization",
         "Talk Python"
       ],
-      "rank": 20
+      "rank": 24
     },
     {
       "title": "From Supabase to Clerk to Better Auth",
@@ -442,28 +524,28 @@
         "vendor risk",
         "Better Auth"
       ],
-      "rank": 21
+      "rank": 25
     },
     {
       "title": "Show HN: Hallucinopedia",
-      "title_display": "Hallucinopedia: AI-Powered Satirical Encyclopedia",
+      "title_display": "Hallucinopedia: a satirical LLM encyclopedia",
       "link": "http://halupedia.com/",
       "pub_date": "2026-05-06T17:30:32.000Z",
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 135,
+      "hn_points": 237,
       "score": 5,
       "depth": 1,
       "novelty": 2,
       "breadth": 2,
       "category": "other",
       "keywords": [
-        "llm",
-        "satire",
-        "encyclopedia"
+        "Hacker News",
+        "LLM",
+        "satire"
       ],
-      "rank": 22
+      "rank": 26
     },
     {
       "title": "Higher usage limits for Claude and a compute deal with SpaceX",
@@ -485,7 +567,7 @@
         "SpaceX",
         "API rate limits"
       ],
-      "rank": 23
+      "rank": 27
     },
     {
       "title": "New Logic for Programmers (and the future of this newsletter)",
@@ -506,7 +588,7 @@
         "software engineering",
         "newsletter"
       ],
-      "rank": 24
+      "rank": 28
     },
     {
       "title": "Appearing Productive in the Workplace",
@@ -528,7 +610,7 @@
         "output-competence decoupling",
         "AI overconfidence"
       ],
-      "rank": 25
+      "rank": 29
     },
     {
       "title": "Unified config files",
@@ -549,7 +631,7 @@
         "bashrc",
         "emacs"
       ],
-      "rank": 26
+      "rank": 30
     },
     {
       "title": "Show HN: Tilde.run – Agent Sandbox with a Transactional, Versioned Filesystem",
@@ -570,7 +652,7 @@
         "transactional filesystem",
         "audit logging"
       ],
-      "rank": 27
+      "rank": 31
     },
     {
       "title": "Valve releases Steam Controller CAD files under Creative Commons license",
@@ -592,7 +674,7 @@
         "creative commons",
         "modding"
       ],
-      "rank": 28
+      "rank": 32
     },
     {
       "title": "CNN founder Ted Turner, a pioneer of cable TV news, dies at 87",
@@ -611,7 +693,7 @@
         "cable TV news",
         "Desert Storm"
       ],
-      "rank": 29
+      "rank": 33
     },
     {
       "title": "Live blog: Code w/ Claude 2026",
@@ -632,7 +714,7 @@
         "multi-agent orchestration",
         "code automation"
       ],
-      "rank": 30
+      "rank": 34
     },
     {
       "title": "Vibe coding and agentic engineering are getting closer than I'd like",
@@ -654,7 +736,7 @@
         "AI coding tools",
         "software development"
       ],
-      "rank": 31
+      "rank": 35
     },
     {
       "title": "Am I Meant To Be Impressed?",
@@ -675,7 +757,7 @@
         "anthropic",
         "cloud compute"
       ],
-      "rank": 32
+      "rank": 36
     },
     {
       "title": "Vibe coding and agentic engineering are getting closer than I'd like",
@@ -696,7 +778,7 @@
         "AI coding tools",
         "software development"
       ],
-      "rank": 33
+      "rank": 37
     },
     {
       "title": "Why not have changes in API behavior depend on the SDK you link against?",
@@ -717,7 +799,7 @@
         "Windows",
         "CoInitializeSecurity"
       ],
-      "rank": 34
+      "rank": 38
     },
     {
       "title": "Real Python: ChatterBot: Build a Chatbot With Python",
@@ -738,7 +820,7 @@
         "SQLite",
         "spaCy"
       ],
-      "rank": 35
+      "rank": 39
     },
     {
       "title": "Mike Driscoll: Textual – An Intro to DOM Queries (Part II)",
@@ -759,7 +841,7 @@
         "Python",
         "widgets"
       ],
-      "rank": 36
+      "rank": 40
     },
     {
       "title": "Setting up a Sun Ray server on OpenIndiana Hipster 2025.10",
@@ -781,7 +863,7 @@
         "Proxmox",
         "SRSS"
       ],
-      "rank": 37
+      "rank": 41
     },
     {
       "title": "The bottleneck was never the code",
@@ -803,7 +885,7 @@
         "organizational coherence",
         "context management"
       ],
-      "rank": 38
+      "rank": 42
     },
     {
       "title": "Asimov's three laws are merely a suggestion",
@@ -824,7 +906,7 @@
         "jailbreak",
         "safety"
       ],
-      "rank": 39
+      "rank": 43
     },
     {
       "title": "Real Python: Quiz: How to Use OpenCode for AI-Assisted Python Coding",
@@ -844,7 +926,7 @@
         "Python",
         "AI-assisted coding"
       ],
-      "rank": 40
+      "rank": 44
     },
     {
       "title": "Real Python: Quiz: Python & APIs: A Winning Combo for Reading Public Data",
@@ -864,7 +946,7 @@
         "APIs",
         "requests"
       ],
-      "rank": 41
+      "rank": 45
     },
     {
       "title": "The mythology of category theory",
@@ -885,7 +967,7 @@
         "mythology",
         "pattern language"
       ],
-      "rank": 42
+      "rank": 46
     },
     {
       "title": "Wolfenstein 3D for Gameboy Color on custom cartridge (2016)",
@@ -907,7 +989,7 @@
         "arm cortex-m0",
         "custom cartridge"
       ],
-      "rank": 43
+      "rank": 47
     },
     {
       "title": "Show HN: Red Squares – GitHub outages as contributions",
@@ -929,7 +1011,7 @@
         "visualization",
         "satire"
       ],
-      "rank": 44
+      "rank": 48
     },
     {
       "title": "Adobe’s subscription model",
@@ -950,7 +1032,7 @@
         "software-as-a-service",
         "business model"
       ],
-      "rank": 45
+      "rank": 49
     },
     {
       "title": "Pluralistic: In praise of vultures (06 May 2026)",
@@ -971,7 +1053,7 @@
         "mass arbitration",
         "consumer rights"
       ],
-      "rank": 46
+      "rank": 50
     },
     {
       "title": "Revisiting the 2015 Open Source Census",
@@ -992,7 +1074,7 @@
         "maintainer activity",
         "vulnerabilities"
       ],
-      "rank": 47
+      "rank": 51
     },
     {
       "title": "Batteries Not Included, or Required, for These Smart Home Sensors",
@@ -1014,7 +1096,7 @@
         "activity recognition",
         "low-power"
       ],
-      "rank": 48
+      "rank": 52
     },
     {
       "title": "Knitting bullshit",
@@ -1036,7 +1118,7 @@
         "content quality",
         "bullshit"
       ],
-      "rank": 49
+      "rank": 53
     },
     {
       "title": "Reverse-engineering the 1998 Ultima Online demo server",
@@ -1058,7 +1140,7 @@
         "MMORPG",
         "server emulation"
       ],
-      "rank": 50
+      "rank": 54
     },
     {
       "title": "CARA 2.0 – \"I Built a Better Robot Dog\"",
@@ -1080,7 +1162,7 @@
         "quasi direct drive actuator",
         "motor rewinding"
       ],
-      "rank": 51
+      "rank": 55
     },
     {
       "title": "Python GUIs: Sorting and Filtering a QTableView with QSortFilterProxyModel — Learn how to add interactive sorting and filtering to your PyQt/PySide table views without touching your underlying data",
@@ -1100,7 +1182,7 @@
         "QSortFilterProxyModel",
         "QTableView"
       ],
-      "rank": 52
+      "rank": 56
     },
     {
       "title": "YouTube, your RSS feeds are broken",
@@ -1122,7 +1204,7 @@
         "feed readers",
         "content delivery"
       ],
-      "rank": 53
+      "rank": 57
     },
     {
       "title": "Industry-Leading 245TB Micron 6600 Ion Data Center SSD Now Shipping",
@@ -1144,7 +1226,7 @@
         "storage density",
         "energy efficiency"
       ],
-      "rank": 54
+      "rank": 58
     },
     {
       "title": "Ombudsman column: The Pentagon is trying to silence me",
@@ -1166,7 +1248,7 @@
         "stars and stripes",
         "censorship"
       ],
-      "rank": 55
+      "rank": 59
     },
     {
       "title": "Agents can now create Cloudflare accounts, buy domains, and deploy",
@@ -1188,7 +1270,7 @@
         "agents",
         "automation"
       ],
-      "rank": 56
+      "rank": 60
     },
     {
       "title": "Splitting up my .emacs, or \"use-package doesn't solve all problems\"",
@@ -1208,7 +1290,7 @@
         "configuration",
         "use-package"
       ],
-      "rank": 57
+      "rank": 61
     },
     {
       "title": "StarFighter 16-Inch",
@@ -1230,7 +1312,7 @@
         "hardware design",
         "privacy features"
       ],
-      "rank": 58
+      "rank": 62
     },
     {
       "title": "Telus Uses AI to Alter Call-Agent Accents",
@@ -1252,7 +1334,7 @@
         "speech-synthesis",
         "tomato-ai"
       ],
-      "rank": 59
+      "rank": 63
     },
     {
       "title": "Apple Cuts More Mac Studio and Mac Mini RAM Options as Memory Shortage Worsens",
@@ -1273,7 +1355,7 @@
         "Mac mini",
         "RAM shortage"
       ],
-      "rank": 60
+      "rank": 64
     },
     {
       "title": "Django Weblog: Announcing the Google Summer of Code 2026 contributors for Django",
@@ -1294,7 +1376,7 @@
         "ORM",
         "Playwright"
       ],
-      "rank": 61
+      "rank": 65
     },
     {
       "title": "Apple Settles Class Action Lawsuit Over AI Features That Were Advertised but Didn’t Ship for $250 Million",
@@ -1315,7 +1397,7 @@
         "lawsuit",
         "settlement"
       ],
-      "rank": 62
+      "rank": 66
     },
     {
       "title": "Emotional regulation is a dying art.",
@@ -1336,7 +1418,7 @@
         "technology",
         "psychology"
       ],
-      "rank": 63
+      "rank": 67
     },
     {
       "title": "Weekly Update 502",
@@ -1357,7 +1439,7 @@
         "data breach",
         "vishing"
       ],
-      "rank": 64
+      "rank": 68
     },
     {
       "title": "Open weights are quietly closing up - and that's a problem",
@@ -1378,7 +1460,7 @@
         "model licensing",
         "market competition"
       ],
-      "rank": 65
+      "rank": 69
     },
     {
       "title": "datasette-referrer-policy 0.1",
@@ -1399,7 +1481,7 @@
         "openstreetmap",
         "http headers"
       ],
-      "rank": 66
+      "rank": 70
     },
     {
       "title": "NPR finds \"no sign\" of Polymarket at its Panama HQ address",
@@ -1421,7 +1503,7 @@
         "prediction markets",
         "regulation"
       ],
-      "rank": 67
+      "rank": 71
     }
   ]
 }
