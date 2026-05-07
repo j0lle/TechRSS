@@ -3,8 +3,28 @@
   "total_feeds": 95,
   "success_feeds": 88,
   "total_articles": 3246,
-  "filtered_articles": 34,
+  "filtered_articles": 38,
   "articles": [
+    {
+      "title": "Big Words",
+      "title_display": "Simon Willison Adds a URL-Driven Slide Tool",
+      "link": "https://simonwillison.net/2026/May/7/big-words/#atom-everything",
+      "pub_date": "2026-05-07T18:47:09.000Z",
+      "summary": "Simon Willison added a small web page to his macOS presentations tool that turns query-string parameters into a simple slide. The page supports options like `text`, `gradient`, `size`, and live editing via a double-click or double-tap settings form, making it easy to generate slide content from a URL. He also linked the implementation as a quick pull request to the `tools` repository. This is a lightweight utility update, useful mainly for people following his vibe-coded presentation workflow rather than a broadly impactful engineering change.",
+      "source_name": "simonwillison.net",
+      "source_type": "rss",
+      "score": 6,
+      "depth": 2,
+      "novelty": 2,
+      "breadth": 2,
+      "category": "tools",
+      "keywords": [
+        "macOS",
+        "presentation",
+        "query parameters"
+      ],
+      "rank": 1
+    },
     {
       "title": "Smoothed polygons",
       "title_display": "Smoothed Polygons via Level-Set Products",
@@ -23,7 +43,7 @@
         "level sets",
         "polygons"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Behind the Scenes Hardening Firefox with Claude Mythos Preview",
@@ -44,7 +64,28 @@
         "vulnerability hunting",
         "Mozilla"
       ],
-      "rank": 2
+      "rank": 3
+    },
+    {
+      "title": "Chrome removes claim of On-device Al not sending data to Google Servers",
+      "title_display": "Chrome Drops On-Device AI Data-Claim Language",
+      "link": "https://old.reddit.com/r/chrome/comments/1t5qayz/chrome_removes_claim_of_ondevice_al_not_sending/",
+      "pub_date": "2026-05-07T17:10:30.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 230,
+      "score": 6,
+      "depth": 1,
+      "novelty": 2,
+      "breadth": 3,
+      "category": "other",
+      "keywords": [
+        "Chrome",
+        "privacy",
+        "on-device AI"
+      ],
+      "rank": 4
     },
     {
       "title": "Notes on the xAI/Anthropic data center deal",
@@ -65,7 +106,7 @@
         "data centers",
         "compute"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "Introducing Postgres Query Insights in ClickHouse Cloud",
@@ -86,7 +127,7 @@
         "query insights",
         "pg_stat_ch"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "AlphaEvolve: Gemini-powered coding agent scaling impact across fields",
@@ -107,7 +148,7 @@
         "Gemini",
         "optimization"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "When you upgrade your resource strings to Unicode, don’t forget to specify the L prefix",
@@ -128,7 +169,29 @@
         "L prefix",
         "Visual Studio"
       ],
-      "rank": 6
+      "rank": 8
+    },
+    {
+      "title": "RaTeX: KaTeX-compatible LaTeX rendering engine in pure Rust",
+      "title_display": "RaTeX Brings KaTeX-Style Math Rendering to Pure Rust",
+      "link": "https://ratex.lites.dev/",
+      "pub_date": "2026-05-07T13:20:42.000Z",
+      "summary": "RaTeX is a pure Rust LaTeX math rendering engine positioned as a KaTeX-compatible alternative for native apps, servers, and WASM hosts. The project says its layout core is aligned with KaTeX via large CI golden suites and pixel-diff tests, and it exposes the same engine through native FFI and WebAssembly. It also ships SDKs or builds for iOS, Android, Flutter, React Native, npm, and server-side rasterization. Beyond ordinary math, RaTeX supports mhchem-style chemistry macros such as `\\ce` and `\\pu`, and the site emphasizes predictable timing and a no-GC hot path from the Rust core. The practical value is a single math layout engine that can render consistently across mobile, desktop, web, and backend environments without embedding a browser stack.",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 130,
+      "score": 17,
+      "depth": 5,
+      "novelty": 6,
+      "breadth": 6,
+      "category": "engineering",
+      "keywords": [
+        "Rust",
+        "KaTeX",
+        "WASM",
+        "math rendering"
+      ],
+      "rank": 9
     },
     {
       "title": "Boris Cherny: TI-83 Plus Basic Programming Tutorial (2004)",
@@ -150,7 +213,7 @@
         "BASIC",
         "tutorial"
       ],
-      "rank": 7
+      "rank": 10
     },
     {
       "title": "GitHub Repo Stats",
@@ -170,7 +233,7 @@
         "REST API",
         "browser tool"
       ],
-      "rank": 8
+      "rank": 11
     },
     {
       "title": "Chevrolet Performance eCrate package (400v/200hp)",
@@ -192,7 +255,29 @@
         "battery pack",
         "crate engine"
       ],
-      "rank": 9
+      "rank": 12
+    },
+    {
+      "title": "ProgramBench: Can Language Models Rebuild Programs from Scratch?",
+      "title_display": "ProgramBench Tests Whether LMs Can Rebuild Software From Scratch",
+      "link": "https://arxiv.org/abs/2605.03546",
+      "pub_date": "2026-05-07T06:20:43.000Z",
+      "summary": "ProgramBench is a new benchmark for evaluating whether language models can rebuild entire programs from scratch using only a program and its documentation. Unlike existing code benchmarks that focus on isolated bugs or single features, this setup asks agents to reproduce the behavior of a reference executable while avoiding any prescribed implementation structure. The authors generate end-to-end behavioral tests with agent-driven fuzzing, which lets them score systems on observable program behavior rather than matching a specific code layout.\n\nThe benchmark contains 200 tasks spanning small CLI tools and larger real-world software, including FFmpeg, SQLite, and the PHP interpreter. The paper evaluates 9 language models and reports that none fully solve any task. The strongest model reaches 95% test pass rate on only 3% of tasks, and the models tend to produce monolithic single-file implementations that diverge substantially from human-written code.\n\nFor AI engineers and software teams, the key takeaway is that current models still struggle with holistic software architecture and long-horizon reconstruction, even when correctness is measured by executable behavior rather than source similarity.",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 121,
+      "score": 24,
+      "depth": 8,
+      "novelty": 8,
+      "breadth": 8,
+      "category": "ai-ml",
+      "keywords": [
+        "software engineering agents",
+        "benchmarking",
+        "code generation",
+        "fuzzing"
+      ],
+      "rank": 13
     },
     {
       "title": "Community firmware for the Xteink X4 e-paper reader",
@@ -213,7 +298,7 @@
         "firmware",
         "ESP32-C3"
       ],
-      "rank": 10
+      "rank": 14
     },
     {
       "title": "Python 3.15.0 beta 1 is here!",
@@ -234,7 +319,27 @@
         "JIT",
         "CPython"
       ],
-      "rank": 11
+      "rank": 15
+    },
+    {
+      "title": "Seth Michael Larson: Library dependency version specifiers aren't for fixing vulnerabilities",
+      "title_display": "Why Library Dependency Pins Shouldn’t Fix Vulnerabilities",
+      "link": "https://sethmlarson.dev/library-version-specifiers-not-for-vulnerabilities?utm_campaign=rss",
+      "pub_date": "2026-05-07T00:00:00.000Z",
+      "summary": "This post argues that Python library version specifiers should be used for compatibility, not as a vulnerability response mechanism. Using urllib3 as the example, it explains that changing a dependency from `>=2` to `>=2.6.3` to block a vulnerable release would create massive maintenance toil if widely adopted, since popular packages like urllib3, numpy, requests, and pandas have huge downstream dependency graphs. The author contrasts libraries with applications: applications should manage exact dependency sets through lock files such as `requirements.txt` with hashes, `pylock.toml`, or `uv.lock`, while library maintainers should preserve the broadest compatible ranges. The post notes one exception: if a compatibility range itself prevents users from upgrading to a fixed release, revisiting the specifier may be appropriate. The practical takeaway is that security patching belongs primarily in application dependency management, not in library release churn.",
+      "source_name": "planetpython.org",
+      "source_type": "rss",
+      "score": 12,
+      "depth": 3,
+      "novelty": 4,
+      "breadth": 5,
+      "category": "engineering",
+      "keywords": [
+        "Python",
+        "dependency management",
+        "vulnerabilities"
+      ],
+      "rank": 16
     }
   ]
 }
