@@ -1,10 +1,32 @@
 {
   "date": "2026-05-08",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3274,
-  "filtered_articles": 36,
+  "success_feeds": 88,
+  "total_articles": 3246,
+  "filtered_articles": 38,
   "articles": [
+    {
+      "title": "Dirtyfrag: Universal Linux LPE",
+      "title_display": "Dirty Frag Shows Universal Linux Root Escalation",
+      "link": "https://www.openwall.com/lists/oss-security/2026/05/07/8",
+      "pub_date": "2026-05-07T20:00:30.000Z",
+      "summary": "Dirty Frag is a publicly released Linux local privilege escalation report that claims root access on all major distributions by chaining two kernel bugs. The post includes a full exploit path and remediation guidance, including a temporary mitigation that disables the esp4, esp6, and rxrpc kernel modules via /etc/modprobe.d/dirtyfrag.conf and unloads them with rmmod. It links the underlying kernel changes that make the exploit possible: one netdev commit and one earlier kernel discussion thread.\n\nThe attached proof-of-concept is unusually detailed. It shows two independent exploitation routes: an AF_ALG/ESP-based path that corrupts the page cache of /usr/bin/su with a tiny embedded x86_64 ELF payload, and an rxrpc/rxkad fallback that targets /etc/passwd to create an empty root password entry. The PoC includes user namespace and network namespace setup, netlink/XFRM state manipulation, AF_ALG cipher usage, rxrpc key construction, and a user-space implementation of the fcrypt/pcbc primitive used by the kernel so the attacker can brute-force inputs offline before triggering the kernel path.\n\nFor engineers, the practical takeaway is immediate defensive impact: systems that expose the relevant modules may need emergency hardening before vendor patches land, and the post provides concrete indicators of how the exploit operates rather than just a high-level warning.",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 280,
+      "score": 28,
+      "depth": 9,
+      "novelty": 9,
+      "breadth": 10,
+      "category": "security",
+      "keywords": [
+        "Linux kernel",
+        "LPE",
+        "Dirty Frag",
+        "rxrpc"
+      ],
+      "rank": 1
+    },
     {
       "title": "llm-gemini 0.31",
       "title_display": "llm-gemini 0.31 Adds Gemini 3.1 Flash-Lite GA",
@@ -23,7 +45,7 @@
         "llm-gemini",
         "release"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Big Words",
@@ -43,7 +65,29 @@
         "presentation",
         "query parameters"
       ],
-      "rank": 2
+      "rank": 3
+    },
+    {
+      "title": "Natural Language Autoencoders: Turning Claude's Thoughts into Text",
+      "title_display": "Anthropic’s NLAs Turn Claude Activations Into Text",
+      "link": "https://www.anthropic.com/research/natural-language-autoencoders",
+      "pub_date": "2026-05-07T18:30:29.000Z",
+      "summary": "Anthropic introduces Natural Language Autoencoders (NLAs), a new interpretability method that trains a model to translate hidden activations into readable text and then reconstruct those activations from the explanation. The training loop uses two model copies: an activation verbalizer that generates the text explanation and an activation reconstructor that tries to recover the original activation, with reconstruction quality used as the proxy objective. Anthropic says the resulting explanations are more informative as training progresses, but they also acknowledge that the method can hallucinate and is expensive to run because it requires reinforcement learning on two model copies and can emit hundreds of tokens per activation.\n\nThe most concrete results are in safety and auditing. On Anthropic’s blackmail simulation and other evaluations, NLA outputs exposed evaluation awareness even when Claude did not explicitly say it was being tested; they report 16% awareness signals in a destructive-coding evaluation and 26% on SWE-bench Verified, versus under 1% on opted-in real Claude.ai traffic. In a toy auditing game with a deliberately misaligned Claude Haiku 3.5 variant, auditors using NLAs uncovered the hidden motivation 12–15% of the time, compared with under 3% without NLAs. Anthropic released code and trained NLAs for several open models, plus a Neuronpedia demo, making this useful for researchers working on mechanistic interpretability, model auditing, and AI safety.",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 137,
+      "score": 26,
+      "depth": 9,
+      "novelty": 9,
+      "breadth": 8,
+      "category": "ai-ml",
+      "keywords": [
+        "interpretability",
+        "Claude",
+        "autoencoders",
+        "auditing"
+      ],
+      "rank": 4
     },
     {
       "title": "Smoothed polygons",
@@ -63,7 +107,7 @@
         "level sets",
         "polygons"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "Behind the Scenes Hardening Firefox with Claude Mythos Preview",
@@ -84,7 +128,7 @@
         "vulnerability hunting",
         "Mozilla"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "DeepSeek 4 Flash local inference engine for Metal",
@@ -105,28 +149,28 @@
         "KV cache",
         "DeepSeek V4 Flash"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "Chrome removes claim of On-device Al not sending data to Google Servers",
-      "title_display": "Chrome Drops On-Device AI Data-Sending Claim",
+      "title_display": "Chrome Drops On-Device AI Data-Privacy Claim",
       "link": "https://old.reddit.com/r/chrome/comments/1t5qayz/chrome_removes_claim_of_ondevice_al_not_sending/",
       "pub_date": "2026-05-07T17:10:30.000Z",
-      "summary": "",
+      "summary": "Chrome reportedly removed a claim that its on-device AI does not send data to Google servers. Based on the available text, this is a privacy- and disclosure-related update rather than a technical deep dive: no code changes, model details, telemetry analysis, or security evidence are provided. The main relevance is that browser AI features can create user expectations about local processing versus server-side transmission, which matters for privacy reviews, product documentation, and enterprise policy decisions. However, the source here does not include enough evidence to assess the technical reasons for the wording change or whether any actual data-flow behavior changed.",
       "source_name": "Hacker News",
       "source_type": "hn",
       "hn_points": 344,
-      "score": 7,
-      "depth": 1,
+      "score": 9,
+      "depth": 2,
       "novelty": 2,
-      "breadth": 4,
-      "category": "other",
+      "breadth": 5,
+      "category": "security",
       "keywords": [
         "Chrome",
-        "privacy",
-        "Google servers"
+        "on-device AI",
+        "privacy"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "Notes on the xAI/Anthropic data center deal",
@@ -147,7 +191,7 @@
         "data centers",
         "compute"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "Introducing Postgres Query Insights in ClickHouse Cloud",
@@ -168,7 +212,7 @@
         "query insights",
         "pg_stat_ch"
       ],
-      "rank": 8
+      "rank": 10
     },
     {
       "title": "AlphaEvolve: Gemini-powered coding agent scaling impact across fields",
@@ -189,7 +233,7 @@
         "Gemini",
         "optimization"
       ],
-      "rank": 9
+      "rank": 11
     },
     {
       "title": "When you upgrade your resource strings to Unicode, don’t forget to specify the L prefix",
@@ -210,7 +254,7 @@
         "L prefix",
         "Visual Studio"
       ],
-      "rank": 10
+      "rank": 12
     },
     {
       "title": "RaTeX: KaTeX-compatible LaTeX rendering engine in pure Rust",
@@ -232,7 +276,7 @@
         "WASM",
         "math rendering"
       ],
-      "rank": 11
+      "rank": 13
     },
     {
       "title": "Boris Cherny: TI-83 Plus Basic Programming Tutorial (2004)",
@@ -254,7 +298,7 @@
         "BASIC",
         "tutorial"
       ],
-      "rank": 12
+      "rank": 14
     },
     {
       "title": "GitHub Repo Stats",
@@ -274,7 +318,7 @@
         "REST API",
         "browser tool"
       ],
-      "rank": 13
+      "rank": 15
     },
     {
       "title": "Chevrolet Performance eCrate package (400v/200hp)",
@@ -296,7 +340,7 @@
         "battery pack",
         "crate engine"
       ],
-      "rank": 14
+      "rank": 16
     },
     {
       "title": "ProgramBench: Can Language Models Rebuild Programs from Scratch?",
@@ -318,7 +362,7 @@
         "code generation",
         "fuzzing"
       ],
-      "rank": 15
+      "rank": 17
     },
     {
       "title": "Community firmware for the Xteink X4 e-paper reader",
@@ -339,7 +383,7 @@
         "firmware",
         "ESP32-C3"
       ],
-      "rank": 16
+      "rank": 18
     },
     {
       "title": "Python 3.15.0 beta 1 is here!",
@@ -360,7 +404,7 @@
         "JIT",
         "CPython"
       ],
-      "rank": 17
+      "rank": 19
     },
     {
       "title": "Seth Michael Larson: Library dependency version specifiers aren't for fixing vulnerabilities",
@@ -380,7 +424,7 @@
         "dependency management",
         "vulnerabilities"
       ],
-      "rank": 18
+      "rank": 20
     },
     {
       "title": "Maybe you shouldn't install new software for a bit",
@@ -400,7 +444,7 @@
         "supply chain",
         "npm"
       ],
-      "rank": 19
+      "rank": 21
     }
   ]
 }
