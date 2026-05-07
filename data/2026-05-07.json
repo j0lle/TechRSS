@@ -2,7 +2,7 @@
   "date": "2026-05-07",
   "total_feeds": 95,
   "success_feeds": 88,
-  "total_articles": 3243,
+  "total_articles": 3240,
   "filtered_articles": 34,
   "articles": [
     {
@@ -254,7 +254,7 @@
       "keywords": [
         "Hacker News",
         "satire",
-        "encyclopedia"
+        "hallucination"
       ],
       "rank": 12
     },
