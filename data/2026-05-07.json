@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3268,
-  "filtered_articles": 33,
+  "filtered_articles": 32,
   "articles": [
     {
       "title": "Quiz: Qt Designer and Python: Build Your GUI Applications Faster",
@@ -611,7 +611,7 @@
     },
     {
       "title": "Show HN: Hallucinopedia",
-      "title_display": "Hallucinopedia: an LLM satire site",
+      "title_display": "Hallucinopedia: A Satirical LLM Encyclopedia",
       "link": "http://halupedia.com/",
       "pub_date": "2026-05-06T17:30:32.000Z",
       "summary": "",
@@ -625,8 +625,8 @@
       "category": "other",
       "keywords": [
         "Hacker News",
-        "LLM parody",
-        "satire"
+        "LLM",
+        "hallucination"
       ],
       "rank": 30
     },
