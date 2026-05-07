@@ -2,9 +2,51 @@
   "date": "2026-05-08",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3268,
-  "filtered_articles": 29,
+  "total_articles": 3274,
+  "filtered_articles": 28,
   "articles": [
+    {
+      "title": "Introducing Postgres Query Insights in ClickHouse Cloud",
+      "title_display": "ClickHouse Adds PostgreSQL Query Insights",
+      "link": "https://clickhouse.com/blog/postgres-query-insights-clickhouse-cloud",
+      "pub_date": "2026-05-07T16:00:13.000Z",
+      "summary": "ClickHouse Cloud now offers Query Insights in preview for Managed Postgres, backed by the open-source pg_stat_ch extension. The product groups per-statement telemetry into an overview, a slow-pattern table, and a detail flyout so operators can rank queries by total duration, CPU, error count, max latency, or p95/p99 and quickly isolate regressions.\n\nThe article’s concrete example shows a dashboard whose p99 latency rises while p50 stays flat. Query Insights narrows the issue to a JOIN/ORDER BY query: cache hit ratio remains near 100%, WAL bytes are zero, but temp block operations are non-zero and parallel workers are not fully launched, indicating a sort spill to disk rather than an I/O or write bottleneck. The suggested remediation is standard but practical: verify with EXPLAIN (ANALYZE, BUFFERS), then add an index to support the filter/order, increase work_mem for the right scope, or both.\n\nOn the implementation side, ClickHouse says the backend stores millions of telemetry rows per day in ClickHouse, normalizes literals before data leaves Postgres, and keeps producer overhead around 3% with non-blocking enqueue and event dropping under pressure. The open-source extension is Apache 2.0 and emits raw events rather than aggregates. This is a useful reference for teams building low-overhead Postgres observability, especially if they want richer query diagnostics without shipping raw SQL text off-box.",
+      "source_name": "clickhouse.com",
+      "source_type": "rss",
+      "score": 19,
+      "depth": 7,
+      "novelty": 5,
+      "breadth": 7,
+      "category": "engineering",
+      "keywords": [
+        "PostgreSQL",
+        "ClickHouse Cloud",
+        "query insights",
+        "pg_stat_ch"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "When you upgrade your resource strings to Unicode, don’t forget to specify the L prefix",
+      "title_display": "Unicode resource strings need an L prefix",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260507-00/?p=112307",
+      "pub_date": "2026-05-07T14:00:00.000Z",
+      "summary": "A Windows resource string was converted from a literal apostrophe to the Unicode escape `\\x2019`, but it rendered as `That 19s great!` because the string was still narrow. In C/C++ resource scripts, `\\x2019` is only parsed as an 8-bit escape unless the string is prefixed with `L`, so the correct form is `L\"That\\x2019s great!\"`. The post is a small but practical reminder for teams dealing with Windows resources, code pages, and encoding drift between 1252 and UTF-8.",
+      "source_name": "devblogs.microsoft.com/oldnewthing",
+      "source_type": "rss",
+      "score": 11,
+      "depth": 4,
+      "novelty": 3,
+      "breadth": 4,
+      "category": "engineering",
+      "keywords": [
+        "Windows resource strings",
+        "Unicode",
+        "L prefix",
+        "Visual Studio"
+      ],
+      "rank": 2
+    },
     {
       "title": "Python 3.15.0 beta 1 is here!",
       "title_display": "Python 3.15 Beta 1 Opens Feature Freeze",
@@ -24,7 +66,7 @@
         "JIT",
         "CPython"
       ],
-      "rank": 1
+      "rank": 3
     }
   ]
 }
