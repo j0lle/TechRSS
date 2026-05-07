@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3274,
-  "filtered_articles": 36,
+  "filtered_articles": 38,
   "articles": [
     {
       "title": "llm-gemini 0.31",
@@ -87,26 +87,47 @@
       "rank": 4
     },
     {
+      "title": "DeepSeek 4 Flash local inference engine for Metal",
+      "title_display": "DeepSeek V4 Flash gets a Metal-only local engine",
+      "link": "https://github.com/antirez/ds4",
+      "pub_date": "2026-05-07T17:20:31.000Z",
+      "summary": "ds4.c is a narrow, purpose-built native inference engine for DeepSeek V4 Flash on Apple Metal, not a generic GGUF runtime. The repository includes a specialized Metal graph executor, custom model loading, prompt rendering, KV-state handling, and OpenAI- and Anthropic-compatible server endpoints. The README reports single-run benchmarks on a MacBook Pro M3 Max 128 GB and a Mac Studio M3 Ultra 512 GB, with q2 quantization and `--ctx 32768`: 58.52 tok/s prefill and 26.68 tok/s generation on the M3 Max for a short prompt, versus 250.11 tok/s prefill and 21.47 tok/s generation on a 11,709-token prompt; on the M3 Ultra, 84.43/36.86 tok/s short and 468.03/27.39 tok/s long. It also claims a 1M-token context window, 2-bit routed-expert quantization, and experimental MTP speculative decoding with only a slight speedup so far.\n\nThe most technically notable part is the disk KV cache design. ds4-server keeps one live in-memory checkpoint and can persist/resume prefixes across sessions and restarts using SHA1-of-token-ID cache keys, a custom on-disk KVC/DSV4 format, and cold/continued/evict/shutdown snapshot modes. The repo also provides test vectors captured from the official DeepSeek API and compares logprobs/token bytes to catch tokenizer or attention regressions. This is practical work for engineers interested in local LLM serving, long-context inference, and Apple Silicon optimization.",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 181,
+      "score": 23,
+      "depth": 8,
+      "novelty": 7,
+      "breadth": 8,
+      "category": "engineering",
+      "keywords": [
+        "Metal",
+        "KV cache",
+        "DeepSeek V4 Flash"
+      ],
+      "rank": 5
+    },
+    {
       "title": "Chrome removes claim of On-device Al not sending data to Google Servers",
-      "title_display": "Chrome Removes On-Device AI Privacy Claim",
+      "title_display": "Chrome Drops On-Device AI Data Privacy Claim",
       "link": "https://old.reddit.com/r/chrome/comments/1t5qayz/chrome_removes_claim_of_ondevice_al_not_sending/",
       "pub_date": "2026-05-07T17:10:30.000Z",
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 230,
-      "score": 9,
+      "hn_points": 344,
+      "score": 4,
       "depth": 1,
-      "novelty": 2,
-      "breadth": 6,
-      "category": "other",
+      "novelty": 1,
+      "breadth": 2,
+      "category": "security",
       "keywords": [
         "Chrome",
         "on-device AI",
         "Google",
         "privacy"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Notes on the xAI/Anthropic data center deal",
@@ -127,7 +148,7 @@
         "data centers",
         "compute"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Introducing Postgres Query Insights in ClickHouse Cloud",
@@ -148,7 +169,7 @@
         "query insights",
         "pg_stat_ch"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "AlphaEvolve: Gemini-powered coding agent scaling impact across fields",
@@ -169,7 +190,7 @@
         "Gemini",
         "optimization"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "When you upgrade your resource strings to Unicode, don’t forget to specify the L prefix",
@@ -190,7 +211,7 @@
         "L prefix",
         "Visual Studio"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "RaTeX: KaTeX-compatible LaTeX rendering engine in pure Rust",
@@ -212,7 +233,7 @@
         "WASM",
         "math rendering"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "Boris Cherny: TI-83 Plus Basic Programming Tutorial (2004)",
@@ -234,7 +255,7 @@
         "BASIC",
         "tutorial"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "GitHub Repo Stats",
@@ -254,7 +275,7 @@
         "REST API",
         "browser tool"
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "title": "Chevrolet Performance eCrate package (400v/200hp)",
@@ -276,7 +297,7 @@
         "battery pack",
         "crate engine"
       ],
-      "rank": 13
+      "rank": 14
     },
     {
       "title": "ProgramBench: Can Language Models Rebuild Programs from Scratch?",
@@ -298,7 +319,7 @@
         "code generation",
         "fuzzing"
       ],
-      "rank": 14
+      "rank": 15
     },
     {
       "title": "Community firmware for the Xteink X4 e-paper reader",
@@ -319,7 +340,7 @@
         "firmware",
         "ESP32-C3"
       ],
-      "rank": 15
+      "rank": 16
     },
     {
       "title": "Python 3.15.0 beta 1 is here!",
@@ -340,7 +361,7 @@
         "JIT",
         "CPython"
       ],
-      "rank": 16
+      "rank": 17
     },
     {
       "title": "Seth Michael Larson: Library dependency version specifiers aren't for fixing vulnerabilities",
@@ -360,7 +381,27 @@
         "dependency management",
         "vulnerabilities"
       ],
-      "rank": 17
+      "rank": 18
+    },
+    {
+      "title": "Maybe you shouldn't install new software for a bit",
+      "title_display": "Avoid New Software After Recent Linux Vulnerabilities",
+      "link": "https://xeiaso.net/blog/2026/abstain-from-install/",
+      "pub_date": "2026-05-07T00:00:00.000Z",
+      "summary": "The post is a brief cautionary note urging readers to avoid installing new software for about a week, except for distro kernel patches. It cites the aftermath of copy.fail and references two newly announced issues, Copy Fail 2: Electric Boogaloo and Dirty Frag, as reasons to be wary of a potential NPM supply chain attack during this period. The piece is more of an advisory than a technical analysis, and it does not provide exploit details, impact assessment, or mitigation steps beyond temporary abstinence. Its practical value is mainly as a timely security-hygiene reminder.",
+      "source_name": "xeiaso.net",
+      "source_type": "rss",
+      "score": 6,
+      "depth": 1,
+      "novelty": 2,
+      "breadth": 3,
+      "category": "security",
+      "keywords": [
+        "linux kernel",
+        "supply chain",
+        "npm"
+      ],
+      "rank": 19
     }
   ]
 }
