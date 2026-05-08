@@ -7,7 +7,7 @@
   "articles": [
     {
       "title": "Cartoon Network Flash Games",
-      "title_display": "Cartoon Network Flash Games Archive Page Blocked",
+      "title_display": "Cartoon Network Flash Games Archive",
       "link": "https://www.webdesignmuseum.org/flash-game-exhibitions/cartoon-network-flash-games",
       "pub_date": "2026-05-08T16:50:13.000Z",
       "summary": "",
@@ -20,9 +20,9 @@
       "breadth": 2,
       "category": "other",
       "keywords": [
-        "flash",
-        "web archive",
-        "cartoon network"
+        "Flash",
+        "Cartoon Network",
+        "web archive"
       ],
       "rank": 1
     },
@@ -160,16 +160,15 @@
       "source_name": "Hacker News",
       "source_type": "hn",
       "hn_points": 130,
-      "score": 6,
+      "score": 5,
       "depth": 1,
       "novelty": 1,
-      "breadth": 4,
-      "category": "other",
+      "breadth": 3,
+      "category": "engineering",
       "keywords": [
         "GeoJSON",
-        "RFC 7946",
         "geospatial",
-        "data format"
+        "RFC 7946"
       ],
       "rank": 8
     },
