@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 88,
   "total_articles": 3244,
-  "filtered_articles": 35,
+  "filtered_articles": 33,
   "articles": [
     {
       "title": "Detecting (or not) the use of -l and -c together in Bourne shells",
