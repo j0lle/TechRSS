@@ -2,9 +2,30 @@
   "date": "2026-05-09",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3270,
-  "filtered_articles": 31,
+  "total_articles": 3271,
+  "filtered_articles": 35,
   "articles": [
+    {
+      "title": "Cartoon Network Flash Games",
+      "title_display": "Cartoon Network Flash Games Archive Page Blocked",
+      "link": "https://www.webdesignmuseum.org/flash-game-exhibitions/cartoon-network-flash-games",
+      "pub_date": "2026-05-08T16:50:13.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 166,
+      "score": 4,
+      "depth": 1,
+      "novelty": 1,
+      "breadth": 2,
+      "category": "other",
+      "keywords": [
+        "flash",
+        "web archive",
+        "cartoon network"
+      ],
+      "rank": 1
+    },
     {
       "title": "This Week on The Analog Antiquarian",
       "title_display": "The Analog Antiquarian Pauses for Two Weeks",
@@ -23,7 +44,7 @@
         "analog antiquarian",
         "schedule"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Google Cloud Fraud Defence is just WEI repackaged",
@@ -44,7 +65,29 @@
         "reCAPTCHA",
         "privacy"
       ],
-      "rank": 2
+      "rank": 3
+    },
+    {
+      "title": "Serving a Website on a Raspberry Pi Zero Running in RAM",
+      "title_display": "Serving a Website on a Pi Zero Entirely in RAM",
+      "link": "https://btxx.org/posts/memory/",
+      "pub_date": "2026-05-08T15:50:14.000Z",
+      "summary": "This post walks through hosting a static website on a Raspberry Pi Zero v1.3 using Alpine Linux in diskless mode, with the root filesystem mounted from tmpfs/ramfs so the site runs entirely from RAM. The setup uses a 512MB Pi Zero, `lbu` to persist configuration on the microSD card, `darkhttpd` or `nginx` for web serving, and `rsync` for deployment. TLS is offloaded to a small VPS running HAProxy, with `socat` forwarding traffic from the VPS to the home network. The author also shows backup creation via a byte-for-byte `dd` image over SSH. Practical value is mainly for engineers interested in ultra-light self-hosting, diskless Linux, and low-resource deployment patterns.",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 145,
+      "score": 13,
+      "depth": 4,
+      "novelty": 5,
+      "breadth": 4,
+      "category": "engineering",
+      "keywords": [
+        "self-hosting",
+        "Alpine Linux",
+        "Raspberry Pi Zero",
+        "diskless"
+      ],
+      "rank": 4
     },
     {
       "title": "A web page that shows you everything the browser told it without asking",
@@ -65,7 +108,7 @@
         "privacy",
         "JavaScript APIs"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "Developing more confidence when tracking renames via Read­Directory­ChangesW",
@@ -85,7 +128,7 @@
         "filesystem",
         "rename tracking"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "An Introduction to Meshtastic",
@@ -106,7 +149,50 @@
         "LoRa",
         "mesh networking"
       ],
-      "rank": 5
+      "rank": 7
+    },
+    {
+      "title": "GeoJSON",
+      "title_display": "GeoJSON Standard Format Overview",
+      "link": "https://geojson.org/",
+      "pub_date": "2026-05-08T12:10:19.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 130,
+      "score": 6,
+      "depth": 1,
+      "novelty": 1,
+      "breadth": 4,
+      "category": "other",
+      "keywords": [
+        "GeoJSON",
+        "RFC 7946",
+        "geospatial",
+        "data format"
+      ],
+      "rank": 8
+    },
+    {
+      "title": "A Runnable Reference Architecture for Battery Energy Storage Systems on InfluxDB 3",
+      "title_display": "InfluxDB 3 BESS Reference Architecture Goes Open Source",
+      "link": "https://www.influxdata.com/blog/bess-reference-architecture-influxdb3/",
+      "pub_date": "2026-05-08T12:00:00.000Z",
+      "summary": "InfluxData published an open-source, runnable battery energy storage system (BESS) reference architecture for InfluxDB 3 Enterprise that can be started locally with Docker Compose in about two minutes. The stack is Python-first and includes a simulator generating roughly 2,000 points per second, a FastAPI + HTMX dashboard, scenarios for thermal runaway and cell drift, and database-native plugins for alerts and diagnostics. The article highlights three InfluxDB 3 features used in the design: Last Value Cache for sub-millisecond “current state” heatmaps over 768 cells, Distinct Value Cache for inventory and heartbeat queries, and the Processing Engine for Python triggers running inside the database. It also outlines how real BMS, PCS, and SCADA feeds would enter through Telegraf or OPC UA, with edge ingestion and replication to a central cluster. The practical value is a concrete, runnable blueprint for time-sensitive industrial telemetry systems, especially where high-cardinality sensor data and real-time safety logic matter.",
+      "source_name": "influxdata.com",
+      "source_type": "rss",
+      "score": 18,
+      "depth": 6,
+      "novelty": 5,
+      "breadth": 7,
+      "category": "engineering",
+      "keywords": [
+        "InfluxDB 3",
+        "battery energy storage systems",
+        "time series",
+        "Python"
+      ],
+      "rank": 9
     },
     {
       "title": "Mojo 1.0 Beta",
@@ -128,7 +214,49 @@
         "GPU",
         "Python interop"
       ],
-      "rank": 6
+      "rank": 10
+    },
+    {
+      "title": "Seth Michael Larson: Using Epilogue Retrace app with iPhone 13 Pro and Ubuntu",
+      "title_display": "Epilogue Retrace Fails on iPhone 13 Pro and Ubuntu",
+      "link": "https://sethmlarson.dev/epilogue-retrace-iphone-13-pro-ubuntu?utm_campaign=rss",
+      "pub_date": "2026-05-08T00:00:00.000Z",
+      "summary": "Seth Michael Larson reports that Epilogue’s Retrace app runs into two practical blockers: updating GB Operator firmware to v10.0.10 did not work from Linux Playback, and the firmware update ultimately required a Windows machine. He also found that a Lightning-to-USB-C adapter on an iPhone 13 Pro would not power the GB Operator, while a USB-C iPhone 15 Pro worked normally. The post is a useful compatibility note for anyone trying to archive Game Boy ROMs from Linux to iPhone with Epilogue hardware.",
+      "source_name": "planetpython.org",
+      "source_type": "rss",
+      "score": 8,
+      "depth": 2,
+      "novelty": 3,
+      "breadth": 3,
+      "category": "tools",
+      "keywords": [
+        "Epilogue Retrace",
+        "GB Operator",
+        "Ubuntu",
+        "USB-C"
+      ],
+      "rank": 11
+    },
+    {
+      "title": "Wander Console 0.6.0",
+      "title_display": "Wander Console 0.6.0 Removes URL Referral Parameters",
+      "link": "https://susam.net/code/news/wander/0.6.0.html",
+      "pub_date": "2026-05-08T00:00:00.000Z",
+      "summary": "Wander Console 0.6.0 removes support for the `via` referral query parameter after finding that some websites refuse to load when arbitrary query strings are appended. The author says the feature, added in 0.4.0 for access-log attribution, proved to be a misfeature even though it could be disabled in config. This release also includes minor UI adjustments and fixes, plus a changelog entry and commit reference (`b26d77c`) with more details. The practical takeaway is a small but useful design correction for a self-hosted, decentralized web console: favor compatibility over tracking convenience.",
+      "source_name": "susam.net",
+      "source_type": "rss",
+      "score": 7,
+      "depth": 2,
+      "novelty": 2,
+      "breadth": 3,
+      "category": "tools",
+      "keywords": [
+        "self-hosted",
+        "web console",
+        "query parameters",
+        "open source"
+      ],
+      "rank": 12
     }
   ]
 }
