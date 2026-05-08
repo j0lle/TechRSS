@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3272,
-  "filtered_articles": 39,
+  "filtered_articles": 40,
   "articles": [
     {
       "title": "AI makes weak engineers less harmful",
@@ -67,6 +67,28 @@
       "rank": 3
     },
     {
+      "title": "AI Is Breaking Two Vulnerability Cultures",
+      "title_display": "AI Is Changing Vulnerability Embargoes",
+      "link": "https://www.jefftk.com/p/ai-is-breaking-two-vulnerability-cultures",
+      "pub_date": "2026-05-08T18:50:12.000Z",
+      "summary": "The post argues that AI is weakening both major vulnerability-handling cultures: coordinated disclosure and Linux-style “fix it quietly” patching. In the Copy Fail case, a fix landed quickly, but another researcher spotted the implications and published a public write-up, ending the embargo within hours. The author’s point is that AI-assisted scanning makes it easier for outsiders to notice security fixes in commits, while also making defenders faster at validating and responding to issues. He notes that a 90-day disclosure window now looks increasingly unrealistic because multiple AI-assisted groups may independently find the same bug before the embargo expires. The post includes a small informal test with Gemini 3.1 Pro, ChatGPT-Thinking 5.5, and Claude Opus 4.7: all three identified a specific kernel commit as a security fix when given the commit itself, while performance dropped when only the diff was shown. The practical takeaway is that the old balance between secrecy and patch latency is shifting, and embargoes likely need to become much shorter.",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 151,
+      "score": 17,
+      "depth": 5,
+      "novelty": 5,
+      "breadth": 7,
+      "category": "security",
+      "keywords": [
+        "vulnerability disclosure",
+        "AI-assisted security",
+        "embargo",
+        "Linux"
+      ],
+      "rank": 4
+    },
+    {
       "title": "Apple, Intel have reached preliminary chip-making deal",
       "title_display": "Apple and Intel Reportedly Discuss Preliminary Chip Deal",
       "link": "https://www.reuters.com/business/apple-intel-have-reached-preliminary-chip-making-deal-wsj-reports-2026-05-08/",
@@ -85,11 +107,11 @@
         "Intel",
         "chip manufacturing"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Cartoon Network Flash Games",
-      "title_display": "Cartoon Network Flash Games Page Blocked by Cloudflare",
+      "title_display": "Cartoon Network Flash Games Archive",
       "link": "https://www.webdesignmuseum.org/flash-game-exhibitions/cartoon-network-flash-games",
       "pub_date": "2026-05-08T16:50:13.000Z",
       "summary": "",
@@ -102,11 +124,11 @@
       "breadth": 2,
       "category": "other",
       "keywords": [
-        "Flash",
-        "Cartoon Network",
+        "flash",
+        "cartoon network",
         "web archive"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "This Week on The Analog Antiquarian",
@@ -126,7 +148,7 @@
         "analog antiquarian",
         "schedule"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Google Cloud Fraud Defence is just WEI repackaged",
@@ -147,7 +169,7 @@
         "reCAPTCHA",
         "privacy"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Serving a Website on a Raspberry Pi Zero Running in RAM",
@@ -169,7 +191,7 @@
         "Raspberry Pi Zero",
         "diskless"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "A web page that shows you everything the browser told it without asking",
@@ -190,7 +212,7 @@
         "privacy",
         "JavaScript APIs"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Developing more confidence when tracking renames via Read­Directory­ChangesW",
@@ -210,7 +232,7 @@
         "filesystem",
         "rename tracking"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "An Introduction to Meshtastic",
@@ -231,11 +253,11 @@
         "LoRa",
         "mesh networking"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "GeoJSON",
-      "title_display": "GeoJSON Specification Overview",
+      "title_display": "GeoJSON Standard and Data Format Overview",
       "link": "https://geojson.org/",
       "pub_date": "2026-05-08T12:10:19.000Z",
       "summary": "",
@@ -249,10 +271,10 @@
       "category": "engineering",
       "keywords": [
         "GeoJSON",
-        "geospatial",
+        "geospatial data",
         "RFC 7946"
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "title": "A Runnable Reference Architecture for Battery Energy Storage Systems on InfluxDB 3",
@@ -273,7 +295,7 @@
         "time series",
         "Python"
       ],
-      "rank": 13
+      "rank": 14
     },
     {
       "title": "Mojo 1.0 Beta",
@@ -295,7 +317,7 @@
         "GPU",
         "Python interop"
       ],
-      "rank": 14
+      "rank": 15
     },
     {
       "title": "Seth Michael Larson: Using Epilogue Retrace app with iPhone 13 Pro and Ubuntu",
@@ -316,7 +338,7 @@
         "Ubuntu",
         "USB-C"
       ],
-      "rank": 15
+      "rank": 16
     },
     {
       "title": "Wander Console 0.6.0",
@@ -337,7 +359,7 @@
         "query parameters",
         "open source"
       ],
-      "rank": 16
+      "rank": 17
     }
   ]
 }
