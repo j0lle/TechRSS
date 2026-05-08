@@ -1,10 +1,31 @@
 {
   "date": "2026-05-08",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3270,
+  "success_feeds": 88,
+  "total_articles": 3245,
   "filtered_articles": 33,
   "articles": [
+    {
+      "title": "How Relational Complexity Crushes Real-Time Dashboards",
+      "title_display": "Why Joins Hurt Real-Time Dashboards at Scale",
+      "link": "https://www.tigerdata.com/blog/how-relational-complexity-crushes-real-time-dashboards",
+      "pub_date": "2026-05-08T15:33:00.000Z",
+      "summary": "The article argues that real-time dashboards eventually hit a relational scaling wall when they must join many tables on every refresh. It recommends denormalizing telemetry into a flattened table so join cost moves from read-time to write-time. The piece includes concrete SQL for creating a wide table, backfilling historical rows in batches, and maintaining the flattened copy with an INSERT trigger. It also suggests comparing the old and new designs with EXPLAIN (ANALYZE, BUFFERS), focusing on shared buffer hits rather than latency alone, and claims a 70–90% reduction in shared hits for the flattened approach. The trade-off is increased redundancy and weaker consistency for changing metadata. This is a practical, database-oriented writeup for engineers tuning high-frequency analytics workloads, though it is more prescriptive than experimental.",
+      "source_name": "timescale.com",
+      "source_type": "rss",
+      "score": 14,
+      "depth": 5,
+      "novelty": 3,
+      "breadth": 6,
+      "category": "engineering",
+      "keywords": [
+        "postgresql",
+        "denormalization",
+        "query optimization",
+        "time-series"
+      ],
+      "rank": 1
+    },
     {
       "title": "HomePod mini feels like magic, but it's just good timing",
       "title_display": "HomePod mini stereo sync uses gPTP over Wi‑Fi",
@@ -24,7 +45,7 @@
         "gPTP",
         "Wireshark"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Hi stranger",
@@ -44,7 +65,7 @@
         "RSS",
         "blogging"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Calculating curvature",
@@ -64,7 +85,7 @@
         "level sets",
         "calculus"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Pluralistic: Lee Lai's \"Cannon\" (08 May 2026)",
@@ -85,7 +106,7 @@
         "workplace",
         "family"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "The Real Python Podcast – Episode #294: Declarative Charts in Python & Discerning Iterators vs Iterables",
@@ -105,7 +126,7 @@
         "iterators",
         "Django ORM"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Quiz: Memory Management in Python",
@@ -125,7 +146,7 @@
         "memory management",
         "quiz"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Dell buys Alienware, May 8, 2006",
@@ -145,7 +166,7 @@
         "Alienware",
         "Dell"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Weekend at Bernie’s",
@@ -166,7 +187,7 @@
         "package registries",
         "dependency graphs"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Rumors of my death are slightly exaggerated",
@@ -187,7 +208,7 @@
         "social media",
         "Cliff Stoll"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Detecting (or not) the use of -l and -c together in Bourne shells",
@@ -208,7 +229,7 @@
         "startup files",
         "POSIX"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "Canvas Breach Disrupts Schools & Colleges Nationwide",
@@ -229,7 +250,7 @@
         "data extortion",
         "education platforms"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "ShinyHunters claims data theft from 8,800 schools (Instructure/Canvas)",
@@ -251,7 +272,7 @@
         "Canvas",
         "data breach"
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "title": "Pushing Local Models With Focus And Polish",
@@ -272,7 +293,7 @@
         "tool calling",
         "Mac"
       ],
-      "rank": 13
+      "rank": 14
     },
     {
       "title": "Notes on the Hantavirus Outbreak",
@@ -293,7 +314,7 @@
         "R0",
         "outbreak"
       ],
-      "rank": 14
+      "rank": 15
     },
     {
       "title": "Steering Zig Fmt",
@@ -313,7 +334,7 @@
         "code formatting",
         "style steering"
       ],
-      "rank": 15
+      "rank": 16
     },
     {
       "title": "Flower: an SSG with a Clojure template language",
@@ -333,7 +354,7 @@
         "Clojure",
         "SSG"
       ],
-      "rank": 16
+      "rank": 17
     },
     {
       "title": "Notes on incidents",
@@ -353,7 +374,7 @@
         "on-call",
         "production systems"
       ],
-      "rank": 17
+      "rank": 18
     },
     {
       "title": "Announcing the Program of DuckCon #7 Amsterdam",
@@ -373,7 +394,7 @@
         "DuckCon",
         "conference"
       ],
-      "rank": 18
+      "rank": 19
     },
     {
       "title": "Dirtyfrag: Universal Linux LPE",
@@ -395,7 +416,7 @@
         "Dirty Frag",
         "rxrpc"
       ],
-      "rank": 19
+      "rank": 20
     },
     {
       "title": "llm-gemini 0.31",
@@ -415,7 +436,7 @@
         "llm-gemini",
         "release"
       ],
-      "rank": 20
+      "rank": 21
     },
     {
       "title": "Big Words",
@@ -435,7 +456,7 @@
         "presentation",
         "query parameters"
       ],
-      "rank": 21
+      "rank": 22
     },
     {
       "title": "Natural Language Autoencoders: Turning Claude's Thoughts into Text",
@@ -457,7 +478,7 @@
         "autoencoders",
         "auditing"
       ],
-      "rank": 22
+      "rank": 23
     },
     {
       "title": "Smoothed polygons",
@@ -477,7 +498,7 @@
         "level sets",
         "polygons"
       ],
-      "rank": 23
+      "rank": 24
     },
     {
       "title": "Behind the Scenes Hardening Firefox with Claude Mythos Preview",
@@ -498,7 +519,7 @@
         "vulnerability hunting",
         "Mozilla"
       ],
-      "rank": 24
+      "rank": 25
     },
     {
       "title": "DeepSeek 4 Flash local inference engine for Metal",
@@ -519,7 +540,7 @@
         "KV cache",
         "DeepSeek V4 Flash"
       ],
-      "rank": 25
+      "rank": 26
     },
     {
       "title": "Chrome removes claim of On-device Al not sending data to Google Servers",
@@ -540,7 +561,7 @@
         "on-device AI",
         "privacy"
       ],
-      "rank": 26
+      "rank": 27
     },
     {
       "title": "Notes on the xAI/Anthropic data center deal",
@@ -561,7 +582,7 @@
         "data centers",
         "compute"
       ],
-      "rank": 27
+      "rank": 28
     },
     {
       "title": "Introducing Postgres Query Insights in ClickHouse Cloud",
@@ -582,7 +603,7 @@
         "query insights",
         "pg_stat_ch"
       ],
-      "rank": 28
+      "rank": 29
     },
     {
       "title": "AlphaEvolve: Gemini-powered coding agent scaling impact across fields",
@@ -603,7 +624,7 @@
         "Gemini",
         "optimization"
       ],
-      "rank": 29
+      "rank": 30
     },
     {
       "title": "When you upgrade your resource strings to Unicode, don’t forget to specify the L prefix",
@@ -624,7 +645,7 @@
         "L prefix",
         "Visual Studio"
       ],
-      "rank": 30
+      "rank": 31
     },
     {
       "title": "RaTeX: KaTeX-compatible LaTeX rendering engine in pure Rust",
@@ -646,7 +667,7 @@
         "WASM",
         "math rendering"
       ],
-      "rank": 31
+      "rank": 32
     },
     {
       "title": "Boris Cherny: TI-83 Plus Basic Programming Tutorial (2004)",
@@ -668,7 +689,7 @@
         "BASIC",
         "tutorial"
       ],
-      "rank": 32
+      "rank": 33
     },
     {
       "title": "GitHub Repo Stats",
@@ -688,7 +709,7 @@
         "REST API",
         "browser tool"
       ],
-      "rank": 33
+      "rank": 34
     },
     {
       "title": "Chevrolet Performance eCrate package (400v/200hp)",
@@ -710,7 +731,7 @@
         "battery pack",
         "crate engine"
       ],
-      "rank": 34
+      "rank": 35
     },
     {
       "title": "ProgramBench: Can Language Models Rebuild Programs from Scratch?",
@@ -732,7 +753,7 @@
         "code generation",
         "fuzzing"
       ],
-      "rank": 35
+      "rank": 36
     },
     {
       "title": "Community firmware for the Xteink X4 e-paper reader",
@@ -753,7 +774,7 @@
         "firmware",
         "ESP32-C3"
       ],
-      "rank": 36
+      "rank": 37
     },
     {
       "title": "Python 3.15.0 beta 1 is here!",
@@ -774,7 +795,7 @@
         "JIT",
         "CPython"
       ],
-      "rank": 37
+      "rank": 38
     },
     {
       "title": "Seth Michael Larson: Library dependency version specifiers aren't for fixing vulnerabilities",
@@ -794,7 +815,7 @@
         "dependency management",
         "vulnerabilities"
       ],
-      "rank": 38
+      "rank": 39
     },
     {
       "title": "Maybe you shouldn't install new software for a bit",
@@ -814,7 +835,7 @@
         "supply chain",
         "npm"
       ],
-      "rank": 39
+      "rank": 40
     }
   ]
 }
