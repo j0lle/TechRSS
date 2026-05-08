@@ -1,9 +1,9 @@
 {
   "date": "2026-05-09",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3270,
-  "filtered_articles": 34,
+  "success_feeds": 87,
+  "total_articles": 3190,
+  "filtered_articles": 32,
   "articles": [
     {
       "title": "This Week on The Analog Antiquarian",
@@ -26,6 +26,26 @@
       "rank": 1
     },
     {
+      "title": "Developing more confidence when tracking renames via Read­Directory­ChangesW",
+      "title_display": "Tracking renames more reliably with ReadDirectoryChangesExW",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260508-00/?p=112310",
+      "pub_date": "2026-05-08T14:00:00.000Z",
+      "summary": "Switching from ReadDirectoryChangesW to ReadDirectoryChangesExW with ReadDirectoryNotifyExtendedInformation lets you inspect FILE_NOTIFY_EXTENDED_INFORMATION, which includes a FileId for each change. That FileId can be used to match FILE_ACTION_RENAMED_OLD_FILE and FILE_ACTION_RENAMED_NEW_FILE entries and verify they belong to the same rename operation. The post is a practical Windows filesystem tip, but it is a short implementation note rather than a deep investigation or benchmark-driven analysis.",
+      "source_name": "devblogs.microsoft.com/oldnewthing",
+      "source_type": "rss",
+      "score": 12,
+      "depth": 4,
+      "novelty": 4,
+      "breadth": 4,
+      "category": "engineering",
+      "keywords": [
+        "windows api",
+        "filesystem",
+        "rename tracking"
+      ],
+      "rank": 2
+    },
+    {
       "title": "An Introduction to Meshtastic",
       "title_display": "Meshtastic Introduces Off-Grid LoRa Mesh Messaging",
       "link": "https://meshtastic.org/docs/introduction/",
@@ -44,7 +64,7 @@
         "LoRa",
         "mesh networking"
       ],
-      "rank": 2
+      "rank": 3
     }
   ]
 }
