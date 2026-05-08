@@ -111,21 +111,21 @@
     },
     {
       "title": "Cartoon Network Flash Games",
-      "title_display": "Cartoon Network Flash Games Archive",
+      "title_display": "Blocked Page for Cartoon Network Flash Games",
       "link": "https://www.webdesignmuseum.org/flash-game-exhibitions/cartoon-network-flash-games",
       "pub_date": "2026-05-08T16:50:13.000Z",
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
       "hn_points": 166,
-      "score": 4,
+      "score": 3,
       "depth": 1,
       "novelty": 1,
-      "breadth": 2,
+      "breadth": 1,
       "category": "other",
       "keywords": [
-        "flash",
-        "cartoon network",
+        "Cloudflare",
+        "flash games",
         "web archive"
       ],
       "rank": 6
@@ -257,22 +257,22 @@
     },
     {
       "title": "GeoJSON",
-      "title_display": "GeoJSON Standard and Data Format Overview",
+      "title_display": "GeoJSON Specification Reference",
       "link": "https://geojson.org/",
       "pub_date": "2026-05-08T12:10:19.000Z",
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
       "hn_points": 130,
-      "score": 6,
+      "score": 7,
       "depth": 1,
       "novelty": 1,
-      "breadth": 4,
-      "category": "engineering",
+      "breadth": 5,
+      "category": "other",
       "keywords": [
         "GeoJSON",
-        "geospatial data",
-        "RFC 7946"
+        "RFC 7946",
+        "geospatial data"
       ],
       "rank": 13
     },
