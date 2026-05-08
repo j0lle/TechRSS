@@ -1,0 +1,50 @@
+{
+  "date": "2026-05-09",
+  "total_feeds": 95,
+  "success_feeds": 89,
+  "total_articles": 3270,
+  "filtered_articles": 34,
+  "articles": [
+    {
+      "title": "This Week on The Analog Antiquarian",
+      "title_display": "The Analog Antiquarian Pauses for Two Weeks",
+      "link": "https://www.filfre.net/2026/05/this-week-on-the-analog-antiquarian/",
+      "pub_date": "2026-05-08T16:11:33.000Z",
+      "summary": "",
+      "source_name": "filfre.net",
+      "source_type": "rss",
+      "score": 3,
+      "depth": 1,
+      "novelty": 1,
+      "breadth": 1,
+      "category": "other",
+      "keywords": [
+        "blog update",
+        "analog antiquarian",
+        "schedule"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "An Introduction to Meshtastic",
+      "title_display": "Meshtastic Introduces Off-Grid LoRa Mesh Messaging",
+      "link": "https://meshtastic.org/docs/introduction/",
+      "pub_date": "2026-05-08T12:50:16.000Z",
+      "summary": "Meshtastic’s introduction page describes an open-source, community-run system that turns inexpensive LoRa radios into an off-grid mesh messaging platform. The docs emphasize long range, no phone requirement for mesh communication, decentralized operation without a dedicated router, encrypted messaging, strong battery life, and optional GPS location features. It also notes a 331 km ground record and shows device connectivity across radios, Bluetooth, Wi‑Fi, USB, and the meshtastic-cli. For engineers, the practical value is a lightweight, license-friendly way to prototype resilient communications for remote or infrastructure-limited environments.",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 171,
+      "score": 9,
+      "depth": 2,
+      "novelty": 2,
+      "breadth": 5,
+      "category": "tools",
+      "keywords": [
+        "Meshtastic",
+        "LoRa",
+        "mesh networking"
+      ],
+      "rank": 2
+    }
+  ]
+}
