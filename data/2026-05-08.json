@@ -91,6 +91,26 @@
       "rank": 4
     },
     {
+      "title": "Notes on incidents",
+      "title_display": "Notes on Incident Response Behavior",
+      "link": "https://seangoedecke.com/notes-on-incidents/",
+      "pub_date": "2026-05-08T00:00:00.000Z",
+      "summary": "",
+      "source_name": "seangoedecke.com",
+      "source_type": "rss",
+      "score": 8,
+      "depth": 2,
+      "novelty": 2,
+      "breadth": 4,
+      "category": "engineering",
+      "keywords": [
+        "incident response",
+        "on-call",
+        "production systems"
+      ],
+      "rank": 5
+    },
+    {
       "title": "Announcing the Program of DuckCon #7 Amsterdam",
       "title_display": "DuckDB Announces DuckCon #7 Amsterdam Program",
       "link": "https://duckdb.org/2026/05/08/announcing-duckcon7.html",
@@ -108,7 +128,7 @@
         "DuckCon",
         "conference"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Dirtyfrag: Universal Linux LPE",
@@ -130,7 +150,7 @@
         "Dirty Frag",
         "rxrpc"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "llm-gemini 0.31",
@@ -150,7 +170,7 @@
         "llm-gemini",
         "release"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Big Words",
@@ -170,7 +190,7 @@
         "presentation",
         "query parameters"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Natural Language Autoencoders: Turning Claude's Thoughts into Text",
@@ -192,7 +212,7 @@
         "autoencoders",
         "auditing"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Smoothed polygons",
@@ -212,7 +232,7 @@
         "level sets",
         "polygons"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "Behind the Scenes Hardening Firefox with Claude Mythos Preview",
@@ -233,7 +253,7 @@
         "vulnerability hunting",
         "Mozilla"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "DeepSeek 4 Flash local inference engine for Metal",
@@ -254,7 +274,7 @@
         "KV cache",
         "DeepSeek V4 Flash"
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "title": "Chrome removes claim of On-device Al not sending data to Google Servers",
@@ -275,7 +295,7 @@
         "on-device AI",
         "privacy"
       ],
-      "rank": 13
+      "rank": 14
     },
     {
       "title": "Notes on the xAI/Anthropic data center deal",
@@ -296,7 +316,7 @@
         "data centers",
         "compute"
       ],
-      "rank": 14
+      "rank": 15
     },
     {
       "title": "Introducing Postgres Query Insights in ClickHouse Cloud",
@@ -317,7 +337,7 @@
         "query insights",
         "pg_stat_ch"
       ],
-      "rank": 15
+      "rank": 16
     },
     {
       "title": "AlphaEvolve: Gemini-powered coding agent scaling impact across fields",
@@ -338,7 +358,7 @@
         "Gemini",
         "optimization"
       ],
-      "rank": 16
+      "rank": 17
     },
     {
       "title": "When you upgrade your resource strings to Unicode, don’t forget to specify the L prefix",
@@ -359,7 +379,7 @@
         "L prefix",
         "Visual Studio"
       ],
-      "rank": 17
+      "rank": 18
     },
     {
       "title": "RaTeX: KaTeX-compatible LaTeX rendering engine in pure Rust",
@@ -381,7 +401,7 @@
         "WASM",
         "math rendering"
       ],
-      "rank": 18
+      "rank": 19
     },
     {
       "title": "Boris Cherny: TI-83 Plus Basic Programming Tutorial (2004)",
@@ -403,7 +423,7 @@
         "BASIC",
         "tutorial"
       ],
-      "rank": 19
+      "rank": 20
     },
     {
       "title": "GitHub Repo Stats",
@@ -423,7 +443,7 @@
         "REST API",
         "browser tool"
       ],
-      "rank": 20
+      "rank": 21
     },
     {
       "title": "Chevrolet Performance eCrate package (400v/200hp)",
@@ -445,7 +465,7 @@
         "battery pack",
         "crate engine"
       ],
-      "rank": 21
+      "rank": 22
     },
     {
       "title": "ProgramBench: Can Language Models Rebuild Programs from Scratch?",
@@ -467,7 +487,7 @@
         "code generation",
         "fuzzing"
       ],
-      "rank": 22
+      "rank": 23
     },
     {
       "title": "Community firmware for the Xteink X4 e-paper reader",
@@ -488,7 +508,7 @@
         "firmware",
         "ESP32-C3"
       ],
-      "rank": 23
+      "rank": 24
     },
     {
       "title": "Python 3.15.0 beta 1 is here!",
@@ -509,7 +529,7 @@
         "JIT",
         "CPython"
       ],
-      "rank": 24
+      "rank": 25
     },
     {
       "title": "Seth Michael Larson: Library dependency version specifiers aren't for fixing vulnerabilities",
@@ -529,7 +549,7 @@
         "dependency management",
         "vulnerabilities"
       ],
-      "rank": 25
+      "rank": 26
     },
     {
       "title": "Maybe you shouldn't install new software for a bit",
@@ -549,7 +569,7 @@
         "supply chain",
         "npm"
       ],
-      "rank": 26
+      "rank": 27
     }
   ]
 }
