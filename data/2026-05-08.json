@@ -1,10 +1,30 @@
 {
   "date": "2026-05-08",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3269,
-  "filtered_articles": 30,
+  "success_feeds": 88,
+  "total_articles": 3244,
+  "filtered_articles": 29,
   "articles": [
+    {
+      "title": "Dell buys Alienware, May 8, 2006",
+      "title_display": "Dell’s Alienware Acquisition, 20 Years Later",
+      "link": "https://dfarq.homeip.net/dell-buys-alienware-may-8-2006/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=dell-buys-alienware-may-8-2006",
+      "pub_date": "2026-05-08T11:00:40.000Z",
+      "summary": "This is a short retrospective on Dell’s 2006 acquisition of Alienware, framed as a business and brand-history story rather than a technical engineering piece. It recaps Alienware’s origins, notes that Dell kept it operating as a subsidiary with separate branding, and cites old trade-magazine reactions from 2006 showing mixed industry sentiment. The only concrete operational detail is that Alienware continued to ship some AMD Athlon 64 / AMD64 systems even while Dell itself was still Intel-only at the time, which the author speculates may have influenced Dell’s later adoption of AMD. The post also includes one anecdotal example from a corporate environment, but no metrics, architecture, product internals, or engineering lessons. For engineers, the main relevance is historical context about PC vendor strategy and how an acquisition can preserve a niche brand while expanding component flexibility.",
+      "source_name": "dfarq.homeip.net",
+      "source_type": "rss",
+      "score": 5,
+      "depth": 2,
+      "novelty": 1,
+      "breadth": 2,
+      "category": "other",
+      "keywords": [
+        "retro computing",
+        "Alienware",
+        "Dell"
+      ],
+      "rank": 1
+    },
     {
       "title": "Weekend at Bernie’s",
       "title_display": "Measuring Dead Open-Source Packages Across Major Registries",
@@ -24,7 +44,28 @@
         "package registries",
         "dependency graphs"
       ],
-      "rank": 1
+      "rank": 2
+    },
+    {
+      "title": "Rumors of my death are slightly exaggerated",
+      "title_display": "Cliff Stoll Says AI Slop Declared Him Dead",
+      "link": "https://news.ycombinator.com/item?id=48037336",
+      "pub_date": "2026-05-08T07:50:20.000Z",
+      "summary": "Cliff Stoll reports that an AI-generated Facebook review of The Cuckoo’s Egg falsely claimed he died in May 2024. The post is a short, first-person anecdote showing how AI-generated content can fabricate biographical facts with enough confidence to mislead readers, then spread when repeated. The practical takeaway is that social platforms now need stronger skepticism and verification around AI-produced text, especially when it targets real people and reputations.",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 310,
+      "score": 5,
+      "depth": 1,
+      "novelty": 1,
+      "breadth": 3,
+      "category": "opinion",
+      "keywords": [
+        "AI hallucinations",
+        "social media",
+        "Cliff Stoll"
+      ],
+      "rank": 3
     },
     {
       "title": "Detecting (or not) the use of -l and -c together in Bourne shells",
@@ -45,7 +86,7 @@
         "startup files",
         "POSIX"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "Canvas Breach Disrupts Schools & Colleges Nationwide",
@@ -66,7 +107,7 @@
         "data extortion",
         "education platforms"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "ShinyHunters claims data theft from 8,800 schools (Instructure/Canvas)",
@@ -88,7 +129,7 @@
         "Canvas",
         "data breach"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "Pushing Local Models With Focus And Polish",
@@ -109,7 +150,7 @@
         "tool calling",
         "Mac"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "Notes on the Hantavirus Outbreak",
@@ -130,7 +171,7 @@
         "R0",
         "outbreak"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "Steering Zig Fmt",
@@ -150,7 +191,7 @@
         "code formatting",
         "style steering"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "Notes on incidents",
@@ -170,7 +211,7 @@
         "on-call",
         "production systems"
       ],
-      "rank": 8
+      "rank": 10
     },
     {
       "title": "Announcing the Program of DuckCon #7 Amsterdam",
@@ -190,7 +231,7 @@
         "DuckCon",
         "conference"
       ],
-      "rank": 9
+      "rank": 11
     },
     {
       "title": "Dirtyfrag: Universal Linux LPE",
@@ -212,7 +253,7 @@
         "Dirty Frag",
         "rxrpc"
       ],
-      "rank": 10
+      "rank": 12
     },
     {
       "title": "llm-gemini 0.31",
@@ -232,7 +273,7 @@
         "llm-gemini",
         "release"
       ],
-      "rank": 11
+      "rank": 13
     },
     {
       "title": "Big Words",
@@ -252,7 +293,7 @@
         "presentation",
         "query parameters"
       ],
-      "rank": 12
+      "rank": 14
     },
     {
       "title": "Natural Language Autoencoders: Turning Claude's Thoughts into Text",
@@ -274,7 +315,7 @@
         "autoencoders",
         "auditing"
       ],
-      "rank": 13
+      "rank": 15
     },
     {
       "title": "Smoothed polygons",
@@ -294,7 +335,7 @@
         "level sets",
         "polygons"
       ],
-      "rank": 14
+      "rank": 16
     },
     {
       "title": "Behind the Scenes Hardening Firefox with Claude Mythos Preview",
@@ -315,7 +356,7 @@
         "vulnerability hunting",
         "Mozilla"
       ],
-      "rank": 15
+      "rank": 17
     },
     {
       "title": "DeepSeek 4 Flash local inference engine for Metal",
@@ -336,7 +377,7 @@
         "KV cache",
         "DeepSeek V4 Flash"
       ],
-      "rank": 16
+      "rank": 18
     },
     {
       "title": "Chrome removes claim of On-device Al not sending data to Google Servers",
@@ -357,7 +398,7 @@
         "on-device AI",
         "privacy"
       ],
-      "rank": 17
+      "rank": 19
     },
     {
       "title": "Notes on the xAI/Anthropic data center deal",
@@ -378,7 +419,7 @@
         "data centers",
         "compute"
       ],
-      "rank": 18
+      "rank": 20
     },
     {
       "title": "Introducing Postgres Query Insights in ClickHouse Cloud",
@@ -399,7 +440,7 @@
         "query insights",
         "pg_stat_ch"
       ],
-      "rank": 19
+      "rank": 21
     },
     {
       "title": "AlphaEvolve: Gemini-powered coding agent scaling impact across fields",
@@ -420,7 +461,7 @@
         "Gemini",
         "optimization"
       ],
-      "rank": 20
+      "rank": 22
     },
     {
       "title": "When you upgrade your resource strings to Unicode, don’t forget to specify the L prefix",
@@ -441,7 +482,7 @@
         "L prefix",
         "Visual Studio"
       ],
-      "rank": 21
+      "rank": 23
     },
     {
       "title": "RaTeX: KaTeX-compatible LaTeX rendering engine in pure Rust",
@@ -463,7 +504,7 @@
         "WASM",
         "math rendering"
       ],
-      "rank": 22
+      "rank": 24
     },
     {
       "title": "Boris Cherny: TI-83 Plus Basic Programming Tutorial (2004)",
@@ -485,7 +526,7 @@
         "BASIC",
         "tutorial"
       ],
-      "rank": 23
+      "rank": 25
     },
     {
       "title": "GitHub Repo Stats",
@@ -505,7 +546,7 @@
         "REST API",
         "browser tool"
       ],
-      "rank": 24
+      "rank": 26
     },
     {
       "title": "Chevrolet Performance eCrate package (400v/200hp)",
@@ -527,7 +568,7 @@
         "battery pack",
         "crate engine"
       ],
-      "rank": 25
+      "rank": 27
     },
     {
       "title": "ProgramBench: Can Language Models Rebuild Programs from Scratch?",
@@ -549,7 +590,7 @@
         "code generation",
         "fuzzing"
       ],
-      "rank": 26
+      "rank": 28
     },
     {
       "title": "Community firmware for the Xteink X4 e-paper reader",
@@ -570,7 +611,7 @@
         "firmware",
         "ESP32-C3"
       ],
-      "rank": 27
+      "rank": 29
     },
     {
       "title": "Python 3.15.0 beta 1 is here!",
@@ -591,7 +632,7 @@
         "JIT",
         "CPython"
       ],
-      "rank": 28
+      "rank": 30
     },
     {
       "title": "Seth Michael Larson: Library dependency version specifiers aren't for fixing vulnerabilities",
@@ -611,7 +652,7 @@
         "dependency management",
         "vulnerabilities"
       ],
-      "rank": 29
+      "rank": 31
     },
     {
       "title": "Maybe you shouldn't install new software for a bit",
@@ -631,7 +672,7 @@
         "supply chain",
         "npm"
       ],
-      "rank": 30
+      "rank": 32
     }
   ]
 }
