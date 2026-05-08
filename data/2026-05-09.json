@@ -26,6 +26,27 @@
       "rank": 1
     },
     {
+      "title": "Google Cloud Fraud Defence is just WEI repackaged",
+      "title_display": "Google Cloud Fraud Defense Repackages WEI-Style Attestation",
+      "link": "https://privatecaptcha.com/blog/google-cloud-fraud-defence-wei/",
+      "pub_date": "2026-05-08T15:50:15.000Z",
+      "summary": "Google Cloud Fraud Defense is presented as a reCAPTCHA evolution, but the article argues it is effectively Web Environment Integrity revived as a commercial product. Its core requirement is device attestation via Google Play Services / Play Integrity on modern Android or iPhone/iPad hardware, which excludes privacy-focused Android variants like GrapheneOS and LineageOS, and Firefox for Android. The author also argues the QR-code flow is easy for bot operators to bypass with cheap hardware and may train users into scanning malicious QR codes. More importantly, each successful challenge can create a persistent hardware-linked signal, turning fraud checks into a tracking mechanism across sites. The practical takeaway is that the product is framed as anti-bot defense, but its real impact is broader control and attribution over web access.",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 393,
+      "score": 15,
+      "depth": 4,
+      "novelty": 5,
+      "breadth": 6,
+      "category": "security",
+      "keywords": [
+        "device attestation",
+        "reCAPTCHA",
+        "privacy"
+      ],
+      "rank": 2
+    },
+    {
       "title": "A web page that shows you everything the browser told it without asking",
       "title_display": "Browser Fingerprinting Exposed as Interactive Web Story",
       "link": "https://sinceyouarrived.world/taken",
@@ -44,7 +65,7 @@
         "privacy",
         "JavaScript APIs"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Developing more confidence when tracking renames via Read­Directory­ChangesW",
@@ -64,7 +85,7 @@
         "filesystem",
         "rename tracking"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "An Introduction to Meshtastic",
@@ -85,7 +106,7 @@
         "LoRa",
         "mesh networking"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Mojo 1.0 Beta",
@@ -107,7 +128,7 @@
         "GPU",
         "Python interop"
       ],
-      "rank": 5
+      "rank": 6
     }
   ]
 }
