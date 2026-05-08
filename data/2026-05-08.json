@@ -2,9 +2,52 @@
   "date": "2026-05-08",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3274,
+  "total_articles": 3269,
   "filtered_articles": 33,
   "articles": [
+    {
+      "title": "Canvas Breach Disrupts Schools & Colleges Nationwide",
+      "title_display": "Canvas Extortion Attack Disrupts Schools Nationwide",
+      "link": "https://krebsonsecurity.com/2026/05/canvas-breach-disrupts-schools-colleges-nationwide/",
+      "pub_date": "2026-05-08T02:58:46.000Z",
+      "summary": "ShinyHunters defaced the Canvas login page and forced Instructure to take the platform offline, disrupting coursework and exams across U.S. schools and universities. Instructure says the breach exposed identifying information such as names, email addresses, student ID numbers, and messages, but not passwords, DOBs, government IDs, or financial data. The group claims access to far more data, while the vendor described the incident as contained before the outage. The article highlights a recurring extortion pattern against education software and shows how vendor compromise can cascade into broad operational disruption for thousands of institutions.",
+      "source_name": "krebsonsecurity.com",
+      "source_type": "rss",
+      "score": 16,
+      "depth": 4,
+      "novelty": 4,
+      "breadth": 8,
+      "category": "security",
+      "keywords": [
+        "Canvas",
+        "ShinyHunters",
+        "data extortion",
+        "education platforms"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "ShinyHunters claims data theft from 8,800 schools (Instructure/Canvas)",
+      "title_display": "ShinyHunters Claims Massive Canvas Data Theft",
+      "link": "https://www.bleepingcomputer.com/news/security/instructure-hacker-claims-data-theft-from-8-800-schools-universities/",
+      "pub_date": "2026-05-08T02:30:32.000Z",
+      "summary": "ShinyHunters claims it stole 280 million records tied to students, teachers, and staff from 8,809 colleges, school districts, and online education platforms using Canvas. The article says the group alleges it used Canvas export and query features, including DAP queries, provisioning reports, and user APIs, to harvest records, messages, and enrollment data. BleepingComputer notes the claims are not independently verified and that specific institutions are not named because impact has not been confirmed. Several universities, including Colorado Boulder, Rutgers, and Tilburg University, have issued alerts while investigating possible exposure. The practical takeaway is that SaaS and LMS operators should treat API and export pathways as high-value exfiltration surfaces and review logging, rate limits, and tenant-level access controls.",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 137,
+      "score": 14,
+      "depth": 3,
+      "novelty": 3,
+      "breadth": 8,
+      "category": "security",
+      "keywords": [
+        "ShinyHunters",
+        "Instructure",
+        "Canvas",
+        "data breach"
+      ],
+      "rank": 2
+    },
     {
       "title": "Notes on the Hantavirus Outbreak",
       "title_display": "Andes Virus Outbreak: A Cautious, Data-Light Risk Estimate",
@@ -24,7 +67,7 @@
         "R0",
         "outbreak"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "Dirtyfrag: Universal Linux LPE",
@@ -46,7 +89,7 @@
         "Dirty Frag",
         "rxrpc"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "llm-gemini 0.31",
@@ -66,7 +109,7 @@
         "llm-gemini",
         "release"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "Big Words",
@@ -86,7 +129,7 @@
         "presentation",
         "query parameters"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "Natural Language Autoencoders: Turning Claude's Thoughts into Text",
@@ -108,7 +151,7 @@
         "autoencoders",
         "auditing"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "Smoothed polygons",
@@ -128,7 +171,7 @@
         "level sets",
         "polygons"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "Behind the Scenes Hardening Firefox with Claude Mythos Preview",
@@ -149,7 +192,7 @@
         "vulnerability hunting",
         "Mozilla"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "DeepSeek 4 Flash local inference engine for Metal",
@@ -170,7 +213,7 @@
         "KV cache",
         "DeepSeek V4 Flash"
       ],
-      "rank": 8
+      "rank": 10
     },
     {
       "title": "Chrome removes claim of On-device Al not sending data to Google Servers",
@@ -191,7 +234,7 @@
         "on-device AI",
         "privacy"
       ],
-      "rank": 9
+      "rank": 11
     },
     {
       "title": "Notes on the xAI/Anthropic data center deal",
@@ -212,7 +255,7 @@
         "data centers",
         "compute"
       ],
-      "rank": 10
+      "rank": 12
     },
     {
       "title": "Introducing Postgres Query Insights in ClickHouse Cloud",
@@ -233,7 +276,7 @@
         "query insights",
         "pg_stat_ch"
       ],
-      "rank": 11
+      "rank": 13
     },
     {
       "title": "AlphaEvolve: Gemini-powered coding agent scaling impact across fields",
@@ -254,7 +297,7 @@
         "Gemini",
         "optimization"
       ],
-      "rank": 12
+      "rank": 14
     },
     {
       "title": "When you upgrade your resource strings to Unicode, don’t forget to specify the L prefix",
@@ -275,7 +318,7 @@
         "L prefix",
         "Visual Studio"
       ],
-      "rank": 13
+      "rank": 15
     },
     {
       "title": "RaTeX: KaTeX-compatible LaTeX rendering engine in pure Rust",
@@ -297,7 +340,7 @@
         "WASM",
         "math rendering"
       ],
-      "rank": 14
+      "rank": 16
     },
     {
       "title": "Boris Cherny: TI-83 Plus Basic Programming Tutorial (2004)",
@@ -319,7 +362,7 @@
         "BASIC",
         "tutorial"
       ],
-      "rank": 15
+      "rank": 17
     },
     {
       "title": "GitHub Repo Stats",
@@ -339,7 +382,7 @@
         "REST API",
         "browser tool"
       ],
-      "rank": 16
+      "rank": 18
     },
     {
       "title": "Chevrolet Performance eCrate package (400v/200hp)",
@@ -361,7 +404,7 @@
         "battery pack",
         "crate engine"
       ],
-      "rank": 17
+      "rank": 19
     },
     {
       "title": "ProgramBench: Can Language Models Rebuild Programs from Scratch?",
@@ -383,7 +426,7 @@
         "code generation",
         "fuzzing"
       ],
-      "rank": 18
+      "rank": 20
     },
     {
       "title": "Community firmware for the Xteink X4 e-paper reader",
@@ -404,7 +447,7 @@
         "firmware",
         "ESP32-C3"
       ],
-      "rank": 19
+      "rank": 21
     },
     {
       "title": "Python 3.15.0 beta 1 is here!",
@@ -425,7 +468,7 @@
         "JIT",
         "CPython"
       ],
-      "rank": 20
+      "rank": 22
     },
     {
       "title": "Seth Michael Larson: Library dependency version specifiers aren't for fixing vulnerabilities",
@@ -445,7 +488,7 @@
         "dependency management",
         "vulnerabilities"
       ],
-      "rank": 21
+      "rank": 23
     },
     {
       "title": "Maybe you shouldn't install new software for a bit",
@@ -465,7 +508,7 @@
         "supply chain",
         "npm"
       ],
-      "rank": 22
+      "rank": 24
     }
   ]
 }
