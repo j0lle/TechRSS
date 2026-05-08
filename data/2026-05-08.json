@@ -1,10 +1,71 @@
 {
   "date": "2026-05-08",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3244,
+  "success_feeds": 89,
+  "total_articles": 3269,
   "filtered_articles": 29,
   "articles": [
+    {
+      "title": "Pluralistic: Lee Lai's \"Cannon\" (08 May 2026)",
+      "title_display": "Cory Doctorow on Lee Lai's subtle graphic novel 'Cannon'",
+      "link": "https://pluralistic.net/2026/05/08/gung-gung/",
+      "pub_date": "2026-05-08T12:19:36.000Z",
+      "summary": "",
+      "source_name": "pluralistic.net",
+      "source_type": "rss",
+      "score": 4,
+      "depth": 1,
+      "novelty": 1,
+      "breadth": 2,
+      "category": "other",
+      "keywords": [
+        "graphic novel",
+        "queer identity",
+        "workplace",
+        "family"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "The Real Python Podcast – Episode #294: Declarative Charts in Python & Discerning Iterators vs Iterables",
+      "title_display": "Altair Charts, Iterators, and Python Ecosystem Updates",
+      "link": "https://realpython.com/podcasts/rpp/294/",
+      "pub_date": "2026-05-08T12:00:00.000Z",
+      "summary": "This Real Python Podcast episode is a curated roundup rather than a deep technical investigation. The main engineering item is an overview of Altair’s declarative charting model in Python: instead of hand-coding figure setup, you map data columns to visual encodings and can add interaction without JavaScript. The episode also briefly covers Read the Docs’ new native `uv` support, Python 3.14/3.15 incremental GC changes, Django ORM boundary design, and a web-scraping comparison between `browser-use` and Playwright. It is useful as a pointer to current Python ecosystem topics, but it provides little original analysis, benchmarking, or implementation detail.",
+      "source_name": "realpython.com",
+      "source_type": "rss",
+      "score": 11,
+      "depth": 3,
+      "novelty": 2,
+      "breadth": 6,
+      "category": "engineering",
+      "keywords": [
+        "Altair",
+        "iterators",
+        "Django ORM"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "Quiz: Memory Management in Python",
+      "title_display": "Real Python Publishes Memory Management Quiz",
+      "link": "https://realpython.com/quizzes/python-memory-management/",
+      "pub_date": "2026-05-08T12:00:00.000Z",
+      "summary": "",
+      "source_name": "realpython.com",
+      "source_type": "rss",
+      "score": 4,
+      "depth": 1,
+      "novelty": 1,
+      "breadth": 2,
+      "category": "other",
+      "keywords": [
+        "Python",
+        "memory management",
+        "quiz"
+      ],
+      "rank": 3
+    },
     {
       "title": "Dell buys Alienware, May 8, 2006",
       "title_display": "Dell’s Alienware Acquisition, 20 Years Later",
@@ -23,7 +84,7 @@
         "Alienware",
         "Dell"
       ],
-      "rank": 1
+      "rank": 4
     },
     {
       "title": "Weekend at Bernie’s",
@@ -44,7 +105,7 @@
         "package registries",
         "dependency graphs"
       ],
-      "rank": 2
+      "rank": 5
     },
     {
       "title": "Rumors of my death are slightly exaggerated",
@@ -65,7 +126,7 @@
         "social media",
         "Cliff Stoll"
       ],
-      "rank": 3
+      "rank": 6
     },
     {
       "title": "Detecting (or not) the use of -l and -c together in Bourne shells",
@@ -86,7 +147,7 @@
         "startup files",
         "POSIX"
       ],
-      "rank": 4
+      "rank": 7
     },
     {
       "title": "Canvas Breach Disrupts Schools & Colleges Nationwide",
@@ -107,7 +168,7 @@
         "data extortion",
         "education platforms"
       ],
-      "rank": 5
+      "rank": 8
     },
     {
       "title": "ShinyHunters claims data theft from 8,800 schools (Instructure/Canvas)",
@@ -129,7 +190,7 @@
         "Canvas",
         "data breach"
       ],
-      "rank": 6
+      "rank": 9
     },
     {
       "title": "Pushing Local Models With Focus And Polish",
@@ -150,7 +211,7 @@
         "tool calling",
         "Mac"
       ],
-      "rank": 7
+      "rank": 10
     },
     {
       "title": "Notes on the Hantavirus Outbreak",
@@ -171,7 +232,7 @@
         "R0",
         "outbreak"
       ],
-      "rank": 8
+      "rank": 11
     },
     {
       "title": "Steering Zig Fmt",
@@ -191,7 +252,7 @@
         "code formatting",
         "style steering"
       ],
-      "rank": 9
+      "rank": 12
     },
     {
       "title": "Notes on incidents",
@@ -211,7 +272,7 @@
         "on-call",
         "production systems"
       ],
-      "rank": 10
+      "rank": 13
     },
     {
       "title": "Announcing the Program of DuckCon #7 Amsterdam",
@@ -231,7 +292,7 @@
         "DuckCon",
         "conference"
       ],
-      "rank": 11
+      "rank": 14
     },
     {
       "title": "Dirtyfrag: Universal Linux LPE",
@@ -253,7 +314,7 @@
         "Dirty Frag",
         "rxrpc"
       ],
-      "rank": 12
+      "rank": 15
     },
     {
       "title": "llm-gemini 0.31",
@@ -273,7 +334,7 @@
         "llm-gemini",
         "release"
       ],
-      "rank": 13
+      "rank": 16
     },
     {
       "title": "Big Words",
@@ -293,7 +354,7 @@
         "presentation",
         "query parameters"
       ],
-      "rank": 14
+      "rank": 17
     },
     {
       "title": "Natural Language Autoencoders: Turning Claude's Thoughts into Text",
@@ -315,7 +376,7 @@
         "autoencoders",
         "auditing"
       ],
-      "rank": 15
+      "rank": 18
     },
     {
       "title": "Smoothed polygons",
@@ -335,7 +396,7 @@
         "level sets",
         "polygons"
       ],
-      "rank": 16
+      "rank": 19
     },
     {
       "title": "Behind the Scenes Hardening Firefox with Claude Mythos Preview",
@@ -356,7 +417,7 @@
         "vulnerability hunting",
         "Mozilla"
       ],
-      "rank": 17
+      "rank": 20
     },
     {
       "title": "DeepSeek 4 Flash local inference engine for Metal",
@@ -377,7 +438,7 @@
         "KV cache",
         "DeepSeek V4 Flash"
       ],
-      "rank": 18
+      "rank": 21
     },
     {
       "title": "Chrome removes claim of On-device Al not sending data to Google Servers",
@@ -398,7 +459,7 @@
         "on-device AI",
         "privacy"
       ],
-      "rank": 19
+      "rank": 22
     },
     {
       "title": "Notes on the xAI/Anthropic data center deal",
@@ -419,7 +480,7 @@
         "data centers",
         "compute"
       ],
-      "rank": 20
+      "rank": 23
     },
     {
       "title": "Introducing Postgres Query Insights in ClickHouse Cloud",
@@ -440,7 +501,7 @@
         "query insights",
         "pg_stat_ch"
       ],
-      "rank": 21
+      "rank": 24
     },
     {
       "title": "AlphaEvolve: Gemini-powered coding agent scaling impact across fields",
@@ -461,7 +522,7 @@
         "Gemini",
         "optimization"
       ],
-      "rank": 22
+      "rank": 25
     },
     {
       "title": "When you upgrade your resource strings to Unicode, don’t forget to specify the L prefix",
@@ -482,7 +543,7 @@
         "L prefix",
         "Visual Studio"
       ],
-      "rank": 23
+      "rank": 26
     },
     {
       "title": "RaTeX: KaTeX-compatible LaTeX rendering engine in pure Rust",
@@ -504,7 +565,7 @@
         "WASM",
         "math rendering"
       ],
-      "rank": 24
+      "rank": 27
     },
     {
       "title": "Boris Cherny: TI-83 Plus Basic Programming Tutorial (2004)",
@@ -526,7 +587,7 @@
         "BASIC",
         "tutorial"
       ],
-      "rank": 25
+      "rank": 28
     },
     {
       "title": "GitHub Repo Stats",
@@ -546,7 +607,7 @@
         "REST API",
         "browser tool"
       ],
-      "rank": 26
+      "rank": 29
     },
     {
       "title": "Chevrolet Performance eCrate package (400v/200hp)",
@@ -568,7 +629,7 @@
         "battery pack",
         "crate engine"
       ],
-      "rank": 27
+      "rank": 30
     },
     {
       "title": "ProgramBench: Can Language Models Rebuild Programs from Scratch?",
@@ -590,7 +651,7 @@
         "code generation",
         "fuzzing"
       ],
-      "rank": 28
+      "rank": 31
     },
     {
       "title": "Community firmware for the Xteink X4 e-paper reader",
@@ -611,7 +672,7 @@
         "firmware",
         "ESP32-C3"
       ],
-      "rank": 29
+      "rank": 32
     },
     {
       "title": "Python 3.15.0 beta 1 is here!",
@@ -632,7 +693,7 @@
         "JIT",
         "CPython"
       ],
-      "rank": 30
+      "rank": 33
     },
     {
       "title": "Seth Michael Larson: Library dependency version specifiers aren't for fixing vulnerabilities",
@@ -652,7 +713,7 @@
         "dependency management",
         "vulnerabilities"
       ],
-      "rank": 31
+      "rank": 34
     },
     {
       "title": "Maybe you shouldn't install new software for a bit",
@@ -672,7 +733,7 @@
         "supply chain",
         "npm"
       ],
-      "rank": 32
+      "rank": 35
     }
   ]
 }
