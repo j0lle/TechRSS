@@ -1,9 +1,9 @@
 {
   "date": "2026-05-08",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3246,
-  "filtered_articles": 38,
+  "success_feeds": 86,
+  "total_articles": 3214,
+  "filtered_articles": 31,
   "articles": [
     {
       "title": "Dirtyfrag: Universal Linux LPE",
