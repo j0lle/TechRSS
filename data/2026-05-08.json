@@ -1,10 +1,71 @@
 {
   "date": "2026-05-08",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3244,
-  "filtered_articles": 28,
+  "success_feeds": 89,
+  "total_articles": 3270,
+  "filtered_articles": 33,
   "articles": [
+    {
+      "title": "HomePod mini feels like magic, but it's just good timing",
+      "title_display": "HomePod mini stereo sync uses gPTP over Wi‑Fi",
+      "link": "https://www.jeffgeerling.com/blog/2026/homepod-mini-feels-like-magic--but-it-s-just-good-timing/",
+      "pub_date": "2026-05-08T14:00:00.000Z",
+      "summary": "Jeff Geerling investigates how HomePod mini stereo pairing and AirPlay timing stay synchronized, using Apple’s Wireless Diagnostics sniffer and Wireshark to capture packets while audio is playing. He finds repeated PTPv2 message pairs—Sync, Follow_Up, Delay_Req, and Delay_Resp—wrapped in Apple Wireless Direct Link traffic, suggesting Apple relies on gPTP / IEEE 802.1AS and AVB-style timing rather than consumer-grade millisecond sync. The article also notes that Apple uses this timing model across HomePods and video playback on Macs, iPhones, iPads, and Apple TV. That makes the “magic” of wireless stereo pairing feel less mysterious and more like careful network timing engineering. The practical takeaway is that Apple’s consumer audio stack appears to depend on standards-based sub-microsecond synchronization, which helps explain why AirPlay 2 can sound tightly aligned without wired connections.",
+      "source_name": "jeffgeerling.com",
+      "source_type": "rss",
+      "score": 12,
+      "depth": 4,
+      "novelty": 4,
+      "breadth": 4,
+      "category": "engineering",
+      "keywords": [
+        "HomePod mini",
+        "PTP",
+        "gPTP",
+        "Wireshark"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Hi stranger",
+      "title_display": "A Personal Note on the Small Web",
+      "link": "https://idiallo.com/blog/hi?src=feed",
+      "pub_date": "2026-05-08T14:00:00.000Z",
+      "summary": "",
+      "source_name": "idiallo.com",
+      "source_type": "rss",
+      "score": 4,
+      "depth": 1,
+      "novelty": 1,
+      "breadth": 2,
+      "category": "opinion",
+      "keywords": [
+        "small web",
+        "RSS",
+        "blogging"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "Calculating curvature",
+      "title_display": "Calculating Curvature of Smoothed Triangle Level Sets",
+      "link": "https://www.johndcook.com/blog/2026/05/08/calculating-curvature/",
+      "pub_date": "2026-05-08T13:54:18.000Z",
+      "summary": "This post works through curvature for level sets of a 2D function, using a smoothed-triangle example where the level set becomes an equilateral triangle at c = -4 and rounds out as c increases. It derives the curvature formula conceptually, then shows a simplification at points where the curve can be treated as a graph with small slope. The author uses symmetry to identify where maximum and minimum curvature occur and gives numerical examples, including c = -3 with curvatures 0.7237 and 14.0838, and c = -1 with curvatures 2.80747 and 9.91622. The post is mathematically clear but relatively light on broader engineering application.",
+      "source_name": "johndcook.com",
+      "source_type": "rss",
+      "score": 9,
+      "depth": 3,
+      "novelty": 3,
+      "breadth": 3,
+      "category": "engineering",
+      "keywords": [
+        "curvature",
+        "level sets",
+        "calculus"
+      ],
+      "rank": 3
+    },
     {
       "title": "Pluralistic: Lee Lai's \"Cannon\" (08 May 2026)",
       "title_display": "Cory Doctorow on Lee Lai's subtle graphic novel 'Cannon'",
@@ -24,7 +85,7 @@
         "workplace",
         "family"
       ],
-      "rank": 1
+      "rank": 4
     },
     {
       "title": "The Real Python Podcast – Episode #294: Declarative Charts in Python & Discerning Iterators vs Iterables",
@@ -44,7 +105,7 @@
         "iterators",
         "Django ORM"
       ],
-      "rank": 2
+      "rank": 5
     },
     {
       "title": "Quiz: Memory Management in Python",
@@ -64,7 +125,7 @@
         "memory management",
         "quiz"
       ],
-      "rank": 3
+      "rank": 6
     },
     {
       "title": "Dell buys Alienware, May 8, 2006",
@@ -84,7 +145,7 @@
         "Alienware",
         "Dell"
       ],
-      "rank": 4
+      "rank": 7
     },
     {
       "title": "Weekend at Bernie’s",
@@ -105,7 +166,7 @@
         "package registries",
         "dependency graphs"
       ],
-      "rank": 5
+      "rank": 8
     },
     {
       "title": "Rumors of my death are slightly exaggerated",
@@ -126,7 +187,7 @@
         "social media",
         "Cliff Stoll"
       ],
-      "rank": 6
+      "rank": 9
     },
     {
       "title": "Detecting (or not) the use of -l and -c together in Bourne shells",
@@ -147,7 +208,7 @@
         "startup files",
         "POSIX"
       ],
-      "rank": 7
+      "rank": 10
     },
     {
       "title": "Canvas Breach Disrupts Schools & Colleges Nationwide",
@@ -168,7 +229,7 @@
         "data extortion",
         "education platforms"
       ],
-      "rank": 8
+      "rank": 11
     },
     {
       "title": "ShinyHunters claims data theft from 8,800 schools (Instructure/Canvas)",
@@ -190,7 +251,7 @@
         "Canvas",
         "data breach"
       ],
-      "rank": 9
+      "rank": 12
     },
     {
       "title": "Pushing Local Models With Focus And Polish",
@@ -211,7 +272,7 @@
         "tool calling",
         "Mac"
       ],
-      "rank": 10
+      "rank": 13
     },
     {
       "title": "Notes on the Hantavirus Outbreak",
@@ -232,7 +293,7 @@
         "R0",
         "outbreak"
       ],
-      "rank": 11
+      "rank": 14
     },
     {
       "title": "Steering Zig Fmt",
@@ -252,7 +313,27 @@
         "code formatting",
         "style steering"
       ],
-      "rank": 12
+      "rank": 15
+    },
+    {
+      "title": "Flower: an SSG with a Clojure template language",
+      "title_display": "Flower SSG Talk Shows Clojure Template Language",
+      "link": "https://jyn.dev/talks/flower/",
+      "pub_date": "2026-05-08T00:00:00.000Z",
+      "summary": "This is a conference-talk repository for Flower, a static site generator with a Clojure template language, presented at Babashka Conf 2026 in Amsterdam. The repo mainly contains the talk materials in Typst, plus a generated PDF and build notes for running Typst and Pympress. It does not include a deep technical writeup, benchmarks, or architecture evaluation of Flower itself. For engineers, the useful part is the packaging of the talk assets and the fact that the project demonstrates a Clojure-flavored approach to SSG authoring, but the source is primarily presentation-oriented rather than an implementation or performance study.",
+      "source_name": "jyn.dev",
+      "source_type": "rss",
+      "score": 10,
+      "depth": 3,
+      "novelty": 4,
+      "breadth": 3,
+      "category": "tools",
+      "keywords": [
+        "Typst",
+        "Clojure",
+        "SSG"
+      ],
+      "rank": 16
     },
     {
       "title": "Notes on incidents",
@@ -272,7 +353,7 @@
         "on-call",
         "production systems"
       ],
-      "rank": 13
+      "rank": 17
     },
     {
       "title": "Announcing the Program of DuckCon #7 Amsterdam",
@@ -292,7 +373,7 @@
         "DuckCon",
         "conference"
       ],
-      "rank": 14
+      "rank": 18
     },
     {
       "title": "Dirtyfrag: Universal Linux LPE",
@@ -314,7 +395,7 @@
         "Dirty Frag",
         "rxrpc"
       ],
-      "rank": 15
+      "rank": 19
     },
     {
       "title": "llm-gemini 0.31",
@@ -334,7 +415,7 @@
         "llm-gemini",
         "release"
       ],
-      "rank": 16
+      "rank": 20
     },
     {
       "title": "Big Words",
@@ -354,7 +435,7 @@
         "presentation",
         "query parameters"
       ],
-      "rank": 17
+      "rank": 21
     },
     {
       "title": "Natural Language Autoencoders: Turning Claude's Thoughts into Text",
@@ -376,7 +457,7 @@
         "autoencoders",
         "auditing"
       ],
-      "rank": 18
+      "rank": 22
     },
     {
       "title": "Smoothed polygons",
@@ -396,7 +477,7 @@
         "level sets",
         "polygons"
       ],
-      "rank": 19
+      "rank": 23
     },
     {
       "title": "Behind the Scenes Hardening Firefox with Claude Mythos Preview",
@@ -417,7 +498,7 @@
         "vulnerability hunting",
         "Mozilla"
       ],
-      "rank": 20
+      "rank": 24
     },
     {
       "title": "DeepSeek 4 Flash local inference engine for Metal",
@@ -438,7 +519,7 @@
         "KV cache",
         "DeepSeek V4 Flash"
       ],
-      "rank": 21
+      "rank": 25
     },
     {
       "title": "Chrome removes claim of On-device Al not sending data to Google Servers",
@@ -459,7 +540,7 @@
         "on-device AI",
         "privacy"
       ],
-      "rank": 22
+      "rank": 26
     },
     {
       "title": "Notes on the xAI/Anthropic data center deal",
@@ -480,7 +561,7 @@
         "data centers",
         "compute"
       ],
-      "rank": 23
+      "rank": 27
     },
     {
       "title": "Introducing Postgres Query Insights in ClickHouse Cloud",
@@ -501,7 +582,7 @@
         "query insights",
         "pg_stat_ch"
       ],
-      "rank": 24
+      "rank": 28
     },
     {
       "title": "AlphaEvolve: Gemini-powered coding agent scaling impact across fields",
@@ -522,7 +603,7 @@
         "Gemini",
         "optimization"
       ],
-      "rank": 25
+      "rank": 29
     },
     {
       "title": "When you upgrade your resource strings to Unicode, don’t forget to specify the L prefix",
@@ -543,7 +624,7 @@
         "L prefix",
         "Visual Studio"
       ],
-      "rank": 26
+      "rank": 30
     },
     {
       "title": "RaTeX: KaTeX-compatible LaTeX rendering engine in pure Rust",
@@ -565,7 +646,7 @@
         "WASM",
         "math rendering"
       ],
-      "rank": 27
+      "rank": 31
     },
     {
       "title": "Boris Cherny: TI-83 Plus Basic Programming Tutorial (2004)",
@@ -587,7 +668,7 @@
         "BASIC",
         "tutorial"
       ],
-      "rank": 28
+      "rank": 32
     },
     {
       "title": "GitHub Repo Stats",
@@ -607,7 +688,7 @@
         "REST API",
         "browser tool"
       ],
-      "rank": 29
+      "rank": 33
     },
     {
       "title": "Chevrolet Performance eCrate package (400v/200hp)",
@@ -629,7 +710,7 @@
         "battery pack",
         "crate engine"
       ],
-      "rank": 30
+      "rank": 34
     },
     {
       "title": "ProgramBench: Can Language Models Rebuild Programs from Scratch?",
@@ -651,7 +732,7 @@
         "code generation",
         "fuzzing"
       ],
-      "rank": 31
+      "rank": 35
     },
     {
       "title": "Community firmware for the Xteink X4 e-paper reader",
@@ -672,7 +753,7 @@
         "firmware",
         "ESP32-C3"
       ],
-      "rank": 32
+      "rank": 36
     },
     {
       "title": "Python 3.15.0 beta 1 is here!",
@@ -693,7 +774,7 @@
         "JIT",
         "CPython"
       ],
-      "rank": 33
+      "rank": 37
     },
     {
       "title": "Seth Michael Larson: Library dependency version specifiers aren't for fixing vulnerabilities",
@@ -713,7 +794,7 @@
         "dependency management",
         "vulnerabilities"
       ],
-      "rank": 34
+      "rank": 38
     },
     {
       "title": "Maybe you shouldn't install new software for a bit",
@@ -733,7 +814,7 @@
         "supply chain",
         "npm"
       ],
-      "rank": 35
+      "rank": 39
     }
   ]
 }
