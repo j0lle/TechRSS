@@ -1,10 +1,30 @@
 {
   "date": "2026-05-09",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3244,
-  "filtered_articles": 38,
+  "success_feeds": 89,
+  "total_articles": 3272,
+  "filtered_articles": 39,
   "articles": [
+    {
+      "title": "AI makes weak engineers less harmful",
+      "title_display": "AI Coding Agents Raise the Floor for Weak Engineers",
+      "link": "https://seangoedecke.com/ai-makes-weak-engineers-less-harmful/",
+      "pub_date": "2026-05-09T00:00:00.000Z",
+      "summary": "The post argues that Claude Code and similar coding agents make weak engineers less harmful by preventing many obvious mistakes, such as bad cache keys, infinite loops, and resource leaks. It claims this shifts some low-performing engineers from being actively net-negative to producing work that is at least line-by-line plausible, though still often wrong in subtle ways. The author frames this as a practical change in team dynamics rather than a breakthrough in engineering quality. The main implication is that AI may reduce damage from weak contributors, but it can also slow their learning and turn them into thin wrappers around the model.",
+      "source_name": "seangoedecke.com",
+      "source_type": "rss",
+      "score": 10,
+      "depth": 2,
+      "novelty": 3,
+      "breadth": 5,
+      "category": "opinion",
+      "keywords": [
+        "AI coding agents",
+        "software engineering",
+        "productivity"
+      ],
+      "rank": 1
+    },
     {
       "title": "Using Claude Code: The Unreasonable Effectiveness of HTML",
       "title_display": "Claude Code Case for HTML Over Markdown",
@@ -24,7 +44,7 @@
         "prompt engineering",
         "security"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "George Orwell's review of Russel's Power: A New Social Analysis",
@@ -44,7 +64,7 @@
         "Russell",
         "power"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Apple, Intel have reached preliminary chip-making deal",
@@ -65,28 +85,28 @@
         "Intel",
         "chip manufacturing"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Cartoon Network Flash Games",
-      "title_display": "Blocked Archive Page on Cartoon Network Flash Games",
+      "title_display": "Cartoon Network Flash Games Page Blocked by Cloudflare",
       "link": "https://www.webdesignmuseum.org/flash-game-exhibitions/cartoon-network-flash-games",
       "pub_date": "2026-05-08T16:50:13.000Z",
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
       "hn_points": 166,
-      "score": 3,
+      "score": 4,
       "depth": 1,
       "novelty": 1,
-      "breadth": 1,
+      "breadth": 2,
       "category": "other",
       "keywords": [
-        "flash",
-        "web archive",
-        "cartoon network"
+        "Flash",
+        "Cartoon Network",
+        "web archive"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "This Week on The Analog Antiquarian",
@@ -106,7 +126,7 @@
         "analog antiquarian",
         "schedule"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Google Cloud Fraud Defence is just WEI repackaged",
@@ -127,7 +147,7 @@
         "reCAPTCHA",
         "privacy"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Serving a Website on a Raspberry Pi Zero Running in RAM",
@@ -149,7 +169,7 @@
         "Raspberry Pi Zero",
         "diskless"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "A web page that shows you everything the browser told it without asking",
@@ -170,7 +190,7 @@
         "privacy",
         "JavaScript APIs"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Developing more confidence when tracking renames via Read­Directory­ChangesW",
@@ -190,7 +210,7 @@
         "filesystem",
         "rename tracking"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "An Introduction to Meshtastic",
@@ -211,11 +231,11 @@
         "LoRa",
         "mesh networking"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "GeoJSON",
-      "title_display": "GeoJSON Format and RFC 7946 Standard",
+      "title_display": "GeoJSON Specification Overview",
       "link": "https://geojson.org/",
       "pub_date": "2026-05-08T12:10:19.000Z",
       "summary": "",
@@ -229,11 +249,10 @@
       "category": "engineering",
       "keywords": [
         "GeoJSON",
-        "RFC 7946",
         "geospatial",
-        "data format"
+        "RFC 7946"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "A Runnable Reference Architecture for Battery Energy Storage Systems on InfluxDB 3",
@@ -254,7 +273,7 @@
         "time series",
         "Python"
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "title": "Mojo 1.0 Beta",
@@ -276,7 +295,7 @@
         "GPU",
         "Python interop"
       ],
-      "rank": 13
+      "rank": 14
     },
     {
       "title": "Seth Michael Larson: Using Epilogue Retrace app with iPhone 13 Pro and Ubuntu",
@@ -297,7 +316,7 @@
         "Ubuntu",
         "USB-C"
       ],
-      "rank": 14
+      "rank": 15
     },
     {
       "title": "Wander Console 0.6.0",
@@ -318,7 +337,7 @@
         "query parameters",
         "open source"
       ],
-      "rank": 15
+      "rank": 16
     }
   ]
 }
