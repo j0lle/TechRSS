@@ -1,10 +1,31 @@
 {
   "date": "2026-05-08",
   "total_feeds": 95,
-  "success_feeds": 86,
-  "total_articles": 3214,
-  "filtered_articles": 31,
+  "success_feeds": 89,
+  "total_articles": 3274,
+  "filtered_articles": 33,
   "articles": [
+    {
+      "title": "Notes on the Hantavirus Outbreak",
+      "title_display": "Andes Virus Outbreak: A Cautious, Data-Light Risk Estimate",
+      "link": "https://borretti.me/article/notes-on-the-hantavirus-outbreak",
+      "pub_date": "2026-05-08T00:00:00.000Z",
+      "summary": "This post argues that the Andes virus outbreak linked to a cruise ship is concerning but more likely to fizzle out than become a large global event. The author cites prior human-to-human transmission in Argentina, including the 2018–2019 Epuyén outbreak with 34 infections, 11 deaths, and an estimated R0 of 2.12 that fell below 1 after control measures. They also note that most Argentine HPS cases between 2009 and 2017 came from rodent exposure, with only 1.8% suspected human-to-human spread, and that previous export cases to Switzerland and the U.S. did not trigger wider outbreaks. The piece ends with a personal forecast: 70% probability of fewer than 300 deaths and 90% probability of fewer than 1,000 deaths, while warning that early complacency resembles the start of COVID.",
+      "source_name": "borretti.me",
+      "source_type": "rss",
+      "score": 12,
+      "depth": 4,
+      "novelty": 3,
+      "breadth": 5,
+      "category": "opinion",
+      "keywords": [
+        "hantavirus",
+        "Andes virus",
+        "R0",
+        "outbreak"
+      ],
+      "rank": 1
+    },
     {
       "title": "Dirtyfrag: Universal Linux LPE",
       "title_display": "Dirty Frag Shows Universal Linux Root Escalation",
@@ -25,7 +46,7 @@
         "Dirty Frag",
         "rxrpc"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "llm-gemini 0.31",
@@ -45,7 +66,7 @@
         "llm-gemini",
         "release"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Big Words",
@@ -65,7 +86,7 @@
         "presentation",
         "query parameters"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Natural Language Autoencoders: Turning Claude's Thoughts into Text",
@@ -87,7 +108,7 @@
         "autoencoders",
         "auditing"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Smoothed polygons",
@@ -107,7 +128,7 @@
         "level sets",
         "polygons"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Behind the Scenes Hardening Firefox with Claude Mythos Preview",
@@ -128,7 +149,7 @@
         "vulnerability hunting",
         "Mozilla"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "DeepSeek 4 Flash local inference engine for Metal",
@@ -149,7 +170,7 @@
         "KV cache",
         "DeepSeek V4 Flash"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Chrome removes claim of On-device Al not sending data to Google Servers",
@@ -170,7 +191,7 @@
         "on-device AI",
         "privacy"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Notes on the xAI/Anthropic data center deal",
@@ -191,7 +212,7 @@
         "data centers",
         "compute"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Introducing Postgres Query Insights in ClickHouse Cloud",
@@ -212,7 +233,7 @@
         "query insights",
         "pg_stat_ch"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "AlphaEvolve: Gemini-powered coding agent scaling impact across fields",
@@ -233,7 +254,7 @@
         "Gemini",
         "optimization"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "When you upgrade your resource strings to Unicode, don’t forget to specify the L prefix",
@@ -254,7 +275,7 @@
         "L prefix",
         "Visual Studio"
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "title": "RaTeX: KaTeX-compatible LaTeX rendering engine in pure Rust",
@@ -276,7 +297,7 @@
         "WASM",
         "math rendering"
       ],
-      "rank": 13
+      "rank": 14
     },
     {
       "title": "Boris Cherny: TI-83 Plus Basic Programming Tutorial (2004)",
@@ -298,7 +319,7 @@
         "BASIC",
         "tutorial"
       ],
-      "rank": 14
+      "rank": 15
     },
     {
       "title": "GitHub Repo Stats",
@@ -318,7 +339,7 @@
         "REST API",
         "browser tool"
       ],
-      "rank": 15
+      "rank": 16
     },
     {
       "title": "Chevrolet Performance eCrate package (400v/200hp)",
@@ -340,7 +361,7 @@
         "battery pack",
         "crate engine"
       ],
-      "rank": 16
+      "rank": 17
     },
     {
       "title": "ProgramBench: Can Language Models Rebuild Programs from Scratch?",
@@ -362,7 +383,7 @@
         "code generation",
         "fuzzing"
       ],
-      "rank": 17
+      "rank": 18
     },
     {
       "title": "Community firmware for the Xteink X4 e-paper reader",
@@ -383,7 +404,7 @@
         "firmware",
         "ESP32-C3"
       ],
-      "rank": 18
+      "rank": 19
     },
     {
       "title": "Python 3.15.0 beta 1 is here!",
@@ -404,7 +425,7 @@
         "JIT",
         "CPython"
       ],
-      "rank": 19
+      "rank": 20
     },
     {
       "title": "Seth Michael Larson: Library dependency version specifiers aren't for fixing vulnerabilities",
@@ -424,7 +445,7 @@
         "dependency management",
         "vulnerabilities"
       ],
-      "rank": 20
+      "rank": 21
     },
     {
       "title": "Maybe you shouldn't install new software for a bit",
@@ -444,7 +465,7 @@
         "supply chain",
         "npm"
       ],
-      "rank": 21
+      "rank": 22
     }
   ]
 }
