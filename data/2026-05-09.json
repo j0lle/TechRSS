@@ -1,9 +1,9 @@
 {
   "date": "2026-05-09",
   "total_feeds": 95,
-  "success_feeds": 87,
-  "total_articles": 3190,
-  "filtered_articles": 32,
+  "success_feeds": 89,
+  "total_articles": 3270,
+  "filtered_articles": 31,
   "articles": [
     {
       "title": "This Week on The Analog Antiquarian",
@@ -26,6 +26,27 @@
       "rank": 1
     },
     {
+      "title": "A web page that shows you everything the browser told it without asking",
+      "title_display": "Browser Fingerprinting Exposed as Interactive Web Story",
+      "link": "https://sinceyouarrived.world/taken",
+      "pub_date": "2026-05-08T15:20:14.000Z",
+      "summary": "This interactive page demonstrates, in a concrete and readable way, how much a browser reveals on first load: IP-based geolocation, timezone, screen size, pixel ratio, language, GPU, installed fonts, battery status, storage quota, motion/orientation signals, referrer, and tab visibility changes. The source code shows the exact collection logic, including standard APIs such as WebGL debug renderer info, Battery API, Storage API, Visibility API, and font-width probing. It also states that only two anonymous beacons are sent to the site’s own server and that no cookies, localStorage, sessionStorage, IndexedDB, or service worker cache are used.\n\nThe technical value is mostly explanatory rather than novel research: it is a polished, source-visible demonstration of browser fingerprinting and passive tracking surfaces, with a strong emphasis on privacy implications. The page also includes practical implementation details like masking IPs in display, deterministic fingerprint-derived barcodes, and handling reduced-motion preferences. For engineers, the main takeaway is that modern browsers expose enough stable signals to identify users without cookies, and that many of these signals require no permission prompt. This makes the piece useful as a privacy awareness reference and as a compact catalog of browser-side tracking surfaces.",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 233,
+      "score": 18,
+      "depth": 6,
+      "novelty": 5,
+      "breadth": 7,
+      "category": "security",
+      "keywords": [
+        "browser fingerprinting",
+        "privacy",
+        "JavaScript APIs"
+      ],
+      "rank": 2
+    },
+    {
       "title": "Developing more confidence when tracking renames via Read­Directory­ChangesW",
       "title_display": "Tracking renames more reliably with ReadDirectoryChangesExW",
       "link": "https://devblogs.microsoft.com/oldnewthing/20260508-00/?p=112310",
@@ -43,7 +64,7 @@
         "filesystem",
         "rename tracking"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "An Introduction to Meshtastic",
@@ -64,7 +85,29 @@
         "LoRa",
         "mesh networking"
       ],
-      "rank": 3
+      "rank": 4
+    },
+    {
+      "title": "Mojo 1.0 Beta",
+      "title_display": "Mojo 1.0 Beta Launches With Python-Style Syntax",
+      "link": "https://mojolang.org/",
+      "pub_date": "2026-05-08T05:50:17.000Z",
+      "summary": "Mojo 1.0 beta is now available as 1.0.0b1, positioning the language as a Python-like, compiled, statically typed option for high-performance CPU and GPU programming. The announcement highlights Python interoperability, SIMD/vectorized kernel examples, compile-time metaprogramming, and a roadmap that still keeps core systems features and fuller Python compatibility in progress. The page also notes that the Mojo standard library is open source, while the compiler is planned to open-source in 2026. This is most relevant for engineers evaluating performance-oriented Python extensions or experimenting with GPU kernels in a single language, but it remains a product/positioning release rather than a deep technical report.",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 143,
+      "score": 12,
+      "depth": 2,
+      "novelty": 3,
+      "breadth": 7,
+      "category": "tools",
+      "keywords": [
+        "Mojo",
+        "programming language",
+        "GPU",
+        "Python interop"
+      ],
+      "rank": 5
     }
   ]
 }
