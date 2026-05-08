@@ -2,9 +2,71 @@
   "date": "2026-05-09",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3271,
-  "filtered_articles": 35,
+  "total_articles": 3272,
+  "filtered_articles": 38,
   "articles": [
+    {
+      "title": "Using Claude Code: The Unreasonable Effectiveness of HTML",
+      "title_display": "Claude Code Case for HTML Over Markdown",
+      "link": "https://simonwillison.net/2026/May/8/unreasonable-effectiveness-of-html/#atom-everything",
+      "pub_date": "2026-05-08T21:00:11.000Z",
+      "summary": "Simon Willison highlights a Claude Code team post arguing that HTML is often a better output format than Markdown for LLM-generated explanations. The practical payoff is richer artifacts: SVG diagrams, interactive widgets, inline annotations, navigation, and CSS/JS-driven layouts that can make complex answers easier to inspect than plain text. Willison says this changed his default assumption, especially for output generation.\n\nHe tests the idea on copy.fail, a Linux exploit writeup with an obfuscated Python proof of concept, by prompting GPT-5.5 to explain the code in detailed HTML. The resulting page is described as good, though it apparently focused too much on the Python harness rather than the exploit mechanics. The piece is mostly a prompt-engineering and format-selection note, but it has direct relevance for engineers using LLMs to generate reviews, explanations, and security analyses.",
+      "source_name": "simonwillison.net",
+      "source_type": "rss",
+      "score": 15,
+      "depth": 5,
+      "novelty": 4,
+      "breadth": 6,
+      "category": "tools",
+      "keywords": [
+        "HTML",
+        "Claude Code",
+        "prompt engineering",
+        "security"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "George Orwell's review of Russel's Power: A New Social Analysis",
+      "title_display": "Orwell’s 1939 Warning on Power and Truth",
+      "link": "https://berthub.eu/articles/posts/orwell-review-bertrand-russells-power/",
+      "pub_date": "2026-05-08T20:35:10.000Z",
+      "summary": "",
+      "source_name": "berthub.eu",
+      "source_type": "rss",
+      "score": 4,
+      "depth": 1,
+      "novelty": 1,
+      "breadth": 2,
+      "category": "opinion",
+      "keywords": [
+        "Orwell",
+        "Russell",
+        "power"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "Apple, Intel have reached preliminary chip-making deal",
+      "title_display": "Apple and Intel Reportedly Discuss Preliminary Chip Deal",
+      "link": "https://www.reuters.com/business/apple-intel-have-reached-preliminary-chip-making-deal-wsj-reports-2026-05-08/",
+      "pub_date": "2026-05-08T17:50:15.000Z",
+      "summary": "Reuters reports that Apple and Intel have reached a preliminary chip-making deal, according to the Wall Street Journal. The item is a market and supply-chain report rather than a technical disclosure, and it does not include implementation details, process-node data, packaging plans, performance numbers, or production timelines. For engineers, the main relevance is strategic: if true, the partnership could affect semiconductor sourcing and manufacturing capacity decisions across the PC and mobile ecosystem. The article provides no evidence beyond the reported talks, so it should be treated as early corporate news rather than a technical development.",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 147,
+      "score": 8,
+      "depth": 1,
+      "novelty": 2,
+      "breadth": 5,
+      "category": "other",
+      "keywords": [
+        "Apple",
+        "Intel",
+        "chip manufacturing"
+      ],
+      "rank": 3
+    },
     {
       "title": "Cartoon Network Flash Games",
       "title_display": "Cartoon Network Flash Games Archive",
@@ -20,11 +82,11 @@
       "breadth": 2,
       "category": "other",
       "keywords": [
-        "Flash",
+        "Flash games",
         "Cartoon Network",
         "web archive"
       ],
-      "rank": 1
+      "rank": 4
     },
     {
       "title": "This Week on The Analog Antiquarian",
@@ -44,7 +106,7 @@
         "analog antiquarian",
         "schedule"
       ],
-      "rank": 2
+      "rank": 5
     },
     {
       "title": "Google Cloud Fraud Defence is just WEI repackaged",
@@ -65,7 +127,7 @@
         "reCAPTCHA",
         "privacy"
       ],
-      "rank": 3
+      "rank": 6
     },
     {
       "title": "Serving a Website on a Raspberry Pi Zero Running in RAM",
@@ -87,7 +149,7 @@
         "Raspberry Pi Zero",
         "diskless"
       ],
-      "rank": 4
+      "rank": 7
     },
     {
       "title": "A web page that shows you everything the browser told it without asking",
@@ -108,7 +170,7 @@
         "privacy",
         "JavaScript APIs"
       ],
-      "rank": 5
+      "rank": 8
     },
     {
       "title": "Developing more confidence when tracking renames via Read­Directory­ChangesW",
@@ -128,7 +190,7 @@
         "filesystem",
         "rename tracking"
       ],
-      "rank": 6
+      "rank": 9
     },
     {
       "title": "An Introduction to Meshtastic",
@@ -149,11 +211,11 @@
         "LoRa",
         "mesh networking"
       ],
-      "rank": 7
+      "rank": 10
     },
     {
       "title": "GeoJSON",
-      "title_display": "GeoJSON Standard Format Overview",
+      "title_display": "GeoJSON Format and RFC 7946 Standard",
       "link": "https://geojson.org/",
       "pub_date": "2026-05-08T12:10:19.000Z",
       "summary": "",
@@ -167,10 +229,10 @@
       "category": "engineering",
       "keywords": [
         "GeoJSON",
-        "geospatial",
-        "RFC 7946"
+        "RFC 7946",
+        "geospatial data"
       ],
-      "rank": 8
+      "rank": 11
     },
     {
       "title": "A Runnable Reference Architecture for Battery Energy Storage Systems on InfluxDB 3",
@@ -191,7 +253,7 @@
         "time series",
         "Python"
       ],
-      "rank": 9
+      "rank": 12
     },
     {
       "title": "Mojo 1.0 Beta",
@@ -213,7 +275,7 @@
         "GPU",
         "Python interop"
       ],
-      "rank": 10
+      "rank": 13
     },
     {
       "title": "Seth Michael Larson: Using Epilogue Retrace app with iPhone 13 Pro and Ubuntu",
@@ -234,7 +296,7 @@
         "Ubuntu",
         "USB-C"
       ],
-      "rank": 11
+      "rank": 14
     },
     {
       "title": "Wander Console 0.6.0",
@@ -255,7 +317,7 @@
         "query parameters",
         "open source"
       ],
-      "rank": 12
+      "rank": 15
     }
   ]
 }
