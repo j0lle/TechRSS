@@ -1,9 +1,9 @@
 {
   "date": "2026-05-08",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3244,
-  "filtered_articles": 33,
+  "success_feeds": 89,
+  "total_articles": 3269,
+  "filtered_articles": 32,
   "articles": [
     {
       "title": "Detecting (or not) the use of -l and -c together in Bourne shells",
