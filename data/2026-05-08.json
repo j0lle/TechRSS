@@ -1,10 +1,31 @@
 {
   "date": "2026-05-08",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3269,
-  "filtered_articles": 33,
+  "success_feeds": 88,
+  "total_articles": 3244,
+  "filtered_articles": 35,
   "articles": [
+    {
+      "title": "Detecting (or not) the use of -l and -c together in Bourne shells",
+      "title_display": "Detecting Bash -l -c Startup Cases",
+      "link": "https://utcc.utoronto.ca/~cks/space/blog/unix/BourneShellLoginWithCommand",
+      "pub_date": "2026-05-08T03:31:17.000Z",
+      "summary": "The post explains that many Bourne-compatible shells accept `-l` and `-c` together, which means they run login-shell initialization and then execute a command string non-interactively. The practical problem is that `.profile` cannot reliably detect this case across shells. Bash exposes `BASH_EXECUTION_STRING` for `bash -l -c ...` and `sh -l -c`, but the author found no comparable indicator in Dash, OpenBSD ksh, or FreeBSD `/bin/sh`. The article suggests workarounds such as moving Bash-specific setup into `.bash_profile`, or using a marker environment variable to avoid rerunning expensive initialization, but notes these do not solve all cases. This is a useful shell-initialization edge-case note for engineers debugging login-shell behavior.",
+      "source_name": "utcc.utoronto.ca/~cks",
+      "source_type": "rss",
+      "score": 13,
+      "depth": 4,
+      "novelty": 4,
+      "breadth": 5,
+      "category": "engineering",
+      "keywords": [
+        "Bourne shells",
+        "Bash",
+        "startup files",
+        "POSIX"
+      ],
+      "rank": 1
+    },
     {
       "title": "Canvas Breach Disrupts Schools & Colleges Nationwide",
       "title_display": "Canvas Extortion Attack Disrupts Schools Nationwide",
@@ -24,7 +45,7 @@
         "data extortion",
         "education platforms"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "ShinyHunters claims data theft from 8,800 schools (Instructure/Canvas)",
@@ -46,7 +67,7 @@
         "Canvas",
         "data breach"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Notes on the Hantavirus Outbreak",
@@ -67,7 +88,27 @@
         "R0",
         "outbreak"
       ],
-      "rank": 3
+      "rank": 4
+    },
+    {
+      "title": "Announcing the Program of DuckCon #7 Amsterdam",
+      "title_display": "DuckDB Announces DuckCon #7 Amsterdam Program",
+      "link": "https://duckdb.org/2026/05/08/announcing-duckcon7.html",
+      "pub_date": "2026-05-08T00:00:00.000Z",
+      "summary": "",
+      "source_name": "duckdb.org",
+      "source_type": "rss",
+      "score": 4,
+      "depth": 1,
+      "novelty": 1,
+      "breadth": 2,
+      "category": "tools",
+      "keywords": [
+        "DuckDB",
+        "DuckCon",
+        "conference"
+      ],
+      "rank": 5
     },
     {
       "title": "Dirtyfrag: Universal Linux LPE",
@@ -89,7 +130,7 @@
         "Dirty Frag",
         "rxrpc"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "llm-gemini 0.31",
@@ -109,7 +150,7 @@
         "llm-gemini",
         "release"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "Big Words",
@@ -129,7 +170,7 @@
         "presentation",
         "query parameters"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "Natural Language Autoencoders: Turning Claude's Thoughts into Text",
@@ -151,7 +192,7 @@
         "autoencoders",
         "auditing"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "Smoothed polygons",
@@ -171,7 +212,7 @@
         "level sets",
         "polygons"
       ],
-      "rank": 8
+      "rank": 10
     },
     {
       "title": "Behind the Scenes Hardening Firefox with Claude Mythos Preview",
@@ -192,7 +233,7 @@
         "vulnerability hunting",
         "Mozilla"
       ],
-      "rank": 9
+      "rank": 11
     },
     {
       "title": "DeepSeek 4 Flash local inference engine for Metal",
@@ -213,7 +254,7 @@
         "KV cache",
         "DeepSeek V4 Flash"
       ],
-      "rank": 10
+      "rank": 12
     },
     {
       "title": "Chrome removes claim of On-device Al not sending data to Google Servers",
@@ -234,7 +275,7 @@
         "on-device AI",
         "privacy"
       ],
-      "rank": 11
+      "rank": 13
     },
     {
       "title": "Notes on the xAI/Anthropic data center deal",
@@ -255,7 +296,7 @@
         "data centers",
         "compute"
       ],
-      "rank": 12
+      "rank": 14
     },
     {
       "title": "Introducing Postgres Query Insights in ClickHouse Cloud",
@@ -276,7 +317,7 @@
         "query insights",
         "pg_stat_ch"
       ],
-      "rank": 13
+      "rank": 15
     },
     {
       "title": "AlphaEvolve: Gemini-powered coding agent scaling impact across fields",
@@ -297,7 +338,7 @@
         "Gemini",
         "optimization"
       ],
-      "rank": 14
+      "rank": 16
     },
     {
       "title": "When you upgrade your resource strings to Unicode, don’t forget to specify the L prefix",
@@ -318,7 +359,7 @@
         "L prefix",
         "Visual Studio"
       ],
-      "rank": 15
+      "rank": 17
     },
     {
       "title": "RaTeX: KaTeX-compatible LaTeX rendering engine in pure Rust",
@@ -340,7 +381,7 @@
         "WASM",
         "math rendering"
       ],
-      "rank": 16
+      "rank": 18
     },
     {
       "title": "Boris Cherny: TI-83 Plus Basic Programming Tutorial (2004)",
@@ -362,7 +403,7 @@
         "BASIC",
         "tutorial"
       ],
-      "rank": 17
+      "rank": 19
     },
     {
       "title": "GitHub Repo Stats",
@@ -382,7 +423,7 @@
         "REST API",
         "browser tool"
       ],
-      "rank": 18
+      "rank": 20
     },
     {
       "title": "Chevrolet Performance eCrate package (400v/200hp)",
@@ -404,7 +445,7 @@
         "battery pack",
         "crate engine"
       ],
-      "rank": 19
+      "rank": 21
     },
     {
       "title": "ProgramBench: Can Language Models Rebuild Programs from Scratch?",
@@ -426,7 +467,7 @@
         "code generation",
         "fuzzing"
       ],
-      "rank": 20
+      "rank": 22
     },
     {
       "title": "Community firmware for the Xteink X4 e-paper reader",
@@ -447,7 +488,7 @@
         "firmware",
         "ESP32-C3"
       ],
-      "rank": 21
+      "rank": 23
     },
     {
       "title": "Python 3.15.0 beta 1 is here!",
@@ -468,7 +509,7 @@
         "JIT",
         "CPython"
       ],
-      "rank": 22
+      "rank": 24
     },
     {
       "title": "Seth Michael Larson: Library dependency version specifiers aren't for fixing vulnerabilities",
@@ -488,7 +529,7 @@
         "dependency management",
         "vulnerabilities"
       ],
-      "rank": 23
+      "rank": 25
     },
     {
       "title": "Maybe you shouldn't install new software for a bit",
@@ -508,7 +549,7 @@
         "supply chain",
         "npm"
       ],
-      "rank": 24
+      "rank": 26
     }
   ]
 }
