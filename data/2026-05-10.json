@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3273,
-  "filtered_articles": 12,
+  "filtered_articles": 13,
   "articles": [
     {
       "title": "Using a Python 3 LSP server with Python 2 code works (more or less)",
@@ -27,6 +27,28 @@
       "rank": 1
     },
     {
+      "title": "Bun's experimental Rust rewrite hits 99.8% test compatibility on Linux x64 glibc",
+      "title_display": "Bun’s Rust Rewrite Reaches 99.8% Test Compatibility",
+      "link": "https://twitter.com/jarredsumner/status/2053047748191232310",
+      "pub_date": "2026-05-09T19:50:06.000Z",
+      "summary": "Bun’s experimental Rust rewrite reportedly passes 99.8% of its pre-existing test suite on Linux x64 glibc. The post provides only a single compatibility number and no breakdown of what remains failing, which subsystems are covered, or how the rewrite performs on latency, memory use, startup time, or real workloads. There are also no benchmark comparisons against the current Bun runtime or competing JavaScript runtimes.\n\nThe signal is mainly that the rewrite is far enough along to preserve almost all existing behavior on one platform, which is useful for engineers tracking Bun’s architectural direction. But as a digest item, it is still an early status update rather than a technical deep dive, since it lacks implementation details, migration lessons, or evidence of broader production impact. It is relevant to JavaScript runtime and tooling engineers, but the practical takeaway is limited until more data is published.",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 252,
+      "score": 10,
+      "depth": 3,
+      "novelty": 2,
+      "breadth": 5,
+      "category": "engineering",
+      "keywords": [
+        "Bun",
+        "Rust rewrite",
+        "test compatibility",
+        "Linux x64 glibc"
+      ],
+      "rank": 2
+    },
+    {
       "title": "LLMs Corrupt Your Documents When You Delegate",
       "title_display": "Study Finds LLM Delegates Corrupt Documents",
       "link": "https://arxiv.org/abs/2604.15597",
@@ -46,7 +68,7 @@
         "document editing",
         "agentic workflows"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "America's carpet capital: an empire and its toxic legacy",
@@ -68,7 +90,7 @@
         "Georgia",
         "water contamination"
       ],
-      "rank": 3
+      "rank": 4
     }
   ]
 }
