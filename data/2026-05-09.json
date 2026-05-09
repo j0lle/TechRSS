@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3273,
-  "filtered_articles": 31,
+  "filtered_articles": 30,
   "articles": [
     {
       "title": "Notes on using GNU Emacs' Tramp system in an unusual shell environment",
@@ -202,13 +202,13 @@
       "source_name": "Hacker News",
       "source_type": "hn",
       "hn_points": 267,
-      "score": 3,
+      "score": 4,
       "depth": 1,
       "novelty": 1,
-      "breadth": 1,
+      "breadth": 2,
       "category": "other",
       "keywords": [
-        "Flash",
+        "flash",
         "Cartoon Network",
         "web archive"
       ],
@@ -363,22 +363,22 @@
     },
     {
       "title": "GeoJSON",
-      "title_display": "GeoJSON Specification Overview",
+      "title_display": "GeoJSON Format and RFC 7946 Standard",
       "link": "https://geojson.org/",
       "pub_date": "2026-05-08T12:10:19.000Z",
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
       "hn_points": 130,
-      "score": 6,
+      "score": 5,
       "depth": 1,
       "novelty": 1,
-      "breadth": 4,
-      "category": "engineering",
+      "breadth": 3,
+      "category": "other",
       "keywords": [
         "GeoJSON",
         "RFC 7946",
-        "geospatial"
+        "geospatial data"
       ],
       "rank": 18
     },
