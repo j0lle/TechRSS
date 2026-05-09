@@ -6,6 +6,27 @@
   "filtered_articles": 31,
   "articles": [
     {
+      "title": "Using Claude Code: The unreasonable effectiveness of HTML",
+      "title_display": "Claude Code and the Power of HTML",
+      "link": "https://twitter.com/trq212/status/2052809885763747935",
+      "pub_date": "2026-05-09T05:20:14.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 131,
+      "score": 8,
+      "depth": 2,
+      "novelty": 1,
+      "breadth": 5,
+      "category": "other",
+      "keywords": [
+        "Claude Code",
+        "HTML",
+        "Anthropic"
+      ],
+      "rank": 1
+    },
+    {
       "title": "Mythical Man Month",
       "title_display": "Martin Fowler Revisits The Mythical Man-Month",
       "link": "https://martinfowler.com/bliki/MythicalManMonth.html",
@@ -24,7 +45,7 @@
         "conceptual integrity",
         "Brooks's law"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Notes on using GNU Emacs' Tramp system in an unusual shell environment",
@@ -45,7 +66,7 @@
         "remote path",
         "shell environment"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Quoting Luke Curley",
@@ -66,7 +87,7 @@
         "voice AI",
         "latency"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "AI makes weak engineers less harmful",
@@ -86,7 +107,7 @@
         "software engineering",
         "productivity"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "I Will Not Add Query Strings to Your URLs",
@@ -106,7 +127,7 @@
         "query strings",
         "web consoles"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Using Claude Code: The Unreasonable Effectiveness of HTML",
@@ -127,7 +148,7 @@
         "prompt engineering",
         "security"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "George Orwell's review of Russel's Power: A New Social Analysis",
@@ -147,7 +168,7 @@
         "Russell",
         "power"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "You gave me a u32. I gave you root. (io_uring ZCRX freelist LPE)",
@@ -169,7 +190,7 @@
         "local privilege escalation",
         "heap write"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "AI Is Breaking Two Vulnerability Cultures",
@@ -191,7 +212,7 @@
         "embargo",
         "Linux"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Apple, Intel have reached preliminary chip-making deal",
@@ -212,7 +233,7 @@
         "Intel",
         "chip manufacturing"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "Cartoon Network Flash Games",
@@ -233,7 +254,7 @@
         "Cartoon Network",
         "web archive"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "This Week on The Analog Antiquarian",
@@ -253,7 +274,7 @@
         "analog antiquarian",
         "schedule"
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "title": "Google Cloud Fraud Defence is just WEI repackaged",
@@ -274,7 +295,7 @@
         "reCAPTCHA",
         "privacy"
       ],
-      "rank": 13
+      "rank": 14
     },
     {
       "title": "Serving a Website on a Raspberry Pi Zero Running in RAM",
@@ -296,7 +317,7 @@
         "Raspberry Pi Zero",
         "diskless"
       ],
-      "rank": 14
+      "rank": 15
     },
     {
       "title": "A web page that shows you everything the browser told it without asking",
@@ -317,7 +338,7 @@
         "privacy",
         "JavaScript APIs"
       ],
-      "rank": 15
+      "rank": 16
     },
     {
       "title": "Podman rootless containers and the Copy Fail exploit",
@@ -339,7 +360,7 @@
         "CVE-2026-31431",
         "capabilities"
       ],
-      "rank": 16
+      "rank": 17
     },
     {
       "title": "Developing more confidence when tracking renames via Read­Directory­ChangesW",
@@ -359,7 +380,7 @@
         "filesystem",
         "rename tracking"
       ],
-      "rank": 17
+      "rank": 18
     },
     {
       "title": "An Introduction to Meshtastic",
@@ -380,29 +401,28 @@
         "LoRa",
         "mesh networking"
       ],
-      "rank": 18
+      "rank": 19
     },
     {
       "title": "GeoJSON",
-      "title_display": "GeoJSON Format and RFC 7946 Standard",
+      "title_display": "GeoJSON format and RFC 7946 standard",
       "link": "https://geojson.org/",
       "pub_date": "2026-05-08T12:10:19.000Z",
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
       "hn_points": 130,
-      "score": 6,
+      "score": 5,
       "depth": 1,
       "novelty": 1,
-      "breadth": 4,
-      "category": "engineering",
+      "breadth": 3,
+      "category": "other",
       "keywords": [
         "GeoJSON",
         "RFC 7946",
-        "geospatial",
-        "data format"
+        "geospatial"
       ],
-      "rank": 19
+      "rank": 20
     },
     {
       "title": "A Runnable Reference Architecture for Battery Energy Storage Systems on InfluxDB 3",
@@ -423,7 +443,7 @@
         "time series",
         "Python"
       ],
-      "rank": 20
+      "rank": 21
     },
     {
       "title": "Mojo 1.0 Beta",
@@ -445,7 +465,7 @@
         "GPU",
         "Python interop"
       ],
-      "rank": 21
+      "rank": 22
     },
     {
       "title": "Seth Michael Larson: Using Epilogue Retrace app with iPhone 13 Pro and Ubuntu",
@@ -466,7 +486,7 @@
         "Ubuntu",
         "USB-C"
       ],
-      "rank": 22
+      "rank": 23
     },
     {
       "title": "Wander Console 0.6.0",
@@ -487,7 +507,7 @@
         "query parameters",
         "open source"
       ],
-      "rank": 23
+      "rank": 24
     }
   ]
 }
