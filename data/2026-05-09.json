@@ -1,9 +1,9 @@
 {
   "date": "2026-05-09",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3248,
-  "filtered_articles": 19,
+  "success_feeds": 89,
+  "total_articles": 3273,
+  "filtered_articles": 18,
   "articles": [
     {
       "title": "Pluralistic: Trump's fruitless search for a goreable ox (09 May 2026)",
@@ -297,22 +297,22 @@
     },
     {
       "title": "Cartoon Network Flash Games",
-      "title_display": "Cartoon Network Flash Games Page Blocked by Cloudflare",
+      "title_display": "Cartoon Network Flash Games Archive Listing",
       "link": "https://www.webdesignmuseum.org/flash-game-exhibitions/cartoon-network-flash-games",
       "pub_date": "2026-05-08T16:50:13.000Z",
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
       "hn_points": 369,
-      "score": 4,
+      "score": 3,
       "depth": 1,
       "novelty": 1,
-      "breadth": 2,
+      "breadth": 1,
       "category": "other",
       "keywords": [
         "Flash",
-        "web archive",
-        "cartoon network"
+        "Cartoon Network",
+        "web archive"
       ],
       "rank": 15
     },
