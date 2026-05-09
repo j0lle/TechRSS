@@ -195,7 +195,7 @@
     },
     {
       "title": "Cartoon Network Flash Games",
-      "title_display": "Cartoon Network Flash Games Archive",
+      "title_display": "Cartoon Network Flash Games Archive Page Blocked by Cloudflare",
       "link": "https://www.webdesignmuseum.org/flash-game-exhibitions/cartoon-network-flash-games",
       "pub_date": "2026-05-08T16:50:13.000Z",
       "summary": "",
@@ -209,8 +209,8 @@
       "category": "other",
       "keywords": [
         "Flash",
-        "Cartoon Network",
-        "web archive"
+        "web archive",
+        "Cartoon Network"
       ],
       "rank": 10
     },
@@ -299,6 +299,28 @@
       "rank": 14
     },
     {
+      "title": "Podman rootless containers and the Copy Fail exploit",
+      "title_display": "Copy Fail in Podman Rootless Containers",
+      "link": "https://garrido.io/notes/podman-rootless-containers-copy-fail/",
+      "pub_date": "2026-05-08T15:00:18.000Z",
+      "summary": "This article tests CVE-2026-31431 (“Copy Fail”) against Podman rootless containers and shows that it can still obtain a container-root shell, but with a much narrower blast radius than a typical rootful Docker setup. The author reproduces the exploit in multiple configurations: rootless rootful, rootless non-root, with `--security-opt=no-new-privileges`, and with `--cap-drop=all`. In the non-root case, the exploit successfully escalates from user `foo` to container `root`, but `no-new-privileges` prevents the privilege change and keeps the process as `foo`. Dropping capabilities also blocks the practical escalation path.\n\nThe post explains the mechanics behind the results: Podman’s fork/exec model, user namespaces, `/etc/subuid` mappings, and Linux capabilities during image build and runtime. It also demonstrates how bind mounts behave under namespace remapping, including why host `root` becomes unmapped (`nobody:nogroup`) and how files created by the container map back to host UIDs. Beyond the CVE itself, the article recommends layered hardening: run non-root users in images, drop unnecessary capabilities, use read-only filesystems, limit binaries in the image, apply cgroups, and firewall container network access.\n\nPractical takeaway: rootless Podman materially improves containment, but it is not a security boundary by itself; the kernel still needs patching, and container hardening significantly reduces post-compromise impact.",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 121,
+      "score": 23,
+      "depth": 8,
+      "novelty": 7,
+      "breadth": 8,
+      "category": "security",
+      "keywords": [
+        "Podman",
+        "rootless containers",
+        "CVE-2026-31431",
+        "capabilities"
+      ],
+      "rank": 15
+    },
+    {
       "title": "Developing more confidence when tracking renames via Read­Directory­ChangesW",
       "title_display": "Tracking renames more reliably with ReadDirectoryChangesExW",
       "link": "https://devblogs.microsoft.com/oldnewthing/20260508-00/?p=112310",
@@ -316,7 +338,7 @@
         "filesystem",
         "rename tracking"
       ],
-      "rank": 15
+      "rank": 16
     },
     {
       "title": "An Introduction to Meshtastic",
@@ -337,28 +359,28 @@
         "LoRa",
         "mesh networking"
       ],
-      "rank": 16
+      "rank": 17
     },
     {
       "title": "GeoJSON",
-      "title_display": "GeoJSON Specification and Standardized Format",
+      "title_display": "GeoJSON Specification Overview",
       "link": "https://geojson.org/",
       "pub_date": "2026-05-08T12:10:19.000Z",
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
       "hn_points": 130,
-      "score": 6,
+      "score": 5,
       "depth": 1,
       "novelty": 1,
-      "breadth": 4,
-      "category": "other",
+      "breadth": 3,
+      "category": "engineering",
       "keywords": [
         "GeoJSON",
-        "geospatial data",
+        "geospatial",
         "RFC 7946"
       ],
-      "rank": 17
+      "rank": 18
     },
     {
       "title": "A Runnable Reference Architecture for Battery Energy Storage Systems on InfluxDB 3",
@@ -379,7 +401,7 @@
         "time series",
         "Python"
       ],
-      "rank": 18
+      "rank": 19
     },
     {
       "title": "Mojo 1.0 Beta",
@@ -401,7 +423,7 @@
         "GPU",
         "Python interop"
       ],
-      "rank": 19
+      "rank": 20
     },
     {
       "title": "Seth Michael Larson: Using Epilogue Retrace app with iPhone 13 Pro and Ubuntu",
@@ -422,7 +444,7 @@
         "Ubuntu",
         "USB-C"
       ],
-      "rank": 20
+      "rank": 21
     },
     {
       "title": "Wander Console 0.6.0",
@@ -443,7 +465,7 @@
         "query parameters",
         "open source"
       ],
-      "rank": 21
+      "rank": 22
     }
   ]
 }
