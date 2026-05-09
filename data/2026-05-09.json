@@ -1,9 +1,9 @@
 {
   "date": "2026-05-09",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3272,
-  "filtered_articles": 39,
+  "success_feeds": 88,
+  "total_articles": 3247,
+  "filtered_articles": 30,
   "articles": [
     {
       "title": "AI makes weak engineers less harmful",
@@ -111,22 +111,22 @@
     },
     {
       "title": "Cartoon Network Flash Games",
-      "title_display": "Cartoon Network Flash Games Archive Page",
+      "title_display": "Cartoon Network Flash Games Archive Blocked by Cloudflare",
       "link": "https://www.webdesignmuseum.org/flash-game-exhibitions/cartoon-network-flash-games",
       "pub_date": "2026-05-08T16:50:13.000Z",
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 166,
-      "score": 3,
+      "hn_points": 267,
+      "score": 4,
       "depth": 1,
       "novelty": 1,
-      "breadth": 1,
+      "breadth": 2,
       "category": "other",
       "keywords": [
         "Flash",
-        "Cartoon Network",
-        "web archive"
+        "web archive",
+        "Cartoon Network"
       ],
       "rank": 6
     },
@@ -257,7 +257,7 @@
     },
     {
       "title": "GeoJSON",
-      "title_display": "GeoJSON Format and RFC 7946 Standard",
+      "title_display": "GeoJSON specification and basic geometry types",
       "link": "https://geojson.org/",
       "pub_date": "2026-05-08T12:10:19.000Z",
       "summary": "",
@@ -270,7 +270,7 @@
       "breadth": 4,
       "category": "other",
       "keywords": [
-        "geojson",
+        "GeoJSON",
         "geospatial data",
         "RFC 7946"
       ],
