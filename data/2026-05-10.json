@@ -3,8 +3,29 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3273,
-  "filtered_articles": 11,
+  "filtered_articles": 12,
   "articles": [
+    {
+      "title": "Using a Python 3 LSP server with Python 2 code works (more or less)",
+      "title_display": "Python 3 LSP Still Works on Python 2 Code",
+      "link": "https://utcc.utoronto.ca/~cks/space/blog/python/Python2WithPython3LSP",
+      "pub_date": "2026-05-09T21:57:35.000Z",
+      "summary": "A GNU Emacs user reports that Python 3 LSP tools like pylsp and ruff can still be useful on legacy Python 2 code. In their experience, the servers did not produce a flood of false syntax errors, handled mixed tabs-and-spaces indentation surprisingly well, and supported basics like go-to-definition and find references. The main limitation noted is that pylsp still flags Python 2 print statements as invalid Python 3 syntax, which is often a reasonable cleanup target anyway. The post is a practical compatibility note for teams that still maintain Python 2 systems and want modern editor assistance without fully porting yet.",
+      "source_name": "utcc.utoronto.ca/~cks",
+      "source_type": "rss",
+      "score": 11,
+      "depth": 3,
+      "novelty": 4,
+      "breadth": 4,
+      "category": "engineering",
+      "keywords": [
+        "Python 2",
+        "pylsp",
+        "Eglot",
+        "GNU Emacs"
+      ],
+      "rank": 1
+    },
     {
       "title": "LLMs Corrupt Your Documents When You Delegate",
       "title_display": "Study Finds LLM Delegates Corrupt Documents",
@@ -25,7 +46,7 @@
         "document editing",
         "agentic workflows"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "America's carpet capital: an empire and its toxic legacy",
@@ -47,7 +68,7 @@
         "Georgia",
         "water contamination"
       ],
-      "rank": 2
+      "rank": 3
     }
   ]
 }
