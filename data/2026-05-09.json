@@ -1,30 +1,50 @@
 {
   "date": "2026-05-09",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3273,
-  "filtered_articles": 31,
+  "success_feeds": 88,
+  "total_articles": 3248,
+  "filtered_articles": 32,
   "articles": [
     {
+      "title": "The Mismeasure of Open Source",
+      "title_display": "Why Open Source Scoring Systems Misread Critical Projects",
+      "link": "https://nesbitt.io/2026/05/09/the-mismeasure-of-open-source.html",
+      "pub_date": "2026-05-09T10:00:00.000Z",
+      "summary": "The article argues that most open-source criticality, risk, and funding models are fundamentally mismeasuring the projects they claim to evaluate. The core problem is that common scoring systems rely on a narrow set of convenient signals from registry APIs and GitHub, and they often treat missing data as zero rather than unknown. That causes important infrastructure projects to disappear from consideration entirely when they are distributed through apt, dnf, vendoring, mailing lists, self-hosted Git, or other channels that do not expose the same metrics.\n\nIt gives concrete examples: curl download counts reflect only instrumented channels and can be wildly detached from real installations; GitHub stars are easily gamed and biased toward visible tooling; CVE counts can measure audit attention rather than actual vulnerability rate; commit activity can be artificially inflated by bots and agents; and GitHub contributor graphs undercount projects with email-based workflows or mirror repositories. It also notes that Scorecard often rewards GitHub-specific workflow features rather than security properties, while public funding signals like Sponsors or FUNDING.yml miss salaried maintainers and support contracts.\n\nThe main takeaway is that these models systematically fail in correlated ways for older, low-level infrastructure, which is often the exact software most worth measuring. For teams building dependency, security, or sustainability tools, the piece is a strong warning that current dashboards are precise-looking but structurally incomplete.",
+      "source_name": "nesbitt.io",
+      "source_type": "rss",
+      "score": 25,
+      "depth": 9,
+      "novelty": 8,
+      "breadth": 8,
+      "category": "engineering",
+      "keywords": [
+        "open source metrics",
+        "GitHub API",
+        "funding"
+      ],
+      "rank": 1
+    },
+    {
       "title": "Using Claude Code: The unreasonable effectiveness of HTML",
-      "title_display": "Claude Code and the Power of HTML",
+      "title_display": "Claude Code Works Surprisingly Well with HTML",
       "link": "https://twitter.com/trq212/status/2052809885763747935",
       "pub_date": "2026-05-09T05:20:14.000Z",
-      "summary": "",
+      "summary": "This is essentially a short social post about using Claude Code and the surprising usefulness of HTML in that workflow. It does not provide benchmarks, code samples, architecture details, or production measurements, so the technical evidence is very thin. The main takeaway is more of a practitioner observation than a documented engineering result: simple HTML-based interfaces can be an effective medium for AI-assisted coding and iteration. The post may be relevant to developers experimenting with Claude Code, but it offers little that is directly reusable beyond the general idea. Practical value is limited unless paired with a deeper writeup or examples.",
       "source_name": "Hacker News",
       "source_type": "hn",
       "hn_points": 131,
-      "score": 8,
+      "score": 11,
       "depth": 2,
-      "novelty": 1,
-      "breadth": 5,
-      "category": "other",
+      "novelty": 3,
+      "breadth": 6,
+      "category": "tools",
       "keywords": [
         "Claude Code",
         "HTML",
-        "Anthropic"
+        "AI coding"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Mythical Man Month",
@@ -45,7 +65,7 @@
         "conceptual integrity",
         "Brooks's law"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Notes on using GNU Emacs' Tramp system in an unusual shell environment",
@@ -66,7 +86,7 @@
         "remote path",
         "shell environment"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Quoting Luke Curley",
@@ -87,7 +107,7 @@
         "voice AI",
         "latency"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "AI makes weak engineers less harmful",
@@ -107,7 +127,7 @@
         "software engineering",
         "productivity"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "I Will Not Add Query Strings to Your URLs",
@@ -127,7 +147,7 @@
         "query strings",
         "web consoles"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Using Claude Code: The Unreasonable Effectiveness of HTML",
@@ -148,7 +168,7 @@
         "prompt engineering",
         "security"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "George Orwell's review of Russel's Power: A New Social Analysis",
@@ -168,7 +188,7 @@
         "Russell",
         "power"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "You gave me a u32. I gave you root. (io_uring ZCRX freelist LPE)",
@@ -190,7 +210,7 @@
         "local privilege escalation",
         "heap write"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "AI Is Breaking Two Vulnerability Cultures",
@@ -212,7 +232,7 @@
         "embargo",
         "Linux"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "Apple, Intel have reached preliminary chip-making deal",
@@ -233,11 +253,11 @@
         "Intel",
         "chip manufacturing"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "Cartoon Network Flash Games",
-      "title_display": "Cartoon Network Flash Games Archive",
+      "title_display": "Cartoon Network Flash Games Archive Page Blocked by Cloudflare",
       "link": "https://www.webdesignmuseum.org/flash-game-exhibitions/cartoon-network-flash-games",
       "pub_date": "2026-05-08T16:50:13.000Z",
       "summary": "",
@@ -251,10 +271,10 @@
       "category": "other",
       "keywords": [
         "Flash",
-        "Cartoon Network",
-        "web archive"
+        "web archive",
+        "Cartoon Network"
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "title": "This Week on The Analog Antiquarian",
@@ -274,7 +294,7 @@
         "analog antiquarian",
         "schedule"
       ],
-      "rank": 13
+      "rank": 14
     },
     {
       "title": "Google Cloud Fraud Defence is just WEI repackaged",
@@ -295,7 +315,7 @@
         "reCAPTCHA",
         "privacy"
       ],
-      "rank": 14
+      "rank": 15
     },
     {
       "title": "Serving a Website on a Raspberry Pi Zero Running in RAM",
@@ -317,7 +337,7 @@
         "Raspberry Pi Zero",
         "diskless"
       ],
-      "rank": 15
+      "rank": 16
     },
     {
       "title": "A web page that shows you everything the browser told it without asking",
@@ -338,7 +358,7 @@
         "privacy",
         "JavaScript APIs"
       ],
-      "rank": 16
+      "rank": 17
     },
     {
       "title": "Podman rootless containers and the Copy Fail exploit",
@@ -360,7 +380,7 @@
         "CVE-2026-31431",
         "capabilities"
       ],
-      "rank": 17
+      "rank": 18
     },
     {
       "title": "Developing more confidence when tracking renames via Read­Directory­ChangesW",
@@ -380,7 +400,7 @@
         "filesystem",
         "rename tracking"
       ],
-      "rank": 18
+      "rank": 19
     },
     {
       "title": "An Introduction to Meshtastic",
@@ -401,11 +421,11 @@
         "LoRa",
         "mesh networking"
       ],
-      "rank": 19
+      "rank": 20
     },
     {
       "title": "GeoJSON",
-      "title_display": "GeoJSON format and RFC 7946 standard",
+      "title_display": "GeoJSON Format and RFC 7946 Overview",
       "link": "https://geojson.org/",
       "pub_date": "2026-05-08T12:10:19.000Z",
       "summary": "",
@@ -422,7 +442,7 @@
         "RFC 7946",
         "geospatial"
       ],
-      "rank": 20
+      "rank": 21
     },
     {
       "title": "A Runnable Reference Architecture for Battery Energy Storage Systems on InfluxDB 3",
@@ -443,7 +463,7 @@
         "time series",
         "Python"
       ],
-      "rank": 21
+      "rank": 22
     },
     {
       "title": "Mojo 1.0 Beta",
@@ -465,7 +485,7 @@
         "GPU",
         "Python interop"
       ],
-      "rank": 22
+      "rank": 23
     },
     {
       "title": "Seth Michael Larson: Using Epilogue Retrace app with iPhone 13 Pro and Ubuntu",
@@ -486,7 +506,7 @@
         "Ubuntu",
         "USB-C"
       ],
-      "rank": 23
+      "rank": 24
     },
     {
       "title": "Wander Console 0.6.0",
@@ -507,7 +527,7 @@
         "query parameters",
         "open source"
       ],
-      "rank": 24
+      "rank": 25
     }
   ]
 }
