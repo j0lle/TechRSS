@@ -26,6 +26,28 @@
         "agentic workflows"
       ],
       "rank": 1
+    },
+    {
+      "title": "America's carpet capital: an empire and its toxic legacy",
+      "title_display": "Georgia Carpet Industry’s PFAS Pollution Legacy",
+      "link": "https://apnews.com/projects/pfas-forever-stained/",
+      "pub_date": "2026-05-09T10:20:08.000Z",
+      "summary": "AP’s investigative feature details how northwest Georgia’s carpet empire used PFAS-based stain treatments for decades and left a long contamination trail in rivers, wells, soil, dust, and blood. It relies on interviews, court records, internal company notes, EPA history, and blood testing from residents including Dolly Baker, Faye Jackson, Marie Jackson, and former industry worker Lisa Martin. The reporting shows that 3M warned carpet makers as early as 1998–1999 that Scotchgard chemicals were appearing in human blood and persisting in the environment, yet carpet mills continued using related PFAS formulations until 2019 in U.S. production. The story also documents regulatory failures: Dalton Utilities’ wastewater handling, EPA’s slow response, state deference, and the absence of strong federal PFAS controls for years. Measurements cited include Conasauga River samples reportedly more than 30 times proposed EPA drinking-water limits and resident blood levels ranging from 6 ng/mL to 1,336.5 ng/mL. The practical takeaway is that this is a well-sourced environmental accountability investigation, but it is not a software- or engineering-focused piece.",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 122,
+      "score": 11,
+      "depth": 3,
+      "novelty": 2,
+      "breadth": 6,
+      "category": "other",
+      "keywords": [
+        "PFAS",
+        "carpet industry",
+        "Georgia",
+        "water contamination"
+      ],
+      "rank": 2
     }
   ]
 }
