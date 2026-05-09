@@ -3,8 +3,29 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3273,
-  "filtered_articles": 30,
+  "filtered_articles": 31,
   "articles": [
+    {
+      "title": "Mythical Man Month",
+      "title_display": "Martin Fowler Revisits The Mythical Man-Month",
+      "link": "https://martinfowler.com/bliki/MythicalManMonth.html",
+      "pub_date": "2026-05-09T03:00:26.000Z",
+      "summary": "Martin Fowler reflects on Fred Brooks’s The Mythical Man-Month and says its most durable lesson is Brooks’s law: adding people to a late software project often makes it later because communication paths grow rapidly. He also highlights Brooks’s idea of conceptual integrity as a key design principle, arguing that systems should reflect one coherent set of design ideas rather than many disconnected improvements. The post is a short commentary rather than a technical deep dive, but it is a useful reminder for software teams still dealing with coordination and architecture tradeoffs.",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 135,
+      "score": 8,
+      "depth": 2,
+      "novelty": 1,
+      "breadth": 5,
+      "category": "engineering",
+      "keywords": [
+        "project planning",
+        "conceptual integrity",
+        "Brooks's law"
+      ],
+      "rank": 1
+    },
     {
       "title": "Notes on using GNU Emacs' Tramp system in an unusual shell environment",
       "title_display": "GNU Emacs Tramp Pitfalls in Unusual Shells",
@@ -24,7 +45,7 @@
         "remote path",
         "shell environment"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Quoting Luke Curley",
@@ -45,7 +66,7 @@
         "voice AI",
         "latency"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "AI makes weak engineers less harmful",
@@ -65,7 +86,7 @@
         "software engineering",
         "productivity"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "I Will Not Add Query Strings to Your URLs",
@@ -85,7 +106,7 @@
         "query strings",
         "web consoles"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Using Claude Code: The Unreasonable Effectiveness of HTML",
@@ -106,7 +127,7 @@
         "prompt engineering",
         "security"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "George Orwell's review of Russel's Power: A New Social Analysis",
@@ -126,7 +147,7 @@
         "Russell",
         "power"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "You gave me a u32. I gave you root. (io_uring ZCRX freelist LPE)",
@@ -148,7 +169,7 @@
         "local privilege escalation",
         "heap write"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "AI Is Breaking Two Vulnerability Cultures",
@@ -170,7 +191,7 @@
         "embargo",
         "Linux"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Apple, Intel have reached preliminary chip-making deal",
@@ -191,7 +212,7 @@
         "Intel",
         "chip manufacturing"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Cartoon Network Flash Games",
@@ -208,11 +229,11 @@
       "breadth": 2,
       "category": "other",
       "keywords": [
-        "flash",
+        "Flash",
         "Cartoon Network",
         "web archive"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "This Week on The Analog Antiquarian",
@@ -232,7 +253,7 @@
         "analog antiquarian",
         "schedule"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "Google Cloud Fraud Defence is just WEI repackaged",
@@ -253,7 +274,7 @@
         "reCAPTCHA",
         "privacy"
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "title": "Serving a Website on a Raspberry Pi Zero Running in RAM",
@@ -275,7 +296,7 @@
         "Raspberry Pi Zero",
         "diskless"
       ],
-      "rank": 13
+      "rank": 14
     },
     {
       "title": "A web page that shows you everything the browser told it without asking",
@@ -296,7 +317,7 @@
         "privacy",
         "JavaScript APIs"
       ],
-      "rank": 14
+      "rank": 15
     },
     {
       "title": "Podman rootless containers and the Copy Fail exploit",
@@ -318,7 +339,7 @@
         "CVE-2026-31431",
         "capabilities"
       ],
-      "rank": 15
+      "rank": 16
     },
     {
       "title": "Developing more confidence when tracking renames via Read­Directory­ChangesW",
@@ -338,7 +359,7 @@
         "filesystem",
         "rename tracking"
       ],
-      "rank": 16
+      "rank": 17
     },
     {
       "title": "An Introduction to Meshtastic",
@@ -359,7 +380,7 @@
         "LoRa",
         "mesh networking"
       ],
-      "rank": 17
+      "rank": 18
     },
     {
       "title": "GeoJSON",
@@ -370,17 +391,18 @@
       "source_name": "Hacker News",
       "source_type": "hn",
       "hn_points": 130,
-      "score": 5,
+      "score": 6,
       "depth": 1,
       "novelty": 1,
-      "breadth": 3,
-      "category": "other",
+      "breadth": 4,
+      "category": "engineering",
       "keywords": [
         "GeoJSON",
         "RFC 7946",
-        "geospatial data"
+        "geospatial",
+        "data format"
       ],
-      "rank": 18
+      "rank": 19
     },
     {
       "title": "A Runnable Reference Architecture for Battery Energy Storage Systems on InfluxDB 3",
@@ -401,7 +423,7 @@
         "time series",
         "Python"
       ],
-      "rank": 19
+      "rank": 20
     },
     {
       "title": "Mojo 1.0 Beta",
@@ -423,7 +445,7 @@
         "GPU",
         "Python interop"
       ],
-      "rank": 20
+      "rank": 21
     },
     {
       "title": "Seth Michael Larson: Using Epilogue Retrace app with iPhone 13 Pro and Ubuntu",
@@ -444,7 +466,7 @@
         "Ubuntu",
         "USB-C"
       ],
-      "rank": 21
+      "rank": 22
     },
     {
       "title": "Wander Console 0.6.0",
@@ -465,7 +487,7 @@
         "query parameters",
         "open source"
       ],
-      "rank": 22
+      "rank": 23
     }
   ]
 }
