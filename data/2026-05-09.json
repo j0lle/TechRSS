@@ -195,7 +195,7 @@
     },
     {
       "title": "Cartoon Network Flash Games",
-      "title_display": "Cloudflare Blocked Cartoon Network Flash Games Page",
+      "title_display": "Cartoon Network Flash Games Archive",
       "link": "https://www.webdesignmuseum.org/flash-game-exhibitions/cartoon-network-flash-games",
       "pub_date": "2026-05-08T16:50:13.000Z",
       "summary": "",
@@ -370,11 +370,11 @@
       "source_name": "Hacker News",
       "source_type": "hn",
       "hn_points": 130,
-      "score": 4,
+      "score": 6,
       "depth": 1,
       "novelty": 1,
-      "breadth": 2,
-      "category": "other",
+      "breadth": 4,
+      "category": "engineering",
       "keywords": [
         "GeoJSON",
         "RFC 7946",
