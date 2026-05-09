@@ -1,10 +1,31 @@
 {
   "date": "2026-05-09",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3172,
-  "filtered_articles": 29,
+  "success_feeds": 89,
+  "total_articles": 3273,
+  "filtered_articles": 31,
   "articles": [
+    {
+      "title": "Notes on using GNU Emacs' Tramp system in an unusual shell environment",
+      "title_display": "GNU Emacs Tramp Pitfalls in Unusual Shells",
+      "link": "https://utcc.utoronto.ca/~cks/space/blog/programming/EmacsTrampNotes",
+      "pub_date": "2026-05-09T02:09:46.000Z",
+      "summary": "This post documents practical failures encountered while trying to use GNU Emacs Tramp over SSH in an unconventional shell environment. The author explains why Tramp depends on a conventional prompt, backslash quoting, and non-interactive login behavior, and why `sshx` can avoid some of those constraints by skipping the normal login shell. The most useful technical takeaway is that Tramp does not reliably respect a newly changed `tramp-remote-path` unless its persistent caches are fully cleared; in some cases, even restarting Emacs is not enough because Tramp stores host-specific path data on disk under `~/.emacs.d/tramp`. The author also notes that `tramp-own-remote-path` and `tramp-persistency-file-name` are harder to use than the documentation suggests, and recommends using `use-package` or `eval-after-load` to apply Tramp configuration after the package loads. The article is valuable as a troubleshooting note for Emacs users who need remote editing in nonstandard Unix setups, especially where PATH handling and shell startup files interfere with Tramp’s assumptions.",
+      "source_name": "utcc.utoronto.ca/~cks",
+      "source_type": "rss",
+      "score": 13,
+      "depth": 5,
+      "novelty": 4,
+      "breadth": 4,
+      "category": "engineering",
+      "keywords": [
+        "GNU Emacs",
+        "Tramp",
+        "remote path",
+        "shell environment"
+      ],
+      "rank": 1
+    },
     {
       "title": "Quoting Luke Curley",
       "title_display": "WebRTC’s Low-Latency Bias Hurts Prompt Accuracy",
@@ -24,7 +45,7 @@
         "voice AI",
         "latency"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "AI makes weak engineers less harmful",
@@ -44,7 +65,27 @@
         "software engineering",
         "productivity"
       ],
-      "rank": 2
+      "rank": 3
+    },
+    {
+      "title": "I Will Not Add Query Strings to Your URLs",
+      "title_display": "Why Not to Add Query Strings to URLs",
+      "link": "https://susam.net/no-query-strings.html",
+      "pub_date": "2026-05-09T00:00:00.000Z",
+      "summary": "The author removed a referral query-string feature from Wander Console after it broke real pages and violated the principle of preserving user-intended URLs. A page that normally loaded fine, https://int10h.org/oldschool-pc-fonts/fontlist/, failed when altered to include a query string, returning a 404. The post argues that even seemingly harmless URL mutations can change or destroy resource identity, and that if a site wants attribution, the Referer header is the proper mechanism. The feature has been removed in release 0.6.0, with commit b26d77c documenting the fix. Practical takeaway: do not rewrite destination URLs for tracking, because small changes can break links and surprise both users and site owners.",
+      "source_name": "susam.net",
+      "source_type": "rss",
+      "score": 9,
+      "depth": 2,
+      "novelty": 3,
+      "breadth": 4,
+      "category": "engineering",
+      "keywords": [
+        "URLs",
+        "query strings",
+        "web consoles"
+      ],
+      "rank": 4
     },
     {
       "title": "Using Claude Code: The Unreasonable Effectiveness of HTML",
@@ -65,7 +106,7 @@
         "prompt engineering",
         "security"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "George Orwell's review of Russel's Power: A New Social Analysis",
@@ -85,7 +126,7 @@
         "Russell",
         "power"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "You gave me a u32. I gave you root. (io_uring ZCRX freelist LPE)",
@@ -107,7 +148,7 @@
         "local privilege escalation",
         "heap write"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "AI Is Breaking Two Vulnerability Cultures",
@@ -129,7 +170,7 @@
         "embargo",
         "Linux"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "Apple, Intel have reached preliminary chip-making deal",
@@ -150,28 +191,28 @@
         "Intel",
         "chip manufacturing"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "Cartoon Network Flash Games",
-      "title_display": "Cartoon Network Flash Games Page Blocked by Cloudflare",
+      "title_display": "Cartoon Network Flash Games Archive",
       "link": "https://www.webdesignmuseum.org/flash-game-exhibitions/cartoon-network-flash-games",
       "pub_date": "2026-05-08T16:50:13.000Z",
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
       "hn_points": 267,
-      "score": 3,
+      "score": 4,
       "depth": 1,
       "novelty": 1,
-      "breadth": 1,
+      "breadth": 2,
       "category": "other",
       "keywords": [
-        "flash games",
-        "web archive",
-        "cartoon network"
+        "Flash",
+        "Cartoon Network",
+        "web archive"
       ],
-      "rank": 8
+      "rank": 10
     },
     {
       "title": "This Week on The Analog Antiquarian",
@@ -191,7 +232,7 @@
         "analog antiquarian",
         "schedule"
       ],
-      "rank": 9
+      "rank": 11
     },
     {
       "title": "Google Cloud Fraud Defence is just WEI repackaged",
@@ -212,7 +253,7 @@
         "reCAPTCHA",
         "privacy"
       ],
-      "rank": 10
+      "rank": 12
     },
     {
       "title": "Serving a Website on a Raspberry Pi Zero Running in RAM",
@@ -234,7 +275,7 @@
         "Raspberry Pi Zero",
         "diskless"
       ],
-      "rank": 11
+      "rank": 13
     },
     {
       "title": "A web page that shows you everything the browser told it without asking",
@@ -255,7 +296,7 @@
         "privacy",
         "JavaScript APIs"
       ],
-      "rank": 12
+      "rank": 14
     },
     {
       "title": "Developing more confidence when tracking renames via Read­Directory­ChangesW",
@@ -275,7 +316,7 @@
         "filesystem",
         "rename tracking"
       ],
-      "rank": 13
+      "rank": 15
     },
     {
       "title": "An Introduction to Meshtastic",
@@ -296,28 +337,28 @@
         "LoRa",
         "mesh networking"
       ],
-      "rank": 14
+      "rank": 16
     },
     {
       "title": "GeoJSON",
-      "title_display": "GeoJSON Specification Overview",
+      "title_display": "GeoJSON Specification and Standardized Format",
       "link": "https://geojson.org/",
       "pub_date": "2026-05-08T12:10:19.000Z",
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
       "hn_points": 130,
-      "score": 5,
+      "score": 6,
       "depth": 1,
       "novelty": 1,
-      "breadth": 3,
-      "category": "engineering",
+      "breadth": 4,
+      "category": "other",
       "keywords": [
         "GeoJSON",
-        "RFC 7946",
-        "geospatial"
+        "geospatial data",
+        "RFC 7946"
       ],
-      "rank": 15
+      "rank": 17
     },
     {
       "title": "A Runnable Reference Architecture for Battery Energy Storage Systems on InfluxDB 3",
@@ -338,7 +379,7 @@
         "time series",
         "Python"
       ],
-      "rank": 16
+      "rank": 18
     },
     {
       "title": "Mojo 1.0 Beta",
@@ -360,7 +401,7 @@
         "GPU",
         "Python interop"
       ],
-      "rank": 17
+      "rank": 19
     },
     {
       "title": "Seth Michael Larson: Using Epilogue Retrace app with iPhone 13 Pro and Ubuntu",
@@ -381,7 +422,7 @@
         "Ubuntu",
         "USB-C"
       ],
-      "rank": 18
+      "rank": 20
     },
     {
       "title": "Wander Console 0.6.0",
@@ -402,7 +443,7 @@
         "query parameters",
         "open source"
       ],
-      "rank": 19
+      "rank": 21
     }
   ]
 }
