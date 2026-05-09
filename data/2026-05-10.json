@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3273,
-  "filtered_articles": 13,
+  "filtered_articles": 14,
   "articles": [
     {
       "title": "Using a Python 3 LSP server with Python 2 code works (more or less)",
@@ -91,6 +91,27 @@
         "water contamination"
       ],
       "rank": 4
+    },
+    {
+      "title": "All my clients wanted a carousel, now it's an AI chatbot",
+      "title_display": "Why Clients Keep Asking for Website Chatbots",
+      "link": "https://adele.pages.casa/md/blog/all-my-clients-wanted-a-carousel-now-it-s-an-ai-chatbot.md",
+      "pub_date": "2026-05-09T08:00:18.000Z",
+      "summary": "The post argues that website chatbots have become a status signal rather than a tool, similar to past design fads like carousels, cookie banners, and analytics widgets. The author says clients often want a chatbot because competitors have one, even though they usually dislike using chatbots themselves and find them unhelpful. It contrasts this with fast, minimal “smolweb” sites that users often find easier to read and quicker to use, while noting that simple, well-designed sites are harder to build and easier to dismiss as “not impressive enough.” The piece is a reflective opinion rather than a technical writeup, and its main takeaway is that web design trends are driven by perceived legitimacy as much as usability.",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 139,
+      "score": 8,
+      "depth": 2,
+      "novelty": 2,
+      "breadth": 4,
+      "category": "opinion",
+      "keywords": [
+        "chatbots",
+        "web design",
+        "client management"
+      ],
+      "rank": 5
     }
   ]
 }
