@@ -6,6 +6,26 @@
   "filtered_articles": 25,
   "articles": [
     {
+      "title": "Pluralistic: Trump's fruitless search for a goreable ox (09 May 2026)",
+      "title_display": "Trump, cost of living, and oligarchic price gouging",
+      "link": "https://pluralistic.net/2026/05/09/cossie-livvie-crissie/",
+      "pub_date": "2026-05-09T12:51:02.000Z",
+      "summary": "",
+      "source_name": "pluralistic.net",
+      "source_type": "rss",
+      "score": 5,
+      "depth": 1,
+      "novelty": 1,
+      "breadth": 3,
+      "category": "opinion",
+      "keywords": [
+        "antitrust",
+        "cost of living",
+        "oligopoly"
+      ],
+      "rank": 1
+    },
+    {
       "title": "Book Review: The Names by Florence Knapp ★★⯪☆☆",
       "title_display": "Book Review: The Names and Its Distressing Structure",
       "link": "https://shkspr.mobi/blog/2026/05/book-review-the-names-by-florence-knapp/",
@@ -23,7 +43,7 @@
         "domestic violence",
         "narrative structure"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "The Mismeasure of Open Source",
@@ -43,7 +63,7 @@
         "GitHub API",
         "funding"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Using Claude Code: The unreasonable effectiveness of HTML",
@@ -64,7 +84,7 @@
         "HTML",
         "AI coding"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Mythical Man Month",
@@ -85,7 +105,7 @@
         "conceptual integrity",
         "Brooks's law"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Notes on using GNU Emacs' Tramp system in an unusual shell environment",
@@ -106,7 +126,7 @@
         "remote path",
         "shell environment"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Quoting Luke Curley",
@@ -127,7 +147,7 @@
         "voice AI",
         "latency"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "AI makes weak engineers less harmful",
@@ -147,7 +167,7 @@
         "software engineering",
         "productivity"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "I Will Not Add Query Strings to Your URLs",
@@ -167,7 +187,7 @@
         "query strings",
         "web consoles"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Using Claude Code: The Unreasonable Effectiveness of HTML",
@@ -188,7 +208,7 @@
         "prompt engineering",
         "security"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "George Orwell's review of Russel's Power: A New Social Analysis",
@@ -208,7 +228,7 @@
         "Russell",
         "power"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "You gave me a u32. I gave you root. (io_uring ZCRX freelist LPE)",
@@ -230,7 +250,7 @@
         "local privilege escalation",
         "heap write"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "AI Is Breaking Two Vulnerability Cultures",
@@ -252,7 +272,7 @@
         "embargo",
         "Linux"
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "title": "Apple, Intel have reached preliminary chip-making deal",
@@ -273,28 +293,28 @@
         "Intel",
         "chip manufacturing"
       ],
-      "rank": 13
+      "rank": 14
     },
     {
       "title": "Cartoon Network Flash Games",
-      "title_display": "Cartoon Network Flash Games Archive Page Blocked",
+      "title_display": "Cartoon Network Flash Games Archive",
       "link": "https://www.webdesignmuseum.org/flash-game-exhibitions/cartoon-network-flash-games",
       "pub_date": "2026-05-08T16:50:13.000Z",
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
       "hn_points": 267,
-      "score": 3,
+      "score": 4,
       "depth": 1,
       "novelty": 1,
-      "breadth": 1,
+      "breadth": 2,
       "category": "other",
       "keywords": [
-        "Flash",
-        "Cartoon Network",
-        "web archive"
+        "flash games",
+        "web archive",
+        "Cartoon Network"
       ],
-      "rank": 14
+      "rank": 15
     },
     {
       "title": "This Week on The Analog Antiquarian",
@@ -314,7 +334,7 @@
         "analog antiquarian",
         "schedule"
       ],
-      "rank": 15
+      "rank": 16
     },
     {
       "title": "Google Cloud Fraud Defence is just WEI repackaged",
@@ -335,7 +355,7 @@
         "reCAPTCHA",
         "privacy"
       ],
-      "rank": 16
+      "rank": 17
     },
     {
       "title": "Serving a Website on a Raspberry Pi Zero Running in RAM",
@@ -357,7 +377,7 @@
         "Raspberry Pi Zero",
         "diskless"
       ],
-      "rank": 17
+      "rank": 18
     },
     {
       "title": "A web page that shows you everything the browser told it without asking",
@@ -378,7 +398,7 @@
         "privacy",
         "JavaScript APIs"
       ],
-      "rank": 18
+      "rank": 19
     },
     {
       "title": "Podman rootless containers and the Copy Fail exploit",
@@ -400,7 +420,7 @@
         "CVE-2026-31431",
         "capabilities"
       ],
-      "rank": 19
+      "rank": 20
     },
     {
       "title": "Developing more confidence when tracking renames via Read­Directory­ChangesW",
@@ -420,7 +440,7 @@
         "filesystem",
         "rename tracking"
       ],
-      "rank": 20
+      "rank": 21
     },
     {
       "title": "An Introduction to Meshtastic",
@@ -441,7 +461,7 @@
         "LoRa",
         "mesh networking"
       ],
-      "rank": 21
+      "rank": 22
     },
     {
       "title": "GeoJSON",
@@ -462,7 +482,7 @@
         "geospatial data",
         "RFC 7946"
       ],
-      "rank": 22
+      "rank": 23
     },
     {
       "title": "A Runnable Reference Architecture for Battery Energy Storage Systems on InfluxDB 3",
@@ -483,7 +503,7 @@
         "time series",
         "Python"
       ],
-      "rank": 23
+      "rank": 24
     },
     {
       "title": "Mojo 1.0 Beta",
@@ -505,7 +525,7 @@
         "GPU",
         "Python interop"
       ],
-      "rank": 24
+      "rank": 25
     },
     {
       "title": "Seth Michael Larson: Using Epilogue Retrace app with iPhone 13 Pro and Ubuntu",
@@ -526,7 +546,7 @@
         "Ubuntu",
         "USB-C"
       ],
-      "rank": 25
+      "rank": 26
     },
     {
       "title": "Wander Console 0.6.0",
@@ -547,7 +567,7 @@
         "query parameters",
         "open source"
       ],
-      "rank": 26
+      "rank": 27
     }
   ]
 }
