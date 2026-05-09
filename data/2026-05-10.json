@@ -3,6 +3,29 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3273,
-  "filtered_articles": 14,
-  "articles": []
+  "filtered_articles": 15,
+  "articles": [
+    {
+      "title": "LLMs Corrupt Your Documents When You Delegate",
+      "title_display": "Study Finds LLM Delegates Corrupt Documents",
+      "link": "https://arxiv.org/abs/2604.15597",
+      "pub_date": "2026-05-09T13:50:12.000Z",
+      "summary": "This paper introduces DELEGATE-52, a benchmark for long delegated workflows across 52 professional domains, including coding, crystallography, and music notation. In a large-scale experiment covering 19 LLMs, the authors report that even frontier models such as Gemini 3.1 Pro, Claude 4.6 Opus, and GPT 5.4 corrupted an average of 25% of document content by the end of long workflows. The degradation worsened with larger documents, longer interactions, and distractor files. The authors also tested agentic tool use and found that it did not improve performance on DELEGATE-52. The main takeaway is that current LLMs are not yet reliable delegates for document-heavy work: they can introduce sparse but severe errors that silently accumulate over time, which matters directly for AI-assisted editing, coding agents, and other workflow automation systems.",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 163,
+      "score": 23,
+      "depth": 8,
+      "novelty": 7,
+      "breadth": 8,
+      "category": "ai-ml",
+      "keywords": [
+        "LLM evaluation",
+        "delegation",
+        "document editing",
+        "agentic workflows"
+      ],
+      "rank": 1
+    }
+  ]
 }
