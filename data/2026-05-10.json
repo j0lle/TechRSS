@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3273,
-  "filtered_articles": 14,
+  "filtered_articles": 15,
   "articles": [
     {
       "title": "Using a Python 3 LSP server with Python 2 code works (more or less)",
@@ -49,6 +49,25 @@
       "rank": 2
     },
     {
+      "title": "Zed Editor Theme-Builder",
+      "title_display": "Zed Editor Theme-Builder",
+      "link": "https://zed.dev/theme-builder",
+      "pub_date": "2026-05-09T18:20:10.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 132,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Zed",
+        "Theme Builder",
+        "Zed AI",
+        "Zeta"
+      ],
+      "rank": 3
+    },
+    {
       "title": "LLMs Corrupt Your Documents When You Delegate",
       "title_display": "Study Finds LLM Delegates Corrupt Documents",
       "link": "https://arxiv.org/abs/2604.15597",
@@ -68,7 +87,7 @@
         "document editing",
         "agentic workflows"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "America's carpet capital: an empire and its toxic legacy",
@@ -90,7 +109,7 @@
         "Georgia",
         "water contamination"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "All my clients wanted a carousel, now it's an AI chatbot",
@@ -111,7 +130,7 @@
         "web design",
         "client management"
       ],
-      "rank": 5
+      "rank": 6
     }
   ]
 }
