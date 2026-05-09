@@ -1,10 +1,31 @@
 {
   "date": "2026-05-09",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3247,
-  "filtered_articles": 30,
+  "success_feeds": 89,
+  "total_articles": 3272,
+  "filtered_articles": 31,
   "articles": [
+    {
+      "title": "Quoting Luke Curley",
+      "title_display": "WebRTC’s Low-Latency Bias Hurts Prompt Accuracy",
+      "link": "https://simonwillison.net/2026/May/9/luke-curley/#atom-everything",
+      "pub_date": "2026-05-09T01:03:58.000Z",
+      "summary": "This short quote argues that WebRTC is optimized for real-time audio, not reliable prompt delivery. It notes that WebRTC drops audio packets under poor network conditions to preserve latency, and says browser implementations make retransmission effectively impossible. The practical takeaway is that voice AI systems built on WebRTC may need to accept prompt degradation rather than wait for slower, more reliable delivery, which matters for anyone building low-latency conversational products.",
+      "source_name": "simonwillison.net",
+      "source_type": "rss",
+      "score": 8,
+      "depth": 2,
+      "novelty": 2,
+      "breadth": 4,
+      "category": "opinion",
+      "keywords": [
+        "WebRTC",
+        "OpenAI",
+        "voice AI",
+        "latency"
+      ],
+      "rank": 1
+    },
     {
       "title": "AI makes weak engineers less harmful",
       "title_display": "AI Coding Agents Raise the Floor for Weak Engineers",
@@ -23,7 +44,7 @@
         "software engineering",
         "productivity"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Using Claude Code: The Unreasonable Effectiveness of HTML",
@@ -44,7 +65,7 @@
         "prompt engineering",
         "security"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "George Orwell's review of Russel's Power: A New Social Analysis",
@@ -64,7 +85,7 @@
         "Russell",
         "power"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "AI Is Breaking Two Vulnerability Cultures",
@@ -86,7 +107,7 @@
         "embargo",
         "Linux"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Apple, Intel have reached preliminary chip-making deal",
@@ -107,28 +128,28 @@
         "Intel",
         "chip manufacturing"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Cartoon Network Flash Games",
-      "title_display": "Cartoon Network Flash Games Archive Blocked by Cloudflare",
+      "title_display": "Cartoon Network Flash Games Archive Page Blocked",
       "link": "https://www.webdesignmuseum.org/flash-game-exhibitions/cartoon-network-flash-games",
       "pub_date": "2026-05-08T16:50:13.000Z",
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
       "hn_points": 267,
-      "score": 4,
+      "score": 3,
       "depth": 1,
       "novelty": 1,
-      "breadth": 2,
+      "breadth": 1,
       "category": "other",
       "keywords": [
         "Flash",
-        "web archive",
-        "Cartoon Network"
+        "Cartoon Network",
+        "web archive"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "This Week on The Analog Antiquarian",
@@ -148,7 +169,7 @@
         "analog antiquarian",
         "schedule"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Google Cloud Fraud Defence is just WEI repackaged",
@@ -169,7 +190,7 @@
         "reCAPTCHA",
         "privacy"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Serving a Website on a Raspberry Pi Zero Running in RAM",
@@ -191,7 +212,7 @@
         "Raspberry Pi Zero",
         "diskless"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "A web page that shows you everything the browser told it without asking",
@@ -212,7 +233,7 @@
         "privacy",
         "JavaScript APIs"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "Developing more confidence when tracking renames via Read­Directory­ChangesW",
@@ -232,7 +253,7 @@
         "filesystem",
         "rename tracking"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "An Introduction to Meshtastic",
@@ -253,28 +274,28 @@
         "LoRa",
         "mesh networking"
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "title": "GeoJSON",
-      "title_display": "GeoJSON specification and basic geometry types",
+      "title_display": "GeoJSON Format and RFC 7946 Overview",
       "link": "https://geojson.org/",
       "pub_date": "2026-05-08T12:10:19.000Z",
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
       "hn_points": 130,
-      "score": 6,
+      "score": 5,
       "depth": 1,
       "novelty": 1,
-      "breadth": 4,
-      "category": "other",
+      "breadth": 3,
+      "category": "engineering",
       "keywords": [
         "GeoJSON",
-        "geospatial data",
+        "geospatial",
         "RFC 7946"
       ],
-      "rank": 13
+      "rank": 14
     },
     {
       "title": "A Runnable Reference Architecture for Battery Energy Storage Systems on InfluxDB 3",
@@ -295,7 +316,7 @@
         "time series",
         "Python"
       ],
-      "rank": 14
+      "rank": 15
     },
     {
       "title": "Mojo 1.0 Beta",
@@ -317,7 +338,7 @@
         "GPU",
         "Python interop"
       ],
-      "rank": 15
+      "rank": 16
     },
     {
       "title": "Seth Michael Larson: Using Epilogue Retrace app with iPhone 13 Pro and Ubuntu",
@@ -338,7 +359,7 @@
         "Ubuntu",
         "USB-C"
       ],
-      "rank": 16
+      "rank": 17
     },
     {
       "title": "Wander Console 0.6.0",
@@ -359,7 +380,7 @@
         "query parameters",
         "open source"
       ],
-      "rank": 17
+      "rank": 18
     }
   ]
 }
