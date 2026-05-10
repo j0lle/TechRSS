@@ -1,10 +1,54 @@
 {
   "date": "2026-05-10",
   "total_feeds": 95,
-  "success_feeds": 87,
-  "total_articles": 3221,
-  "filtered_articles": 11,
+  "success_feeds": 89,
+  "total_articles": 3274,
+  "filtered_articles": 13,
   "articles": [
+    {
+      "title": "Show HN: Building a web server in assembly to give my life (a lack of) meaning",
+      "title_display": "A Static HTTP Server Written Entirely in AArch64 Assembly",
+      "link": "https://imtomt.github.io/ymawky/",
+      "pub_date": "2026-05-10T03:11:01.000Z",
+      "summary": "This post describes ymawky, a static HTTP server implemented entirely in AArch64 assembly for macOS, using raw Darwin syscalls with no libc or external libraries. The author walks through the hardest parts of the project: manual HTTP parsing, request-method detection, path normalization and percent-decoding, header scanning, numeric parsing with overflow checks, and safe handling of `GET`, `HEAD`, `PUT`, `DELETE`, and `OPTIONS`.\n\nThe implementation emphasizes correctness and defensive behavior. It uses fork-per-request handling, temp-file writes for `PUT` to avoid partial overwrites, directory listing generation with both URL percent-encoding and HTML escaping, and filesystem protections such as docroot prefixing, `..` segment rejection, and `O_NOFOLLOW_ANY` to reduce traversal and symlink risks. It also adds timeout handling against slowloris-style attacks via `setitimer()` and `sigaction()`, plus a process cap using `proc_info()` to count active children.\n\nThe practical value is not performance claims but a detailed look at the complexity hidden inside “simple” web-server behavior when every byte and syscall must be handled manually.",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 152,
+      "score": 19,
+      "depth": 6,
+      "novelty": 7,
+      "breadth": 6,
+      "category": "engineering",
+      "keywords": [
+        "assembly",
+        "web server",
+        "macOS",
+        "syscalls"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Show HN: I made a Clojure-like language in Go, boots in 7ms",
+      "title_display": "let-go: Clojure-like language in Go boots in 7ms",
+      "link": "https://github.com/nooga/let-go",
+      "pub_date": "2026-05-09T22:00:09.000Z",
+      "summary": "let-go is a bytecode compiler and VM for a Clojure-like language implemented in Go, aimed at fast startup, small binaries, and practical interop. The repo claims a 10MB standalone binary with 7ms cold start and 14MB idle memory, and backs that with benchmark comparisons against Babashka, Joker, and Clojure on the JVM. On an Apple M1 Pro, it reports 4696/4921 passing assertions (95.4%) against the jank-lang Clojure compliance suite, with remaining gaps mostly around numeric edge cases, BigInt promotion, and a few unimplemented namespaces or forms.\n\nThe implementation includes broad Clojure surface-area support: macros, destructuring, protocols, records, multimethods, transducers, lazy seqs, core.async-like channels, HTTP, JSON, Transit, nREPL, and Babashka pods. It also supports AOT compilation to bytecode, standalone executables, and WASM web apps with terminal emulation. For Go integration, the project exposes Go functions, channels, and struct↔record roundtrips, so it can act as an embeddable scripting layer inside Go applications.\n\nThe most useful engineering detail is the benchmark table and the explicit list of behavioral differences from Clojure, which makes the project easier to evaluate for real adoption. This is most relevant for Go teams that want Lisp-style scripting, fast cold starts, or browser-capable CLJ-like tooling without the JVM.",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 139,
+      "score": 22,
+      "depth": 8,
+      "novelty": 7,
+      "breadth": 7,
+      "category": "tools",
+      "keywords": [
+        "Clojure",
+        "Go",
+        "bytecode VM",
+        "WASM"
+      ],
+      "rank": 2
+    },
     {
       "title": "Using a Python 3 LSP server with Python 2 code works (more or less)",
       "title_display": "Python 3 LSP Still Works on Python 2 Code",
@@ -24,7 +68,29 @@
         "Eglot",
         "GNU Emacs"
       ],
-      "rank": 1
+      "rank": 3
+    },
+    {
+      "title": "FreeBSD: Local Privilege Escalation via Execve()",
+      "title_display": "FreeBSD execve() Bug Enables Local Privilege Escalation",
+      "link": "https://www.freebsd.org/security/advisories/FreeBSD-SA-26:13.exec.asc",
+      "pub_date": "2026-05-09T21:00:09.000Z",
+      "summary": "FreeBSD has disclosed CVE-2026-7270, a kernel vulnerability in execve(2) that can let an unprivileged local user escalate to root. The advisory says an operator-precedence bug in the kernel can trigger a buffer overflow, causing attacker-controlled data to overwrite adjacent execve argument buffers. All supported FreeBSD versions are affected.\n\nThe issue was corrected on 2026-04-29 across the supported stable and releng branches, including FreeBSD 15, 14.4, 14.3, and 13.5. FreeBSD provided multiple remediation paths: pkg(8) updates for 15.0 base-package installs, freebsd-update(8) for RELEASE systems, or source patching followed by a kernel rebuild and reboot. The advisory lists specific commit hashes for each fixed branch.\n\nThis is a high-priority system-level security fix because there is no workaround and the impact is full superuser compromise from local access. Administrators should patch immediately and reboot affected hosts.",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 124,
+      "score": 24,
+      "depth": 8,
+      "novelty": 7,
+      "breadth": 9,
+      "category": "security",
+      "keywords": [
+        "FreeBSD",
+        "local privilege escalation",
+        "execve",
+        "CVE-2026-7270"
+      ],
+      "rank": 4
     },
     {
       "title": "Bun's experimental Rust rewrite hits 99.8% test compatibility on Linux x64 glibc",
@@ -46,7 +112,7 @@
         "test compatibility",
         "Linux x64 glibc"
       ],
-      "rank": 2
+      "rank": 5
     },
     {
       "title": "Zed Editor Theme-Builder",
@@ -65,7 +131,7 @@
         "Zed AI",
         "Zeta"
       ],
-      "rank": 3
+      "rank": 6
     },
     {
       "title": "LLMs Corrupt Your Documents When You Delegate",
@@ -87,7 +153,7 @@
         "document editing",
         "agentic workflows"
       ],
-      "rank": 4
+      "rank": 7
     },
     {
       "title": "How LEDs are made (2014)",
@@ -108,7 +174,7 @@
         "factory tour",
         "electronics"
       ],
-      "rank": 5
+      "rank": 8
     },
     {
       "title": "America's carpet capital: an empire and its toxic legacy",
@@ -130,7 +196,7 @@
         "Georgia",
         "water contamination"
       ],
-      "rank": 6
+      "rank": 9
     },
     {
       "title": "All my clients wanted a carousel, now it's an AI chatbot",
@@ -151,7 +217,7 @@
         "web design",
         "client management"
       ],
-      "rank": 7
+      "rank": 10
     },
     {
       "title": "The Real Singularity is the Friends We Made Along the Way",
@@ -172,7 +238,7 @@
         "infrastructure",
         "capex"
       ],
-      "rank": 8
+      "rank": 11
     }
   ]
 }
