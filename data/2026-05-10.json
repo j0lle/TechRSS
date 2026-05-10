@@ -2,9 +2,31 @@
   "date": "2026-05-10",
   "total_feeds": 95,
   "success_feeds": 88,
-  "total_articles": 3249,
-  "filtered_articles": 13,
+  "total_articles": 3246,
+  "filtered_articles": 14,
   "articles": [
+    {
+      "title": "Debian must ship reproducible packages",
+      "title_display": "Debian Requires Reproducible Packages for Migration",
+      "link": "https://lists.debian.org/debian-devel-announce/2026/05/msg00001.html",
+      "pub_date": "2026-05-10T06:41:02.000Z",
+      "summary": "Debian’s release team says new package migrations will now be blocked unless packages are reproducible, and existing testing packages that regress in reproducibility will also be held back. The change is enabled through the migration software and is credited to the Reproducible Builds project and the reproduce.debian.net infrastructure. The announcement also notes that autopkgtests are now run for binNMUs, not just source uploads, and warns that the new loong64 architecture has increased the CI queue because many packages had to be rebuilt across architectures. For maintainers, the practical impact is stricter release gating and more responsibility to fix reverse-dependency regressions before packages can migrate.",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 149,
+      "score": 12,
+      "depth": 2,
+      "novelty": 3,
+      "breadth": 7,
+      "category": "engineering",
+      "keywords": [
+        "Debian",
+        "reproducible builds",
+        "autopkgtest",
+        "binNMU"
+      ],
+      "rank": 1
+    },
     {
       "title": "Show HN: Building a web server in assembly to give my life (a lack of) meaning",
       "title_display": "A Static HTTP Server Written Entirely in AArch64 Assembly",
@@ -25,7 +47,28 @@
         "macOS",
         "syscalls"
       ],
-      "rank": 1
+      "rank": 2
+    },
+    {
+      "title": "The left-wing case for AI",
+      "title_display": "A Left-Wing Argument for AI",
+      "link": "https://seangoedecke.com/the-left-wing-case-for-ai/",
+      "pub_date": "2026-05-10T00:00:00.000Z",
+      "summary": "This essay argues that left-wing politics can support LLMs on pragmatic grounds: disability access, chronic-illness self-advocacy, class code-switching, and tutoring for students who lack privileged educational support. It frames AI as a tool that helps users interact with institutions in the language those institutions reward, and claims current frontier models may already reflect a broadly left-leaning bias. The piece is mostly ideological argumentation rather than technical analysis, but it does connect AI to real workflows in accessibility, medical research, and education. Its main practical takeaway is that the strongest pro-AI case on the left is not productivity, but access and power redistribution.",
+      "source_name": "seangoedecke.com",
+      "source_type": "rss",
+      "score": 11,
+      "depth": 2,
+      "novelty": 3,
+      "breadth": 6,
+      "category": "opinion",
+      "keywords": [
+        "LLMs",
+        "disability",
+        "education",
+        "code-switching"
+      ],
+      "rank": 3
     },
     {
       "title": "Rust but Lisp",
@@ -47,7 +90,7 @@
         "macro",
         "transpiler"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "Show HN: I made a Clojure-like language in Go, boots in 7ms",
@@ -69,7 +112,7 @@
         "bytecode VM",
         "WASM"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "Using a Python 3 LSP server with Python 2 code works (more or less)",
@@ -90,7 +133,7 @@
         "Eglot",
         "GNU Emacs"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "FreeBSD: Local Privilege Escalation via Execve()",
@@ -112,7 +155,7 @@
         "execve",
         "CVE-2026-7270"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "Bun's experimental Rust rewrite hits 99.8% test compatibility on Linux x64 glibc",
@@ -134,7 +177,7 @@
         "test compatibility",
         "Linux x64 glibc"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "Zed Editor Theme-Builder",
@@ -153,7 +196,7 @@
         "Zed AI",
         "Zeta"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "CPanel's Black Week: 3 New Vulnerabilities Patched After Attack on 44k Servers",
@@ -175,7 +218,7 @@
         "ransomware",
         "shared hosting"
       ],
-      "rank": 8
+      "rank": 10
     },
     {
       "title": "LLMs Corrupt Your Documents When You Delegate",
@@ -197,7 +240,7 @@
         "document editing",
         "agentic workflows"
       ],
-      "rank": 9
+      "rank": 11
     },
     {
       "title": "How LEDs are made (2014)",
@@ -218,7 +261,7 @@
         "factory tour",
         "electronics"
       ],
-      "rank": 10
+      "rank": 12
     },
     {
       "title": "America's carpet capital: an empire and its toxic legacy",
@@ -240,7 +283,7 @@
         "Georgia",
         "water contamination"
       ],
-      "rank": 11
+      "rank": 13
     },
     {
       "title": "All my clients wanted a carousel, now it's an AI chatbot",
@@ -261,7 +304,7 @@
         "web design",
         "client management"
       ],
-      "rank": 12
+      "rank": 14
     },
     {
       "title": "The Real Singularity is the Friends We Made Along the Way",
@@ -282,7 +325,7 @@
         "infrastructure",
         "capex"
       ],
-      "rank": 13
+      "rank": 15
     }
   ]
 }
