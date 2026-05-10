@@ -90,6 +90,27 @@
       "rank": 4
     },
     {
+      "title": "How LEDs are made (2014)",
+      "title_display": "Inside a Factory Making LEDs",
+      "link": "https://learn.sparkfun.com/tutorials/how-leds-are-made/all",
+      "pub_date": "2026-05-09T13:10:12.000Z",
+      "summary": "SparkFun’s 2014 factory tour shows the end-to-end LED assembly process at YunSun: die sheets, lead-frame stamping, manual die placement, gold-wire bonding, epoxy molding, curing, lead cutting, and pogo-pin QC testing. The article includes a few concrete details, such as roughly 4,000 dies per sheet for about $12.50, manual alignment at more than 80 dies per minute, a 45-minute bake followed by 8–12 hours of curing, and the observation that the work is done in open air rather than a clean room. It also explains why LED shapes are constrained by mold design and supplier specialization across the tool chain. Useful as an accessible manufacturing walkthrough for hardware engineers, but it is primarily an educational photo essay rather than deep technical analysis.",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 124,
+      "score": 9,
+      "depth": 3,
+      "novelty": 2,
+      "breadth": 4,
+      "category": "engineering",
+      "keywords": [
+        "LED manufacturing",
+        "factory tour",
+        "electronics"
+      ],
+      "rank": 5
+    },
+    {
       "title": "America's carpet capital: an empire and its toxic legacy",
       "title_display": "Georgia Carpet Industry’s PFAS Pollution Legacy",
       "link": "https://apnews.com/projects/pfas-forever-stained/",
@@ -109,7 +130,7 @@
         "Georgia",
         "water contamination"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "All my clients wanted a carousel, now it's an AI chatbot",
@@ -130,7 +151,28 @@
         "web design",
         "client management"
       ],
-      "rank": 6
+      "rank": 7
+    },
+    {
+      "title": "The Real Singularity is the Friends We Made Along the Way",
+      "title_display": "Geohot Argues AI Is Transformation, Not Singularity",
+      "link": "https://geohot.github.io//blog/jekyll/update/2026/05/09/real-singularity.html",
+      "pub_date": "2026-05-09T07:00:00.000Z",
+      "summary": "This post argues that AI is a major technological shift, but not a singularity or machine-god event. The author frames current hyperscaler GPU spending as a strategic capex race driven by fear of missing out, not proof of imminent superintelligence, and compares the situation to earlier industrial transitions like steam engines and jet engines. It also rejects common doomer claims about the end of capitalism, jobs, or humanity. The piece is mostly a worldview essay rather than an engineering analysis, with no benchmarks, system details, or production evidence. Its practical value is mainly as a contrarian take on AI hype and investment narratives.",
+      "source_name": "geohot.github.io",
+      "source_type": "rss",
+      "score": 10,
+      "depth": 2,
+      "novelty": 3,
+      "breadth": 5,
+      "category": "opinion",
+      "keywords": [
+        "AI",
+        "singularity",
+        "infrastructure",
+        "capex"
+      ],
+      "rank": 8
     }
   ]
 }
