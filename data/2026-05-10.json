@@ -1,9 +1,9 @@
 {
   "date": "2026-05-10",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3274,
-  "filtered_articles": 13,
+  "success_feeds": 88,
+  "total_articles": 3254,
+  "filtered_articles": 12,
   "articles": [
     {
       "title": "Show HN: Building a web server in assembly to give my life (a lack of) meaning",
