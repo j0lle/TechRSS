@@ -1,9 +1,9 @@
 {
   "date": "2026-05-10",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3274,
-  "filtered_articles": 12,
+  "success_feeds": 87,
+  "total_articles": 3221,
+  "filtered_articles": 11,
   "articles": [
     {
       "title": "Using a Python 3 LSP server with Python 2 code works (more or less)",
