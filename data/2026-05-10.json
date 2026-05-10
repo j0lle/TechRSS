@@ -2,7 +2,7 @@
   "date": "2026-05-10",
   "total_feeds": 95,
   "success_feeds": 88,
-  "total_articles": 3249,
+  "total_articles": 3264,
   "filtered_articles": 16,
   "articles": [
     {
@@ -111,6 +111,27 @@
       "rank": 5
     },
     {
+      "title": "Python 3.14.5 is out!",
+      "title_display": "Python 3.14.5 Reverts the Incremental Garbage Collector",
+      "link": "https://blog.python.org/2026/05/python-3145-is-out/",
+      "pub_date": "2026-05-10T00:00:00.000Z",
+      "summary": "Python 3.14.5 is the fifth maintenance release of Python 3.14, with about 154 bug fixes, build improvements, and documentation updates. The most notable change is a GC rollback: the incremental garbage collector introduced in Python 3.14.0–3.14.4 has been reverted to the generational collector from Python 3.13 after reports of significant memory pressure in production. The release also updates the official macOS installer to Tcl/Tk 9.0.3, and continues the 3.14 line’s major features such as free-threaded Python support, deferred annotations, t-strings, multiple interpreters, stdlib Zstandard support, safer debugger hooks, and improved error messages. It also notes experimental JIT binaries for macOS and Windows, and new Android binary releases. For engineers, the key takeaway is operational: this is a maintenance release that fixes a production-affecting runtime regression rather than adding a headline feature.",
+      "source_name": "blog.python.org",
+      "source_type": "rss",
+      "score": 13,
+      "depth": 3,
+      "novelty": 2,
+      "breadth": 8,
+      "category": "engineering",
+      "keywords": [
+        "Python",
+        "release",
+        "garbage collector",
+        "CPython"
+      ],
+      "rank": 6
+    },
+    {
       "title": "The left-wing case for AI",
       "title_display": "A Left-Wing Argument for AI",
       "link": "https://seangoedecke.com/the-left-wing-case-for-ai/",
@@ -129,7 +150,7 @@
         "education",
         "code-switching"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Rust but Lisp",
@@ -151,7 +172,7 @@
         "macro",
         "transpiler"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Show HN: I made a Clojure-like language in Go, boots in 7ms",
@@ -173,7 +194,7 @@
         "bytecode VM",
         "WASM"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Using a Python 3 LSP server with Python 2 code works (more or less)",
@@ -194,7 +215,7 @@
         "Eglot",
         "GNU Emacs"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "FreeBSD: Local Privilege Escalation via Execve()",
@@ -216,7 +237,7 @@
         "execve",
         "CVE-2026-7270"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "Bun's experimental Rust rewrite hits 99.8% test compatibility on Linux x64 glibc",
@@ -238,7 +259,7 @@
         "test compatibility",
         "Linux x64 glibc"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "Zed Editor Theme-Builder",
@@ -257,7 +278,7 @@
         "Zed AI",
         "Zeta"
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "title": "CPanel's Black Week: 3 New Vulnerabilities Patched After Attack on 44k Servers",
@@ -279,7 +300,7 @@
         "ransomware",
         "shared hosting"
       ],
-      "rank": 13
+      "rank": 14
     },
     {
       "title": "LLMs Corrupt Your Documents When You Delegate",
@@ -301,7 +322,7 @@
         "document editing",
         "agentic workflows"
       ],
-      "rank": 14
+      "rank": 15
     },
     {
       "title": "How LEDs are made (2014)",
@@ -322,7 +343,7 @@
         "factory tour",
         "electronics"
       ],
-      "rank": 15
+      "rank": 16
     },
     {
       "title": "America's carpet capital: an empire and its toxic legacy",
@@ -344,7 +365,7 @@
         "Georgia",
         "water contamination"
       ],
-      "rank": 16
+      "rank": 17
     },
     {
       "title": "All my clients wanted a carousel, now it's an AI chatbot",
@@ -365,7 +386,7 @@
         "web design",
         "client management"
       ],
-      "rank": 17
+      "rank": 18
     },
     {
       "title": "The Real Singularity is the Friends We Made Along the Way",
@@ -386,7 +407,7 @@
         "infrastructure",
         "capex"
       ],
-      "rank": 18
+      "rank": 19
     }
   ]
 }
