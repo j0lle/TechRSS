@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3274,
-  "filtered_articles": 22,
+  "filtered_articles": 21,
   "articles": [
     {
       "title": "The linear algebra of bit twiddling",
@@ -68,20 +68,23 @@
     },
     {
       "title": "Production engineering when trading billions of dollars a day [video]",
-      "title_display": "Production engineering when trading billions of dollars a day [video]",
+      "title_display": "Jane Street on High-Stakes Production Engineering",
       "link": "https://www.youtube.com/watch?v=zR9PpXWsKFQ",
       "pub_date": "2026-05-09T20:20:07.000Z",
-      "summary": "",
+      "summary": "Jane Street’s Mark Doss explains how production engineering works when software directly affects trading P&L, with billions of dollars moving daily. The talk emphasizes that in this environment, every message matters, so alerting and incident response are business-critical rather than just operational hygiene. It argues that traditional SLO-based approaches can fall short for trading systems, where the cost of delayed detection or response can be immediate and measurable.\n\nThe talk is structured around the production environment, what that means for Jane Street’s engineering practice, and a realistic sample incident. It highlights defense in depth, tight cross-team communication, and the need to design monitoring around rare but high-impact failures rather than generic uptime targets. The video also includes a summary and Q&A, suggesting it is meant as a practical engineering overview rather than a product pitch.\n\nFor engineers building low-latency, high-availability, or financially critical systems, the main value is the operational framing: reliability work should be evaluated by business impact, not only service-level dashboards.",
       "source_name": "Hacker News",
       "source_type": "hn",
       "hn_points": 132,
-      "score": 26,
-      "category": "other",
+      "score": 18,
+      "depth": 6,
+      "novelty": 5,
+      "breadth": 7,
+      "category": "engineering",
       "keywords": [
-        "Production engineering",
-        "trading",
-        "SRE",
-        "reliability"
+        "production engineering",
+        "monitoring",
+        "incident response",
+        "Jane Street"
       ],
       "rank": 4
     }
