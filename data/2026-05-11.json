@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3274,
-  "filtered_articles": 20,
+  "filtered_articles": 21,
   "articles": [
     {
       "title": "The linear algebra of bit twiddling",
@@ -48,6 +48,27 @@
       "rank": 2
     },
     {
+      "title": "GitHub Is Sinking",
+      "title_display": "GitHub Is Losing Developer Trust",
+      "link": "https://dbushell.com/2026/04/29/github-is-sinking/",
+      "pub_date": "2026-05-10T17:20:07.000Z",
+      "summary": "This is an opinionated rant arguing that GitHub has become unreliable, bot-heavy, and increasingly hostile to developers after Microsoft’s acquisition. The post cites uptime complaints, a missing status page, and a cluster of recent “leaving GitHub” posts, but it provides no original measurements, incident analysis, or engineering evidence beyond links and assertions. It recommends considering alternatives such as Codeberg/Forgejo, Tangled, Gitea, GitLab, Bitbucket, or self-hosting a Git forge, and suggests keeping an exit plan rather than depending on GitHub alone. The practical takeaway is not a migration recipe but a general reminder that Git is portable and GitHub is optional.",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 152,
+      "score": 9,
+      "depth": 2,
+      "novelty": 2,
+      "breadth": 5,
+      "category": "opinion",
+      "keywords": [
+        "GitHub",
+        "Forgejo",
+        "code hosting"
+      ],
+      "rank": 3
+    },
+    {
       "title": "Louis Rossmann tells 3D printer maker Bambu Lab to 'Go (Bleep) yourself'",
       "title_display": "Louis Rossmann tells 3D printer maker Bambu Lab to 'Go (Bleep) yourself'",
       "link": "https://www.tomshardware.com/3d-printing/louis-rossmann-tells-3d-printer-maker-bambu-lab-to-go-bleep-yourself-over-its-lawsuit-against-enthusiast-right-to-repair-advocate-offers-to-pay-the-legal-fees-for-a-threatened-orcaslicer-developer",
@@ -64,7 +85,7 @@
         "OrcaSlicer",
         "right-to-repair"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Production engineering when trading billions of dollars a day [video]",
@@ -86,7 +107,7 @@
         "incident response",
         "Jane Street"
       ],
-      "rank": 4
+      "rank": 5
     }
   ]
 }
