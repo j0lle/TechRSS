@@ -6,6 +6,27 @@
   "filtered_articles": 21,
   "articles": [
     {
+      "title": "Reverse engineering Mersenne Twister with Linear Algebra",
+      "title_display": "Reverse Engineering Mersenne Twister with Linear Algebra",
+      "link": "https://www.johndcook.com/blog/2026/05/10/reverse-mersenne-twister/",
+      "pub_date": "2026-05-10T17:32:02.000Z",
+      "summary": "This post shows that the original Mersenne Twister’s 32-bit tempering step is invertible and can be modeled as a linear transformation over GF(2). The author builds the 32×32 matrix for the temper function in Python, verifies that matrix multiplication reproduces the same output bits as the bit-twiddling implementation, and then computes the inverse matrix to recover internal state. Since MT outputs 640 tempered state values before twisting, the article explains how observing outputs can reconstruct the full state and predict future values. It is a clear, mathematically grounded explanation of why MT is suitable as a PRNG but not a CSPRNG, and the matrix-based framing is useful for readers who want a conceptually simpler path to state recovery.",
+      "source_name": "johndcook.com",
+      "source_type": "rss",
+      "score": 19,
+      "depth": 7,
+      "novelty": 6,
+      "breadth": 6,
+      "category": "engineering",
+      "keywords": [
+        "Mersenne Twister",
+        "linear algebra",
+        "GF(2)",
+        "PRNG"
+      ],
+      "rank": 1
+    },
+    {
       "title": "Production engineering when trading billions of dollars a day [video]",
       "title_display": "Production engineering when trading billions of dollars a day [video]",
       "link": "https://www.youtube.com/watch?v=zR9PpXWsKFQ",
@@ -22,7 +43,7 @@
         "SRE",
         "reliability"
       ],
-      "rank": 1
+      "rank": 2
     }
   ]
 }
