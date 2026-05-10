@@ -1,9 +1,9 @@
 {
   "date": "2026-05-11",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3274,
-  "filtered_articles": 21,
+  "success_feeds": 86,
+  "total_articles": 3206,
+  "filtered_articles": 23,
   "articles": [
     {
       "title": "The linear algebra of bit twiddling",
@@ -27,6 +27,48 @@
       "rank": 1
     },
     {
+      "title": "Incident CVE-2024-Yikes",
+      "title_display": "Satirical CVE Report Skewers Package Manager Security",
+      "link": "https://nesbitt.io/2026/02/03/incident-report-cve-2024-yikes.html",
+      "pub_date": "2026-05-10T18:20:04.000Z",
+      "summary": "This is a satirical incident report about a fictional supply-chain attack that spreads from a compromised JavaScript maintainer account to a Rust compression library and then into a Python build tool. The post strings together dependency theft, malicious postinstall/build scripts, vendored Rust code, CI compromise, and noisy incident response, but it provides no real vulnerability analysis, exploit details, or concrete remediation evidence beyond generic security platitudes. Its value is mostly as a parody of package-manager security failures and organizational response theater. For engineers, it is a reminder that dependency trust, vendoring, and automated updates can create cascading risk across npm, Cargo, and Python ecosystems.",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 242,
+      "score": 8,
+      "depth": 2,
+      "novelty": 2,
+      "breadth": 4,
+      "category": "security",
+      "keywords": [
+        "supply chain",
+        "package managers",
+        "CVE"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "Hardware Attestation as Monopoly Enabler",
+      "title_display": "GrapheneOS Warns Hardware Attestation Is Becoming a Monopoly Tool",
+      "link": "https://grapheneos.social/@GrapheneOS/116550899908879585",
+      "pub_date": "2026-05-10T18:10:04.000Z",
+      "summary": "GrapheneOS argues that Apple and Google are steadily expanding hardware-based attestation and pushing services to depend on it. The post points to Google’s Play Integrity API and Apple’s App Attest API as closely related mechanisms, and says Apple has already brought the model to the web through Privacy Pass while Google plans to follow. The technical concern is not a new exploit but a platform control pattern: more services begin requiring device-backed proofs that are tied to the dominant mobile ecosystems, which can reduce interoperability and weaken user choice. For engineers, this matters wherever authentication, anti-abuse, or fraud controls are being designed around device trust signals. The practical implication is that attestation-based gating can become an ecosystem lock-in mechanism, so teams should evaluate its privacy, accessibility, and portability costs before adopting it.",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 495,
+      "score": 13,
+      "depth": 2,
+      "novelty": 3,
+      "breadth": 8,
+      "category": "security",
+      "keywords": [
+        "hardware attestation",
+        "Play Integrity API",
+        "App Attest"
+      ],
+      "rank": 3
+    },
+    {
       "title": "Reverse engineering Mersenne Twister with Linear Algebra",
       "title_display": "Reverse Engineering Mersenne Twister with Linear Algebra",
       "link": "https://www.johndcook.com/blog/2026/05/10/reverse-mersenne-twister/",
@@ -45,7 +87,7 @@
         "GF(2)",
         "PRNG"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "GitHub Is Sinking",
@@ -66,7 +108,7 @@
         "Forgejo",
         "code hosting"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "Louis Rossmann tells 3D printer maker Bambu Lab to 'Go (Bleep) yourself'",
@@ -85,7 +127,7 @@
         "OrcaSlicer",
         "right-to-repair"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "Think Linear Algebra (2023)",
@@ -106,7 +148,7 @@
         "Python",
         "Jupyter notebooks"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "Production engineering when trading billions of dollars a day [video]",
@@ -128,7 +170,7 @@
         "incident response",
         "Jane Street"
       ],
-      "rank": 6
+      "rank": 8
     }
   ]
 }
