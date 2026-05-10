@@ -76,8 +76,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 218,
-      "score": 28,
+      "hn_points": 341,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Bambu Lab",
@@ -86,6 +86,27 @@
         "right-to-repair"
       ],
       "rank": 4
+    },
+    {
+      "title": "Think Linear Algebra (2023)",
+      "title_display": "Code-First Linear Algebra Book for Python Learners",
+      "link": "https://allendowney.github.io/ThinkLinearAlgebra/index.html",
+      "pub_date": "2026-05-10T14:00:05.000Z",
+      "summary": "Allen Downey’s Think Linear Algebra is a code-first, case-based introduction to linear algebra built around Python notebooks. The chapters use concrete examples such as PageRank on a museum-traffic network, GPS tracking, billiards, affine transforms, electrical circuits, stoichiometry, truss analysis, and least-squares regression with the General Social Survey. It emphasizes NumPy, SciPy, SymPy, and NetworkX, and is designed for interactive learning in Jupyter/Colab rather than formal theorem-first instruction. The main value is practical pedagogy: it connects vectors, matrices, projections, LU decomposition, null spaces, rank, and QR-based regression to working code and real systems, making it a useful free resource for engineers and data practitioners who want intuition plus implementation.",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 128,
+      "score": 12,
+      "depth": 3,
+      "novelty": 2,
+      "breadth": 7,
+      "category": "engineering",
+      "keywords": [
+        "linear algebra",
+        "Python",
+        "Jupyter notebooks"
+      ],
+      "rank": 5
     },
     {
       "title": "Production engineering when trading billions of dollars a day [video]",
@@ -107,7 +128,7 @@
         "incident response",
         "Jane Street"
       ],
-      "rank": 5
+      "rank": 6
     }
   ]
 }
