@@ -6,6 +6,27 @@
   "filtered_articles": 20,
   "articles": [
     {
+      "title": "Local AI needs to be the norm",
+      "title_display": "Why Local AI Should Be the Default",
+      "link": "https://unix.foo/posts/local-ai-needs-to-be-norm/",
+      "pub_date": "2026-05-10T20:00:06.000Z",
+      "summary": "The article argues that many AI features should run on-device instead of being routed through OpenAI- or Anthropic-style APIs, because cloud AI adds fragility, privacy risk, vendor dependence, billing exposure, and network-related failure modes. As a concrete example, the author describes a native iOS client for Brutalist Report that generates article summaries locally using Apple’s Foundation Models APIs, avoiding server calls, user-content logging, and vendor accounts.\n\nThe post highlights two implementation patterns: first, chunking long article text into roughly 10k-character segments and summarizing each before combining them; second, using typed structured output with Swift `@Generable` models instead of prompting for JSON and hoping for valid formatting. The central engineering claim is that local models are well suited to tasks like summarization, classification, extraction, and normalization when the data already exists on the device.\n\nThis is a pragmatic advocacy piece rather than a benchmark-driven evaluation, but it offers a useful product and architecture argument for engineers building privacy-sensitive, local-first applications.",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 328,
+      "score": 13,
+      "depth": 4,
+      "novelty": 3,
+      "breadth": 6,
+      "category": "engineering",
+      "keywords": [
+        "local AI",
+        "on-device inference",
+        "typed output"
+      ],
+      "rank": 1
+    },
+    {
       "title": "The linear algebra of bit twiddling",
       "title_display": "Bit Twiddling Through GF(2) Linear Algebra",
       "link": "https://www.johndcook.com/blog/2026/05/10/the-linear-algebra-of-bit-twiddling/",
@@ -24,7 +45,7 @@
         "bit twiddling",
         "Mersenne Twister"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Incident CVE-2024-Yikes",
@@ -45,7 +66,7 @@
         "package managers",
         "CVE"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Hardware Attestation as Monopoly Enabler",
@@ -66,7 +87,7 @@
         "Play Integrity API",
         "App Attest"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Reverse engineering Mersenne Twister with Linear Algebra",
@@ -87,7 +108,7 @@
         "GF(2)",
         "PRNG"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "GitHub Is Sinking",
@@ -108,7 +129,7 @@
         "Forgejo",
         "code hosting"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Louis Rossmann tells 3D printer maker Bambu Lab to 'Go (Bleep) yourself'",
@@ -127,7 +148,7 @@
         "OrcaSlicer",
         "right-to-repair"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Think Linear Algebra (2023)",
@@ -148,7 +169,7 @@
         "Python",
         "Jupyter notebooks"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Production engineering when trading billions of dollars a day [video]",
@@ -170,7 +191,7 @@
         "incident response",
         "Jane Street"
       ],
-      "rank": 8
+      "rank": 9
     }
   ]
 }
