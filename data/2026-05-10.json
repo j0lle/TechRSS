@@ -1,10 +1,30 @@
 {
   "date": "2026-05-10",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3246,
-  "filtered_articles": 14,
+  "success_feeds": 89,
+  "total_articles": 3274,
+  "filtered_articles": 15,
   "articles": [
+    {
+      "title": "Madame Semver Will See You Now",
+      "title_display": "A Satirical Take on SemVer and Package Maintenance",
+      "link": "https://nesbitt.io/2026/05/10/madame-semver-will-see-you-now.html",
+      "pub_date": "2026-05-10T10:00:00.000Z",
+      "summary": "This is a fictional, satirical piece about maintaining an open-source library under semantic versioning. It imagines recurring problems familiar to package maintainers: buggy pull requests, mistaken issue reports, namespace confusion, vulnerable scans, README drift, dependency forks, and the pressure to add back removed APIs for compatibility. The technical value is mostly in the recognizable maintainer pain points rather than any new process, benchmark, or concrete engineering guidance. Its main relevance is as a humorous reflection on the long-term costs of API stability and open-source stewardship.",
+      "source_name": "nesbitt.io",
+      "source_type": "rss",
+      "score": 7,
+      "depth": 2,
+      "novelty": 2,
+      "breadth": 3,
+      "category": "opinion",
+      "keywords": [
+        "semantic versioning",
+        "open-source maintenance",
+        "package ecosystem"
+      ],
+      "rank": 1
+    },
     {
       "title": "Debian must ship reproducible packages",
       "title_display": "Debian Requires Reproducible Packages for Migration",
@@ -25,7 +45,7 @@
         "autopkgtest",
         "binNMU"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Show HN: Building a web server in assembly to give my life (a lack of) meaning",
@@ -47,7 +67,7 @@
         "macOS",
         "syscalls"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "The left-wing case for AI",
@@ -68,7 +88,7 @@
         "education",
         "code-switching"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Rust but Lisp",
@@ -90,7 +110,7 @@
         "macro",
         "transpiler"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Show HN: I made a Clojure-like language in Go, boots in 7ms",
@@ -112,7 +132,7 @@
         "bytecode VM",
         "WASM"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Using a Python 3 LSP server with Python 2 code works (more or less)",
@@ -133,7 +153,7 @@
         "Eglot",
         "GNU Emacs"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "FreeBSD: Local Privilege Escalation via Execve()",
@@ -155,7 +175,7 @@
         "execve",
         "CVE-2026-7270"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Bun's experimental Rust rewrite hits 99.8% test compatibility on Linux x64 glibc",
@@ -177,7 +197,7 @@
         "test compatibility",
         "Linux x64 glibc"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Zed Editor Theme-Builder",
@@ -196,7 +216,7 @@
         "Zed AI",
         "Zeta"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "CPanel's Black Week: 3 New Vulnerabilities Patched After Attack on 44k Servers",
@@ -218,7 +238,7 @@
         "ransomware",
         "shared hosting"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "LLMs Corrupt Your Documents When You Delegate",
@@ -240,7 +260,7 @@
         "document editing",
         "agentic workflows"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "How LEDs are made (2014)",
@@ -261,7 +281,7 @@
         "factory tour",
         "electronics"
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "title": "America's carpet capital: an empire and its toxic legacy",
@@ -283,7 +303,7 @@
         "Georgia",
         "water contamination"
       ],
-      "rank": 13
+      "rank": 14
     },
     {
       "title": "All my clients wanted a carousel, now it's an AI chatbot",
@@ -304,7 +324,7 @@
         "web design",
         "client management"
       ],
-      "rank": 14
+      "rank": 15
     },
     {
       "title": "The Real Singularity is the Friends We Made Along the Way",
@@ -325,7 +345,7 @@
         "infrastructure",
         "capex"
       ],
-      "rank": 15
+      "rank": 16
     }
   ]
 }
