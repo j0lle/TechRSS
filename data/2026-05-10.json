@@ -1,8 +1,8 @@
 {
   "date": "2026-05-10",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3264,
+  "success_feeds": 89,
+  "total_articles": 3274,
   "filtered_articles": 16,
   "articles": [
     {
@@ -46,6 +46,27 @@
       "rank": 2
     },
     {
+      "title": "Idempotency Is Easy Until the Second Request Is Different",
+      "title_display": "Why Idempotency Breaks on the Second Request",
+      "link": "https://blog.dochia.dev/blog/idempotency/",
+      "pub_date": "2026-05-10T09:21:02.000Z",
+      "summary": "This article argues that idempotency is straightforward only when repeated requests are truly identical, and that the hard case is when the second request differs in small but meaningful ways. The post appears to be a practical engineering writeup about API behavior and request deduplication rather than a deep benchmarked study. Its value is in highlighting a common production edge case that affects retries, payments, and other state-changing operations. For backend engineers, the main takeaway is that idempotency needs explicit rules for mismatched retries, not just a key and a cache.",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 149,
+      "score": 14,
+      "depth": 3,
+      "novelty": 4,
+      "breadth": 7,
+      "category": "engineering",
+      "keywords": [
+        "idempotency",
+        "APIs",
+        "distributed systems"
+      ],
+      "rank": 3
+    },
+    {
       "title": "Debian must ship reproducible packages",
       "title_display": "Debian Requires Reproducible Packages for Migration",
       "link": "https://lists.debian.org/debian-devel-announce/2026/05/msg00001.html",
@@ -65,7 +86,7 @@
         "autopkgtest",
         "binNMU"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "We see something that works, and then we understand it",
@@ -86,7 +107,7 @@
         "thinkism",
         "software engineering"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Gemini API File Search is now multimodal",
@@ -107,7 +128,7 @@
         "RAG",
         "multimodal retrieval"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Show HN: Building a web server in assembly to give my life (a lack of) meaning",
@@ -129,7 +150,7 @@
         "macOS",
         "syscalls"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Python 3.14.5 is out!",
@@ -150,7 +171,7 @@
         "garbage collector",
         "CPython"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "The left-wing case for AI",
@@ -171,7 +192,7 @@
         "education",
         "code-switching"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Rust but Lisp",
@@ -193,7 +214,7 @@
         "macro",
         "transpiler"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Show HN: I made a Clojure-like language in Go, boots in 7ms",
@@ -215,7 +236,7 @@
         "bytecode VM",
         "WASM"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "Using a Python 3 LSP server with Python 2 code works (more or less)",
@@ -236,7 +257,7 @@
         "Eglot",
         "GNU Emacs"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "FreeBSD: Local Privilege Escalation via Execve()",
@@ -258,7 +279,7 @@
         "execve",
         "CVE-2026-7270"
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "title": "Bun's experimental Rust rewrite hits 99.8% test compatibility on Linux x64 glibc",
@@ -280,7 +301,7 @@
         "test compatibility",
         "Linux x64 glibc"
       ],
-      "rank": 13
+      "rank": 14
     },
     {
       "title": "Zed Editor Theme-Builder",
@@ -299,7 +320,7 @@
         "Zed AI",
         "Zeta"
       ],
-      "rank": 14
+      "rank": 15
     },
     {
       "title": "CPanel's Black Week: 3 New Vulnerabilities Patched After Attack on 44k Servers",
@@ -321,7 +342,7 @@
         "ransomware",
         "shared hosting"
       ],
-      "rank": 15
+      "rank": 16
     },
     {
       "title": "LLMs Corrupt Your Documents When You Delegate",
@@ -343,7 +364,7 @@
         "document editing",
         "agentic workflows"
       ],
-      "rank": 16
+      "rank": 17
     },
     {
       "title": "How LEDs are made (2014)",
@@ -364,7 +385,7 @@
         "factory tour",
         "electronics"
       ],
-      "rank": 17
+      "rank": 18
     },
     {
       "title": "America's carpet capital: an empire and its toxic legacy",
@@ -386,7 +407,7 @@
         "Georgia",
         "water contamination"
       ],
-      "rank": 18
+      "rank": 19
     },
     {
       "title": "All my clients wanted a carousel, now it's an AI chatbot",
@@ -407,7 +428,7 @@
         "web design",
         "client management"
       ],
-      "rank": 19
+      "rank": 20
     },
     {
       "title": "The Real Singularity is the Friends We Made Along the Way",
@@ -428,7 +449,7 @@
         "infrastructure",
         "capex"
       ],
-      "rank": 20
+      "rank": 21
     }
   ]
 }
