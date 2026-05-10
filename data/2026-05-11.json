@@ -3,8 +3,29 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3274,
-  "filtered_articles": 21,
+  "filtered_articles": 22,
   "articles": [
+    {
+      "title": "The linear algebra of bit twiddling",
+      "title_display": "Bit Twiddling Through GF(2) Linear Algebra",
+      "link": "https://www.johndcook.com/blog/2026/05/10/the-linear-algebra-of-bit-twiddling/",
+      "pub_date": "2026-05-10T18:51:40.000Z",
+      "summary": "This post explains bitwise shifts, XOR, and AND as linear transformations over GF(2), using 8-bit examples and matrix representations. It shows why operations like `x ^ (x >> 2)` are invertible: the corresponding matrices are triangular with all 1s on the diagonal, so their determinants are 1 modulo 2. The article also maps bitwise AND to multiplication by a diagonal matrix and relates these ideas back to the Mersenne Twister tempering step. It is a clear mathematical explanation, but it is mostly an educational reframe rather than a new algorithm or benchmarked engineering result. Useful for developers who want a cleaner mental model for bit manipulation and invertibility in PRNG tempering code.",
+      "source_name": "johndcook.com",
+      "source_type": "rss",
+      "score": 12,
+      "depth": 4,
+      "novelty": 3,
+      "breadth": 5,
+      "category": "engineering",
+      "keywords": [
+        "linear algebra",
+        "GF(2)",
+        "bit twiddling",
+        "Mersenne Twister"
+      ],
+      "rank": 1
+    },
     {
       "title": "Reverse engineering Mersenne Twister with Linear Algebra",
       "title_display": "Reverse Engineering Mersenne Twister with Linear Algebra",
@@ -24,7 +45,7 @@
         "GF(2)",
         "PRNG"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Louis Rossmann tells 3D printer maker Bambu Lab to 'Go (Bleep) yourself'",
@@ -43,7 +64,7 @@
         "OrcaSlicer",
         "right-to-repair"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Production engineering when trading billions of dollars a day [video]",
@@ -62,7 +83,7 @@
         "SRE",
         "reliability"
       ],
-      "rank": 3
+      "rank": 4
     }
   ]
 }
