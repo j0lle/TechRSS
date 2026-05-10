@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3274,
-  "filtered_articles": 18,
+  "filtered_articles": 20,
   "articles": [
     {
       "title": "Quoting Andrew Quinn",
@@ -26,6 +26,49 @@
       "rank": 1
     },
     {
+      "title": "I returned to AWS, and was reminded why I left",
+      "title_display": "Why One Engineer Walked Away from AWS Again",
+      "link": "http://fourlightyears.blogspot.com/2026/05/i-returned-to-aws-and-was-reminded-hard.html",
+      "pub_date": "2026-05-10T12:31:07.000Z",
+      "summary": "This is a personal opinion piece about an engineer returning to AWS for Claude Bedrock tests and a 192-core EC2 spot instance, then having the account flagged for suspected breach and suspended. The post argues that AWS is overly complex, expensive, and brittle to operate, citing egress charges, IAM complexity, DynamoDB cost, Lambda lock-in, and slow support response as reasons for leaving. It also criticizes AWS’s history with open-source ecosystems. The practical takeaway is about operational risk: dormant accounts, automated fraud controls, and account support delays can disrupt business email and testing workflows.",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 253,
+      "score": 10,
+      "depth": 2,
+      "novelty": 2,
+      "breadth": 6,
+      "category": "opinion",
+      "keywords": [
+        "AWS",
+        "cloud computing",
+        "vendor lock-in",
+        "support"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "Space Cadet Pinball on Linux",
+      "title_display": "Space Cadet Pinball Runs on Linux via Flatpak",
+      "link": "https://brennan.io/2026/05/09/pinball-and-escrow/",
+      "pub_date": "2026-05-10T11:41:04.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 169,
+      "score": 6,
+      "depth": 2,
+      "novelty": 2,
+      "breadth": 2,
+      "category": "other",
+      "keywords": [
+        "Linux",
+        "Flatpak",
+        "source code escrow"
+      ],
+      "rank": 3
+    },
+    {
       "title": "[RSS Club] A Sneak Preview of Upcoming Posts",
       "title_display": "RSS Club Sneak Peek of Upcoming Blog Posts",
       "link": "https://shkspr.mobi/blog/2026/05/rss-club-a-sneak-preview-of-upcoming-posts/",
@@ -43,7 +86,7 @@
         "blogging",
         "editorial calendar"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "Madame Semver Will See You Now",
@@ -63,7 +106,7 @@
         "open-source maintenance",
         "package ecosystem"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "Idempotency Is Easy Until the Second Request Is Different",
@@ -84,7 +127,7 @@
         "APIs",
         "distributed systems"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "Debian must ship reproducible packages",
@@ -106,7 +149,7 @@
         "autopkgtest",
         "binNMU"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "We see something that works, and then we understand it",
@@ -127,7 +170,7 @@
         "thinkism",
         "software engineering"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "Gemini API File Search is now multimodal",
@@ -148,7 +191,7 @@
         "RAG",
         "multimodal retrieval"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "Show HN: Building a web server in assembly to give my life (a lack of) meaning",
@@ -170,7 +213,7 @@
         "macOS",
         "syscalls"
       ],
-      "rank": 8
+      "rank": 10
     },
     {
       "title": "Python 3.14.5 is out!",
@@ -191,7 +234,7 @@
         "garbage collector",
         "CPython"
       ],
-      "rank": 9
+      "rank": 11
     },
     {
       "title": "The left-wing case for AI",
@@ -212,7 +255,7 @@
         "education",
         "code-switching"
       ],
-      "rank": 10
+      "rank": 12
     },
     {
       "title": "Rust but Lisp",
@@ -234,7 +277,7 @@
         "macro",
         "transpiler"
       ],
-      "rank": 11
+      "rank": 13
     },
     {
       "title": "Making your own programming language is easier than you think (but also harder)",
@@ -256,7 +299,7 @@
         "JIT",
         "AArch64"
       ],
-      "rank": 12
+      "rank": 14
     },
     {
       "title": "Show HN: I made a Clojure-like language in Go, boots in 7ms",
@@ -278,7 +321,7 @@
         "bytecode VM",
         "WASM"
       ],
-      "rank": 13
+      "rank": 15
     },
     {
       "title": "Using a Python 3 LSP server with Python 2 code works (more or less)",
@@ -299,7 +342,7 @@
         "Eglot",
         "GNU Emacs"
       ],
-      "rank": 14
+      "rank": 16
     },
     {
       "title": "FreeBSD: Local Privilege Escalation via Execve()",
@@ -321,7 +364,7 @@
         "execve",
         "CVE-2026-7270"
       ],
-      "rank": 15
+      "rank": 17
     },
     {
       "title": "Bun's experimental Rust rewrite hits 99.8% test compatibility on Linux x64 glibc",
@@ -343,7 +386,7 @@
         "test compatibility",
         "Linux x64 glibc"
       ],
-      "rank": 16
+      "rank": 18
     },
     {
       "title": "Zed Editor Theme-Builder",
@@ -362,7 +405,7 @@
         "Zed AI",
         "Zeta"
       ],
-      "rank": 17
+      "rank": 19
     },
     {
       "title": "CPanel's Black Week: 3 New Vulnerabilities Patched After Attack on 44k Servers",
@@ -384,7 +427,7 @@
         "ransomware",
         "shared hosting"
       ],
-      "rank": 18
+      "rank": 20
     },
     {
       "title": "LLMs Corrupt Your Documents When You Delegate",
@@ -406,7 +449,7 @@
         "document editing",
         "agentic workflows"
       ],
-      "rank": 19
+      "rank": 21
     },
     {
       "title": "How LEDs are made (2014)",
@@ -427,7 +470,7 @@
         "factory tour",
         "electronics"
       ],
-      "rank": 20
+      "rank": 22
     },
     {
       "title": "America's carpet capital: an empire and its toxic legacy",
@@ -449,7 +492,7 @@
         "Georgia",
         "water contamination"
       ],
-      "rank": 21
+      "rank": 23
     },
     {
       "title": "All my clients wanted a carousel, now it's an AI chatbot",
@@ -470,7 +513,7 @@
         "web design",
         "client management"
       ],
-      "rank": 22
+      "rank": 24
     },
     {
       "title": "The Real Singularity is the Friends We Made Along the Way",
@@ -491,7 +534,7 @@
         "infrastructure",
         "capex"
       ],
-      "rank": 23
+      "rank": 25
     }
   ]
 }
