@@ -1,10 +1,30 @@
 {
   "date": "2026-05-10",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3274,
+  "success_feeds": 88,
+  "total_articles": 3249,
   "filtered_articles": 15,
   "articles": [
+    {
+      "title": "[RSS Club] A Sneak Preview of Upcoming Posts",
+      "title_display": "RSS Club Sneak Peek of Upcoming Blog Posts",
+      "link": "https://shkspr.mobi/blog/2026/05/rss-club-a-sneak-preview-of-upcoming-posts/",
+      "pub_date": "2026-05-10T11:34:38.000Z",
+      "summary": "",
+      "source_name": "shkspr.mobi",
+      "source_type": "rss",
+      "score": 3,
+      "depth": 1,
+      "novelty": 1,
+      "breadth": 1,
+      "category": "other",
+      "keywords": [
+        "RSS",
+        "blogging",
+        "editorial calendar"
+      ],
+      "rank": 1
+    },
     {
       "title": "Madame Semver Will See You Now",
       "title_display": "A Satirical Take on SemVer and Package Maintenance",
@@ -23,7 +43,7 @@
         "open-source maintenance",
         "package ecosystem"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Debian must ship reproducible packages",
@@ -45,7 +65,7 @@
         "autopkgtest",
         "binNMU"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Show HN: Building a web server in assembly to give my life (a lack of) meaning",
@@ -67,7 +87,7 @@
         "macOS",
         "syscalls"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "The left-wing case for AI",
@@ -88,7 +108,7 @@
         "education",
         "code-switching"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Rust but Lisp",
@@ -110,7 +130,7 @@
         "macro",
         "transpiler"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Show HN: I made a Clojure-like language in Go, boots in 7ms",
@@ -132,7 +152,7 @@
         "bytecode VM",
         "WASM"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Using a Python 3 LSP server with Python 2 code works (more or less)",
@@ -153,7 +173,7 @@
         "Eglot",
         "GNU Emacs"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "FreeBSD: Local Privilege Escalation via Execve()",
@@ -175,7 +195,7 @@
         "execve",
         "CVE-2026-7270"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Bun's experimental Rust rewrite hits 99.8% test compatibility on Linux x64 glibc",
@@ -197,7 +217,7 @@
         "test compatibility",
         "Linux x64 glibc"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Zed Editor Theme-Builder",
@@ -216,7 +236,7 @@
         "Zed AI",
         "Zeta"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "CPanel's Black Week: 3 New Vulnerabilities Patched After Attack on 44k Servers",
@@ -238,7 +258,7 @@
         "ransomware",
         "shared hosting"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "LLMs Corrupt Your Documents When You Delegate",
@@ -260,7 +280,7 @@
         "document editing",
         "agentic workflows"
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "title": "How LEDs are made (2014)",
@@ -281,7 +301,7 @@
         "factory tour",
         "electronics"
       ],
-      "rank": 13
+      "rank": 14
     },
     {
       "title": "America's carpet capital: an empire and its toxic legacy",
@@ -303,7 +323,7 @@
         "Georgia",
         "water contamination"
       ],
-      "rank": 14
+      "rank": 15
     },
     {
       "title": "All my clients wanted a carousel, now it's an AI chatbot",
@@ -324,7 +344,7 @@
         "web design",
         "client management"
       ],
-      "rank": 15
+      "rank": 16
     },
     {
       "title": "The Real Singularity is the Friends We Made Along the Way",
@@ -345,7 +365,7 @@
         "infrastructure",
         "capex"
       ],
-      "rank": 16
+      "rank": 17
     }
   ]
 }
