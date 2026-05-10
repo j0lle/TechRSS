@@ -134,6 +134,28 @@
       "rank": 6
     },
     {
+      "title": "CPanel's Black Week: 3 New Vulnerabilities Patched After Attack on 44k Servers",
+      "title_display": "cPanel Patches Three More Flaws After 44,000-Server Attack",
+      "link": "https://www.copahost.com/blog/cpanels-black-week-three-new-vulnerabilities-patched-after-ransomware-attack-on-44000-servers/",
+      "pub_date": "2026-05-09T17:50:07.000Z",
+      "summary": "cPanel released a second emergency Technical Security Release on May 8, 2026, patching three vulnerabilities shortly after the CVE-2026-41940 auth-bypass incident that was reportedly used to compromise 44,000 servers and deploy ransomware. The new issues are CVE-2026-29201, an arbitrary file read in `feature::LOADFEATUREFILE` (CVSS 4.3), CVE-2026-29202, arbitrary Perl code execution via the `create_user` API `plugin` parameter (CVSS 8.8), and CVE-2026-29203, an unsafe symlink / chmod privilege-escalation issue (CVSS 8.8). The article also gives operational guidance: run `/scripts/upcp` or `/scripts/upcp --force`, restart `cpsrvd`, verify the version with `/usr/local/cpanel/cpanel -V`, and review logs back to February 23 for compromise indicators such as `.sorry` files. While the piece is mostly a security news recap rather than original research, it is practically useful for hosting operators because it maps the patching steps and incident-response checks to specific cPanel commands and timestamps.",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 121,
+      "score": 19,
+      "depth": 6,
+      "novelty": 5,
+      "breadth": 8,
+      "category": "security",
+      "keywords": [
+        "cPanel",
+        "CVE-2026-29202",
+        "ransomware",
+        "shared hosting"
+      ],
+      "rank": 7
+    },
+    {
       "title": "LLMs Corrupt Your Documents When You Delegate",
       "title_display": "Study Finds LLM Delegates Corrupt Documents",
       "link": "https://arxiv.org/abs/2604.15597",
@@ -153,7 +175,7 @@
         "document editing",
         "agentic workflows"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "How LEDs are made (2014)",
@@ -174,7 +196,7 @@
         "factory tour",
         "electronics"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "America's carpet capital: an empire and its toxic legacy",
@@ -196,7 +218,7 @@
         "Georgia",
         "water contamination"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "All my clients wanted a carousel, now it's an AI chatbot",
@@ -217,7 +239,7 @@
         "web design",
         "client management"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "The Real Singularity is the Friends We Made Along the Way",
@@ -238,7 +260,7 @@
         "infrastructure",
         "capex"
       ],
-      "rank": 11
+      "rank": 12
     }
   ]
 }
