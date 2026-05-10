@@ -2,8 +2,8 @@
   "date": "2026-05-10",
   "total_feeds": 95,
   "success_feeds": 88,
-  "total_articles": 3254,
-  "filtered_articles": 12,
+  "total_articles": 3249,
+  "filtered_articles": 13,
   "articles": [
     {
       "title": "Show HN: Building a web server in assembly to give my life (a lack of) meaning",
@@ -28,6 +28,28 @@
       "rank": 1
     },
     {
+      "title": "Rust but Lisp",
+      "title_display": "Rust Syntax Reimagined as Lisp S-Expressions",
+      "link": "https://github.com/ThatXliner/rust-but-lisp",
+      "pub_date": "2026-05-09T23:11:03.000Z",
+      "summary": "This weekend project, rlisp, lets developers write Rust semantics in Lisp syntax and transpile the result to normal Rust source. The repo shows examples for structs, impls, enums, functions, closures, loops, modules, lifetimes, turbofish, if-let/while-let, unsafe blocks, and inline Rust escape hatches. It also includes macro support via compile-time s-expression transformers using quasiquote, unquote, and unquote-splicing, explicitly avoiding Rust’s proc_macro, token streaming, syn, and quote stack. The README emphasizes that rustc still performs type checking, borrow checking, and optimization; rlisp only handles syntax. The project ships with a quick-reference mapping between Lisp forms and Rust forms, installation via cargo install --path ., and Ariadne-based parse diagnostics. Practical significance is limited because this is a small experimental compiler frontend rather than a production tool, but it is a concrete demonstration of how Lisp-style macros and structural editing can be layered onto Rust.",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 132,
+      "score": 11,
+      "depth": 3,
+      "novelty": 4,
+      "breadth": 4,
+      "category": "tools",
+      "keywords": [
+        "Rust",
+        "Lisp",
+        "macro",
+        "transpiler"
+      ],
+      "rank": 2
+    },
+    {
       "title": "Show HN: I made a Clojure-like language in Go, boots in 7ms",
       "title_display": "let-go: Clojure-like language in Go boots in 7ms",
       "link": "https://github.com/nooga/let-go",
@@ -47,7 +69,7 @@
         "bytecode VM",
         "WASM"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Using a Python 3 LSP server with Python 2 code works (more or less)",
@@ -68,7 +90,7 @@
         "Eglot",
         "GNU Emacs"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "FreeBSD: Local Privilege Escalation via Execve()",
@@ -90,7 +112,7 @@
         "execve",
         "CVE-2026-7270"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Bun's experimental Rust rewrite hits 99.8% test compatibility on Linux x64 glibc",
@@ -112,7 +134,7 @@
         "test compatibility",
         "Linux x64 glibc"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Zed Editor Theme-Builder",
@@ -131,7 +153,7 @@
         "Zed AI",
         "Zeta"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "CPanel's Black Week: 3 New Vulnerabilities Patched After Attack on 44k Servers",
@@ -153,7 +175,7 @@
         "ransomware",
         "shared hosting"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "LLMs Corrupt Your Documents When You Delegate",
@@ -175,7 +197,7 @@
         "document editing",
         "agentic workflows"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "How LEDs are made (2014)",
@@ -196,7 +218,7 @@
         "factory tour",
         "electronics"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "America's carpet capital: an empire and its toxic legacy",
@@ -218,7 +240,7 @@
         "Georgia",
         "water contamination"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "All my clients wanted a carousel, now it's an AI chatbot",
@@ -239,7 +261,7 @@
         "web design",
         "client management"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "The Real Singularity is the Friends We Made Along the Way",
@@ -260,7 +282,7 @@
         "infrastructure",
         "capex"
       ],
-      "rank": 12
+      "rank": 13
     }
   ]
 }
