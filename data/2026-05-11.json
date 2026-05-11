@@ -1,10 +1,92 @@
 {
   "date": "2026-05-11",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3277,
-  "filtered_articles": 28,
+  "success_feeds": 88,
+  "total_articles": 3252,
+  "filtered_articles": 31,
   "articles": [
+    {
+      "title": "We Are Not Going to Agree on AI",
+      "title_display": "AI Is Just a Capable Tool",
+      "link": "https://idiallo.com/blog/we-are-not-going-to-agree-on-ai?src=feed",
+      "pub_date": "2026-05-11T12:00:00.000Z",
+      "summary": "",
+      "source_name": "idiallo.com",
+      "source_type": "rss",
+      "score": 8,
+      "depth": 2,
+      "novelty": 2,
+      "breadth": 4,
+      "category": "opinion",
+      "keywords": [
+        "ai",
+        "developer productivity",
+        "tools"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Find blog posts with missing featured images - and missing alt text - without a plugin",
+      "title_display": "Find Missing WordPress Featured Images with WP-CLI",
+      "link": "https://shkspr.mobi/blog/2026/05/find-blog-posts-with-missing-featured-images-and-missing-alt-text-without-a-plugin/",
+      "pub_date": "2026-05-11T11:34:39.000Z",
+      "summary": "This post shows two small WP-CLI `wp eval` snippets for auditing WordPress posts: one lists published posts missing a featured image, and the other lists featured images with empty `alt` text. Both commands iterate through all published posts, print the post date, edit link, and title, and can be used to identify content that needs updating. It is a practical maintenance tip for WordPress site owners, but the technique is simple and narrowly scoped.",
+      "source_name": "shkspr.mobi",
+      "source_type": "rss",
+      "score": 10,
+      "depth": 4,
+      "novelty": 3,
+      "breadth": 3,
+      "category": "tools",
+      "keywords": [
+        "WordPress",
+        "WP-CLI",
+        "featured images",
+        "alt text"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "Sony Betamax VCR: Born May 10, 1975",
+      "title_display": "Betamax Turns 51: The First Consumer VCR",
+      "link": "https://dfarq.homeip.net/sony-betamax-vcr-born-may-10-1975/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=sony-betamax-vcr-born-may-10-1975",
+      "pub_date": "2026-05-11T11:00:26.000Z",
+      "summary": "Sony introduced Betamax on May 10, 1975, and this post frames it as the first VCR format ordinary consumers could realistically aspire to buy. It contrasts Betamax with earlier videotape systems like Ampex’s 1956 VRX-1000, which cost $50,000 and was aimed at broadcasters, and notes Sony’s 1975 U.S. launch at $2,295 for a TV/VCR combo. The article also cites 1975 median family income of $13,720 to show why the system was still expensive, even if it marked a turning point toward mass-market home video. It mentions that standalone units arrived within a year and that broader adoption followed as prices fell through the 1980s. The post’s main practical value is historical context: it explains how Betamax helped normalize home video playback and set the stage for the later VCR boom, even though VHS ultimately won the format war.",
+      "source_name": "dfarq.homeip.net",
+      "source_type": "rss",
+      "score": 7,
+      "depth": 3,
+      "novelty": 2,
+      "breadth": 2,
+      "category": "other",
+      "keywords": [
+        "Betamax",
+        "VCR",
+        "Sony"
+      ],
+      "rank": 3
+    },
+    {
+      "title": "proxy",
+      "title_display": "proxy: a multi-ecosystem package registry cache",
+      "link": "https://nesbitt.io/2026/05/11/proxy.html",
+      "pub_date": "2026-05-11T10:00:00.000Z",
+      "summary": "proxy is a single Go binary that acts as a local caching mirror for package registries across npm, PyPI, Cargo, Go modules, Maven, NuGet, RubyGems, and more. The first request fetches from upstream and stores the artifact; later requests are served locally, with metadata rewritten so tarball URLs point back at the proxy instead of the origin. The post also highlights a registry-level advantage over filesystem caches in CI: one package coordinate is shared across jobs and runners, instead of duplicating tarballs per lockfile or OS-specific cache key.\n\nBeyond caching, the tool can prefetch dependencies from PURLs or CycloneDX/SPDX SBOMs, making it useful for offline mirrors and warm CI caches. It also supports “cooldowns,” hiding newly published versions for a configured age window, which the author argues is a practical supply-chain defense against fast-moving malicious packages. A web UI shows cache contents, hit counts, tarball browsing, diffs, and OSV advisory enrichment. The broader significance is a unified, protocol-level dependency cache and policy layer that spans multiple ecosystems without needing separate tooling per package manager.",
+      "source_name": "nesbitt.io",
+      "source_type": "rss",
+      "score": 22,
+      "depth": 7,
+      "novelty": 7,
+      "breadth": 8,
+      "category": "engineering",
+      "keywords": [
+        "package registry",
+        "dependency caching",
+        "SBOM",
+        "cooldown"
+      ],
+      "rank": 4
+    },
     {
       "title": "Pluralistic: 2024 (apart from the obvious) (11 May 2026)",
       "title_display": "Doctorow on 2024, compromise politics, and Trump’s return",
@@ -23,7 +105,7 @@
         "democracy",
         "antitrust"
       ],
-      "rank": 1
+      "rank": 5
     },
     {
       "title": "Mythos Finds a Curl Vulnerability",
@@ -44,7 +126,7 @@
         "Mythos",
         "vulnerability"
       ],
-      "rank": 2
+      "rank": 6
     },
     {
       "title": "Python Software Foundation: Strategic Planning at the PSF",
@@ -65,7 +147,7 @@
         "PyPI",
         "open source"
       ],
-      "rank": 3
+      "rank": 7
     },
     {
       "title": "Moving from lsp-mode in GNU Emacs to Eglot",
@@ -85,7 +167,7 @@
         "Eglot",
         "Flycheck"
       ],
-      "rank": 4
+      "rank": 8
     },
     {
       "title": "An AI coding agent, used to write code, needs to reduce your maintenance costs",
@@ -106,7 +188,7 @@
         "maintenance costs",
         "technical debt"
       ],
-      "rank": 5
+      "rank": 9
     },
     {
       "title": "I'm going back to writing code by hand",
@@ -128,7 +210,7 @@
         "Kubernetes",
         "Rust"
       ],
-      "rank": 6
+      "rank": 10
     },
     {
       "title": "PS3 Emulator Devs Politely Ask That People Stop Flooding It with AI PRs",
@@ -149,7 +231,7 @@
         "open-source",
         "AI code review"
       ],
-      "rank": 7
+      "rank": 11
     },
     {
       "title": "Welcoming the Costa Rican Government to Have I Been Pwned",
@@ -169,7 +251,7 @@
         "Costa Rica",
         "government cybersecurity"
       ],
-      "rank": 8
+      "rank": 12
     },
     {
       "title": "The Problem of Pedagogy in Advanced Mathematics",
@@ -189,7 +271,7 @@
         "textbook proofs",
         "pedagogy"
       ],
-      "rank": 9
+      "rank": 13
     },
     {
       "title": "Quoting New York Times Editors’ Note",
@@ -209,7 +291,7 @@
         "journalism",
         "New York Times"
       ],
-      "rank": 10
+      "rank": 14
     },
     {
       "title": "Weekly Update 503",
@@ -229,7 +311,7 @@
         "Instructure",
         "ShinyHunters"
       ],
-      "rank": 11
+      "rank": 15
     },
     {
       "title": "Running local models on an M4 with 24GB memory",
@@ -251,7 +333,7 @@
         "Qwen",
         "Elixir"
       ],
-      "rank": 12
+      "rank": 16
     },
     {
       "title": "Obsidian plugin was abused to deploy a remote access trojan",
@@ -272,7 +354,7 @@
         "PHANTOMPULSE",
         "social engineering"
       ],
-      "rank": 13
+      "rank": 17
     },
     {
       "title": "Local AI needs to be the norm",
@@ -293,7 +375,7 @@
         "on-device inference",
         "typed output"
       ],
-      "rank": 14
+      "rank": 18
     },
     {
       "title": "Ask HN: What Are You Working On? (May 2026)",
@@ -314,7 +396,7 @@
         "side projects",
         "community thread"
       ],
-      "rank": 15
+      "rank": 19
     },
     {
       "title": "Out With the JS, In With the HTML",
@@ -334,7 +416,7 @@
         "JavaScript",
         "CSS view transitions"
       ],
-      "rank": 16
+      "rank": 20
     },
     {
       "title": "The linear algebra of bit twiddling",
@@ -355,7 +437,7 @@
         "bit twiddling",
         "Mersenne Twister"
       ],
-      "rank": 17
+      "rank": 21
     },
     {
       "title": "Incident CVE-2024-Yikes",
@@ -376,7 +458,7 @@
         "package managers",
         "CVE"
       ],
-      "rank": 18
+      "rank": 22
     },
     {
       "title": "Hardware Attestation as Monopoly Enabler",
@@ -397,11 +479,11 @@
         "Play Integrity API",
         "App Attest"
       ],
-      "rank": 19
+      "rank": 23
     },
     {
       "title": "Tracesofhumanity.org by Joanna Rutkowska",
-      "title_display": "Joanna Rutkowska Relaunches Personal Blog",
+      "title_display": "Joanna Rutkowska Relaunches Blog After Seven Years",
       "link": "https://tracesofhumanity.org/hello-world/",
       "pub_date": "2026-05-10T17:40:07.000Z",
       "summary": "",
@@ -418,7 +500,7 @@
         "Qubes OS",
         "security blog"
       ],
-      "rank": 20
+      "rank": 24
     },
     {
       "title": "Reverse engineering Mersenne Twister with Linear Algebra",
@@ -439,7 +521,7 @@
         "GF(2)",
         "PRNG"
       ],
-      "rank": 21
+      "rank": 25
     },
     {
       "title": "GitHub Is Sinking",
@@ -460,7 +542,28 @@
         "Forgejo",
         "code hosting"
       ],
-      "rank": 22
+      "rank": 26
+    },
+    {
+      "title": "Walking Slower? Why Your Ears, Not Your Knees, Might Be the Problem",
+      "title_display": "Hearing Loss Linked to Slower Walking Speed",
+      "link": "https://www.wsj.com/health/wellness/hearing-loss-walking-speed-iphone-study-c53c482a",
+      "pub_date": "2026-05-10T17:00:08.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 128,
+      "score": 6,
+      "depth": 2,
+      "novelty": 2,
+      "breadth": 2,
+      "category": "other",
+      "keywords": [
+        "hearing loss",
+        "mobility",
+        "health"
+      ],
+      "rank": 27
     },
     {
       "title": "Louis Rossmann tells 3D printer maker Bambu Lab to 'Go (Bleep) yourself'",
@@ -479,7 +582,7 @@
         "OrcaSlicer",
         "right-to-repair"
       ],
-      "rank": 23
+      "rank": 28
     },
     {
       "title": "Think Linear Algebra (2023)",
@@ -500,7 +603,7 @@
         "Python",
         "Jupyter notebooks"
       ],
-      "rank": 24
+      "rank": 29
     },
     {
       "title": "Production engineering when trading billions of dollars a day [video]",
@@ -522,7 +625,7 @@
         "incident response",
         "Jane Street"
       ],
-      "rank": 25
+      "rank": 30
     }
   ]
 }
