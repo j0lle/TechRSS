@@ -2,9 +2,71 @@
   "date": "2026-05-11",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3276,
-  "filtered_articles": 26,
+  "total_articles": 3277,
+  "filtered_articles": 28,
   "articles": [
+    {
+      "title": "Pluralistic: 2024 (apart from the obvious) (11 May 2026)",
+      "title_display": "Doctorow on 2024, compromise politics, and Trump’s return",
+      "link": "https://pluralistic.net/2026/05/11/postmortem/",
+      "pub_date": "2026-05-11T09:43:59.000Z",
+      "summary": "This is a political opinion essay, not a technical engineering writeup. Doctorow argues that Biden and Harris ran as continuity candidates, that Democratic “pizzaburger” compromise politics alienated voters, and that this helped clear the path for Trump’s return. He uses examples like Medicare drug-price negotiation, antitrust appointments, student debt, and court obstruction to support the argument, but there are no data, benchmarks, or implementation details. The piece is mainly useful as a political framing essay rather than a source of technical insight.",
+      "source_name": "pluralistic.net",
+      "source_type": "rss",
+      "score": 7,
+      "depth": 2,
+      "novelty": 1,
+      "breadth": 4,
+      "category": "opinion",
+      "keywords": [
+        "politics",
+        "democracy",
+        "antitrust"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Mythos Finds a Curl Vulnerability",
+      "title_display": "Mythos Finds One Real curl Vulnerability",
+      "link": "https://daniel.haxx.se/blog/2026/05/11/mythos-finds-a-curl-vulnerability/",
+      "pub_date": "2026-05-11T08:00:49.000Z",
+      "summary": "Daniel Stenberg reports that Anthropic’s Mythos model was used to scan curl’s source tree and initially flagged five “confirmed security vulnerabilities,” but curl’s maintainers reduced that to one real vulnerability after manual review. The scan covered about 178K lines of code in curl’s src/ and lib/ directories and was run on a recent git commit. Four of the five findings were either false positives or just bugs, and the single confirmed issue is described as low severity and slated for disclosure with curl 8.21.0 in late June. Stenberg also notes that Mythos found roughly twenty bugs total, with very few false positives, but he argues the result does not show a dramatic leap over earlier AI security tools used on curl, which have already led to 200-300 fixes over the past 8-10 months. The post’s main practical takeaway is that AI code review is already materially improving security for large C projects, but this example suggests the current systems are better as strong supplemental analyzers than as magic vulnerability finders.",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 152,
+      "score": 21,
+      "depth": 7,
+      "novelty": 6,
+      "breadth": 8,
+      "category": "security",
+      "keywords": [
+        "curl",
+        "Mythos",
+        "vulnerability"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "Python Software Foundation: Strategic Planning at the PSF",
+      "title_display": "PSF outlines five-year strategic plan for Python",
+      "link": "https://pyfound.blogspot.com/2026/05/strategic-planning-at-psf.html",
+      "pub_date": "2026-05-11T06:40:27.000Z",
+      "summary": "The Python Software Foundation has published high-level goals for a five-year strategic plan and is asking the community for feedback before a full draft arrives in early June. The plan focuses on financial sustainability, governance and transparency, diversity and inclusion, community empowerment, and partnerships, plus program priorities around PyPI and supply-chain security, core Python infrastructure, global community support, and developer growth. The board says the plan will inform budget and staffing decisions, be reviewed annually, and is meant to guide priorities rather than implementation details.",
+      "source_name": "planetpython.org",
+      "source_type": "rss",
+      "score": 11,
+      "depth": 2,
+      "novelty": 2,
+      "breadth": 7,
+      "category": "other",
+      "keywords": [
+        "PSF",
+        "Python",
+        "PyPI",
+        "open source"
+      ],
+      "rank": 3
+    },
     {
       "title": "Moving from lsp-mode in GNU Emacs to Eglot",
       "title_display": "Switching GNU Emacs from lsp-mode to Eglot",
@@ -23,7 +85,7 @@
         "Eglot",
         "Flycheck"
       ],
-      "rank": 1
+      "rank": 4
     },
     {
       "title": "An AI coding agent, used to write code, needs to reduce your maintenance costs",
@@ -44,7 +106,7 @@
         "maintenance costs",
         "technical debt"
       ],
-      "rank": 2
+      "rank": 5
     },
     {
       "title": "I'm going back to writing code by hand",
@@ -66,7 +128,7 @@
         "Kubernetes",
         "Rust"
       ],
-      "rank": 3
+      "rank": 6
     },
     {
       "title": "PS3 Emulator Devs Politely Ask That People Stop Flooding It with AI PRs",
@@ -87,7 +149,7 @@
         "open-source",
         "AI code review"
       ],
-      "rank": 4
+      "rank": 7
     },
     {
       "title": "Welcoming the Costa Rican Government to Have I Been Pwned",
@@ -107,7 +169,27 @@
         "Costa Rica",
         "government cybersecurity"
       ],
-      "rank": 5
+      "rank": 8
+    },
+    {
+      "title": "The Problem of Pedagogy in Advanced Mathematics",
+      "title_display": "Advanced Mathematics Textbooks Often Skip Crucial Proof Steps",
+      "link": "https://susam.net/advanced-mathematics-pedagogy.html",
+      "pub_date": "2026-05-11T00:00:00.000Z",
+      "summary": "",
+      "source_name": "susam.net",
+      "source_type": "rss",
+      "score": 6,
+      "depth": 2,
+      "novelty": 2,
+      "breadth": 2,
+      "category": "opinion",
+      "keywords": [
+        "mathematics education",
+        "textbook proofs",
+        "pedagogy"
+      ],
+      "rank": 9
     },
     {
       "title": "Quoting New York Times Editors’ Note",
@@ -127,7 +209,7 @@
         "journalism",
         "New York Times"
       ],
-      "rank": 6
+      "rank": 10
     },
     {
       "title": "Weekly Update 503",
@@ -147,7 +229,7 @@
         "Instructure",
         "ShinyHunters"
       ],
-      "rank": 7
+      "rank": 11
     },
     {
       "title": "Running local models on an M4 with 24GB memory",
@@ -169,7 +251,7 @@
         "Qwen",
         "Elixir"
       ],
-      "rank": 8
+      "rank": 12
     },
     {
       "title": "Obsidian plugin was abused to deploy a remote access trojan",
@@ -190,7 +272,7 @@
         "PHANTOMPULSE",
         "social engineering"
       ],
-      "rank": 9
+      "rank": 13
     },
     {
       "title": "Local AI needs to be the norm",
@@ -211,7 +293,7 @@
         "on-device inference",
         "typed output"
       ],
-      "rank": 10
+      "rank": 14
     },
     {
       "title": "Ask HN: What Are You Working On? (May 2026)",
@@ -232,7 +314,7 @@
         "side projects",
         "community thread"
       ],
-      "rank": 11
+      "rank": 15
     },
     {
       "title": "Out With the JS, In With the HTML",
@@ -252,7 +334,7 @@
         "JavaScript",
         "CSS view transitions"
       ],
-      "rank": 12
+      "rank": 16
     },
     {
       "title": "The linear algebra of bit twiddling",
@@ -273,7 +355,7 @@
         "bit twiddling",
         "Mersenne Twister"
       ],
-      "rank": 13
+      "rank": 17
     },
     {
       "title": "Incident CVE-2024-Yikes",
@@ -294,7 +376,7 @@
         "package managers",
         "CVE"
       ],
-      "rank": 14
+      "rank": 18
     },
     {
       "title": "Hardware Attestation as Monopoly Enabler",
@@ -315,11 +397,11 @@
         "Play Integrity API",
         "App Attest"
       ],
-      "rank": 15
+      "rank": 19
     },
     {
       "title": "Tracesofhumanity.org by Joanna Rutkowska",
-      "title_display": "Joanna Rutkowska Returns With a New Blog",
+      "title_display": "Joanna Rutkowska Relaunches Personal Blog",
       "link": "https://tracesofhumanity.org/hello-world/",
       "pub_date": "2026-05-10T17:40:07.000Z",
       "summary": "",
@@ -330,13 +412,13 @@
       "depth": 1,
       "novelty": 2,
       "breadth": 2,
-      "category": "opinion",
+      "category": "other",
       "keywords": [
         "Joanna Rutkowska",
         "Qubes OS",
-        "humanism"
+        "security blog"
       ],
-      "rank": 16
+      "rank": 20
     },
     {
       "title": "Reverse engineering Mersenne Twister with Linear Algebra",
@@ -357,7 +439,7 @@
         "GF(2)",
         "PRNG"
       ],
-      "rank": 17
+      "rank": 21
     },
     {
       "title": "GitHub Is Sinking",
@@ -378,7 +460,7 @@
         "Forgejo",
         "code hosting"
       ],
-      "rank": 18
+      "rank": 22
     },
     {
       "title": "Louis Rossmann tells 3D printer maker Bambu Lab to 'Go (Bleep) yourself'",
@@ -397,7 +479,7 @@
         "OrcaSlicer",
         "right-to-repair"
       ],
-      "rank": 19
+      "rank": 23
     },
     {
       "title": "Think Linear Algebra (2023)",
@@ -418,7 +500,7 @@
         "Python",
         "Jupyter notebooks"
       ],
-      "rank": 20
+      "rank": 24
     },
     {
       "title": "Production engineering when trading billions of dollars a day [video]",
@@ -440,7 +522,7 @@
         "incident response",
         "Jane Street"
       ],
-      "rank": 21
+      "rank": 25
     }
   ]
 }
