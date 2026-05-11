@@ -1,0 +1,71 @@
+{
+  "date": "2026-05-12",
+  "total_feeds": 95,
+  "success_feeds": 88,
+  "total_articles": 3259,
+  "filtered_articles": 36,
+  "articles": [
+    {
+      "title": "Learning on the Shop floor",
+      "title_display": "Shopify’s public Slack coding agent as a learning tool",
+      "link": "https://simonwillison.net/2026/May/11/learning-on-the-shop-floor/#atom-everything",
+      "pub_date": "2026-05-11T15:46:36.000Z",
+      "summary": "Tobias Lütke describes Shopify’s internal coding agent, River, which works only in public Slack channels rather than private DMs. Every conversation is searchable, colleagues can join in, and the setup is meant to create a “Lehrwerkstatt” — a teaching workshop where people learn by watching real work unfold. The post argues that this visibility helps engineers learn informally without formal training programs or manager-led curricula. Simon Willison connects the idea to Midjourney’s early public Discord usage, where shared prompts and experiments helped users learn faster. The main engineering takeaway is organizational rather than technical: making AI-assisted work observable can turn day-to-day coding into a scalable peer-learning system.",
+      "source_name": "simonwillison.net",
+      "source_type": "rss",
+      "score": 12,
+      "depth": 3,
+      "novelty": 4,
+      "breadth": 5,
+      "category": "opinion",
+      "keywords": [
+        "coding-agents",
+        "Slack",
+        "Shopify",
+        "Midjourney"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Inverse shift",
+      "title_display": "Why the Pseudoinverse of a Shift Is a Left Shift",
+      "link": "https://www.johndcook.com/blog/2026/05/11/inverse-shift/",
+      "pub_date": "2026-05-11T15:30:30.000Z",
+      "summary": "This post shows that a right-shift operator on bit sequences is not invertible because it destroys information, but its Moore-Penrose pseudoinverse is the corresponding left-shift operator. The author frames bit shifting as a matrix operator, notes that the shift-right matrix is singular, and explains that you can verify the pseudoinverse using the four Moore-Penrose conditions rather than computing it directly. The practical takeaway is a clean linear-algebra interpretation of bit shifts, useful for readers who want an intuitive bridge between discrete bit operations and matrix methods.",
+      "source_name": "johndcook.com",
+      "source_type": "rss",
+      "score": 10,
+      "depth": 3,
+      "novelty": 3,
+      "breadth": 4,
+      "category": "engineering",
+      "keywords": [
+        "linear algebra",
+        "pseudoinverse",
+        "bit shifting"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "Additional notes on controlling which handles are inherited by Create­Process",
+      "title_display": "Win32 handle inheritance control with a helper process",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260511-00/?p=112313",
+      "pub_date": "2026-05-11T14:00:00.000Z",
+      "summary": "This post describes a workaround for a Win32 handle-inheritance edge case: `PROC_THREAD_ATTRIBUTE_HANDLE_LIST` can precisely limit inherited handles, but only if those handles are already marked inheritable, which leaves them vulnerable to accidental inheritance from other `CreateProcess` calls using `bInheritHandles = TRUE`. The proposed fix is to use a helper process that exists only to hold duplications of the selected handles. Main-process components keep their own handles non-inheritable, duplicate the specific ones into the helper, and then launch child processes with `PROC_THREAD_ATTRIBUTE_HANDLE_LIST` plus `PROC_THREAD_ATTRIBUTE_PARENT_PROCESS` pointing at the helper. After process creation, the helper-side duplicates are closed with `DuplicateHandle` and `DUPLICATE_CLOSE_SOURCE`. This lets multiple threads safely coordinate handle passing without exposing unrelated handles to other process launches.",
+      "source_name": "devblogs.microsoft.com/oldnewthing",
+      "source_type": "rss",
+      "score": 16,
+      "depth": 5,
+      "novelty": 4,
+      "breadth": 7,
+      "category": "engineering",
+      "keywords": [
+        "Win32",
+        "CreateProcess",
+        "handle inheritance",
+        "PROC_THREAD_ATTRIBUTE_HANDLE_LIST"
+      ],
+      "rank": 3
+    }
+  ]
+}
