@@ -2,9 +2,30 @@
   "date": "2026-05-11",
   "total_feeds": 95,
   "success_feeds": 88,
-  "total_articles": 3252,
-  "filtered_articles": 31,
+  "total_articles": 3267,
+  "filtered_articles": 32,
   "articles": [
+    {
+      "title": "Probability that a random binary matrix is invertible",
+      "title_display": "Invertibility of Random Binary Matrices in GF(2) and R",
+      "link": "https://www.johndcook.com/blog/2026/05/11/random-binary-matrices/",
+      "pub_date": "2026-05-11T13:25:13.000Z",
+      "summary": "The post compares when a random 0/1 matrix is invertible over GF(2) versus over the real numbers. In GF(2), invertibility has a clean finite-field formula: for q = 2 and n = 8, the probability is 0.289919, and it converges to about 0.288788 as n grows. Over the reals, the same binary matrix is invertible whenever its determinant is nonzero, so the probability is much higher; a NumPy simulation reports about 0.5477 for 8×8 matrices using 10,000 trials, and no singular 32×32 matrices appeared in 10,000 draws. The practical takeaway is that “invertible” depends strongly on the arithmetic context, and binary matrices are far more likely to be nonsingular over ℝ than over GF(2).",
+      "source_name": "johndcook.com",
+      "source_type": "rss",
+      "score": 12,
+      "depth": 4,
+      "novelty": 3,
+      "breadth": 5,
+      "category": "engineering",
+      "keywords": [
+        "binary matrix",
+        "GF(2)",
+        "invertibility",
+        "determinant"
+      ],
+      "rank": 1
+    },
     {
       "title": "We Are Not Going to Agree on AI",
       "title_display": "AI Is Just a Capable Tool",
@@ -23,7 +44,27 @@
         "developer productivity",
         "tools"
       ],
-      "rank": 1
+      "rank": 2
+    },
+    {
+      "title": "Quiz: How to Flatten a List of Lists in Python",
+      "title_display": "Real Python Quiz on Flattening Nested Lists",
+      "link": "https://realpython.com/quizzes/python-flatten-list/",
+      "pub_date": "2026-05-11T12:00:00.000Z",
+      "summary": "",
+      "source_name": "realpython.com",
+      "source_type": "rss",
+      "score": 4,
+      "depth": 1,
+      "novelty": 1,
+      "breadth": 2,
+      "category": "tools",
+      "keywords": [
+        "Python",
+        "list flattening",
+        "quiz"
+      ],
+      "rank": 3
     },
     {
       "title": "Find blog posts with missing featured images - and missing alt text - without a plugin",
@@ -44,7 +85,7 @@
         "featured images",
         "alt text"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "Sony Betamax VCR: Born May 10, 1975",
@@ -64,7 +105,7 @@
         "VCR",
         "Sony"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "proxy",
@@ -85,7 +126,7 @@
         "SBOM",
         "cooldown"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "Pluralistic: 2024 (apart from the obvious) (11 May 2026)",
@@ -105,7 +146,7 @@
         "democracy",
         "antitrust"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "Mythos Finds a Curl Vulnerability",
@@ -126,7 +167,7 @@
         "Mythos",
         "vulnerability"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "Python Software Foundation: Strategic Planning at the PSF",
@@ -147,7 +188,7 @@
         "PyPI",
         "open source"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "Moving from lsp-mode in GNU Emacs to Eglot",
@@ -167,7 +208,7 @@
         "Eglot",
         "Flycheck"
       ],
-      "rank": 8
+      "rank": 10
     },
     {
       "title": "An AI coding agent, used to write code, needs to reduce your maintenance costs",
@@ -188,7 +229,7 @@
         "maintenance costs",
         "technical debt"
       ],
-      "rank": 9
+      "rank": 11
     },
     {
       "title": "I'm going back to writing code by hand",
@@ -210,7 +251,7 @@
         "Kubernetes",
         "Rust"
       ],
-      "rank": 10
+      "rank": 12
     },
     {
       "title": "PS3 Emulator Devs Politely Ask That People Stop Flooding It with AI PRs",
@@ -231,7 +272,7 @@
         "open-source",
         "AI code review"
       ],
-      "rank": 11
+      "rank": 13
     },
     {
       "title": "Welcoming the Costa Rican Government to Have I Been Pwned",
@@ -251,7 +292,7 @@
         "Costa Rica",
         "government cybersecurity"
       ],
-      "rank": 12
+      "rank": 14
     },
     {
       "title": "The Problem of Pedagogy in Advanced Mathematics",
@@ -271,7 +312,7 @@
         "textbook proofs",
         "pedagogy"
       ],
-      "rank": 13
+      "rank": 15
     },
     {
       "title": "Quoting New York Times Editors’ Note",
@@ -291,7 +332,7 @@
         "journalism",
         "New York Times"
       ],
-      "rank": 14
+      "rank": 16
     },
     {
       "title": "Weekly Update 503",
@@ -311,7 +352,7 @@
         "Instructure",
         "ShinyHunters"
       ],
-      "rank": 15
+      "rank": 17
     },
     {
       "title": "Running local models on an M4 with 24GB memory",
@@ -333,7 +374,7 @@
         "Qwen",
         "Elixir"
       ],
-      "rank": 16
+      "rank": 18
     },
     {
       "title": "Obsidian plugin was abused to deploy a remote access trojan",
@@ -354,7 +395,7 @@
         "PHANTOMPULSE",
         "social engineering"
       ],
-      "rank": 17
+      "rank": 19
     },
     {
       "title": "Local AI needs to be the norm",
@@ -375,7 +416,7 @@
         "on-device inference",
         "typed output"
       ],
-      "rank": 18
+      "rank": 20
     },
     {
       "title": "Ask HN: What Are You Working On? (May 2026)",
@@ -396,7 +437,7 @@
         "side projects",
         "community thread"
       ],
-      "rank": 19
+      "rank": 21
     },
     {
       "title": "Out With the JS, In With the HTML",
@@ -416,7 +457,7 @@
         "JavaScript",
         "CSS view transitions"
       ],
-      "rank": 20
+      "rank": 22
     },
     {
       "title": "The linear algebra of bit twiddling",
@@ -437,7 +478,7 @@
         "bit twiddling",
         "Mersenne Twister"
       ],
-      "rank": 21
+      "rank": 23
     },
     {
       "title": "Incident CVE-2024-Yikes",
@@ -458,7 +499,7 @@
         "package managers",
         "CVE"
       ],
-      "rank": 22
+      "rank": 24
     },
     {
       "title": "Hardware Attestation as Monopoly Enabler",
@@ -479,28 +520,29 @@
         "Play Integrity API",
         "App Attest"
       ],
-      "rank": 23
+      "rank": 25
     },
     {
       "title": "Tracesofhumanity.org by Joanna Rutkowska",
-      "title_display": "Joanna Rutkowska Relaunches Blog After Seven Years",
+      "title_display": "Joanna Rutkowska Launches New Personal Blog",
       "link": "https://tracesofhumanity.org/hello-world/",
       "pub_date": "2026-05-10T17:40:07.000Z",
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
       "hn_points": 128,
-      "score": 5,
+      "score": 4,
       "depth": 1,
-      "novelty": 2,
+      "novelty": 1,
       "breadth": 2,
       "category": "other",
       "keywords": [
         "Joanna Rutkowska",
         "Qubes OS",
-        "security blog"
+        "computer security",
+        "personal blog"
       ],
-      "rank": 24
+      "rank": 26
     },
     {
       "title": "Reverse engineering Mersenne Twister with Linear Algebra",
@@ -521,7 +563,7 @@
         "GF(2)",
         "PRNG"
       ],
-      "rank": 25
+      "rank": 27
     },
     {
       "title": "GitHub Is Sinking",
@@ -542,28 +584,28 @@
         "Forgejo",
         "code hosting"
       ],
-      "rank": 26
+      "rank": 28
     },
     {
       "title": "Walking Slower? Why Your Ears, Not Your Knees, Might Be the Problem",
-      "title_display": "Hearing Loss Linked to Slower Walking Speed",
+      "title_display": "Hearing Loss May Affect Walking Speed",
       "link": "https://www.wsj.com/health/wellness/hearing-loss-walking-speed-iphone-study-c53c482a",
       "pub_date": "2026-05-10T17:00:08.000Z",
-      "summary": "",
+      "summary": "The article reports on a Wall Street Journal health piece about a study linking slower walking speed to hearing loss, suggesting ears may contribute to mobility decline more than knees alone. It appears to be a broad health-interest story rather than a technical engineering writeup, and the provided snippet does not include study design, sample size, or quantitative results. For AI and software engineers, the practical value is limited to general health awareness rather than actionable technical insight.",
       "source_name": "Hacker News",
       "source_type": "hn",
       "hn_points": 128,
-      "score": 6,
+      "score": 7,
       "depth": 2,
       "novelty": 2,
-      "breadth": 2,
+      "breadth": 3,
       "category": "other",
       "keywords": [
         "hearing loss",
         "mobility",
-        "health"
+        "health study"
       ],
-      "rank": 27
+      "rank": 29
     },
     {
       "title": "Louis Rossmann tells 3D printer maker Bambu Lab to 'Go (Bleep) yourself'",
@@ -582,7 +624,7 @@
         "OrcaSlicer",
         "right-to-repair"
       ],
-      "rank": 28
+      "rank": 30
     },
     {
       "title": "Think Linear Algebra (2023)",
@@ -603,7 +645,7 @@
         "Python",
         "Jupyter notebooks"
       ],
-      "rank": 29
+      "rank": 31
     },
     {
       "title": "Production engineering when trading billions of dollars a day [video]",
@@ -625,7 +667,7 @@
         "incident response",
         "Jane Street"
       ],
-      "rank": 30
+      "rank": 32
     }
   ]
 }
