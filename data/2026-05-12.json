@@ -1,10 +1,31 @@
 {
   "date": "2026-05-12",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3259,
+  "success_feeds": 89,
+  "total_articles": 3277,
   "filtered_articles": 36,
   "articles": [
+    {
+      "title": "Talk Python to Me: #548: Event Sourcing Design Pattern",
+      "title_display": "Python Event Sourcing Design Pattern Explained",
+      "link": "https://talkpython.fm/episodes/show/548/event-sourcing-design-pattern",
+      "pub_date": "2026-05-11T16:36:29.000Z",
+      "summary": "This Talk Python episode discusses event sourcing in Python: modeling state as an immutable stream of events rather than overwriting rows in place. The conversation covers core patterns, when event sourcing is a good fit, when to avoid it, and which Python libraries can help, including the `eventsourcing` package. It also frames event sourcing alongside CQRS, domain-driven design, projections, and related tooling such as Valkey and Temporal. The episode appears to be an explanatory design discussion rather than a benchmark, postmortem, or new technical disclosure, so the evidence level is limited. Its practical value is mainly for engineers evaluating whether event-sourced architecture is worth the complexity for their systems, especially when auditability, replayability, and AI-assisted code generation matter.",
+      "source_name": "planetpython.org",
+      "source_type": "rss",
+      "score": 13,
+      "depth": 4,
+      "novelty": 3,
+      "breadth": 6,
+      "category": "engineering",
+      "keywords": [
+        "event sourcing",
+        "CQRS",
+        "Python",
+        "domain-driven design"
+      ],
+      "rank": 1
+    },
     {
       "title": "Learning on the Shop floor",
       "title_display": "Shopify’s public Slack coding agent as a learning tool",
@@ -24,7 +45,7 @@
         "Shopify",
         "Midjourney"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Inverse shift",
@@ -44,7 +65,7 @@
         "pseudoinverse",
         "bit shifting"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Additional notes on controlling which handles are inherited by Create­Process",
@@ -65,7 +86,7 @@
         "handle inheritance",
         "PROC_THREAD_ATTRIBUTE_HANDLE_LIST"
       ],
-      "rank": 3
+      "rank": 4
     }
   ]
 }
