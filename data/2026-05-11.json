@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3276,
-  "filtered_articles": 25,
+  "filtered_articles": 26,
   "articles": [
     {
       "title": "Moving from lsp-mode in GNU Emacs to Eglot",
@@ -26,6 +26,27 @@
       "rank": 1
     },
     {
+      "title": "An AI coding agent, used to write code, needs to reduce your maintenance costs",
+      "title_display": "AI Coding Agents Must Cut Maintenance Costs",
+      "link": "https://www.jamesshore.com/v2/blog/2026/you-need-ai-that-reduces-your-maintenance-costs",
+      "pub_date": "2026-05-11T02:40:09.000Z",
+      "summary": "James Shore argues that AI coding agents only create lasting productivity gains if they reduce maintenance costs in proportion to the extra code they generate. Using a simple lifecycle model, he claims that faster output without lower maintenance just shifts the team into a long-term productivity decline, because every line of code compounds future bug fixes, cleanup, and upgrades. He illustrates this with spreadsheet-style scenarios: doubling output while also doubling maintenance causes gains to disappear quickly, and can leave teams worse off later; even doubling output with unchanged maintenance still eventually erodes productivity. The post is a conceptual critique rather than an empirical benchmark, but it is relevant to teams adopting coding agents in production. The practical takeaway is to evaluate AI tools not just on generation speed, but on whether they measurably lower long-term upkeep per unit of code.",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 143,
+      "score": 13,
+      "depth": 3,
+      "novelty": 4,
+      "breadth": 6,
+      "category": "opinion",
+      "keywords": [
+        "AI coding agents",
+        "maintenance costs",
+        "technical debt"
+      ],
+      "rank": 2
+    },
+    {
       "title": "I'm going back to writing code by hand",
       "title_display": "Why the Author Is Rewriting a Vibe-Coded Kubernetes TUI",
       "link": "https://blog.k10s.dev/im-going-back-to-writing-code-by-hand/",
@@ -45,7 +66,7 @@
         "Kubernetes",
         "Rust"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "PS3 Emulator Devs Politely Ask That People Stop Flooding It with AI PRs",
@@ -66,7 +87,7 @@
         "open-source",
         "AI code review"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Welcoming the Costa Rican Government to Have I Been Pwned",
@@ -86,7 +107,7 @@
         "Costa Rica",
         "government cybersecurity"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Quoting New York Times Editors’ Note",
@@ -106,7 +127,7 @@
         "journalism",
         "New York Times"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Weekly Update 503",
@@ -126,7 +147,7 @@
         "Instructure",
         "ShinyHunters"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Running local models on an M4 with 24GB memory",
@@ -148,7 +169,7 @@
         "Qwen",
         "Elixir"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Obsidian plugin was abused to deploy a remote access trojan",
@@ -169,7 +190,7 @@
         "PHANTOMPULSE",
         "social engineering"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Local AI needs to be the norm",
@@ -190,7 +211,7 @@
         "on-device inference",
         "typed output"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Ask HN: What Are You Working On? (May 2026)",
@@ -211,7 +232,7 @@
         "side projects",
         "community thread"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "Out With the JS, In With the HTML",
@@ -231,7 +252,7 @@
         "JavaScript",
         "CSS view transitions"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "The linear algebra of bit twiddling",
@@ -252,7 +273,7 @@
         "bit twiddling",
         "Mersenne Twister"
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "title": "Incident CVE-2024-Yikes",
@@ -273,7 +294,7 @@
         "package managers",
         "CVE"
       ],
-      "rank": 13
+      "rank": 14
     },
     {
       "title": "Hardware Attestation as Monopoly Enabler",
@@ -294,11 +315,11 @@
         "Play Integrity API",
         "App Attest"
       ],
-      "rank": 14
+      "rank": 15
     },
     {
       "title": "Tracesofhumanity.org by Joanna Rutkowska",
-      "title_display": "Joanna Rutkowska Returns With New Personal Blog",
+      "title_display": "Joanna Rutkowska Returns With a New Blog",
       "link": "https://tracesofhumanity.org/hello-world/",
       "pub_date": "2026-05-10T17:40:07.000Z",
       "summary": "",
@@ -309,13 +330,13 @@
       "depth": 1,
       "novelty": 2,
       "breadth": 2,
-      "category": "other",
+      "category": "opinion",
       "keywords": [
         "Joanna Rutkowska",
         "Qubes OS",
-        "security blog"
+        "humanism"
       ],
-      "rank": 15
+      "rank": 16
     },
     {
       "title": "Reverse engineering Mersenne Twister with Linear Algebra",
@@ -336,7 +357,7 @@
         "GF(2)",
         "PRNG"
       ],
-      "rank": 16
+      "rank": 17
     },
     {
       "title": "GitHub Is Sinking",
@@ -357,7 +378,7 @@
         "Forgejo",
         "code hosting"
       ],
-      "rank": 17
+      "rank": 18
     },
     {
       "title": "Louis Rossmann tells 3D printer maker Bambu Lab to 'Go (Bleep) yourself'",
@@ -376,7 +397,7 @@
         "OrcaSlicer",
         "right-to-repair"
       ],
-      "rank": 18
+      "rank": 19
     },
     {
       "title": "Think Linear Algebra (2023)",
@@ -397,7 +418,7 @@
         "Python",
         "Jupyter notebooks"
       ],
-      "rank": 19
+      "rank": 20
     },
     {
       "title": "Production engineering when trading billions of dollars a day [video]",
@@ -419,7 +440,7 @@
         "incident response",
         "Jane Street"
       ],
-      "rank": 20
+      "rank": 21
     }
   ]
 }
