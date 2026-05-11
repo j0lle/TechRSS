@@ -1,8 +1,8 @@
 {
   "date": "2026-05-11",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3256,
+  "success_feeds": 89,
+  "total_articles": 3276,
   "filtered_articles": 25,
   "articles": [
     {
@@ -298,22 +298,22 @@
     },
     {
       "title": "Tracesofhumanity.org by Joanna Rutkowska",
-      "title_display": "Joanna Rutkowska Returns With New Blog",
+      "title_display": "Joanna Rutkowska Returns With New Personal Blog",
       "link": "https://tracesofhumanity.org/hello-world/",
       "pub_date": "2026-05-10T17:40:07.000Z",
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
       "hn_points": 128,
-      "score": 4,
+      "score": 5,
       "depth": 1,
-      "novelty": 1,
+      "novelty": 2,
       "breadth": 2,
       "category": "other",
       "keywords": [
         "Joanna Rutkowska",
         "Qubes OS",
-        "humanism"
+        "security blog"
       ],
       "rank": 15
     },
