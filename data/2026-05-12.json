@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3279,
-  "filtered_articles": 37,
+  "filtered_articles": 38,
   "articles": [
     {
       "title": "CUDA-oxide: Nvidia's official Rust to CUDA compiler",
