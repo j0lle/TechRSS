@@ -1,10 +1,30 @@
 {
   "date": "2026-05-11",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3251,
-  "filtered_articles": 22,
+  "success_feeds": 87,
+  "total_articles": 3248,
+  "filtered_articles": 23,
   "articles": [
+    {
+      "title": "Moving from lsp-mode in GNU Emacs to Eglot",
+      "title_display": "Switching GNU Emacs from lsp-mode to Eglot",
+      "link": "https://utcc.utoronto.ca/~cks/space/blog/programming/EmacsLspModeToEglot",
+      "pub_date": "2026-05-11T03:15:43.000Z",
+      "summary": "The author replaced a long-running GNU Emacs lsp-mode setup with Eglot and found the migration workable but more involved than expected. Most of the effort went into wiring up surrounding packages rather than Eglot itself: Corfu for completion, Consult for xref-style reference previews, and a mix of Flycheck/Flymake integration for diagnostics and quickfixes. The post also shows concrete configuration for disabling pylsp linters via `eglot-workspace-configuration`, using `.dir-locals.el` for project-scoped server settings, and auto-starting Eglot only for local files.\n\nA recurring theme is that Eglot’s minimalism reduces UI clutter, but shifts more responsibility to Emacs configuration and package composition. The author notes that Eglot is less convenient than lsp-mode for server selection, temporary settings, and filtering noisy code actions, especially when using pylsp and gopls. This is a practical migration report for Emacs users who want a quieter LSP experience and are willing to manage more of the integration themselves.",
+      "source_name": "utcc.utoronto.ca/~cks",
+      "source_type": "rss",
+      "score": 13,
+      "depth": 5,
+      "novelty": 4,
+      "breadth": 4,
+      "category": "tools",
+      "keywords": [
+        "Emacs",
+        "Eglot",
+        "Flycheck"
+      ],
+      "rank": 1
+    },
     {
       "title": "Welcoming the Costa Rican Government to Have I Been Pwned",
       "title_display": "Costa Rica Joins Have I Been Pwned Government Service",
@@ -23,7 +43,7 @@
         "Costa Rica",
         "government cybersecurity"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Quoting New York Times Editors’ Note",
@@ -43,7 +63,7 @@
         "journalism",
         "New York Times"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Weekly Update 503",
@@ -63,7 +83,29 @@
         "Instructure",
         "ShinyHunters"
       ],
-      "rank": 3
+      "rank": 4
+    },
+    {
+      "title": "Running local models on an M4 with 24GB memory",
+      "title_display": "Qwen 3.5 9B on an M4 MacBook with 24GB",
+      "link": "https://jola.dev/posts/running-local-models-on-m4",
+      "pub_date": "2026-05-10T23:30:07.000Z",
+      "summary": "This post reports a practical local-LLM setup on an M4 MacBook Pro with 24GB RAM using LM Studio, Pi, and OpenCode. The author found that several larger models — including Qwen 3.6 Q3, GPT-OSS 20B, and Devstral Small 24B — technically fit in memory but were unusable in practice, while Gemma 4B ran reliably but was weak at tool use. The best result came from Qwen 3.5-9B quantized to Q4_K_S, which delivered about 40 tokens per second, supported thinking mode, tool use, and a 128K context window.\n\nThe article includes concrete configuration snippets for LM Studio, Pi, and OpenCode, including model provider JSON, context-length settings, and prompt-template tweaks to enable thinking. It also gives two real workflow examples: using the model to interpret and fix Credo warnings in an Elixir project, and to reason through a dependency-conflict rebase. The first worked cleanly; the second exposed a failure mode where the model identified the conflict but then tried to continue the rebase without actually resolving the file, causing the process to hang.\n\nOverall, this is a useful hands-on note for engineers exploring local coding assistants on consumer hardware, especially if they want a realistic picture of what smaller quantized models can and cannot do.",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 133,
+      "score": 12,
+      "depth": 4,
+      "novelty": 3,
+      "breadth": 5,
+      "category": "tools",
+      "keywords": [
+        "local llm",
+        "LM Studio",
+        "Qwen",
+        "Elixir"
+      ],
+      "rank": 5
     },
     {
       "title": "Local AI needs to be the norm",
@@ -84,7 +126,7 @@
         "on-device inference",
         "typed output"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "Ask HN: What Are You Working On? (May 2026)",
@@ -105,7 +147,7 @@
         "side projects",
         "community thread"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "The linear algebra of bit twiddling",
@@ -126,7 +168,7 @@
         "bit twiddling",
         "Mersenne Twister"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "Incident CVE-2024-Yikes",
@@ -147,7 +189,7 @@
         "package managers",
         "CVE"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "Hardware Attestation as Monopoly Enabler",
@@ -168,29 +210,28 @@
         "Play Integrity API",
         "App Attest"
       ],
-      "rank": 8
+      "rank": 10
     },
     {
       "title": "Tracesofhumanity.org by Joanna Rutkowska",
-      "title_display": "Joanna Rutkowska Returns With a New Blog",
+      "title_display": "Joanna Rutkowska Resurfaces With New Blog",
       "link": "https://tracesofhumanity.org/hello-world/",
       "pub_date": "2026-05-10T17:40:07.000Z",
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
       "hn_points": 128,
-      "score": 5,
+      "score": 4,
       "depth": 1,
-      "novelty": 2,
+      "novelty": 1,
       "breadth": 2,
       "category": "other",
       "keywords": [
         "Joanna Rutkowska",
         "Qubes OS",
-        "personal blog",
-        "security"
+        "humanism"
       ],
-      "rank": 9
+      "rank": 11
     },
     {
       "title": "Reverse engineering Mersenne Twister with Linear Algebra",
@@ -211,7 +252,7 @@
         "GF(2)",
         "PRNG"
       ],
-      "rank": 10
+      "rank": 12
     },
     {
       "title": "GitHub Is Sinking",
@@ -232,7 +273,7 @@
         "Forgejo",
         "code hosting"
       ],
-      "rank": 11
+      "rank": 13
     },
     {
       "title": "Louis Rossmann tells 3D printer maker Bambu Lab to 'Go (Bleep) yourself'",
@@ -251,7 +292,7 @@
         "OrcaSlicer",
         "right-to-repair"
       ],
-      "rank": 12
+      "rank": 14
     },
     {
       "title": "Think Linear Algebra (2023)",
@@ -272,7 +313,7 @@
         "Python",
         "Jupyter notebooks"
       ],
-      "rank": 13
+      "rank": 15
     },
     {
       "title": "Production engineering when trading billions of dollars a day [video]",
@@ -294,7 +335,7 @@
         "incident response",
         "Jane Street"
       ],
-      "rank": 14
+      "rank": 16
     }
   ]
 }
