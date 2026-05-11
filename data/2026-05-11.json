@@ -1,10 +1,31 @@
 {
   "date": "2026-05-11",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3267,
-  "filtered_articles": 32,
+  "success_feeds": 89,
+  "total_articles": 3277,
+  "filtered_articles": 33,
   "articles": [
+    {
+      "title": "How to Flatten a List of Lists in Python",
+      "title_display": "Flattening Python Lists With Loops and Comprehensions",
+      "link": "https://realpython.com/python-flatten-list/",
+      "pub_date": "2026-05-11T14:00:00.000Z",
+      "summary": "",
+      "source_name": "realpython.com",
+      "source_type": "rss",
+      "score": 8,
+      "depth": 2,
+      "novelty": 2,
+      "breadth": 4,
+      "category": "engineering",
+      "keywords": [
+        "python",
+        "list comprehension",
+        "itertools",
+        "NumPy"
+      ],
+      "rank": 1
+    },
     {
       "title": "Probability that a random binary matrix is invertible",
       "title_display": "Invertibility of Random Binary Matrices in GF(2) and R",
@@ -24,7 +45,28 @@
         "invertibility",
         "determinant"
       ],
-      "rank": 1
+      "rank": 2
+    },
+    {
+      "title": "Gmail registration now requires scanning a QR code and sending a text message",
+      "title_display": "Google QR-Based Account Verification Blocks Temp Numbers",
+      "link": "https://discuss.privacyguides.net/t/google-account-registration-now-requires-sending-an-sms-via-phone-instead-of-receiving-an-sms/36082",
+      "pub_date": "2026-05-11T12:30:40.000Z",
+      "summary": "Google appears to be replacing SMS receipt-based verification for new account creation with a QR-code flow that triggers an SMS sent from the user’s phone to Google. The thread suggests this change can block temporary SMS services such as SMSpool and may make anonymous account creation harder, but it provides no direct technical documentation, measurements, or confirmed rollout details beyond user-reported behavior and a referenced Verge article. The discussion focuses on privacy and verification workarounds rather than implementation specifics. For engineers, the main implication is that account onboarding and phone-number verification flows may be tightening in ways that affect automation, privacy tooling, and phone-number reuse assumptions.",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 140,
+      "score": 8,
+      "depth": 2,
+      "novelty": 2,
+      "breadth": 4,
+      "category": "security",
+      "keywords": [
+        "Google",
+        "SMS verification",
+        "QR code"
+      ],
+      "rank": 3
     },
     {
       "title": "We Are Not Going to Agree on AI",
@@ -44,7 +86,7 @@
         "developer productivity",
         "tools"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "Quiz: How to Flatten a List of Lists in Python",
@@ -64,7 +106,7 @@
         "list flattening",
         "quiz"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "Find blog posts with missing featured images - and missing alt text - without a plugin",
@@ -85,7 +127,7 @@
         "featured images",
         "alt text"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "Sony Betamax VCR: Born May 10, 1975",
@@ -105,7 +147,27 @@
         "VCR",
         "Sony"
       ],
-      "rank": 5
+      "rank": 7
+    },
+    {
+      "title": "Django Weblog: DSF member of the month -  Bhuvnesh Sharma",
+      "title_display": "Django profile: Bhuvnesh Sharma on community and mentorship",
+      "link": "https://www.djangoproject.com/weblog/2026/may/11/dsf-member-of-the-month-bhuvnesh-sharma/",
+      "pub_date": "2026-05-11T11:00:00.000Z",
+      "summary": "This is a community interview profiling Bhuvnesh Sharma, a Django contributor since 2022, GSoC participant and mentor, and organizer behind DjangoDay India and Django Events Foundation India. It focuses on his background, how he discovered Django, his involvement in mentorship programs, and his goal of growing the Django ecosystem in India. The only technical mention is his side project, django-migrations-inspector, described as a migration safety toolkit for Django that checks migration files before production, but no implementation details, benchmarks, or code examples are provided. The piece is useful as a community snapshot for Django contributors, but it offers little engineering substance beyond the existence of the toolkit and his preferences for DRF, django-import-export, and django-debug-toolbar.",
+      "source_name": "planetpython.org",
+      "source_type": "rss",
+      "score": 6,
+      "depth": 2,
+      "novelty": 1,
+      "breadth": 3,
+      "category": "other",
+      "keywords": [
+        "Django",
+        "open source",
+        "GSoC"
+      ],
+      "rank": 8
     },
     {
       "title": "proxy",
@@ -126,7 +188,7 @@
         "SBOM",
         "cooldown"
       ],
-      "rank": 6
+      "rank": 9
     },
     {
       "title": "Pluralistic: 2024 (apart from the obvious) (11 May 2026)",
@@ -146,7 +208,7 @@
         "democracy",
         "antitrust"
       ],
-      "rank": 7
+      "rank": 10
     },
     {
       "title": "Mythos Finds a Curl Vulnerability",
@@ -167,7 +229,7 @@
         "Mythos",
         "vulnerability"
       ],
-      "rank": 8
+      "rank": 11
     },
     {
       "title": "Python Software Foundation: Strategic Planning at the PSF",
@@ -188,7 +250,7 @@
         "PyPI",
         "open source"
       ],
-      "rank": 9
+      "rank": 12
     },
     {
       "title": "Moving from lsp-mode in GNU Emacs to Eglot",
@@ -208,7 +270,7 @@
         "Eglot",
         "Flycheck"
       ],
-      "rank": 10
+      "rank": 13
     },
     {
       "title": "An AI coding agent, used to write code, needs to reduce your maintenance costs",
@@ -229,7 +291,7 @@
         "maintenance costs",
         "technical debt"
       ],
-      "rank": 11
+      "rank": 14
     },
     {
       "title": "I'm going back to writing code by hand",
@@ -251,7 +313,7 @@
         "Kubernetes",
         "Rust"
       ],
-      "rank": 12
+      "rank": 15
     },
     {
       "title": "PS3 Emulator Devs Politely Ask That People Stop Flooding It with AI PRs",
@@ -272,7 +334,7 @@
         "open-source",
         "AI code review"
       ],
-      "rank": 13
+      "rank": 16
     },
     {
       "title": "Welcoming the Costa Rican Government to Have I Been Pwned",
@@ -292,7 +354,7 @@
         "Costa Rica",
         "government cybersecurity"
       ],
-      "rank": 14
+      "rank": 17
     },
     {
       "title": "The Problem of Pedagogy in Advanced Mathematics",
@@ -312,7 +374,7 @@
         "textbook proofs",
         "pedagogy"
       ],
-      "rank": 15
+      "rank": 18
     },
     {
       "title": "Quoting New York Times Editors’ Note",
@@ -332,7 +394,7 @@
         "journalism",
         "New York Times"
       ],
-      "rank": 16
+      "rank": 19
     },
     {
       "title": "Weekly Update 503",
@@ -352,7 +414,7 @@
         "Instructure",
         "ShinyHunters"
       ],
-      "rank": 17
+      "rank": 20
     },
     {
       "title": "Running local models on an M4 with 24GB memory",
@@ -374,7 +436,7 @@
         "Qwen",
         "Elixir"
       ],
-      "rank": 18
+      "rank": 21
     },
     {
       "title": "Obsidian plugin was abused to deploy a remote access trojan",
@@ -395,7 +457,7 @@
         "PHANTOMPULSE",
         "social engineering"
       ],
-      "rank": 19
+      "rank": 22
     },
     {
       "title": "Local AI needs to be the norm",
@@ -416,7 +478,7 @@
         "on-device inference",
         "typed output"
       ],
-      "rank": 20
+      "rank": 23
     },
     {
       "title": "Ask HN: What Are You Working On? (May 2026)",
@@ -437,7 +499,7 @@
         "side projects",
         "community thread"
       ],
-      "rank": 21
+      "rank": 24
     },
     {
       "title": "Out With the JS, In With the HTML",
@@ -457,7 +519,7 @@
         "JavaScript",
         "CSS view transitions"
       ],
-      "rank": 22
+      "rank": 25
     },
     {
       "title": "The linear algebra of bit twiddling",
@@ -478,7 +540,7 @@
         "bit twiddling",
         "Mersenne Twister"
       ],
-      "rank": 23
+      "rank": 26
     },
     {
       "title": "Incident CVE-2024-Yikes",
@@ -499,7 +561,7 @@
         "package managers",
         "CVE"
       ],
-      "rank": 24
+      "rank": 27
     },
     {
       "title": "Hardware Attestation as Monopoly Enabler",
@@ -520,29 +582,28 @@
         "Play Integrity API",
         "App Attest"
       ],
-      "rank": 25
+      "rank": 28
     },
     {
       "title": "Tracesofhumanity.org by Joanna Rutkowska",
-      "title_display": "Joanna Rutkowska Launches New Personal Blog",
+      "title_display": "Joanna Rutkowska Returns With a Personal Philosophy Blog",
       "link": "https://tracesofhumanity.org/hello-world/",
       "pub_date": "2026-05-10T17:40:07.000Z",
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
       "hn_points": 128,
-      "score": 4,
+      "score": 5,
       "depth": 1,
-      "novelty": 1,
+      "novelty": 2,
       "breadth": 2,
-      "category": "other",
+      "category": "opinion",
       "keywords": [
-        "Joanna Rutkowska",
         "Qubes OS",
-        "computer security",
-        "personal blog"
+        "Joanna Rutkowska",
+        "humanism"
       ],
-      "rank": 26
+      "rank": 29
     },
     {
       "title": "Reverse engineering Mersenne Twister with Linear Algebra",
@@ -563,7 +624,7 @@
         "GF(2)",
         "PRNG"
       ],
-      "rank": 27
+      "rank": 30
     },
     {
       "title": "GitHub Is Sinking",
@@ -584,7 +645,7 @@
         "Forgejo",
         "code hosting"
       ],
-      "rank": 28
+      "rank": 31
     },
     {
       "title": "Walking Slower? Why Your Ears, Not Your Knees, Might Be the Problem",
@@ -605,7 +666,7 @@
         "mobility",
         "health study"
       ],
-      "rank": 29
+      "rank": 32
     },
     {
       "title": "Louis Rossmann tells 3D printer maker Bambu Lab to 'Go (Bleep) yourself'",
@@ -624,7 +685,7 @@
         "OrcaSlicer",
         "right-to-repair"
       ],
-      "rank": 30
+      "rank": 33
     },
     {
       "title": "Think Linear Algebra (2023)",
@@ -645,7 +706,7 @@
         "Python",
         "Jupyter notebooks"
       ],
-      "rank": 31
+      "rank": 34
     },
     {
       "title": "Production engineering when trading billions of dollars a day [video]",
@@ -667,7 +728,7 @@
         "incident response",
         "Jane Street"
       ],
-      "rank": 32
+      "rank": 35
     }
   ]
 }
