@@ -1,9 +1,9 @@
 {
   "date": "2026-05-11",
   "total_feeds": 95,
-  "success_feeds": 87,
-  "total_articles": 3248,
-  "filtered_articles": 23,
+  "success_feeds": 88,
+  "total_articles": 3256,
+  "filtered_articles": 25,
   "articles": [
     {
       "title": "Moving from lsp-mode in GNU Emacs to Eglot",
@@ -26,6 +26,49 @@
       "rank": 1
     },
     {
+      "title": "I'm going back to writing code by hand",
+      "title_display": "Why the Author Is Rewriting a Vibe-Coded Kubernetes TUI",
+      "link": "https://blog.k10s.dev/im-going-back-to-writing-code-by-hand/",
+      "pub_date": "2026-05-11T01:40:06.000Z",
+      "summary": "The author archived a 234-commit, 7-month Go/Kubernetes TUI after concluding that AI-assisted coding was optimizing for features, not architecture. In the post, they point to concrete failure modes in the codebase: a 1,690-line `model.go`, a 500-line `Update()` with 110 switch branches, nine scattered `= nil` cleanup paths, positional `[]string` data that made sort logic depend on magic indices like `ra[3]`, and a goroutine-based update path that could race with UI rendering. The key takeaway is that Claude could reliably add isolated features such as live resource views, logs, and GPU fleet tables, but once the project grew, state ownership, keybinding conflicts, and cross-view coupling accumulated into a “god object.” The author’s practical response is to rewrite the tool in Rust and move architecture decisions into hand-written invariants and `CLAUDE.md` rules: typed structs instead of flattened arrays, separate view state, per-view keymaps, and message passing only through the main event loop. For engineers building AI-assisted software, the post is a useful cautionary example of how fast delivery can hide structural decay until the codebase becomes hard to reason about.",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 150,
+      "score": 22,
+      "depth": 8,
+      "novelty": 7,
+      "breadth": 7,
+      "category": "engineering",
+      "keywords": [
+        "vibe coding",
+        "architecture",
+        "Kubernetes",
+        "Rust"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "PS3 Emulator Devs Politely Ask That People Stop Flooding It with AI PRs",
+      "title_display": "RPCS3 Devs Push Back on AI Pull Requests",
+      "link": "https://kotaku.com/playstation-3-emulator-devs-politely-ask-that-people-stop-flooding-it-with-ai-code-pull-requests-2000694656",
+      "pub_date": "2026-05-11T00:40:08.000Z",
+      "summary": "RPCS3, the open-source PlayStation 3 emulator, publicly asked contributors to stop submitting undisclosed AI-generated code pull requests and said repeat offenders may be banned. The team’s complaint is not about AI in general, but about low-quality patches that arrive without understanding the codebase and create extra maintenance work for volunteers. The article also notes this is part of a broader pattern: Godot maintainers reported a similar flood of AI-generated PRs earlier this year. For open-source projects, the practical takeaway is that AI-assisted contributions still need real debugging, reviewable changes, and honest disclosure.",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 141,
+      "score": 8,
+      "depth": 2,
+      "novelty": 3,
+      "breadth": 3,
+      "category": "tools",
+      "keywords": [
+        "RPCS3",
+        "open-source",
+        "AI code review"
+      ],
+      "rank": 3
+    },
+    {
       "title": "Welcoming the Costa Rican Government to Have I Been Pwned",
       "title_display": "Costa Rica Joins Have I Been Pwned Government Service",
       "link": "https://www.troyhunt.com/welcoming-the-costa-rican-government-to-have-i-been-pwned/",
@@ -43,7 +86,7 @@
         "Costa Rica",
         "government cybersecurity"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "Quoting New York Times Editors’ Note",
@@ -63,7 +106,7 @@
         "journalism",
         "New York Times"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "Weekly Update 503",
@@ -83,7 +126,7 @@
         "Instructure",
         "ShinyHunters"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "Running local models on an M4 with 24GB memory",
@@ -105,7 +148,28 @@
         "Qwen",
         "Elixir"
       ],
-      "rank": 5
+      "rank": 7
+    },
+    {
+      "title": "Obsidian plugin was abused to deploy a remote access trojan",
+      "title_display": "Obsidian Plugin Abuse Delivers PHANTOMPULSE RAT",
+      "link": "https://cyber.netsecops.io/articles/obsidian-plugin-abused-in-campaign-to-deploy-phantom-pulse-rat/",
+      "pub_date": "2026-05-10T23:10:07.000Z",
+      "summary": "Security researchers describe a targeted campaign, REF6598, that abuses Obsidian shared vaults and community plugins to deliver a new RAT called PHANTOMPULSE. Attackers use LinkedIn and Telegram to social-engineer finance and crypto professionals into opening a malicious vault and enabling plugin synchronization, which activates compromised plugins such as Shell Commands and Hider. The infection chain uses PowerShell on Windows and AppleScript on macOS, then loads the payload in memory to reduce file-based detection. PHANTOMPULSE is notable for its command-and-control design: it queries the Ethereum blockchain for the latest transaction from a hard-coded wallet address and extracts the C2 IP address from that transaction data. The reported capabilities include keystroke capture, screenshots, file exfiltration, and arbitrary command execution. The article is operationally useful because it also lists concrete detections, including Obsidian spawning PowerShell or osascript, suspicious `powershell -ExecutionPolicy Bypass` usage, unexpected blockchain-related network traffic, and changes under `.obsidian/plugins/`. For defenders, the key takeaway is that collaboration tools and note-taking apps can become delivery vectors when plugin trust and sync settings are abused.",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 130,
+      "score": 19,
+      "depth": 6,
+      "novelty": 5,
+      "breadth": 8,
+      "category": "security",
+      "keywords": [
+        "Obsidian",
+        "PHANTOMPULSE",
+        "social engineering"
+      ],
+      "rank": 8
     },
     {
       "title": "Local AI needs to be the norm",
@@ -126,7 +190,7 @@
         "on-device inference",
         "typed output"
       ],
-      "rank": 6
+      "rank": 9
     },
     {
       "title": "Ask HN: What Are You Working On? (May 2026)",
@@ -147,7 +211,27 @@
         "side projects",
         "community thread"
       ],
-      "rank": 7
+      "rank": 10
+    },
+    {
+      "title": "Out With the JS, In With the HTML",
+      "title_display": "Replacing JS Widget State with HTML Navigation",
+      "link": "https://blog.jim-nielsen.com/2026/out-with-js-in-with-html/",
+      "pub_date": "2026-05-10T19:00:00.000Z",
+      "summary": "The post describes a small UI refactor for icon-size selection: instead of using a custom element and client-side JavaScript to mutate the DOM, the site now treats size changes as navigation to separate HTML pages such as `/sm`, `/md`, `/lg`, and `/xl`. The author says this removes duplicated client/server rendering logic and maintenance risk when markup changes. CSS view transitions were added so the page change feels smooth, including on mobile. The main takeaway is a pragmatic pattern for static sites: if an interaction can be expressed as navigation, you can often delete JavaScript and simplify the system.",
+      "source_name": "blog.jim-nielsen.com",
+      "source_type": "rss",
+      "score": 8,
+      "depth": 2,
+      "novelty": 2,
+      "breadth": 4,
+      "category": "engineering",
+      "keywords": [
+        "HTML",
+        "JavaScript",
+        "CSS view transitions"
+      ],
+      "rank": 11
     },
     {
       "title": "The linear algebra of bit twiddling",
@@ -168,7 +252,7 @@
         "bit twiddling",
         "Mersenne Twister"
       ],
-      "rank": 8
+      "rank": 12
     },
     {
       "title": "Incident CVE-2024-Yikes",
@@ -189,7 +273,7 @@
         "package managers",
         "CVE"
       ],
-      "rank": 9
+      "rank": 13
     },
     {
       "title": "Hardware Attestation as Monopoly Enabler",
@@ -210,11 +294,11 @@
         "Play Integrity API",
         "App Attest"
       ],
-      "rank": 10
+      "rank": 14
     },
     {
       "title": "Tracesofhumanity.org by Joanna Rutkowska",
-      "title_display": "Joanna Rutkowska Resurfaces With New Blog",
+      "title_display": "Joanna Rutkowska Returns With New Blog",
       "link": "https://tracesofhumanity.org/hello-world/",
       "pub_date": "2026-05-10T17:40:07.000Z",
       "summary": "",
@@ -231,7 +315,7 @@
         "Qubes OS",
         "humanism"
       ],
-      "rank": 11
+      "rank": 15
     },
     {
       "title": "Reverse engineering Mersenne Twister with Linear Algebra",
@@ -252,7 +336,7 @@
         "GF(2)",
         "PRNG"
       ],
-      "rank": 12
+      "rank": 16
     },
     {
       "title": "GitHub Is Sinking",
@@ -273,7 +357,7 @@
         "Forgejo",
         "code hosting"
       ],
-      "rank": 13
+      "rank": 17
     },
     {
       "title": "Louis Rossmann tells 3D printer maker Bambu Lab to 'Go (Bleep) yourself'",
@@ -292,7 +376,7 @@
         "OrcaSlicer",
         "right-to-repair"
       ],
-      "rank": 14
+      "rank": 18
     },
     {
       "title": "Think Linear Algebra (2023)",
@@ -313,7 +397,7 @@
         "Python",
         "Jupyter notebooks"
       ],
-      "rank": 15
+      "rank": 19
     },
     {
       "title": "Production engineering when trading billions of dollars a day [video]",
@@ -335,7 +419,7 @@
         "incident response",
         "Jane Street"
       ],
-      "rank": 16
+      "rank": 20
     }
   ]
 }
