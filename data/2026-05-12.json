@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3277,
-  "filtered_articles": 36,
+  "filtered_articles": 34,
   "articles": [
     {
       "title": "Talk Python to Me: #548: Event Sourcing Design Pattern",
@@ -87,6 +87,27 @@
         "PROC_THREAD_ATTRIBUTE_HANDLE_LIST"
       ],
       "rank": 4
+    },
+    {
+      "title": "Hosting a website on an AVR",
+      "title_display": "Hosting a Website on an AVR Microcontroller",
+      "link": "https://maurycyz.com/projects/mcusite/",
+      "pub_date": "2026-05-11T00:00:00.000Z",
+      "summary": "A hobby project demonstrates a tiny website running on an AVR64DD32 microcontroller with 8 KB of RAM, 64 KB of flash, and a 24 MHz 8-bit core. Instead of Ethernet, the author uses SLIP over a serial link, then implements enough IP and TCP handling to serve a hardcoded HTTP response. For external access, the MCU is placed behind a Linux router and a VPS using WireGuard, with requests to /mcu proxied to the device. The writeup is practical and shows how constrained hardware, serial networking, and basic TCP/IP mechanics can be combined to host a reachable web page. ",
+      "source_name": "maurycyz.com",
+      "source_type": "rss",
+      "score": 15,
+      "depth": 5,
+      "novelty": 6,
+      "breadth": 4,
+      "category": "engineering",
+      "keywords": [
+        "AVR",
+        "SLIP",
+        "TCP/IP",
+        "WireGuard"
+      ],
+      "rank": 5
     }
   ]
 }
