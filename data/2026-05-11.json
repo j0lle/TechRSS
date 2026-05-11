@@ -1,10 +1,70 @@
 {
   "date": "2026-05-11",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3274,
-  "filtered_articles": 20,
+  "success_feeds": 87,
+  "total_articles": 3239,
+  "filtered_articles": 21,
   "articles": [
+    {
+      "title": "Welcoming the Costa Rican Government to Have I Been Pwned",
+      "title_display": "Costa Rica Joins Have I Been Pwned Government Service",
+      "link": "https://www.troyhunt.com/welcoming-the-costa-rican-government-to-have-i-been-pwned/",
+      "pub_date": "2026-05-11T00:24:17.000Z",
+      "summary": "",
+      "source_name": "troyhunt.com",
+      "source_type": "rss",
+      "score": 8,
+      "depth": 2,
+      "novelty": 2,
+      "breadth": 4,
+      "category": "security",
+      "keywords": [
+        "Have I Been Pwned",
+        "Costa Rica",
+        "government cybersecurity"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Quoting New York Times Editors’ Note",
+      "title_display": "NYT Corrects AI-Generated Misquotation",
+      "link": "https://simonwillison.net/2026/May/10/new-york-times-editors-note/#atom-everything",
+      "pub_date": "2026-05-10T23:58:49.000Z",
+      "summary": "The New York Times issued an editors’ note after a reporter used an AI-generated summary as if it were a real quote from Conservative leader Pierre Poilievre. The paper says the tool rendered a summary of his views as a quotation, and the reporter should have verified it before publication. The article was corrected to quote from an actual April speech, which did not include the “turncoats” remark. This is a cautionary example of why AI outputs used in reporting must be independently checked before they are treated as source material.",
+      "source_name": "simonwillison.net",
+      "source_type": "rss",
+      "score": 8,
+      "depth": 2,
+      "novelty": 2,
+      "breadth": 4,
+      "category": "other",
+      "keywords": [
+        "AI hallucinations",
+        "journalism",
+        "New York Times"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "Weekly Update 503",
+      "title_display": "Troy Hunt on the Instructure Extortion Deadline",
+      "link": "https://www.troyhunt.com/weekly-update-503/",
+      "pub_date": "2026-05-10T23:52:52.000Z",
+      "summary": "",
+      "source_name": "troyhunt.com",
+      "source_type": "rss",
+      "score": 7,
+      "depth": 2,
+      "novelty": 1,
+      "breadth": 4,
+      "category": "security",
+      "keywords": [
+        "data breach",
+        "Instructure",
+        "ShinyHunters"
+      ],
+      "rank": 3
+    },
     {
       "title": "Local AI needs to be the norm",
       "title_display": "Why Local AI Should Be the Default",
@@ -24,7 +84,7 @@
         "on-device inference",
         "typed output"
       ],
-      "rank": 1
+      "rank": 4
     },
     {
       "title": "The linear algebra of bit twiddling",
@@ -45,7 +105,7 @@
         "bit twiddling",
         "Mersenne Twister"
       ],
-      "rank": 2
+      "rank": 5
     },
     {
       "title": "Incident CVE-2024-Yikes",
@@ -66,7 +126,7 @@
         "package managers",
         "CVE"
       ],
-      "rank": 3
+      "rank": 6
     },
     {
       "title": "Hardware Attestation as Monopoly Enabler",
@@ -87,7 +147,7 @@
         "Play Integrity API",
         "App Attest"
       ],
-      "rank": 4
+      "rank": 7
     },
     {
       "title": "Reverse engineering Mersenne Twister with Linear Algebra",
@@ -108,7 +168,7 @@
         "GF(2)",
         "PRNG"
       ],
-      "rank": 5
+      "rank": 8
     },
     {
       "title": "GitHub Is Sinking",
@@ -129,7 +189,7 @@
         "Forgejo",
         "code hosting"
       ],
-      "rank": 6
+      "rank": 9
     },
     {
       "title": "Louis Rossmann tells 3D printer maker Bambu Lab to 'Go (Bleep) yourself'",
@@ -148,7 +208,7 @@
         "OrcaSlicer",
         "right-to-repair"
       ],
-      "rank": 7
+      "rank": 10
     },
     {
       "title": "Think Linear Algebra (2023)",
@@ -169,7 +229,7 @@
         "Python",
         "Jupyter notebooks"
       ],
-      "rank": 8
+      "rank": 11
     },
     {
       "title": "Production engineering when trading billions of dollars a day [video]",
@@ -191,7 +251,7 @@
         "incident response",
         "Jane Street"
       ],
-      "rank": 9
+      "rank": 12
     }
   ]
 }
