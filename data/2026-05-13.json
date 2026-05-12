@@ -1,9 +1,9 @@
 {
   "date": "2026-05-13",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3176,
-  "filtered_articles": 38,
+  "success_feeds": 89,
+  "total_articles": 3276,
+  "filtered_articles": 40,
   "articles": [
     {
       "title": "Show HN: Needle: We Distilled Gemini Tool Calling into a 26M Model",
