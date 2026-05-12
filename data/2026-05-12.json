@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3276,
-  "filtered_articles": 38,
+  "filtered_articles": 40,
   "articles": [
+    {
+      "title": "They Live (1988) inspired Adblocker",
+      "title_display": "They Live (1988) inspired Adblocker",
+      "link": "https://github.com/davmlaw/they_live_adblocker",
+      "pub_date": "2026-05-12T03:10:52.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 187,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "Adblocker",
+        "They Live (1988)",
+        "GitHub",
+        "Augmented Reality"
+      ],
+      "rank": 1
+    },
     {
       "title": "If AI writes your code, why use Python?",
       "title_display": "If AI writes your code, why use Python?",
@@ -22,7 +41,7 @@
         "Rust",
         "Go"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "TanStack NPM Packages Compromised",
@@ -41,7 +60,7 @@
         "supply-chain attack",
         "GitHub Actions"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "GitLab Announces Workforce Reduction and End of Their CREDIT Values",
@@ -60,7 +79,7 @@
         "AI",
         "CREDIT values"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Google says criminal hackers used AI to find a major software flaw",
@@ -79,7 +98,7 @@
         "zero-day",
         "criminal hackers"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Library for fast mapping of Java records to native memory",
@@ -98,7 +117,7 @@
         "TypedMemory",
         "native memory"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Interfaze: A new model architecture built for high accuracy at scale",
@@ -117,7 +136,7 @@
         "structured output",
         "benchmarks"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "CUDA-oxide: Nvidia's official Rust to CUDA compiler",
@@ -136,7 +155,26 @@
         "CUDA",
         "NVIDIA"
       ],
-      "rank": 7
+      "rank": 8
+    },
+    {
+      "title": "Show HN: TikTok but for Scientific Papers",
+      "title_display": "Show HN: TikTok but for Scientific Papers",
+      "link": "https://andreaturchet.github.io/website/index.html",
+      "pub_date": "2026-05-11T17:00:30.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 121,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "TikTok",
+        "scientific papers",
+        "AI",
+        "Andrea Turchet"
+      ],
+      "rank": 9
     },
     {
       "title": "Talk Python to Me: #548: Event Sourcing Design Pattern",
@@ -157,7 +195,7 @@
         "Python",
         "domain-driven design"
       ],
-      "rank": 8
+      "rank": 10
     },
     {
       "title": "Learning on the Shop floor",
@@ -178,7 +216,7 @@
         "Shopify",
         "Midjourney"
       ],
-      "rank": 9
+      "rank": 11
     },
     {
       "title": "Inverse shift",
@@ -198,7 +236,7 @@
         "pseudoinverse",
         "bit shifting"
       ],
-      "rank": 10
+      "rank": 12
     },
     {
       "title": "Software engineering may no longer be a lifetime career",
@@ -217,7 +255,7 @@
         "AI",
         "Code generation"
       ],
-      "rank": 11
+      "rank": 13
     },
     {
       "title": "Training an LLM in Swift, Part 1: Taking matrix mult from Gflop/s to Tflop/s",
@@ -236,7 +274,7 @@
         "matrix multiplication",
         "Tflop/s"
       ],
-      "rank": 12
+      "rank": 14
     },
     {
       "title": "Additional notes on controlling which handles are inherited by Create­Process",
@@ -257,7 +295,7 @@
         "handle inheritance",
         "PROC_THREAD_ATTRIBUTE_HANDLE_LIST"
       ],
-      "rank": 13
+      "rank": 15
     },
     {
       "title": "Guitar tuner that uses phone accelerometer",
@@ -276,7 +314,7 @@
         "phone sensors",
         "JavaScript"
       ],
-      "rank": 14
+      "rank": 16
     },
     {
       "title": "Hosting a website on an AVR",
@@ -297,7 +335,7 @@
         "TCP/IP",
         "WireGuard"
       ],
-      "rank": 15
+      "rank": 17
     }
   ]
 }
