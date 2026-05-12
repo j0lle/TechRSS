@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3276,
-  "filtered_articles": 40,
+  "filtered_articles": 38,
   "articles": [
     {
       "title": "If AI writes your code, why use Python?",
@@ -32,7 +32,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 470,
+      "hn_points": 771,
       "score": 30,
       "category": "other",
       "keywords": [
