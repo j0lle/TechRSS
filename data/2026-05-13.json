@@ -1,0 +1,28 @@
+{
+  "date": "2026-05-13",
+  "total_feeds": 95,
+  "success_feeds": 89,
+  "total_articles": 3276,
+  "filtered_articles": 41,
+  "articles": [
+    {
+      "title": "Bambu Lab is abusing the open source social contract",
+      "title_display": "Bambu Lab is abusing the open source social contract",
+      "link": "https://www.jeffgeerling.com/blog/2026/bambu-lab-abusing-open-source-social-contract/",
+      "pub_date": "2026-05-12T15:11:05.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 176,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Bambu Lab",
+        "open source",
+        "Jeff Geerling",
+        "3D printing"
+      ],
+      "rank": 1
+    }
+  ]
+}
