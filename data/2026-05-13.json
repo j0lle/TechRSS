@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3276,
-  "filtered_articles": 37,
+  "filtered_articles": 38,
   "articles": [
+    {
+      "title": "Why senior developers fail to communicate their expertise",
+      "title_display": "Why senior developers fail to communicate their expertise",
+      "link": "https://www.nair.sh/guides-and-opinions/communicating-your-expertise/why-senior-developers-fail-to-communicate-their-expertise",
+      "pub_date": "2026-05-12T17:21:03.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 193,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "senior developers",
+        "communication",
+        "expertise",
+        "careers"
+      ],
+      "rank": 1
+    },
     {
       "title": "Amazon employees are \"tokenmaxxing\" due to pressure to use AI tools",
       "title_display": "Amazon employees are \"tokenmaxxing\" due to pressure to use AI tools",
@@ -22,7 +41,26 @@
         "tokens",
         "AI tools"
       ],
-      "rank": 1
+      "rank": 2
+    },
+    {
+      "title": "The Future of Obsidian Plugins",
+      "title_display": "The Future of Obsidian Plugins",
+      "link": "https://obsidian.md/blog/future-of-plugins/",
+      "pub_date": "2026-05-12T16:21:05.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 163,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Obsidian",
+        "Obsidian plugins",
+        "plugin API",
+        "permission system"
+      ],
+      "rank": 3
     },
     {
       "title": "Bambu Lab is abusing the open source social contract",
@@ -41,7 +79,7 @@
         "Jeff Geerling",
         "3D printing"
       ],
-      "rank": 2
+      "rank": 4
     }
   ]
 }
