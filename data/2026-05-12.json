@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 88,
   "total_articles": 3251,
-  "filtered_articles": 36,
+  "filtered_articles": 38,
   "articles": [
     {
       "title": "If AI writes your code, why use Python?",
@@ -13,8 +13,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 195,
-      "score": 28,
+      "hn_points": 310,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Python",
@@ -63,6 +63,44 @@
       "rank": 3
     },
     {
+      "title": "Google says criminal hackers used AI to find a major software flaw",
+      "title_display": "Google says criminal hackers used AI to find a major software flaw",
+      "link": "https://www.nytimes.com/2026/05/11/us/politics/google-hackers-attack-ai.html",
+      "pub_date": "2026-05-11T21:30:50.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 144,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Google",
+        "AI",
+        "zero-day",
+        "criminal hackers"
+      ],
+      "rank": 4
+    },
+    {
+      "title": "Interfaze: A new model architecture built for high accuracy at scale",
+      "title_display": "Interfaze: A new model architecture built for high accuracy at scale",
+      "link": "https://interfaze.ai/blog/interfaze-a-new-model-architecture-built-for-high-accuracy-at-scale",
+      "pub_date": "2026-05-11T17:30:28.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 125,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Interfaze",
+        "model architecture",
+        "structured output",
+        "benchmarks"
+      ],
+      "rank": 5
+    },
+    {
       "title": "CUDA-oxide: Nvidia's official Rust to CUDA compiler",
       "title_display": "CUDA-oxide: Nvidia's official Rust to CUDA compiler",
       "link": "https://nvlabs.github.io/cuda-oxide/index.html",
@@ -79,7 +117,7 @@
         "CUDA",
         "NVIDIA"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "Talk Python to Me: #548: Event Sourcing Design Pattern",
@@ -100,7 +138,7 @@
         "Python",
         "domain-driven design"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "Learning on the Shop floor",
@@ -121,7 +159,7 @@
         "Shopify",
         "Midjourney"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "Inverse shift",
@@ -141,7 +179,7 @@
         "pseudoinverse",
         "bit shifting"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "Software engineering may no longer be a lifetime career",
@@ -160,7 +198,7 @@
         "AI",
         "Code generation"
       ],
-      "rank": 8
+      "rank": 10
     },
     {
       "title": "Training an LLM in Swift, Part 1: Taking matrix mult from Gflop/s to Tflop/s",
@@ -179,7 +217,7 @@
         "matrix multiplication",
         "Tflop/s"
       ],
-      "rank": 9
+      "rank": 11
     },
     {
       "title": "Additional notes on controlling which handles are inherited by Create­Process",
@@ -200,7 +238,7 @@
         "handle inheritance",
         "PROC_THREAD_ATTRIBUTE_HANDLE_LIST"
       ],
-      "rank": 10
+      "rank": 12
     },
     {
       "title": "Guitar tuner that uses phone accelerometer",
@@ -219,7 +257,7 @@
         "phone sensors",
         "JavaScript"
       ],
-      "rank": 11
+      "rank": 13
     },
     {
       "title": "Hosting a website on an AVR",
@@ -240,7 +278,7 @@
         "TCP/IP",
         "WireGuard"
       ],
-      "rank": 12
+      "rank": 14
     }
   ]
 }
