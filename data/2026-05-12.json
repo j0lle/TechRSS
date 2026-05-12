@@ -3,8 +3,46 @@
   "total_feeds": 95,
   "success_feeds": 88,
   "total_articles": 3254,
-  "filtered_articles": 33,
+  "filtered_articles": 35,
   "articles": [
+    {
+      "title": "TanStack NPM Packages Compromised",
+      "title_display": "TanStack NPM Packages Compromised",
+      "link": "https://github.com/TanStack/router/issues/7383",
+      "pub_date": "2026-05-11T21:50:50.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 470,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "TanStack",
+        "npm",
+        "supply-chain attack",
+        "GitHub Actions"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "GitLab Announces Workforce Reduction and End of Their CREDIT Values",
+      "title_display": "GitLab Announces Workforce Reduction and End of Their CREDIT Values",
+      "link": "https://about.gitlab.com/blog/gitlab-act-2/",
+      "pub_date": "2026-05-11T21:40:51.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 272,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "GitLab",
+        "layoffs",
+        "AI",
+        "CREDIT values"
+      ],
+      "rank": 2
+    },
     {
       "title": "CUDA-oxide: Nvidia's official Rust to CUDA compiler",
       "title_display": "CUDA-oxide: Nvidia's official Rust to CUDA compiler",
@@ -22,7 +60,7 @@
         "CUDA",
         "NVIDIA"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "Talk Python to Me: #548: Event Sourcing Design Pattern",
@@ -43,7 +81,7 @@
         "Python",
         "domain-driven design"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "Learning on the Shop floor",
@@ -64,7 +102,7 @@
         "Shopify",
         "Midjourney"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "Inverse shift",
@@ -84,7 +122,7 @@
         "pseudoinverse",
         "bit shifting"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "Software engineering may no longer be a lifetime career",
@@ -103,7 +141,7 @@
         "AI",
         "Code generation"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "Training an LLM in Swift, Part 1: Taking matrix mult from Gflop/s to Tflop/s",
@@ -122,7 +160,7 @@
         "matrix multiplication",
         "Tflop/s"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "Additional notes on controlling which handles are inherited by Create­Process",
@@ -143,7 +181,7 @@
         "handle inheritance",
         "PROC_THREAD_ATTRIBUTE_HANDLE_LIST"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "Guitar tuner that uses phone accelerometer",
@@ -162,7 +200,7 @@
         "phone sensors",
         "JavaScript"
       ],
-      "rank": 8
+      "rank": 10
     },
     {
       "title": "Hosting a website on an AVR",
@@ -183,7 +221,7 @@
         "TCP/IP",
         "WireGuard"
       ],
-      "rank": 9
+      "rank": 11
     }
   ]
 }
