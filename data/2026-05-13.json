@@ -1,10 +1,29 @@
 {
   "date": "2026-05-13",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3137,
-  "filtered_articles": 38,
+  "success_feeds": 89,
+  "total_articles": 3276,
+  "filtered_articles": 37,
   "articles": [
+    {
+      "title": "Amazon employees are \"tokenmaxxing\" due to pressure to use AI tools",
+      "title_display": "Amazon employees are \"tokenmaxxing\" due to pressure to use AI tools",
+      "link": "https://arstechnica.com/ai/2026/05/amazon-employees-are-tokenmaxxing-due-to-pressure-to-use-ai-tools/",
+      "pub_date": "2026-05-12T16:51:04.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 175,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Amazon",
+        "tokenmaxxing",
+        "tokens",
+        "AI tools"
+      ],
+      "rank": 1
+    },
     {
       "title": "Bambu Lab is abusing the open source social contract",
       "title_display": "Bambu Lab is abusing the open source social contract",
@@ -22,7 +41,7 @@
         "Jeff Geerling",
         "3D printing"
       ],
-      "rank": 1
+      "rank": 2
     }
   ]
 }
