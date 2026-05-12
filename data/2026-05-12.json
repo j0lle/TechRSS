@@ -1,9 +1,9 @@
 {
   "date": "2026-05-12",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3276,
-  "filtered_articles": 40,
+  "success_feeds": 88,
+  "total_articles": 3251,
+  "filtered_articles": 39,
   "articles": [
     {
       "title": "They Live (1988) inspired Adblocker",
@@ -25,6 +25,25 @@
       "rank": 1
     },
     {
+      "title": "Claude Platform on AWS",
+      "title_display": "Claude Platform on AWS",
+      "link": "https://claude.com/blog/claude-platform-on-aws",
+      "pub_date": "2026-05-12T02:40:53.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 138,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Claude Platform",
+        "AWS",
+        "Anthropic",
+        "Claude"
+      ],
+      "rank": 2
+    },
+    {
       "title": "If AI writes your code, why use Python?",
       "title_display": "If AI writes your code, why use Python?",
       "link": "https://medium.com/@NMitchem/if-ai-writes-your-code-why-use-python-bf8c4ba1a055",
@@ -41,7 +60,7 @@
         "Rust",
         "Go"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "TanStack NPM Packages Compromised",
@@ -60,7 +79,7 @@
         "supply-chain attack",
         "GitHub Actions"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "GitLab Announces Workforce Reduction and End of Their CREDIT Values",
@@ -79,7 +98,7 @@
         "AI",
         "CREDIT values"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Google says criminal hackers used AI to find a major software flaw",
@@ -98,7 +117,7 @@
         "zero-day",
         "criminal hackers"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Library for fast mapping of Java records to native memory",
@@ -117,7 +136,7 @@
         "TypedMemory",
         "native memory"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Interfaze: A new model architecture built for high accuracy at scale",
@@ -136,7 +155,7 @@
         "structured output",
         "benchmarks"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "CUDA-oxide: Nvidia's official Rust to CUDA compiler",
@@ -155,7 +174,7 @@
         "CUDA",
         "NVIDIA"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Show HN: TikTok but for Scientific Papers",
@@ -174,7 +193,7 @@
         "AI",
         "Andrea Turchet"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Talk Python to Me: #548: Event Sourcing Design Pattern",
@@ -195,7 +214,7 @@
         "Python",
         "domain-driven design"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "Learning on the Shop floor",
@@ -216,7 +235,7 @@
         "Shopify",
         "Midjourney"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "Inverse shift",
@@ -236,7 +255,7 @@
         "pseudoinverse",
         "bit shifting"
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "title": "Software engineering may no longer be a lifetime career",
@@ -255,7 +274,7 @@
         "AI",
         "Code generation"
       ],
-      "rank": 13
+      "rank": 14
     },
     {
       "title": "Training an LLM in Swift, Part 1: Taking matrix mult from Gflop/s to Tflop/s",
@@ -274,7 +293,7 @@
         "matrix multiplication",
         "Tflop/s"
       ],
-      "rank": 14
+      "rank": 15
     },
     {
       "title": "Additional notes on controlling which handles are inherited by Create­Process",
@@ -295,7 +314,7 @@
         "handle inheritance",
         "PROC_THREAD_ATTRIBUTE_HANDLE_LIST"
       ],
-      "rank": 15
+      "rank": 16
     },
     {
       "title": "Guitar tuner that uses phone accelerometer",
@@ -314,7 +333,7 @@
         "phone sensors",
         "JavaScript"
       ],
-      "rank": 16
+      "rank": 17
     },
     {
       "title": "Hosting a website on an AVR",
@@ -335,7 +354,7 @@
         "TCP/IP",
         "WireGuard"
       ],
-      "rank": 17
+      "rank": 18
     }
   ]
 }
