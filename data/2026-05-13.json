@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3279,
-  "filtered_articles": 30,
+  "filtered_articles": 31,
   "articles": [
+    {
+      "title": "I Moved My Digital Stack to Europe",
+      "title_display": "I Moved My Digital Stack to Europe",
+      "link": "https://monokai.com/articles/how-i-moved-my-digital-stack-to-europe/",
+      "pub_date": "2026-05-13T11:50:53.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 426,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Europe",
+        "Matomo",
+        "OVH",
+        "Google Analytics"
+      ],
+      "rank": 1
+    },
     {
       "title": "European governments: 3.000 tracking sites, 1.000 phpMyAdmins, and 99% poorly",
       "title_display": "European governments: 3.000 tracking sites, 1.000 phpMyAdmins, and 99% poorly",
@@ -22,7 +41,7 @@
         "tracking sites",
         "email encryption"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Deterministic Fully-Static Whole-Binary Translation Without Heuristics",
@@ -41,7 +60,7 @@
         "whole-binary translation",
         "deterministic"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "The vi family",
@@ -60,7 +79,7 @@
         "neovim",
         "VS Code"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Traceway: MIT-licensed observability stack you can self-host in ~90s",
@@ -79,7 +98,7 @@
         "OpenTelemetry (OTEL)",
         "Prometheus"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Restore full BambuNetwork support for Bambu Lab printers",
@@ -98,7 +117,7 @@
         "OrcaSlicer",
         "FULU-Foundation"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Quack: The DuckDB Client-Server Protocol",
@@ -117,7 +136,7 @@
         "MotherDuck",
         "DuckLake"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Show HN: Needle: We Distilled Gemini Tool Calling into a 26M Model",
@@ -136,7 +155,7 @@
         "tool calling",
         "distillation"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "CERT is releasing six CVEs for serious security vulnerabilities in dnsmasq",
@@ -155,7 +174,7 @@
         "CERT",
         "Debian"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "When life gives you lemons, write better error messages",
@@ -174,7 +193,7 @@
         "Wix",
         "Support"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Why senior developers fail to communicate their expertise",
@@ -193,7 +212,7 @@
         "expertise",
         "careers"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "Amazon employees are \"tokenmaxxing\" due to pressure to use AI tools",
@@ -212,7 +231,7 @@
         "tokens",
         "AI tools"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "The Future of Obsidian Plugins",
@@ -231,7 +250,7 @@
         "plugin API",
         "permission system"
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "title": "Bambu Lab is abusing the open source social contract",
@@ -250,7 +269,7 @@
         "Jeff Geerling",
         "3D printing"
       ],
-      "rank": 13
+      "rank": 14
     }
   ]
 }
