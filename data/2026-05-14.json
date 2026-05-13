@@ -1,10 +1,29 @@
 {
   "date": "2026-05-14",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3279,
+  "success_feeds": 88,
+  "total_articles": 3270,
   "filtered_articles": 37,
   "articles": [
+    {
+      "title": "Reverting the incremental GC in Python 3.14 and 3.15",
+      "title_display": "Reverting the incremental GC in Python 3.14 and 3.15",
+      "link": "https://discuss.python.org/t/reverting-the-incremental-gc-in-python-3-14-and-3-15/107014",
+      "pub_date": "2026-05-13T14:20:55.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 136,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Python",
+        "Python 3.14",
+        "Python 3.15",
+        "incremental GC"
+      ],
+      "rank": 1
+    },
     {
       "title": "Dutch suicide prevention website shares data with tech companies without consent",
       "title_display": "Dutch suicide prevention website shares data with tech companies without consent",
@@ -22,7 +41,7 @@
         "GA4",
         "GDPR"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Why I'm leaving GitHub for Forgejo",
@@ -41,7 +60,7 @@
         "git",
         "self-hosting"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "When \"idle\" isn't idle: how a Linux kernel optimization became a QUIC bug",
@@ -60,7 +79,7 @@
         "Cloudflare",
         "quiche"
       ],
-      "rank": 3
+      "rank": 4
     }
   ]
 }
