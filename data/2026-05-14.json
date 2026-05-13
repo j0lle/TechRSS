@@ -3,8 +3,46 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3280,
-  "filtered_articles": 36,
+  "filtered_articles": 38,
   "articles": [
+    {
+      "title": "Princeton mandates proctoring in-person exams, upending 133 years of precedent",
+      "title_display": "Princeton mandates proctoring in-person exams, upending 133 years of precedent",
+      "link": "https://www.dailyprincetonian.com/article/2026/05/princeton-news-adpol-proctoring-in-person-examinations-passed-faculty-133-years-precedent",
+      "pub_date": "2026-05-13T20:30:05.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 182,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Princeton University",
+        "proctoring",
+        "Honor Code",
+        "in-person exams"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "MacBook Neo Deep Dive: Benchmarks, Wafer Economics, and the 8GB Gamble",
+      "title_display": "MacBook Neo Deep Dive: Benchmarks, Wafer Economics, and the 8GB Gamble",
+      "link": "https://www.jdhodges.com/blog/macbook-neo-benchmarks-analysis/",
+      "pub_date": "2026-05-13T20:00:06.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 126,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "MacBook Neo",
+        "8GB RAM",
+        "benchmarks",
+        "wafer economics"
+      ],
+      "rank": 2
+    },
     {
       "title": "Linux gaming is faster because Windows APIs are becoming Linux kernel features",
       "title_display": "Linux gaming is faster because Windows APIs are becoming Linux kernel features",
@@ -13,8 +51,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 215,
-      "score": 28,
+      "hn_points": 398,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Linux",
@@ -22,7 +60,26 @@
         "Windows",
         "gaming"
       ],
-      "rank": 1
+      "rank": 3
+    },
+    {
+      "title": "The Emacsification of Software",
+      "title_display": "The Emacsification of Software",
+      "link": "https://sockpuppet.org/blog/2026/05/12/emacsification/",
+      "pub_date": "2026-05-13T18:00:06.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 147,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Emacs",
+        "LLMs",
+        "personal software",
+        "Markdown"
+      ],
+      "rank": 4
     },
     {
       "title": "A History of IDEs at Google",
@@ -41,7 +98,7 @@
         "Cider-V",
         "google3"
       ],
-      "rank": 2
+      "rank": 5
     },
     {
       "title": "Xs of Y – roguelike that names itself every run. Written in 4kLoC",
@@ -60,7 +117,7 @@
         "roguelike",
         "nooga"
       ],
-      "rank": 3
+      "rank": 6
     },
     {
       "title": "Open Source Resistance: keep OSS alive on company time",
@@ -79,7 +136,7 @@
         "Homebrew",
         "Intellectual property"
       ],
-      "rank": 4
+      "rank": 7
     },
     {
       "title": "Reverting the incremental GC in Python 3.14 and 3.15",
@@ -98,7 +155,7 @@
         "Python 3.15",
         "incremental GC"
       ],
-      "rank": 5
+      "rank": 8
     },
     {
       "title": "The US Is Winning the AI Race",
@@ -117,7 +174,7 @@
         "China",
         "OpenAI"
       ],
-      "rank": 6
+      "rank": 9
     },
     {
       "title": "Dutch suicide prevention website shares data with tech companies without consent",
@@ -136,7 +193,7 @@
         "GA4",
         "GDPR"
       ],
-      "rank": 7
+      "rank": 10
     },
     {
       "title": "Why I'm leaving GitHub for Forgejo",
@@ -155,7 +212,7 @@
         "git",
         "self-hosting"
       ],
-      "rank": 8
+      "rank": 11
     },
     {
       "title": "When \"idle\" isn't idle: how a Linux kernel optimization became a QUIC bug",
@@ -174,7 +231,7 @@
         "Cloudflare",
         "quiche"
       ],
-      "rank": 9
+      "rank": 12
     }
   ]
 }
