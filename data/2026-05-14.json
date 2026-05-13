@@ -101,6 +101,25 @@
       "rank": 5
     },
     {
+      "title": "The US Is Winning the AI Race",
+      "title_display": "The US Is Winning the AI Race",
+      "link": "https://avkcode.github.io/blog/us-winning-ai-race.html",
+      "pub_date": "2026-05-13T14:10:53.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 140,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "AI",
+        "US",
+        "China",
+        "OpenAI"
+      ],
+      "rank": 6
+    },
+    {
       "title": "Dutch suicide prevention website shares data with tech companies without consent",
       "title_display": "Dutch suicide prevention website shares data with tech companies without consent",
       "link": "https://nltimes.nl/2026/05/13/dutch-suicide-prevention-hotline-shares-visitor-data-tech-companies",
@@ -117,7 +136,7 @@
         "GA4",
         "GDPR"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Why I'm leaving GitHub for Forgejo",
@@ -136,7 +155,7 @@
         "git",
         "self-hosting"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "When \"idle\" isn't idle: how a Linux kernel optimization became a QUIC bug",
@@ -155,7 +174,7 @@
         "Cloudflare",
         "quiche"
       ],
-      "rank": 8
+      "rank": 9
     }
   ]
 }
