@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3279,
-  "filtered_articles": 35,
+  "filtered_articles": 36,
   "articles": [
+    {
+      "title": "The vi family",
+      "title_display": "The vi family",
+      "link": "https://lpar.ATH0.com/posts/2026/05/the-vi-family/",
+      "pub_date": "2026-05-13T04:30:54.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 132,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "vi",
+        "vim",
+        "neovim",
+        "VS Code"
+      ],
+      "rank": 1
+    },
     {
       "title": "Restore full BambuNetwork support for Bambu Lab printers",
       "title_display": "Restore full BambuNetwork support for Bambu Lab printers",
@@ -13,8 +32,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 275,
-      "score": 29,
+      "hn_points": 389,
+      "score": 30,
       "category": "other",
       "keywords": [
         "BambuNetwork",
@@ -22,7 +41,7 @@
         "OrcaSlicer",
         "FULU-Foundation"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Quack: The DuckDB Client-Server Protocol",
@@ -41,7 +60,7 @@
         "MotherDuck",
         "DuckLake"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Show HN: Needle: We Distilled Gemini Tool Calling into a 26M Model",
@@ -60,7 +79,7 @@
         "tool calling",
         "distillation"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "CERT is releasing six CVEs for serious security vulnerabilities in dnsmasq",
@@ -79,7 +98,7 @@
         "CERT",
         "Debian"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "When life gives you lemons, write better error messages",
@@ -98,7 +117,7 @@
         "Wix",
         "Support"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Why senior developers fail to communicate their expertise",
@@ -117,7 +136,7 @@
         "expertise",
         "careers"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Amazon employees are \"tokenmaxxing\" due to pressure to use AI tools",
@@ -136,7 +155,7 @@
         "tokens",
         "AI tools"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "The Future of Obsidian Plugins",
@@ -146,8 +165,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 264,
-      "score": 29,
+      "hn_points": 365,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Obsidian",
@@ -155,7 +174,7 @@
         "plugin API",
         "permission system"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Bambu Lab is abusing the open source social contract",
@@ -174,7 +193,7 @@
         "Jeff Geerling",
         "3D printing"
       ],
-      "rank": 9
+      "rank": 10
     }
   ]
 }
