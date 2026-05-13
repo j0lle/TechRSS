@@ -3,8 +3,46 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3280,
-  "filtered_articles": 34,
+  "filtered_articles": 36,
   "articles": [
+    {
+      "title": "Linux gaming is faster because Windows APIs are becoming Linux kernel features",
+      "title_display": "Linux gaming is faster because Windows APIs are becoming Linux kernel features",
+      "link": "https://www.xda-developers.com/linux-gaming-is-getting-faster-because-windows-apis-are-becoming-linux-kernel-features/",
+      "pub_date": "2026-05-13T18:20:06.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 215,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "Linux",
+        "Linux kernel",
+        "Windows",
+        "gaming"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "A History of IDEs at Google",
+      "title_display": "A History of IDEs at Google",
+      "link": "https://laurent.le-brun.eu/blog/a-history-of-ides-at-google",
+      "pub_date": "2026-05-13T17:10:55.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 155,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Google",
+        "IDEs",
+        "Cider-V",
+        "google3"
+      ],
+      "rank": 2
+    },
     {
       "title": "Open Source Resistance: keep OSS alive on company time",
       "title_display": "Open Source Resistance: keep OSS alive on company time",
@@ -22,7 +60,7 @@
         "Homebrew",
         "Intellectual property"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "Reverting the incremental GC in Python 3.14 and 3.15",
@@ -41,7 +79,7 @@
         "Python 3.15",
         "incremental GC"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "Dutch suicide prevention website shares data with tech companies without consent",
@@ -60,7 +98,7 @@
         "GA4",
         "GDPR"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "Why I'm leaving GitHub for Forgejo",
@@ -79,7 +117,7 @@
         "git",
         "self-hosting"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "When \"idle\" isn't idle: how a Linux kernel optimization became a QUIC bug",
@@ -98,7 +136,7 @@
         "Cloudflare",
         "quiche"
       ],
-      "rank": 5
+      "rank": 7
     }
   ]
 }
