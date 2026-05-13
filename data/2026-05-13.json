@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3279,
-  "filtered_articles": 34,
+  "filtered_articles": 35,
   "articles": [
     {
       "title": "Restore full BambuNetwork support for Bambu Lab printers",
@@ -13,8 +13,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 167,
-      "score": 27,
+      "hn_points": 275,
+      "score": 29,
       "category": "other",
       "keywords": [
         "BambuNetwork",
@@ -70,8 +70,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 168,
-      "score": 27,
+      "hn_points": 271,
+      "score": 29,
       "category": "other",
       "keywords": [
         "dnsmasq",
