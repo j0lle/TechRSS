@@ -1,8 +1,8 @@
 {
   "date": "2026-05-13",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3235,
+  "success_feeds": 89,
+  "total_articles": 3279,
   "filtered_articles": 34,
   "articles": [
     {
@@ -51,8 +51,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 207,
-      "score": 28,
+      "hn_points": 320,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Needle",
@@ -82,6 +82,25 @@
       "rank": 4
     },
     {
+      "title": "When life gives you lemons, write better error messages",
+      "title_display": "When life gives you lemons, write better error messages",
+      "link": "https://wix-ux.com/when-life-gives-you-lemons-write-better-error-messages-46c5223e1a2f",
+      "pub_date": "2026-05-12T17:51:04.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 123,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "Error messages",
+        "UX",
+        "Wix",
+        "Support"
+      ],
+      "rank": 5
+    },
+    {
       "title": "Why senior developers fail to communicate their expertise",
       "title_display": "Why senior developers fail to communicate their expertise",
       "link": "https://www.nair.sh/guides-and-opinions/communicating-your-expertise/why-senior-developers-fail-to-communicate-their-expertise",
@@ -89,7 +108,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 294,
+      "hn_points": 409,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -98,7 +117,7 @@
         "expertise",
         "careers"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Amazon employees are \"tokenmaxxing\" due to pressure to use AI tools",
@@ -117,7 +136,7 @@
         "tokens",
         "AI tools"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "The Future of Obsidian Plugins",
@@ -136,7 +155,7 @@
         "plugin API",
         "permission system"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Bambu Lab is abusing the open source social contract",
@@ -155,7 +174,7 @@
         "Jeff Geerling",
         "3D printing"
       ],
-      "rank": 8
+      "rank": 9
     }
   ]
 }
