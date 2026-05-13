@@ -1,10 +1,29 @@
 {
   "date": "2026-05-13",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3279,
-  "filtered_articles": 35,
+  "success_feeds": 88,
+  "total_articles": 3205,
+  "filtered_articles": 32,
   "articles": [
+    {
+      "title": "European governments: 3.000 tracking sites, 1.000 phpMyAdmins, and 99% poorly",
+      "title_display": "European governments: 3.000 tracking sites, 1.000 phpMyAdmins, and 99% poorly",
+      "link": "https://internetcleanup.foundation/2026/05/european-governments-3000-tracking-sites-1000-phpmyadmins-and-99pct-poorly-encrypted-email-introducing-securitybaseline-eu/",
+      "pub_date": "2026-05-13T08:00:59.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 161,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "European governments",
+        "phpMyAdmin",
+        "tracking sites",
+        "email encryption"
+      ],
+      "rank": 1
+    },
     {
       "title": "Deterministic Fully-Static Whole-Binary Translation Without Heuristics",
       "title_display": "Deterministic Fully-Static Whole-Binary Translation Without Heuristics",
@@ -22,7 +41,7 @@
         "whole-binary translation",
         "deterministic"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "The vi family",
@@ -41,7 +60,7 @@
         "neovim",
         "VS Code"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Restore full BambuNetwork support for Bambu Lab printers",
@@ -60,7 +79,7 @@
         "OrcaSlicer",
         "FULU-Foundation"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Quack: The DuckDB Client-Server Protocol",
@@ -79,7 +98,7 @@
         "MotherDuck",
         "DuckLake"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Show HN: Needle: We Distilled Gemini Tool Calling into a 26M Model",
@@ -98,7 +117,7 @@
         "tool calling",
         "distillation"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "CERT is releasing six CVEs for serious security vulnerabilities in dnsmasq",
@@ -117,7 +136,7 @@
         "CERT",
         "Debian"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "When life gives you lemons, write better error messages",
@@ -136,7 +155,7 @@
         "Wix",
         "Support"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Why senior developers fail to communicate their expertise",
@@ -155,7 +174,7 @@
         "expertise",
         "careers"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Amazon employees are \"tokenmaxxing\" due to pressure to use AI tools",
@@ -174,7 +193,7 @@
         "tokens",
         "AI tools"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "The Future of Obsidian Plugins",
@@ -193,7 +212,7 @@
         "plugin API",
         "permission system"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "Bambu Lab is abusing the open source social contract",
@@ -212,7 +231,7 @@
         "Jeff Geerling",
         "3D printing"
       ],
-      "rank": 11
+      "rank": 12
     }
   ]
 }
