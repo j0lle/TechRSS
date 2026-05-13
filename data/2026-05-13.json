@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3279,
-  "filtered_articles": 36,
+  "filtered_articles": 35,
   "articles": [
+    {
+      "title": "Deterministic Fully-Static Whole-Binary Translation Without Heuristics",
+      "title_display": "Deterministic Fully-Static Whole-Binary Translation Without Heuristics",
+      "link": "https://arxiv.org/abs/2605.08419",
+      "pub_date": "2026-05-13T05:10:56.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 158,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "binary translation",
+        "static binary translation",
+        "whole-binary translation",
+        "deterministic"
+      ],
+      "rank": 1
+    },
     {
       "title": "The vi family",
       "title_display": "The vi family",
@@ -22,7 +41,7 @@
         "neovim",
         "VS Code"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Restore full BambuNetwork support for Bambu Lab printers",
@@ -41,7 +60,7 @@
         "OrcaSlicer",
         "FULU-Foundation"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Quack: The DuckDB Client-Server Protocol",
@@ -60,7 +79,7 @@
         "MotherDuck",
         "DuckLake"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Show HN: Needle: We Distilled Gemini Tool Calling into a 26M Model",
@@ -79,7 +98,7 @@
         "tool calling",
         "distillation"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "CERT is releasing six CVEs for serious security vulnerabilities in dnsmasq",
@@ -98,7 +117,7 @@
         "CERT",
         "Debian"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "When life gives you lemons, write better error messages",
@@ -117,7 +136,7 @@
         "Wix",
         "Support"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Why senior developers fail to communicate their expertise",
@@ -136,7 +155,7 @@
         "expertise",
         "careers"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Amazon employees are \"tokenmaxxing\" due to pressure to use AI tools",
@@ -155,7 +174,7 @@
         "tokens",
         "AI tools"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "The Future of Obsidian Plugins",
@@ -174,7 +193,7 @@
         "plugin API",
         "permission system"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Bambu Lab is abusing the open source social contract",
@@ -193,7 +212,7 @@
         "Jeff Geerling",
         "3D printing"
       ],
-      "rank": 10
+      "rank": 11
     }
   ]
 }
