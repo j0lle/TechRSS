@@ -44,6 +44,25 @@
       "rank": 2
     },
     {
+      "title": "Xs of Y – roguelike that names itself every run. Written in 4kLoC",
+      "title_display": "Xs of Y – roguelike that names itself every run. Written in 4kLoC",
+      "link": "https://github.com/nooga/xsofy",
+      "pub_date": "2026-05-13T16:10:55.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 130,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Xs of Y",
+        "xsofy",
+        "roguelike",
+        "nooga"
+      ],
+      "rank": 3
+    },
+    {
       "title": "Open Source Resistance: keep OSS alive on company time",
       "title_display": "Open Source Resistance: keep OSS alive on company time",
       "link": "https://ossresistance.com/",
@@ -60,7 +79,7 @@
         "Homebrew",
         "Intellectual property"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Reverting the incremental GC in Python 3.14 and 3.15",
@@ -79,7 +98,7 @@
         "Python 3.15",
         "incremental GC"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Dutch suicide prevention website shares data with tech companies without consent",
@@ -98,7 +117,7 @@
         "GA4",
         "GDPR"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Why I'm leaving GitHub for Forgejo",
@@ -117,7 +136,7 @@
         "git",
         "self-hosting"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "When \"idle\" isn't idle: how a Linux kernel optimization became a QUIC bug",
@@ -136,7 +155,7 @@
         "Cloudflare",
         "quiche"
       ],
-      "rank": 7
+      "rank": 8
     }
   ]
 }
