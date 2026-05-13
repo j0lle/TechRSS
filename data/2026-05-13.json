@@ -1,10 +1,29 @@
 {
   "date": "2026-05-13",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3276,
-  "filtered_articles": 36,
+  "success_feeds": 88,
+  "total_articles": 3235,
+  "filtered_articles": 34,
   "articles": [
+    {
+      "title": "Restore full BambuNetwork support for Bambu Lab printers",
+      "title_display": "Restore full BambuNetwork support for Bambu Lab printers",
+      "link": "https://github.com/FULU-Foundation/OrcaSlicer-bambulab",
+      "pub_date": "2026-05-12T23:01:03.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 167,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "BambuNetwork",
+        "Bambu Lab",
+        "OrcaSlicer",
+        "FULU-Foundation"
+      ],
+      "rank": 1
+    },
     {
       "title": "Quack: The DuckDB Client-Server Protocol",
       "title_display": "Quack: The DuckDB Client-Server Protocol",
@@ -22,7 +41,7 @@
         "MotherDuck",
         "DuckLake"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Show HN: Needle: We Distilled Gemini Tool Calling into a 26M Model",
@@ -41,7 +60,7 @@
         "tool calling",
         "distillation"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "CERT is releasing six CVEs for serious security vulnerabilities in dnsmasq",
@@ -60,7 +79,7 @@
         "CERT",
         "Debian"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Why senior developers fail to communicate their expertise",
@@ -79,7 +98,7 @@
         "expertise",
         "careers"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Amazon employees are \"tokenmaxxing\" due to pressure to use AI tools",
@@ -98,7 +117,7 @@
         "tokens",
         "AI tools"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "The Future of Obsidian Plugins",
@@ -117,7 +136,7 @@
         "plugin API",
         "permission system"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Bambu Lab is abusing the open source social contract",
@@ -136,7 +155,7 @@
         "Jeff Geerling",
         "3D printing"
       ],
-      "rank": 7
+      "rank": 8
     }
   ]
 }
