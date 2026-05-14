@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3285,
-  "filtered_articles": 34,
+  "filtered_articles": 32,
   "articles": [
     {
       "title": "Twin brothers wipe 96 government databases minutes after being fired",
@@ -165,8 +165,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 136,
-      "score": 26,
+      "hn_points": 239,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Python",
