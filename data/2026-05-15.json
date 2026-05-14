@@ -6,6 +6,25 @@
   "filtered_articles": 24,
   "articles": [
     {
+      "title": "Rewrite Bun in Rust has been merged",
+      "title_display": "Rewrite Bun in Rust has been merged",
+      "link": "https://github.com/oven-sh/bun/pull/30412",
+      "pub_date": "2026-05-14T09:50:10.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 265,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "Bun",
+        "Rust",
+        "Zig",
+        "Claude"
+      ],
+      "rank": 1
+    },
+    {
       "title": "Classic 7 is a Windows 10 LTSC mod to look 1:1 to Windows 7",
       "title_display": "Classic 7 is a Windows 10 LTSC mod to look 1:1 to Windows 7",
       "link": "https://classic7.lol/",
@@ -22,7 +41,7 @@
         "Windows 7",
         "Classic7-Mod"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "The great memory panic of 2026 – Asymco",
@@ -41,7 +60,7 @@
         "Samsung",
         "Micron"
       ],
-      "rank": 2
+      "rank": 3
     }
   ]
 }
