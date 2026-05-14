@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3287,
-  "filtered_articles": 24,
+  "filtered_articles": 27,
   "articles": [
+    {
+      "title": "New Nginx Exploit",
+      "title_display": "New Nginx Exploit",
+      "link": "https://github.com/DepthFirstDisclosures/Nginx-Rift",
+      "pub_date": "2026-05-14T17:30:14.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 166,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Nginx",
+        "Nginx-Rift",
+        "DepthFirstDisclosures",
+        "ASLR"
+      ],
+      "rank": 1
+    },
     {
       "title": "Rewrite Bun in Rust has been merged",
       "title_display": "Rewrite Bun in Rust has been merged",
@@ -22,7 +41,7 @@
         "Zig",
         "Claude"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Classic 7 is a Windows 10 LTSC mod to look 1:1 to Windows 7",
@@ -41,7 +60,7 @@
         "Windows 7",
         "Classic7-Mod"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "The great memory panic of 2026 – Asymco",
@@ -60,7 +79,7 @@
         "Samsung",
         "Micron"
       ],
-      "rank": 3
+      "rank": 4
     }
   ]
 }
