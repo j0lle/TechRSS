@@ -2,9 +2,28 @@
   "date": "2026-05-14",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3280,
-  "filtered_articles": 36,
+  "total_articles": 3285,
+  "filtered_articles": 37,
   "articles": [
+    {
+      "title": "Twin brothers wipe 96 government databases minutes after being fired",
+      "title_display": "Twin brothers wipe 96 government databases minutes after being fired",
+      "link": "https://arstechnica.com/tech-policy/2026/05/drop-database-what-not-to-do-after-losing-an-it-job/",
+      "pub_date": "2026-05-14T01:50:07.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 304,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "DHS",
+        "EEOC",
+        "Muneeb Akhter",
+        "Sohaib Akhter"
+      ],
+      "rank": 1
+    },
     {
       "title": "Princeton mandates proctoring in-person exams, upending 133 years of precedent",
       "title_display": "Princeton mandates proctoring in-person exams, upending 133 years of precedent",
@@ -22,7 +41,7 @@
         "Honor Code",
         "in-person exams"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "MacBook Neo Deep Dive: Benchmarks, Wafer Economics, and the 8GB Gamble",
@@ -41,7 +60,7 @@
         "benchmarks",
         "wafer economics"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Linux gaming is faster because Windows APIs are becoming Linux kernel features",
@@ -60,7 +79,7 @@
         "Windows",
         "gaming"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "The Emacsification of Software",
@@ -79,7 +98,7 @@
         "personal software",
         "Markdown"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "A History of IDEs at Google",
@@ -98,7 +117,7 @@
         "Cider-V",
         "google3"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Xs of Y – roguelike that names itself every run. Written in 4kLoC",
@@ -117,7 +136,7 @@
         "roguelike",
         "nooga"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Open Source Resistance: keep OSS alive on company time",
@@ -136,7 +155,7 @@
         "Homebrew",
         "Intellectual property"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Reverting the incremental GC in Python 3.14 and 3.15",
@@ -155,7 +174,7 @@
         "Python 3.15",
         "incremental GC"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "The US Is Winning the AI Race",
@@ -174,7 +193,7 @@
         "China",
         "OpenAI"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Dutch suicide prevention website shares data with tech companies without consent",
@@ -193,7 +212,7 @@
         "GA4",
         "GDPR"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "An idiot's guide to lead optimisation for proteins",
@@ -212,7 +231,7 @@
         "proteins",
         "Cradle"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "Why I'm leaving GitHub for Forgejo",
@@ -231,7 +250,7 @@
         "git",
         "self-hosting"
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "title": "When \"idle\" isn't idle: how a Linux kernel optimization became a QUIC bug",
@@ -250,7 +269,7 @@
         "Cloudflare",
         "quiche"
       ],
-      "rank": 13
+      "rank": 14
     }
   ]
 }
