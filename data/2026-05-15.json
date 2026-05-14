@@ -1,0 +1,28 @@
+{
+  "date": "2026-05-15",
+  "total_feeds": 95,
+  "success_feeds": 89,
+  "total_articles": 3287,
+  "filtered_articles": 23,
+  "articles": [
+    {
+      "title": "Classic 7 is a Windows 10 LTSC mod to look 1:1 to Windows 7",
+      "title_display": "Classic 7 is a Windows 10 LTSC mod to look 1:1 to Windows 7",
+      "link": "https://classic7.lol/",
+      "pub_date": "2026-05-14T08:20:07.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 130,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Classic7",
+        "Windows 10 LTSC",
+        "Windows 7",
+        "Classic7-Mod"
+      ],
+      "rank": 1
+    }
+  ]
+}
