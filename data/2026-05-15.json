@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 88,
   "total_articles": 3259,
-  "filtered_articles": 26,
+  "filtered_articles": 25,
   "articles": [
+    {
+      "title": "More than half of U.S. faces worst drought in decades",
+      "title_display": "More than half of U.S. faces worst drought in decades",
+      "link": "https://news.vt.edu/articles/2026/05/drought-united-states-la-nina-expert.html",
+      "pub_date": "2026-05-14T23:30:12.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 126,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Drought",
+        "United States",
+        "La Niña",
+        "US Drought Monitor"
+      ],
+      "rank": 1
+    },
     {
       "title": "Work with Codex from Anywhere",
       "title_display": "Work with Codex from Anywhere",
@@ -13,8 +32,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 132,
-      "score": 26,
+      "hn_points": 239,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Codex",
@@ -22,7 +41,7 @@
         "remote-control",
         "Codex CLI"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Amazonbot is finally respecting robots.txt",
@@ -41,7 +60,7 @@
         "Amazon",
         "scraping"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "First public macOS kernel memory corruption exploit on Apple M5",
@@ -51,8 +70,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 185,
-      "score": 27,
+      "hn_points": 292,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Apple M5",
@@ -60,7 +79,7 @@
         "kernel memory corruption",
         "MTE (Memory Tagging Extension)"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "God Damn AI is making me dumb",
@@ -79,7 +98,7 @@
         "vibe coding",
         "LLMs"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "HDD Firmware Hacking",
@@ -98,7 +117,7 @@
         "SATA",
         "SSD"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "New Nginx Exploit",
@@ -117,7 +136,7 @@
         "DepthFirstDisclosures",
         "ASLR"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Rewrite Bun in Rust has been merged",
@@ -136,7 +155,7 @@
         "Zig",
         "Claude"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Classic 7 is a Windows 10 LTSC mod to look 1:1 to Windows 7",
@@ -155,7 +174,7 @@
         "Windows 7",
         "Classic7-Mod"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "The great memory panic of 2026 – Asymco",
@@ -174,7 +193,7 @@
         "Samsung",
         "Micron"
       ],
-      "rank": 9
+      "rank": 10
     }
   ]
 }
