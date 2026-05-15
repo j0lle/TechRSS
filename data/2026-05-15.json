@@ -1,8 +1,8 @@
 {
   "date": "2026-05-15",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3284,
+  "success_feeds": 88,
+  "total_articles": 3256,
   "filtered_articles": 26,
   "articles": [
     {
@@ -63,6 +63,25 @@
       "rank": 3
     },
     {
+      "title": "RISC-V Router",
+      "title_display": "RISC-V Router",
+      "link": "https://router.start9.com/",
+      "pub_date": "2026-05-14T21:50:10.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 124,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "RISC-V",
+        "Start9",
+        "BananaPi BPI-F3",
+        "Gigabit Ethernet"
+      ],
+      "rank": 4
+    },
+    {
       "title": "Work with Codex from Anywhere",
       "title_display": "Work with Codex from Anywhere",
       "link": "https://openai.com/index/work-with-codex-from-anywhere/",
@@ -79,7 +98,26 @@
         "remote-control",
         "Codex CLI"
       ],
-      "rank": 4
+      "rank": 5
+    },
+    {
+      "title": "Porting 3D Movie Maker to Linux",
+      "title_display": "Porting 3D Movie Maker to Linux",
+      "link": "https://benstoneonline.com/posts/porting-3d-movie-maker-to-linux/",
+      "pub_date": "2026-05-14T21:30:14.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 129,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "3D Movie Maker",
+        "Linux",
+        "Porting",
+        "Windows"
+      ],
+      "rank": 6
     },
     {
       "title": "Amazonbot is finally respecting robots.txt",
@@ -98,7 +136,7 @@
         "Amazon",
         "scraping"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "First public macOS kernel memory corruption exploit on Apple M5",
@@ -117,7 +155,7 @@
         "kernel memory corruption",
         "MTE (Memory Tagging Extension)"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "God Damn AI is making me dumb",
@@ -136,7 +174,7 @@
         "vibe coding",
         "LLMs"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "HDD Firmware Hacking",
@@ -155,7 +193,7 @@
         "SATA",
         "SSD"
       ],
-      "rank": 8
+      "rank": 10
     },
     {
       "title": "New Nginx Exploit",
@@ -174,7 +212,7 @@
         "DepthFirstDisclosures",
         "ASLR"
       ],
-      "rank": 9
+      "rank": 11
     },
     {
       "title": "Rewrite Bun in Rust has been merged",
@@ -193,7 +231,7 @@
         "Zig",
         "Claude"
       ],
-      "rank": 10
+      "rank": 12
     },
     {
       "title": "Classic 7 is a Windows 10 LTSC mod to look 1:1 to Windows 7",
@@ -212,7 +250,7 @@
         "Windows 7",
         "Classic7-Mod"
       ],
-      "rank": 11
+      "rank": 13
     },
     {
       "title": "The great memory panic of 2026 – Asymco",
@@ -231,7 +269,7 @@
         "Samsung",
         "Micron"
       ],
-      "rank": 12
+      "rank": 14
     }
   ]
 }
