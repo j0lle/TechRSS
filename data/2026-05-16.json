@@ -6,6 +6,25 @@
   "filtered_articles": 33,
   "articles": [
     {
+      "title": "Bun Rust rewrite: \"codebase fails basic miri checks, allows for UB in safe rust\"",
+      "title_display": "Bun Rust rewrite: \"codebase fails basic miri checks, allows for UB in safe rust\"",
+      "link": "https://github.com/oven-sh/bun/issues/30719",
+      "pub_date": "2026-05-15T18:30:21.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 308,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Bun",
+        "Rust",
+        "miri",
+        "safe Rust"
+      ],
+      "rank": 1
+    },
+    {
       "title": "A 0-click exploit chain for the Pixel 10",
       "title_display": "A 0-click exploit chain for the Pixel 10",
       "link": "https://projectzero.google/2026/05/pixel-10-exploit.html",
@@ -22,7 +41,7 @@
         "Google",
         "Android"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Radicle: Sovereign {code forge} built on Git",
@@ -41,7 +60,7 @@
         "distributed forges",
         "agentic workflows"
       ],
-      "rank": 2
+      "rank": 3
     }
   ]
 }
