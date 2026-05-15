@@ -1,9 +1,9 @@
 {
   "date": "2026-05-15",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3256,
-  "filtered_articles": 26,
+  "success_feeds": 89,
+  "total_articles": 3284,
+  "filtered_articles": 28,
   "articles": [
     {
       "title": "How Claude Code works in large codebases",
