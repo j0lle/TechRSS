@@ -1,10 +1,29 @@
 {
   "date": "2026-05-15",
   "total_feeds": 95,
-  "success_feeds": 87,
-  "total_articles": 3256,
-  "filtered_articles": 31,
+  "success_feeds": 89,
+  "total_articles": 3284,
+  "filtered_articles": 32,
   "articles": [
+    {
+      "title": "Show HN: Find the best local LLM for your hardware, ranked by benchmarks",
+      "title_display": "Show HN: Find the best local LLM for your hardware, ranked by benchmarks",
+      "link": "https://github.com/Andyyyy64/whichllm",
+      "pub_date": "2026-05-15T10:31:03.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 236,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "whichllm",
+        "local LLM",
+        "benchmarks",
+        "quantization"
+      ],
+      "rank": 1
+    },
     {
       "title": "How Claude Code works in large codebases",
       "title_display": "How Claude Code works in large codebases",
@@ -22,7 +41,7 @@
         "Codex",
         "Claude"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Access to frontier AI will soon be limited by economic and security constraints",
@@ -41,7 +60,7 @@
         "Anthropic",
         "Claude"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Gyroflow: Video stabilization using gyroscope data",
@@ -60,7 +79,7 @@
         "gyroscope data",
         "GitHub"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "More than half of U.S. faces worst drought in decades",
@@ -79,7 +98,7 @@
         "La Niña",
         "US Drought Monitor"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Claude for Legal",
@@ -98,7 +117,7 @@
         "Anthropic",
         "attorney-client privilege"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "RISC-V Router",
@@ -117,7 +136,7 @@
         "BananaPi BPI-F3",
         "Gigabit Ethernet"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Work with Codex from Anywhere",
@@ -136,7 +155,7 @@
         "remote-control",
         "Codex CLI"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Porting 3D Movie Maker to Linux",
@@ -155,7 +174,7 @@
         "Porting",
         "Windows"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Amazonbot is finally respecting robots.txt",
@@ -174,7 +193,7 @@
         "Amazon",
         "scraping"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "First public macOS kernel memory corruption exploit on Apple M5",
@@ -193,7 +212,7 @@
         "kernel memory corruption",
         "MTE (Memory Tagging Extension)"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "God Damn AI is making me dumb",
@@ -212,7 +231,7 @@
         "vibe coding",
         "LLMs"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "HDD Firmware Hacking",
@@ -231,7 +250,7 @@
         "SATA",
         "SSD"
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "title": "New Nginx Exploit",
@@ -250,7 +269,7 @@
         "DepthFirstDisclosures",
         "ASLR"
       ],
-      "rank": 13
+      "rank": 14
     },
     {
       "title": "Rewrite Bun in Rust has been merged",
@@ -269,7 +288,7 @@
         "Zig",
         "Claude"
       ],
-      "rank": 14
+      "rank": 15
     },
     {
       "title": "Classic 7 is a Windows 10 LTSC mod to look 1:1 to Windows 7",
@@ -288,7 +307,7 @@
         "Windows 7",
         "Classic7-Mod"
       ],
-      "rank": 15
+      "rank": 16
     },
     {
       "title": "The great memory panic of 2026 – Asymco",
@@ -307,7 +326,7 @@
         "Samsung",
         "Micron"
       ],
-      "rank": 16
+      "rank": 17
     }
   ]
 }
