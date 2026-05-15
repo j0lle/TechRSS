@@ -3,8 +3,46 @@
   "total_feeds": 95,
   "success_feeds": 88,
   "total_articles": 3256,
-  "filtered_articles": 25,
+  "filtered_articles": 27,
   "articles": [
+    {
+      "title": "How Claude Code works in large codebases",
+      "title_display": "How Claude Code works in large codebases",
+      "link": "https://claude.com/blog/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start",
+      "pub_date": "2026-05-15T04:31:04.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 148,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Claude Code",
+        "Anthropic",
+        "Codex",
+        "Claude"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Access to frontier AI will soon be limited by economic and security constraints",
+      "title_display": "Access to frontier AI will soon be limited by economic and security constraints",
+      "link": "https://writing.antonleicht.me/p/cut-off",
+      "pub_date": "2026-05-15T04:11:07.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 140,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "frontier AI",
+        "open weights",
+        "Anthropic",
+        "Claude"
+      ],
+      "rank": 2
+    },
     {
       "title": "More than half of U.S. faces worst drought in decades",
       "title_display": "More than half of U.S. faces worst drought in decades",
@@ -22,7 +60,7 @@
         "La Niña",
         "US Drought Monitor"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "Work with Codex from Anywhere",
@@ -41,7 +79,7 @@
         "remote-control",
         "Codex CLI"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "Amazonbot is finally respecting robots.txt",
@@ -60,7 +98,7 @@
         "Amazon",
         "scraping"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "First public macOS kernel memory corruption exploit on Apple M5",
@@ -79,7 +117,7 @@
         "kernel memory corruption",
         "MTE (Memory Tagging Extension)"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "God Damn AI is making me dumb",
@@ -98,7 +136,7 @@
         "vibe coding",
         "LLMs"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "HDD Firmware Hacking",
@@ -117,7 +155,7 @@
         "SATA",
         "SSD"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "New Nginx Exploit",
@@ -136,7 +174,7 @@
         "DepthFirstDisclosures",
         "ASLR"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "Rewrite Bun in Rust has been merged",
@@ -155,7 +193,7 @@
         "Zig",
         "Claude"
       ],
-      "rank": 8
+      "rank": 10
     },
     {
       "title": "Classic 7 is a Windows 10 LTSC mod to look 1:1 to Windows 7",
@@ -174,7 +212,7 @@
         "Windows 7",
         "Classic7-Mod"
       ],
-      "rank": 9
+      "rank": 11
     },
     {
       "title": "The great memory panic of 2026 – Asymco",
@@ -193,7 +231,7 @@
         "Samsung",
         "Micron"
       ],
-      "rank": 10
+      "rank": 12
     }
   ]
 }
