@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 88,
   "total_articles": 3259,
-  "filtered_articles": 27,
+  "filtered_articles": 26,
   "articles": [
     {
       "title": "Work with Codex from Anywhere",
@@ -82,6 +82,25 @@
       "rank": 4
     },
     {
+      "title": "HDD Firmware Hacking",
+      "title_display": "HDD Firmware Hacking",
+      "link": "https://icode4.coffee/?p=1465",
+      "pub_date": "2026-05-14T17:50:11.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 135,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "HDD",
+        "firmware",
+        "SATA",
+        "SSD"
+      ],
+      "rank": 5
+    },
+    {
       "title": "New Nginx Exploit",
       "title_display": "New Nginx Exploit",
       "link": "https://github.com/DepthFirstDisclosures/Nginx-Rift",
@@ -98,7 +117,7 @@
         "DepthFirstDisclosures",
         "ASLR"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Rewrite Bun in Rust has been merged",
@@ -117,7 +136,7 @@
         "Zig",
         "Claude"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Classic 7 is a Windows 10 LTSC mod to look 1:1 to Windows 7",
@@ -136,7 +155,7 @@
         "Windows 7",
         "Classic7-Mod"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "The great memory panic of 2026 – Asymco",
@@ -155,7 +174,7 @@
         "Samsung",
         "Micron"
       ],
-      "rank": 8
+      "rank": 9
     }
   ]
 }
