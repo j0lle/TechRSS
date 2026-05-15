@@ -1,10 +1,29 @@
 {
   "date": "2026-05-15",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3287,
-  "filtered_articles": 31,
+  "success_feeds": 88,
+  "total_articles": 3262,
+  "filtered_articles": 26,
   "articles": [
+    {
+      "title": "Work with Codex from Anywhere",
+      "title_display": "Work with Codex from Anywhere",
+      "link": "https://openai.com/index/work-with-codex-from-anywhere/",
+      "pub_date": "2026-05-14T21:40:09.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 132,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Codex",
+        "OpenAI",
+        "remote-control",
+        "Codex CLI"
+      ],
+      "rank": 1
+    },
     {
       "title": "First public macOS kernel memory corruption exploit on Apple M5",
       "title_display": "First public macOS kernel memory corruption exploit on Apple M5",
@@ -22,7 +41,7 @@
         "kernel memory corruption",
         "MTE (Memory Tagging Extension)"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "God Damn AI is making me dumb",
@@ -32,7 +51,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 284,
+      "hn_points": 390,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -41,7 +60,7 @@
         "vibe coding",
         "LLMs"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "New Nginx Exploit",
@@ -51,8 +70,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 166,
-      "score": 27,
+      "hn_points": 271,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Nginx",
@@ -60,7 +79,7 @@
         "DepthFirstDisclosures",
         "ASLR"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Rewrite Bun in Rust has been merged",
@@ -79,7 +98,7 @@
         "Zig",
         "Claude"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Classic 7 is a Windows 10 LTSC mod to look 1:1 to Windows 7",
@@ -98,7 +117,7 @@
         "Windows 7",
         "Classic7-Mod"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "The great memory panic of 2026 – Asymco",
@@ -117,7 +136,7 @@
         "Samsung",
         "Micron"
       ],
-      "rank": 6
+      "rank": 7
     }
   ]
 }
