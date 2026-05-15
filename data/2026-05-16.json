@@ -3,6 +3,45 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3284,
-  "filtered_articles": 34,
-  "articles": []
+  "filtered_articles": 33,
+  "articles": [
+    {
+      "title": "A 0-click exploit chain for the Pixel 10",
+      "title_display": "A 0-click exploit chain for the Pixel 10",
+      "link": "https://projectzero.google/2026/05/pixel-10-exploit.html",
+      "pub_date": "2026-05-15T14:21:01.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 179,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Pixel 10",
+        "Project Zero",
+        "Google",
+        "Android"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Radicle: Sovereign {code forge} built on Git",
+      "title_display": "Radicle: Sovereign {code forge} built on Git",
+      "link": "https://radicle.dev/",
+      "pub_date": "2026-05-15T12:31:04.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 138,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Radicle",
+        "Git",
+        "distributed forges",
+        "agentic workflows"
+      ],
+      "rank": 2
+    }
+  ]
 }
