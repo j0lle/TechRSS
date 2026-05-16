@@ -2,9 +2,28 @@
   "date": "2026-05-16",
   "total_feeds": 95,
   "success_feeds": 88,
-  "total_articles": 3264,
-  "filtered_articles": 25,
+  "total_articles": 3259,
+  "filtered_articles": 27,
   "articles": [
+    {
+      "title": "Mitchellh – I strongly believe there are entire companies now under AI psychosis",
+      "title_display": "Mitchellh – I strongly believe there are entire companies now under AI psychosis",
+      "link": "https://twitter.com/mitchellh/status/2055380239711457578",
+      "pub_date": "2026-05-15T21:00:23.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 567,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "AI",
+        "AI psychosis",
+        "Mitchellh",
+        "Twitter"
+      ],
+      "rank": 1
+    },
     {
       "title": "The Zulip Foundation",
       "title_display": "The Zulip Foundation",
@@ -22,7 +41,7 @@
         "Anthropic",
         "AI"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "ABC News has taken all FiveThirtyEight articles offline",
@@ -41,7 +60,7 @@
         "Nate Silver",
         "Twitter/X"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Bun Rust rewrite: \"codebase fails basic miri checks, allows for UB in safe rust\"",
@@ -60,7 +79,7 @@
         "miri",
         "safe Rust"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "A 0-click exploit chain for the Pixel 10",
@@ -79,7 +98,7 @@
         "Google",
         "Android"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Radicle: Sovereign {code forge} built on Git",
@@ -98,7 +117,7 @@
         "distributed forges",
         "agentic workflows"
       ],
-      "rank": 5
+      "rank": 6
     }
   ]
 }
