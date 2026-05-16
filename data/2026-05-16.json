@@ -2,9 +2,28 @@
   "date": "2026-05-16",
   "total_feeds": 95,
   "success_feeds": 88,
-  "total_articles": 3258,
-  "filtered_articles": 25,
+  "total_articles": 3273,
+  "filtered_articles": 27,
   "articles": [
+    {
+      "title": "SQL patterns I use to catch transaction fraud",
+      "title_display": "SQL patterns I use to catch transaction fraud",
+      "link": "https://analytics.fixelsmith.com/posts/sql-fraud-patterns/",
+      "pub_date": "2026-05-16T04:50:23.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 147,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "SQL",
+        "transaction fraud",
+        "credit card",
+        "card-not-present"
+      ],
+      "rank": 1
+    },
     {
       "title": "'No Way to Prevent This,' Says Only Package Manager Where This Regularly Happens",
       "title_display": "'No Way to Prevent This,' Says Only Package Manager Where This Regularly Happens",
@@ -22,7 +41,7 @@
         "supply chain attacks",
         "PyPI"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Mitchellh – I strongly believe there are entire companies now under AI psychosis",
@@ -41,7 +60,7 @@
         "Mitchellh",
         "Twitter"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "The Zulip Foundation",
@@ -51,8 +70,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 157,
-      "score": 27,
+      "hn_points": 257,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Zulip Foundation",
@@ -60,7 +79,7 @@
         "Anthropic",
         "AI"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "ABC News has taken all FiveThirtyEight articles offline",
@@ -79,7 +98,7 @@
         "Nate Silver",
         "Twitter/X"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Bun Rust rewrite: \"codebase fails basic miri checks, allows for UB in safe rust\"",
@@ -98,7 +117,7 @@
         "miri",
         "safe Rust"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Image-blaster: Creates 3D environments, SFX, and meshes from a single image",
@@ -117,7 +136,7 @@
         "3D",
         "meshes"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "The sigmoids won't save you",
@@ -136,7 +155,7 @@
         "Astral Codex Ten",
         "Scott Alexander"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "A 0-click exploit chain for the Pixel 10",
@@ -155,7 +174,7 @@
         "Google",
         "Android"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Radicle: Sovereign {code forge} built on Git",
@@ -174,7 +193,7 @@
         "distributed forges",
         "agentic workflows"
       ],
-      "rank": 9
+      "rank": 10
     }
   ]
 }
