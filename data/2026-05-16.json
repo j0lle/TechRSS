@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3284,
-  "filtered_articles": 18,
+  "filtered_articles": 17,
   "articles": [
+    {
+      "title": "Fecal transplants for autism deliver success in clinical trials",
+      "title_display": "Fecal transplants for autism deliver success in clinical trials",
+      "link": "https://refractor.io/adhd-autism/fecal-transplants-for-autism-delivers-success-in-clinical-trials/",
+      "pub_date": "2026-05-16T12:20:20.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 139,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "fecal transplant",
+        "autism",
+        "clinical trials",
+        "refractor.io"
+      ],
+      "rank": 1
+    },
     {
       "title": "SQL patterns I use to catch transaction fraud",
       "title_display": "SQL patterns I use to catch transaction fraud",
@@ -22,7 +41,7 @@
         "credit card",
         "card-not-present"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "'No Way to Prevent This,' Says Only Package Manager Where This Regularly Happens",
@@ -41,7 +60,7 @@
         "supply chain attacks",
         "PyPI"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "How to Write to SSDs [pdf]",
@@ -60,7 +79,7 @@
         "Postgres",
         "FDP (Flexible Data Placement)"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Mitchellh – I strongly believe there are entire companies now under AI psychosis",
@@ -79,7 +98,7 @@
         "Mitchellh",
         "Twitter"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "The Zulip Foundation",
@@ -98,7 +117,7 @@
         "Anthropic",
         "AI"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "ABC News has taken all FiveThirtyEight articles offline",
@@ -117,7 +136,7 @@
         "Nate Silver",
         "Twitter/X"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Bun Rust rewrite: \"codebase fails basic miri checks, allows for UB in safe rust\"",
@@ -136,7 +155,7 @@
         "miri",
         "safe Rust"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Image-blaster: Creates 3D environments, SFX, and meshes from a single image",
@@ -155,7 +174,7 @@
         "3D",
         "meshes"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "The sigmoids won't save you",
@@ -165,8 +184,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 140,
-      "score": 26,
+      "hn_points": 241,
+      "score": 29,
       "category": "other",
       "keywords": [
         "sigmoids",
@@ -174,7 +193,7 @@
         "Astral Codex Ten",
         "Scott Alexander"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "A 0-click exploit chain for the Pixel 10",
@@ -193,7 +212,7 @@
         "Google",
         "Android"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "Radicle: Sovereign {code forge} built on Git",
@@ -212,7 +231,7 @@
         "distributed forges",
         "agentic workflows"
       ],
-      "rank": 11
+      "rank": 12
     }
   ]
 }
