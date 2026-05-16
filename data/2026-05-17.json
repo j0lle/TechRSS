@@ -1,9 +1,9 @@
 {
   "date": "2026-05-17",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3284,
-  "filtered_articles": 18,
+  "success_feeds": 87,
+  "total_articles": 3256,
+  "filtered_articles": 17,
   "articles": [
     {
       "title": "SANA-WM, a 2.6B open-source world model for 1-minute 720p video",
