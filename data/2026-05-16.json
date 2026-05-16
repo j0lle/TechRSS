@@ -2,8 +2,8 @@
   "date": "2026-05-16",
   "total_feeds": 95,
   "success_feeds": 88,
-  "total_articles": 3255,
-  "filtered_articles": 28,
+  "total_articles": 3258,
+  "filtered_articles": 27,
   "articles": [
     {
       "title": "SQL patterns I use to catch transaction fraud",
@@ -184,8 +184,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 138,
-      "score": 26,
+      "hn_points": 239,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Radicle",
