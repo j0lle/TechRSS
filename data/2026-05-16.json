@@ -1,9 +1,9 @@
 {
   "date": "2026-05-16",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3284,
-  "filtered_articles": 28,
+  "success_feeds": 88,
+  "total_articles": 3258,
+  "filtered_articles": 30,
   "articles": [
     {
       "title": "Mitchellh – I strongly believe there are entire companies now under AI psychosis",
@@ -82,6 +82,25 @@
       "rank": 4
     },
     {
+      "title": "Image-blaster: Creates 3D environments, SFX, and meshes from a single image",
+      "title_display": "Image-blaster: Creates 3D environments, SFX, and meshes from a single image",
+      "link": "https://github.com/neilsonnn/image-blaster",
+      "pub_date": "2026-05-15T17:20:24.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 130,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "image-blaster",
+        "AI",
+        "3D",
+        "meshes"
+      ],
+      "rank": 5
+    },
+    {
       "title": "The sigmoids won't save you",
       "title_display": "The sigmoids won't save you",
       "link": "https://www.astralcodexten.com/p/the-sigmoids-wont-save-you",
@@ -98,7 +117,7 @@
         "Astral Codex Ten",
         "Scott Alexander"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "A 0-click exploit chain for the Pixel 10",
@@ -117,7 +136,7 @@
         "Google",
         "Android"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Radicle: Sovereign {code forge} built on Git",
@@ -136,7 +155,7 @@
         "distributed forges",
         "agentic workflows"
       ],
-      "rank": 7
+      "rank": 8
     }
   ]
 }
