@@ -1,9 +1,9 @@
 {
   "date": "2026-05-17",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3284,
-  "filtered_articles": 16,
+  "success_feeds": 88,
+  "total_articles": 3222,
+  "filtered_articles": 15,
   "articles": [
     {
       "title": "Zerostack – A Unix-inspired coding agent written in pure Rust",
