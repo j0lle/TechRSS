@@ -6,6 +6,25 @@
   "filtered_articles": 19,
   "articles": [
     {
+      "title": "Mercurial, 20 years and counting: how are we still alive and kicking? [video]",
+      "title_display": "Mercurial, 20 years and counting: how are we still alive and kicking? [video]",
+      "link": "https://fosdem.org/2026/schedule/event/AGWUVH-mercurial-aint-you-dead-yet/",
+      "pub_date": "2026-05-17T18:11:03.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 130,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Mercurial",
+        "Git",
+        "FOSDEM",
+        "Matt Mackall"
+      ],
+      "rank": 1
+    },
+    {
       "title": "I turned a $80 RK3562 Android tablet into a Debian Linux workstation",
       "title_display": "I turned a $80 RK3562 Android tablet into a Debian Linux workstation",
       "link": "https://github.com/tech4bot/rk3562deb",
@@ -22,7 +41,7 @@
         "Android",
         "Linux"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Security researcher says Microsoft built a Bitlocker backdoor, releases exploit",
@@ -41,7 +60,7 @@
         "backdoor",
         "exploit"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Every AI Subscription Is a Ticking Time Bomb for Enterprise",
@@ -60,7 +79,7 @@
         "inference",
         "enterprise"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "The Third Hard Problem",
@@ -79,7 +98,7 @@
         "taxonomy",
         "ontology"
       ],
-      "rank": 4
+      "rank": 5
     }
   ]
 }
