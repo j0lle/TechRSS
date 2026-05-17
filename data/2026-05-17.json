@@ -1,8 +1,8 @@
 {
   "date": "2026-05-17",
   "total_feeds": 95,
-  "success_feeds": 87,
-  "total_articles": 3231,
+  "success_feeds": 89,
+  "total_articles": 3284,
   "filtered_articles": 15,
   "articles": [
     {
@@ -25,6 +25,25 @@
       "rank": 1
     },
     {
+      "title": "Fisker went bankrupt and owners built an open source car company from the ashes",
+      "title_display": "Fisker went bankrupt and owners built an open source car company from the ashes",
+      "link": "https://electrek.co/2026/05/16/fisker-ocean-open-source-ev-story-after-bankruptcy/",
+      "pub_date": "2026-05-17T01:30:46.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 131,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Fisker",
+        "Open source",
+        "Fisker Ocean",
+        "EV"
+      ],
+      "rank": 2
+    },
+    {
       "title": "Zerostack – A Unix-inspired coding agent written in pure Rust",
       "title_display": "Zerostack – A Unix-inspired coding agent written in pure Rust",
       "link": "https://crates.io/crates/zerostack/1.0.0",
@@ -32,7 +51,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 291,
+      "hn_points": 396,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -41,7 +60,7 @@
         "crates.io",
         "coding agent"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Windows 9x Subsystem for Linux",
@@ -60,7 +79,7 @@
         "Linux",
         "Codeberg"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "SANA-WM, a 2.6B open-source world model for 1-minute 720p video",
@@ -79,7 +98,7 @@
         "world model",
         "open-source"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Accelerando (2005)",
@@ -98,7 +117,7 @@
         "antipope.org",
         "fiction"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Δ-Mem: Efficient Online Memory for Large Language Models",
@@ -117,7 +136,7 @@
         "Large language models",
         "arXiv"
       ],
-      "rank": 6
+      "rank": 7
     }
   ]
 }
