@@ -1,0 +1,28 @@
+{
+  "date": "2026-05-18",
+  "total_feeds": 95,
+  "success_feeds": 85,
+  "total_articles": 3240,
+  "filtered_articles": 19,
+  "articles": [
+    {
+      "title": "Every AI Subscription Is a Ticking Time Bomb for Enterprise",
+      "title_display": "Every AI Subscription Is a Ticking Time Bomb for Enterprise",
+      "link": "https://www.thestateofbrand.com/news/ai-subscription-time-bomb",
+      "pub_date": "2026-05-17T12:51:02.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 162,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "AI subscriptions",
+        "tokens",
+        "inference",
+        "enterprise"
+      ],
+      "rank": 1
+    }
+  ]
+}
