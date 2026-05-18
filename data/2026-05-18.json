@@ -2,8 +2,8 @@
   "date": "2026-05-18",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3285,
-  "filtered_articles": 16,
+  "total_articles": 3286,
+  "filtered_articles": 18,
   "articles": [
     {
       "title": "GenCAD",
@@ -89,8 +89,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 230,
-      "score": 29,
+      "hn_points": 333,
+      "score": 30,
       "category": "other",
       "keywords": [
         "RK3562",
