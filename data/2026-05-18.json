@@ -1,10 +1,29 @@
 {
   "date": "2026-05-18",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3241,
-  "filtered_articles": 16,
+  "success_feeds": 89,
+  "total_articles": 3285,
+  "filtered_articles": 17,
   "articles": [
+    {
+      "title": "GenCAD",
+      "title_display": "GenCAD",
+      "link": "https://gencad.github.io/",
+      "pub_date": "2026-05-17T22:51:02.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 140,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "GenCAD",
+        "LLM",
+        "OpenSCAD",
+        "CAD"
+      ],
+      "rank": 1
+    },
     {
       "title": "Show HN: Semble – Code search for agents that uses 98% fewer tokens than grep",
       "title_display": "Show HN: Semble – Code search for agents that uses 98% fewer tokens than grep",
@@ -22,7 +41,7 @@
         "agents",
         "grep"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Mercurial, 20 years and counting: how are we still alive and kicking? [video]",
@@ -41,7 +60,7 @@
         "FOSDEM",
         "Matt Mackall"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "CUDA Books",
@@ -60,7 +79,7 @@
         "CUDA kernels",
         "NVIDIA"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "I turned a $80 RK3562 Android tablet into a Debian Linux workstation",
@@ -79,7 +98,7 @@
         "Android",
         "Linux"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Security researcher says Microsoft built a Bitlocker backdoor, releases exploit",
@@ -98,7 +117,7 @@
         "backdoor",
         "exploit"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Every AI Subscription Is a Ticking Time Bomb for Enterprise",
@@ -117,7 +136,7 @@
         "inference",
         "enterprise"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "The Third Hard Problem",
@@ -136,7 +155,7 @@
         "taxonomy",
         "ontology"
       ],
-      "rank": 7
+      "rank": 8
     }
   ]
 }
