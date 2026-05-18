@@ -3,8 +3,46 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3293,
-  "filtered_articles": 23,
+  "filtered_articles": 25,
   "articles": [
+    {
+      "title": "We stopped AI bot spam in our GitHub repo using Git's –author flag",
+      "title_display": "We stopped AI bot spam in our GitHub repo using Git's –author flag",
+      "link": "https://archestra.ai/blog/only-responsible-ai",
+      "pub_date": "2026-05-18T15:40:55.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 262,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "GitHub",
+        "git --author flag",
+        "AI",
+        "bots"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Project Glasswing: what Mythos showed us",
+      "title_display": "Project Glasswing: what Mythos showed us",
+      "link": "https://blog.cloudflare.com/cyber-frontier-models/",
+      "pub_date": "2026-05-18T15:40:55.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 175,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Mythos",
+        "Project Glasswing",
+        "Cloudflare",
+        "LLMs"
+      ],
+      "rank": 2
+    },
     {
       "title": "Show HN: Files.md – open-source alternative to Obsidian",
       "title_display": "Show HN: Files.md – open-source alternative to Obsidian",
@@ -22,7 +60,7 @@
         "Markdown",
         "GitHub"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "'We mould trees to grow into the shape of chairs'",
@@ -41,7 +79,7 @@
         "Peter Cook",
         "Becky Northey"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "Linux security mailing list 'almost unmanageable'",
@@ -60,7 +98,7 @@
         "LKML",
         "AI"
       ],
-      "rank": 3
+      "rank": 5
     }
   ]
 }
