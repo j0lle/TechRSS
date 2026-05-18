@@ -2,9 +2,28 @@
   "date": "2026-05-18",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3286,
-  "filtered_articles": 18,
+  "total_articles": 3293,
+  "filtered_articles": 16,
   "articles": [
+    {
+      "title": "Where Are the Vibecoded Photoshops?",
+      "title_display": "Where Are the Vibecoded Photoshops?",
+      "link": "https://indiepixel.de/blog/posts/where-are-the-vibecoded-photoshops/",
+      "pub_date": "2026-05-18T10:30:55.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 171,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Vibecoded",
+        "Photoshop",
+        "AI",
+        "LLMs"
+      ],
+      "rank": 1
+    },
     {
       "title": "GenCAD",
       "title_display": "GenCAD",
@@ -13,8 +32,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 255,
-      "score": 29,
+      "hn_points": 355,
+      "score": 30,
       "category": "other",
       "keywords": [
         "GenCAD",
@@ -22,7 +41,7 @@
         "OpenSCAD",
         "CAD"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Show HN: Semble – Code search for agents that uses 98% fewer tokens than grep",
@@ -41,7 +60,7 @@
         "agents",
         "grep"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Mercurial, 20 years and counting: how are we still alive and kicking? [video]",
@@ -60,7 +79,7 @@
         "FOSDEM",
         "Matt Mackall"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "CUDA Books",
@@ -79,7 +98,7 @@
         "CUDA kernels",
         "NVIDIA"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "I turned a $80 RK3562 Android tablet into a Debian Linux workstation",
@@ -98,7 +117,7 @@
         "Android",
         "Linux"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Security researcher says Microsoft built a Bitlocker backdoor, releases exploit",
@@ -117,7 +136,7 @@
         "backdoor",
         "exploit"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Every AI Subscription Is a Ticking Time Bomb for Enterprise",
@@ -136,7 +155,7 @@
         "inference",
         "enterprise"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "The Third Hard Problem",
@@ -155,7 +174,7 @@
         "taxonomy",
         "ontology"
       ],
-      "rank": 8
+      "rank": 9
     }
   ]
 }
