@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3293,
-  "filtered_articles": 16,
+  "filtered_articles": 18,
   "articles": [
+    {
+      "title": "I automated opt-outs for 500 data broker sites (open source)",
+      "title_display": "I automated opt-outs for 500 data broker sites (open source)",
+      "link": "https://github.com/stephenlthorn/auto-identity-remove",
+      "pub_date": "2026-05-18T12:10:53.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 242,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "data-brokers",
+        "opt-outs",
+        "auto-identity-remove",
+        "GitHub"
+      ],
+      "rank": 1
+    },
     {
       "title": "Where Are the Vibecoded Photoshops?",
       "title_display": "Where Are the Vibecoded Photoshops?",
@@ -22,7 +41,7 @@
         "AI",
         "LLMs"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "GenCAD",
@@ -41,7 +60,7 @@
         "OpenSCAD",
         "CAD"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Show HN: Semble – Code search for agents that uses 98% fewer tokens than grep",
@@ -60,7 +79,25 @@
         "agents",
         "grep"
       ],
-      "rank": 3
+      "rank": 4
+    },
+    {
+      "title": "Magical Realism: “Northern Exposure” 25 Years Later (2015)",
+      "title_display": "Magical Realism: “Northern Exposure” 25 Years Later (2015)",
+      "link": "https://www.rogerebert.com/streaming/magical-realism-nothern-exposure-25-years-later",
+      "pub_date": "2026-05-17T20:51:02.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 130,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Northern Exposure",
+        "Magical Realism",
+        "Roger Ebert"
+      ],
+      "rank": 5
     },
     {
       "title": "Mercurial, 20 years and counting: how are we still alive and kicking? [video]",
@@ -79,7 +116,7 @@
         "FOSDEM",
         "Matt Mackall"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "CUDA Books",
@@ -98,7 +135,7 @@
         "CUDA kernels",
         "NVIDIA"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "I turned a $80 RK3562 Android tablet into a Debian Linux workstation",
@@ -117,7 +154,7 @@
         "Android",
         "Linux"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "Security researcher says Microsoft built a Bitlocker backdoor, releases exploit",
@@ -136,7 +173,7 @@
         "backdoor",
         "exploit"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "Every AI Subscription Is a Ticking Time Bomb for Enterprise",
@@ -155,7 +192,7 @@
         "inference",
         "enterprise"
       ],
-      "rank": 8
+      "rank": 10
     },
     {
       "title": "The Third Hard Problem",
@@ -174,7 +211,7 @@
         "taxonomy",
         "ontology"
       ],
-      "rank": 9
+      "rank": 11
     }
   ]
 }
