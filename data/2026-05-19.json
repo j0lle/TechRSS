@@ -2,9 +2,47 @@
   "date": "2026-05-19",
   "total_feeds": 95,
   "success_feeds": 88,
-  "total_articles": 3266,
+  "total_articles": 3263,
   "filtered_articles": 24,
   "articles": [
+    {
+      "title": "Anthropic co-founder to present AI encyclical alongside Pope Leo XIV",
+      "title_display": "Anthropic co-founder to present AI encyclical alongside Pope Leo XIV",
+      "link": "https://www.vaticannews.va/en/pope/news/2026-05/pope-leo-xiv-first-encyclical-magnifica-humanitas.html",
+      "pub_date": "2026-05-19T00:00:25.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 132,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Anthropic",
+        "AI",
+        "Pope Leo XIV",
+        "Magnifica humanitas"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Click",
+      "title_display": "Click",
+      "link": "https://clickclickclick.click/",
+      "pub_date": "2026-05-18T23:30:26.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 212,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "clickclickclick.click",
+        "privacy",
+        "analytics",
+        "tracking"
+      ],
+      "rank": 2
+    },
     {
       "title": "Haiku OS runs on M1 Macs now",
       "title_display": "Haiku OS runs on M1 Macs now",
@@ -22,7 +60,7 @@
         "arm64",
         "Linux"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "Anthropic Acquires Stainless",
@@ -41,7 +79,7 @@
         "Claude",
         "SDKs"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "We stopped AI bot spam in our GitHub repo using Git's –author flag",
@@ -60,7 +98,7 @@
         "AI",
         "bots"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "Project Glasswing: what Mythos showed us",
@@ -79,7 +117,7 @@
         "Cloudflare",
         "LLMs"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "Show HN: Files.md – open-source alternative to Obsidian",
@@ -98,7 +136,7 @@
         "Markdown",
         "GitHub"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "'We mould trees to grow into the shape of chairs'",
@@ -117,7 +155,7 @@
         "Peter Cook",
         "Becky Northey"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "Linux security mailing list 'almost unmanageable'",
@@ -136,7 +174,7 @@
         "LKML",
         "AI"
       ],
-      "rank": 7
+      "rank": 9
     }
   ]
 }
