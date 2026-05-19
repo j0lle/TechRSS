@@ -2,8 +2,8 @@
   "date": "2026-05-19",
   "total_feeds": 95,
   "success_feeds": 88,
-  "total_articles": 3268,
-  "filtered_articles": 22,
+  "total_articles": 3266,
+  "filtered_articles": 24,
   "articles": [
     {
       "title": "Haiku OS runs on M1 Macs now",
@@ -70,8 +70,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 175,
-      "score": 27,
+      "hn_points": 276,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Mythos",
