@@ -1,9 +1,9 @@
 {
   "date": "2026-05-19",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3293,
-  "filtered_articles": 27,
+  "success_feeds": 88,
+  "total_articles": 3268,
+  "filtered_articles": 22,
   "articles": [
     {
       "title": "Haiku OS runs on M1 Macs now",
@@ -32,8 +32,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 214,
-      "score": 28,
+      "hn_points": 325,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Anthropic",
