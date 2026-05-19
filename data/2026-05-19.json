@@ -1,10 +1,29 @@
 {
   "date": "2026-05-19",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3292,
+  "success_feeds": 88,
+  "total_articles": 3267,
   "filtered_articles": 32,
   "articles": [
+    {
+      "title": "Photo GIMP – A Patch for GIMP 3 for Photoshop Users",
+      "title_display": "Photo GIMP – A Patch for GIMP 3 for Photoshop Users",
+      "link": "https://github.com/Diolinux/PhotoGIMP",
+      "pub_date": "2026-05-19T11:30:25.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 129,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "PhotoGIMP",
+        "GIMP",
+        "Photoshop",
+        "GIMP 3"
+      ],
+      "rank": 1
+    },
     {
       "title": "Mini Shai-Hulud Strikes Again: 314 npm Packages Compromised",
       "title_display": "Mini Shai-Hulud Strikes Again: 314 npm Packages Compromised",
@@ -22,7 +41,26 @@
         "safedep.io",
         "Mini Shai-Hulud"
       ],
-      "rank": 1
+      "rank": 2
+    },
+    {
+      "title": "Cursor Introduces Composer 2.5",
+      "title_display": "Cursor Introduces Composer 2.5",
+      "link": "https://cursor.com/blog/composer-2-5",
+      "pub_date": "2026-05-19T05:40:26.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 196,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "Cursor",
+        "Composer 2.5",
+        "Kimi K2.5",
+        "Opus 4.7"
+      ],
+      "rank": 3
     },
     {
       "title": "The last six months in LLMs in five minutes",
@@ -41,7 +79,7 @@
         "Claude",
         "Opus"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "Peter Salus has died",
@@ -60,7 +98,7 @@
         "A Quarter Century of UNIX",
         "TUHS"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "Anthropic co-founder to present AI encyclical alongside Pope Leo XIV",
@@ -79,7 +117,7 @@
         "Pope Leo XIV",
         "Magnifica humanitas"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "Click",
@@ -98,7 +136,7 @@
         "analytics",
         "tracking"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "Haiku OS runs on M1 Macs now",
@@ -117,7 +155,7 @@
         "arm64",
         "Linux"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "Anthropic Acquires Stainless",
@@ -136,7 +174,7 @@
         "Claude",
         "SDKs"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "We stopped AI bot spam in our GitHub repo using Git's –author flag",
@@ -155,7 +193,7 @@
         "AI",
         "bots"
       ],
-      "rank": 8
+      "rank": 10
     },
     {
       "title": "Project Glasswing: what Mythos showed us",
@@ -174,7 +212,7 @@
         "Cloudflare",
         "LLMs"
       ],
-      "rank": 9
+      "rank": 11
     },
     {
       "title": "1024000^2 Blocks, 2B2T Minecraft Server World Download Project, and Discoveries",
@@ -193,7 +231,7 @@
         "world download",
         "anarchy server"
       ],
-      "rank": 10
+      "rank": 12
     },
     {
       "title": "Show HN: Files.md – open-source alternative to Obsidian",
@@ -212,7 +250,7 @@
         "Markdown",
         "GitHub"
       ],
-      "rank": 11
+      "rank": 13
     },
     {
       "title": "'We mould trees to grow into the shape of chairs'",
@@ -231,7 +269,7 @@
         "Peter Cook",
         "Becky Northey"
       ],
-      "rank": 12
+      "rank": 14
     },
     {
       "title": "Linux security mailing list 'almost unmanageable'",
@@ -250,7 +288,7 @@
         "LKML",
         "AI"
       ],
-      "rank": 13
+      "rank": 15
     }
   ]
 }
