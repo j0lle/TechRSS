@@ -6,6 +6,25 @@
   "filtered_articles": 32,
   "articles": [
     {
+      "title": "Mini Shai-Hulud Strikes Again: 314 npm Packages Compromised",
+      "title_display": "Mini Shai-Hulud Strikes Again: 314 npm Packages Compromised",
+      "link": "https://safedep.io/mini-shai-hulud-strikes-again-314-npm-packages-compromised/",
+      "pub_date": "2026-05-19T08:50:28.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 157,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "npm",
+        "npm packages",
+        "safedep.io",
+        "Mini Shai-Hulud"
+      ],
+      "rank": 1
+    },
+    {
       "title": "The last six months in LLMs in five minutes",
       "title_display": "The last six months in LLMs in five minutes",
       "link": "https://simonwillison.net/2026/May/19/5-minute-llms/",
@@ -22,7 +41,7 @@
         "Claude",
         "Opus"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Peter Salus has died",
@@ -41,7 +60,7 @@
         "A Quarter Century of UNIX",
         "TUHS"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Anthropic co-founder to present AI encyclical alongside Pope Leo XIV",
@@ -60,7 +79,7 @@
         "Pope Leo XIV",
         "Magnifica humanitas"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Click",
@@ -79,7 +98,7 @@
         "analytics",
         "tracking"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Haiku OS runs on M1 Macs now",
@@ -98,7 +117,7 @@
         "arm64",
         "Linux"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Anthropic Acquires Stainless",
@@ -117,7 +136,7 @@
         "Claude",
         "SDKs"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "We stopped AI bot spam in our GitHub repo using Git's –author flag",
@@ -136,7 +155,7 @@
         "AI",
         "bots"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Project Glasswing: what Mythos showed us",
@@ -155,7 +174,7 @@
         "Cloudflare",
         "LLMs"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "1024000^2 Blocks, 2B2T Minecraft Server World Download Project, and Discoveries",
@@ -174,7 +193,7 @@
         "world download",
         "anarchy server"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Show HN: Files.md – open-source alternative to Obsidian",
@@ -193,7 +212,7 @@
         "Markdown",
         "GitHub"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "'We mould trees to grow into the shape of chairs'",
@@ -212,7 +231,7 @@
         "Peter Cook",
         "Becky Northey"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "Linux security mailing list 'almost unmanageable'",
@@ -231,7 +250,7 @@
         "LKML",
         "AI"
       ],
-      "rank": 12
+      "rank": 13
     }
   ]
 }
