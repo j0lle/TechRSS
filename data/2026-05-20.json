@@ -1,10 +1,48 @@
 {
   "date": "2026-05-20",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3294,
+  "success_feeds": 89,
+  "total_articles": 3312,
   "filtered_articles": 29,
   "articles": [
+    {
+      "title": "Google changes its search box",
+      "title_display": "Google changes its search box",
+      "link": "https://blog.google/products-and-platforms/products/search/search-io-2026/",
+      "pub_date": "2026-05-19T19:30:24.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 241,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "Google",
+        "Google Search",
+        "Search I/O 2026",
+        "Gemini"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Gemini 3.5 Flash",
+      "title_display": "Gemini 3.5 Flash",
+      "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/",
+      "pub_date": "2026-05-19T19:20:24.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 356,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Gemini 3.5 Flash",
+        "Gemini",
+        "Google",
+        "Google DeepMind"
+      ],
+      "rank": 2
+    },
     {
       "title": "CISA Admin Leaked AWS GovCloud Keys on GitHub",
       "title_display": "CISA Admin Leaked AWS GovCloud Keys on GitHub",
@@ -22,7 +60,7 @@
         "AWS access keys",
         "GitHub"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "OpenBSD 7.9 Released",
@@ -32,8 +70,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 243,
-      "score": 29,
+      "hn_points": 344,
+      "score": 30,
       "category": "other",
       "keywords": [
         "OpenBSD",
@@ -41,7 +79,7 @@
         "Security",
         "FreeBSD"
       ],
-      "rank": 2
+      "rank": 4
     }
   ]
 }
