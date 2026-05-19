@@ -1,0 +1,28 @@
+{
+  "date": "2026-05-20",
+  "total_feeds": 95,
+  "success_feeds": 85,
+  "total_articles": 3219,
+  "filtered_articles": 30,
+  "articles": [
+    {
+      "title": "CISA Admin Leaked AWS GovCloud Keys on GitHub",
+      "title_display": "CISA Admin Leaked AWS GovCloud Keys on GitHub",
+      "link": "https://krebsonsecurity.com/2026/05/cisa-admin-leaked-aws-govcloud-keys-on-github/",
+      "pub_date": "2026-05-19T15:10:26.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 100,
+      "score": 24,
+      "category": "other",
+      "keywords": [
+        "CISA",
+        "AWS GovCloud",
+        "AWS access keys",
+        "GitHub"
+      ],
+      "rank": 1
+    }
+  ]
+}
