@@ -1,9 +1,9 @@
 {
   "date": "2026-05-20",
   "total_feeds": 95,
-  "success_feeds": 85,
-  "total_articles": 3219,
-  "filtered_articles": 30,
+  "success_feeds": 89,
+  "total_articles": 3312,
+  "filtered_articles": 31,
   "articles": [
     {
       "title": "CISA Admin Leaked AWS GovCloud Keys on GitHub",
@@ -13,8 +13,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 100,
-      "score": 24,
+      "hn_points": 216,
+      "score": 28,
       "category": "other",
       "keywords": [
         "CISA",
@@ -23,6 +23,25 @@
         "GitHub"
       ],
       "rank": 1
+    },
+    {
+      "title": "OpenBSD 7.9 Released",
+      "title_display": "OpenBSD 7.9 Released",
+      "link": "https://www.openbsd.org/79.html",
+      "pub_date": "2026-05-19T13:40:26.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 243,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "OpenBSD",
+        "OpenBSD 7.9",
+        "Security",
+        "FreeBSD"
+      ],
+      "rank": 2
     }
   ]
 }
