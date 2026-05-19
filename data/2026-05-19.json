@@ -1,8 +1,8 @@
 {
   "date": "2026-05-19",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3266,
+  "success_feeds": 89,
+  "total_articles": 3291,
   "filtered_articles": 27,
   "articles": [
     {
@@ -25,6 +25,25 @@
       "rank": 1
     },
     {
+      "title": "Peter Salus has died",
+      "title_display": "Peter Salus has died",
+      "link": "https://www.tuhs.org/pipermail/tuhs/2026-May/033750.html",
+      "pub_date": "2026-05-19T03:10:25.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 139,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Peter H. Salus",
+        "Unix",
+        "A Quarter Century of UNIX",
+        "TUHS"
+      ],
+      "rank": 2
+    },
+    {
       "title": "Anthropic co-founder to present AI encyclical alongside Pope Leo XIV",
       "title_display": "Anthropic co-founder to present AI encyclical alongside Pope Leo XIV",
       "link": "https://www.vaticannews.va/en/pope/news/2026-05/pope-leo-xiv-first-encyclical-magnifica-humanitas.html",
@@ -41,7 +60,7 @@
         "Pope Leo XIV",
         "Magnifica humanitas"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Click",
@@ -60,7 +79,7 @@
         "analytics",
         "tracking"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Haiku OS runs on M1 Macs now",
@@ -79,7 +98,7 @@
         "arm64",
         "Linux"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Anthropic Acquires Stainless",
@@ -98,7 +117,7 @@
         "Claude",
         "SDKs"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "We stopped AI bot spam in our GitHub repo using Git's –author flag",
@@ -117,7 +136,7 @@
         "AI",
         "bots"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Project Glasswing: what Mythos showed us",
@@ -136,7 +155,26 @@
         "Cloudflare",
         "LLMs"
       ],
-      "rank": 7
+      "rank": 8
+    },
+    {
+      "title": "1024000^2 Blocks, 2B2T Minecraft Server World Download Project, and Discoveries",
+      "title_display": "1024000^2 Blocks, 2B2T Minecraft Server World Download Project, and Discoveries",
+      "link": "https://github.com/2b2tplace/1m_release",
+      "pub_date": "2026-05-18T15:00:55.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 143,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "2b2t",
+        "Minecraft",
+        "world download",
+        "anarchy server"
+      ],
+      "rank": 9
     },
     {
       "title": "Show HN: Files.md – open-source alternative to Obsidian",
@@ -155,7 +193,7 @@
         "Markdown",
         "GitHub"
       ],
-      "rank": 8
+      "rank": 10
     },
     {
       "title": "'We mould trees to grow into the shape of chairs'",
@@ -174,7 +212,7 @@
         "Peter Cook",
         "Becky Northey"
       ],
-      "rank": 9
+      "rank": 11
     },
     {
       "title": "Linux security mailing list 'almost unmanageable'",
@@ -193,7 +231,7 @@
         "LKML",
         "AI"
       ],
-      "rank": 10
+      "rank": 12
     }
   ]
 }
