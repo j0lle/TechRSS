@@ -1,9 +1,9 @@
 {
   "date": "2026-05-20",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3314,
-  "filtered_articles": 35,
+  "success_feeds": 88,
+  "total_articles": 3289,
+  "filtered_articles": 31,
   "articles": [
     {
       "title": "Everything in C is undefined behavior",
