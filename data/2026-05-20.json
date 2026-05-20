@@ -1,10 +1,48 @@
 {
   "date": "2026-05-20",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3314,
-  "filtered_articles": 27,
+  "success_feeds": 88,
+  "total_articles": 3289,
+  "filtered_articles": 30,
   "articles": [
+    {
+      "title": "Qwen3.7-Max: The Agent Frontier",
+      "title_display": "Qwen3.7-Max: The Agent Frontier",
+      "link": "https://qwen.ai/blog?id=qwen3.7",
+      "pub_date": "2026-05-20T12:20:59.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 267,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "Qwen3.7-Max",
+        "Qwen",
+        "Agents",
+        "397B"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Map of Metal",
+      "title_display": "Map of Metal",
+      "link": "https://mapofmetal.com/",
+      "pub_date": "2026-05-20T11:30:58.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 200,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "Map of Metal",
+        "OpenSeadragon",
+        "HTML5",
+        "Flash"
+      ],
+      "rank": 2
+    },
     {
       "title": "Everything in C is undefined behavior",
       "title_display": "Everything in C is undefined behavior",
@@ -22,7 +60,7 @@
         "C++",
         "compilers"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "GitHub Compromised",
@@ -40,7 +78,7 @@
         "3800 internal repos",
         "Twitter"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "GitHub is investigating unauthorized access to their internal repositories",
@@ -59,7 +97,7 @@
         "GitHub Actions",
         "supply chain security"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "Remove AI Watermarks",
@@ -78,7 +116,7 @@
         "watermark",
         "OpenAI"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "Show HN: Forge – Guardrails take an 8B model from 53% to 99% on agentic tasks",
@@ -97,7 +135,7 @@
         "agentic tasks",
         "8B model"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "Dumb Ways for an Open Source Project to Die",
@@ -115,7 +153,7 @@
         "fork",
         "maintainer"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "Google changes its search box",
@@ -134,7 +172,7 @@
         "Search I/O 2026",
         "Gemini"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "Gemini 3.5 Flash",
@@ -153,7 +191,7 @@
         "Google",
         "Google DeepMind"
       ],
-      "rank": 8
+      "rank": 10
     },
     {
       "title": "CISA Admin Leaked AWS GovCloud Keys on GitHub",
@@ -172,7 +210,7 @@
         "AWS access keys",
         "GitHub"
       ],
-      "rank": 9
+      "rank": 11
     },
     {
       "title": "Hanoi's humble beer glass and the memory of a nation",
@@ -191,7 +229,7 @@
         "Vietnam",
         "Bia Hoi"
       ],
-      "rank": 10
+      "rank": 12
     },
     {
       "title": "OpenBSD 7.9 Released",
@@ -210,7 +248,7 @@
         "Security",
         "FreeBSD"
       ],
-      "rank": 11
+      "rank": 13
     }
   ]
 }
