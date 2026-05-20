@@ -1,10 +1,29 @@
 {
   "date": "2026-05-20",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3289,
-  "filtered_articles": 37,
+  "success_feeds": 89,
+  "total_articles": 3314,
+  "filtered_articles": 38,
   "articles": [
+    {
+      "title": "GitHub is investigating unauthorized access to their internal repositories",
+      "title_display": "GitHub is investigating unauthorized access to their internal repositories",
+      "link": "https://twitter.com/github/status/2056884788179726685",
+      "pub_date": "2026-05-20T01:20:26.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 205,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "GitHub",
+        "unauthorized access",
+        "GitHub Actions",
+        "supply chain security"
+      ],
+      "rank": 1
+    },
     {
       "title": "Remove AI Watermarks",
       "title_display": "Remove AI Watermarks",
@@ -22,7 +41,7 @@
         "watermark",
         "OpenAI"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Show HN: Forge – Guardrails take an 8B model from 53% to 99% on agentic tasks",
@@ -41,7 +60,7 @@
         "agentic tasks",
         "8B model"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Dumb Ways for an Open Source Project to Die",
@@ -59,7 +78,7 @@
         "fork",
         "maintainer"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Google changes its search box",
@@ -78,7 +97,7 @@
         "Search I/O 2026",
         "Gemini"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Gemini 3.5 Flash",
@@ -88,7 +107,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 356,
+      "hn_points": 666,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -97,7 +116,7 @@
         "Google",
         "Google DeepMind"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "CISA Admin Leaked AWS GovCloud Keys on GitHub",
@@ -116,7 +135,7 @@
         "AWS access keys",
         "GitHub"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Hanoi's humble beer glass and the memory of a nation",
@@ -135,7 +154,7 @@
         "Vietnam",
         "Bia Hoi"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "OpenBSD 7.9 Released",
@@ -154,7 +173,7 @@
         "Security",
         "FreeBSD"
       ],
-      "rank": 8
+      "rank": 9
     }
   ]
 }
