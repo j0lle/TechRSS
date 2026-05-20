@@ -3,8 +3,45 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3312,
-  "filtered_articles": 29,
+  "filtered_articles": 36,
   "articles": [
+    {
+      "title": "Show HN: Forge – Guardrails take an 8B model from 53% to 99% on agentic tasks",
+      "title_display": "Show HN: Forge – Guardrails take an 8B model from 53% to 99% on agentic tasks",
+      "link": "https://github.com/antoinezambelli/forge",
+      "pub_date": "2026-05-19T20:50:24.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 180,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Forge",
+        "guardrails",
+        "agentic tasks",
+        "8B model"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Dumb Ways for an Open Source Project to Die",
+      "title_display": "Dumb Ways for an Open Source Project to Die",
+      "link": "https://nesbitt.io/2026/05/19/dumb-ways-for-an-open-source-project-to-die.html",
+      "pub_date": "2026-05-19T20:20:24.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 134,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "open source",
+        "fork",
+        "maintainer"
+      ],
+      "rank": 2
+    },
     {
       "title": "Google changes its search box",
       "title_display": "Google changes its search box",
@@ -13,8 +50,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 241,
-      "score": 29,
+      "hn_points": 346,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Google",
@@ -22,7 +59,7 @@
         "Search I/O 2026",
         "Gemini"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "Gemini 3.5 Flash",
@@ -41,7 +78,7 @@
         "Google",
         "Google DeepMind"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "CISA Admin Leaked AWS GovCloud Keys on GitHub",
@@ -60,7 +97,7 @@
         "AWS access keys",
         "GitHub"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "OpenBSD 7.9 Released",
@@ -79,7 +116,7 @@
         "Security",
         "FreeBSD"
       ],
-      "rank": 4
+      "rank": 6
     }
   ]
 }
