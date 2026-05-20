@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3315,
-  "filtered_articles": 33,
+  "filtered_articles": 36,
   "articles": [
     {
       "title": "Saying Goodbye to Asm.js",
@@ -23,6 +23,25 @@
         "Emscripten"
       ],
       "rank": 1
+    },
+    {
+      "title": "Google's AI is being manipulated. The search giant is quietly fighting back",
+      "title_display": "Google's AI is being manipulated. The search giant is quietly fighting back",
+      "link": "https://www.bbc.com/future/article/20260519-google-tackles-attempts-to-hack-its-ai-results",
+      "pub_date": "2026-05-20T13:01:02.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 145,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Google",
+        "AI",
+        "Google Search",
+        "LLMs"
+      ],
+      "rank": 2
     }
   ]
 }
