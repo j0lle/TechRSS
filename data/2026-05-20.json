@@ -1,10 +1,29 @@
 {
   "date": "2026-05-20",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3286,
+  "success_feeds": 89,
+  "total_articles": 3314,
   "filtered_articles": 35,
   "articles": [
+    {
+      "title": "Everything in C is undefined behavior",
+      "title_display": "Everything in C is undefined behavior",
+      "link": "https://blog.habets.se/2026/05/Everything-in-C-is-undefined-behavior.html",
+      "pub_date": "2026-05-20T06:30:57.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 170,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "C",
+        "undefined behavior",
+        "C++",
+        "compilers"
+      ],
+      "rank": 1
+    },
     {
       "title": "GitHub Compromised",
       "title_display": "GitHub Compromised",
@@ -21,7 +40,7 @@
         "3800 internal repos",
         "Twitter"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "GitHub is investigating unauthorized access to their internal repositories",
@@ -40,7 +59,7 @@
         "GitHub Actions",
         "supply chain security"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Remove AI Watermarks",
@@ -59,7 +78,7 @@
         "watermark",
         "OpenAI"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Show HN: Forge – Guardrails take an 8B model from 53% to 99% on agentic tasks",
@@ -78,7 +97,7 @@
         "agentic tasks",
         "8B model"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Dumb Ways for an Open Source Project to Die",
@@ -96,7 +115,7 @@
         "fork",
         "maintainer"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Google changes its search box",
@@ -115,7 +134,7 @@
         "Search I/O 2026",
         "Gemini"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Gemini 3.5 Flash",
@@ -134,7 +153,7 @@
         "Google",
         "Google DeepMind"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "CISA Admin Leaked AWS GovCloud Keys on GitHub",
@@ -153,7 +172,7 @@
         "AWS access keys",
         "GitHub"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Hanoi's humble beer glass and the memory of a nation",
@@ -172,7 +191,7 @@
         "Vietnam",
         "Bia Hoi"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "OpenBSD 7.9 Released",
@@ -191,7 +210,7 @@
         "Security",
         "FreeBSD"
       ],
-      "rank": 10
+      "rank": 11
     }
   ]
 }
