@@ -1,10 +1,29 @@
 {
   "date": "2026-05-22",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3317,
-  "filtered_articles": 40,
+  "success_feeds": 88,
+  "total_articles": 3292,
+  "filtered_articles": 41,
   "articles": [
+    {
+      "title": "BBEdit 16",
+      "title_display": "BBEdit 16",
+      "link": "https://www.barebones.com/products/bbedit/bbedit16.html",
+      "pub_date": "2026-05-21T18:30:57.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 228,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "BBEdit",
+        "BBEdit 16",
+        "Bare Bones Software",
+        "macOS"
+      ],
+      "rank": 1
+    },
     {
       "title": "Was my $48K GPU server worth it?",
       "title_display": "Was my $48K GPU server worth it?",
@@ -22,7 +41,7 @@
         "Gemma4:31b",
         "RTX 6000 Pro"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Amazon, Facebook, FBI have access to a private intelligence-sharing network",
@@ -41,7 +60,7 @@
         "Facebook",
         "FBI"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Project Hail Mary – Stellar Navigation Chart",
@@ -60,7 +79,7 @@
         "gaia-mary",
         "valhovey"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "US employers spend more than $1.5B a year to fight labor unions, report finds",
@@ -79,7 +98,7 @@
         "Economic Policy Institute",
         "union-busting"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Show HN: Rmux – A programmable terminal multiplexer with a Playwright-style SDK",
@@ -98,7 +117,7 @@
         "Playwright",
         "tmux"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "New features in GCC 16: Improved error messages and SARIF output",
@@ -117,7 +136,7 @@
         "C++",
         "C++20"
       ],
-      "rank": 6
+      "rank": 7
     }
   ]
 }
