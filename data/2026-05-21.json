@@ -1,9 +1,9 @@
 {
   "date": "2026-05-21",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3317,
-  "filtered_articles": 34,
+  "success_feeds": 88,
+  "total_articles": 3292,
+  "filtered_articles": 37,
   "articles": [
     {
       "title": "AI is just unauthorised plagiarism at a bigger scale",
@@ -25,6 +25,44 @@
       "rank": 1
     },
     {
+      "title": "Flipper One – we need your help",
+      "title_display": "Flipper One – we need your help",
+      "link": "https://blog.flipper.net/flipper-one-we-need-your-help/",
+      "pub_date": "2026-05-21T11:41:05.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 453,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Flipper One",
+        "Flipper Zero",
+        "open source",
+        "binary blobs"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "Python 3.15: features that didn't make the headlines",
+      "title_display": "Python 3.15: features that didn't make the headlines",
+      "link": "https://blog.changs.co.uk/python-315-features-that-didnt-make-the-headlines.html",
+      "pub_date": "2026-05-21T11:31:07.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 161,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Python 3.15",
+        "Python",
+        "lazy imports",
+        "typing"
+      ],
+      "rank": 3
+    },
+    {
       "title": "I reverse engineered Apple's video wallpapers",
       "title_display": "I reverse engineered Apple's video wallpapers",
       "link": "https://github.com/kageroumado/phosphene",
@@ -32,8 +70,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 256,
-      "score": 29,
+      "hn_points": 359,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Phosphene",
@@ -41,7 +79,7 @@
         "video wallpapers",
         "macOS"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "Anthropic is expanding to Colossus2. Will use GB200",
@@ -51,8 +89,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 153,
-      "score": 27,
+      "hn_points": 256,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Anthropic",
@@ -60,7 +98,7 @@
         "GB200",
         "xAI"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "Colorado Amended SB051 (Age Verification Bill) to Exclude Open Source Projects",
@@ -79,7 +117,7 @@
         "open source",
         "age verification"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "Declining America",
@@ -98,7 +136,7 @@
         "social media",
         "border security"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "GitHub confirms breach of 3,800 repos via malicious VSCode extension",
@@ -117,7 +155,7 @@
         "VSCode extension",
         "exfiltration"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "Sharla Boehm, the programmer whose code underpins the Internet",
@@ -136,7 +174,7 @@
         "Internet",
         "Scientific American"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "None of Starbucks' 'Widely Recyclable' Cups Ended Up at a Recycling Facility",
@@ -155,7 +193,7 @@
         "recyclable cups",
         "recycling"
       ],
-      "rank": 8
+      "rank": 10
     },
     {
       "title": "How fast is N tokens per second really?",
@@ -174,7 +212,7 @@
         "Llama 3",
         "GPT OSS 120B"
       ],
-      "rank": 9
+      "rank": 11
     },
     {
       "title": "Incident Report: May 19, 2026 – GCP Account Suspension",
@@ -193,7 +231,7 @@
         "GCP",
         "GCP account suspension"
       ],
-      "rank": 10
+      "rank": 12
     },
     {
       "title": "Saying Goodbye to Asm.js",
@@ -212,7 +250,7 @@
         "WebAssembly",
         "Emscripten"
       ],
-      "rank": 11
+      "rank": 13
     },
     {
       "title": "Google's AI is being manipulated. The search giant is quietly fighting back",
@@ -231,7 +269,7 @@
         "Google Search",
         "LLMs"
       ],
-      "rank": 12
+      "rank": 14
     },
     {
       "title": "Learnings from 100K lines of Rust with AI (2025)",
@@ -250,7 +288,7 @@
         "LLMs",
         "lifetimes"
       ],
-      "rank": 13
+      "rank": 15
     }
   ]
 }
