@@ -25,6 +25,25 @@
       "rank": 1
     },
     {
+      "title": "Anthropic is expanding to Colossus2. Will use GB200",
+      "title_display": "Anthropic is expanding to Colossus2. Will use GB200",
+      "link": "https://xcancel.com/nottombrown/status/2057194829986300375",
+      "pub_date": "2026-05-21T00:11:04.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 153,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Anthropic",
+        "Colossus2",
+        "GB200",
+        "xAI"
+      ],
+      "rank": 2
+    },
+    {
       "title": "Colorado Amended SB051 (Age Verification Bill) to Exclude Open Source Projects",
       "title_display": "Colorado Amended SB051 (Age Verification Bill) to Exclude Open Source Projects",
       "link": "https://legiscan.com/CO/bill/SB051/2026",
@@ -41,7 +60,7 @@
         "open source",
         "age verification"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Declining America",
@@ -60,7 +79,7 @@
         "social media",
         "border security"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "GitHub confirms breach of 3,800 repos via malicious VSCode extension",
@@ -79,7 +98,7 @@
         "VSCode extension",
         "exfiltration"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "None of Starbucks' 'Widely Recyclable' Cups Ended Up at a Recycling Facility",
@@ -98,7 +117,7 @@
         "recyclable cups",
         "recycling"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "How fast is N tokens per second really?",
@@ -117,7 +136,7 @@
         "Llama 3",
         "GPT OSS 120B"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Incident Report: May 19, 2026 – GCP Account Suspension",
@@ -136,7 +155,7 @@
         "GCP",
         "GCP account suspension"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Saying Goodbye to Asm.js",
@@ -146,8 +165,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 268,
-      "score": 29,
+      "hn_points": 369,
+      "score": 30,
       "category": "other",
       "keywords": [
         "asm.js",
@@ -155,7 +174,7 @@
         "WebAssembly",
         "Emscripten"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Google's AI is being manipulated. The search giant is quietly fighting back",
@@ -174,7 +193,7 @@
         "Google Search",
         "LLMs"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Learnings from 100K lines of Rust with AI (2025)",
@@ -193,7 +212,7 @@
         "LLMs",
         "lifetimes"
       ],
-      "rank": 10
+      "rank": 11
     }
   ]
 }
