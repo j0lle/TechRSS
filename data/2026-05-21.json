@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3314,
-  "filtered_articles": 29,
+  "filtered_articles": 30,
   "articles": [
     {
       "title": "I reverse engineered Apple's video wallpapers",
@@ -44,6 +44,25 @@
       "rank": 2
     },
     {
+      "title": "Declining America",
+      "title_display": "Declining America",
+      "link": "https://www.tbray.org/ongoing/When/202x/2026/05/19/Declining-America",
+      "pub_date": "2026-05-20T21:20:56.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 161,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "United States",
+        "Nov 6 US election",
+        "social media",
+        "border security"
+      ],
+      "rank": 3
+    },
+    {
       "title": "GitHub confirms breach of 3,800 repos via malicious VSCode extension",
       "title_display": "GitHub confirms breach of 3,800 repos via malicious VSCode extension",
       "link": "https://www.bleepingcomputer.com/news/security/github-confirms-breach-of-3-800-repos-via-malicious-vscode-extension/",
@@ -60,7 +79,7 @@
         "VSCode extension",
         "exfiltration"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "None of Starbucks' 'Widely Recyclable' Cups Ended Up at a Recycling Facility",
@@ -79,7 +98,7 @@
         "recyclable cups",
         "recycling"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "How fast is N tokens per second really?",
@@ -98,7 +117,7 @@
         "Llama 3",
         "GPT OSS 120B"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Incident Report: May 19, 2026 – GCP Account Suspension",
@@ -117,7 +136,7 @@
         "GCP",
         "GCP account suspension"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Saying Goodbye to Asm.js",
@@ -136,7 +155,7 @@
         "WebAssembly",
         "Emscripten"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Google's AI is being manipulated. The search giant is quietly fighting back",
@@ -155,7 +174,26 @@
         "Google Search",
         "LLMs"
       ],
-      "rank": 8
+      "rank": 9
+    },
+    {
+      "title": "Learnings from 100K lines of Rust with AI (2025)",
+      "title_display": "Learnings from 100K lines of Rust with AI (2025)",
+      "link": "https://zfhuang99.github.io/rust/claude%20code/codex/contracts/spec-driven%20development/2025/12/01/rust-with-ai.html",
+      "pub_date": "2026-05-20T10:21:00.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 134,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Rust",
+        "AI",
+        "LLMs",
+        "lifetimes"
+      ],
+      "rank": 10
     }
   ]
 }
