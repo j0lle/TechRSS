@@ -2,9 +2,28 @@
   "date": "2026-05-22",
   "total_feeds": 95,
   "success_feeds": 88,
-  "total_articles": 3307,
-  "filtered_articles": 39,
+  "total_articles": 3292,
+  "filtered_articles": 40,
   "articles": [
+    {
+      "title": "Project Hail Mary – Stellar Navigation Chart",
+      "title_display": "Project Hail Mary – Stellar Navigation Chart",
+      "link": "https://valhovey.github.io/gaia-mary/",
+      "pub_date": "2026-05-21T17:21:03.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 245,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "Project Hail Mary",
+        "Stellar Navigation Chart",
+        "gaia-mary",
+        "valhovey"
+      ],
+      "rank": 1
+    },
     {
       "title": "US employers spend more than $1.5B a year to fight labor unions, report finds",
       "title_display": "US employers spend more than $1.5B a year to fight labor unions, report finds",
@@ -22,7 +41,7 @@
         "Economic Policy Institute",
         "union-busting"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Show HN: Rmux – A programmable terminal multiplexer with a Playwright-style SDK",
@@ -41,7 +60,7 @@
         "Playwright",
         "tmux"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "New features in GCC 16: Improved error messages and SARIF output",
@@ -60,7 +79,7 @@
         "C++",
         "C++20"
       ],
-      "rank": 3
+      "rank": 4
     }
   ]
 }
