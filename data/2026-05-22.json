@@ -6,6 +6,25 @@
   "filtered_articles": 38,
   "articles": [
     {
+      "title": "US employers spend more than $1.5B a year to fight labor unions, report finds",
+      "title_display": "US employers spend more than $1.5B a year to fight labor unions, report finds",
+      "link": "https://www.theguardian.com/us-news/2026/may/20/how-much-companies-spend-fight-unions",
+      "pub_date": "2026-05-21T14:41:05.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 191,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "labor unions",
+        "US employers",
+        "Economic Policy Institute",
+        "union-busting"
+      ],
+      "rank": 1
+    },
+    {
       "title": "Show HN: Rmux – A programmable terminal multiplexer with a Playwright-style SDK",
       "title_display": "Show HN: Rmux – A programmable terminal multiplexer with a Playwright-style SDK",
       "link": "https://github.com/helvesec/rmux",
@@ -22,7 +41,26 @@
         "Playwright",
         "tmux"
       ],
-      "rank": 1
+      "rank": 2
+    },
+    {
+      "title": "New features in GCC 16: Improved error messages and SARIF output",
+      "title_display": "New features in GCC 16: Improved error messages and SARIF output",
+      "link": "https://developers.redhat.com/articles/2026/04/28/gcc-16-improved-error-messages-sarif-output",
+      "pub_date": "2026-05-21T04:11:05.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 121,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "GCC 16",
+        "SARIF",
+        "C++",
+        "C++20"
+      ],
+      "rank": 3
     }
   ]
 }
