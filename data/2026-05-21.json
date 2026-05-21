@@ -1,10 +1,29 @@
 {
   "date": "2026-05-21",
   "total_feeds": 95,
-  "success_feeds": 87,
-  "total_articles": 3274,
-  "filtered_articles": 35,
+  "success_feeds": 89,
+  "total_articles": 3317,
+  "filtered_articles": 34,
   "articles": [
+    {
+      "title": "AI is just unauthorised plagiarism at a bigger scale",
+      "title_display": "AI is just unauthorised plagiarism at a bigger scale",
+      "link": "https://axelk.ee/ai-is-just-unauthorised-plagiarism-at-a-bigger-scale/",
+      "pub_date": "2026-05-21T13:51:10.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 121,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "AI",
+        "LLMs",
+        "plagiarism",
+        "copyright"
+      ],
+      "rank": 1
+    },
     {
       "title": "I reverse engineered Apple's video wallpapers",
       "title_display": "I reverse engineered Apple's video wallpapers",
@@ -22,7 +41,7 @@
         "video wallpapers",
         "macOS"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Anthropic is expanding to Colossus2. Will use GB200",
@@ -41,7 +60,7 @@
         "GB200",
         "xAI"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Colorado Amended SB051 (Age Verification Bill) to Exclude Open Source Projects",
@@ -60,7 +79,7 @@
         "open source",
         "age verification"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Declining America",
@@ -79,7 +98,7 @@
         "social media",
         "border security"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "GitHub confirms breach of 3,800 repos via malicious VSCode extension",
@@ -89,7 +108,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 618,
+      "hn_points": 927,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -98,7 +117,7 @@
         "VSCode extension",
         "exfiltration"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Sharla Boehm, the programmer whose code underpins the Internet",
@@ -117,7 +136,7 @@
         "Internet",
         "Scientific American"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "None of Starbucks' 'Widely Recyclable' Cups Ended Up at a Recycling Facility",
@@ -136,7 +155,7 @@
         "recyclable cups",
         "recycling"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "How fast is N tokens per second really?",
@@ -155,7 +174,7 @@
         "Llama 3",
         "GPT OSS 120B"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Incident Report: May 19, 2026 – GCP Account Suspension",
@@ -174,7 +193,7 @@
         "GCP",
         "GCP account suspension"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Saying Goodbye to Asm.js",
@@ -193,7 +212,7 @@
         "WebAssembly",
         "Emscripten"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "Google's AI is being manipulated. The search giant is quietly fighting back",
@@ -212,7 +231,7 @@
         "Google Search",
         "LLMs"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "Learnings from 100K lines of Rust with AI (2025)",
@@ -231,7 +250,7 @@
         "LLMs",
         "lifetimes"
       ],
-      "rank": 12
+      "rank": 13
     }
   ]
 }
