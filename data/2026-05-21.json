@@ -1,10 +1,29 @@
 {
   "date": "2026-05-21",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3299,
+  "success_feeds": 89,
+  "total_articles": 3314,
   "filtered_articles": 28,
   "articles": [
+    {
+      "title": "Colorado Amended SB051 (Age Verification Bill) to Exclude Open Source Projects",
+      "title_display": "Colorado Amended SB051 (Age Verification Bill) to Exclude Open Source Projects",
+      "link": "https://legiscan.com/CO/bill/SB051/2026",
+      "pub_date": "2026-05-20T23:20:58.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 140,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Colorado",
+        "SB051",
+        "open source",
+        "age verification"
+      ],
+      "rank": 1
+    },
     {
       "title": "GitHub confirms breach of 3,800 repos via malicious VSCode extension",
       "title_display": "GitHub confirms breach of 3,800 repos via malicious VSCode extension",
@@ -22,7 +41,7 @@
         "VSCode extension",
         "exfiltration"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "None of Starbucks' 'Widely Recyclable' Cups Ended Up at a Recycling Facility",
@@ -41,7 +60,7 @@
         "recyclable cups",
         "recycling"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "How fast is N tokens per second really?",
@@ -51,8 +70,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 207,
-      "score": 28,
+      "hn_points": 311,
+      "score": 30,
       "category": "other",
       "keywords": [
         "tokens per second",
@@ -60,7 +79,7 @@
         "Llama 3",
         "GPT OSS 120B"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Incident Report: May 19, 2026 – GCP Account Suspension",
@@ -79,7 +98,7 @@
         "GCP",
         "GCP account suspension"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Saying Goodbye to Asm.js",
@@ -98,7 +117,7 @@
         "WebAssembly",
         "Emscripten"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Google's AI is being manipulated. The search giant is quietly fighting back",
@@ -117,7 +136,7 @@
         "Google Search",
         "LLMs"
       ],
-      "rank": 6
+      "rank": 7
     }
   ]
 }
