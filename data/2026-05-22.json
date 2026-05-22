@@ -1,9 +1,9 @@
 {
   "date": "2026-05-22",
   "total_feeds": 95,
-  "success_feeds": 87,
-  "total_articles": 3287,
-  "filtered_articles": 33,
+  "success_feeds": 89,
+  "total_articles": 3317,
+  "filtered_articles": 35,
   "articles": [
     {
       "title": "Blog ran on Ubuntu 16.04 for 10 years. I migrated it to FreeBSD",
