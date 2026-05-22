@@ -1,10 +1,29 @@
 {
   "date": "2026-05-22",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3317,
-  "filtered_articles": 29,
+  "success_feeds": 88,
+  "total_articles": 3292,
+  "filtered_articles": 31,
   "articles": [
+    {
+      "title": "Cleve Moler (Matlab, MathWorks) passed away on May 20, 2026",
+      "title_display": "Cleve Moler (Matlab, MathWorks) passed away on May 20, 2026",
+      "link": "https://www.mathworks.com/company/aboutus/founders/clevemoler.html",
+      "pub_date": "2026-05-22T06:21:00.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 148,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Cleve Moler",
+        "MATLAB",
+        "MathWorks",
+        "Julia"
+      ],
+      "rank": 1
+    },
     {
       "title": "Samsung chip workers will get an average $340k bonus as AI profits soar",
       "title_display": "Samsung chip workers will get an average $340k bonus as AI profits soar",
@@ -22,7 +41,7 @@
         "AI",
         "chips"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Uv is fantastic, but its package management UX is a mess",
@@ -32,8 +51,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 135,
-      "score": 26,
+      "hn_points": 237,
+      "score": 29,
       "category": "other",
       "keywords": [
         "uv",
@@ -41,7 +60,7 @@
         "Python",
         "dependency resolution"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Blog ran on Ubuntu 16.04 for 10 years. I migrated it to FreeBSD",
@@ -60,7 +79,7 @@
         "Linux",
         "migration"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Spotify will start reserving concert tickets for fans",
@@ -79,7 +98,7 @@
         "Ticketmaster",
         "scalping"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "BBEdit 16",
@@ -98,7 +117,7 @@
         "Bare Bones Software",
         "macOS"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Was my $48K GPU server worth it?",
@@ -117,7 +136,7 @@
         "Gemma4:31b",
         "RTX 6000 Pro"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Amazon, Facebook, FBI have access to a private intelligence-sharing network",
@@ -136,7 +155,7 @@
         "Facebook",
         "FBI"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Project Hail Mary – Stellar Navigation Chart",
@@ -155,7 +174,7 @@
         "gaia-mary",
         "valhovey"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "US employers spend more than $1.5B a year to fight labor unions, report finds",
@@ -174,7 +193,7 @@
         "Economic Policy Institute",
         "union-busting"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Show HN: Rmux – A programmable terminal multiplexer with a Playwright-style SDK",
@@ -193,7 +212,7 @@
         "Playwright",
         "tmux"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "New features in GCC 16: Improved error messages and SARIF output",
@@ -212,7 +231,7 @@
         "C++",
         "C++20"
       ],
-      "rank": 11
+      "rank": 12
     }
   ]
 }
