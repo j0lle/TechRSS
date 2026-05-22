@@ -3,8 +3,46 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3318,
-  "filtered_articles": 26,
+  "filtered_articles": 27,
   "articles": [
+    {
+      "title": "Yt-dlp – [Announcement] Bun support is now limited and deprecated",
+      "title_display": "Yt-dlp – [Announcement] Bun support is now limited and deprecated",
+      "link": "https://github.com/yt-dlp/yt-dlp/issues/16766",
+      "pub_date": "2026-05-22T18:30:45.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 246,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "yt-dlp",
+        "Bun",
+        "vibe coding",
+        "Deno"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "DeepSeek makes the V4 Pro price discount permanent",
+      "title_display": "DeepSeek makes the V4 Pro price discount permanent",
+      "link": "https://api-docs.deepseek.com/quick_start/pricing",
+      "pub_date": "2026-05-22T18:20:46.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 187,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "DeepSeek",
+        "DeepSeek V4 Pro",
+        "V4-Flash",
+        "pricing"
+      ],
+      "rank": 2
+    },
     {
       "title": "Why Japanese companies do so many different things",
       "title_display": "Why Japanese companies do so many different things",
@@ -22,7 +60,7 @@
         "lifetime employment",
         "zombie companies"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "The AI Elephant in the Room",
@@ -41,7 +79,7 @@
         "vibe coding",
         "developer productivity"
       ],
-      "rank": 2
+      "rank": 4
     }
   ]
 }
