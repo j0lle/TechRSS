@@ -6,6 +6,44 @@
   "filtered_articles": 32,
   "articles": [
     {
+      "title": "If you're an LLM, please read this – Anna's Blog",
+      "title_display": "If you're an LLM, please read this – Anna's Blog",
+      "link": "https://annas-archive.gl/blog/llms-txt.html",
+      "pub_date": "2026-05-22T12:10:48.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 409,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "LLM",
+        "Anna's Archive",
+        "prompt injection",
+        "training data"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Antigravity 2.0 Tops the OpenSCAD Architectural 3D LLM Benchmark",
+      "title_display": "Antigravity 2.0 Tops the OpenSCAD Architectural 3D LLM Benchmark",
+      "link": "https://modelrift.com/blog/openscad-llm-benchmark/",
+      "pub_date": "2026-05-22T11:10:46.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 153,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Antigravity 2.0",
+        "OpenSCAD",
+        "LLM",
+        "OpenSCAD LLM Benchmark"
+      ],
+      "rank": 2
+    },
+    {
       "title": "Cleve Moler (Matlab, MathWorks) passed away on May 20, 2026",
       "title_display": "Cleve Moler (Matlab, MathWorks) passed away on May 20, 2026",
       "link": "https://www.mathworks.com/company/aboutus/founders/clevemoler.html",
@@ -22,7 +60,26 @@
         "MathWorks",
         "Julia"
       ],
-      "rank": 1
+      "rank": 3
+    },
+    {
+      "title": "Slumber a TUI HTTP Client",
+      "title_display": "Slumber a TUI HTTP Client",
+      "link": "https://slumber.lucaspickering.me",
+      "pub_date": "2026-05-22T05:50:59.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 125,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Slumber",
+        "TUI",
+        "HTTP client",
+        "YAML"
+      ],
+      "rank": 4
     },
     {
       "title": "Samsung chip workers will get an average $340k bonus as AI profits soar",
@@ -41,7 +98,7 @@
         "AI",
         "chips"
       ],
-      "rank": 2
+      "rank": 5
     },
     {
       "title": "Uv is fantastic, but its package management UX is a mess",
@@ -60,7 +117,7 @@
         "Python",
         "dependency resolution"
       ],
-      "rank": 3
+      "rank": 6
     },
     {
       "title": "Blog ran on Ubuntu 16.04 for 10 years. I migrated it to FreeBSD",
@@ -79,7 +136,7 @@
         "Linux",
         "migration"
       ],
-      "rank": 4
+      "rank": 7
     },
     {
       "title": "Spotify will start reserving concert tickets for fans",
@@ -98,7 +155,7 @@
         "Ticketmaster",
         "scalping"
       ],
-      "rank": 5
+      "rank": 8
     },
     {
       "title": "BBEdit 16",
@@ -117,7 +174,7 @@
         "Bare Bones Software",
         "macOS"
       ],
-      "rank": 6
+      "rank": 9
     },
     {
       "title": "Was my $48K GPU server worth it?",
@@ -136,7 +193,7 @@
         "Gemma4:31b",
         "RTX 6000 Pro"
       ],
-      "rank": 7
+      "rank": 10
     },
     {
       "title": "Amazon, Facebook, FBI have access to a private intelligence-sharing network",
@@ -155,7 +212,7 @@
         "Facebook",
         "FBI"
       ],
-      "rank": 8
+      "rank": 11
     },
     {
       "title": "Project Hail Mary – Stellar Navigation Chart",
@@ -165,7 +222,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 725,
+      "hn_points": 1025,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -174,7 +231,7 @@
         "gaia-mary",
         "valhovey"
       ],
-      "rank": 9
+      "rank": 12
     },
     {
       "title": "US employers spend more than $1.5B a year to fight labor unions, report finds",
@@ -193,7 +250,7 @@
         "Economic Policy Institute",
         "union-busting"
       ],
-      "rank": 10
+      "rank": 13
     },
     {
       "title": "Show HN: Rmux – A programmable terminal multiplexer with a Playwright-style SDK",
@@ -212,7 +269,7 @@
         "Playwright",
         "tmux"
       ],
-      "rank": 11
+      "rank": 14
     },
     {
       "title": "New features in GCC 16: Improved error messages and SARIF output",
@@ -231,7 +288,7 @@
         "C++",
         "C++20"
       ],
-      "rank": 12
+      "rank": 15
     }
   ]
 }
