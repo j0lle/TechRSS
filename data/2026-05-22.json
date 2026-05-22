@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3317,
-  "filtered_articles": 41,
+  "filtered_articles": 34,
   "articles": [
     {
       "title": "Blog ran on Ubuntu 16.04 for 10 years. I migrated it to FreeBSD",
@@ -51,8 +51,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 149,
-      "score": 26,
+      "hn_points": 263,
+      "score": 29,
       "category": "other",
       "keywords": [
         "GPU server",
