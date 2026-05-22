@@ -3,8 +3,46 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3317,
-  "filtered_articles": 35,
+  "filtered_articles": 37,
   "articles": [
+    {
+      "title": "Samsung chip workers will get an average $340k bonus as AI profits soar",
+      "title_display": "Samsung chip workers will get an average $340k bonus as AI profits soar",
+      "link": "https://qz.com/samsung-chip-workers-bonus-ai-profits-052126",
+      "pub_date": "2026-05-22T03:40:59.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 186,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "Samsung",
+        "bonuses",
+        "AI",
+        "chips"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Uv is fantastic, but its package management UX is a mess",
+      "title_display": "Uv is fantastic, but its package management UX is a mess",
+      "link": "https://www.loopwerk.io/articles/2026/uv-ux-mess/",
+      "pub_date": "2026-05-21T23:50:58.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 135,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "uv",
+        "package management",
+        "Python",
+        "dependency resolution"
+      ],
+      "rank": 2
+    },
     {
       "title": "Blog ran on Ubuntu 16.04 for 10 years. I migrated it to FreeBSD",
       "title_display": "Blog ran on Ubuntu 16.04 for 10 years. I migrated it to FreeBSD",
@@ -13,8 +51,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 131,
-      "score": 26,
+      "hn_points": 232,
+      "score": 29,
       "category": "other",
       "keywords": [
         "FreeBSD",
@@ -22,7 +60,26 @@
         "Linux",
         "migration"
       ],
-      "rank": 1
+      "rank": 3
+    },
+    {
+      "title": "Spotify will start reserving concert tickets for fans",
+      "title_display": "Spotify will start reserving concert tickets for fans",
+      "link": "https://www.hollywoodreporter.com/music/music-industry-news/spotify-will-start-reserving-concert-tickets-for-superfans-1236603106/",
+      "pub_date": "2026-05-21T18:40:58.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 126,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Spotify",
+        "concert tickets",
+        "Ticketmaster",
+        "scalping"
+      ],
+      "rank": 4
     },
     {
       "title": "BBEdit 16",
@@ -41,7 +98,7 @@
         "Bare Bones Software",
         "macOS"
       ],
-      "rank": 2
+      "rank": 5
     },
     {
       "title": "Was my $48K GPU server worth it?",
@@ -51,8 +108,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 263,
-      "score": 29,
+      "hn_points": 367,
+      "score": 30,
       "category": "other",
       "keywords": [
         "GPU server",
@@ -60,7 +117,7 @@
         "Gemma4:31b",
         "RTX 6000 Pro"
       ],
-      "rank": 3
+      "rank": 6
     },
     {
       "title": "Amazon, Facebook, FBI have access to a private intelligence-sharing network",
@@ -79,7 +136,7 @@
         "Facebook",
         "FBI"
       ],
-      "rank": 4
+      "rank": 7
     },
     {
       "title": "Project Hail Mary – Stellar Navigation Chart",
@@ -89,7 +146,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 407,
+      "hn_points": 725,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -98,7 +155,7 @@
         "gaia-mary",
         "valhovey"
       ],
-      "rank": 5
+      "rank": 8
     },
     {
       "title": "US employers spend more than $1.5B a year to fight labor unions, report finds",
@@ -117,7 +174,7 @@
         "Economic Policy Institute",
         "union-busting"
       ],
-      "rank": 6
+      "rank": 9
     },
     {
       "title": "Show HN: Rmux – A programmable terminal multiplexer with a Playwright-style SDK",
@@ -136,7 +193,7 @@
         "Playwright",
         "tmux"
       ],
-      "rank": 7
+      "rank": 10
     },
     {
       "title": "New features in GCC 16: Improved error messages and SARIF output",
@@ -155,7 +212,7 @@
         "C++",
         "C++20"
       ],
-      "rank": 8
+      "rank": 11
     }
   ]
 }
