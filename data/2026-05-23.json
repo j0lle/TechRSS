@@ -6,6 +6,25 @@
   "filtered_articles": 31,
   "articles": [
     {
+      "title": "Open source Kanban desktop app that runs parallel agents on every card",
+      "title_display": "Open source Kanban desktop app that runs parallel agents on every card",
+      "link": "https://www.kanbots.dev/",
+      "pub_date": "2026-05-22T18:30:46.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 133,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Kanbots",
+        "agents",
+        "Kanban",
+        "open-source"
+      ],
+      "rank": 1
+    },
+    {
       "title": "Yt-dlp – [Announcement] Bun support is now limited and deprecated",
       "title_display": "Yt-dlp – [Announcement] Bun support is now limited and deprecated",
       "link": "https://github.com/yt-dlp/yt-dlp/issues/16766",
@@ -22,7 +41,7 @@
         "vibe coding",
         "Deno"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "DeepSeek makes the V4 Pro price discount permanent",
@@ -41,7 +60,7 @@
         "V4-Flash",
         "pricing"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Why Japanese companies do so many different things",
@@ -60,7 +79,7 @@
         "lifetime employment",
         "zombie companies"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "The AI Elephant in the Room",
@@ -79,7 +98,7 @@
         "vibe coding",
         "developer productivity"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Show HN: ShadowCat – file transfer through QR Codes in a Browser",
@@ -98,7 +117,7 @@
         "Browser",
         "camera"
       ],
-      "rank": 5
+      "rank": 6
     }
   ]
 }
