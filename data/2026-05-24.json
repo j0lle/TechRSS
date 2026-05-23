@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3324,
-  "filtered_articles": 24,
+  "filtered_articles": 25,
   "articles": [
     {
       "title": "Oura says it gets government demands for user data. Will it share how many?",
@@ -44,6 +44,25 @@
       "rank": 2
     },
     {
+      "title": "Improving C# Memory Safety",
+      "title_display": "Improving C# Memory Safety",
+      "link": "https://devblogs.microsoft.com/dotnet/improving-csharp-memory-safety/",
+      "pub_date": "2026-05-23T12:10:16.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 129,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "C#",
+        "memory safety",
+        ".NET",
+        "unsafe keyword"
+      ],
+      "rank": 3
+    },
+    {
       "title": "Making Deep Learning Go Brrrr from First Principles",
       "title_display": "Making Deep Learning Go Brrrr from First Principles",
       "link": "https://horace.io/brrr_intro.html",
@@ -60,7 +79,7 @@
         "FLOPS",
         "Python"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Rubish: A Unix shell written in pure Ruby",
@@ -79,7 +98,7 @@
         "Unix shell",
         "piping"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Sp.h is the standard library that C deserves",
@@ -98,7 +117,7 @@
         "C99",
         "sp_allocator_t"
       ],
-      "rank": 5
+      "rank": 6
     }
   ]
 }
