@@ -1,10 +1,29 @@
 {
   "date": "2026-05-23",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3320,
-  "filtered_articles": 30,
+  "success_feeds": 88,
+  "total_articles": 3295,
+  "filtered_articles": 32,
   "articles": [
+    {
+      "title": "Shipping a Laptop to a Refugee Camp in Uganda",
+      "title_display": "Shipping a Laptop to a Refugee Camp in Uganda",
+      "link": "https://notesbylex.com/shipping-a-laptop-to-a-refugee-camp-in-uganda",
+      "pub_date": "2026-05-22T22:20:46.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 211,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "Uganda",
+        "refugee camp",
+        "laptop",
+        "shipping"
+      ],
+      "rank": 1
+    },
     {
       "title": "Open source Kanban desktop app that runs parallel agents on every card",
       "title_display": "Open source Kanban desktop app that runs parallel agents on every card",
@@ -22,7 +41,7 @@
         "Kanban",
         "open-source"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Yt-dlp – [Announcement] Bun support is now limited and deprecated",
@@ -41,7 +60,7 @@
         "vibe coding",
         "Deno"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "DeepSeek makes the V4 Pro price discount permanent",
@@ -60,7 +79,7 @@
         "V4-Flash",
         "pricing"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "How to convert between wealth and income tax",
@@ -79,7 +98,7 @@
         "Paul Graham",
         "capital gains"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Why Japanese companies do so many different things",
@@ -98,7 +117,7 @@
         "lifetime employment",
         "zombie companies"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "The AI Elephant in the Room",
@@ -117,7 +136,7 @@
         "vibe coding",
         "developer productivity"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Show HN: ShadowCat – file transfer through QR Codes in a Browser",
@@ -136,7 +155,7 @@
         "Browser",
         "camera"
       ],
-      "rank": 7
+      "rank": 8
     }
   ]
 }
