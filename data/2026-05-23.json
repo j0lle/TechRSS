@@ -25,6 +25,25 @@
       "rank": 1
     },
     {
+      "title": "Lawmakers Demand Answers as CISA Tries to Contain Data Leak",
+      "title_display": "Lawmakers Demand Answers as CISA Tries to Contain Data Leak",
+      "link": "https://krebsonsecurity.com/2026/05/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/",
+      "pub_date": "2026-05-22T21:30:46.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 160,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "CISA",
+        "data leak",
+        "KrebsOnSecurity",
+        "lawmakers"
+      ],
+      "rank": 2
+    },
+    {
       "title": "Open source Kanban desktop app that runs parallel agents on every card",
       "title_display": "Open source Kanban desktop app that runs parallel agents on every card",
       "link": "https://www.kanbots.dev/",
@@ -41,7 +60,7 @@
         "Kanban",
         "open-source"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Yt-dlp – [Announcement] Bun support is now limited and deprecated",
@@ -60,7 +79,7 @@
         "vibe coding",
         "Deno"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "DeepSeek makes the V4 Pro price discount permanent",
@@ -79,7 +98,7 @@
         "V4-Flash",
         "pricing"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "How to convert between wealth and income tax",
@@ -98,7 +117,7 @@
         "Paul Graham",
         "capital gains"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Why Japanese companies do so many different things",
@@ -117,7 +136,7 @@
         "lifetime employment",
         "zombie companies"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "The AI Elephant in the Room",
@@ -136,7 +155,7 @@
         "vibe coding",
         "developer productivity"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Show HN: ShadowCat – file transfer through QR Codes in a Browser",
@@ -155,7 +174,7 @@
         "Browser",
         "camera"
       ],
-      "rank": 8
+      "rank": 9
     }
   ]
 }
