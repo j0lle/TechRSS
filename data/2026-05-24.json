@@ -2,8 +2,8 @@
   "date": "2026-05-24",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3322,
-  "filtered_articles": 23,
+  "total_articles": 3324,
+  "filtered_articles": 24,
   "articles": [
     {
       "title": "Oura says it gets government demands for user data. Will it share how many?",
@@ -44,6 +44,25 @@
       "rank": 2
     },
     {
+      "title": "Making Deep Learning Go Brrrr from First Principles",
+      "title_display": "Making Deep Learning Go Brrrr from First Principles",
+      "link": "https://horace.io/brrr_intro.html",
+      "pub_date": "2026-05-23T12:10:13.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 124,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "deep learning",
+        "GPU",
+        "FLOPS",
+        "Python"
+      ],
+      "rank": 3
+    },
+    {
       "title": "Rubish: A Unix shell written in pure Ruby",
       "title_display": "Rubish: A Unix shell written in pure Ruby",
       "link": "https://github.com/amatsuda/rubish",
@@ -60,7 +79,7 @@
         "Unix shell",
         "piping"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Sp.h is the standard library that C deserves",
@@ -79,7 +98,7 @@
         "C99",
         "sp_allocator_t"
       ],
-      "rank": 4
+      "rank": 5
     }
   ]
 }
