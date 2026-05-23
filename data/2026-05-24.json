@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3322,
-  "filtered_articles": 22,
+  "filtered_articles": 23,
   "articles": [
     {
       "title": "Oura says it gets government demands for user data. Will it share how many?",
@@ -61,6 +61,25 @@
         "piping"
       ],
       "rank": 3
+    },
+    {
+      "title": "Sp.h is the standard library that C deserves",
+      "title_display": "Sp.h is the standard library that C deserves",
+      "link": "https://spader.zone/sp/",
+      "pub_date": "2026-05-23T04:50:15.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 134,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "sp.h",
+        "C",
+        "C99",
+        "sp_allocator_t"
+      ],
+      "rank": 4
     }
   ]
 }
