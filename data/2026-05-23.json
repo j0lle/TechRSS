@@ -1,10 +1,29 @@
 {
   "date": "2026-05-23",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3321,
-  "filtered_articles": 34,
+  "success_feeds": 86,
+  "total_articles": 3254,
+  "filtered_articles": 36,
   "articles": [
+    {
+      "title": "FBI director's Based Apparel site has been spotted hosting a 'ClickFix' attack",
+      "title_display": "FBI director's Based Apparel site has been spotted hosting a 'ClickFix' attack",
+      "link": "https://www.pcmag.com/news/kash-patels-apparel-site-is-trying-to-trick-visitors-into-installing-malware",
+      "pub_date": "2026-05-23T01:30:45.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 130,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "BasedApparel.com",
+        "ClickFix",
+        "Kash Patel",
+        "malware"
+      ],
+      "rank": 1
+    },
     {
       "title": "Sleep research led to a new sleep apnea drug",
       "title_display": "Sleep research led to a new sleep apnea drug",
@@ -22,7 +41,7 @@
         "OSA",
         "CPAP"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Shipping a Laptop to a Refugee Camp in Uganda",
@@ -41,7 +60,7 @@
         "laptop",
         "shipping"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Lawmakers Demand Answers as CISA Tries to Contain Data Leak",
@@ -60,7 +79,7 @@
         "KrebsOnSecurity",
         "lawmakers"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Models.dev: open-source database of AI model specs, pricing, and capabilities",
@@ -79,7 +98,7 @@
         "pricing",
         "model-specs"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Open source Kanban desktop app that runs parallel agents on every card",
@@ -98,7 +117,7 @@
         "Kanban",
         "open-source"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Yt-dlp – [Announcement] Bun support is now limited and deprecated",
@@ -117,7 +136,7 @@
         "vibe coding",
         "Deno"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "DeepSeek makes the V4 Pro price discount permanent",
@@ -136,7 +155,7 @@
         "V4-Flash",
         "pricing"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Microsoft Drops Claude Code After Budget Overrun",
@@ -155,7 +174,7 @@
         "budget overrun",
         "Anthropic"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "How to convert between wealth and income tax",
@@ -174,7 +193,7 @@
         "Paul Graham",
         "capital gains"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Why Japanese companies do so many different things",
@@ -193,7 +212,7 @@
         "lifetime employment",
         "zombie companies"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "The AI Elephant in the Room",
@@ -212,7 +231,7 @@
         "vibe coding",
         "developer productivity"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "Show HN: ShadowCat – file transfer through QR Codes in a Browser",
@@ -231,7 +250,7 @@
         "Browser",
         "camera"
       ],
-      "rank": 12
+      "rank": 13
     }
   ]
 }
