@@ -2,8 +2,8 @@
   "date": "2026-05-23",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3320,
-  "filtered_articles": 31,
+  "total_articles": 3321,
+  "filtered_articles": 33,
   "articles": [
     {
       "title": "Shipping a Laptop to a Refugee Camp in Uganda",
@@ -13,8 +13,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 211,
-      "score": 28,
+      "hn_points": 320,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Uganda",
@@ -120,6 +120,25 @@
       "rank": 6
     },
     {
+      "title": "Microsoft Drops Claude Code After Budget Overrun",
+      "title_display": "Microsoft Drops Claude Code After Budget Overrun",
+      "link": "https://aiweekly.co/alerts/microsoft-drops-claude-code-after-budget-overrun",
+      "pub_date": "2026-05-22T17:40:47.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 193,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "Microsoft",
+        "Claude Code",
+        "budget overrun",
+        "Anthropic"
+      ],
+      "rank": 7
+    },
+    {
       "title": "How to convert between wealth and income tax",
       "title_display": "How to convert between wealth and income tax",
       "link": "https://paulgraham.com/winc.html",
@@ -136,7 +155,7 @@
         "Paul Graham",
         "capital gains"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Why Japanese companies do so many different things",
@@ -155,7 +174,7 @@
         "lifetime employment",
         "zombie companies"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "The AI Elephant in the Room",
@@ -174,7 +193,7 @@
         "vibe coding",
         "developer productivity"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Show HN: ShadowCat – file transfer through QR Codes in a Browser",
@@ -193,7 +212,7 @@
         "Browser",
         "camera"
       ],
-      "rank": 10
+      "rank": 11
     }
   ]
 }
