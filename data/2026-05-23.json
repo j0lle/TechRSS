@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3322,
-  "filtered_articles": 29,
+  "filtered_articles": 28,
   "articles": [
     {
       "title": "FBI director's Based Apparel site has been spotted hosting a 'ClickFix' attack",
@@ -108,8 +108,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 133,
-      "score": 26,
+      "hn_points": 235,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Kanbots",
