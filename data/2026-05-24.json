@@ -23,6 +23,25 @@
         "die shot"
       ],
       "rank": 1
+    },
+    {
+      "title": "Rubish: A Unix shell written in pure Ruby",
+      "title_display": "Rubish: A Unix shell written in pure Ruby",
+      "link": "https://github.com/amatsuda/rubish",
+      "pub_date": "2026-05-23T09:10:16.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 132,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Rubish",
+        "Ruby",
+        "Unix shell",
+        "piping"
+      ],
+      "rank": 2
     }
   ]
 }
