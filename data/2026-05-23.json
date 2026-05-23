@@ -2,8 +2,8 @@
   "date": "2026-05-23",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3318,
-  "filtered_articles": 29,
+  "total_articles": 3320,
+  "filtered_articles": 30,
   "articles": [
     {
       "title": "Open source Kanban desktop app that runs parallel agents on every card",
@@ -32,8 +32,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 246,
-      "score": 29,
+      "hn_points": 354,
+      "score": 30,
       "category": "other",
       "keywords": [
         "yt-dlp",
