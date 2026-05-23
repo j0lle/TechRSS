@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3321,
-  "filtered_articles": 33,
+  "filtered_articles": 34,
   "articles": [
+    {
+      "title": "Sleep research led to a new sleep apnea drug",
+      "title_display": "Sleep research led to a new sleep apnea drug",
+      "link": "https://temertymedicine.utoronto.ca/news/how-decades-sleep-research-led-new-sleep-apnea-drug",
+      "pub_date": "2026-05-22T23:40:45.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 136,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "AD109",
+        "sleep apnea",
+        "OSA",
+        "CPAP"
+      ],
+      "rank": 1
+    },
     {
       "title": "Shipping a Laptop to a Refugee Camp in Uganda",
       "title_display": "Shipping a Laptop to a Refugee Camp in Uganda",
@@ -22,7 +41,7 @@
         "laptop",
         "shipping"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Lawmakers Demand Answers as CISA Tries to Contain Data Leak",
@@ -41,7 +60,7 @@
         "KrebsOnSecurity",
         "lawmakers"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Models.dev: open-source database of AI model specs, pricing, and capabilities",
@@ -60,7 +79,7 @@
         "pricing",
         "model-specs"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Open source Kanban desktop app that runs parallel agents on every card",
@@ -79,7 +98,7 @@
         "Kanban",
         "open-source"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Yt-dlp – [Announcement] Bun support is now limited and deprecated",
@@ -98,7 +117,7 @@
         "vibe coding",
         "Deno"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "DeepSeek makes the V4 Pro price discount permanent",
@@ -117,7 +136,7 @@
         "V4-Flash",
         "pricing"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Microsoft Drops Claude Code After Budget Overrun",
@@ -136,7 +155,7 @@
         "budget overrun",
         "Anthropic"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "How to convert between wealth and income tax",
@@ -155,7 +174,7 @@
         "Paul Graham",
         "capital gains"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Why Japanese companies do so many different things",
@@ -174,7 +193,7 @@
         "lifetime employment",
         "zombie companies"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "The AI Elephant in the Room",
@@ -193,7 +212,7 @@
         "vibe coding",
         "developer productivity"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "Show HN: ShadowCat – file transfer through QR Codes in a Browser",
@@ -212,7 +231,7 @@
         "Browser",
         "camera"
       ],
-      "rank": 11
+      "rank": 12
     }
   ]
 }
