@@ -1,9 +1,9 @@
 {
   "date": "2026-05-23",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3295,
-  "filtered_articles": 32,
+  "success_feeds": 89,
+  "total_articles": 3320,
+  "filtered_articles": 31,
   "articles": [
     {
       "title": "Shipping a Laptop to a Refugee Camp in Uganda",
@@ -44,6 +44,25 @@
       "rank": 2
     },
     {
+      "title": "Models.dev: open-source database of AI model specs, pricing, and capabilities",
+      "title_display": "Models.dev: open-source database of AI model specs, pricing, and capabilities",
+      "link": "https://github.com/anomalyco/models.dev",
+      "pub_date": "2026-05-22T20:40:45.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 124,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "models.dev",
+        "AI models",
+        "pricing",
+        "model-specs"
+      ],
+      "rank": 3
+    },
+    {
       "title": "Open source Kanban desktop app that runs parallel agents on every card",
       "title_display": "Open source Kanban desktop app that runs parallel agents on every card",
       "link": "https://www.kanbots.dev/",
@@ -60,7 +79,7 @@
         "Kanban",
         "open-source"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Yt-dlp – [Announcement] Bun support is now limited and deprecated",
@@ -79,7 +98,7 @@
         "vibe coding",
         "Deno"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "DeepSeek makes the V4 Pro price discount permanent",
@@ -98,7 +117,7 @@
         "V4-Flash",
         "pricing"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "How to convert between wealth and income tax",
@@ -117,7 +136,7 @@
         "Paul Graham",
         "capital gains"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Why Japanese companies do so many different things",
@@ -136,7 +155,7 @@
         "lifetime employment",
         "zombie companies"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "The AI Elephant in the Room",
@@ -155,7 +174,7 @@
         "vibe coding",
         "developer productivity"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Show HN: ShadowCat – file transfer through QR Codes in a Browser",
@@ -174,7 +193,7 @@
         "Browser",
         "camera"
       ],
-      "rank": 9
+      "rank": 10
     }
   ]
 }
