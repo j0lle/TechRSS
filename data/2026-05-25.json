@@ -6,6 +6,25 @@
   "filtered_articles": 30,
   "articles": [
     {
+      "title": "Claude Is Not Your Architect. Stop Letting It Pretend",
+      "title_display": "Claude Is Not Your Architect. Stop Letting It Pretend",
+      "link": "https://www.hollandtech.net/claude-is-not-your-architect/",
+      "pub_date": "2026-05-24T19:20:42.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 192,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "Claude",
+        "AI",
+        "LLM",
+        "AI agents"
+      ],
+      "rank": 1
+    },
+    {
       "title": "Memory has grown to nearly two-thirds of AI chip component costs",
       "title_display": "Memory has grown to nearly two-thirds of AI chip component costs",
       "link": "https://epoch.ai/data-insights/ai-chip-component-cost-shares",
@@ -22,7 +41,7 @@
         "DRAM",
         "DDR5"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Usborne 1980s Computer Books",
@@ -41,7 +60,7 @@
         "OldBasic",
         "JavaScript"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Constraint Decay: The Fragility of LLM Agents in Back End Code Generation",
@@ -60,7 +79,7 @@
         "backend code generation",
         "programming"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "DeepSeek reasonix, DeepSeek native coding agent with high caching and low cost",
@@ -79,7 +98,7 @@
         "DeepSeek V4 Pro",
         "caching"
       ],
-      "rank": 4
+      "rank": 5
     }
   ]
 }
