@@ -3,8 +3,65 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3324,
-  "filtered_articles": 24,
+  "filtered_articles": 28,
   "articles": [
+    {
+      "title": "Memory has grown to nearly two-thirds of AI chip component costs",
+      "title_display": "Memory has grown to nearly two-thirds of AI chip component costs",
+      "link": "https://epoch.ai/data-insights/ai-chip-component-cost-shares",
+      "pub_date": "2026-05-24T17:10:45.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 190,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "Memory",
+        "AI chips",
+        "DRAM",
+        "DDR5"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Usborne 1980s Computer Books",
+      "title_display": "Usborne 1980s Computer Books",
+      "link": "https://usborne.com/us/books/computer-and-coding-books",
+      "pub_date": "2026-05-24T16:10:44.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 125,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Usborne",
+        "BASIC",
+        "OldBasic",
+        "JavaScript"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "Constraint Decay: The Fragility of LLM Agents in Back End Code Generation",
+      "title_display": "Constraint Decay: The Fragility of LLM Agents in Back End Code Generation",
+      "link": "https://arxiv.org/abs/2605.06445",
+      "pub_date": "2026-05-24T14:50:45.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 131,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "LLM agents",
+        "Constraint Decay",
+        "backend code generation",
+        "programming"
+      ],
+      "rank": 3
+    },
     {
       "title": "DeepSeek reasonix, DeepSeek native coding agent with high caching and low cost",
       "title_display": "DeepSeek reasonix, DeepSeek native coding agent with high caching and low cost",
@@ -13,8 +70,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 158,
-      "score": 27,
+      "hn_points": 286,
+      "score": 30,
       "category": "other",
       "keywords": [
         "DeepSeek",
@@ -22,7 +79,7 @@
         "DeepSeek V4 Pro",
         "caching"
       ],
-      "rank": 1
+      "rank": 4
     }
   ]
 }
