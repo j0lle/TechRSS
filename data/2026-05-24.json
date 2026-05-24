@@ -6,10 +6,29 @@
   "filtered_articles": 18,
   "articles": [
     {
-      "title": "Microsoft open-sources \"the earliest DOS source code discovered to date\"",
-      "title_display": "Microsoft open-sources \"the earliest DOS source code discovered to date\"",
-      "link": "https://arstechnica.com/gadgets/2026/04/microsoft-open-sources-the-earliest-dos-source-code-discovered-to-date/",
-      "pub_date": "2026-05-24T01:30:48.000Z",
+      "title": "Amazon Web Services – Four Years and Out",
+      "title_display": "Amazon Web Services – Four Years and Out",
+      "link": "https://www.adventuresinoss.com/aws-four-years/",
+      "pub_date": "2026-05-24T05:10:46.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 189,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "Amazon Web Services",
+        "AWS",
+        "Amazon",
+        "GenAI"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Why Is Vivado 2026.1 Dropping Linux Support for Free Tier?",
+      "title_display": "Why Is Vivado 2026.1 Dropping Linux Support for Free Tier?",
+      "link": "https://adaptivesupport.amd.com/s/question/0D5Pd00001YQLdMKAX/why-is-vivado-20261-dropping-linux-support-for-free-tier-?language=en_US",
+      "pub_date": "2026-05-24T04:50:46.000Z",
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
@@ -17,12 +36,31 @@
       "score": 26,
       "category": "other",
       "keywords": [
+        "Vivado",
+        "AMD",
+        "Linux",
+        "Xilinx"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "Microsoft open-sources \"the earliest DOS source code discovered to date\"",
+      "title_display": "Microsoft open-sources \"the earliest DOS source code discovered to date\"",
+      "link": "https://arstechnica.com/gadgets/2026/04/microsoft-open-sources-the-earliest-dos-source-code-discovered-to-date/",
+      "pub_date": "2026-05-24T01:30:48.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 243,
+      "score": 29,
+      "category": "other",
+      "keywords": [
         "DOS",
         "Microsoft",
         "open-source",
         "source code"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "Oura says it gets government demands for user data. Will it share how many?",
@@ -41,7 +79,7 @@
         "user data",
         "health data"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "80386 Microcode Disassembled",
@@ -60,7 +98,7 @@
         "reverse engineering",
         "die shot"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "Improving C# Memory Safety",
@@ -79,7 +117,7 @@
         ".NET",
         "unsafe keyword"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "Making Deep Learning Go Brrrr from First Principles",
@@ -98,7 +136,7 @@
         "FLOPS",
         "Python"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "Rubish: A Unix shell written in pure Ruby",
@@ -117,7 +155,7 @@
         "Unix shell",
         "piping"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "The Quadratic Sandwich",
@@ -136,7 +174,7 @@
         "sandwich theorem",
         "Simplex"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "Sp.h is the standard library that C deserves",
@@ -155,7 +193,7 @@
         "C99",
         "sp_allocator_t"
       ],
-      "rank": 8
+      "rank": 10
     }
   ]
 }
