@@ -2,8 +2,8 @@
   "date": "2026-05-24",
   "total_feeds": 95,
   "success_feeds": 88,
-  "total_articles": 3312,
-  "filtered_articles": 17,
+  "total_articles": 3313,
+  "filtered_articles": 19,
   "articles": [
     {
       "title": "Oura says it gets government demands for user data. Will it share how many?",
@@ -32,8 +32,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 131,
-      "score": 26,
+      "hn_points": 231,
+      "score": 29,
       "category": "other",
       "keywords": [
         "80386",
@@ -101,6 +101,25 @@
       "rank": 5
     },
     {
+      "title": "The Quadratic Sandwich",
+      "title_display": "The Quadratic Sandwich",
+      "link": "https://fedemagnani.github.io/math/2026/04/08/the-quadratic-sandwich.html",
+      "pub_date": "2026-05-23T07:30:19.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 126,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "quadratic",
+        "math",
+        "sandwich theorem",
+        "Simplex"
+      ],
+      "rank": 6
+    },
+    {
       "title": "Sp.h is the standard library that C deserves",
       "title_display": "Sp.h is the standard library that C deserves",
       "link": "https://spader.zone/sp/",
@@ -117,7 +136,7 @@
         "C99",
         "sp_allocator_t"
       ],
-      "rank": 6
+      "rank": 7
     }
   ]
 }
