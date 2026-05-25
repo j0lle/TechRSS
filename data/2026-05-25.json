@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3329,
-  "filtered_articles": 27,
+  "filtered_articles": 26,
   "articles": [
     {
       "title": "The Eternal Sloptember",
@@ -44,6 +44,25 @@
       "rank": 2
     },
     {
+      "title": "Defeating Git Rigour Fatigue with Jujutsu",
+      "title_display": "Defeating Git Rigour Fatigue with Jujutsu",
+      "link": "https://ikesau.co/blog/defeating-git-rigour-fatigue-with-jujutsu/",
+      "pub_date": "2026-05-24T21:10:44.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 126,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Jujutsu (jj)",
+        "git",
+        "git rebase -i",
+        "absorb"
+      ],
+      "rank": 3
+    },
+    {
       "title": "CBP Directive 3340-049B: Border Search of Electronic Devices",
       "title_display": "CBP Directive 3340-049B: Border Search of Electronic Devices",
       "link": "https://www.cbp.gov/document/directives/cbp-directive-no-3340-049b-border-search-electronic-devices",
@@ -60,7 +79,7 @@
         "Border search",
         "Electronic devices"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Claude Is Not Your Architect. Stop Letting It Pretend",
@@ -79,7 +98,7 @@
         "LLM",
         "AI agents"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Memory has grown to nearly two-thirds of AI chip component costs",
@@ -98,7 +117,7 @@
         "DRAM",
         "DDR5"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Usborne 1980s Computer Books",
@@ -117,7 +136,7 @@
         "OldBasic",
         "JavaScript"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Constraint Decay: The Fragility of LLM Agents in Back End Code Generation",
@@ -136,7 +155,7 @@
         "backend code generation",
         "programming"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "DeepSeek reasonix, DeepSeek native coding agent with high caching and low cost",
@@ -155,7 +174,7 @@
         "DeepSeek V4 Pro",
         "caching"
       ],
-      "rank": 8
+      "rank": 9
     }
   ]
 }
