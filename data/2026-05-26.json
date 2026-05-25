@@ -1,8 +1,8 @@
 {
   "date": "2026-05-26",
   "total_feeds": 95,
-  "success_feeds": 87,
-  "total_articles": 3250,
+  "success_feeds": 89,
+  "total_articles": 3330,
   "filtered_articles": 29,
   "articles": [
     {
@@ -13,8 +13,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 255,
-      "score": 29,
+      "hn_points": 474,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Linux",
@@ -44,6 +44,25 @@
       "rank": 2
     },
     {
+      "title": "C extensions, portability, and alternative compilers",
+      "title_display": "C extensions, portability, and alternative compilers",
+      "link": "https://lemon.rip/w/6-c-extensions-compilers/",
+      "pub_date": "2026-05-25T14:30:56.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 122,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "C",
+        "Compilers",
+        "Portability",
+        "glibc"
+      ],
+      "rank": 3
+    },
+    {
       "title": "Netherlands Seizes 800 Servers, Arrests 2 for Aiding Cyberattacks",
       "title_display": "Netherlands Seizes 800 Servers, Arrests 2 for Aiding Cyberattacks",
       "link": "https://krebsonsecurity.com/2026/05/netherlands-seizes-800-servers-arrests-2-for-aiding-cyberattacks/",
@@ -60,7 +79,7 @@
         "Netherlands",
         "servers"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Leave Me Behind",
@@ -79,7 +98,7 @@
         "automation",
         "software development"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Bytecode VMs in surprising places (2024)",
@@ -98,7 +117,7 @@
         "regular expressions",
         "Russ Cox"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "I love my Bluetooth keyboard",
@@ -117,7 +136,7 @@
         "Logitech K480",
         "Logitech K380"
       ],
-      "rank": 6
+      "rank": 7
     }
   ]
 }
