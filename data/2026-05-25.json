@@ -1,10 +1,29 @@
 {
   "date": "2026-05-25",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3302,
-  "filtered_articles": 26,
+  "success_feeds": 89,
+  "total_articles": 3327,
+  "filtered_articles": 25,
   "articles": [
+    {
+      "title": "CBP Directive 3340-049B: Border Search of Electronic Devices",
+      "title_display": "CBP Directive 3340-049B: Border Search of Electronic Devices",
+      "link": "https://www.cbp.gov/document/directives/cbp-directive-no-3340-049b-border-search-electronic-devices",
+      "pub_date": "2026-05-24T21:00:42.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 136,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "CBP Directive 3340-049B",
+        "CBP",
+        "Border search",
+        "Electronic devices"
+      ],
+      "rank": 1
+    },
     {
       "title": "Claude Is Not Your Architect. Stop Letting It Pretend",
       "title_display": "Claude Is Not Your Architect. Stop Letting It Pretend",
@@ -22,7 +41,7 @@
         "LLM",
         "AI agents"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Memory has grown to nearly two-thirds of AI chip component costs",
@@ -41,7 +60,7 @@
         "DRAM",
         "DDR5"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Usborne 1980s Computer Books",
@@ -60,7 +79,7 @@
         "OldBasic",
         "JavaScript"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Constraint Decay: The Fragility of LLM Agents in Back End Code Generation",
@@ -79,7 +98,7 @@
         "backend code generation",
         "programming"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "DeepSeek reasonix, DeepSeek native coding agent with high caching and low cost",
@@ -98,7 +117,7 @@
         "DeepSeek V4 Pro",
         "caching"
       ],
-      "rank": 5
+      "rank": 6
     }
   ]
 }
