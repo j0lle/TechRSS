@@ -2,8 +2,8 @@
   "date": "2026-05-26",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3329,
-  "filtered_articles": 26,
+  "total_articles": 3330,
+  "filtered_articles": 30,
   "articles": [
     {
       "title": "Netherlands Seizes 800 Servers, Arrests 2 for Aiding Cyberattacks",
@@ -44,6 +44,25 @@
       "rank": 2
     },
     {
+      "title": "Bytecode VMs in surprising places (2024)",
+      "title_display": "Bytecode VMs in surprising places (2024)",
+      "link": "https://dubroy.com/blog/bytecode-vms-in-surprising-places/",
+      "pub_date": "2026-05-25T09:20:57.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 121,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "bytecode VM",
+        "virtual machine",
+        "regular expressions",
+        "Russ Cox"
+      ],
+      "rank": 3
+    },
+    {
       "title": "I love my Bluetooth keyboard",
       "title_display": "I love my Bluetooth keyboard",
       "link": "https://liquidbrain.net/blog/i-love-my-bluetooth-keyboard/",
@@ -60,7 +79,7 @@
         "Logitech K480",
         "Logitech K380"
       ],
-      "rank": 3
+      "rank": 4
     }
   ]
 }
