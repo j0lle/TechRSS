@@ -2,8 +2,8 @@
   "date": "2026-05-25",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3324,
-  "filtered_articles": 29,
+  "total_articles": 3327,
+  "filtered_articles": 26,
   "articles": [
     {
       "title": "Claude Is Not Your Architect. Stop Letting It Pretend",
@@ -32,8 +32,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 190,
-      "score": 28,
+      "hn_points": 292,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Memory",
