@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3329,
-  "filtered_articles": 28,
+  "filtered_articles": 31,
   "articles": [
     {
       "title": "The Eternal Sloptember",
@@ -25,6 +25,25 @@
       "rank": 1
     },
     {
+      "title": "White Rabbit – sub-nanosecond synchronization for large distributed systems",
+      "title_display": "White Rabbit – sub-nanosecond synchronization for large distributed systems",
+      "link": "https://ohwr.org/projects/white-rabbit/",
+      "pub_date": "2026-05-25T03:00:45.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 129,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "White Rabbit",
+        "sub-nanosecond synchronization",
+        "distributed systems",
+        "OHWR"
+      ],
+      "rank": 2
+    },
+    {
       "title": "A fundamental principle of aeronautical engineering has been overturned",
       "title_display": "A fundamental principle of aeronautical engineering has been overturned",
       "link": "https://www.wired.com/story/a-fundamental-principle-of-aeronautical-engineering-has-been-overturned/",
@@ -41,7 +60,7 @@
         "aerodynamic drag",
         "laminar-to-turbulent transition"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Defeating Git Rigour Fatigue with Jujutsu",
@@ -60,7 +79,7 @@
         "git rebase -i",
         "absorb"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "CBP Directive 3340-049B: Border Search of Electronic Devices",
@@ -79,7 +98,7 @@
         "Border search",
         "Electronic devices"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Claude Is Not Your Architect. Stop Letting It Pretend",
@@ -98,7 +117,7 @@
         "LLM",
         "AI agents"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Memory has grown to nearly two-thirds of AI chip component costs",
@@ -117,7 +136,7 @@
         "DRAM",
         "DDR5"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Usborne 1980s Computer Books",
@@ -136,7 +155,7 @@
         "OldBasic",
         "JavaScript"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Constraint Decay: The Fragility of LLM Agents in Back End Code Generation",
@@ -155,7 +174,7 @@
         "backend code generation",
         "programming"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "DeepSeek reasonix, DeepSeek native coding agent with high caching and low cost",
@@ -174,7 +193,7 @@
         "DeepSeek V4 Pro",
         "caching"
       ],
-      "rank": 9
+      "rank": 10
     }
   ]
 }
