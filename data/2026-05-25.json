@@ -2,9 +2,47 @@
   "date": "2026-05-25",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3327,
-  "filtered_articles": 25,
+  "total_articles": 3329,
+  "filtered_articles": 27,
   "articles": [
+    {
+      "title": "The Eternal Sloptember",
+      "title_display": "The Eternal Sloptember",
+      "link": "https://geohot.github.io//blog/jekyll/update/2026/05/24/the-eternal-sloptember.html",
+      "pub_date": "2026-05-25T04:30:54.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 259,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "AI",
+        "LLMs",
+        "agentic coding",
+        "transformers"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "A fundamental principle of aeronautical engineering has been overturned",
+      "title_display": "A fundamental principle of aeronautical engineering has been overturned",
+      "link": "https://www.wired.com/story/a-fundamental-principle-of-aeronautical-engineering-has-been-overturned/",
+      "pub_date": "2026-05-24T22:10:46.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 125,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "distributed micro-roughness (DMR)",
+        "aeronautical engineering",
+        "aerodynamic drag",
+        "laminar-to-turbulent transition"
+      ],
+      "rank": 2
+    },
     {
       "title": "CBP Directive 3340-049B: Border Search of Electronic Devices",
       "title_display": "CBP Directive 3340-049B: Border Search of Electronic Devices",
@@ -22,7 +60,7 @@
         "Border search",
         "Electronic devices"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "Claude Is Not Your Architect. Stop Letting It Pretend",
@@ -41,7 +79,7 @@
         "LLM",
         "AI agents"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "Memory has grown to nearly two-thirds of AI chip component costs",
@@ -60,7 +98,7 @@
         "DRAM",
         "DDR5"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "Usborne 1980s Computer Books",
@@ -79,7 +117,7 @@
         "OldBasic",
         "JavaScript"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "Constraint Decay: The Fragility of LLM Agents in Back End Code Generation",
@@ -98,7 +136,7 @@
         "backend code generation",
         "programming"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "DeepSeek reasonix, DeepSeek native coding agent with high caching and low cost",
@@ -117,7 +155,7 @@
         "DeepSeek V4 Pro",
         "caching"
       ],
-      "rank": 6
+      "rank": 8
     }
   ]
 }
