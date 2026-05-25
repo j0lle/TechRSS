@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3329,
-  "filtered_articles": 31,
+  "filtered_articles": 30,
   "articles": [
+    {
+      "title": "Magnifica Humanitas (Encyclical Letter)",
+      "title_display": "Magnifica Humanitas (Encyclical Letter)",
+      "link": "https://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.html",
+      "pub_date": "2026-05-25T10:50:54.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 295,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Magnifica Humanitas",
+        "Vatican",
+        "Encyclical",
+        "AI"
+      ],
+      "rank": 1
+    },
     {
       "title": "The Eternal Sloptember",
       "title_display": "The Eternal Sloptember",
@@ -22,7 +41,7 @@
         "agentic coding",
         "transformers"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "White Rabbit – sub-nanosecond synchronization for large distributed systems",
@@ -41,7 +60,7 @@
         "distributed systems",
         "OHWR"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "A fundamental principle of aeronautical engineering has been overturned",
@@ -60,7 +79,7 @@
         "aerodynamic drag",
         "laminar-to-turbulent transition"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Defeating Git Rigour Fatigue with Jujutsu",
@@ -79,7 +98,7 @@
         "git rebase -i",
         "absorb"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "CBP Directive 3340-049B: Border Search of Electronic Devices",
@@ -98,7 +117,7 @@
         "Border search",
         "Electronic devices"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Claude Is Not Your Architect. Stop Letting It Pretend",
@@ -117,7 +136,7 @@
         "LLM",
         "AI agents"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Memory has grown to nearly two-thirds of AI chip component costs",
@@ -136,7 +155,7 @@
         "DRAM",
         "DDR5"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Usborne 1980s Computer Books",
@@ -155,7 +174,7 @@
         "OldBasic",
         "JavaScript"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Constraint Decay: The Fragility of LLM Agents in Back End Code Generation",
@@ -174,7 +193,7 @@
         "backend code generation",
         "programming"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "DeepSeek reasonix, DeepSeek native coding agent with high caching and low cost",
@@ -193,7 +212,7 @@
         "DeepSeek V4 Pro",
         "caching"
       ],
-      "rank": 10
+      "rank": 11
     }
   ]
 }
