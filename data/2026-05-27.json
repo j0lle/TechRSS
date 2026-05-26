@@ -1,10 +1,29 @@
 {
   "date": "2026-05-27",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3327,
+  "success_feeds": 87,
+  "total_articles": 3299,
   "filtered_articles": 57,
   "articles": [
+    {
+      "title": "Outsourcing plus LocalAI will soon become more economical vs. Frontier labs",
+      "title_display": "Outsourcing plus LocalAI will soon become more economical vs. Frontier labs",
+      "link": "https://www.signalbloom.ai/posts/outsourcing-plus-localai-will-soon-become-more-economical-vs-frontier-labs/",
+      "pub_date": "2026-05-26T14:00:54.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 152,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "LocalAI",
+        "outsourcing",
+        "Frontier models",
+        "DeepSeek"
+      ],
+      "rank": 1
+    },
     {
       "title": "Netherlands blocks US takeover of vital digital supplier",
       "title_display": "Netherlands blocks US takeover of vital digital supplier",
@@ -21,7 +40,7 @@
         "Netherlands",
         "United States"
       ],
-      "rank": 1
+      "rank": 2
     }
   ]
 }
