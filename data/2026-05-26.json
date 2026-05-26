@@ -2,9 +2,47 @@
   "date": "2026-05-26",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3326,
-  "filtered_articles": 32,
+  "total_articles": 3327,
+  "filtered_articles": 43,
   "articles": [
+    {
+      "title": "DynIP – Dynamic DNS with RFC 2136, IPv6, DNSSEC, and BYOD",
+      "title_display": "DynIP – Dynamic DNS with RFC 2136, IPv6, DNSSEC, and BYOD",
+      "link": "https://dynip.dev/",
+      "pub_date": "2026-05-26T08:00:54.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 162,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "DynIP",
+        "RFC 2136",
+        "IPv6",
+        "DNSSEC"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Motorola phones have started hijacking the Amazon app to insert affiliate codes",
+      "title_display": "Motorola phones have started hijacking the Amazon app to insert affiliate codes",
+      "link": "https://9to5google.com/2026/05/25/motorola-amazon-app-hijacking-behavior/",
+      "pub_date": "2026-05-26T06:00:57.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 157,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Motorola",
+        "Amazon",
+        "affiliate",
+        "adware"
+      ],
+      "rank": 2
+    },
     {
       "title": "The User Is Visibly Frustrated",
       "title_display": "The User Is Visibly Frustrated",
@@ -22,7 +60,7 @@
         "Claude",
         "GitHub Copilot"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "Using AI to write better code more slowly",
@@ -32,7 +70,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 422,
+      "hn_points": 756,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -41,7 +79,7 @@
         "code review",
         "Claude"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "CVE-2026-28952: Apple macOS 26.5 Kernel Vuln found by Claude",
@@ -60,7 +98,7 @@
         "macOS 26.5",
         "kernel"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "Nobody Cracks Open a Programming Book Anymore",
@@ -79,7 +117,7 @@
         "LLM",
         "Stack Overflow"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "Norway's 2 petabytes of Huawei flash storage and LLM training",
@@ -98,7 +136,7 @@
         "Norway",
         "flash storage"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "California moves to exempt Linux from its age-verification law after backlash",
@@ -117,7 +155,7 @@
         "age-verification law",
         "Tom's Hardware"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "Exit IP VPN servers mitigation rollout",
@@ -136,7 +174,7 @@
         "Exit IP",
         "Fingerprinting"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "C extensions, portability, and alternative compilers",
@@ -155,7 +193,7 @@
         "Portability",
         "glibc"
       ],
-      "rank": 8
+      "rank": 10
     },
     {
       "title": "Netherlands Seizes 800 Servers, Arrests 2 for Aiding Cyberattacks",
@@ -174,7 +212,7 @@
         "Netherlands",
         "servers"
       ],
-      "rank": 9
+      "rank": 11
     },
     {
       "title": "Leave Me Behind",
@@ -193,7 +231,7 @@
         "automation",
         "software development"
       ],
-      "rank": 10
+      "rank": 12
     },
     {
       "title": "Bytecode VMs in surprising places (2024)",
@@ -212,7 +250,7 @@
         "regular expressions",
         "Russ Cox"
       ],
-      "rank": 11
+      "rank": 13
     },
     {
       "title": "I love my Bluetooth keyboard",
@@ -231,7 +269,7 @@
         "Logitech K480",
         "Logitech K380"
       ],
-      "rank": 12
+      "rank": 14
     }
   ]
 }
