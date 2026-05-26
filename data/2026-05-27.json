@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3327,
-  "filtered_articles": 58,
+  "filtered_articles": 59,
   "articles": [
     {
       "title": "Language Models Need Sleep",
@@ -60,6 +60,25 @@
         "United States"
       ],
       "rank": 3
+    },
+    {
+      "title": "Phantasy Star IV – 1993 Developer Interviews",
+      "title_display": "Phantasy Star IV – 1993 Developer Interviews",
+      "link": "https://shmuplations.com/phantasystariv/",
+      "pub_date": "2026-05-26T11:00:58.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 120,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "Phantasy Star IV",
+        "Phantasy Star",
+        "Sega",
+        "shmuplations"
+      ],
+      "rank": 4
     }
   ]
 }
