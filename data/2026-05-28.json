@@ -1,10 +1,29 @@
 {
   "date": "2026-05-28",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3331,
+  "success_feeds": 87,
+  "total_articles": 3311,
   "filtered_articles": 44,
   "articles": [
+    {
+      "title": "YouTube to automatically label AI-generated videos",
+      "title_display": "YouTube to automatically label AI-generated videos",
+      "link": "https://variety.com/2026/digital/news/youtube-ai-video-labels-automatic-detection-1236758865/",
+      "pub_date": "2026-05-27T20:10:51.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 299,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "YouTube",
+        "AI-generated video",
+        "AI labels",
+        "AI detection"
+      ],
+      "rank": 1
+    },
     {
       "title": "SimCity 3k in 4k",
       "title_display": "SimCity 3k in 4k",
@@ -22,7 +41,7 @@
         "GOG",
         "Steam"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "I think Anthropic and OpenAI have found product-market fit",
@@ -41,7 +60,7 @@
         "product-market fit",
         "Claude"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "PostHog will train AI models with your data (opt-in by default)",
@@ -60,7 +79,7 @@
         "training data",
         "opt-in"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Go: Support for Generic Methods",
@@ -79,7 +98,7 @@
         "generic methods",
         "golang/go"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Matrix Multiplications on GPUs Run Faster When Given \"Predictable\" Data",
@@ -98,7 +117,7 @@
         "predictable data",
         "power consumption"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Private Equity Bought America's Essential Services",
@@ -117,7 +136,7 @@
         "bankruptcy law",
         "limited liability"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Incident with Pull Requests, Issues, Git Operations and API Requests",
@@ -136,7 +155,7 @@
         "Issues",
         "Git"
       ],
-      "rank": 7
+      "rank": 8
     }
   ]
 }
