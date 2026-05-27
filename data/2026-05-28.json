@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3331,
-  "filtered_articles": 43,
+  "filtered_articles": 44,
   "articles": [
+    {
+      "title": "SimCity 3k in 4k",
+      "title_display": "SimCity 3k in 4k",
+      "link": "https://www.thran.uk/writ/hdid/2025/12/simcity-3k-in-4k.html",
+      "pub_date": "2026-05-27T18:00:55.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 187,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "SimCity 3000",
+        "4K",
+        "GOG",
+        "Steam"
+      ],
+      "rank": 1
+    },
     {
       "title": "I think Anthropic and OpenAI have found product-market fit",
       "title_display": "I think Anthropic and OpenAI have found product-market fit",
@@ -22,7 +41,7 @@
         "product-market fit",
         "Claude"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "PostHog will train AI models with your data (opt-in by default)",
@@ -41,7 +60,26 @@
         "training data",
         "opt-in"
       ],
-      "rank": 2
+      "rank": 3
+    },
+    {
+      "title": "Go: Support for Generic Methods",
+      "title_display": "Go: Support for Generic Methods",
+      "link": "https://github.com/golang/go/issues/77273",
+      "pub_date": "2026-05-27T13:20:55.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 136,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Go",
+        "generics",
+        "generic methods",
+        "golang/go"
+      ],
+      "rank": 4
     },
     {
       "title": "Matrix Multiplications on GPUs Run Faster When Given \"Predictable\" Data",
@@ -60,7 +98,7 @@
         "predictable data",
         "power consumption"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "Private Equity Bought America's Essential Services",
@@ -79,7 +117,7 @@
         "bankruptcy law",
         "limited liability"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "Incident with Pull Requests, Issues, Git Operations and API Requests",
@@ -98,7 +136,7 @@
         "Issues",
         "Git"
       ],
-      "rank": 5
+      "rank": 7
     }
   ]
 }
