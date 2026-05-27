@@ -1,10 +1,29 @@
 {
   "date": "2026-05-27",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3327,
-  "filtered_articles": 51,
+  "success_feeds": 88,
+  "total_articles": 3307,
+  "filtered_articles": 52,
   "articles": [
+    {
+      "title": "Cloudflare Flagship",
+      "title_display": "Cloudflare Flagship",
+      "link": "https://developers.cloudflare.com/flagship/",
+      "pub_date": "2026-05-27T00:30:47.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 139,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Cloudflare",
+        "Cloudflare Flagship",
+        "feature flags",
+        "OpenFeature"
+      ],
+      "rank": 1
+    },
     {
       "title": "Big tech's anti-labor playbook has come for Wikipedia",
       "title_display": "Big tech's anti-labor playbook has come for Wikipedia",
@@ -13,7 +32,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 295,
+      "hn_points": 408,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -22,7 +41,7 @@
         "union",
         "private equity"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "I Bypassed Adobe and Microsoft to Build a Git-Tracked Book Production Pipeline",
@@ -41,7 +60,7 @@
         "Microsoft",
         "InDesign"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Stop Advertising in Your Commits",
@@ -60,7 +79,7 @@
         "commit messages",
         "AI"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Rosalind: A genomics toolkit in Rust running whole-genome pipelines on a laptop",
@@ -79,7 +98,7 @@
         "genomics",
         "bioinformatics"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Language Models Need Sleep",
@@ -98,7 +117,7 @@
         "Context",
         "Persistent weights"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Outsourcing plus LocalAI will soon become more economical vs. Frontier labs",
@@ -117,7 +136,7 @@
         "Frontier models",
         "DeepSeek"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Netherlands blocks US takeover of vital digital supplier",
@@ -135,7 +154,7 @@
         "Netherlands",
         "United States"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Phantasy Star IV – 1993 Developer Interviews",
@@ -154,7 +173,7 @@
         "Sega",
         "shmuplations"
       ],
-      "rank": 8
+      "rank": 9
     }
   ]
 }
