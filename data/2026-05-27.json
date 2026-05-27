@@ -3,8 +3,26 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3328,
-  "filtered_articles": 52,
+  "filtered_articles": 42,
   "articles": [
+    {
+      "title": "The Melancholy of Slaying Monsters",
+      "title_display": "The Melancholy of Slaying Monsters",
+      "link": "https://thereader.mitpress.mit.edu/the-strange-melancholy-of-slaying-monsters/",
+      "pub_date": "2026-05-27T07:20:49.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 143,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Shadow of the Colossus",
+        "The Witcher",
+        "MIT Press Reader"
+      ],
+      "rank": 1
+    },
     {
       "title": "Cloudflare Flagship",
       "title_display": "Cloudflare Flagship",
@@ -13,8 +31,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 139,
-      "score": 26,
+      "hn_points": 244,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Cloudflare",
@@ -22,7 +40,7 @@
         "feature flags",
         "OpenFeature"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Big tech's anti-labor playbook has come for Wikipedia",
@@ -41,7 +59,7 @@
         "union",
         "private equity"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "I Bypassed Adobe and Microsoft to Build a Git-Tracked Book Production Pipeline",
@@ -60,7 +78,7 @@
         "Microsoft",
         "InDesign"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Stop Advertising in Your Commits",
@@ -79,7 +97,7 @@
         "commit messages",
         "AI"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Rosalind: A genomics toolkit in Rust running whole-genome pipelines on a laptop",
@@ -98,7 +116,26 @@
         "genomics",
         "bioinformatics"
       ],
-      "rank": 5
+      "rank": 6
+    },
+    {
+      "title": "What Color is Your Function? (2015)",
+      "title_display": "What Color is Your Function? (2015)",
+      "link": "https://journal.stuffwithstuff.com/2015/02/01/what-color-is-your-function/",
+      "pub_date": "2026-05-26T17:10:47.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 132,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "colored functions",
+        "async/await",
+        "Go",
+        "goroutines"
+      ],
+      "rank": 7
     },
     {
       "title": "Language Models Need Sleep",
@@ -117,7 +154,7 @@
         "Context",
         "Persistent weights"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "Outsourcing plus LocalAI will soon become more economical vs. Frontier labs",
@@ -136,7 +173,7 @@
         "Frontier models",
         "DeepSeek"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "Netherlands blocks US takeover of vital digital supplier",
@@ -154,7 +191,7 @@
         "Netherlands",
         "United States"
       ],
-      "rank": 8
+      "rank": 10
     },
     {
       "title": "Phantasy Star IV – 1993 Developer Interviews",
@@ -173,7 +210,7 @@
         "Sega",
         "shmuplations"
       ],
-      "rank": 9
+      "rank": 11
     }
   ]
 }
