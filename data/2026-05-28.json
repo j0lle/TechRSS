@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3331,
-  "filtered_articles": 41,
+  "filtered_articles": 43,
   "articles": [
+    {
+      "title": "I think Anthropic and OpenAI have found product-market fit",
+      "title_display": "I think Anthropic and OpenAI have found product-market fit",
+      "link": "https://simonwillison.net/2026/May/27/product-market-fit/",
+      "pub_date": "2026-05-27T17:20:52.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 352,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Anthropic",
+        "OpenAI",
+        "product-market fit",
+        "Claude"
+      ],
+      "rank": 1
+    },
     {
       "title": "PostHog will train AI models with your data (opt-in by default)",
       "title_display": "PostHog will train AI models with your data (opt-in by default)",
@@ -22,7 +41,26 @@
         "training data",
         "opt-in"
       ],
-      "rank": 1
+      "rank": 2
+    },
+    {
+      "title": "Matrix Multiplications on GPUs Run Faster When Given \"Predictable\" Data",
+      "title_display": "Matrix Multiplications on GPUs Run Faster When Given \"Predictable\" Data",
+      "link": "https://www.thonking.ai/p/strangely-matrix-multiplications",
+      "pub_date": "2026-05-27T13:20:55.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 132,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "matrix multiplication",
+        "GPU",
+        "predictable data",
+        "power consumption"
+      ],
+      "rank": 3
     },
     {
       "title": "Private Equity Bought America's Essential Services",
@@ -41,7 +79,7 @@
         "bankruptcy law",
         "limited liability"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "Incident with Pull Requests, Issues, Git Operations and API Requests",
@@ -60,7 +98,7 @@
         "Issues",
         "Git"
       ],
-      "rank": 3
+      "rank": 5
     }
   ]
 }
