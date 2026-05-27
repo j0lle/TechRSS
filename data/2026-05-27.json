@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3327,
-  "filtered_articles": 57,
+  "filtered_articles": 50,
   "articles": [
+    {
+      "title": "Big tech's anti-labor playbook has come for Wikipedia",
+      "title_display": "Big tech's anti-labor playbook has come for Wikipedia",
+      "link": "https://medium.com/@jakeorlowitz/wikipedia-is-doing-the-capitalist-thing-56a393232943",
+      "pub_date": "2026-05-26T21:40:48.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 189,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "Wikipedia",
+        "Big Tech",
+        "union",
+        "private equity"
+      ],
+      "rank": 1
+    },
     {
       "title": "I Bypassed Adobe and Microsoft to Build a Git-Tracked Book Production Pipeline",
       "title_display": "I Bypassed Adobe and Microsoft to Build a Git-Tracked Book Production Pipeline",
@@ -22,7 +41,7 @@
         "Microsoft",
         "InDesign"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Stop Advertising in Your Commits",
@@ -41,7 +60,7 @@
         "commit messages",
         "AI"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Language Models Need Sleep",
@@ -60,7 +79,7 @@
         "Context",
         "Persistent weights"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Outsourcing plus LocalAI will soon become more economical vs. Frontier labs",
@@ -79,7 +98,7 @@
         "Frontier models",
         "DeepSeek"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Netherlands blocks US takeover of vital digital supplier",
@@ -97,7 +116,7 @@
         "Netherlands",
         "United States"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Phantasy Star IV – 1993 Developer Interviews",
@@ -116,7 +135,7 @@
         "Sega",
         "shmuplations"
       ],
-      "rank": 6
+      "rank": 7
     }
   ]
 }
