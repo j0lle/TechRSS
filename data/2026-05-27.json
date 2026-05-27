@@ -2,8 +2,8 @@
   "date": "2026-05-27",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3328,
-  "filtered_articles": 42,
+  "total_articles": 3329,
+  "filtered_articles": 39,
   "articles": [
     {
       "title": "The Melancholy of Slaying Monsters",
@@ -24,6 +24,25 @@
       "rank": 1
     },
     {
+      "title": "Claude Code as a Daily Driver: Claude.md, Skills, Subagents, Plugins, and MCPs",
+      "title_display": "Claude Code as a Daily Driver: Claude.md, Skills, Subagents, Plugins, and MCPs",
+      "link": "https://arps18.github.io/posts/claude-code-mastery/",
+      "pub_date": "2026-05-27T06:50:51.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 136,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Claude Code",
+        "Claude",
+        "Claude.md",
+        "Skills"
+      ],
+      "rank": 2
+    },
+    {
       "title": "Cloudflare Flagship",
       "title_display": "Cloudflare Flagship",
       "link": "https://developers.cloudflare.com/flagship/",
@@ -40,7 +59,7 @@
         "feature flags",
         "OpenFeature"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Big tech's anti-labor playbook has come for Wikipedia",
@@ -59,7 +78,7 @@
         "union",
         "private equity"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "I Bypassed Adobe and Microsoft to Build a Git-Tracked Book Production Pipeline",
@@ -78,7 +97,7 @@
         "Microsoft",
         "InDesign"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Stop Advertising in Your Commits",
@@ -97,7 +116,7 @@
         "commit messages",
         "AI"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Rosalind: A genomics toolkit in Rust running whole-genome pipelines on a laptop",
@@ -116,7 +135,7 @@
         "genomics",
         "bioinformatics"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "What Color is Your Function? (2015)",
@@ -135,7 +154,7 @@
         "Go",
         "goroutines"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Language Models Need Sleep",
@@ -154,7 +173,7 @@
         "Context",
         "Persistent weights"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Outsourcing plus LocalAI will soon become more economical vs. Frontier labs",
@@ -173,7 +192,7 @@
         "Frontier models",
         "DeepSeek"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Netherlands blocks US takeover of vital digital supplier",
@@ -191,7 +210,7 @@
         "Netherlands",
         "United States"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "Phantasy Star IV – 1993 Developer Interviews",
@@ -210,7 +229,7 @@
         "Sega",
         "shmuplations"
       ],
-      "rank": 11
+      "rank": 12
     }
   ]
 }
