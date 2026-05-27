@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3331,
-  "filtered_articles": 38,
+  "filtered_articles": 41,
   "articles": [
+    {
+      "title": "PostHog will train AI models with your data (opt-in by default)",
+      "title_display": "PostHog will train AI models with your data (opt-in by default)",
+      "link": "https://posthog.com/blog/training-ai-models",
+      "pub_date": "2026-05-27T16:40:51.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 149,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "PostHog",
+        "AI",
+        "training data",
+        "opt-in"
+      ],
+      "rank": 1
+    },
     {
       "title": "Private Equity Bought America's Essential Services",
       "title_display": "Private Equity Bought America's Essential Services",
@@ -22,7 +41,7 @@
         "bankruptcy law",
         "limited liability"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Incident with Pull Requests, Issues, Git Operations and API Requests",
@@ -41,7 +60,7 @@
         "Issues",
         "Git"
       ],
-      "rank": 2
+      "rank": 3
     }
   ]
 }
