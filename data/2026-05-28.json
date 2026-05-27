@@ -1,0 +1,47 @@
+{
+  "date": "2026-05-28",
+  "total_feeds": 95,
+  "success_feeds": 89,
+  "total_articles": 3331,
+  "filtered_articles": 43,
+  "articles": [
+    {
+      "title": "Private Equity Bought America's Essential Services",
+      "title_display": "Private Equity Bought America's Essential Services",
+      "link": "https://rubbishtalk.com/economy/how-private-equity-bought-americas-essential-services/",
+      "pub_date": "2026-05-27T12:50:54.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 244,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "Private equity",
+        "leveraged buyout (LBO)",
+        "bankruptcy law",
+        "limited liability"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Incident with Pull Requests, Issues, Git Operations and API Requests",
+      "title_display": "Incident with Pull Requests, Issues, Git Operations and API Requests",
+      "link": "https://www.githubstatus.com/incidents/xy1tt3hs572m",
+      "pub_date": "2026-05-27T12:20:54.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 159,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "GitHub",
+        "Pull Requests",
+        "Issues",
+        "Git"
+      ],
+      "rank": 2
+    }
+  ]
+}
