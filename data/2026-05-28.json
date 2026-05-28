@@ -2,8 +2,8 @@
   "date": "2026-05-28",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3331,
-  "filtered_articles": 43,
+  "total_articles": 3329,
+  "filtered_articles": 45,
   "articles": [
     {
       "title": "YouTube to automatically label AI-generated videos",
@@ -32,8 +32,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 187,
-      "score": 28,
+      "hn_points": 288,
+      "score": 30,
       "category": "other",
       "keywords": [
         "SimCity 3000",
@@ -51,7 +51,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 352,
+      "hn_points": 659,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -146,8 +146,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 159,
-      "score": 27,
+      "hn_points": 260,
+      "score": 29,
       "category": "other",
       "keywords": [
         "GitHub",
@@ -156,6 +156,25 @@
         "Git"
       ],
       "rank": 8
+    },
+    {
+      "title": "Raft Consensus with a Minority of Nodes",
+      "title_display": "Raft Consensus with a Minority of Nodes",
+      "link": "https://padhye.org/raft-minority/",
+      "pub_date": "2026-05-27T10:10:56.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 125,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Raft",
+        "Distributed consensus",
+        "Quorum systems",
+        "Fano plane"
+      ],
+      "rank": 9
     }
   ]
 }
