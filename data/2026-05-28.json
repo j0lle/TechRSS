@@ -2,8 +2,8 @@
   "date": "2026-05-28",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3337,
-  "filtered_articles": 39,
+  "total_articles": 3338,
+  "filtered_articles": 38,
   "articles": [
     {
       "title": "I'm Getting into Mesh Networks (Meshtastic, MeshCore, and Reticulum)",
@@ -25,6 +25,25 @@
       "rank": 1
     },
     {
+      "title": "Stress disrupts hippocampal integration of overlapping events, memory inference",
+      "title_display": "Stress disrupts hippocampal integration of overlapping events, memory inference",
+      "link": "https://www.science.org/doi/10.1126/sciadv.aea5496?user_id=66c4bf745d78644b3aa57b08",
+      "pub_date": "2026-05-27T20:40:53.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 135,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "stress",
+        "hippocampal integration",
+        "memory inference",
+        "overlapping events"
+      ],
+      "rank": 2
+    },
+    {
       "title": "YouTube to automatically label AI-generated videos",
       "title_display": "YouTube to automatically label AI-generated videos",
       "link": "https://variety.com/2026/digital/news/youtube-ai-video-labels-automatic-detection-1236758865/",
@@ -41,7 +60,7 @@
         "AI labels",
         "AI detection"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "SimCity 3k in 4k",
@@ -51,7 +70,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 288,
+      "hn_points": 391,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -60,7 +79,7 @@
         "GOG",
         "Steam"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "I think Anthropic and OpenAI have found product-market fit",
@@ -79,7 +98,7 @@
         "product-market fit",
         "Claude"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "PostHog will train AI models with your data (opt-in by default)",
@@ -98,7 +117,7 @@
         "training data",
         "opt-in"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Go: Support for Generic Methods",
@@ -117,7 +136,7 @@
         "generic methods",
         "golang/go"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Matrix Multiplications on GPUs Run Faster When Given \"Predictable\" Data",
@@ -136,7 +155,7 @@
         "predictable data",
         "power consumption"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Private Equity Bought America's Essential Services",
@@ -155,7 +174,7 @@
         "bankruptcy law",
         "limited liability"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Incident with Pull Requests, Issues, Git Operations and API Requests",
@@ -174,7 +193,7 @@
         "Issues",
         "Git"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Raft Consensus with a Minority of Nodes",
@@ -193,7 +212,7 @@
         "Quorum systems",
         "Fano plane"
       ],
-      "rank": 10
+      "rank": 11
     }
   ]
 }
