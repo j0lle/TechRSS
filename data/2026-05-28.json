@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3329,
-  "filtered_articles": 43,
+  "filtered_articles": 35,
   "articles": [
+    {
+      "title": "I'm Getting into Mesh Networks (Meshtastic, MeshCore, and Reticulum)",
+      "title_display": "I'm Getting into Mesh Networks (Meshtastic, MeshCore, and Reticulum)",
+      "link": "https://www.jonaharagon.com/posts/im-getting-into-mesh-networks-meshtastic-meshcore-and-reticulum/",
+      "pub_date": "2026-05-28T01:20:56.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 173,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "mesh networks",
+        "Meshtastic",
+        "MeshCore",
+        "Reticulum"
+      ],
+      "rank": 1
+    },
     {
       "title": "YouTube to automatically label AI-generated videos",
       "title_display": "YouTube to automatically label AI-generated videos",
@@ -13,7 +32,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 465,
+      "hn_points": 784,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -22,7 +41,7 @@
         "AI labels",
         "AI detection"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "SimCity 3k in 4k",
@@ -41,7 +60,7 @@
         "GOG",
         "Steam"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "I think Anthropic and OpenAI have found product-market fit",
@@ -60,7 +79,7 @@
         "product-market fit",
         "Claude"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "PostHog will train AI models with your data (opt-in by default)",
@@ -79,7 +98,7 @@
         "training data",
         "opt-in"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Go: Support for Generic Methods",
@@ -89,8 +108,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 136,
-      "score": 26,
+      "hn_points": 236,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Go",
@@ -98,7 +117,7 @@
         "generic methods",
         "golang/go"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Matrix Multiplications on GPUs Run Faster When Given \"Predictable\" Data",
@@ -117,7 +136,7 @@
         "predictable data",
         "power consumption"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Private Equity Bought America's Essential Services",
@@ -136,7 +155,7 @@
         "bankruptcy law",
         "limited liability"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Incident with Pull Requests, Issues, Git Operations and API Requests",
@@ -155,7 +174,7 @@
         "Issues",
         "Git"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Raft Consensus with a Minority of Nodes",
@@ -174,7 +193,7 @@
         "Quorum systems",
         "Fano plane"
       ],
-      "rank": 9
+      "rank": 10
     }
   ]
 }
