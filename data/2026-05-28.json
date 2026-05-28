@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3338,
-  "filtered_articles": 31,
+  "filtered_articles": 32,
   "articles": [
+    {
+      "title": "AMD pulls a bait-and-switch on Linux users with Vivado licensing changes",
+      "title_display": "AMD pulls a bait-and-switch on Linux users with Vivado licensing changes",
+      "link": "https://itsfoss.com/news/amd-vivado-bait-and-switch-on-linux-users/",
+      "pub_date": "2026-05-28T11:20:12.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 199,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "AMD",
+        "Vivado",
+        "Linux",
+        "FPGA"
+      ],
+      "rank": 1
+    },
     {
       "title": "I'm Getting into Mesh Networks (Meshtastic, MeshCore, and Reticulum)",
       "title_display": "I'm Getting into Mesh Networks (Meshtastic, MeshCore, and Reticulum)",
@@ -13,8 +32,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 173,
-      "score": 27,
+      "hn_points": 275,
+      "score": 29,
       "category": "other",
       "keywords": [
         "mesh networks",
@@ -22,7 +41,7 @@
         "MeshCore",
         "Reticulum"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Stress disrupts hippocampal integration of overlapping events, memory inference",
@@ -41,7 +60,7 @@
         "memory inference",
         "overlapping events"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "YouTube to automatically label AI-generated videos",
@@ -51,7 +70,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 784,
+      "hn_points": 1103,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -60,7 +79,7 @@
         "AI labels",
         "AI detection"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "SimCity 3k in 4k",
@@ -79,7 +98,7 @@
         "GOG",
         "Steam"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "I think Anthropic and OpenAI have found product-market fit",
@@ -98,7 +117,7 @@
         "product-market fit",
         "Claude"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "PostHog will train AI models with your data (opt-in by default)",
@@ -117,7 +136,7 @@
         "training data",
         "opt-in"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Go: Support for Generic Methods",
@@ -136,7 +155,7 @@
         "generic methods",
         "golang/go"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Matrix Multiplications on GPUs Run Faster When Given \"Predictable\" Data",
@@ -155,7 +174,7 @@
         "predictable data",
         "power consumption"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Private Equity Bought America's Essential Services",
@@ -174,7 +193,7 @@
         "bankruptcy law",
         "limited liability"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Incident with Pull Requests, Issues, Git Operations and API Requests",
@@ -193,7 +212,7 @@
         "Issues",
         "Git"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "Raft Consensus with a Minority of Nodes",
@@ -212,7 +231,7 @@
         "Quorum systems",
         "Fano plane"
       ],
-      "rank": 11
+      "rank": 12
     }
   ]
 }
