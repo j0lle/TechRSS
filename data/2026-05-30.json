@@ -1,10 +1,67 @@
 {
   "date": "2026-05-30",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3345,
-  "filtered_articles": 32,
+  "success_feeds": 87,
+  "total_articles": 3264,
+  "filtered_articles": 34,
   "articles": [
+    {
+      "title": "GTA 6 Developers Unionize",
+      "title_display": "GTA 6 Developers Unionize",
+      "link": "https://rockstarintel.com/gta-6-developers-announce-rockstar-games-union/",
+      "pub_date": "2026-05-29T16:10:11.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 299,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "GTA 6",
+        "Rockstar Games",
+        "union",
+        "game development"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Bijou64: A variable-length integer encoding",
+      "title_display": "Bijou64: A variable-length integer encoding",
+      "link": "https://www.inkandswitch.com/tangents/bijou64/",
+      "pub_date": "2026-05-29T15:20:12.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 141,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Bijou64",
+        "varint",
+        "LEB128",
+        "canonicalization"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "The UK Government's Low Value Purchase System Is a Waste of Time",
+      "title_display": "The UK Government's Low Value Purchase System Is a Waste of Time",
+      "link": "https://shkspr.mobi/blog/2026/05/the-uk-governments-low-value-purchase-system-is-a-waste-of-time/",
+      "pub_date": "2026-05-29T12:50:13.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 130,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "UK Government",
+        "Low Value Purchase System",
+        "procurement",
+        "small business"
+      ],
+      "rank": 3
+    },
     {
       "title": "Is AI causing a repeat of Front end's Lost Decade?",
       "title_display": "Is AI causing a repeat of Front end's Lost Decade?",
@@ -22,7 +79,7 @@
         "LLM",
         "React"
       ],
-      "rank": 1
+      "rank": 4
     },
     {
       "title": "Real-time LLM Inference on Standard GPUs: 3k tokens/s per request",
@@ -41,7 +98,7 @@
         "NVIDIA H200",
         "DeepSeek V4"
       ],
-      "rank": 2
+      "rank": 5
     }
   ]
 }
