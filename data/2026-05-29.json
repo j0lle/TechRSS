@@ -3,8 +3,44 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3344,
-  "filtered_articles": 21,
+  "filtered_articles": 27,
   "articles": [
+    {
+      "title": "Volkswagen blocks Home Assistant by requiring client assertion",
+      "title_display": "Volkswagen blocks Home Assistant by requiring client assertion",
+      "link": "https://github.com/robinostlund/homeassistant-volkswagencarnet/issues/967",
+      "pub_date": "2026-05-29T07:40:12.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 181,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Home Assistant",
+        "Volkswagen",
+        "Volkswagen Carnet",
+        "Client assertion"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Claude Code – Everything You Can Configure That the Docs Don't Tell You",
+      "title_display": "Claude Code – Everything You Can Configure That the Docs Don't Tell You",
+      "link": "https://buildingbetter.tech/p/i-read-the-claude-code-source-code",
+      "pub_date": "2026-05-29T07:30:15.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 147,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Claude Code",
+        "Claude"
+      ],
+      "rank": 2
+    },
     {
       "title": "Bot Company allegedly trashing Airbnb rentals with their prototype robots",
       "title_display": "Bot Company allegedly trashing Airbnb rentals with their prototype robots",
@@ -22,7 +58,26 @@
         "robots",
         "lawsuit"
       ],
-      "rank": 1
+      "rank": 3
+    },
+    {
+      "title": "Coalton is an efficient, statically typed Lisp with ideas from Haskell and OCaml",
+      "title_display": "Coalton is an efficient, statically typed Lisp with ideas from Haskell and OCaml",
+      "link": "https://coalton-lang.github.io/",
+      "pub_date": "2026-05-28T23:00:14.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 164,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Coalton",
+        "Common Lisp",
+        "Lisp",
+        "statically typed"
+      ],
+      "rank": 4
     },
     {
       "title": "Just Use Postgres for Durable Workflows",
@@ -41,7 +96,7 @@
         "Durable workflows",
         "Temporal"
       ],
-      "rank": 2
+      "rank": 5
     },
     {
       "title": "The Ask",
@@ -60,7 +115,7 @@
         "middle management",
         "meetings"
       ],
-      "rank": 3
+      "rank": 6
     },
     {
       "title": "How to Quickly Warm Up Your MacBook",
@@ -79,7 +134,7 @@
         "M1",
         "Intel"
       ],
-      "rank": 4
+      "rank": 7
     }
   ]
 }
