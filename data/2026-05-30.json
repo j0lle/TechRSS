@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3345,
-  "filtered_articles": 34,
+  "filtered_articles": 36,
   "articles": [
     {
       "title": "GTA 6 Developers Unionize",
@@ -13,7 +13,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 299,
+      "hn_points": 432,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -23,6 +23,25 @@
         "game development"
       ],
       "rank": 1
+    },
+    {
+      "title": "It's hard to justify buying a Framework 12",
+      "title_display": "It's hard to justify buying a Framework 12",
+      "link": "https://www.jeffgeerling.com/blog/2026/its-hard-to-justify-framework-12/",
+      "pub_date": "2026-05-29T15:30:11.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 138,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Framework 12",
+        "Framework",
+        "MacBook Neo",
+        "Jeff Geerling"
+      ],
+      "rank": 2
     },
     {
       "title": "Bijou64: A variable-length integer encoding",
@@ -41,7 +60,7 @@
         "LEB128",
         "canonicalization"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "The UK Government's Low Value Purchase System Is a Waste of Time",
@@ -60,7 +79,7 @@
         "procurement",
         "small business"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Is AI causing a repeat of Front end's Lost Decade?",
@@ -79,7 +98,26 @@
         "LLM",
         "React"
       ],
-      "rank": 4
+      "rank": 5
+    },
+    {
+      "title": "Orchestrating AI code review at scale",
+      "title_display": "Orchestrating AI code review at scale",
+      "link": "https://blog.cloudflare.com/ai-code-review/",
+      "pub_date": "2026-05-29T11:10:12.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 126,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Cloudflare",
+        "AI code review",
+        "code review",
+        "CI"
+      ],
+      "rank": 6
     },
     {
       "title": "Real-time LLM Inference on Standard GPUs: 3k tokens/s per request",
@@ -98,7 +136,7 @@
         "NVIDIA H200",
         "DeepSeek V4"
       ],
-      "rank": 5
+      "rank": 7
     }
   ]
 }
