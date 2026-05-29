@@ -2,8 +2,8 @@
   "date": "2026-05-29",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3344,
-  "filtered_articles": 27,
+  "total_articles": 3345,
+  "filtered_articles": 30,
   "articles": [
     {
       "title": "Volkswagen blocks Home Assistant by requiring client assertion",
@@ -13,8 +13,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 181,
-      "score": 27,
+      "hn_points": 281,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Home Assistant",
@@ -32,8 +32,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 147,
-      "score": 26,
+      "hn_points": 247,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Claude Code",
