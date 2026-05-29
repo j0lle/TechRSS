@@ -6,6 +6,25 @@
   "filtered_articles": 36,
   "articles": [
     {
+      "title": "SQLite is all you need for durable workflows",
+      "title_display": "SQLite is all you need for durable workflows",
+      "link": "https://obeli.sk/blog/sqlite-is-all-you-need-for-durable-workflows/",
+      "pub_date": "2026-05-29T18:10:44.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 202,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "SQLite",
+        "Litestream",
+        "PostgreSQL",
+        "S3"
+      ],
+      "rank": 1
+    },
+    {
       "title": "GTA 6 Developers Unionize",
       "title_display": "GTA 6 Developers Unionize",
       "link": "https://rockstarintel.com/gta-6-developers-announce-rockstar-games-union/",
@@ -22,7 +41,7 @@
         "union",
         "game development"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "It's hard to justify buying a Framework 12",
@@ -41,7 +60,7 @@
         "MacBook Neo",
         "Jeff Geerling"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Bijou64: A variable-length integer encoding",
@@ -60,7 +79,7 @@
         "LEB128",
         "canonicalization"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "The UK Government's Low Value Purchase System Is a Waste of Time",
@@ -79,7 +98,7 @@
         "procurement",
         "small business"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Is AI causing a repeat of Front end's Lost Decade?",
@@ -98,7 +117,7 @@
         "LLM",
         "React"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Orchestrating AI code review at scale",
@@ -117,7 +136,7 @@
         "code review",
         "CI"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Real-time LLM Inference on Standard GPUs: 3k tokens/s per request",
@@ -136,7 +155,7 @@
         "NVIDIA H200",
         "DeepSeek V4"
       ],
-      "rank": 7
+      "rank": 8
     }
   ]
 }
