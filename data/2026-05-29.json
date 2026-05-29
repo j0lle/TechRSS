@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3342,
-  "filtered_articles": 18,
+  "filtered_articles": 19,
   "articles": [
+    {
+      "title": "Bot Company allegedly trashing Airbnb rentals with their prototype robots",
+      "title_display": "Bot Company allegedly trashing Airbnb rentals with their prototype robots",
+      "link": "https://sfstandard.com/2026/05/28/sf-startup-secretly-testing-robots-airbnbs-trashing-lawsuit-claims/",
+      "pub_date": "2026-05-29T00:30:12.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 131,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Airbnb",
+        "Bot Company",
+        "robots",
+        "lawsuit"
+      ],
+      "rank": 1
+    },
     {
       "title": "Just Use Postgres for Durable Workflows",
       "title_display": "Just Use Postgres for Durable Workflows",
@@ -13,8 +32,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 186,
-      "score": 28,
+      "hn_points": 286,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Postgres",
@@ -22,7 +41,7 @@
         "Durable workflows",
         "Temporal"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "The Ask",
@@ -41,7 +60,7 @@
         "middle management",
         "meetings"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "How to Quickly Warm Up Your MacBook",
@@ -60,7 +79,7 @@
         "M1",
         "Intel"
       ],
-      "rank": 3
+      "rank": 4
     }
   ]
 }
