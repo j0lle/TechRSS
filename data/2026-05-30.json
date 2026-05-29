@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3345,
-  "filtered_articles": 35,
+  "filtered_articles": 36,
   "articles": [
+    {
+      "title": "The California State Assembly Has Passed the 'Protect Our Games Act'",
+      "title_display": "The California State Assembly Has Passed the 'Protect Our Games Act'",
+      "link": "https://www.invenglobal.com/articles/22330/stop-killing-games-movement-gains-momentum-california-assembly-passes-game-protection-bill",
+      "pub_date": "2026-05-29T20:10:44.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 150,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Protect Our Games Act",
+        "California State Assembly",
+        "Stop Killing Games movement",
+        "subscription services"
+      ],
+      "rank": 1
+    },
     {
       "title": "SQLite is all you need for durable workflows",
       "title_display": "SQLite is all you need for durable workflows",
@@ -22,7 +41,7 @@
         "PostgreSQL",
         "S3"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "GTA 6 Developers Unionize",
@@ -41,7 +60,7 @@
         "union",
         "game development"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "It's hard to justify buying a Framework 12",
@@ -60,7 +79,7 @@
         "MacBook Neo",
         "Jeff Geerling"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Bijou64: A variable-length integer encoding",
@@ -79,7 +98,7 @@
         "LEB128",
         "canonicalization"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "The UK Government's Low Value Purchase System Is a Waste of Time",
@@ -98,7 +117,26 @@
         "procurement",
         "small business"
       ],
-      "rank": 5
+      "rank": 6
+    },
+    {
+      "title": "We should be more tired than the model",
+      "title_display": "We should be more tired than the model",
+      "link": "https://vickiboykis.com/2026/05/28/we-should-be-more-tired-than-the-model/",
+      "pub_date": "2026-05-29T12:40:13.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 137,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "LLMs",
+        "agentic programming",
+        "Vicki Boykis",
+        "code review"
+      ],
+      "rank": 7
     },
     {
       "title": "Is AI causing a repeat of Front end's Lost Decade?",
@@ -108,8 +146,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 150,
-      "score": 26,
+      "hn_points": 261,
+      "score": 29,
       "category": "other",
       "keywords": [
         "AI",
@@ -117,7 +155,7 @@
         "LLM",
         "React"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "Orchestrating AI code review at scale",
@@ -136,7 +174,7 @@
         "code review",
         "CI"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "Real-time LLM Inference on Standard GPUs: 3k tokens/s per request",
@@ -155,7 +193,7 @@
         "NVIDIA H200",
         "DeepSeek V4"
       ],
-      "rank": 8
+      "rank": 10
     }
   ]
 }
