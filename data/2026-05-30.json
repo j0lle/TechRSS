@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3345,
-  "filtered_articles": 30,
+  "filtered_articles": 29,
   "articles": [
     {
       "title": "MCP Is Dead",
@@ -44,6 +44,25 @@
       "rank": 2
     },
     {
+      "title": "Shift will clean homes for free to train future robots",
+      "title_display": "Shift will clean homes for free to train future robots",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/939765/ai-training-data-startup-shift-free-cleaning",
+      "pub_date": "2026-05-29T20:30:44.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 126,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Shift",
+        "training data",
+        "robots",
+        "privacy"
+      ],
+      "rank": 3
+    },
+    {
       "title": "The California State Assembly Has Passed the 'Protect Our Games Act'",
       "title_display": "The California State Assembly Has Passed the 'Protect Our Games Act'",
       "link": "https://www.invenglobal.com/articles/22330/stop-killing-games-movement-gains-momentum-california-assembly-passes-game-protection-bill",
@@ -60,7 +79,7 @@
         "Stop Killing Games movement",
         "subscription services"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "On Rendering Diffs",
@@ -79,7 +98,7 @@
         "pierre.computer",
         "GitLab"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "SQLite is all you need for durable workflows",
@@ -98,7 +117,7 @@
         "PostgreSQL",
         "S3"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "GTA 6 Developers Unionize",
@@ -117,7 +136,7 @@
         "union",
         "game development"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "It's hard to justify buying a Framework 12",
@@ -136,7 +155,7 @@
         "MacBook Neo",
         "Jeff Geerling"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Bijou64: A variable-length integer encoding",
@@ -155,7 +174,7 @@
         "LEB128",
         "canonicalization"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "The UK Government's Low Value Purchase System Is a Waste of Time",
@@ -174,7 +193,7 @@
         "procurement",
         "small business"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "We should be more tired than the model",
@@ -193,7 +212,7 @@
         "Vicki Boykis",
         "code review"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "Is AI causing a repeat of Front end's Lost Decade?",
@@ -212,7 +231,7 @@
         "LLM",
         "React"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "Orchestrating AI code review at scale",
@@ -231,7 +250,7 @@
         "code review",
         "CI"
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "title": "Real-time LLM Inference on Standard GPUs: 3k tokens/s per request",
@@ -250,7 +269,7 @@
         "NVIDIA H200",
         "DeepSeek V4"
       ],
-      "rank": 13
+      "rank": 14
     }
   ]
 }
