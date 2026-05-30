@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3345,
-  "filtered_articles": 21,
+  "filtered_articles": 22,
   "articles": [
+    {
+      "title": "Ernst & Young published cybersecurity report full of hallucinations",
+      "title_display": "Ernst & Young published cybersecurity report full of hallucinations",
+      "link": "https://gptzero.me/investigations/ey",
+      "pub_date": "2026-05-30T19:20:41.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 236,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "Ernst & Young (EY)",
+        "GPTZero",
+        "hallucinations",
+        "AI"
+      ],
+      "rank": 1
+    },
     {
       "title": "Voxel Space",
       "title_display": "Voxel Space",
@@ -22,7 +41,7 @@
         "Comanche",
         "painter's algorithm"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Anthropic surpasses OpenAI to become most valuable AI startup",
@@ -41,7 +60,7 @@
         "Claude",
         "Claude Code"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Openrsync: An implementation of rsync, by the OpenBSD team",
@@ -60,7 +79,7 @@
         "OpenBSD",
         "pledge"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Leo's first encyclical attacks technological messianism",
@@ -79,7 +98,7 @@
         "Technological messianism",
         "The Economist"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "What Happened to the Locusts?",
@@ -95,7 +114,7 @@
       "keywords": [
         "Locusts"
       ],
-      "rank": 5
+      "rank": 6
     }
   ]
 }
