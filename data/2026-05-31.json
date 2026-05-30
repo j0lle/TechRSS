@@ -1,0 +1,28 @@
+{
+  "date": "2026-05-31",
+  "total_feeds": 95,
+  "success_feeds": 89,
+  "total_articles": 3345,
+  "filtered_articles": 13,
+  "articles": [
+    {
+      "title": "Openrsync: An implementation of rsync, by the OpenBSD team",
+      "title_display": "Openrsync: An implementation of rsync, by the OpenBSD team",
+      "link": "https://github.com/kristapsdz/openrsync",
+      "pub_date": "2026-05-30T13:10:42.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 143,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "openrsync",
+        "rsync",
+        "OpenBSD",
+        "pledge"
+      ],
+      "rank": 1
+    }
+  ]
+}
