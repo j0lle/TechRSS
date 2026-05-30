@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3345,
-  "filtered_articles": 19,
+  "filtered_articles": 20,
   "articles": [
     {
       "title": "Voxel Space",
@@ -63,6 +63,25 @@
       "rank": 3
     },
     {
+      "title": "Leo's first encyclical attacks technological messianism",
+      "title_display": "Leo's first encyclical attacks technological messianism",
+      "link": "https://www.economist.com/europe/2026/05/28/leos-first-encyclical-attacks-technological-messianism",
+      "pub_date": "2026-05-30T11:40:42.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 133,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Pope Leo",
+        "Encyclical",
+        "Technological messianism",
+        "The Economist"
+      ],
+      "rank": 4
+    },
+    {
       "title": "What Happened to the Locusts?",
       "title_display": "What Happened to the Locusts?",
       "link": "https://explosion-scratch.github.io/locusts/",
@@ -76,7 +95,7 @@
       "keywords": [
         "Locusts"
       ],
-      "rank": 4
+      "rank": 5
     }
   ]
 }
