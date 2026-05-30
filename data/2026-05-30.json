@@ -3,8 +3,46 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3345,
-  "filtered_articles": 28,
+  "filtered_articles": 30,
   "articles": [
+    {
+      "title": "MCP Is Dead",
+      "title_display": "MCP Is Dead",
+      "link": "https://www.quandri.io/engineering-blog/mcp-is-dead",
+      "pub_date": "2026-05-29T23:10:43.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 140,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "MCP",
+        "LLM",
+        "agents",
+        "CLI"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Show HN: Tiny-vLLM – high performance LLM inference engine in C++ and CUDA",
+      "title_display": "Show HN: Tiny-vLLM – high performance LLM inference engine in C++ and CUDA",
+      "link": "https://github.com/jmaczan/tiny-vllm",
+      "pub_date": "2026-05-29T20:40:44.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 124,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "tiny-vLLM",
+        "LLM inference",
+        "C++",
+        "CUDA"
+      ],
+      "rank": 2
+    },
     {
       "title": "The California State Assembly Has Passed the 'Protect Our Games Act'",
       "title_display": "The California State Assembly Has Passed the 'Protect Our Games Act'",
@@ -22,7 +60,7 @@
         "Stop Killing Games movement",
         "subscription services"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "On Rendering Diffs",
@@ -41,7 +79,7 @@
         "pierre.computer",
         "GitLab"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "SQLite is all you need for durable workflows",
@@ -60,7 +98,7 @@
         "PostgreSQL",
         "S3"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "GTA 6 Developers Unionize",
@@ -79,7 +117,7 @@
         "union",
         "game development"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "It's hard to justify buying a Framework 12",
@@ -98,7 +136,7 @@
         "MacBook Neo",
         "Jeff Geerling"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "Bijou64: A variable-length integer encoding",
@@ -117,7 +155,7 @@
         "LEB128",
         "canonicalization"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "The UK Government's Low Value Purchase System Is a Waste of Time",
@@ -136,7 +174,7 @@
         "procurement",
         "small business"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "We should be more tired than the model",
@@ -155,7 +193,7 @@
         "Vicki Boykis",
         "code review"
       ],
-      "rank": 8
+      "rank": 10
     },
     {
       "title": "Is AI causing a repeat of Front end's Lost Decade?",
@@ -174,7 +212,7 @@
         "LLM",
         "React"
       ],
-      "rank": 9
+      "rank": 11
     },
     {
       "title": "Orchestrating AI code review at scale",
@@ -193,7 +231,7 @@
         "code review",
         "CI"
       ],
-      "rank": 10
+      "rank": 12
     },
     {
       "title": "Real-time LLM Inference on Standard GPUs: 3k tokens/s per request",
@@ -212,7 +250,7 @@
         "NVIDIA H200",
         "DeepSeek V4"
       ],
-      "rank": 11
+      "rank": 13
     }
   ]
 }
