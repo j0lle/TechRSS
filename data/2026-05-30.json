@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3345,
-  "filtered_articles": 36,
+  "filtered_articles": 31,
   "articles": [
     {
       "title": "The California State Assembly Has Passed the 'Protect Our Games Act'",
@@ -25,6 +25,25 @@
       "rank": 1
     },
     {
+      "title": "On Rendering Diffs",
+      "title_display": "On Rendering Diffs",
+      "link": "https://pierre.computer/writing/on-rendering-diffs",
+      "pub_date": "2026-05-29T19:30:44.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 131,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "diffs",
+        "rendering",
+        "pierre.computer",
+        "GitLab"
+      ],
+      "rank": 2
+    },
+    {
       "title": "SQLite is all you need for durable workflows",
       "title_display": "SQLite is all you need for durable workflows",
       "link": "https://obeli.sk/blog/sqlite-is-all-you-need-for-durable-workflows/",
@@ -32,8 +51,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 202,
-      "score": 28,
+      "hn_points": 314,
+      "score": 30,
       "category": "other",
       "keywords": [
         "SQLite",
@@ -41,7 +60,7 @@
         "PostgreSQL",
         "S3"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "GTA 6 Developers Unionize",
@@ -60,7 +79,7 @@
         "union",
         "game development"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "It's hard to justify buying a Framework 12",
@@ -79,7 +98,7 @@
         "MacBook Neo",
         "Jeff Geerling"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Bijou64: A variable-length integer encoding",
@@ -98,7 +117,7 @@
         "LEB128",
         "canonicalization"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "The UK Government's Low Value Purchase System Is a Waste of Time",
@@ -117,7 +136,7 @@
         "procurement",
         "small business"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "We should be more tired than the model",
@@ -136,7 +155,7 @@
         "Vicki Boykis",
         "code review"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Is AI causing a repeat of Front end's Lost Decade?",
@@ -155,7 +174,7 @@
         "LLM",
         "React"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Orchestrating AI code review at scale",
@@ -174,7 +193,7 @@
         "code review",
         "CI"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Real-time LLM Inference on Standard GPUs: 3k tokens/s per request",
@@ -193,7 +212,7 @@
         "NVIDIA H200",
         "DeepSeek V4"
       ],
-      "rank": 10
+      "rank": 11
     }
   ]
 }
