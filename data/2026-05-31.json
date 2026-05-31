@@ -6,6 +6,25 @@
   "filtered_articles": 25,
   "articles": [
     {
+      "title": "Please Do Not Vibe Fuck Up This Software – Rsync",
+      "title_display": "Please Do Not Vibe Fuck Up This Software – Rsync",
+      "link": "https://github.com/RsyncProject/rsync/issues/929",
+      "pub_date": "2026-05-31T04:00:43.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 123,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "rsync",
+        "GitHub",
+        "AI",
+        "Claude"
+      ],
+      "rank": 1
+    },
+    {
       "title": "The AV2 Video Standard Has Released (Final v1.0 Specification)",
       "title_display": "The AV2 Video Standard Has Released (Final v1.0 Specification)",
       "link": "https://av2.aomedia.org",
@@ -22,7 +41,7 @@
         "AV1",
         "video codec"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Microsoft degrades functionality of perpetually-licensed offline products",
@@ -32,7 +51,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 358,
+      "hn_points": 815,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -41,7 +60,7 @@
         "Microsoft Office 2021",
         "Office for Mac"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Domain expertise has always been the real moat",
@@ -60,7 +79,7 @@
         "LLMs",
         "AI"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "I found a seashell in the middle of the desert",
@@ -79,7 +98,7 @@
         "Hawzen",
         "GitHub"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Ernst & Young published cybersecurity report full of hallucinations",
@@ -98,7 +117,7 @@
         "hallucinations",
         "AI"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Voxel Space",
@@ -117,7 +136,7 @@
         "Comanche",
         "painter's algorithm"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Anthropic surpasses OpenAI to become most valuable AI startup",
@@ -136,7 +155,7 @@
         "Claude",
         "Claude Code"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Openrsync: An implementation of rsync, by the OpenBSD team",
@@ -155,7 +174,7 @@
         "OpenBSD",
         "pledge"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Leo's first encyclical attacks technological messianism",
@@ -174,7 +193,7 @@
         "Technological messianism",
         "The Economist"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "What Happened to the Locusts?",
@@ -190,7 +209,7 @@
       "keywords": [
         "Locusts"
       ],
-      "rank": 10
+      "rank": 11
     }
   ]
 }
