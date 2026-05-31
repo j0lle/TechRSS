@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3341,
-  "filtered_articles": 24,
+  "filtered_articles": 25,
   "articles": [
+    {
+      "title": "The Website Specification",
+      "title_display": "The Website Specification",
+      "link": "https://specification.website/",
+      "pub_date": "2026-05-31T07:20:41.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 170,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "specification.website",
+        ".well-known",
+        "security.txt",
+        "Agent Readiness"
+      ],
+      "rank": 1
+    },
     {
       "title": "Please Do Not Vibe Fuck Up This Software – Rsync",
       "title_display": "Please Do Not Vibe Fuck Up This Software – Rsync",
@@ -13,8 +32,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 123,
-      "score": 25,
+      "hn_points": 276,
+      "score": 29,
       "category": "other",
       "keywords": [
         "rsync",
@@ -22,7 +41,7 @@
         "AI",
         "Claude"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "The AV2 Video Standard Has Released (Final v1.0 Specification)",
@@ -41,7 +60,7 @@
         "AV1",
         "video codec"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Microsoft degrades functionality of perpetually-licensed offline products",
@@ -60,7 +79,7 @@
         "Microsoft Office 2021",
         "Office for Mac"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Domain expertise has always been the real moat",
@@ -70,7 +89,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 309,
+      "hn_points": 626,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -79,7 +98,7 @@
         "LLMs",
         "AI"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "I found a seashell in the middle of the desert",
@@ -98,7 +117,7 @@
         "Hawzen",
         "GitHub"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Ernst & Young published cybersecurity report full of hallucinations",
@@ -117,7 +136,7 @@
         "hallucinations",
         "AI"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Voxel Space",
@@ -136,7 +155,7 @@
         "Comanche",
         "painter's algorithm"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Anthropic surpasses OpenAI to become most valuable AI startup",
@@ -155,7 +174,7 @@
         "Claude",
         "Claude Code"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Openrsync: An implementation of rsync, by the OpenBSD team",
@@ -174,7 +193,7 @@
         "OpenBSD",
         "pledge"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Leo's first encyclical attacks technological messianism",
@@ -193,7 +212,7 @@
         "Technological messianism",
         "The Economist"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "What Happened to the Locusts?",
@@ -209,7 +228,7 @@
       "keywords": [
         "Locusts"
       ],
-      "rank": 11
+      "rank": 12
     }
   ]
 }
