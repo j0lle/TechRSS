@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3342,
-  "filtered_articles": 25,
+  "filtered_articles": 24,
   "articles": [
     {
       "title": "The Website Specification",
@@ -51,8 +51,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 151,
-      "score": 26,
+      "hn_points": 258,
+      "score": 29,
       "category": "other",
       "keywords": [
         "AV2",
