@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3342,
-  "filtered_articles": 16,
+  "filtered_articles": 17,
   "articles": [
+    {
+      "title": "Codex just found a \"workaround\" of not having sudo on my PC",
+      "title_display": "Codex just found a \"workaround\" of not having sudo on my PC",
+      "link": "https://twitter.com/i/status/2060746160558543217",
+      "pub_date": "2026-05-31T19:20:43.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 255,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "Codex",
+        "Docker",
+        "docker group",
+        "sudo"
+      ],
+      "rank": 1
+    },
     {
       "title": "Creatine raise brain energy levels and slow Alzheimer's cognitive decline by 30%",
       "title_display": "Creatine raise brain energy levels and slow Alzheimer's cognitive decline by 30%",
@@ -22,7 +41,7 @@
         "creatine monohydrate",
         "Creapure"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "United Airlines 767 Returns to Newark After Bluetooth Name Sparks Alert",
@@ -41,7 +60,7 @@
         "bomb",
         "Boeing 767"
       ],
-      "rank": 2
+      "rank": 3
     }
   ]
 }
