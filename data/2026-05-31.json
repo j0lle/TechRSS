@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3342,
-  "filtered_articles": 24,
+  "filtered_articles": 22,
   "articles": [
     {
       "title": "The Website Specification",
@@ -13,8 +13,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 170,
-      "score": 27,
+      "hn_points": 271,
+      "score": 29,
       "category": "other",
       "keywords": [
         "specification.website",
@@ -108,8 +108,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 264,
-      "score": 29,
+      "hn_points": 366,
+      "score": 30,
       "category": "other",
       "keywords": [
         "seashell",
