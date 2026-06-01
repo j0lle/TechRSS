@@ -1,10 +1,29 @@
 {
   "date": "2026-06-01",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3343,
-  "filtered_articles": 19,
+  "success_feeds": 88,
+  "total_articles": 3333,
+  "filtered_articles": 24,
   "articles": [
+    {
+      "title": "A 10 year old Xeon is all you need (for 26B-A4B MTP Drafters without GPU)",
+      "title_display": "A 10 year old Xeon is all you need (for 26B-A4B MTP Drafters without GPU)",
+      "link": "https://point.free/blog/gemma-4-on-a-2016-xeon/",
+      "pub_date": "2026-06-01T08:10:40.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 167,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Gemma 4",
+        "26B-A4B",
+        "MTP drafters",
+        "Xeon E5-2620 v4"
+      ],
+      "rank": 1
+    },
     {
       "title": "Chuwi Minibook X: the netbook we deserve",
       "title_display": "Chuwi Minibook X: the netbook we deserve",
@@ -22,7 +41,7 @@
         "netbook",
         "Linux"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "The Four Programming Questions from My 1994 Microsoft Internship Interview (2023)",
@@ -41,7 +60,7 @@
         "C",
         "circle-drawing"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Codex just found a \"workaround\" of not having sudo on my PC",
@@ -60,7 +79,7 @@
         "docker group",
         "sudo"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Creatine raise brain energy levels and slow Alzheimer's cognitive decline by 30%",
@@ -79,7 +98,7 @@
         "creatine monohydrate",
         "Creapure"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "The Speed of Prototyping in the Age of AI",
@@ -98,7 +117,7 @@
         "Prototyping",
         "Code generation"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Odysseus – self-hosted AI workspace",
@@ -117,7 +136,7 @@
         "PewDiePie",
         "Open WebUI"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "United Airlines 767 Returns to Newark After Bluetooth Name Sparks Alert",
@@ -127,8 +146,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 257,
-      "score": 29,
+      "hn_points": 357,
+      "score": 30,
       "category": "other",
       "keywords": [
         "United Airlines",
@@ -136,7 +155,7 @@
         "bomb",
         "Boeing 767"
       ],
-      "rank": 7
+      "rank": 8
     }
   ]
 }
