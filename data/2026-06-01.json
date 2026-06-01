@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3343,
-  "filtered_articles": 15,
+  "filtered_articles": 19,
   "articles": [
     {
       "title": "Chuwi Minibook X: the netbook we deserve",
@@ -13,8 +13,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 155,
-      "score": 27,
+      "hn_points": 262,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Chuwi Minibook X",
@@ -23,6 +23,25 @@
         "Linux"
       ],
       "rank": 1
+    },
+    {
+      "title": "The Four Programming Questions from My 1994 Microsoft Internship Interview (2023)",
+      "title_display": "The Four Programming Questions from My 1994 Microsoft Internship Interview (2023)",
+      "link": "https://www.computerenhance.com/p/the-four-programming-questions-from",
+      "pub_date": "2026-05-31T21:40:38.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 128,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Microsoft",
+        "programming-interview",
+        "C",
+        "circle-drawing"
+      ],
+      "rank": 2
     },
     {
       "title": "Codex just found a \"workaround\" of not having sudo on my PC",
@@ -41,7 +60,7 @@
         "docker group",
         "sudo"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Creatine raise brain energy levels and slow Alzheimer's cognitive decline by 30%",
@@ -60,7 +79,7 @@
         "creatine monohydrate",
         "Creapure"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "The Speed of Prototyping in the Age of AI",
@@ -79,7 +98,7 @@
         "Prototyping",
         "Code generation"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Odysseus – self-hosted AI workspace",
@@ -98,7 +117,7 @@
         "PewDiePie",
         "Open WebUI"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "United Airlines 767 Returns to Newark After Bluetooth Name Sparks Alert",
@@ -117,7 +136,7 @@
         "bomb",
         "Boeing 767"
       ],
-      "rank": 6
+      "rank": 7
     }
   ]
 }
