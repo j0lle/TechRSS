@@ -2,7 +2,27 @@
   "date": "2026-06-02",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3343,
-  "filtered_articles": 30,
-  "articles": []
+  "total_articles": 3344,
+  "filtered_articles": 31,
+  "articles": [
+    {
+      "title": "NPM packages from RedHat have been compromised",
+      "title_display": "NPM packages from RedHat have been compromised",
+      "link": "https://github.com/RedHatInsights/javascript-clients/issues/492",
+      "pub_date": "2026-06-01T13:40:39.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 585,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "npm",
+        "RedHat",
+        "supply chain attack",
+        "post-install scripts"
+      ],
+      "rank": 1
+    }
+  ]
 }
