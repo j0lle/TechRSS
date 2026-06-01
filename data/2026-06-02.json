@@ -1,10 +1,48 @@
 {
   "date": "2026-06-02",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3344,
-  "filtered_articles": 31,
+  "success_feeds": 88,
+  "total_articles": 3325,
+  "filtered_articles": 33,
   "articles": [
+    {
+      "title": "AI Agent Guidelines for CS336 at Stanford",
+      "title_display": "AI Agent Guidelines for CS336 at Stanford",
+      "link": "https://github.com/stanford-cs336/assignment1-basics/blob/main/CLAUDE.md",
+      "pub_date": "2026-06-01T17:00:39.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 159,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "CS336",
+        "Stanford",
+        "Claude",
+        "CLAUDE.md"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "The Newest Instagram \"Exploit\" Is the Goofiest I've Seen",
+      "title_display": "The Newest Instagram \"Exploit\" Is the Goofiest I've Seen",
+      "link": "https://www.0xsid.com/blog/meta-account-takeover-fiasco",
+      "pub_date": "2026-06-01T16:40:40.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 533,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Instagram",
+        "Meta",
+        "Account takeover",
+        "AI"
+      ],
+      "rank": 2
+    },
     {
       "title": "NPM packages from RedHat have been compromised",
       "title_display": "NPM packages from RedHat have been compromised",
@@ -22,7 +60,7 @@
         "supply chain attack",
         "post-install scripts"
       ],
-      "rank": 1
+      "rank": 3
     }
   ]
 }
