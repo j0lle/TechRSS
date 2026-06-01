@@ -1,9 +1,9 @@
 {
   "date": "2026-06-02",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3325,
-  "filtered_articles": 33,
+  "success_feeds": 89,
+  "total_articles": 3345,
+  "filtered_articles": 34,
   "articles": [
     {
       "title": "AI Agent Guidelines for CS336 at Stanford",
@@ -61,6 +61,25 @@
         "post-install scripts"
       ],
       "rank": 3
+    },
+    {
+      "title": "Cessation of public development of Kefir C compiler",
+      "title_display": "Cessation of public development of Kefir C compiler",
+      "link": "https://kefir.protopopov.lv/posts/announce2.html",
+      "pub_date": "2026-06-01T09:30:39.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 121,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "Kefir",
+        "C compiler",
+        "LLMs",
+        "open source"
+      ],
+      "rank": 4
     }
   ]
 }
