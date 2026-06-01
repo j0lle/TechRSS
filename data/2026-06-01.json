@@ -1,9 +1,9 @@
 {
   "date": "2026-06-01",
   "total_feeds": 95,
-  "success_feeds": 87,
-  "total_articles": 3183,
-  "filtered_articles": 11,
+  "success_feeds": 89,
+  "total_articles": 3343,
+  "filtered_articles": 14,
   "articles": [
     {
       "title": "Codex just found a \"workaround\" of not having sudo on my PC",
@@ -44,6 +44,44 @@
       "rank": 2
     },
     {
+      "title": "The Speed of Prototyping in the Age of AI",
+      "title_display": "The Speed of Prototyping in the Age of AI",
+      "link": "https://darylcecile.net/notes/speed-of-prototyping-age-of-ai",
+      "pub_date": "2026-05-31T17:00:43.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 125,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "AI",
+        "LLMs",
+        "Prototyping",
+        "Code generation"
+      ],
+      "rank": 3
+    },
+    {
+      "title": "Odysseus – self-hosted AI workspace",
+      "title_display": "Odysseus – self-hosted AI workspace",
+      "link": "https://github.com/pewdiepie-archdaemon/odysseus",
+      "pub_date": "2026-05-31T16:20:44.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 130,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Odysseus",
+        "pewdiepie-archdaemon",
+        "PewDiePie",
+        "Open WebUI"
+      ],
+      "rank": 4
+    },
+    {
       "title": "United Airlines 767 Returns to Newark After Bluetooth Name Sparks Alert",
       "title_display": "United Airlines 767 Returns to Newark After Bluetooth Name Sparks Alert",
       "link": "https://simpleflying.com/united-airlines-767-returns-newark-bluetooth-name-alert/",
@@ -60,7 +98,7 @@
         "bomb",
         "Boeing 767"
       ],
-      "rank": 3
+      "rank": 5
     }
   ]
 }
