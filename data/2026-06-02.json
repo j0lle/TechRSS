@@ -1,8 +1,8 @@
 {
   "date": "2026-06-02",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3345,
+  "success_feeds": 88,
+  "total_articles": 3325,
   "filtered_articles": 35,
   "articles": [
     {
@@ -25,6 +25,25 @@
       "rank": 1
     },
     {
+      "title": "GitHub and the Crime Against Software",
+      "title_display": "GitHub and the Crime Against Software",
+      "link": "https://eblog.fly.dev/githubbad.html",
+      "pub_date": "2026-06-01T19:10:39.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 167,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "GitHub",
+        "GitLab",
+        "self-hosting",
+        "GitHub Copilot"
+      ],
+      "rank": 2
+    },
+    {
       "title": "AI Agent Guidelines for CS336 at Stanford",
       "title_display": "AI Agent Guidelines for CS336 at Stanford",
       "link": "https://github.com/stanford-cs336/assignment1-basics/blob/main/CLAUDE.md",
@@ -41,7 +60,26 @@
         "Claude",
         "CLAUDE.md"
       ],
-      "rank": 2
+      "rank": 3
+    },
+    {
+      "title": "I made my phone slow on purpose",
+      "title_display": "I made my phone slow on purpose",
+      "link": "https://vinewallapp.com/notes/i-made-my-phone-slow-on-purpose/",
+      "pub_date": "2026-06-01T16:50:41.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 151,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "doomscrolling",
+        "Vinewall",
+        "iPhone",
+        "Android"
+      ],
+      "rank": 4
     },
     {
       "title": "The Newest Instagram \"Exploit\" Is the Goofiest I've Seen",
@@ -60,7 +98,7 @@
         "Account takeover",
         "AI"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "NPM packages from RedHat have been compromised",
@@ -79,7 +117,7 @@
         "supply chain attack",
         "post-install scripts"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "Cessation of public development of Kefir C compiler",
@@ -98,7 +136,7 @@
         "LLMs",
         "open source"
       ],
-      "rank": 5
+      "rank": 7
     }
   ]
 }
