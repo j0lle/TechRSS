@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3343,
-  "filtered_articles": 14,
+  "filtered_articles": 15,
   "articles": [
+    {
+      "title": "Chuwi Minibook X: the netbook we deserve",
+      "title_display": "Chuwi Minibook X: the netbook we deserve",
+      "link": "https://tylercipriani.com/blog/2026/05/28/chuwi-minibook-x/",
+      "pub_date": "2026-05-31T23:30:38.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 155,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Chuwi Minibook X",
+        "Chuwi",
+        "netbook",
+        "Linux"
+      ],
+      "rank": 1
+    },
     {
       "title": "Codex just found a \"workaround\" of not having sudo on my PC",
       "title_display": "Codex just found a \"workaround\" of not having sudo on my PC",
@@ -22,7 +41,7 @@
         "docker group",
         "sudo"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Creatine raise brain energy levels and slow Alzheimer's cognitive decline by 30%",
@@ -41,7 +60,7 @@
         "creatine monohydrate",
         "Creapure"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "The Speed of Prototyping in the Age of AI",
@@ -60,7 +79,7 @@
         "Prototyping",
         "Code generation"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Odysseus – self-hosted AI workspace",
@@ -79,7 +98,7 @@
         "PewDiePie",
         "Open WebUI"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "United Airlines 767 Returns to Newark After Bluetooth Name Sparks Alert",
@@ -98,7 +117,7 @@
         "bomb",
         "Boeing 767"
       ],
-      "rank": 5
+      "rank": 6
     }
   ]
 }
