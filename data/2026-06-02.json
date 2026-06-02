@@ -1,10 +1,29 @@
 {
   "date": "2026-06-02",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3316,
-  "filtered_articles": 33,
+  "success_feeds": 89,
+  "total_articles": 3341,
+  "filtered_articles": 36,
   "articles": [
+    {
+      "title": "Chipotlai Max",
+      "title_display": "Chipotlai Max",
+      "link": "https://github.com/cyberpapiii/chipotlai-max",
+      "pub_date": "2026-06-02T01:20:41.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 132,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Chipotlai Max",
+        "Chipotle",
+        "cyberpapiii",
+        "GitHub"
+      ],
+      "rank": 1
+    },
     {
       "title": "OpenAI frontier models and Codex are now available on AWS",
       "title_display": "OpenAI frontier models and Codex are now available on AWS",
@@ -22,7 +41,7 @@
         "AWS Bedrock",
         "Codex"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Nvidia RTX Spark",
@@ -41,7 +60,7 @@
         "GB10",
         "Windows on Arm"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Debug Project",
@@ -60,7 +79,7 @@
         "Google",
         "Verily"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "GitHub and the Crime Against Software",
@@ -79,7 +98,7 @@
         "self-hosting",
         "GitHub Copilot"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Ask HN: Who is hiring? (June 2026)",
@@ -98,7 +117,7 @@
         "LLM",
         "TypeScript"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "AI Agent Guidelines for CS336 at Stanford",
@@ -108,8 +127,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 262,
-      "score": 29,
+      "hn_points": 364,
+      "score": 30,
       "category": "other",
       "keywords": [
         "CS336",
@@ -117,7 +136,7 @@
         "Claude",
         "CLAUDE.md"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "I made my phone slow on purpose",
@@ -136,7 +155,7 @@
         "iPhone",
         "Android"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "The Newest Instagram \"Exploit\" Is the Goofiest I've Seen",
@@ -155,7 +174,7 @@
         "Account takeover",
         "AI"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Linux Basics for Hackers",
@@ -174,7 +193,26 @@
         "GitHub",
         "PDF"
       ],
-      "rank": 9
+      "rank": 10
+    },
+    {
+      "title": "Flipper Zero Zig Template",
+      "title_display": "Flipper Zero Zig Template",
+      "link": "https://github.com/NishantJoshi00/flipper-template",
+      "pub_date": "2026-06-01T14:10:39.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 130,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Flipper Zero",
+        "Zig",
+        "cImport",
+        "Zig 0.17"
+      ],
+      "rank": 11
     },
     {
       "title": "NPM packages from RedHat have been compromised",
@@ -193,7 +231,7 @@
         "supply chain attack",
         "post-install scripts"
       ],
-      "rank": 10
+      "rank": 12
     },
     {
       "title": "MacBook Pro Rival with the Nvidia Powered Surface Laptop Ultra",
@@ -212,7 +250,7 @@
         "Nvidia",
         "MacBook Pro"
       ],
-      "rank": 11
+      "rank": 13
     },
     {
       "title": "Cessation of public development of Kefir C compiler",
@@ -231,7 +269,7 @@
         "LLMs",
         "open source"
       ],
-      "rank": 12
+      "rank": 14
     }
   ]
 }
