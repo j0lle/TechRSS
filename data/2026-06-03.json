@@ -1,0 +1,47 @@
+{
+  "date": "2026-06-03",
+  "total_feeds": 95,
+  "success_feeds": 88,
+  "total_articles": 3263,
+  "filtered_articles": 54,
+  "articles": [
+    {
+      "title": "Apple rejected my dictation app for using the accessibility API",
+      "title_display": "Apple rejected my dictation app for using the accessibility API",
+      "link": "https://www.mitmllc.com/blog/apple-rejected-my-dictation-app/",
+      "pub_date": "2026-06-02T12:30:36.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 168,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Apple",
+        "Accessibility API",
+        "App Store",
+        "Whisperpad"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Fooling around with encrypted reasoning blobs",
+      "title_display": "Fooling around with encrypted reasoning blobs",
+      "link": "https://blog.cryptographyengineering.com/2026/05/29/fooling-around-with-encrypted-reasoning-blobs/",
+      "pub_date": "2026-06-02T02:50:41.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 127,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "encrypted reasoning blobs",
+        "LLM",
+        "state management",
+        "KV cache"
+      ],
+      "rank": 2
+    }
+  ]
+}
