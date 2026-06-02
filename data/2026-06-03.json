@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3363,
-  "filtered_articles": 53,
+  "filtered_articles": 54,
   "articles": [
     {
       "title": "Show HN: Eyeball",
@@ -25,6 +25,25 @@
       "rank": 1
     },
     {
+      "title": "A walking tour of surveillance infrastructure in Seattle",
+      "title_display": "A walking tour of surveillance infrastructure in Seattle",
+      "link": "https://coveillance.org/a-walking-tour-of-surveillance-infrastructure-in-seattle/",
+      "pub_date": "2026-06-02T14:10:36.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 225,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "surveillance",
+        "Seattle",
+        "coveillance.org",
+        "surveillance cameras"
+      ],
+      "rank": 2
+    },
+    {
       "title": "Apple rejected my dictation app for using the accessibility API",
       "title_display": "Apple rejected my dictation app for using the accessibility API",
       "link": "https://www.mitmllc.com/blog/apple-rejected-my-dictation-app/",
@@ -41,7 +60,7 @@
         "App Store",
         "Whisperpad"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Fooling around with encrypted reasoning blobs",
@@ -60,7 +79,26 @@
         "state management",
         "KV cache"
       ],
-      "rank": 3
+      "rank": 4
+    },
+    {
+      "title": "Squillions: How Money Laundering Won",
+      "title_display": "Squillions: How Money Laundering Won",
+      "link": "https://www.lrb.co.uk/the-paper/v48/n09/john-lanchester/squillions",
+      "pub_date": "2026-06-02T02:20:43.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 127,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "money laundering",
+        "anti-money-laundering",
+        "cash",
+        "capital controls"
+      ],
+      "rank": 5
     }
   ]
 }
