@@ -2,8 +2,8 @@
   "date": "2026-06-02",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3345,
-  "filtered_articles": 31,
+  "total_articles": 3341,
+  "filtered_articles": 34,
   "articles": [
     {
       "title": "Nvidia RTX Spark",
@@ -25,6 +25,25 @@
       "rank": 1
     },
     {
+      "title": "Debug Project",
+      "title_display": "Debug Project",
+      "link": "https://debug.com/",
+      "pub_date": "2026-06-01T21:10:40.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 146,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Debug",
+        "mosquitoes",
+        "Google",
+        "Verily"
+      ],
+      "rank": 2
+    },
+    {
       "title": "GitHub and the Crime Against Software",
       "title_display": "GitHub and the Crime Against Software",
       "link": "https://eblog.fly.dev/githubbad.html",
@@ -41,7 +60,26 @@
         "self-hosting",
         "GitHub Copilot"
       ],
-      "rank": 2
+      "rank": 3
+    },
+    {
+      "title": "Ask HN: Who is hiring? (June 2026)",
+      "title_display": "Ask HN: Who is hiring? (June 2026)",
+      "link": "https://news.ycombinator.com/item?id=48357725",
+      "pub_date": "2026-06-01T17:20:39.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 155,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "AI",
+        "agents",
+        "LLM",
+        "TypeScript"
+      ],
+      "rank": 4
     },
     {
       "title": "AI Agent Guidelines for CS336 at Stanford",
@@ -60,7 +98,7 @@
         "Claude",
         "CLAUDE.md"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "I made my phone slow on purpose",
@@ -79,7 +117,7 @@
         "iPhone",
         "Android"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "The Newest Instagram \"Exploit\" Is the Goofiest I've Seen",
@@ -89,7 +127,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 533,
+      "hn_points": 1301,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -98,7 +136,7 @@
         "Account takeover",
         "AI"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "Linux Basics for Hackers",
@@ -117,7 +155,7 @@
         "GitHub",
         "PDF"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "NPM packages from RedHat have been compromised",
@@ -136,7 +174,7 @@
         "supply chain attack",
         "post-install scripts"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "MacBook Pro Rival with the Nvidia Powered Surface Laptop Ultra",
@@ -155,7 +193,7 @@
         "Nvidia",
         "MacBook Pro"
       ],
-      "rank": 8
+      "rank": 10
     },
     {
       "title": "Cessation of public development of Kefir C compiler",
@@ -174,7 +212,7 @@
         "LLMs",
         "open source"
       ],
-      "rank": 9
+      "rank": 11
     }
   ]
 }
