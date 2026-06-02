@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3363,
-  "filtered_articles": 55,
+  "filtered_articles": 54,
   "articles": [
+    {
+      "title": "Muxcard, a dyi credit card size computer",
+      "title_display": "Muxcard, a dyi credit card size computer",
+      "link": "https://github.com/krauseler/muxcard",
+      "pub_date": "2026-06-02T09:20:42.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 131,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Muxcard",
+        "credit card",
+        "DIY",
+        "GitHub"
+      ],
+      "rank": 1
+    },
     {
       "title": "Chipotlai Max",
       "title_display": "Chipotlai Max",
@@ -22,7 +41,7 @@
         "cyberpapiii",
         "GitHub"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "OpenAI frontier models and Codex are now available on AWS",
@@ -41,7 +60,7 @@
         "AWS Bedrock",
         "Codex"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Nvidia RTX Spark",
@@ -60,7 +79,26 @@
         "GB10",
         "Windows on Arm"
       ],
-      "rank": 3
+      "rank": 4
+    },
+    {
+      "title": "Debug Project",
+      "title_display": "Debug Project",
+      "link": "https://debug.com/",
+      "pub_date": "2026-06-01T21:10:40.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 247,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "Debug",
+        "mosquitoes",
+        "Google",
+        "Verily"
+      ],
+      "rank": 5
     },
     {
       "title": "Alphabet Announces $80B Equity Capital Raise to Expand AI Infra and Compute",
@@ -79,26 +117,7 @@
         "AI infrastructure",
         "Compute"
       ],
-      "rank": 4
-    },
-    {
-      "title": "Debug Project",
-      "title_display": "Debug Project",
-      "link": "https://debug.com/",
-      "pub_date": "2026-06-01T21:10:40.000Z",
-      "summary": "",
-      "source_name": "Hacker News",
-      "source_type": "hn",
-      "hn_points": 146,
-      "score": 26,
-      "category": "other",
-      "keywords": [
-        "Debug",
-        "mosquitoes",
-        "Google",
-        "Verily"
-      ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "GitHub and the Crime Against Software",
@@ -117,7 +136,7 @@
         "self-hosting",
         "GitHub Copilot"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Ask HN: Who is hiring? (June 2026)",
@@ -136,7 +155,7 @@
         "LLM",
         "TypeScript"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "AI Agent Guidelines for CS336 at Stanford",
@@ -155,7 +174,7 @@
         "Claude",
         "CLAUDE.md"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "I made my phone slow on purpose",
@@ -174,7 +193,7 @@
         "iPhone",
         "Android"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "The Newest Instagram \"Exploit\" Is the Goofiest I've Seen",
@@ -184,7 +203,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 1636,
+      "hn_points": 1953,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -193,7 +212,7 @@
         "Account takeover",
         "AI"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "Linux Basics for Hackers",
@@ -212,7 +231,7 @@
         "GitHub",
         "PDF"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "Flipper Zero Zig Template",
@@ -231,7 +250,7 @@
         "cImport",
         "Zig 0.17"
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "title": "NPM packages from RedHat have been compromised",
@@ -250,7 +269,7 @@
         "supply chain attack",
         "post-install scripts"
       ],
-      "rank": 13
+      "rank": 14
     },
     {
       "title": "MacBook Pro Rival with the Nvidia Powered Surface Laptop Ultra",
@@ -269,7 +288,7 @@
         "Nvidia",
         "MacBook Pro"
       ],
-      "rank": 14
+      "rank": 15
     },
     {
       "title": "Cessation of public development of Kefir C compiler",
@@ -288,7 +307,7 @@
         "LLMs",
         "open source"
       ],
-      "rank": 15
+      "rank": 16
     }
   ]
 }
