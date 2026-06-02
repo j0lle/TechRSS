@@ -1,10 +1,29 @@
 {
   "date": "2026-06-03",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3362,
-  "filtered_articles": 54,
+  "success_feeds": 88,
+  "total_articles": 3262,
+  "filtered_articles": 52,
   "articles": [
+    {
+      "title": "Microsoft's MAI-Code-1-Flash Scores 51% SWE-Bench Pro with Just 5B Active Params",
+      "title_display": "Microsoft's MAI-Code-1-Flash Scores 51% SWE-Bench Pro with Just 5B Active Params",
+      "link": "https://microsoft.ai/models/mai-code-1-flash/",
+      "pub_date": "2026-06-02T19:00:35.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 267,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "MAI-Code-1-Flash",
+        "Microsoft",
+        "SWE-Bench Pro",
+        "5B active parameters"
+      ],
+      "rank": 1
+    },
     {
       "title": "Coreutils for Windows",
       "title_display": "Coreutils for Windows",
@@ -22,7 +41,7 @@
         "Windows",
         "WSL"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Show HN: Eyeball",
@@ -41,7 +60,7 @@
         "iOS",
         "touch screen"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "A walking tour of surveillance infrastructure in Seattle",
@@ -60,7 +79,7 @@
         "coveillance.org",
         "surveillance cameras"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Expanding Project Glasswing",
@@ -79,7 +98,7 @@
         "Mythos",
         "cybersecurity"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Apple rejected my dictation app for using the accessibility API",
@@ -98,7 +117,7 @@
         "App Store",
         "Whisperpad"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Fooling around with encrypted reasoning blobs",
@@ -117,7 +136,7 @@
         "state management",
         "KV cache"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Squillions: How Money Laundering Won",
@@ -136,7 +155,7 @@
         "cash",
         "capital controls"
       ],
-      "rank": 7
+      "rank": 8
     }
   ]
 }
