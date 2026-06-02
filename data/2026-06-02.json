@@ -1,9 +1,9 @@
 {
   "date": "2026-06-02",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3325,
-  "filtered_articles": 35,
+  "success_feeds": 89,
+  "total_articles": 3345,
+  "filtered_articles": 31,
   "articles": [
     {
       "title": "Nvidia RTX Spark",
@@ -101,6 +101,25 @@
       "rank": 5
     },
     {
+      "title": "Linux Basics for Hackers",
+      "title_display": "Linux Basics for Hackers",
+      "link": "https://github.com/ahegazy0/linux-basics-for-hackers-notes",
+      "pub_date": "2026-06-01T15:30:39.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 126,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Linux Basics for Hackers",
+        "Linux",
+        "GitHub",
+        "PDF"
+      ],
+      "rank": 6
+    },
+    {
       "title": "NPM packages from RedHat have been compromised",
       "title_display": "NPM packages from RedHat have been compromised",
       "link": "https://github.com/RedHatInsights/javascript-clients/issues/492",
@@ -117,7 +136,26 @@
         "supply chain attack",
         "post-install scripts"
       ],
-      "rank": 6
+      "rank": 7
+    },
+    {
+      "title": "MacBook Pro Rival with the Nvidia Powered Surface Laptop Ultra",
+      "title_display": "MacBook Pro Rival with the Nvidia Powered Surface Laptop Ultra",
+      "link": "https://www.windowslatest.com/2026/06/01/microsoft-builds-its-ultimate-macbook-pro-rival-with-the-nvidia-powered-surface-laptop-ultra/",
+      "pub_date": "2026-06-01T13:20:42.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 129,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Surface Laptop Ultra",
+        "Microsoft",
+        "Nvidia",
+        "MacBook Pro"
+      ],
+      "rank": 8
     },
     {
       "title": "Cessation of public development of Kefir C compiler",
@@ -136,7 +174,7 @@
         "LLMs",
         "open source"
       ],
-      "rank": 7
+      "rank": 9
     }
   ]
 }
