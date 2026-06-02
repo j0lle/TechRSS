@@ -1,10 +1,29 @@
 {
   "date": "2026-06-02",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3341,
-  "filtered_articles": 34,
+  "success_feeds": 88,
+  "total_articles": 3316,
+  "filtered_articles": 33,
   "articles": [
+    {
+      "title": "OpenAI frontier models and Codex are now available on AWS",
+      "title_display": "OpenAI frontier models and Codex are now available on AWS",
+      "link": "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws/",
+      "pub_date": "2026-06-01T23:40:42.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 149,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "OpenAI",
+        "AWS",
+        "AWS Bedrock",
+        "Codex"
+      ],
+      "rank": 1
+    },
     {
       "title": "Nvidia RTX Spark",
       "title_display": "Nvidia RTX Spark",
@@ -22,7 +41,7 @@
         "GB10",
         "Windows on Arm"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Debug Project",
@@ -41,7 +60,7 @@
         "Google",
         "Verily"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "GitHub and the Crime Against Software",
@@ -60,7 +79,7 @@
         "self-hosting",
         "GitHub Copilot"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Ask HN: Who is hiring? (June 2026)",
@@ -79,7 +98,7 @@
         "LLM",
         "TypeScript"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "AI Agent Guidelines for CS336 at Stanford",
@@ -98,7 +117,7 @@
         "Claude",
         "CLAUDE.md"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "I made my phone slow on purpose",
@@ -117,7 +136,7 @@
         "iPhone",
         "Android"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "The Newest Instagram \"Exploit\" Is the Goofiest I've Seen",
@@ -136,7 +155,7 @@
         "Account takeover",
         "AI"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Linux Basics for Hackers",
@@ -155,7 +174,7 @@
         "GitHub",
         "PDF"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "NPM packages from RedHat have been compromised",
@@ -174,7 +193,7 @@
         "supply chain attack",
         "post-install scripts"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "MacBook Pro Rival with the Nvidia Powered Surface Laptop Ultra",
@@ -193,7 +212,7 @@
         "Nvidia",
         "MacBook Pro"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "Cessation of public development of Kefir C compiler",
@@ -212,7 +231,7 @@
         "LLMs",
         "open source"
       ],
-      "rank": 11
+      "rank": 12
     }
   ]
 }
