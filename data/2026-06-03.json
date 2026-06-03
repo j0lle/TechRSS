@@ -6,6 +6,25 @@
   "filtered_articles": 33,
   "articles": [
     {
+      "title": "Pluto.jl 1.0 release – reactive notebook for Julia",
+      "title_display": "Pluto.jl 1.0 release – reactive notebook for Julia",
+      "link": "https://discourse.julialang.org/t/pluto-1-0-release/137296",
+      "pub_date": "2026-06-03T07:50:38.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 102,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "Pluto.jl",
+        "Julia",
+        "Reactive notebook",
+        "Jupyter"
+      ],
+      "rank": 1
+    },
+    {
       "title": "1-Click GitHub Token Stealing via a VSCode Bug",
       "title_display": "1-Click GitHub Token Stealing via a VSCode Bug",
       "link": "https://blog.ammaraskar.com/github-token-stealing/",
@@ -13,8 +32,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 237,
-      "score": 29,
+      "hn_points": 339,
+      "score": 30,
       "category": "other",
       "keywords": [
         "VSCode",
@@ -22,7 +41,7 @@
         "GitHub token",
         "github.dev"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Use your Nvidia GPU's VRAM as swap space on Linux",
@@ -32,8 +51,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 147,
-      "score": 26,
+      "hn_points": 257,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Nvidia",
@@ -41,7 +60,7 @@
         "swap",
         "Linux"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Microsoft's MAI-Code-1-Flash Scores 51% SWE-Bench Pro with Just 5B Active Params",
@@ -60,7 +79,7 @@
         "SWE-Bench Pro",
         "5B active parameters"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Coreutils for Windows",
@@ -79,7 +98,7 @@
         "Windows",
         "WSL"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Show HN: Eyeball",
@@ -98,7 +117,7 @@
         "iOS",
         "touch screen"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "A walking tour of surveillance infrastructure in Seattle",
@@ -117,7 +136,7 @@
         "coveillance.org",
         "surveillance cameras"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Expanding Project Glasswing",
@@ -136,7 +155,7 @@
         "Mythos",
         "cybersecurity"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Apple rejected my dictation app for using the accessibility API",
@@ -155,7 +174,7 @@
         "App Store",
         "Whisperpad"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Fooling around with encrypted reasoning blobs",
@@ -174,7 +193,7 @@
         "state management",
         "KV cache"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Squillions: How Money Laundering Won",
@@ -193,7 +212,7 @@
         "cash",
         "capital controls"
       ],
-      "rank": 10
+      "rank": 11
     }
   ]
 }
