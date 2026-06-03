@@ -1,10 +1,29 @@
 {
   "date": "2026-06-04",
   "total_feeds": 95,
-  "success_feeds": 87,
-  "total_articles": 3340,
-  "filtered_articles": 34,
+  "success_feeds": 88,
+  "total_articles": 3350,
+  "filtered_articles": 35,
   "articles": [
+    {
+      "title": "Stop Killing Games",
+      "title_display": "Stop Killing Games",
+      "link": "https://jxself.org/stop-killing-games.shtml",
+      "pub_date": "2026-06-03T19:10:38.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 152,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "free software",
+        "DRM",
+        "private servers",
+        "open source"
+      ],
+      "rank": 1
+    },
     {
       "title": "Gemma 4 12B: A unified, encoder-free multimodal model",
       "title_display": "Gemma 4 12B: A unified, encoder-free multimodal model",
@@ -22,7 +41,7 @@
         "multimodal",
         "encoder-free"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "I built a ceiling projection mapping of the planes flying over my house",
@@ -41,7 +60,7 @@
         "aircraft",
         "Raspberry Pi 3B+"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Meta workers can opt out of being tracked at work up to 30 min",
@@ -60,7 +79,7 @@
         "opt-out",
         "employee monitoring"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Uber's $1,500/Month AI Limit Is a Useful Signal for AI Tool Pricing",
@@ -70,8 +89,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 203,
-      "score": 28,
+      "hn_points": 321,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Uber",
@@ -79,7 +98,7 @@
         "tokens",
         "per-token inference"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Mathematicians issue warning as AI rapidly gains ground",
@@ -98,7 +117,7 @@
         "LLMs",
         "P=NP"
       ],
-      "rank": 5
+      "rank": 6
     }
   ]
 }
