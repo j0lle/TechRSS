@@ -1,8 +1,8 @@
 {
   "date": "2026-06-03",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3349,
+  "success_feeds": 89,
+  "total_articles": 3369,
   "filtered_articles": 35,
   "articles": [
     {
@@ -44,6 +44,25 @@
       "rank": 2
     },
     {
+      "title": "The Unreasonable Redundancy of Nature's Protein Folds",
+      "title_display": "The Unreasonable Redundancy of Nature's Protein Folds",
+      "link": "https://research.ligo.bio/posts/unreasonable-redundancy-of-natural-protein-folds/",
+      "pub_date": "2026-06-03T04:20:37.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 128,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "protein folds",
+        "fold space",
+        "evolution",
+        "redundancy"
+      ],
+      "rank": 3
+    },
+    {
       "title": "1-Click GitHub Token Stealing via a VSCode Bug",
       "title_display": "1-Click GitHub Token Stealing via a VSCode Bug",
       "link": "https://blog.ammaraskar.com/github-token-stealing/",
@@ -60,7 +79,7 @@
         "GitHub token",
         "github.dev"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Use your Nvidia GPU's VRAM as swap space on Linux",
@@ -70,8 +89,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 257,
-      "score": 29,
+      "hn_points": 363,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Nvidia",
@@ -79,7 +98,7 @@
         "swap",
         "Linux"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "How we index images for RAG",
@@ -98,7 +117,7 @@
         "retrieval",
         "Kapa.ai"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Microsoft's MAI-Code-1-Flash Scores 51% SWE-Bench Pro with Just 5B Active Params",
@@ -117,7 +136,7 @@
         "SWE-Bench Pro",
         "5B active parameters"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Coreutils for Windows",
@@ -136,7 +155,7 @@
         "Windows",
         "WSL"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Show HN: Eyeball",
@@ -155,7 +174,7 @@
         "iOS",
         "touch screen"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "A walking tour of surveillance infrastructure in Seattle",
@@ -174,7 +193,7 @@
         "coveillance.org",
         "surveillance cameras"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Expanding Project Glasswing",
@@ -193,7 +212,7 @@
         "Mythos",
         "cybersecurity"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "Apple rejected my dictation app for using the accessibility API",
@@ -212,7 +231,7 @@
         "App Store",
         "Whisperpad"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "Fooling around with encrypted reasoning blobs",
@@ -231,7 +250,7 @@
         "state management",
         "KV cache"
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "title": "Squillions: How Money Laundering Won",
@@ -250,7 +269,7 @@
         "cash",
         "capital controls"
       ],
-      "rank": 13
+      "rank": 14
     }
   ]
 }
