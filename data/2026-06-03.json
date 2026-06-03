@@ -1,10 +1,29 @@
 {
   "date": "2026-06-03",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3354,
-  "filtered_articles": 32,
+  "success_feeds": 89,
+  "total_articles": 3364,
+  "filtered_articles": 33,
   "articles": [
+    {
+      "title": "1-Click GitHub Token Stealing via a VSCode Bug",
+      "title_display": "1-Click GitHub Token Stealing via a VSCode Bug",
+      "link": "https://blog.ammaraskar.com/github-token-stealing/",
+      "pub_date": "2026-06-03T03:00:37.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 237,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "VSCode",
+        "GitHub",
+        "GitHub token",
+        "github.dev"
+      ],
+      "rank": 1
+    },
     {
       "title": "Use your Nvidia GPU's VRAM as swap space on Linux",
       "title_display": "Use your Nvidia GPU's VRAM as swap space on Linux",
@@ -22,7 +41,7 @@
         "swap",
         "Linux"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Microsoft's MAI-Code-1-Flash Scores 51% SWE-Bench Pro with Just 5B Active Params",
@@ -41,7 +60,7 @@
         "SWE-Bench Pro",
         "5B active parameters"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Coreutils for Windows",
@@ -60,7 +79,7 @@
         "Windows",
         "WSL"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Show HN: Eyeball",
@@ -79,7 +98,7 @@
         "iOS",
         "touch screen"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "A walking tour of surveillance infrastructure in Seattle",
@@ -98,7 +117,7 @@
         "coveillance.org",
         "surveillance cameras"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Expanding Project Glasswing",
@@ -117,7 +136,7 @@
         "Mythos",
         "cybersecurity"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Apple rejected my dictation app for using the accessibility API",
@@ -136,7 +155,7 @@
         "App Store",
         "Whisperpad"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Fooling around with encrypted reasoning blobs",
@@ -155,7 +174,7 @@
         "state management",
         "KV cache"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Squillions: How Money Laundering Won",
@@ -174,7 +193,7 @@
         "cash",
         "capital controls"
       ],
-      "rank": 9
+      "rank": 10
     }
   ]
 }
