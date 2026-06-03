@@ -1,0 +1,28 @@
+{
+  "date": "2026-06-04",
+  "total_feeds": 95,
+  "success_feeds": 88,
+  "total_articles": 3349,
+  "filtered_articles": 37,
+  "articles": [
+    {
+      "title": "Meta workers can opt out of being tracked at work up to 30 min",
+      "title_display": "Meta workers can opt out of being tracked at work up to 30 min",
+      "link": "https://www.bbc.com/news/articles/c93x0k194yno",
+      "pub_date": "2026-06-03T13:20:37.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 363,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Meta",
+        "tracking",
+        "opt-out",
+        "employee monitoring"
+      ],
+      "rank": 1
+    }
+  ]
+}
