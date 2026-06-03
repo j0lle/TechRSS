@@ -1,10 +1,29 @@
 {
   "date": "2026-06-04",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3349,
-  "filtered_articles": 37,
+  "success_feeds": 89,
+  "total_articles": 3369,
+  "filtered_articles": 36,
   "articles": [
+    {
+      "title": "I built a ceiling projection mapping of the planes flying over my house",
+      "title_display": "I built a ceiling projection mapping of the planes flying over my house",
+      "link": "https://old.reddit.com/r/nextfuckinglevel/comments/1tvmcin/i_live_in_the_take_off_path_of_sfo_and_built_a/",
+      "pub_date": "2026-06-03T14:20:37.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 168,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "skylight",
+        "projection mapping",
+        "aircraft",
+        "Raspberry Pi 3B+"
+      ],
+      "rank": 1
+    },
     {
       "title": "Meta workers can opt out of being tracked at work up to 30 min",
       "title_display": "Meta workers can opt out of being tracked at work up to 30 min",
@@ -22,7 +41,7 @@
         "opt-out",
         "employee monitoring"
       ],
-      "rank": 1
+      "rank": 2
     }
   ]
 }
