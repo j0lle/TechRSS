@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3369,
-  "filtered_articles": 34,
+  "filtered_articles": 37,
   "articles": [
     {
       "title": "Gemma 4 12B: A unified, encoder-free multimodal model",
@@ -61,6 +61,25 @@
         "employee monitoring"
       ],
       "rank": 3
+    },
+    {
+      "title": "Uber's $1,500/Month AI Limit Is a Useful Signal for AI Tool Pricing",
+      "title_display": "Uber's $1,500/Month AI Limit Is a Useful Signal for AI Tool Pricing",
+      "link": "https://simonwillison.net/2026/Jun/3/uber-caps-usage/",
+      "pub_date": "2026-06-03T13:20:36.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 203,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "Uber",
+        "AI pricing",
+        "tokens",
+        "per-token inference"
+      ],
+      "rank": 4
     }
   ]
 }
