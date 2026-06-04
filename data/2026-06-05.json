@@ -1,0 +1,28 @@
+{
+  "date": "2026-06-05",
+  "total_feeds": 95,
+  "success_feeds": 89,
+  "total_articles": 3371,
+  "filtered_articles": 25,
+  "articles": [
+    {
+      "title": "French-Iranian author Marjane Satrapi, author of 'Persepolis', dies at 56",
+      "title_display": "French-Iranian author Marjane Satrapi, author of 'Persepolis', dies at 56",
+      "link": "https://www.france24.com/en/culture/20260604-french-iranian-author-marjane-satrapi-author-of-persepolis-dies-at-56",
+      "pub_date": "2026-06-04T13:00:35.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 207,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "Marjane Satrapi",
+        "Persepolis",
+        "France",
+        "Iran"
+      ],
+      "rank": 1
+    }
+  ]
+}
