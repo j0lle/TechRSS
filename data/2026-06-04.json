@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3371,
-  "filtered_articles": 31,
+  "filtered_articles": 30,
   "articles": [
+    {
+      "title": "\"They're made out of weights\"",
+      "title_display": "\"They're made out of weights\"",
+      "link": "https://maxleiter.com/blog/weights",
+      "pub_date": "2026-06-04T02:10:34.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 258,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "weights",
+        "LLMs",
+        "consciousness",
+        "tokenizer"
+      ],
+      "rank": 1
+    },
     {
       "title": "Stop Killing Games",
       "title_display": "Stop Killing Games",
@@ -22,7 +41,7 @@
         "private servers",
         "open source"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Gooey: A GPU-accelerated UI framework for Zig",
@@ -41,7 +60,7 @@
         "GPU",
         "UI"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Gemma 4 12B: A unified, encoder-free multimodal model",
@@ -60,7 +79,7 @@
         "multimodal",
         "encoder-free"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "I built a ceiling projection mapping of the planes flying over my house",
@@ -79,7 +98,7 @@
         "aircraft",
         "Raspberry Pi 3B+"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Meta workers can opt out of being tracked at work up to 30 min",
@@ -98,7 +117,7 @@
         "opt-out",
         "employee monitoring"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Uber's $1,500/Month AI Limit Is a Useful Signal for AI Tool Pricing",
@@ -117,7 +136,7 @@
         "tokens",
         "per-token inference"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Mathematicians issue warning as AI rapidly gains ground",
@@ -136,7 +155,7 @@
         "LLMs",
         "P=NP"
       ],
-      "rank": 7
+      "rank": 8
     }
   ]
 }
