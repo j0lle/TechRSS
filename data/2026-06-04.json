@@ -2,8 +2,8 @@
   "date": "2026-06-04",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3370,
-  "filtered_articles": 32,
+  "total_articles": 3371,
+  "filtered_articles": 33,
   "articles": [
     {
       "title": "Stop Killing Games",
@@ -25,6 +25,25 @@
       "rank": 1
     },
     {
+      "title": "Gooey: A GPU-accelerated UI framework for Zig",
+      "title_display": "Gooey: A GPU-accelerated UI framework for Zig",
+      "link": "https://github.com/duanebester/gooey",
+      "pub_date": "2026-06-03T18:00:37.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 134,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Gooey",
+        "Zig",
+        "GPU",
+        "UI"
+      ],
+      "rank": 2
+    },
+    {
       "title": "Gemma 4 12B: A unified, encoder-free multimodal model",
       "title_display": "Gemma 4 12B: A unified, encoder-free multimodal model",
       "link": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/",
@@ -41,7 +60,7 @@
         "multimodal",
         "encoder-free"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "I built a ceiling projection mapping of the planes flying over my house",
@@ -60,7 +79,7 @@
         "aircraft",
         "Raspberry Pi 3B+"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Meta workers can opt out of being tracked at work up to 30 min",
@@ -79,7 +98,7 @@
         "opt-out",
         "employee monitoring"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Uber's $1,500/Month AI Limit Is a Useful Signal for AI Tool Pricing",
@@ -98,7 +117,7 @@
         "tokens",
         "per-token inference"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Mathematicians issue warning as AI rapidly gains ground",
@@ -117,7 +136,7 @@
         "LLMs",
         "P=NP"
       ],
-      "rank": 6
+      "rank": 7
     }
   ]
 }
