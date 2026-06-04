@@ -6,6 +6,44 @@
   "filtered_articles": 26,
   "articles": [
     {
+      "title": "Show HN: Uruky (EU-based Kagi alternative) now has Image Search and URL Rewrites",
+      "title_display": "Show HN: Uruky (EU-based Kagi alternative) now has Image Search and URL Rewrites",
+      "link": "https://uruky.com/?il=en",
+      "pub_date": "2026-06-04T09:50:32.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 126,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Uruky",
+        "Kagi",
+        "Image Search",
+        "URL Rewrites"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Learn SQL Once, Use It for 30 Years",
+      "title_display": "Learn SQL Once, Use It for 30 Years",
+      "link": "https://fagnerbrack.com/learn-sql-once-use-it-for-30-years-9aceb0bdee03",
+      "pub_date": "2026-06-04T07:30:36.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 158,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "SQL",
+        "ORM",
+        "Datalog",
+        "query plans"
+      ],
+      "rank": 2
+    },
+    {
       "title": "\"They're made out of weights\"",
       "title_display": "\"They're made out of weights\"",
       "link": "https://maxleiter.com/blog/weights",
@@ -13,7 +51,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 555,
+      "hn_points": 973,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -22,7 +60,7 @@
         "consciousness",
         "tokenizer"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "The ways we contain Claude across products",
@@ -41,7 +79,7 @@
         "prompt injection",
         "data exfiltration"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "Ableton Extensions SDK",
@@ -60,7 +98,7 @@
         "Node.js",
         "JavaScript"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "Stop Killing Games",
@@ -79,7 +117,7 @@
         "private servers",
         "open source"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "Gooey: A GPU-accelerated UI framework for Zig",
@@ -98,7 +136,7 @@
         "GPU",
         "UI"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "Gemma 4 12B: A unified, encoder-free multimodal model",
@@ -117,7 +155,7 @@
         "multimodal",
         "encoder-free"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "I built a ceiling projection mapping of the planes flying over my house",
@@ -136,7 +174,7 @@
         "aircraft",
         "Raspberry Pi 3B+"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "Meta workers can opt out of being tracked at work up to 30 min",
@@ -155,7 +193,7 @@
         "opt-out",
         "employee monitoring"
       ],
-      "rank": 8
+      "rank": 10
     },
     {
       "title": "Uber's $1,500/Month AI Limit Is a Useful Signal for AI Tool Pricing",
@@ -174,7 +212,7 @@
         "tokens",
         "per-token inference"
       ],
-      "rank": 9
+      "rank": 11
     },
     {
       "title": "Mathematicians issue warning as AI rapidly gains ground",
@@ -193,7 +231,7 @@
         "LLMs",
         "P=NP"
       ],
-      "rank": 10
+      "rank": 12
     }
   ]
 }
