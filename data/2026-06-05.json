@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 88,
   "total_articles": 3351,
-  "filtered_articles": 28,
+  "filtered_articles": 27,
   "articles": [
     {
       "title": "French-Iranian author Marjane Satrapi, author of 'Persepolis', dies at 56",
@@ -13,8 +13,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 207,
-      "score": 28,
+      "hn_points": 314,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Marjane Satrapi",
