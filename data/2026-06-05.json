@@ -1,10 +1,29 @@
 {
   "date": "2026-06-05",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3363,
-  "filtered_articles": 25,
+  "success_feeds": 85,
+  "total_articles": 3298,
+  "filtered_articles": 30,
   "articles": [
+    {
+      "title": "Changing How We Develop Ladybird",
+      "title_display": "Changing How We Develop Ladybird",
+      "link": "https://ladybird.org/posts/changing-how-we-develop-ladybird/",
+      "pub_date": "2026-06-05T08:20:33.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 345,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Ladybird",
+        "LLMs",
+        "AI",
+        "Open source"
+      ],
+      "rank": 1
+    },
     {
       "title": "Alibaba/Open-Code-Review",
       "title_display": "Alibaba/Open-Code-Review",
@@ -22,7 +41,7 @@
         "GitHub",
         "Claude"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Branchless Quicksort faster than std:sort and pdqsort with C and C++ API",
@@ -41,7 +60,7 @@
         "std::sort",
         "pdqsort"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Anthropic's open-source framework for AI-powered vulnerability discovery",
@@ -60,7 +79,7 @@
         "vulnerability discovery",
         "AI"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "The desperation of NYTimes",
@@ -79,7 +98,7 @@
         "Unsubscribe",
         "Paywall"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "When AI Builds Itself: Our progress toward recursive self-improvement",
@@ -98,7 +117,7 @@
         "Claude",
         "AI pause"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "KVarN: Native vLLM KV-cache quantization back end by Huawei",
@@ -117,7 +136,7 @@
         "KV-cache",
         "quantization"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "French-Iranian author Marjane Satrapi, author of 'Persepolis', dies at 56",
@@ -136,7 +155,7 @@
         "France",
         "Iran"
       ],
-      "rank": 7
+      "rank": 8
     }
   ]
 }
