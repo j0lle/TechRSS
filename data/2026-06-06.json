@@ -1,8 +1,66 @@
 {
   "date": "2026-06-06",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3375,
-  "filtered_articles": 30,
-  "articles": []
+  "success_feeds": 88,
+  "total_articles": 3355,
+  "filtered_articles": 33,
+  "articles": [
+    {
+      "title": "Mouseless – keyboard-driven control of macOS/Linux/Windows",
+      "title_display": "Mouseless – keyboard-driven control of macOS/Linux/Windows",
+      "link": "https://mouseless.click",
+      "pub_date": "2026-06-05T13:10:26.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 231,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "Mouseless",
+        "keyboard",
+        "macOS",
+        "Linux"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Redis 8.8: New array data structure, rate limiter, performance improvements",
+      "title_display": "Redis 8.8: New array data structure, rate limiter, performance improvements",
+      "link": "https://redis.io/blog/announcing-redis-8-8/",
+      "pub_date": "2026-06-05T12:00:26.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 141,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Redis",
+        "Redis 8.8",
+        "array data structure",
+        "rate limiter"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "ESP32 Bit Pirate, a Hardware Hacking Tool with WebCLI That Speaks Every Protocol",
+      "title_display": "ESP32 Bit Pirate, a Hardware Hacking Tool with WebCLI That Speaks Every Protocol",
+      "link": "https://github.com/geo-tp/ESP32-Bit-Pirate",
+      "pub_date": "2026-06-05T08:40:33.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 124,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "ESP32 Bit Pirate",
+        "ESP32",
+        "Bus Pirate",
+        "Web CLI"
+      ],
+      "rank": 3
+    }
+  ]
 }
