@@ -1,10 +1,67 @@
 {
   "date": "2026-06-06",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3375,
-  "filtered_articles": 31,
+  "success_feeds": 88,
+  "total_articles": 3364,
+  "filtered_articles": 34,
   "articles": [
+    {
+      "title": "pg_durable: Microsoft open sources in-database durable execution",
+      "title_display": "pg_durable: Microsoft open sources in-database durable execution",
+      "link": "https://github.com/microsoft/pg_durable",
+      "pub_date": "2026-06-05T16:10:26.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 174,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "pg_durable",
+        "Microsoft",
+        "Postgres",
+        "in-database durable execution"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Stop Using Conventional Commits",
+      "title_display": "Stop Using Conventional Commits",
+      "link": "https://sumnerevans.com/posts/software-engineering/stop-using-conventional-commits/",
+      "pub_date": "2026-06-05T16:00:27.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 160,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Conventional Commits",
+        "commit messages",
+        "conventionalcommits.org",
+        "changelog"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "Cooldown Support for Ruby Bundler",
+      "title_display": "Cooldown Support for Ruby Bundler",
+      "link": "https://blog.rubygems.org/2026/06/03/cooldown-let-new-gems-be-vetted.html",
+      "pub_date": "2026-06-05T14:30:25.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 121,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "Bundler",
+        "RubyGems",
+        "Ruby",
+        "gems"
+      ],
+      "rank": 3
+    },
     {
       "title": "Mouseless – keyboard-driven control of macOS/Linux/Windows",
       "title_display": "Mouseless – keyboard-driven control of macOS/Linux/Windows",
@@ -13,8 +70,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 231,
-      "score": 29,
+      "hn_points": 338,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Mouseless",
@@ -22,7 +79,7 @@
         "macOS",
         "Linux"
       ],
-      "rank": 1
+      "rank": 4
     },
     {
       "title": "Redis 8.8: New array data structure, rate limiter, performance improvements",
@@ -41,7 +98,7 @@
         "array data structure",
         "rate limiter"
       ],
-      "rank": 2
+      "rank": 5
     },
     {
       "title": "ESP32 Bit Pirate, a Hardware Hacking Tool with WebCLI That Speaks Every Protocol",
@@ -60,7 +117,7 @@
         "Bus Pirate",
         "Web CLI"
       ],
-      "rank": 3
+      "rank": 6
     }
   ]
 }
