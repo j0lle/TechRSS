@@ -1,10 +1,48 @@
 {
   "date": "2026-06-05",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3372,
-  "filtered_articles": 25,
+  "success_feeds": 87,
+  "total_articles": 3352,
+  "filtered_articles": 26,
   "articles": [
+    {
+      "title": "Alibaba/Open-Code-Review",
+      "title_display": "Alibaba/Open-Code-Review",
+      "link": "https://github.com/alibaba/open-code-review",
+      "pub_date": "2026-06-05T01:30:31.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 125,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Alibaba",
+        "Open-Code-Review",
+        "GitHub",
+        "Claude"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Branchless Quicksort faster than std:sort and pdqsort with C and C++ API",
+      "title_display": "Branchless Quicksort faster than std:sort and pdqsort with C and C++ API",
+      "link": "https://tiki.li/blog/blqsort",
+      "pub_date": "2026-06-04T22:20:33.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 131,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "blqsort",
+        "Branchless Quicksort",
+        "std::sort",
+        "pdqsort"
+      ],
+      "rank": 2
+    },
     {
       "title": "Anthropic's open-source framework for AI-powered vulnerability discovery",
       "title_display": "Anthropic's open-source framework for AI-powered vulnerability discovery",
@@ -22,7 +60,7 @@
         "vulnerability discovery",
         "AI"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "The desperation of NYTimes",
@@ -41,7 +79,7 @@
         "Unsubscribe",
         "Paywall"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "When AI Builds Itself: Our progress toward recursive self-improvement",
@@ -60,7 +98,7 @@
         "Claude",
         "AI pause"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "French-Iranian author Marjane Satrapi, author of 'Persepolis', dies at 56",
@@ -79,7 +117,7 @@
         "France",
         "Iran"
       ],
-      "rank": 4
+      "rank": 6
     }
   ]
 }
