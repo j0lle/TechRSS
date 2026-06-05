@@ -1,10 +1,29 @@
 {
   "date": "2026-06-05",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3371,
-  "filtered_articles": 31,
+  "success_feeds": 86,
+  "total_articles": 3334,
+  "filtered_articles": 26,
   "articles": [
+    {
+      "title": "Anthropic's open-source framework for AI-powered vulnerability discovery",
+      "title_display": "Anthropic's open-source framework for AI-powered vulnerability discovery",
+      "link": "https://github.com/anthropics/defending-code-reference-harness",
+      "pub_date": "2026-06-04T20:20:32.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 204,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "Anthropic",
+        "defending-code-reference-harness",
+        "vulnerability discovery",
+        "AI"
+      ],
+      "rank": 1
+    },
     {
       "title": "The desperation of NYTimes",
       "title_display": "The desperation of NYTimes",
@@ -22,7 +41,7 @@
         "Unsubscribe",
         "Paywall"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "When AI Builds Itself: Our progress toward recursive self-improvement",
@@ -32,8 +51,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 133,
-      "score": 26,
+      "hn_points": 250,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Anthropic",
@@ -41,7 +60,7 @@
         "Claude",
         "AI pause"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "French-Iranian author Marjane Satrapi, author of 'Persepolis', dies at 56",
@@ -60,7 +79,7 @@
         "France",
         "Iran"
       ],
-      "rank": 3
+      "rank": 4
     }
   ]
 }
