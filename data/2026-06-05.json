@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3375,
-  "filtered_articles": 30,
+  "filtered_articles": 32,
   "articles": [
     {
       "title": "Changing How We Develop Ladybird",
@@ -25,6 +25,25 @@
       "rank": 1
     },
     {
+      "title": "Azure Linux 4.0 is Microsoft's first general-purpose Linux",
+      "title_display": "Azure Linux 4.0 is Microsoft's first general-purpose Linux",
+      "link": "https://www.boxofcables.dev/azure-linux-4-0-is-microsofts-first-general-purpose-linux/",
+      "pub_date": "2026-06-05T04:00:33.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 125,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Azure Linux 4.0",
+        "Microsoft",
+        "Azure",
+        "Linux"
+      ],
+      "rank": 2
+    },
+    {
       "title": "Alibaba/Open-Code-Review",
       "title_display": "Alibaba/Open-Code-Review",
       "link": "https://github.com/alibaba/open-code-review",
@@ -41,7 +60,7 @@
         "GitHub",
         "Claude"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Branchless Quicksort faster than std:sort and pdqsort with C and C++ API",
@@ -60,7 +79,7 @@
         "std::sort",
         "pdqsort"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Anthropic's open-source framework for AI-powered vulnerability discovery",
@@ -79,7 +98,7 @@
         "vulnerability discovery",
         "AI"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "The desperation of NYTimes",
@@ -98,7 +117,7 @@
         "Unsubscribe",
         "Paywall"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "When AI Builds Itself: Our progress toward recursive self-improvement",
@@ -117,7 +136,7 @@
         "Claude",
         "AI pause"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "KVarN: Native vLLM KV-cache quantization back end by Huawei",
@@ -136,7 +155,7 @@
         "KV-cache",
         "quantization"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "French-Iranian author Marjane Satrapi, author of 'Persepolis', dies at 56",
@@ -155,7 +174,7 @@
         "France",
         "Iran"
       ],
-      "rank": 8
+      "rank": 9
     }
   ]
 }
