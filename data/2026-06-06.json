@@ -1,10 +1,29 @@
 {
   "date": "2026-06-06",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3364,
-  "filtered_articles": 34,
+  "success_feeds": 89,
+  "total_articles": 3375,
+  "filtered_articles": 36,
   "articles": [
+    {
+      "title": "Gemma 4 QAT models: Optimizing compression for mobile and laptop efficiency",
+      "title_display": "Gemma 4 QAT models: Optimizing compression for mobile and laptop efficiency",
+      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/quantization-aware-training-gemma-4/",
+      "pub_date": "2026-06-05T17:10:26.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 161,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Gemma 4",
+        "QAT",
+        "Google",
+        "Q4_0"
+      ],
+      "rank": 1
+    },
     {
       "title": "pg_durable: Microsoft open sources in-database durable execution",
       "title_display": "pg_durable: Microsoft open sources in-database durable execution",
@@ -22,7 +41,7 @@
         "Postgres",
         "in-database durable execution"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Stop Using Conventional Commits",
@@ -41,7 +60,7 @@
         "conventionalcommits.org",
         "changelog"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Cooldown Support for Ruby Bundler",
@@ -60,7 +79,7 @@
         "Ruby",
         "gems"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Mouseless – keyboard-driven control of macOS/Linux/Windows",
@@ -79,7 +98,26 @@
         "macOS",
         "Linux"
       ],
-      "rank": 4
+      "rank": 5
+    },
+    {
+      "title": "Did Claude Increase Bugs in Rsync?",
+      "title_display": "Did Claude Increase Bugs in Rsync?",
+      "link": "https://alexispurslane.github.io/rsync-analysis/",
+      "pub_date": "2026-06-05T13:00:26.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 153,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "rsync",
+        "Claude",
+        "LLM",
+        "GLM 5.1"
+      ],
+      "rank": 6
     },
     {
       "title": "Redis 8.8: New array data structure, rate limiter, performance improvements",
@@ -98,7 +136,7 @@
         "array data structure",
         "rate limiter"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "ESP32 Bit Pirate, a Hardware Hacking Tool with WebCLI That Speaks Every Protocol",
@@ -117,7 +155,7 @@
         "Bus Pirate",
         "Web CLI"
       ],
-      "rank": 6
+      "rank": 8
     }
   ]
 }
