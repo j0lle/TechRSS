@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3373,
-  "filtered_articles": 33,
+  "filtered_articles": 34,
   "articles": [
     {
       "title": "Gemma 4 QAT models: Optimizing compression for mobile and laptop efficiency",
@@ -63,6 +63,25 @@
       "rank": 3
     },
     {
+      "title": "India's surprise baby bust is a warning to the world",
+      "title_display": "India's surprise baby bust is a warning to the world",
+      "link": "https://www.economist.com/leaders/2026/06/04/indias-surprise-baby-bust-is-a-warning-to-the-world",
+      "pub_date": "2026-06-05T15:10:26.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 135,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "India",
+        "fertility rate",
+        "population decline",
+        "demographics"
+      ],
+      "rank": 4
+    },
+    {
       "title": "Cooldown Support for Ruby Bundler",
       "title_display": "Cooldown Support for Ruby Bundler",
       "link": "https://blog.rubygems.org/2026/06/03/cooldown-let-new-gems-be-vetted.html",
@@ -79,7 +98,7 @@
         "Ruby",
         "gems"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Mouseless – keyboard-driven control of macOS/Linux/Windows",
@@ -98,7 +117,7 @@
         "macOS",
         "Linux"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Did Claude Increase Bugs in Rsync?",
@@ -117,7 +136,7 @@
         "LLM",
         "GLM 5.1"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Redis 8.8: New array data structure, rate limiter, performance improvements",
@@ -136,7 +155,7 @@
         "array data structure",
         "rate limiter"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "ESP32 Bit Pirate, a Hardware Hacking Tool with WebCLI That Speaks Every Protocol",
@@ -155,7 +174,7 @@
         "Bus Pirate",
         "Web CLI"
       ],
-      "rank": 8
+      "rank": 9
     }
   ]
 }
