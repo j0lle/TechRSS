@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3373,
-  "filtered_articles": 36,
+  "filtered_articles": 33,
   "articles": [
+    {
+      "title": "Ask HN: What was your \"oh shit\" moment with GenAI?",
+      "title_display": "Ask HN: What was your \"oh shit\" moment with GenAI?",
+      "link": "https://news.ycombinator.com/item?id=48406174",
+      "pub_date": "2026-06-06T08:20:16.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 313,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "GenAI",
+        "Claude",
+        "Claude Code",
+        "Gemini"
+      ],
+      "rank": 1
+    },
     {
       "title": "How LLMs Work",
       "title_display": "How LLMs Work",
@@ -22,7 +41,7 @@
         "GPT",
         "ChatGPT"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Gemma 4 QAT models: Optimizing compression for mobile and laptop efficiency",
@@ -41,7 +60,7 @@
         "Google",
         "Q4_0"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "pg_durable: Microsoft open sources in-database durable execution",
@@ -60,7 +79,7 @@
         "Postgres",
         "in-database durable execution"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Stop Using Conventional Commits",
@@ -79,7 +98,7 @@
         "conventionalcommits.org",
         "changelog"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "India's surprise baby bust is a warning to the world",
@@ -98,7 +117,7 @@
         "population decline",
         "demographics"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Cooldown Support for Ruby Bundler",
@@ -117,7 +136,7 @@
         "Ruby",
         "gems"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Mouseless – keyboard-driven control of macOS/Linux/Windows",
@@ -136,7 +155,7 @@
         "macOS",
         "Linux"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Did Claude Increase Bugs in Rsync?",
@@ -155,7 +174,7 @@
         "LLM",
         "GLM 5.1"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Redis 8.8: New array data structure, rate limiter, performance improvements",
@@ -174,7 +193,7 @@
         "array data structure",
         "rate limiter"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "ESP32 Bit Pirate, a Hardware Hacking Tool with WebCLI That Speaks Every Protocol",
@@ -193,7 +212,7 @@
         "Bus Pirate",
         "Web CLI"
       ],
-      "rank": 10
+      "rank": 11
     }
   ]
 }
