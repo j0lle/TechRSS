@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3373,
-  "filtered_articles": 34,
+  "filtered_articles": 35,
   "articles": [
     {
       "title": "Gemma 4 QAT models: Optimizing compression for mobile and laptop efficiency",
