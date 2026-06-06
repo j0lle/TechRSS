@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3373,
-  "filtered_articles": 17,
+  "filtered_articles": 18,
   "articles": [
     {
       "title": "GrapheneOS user reported to authorities for using GrapheneOS",
@@ -44,6 +44,25 @@
       "rank": 2
     },
     {
+      "title": "C++: The Programming Language back cover raises questions not answered by front",
+      "title_display": "C++: The Programming Language back cover raises questions not answered by front",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260605-01/?p=112391",
+      "pub_date": "2026-06-06T04:50:15.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 122,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "C++: The Programming Language",
+        "C++",
+        "book cover",
+        "Microsoft"
+      ],
+      "rank": 3
+    },
+    {
       "title": "How LLMs Work",
       "title_display": "How LLMs Work",
       "link": "https://www.0xkato.xyz/how-llms-actually-work/",
@@ -60,7 +79,7 @@
         "GPT",
         "ChatGPT"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Gemma 4 QAT models: Optimizing compression for mobile and laptop efficiency",
@@ -70,8 +89,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 267,
-      "score": 29,
+      "hn_points": 371,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Gemma 4",
@@ -79,7 +98,7 @@
         "Google",
         "Q4_0"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "pg_durable: Microsoft open sources in-database durable execution",
@@ -98,7 +117,7 @@
         "Postgres",
         "in-database durable execution"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Stop Using Conventional Commits",
@@ -117,7 +136,7 @@
         "conventionalcommits.org",
         "changelog"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "India's surprise baby bust is a warning to the world",
@@ -136,7 +155,7 @@
         "population decline",
         "demographics"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Cooldown Support for Ruby Bundler",
@@ -155,7 +174,7 @@
         "Ruby",
         "gems"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Mouseless – keyboard-driven control of macOS/Linux/Windows",
@@ -174,7 +193,7 @@
         "macOS",
         "Linux"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Did Claude Increase Bugs in Rsync?",
@@ -193,7 +212,7 @@
         "LLM",
         "GLM 5.1"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "Redis 8.8: New array data structure, rate limiter, performance improvements",
@@ -212,7 +231,7 @@
         "array data structure",
         "rate limiter"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "ESP32 Bit Pirate, a Hardware Hacking Tool with WebCLI That Speaks Every Protocol",
@@ -231,7 +250,7 @@
         "Bus Pirate",
         "Web CLI"
       ],
-      "rank": 12
+      "rank": 13
     }
   ]
 }
