@@ -1,9 +1,9 @@
 {
   "date": "2026-06-07",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3373,
-  "filtered_articles": 20,
+  "success_feeds": 88,
+  "total_articles": 3363,
+  "filtered_articles": 22,
   "articles": [
     {
       "title": "Moving beyond fork() + exec()",
@@ -25,6 +25,25 @@
       "rank": 1
     },
     {
+      "title": "Nvidia is proposing a beast of a CPU system for Windows PCs",
+      "title_display": "Nvidia is proposing a beast of a CPU system for Windows PCs",
+      "link": "https://twitter.com/lemire/status/2062880075117113739",
+      "pub_date": "2026-06-06T13:30:11.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 128,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Nvidia",
+        "Windows",
+        "CPU",
+        "unified memory"
+      ],
+      "rank": 2
+    },
+    {
       "title": "Pokemon Emerald Ported to WebAssembly (100k FPS)",
       "title_display": "Pokemon Emerald Ported to WebAssembly (100k FPS)",
       "link": "https://pokeemerald.com/",
@@ -41,7 +60,7 @@
         "pokeemerald",
         "100k FPS"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "The Smart TV in Your LivingRoom Is a Node in the AIScraping Economy",
@@ -60,7 +79,7 @@
         "Bright Data",
         "Residential IPs"
       ],
-      "rank": 3
+      "rank": 4
     }
   ]
 }
