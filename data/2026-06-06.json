@@ -6,6 +6,25 @@
   "filtered_articles": 25,
   "articles": [
     {
+      "title": "GrapheneOS user reported to authorities for using GrapheneOS",
+      "title_display": "GrapheneOS user reported to authorities for using GrapheneOS",
+      "link": "https://discuss.grapheneos.org/d/36134-grapheneos-user-reported-to-authorities-for-using-grapheneos",
+      "pub_date": "2026-06-06T09:20:13.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 364,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "GrapheneOS",
+        "UK",
+        "Hacker News",
+        "age verification"
+      ],
+      "rank": 1
+    },
+    {
       "title": "Ask HN: What was your \"oh shit\" moment with GenAI?",
       "title_display": "Ask HN: What was your \"oh shit\" moment with GenAI?",
       "link": "https://news.ycombinator.com/item?id=48406174",
@@ -22,7 +41,7 @@
         "Claude Code",
         "Gemini"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "How LLMs Work",
@@ -41,7 +60,7 @@
         "GPT",
         "ChatGPT"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Gemma 4 QAT models: Optimizing compression for mobile and laptop efficiency",
@@ -60,7 +79,7 @@
         "Google",
         "Q4_0"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "pg_durable: Microsoft open sources in-database durable execution",
@@ -79,7 +98,7 @@
         "Postgres",
         "in-database durable execution"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Stop Using Conventional Commits",
@@ -98,7 +117,7 @@
         "conventionalcommits.org",
         "changelog"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "India's surprise baby bust is a warning to the world",
@@ -117,7 +136,7 @@
         "population decline",
         "demographics"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Cooldown Support for Ruby Bundler",
@@ -136,7 +155,7 @@
         "Ruby",
         "gems"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Mouseless – keyboard-driven control of macOS/Linux/Windows",
@@ -155,7 +174,7 @@
         "macOS",
         "Linux"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Did Claude Increase Bugs in Rsync?",
@@ -174,7 +193,7 @@
         "LLM",
         "GLM 5.1"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Redis 8.8: New array data structure, rate limiter, performance improvements",
@@ -193,7 +212,7 @@
         "array data structure",
         "rate limiter"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "ESP32 Bit Pirate, a Hardware Hacking Tool with WebCLI That Speaks Every Protocol",
@@ -212,7 +231,7 @@
         "Bus Pirate",
         "Web CLI"
       ],
-      "rank": 11
+      "rank": 12
     }
   ]
 }
