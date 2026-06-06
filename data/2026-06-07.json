@@ -1,9 +1,9 @@
 {
   "date": "2026-06-07",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3363,
-  "filtered_articles": 22,
+  "success_feeds": 89,
+  "total_articles": 3373,
+  "filtered_articles": 23,
   "articles": [
     {
       "title": "Moving beyond fork() + exec()",
