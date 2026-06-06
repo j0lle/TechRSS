@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3373,
-  "filtered_articles": 33,
+  "filtered_articles": 32,
   "articles": [
     {
       "title": "Ask HN: What was your \"oh shit\" moment with GenAI?",
@@ -32,8 +32,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 216,
-      "score": 28,
+      "hn_points": 351,
+      "score": 30,
       "category": "other",
       "keywords": [
         "LLMs",
