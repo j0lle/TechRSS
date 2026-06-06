@@ -6,6 +6,25 @@
   "filtered_articles": 23,
   "articles": [
     {
+      "title": "Zeroserve: A zero-config web server you can script with eBPF",
+      "title_display": "Zeroserve: A zero-config web server you can script with eBPF",
+      "link": "https://su3.io/posts/introducing-zeroserve",
+      "pub_date": "2026-06-06T16:40:13.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 143,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Zeroserve",
+        "eBPF",
+        "nginx",
+        "Caddy"
+      ],
+      "rank": 1
+    },
+    {
       "title": "Moving beyond fork() + exec()",
       "title_display": "Moving beyond fork() + exec()",
       "link": "https://lwn.net/SubscriberLink/1076018/16f01bbbb8e0d1f0/",
@@ -22,7 +41,7 @@
         "Linux",
         "clone()"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Nvidia is proposing a beast of a CPU system for Windows PCs",
@@ -41,7 +60,7 @@
         "CPU",
         "unified memory"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Pokemon Emerald Ported to WebAssembly (100k FPS)",
@@ -60,7 +79,7 @@
         "pokeemerald",
         "100k FPS"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "The Smart TV in Your LivingRoom Is a Node in the AIScraping Economy",
@@ -79,7 +98,7 @@
         "Bright Data",
         "Residential IPs"
       ],
-      "rank": 4
+      "rank": 5
     }
   ]
 }
