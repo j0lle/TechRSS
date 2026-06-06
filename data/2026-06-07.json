@@ -1,0 +1,28 @@
+{
+  "date": "2026-06-07",
+  "total_feeds": 95,
+  "success_feeds": 89,
+  "total_articles": 3373,
+  "filtered_articles": 17,
+  "articles": [
+    {
+      "title": "The Smart TV in Your LivingRoom Is a Node in the AIScraping Economy",
+      "title_display": "The Smart TV in Your LivingRoom Is a Node in the AIScraping Economy",
+      "link": "https://blog.includesecurity.com/2026/06/the-smart-tv-in-your-livingroom-is-a-node-in-the-aiscraping-economy/",
+      "pub_date": "2026-06-06T11:40:15.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 151,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Smart TV",
+        "AI scraping",
+        "Bright Data",
+        "Residential IPs"
+      ],
+      "rank": 1
+    }
+  ]
+}
