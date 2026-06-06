@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3375,
-  "filtered_articles": 35,
+  "filtered_articles": 34,
   "articles": [
     {
       "title": "Gemma 4 QAT models: Optimizing compression for mobile and laptop efficiency",
@@ -32,8 +32,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 174,
-      "score": 27,
+      "hn_points": 276,
+      "score": 29,
       "category": "other",
       "keywords": [
         "pg_durable",
@@ -108,8 +108,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 153,
-      "score": 27,
+      "hn_points": 260,
+      "score": 29,
       "category": "other",
       "keywords": [
         "rsync",
