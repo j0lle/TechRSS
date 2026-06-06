@@ -1,10 +1,48 @@
 {
   "date": "2026-06-07",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3373,
-  "filtered_articles": 22,
+  "success_feeds": 88,
+  "total_articles": 3348,
+  "filtered_articles": 24,
   "articles": [
+    {
+      "title": "Meta confirms 1000s of Instagram accounts were hacked by abusing its AI chatbot",
+      "title_display": "Meta confirms 1000s of Instagram accounts were hacked by abusing its AI chatbot",
+      "link": "https://this.weekinsecurity.com/meta-confirms-thousands-of-instagram-accounts-were-hacked-by-abusing-its-ai-chatbot/",
+      "pub_date": "2026-06-06T20:00:11.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 231,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "Meta",
+        "Instagram",
+        "AI chatbot",
+        "password reset"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Pentagon raised threat of Israeli spying on U.S. to highest level, sources say",
+      "title_display": "Pentagon raised threat of Israeli spying on U.S. to highest level, sources say",
+      "link": "https://www.nbcnews.com/politics/national-security/pentagon-raised-threat-israeli-spying-us-highest-level-sources-say-rcna348565",
+      "pub_date": "2026-06-06T19:00:11.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 293,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Israel",
+        "Pentagon",
+        "United States",
+        "espionage"
+      ],
+      "rank": 2
+    },
     {
       "title": "Zeroserve: A zero-config web server you can script with eBPF",
       "title_display": "Zeroserve: A zero-config web server you can script with eBPF",
@@ -22,7 +60,7 @@
         "nginx",
         "Caddy"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "Moving beyond fork() + exec()",
@@ -41,7 +79,7 @@
         "Linux",
         "clone()"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "Nvidia is proposing a beast of a CPU system for Windows PCs",
@@ -60,7 +98,7 @@
         "CPU",
         "unified memory"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "Pokemon Emerald Ported to WebAssembly (100k FPS)",
@@ -70,8 +108,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 128,
-      "score": 26,
+      "hn_points": 239,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Pokemon Emerald",
@@ -79,7 +117,7 @@
         "pokeemerald",
         "100k FPS"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "The Smart TV in Your LivingRoom Is a Node in the AIScraping Economy",
@@ -98,7 +136,7 @@
         "Bright Data",
         "Residential IPs"
       ],
-      "rank": 5
+      "rank": 7
     }
   ]
 }
