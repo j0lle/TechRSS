@@ -1,9 +1,9 @@
 {
   "date": "2026-06-07",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3353,
-  "filtered_articles": 20,
+  "success_feeds": 89,
+  "total_articles": 3377,
+  "filtered_articles": 22,
   "articles": [
     {
       "title": "Meta confirms 1000s of Instagram accounts were hacked by abusing its AI chatbot",
@@ -32,7 +32,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 293,
+      "hn_points": 393,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -89,8 +89,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 128,
-      "score": 26,
+      "hn_points": 231,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Nvidia",
