@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3377,
-  "filtered_articles": 24,
+  "filtered_articles": 25,
   "articles": [
     {
       "title": "Anthropic, please ship an official Claude Desktop for Linux",
@@ -42,6 +42,25 @@
         "domain knowledge"
       ],
       "rank": 2
+    },
+    {
+      "title": "Symbolica 2.0: Programmable Symbols for Python and Rust",
+      "title_display": "Symbolica 2.0: Programmable Symbols for Python and Rust",
+      "link": "https://symbolica.io/posts/symbolica_2_0_release/",
+      "pub_date": "2026-06-07T04:50:11.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 127,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Symbolica",
+        "Python",
+        "Rust",
+        "computer algebra"
+      ],
+      "rank": 3
     }
   ]
 }
