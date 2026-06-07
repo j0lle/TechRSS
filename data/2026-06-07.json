@@ -1,10 +1,29 @@
 {
   "date": "2026-06-07",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3377,
-  "filtered_articles": 22,
+  "success_feeds": 85,
+  "total_articles": 3106,
+  "filtered_articles": 21,
   "articles": [
+    {
+      "title": "New U.S. college grads now have higher unemployment than the average worker",
+      "title_display": "New U.S. college grads now have higher unemployment than the average worker",
+      "link": "https://www.randalolson.com/2026/06/04/recent-grad-unemployment-flip/",
+      "pub_date": "2026-06-06T22:40:10.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 166,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "recent college graduates",
+        "unemployment",
+        "United States",
+        "cybersecurity"
+      ],
+      "rank": 1
+    },
     {
       "title": "Meta confirms 1000s of Instagram accounts were hacked by abusing its AI chatbot",
       "title_display": "Meta confirms 1000s of Instagram accounts were hacked by abusing its AI chatbot",
@@ -22,7 +41,7 @@
         "AI chatbot",
         "password reset"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Pentagon raised threat of Israeli spying on U.S. to highest level, sources say",
@@ -41,7 +60,7 @@
         "United States",
         "espionage"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Zeroserve: A zero-config web server you can script with eBPF",
@@ -60,7 +79,7 @@
         "nginx",
         "Caddy"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Moving beyond fork() + exec()",
@@ -70,8 +89,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 165,
-      "score": 27,
+      "hn_points": 266,
+      "score": 29,
       "category": "other",
       "keywords": [
         "fork()",
@@ -79,7 +98,7 @@
         "Linux",
         "clone()"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Nvidia is proposing a beast of a CPU system for Windows PCs",
@@ -98,7 +117,7 @@
         "CPU",
         "unified memory"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Pokemon Emerald Ported to WebAssembly (100k FPS)",
@@ -117,7 +136,7 @@
         "pokeemerald",
         "100k FPS"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "The Smart TV in Your LivingRoom Is a Node in the AIScraping Economy",
@@ -136,7 +155,7 @@
         "Bright Data",
         "Residential IPs"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Social Cache Busting",
@@ -155,7 +174,7 @@
         "autodidacts.io",
         "politicians"
       ],
-      "rank": 8
+      "rank": 9
     }
   ]
 }
