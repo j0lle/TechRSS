@@ -1,10 +1,29 @@
 {
   "date": "2026-06-08",
   "total_feeds": 95,
-  "success_feeds": 86,
-  "total_articles": 3116,
-  "filtered_articles": 25,
+  "success_feeds": 89,
+  "total_articles": 3377,
+  "filtered_articles": 26,
   "articles": [
+    {
+      "title": "How's Linear so fast? A technical breakdown",
+      "title_display": "How's Linear so fast? A technical breakdown",
+      "link": "https://performance.dev/how-is-linear-so-fast-a-technical-breakdown",
+      "pub_date": "2026-06-07T19:30:52.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 197,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "Linear",
+        "Optimistic UI",
+        "Client-side rendering (CSR)",
+        "Sync engine"
+      ],
+      "rank": 1
+    },
     {
       "title": "Vitamin D3 During Pregnancy and Cognitive Performance at 10 Years",
       "title_display": "Vitamin D3 During Pregnancy and Cognitive Performance at 10 Years",
@@ -22,7 +41,7 @@
         "cognitive performance",
         "JAMA Network Open"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Show HN: Lathe – Use LLMs to learn a new domain, not skip past it",
@@ -41,7 +60,7 @@
         "GitHub",
         "devenjarvis"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Anthropic, please ship an official Claude Desktop for Linux",
@@ -60,7 +79,7 @@
         "Claude",
         "claude-code"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "LLMs are eroding my software engineering career and I don't know what to do",
@@ -79,7 +98,7 @@
         "career",
         "domain knowledge"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Win16 Memory Management",
@@ -98,7 +117,7 @@
         "segmentation",
         "16-bit"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Speculative KV coding: losslessly compressing KV cache by up to ~4×",
@@ -117,7 +136,7 @@
         "entropy coder",
         "lossless compression"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Symbolica 2.0: Programmable Symbols for Python and Rust",
@@ -136,7 +155,7 @@
         "Rust",
         "computer algebra"
       ],
-      "rank": 7
+      "rank": 8
     }
   ]
 }
