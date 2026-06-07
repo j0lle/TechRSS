@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3377,
-  "filtered_articles": 24,
+  "filtered_articles": 23,
   "articles": [
+    {
+      "title": "Show HN: Lathe – Use LLMs to learn a new domain, not skip past it",
+      "title_display": "Show HN: Lathe – Use LLMs to learn a new domain, not skip past it",
+      "link": "https://github.com/devenjarvis/lathe",
+      "pub_date": "2026-06-07T14:50:53.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 134,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Lathe",
+        "LLMs",
+        "GitHub",
+        "devenjarvis"
+      ],
+      "rank": 1
+    },
     {
       "title": "Anthropic, please ship an official Claude Desktop for Linux",
       "title_display": "Anthropic, please ship an official Claude Desktop for Linux",
@@ -13,8 +32,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 195,
-      "score": 28,
+      "hn_points": 306,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Claude Desktop",
@@ -22,7 +41,7 @@
         "Claude",
         "claude-code"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "LLMs are eroding my software engineering career and I don't know what to do",
@@ -41,7 +60,7 @@
         "career",
         "domain knowledge"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Speculative KV coding: losslessly compressing KV cache by up to ~4×",
@@ -60,7 +79,7 @@
         "entropy coder",
         "lossless compression"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Symbolica 2.0: Programmable Symbols for Python and Rust",
@@ -79,7 +98,7 @@
         "Rust",
         "computer algebra"
       ],
-      "rank": 4
+      "rank": 5
     }
   ]
 }
