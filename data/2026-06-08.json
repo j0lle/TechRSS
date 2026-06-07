@@ -1,10 +1,29 @@
 {
   "date": "2026-06-08",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3377,
-  "filtered_articles": 25,
+  "success_feeds": 88,
+  "total_articles": 3357,
+  "filtered_articles": 28,
   "articles": [
+    {
+      "title": "Building from Zero After Addiction, Prison, and a Felony",
+      "title_display": "Building from Zero After Addiction, Prison, and a Felony",
+      "link": "https://gavinray97.github.io/blog/building-from-zero-after-addiction-prison-felony",
+      "pub_date": "2026-06-07T19:40:52.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 276,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "addiction",
+        "prison",
+        "felony",
+        "Gavin Ray"
+      ],
+      "rank": 1
+    },
     {
       "title": "How's Linear so fast? A technical breakdown",
       "title_display": "How's Linear so fast? A technical breakdown",
@@ -22,7 +41,7 @@
         "Client-side rendering (CSR)",
         "Sync engine"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Vitamin D3 During Pregnancy and Cognitive Performance at 10 Years",
@@ -41,7 +60,7 @@
         "cognitive performance",
         "JAMA Network Open"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Show HN: Lathe – Use LLMs to learn a new domain, not skip past it",
@@ -60,7 +79,7 @@
         "GitHub",
         "devenjarvis"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Anthropic, please ship an official Claude Desktop for Linux",
@@ -79,7 +98,7 @@
         "Claude",
         "claude-code"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "LLMs are eroding my software engineering career and I don't know what to do",
@@ -98,7 +117,7 @@
         "career",
         "domain knowledge"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Win16 Memory Management",
@@ -117,7 +136,7 @@
         "segmentation",
         "16-bit"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Speculative KV coding: losslessly compressing KV cache by up to ~4×",
@@ -136,7 +155,7 @@
         "entropy coder",
         "lossless compression"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Symbolica 2.0: Programmable Symbols for Python and Rust",
@@ -155,7 +174,7 @@
         "Rust",
         "computer algebra"
       ],
-      "rank": 8
+      "rank": 9
     }
   ]
 }
