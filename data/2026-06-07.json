@@ -1,10 +1,29 @@
 {
   "date": "2026-06-07",
   "total_feeds": 95,
-  "success_feeds": 85,
-  "total_articles": 3106,
-  "filtered_articles": 21,
+  "success_feeds": 89,
+  "total_articles": 3377,
+  "filtered_articles": 22,
   "articles": [
+    {
+      "title": "Harness engineering: Leveraging Codex in an agent-first world",
+      "title_display": "Harness engineering: Leveraging Codex in an agent-first world",
+      "link": "https://openai.com/index/harness-engineering/",
+      "pub_date": "2026-06-07T00:20:09.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 134,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Codex",
+        "OpenAI",
+        "agents",
+        "agent-first"
+      ],
+      "rank": 1
+    },
     {
       "title": "New U.S. college grads now have higher unemployment than the average worker",
       "title_display": "New U.S. college grads now have higher unemployment than the average worker",
@@ -22,7 +41,7 @@
         "United States",
         "cybersecurity"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Meta confirms 1000s of Instagram accounts were hacked by abusing its AI chatbot",
@@ -41,7 +60,26 @@
         "AI chatbot",
         "password reset"
       ],
-      "rank": 2
+      "rank": 3
+    },
+    {
+      "title": "Show HN: Infinite canvas notes in the non-Euclidean Poincaré disk",
+      "title_display": "Show HN: Infinite canvas notes in the non-Euclidean Poincaré disk",
+      "link": "https://uonr.github.io/poincake/",
+      "pub_date": "2026-06-06T19:00:12.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 132,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Poincake",
+        "Poincaré disk",
+        "non-Euclidean",
+        "infinite canvas"
+      ],
+      "rank": 4
     },
     {
       "title": "Pentagon raised threat of Israeli spying on U.S. to highest level, sources say",
@@ -60,7 +98,7 @@
         "United States",
         "espionage"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "Zeroserve: A zero-config web server you can script with eBPF",
@@ -79,7 +117,7 @@
         "nginx",
         "Caddy"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "Moving beyond fork() + exec()",
@@ -98,7 +136,7 @@
         "Linux",
         "clone()"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "Nvidia is proposing a beast of a CPU system for Windows PCs",
@@ -117,7 +155,7 @@
         "CPU",
         "unified memory"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "Pokemon Emerald Ported to WebAssembly (100k FPS)",
@@ -136,7 +174,7 @@
         "pokeemerald",
         "100k FPS"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "The Smart TV in Your LivingRoom Is a Node in the AIScraping Economy",
@@ -155,7 +193,7 @@
         "Bright Data",
         "Residential IPs"
       ],
-      "rank": 8
+      "rank": 10
     },
     {
       "title": "Social Cache Busting",
@@ -174,7 +212,7 @@
         "autodidacts.io",
         "politicians"
       ],
-      "rank": 9
+      "rank": 11
     }
   ]
 }
