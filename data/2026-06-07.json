@@ -1,10 +1,29 @@
 {
   "date": "2026-06-07",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3377,
-  "filtered_articles": 21,
+  "success_feeds": 88,
+  "total_articles": 3357,
+  "filtered_articles": 23,
   "articles": [
+    {
+      "title": "The 29th International Obfuscated C Code Contest (IOCCC) 2025 Winners",
+      "title_display": "The 29th International Obfuscated C Code Contest (IOCCC) 2025 Winners",
+      "link": "https://www.ioccc.org/2025/",
+      "pub_date": "2026-06-07T06:20:51.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 164,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "IOCCC",
+        "Obfuscated C",
+        "C",
+        "LLMs"
+      ],
+      "rank": 1
+    },
     {
       "title": "I design with Claude more than Figma now",
       "title_display": "I design with Claude more than Figma now",
@@ -22,7 +41,7 @@
         "Jane Street",
         "Anthropic"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Valve P2P networking broken for more than 2 months",
@@ -41,7 +60,7 @@
         "P2P",
         "Steam"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Harness engineering: Leveraging Codex in an agent-first world",
@@ -60,7 +79,7 @@
         "agents",
         "agent-first"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "New U.S. college grads now have higher unemployment than the average worker",
@@ -79,7 +98,7 @@
         "United States",
         "cybersecurity"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Meta confirms 1000s of Instagram accounts were hacked by abusing its AI chatbot",
@@ -98,7 +117,7 @@
         "AI chatbot",
         "password reset"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Show HN: Infinite canvas notes in the non-Euclidean Poincaré disk",
@@ -117,7 +136,7 @@
         "non-Euclidean",
         "infinite canvas"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Pentagon raised threat of Israeli spying on U.S. to highest level, sources say",
@@ -136,7 +155,7 @@
         "United States",
         "espionage"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "You Can Run",
@@ -155,7 +174,7 @@
         "fugitives",
         "Atavist"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Zeroserve: A zero-config web server you can script with eBPF",
@@ -174,7 +193,7 @@
         "nginx",
         "Caddy"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Moving beyond fork() + exec()",
@@ -193,7 +212,26 @@
         "Linux",
         "clone()"
       ],
-      "rank": 10
+      "rank": 11
+    },
+    {
+      "title": "Benchmarks in Leipzig",
+      "title_display": "Benchmarks in Leipzig",
+      "link": "https://arxiv.org/abs/2606.05818",
+      "pub_date": "2026-06-06T14:10:10.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 133,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "LLMs",
+        "mathematical reasoning",
+        "Benchmarks",
+        "math.sciencebench.ai"
+      ],
+      "rank": 12
     },
     {
       "title": "Nvidia is proposing a beast of a CPU system for Windows PCs",
@@ -212,7 +250,7 @@
         "CPU",
         "unified memory"
       ],
-      "rank": 11
+      "rank": 13
     },
     {
       "title": "Pokemon Emerald Ported to WebAssembly (100k FPS)",
@@ -231,7 +269,7 @@
         "pokeemerald",
         "100k FPS"
       ],
-      "rank": 12
+      "rank": 14
     },
     {
       "title": "The Smart TV in Your LivingRoom Is a Node in the AIScraping Economy",
@@ -250,7 +288,7 @@
         "Bright Data",
         "Residential IPs"
       ],
-      "rank": 13
+      "rank": 15
     },
     {
       "title": "Social Cache Busting",
@@ -269,7 +307,7 @@
         "autodidacts.io",
         "politicians"
       ],
-      "rank": 14
+      "rank": 16
     }
   ]
 }
