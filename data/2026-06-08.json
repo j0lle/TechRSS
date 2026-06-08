@@ -1,10 +1,47 @@
 {
   "date": "2026-06-08",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3379,
-  "filtered_articles": 26,
+  "success_feeds": 88,
+  "total_articles": 3360,
+  "filtered_articles": 28,
   "articles": [
+    {
+      "title": "The Cypherpunk Library",
+      "title_display": "The Cypherpunk Library",
+      "link": "https://www.cypherpunkbooks.com",
+      "pub_date": "2026-06-08T09:00:13.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 174,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Cypherpunk",
+        "cypherpunkbooks.com",
+        "animation",
+        "landing page"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Algorithmic Monocultures in Hiring",
+      "title_display": "Algorithmic Monocultures in Hiring",
+      "link": "https://algorithmichiring.github.io/",
+      "pub_date": "2026-06-08T02:40:56.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 126,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "algorithmic hiring",
+        "algorithmic monocultures",
+        "hiring algorithms"
+      ],
+      "rank": 2
+    },
     {
       "title": "DeepSeek V4 Pro beats GPT-5.5 Pro on precision",
       "title_display": "DeepSeek V4 Pro beats GPT-5.5 Pro on precision",
@@ -22,7 +59,7 @@
         "DeepSeek",
         "OpenAI"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "A Matter Wi-Fi Light Bulb in Rust on the Raspberry Pi Pico 2 W",
@@ -41,7 +78,7 @@
         "Raspberry Pi Pico 2 W",
         "embassy-rp"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "The Smallest Brain You Can Build: A Perceptron in Python",
@@ -51,8 +88,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 145,
-      "score": 26,
+      "hn_points": 247,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Perceptron",
@@ -60,7 +97,7 @@
         "Machine Learning",
         "Chris Bishop"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "Show HN: I Derived a Pancake",
@@ -79,7 +116,7 @@
         "recipes",
         "absurdlyoptimized.com"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "Building from Zero After Addiction, Prison, and a Felony",
@@ -98,7 +135,7 @@
         "felony",
         "Gavin Ray"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "How's Linear so fast? A technical breakdown",
@@ -117,7 +154,7 @@
         "Client-side rendering (CSR)",
         "Sync engine"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "Silurus/ooxml: Pixel-faithful Office documents, rendered in the browser",
@@ -136,7 +173,7 @@
         "OOXML",
         "docx"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "What is the purpose of the lost+found folder in Linux and Unix?",
@@ -155,7 +192,7 @@
         "Unix",
         "fsck"
       ],
-      "rank": 8
+      "rank": 10
     },
     {
       "title": "The gamers taking on the industry to stop it switching off games",
@@ -174,7 +211,7 @@
         "game preservation",
         "cloud gaming"
       ],
-      "rank": 9
+      "rank": 11
     },
     {
       "title": "Vitamin D3 During Pregnancy and Cognitive Performance at 10 Years",
@@ -193,7 +230,7 @@
         "cognitive performance",
         "JAMA Network Open"
       ],
-      "rank": 10
+      "rank": 12
     },
     {
       "title": "Show HN: Lathe – Use LLMs to learn a new domain, not skip past it",
@@ -212,7 +249,7 @@
         "GitHub",
         "devenjarvis"
       ],
-      "rank": 11
+      "rank": 13
     },
     {
       "title": "Anthropic, please ship an official Claude Desktop for Linux",
@@ -231,7 +268,7 @@
         "Claude",
         "claude-code"
       ],
-      "rank": 12
+      "rank": 14
     },
     {
       "title": "LLMs are eroding my software engineering career and I don't know what to do",
@@ -250,7 +287,7 @@
         "career",
         "domain knowledge"
       ],
-      "rank": 13
+      "rank": 15
     },
     {
       "title": "Win16 Memory Management",
@@ -269,7 +306,7 @@
         "segmentation",
         "16-bit"
       ],
-      "rank": 14
+      "rank": 16
     },
     {
       "title": "Speculative KV coding: losslessly compressing KV cache by up to ~4×",
@@ -288,7 +325,7 @@
         "entropy coder",
         "lossless compression"
       ],
-      "rank": 15
+      "rank": 17
     },
     {
       "title": "Symbolica 2.0: Programmable Symbols for Python and Rust",
@@ -307,7 +344,7 @@
         "Rust",
         "computer algebra"
       ],
-      "rank": 16
+      "rank": 18
     }
   ]
 }
