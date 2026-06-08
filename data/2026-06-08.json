@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3378,
-  "filtered_articles": 29,
+  "filtered_articles": 25,
   "articles": [
     {
       "title": "DeepSeek V4 Pro beats GPT-5.5 Pro on precision",
@@ -25,6 +25,25 @@
       "rank": 1
     },
     {
+      "title": "The Smallest Brain You Can Build: A Perceptron in Python",
+      "title_display": "The Smallest Brain You Can Build: A Perceptron in Python",
+      "link": "https://ranpara.net/posts/perceptron-explained-from-scratch/",
+      "pub_date": "2026-06-08T00:40:52.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 145,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Perceptron",
+        "Python",
+        "Machine Learning",
+        "Chris Bishop"
+      ],
+      "rank": 2
+    },
+    {
       "title": "Show HN: I Derived a Pancake",
       "title_display": "Show HN: I Derived a Pancake",
       "link": "https://www.absurdlyoptimized.com/recipes/pancakes/",
@@ -41,7 +60,7 @@
         "recipes",
         "absurdlyoptimized.com"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Building from Zero After Addiction, Prison, and a Felony",
@@ -60,7 +79,7 @@
         "felony",
         "Gavin Ray"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "How's Linear so fast? A technical breakdown",
@@ -79,7 +98,7 @@
         "Client-side rendering (CSR)",
         "Sync engine"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Silurus/ooxml: Pixel-faithful Office documents, rendered in the browser",
@@ -98,7 +117,7 @@
         "OOXML",
         "docx"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "What is the purpose of the lost+found folder in Linux and Unix?",
@@ -117,7 +136,7 @@
         "Unix",
         "fsck"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "The gamers taking on the industry to stop it switching off games",
@@ -136,7 +155,7 @@
         "game preservation",
         "cloud gaming"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Vitamin D3 During Pregnancy and Cognitive Performance at 10 Years",
@@ -155,7 +174,7 @@
         "cognitive performance",
         "JAMA Network Open"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Show HN: Lathe – Use LLMs to learn a new domain, not skip past it",
@@ -174,7 +193,7 @@
         "GitHub",
         "devenjarvis"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Anthropic, please ship an official Claude Desktop for Linux",
@@ -193,7 +212,7 @@
         "Claude",
         "claude-code"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "LLMs are eroding my software engineering career and I don't know what to do",
@@ -212,7 +231,7 @@
         "career",
         "domain knowledge"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "Win16 Memory Management",
@@ -231,7 +250,7 @@
         "segmentation",
         "16-bit"
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "title": "Speculative KV coding: losslessly compressing KV cache by up to ~4×",
@@ -250,7 +269,7 @@
         "entropy coder",
         "lossless compression"
       ],
-      "rank": 13
+      "rank": 14
     },
     {
       "title": "Symbolica 2.0: Programmable Symbols for Python and Rust",
@@ -269,7 +288,7 @@
         "Rust",
         "computer algebra"
       ],
-      "rank": 14
+      "rank": 15
     }
   ]
 }
