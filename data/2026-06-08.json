@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3378,
-  "filtered_articles": 28,
+  "filtered_articles": 29,
   "articles": [
+    {
+      "title": "DeepSeek V4 Pro beats GPT-5.5 Pro on precision",
+      "title_display": "DeepSeek V4 Pro beats GPT-5.5 Pro on precision",
+      "link": "https://runtimewire.com/article/deepseek-v4-pro-beats-gpt-5-5-pro-on-precision",
+      "pub_date": "2026-06-08T02:20:51.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 174,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "DeepSeek V4 Pro",
+        "GPT-5.5 Pro",
+        "DeepSeek",
+        "OpenAI"
+      ],
+      "rank": 1
+    },
     {
       "title": "Show HN: I Derived a Pancake",
       "title_display": "Show HN: I Derived a Pancake",
@@ -22,7 +41,7 @@
         "recipes",
         "absurdlyoptimized.com"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Building from Zero After Addiction, Prison, and a Felony",
@@ -41,7 +60,7 @@
         "felony",
         "Gavin Ray"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "How's Linear so fast? A technical breakdown",
@@ -60,7 +79,7 @@
         "Client-side rendering (CSR)",
         "Sync engine"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Silurus/ooxml: Pixel-faithful Office documents, rendered in the browser",
@@ -79,7 +98,7 @@
         "OOXML",
         "docx"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "What is the purpose of the lost+found folder in Linux and Unix?",
@@ -98,7 +117,26 @@
         "Unix",
         "fsck"
       ],
-      "rank": 5
+      "rank": 6
+    },
+    {
+      "title": "The gamers taking on the industry to stop it switching off games",
+      "title_display": "The gamers taking on the industry to stop it switching off games",
+      "link": "https://www.bbc.com/news/articles/c8e8e7g0r82o",
+      "pub_date": "2026-06-07T17:30:53.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 124,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "video games",
+        "server shutdowns",
+        "game preservation",
+        "cloud gaming"
+      ],
+      "rank": 7
     },
     {
       "title": "Vitamin D3 During Pregnancy and Cognitive Performance at 10 Years",
@@ -117,7 +155,7 @@
         "cognitive performance",
         "JAMA Network Open"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "Show HN: Lathe – Use LLMs to learn a new domain, not skip past it",
@@ -136,7 +174,7 @@
         "GitHub",
         "devenjarvis"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "Anthropic, please ship an official Claude Desktop for Linux",
@@ -155,7 +193,7 @@
         "Claude",
         "claude-code"
       ],
-      "rank": 8
+      "rank": 10
     },
     {
       "title": "LLMs are eroding my software engineering career and I don't know what to do",
@@ -174,7 +212,7 @@
         "career",
         "domain knowledge"
       ],
-      "rank": 9
+      "rank": 11
     },
     {
       "title": "Win16 Memory Management",
@@ -193,7 +231,7 @@
         "segmentation",
         "16-bit"
       ],
-      "rank": 10
+      "rank": 12
     },
     {
       "title": "Speculative KV coding: losslessly compressing KV cache by up to ~4×",
@@ -212,7 +250,7 @@
         "entropy coder",
         "lossless compression"
       ],
-      "rank": 11
+      "rank": 13
     },
     {
       "title": "Symbolica 2.0: Programmable Symbols for Python and Rust",
@@ -231,7 +269,7 @@
         "Rust",
         "computer algebra"
       ],
-      "rank": 12
+      "rank": 14
     }
   ]
 }
