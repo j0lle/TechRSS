@@ -1,9 +1,9 @@
 {
   "date": "2026-06-08",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3378,
-  "filtered_articles": 25,
+  "success_feeds": 88,
+  "total_articles": 3358,
+  "filtered_articles": 23,
   "articles": [
     {
       "title": "DeepSeek V4 Pro beats GPT-5.5 Pro on precision",
