@@ -1,9 +1,9 @@
 {
   "date": "2026-06-09",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3389,
-  "filtered_articles": 27,
+  "success_feeds": 88,
+  "total_articles": 3369,
+  "filtered_articles": 26,
   "articles": [
     {
       "title": "Show HN: Performative-UI – a react component library of design tropes",
@@ -44,6 +44,25 @@
       "rank": 2
     },
     {
+      "title": "Replies to comments on my \"LLMs are eroding my career\" post",
+      "title_display": "Replies to comments on my \"LLMs are eroding my career\" post",
+      "link": "https://human-in-the-loop.bearblog.dev/replies-to-comments-on-my-llms-are-eroding-my-career-post/",
+      "pub_date": "2026-06-08T10:50:13.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 126,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "LLMs",
+        "AI",
+        "software engineering",
+        "careers"
+      ],
+      "rank": 3
+    },
+    {
       "title": "OneDrive data now has an expiry date",
       "title_display": "OneDrive data now has an expiry date",
       "link": "https://ms365news.com/blogs/f/your-onedrive-data-now-has-an-expiry-data",
@@ -60,7 +79,7 @@
         "SharePoint",
         "Microsoft"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Playing with Vision Embeddings",
@@ -79,7 +98,7 @@
         "LLM",
         "Image encoder"
       ],
-      "rank": 4
+      "rank": 5
     }
   ]
 }
