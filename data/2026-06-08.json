@@ -1,9 +1,9 @@
 {
   "date": "2026-06-08",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3357,
-  "filtered_articles": 28,
+  "success_feeds": 86,
+  "total_articles": 3116,
+  "filtered_articles": 26,
   "articles": [
     {
       "title": "Building from Zero After Addiction, Prison, and a Felony",
@@ -44,6 +44,25 @@
       "rank": 2
     },
     {
+      "title": "What is the purpose of the lost+found folder in Linux and Unix?",
+      "title_display": "What is the purpose of the lost+found folder in Linux and Unix?",
+      "link": "https://unix.stackexchange.com/questions/18154/what-is-the-purpose-of-the-lostfound-folder-in-linux-and-unix",
+      "pub_date": "2026-06-07T18:20:52.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 122,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "lost+found",
+        "Linux",
+        "Unix",
+        "fsck"
+      ],
+      "rank": 3
+    },
+    {
       "title": "Vitamin D3 During Pregnancy and Cognitive Performance at 10 Years",
       "title_display": "Vitamin D3 During Pregnancy and Cognitive Performance at 10 Years",
       "link": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2849122",
@@ -60,7 +79,7 @@
         "cognitive performance",
         "JAMA Network Open"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Show HN: Lathe – Use LLMs to learn a new domain, not skip past it",
@@ -79,7 +98,7 @@
         "GitHub",
         "devenjarvis"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Anthropic, please ship an official Claude Desktop for Linux",
@@ -98,7 +117,7 @@
         "Claude",
         "claude-code"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "LLMs are eroding my software engineering career and I don't know what to do",
@@ -117,7 +136,7 @@
         "career",
         "domain knowledge"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Win16 Memory Management",
@@ -136,7 +155,7 @@
         "segmentation",
         "16-bit"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Speculative KV coding: losslessly compressing KV cache by up to ~4×",
@@ -155,7 +174,7 @@
         "entropy coder",
         "lossless compression"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Symbolica 2.0: Programmable Symbols for Python and Rust",
@@ -174,7 +193,7 @@
         "Rust",
         "computer algebra"
       ],
-      "rank": 9
+      "rank": 10
     }
   ]
 }
