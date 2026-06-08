@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3379,
-  "filtered_articles": 28,
+  "filtered_articles": 26,
   "articles": [
     {
       "title": "DeepSeek V4 Pro beats GPT-5.5 Pro on precision",
@@ -89,7 +89,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 390,
+      "hn_points": 690,
       "score": 30,
       "category": "other",
       "keywords": [
