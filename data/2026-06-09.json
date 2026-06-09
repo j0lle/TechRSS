@@ -1,10 +1,29 @@
 {
   "date": "2026-06-09",
   "total_feeds": 95,
-  "success_feeds": 87,
-  "total_articles": 3342,
-  "filtered_articles": 24,
+  "success_feeds": 88,
+  "total_articles": 3367,
+  "filtered_articles": 25,
   "articles": [
+    {
+      "title": "GentleOS – Classic operating system with a lovely retro GUI",
+      "title_display": "GentleOS – Classic operating system with a lovely retro GUI",
+      "link": "https://github.com/luke8086/gentleos32",
+      "pub_date": "2026-06-09T10:10:11.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 239,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "GentleOS",
+        "gentleos32",
+        "GitHub",
+        "luke8086"
+      ],
+      "rank": 1
+    },
     {
       "title": "Microsoft's open source tools were hacked to steal passwords of AI developers",
       "title_display": "Microsoft's open source tools were hacked to steal passwords of AI developers",
@@ -13,8 +32,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 200,
-      "score": 28,
+      "hn_points": 312,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Microsoft",
@@ -22,7 +41,7 @@
         "Azure Functions",
         "open-source"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Looking Forward to Postgres 19: Query Hints",
@@ -41,7 +60,7 @@
         "query hints",
         "pg_plan_advice"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Apple Core AI Framework",
@@ -60,7 +79,7 @@
         "Core ML",
         "Apfel"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Show HN: Gitdot – a better GitHub. Open-source, anti-AI, and written in Rust",
@@ -79,7 +98,7 @@
         "GitHub",
         "anti-AI"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Ask HN: What are tools you have made for yourself since the advent of AI?",
@@ -98,7 +117,7 @@
         "Claude",
         "Gemini"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Show HN: Performative-UI – a react component library of design tropes",
@@ -117,7 +136,7 @@
         "UI",
         "AI"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Are you expected to run five Python type-checkers now?",
@@ -136,7 +155,7 @@
         "numpy",
         "polars"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Zig by Example",
@@ -155,7 +174,7 @@
         "ziglings",
         "boringcollege"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Replies to comments on my \"LLMs are eroding my career\" post",
@@ -174,7 +193,7 @@
         "software engineering",
         "careers"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "OneDrive data now has an expiry date",
@@ -193,7 +212,7 @@
         "SharePoint",
         "Microsoft"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "Playing with Vision Embeddings",
@@ -212,7 +231,7 @@
         "LLM",
         "Image encoder"
       ],
-      "rank": 11
+      "rank": 12
     }
   ]
 }
