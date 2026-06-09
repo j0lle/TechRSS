@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3389,
-  "filtered_articles": 27,
+  "filtered_articles": 24,
   "articles": [
+    {
+      "title": "Ask HN: What are tools you have made for yourself since the advent of AI?",
+      "title_display": "Ask HN: What are tools you have made for yourself since the advent of AI?",
+      "link": "https://news.ycombinator.com/item?id=48449187",
+      "pub_date": "2026-06-08T19:30:11.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 131,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "AI",
+        "agents",
+        "Claude",
+        "Gemini"
+      ],
+      "rank": 1
+    },
     {
       "title": "Show HN: Performative-UI – a react component library of design tropes",
       "title_display": "Show HN: Performative-UI – a react component library of design tropes",
@@ -13,7 +32,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 394,
+      "hn_points": 719,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -22,7 +41,26 @@
         "UI",
         "AI"
       ],
-      "rank": 1
+      "rank": 2
+    },
+    {
+      "title": "Are you expected to run five Python type-checkers now?",
+      "title_display": "Are you expected to run five Python type-checkers now?",
+      "link": "https://pyrefly.org/blog/too-many-type-checkers/",
+      "pub_date": "2026-06-08T14:20:12.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 129,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Python",
+        "type-checkers",
+        "numpy",
+        "polars"
+      ],
+      "rank": 3
     },
     {
       "title": "Zig by Example",
@@ -41,7 +79,7 @@
         "ziglings",
         "boringcollege"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "Replies to comments on my \"LLMs are eroding my career\" post",
@@ -60,7 +98,7 @@
         "software engineering",
         "careers"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "OneDrive data now has an expiry date",
@@ -79,7 +117,7 @@
         "SharePoint",
         "Microsoft"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "Playing with Vision Embeddings",
@@ -98,7 +136,7 @@
         "LLM",
         "Image encoder"
       ],
-      "rank": 5
+      "rank": 7
     }
   ]
 }
