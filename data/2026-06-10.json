@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3387,
-  "filtered_articles": 29,
+  "filtered_articles": 30,
   "articles": [
+    {
+      "title": "Apple decided not to roll out Siri in EU after denied request for exemption",
+      "title_display": "Apple decided not to roll out Siri in EU after denied request for exemption",
+      "link": "https://www.reuters.com/business/apple-failed-make-its-ai-tool-comply-eu-regulations-eu-commission-says-2026-06-09/",
+      "pub_date": "2026-06-09T16:20:19.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 235,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "Apple",
+        "Siri",
+        "Digital Markets Act (DMA)",
+        "European Commission"
+      ],
+      "rank": 1
+    },
     {
       "title": "Solar Energy Saves Europeans $135M a Day",
       "title_display": "Solar Energy Saves Europeans $135M a Day",
@@ -22,7 +41,7 @@
         "PV",
         "Battery storage"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Cleaning up after AI rockstar developers",
@@ -41,7 +60,7 @@
         "CodingWithJesse",
         "code review"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Making Graphics Like it's 1993",
@@ -60,7 +79,7 @@
         "3D",
         "Wolfenstein 3D"
       ],
-      "rank": 3
+      "rank": 4
     }
   ]
 }
