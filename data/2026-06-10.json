@@ -1,10 +1,29 @@
 {
   "date": "2026-06-10",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3377,
-  "filtered_articles": 27,
+  "success_feeds": 89,
+  "total_articles": 3387,
+  "filtered_articles": 29,
   "articles": [
+    {
+      "title": "Solar Energy Saves Europeans $135M a Day",
+      "title_display": "Solar Energy Saves Europeans $135M a Day",
+      "link": "https://cleantechnica.com/2026/06/08/solar-energy-saves-europeans-135-million-a-day/",
+      "pub_date": "2026-06-09T15:30:18.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 149,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Solar energy",
+        "Europe",
+        "PV",
+        "Battery storage"
+      ],
+      "rank": 1
+    },
     {
       "title": "Cleaning up after AI rockstar developers",
       "title_display": "Cleaning up after AI rockstar developers",
@@ -22,7 +41,7 @@
         "CodingWithJesse",
         "code review"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Making Graphics Like it's 1993",
@@ -41,7 +60,7 @@
         "3D",
         "Wolfenstein 3D"
       ],
-      "rank": 2
+      "rank": 3
     }
   ]
 }
