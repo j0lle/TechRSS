@@ -6,6 +6,25 @@
   "filtered_articles": 42,
   "articles": [
     {
+      "title": "Apache Burr: Build reliable AI agents and applications",
+      "title_display": "Apache Burr: Build reliable AI agents and applications",
+      "link": "https://burr.apache.org/",
+      "pub_date": "2026-06-10T15:21:01.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 122,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "Apache Burr",
+        "AI agents",
+        "agent frameworks",
+        "Apache Software Foundation"
+      ],
+      "rank": 1
+    },
+    {
       "title": "PgDog is funded and coming to a database near you",
       "title_display": "PgDog is funded and coming to a database near you",
       "link": "https://pgdog.dev/blog/our-funding-announcement",
@@ -13,8 +32,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 177,
-      "score": 27,
+      "hn_points": 280,
+      "score": 30,
       "category": "other",
       "keywords": [
         "PgDog",
@@ -22,7 +41,7 @@
         "pgbouncer",
         "sharding"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "All 9,300 Japanese train station, animated by the year it opened (1872–2026)",
@@ -41,7 +60,7 @@
         "data visualization",
         "animated map"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Reviving Papers with Code",
@@ -60,7 +79,7 @@
         "leaderboards",
         "GitHub"
       ],
-      "rank": 3
+      "rank": 4
     }
   ]
 }
