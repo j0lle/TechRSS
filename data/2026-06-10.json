@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3387,
-  "filtered_articles": 37,
+  "filtered_articles": 40,
   "articles": [
+    {
+      "title": "AWS Bedrock to require sharing data with Anthropic for Mythos and future models",
+      "title_display": "AWS Bedrock to require sharing data with Anthropic for Mythos and future models",
+      "link": "https://news.ycombinator.com/item?id=48473166",
+      "pub_date": "2026-06-10T09:41:01.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 140,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "AWS Bedrock",
+        "Anthropic",
+        "Mythos",
+        "data-sharing"
+      ],
+      "rank": 1
+    },
     {
       "title": "German ruling declares Google liable for false answers in AI Overviews",
       "title_display": "German ruling declares Google liable for false answers in AI Overviews",
@@ -13,7 +32,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 368,
+      "hn_points": 718,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -22,7 +41,7 @@
         "Germany",
         "liability"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Rich Sutton on AI creativity and discovery",
@@ -41,7 +60,7 @@
         "LLMs",
         "Claude Code"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "macOS Container Machines",
@@ -60,7 +79,7 @@
         "macOS",
         "containers"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Lies We Tell Ourselves About Email Addresses",
@@ -79,7 +98,7 @@
         "passwordless login",
         "password manager"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "RIP software hackathons. Long live the hardware hackathon",
@@ -98,7 +117,7 @@
         "hackathon",
         "AI"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Grit: Rewriting Git in Rust with Agents",
@@ -117,7 +136,7 @@
         "Rust",
         "Agents"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Upcoming breaking changes for NPM v12",
@@ -136,7 +155,7 @@
         "breaking changes",
         "GitHub"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Test-case reducers are underappreciated debugging tools",
@@ -155,7 +174,7 @@
         "property-based testing",
         "Shrink Ray"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "GPT-2: Too Dangerous To Release (2019)",
@@ -174,7 +193,7 @@
         "Mythos",
         "Fable"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Ultrafast machine learning on FPGAs via Kolmogorov-Arnold Networks",
@@ -193,7 +212,7 @@
         "KAN",
         "Latency"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "Where is the AI jobs crisis?",
@@ -212,7 +231,7 @@
         "healthcare",
         "ZIRP"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "What it feels like to work with Mythos",
@@ -231,7 +250,7 @@
         "Opus 4.8",
         "Claude"
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "title": "Apple decided not to roll out Siri in EU after denied request for exemption",
@@ -250,7 +269,7 @@
         "Digital Markets Act (DMA)",
         "European Commission"
       ],
-      "rank": 13
+      "rank": 14
     },
     {
       "title": "Solar Energy Saves Europeans $135M a Day",
@@ -269,7 +288,7 @@
         "PV",
         "Battery storage"
       ],
-      "rank": 14
+      "rank": 15
     },
     {
       "title": "Show HN: Gravity – interactive solar-system simulator, from Newton to Einstein",
@@ -288,7 +307,7 @@
         "simulator",
         "Newton"
       ],
-      "rank": 15
+      "rank": 16
     },
     {
       "title": "Cleaning up after AI rockstar developers",
@@ -307,7 +326,7 @@
         "CodingWithJesse",
         "code review"
       ],
-      "rank": 16
+      "rank": 17
     },
     {
       "title": "Making Graphics Like it's 1993",
@@ -326,7 +345,7 @@
         "3D",
         "Wolfenstein 3D"
       ],
-      "rank": 17
+      "rank": 18
     }
   ]
 }
