@@ -2,8 +2,8 @@
   "date": "2026-06-10",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3387,
-  "filtered_articles": 33,
+  "total_articles": 3383,
+  "filtered_articles": 35,
   "articles": [
     {
       "title": "Upcoming breaking changes for NPM v12",
@@ -82,6 +82,25 @@
       "rank": 4
     },
     {
+      "title": "What it feels like to work with Mythos",
+      "title_display": "What it feels like to work with Mythos",
+      "link": "https://www.oneusefulthing.org/p/what-it-feels-like-to-work-with-mythos",
+      "pub_date": "2026-06-09T17:40:20.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 160,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Mythos",
+        "Fable",
+        "Opus 4.8",
+        "Claude"
+      ],
+      "rank": 5
+    },
+    {
       "title": "Apple decided not to roll out Siri in EU after denied request for exemption",
       "title_display": "Apple decided not to roll out Siri in EU after denied request for exemption",
       "link": "https://www.reuters.com/business/apple-failed-make-its-ai-tool-comply-eu-regulations-eu-commission-says-2026-06-09/",
@@ -98,7 +117,7 @@
         "Digital Markets Act (DMA)",
         "European Commission"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Solar Energy Saves Europeans $135M a Day",
@@ -117,7 +136,7 @@
         "PV",
         "Battery storage"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Show HN: Gravity – interactive solar-system simulator, from Newton to Einstein",
@@ -136,7 +155,7 @@
         "simulator",
         "Newton"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Cleaning up after AI rockstar developers",
@@ -155,7 +174,7 @@
         "CodingWithJesse",
         "code review"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Making Graphics Like it's 1993",
@@ -174,7 +193,7 @@
         "3D",
         "Wolfenstein 3D"
       ],
-      "rank": 9
+      "rank": 10
     }
   ]
 }
