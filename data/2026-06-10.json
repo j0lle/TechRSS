@@ -1,9 +1,9 @@
 {
   "date": "2026-06-10",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3373,
-  "filtered_articles": 39,
+  "success_feeds": 89,
+  "total_articles": 3387,
+  "filtered_articles": 41,
   "articles": [
     {
       "title": "German ruling declares Google liable for false answers in AI Overviews",
@@ -63,6 +63,25 @@
       "rank": 3
     },
     {
+      "title": "Grit: Rewriting Git in Rust with Agents",
+      "title_display": "Grit: Rewriting Git in Rust with Agents",
+      "link": "https://blog.gitbutler.com/true-grit",
+      "pub_date": "2026-06-09T22:20:19.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 134,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Grit",
+        "Git",
+        "Rust",
+        "Agents"
+      ],
+      "rank": 4
+    },
+    {
       "title": "Upcoming breaking changes for NPM v12",
       "title_display": "Upcoming breaking changes for NPM v12",
       "link": "https://github.blog/changelog/2026-06-09-upcoming-breaking-changes-for-npm-v12/",
@@ -79,7 +98,7 @@
         "breaking changes",
         "GitHub"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "GPT-2: Too Dangerous To Release (2019)",
@@ -98,7 +117,7 @@
         "Mythos",
         "Fable"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Ultrafast machine learning on FPGAs via Kolmogorov-Arnold Networks",
@@ -117,7 +136,7 @@
         "KAN",
         "Latency"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Where is the AI jobs crisis?",
@@ -136,7 +155,7 @@
         "healthcare",
         "ZIRP"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "What it feels like to work with Mythos",
@@ -146,8 +165,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 160,
-      "score": 27,
+      "hn_points": 265,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Mythos",
@@ -155,7 +174,7 @@
         "Opus 4.8",
         "Claude"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Apple decided not to roll out Siri in EU after denied request for exemption",
@@ -174,7 +193,7 @@
         "Digital Markets Act (DMA)",
         "European Commission"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Solar Energy Saves Europeans $135M a Day",
@@ -193,7 +212,7 @@
         "PV",
         "Battery storage"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "Show HN: Gravity – interactive solar-system simulator, from Newton to Einstein",
@@ -212,7 +231,7 @@
         "simulator",
         "Newton"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "Cleaning up after AI rockstar developers",
@@ -231,7 +250,7 @@
         "CodingWithJesse",
         "code review"
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "title": "Making Graphics Like it's 1993",
@@ -250,7 +269,7 @@
         "3D",
         "Wolfenstein 3D"
       ],
-      "rank": 13
+      "rank": 14
     }
   ]
 }
