@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3389,
-  "filtered_articles": 45,
+  "filtered_articles": 43,
   "articles": [
     {
       "title": "Claude Desktop spins up a VM without no way of stopping it",
