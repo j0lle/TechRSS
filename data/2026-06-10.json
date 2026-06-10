@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3387,
-  "filtered_articles": 39,
+  "filtered_articles": 37,
   "articles": [
     {
       "title": "German ruling declares Google liable for false answers in AI Overviews",
@@ -25,6 +25,25 @@
       "rank": 1
     },
     {
+      "title": "Rich Sutton on AI creativity and discovery",
+      "title_display": "Rich Sutton on AI creativity and discovery",
+      "link": "https://twitter.com/RichardSSutton/status/2061216087744946656",
+      "pub_date": "2026-06-10T02:30:18.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 126,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Rich Sutton",
+        "Reinforcement Learning",
+        "LLMs",
+        "Claude Code"
+      ],
+      "rank": 2
+    },
+    {
       "title": "macOS Container Machines",
       "title_display": "macOS Container Machines",
       "link": "https://github.com/apple/container/blob/main/docs/container-machine.md",
@@ -32,7 +51,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 454,
+      "hn_points": 819,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -41,7 +60,26 @@
         "macOS",
         "containers"
       ],
-      "rank": 2
+      "rank": 3
+    },
+    {
+      "title": "Lies We Tell Ourselves About Email Addresses",
+      "title_display": "Lies We Tell Ourselves About Email Addresses",
+      "link": "https://gitpush--force.com/commits/2026/06/lies-we-tell-ourselves-about-email/",
+      "pub_date": "2026-06-10T00:20:19.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 130,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "email addresses",
+        "email verification",
+        "passwordless login",
+        "password manager"
+      ],
+      "rank": 4
     },
     {
       "title": "RIP software hackathons. Long live the hardware hackathon",
@@ -60,7 +98,7 @@
         "hackathon",
         "AI"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "Grit: Rewriting Git in Rust with Agents",
@@ -79,7 +117,7 @@
         "Rust",
         "Agents"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "Upcoming breaking changes for NPM v12",
@@ -98,7 +136,26 @@
         "breaking changes",
         "GitHub"
       ],
-      "rank": 5
+      "rank": 7
+    },
+    {
+      "title": "Test-case reducers are underappreciated debugging tools",
+      "title_display": "Test-case reducers are underappreciated debugging tools",
+      "link": "https://tratt.net/laurie/blog/2026/test_case_reducers_are_underappreciated_debugging_tools.html",
+      "pub_date": "2026-06-09T20:00:22.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 125,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "test-case reducers",
+        "shrinking",
+        "property-based testing",
+        "Shrink Ray"
+      ],
+      "rank": 8
     },
     {
       "title": "GPT-2: Too Dangerous To Release (2019)",
@@ -117,7 +174,7 @@
         "Mythos",
         "Fable"
       ],
-      "rank": 6
+      "rank": 9
     },
     {
       "title": "Ultrafast machine learning on FPGAs via Kolmogorov-Arnold Networks",
@@ -127,8 +184,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 134,
-      "score": 26,
+      "hn_points": 234,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Kolmogorov-Arnold Networks",
@@ -136,7 +193,7 @@
         "KAN",
         "Latency"
       ],
-      "rank": 7
+      "rank": 10
     },
     {
       "title": "Where is the AI jobs crisis?",
@@ -155,7 +212,7 @@
         "healthcare",
         "ZIRP"
       ],
-      "rank": 8
+      "rank": 11
     },
     {
       "title": "What it feels like to work with Mythos",
@@ -174,7 +231,7 @@
         "Opus 4.8",
         "Claude"
       ],
-      "rank": 9
+      "rank": 12
     },
     {
       "title": "Apple decided not to roll out Siri in EU after denied request for exemption",
@@ -193,7 +250,7 @@
         "Digital Markets Act (DMA)",
         "European Commission"
       ],
-      "rank": 10
+      "rank": 13
     },
     {
       "title": "Solar Energy Saves Europeans $135M a Day",
@@ -212,7 +269,7 @@
         "PV",
         "Battery storage"
       ],
-      "rank": 11
+      "rank": 14
     },
     {
       "title": "Show HN: Gravity – interactive solar-system simulator, from Newton to Einstein",
@@ -231,7 +288,7 @@
         "simulator",
         "Newton"
       ],
-      "rank": 12
+      "rank": 15
     },
     {
       "title": "Cleaning up after AI rockstar developers",
@@ -250,7 +307,7 @@
         "CodingWithJesse",
         "code review"
       ],
-      "rank": 13
+      "rank": 16
     },
     {
       "title": "Making Graphics Like it's 1993",
@@ -269,7 +326,7 @@
         "3D",
         "Wolfenstein 3D"
       ],
-      "rank": 14
+      "rank": 17
     }
   ]
 }
