@@ -1,0 +1,28 @@
+{
+  "date": "2026-06-11",
+  "total_feeds": 95,
+  "success_feeds": 89,
+  "total_articles": 3389,
+  "filtered_articles": 44,
+  "articles": [
+    {
+      "title": "Reviving Papers with Code",
+      "title_display": "Reviving Papers with Code",
+      "link": "https://paperswithcode.co/",
+      "pub_date": "2026-06-10T10:21:01.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 130,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Papers with Code",
+        "Hugging Face",
+        "leaderboards",
+        "GitHub"
+      ],
+      "rank": 1
+    }
+  ]
+}
