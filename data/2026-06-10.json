@@ -1,10 +1,29 @@
 {
   "date": "2026-06-10",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3367,
-  "filtered_articles": 31,
+  "success_feeds": 89,
+  "total_articles": 3387,
+  "filtered_articles": 33,
   "articles": [
+    {
+      "title": "Upcoming breaking changes for NPM v12",
+      "title_display": "Upcoming breaking changes for NPM v12",
+      "link": "https://github.blog/changelog/2026-06-09-upcoming-breaking-changes-for-npm-v12/",
+      "pub_date": "2026-06-09T21:40:19.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 165,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "npm",
+        "npm v12",
+        "breaking changes",
+        "GitHub"
+      ],
+      "rank": 1
+    },
     {
       "title": "GPT-2: Too Dangerous To Release (2019)",
       "title_display": "GPT-2: Too Dangerous To Release (2019)",
@@ -22,7 +41,45 @@
         "Mythos",
         "Fable"
       ],
-      "rank": 1
+      "rank": 2
+    },
+    {
+      "title": "Ultrafast machine learning on FPGAs via Kolmogorov-Arnold Networks",
+      "title_display": "Ultrafast machine learning on FPGAs via Kolmogorov-Arnold Networks",
+      "link": "https://aarushgupta.io/posts/kan-fpga/",
+      "pub_date": "2026-06-09T19:50:18.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 134,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Kolmogorov-Arnold Networks",
+        "FPGA",
+        "KAN",
+        "Latency"
+      ],
+      "rank": 3
+    },
+    {
+      "title": "Where is the AI jobs crisis?",
+      "title_display": "Where is the AI jobs crisis?",
+      "link": "https://www.apollo.com/wealth/the-daily-spark/where-is-the-ai-jobs-crisis",
+      "pub_date": "2026-06-09T18:00:23.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 132,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "AI",
+        "BLS",
+        "healthcare",
+        "ZIRP"
+      ],
+      "rank": 4
     },
     {
       "title": "Apple decided not to roll out Siri in EU after denied request for exemption",
@@ -32,8 +89,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 235,
-      "score": 29,
+      "hn_points": 339,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Apple",
@@ -41,7 +98,7 @@
         "Digital Markets Act (DMA)",
         "European Commission"
       ],
-      "rank": 2
+      "rank": 5
     },
     {
       "title": "Solar Energy Saves Europeans $135M a Day",
@@ -60,7 +117,7 @@
         "PV",
         "Battery storage"
       ],
-      "rank": 3
+      "rank": 6
     },
     {
       "title": "Show HN: Gravity – interactive solar-system simulator, from Newton to Einstein",
@@ -79,7 +136,7 @@
         "simulator",
         "Newton"
       ],
-      "rank": 4
+      "rank": 7
     },
     {
       "title": "Cleaning up after AI rockstar developers",
@@ -98,7 +155,7 @@
         "CodingWithJesse",
         "code review"
       ],
-      "rank": 5
+      "rank": 8
     },
     {
       "title": "Making Graphics Like it's 1993",
@@ -117,7 +174,7 @@
         "3D",
         "Wolfenstein 3D"
       ],
-      "rank": 6
+      "rank": 9
     }
   ]
 }
