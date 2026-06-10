@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3383,
-  "filtered_articles": 36,
+  "filtered_articles": 38,
   "articles": [
+    {
+      "title": "German ruling declares Google liable for false answers in AI Overviews",
+      "title_display": "German ruling declares Google liable for false answers in AI Overviews",
+      "link": "https://the-decoder.com/landmark-german-ruling-declares-googles-ai-overviews-are-googles-own-words-and-makes-it-liable-for-false-answers/",
+      "pub_date": "2026-06-10T02:50:19.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 235,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "Google",
+        "AI Overviews",
+        "Germany",
+        "liability"
+      ],
+      "rank": 1
+    },
     {
       "title": "macOS Container Machines",
       "title_display": "macOS Container Machines",
@@ -13,8 +32,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 268,
-      "score": 29,
+      "hn_points": 454,
+      "score": 30,
       "category": "other",
       "keywords": [
         "macOS Container Machines",
@@ -22,7 +41,7 @@
         "macOS",
         "containers"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Upcoming breaking changes for NPM v12",
@@ -32,8 +51,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 165,
-      "score": 27,
+      "hn_points": 265,
+      "score": 29,
       "category": "other",
       "keywords": [
         "npm",
@@ -41,7 +60,7 @@
         "breaking changes",
         "GitHub"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "GPT-2: Too Dangerous To Release (2019)",
@@ -60,7 +79,7 @@
         "Mythos",
         "Fable"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Ultrafast machine learning on FPGAs via Kolmogorov-Arnold Networks",
@@ -79,7 +98,7 @@
         "KAN",
         "Latency"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Where is the AI jobs crisis?",
@@ -98,7 +117,7 @@
         "healthcare",
         "ZIRP"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "What it feels like to work with Mythos",
@@ -117,7 +136,7 @@
         "Opus 4.8",
         "Claude"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Apple decided not to roll out Siri in EU after denied request for exemption",
@@ -136,7 +155,7 @@
         "Digital Markets Act (DMA)",
         "European Commission"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Solar Energy Saves Europeans $135M a Day",
@@ -155,7 +174,7 @@
         "PV",
         "Battery storage"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Show HN: Gravity – interactive solar-system simulator, from Newton to Einstein",
@@ -174,7 +193,7 @@
         "simulator",
         "Newton"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Cleaning up after AI rockstar developers",
@@ -193,7 +212,7 @@
         "CodingWithJesse",
         "code review"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "Making Graphics Like it's 1993",
@@ -212,7 +231,7 @@
         "3D",
         "Wolfenstein 3D"
       ],
-      "rank": 11
+      "rank": 12
     }
   ]
 }
