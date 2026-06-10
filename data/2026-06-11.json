@@ -3,8 +3,46 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3389,
-  "filtered_articles": 42,
+  "filtered_articles": 45,
   "articles": [
+    {
+      "title": "Claude Desktop spins up a VM without no way of stopping it",
+      "title_display": "Claude Desktop spins up a VM without no way of stopping it",
+      "link": "https://github.com/anthropics/claude-code/issues/29045",
+      "pub_date": "2026-06-10T18:01:03.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 235,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "Claude Desktop",
+        "Anthropic",
+        "Claude Cowork",
+        "VM"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "GitHub Authentication issues related to API requests",
+      "title_display": "GitHub Authentication issues related to API requests",
+      "link": "https://www.githubstatus.com/incidents/fcj3088jg1wx",
+      "pub_date": "2026-06-10T16:31:00.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 136,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "GitHub",
+        "GitHub API",
+        "Authentication",
+        "GitHub Status"
+      ],
+      "rank": 2
+    },
     {
       "title": "Apache Burr: Build reliable AI agents and applications",
       "title_display": "Apache Burr: Build reliable AI agents and applications",
@@ -22,7 +60,7 @@
         "agent frameworks",
         "Apache Software Foundation"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "PgDog is funded and coming to a database near you",
@@ -41,7 +79,7 @@
         "pgbouncer",
         "sharding"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "All 9,300 Japanese train station, animated by the year it opened (1872–2026)",
@@ -60,7 +98,7 @@
         "data visualization",
         "animated map"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "Reviving Papers with Code",
@@ -79,7 +117,7 @@
         "leaderboards",
         "GitHub"
       ],
-      "rank": 4
+      "rank": 6
     }
   ]
 }
