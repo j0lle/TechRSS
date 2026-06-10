@@ -6,6 +6,44 @@
   "filtered_articles": 44,
   "articles": [
     {
+      "title": "PgDog is funded and coming to a database near you",
+      "title_display": "PgDog is funded and coming to a database near you",
+      "link": "https://pgdog.dev/blog/our-funding-announcement",
+      "pub_date": "2026-06-10T14:21:02.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 177,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "PgDog",
+        "PostgreSQL",
+        "pgbouncer",
+        "sharding"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "All 9,300 Japanese train station, animated by the year it opened (1872–2026)",
+      "title_display": "All 9,300 Japanese train station, animated by the year it opened (1872–2026)",
+      "link": "https://jivx.com/eki",
+      "pub_date": "2026-06-10T12:41:03.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 128,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Japanese train stations",
+        "jivx",
+        "data visualization",
+        "animated map"
+      ],
+      "rank": 2
+    },
+    {
       "title": "Reviving Papers with Code",
       "title_display": "Reviving Papers with Code",
       "link": "https://paperswithcode.co/",
@@ -22,7 +60,7 @@
         "leaderboards",
         "GitHub"
       ],
-      "rank": 1
+      "rank": 3
     }
   ]
 }
