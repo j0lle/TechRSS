@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3383,
-  "filtered_articles": 35,
+  "filtered_articles": 36,
   "articles": [
+    {
+      "title": "macOS Container Machines",
+      "title_display": "macOS Container Machines",
+      "link": "https://github.com/apple/container/blob/main/docs/container-machine.md",
+      "pub_date": "2026-06-10T01:10:19.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 268,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "macOS Container Machines",
+        "apple/container",
+        "macOS",
+        "containers"
+      ],
+      "rank": 1
+    },
     {
       "title": "Upcoming breaking changes for NPM v12",
       "title_display": "Upcoming breaking changes for NPM v12",
@@ -22,7 +41,7 @@
         "breaking changes",
         "GitHub"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "GPT-2: Too Dangerous To Release (2019)",
@@ -41,7 +60,7 @@
         "Mythos",
         "Fable"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Ultrafast machine learning on FPGAs via Kolmogorov-Arnold Networks",
@@ -60,7 +79,7 @@
         "KAN",
         "Latency"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Where is the AI jobs crisis?",
@@ -79,7 +98,7 @@
         "healthcare",
         "ZIRP"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "What it feels like to work with Mythos",
@@ -98,7 +117,7 @@
         "Opus 4.8",
         "Claude"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Apple decided not to roll out Siri in EU after denied request for exemption",
@@ -117,7 +136,7 @@
         "Digital Markets Act (DMA)",
         "European Commission"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Solar Energy Saves Europeans $135M a Day",
@@ -136,7 +155,7 @@
         "PV",
         "Battery storage"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Show HN: Gravity – interactive solar-system simulator, from Newton to Einstein",
@@ -155,7 +174,7 @@
         "simulator",
         "Newton"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Cleaning up after AI rockstar developers",
@@ -174,7 +193,7 @@
         "CodingWithJesse",
         "code review"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Making Graphics Like it's 1993",
@@ -193,7 +212,7 @@
         "3D",
         "Wolfenstein 3D"
       ],
-      "rank": 10
+      "rank": 11
     }
   ]
 }
