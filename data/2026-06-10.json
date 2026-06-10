@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3387,
-  "filtered_articles": 41,
+  "filtered_articles": 39,
   "articles": [
     {
       "title": "German ruling declares Google liable for false answers in AI Overviews",
@@ -89,8 +89,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 265,
-      "score": 29,
+      "hn_points": 373,
+      "score": 30,
       "category": "other",
       "keywords": [
         "npm",
