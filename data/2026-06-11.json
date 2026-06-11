@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3392,
-  "filtered_articles": 31,
+  "filtered_articles": 32,
   "articles": [
     {
       "title": "Cybersecurity researchers aren't happy about the guardrails on Anthropic's Fable",
@@ -32,7 +32,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 401,
+      "hn_points": 705,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -127,8 +127,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 128,
-      "score": 26,
+      "hn_points": 231,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Japanese train stations",
