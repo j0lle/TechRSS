@@ -1,10 +1,29 @@
 {
   "date": "2026-06-11",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3389,
-  "filtered_articles": 41,
+  "success_feeds": 88,
+  "total_articles": 3369,
+  "filtered_articles": 35,
   "articles": [
+    {
+      "title": "ΠFS",
+      "title_display": "ΠFS",
+      "link": "https://github.com/philipl/pifs",
+      "pub_date": "2026-06-10T20:21:01.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 401,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "pifs",
+        "pi",
+        "filesystem",
+        "compression"
+      ],
+      "rank": 1
+    },
     {
       "title": "Claude Desktop spins up a VM without no way of stopping it",
       "title_display": "Claude Desktop spins up a VM without no way of stopping it",
@@ -22,7 +41,7 @@
         "Claude Cowork",
         "VM"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "GitHub Authentication issues related to API requests",
@@ -41,7 +60,7 @@
         "Authentication",
         "GitHub Status"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Apache Burr: Build reliable AI agents and applications",
@@ -60,7 +79,7 @@
         "agent frameworks",
         "Apache Software Foundation"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "PgDog is funded and coming to a database near you",
@@ -79,7 +98,7 @@
         "pgbouncer",
         "sharding"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "All 9,300 Japanese train station, animated by the year it opened (1872–2026)",
@@ -98,7 +117,7 @@
         "data visualization",
         "animated map"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Reviving Papers with Code",
@@ -117,7 +136,7 @@
         "leaderboards",
         "GitHub"
       ],
-      "rank": 6
+      "rank": 7
     }
   ]
 }
