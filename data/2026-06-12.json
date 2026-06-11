@@ -1,9 +1,9 @@
 {
   "date": "2026-06-12",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3393,
-  "filtered_articles": 28,
+  "success_feeds": 87,
+  "total_articles": 3366,
+  "filtered_articles": 27,
   "articles": [
     {
       "title": "Developer gets Half-Life running at 30 FPS on a Nokia N95",
@@ -44,6 +44,25 @@
       "rank": 2
     },
     {
+      "title": "Emacs appearances in pop culture",
+      "title_display": "Emacs appearances in pop culture",
+      "link": "https://ianyepan.github.io/posts/emacs-in-pop-culture/",
+      "pub_date": "2026-06-11T18:01:01.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 188,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "Emacs",
+        "Pop culture",
+        "Vim",
+        "Excel"
+      ],
+      "rank": 3
+    },
+    {
       "title": "Software Is Made Between Commits",
       "title_display": "Software Is Made Between Commits",
       "link": "https://zed.dev/blog/introducing-deltadb",
@@ -60,7 +79,7 @@
         "version control",
         "agents"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Solar generates more energy in US than coal for first time",
@@ -70,8 +89,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 248,
-      "score": 29,
+      "hn_points": 355,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Solar",
@@ -79,7 +98,7 @@
         "United States",
         "Battery storage"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "MiMo Code Is Now Released and Open-Source",
@@ -98,7 +117,7 @@
         "open-source",
         "OpenCode"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Open Reproduction of DeepSeek-R1",
@@ -117,7 +136,7 @@
         "HuggingFace",
         "Mixture-of-Thoughts"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Workers are spending over 6 hours a week botsitting AI, fueling job frustration",
@@ -136,7 +155,7 @@
         "AI agents",
         "Claude"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Lines of Code Got a Better Publicist",
@@ -155,7 +174,7 @@
         "AI",
         "1M LOC per engineer"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "World Capitals Voronoi",
@@ -174,7 +193,7 @@
         "maps",
         "Jason Davies"
       ],
-      "rank": 9
+      "rank": 10
     }
   ]
 }
