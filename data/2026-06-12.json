@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3393,
-  "filtered_articles": 26,
+  "filtered_articles": 28,
   "articles": [
+    {
+      "title": "MiMo Code Is Now Released and Open-Source",
+      "title_display": "MiMo Code Is Now Released and Open-Source",
+      "link": "https://mimo.xiaomi.com/mimocode",
+      "pub_date": "2026-06-11T14:41:02.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 240,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "MiMo Code",
+        "Xiaomi",
+        "open-source",
+        "OpenCode"
+      ],
+      "rank": 1
+    },
     {
       "title": "Workers are spending over 6 hours a week botsitting AI, fueling job frustration",
       "title_display": "Workers are spending over 6 hours a week botsitting AI, fueling job frustration",
@@ -22,7 +41,7 @@
         "AI agents",
         "Claude"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Lines of Code Got a Better Publicist",
@@ -41,7 +60,7 @@
         "AI",
         "1M LOC per engineer"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "World Capitals Voronoi",
@@ -60,7 +79,7 @@
         "maps",
         "Jason Davies"
       ],
-      "rank": 3
+      "rank": 4
     }
   ]
 }
