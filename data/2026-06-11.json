@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3393,
-  "filtered_articles": 27,
+  "filtered_articles": 25,
   "articles": [
+    {
+      "title": "Why AI hasn't replaced software engineers, and won't",
+      "title_display": "Why AI hasn't replaced software engineers, and won't",
+      "link": "https://www.normaltech.ai/p/why-ai-hasnt-replaced-software-engineers",
+      "pub_date": "2026-06-11T10:21:02.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 139,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "AI",
+        "software engineers",
+        "LLMs",
+        "agents"
+      ],
+      "rank": 1
+    },
     {
       "title": "Cybersecurity researchers aren't happy about the guardrails on Anthropic's Fable",
       "title_display": "Cybersecurity researchers aren't happy about the guardrails on Anthropic's Fable",
@@ -22,7 +41,7 @@
         "guardrails",
         "cybersecurity"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "ΠFS",
@@ -41,7 +60,7 @@
         "filesystem",
         "compression"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Show HN: HelixDB – A graph database built on object storage",
@@ -60,7 +79,7 @@
         "object storage",
         "vector search"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Claude Desktop spins up a VM without no way of stopping it",
@@ -79,7 +98,7 @@
         "Claude Cowork",
         "VM"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "GitHub Authentication issues related to API requests",
@@ -98,7 +117,7 @@
         "Authentication",
         "GitHub Status"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Apache Burr: Build reliable AI agents and applications",
@@ -117,7 +136,7 @@
         "agent frameworks",
         "Apache Software Foundation"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "PgDog is funded and coming to a database near you",
@@ -136,7 +155,7 @@
         "pgbouncer",
         "sharding"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "All 9,300 Japanese train station, animated by the year it opened (1872–2026)",
@@ -155,7 +174,7 @@
         "data visualization",
         "animated map"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Reviving Papers with Code",
@@ -174,7 +193,7 @@
         "leaderboards",
         "GitHub"
       ],
-      "rank": 9
+      "rank": 10
     }
   ]
 }
