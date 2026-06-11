@@ -1,10 +1,29 @@
 {
   "date": "2026-06-12",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3393,
-  "filtered_articles": 29,
+  "success_feeds": 88,
+  "total_articles": 3383,
+  "filtered_articles": 27,
   "articles": [
+    {
+      "title": "Developer gets Half-Life running at 30 FPS on a Nokia N95",
+      "title_display": "Developer gets Half-Life running at 30 FPS on a Nokia N95",
+      "link": "https://www.tomshardware.com/video-games/handheld-gaming/developer-gets-half-life-running-at-30-fps-on-a-2007-nokia-n95",
+      "pub_date": "2026-06-11T19:51:01.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 119,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "Half-Life",
+        "Nokia N95",
+        "Xash3D",
+        "xash3d-fwgs"
+      ],
+      "rank": 1
+    },
     {
       "title": "macOS 27 Beta breaks the ability to boot Asahi Linux",
       "title_display": "macOS 27 Beta breaks the ability to boot Asahi Linux",
@@ -22,7 +41,26 @@
         "Apple",
         "Apple Silicon"
       ],
-      "rank": 1
+      "rank": 2
+    },
+    {
+      "title": "Software Is Made Between Commits",
+      "title_display": "Software Is Made Between Commits",
+      "link": "https://zed.dev/blog/introducing-deltadb",
+      "pub_date": "2026-06-11T17:41:01.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 144,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "deltadb",
+        "Zed",
+        "version control",
+        "agents"
+      ],
+      "rank": 3
     },
     {
       "title": "Solar generates more energy in US than coal for first time",
@@ -41,7 +79,7 @@
         "United States",
         "Battery storage"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "MiMo Code Is Now Released and Open-Source",
@@ -51,8 +89,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 240,
-      "score": 29,
+      "hn_points": 350,
+      "score": 30,
       "category": "other",
       "keywords": [
         "MiMo Code",
@@ -60,7 +98,7 @@
         "open-source",
         "OpenCode"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "Open Reproduction of DeepSeek-R1",
@@ -79,7 +117,7 @@
         "HuggingFace",
         "Mixture-of-Thoughts"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "Workers are spending over 6 hours a week botsitting AI, fueling job frustration",
@@ -98,7 +136,7 @@
         "AI agents",
         "Claude"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "Lines of Code Got a Better Publicist",
@@ -117,7 +155,7 @@
         "AI",
         "1M LOC per engineer"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "World Capitals Voronoi",
@@ -136,7 +174,7 @@
         "maps",
         "Jason Davies"
       ],
-      "rank": 7
+      "rank": 9
     }
   ]
 }
