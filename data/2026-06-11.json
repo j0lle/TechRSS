@@ -1,9 +1,9 @@
 {
   "date": "2026-06-11",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3392,
-  "filtered_articles": 32,
+  "success_feeds": 88,
+  "total_articles": 3373,
+  "filtered_articles": 30,
   "articles": [
     {
       "title": "Cybersecurity researchers aren't happy about the guardrails on Anthropic's Fable",
@@ -44,6 +44,25 @@
       "rank": 2
     },
     {
+      "title": "Show HN: HelixDB – A graph database built on object storage",
+      "title_display": "Show HN: HelixDB – A graph database built on object storage",
+      "link": "https://github.com/HelixDB/helix-db/tree/main",
+      "pub_date": "2026-06-10T18:51:01.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 131,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "HelixDB",
+        "graph database",
+        "object storage",
+        "vector search"
+      ],
+      "rank": 3
+    },
+    {
       "title": "Claude Desktop spins up a VM without no way of stopping it",
       "title_display": "Claude Desktop spins up a VM without no way of stopping it",
       "link": "https://github.com/anthropics/claude-code/issues/29045",
@@ -60,7 +79,7 @@
         "Claude Cowork",
         "VM"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "GitHub Authentication issues related to API requests",
@@ -79,7 +98,7 @@
         "Authentication",
         "GitHub Status"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Apache Burr: Build reliable AI agents and applications",
@@ -89,8 +108,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 122,
-      "score": 25,
+      "hn_points": 224,
+      "score": 28,
       "category": "other",
       "keywords": [
         "Apache Burr",
@@ -98,7 +117,7 @@
         "agent frameworks",
         "Apache Software Foundation"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "PgDog is funded and coming to a database near you",
@@ -117,7 +136,7 @@
         "pgbouncer",
         "sharding"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "All 9,300 Japanese train station, animated by the year it opened (1872–2026)",
@@ -136,7 +155,7 @@
         "data visualization",
         "animated map"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Reviving Papers with Code",
@@ -155,7 +174,7 @@
         "leaderboards",
         "GitHub"
       ],
-      "rank": 8
+      "rank": 9
     }
   ]
 }
