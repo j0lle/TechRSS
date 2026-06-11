@@ -1,9 +1,9 @@
 {
   "date": "2026-06-11",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3373,
-  "filtered_articles": 30,
+  "success_feeds": 89,
+  "total_articles": 3393,
+  "filtered_articles": 31,
   "articles": [
     {
       "title": "Cybersecurity researchers aren't happy about the guardrails on Anthropic's Fable",
