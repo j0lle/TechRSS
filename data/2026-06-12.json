@@ -1,0 +1,66 @@
+{
+  "date": "2026-06-12",
+  "total_feeds": 95,
+  "success_feeds": 89,
+  "total_articles": 3393,
+  "filtered_articles": 26,
+  "articles": [
+    {
+      "title": "Workers are spending over 6 hours a week botsitting AI, fueling job frustration",
+      "title_display": "Workers are spending over 6 hours a week botsitting AI, fueling job frustration",
+      "link": "https://www.businessinsider.com/botsitting-ai-hidden-human-labor-at-work-2026-6",
+      "pub_date": "2026-06-11T13:51:03.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 211,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "AI",
+        "botsitting",
+        "AI agents",
+        "Claude"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Lines of Code Got a Better Publicist",
+      "title_display": "Lines of Code Got a Better Publicist",
+      "link": "https://curlewis.co.nz/posts/lines-of-code-got-a-better-publicist/",
+      "pub_date": "2026-06-11T12:41:01.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 200,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "Lines of Code (LoC)",
+        "LLM code generation",
+        "AI",
+        "1M LOC per engineer"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "World Capitals Voronoi",
+      "title_display": "World Capitals Voronoi",
+      "link": "https://www.jasondavies.com/maps/voronoi/capitals/",
+      "pub_date": "2026-06-10T23:01:04.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 121,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "Voronoi",
+        "World capitals",
+        "maps",
+        "Jason Davies"
+      ],
+      "rank": 3
+    }
+  ]
+}
