@@ -1,8 +1,28 @@
 {
   "date": "2026-06-13",
   "total_feeds": 95,
-  "success_feeds": 87,
-  "total_articles": 3326,
-  "filtered_articles": 28,
-  "articles": []
+  "success_feeds": 89,
+  "total_articles": 3396,
+  "filtered_articles": 30,
+  "articles": [
+    {
+      "title": "WASI 0.3.0 Released",
+      "title_display": "WASI 0.3.0 Released",
+      "link": "https://github.com/WebAssembly/WASI/releases/tag/v0.3.0",
+      "pub_date": "2026-06-12T14:21:00.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 175,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "WASI",
+        "WebAssembly",
+        "component model",
+        "plugins"
+      ],
+      "rank": 1
+    }
+  ]
 }
