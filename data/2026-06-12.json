@@ -3,8 +3,46 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3392,
-  "filtered_articles": 27,
+  "filtered_articles": 29,
   "articles": [
+    {
+      "title": "Digital Sovereignty Becomes an Imperative as the US Reads Dutch Emails",
+      "title_display": "Digital Sovereignty Becomes an Imperative as the US Reads Dutch Emails",
+      "link": "https://www.korte.co/2026/06/11/digital-sovereignty-becomes-an-imparative-as-the-us-reads-dutch-emails/",
+      "pub_date": "2026-06-12T07:11:02.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 144,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Digital sovereignty",
+        "United States",
+        "Netherlands",
+        "Email surveillance"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "How we made hit video game Prince of Persia",
+      "title_display": "How we made hit video game Prince of Persia",
+      "link": "https://www.theguardian.com/culture/2026/jan/05/raiders-of-the-lost-ark-hit-video-game-prince-of-persia",
+      "pub_date": "2026-06-12T04:41:00.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 133,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Prince of Persia",
+        "rotoscoped animation",
+        "Apple II",
+        "software piracy"
+      ],
+      "rank": 2
+    },
     {
       "title": "Claude Fable is relentlessly proactive",
       "title_display": "Claude Fable is relentlessly proactive",
@@ -22,7 +60,7 @@
         "LLM",
         "sandbox"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "Ear Training Practice Exercises",
@@ -40,7 +78,7 @@
         "tonedear.com",
         "Music theory"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "Developer gets Half-Life running at 30 FPS on a Nokia N95",
@@ -59,7 +97,7 @@
         "Xash3D",
         "xash3d-fwgs"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "macOS 27 Beta breaks the ability to boot Asahi Linux",
@@ -69,8 +107,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 215,
-      "score": 28,
+      "hn_points": 316,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Asahi Linux",
@@ -78,7 +116,7 @@
         "Apple",
         "Apple Silicon"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "Emacs appearances in pop culture",
@@ -97,7 +135,7 @@
         "Vim",
         "Excel"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "Software Is Made Between Commits",
@@ -116,7 +154,7 @@
         "version control",
         "agents"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "Solar generates more energy in US than coal for first time",
@@ -135,7 +173,7 @@
         "United States",
         "Battery storage"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "MiMo Code Is Now Released and Open-Source",
@@ -154,7 +192,7 @@
         "open-source",
         "OpenCode"
       ],
-      "rank": 8
+      "rank": 10
     },
     {
       "title": "Open Reproduction of DeepSeek-R1",
@@ -173,7 +211,7 @@
         "HuggingFace",
         "Mixture-of-Thoughts"
       ],
-      "rank": 9
+      "rank": 11
     },
     {
       "title": "Workers are spending over 6 hours a week botsitting AI, fueling job frustration",
@@ -192,7 +230,7 @@
         "AI agents",
         "Claude"
       ],
-      "rank": 10
+      "rank": 12
     },
     {
       "title": "Lines of Code Got a Better Publicist",
@@ -211,7 +249,7 @@
         "AI",
         "1M LOC per engineer"
       ],
-      "rank": 11
+      "rank": 13
     },
     {
       "title": "World Capitals Voronoi",
@@ -230,7 +268,7 @@
         "maps",
         "Jason Davies"
       ],
-      "rank": 12
+      "rank": 14
     }
   ]
 }
