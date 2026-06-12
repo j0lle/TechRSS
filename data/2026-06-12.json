@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 88,
   "total_articles": 3372,
-  "filtered_articles": 25,
+  "filtered_articles": 27,
   "articles": [
+    {
+      "title": "Claude Fable is relentlessly proactive",
+      "title_display": "Claude Fable is relentlessly proactive",
+      "link": "https://simonwillison.net/2026/Jun/11/fable-is-relentlessly-proactive/",
+      "pub_date": "2026-06-12T02:01:03.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 199,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "Claude Fable",
+        "coding agents",
+        "LLM",
+        "sandbox"
+      ],
+      "rank": 1
+    },
     {
       "title": "Ear Training Practice Exercises",
       "title_display": "Ear Training Practice Exercises",
@@ -21,7 +40,7 @@
         "tonedear.com",
         "Music theory"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Developer gets Half-Life running at 30 FPS on a Nokia N95",
@@ -40,7 +59,7 @@
         "Xash3D",
         "xash3d-fwgs"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "macOS 27 Beta breaks the ability to boot Asahi Linux",
@@ -59,7 +78,7 @@
         "Apple",
         "Apple Silicon"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Emacs appearances in pop culture",
@@ -69,8 +88,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 188,
-      "score": 28,
+      "hn_points": 291,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Emacs",
@@ -78,7 +97,7 @@
         "Vim",
         "Excel"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Software Is Made Between Commits",
@@ -97,7 +116,7 @@
         "version control",
         "agents"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Solar generates more energy in US than coal for first time",
@@ -116,7 +135,7 @@
         "United States",
         "Battery storage"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "MiMo Code Is Now Released and Open-Source",
@@ -135,7 +154,7 @@
         "open-source",
         "OpenCode"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Open Reproduction of DeepSeek-R1",
@@ -154,7 +173,7 @@
         "HuggingFace",
         "Mixture-of-Thoughts"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Workers are spending over 6 hours a week botsitting AI, fueling job frustration",
@@ -173,7 +192,7 @@
         "AI agents",
         "Claude"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Lines of Code Got a Better Publicist",
@@ -192,7 +211,7 @@
         "AI",
         "1M LOC per engineer"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "World Capitals Voronoi",
@@ -211,7 +230,7 @@
         "maps",
         "Jason Davies"
       ],
-      "rank": 11
+      "rank": 12
     }
   ]
 }
