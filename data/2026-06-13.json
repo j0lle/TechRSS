@@ -2,9 +2,28 @@
   "date": "2026-06-13",
   "total_feeds": 95,
   "success_feeds": 88,
-  "total_articles": 3376,
-  "filtered_articles": 30,
+  "total_articles": 3371,
+  "filtered_articles": 31,
   "articles": [
+    {
+      "title": "I Am Not a Reverse Centaur",
+      "title_display": "I Am Not a Reverse Centaur",
+      "link": "https://blog.miguelgrinberg.com/post/i-am-not-a-reverse-centaur",
+      "pub_date": "2026-06-12T18:20:59.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 188,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "Miguel Grinberg",
+        "Reverse Centaur",
+        "LLM",
+        "AI-generated code"
+      ],
+      "rank": 1
+    },
     {
       "title": "Malware developers added nuclear and biological weapons text to to their spyware",
       "title_display": "Malware developers added nuclear and biological weapons text to to their spyware",
@@ -22,7 +41,7 @@
         "LLM",
         "guardrails"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "A dumpster arrived behind my university's library",
@@ -41,7 +60,7 @@
         "Yale Review",
         "libraries"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "WASI 0.3.0 Released",
@@ -60,7 +79,7 @@
         "component model",
         "plugins"
       ],
-      "rank": 3
+      "rank": 4
     }
   ]
 }
