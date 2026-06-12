@@ -1,10 +1,48 @@
 {
   "date": "2026-06-13",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3396,
-  "filtered_articles": 27,
+  "success_feeds": 88,
+  "total_articles": 3376,
+  "filtered_articles": 30,
   "articles": [
+    {
+      "title": "Malware developers added nuclear and biological weapons text to to their spyware",
+      "title_display": "Malware developers added nuclear and biological weapons text to to their spyware",
+      "link": "https://twitter.com/jsrailton/status/2064661778978533571",
+      "pub_date": "2026-06-12T17:11:00.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 158,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "malware",
+        "spyware",
+        "LLM",
+        "guardrails"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "A dumpster arrived behind my university's library",
+      "title_display": "A dumpster arrived behind my university's library",
+      "link": "https://yalereview.org/article/sheila-liming-the-end-of-books",
+      "pub_date": "2026-06-12T16:01:01.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 128,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Sheila Liming",
+        "The End of Books",
+        "Yale Review",
+        "libraries"
+      ],
+      "rank": 2
+    },
     {
       "title": "WASI 0.3.0 Released",
       "title_display": "WASI 0.3.0 Released",
@@ -22,7 +60,7 @@
         "component model",
         "plugins"
       ],
-      "rank": 1
+      "rank": 3
     }
   ]
 }
