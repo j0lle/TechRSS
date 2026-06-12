@@ -1,10 +1,48 @@
 {
   "date": "2026-06-12",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3367,
-  "filtered_articles": 28,
+  "success_feeds": 89,
+  "total_articles": 3396,
+  "filtered_articles": 31,
   "articles": [
+    {
+      "title": "Kimi K2.7-Code: open-source coding model with better token efficiency",
+      "title_display": "Kimi K2.7-Code: open-source coding model with better token efficiency",
+      "link": "https://huggingface.co/moonshotai/Kimi-K2.7-Code",
+      "pub_date": "2026-06-12T12:41:01.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 197,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "Kimi K2.7-Code",
+        "Kimi K2.6",
+        "moonshotai",
+        "Hugging Face"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "AUR Packages Compromised with Infostealer and Rootkit",
+      "title_display": "AUR Packages Compromised with Infostealer and Rootkit",
+      "link": "https://discourse.ifin.network/t/400-aur-packages-compromised-with-infostealer-and-rootkit/577",
+      "pub_date": "2026-06-12T10:51:00.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 143,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "AUR",
+        "Arch Linux",
+        "infostealer",
+        "rootkit"
+      ],
+      "rank": 2
+    },
     {
       "title": "Digital Sovereignty Becomes an Imperative as the US Reads Dutch Emails",
       "title_display": "Digital Sovereignty Becomes an Imperative as the US Reads Dutch Emails",
@@ -22,7 +60,7 @@
         "Netherlands",
         "Email surveillance"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "How we made hit video game Prince of Persia",
@@ -41,7 +79,7 @@
         "Apple II",
         "software piracy"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "Claude Fable is relentlessly proactive",
@@ -51,7 +89,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 300,
+      "hn_points": 611,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -60,7 +98,7 @@
         "LLM",
         "sandbox"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "Ear Training Practice Exercises",
@@ -78,7 +116,7 @@
         "tonedear.com",
         "Music theory"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "Developer gets Half-Life running at 30 FPS on a Nokia N95",
@@ -97,7 +135,7 @@
         "Xash3D",
         "xash3d-fwgs"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "macOS 27 Beta breaks the ability to boot Asahi Linux",
@@ -116,7 +154,7 @@
         "Apple",
         "Apple Silicon"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "Emacs appearances in pop culture",
@@ -135,7 +173,7 @@
         "Vim",
         "Excel"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "Software Is Made Between Commits",
@@ -154,7 +192,7 @@
         "version control",
         "agents"
       ],
-      "rank": 8
+      "rank": 10
     },
     {
       "title": "Solar generates more energy in US than coal for first time",
@@ -173,7 +211,7 @@
         "United States",
         "Battery storage"
       ],
-      "rank": 9
+      "rank": 11
     },
     {
       "title": "MiMo Code Is Now Released and Open-Source",
@@ -192,7 +230,7 @@
         "open-source",
         "OpenCode"
       ],
-      "rank": 10
+      "rank": 12
     },
     {
       "title": "Open Reproduction of DeepSeek-R1",
@@ -211,7 +249,7 @@
         "HuggingFace",
         "Mixture-of-Thoughts"
       ],
-      "rank": 11
+      "rank": 13
     },
     {
       "title": "Workers are spending over 6 hours a week botsitting AI, fueling job frustration",
@@ -230,7 +268,7 @@
         "AI agents",
         "Claude"
       ],
-      "rank": 12
+      "rank": 14
     },
     {
       "title": "Lines of Code Got a Better Publicist",
@@ -249,7 +287,7 @@
         "AI",
         "1M LOC per engineer"
       ],
-      "rank": 13
+      "rank": 15
     },
     {
       "title": "World Capitals Voronoi",
@@ -268,7 +306,7 @@
         "maps",
         "Jason Davies"
       ],
-      "rank": 14
+      "rank": 16
     }
   ]
 }
