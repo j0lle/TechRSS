@@ -2,9 +2,28 @@
   "date": "2026-06-13",
   "total_feeds": 95,
   "success_feeds": 88,
-  "total_articles": 3371,
-  "filtered_articles": 30,
+  "total_articles": 3386,
+  "filtered_articles": 34,
   "articles": [
+    {
+      "title": "US Government directive to suspend access to Fable 5 and Mythos 5",
+      "title_display": "US Government directive to suspend access to Fable 5 and Mythos 5",
+      "link": "https://www.anthropic.com/news/fable-mythos-access",
+      "pub_date": "2026-06-13T01:00:58.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 123,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "Anthropic",
+        "Fable 5",
+        "Mythos 5",
+        "US government"
+      ],
+      "rank": 1
+    },
     {
       "title": "Pirates, a naval warfare game inspired by Sid Meier's Pirates",
       "title_display": "Pirates, a naval warfare game inspired by Sid Meier's Pirates",
@@ -22,7 +41,7 @@
         "piwodlaiwo",
         "GitHub Pages"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "I Am Not a Reverse Centaur",
@@ -41,7 +60,7 @@
         "LLM",
         "AI-generated code"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "How to Setup a Local Coding Agent on macOS",
@@ -60,7 +79,26 @@
         "MTP",
         "Gemma"
       ],
-      "rank": 3
+      "rank": 4
+    },
+    {
+      "title": "Looking Forward to Postgres 19: It's About Time",
+      "title_display": "Looking Forward to Postgres 19: It's About Time",
+      "link": "https://www.pgedge.com/blog/looking-forward-to-postgres-19-its-about-time",
+      "pub_date": "2026-06-12T17:31:00.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 133,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Postgres 19",
+        "PostgreSQL",
+        "temporal tables",
+        "bitemporal"
+      ],
+      "rank": 5
     },
     {
       "title": "Malware developers added nuclear and biological weapons text to to their spyware",
@@ -79,7 +117,7 @@
         "LLM",
         "guardrails"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "A dumpster arrived behind my university's library",
@@ -98,7 +136,7 @@
         "Yale Review",
         "libraries"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "WASI 0.3.0 Released",
@@ -117,7 +155,7 @@
         "component model",
         "plugins"
       ],
-      "rank": 6
+      "rank": 8
     }
   ]
 }
