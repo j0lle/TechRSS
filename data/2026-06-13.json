@@ -2,9 +2,28 @@
   "date": "2026-06-13",
   "total_feeds": 95,
   "success_feeds": 88,
-  "total_articles": 3376,
+  "total_articles": 3391,
   "filtered_articles": 32,
   "articles": [
+    {
+      "title": "Open Source AI Must Win",
+      "title_display": "Open Source AI Must Win",
+      "link": "https://opensourceaimustwin.com/?share=v2",
+      "pub_date": "2026-06-13T02:31:00.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 513,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Open-source AI",
+        "Open weights",
+        "OpenAI",
+        "Anthropic"
+      ],
+      "rank": 1
+    },
     {
       "title": "US Government directive to suspend access to Fable 5 and Mythos 5",
       "title_display": "US Government directive to suspend access to Fable 5 and Mythos 5",
@@ -22,7 +41,7 @@
         "Mythos 5",
         "US government"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Swift at Apple: Migrating the TrueType Hinting Interpreter",
@@ -41,7 +60,7 @@
         "Apple",
         "TrueType"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Pirates, a naval warfare game inspired by Sid Meier's Pirates",
@@ -51,8 +70,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 133,
-      "score": 26,
+      "hn_points": 235,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Pirates",
@@ -60,7 +79,7 @@
         "piwodlaiwo",
         "GitHub Pages"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "I Am Not a Reverse Centaur",
@@ -79,7 +98,7 @@
         "LLM",
         "AI-generated code"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "How to Setup a Local Coding Agent on macOS",
@@ -98,7 +117,7 @@
         "MTP",
         "Gemma"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Looking Forward to Postgres 19: It's About Time",
@@ -117,7 +136,7 @@
         "temporal tables",
         "bitemporal"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Malware developers added nuclear and biological weapons text to to their spyware",
@@ -127,8 +146,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 258,
-      "score": 29,
+      "hn_points": 360,
+      "score": 30,
       "category": "other",
       "keywords": [
         "malware",
@@ -136,7 +155,7 @@
         "LLM",
         "guardrails"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "A dumpster arrived behind my university's library",
@@ -155,7 +174,7 @@
         "Yale Review",
         "libraries"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "WASI 0.3.0 Released",
@@ -174,7 +193,7 @@
         "component model",
         "plugins"
       ],
-      "rank": 9
+      "rank": 10
     }
   ]
 }
