@@ -6,6 +6,25 @@
   "filtered_articles": 19,
   "articles": [
     {
+      "title": "Why a Computer Science Degree Still Opens Hidden Doors",
+      "title_display": "Why a Computer Science Degree Still Opens Hidden Doors",
+      "link": "https://spectrum.ieee.org/computer-science-degree-isnt-dead",
+      "pub_date": "2026-06-13T05:01:15.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 134,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Computer Science degree",
+        "unemployment",
+        "underemployment",
+        "AI"
+      ],
+      "rank": 1
+    },
+    {
       "title": "Open Source AI Must Win",
       "title_display": "Open Source AI Must Win",
       "link": "https://opensourceaimustwin.com/?share=v2",
@@ -22,7 +41,7 @@
         "OpenAI",
         "Anthropic"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "US Government directive to suspend access to Fable 5 and Mythos 5",
@@ -41,7 +60,7 @@
         "Mythos 5",
         "US government"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Swift at Apple: Migrating the TrueType Hinting Interpreter",
@@ -60,7 +79,7 @@
         "Apple",
         "TrueType"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Pirates, a naval warfare game inspired by Sid Meier's Pirates",
@@ -79,7 +98,7 @@
         "piwodlaiwo",
         "GitHub Pages"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "I Am Not a Reverse Centaur",
@@ -98,7 +117,7 @@
         "LLM",
         "AI-generated code"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "How to Setup a Local Coding Agent on macOS",
@@ -117,7 +136,7 @@
         "MTP",
         "Gemma"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Looking Forward to Postgres 19: It's About Time",
@@ -136,7 +155,7 @@
         "temporal tables",
         "bitemporal"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Malware developers added nuclear and biological weapons text to to their spyware",
@@ -155,7 +174,7 @@
         "LLM",
         "guardrails"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "A dumpster arrived behind my university's library",
@@ -174,7 +193,7 @@
         "Yale Review",
         "libraries"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "WASI 0.3.0 Released",
@@ -193,7 +212,7 @@
         "component model",
         "plugins"
       ],
-      "rank": 10
+      "rank": 11
     }
   ]
 }
