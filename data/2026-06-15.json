@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 88,
   "total_articles": 3377,
-  "filtered_articles": 19,
+  "filtered_articles": 20,
   "articles": [
     {
       "title": "Show HN: Kage – Shadow any website to a single binary for offline viewing",
@@ -13,8 +13,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 195,
-      "score": 28,
+      "hn_points": 336,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Kage",
@@ -23,6 +23,25 @@
         "WARC"
       ],
       "rank": 1
+    },
+    {
+      "title": "Ask HN: What are you working on? (June 2026)",
+      "title_display": "Ask HN: What are you working on? (June 2026)",
+      "link": "https://news.ycombinator.com/item?id=48528779",
+      "pub_date": "2026-06-14T17:31:06.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 125,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "agents",
+        "LLMOps",
+        "Claude",
+        "Docker"
+      ],
+      "rank": 2
     },
     {
       "title": "Rio de Janeiro's \"homegrown\" LLM appears to be a merge of an existing model",
@@ -41,7 +60,7 @@
         "Qwen3.5-397B-A17B",
         "Nex-N2"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Rio de Janeiro's city government model Rio3.5 beats Qwen3.7 in recent benchmarks",
@@ -60,7 +79,7 @@
         "Qwen",
         "benchmarks"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "A 'cold blob' in the Atlantic could be a sign of AMOC shutdown – CNN",
@@ -79,7 +98,7 @@
         "Atlantic",
         "ocean circulation"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Formal Methods and the Future of Programming",
@@ -98,7 +117,26 @@
         "Jane Street",
         "Generative AI (LLMs)"
       ],
-      "rank": 5
+      "rank": 6
+    },
+    {
+      "title": "Caddy compatibility for zeroserve: 3x throughput and 70% lower latency",
+      "title_display": "Caddy compatibility for zeroserve: 3x throughput and 70% lower latency",
+      "link": "https://su3.io/posts/zeroserve-caddy-compat",
+      "pub_date": "2026-06-14T14:31:08.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 138,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "zeroserve",
+        "Caddy",
+        "throughput",
+        "latency"
+      ],
+      "rank": 7
     },
     {
       "title": "The Birth and Death of JavaScript (2014)",
@@ -117,7 +155,7 @@
         "PHP",
         "destroyallsoftware.com"
       ],
-      "rank": 6
+      "rank": 8
     }
   ]
 }
