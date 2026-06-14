@@ -4,5 +4,25 @@
   "success_feeds": 89,
   "total_articles": 3397,
   "filtered_articles": 21,
-  "articles": []
+  "articles": [
+    {
+      "title": "The Birth and Death of JavaScript (2014)",
+      "title_display": "The Birth and Death of JavaScript (2014)",
+      "link": "https://www.destroyallsoftware.com/talks/the-birth-and-death-of-javascript",
+      "pub_date": "2026-06-14T12:51:04.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 128,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "JavaScript",
+        "WebAssembly",
+        "PHP",
+        "destroyallsoftware.com"
+      ],
+      "rank": 1
+    }
+  ]
 }
