@@ -1,10 +1,48 @@
 {
   "date": "2026-06-15",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3397,
-  "filtered_articles": 19,
+  "success_feeds": 83,
+  "total_articles": 3255,
+  "filtered_articles": 21,
   "articles": [
+    {
+      "title": "Rio de Janeiro's \"homegrown\" LLM appears to be a merge of an existing model",
+      "title_display": "Rio de Janeiro's \"homegrown\" LLM appears to be a merge of an existing model",
+      "link": "https://github.com/nex-agi/Nex-N2/issues/4",
+      "pub_date": "2026-06-14T16:31:07.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 163,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Rio-3.5-Open-397B",
+        "Nex-N2-Pro",
+        "Qwen3.5-397B-A17B",
+        "Nex-N2"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "A 'cold blob' in the Atlantic could be a sign of AMOC shutdown – CNN",
+      "title_display": "A 'cold blob' in the Atlantic could be a sign of AMOC shutdown – CNN",
+      "link": "https://www.cnn.com/2026/06/12/climate/cold-blob-atlantic-amoc-ocean-circulation",
+      "pub_date": "2026-06-14T15:01:11.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 136,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "AMOC",
+        "cold blob",
+        "Atlantic",
+        "ocean circulation"
+      ],
+      "rank": 2
+    },
     {
       "title": "The Birth and Death of JavaScript (2014)",
       "title_display": "The Birth and Death of JavaScript (2014)",
@@ -22,7 +60,7 @@
         "PHP",
         "destroyallsoftware.com"
       ],
-      "rank": 1
+      "rank": 3
     }
   ]
 }
