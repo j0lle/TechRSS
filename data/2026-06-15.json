@@ -6,6 +6,25 @@
   "filtered_articles": 21,
   "articles": [
     {
+      "title": "Show HN: Kage – Shadow any website to a single binary for offline viewing",
+      "title_display": "Show HN: Kage – Shadow any website to a single binary for offline viewing",
+      "link": "https://github.com/tamnd/kage",
+      "pub_date": "2026-06-14T17:41:04.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 195,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "Kage",
+        "web-archiving",
+        "offline-viewing",
+        "WARC"
+      ],
+      "rank": 1
+    },
+    {
       "title": "Rio de Janeiro's \"homegrown\" LLM appears to be a merge of an existing model",
       "title_display": "Rio de Janeiro's \"homegrown\" LLM appears to be a merge of an existing model",
       "link": "https://github.com/nex-agi/Nex-N2/issues/4",
@@ -22,7 +41,7 @@
         "Qwen3.5-397B-A17B",
         "Nex-N2"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "A 'cold blob' in the Atlantic could be a sign of AMOC shutdown – CNN",
@@ -41,7 +60,7 @@
         "Atlantic",
         "ocean circulation"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "The Birth and Death of JavaScript (2014)",
@@ -60,7 +79,7 @@
         "PHP",
         "destroyallsoftware.com"
       ],
-      "rank": 3
+      "rank": 4
     }
   ]
 }
