@@ -3,8 +3,46 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3397,
-  "filtered_articles": 22,
+  "filtered_articles": 24,
   "articles": [
+    {
+      "title": "Don't trust large context windows",
+      "title_display": "Don't trust large context windows",
+      "link": "https://garrit.xyz/posts/2026-05-06-dont-trust-large-context-windows",
+      "pub_date": "2026-06-14T07:11:06.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 137,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "context window",
+        "Claude",
+        "Opus",
+        "Fable"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Phoenix LiveView 1.2 Released",
+      "title_display": "Phoenix LiveView 1.2 Released",
+      "link": "https://phoenixframework.org/blog/phoenix-liveview-1-2-released",
+      "pub_date": "2026-06-14T06:51:05.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 135,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Phoenix LiveView 1.2",
+        "Phoenix Framework",
+        "Elixir",
+        "BEAM"
+      ],
+      "rank": 2
+    },
     {
       "title": "Free SQL→ER diagram tool, runs in the browser, nothing uploaded",
       "title_display": "Free SQL→ER diagram tool, runs in the browser, nothing uploaded",
@@ -22,7 +60,7 @@
         "ER diagram",
         "JavaScript"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "ReactOS (FOSS \"Windows\") achieves 3D-accelerated Half-Life on real hardware",
@@ -32,8 +70,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 138,
-      "score": 26,
+      "hn_points": 242,
+      "score": 29,
       "category": "other",
       "keywords": [
         "ReactOS",
@@ -41,7 +79,7 @@
         "DirectX",
         "Wine"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "Pyodide 314.0: Python packages can now publish WebAssembly wheels to PyPI",
@@ -60,7 +98,7 @@
         "PyPI",
         "Python"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "Police officer investigated for using AI to 'create evidence' in multiple cases",
@@ -79,7 +117,7 @@
         "Derbyshire Police",
         "synthetic media"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "Codex for open source",
@@ -98,7 +136,7 @@
         "Open source",
         "Anthropic"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "Amazon CEO's Talks with U.S. Officials Triggered Crackdown on Anthropic Models",
@@ -117,7 +155,7 @@
         "U.S. officials",
         "Fable 5"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "AI Coding at Home Without Going Broke",
@@ -136,7 +174,7 @@
         "Sonnet",
         "Codex"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "Introduction to the experience of rendering Arabic typography&its technical debt",
@@ -155,7 +193,7 @@
         "technical debt",
         "OpenType"
       ],
-      "rank": 8
+      "rank": 10
     },
     {
       "title": "AI OSS tool repo goes archived over night after raising $7.3M Seed",
@@ -174,7 +212,7 @@
         "AI",
         "OSS"
       ],
-      "rank": 9
+      "rank": 11
     },
     {
       "title": "Arch Linux Now Believes Malware Incident Under Control: More Than 1,500 Packages",
@@ -193,7 +231,7 @@
         "malware",
         "Phoronix"
       ],
-      "rank": 10
+      "rank": 12
     },
     {
       "title": "A low-carbon computing platform from your retired phones",
@@ -212,7 +250,7 @@
         "retired phones",
         "Android"
       ],
-      "rank": 11
+      "rank": 13
     },
     {
       "title": "Show HN: Paca – Lightweight Jira alternative for human-AI collaboration",
@@ -231,7 +269,7 @@
         "Jira",
         "GitHub"
       ],
-      "rank": 12
+      "rank": 14
     }
   ]
 }
