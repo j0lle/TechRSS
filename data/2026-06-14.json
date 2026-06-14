@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3397,
-  "filtered_articles": 18,
+  "filtered_articles": 20,
   "articles": [
     {
       "title": "Police officer investigated for using AI to 'create evidence' in multiple cases",
@@ -25,6 +25,25 @@
       "rank": 1
     },
     {
+      "title": "Codex for open source",
+      "title_display": "Codex for open source",
+      "link": "https://openai.com/form/codex-for-oss/",
+      "pub_date": "2026-06-13T21:01:07.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 178,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Codex",
+        "OpenAI",
+        "Open source",
+        "Anthropic"
+      ],
+      "rank": 2
+    },
+    {
       "title": "Amazon CEO's Talks with U.S. Officials Triggered Crackdown on Anthropic Models",
       "title_display": "Amazon CEO's Talks with U.S. Officials Triggered Crackdown on Anthropic Models",
       "link": "https://www.wsj.com/tech/ai/amazon-ceos-talks-with-u-s-officials-triggered-crackdown-on-anthropic-models-dcc90578",
@@ -41,7 +60,7 @@
         "U.S. officials",
         "Fable 5"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "AI Coding at Home Without Going Broke",
@@ -60,7 +79,7 @@
         "Sonnet",
         "Codex"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Introduction to the experience of rendering Arabic typography&its technical debt",
@@ -79,7 +98,7 @@
         "technical debt",
         "OpenType"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "AI OSS tool repo goes archived over night after raising $7.3M Seed",
@@ -98,7 +117,7 @@
         "AI",
         "OSS"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Arch Linux Now Believes Malware Incident Under Control: More Than 1,500 Packages",
@@ -117,7 +136,7 @@
         "malware",
         "Phoronix"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "A low-carbon computing platform from your retired phones",
@@ -127,8 +146,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 148,
-      "score": 26,
+      "hn_points": 251,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Google",
@@ -136,7 +155,7 @@
         "retired phones",
         "Android"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Show HN: Paca – Lightweight Jira alternative for human-AI collaboration",
@@ -155,7 +174,7 @@
         "Jira",
         "GitHub"
       ],
-      "rank": 8
+      "rank": 9
     }
   ]
 }
