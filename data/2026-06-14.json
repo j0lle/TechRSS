@@ -1,9 +1,9 @@
 {
   "date": "2026-06-14",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3397,
-  "filtered_articles": 22,
+  "success_feeds": 87,
+  "total_articles": 3156,
+  "filtered_articles": 21,
   "articles": [
     {
       "title": "Don't trust large context windows",
