@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3405,
-  "filtered_articles": 27,
+  "filtered_articles": 32,
   "articles": [
     {
       "title": "Ask HN: Has anyone replaced Claude/GPT with a local model for daily coding?",
@@ -25,6 +25,63 @@
       "rank": 1
     },
     {
+      "title": "Hetzner Price Adjustment",
+      "title_display": "Hetzner Price Adjustment",
+      "link": "https://docs.hetzner.com/general/infrastructure-and-availability/price-adjustment/#cloud-servers",
+      "pub_date": "2026-06-15T18:01:10.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 201,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "Hetzner",
+        "price adjustment",
+        "cloud servers",
+        "RAM"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "My Homelab AI Dev Platform",
+      "title_display": "My Homelab AI Dev Platform",
+      "link": "https://rsgm.dev/post/ai-dev-platform/",
+      "pub_date": "2026-06-15T16:11:03.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 141,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "AI",
+        "homelab",
+        "agents",
+        "Qwen"
+      ],
+      "rank": 3
+    },
+    {
+      "title": "Copper transport drug restores memory and clears toxic Alzheimer's proteins",
+      "title_display": "Copper transport drug restores memory and clears toxic Alzheimer's proteins",
+      "link": "https://www.monash.edu/news/articles/copper-drug-restores-memory-and-clears-toxic-alzheimers-proteins",
+      "pub_date": "2026-06-15T15:41:04.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 161,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Alzheimer's",
+        "amyloid-beta",
+        "copper transport drug",
+        "APP/PS1 mouse model"
+      ],
+      "rank": 4
+    },
+    {
       "title": "Show HN: I wrote a C++ ray tracer from scratch without AI",
       "title_display": "Show HN: I wrote a C++ ray tracer from scratch without AI",
       "link": "https://github.com/themartiano/luz",
@@ -41,7 +98,7 @@
         "C++20",
         "path tracer"
       ],
-      "rank": 2
+      "rank": 5
     },
     {
       "title": "21 years and counting of 'eight fallacies of distributed computing' (2025)",
@@ -60,7 +117,7 @@
         "APNIC",
         "L. Peter Deutsch"
       ],
-      "rank": 3
+      "rank": 6
     }
   ]
 }
