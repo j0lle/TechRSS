@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3399,
-  "filtered_articles": 20,
+  "filtered_articles": 19,
   "articles": [
+    {
+      "title": "Even More Batteries Included with Emacs",
+      "title_display": "Even More Batteries Included with Emacs",
+      "link": "https://karthinks.com/software/even-more-batteries-included-with-emacs/",
+      "pub_date": "2026-06-15T03:31:06.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 143,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Emacs",
+        "Spacemacs",
+        "Doom Emacs",
+        "org-mode"
+      ],
+      "rank": 1
+    },
     {
       "title": "Your ePub Is Fine. Kobo Disagrees. Blame Adobe",
       "title_display": "Your ePub Is Fine. Kobo Disagrees. Blame Adobe",
@@ -22,7 +41,26 @@
         "Adobe",
         "CSS"
       ],
-      "rank": 1
+      "rank": 2
+    },
+    {
+      "title": "AI is code – and can't be prompted into being smarter",
+      "title_display": "AI is code – and can't be prompted into being smarter",
+      "link": "https://www.theregister.com/ai-and-ml/2026/06/14/ai-is-code-and-cant-be-prompted-into-being-smarter/5254141",
+      "pub_date": "2026-06-14T22:51:04.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 122,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "AI",
+        "LLM",
+        "prompting",
+        "prompt injection"
+      ],
+      "rank": 3
     },
     {
       "title": "Show HN: Kage – Shadow any website to a single binary for offline viewing",
@@ -41,7 +79,7 @@
         "offline-viewing",
         "WARC"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "Ask HN: What are you working on? (June 2026)",
@@ -60,7 +98,7 @@
         "Claude",
         "Docker"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "Rio de Janeiro's \"homegrown\" LLM appears to be a merge of an existing model",
@@ -79,7 +117,7 @@
         "Qwen3.5-397B-A17B",
         "Nex-N2"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "The only scalable delete in Postgres is DROP TABLE",
@@ -98,7 +136,7 @@
         "DELETE",
         "PlanetScale"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "Rio de Janeiro's city government model Rio3.5 beats Qwen3.7 in recent benchmarks",
@@ -117,7 +155,7 @@
         "Qwen",
         "benchmarks"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "A 'cold blob' in the Atlantic could be a sign of AMOC shutdown – CNN",
@@ -136,7 +174,7 @@
         "Atlantic",
         "ocean circulation"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "Formal Methods and the Future of Programming",
@@ -146,8 +184,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 130,
-      "score": 26,
+      "hn_points": 230,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Formal methods",
@@ -155,7 +193,7 @@
         "Jane Street",
         "Generative AI (LLMs)"
       ],
-      "rank": 8
+      "rank": 10
     },
     {
       "title": "Caddy compatibility for zeroserve: 3x throughput and 70% lower latency",
@@ -174,7 +212,7 @@
         "throughput",
         "latency"
       ],
-      "rank": 9
+      "rank": 11
     },
     {
       "title": "The Birth and Death of JavaScript (2014)",
@@ -193,7 +231,7 @@
         "PHP",
         "destroyallsoftware.com"
       ],
-      "rank": 10
+      "rank": 12
     }
   ]
 }
