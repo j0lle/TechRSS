@@ -1,0 +1,47 @@
+{
+  "date": "2026-06-16",
+  "total_feeds": 95,
+  "success_feeds": 89,
+  "total_articles": 3405,
+  "filtered_articles": 26,
+  "articles": [
+    {
+      "title": "Show HN: I wrote a C++ ray tracer from scratch without AI",
+      "title_display": "Show HN: I wrote a C++ ray tracer from scratch without AI",
+      "link": "https://github.com/themartiano/luz",
+      "pub_date": "2026-06-15T12:11:07.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 129,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "ray tracer",
+        "C++",
+        "C++20",
+        "path tracer"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "21 years and counting of 'eight fallacies of distributed computing' (2025)",
+      "title_display": "21 years and counting of 'eight fallacies of distributed computing' (2025)",
+      "link": "https://blog.apnic.net/2025/12/08/21-years-and-counting-of-eight-fallacies-of-distributed-computing/",
+      "pub_date": "2026-06-15T02:11:06.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 123,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "Eight fallacies of distributed computing",
+        "distributed computing",
+        "APNIC",
+        "L. Peter Deutsch"
+      ],
+      "rank": 2
+    }
+  ]
+}
