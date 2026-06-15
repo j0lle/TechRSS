@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3405,
-  "filtered_articles": 26,
+  "filtered_articles": 27,
   "articles": [
+    {
+      "title": "Ask HN: Has anyone replaced Claude/GPT with a local model for daily coding?",
+      "title_display": "Ask HN: Has anyone replaced Claude/GPT with a local model for daily coding?",
+      "link": "https://news.ycombinator.com/item?id=48542100",
+      "pub_date": "2026-06-15T18:21:03.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 129,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Claude",
+        "GPT",
+        "Qwen 3.6",
+        "Gemma 4"
+      ],
+      "rank": 1
+    },
     {
       "title": "Show HN: I wrote a C++ ray tracer from scratch without AI",
       "title_display": "Show HN: I wrote a C++ ray tracer from scratch without AI",
@@ -22,7 +41,7 @@
         "C++20",
         "path tracer"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "21 years and counting of 'eight fallacies of distributed computing' (2025)",
@@ -41,7 +60,7 @@
         "APNIC",
         "L. Peter Deutsch"
       ],
-      "rank": 2
+      "rank": 3
     }
   ]
 }
