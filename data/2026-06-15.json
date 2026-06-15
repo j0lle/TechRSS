@@ -2,9 +2,28 @@
   "date": "2026-06-15",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3401,
-  "filtered_articles": 24,
+  "total_articles": 3405,
+  "filtered_articles": 25,
   "articles": [
+    {
+      "title": "Openrouter Fusion API",
+      "title_display": "Openrouter Fusion API",
+      "link": "https://openrouter.ai/openrouter/fusion",
+      "pub_date": "2026-06-15T10:21:07.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 130,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "OpenRouter",
+        "Fusion API",
+        "GPT 5.5",
+        "Fable"
+      ],
+      "rank": 1
+    },
     {
       "title": "What the Fuck Happened to Nerds",
       "title_display": "What the Fuck Happened to Nerds",
@@ -13,8 +32,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 263,
-      "score": 29,
+      "hn_points": 542,
+      "score": 30,
       "category": "other",
       "keywords": [
         "nerd culture",
@@ -22,7 +41,7 @@
         "attention economy",
         "AI"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Apple Foundation Models",
@@ -32,8 +51,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 163,
-      "score": 27,
+      "hn_points": 272,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Apple Foundation Models",
@@ -41,7 +60,7 @@
         "Claude",
         "On-device models"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Curl will not accept vulnerability reports during July 2026",
@@ -60,7 +79,7 @@
         "daniel.haxx.se",
         "support contract"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Even More Batteries Included with Emacs",
@@ -79,7 +98,7 @@
         "Doom Emacs",
         "org-mode"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Your ePub Is Fine. Kobo Disagrees. Blame Adobe",
@@ -98,7 +117,7 @@
         "Adobe",
         "CSS"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "AI is code – and can't be prompted into being smarter",
@@ -117,7 +136,7 @@
         "prompting",
         "prompt injection"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Show HN: Kage – Shadow any website to a single binary for offline viewing",
@@ -136,7 +155,7 @@
         "offline-viewing",
         "WARC"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Ask HN: What are you working on? (June 2026)",
@@ -155,7 +174,7 @@
         "Claude",
         "Docker"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Rio de Janeiro's \"homegrown\" LLM appears to be a merge of an existing model",
@@ -174,7 +193,7 @@
         "Qwen3.5-397B-A17B",
         "Nex-N2"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "The only scalable delete in Postgres is DROP TABLE",
@@ -193,7 +212,7 @@
         "DELETE",
         "PlanetScale"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "Rio de Janeiro's city government model Rio3.5 beats Qwen3.7 in recent benchmarks",
@@ -212,7 +231,7 @@
         "Qwen",
         "benchmarks"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "A 'cold blob' in the Atlantic could be a sign of AMOC shutdown – CNN",
@@ -231,7 +250,7 @@
         "Atlantic",
         "ocean circulation"
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "title": "Formal Methods and the Future of Programming",
@@ -250,7 +269,7 @@
         "Jane Street",
         "Generative AI (LLMs)"
       ],
-      "rank": 13
+      "rank": 14
     },
     {
       "title": "Caddy compatibility for zeroserve: 3x throughput and 70% lower latency",
@@ -269,7 +288,7 @@
         "throughput",
         "latency"
       ],
-      "rank": 14
+      "rank": 15
     },
     {
       "title": "The Birth and Death of JavaScript (2014)",
@@ -288,7 +307,7 @@
         "PHP",
         "destroyallsoftware.com"
       ],
-      "rank": 15
+      "rank": 16
     }
   ]
 }
