@@ -1,10 +1,29 @@
 {
   "date": "2026-06-15",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3399,
-  "filtered_articles": 19,
+  "success_feeds": 88,
+  "total_articles": 3379,
+  "filtered_articles": 18,
   "articles": [
+    {
+      "title": "Curl will not accept vulnerability reports during July 2026",
+      "title_display": "Curl will not accept vulnerability reports during July 2026",
+      "link": "https://daniel.haxx.se/blog/2026/06/15/curl-summer-of-bliss/",
+      "pub_date": "2026-06-15T06:21:07.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 365,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "curl",
+        "vulnerability disclosure",
+        "daniel.haxx.se",
+        "support contract"
+      ],
+      "rank": 1
+    },
     {
       "title": "Even More Batteries Included with Emacs",
       "title_display": "Even More Batteries Included with Emacs",
@@ -22,7 +41,7 @@
         "Doom Emacs",
         "org-mode"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Your ePub Is Fine. Kobo Disagrees. Blame Adobe",
@@ -41,7 +60,7 @@
         "Adobe",
         "CSS"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "AI is code – and can't be prompted into being smarter",
@@ -60,7 +79,7 @@
         "prompting",
         "prompt injection"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Show HN: Kage – Shadow any website to a single binary for offline viewing",
@@ -79,7 +98,7 @@
         "offline-viewing",
         "WARC"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Ask HN: What are you working on? (June 2026)",
@@ -89,8 +108,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 125,
-      "score": 26,
+      "hn_points": 226,
+      "score": 28,
       "category": "other",
       "keywords": [
         "agents",
@@ -98,7 +117,7 @@
         "Claude",
         "Docker"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Rio de Janeiro's \"homegrown\" LLM appears to be a merge of an existing model",
@@ -117,7 +136,7 @@
         "Qwen3.5-397B-A17B",
         "Nex-N2"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "The only scalable delete in Postgres is DROP TABLE",
@@ -136,7 +155,7 @@
         "DELETE",
         "PlanetScale"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Rio de Janeiro's city government model Rio3.5 beats Qwen3.7 in recent benchmarks",
@@ -155,7 +174,7 @@
         "Qwen",
         "benchmarks"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "A 'cold blob' in the Atlantic could be a sign of AMOC shutdown – CNN",
@@ -174,7 +193,7 @@
         "Atlantic",
         "ocean circulation"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Formal Methods and the Future of Programming",
@@ -193,7 +212,7 @@
         "Jane Street",
         "Generative AI (LLMs)"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "Caddy compatibility for zeroserve: 3x throughput and 70% lower latency",
@@ -212,7 +231,7 @@
         "throughput",
         "latency"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "The Birth and Death of JavaScript (2014)",
@@ -231,7 +250,7 @@
         "PHP",
         "destroyallsoftware.com"
       ],
-      "rank": 12
+      "rank": 13
     }
   ]
 }
