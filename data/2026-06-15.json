@@ -1,10 +1,48 @@
 {
   "date": "2026-06-15",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3379,
-  "filtered_articles": 18,
+  "success_feeds": 89,
+  "total_articles": 3401,
+  "filtered_articles": 24,
   "articles": [
+    {
+      "title": "What the Fuck Happened to Nerds",
+      "title_display": "What the Fuck Happened to Nerds",
+      "link": "https://mrmarket.lol/what-the-fuck-happened-to-nerds/",
+      "pub_date": "2026-06-15T08:51:06.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 263,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "nerd culture",
+        "venture capital",
+        "attention economy",
+        "AI"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Apple Foundation Models",
+      "title_display": "Apple Foundation Models",
+      "link": "https://platform.claude.com/docs/en/cli-sdks-libraries/libraries/apple-foundation-models",
+      "pub_date": "2026-06-15T07:21:06.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 163,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Apple Foundation Models",
+        "Apple",
+        "Claude",
+        "On-device models"
+      ],
+      "rank": 2
+    },
     {
       "title": "Curl will not accept vulnerability reports during July 2026",
       "title_display": "Curl will not accept vulnerability reports during July 2026",
@@ -22,7 +60,7 @@
         "daniel.haxx.se",
         "support contract"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "Even More Batteries Included with Emacs",
@@ -32,8 +70,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 143,
-      "score": 26,
+      "hn_points": 250,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Emacs",
@@ -41,7 +79,7 @@
         "Doom Emacs",
         "org-mode"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "Your ePub Is Fine. Kobo Disagrees. Blame Adobe",
@@ -51,7 +89,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 343,
+      "hn_points": 652,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -60,7 +98,7 @@
         "Adobe",
         "CSS"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "AI is code – and can't be prompted into being smarter",
@@ -79,7 +117,7 @@
         "prompting",
         "prompt injection"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "Show HN: Kage – Shadow any website to a single binary for offline viewing",
@@ -98,7 +136,7 @@
         "offline-viewing",
         "WARC"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "Ask HN: What are you working on? (June 2026)",
@@ -117,7 +155,7 @@
         "Claude",
         "Docker"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "Rio de Janeiro's \"homegrown\" LLM appears to be a merge of an existing model",
@@ -127,8 +165,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 267,
-      "score": 29,
+      "hn_points": 367,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Rio-3.5-Open-397B",
@@ -136,7 +174,7 @@
         "Qwen3.5-397B-A17B",
         "Nex-N2"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "The only scalable delete in Postgres is DROP TABLE",
@@ -155,7 +193,7 @@
         "DELETE",
         "PlanetScale"
       ],
-      "rank": 8
+      "rank": 10
     },
     {
       "title": "Rio de Janeiro's city government model Rio3.5 beats Qwen3.7 in recent benchmarks",
@@ -174,7 +212,7 @@
         "Qwen",
         "benchmarks"
       ],
-      "rank": 9
+      "rank": 11
     },
     {
       "title": "A 'cold blob' in the Atlantic could be a sign of AMOC shutdown – CNN",
@@ -193,7 +231,7 @@
         "Atlantic",
         "ocean circulation"
       ],
-      "rank": 10
+      "rank": 12
     },
     {
       "title": "Formal Methods and the Future of Programming",
@@ -212,7 +250,7 @@
         "Jane Street",
         "Generative AI (LLMs)"
       ],
-      "rank": 11
+      "rank": 13
     },
     {
       "title": "Caddy compatibility for zeroserve: 3x throughput and 70% lower latency",
@@ -231,7 +269,7 @@
         "throughput",
         "latency"
       ],
-      "rank": 12
+      "rank": 14
     },
     {
       "title": "The Birth and Death of JavaScript (2014)",
@@ -250,7 +288,7 @@
         "PHP",
         "destroyallsoftware.com"
       ],
-      "rank": 13
+      "rank": 15
     }
   ]
 }
