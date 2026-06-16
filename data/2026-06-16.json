@@ -2,8 +2,8 @@
   "date": "2026-06-16",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3403,
-  "filtered_articles": 35,
+  "total_articles": 3405,
+  "filtered_articles": 34,
   "articles": [
     {
       "title": "The time the x86 emulator team found code so bad they fixed it during emulation",
@@ -13,8 +13,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 210,
-      "score": 28,
+      "hn_points": 324,
+      "score": 30,
       "category": "other",
       "keywords": [
         "x86",
