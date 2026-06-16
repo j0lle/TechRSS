@@ -1,10 +1,29 @@
 {
   "date": "2026-06-16",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3403,
-  "filtered_articles": 32,
+  "success_feeds": 88,
+  "total_articles": 3383,
+  "filtered_articles": 31,
   "articles": [
+    {
+      "title": "The time the x86 emulator team found code so bad they fixed it during emulation",
+      "title_display": "The time the x86 emulator team found code so bad they fixed it during emulation",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260615-00/?p=112419",
+      "pub_date": "2026-06-16T04:51:03.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 210,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "x86",
+        "emulator",
+        "Microsoft",
+        "compiler"
+      ],
+      "rank": 1
+    },
     {
       "title": "Microsoft turns to AWS as GitHub faces AI capacity crunch",
       "title_display": "Microsoft turns to AWS as GitHub faces AI capacity crunch",
@@ -22,7 +41,7 @@
         "AWS",
         "AI"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "What job interviews taught me about Kubernetes",
@@ -41,7 +60,7 @@
         "Helm",
         "Docker"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Banned Book Library in a Wi-Fi Smart Light Bulb",
@@ -59,7 +78,7 @@
         "smart light bulb",
         "Wi-Fi"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Why I Email Complete Strangers",
@@ -78,7 +97,7 @@
         "Good Internet Magazine",
         "GitHub"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "I Love the Computer",
@@ -97,7 +116,7 @@
         "Michael Enger",
         "Linux"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Ask HN: Has anyone replaced Claude/GPT with a local model for daily coding?",
@@ -116,7 +135,7 @@
         "Qwen 3.6",
         "Gemma 4"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Hetzner Price Adjustment",
@@ -135,7 +154,7 @@
         "cloud servers",
         "RAM"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "How TimescaleDB compresses time-series data",
@@ -154,7 +173,7 @@
         "time-series",
         "compression"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Memory safety CVEs differ between Rust and C/C++",
@@ -173,7 +192,7 @@
         "memory safety",
         "CVE"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "My Homelab AI Dev Platform",
@@ -192,7 +211,7 @@
         "agents",
         "Qwen"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "Copper transport drug restores memory and clears toxic Alzheimer's proteins",
@@ -211,7 +230,7 @@
         "copper transport drug",
         "APP/PS1 mouse model"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "Show HN: I wrote a C++ ray tracer from scratch without AI",
@@ -230,7 +249,7 @@
         "C++20",
         "path tracer"
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "title": "21 years and counting of 'eight fallacies of distributed computing' (2025)",
@@ -249,7 +268,7 @@
         "APNIC",
         "L. Peter Deutsch"
       ],
-      "rank": 13
+      "rank": 14
     }
   ]
 }
