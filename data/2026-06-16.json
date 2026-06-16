@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3403,
-  "filtered_articles": 31,
+  "filtered_articles": 32,
   "articles": [
     {
       "title": "Banned Book Library in a Wi-Fi Smart Light Bulb",
@@ -100,6 +100,25 @@
       "rank": 5
     },
     {
+      "title": "Memory safety CVEs differ between Rust and C/C++",
+      "title_display": "Memory safety CVEs differ between Rust and C/C++",
+      "link": "https://kobzol.github.io/rust/2026/06/15/how-memory-safety-cves-differ-between-rust-and-c-cpp.html",
+      "pub_date": "2026-06-15T17:31:06.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 127,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Rust",
+        "C/C++",
+        "memory safety",
+        "CVE"
+      ],
+      "rank": 6
+    },
+    {
       "title": "My Homelab AI Dev Platform",
       "title_display": "My Homelab AI Dev Platform",
       "link": "https://rsgm.dev/post/ai-dev-platform/",
@@ -116,7 +135,7 @@
         "agents",
         "Qwen"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Copper transport drug restores memory and clears toxic Alzheimer's proteins",
@@ -135,7 +154,7 @@
         "copper transport drug",
         "APP/PS1 mouse model"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Show HN: I wrote a C++ ray tracer from scratch without AI",
@@ -154,7 +173,7 @@
         "C++20",
         "path tracer"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "21 years and counting of 'eight fallacies of distributed computing' (2025)",
@@ -173,7 +192,7 @@
         "APNIC",
         "L. Peter Deutsch"
       ],
-      "rank": 9
+      "rank": 10
     }
   ]
 }
