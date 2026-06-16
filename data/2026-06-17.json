@@ -1,10 +1,29 @@
 {
   "date": "2026-06-17",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3388,
+  "success_feeds": 89,
+  "total_articles": 3408,
   "filtered_articles": 35,
   "articles": [
+    {
+      "title": "Stop Using JWTs",
+      "title_display": "Stop Using JWTs",
+      "link": "https://gist.github.com/samsch/0d1f3d3b4745d778f78b230cf6061452",
+      "pub_date": "2026-06-16T19:21:01.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 158,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "JWT",
+        "sessions",
+        "token revocation",
+        "refresh tokens"
+      ],
+      "rank": 1
+    },
     {
       "title": "Claude: Elevated errors across many models",
       "title_display": "Claude: Elevated errors across many models",
@@ -22,7 +41,7 @@
         "Claude Code",
         "Opus"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "TIL: You can make HTTP requests without curl using Bash /dev/TCP",
@@ -41,7 +60,7 @@
         "HTTP",
         "curl"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "But yak shaving is fun",
@@ -58,7 +77,7 @@
         "yak shaving",
         "parksb"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "SpaceX to buy Cursor for $60B",
@@ -77,7 +96,7 @@
         "xAI",
         "Grok"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Feds freaked over Fable 5 after simple 'fix this code' prompt, not jailbreak",
@@ -96,7 +115,7 @@
         "Mythos",
         "Claude"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Cohere's First Model for Developers",
@@ -115,7 +134,7 @@
         "Qwen 3.6",
         "Qwen 3.6 coder"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Claude Corps",
@@ -134,7 +153,7 @@
         "Claude",
         "FDE"
       ],
-      "rank": 7
+      "rank": 8
     }
   ]
 }
