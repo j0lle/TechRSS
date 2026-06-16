@@ -1,10 +1,65 @@
 {
   "date": "2026-06-17",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3388,
-  "filtered_articles": 35,
+  "success_feeds": 89,
+  "total_articles": 3408,
+  "filtered_articles": 38,
   "articles": [
+    {
+      "title": "Claude: Elevated errors across many models",
+      "title_display": "Claude: Elevated errors across many models",
+      "link": "https://status.claude.com/incidents/xmhsglsz3h3w",
+      "pub_date": "2026-06-16T17:41:01.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 165,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Claude",
+        "Anthropic",
+        "Claude Code",
+        "Opus"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "TIL: You can make HTTP requests without curl using Bash /dev/TCP",
+      "title_display": "TIL: You can make HTTP requests without curl using Bash /dev/TCP",
+      "link": "https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/",
+      "pub_date": "2026-06-16T17:11:02.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 138,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "bash",
+        "/dev/tcp",
+        "HTTP",
+        "curl"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "But yak shaving is fun",
+      "title_display": "But yak shaving is fun",
+      "link": "https://parksb.github.io/en/article/32.html",
+      "pub_date": "2026-06-16T16:51:01.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 140,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "yak shaving",
+        "parksb"
+      ],
+      "rank": 3
+    },
     {
       "title": "SpaceX to buy Cursor for $60B",
       "title_display": "SpaceX to buy Cursor for $60B",
@@ -22,7 +77,7 @@
         "xAI",
         "Grok"
       ],
-      "rank": 1
+      "rank": 4
     },
     {
       "title": "Feds freaked over Fable 5 after simple 'fix this code' prompt, not jailbreak",
@@ -41,7 +96,7 @@
         "Mythos",
         "Claude"
       ],
-      "rank": 2
+      "rank": 5
     },
     {
       "title": "Cohere's First Model for Developers",
@@ -60,7 +115,7 @@
         "Qwen 3.6",
         "Qwen 3.6 coder"
       ],
-      "rank": 3
+      "rank": 6
     },
     {
       "title": "Claude Corps",
@@ -79,7 +134,7 @@
         "Claude",
         "FDE"
       ],
-      "rank": 4
+      "rank": 7
     }
   ]
 }
