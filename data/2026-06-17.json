@@ -1,0 +1,47 @@
+{
+  "date": "2026-06-17",
+  "total_feeds": 95,
+  "success_feeds": 88,
+  "total_articles": 3385,
+  "filtered_articles": 33,
+  "articles": [
+    {
+      "title": "Feds freaked over Fable 5 after simple 'fix this code' prompt, not jailbreak",
+      "title_display": "Feds freaked over Fable 5 after simple 'fix this code' prompt, not jailbreak",
+      "link": "https://www.theregister.com/security/2026/06/15/feds-freaked-over-fable-5-after-simple-fix-this-code-prompt-not-jailbreak-says-researcher/5255827",
+      "pub_date": "2026-06-16T14:21:04.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 286,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Fable 5",
+        "Anthropic",
+        "Mythos",
+        "Claude"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Claude Corps",
+      "title_display": "Claude Corps",
+      "link": "https://www.anthropic.com/news/claude-corps",
+      "pub_date": "2026-06-15T20:11:01.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 151,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Claude Corps",
+        "Anthropic",
+        "Claude",
+        "FDE"
+      ],
+      "rank": 2
+    }
+  ]
+}
