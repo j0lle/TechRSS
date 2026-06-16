@@ -3,8 +3,45 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3403,
-  "filtered_articles": 28,
+  "filtered_articles": 31,
   "articles": [
+    {
+      "title": "Banned Book Library in a Wi-Fi Smart Light Bulb",
+      "title_display": "Banned Book Library in a Wi-Fi Smart Light Bulb",
+      "link": "https://www.richardosgood.com/posts/banned-book-library/",
+      "pub_date": "2026-06-15T23:01:02.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 181,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Banned Book Library",
+        "smart light bulb",
+        "Wi-Fi"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "I Love the Computer",
+      "title_display": "I Love the Computer",
+      "link": "https://michaelenger.com/blog/i-love-the-computer/",
+      "pub_date": "2026-06-15T20:41:01.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 145,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "AI",
+        "LLMs",
+        "Michael Enger",
+        "Linux"
+      ],
+      "rank": 2
+    },
     {
       "title": "Ask HN: Has anyone replaced Claude/GPT with a local model for daily coding?",
       "title_display": "Ask HN: Has anyone replaced Claude/GPT with a local model for daily coding?",
@@ -13,7 +50,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 402,
+      "hn_points": 721,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -22,7 +59,7 @@
         "Qwen 3.6",
         "Gemma 4"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "Hetzner Price Adjustment",
@@ -41,7 +78,26 @@
         "cloud servers",
         "RAM"
       ],
-      "rank": 2
+      "rank": 4
+    },
+    {
+      "title": "How TimescaleDB compresses time-series data",
+      "title_display": "How TimescaleDB compresses time-series data",
+      "link": "https://roszigit.com/en/blog/timescaledb-compression-hypercore",
+      "pub_date": "2026-06-15T17:41:05.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 125,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "TimescaleDB",
+        "PostgreSQL",
+        "time-series",
+        "compression"
+      ],
+      "rank": 5
     },
     {
       "title": "My Homelab AI Dev Platform",
@@ -60,7 +116,7 @@
         "agents",
         "Qwen"
       ],
-      "rank": 3
+      "rank": 6
     },
     {
       "title": "Copper transport drug restores memory and clears toxic Alzheimer's proteins",
@@ -70,8 +126,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 161,
-      "score": 27,
+      "hn_points": 262,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Alzheimer's",
@@ -79,7 +135,7 @@
         "copper transport drug",
         "APP/PS1 mouse model"
       ],
-      "rank": 4
+      "rank": 7
     },
     {
       "title": "Show HN: I wrote a C++ ray tracer from scratch without AI",
@@ -98,7 +154,7 @@
         "C++20",
         "path tracer"
       ],
-      "rank": 5
+      "rank": 8
     },
     {
       "title": "21 years and counting of 'eight fallacies of distributed computing' (2025)",
@@ -117,7 +173,7 @@
         "APNIC",
         "L. Peter Deutsch"
       ],
-      "rank": 6
+      "rank": 9
     }
   ]
 }
