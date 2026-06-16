@@ -2,9 +2,28 @@
   "date": "2026-06-17",
   "total_feeds": 95,
   "success_feeds": 88,
-  "total_articles": 3385,
+  "total_articles": 3386,
   "filtered_articles": 33,
   "articles": [
+    {
+      "title": "SpaceX to buy Cursor for $60B",
+      "title_display": "SpaceX to buy Cursor for $60B",
+      "link": "https://www.reuters.com/legal/transactional/spacex-buy-anysphere-60-billion-2026-06-16/",
+      "pub_date": "2026-06-16T16:41:02.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 291,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "SpaceX",
+        "Cursor",
+        "xAI",
+        "Grok"
+      ],
+      "rank": 1
+    },
     {
       "title": "Feds freaked over Fable 5 after simple 'fix this code' prompt, not jailbreak",
       "title_display": "Feds freaked over Fable 5 after simple 'fix this code' prompt, not jailbreak",
@@ -13,7 +32,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 286,
+      "hn_points": 424,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -22,7 +41,26 @@
         "Mythos",
         "Claude"
       ],
-      "rank": 1
+      "rank": 2
+    },
+    {
+      "title": "Cohere's First Model for Developers",
+      "title_display": "Cohere's First Model for Developers",
+      "link": "https://cohere.com/blog/north-mini-code",
+      "pub_date": "2026-06-16T03:01:02.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 127,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Cohere",
+        "north-mini-code",
+        "Qwen 3.6",
+        "Qwen 3.6 coder"
+      ],
+      "rank": 3
     },
     {
       "title": "Claude Corps",
@@ -41,7 +79,7 @@
         "Claude",
         "FDE"
       ],
-      "rank": 2
+      "rank": 4
     }
   ]
 }
