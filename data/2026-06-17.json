@@ -2,7 +2,7 @@
   "date": "2026-06-17",
   "total_feeds": 95,
   "success_feeds": 88,
-  "total_articles": 3388,
+  "total_articles": 3389,
   "filtered_articles": 32,
   "articles": [
     {
@@ -44,6 +44,25 @@
       "rank": 2
     },
     {
+      "title": "GPT‑NL: a sovereign language model for the Netherlands",
+      "title_display": "GPT‑NL: a sovereign language model for the Netherlands",
+      "link": "https://www.tno.nl/en/digital/artificial-intelligence/gpt-nl/",
+      "pub_date": "2026-06-16T18:41:01.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 135,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "GPT-NL",
+        "TNO",
+        "Netherlands",
+        "sovereign language model"
+      ],
+      "rank": 3
+    },
+    {
       "title": "Claude: Elevated errors across many models",
       "title_display": "Claude: Elevated errors across many models",
       "link": "https://status.claude.com/incidents/xmhsglsz3h3w",
@@ -60,7 +79,7 @@
         "Claude Code",
         "Opus"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "TIL: You can make HTTP requests without curl using Bash /dev/TCP",
@@ -79,7 +98,7 @@
         "HTTP",
         "curl"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "But yak shaving is fun",
@@ -96,7 +115,7 @@
         "yak shaving",
         "parksb"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "SpaceX to buy Cursor for $60B",
@@ -115,7 +134,7 @@
         "xAI",
         "Grok"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Feds freaked over Fable 5 after simple 'fix this code' prompt, not jailbreak",
@@ -134,7 +153,7 @@
         "Mythos",
         "Claude"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Cohere's First Model for Developers",
@@ -153,7 +172,7 @@
         "Qwen 3.6",
         "Qwen 3.6 coder"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Claude Corps",
@@ -172,7 +191,7 @@
         "Claude",
         "FDE"
       ],
-      "rank": 9
+      "rank": 10
     }
   ]
 }
