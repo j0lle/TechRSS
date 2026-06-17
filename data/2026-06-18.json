@@ -1,10 +1,48 @@
 {
   "date": "2026-06-18",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3389,
-  "filtered_articles": 37,
+  "success_feeds": 89,
+  "total_articles": 3409,
+  "filtered_articles": 35,
   "articles": [
+    {
+      "title": "Volkswagen started blocking GrapheneOS users",
+      "title_display": "Volkswagen started blocking GrapheneOS users",
+      "link": "https://discuss.grapheneos.org/d/35949-volkswagen-app?page=3",
+      "pub_date": "2026-06-17T15:41:03.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 272,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "GrapheneOS",
+        "Volkswagen",
+        "Play Integrity",
+        "Google Play Services"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "AI demands more engineering discipline. Not less",
+      "title_display": "AI demands more engineering discipline. Not less",
+      "link": "https://charitydotwtf.substack.com/p/ai-demands-more-engineering-discipline",
+      "pub_date": "2026-06-17T15:01:04.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 198,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "AI",
+        "software engineering",
+        "LLMs",
+        "agents"
+      ],
+      "rank": 2
+    },
     {
       "title": "Epic Games announces Lore version control system",
       "title_display": "Epic Games announces Lore version control system",
@@ -22,7 +60,7 @@
         "version control",
         "Git"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "Want your images back? Sure... That'll be $5!",
@@ -41,7 +79,7 @@
         "chargeback",
         "cloud storage"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "Show HN: Capacitor Alarm Clock",
@@ -60,7 +98,7 @@
         "ArcaEge",
         "GitHub"
       ],
-      "rank": 3
+      "rank": 5
     }
   ]
 }
