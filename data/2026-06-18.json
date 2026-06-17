@@ -1,8 +1,8 @@
 {
   "date": "2026-06-18",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3409,
+  "success_feeds": 88,
+  "total_articles": 3389,
   "filtered_articles": 37,
   "articles": [
     {
@@ -42,6 +42,25 @@
         "cloud storage"
       ],
       "rank": 2
+    },
+    {
+      "title": "Show HN: Capacitor Alarm Clock",
+      "title_display": "Show HN: Capacitor Alarm Clock",
+      "link": "https://github.com/ArcaEge/capacitor-alarm-clock",
+      "pub_date": "2026-06-17T11:21:06.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 120,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "Capacitor Alarm Clock",
+        "capacitor",
+        "ArcaEge",
+        "GitHub"
+      ],
+      "rank": 3
     }
   ]
 }
