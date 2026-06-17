@@ -1,10 +1,29 @@
 {
   "date": "2026-06-17",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3408,
-  "filtered_articles": 35,
+  "success_feeds": 87,
+  "total_articles": 3377,
+  "filtered_articles": 33,
   "articles": [
+    {
+      "title": "Nobody clicks your share buttons",
+      "title_display": "Nobody clicks your share buttons",
+      "link": "https://ankursethi.com/links/nobody-clicks-your-share-buttons/",
+      "pub_date": "2026-06-16T20:21:03.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 168,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "share buttons",
+        "navigator.share",
+        "copy link",
+        "third-party cookies"
+      ],
+      "rank": 1
+    },
     {
       "title": "Stop Using JWTs",
       "title_display": "Stop Using JWTs",
@@ -22,7 +41,7 @@
         "token revocation",
         "refresh tokens"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Claude: Elevated errors across many models",
@@ -41,7 +60,7 @@
         "Claude Code",
         "Opus"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "TIL: You can make HTTP requests without curl using Bash /dev/TCP",
@@ -60,7 +79,7 @@
         "HTTP",
         "curl"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "But yak shaving is fun",
@@ -77,7 +96,7 @@
         "yak shaving",
         "parksb"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "SpaceX to buy Cursor for $60B",
@@ -96,7 +115,7 @@
         "xAI",
         "Grok"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Feds freaked over Fable 5 after simple 'fix this code' prompt, not jailbreak",
@@ -115,7 +134,7 @@
         "Mythos",
         "Claude"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Cohere's First Model for Developers",
@@ -134,7 +153,7 @@
         "Qwen 3.6",
         "Qwen 3.6 coder"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Claude Corps",
@@ -153,7 +172,7 @@
         "Claude",
         "FDE"
       ],
-      "rank": 8
+      "rank": 9
     }
   ]
 }
