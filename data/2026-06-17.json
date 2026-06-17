@@ -1,8 +1,8 @@
 {
   "date": "2026-06-17",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3409,
+  "success_feeds": 88,
+  "total_articles": 3389,
   "filtered_articles": 34,
   "articles": [
     {
@@ -107,8 +107,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 244,
-      "score": 29,
+      "hn_points": 357,
+      "score": 30,
       "category": "other",
       "keywords": [
         "bash",
@@ -126,8 +126,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 140,
-      "score": 26,
+      "hn_points": 242,
+      "score": 29,
       "category": "other",
       "keywords": [
         "yak shaving",
