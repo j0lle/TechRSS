@@ -2,8 +2,8 @@
   "date": "2026-06-17",
   "total_feeds": 95,
   "success_feeds": 88,
-  "total_articles": 3398,
-  "filtered_articles": 33,
+  "total_articles": 3399,
+  "filtered_articles": 34,
   "articles": [
     {
       "title": "U.S. Science Is in Chaos",
@@ -44,6 +44,44 @@
       "rank": 2
     },
     {
+      "title": "Show HN: High-Res Neural Cellular Automata",
+      "title_display": "Show HN: High-Res Neural Cellular Automata",
+      "link": "https://cells2pixels.github.io/",
+      "pub_date": "2026-06-17T10:11:04.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 132,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Neural Cellular Automata",
+        "cells2pixels",
+        "Cellular automata",
+        "NCA"
+      ],
+      "rank": 3
+    },
+    {
+      "title": "Subterranean fungi networks more than 100 quadrillion km in length",
+      "title_display": "Subterranean fungi networks more than 100 quadrillion km in length",
+      "link": "https://www.theguardian.com/science/2026/jun/11/arbuscular-mycorrhizal-fungi-plant-life-climate-global-mapping-study",
+      "pub_date": "2026-06-17T06:41:03.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 125,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Arbuscular mycorrhizal fungi",
+        "mycorrhizal networks",
+        "fungal networks",
+        "global mapping study"
+      ],
+      "rank": 4
+    },
+    {
       "title": "Humiliating IIS servers for fun and jail time",
       "title_display": "Humiliating IIS servers for fun and jail time",
       "link": "https://mll.sh/humiliating-iis-servers-for-fun-and-jail-time/",
@@ -59,7 +97,7 @@
         "honeypot",
         "jail time"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "Nobody clicks your share buttons",
@@ -78,7 +116,7 @@
         "copy link",
         "third-party cookies"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "Stop Using JWTs",
@@ -97,7 +135,7 @@
         "token revocation",
         "refresh tokens"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "GPT‑NL: a sovereign language model for the Netherlands",
@@ -107,8 +145,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 135,
-      "score": 26,
+      "hn_points": 236,
+      "score": 29,
       "category": "other",
       "keywords": [
         "GPT-NL",
@@ -116,7 +154,7 @@
         "Netherlands",
         "sovereign language model"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "Claude: Elevated errors across many models",
@@ -135,7 +173,7 @@
         "Claude Code",
         "Opus"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "TIL: You can make HTTP requests without curl using Bash /dev/TCP",
@@ -154,7 +192,7 @@
         "HTTP",
         "curl"
       ],
-      "rank": 8
+      "rank": 10
     },
     {
       "title": "But yak shaving is fun",
@@ -171,7 +209,7 @@
         "yak shaving",
         "parksb"
       ],
-      "rank": 9
+      "rank": 11
     },
     {
       "title": "SpaceX to buy Cursor for $60B",
@@ -190,7 +228,7 @@
         "xAI",
         "Grok"
       ],
-      "rank": 10
+      "rank": 12
     },
     {
       "title": "Feds freaked over Fable 5 after simple 'fix this code' prompt, not jailbreak",
@@ -209,7 +247,7 @@
         "Mythos",
         "Claude"
       ],
-      "rank": 11
+      "rank": 13
     },
     {
       "title": "Cohere's First Model for Developers",
@@ -228,7 +266,7 @@
         "Qwen 3.6",
         "Qwen 3.6 coder"
       ],
-      "rank": 12
+      "rank": 14
     },
     {
       "title": "Claude Corps",
@@ -247,7 +285,7 @@
         "Claude",
         "FDE"
       ],
-      "rank": 13
+      "rank": 15
     }
   ]
 }
