@@ -1,0 +1,47 @@
+{
+  "date": "2026-06-18",
+  "total_feeds": 95,
+  "success_feeds": 89,
+  "total_articles": 3409,
+  "filtered_articles": 37,
+  "articles": [
+    {
+      "title": "Epic Games announces Lore version control system",
+      "title_display": "Epic Games announces Lore version control system",
+      "link": "https://lore.org/",
+      "pub_date": "2026-06-17T14:41:06.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 365,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Lore",
+        "Epic Games",
+        "version control",
+        "Git"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Want your images back? Sure... That'll be $5!",
+      "title_display": "Want your images back? Sure... That'll be $5!",
+      "link": "https://www.lutr.dev/want-your-images-back-sure-that-ll-be-5-dollars",
+      "pub_date": "2026-06-17T13:21:05.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 423,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Photobucket",
+        "GDPR",
+        "chargeback",
+        "cloud storage"
+      ],
+      "rank": 2
+    }
+  ]
+}
