@@ -1,10 +1,48 @@
 {
   "date": "2026-06-17",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3409,
-  "filtered_articles": 32,
+  "success_feeds": 88,
+  "total_articles": 3398,
+  "filtered_articles": 33,
   "articles": [
+    {
+      "title": "U.S. Science Is in Chaos",
+      "title_display": "U.S. Science Is in Chaos",
+      "link": "https://www.scientificamerican.com/article/americas-compact-between-science-and-politics-is-broken/",
+      "pub_date": "2026-06-17T10:31:04.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 187,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "U.S. science",
+        "Scientific American",
+        "science funding",
+        "research grants"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "GLM-5.2 is the new leading open weights model on Artificial Analysis",
+      "title_display": "GLM-5.2 is the new leading open weights model on Artificial Analysis",
+      "link": "https://artificialanalysis.ai/articles/glm-5-2-is-the-new-leading-open-weights-model-on-the-artificial-analysis-intelligence-index",
+      "pub_date": "2026-06-17T10:31:03.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 323,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "GLM-5.2",
+        "Artificial Analysis",
+        "open weights",
+        "Z.AI"
+      ],
+      "rank": 2
+    },
     {
       "title": "Humiliating IIS servers for fun and jail time",
       "title_display": "Humiliating IIS servers for fun and jail time",
@@ -21,7 +59,7 @@
         "honeypot",
         "jail time"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "Nobody clicks your share buttons",
@@ -40,7 +78,7 @@
         "copy link",
         "third-party cookies"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "Stop Using JWTs",
@@ -59,7 +97,7 @@
         "token revocation",
         "refresh tokens"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "GPT‑NL: a sovereign language model for the Netherlands",
@@ -78,7 +116,7 @@
         "Netherlands",
         "sovereign language model"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "Claude: Elevated errors across many models",
@@ -97,7 +135,7 @@
         "Claude Code",
         "Opus"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "TIL: You can make HTTP requests without curl using Bash /dev/TCP",
@@ -116,7 +154,7 @@
         "HTTP",
         "curl"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "But yak shaving is fun",
@@ -133,7 +171,7 @@
         "yak shaving",
         "parksb"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "SpaceX to buy Cursor for $60B",
@@ -152,7 +190,7 @@
         "xAI",
         "Grok"
       ],
-      "rank": 8
+      "rank": 10
     },
     {
       "title": "Feds freaked over Fable 5 after simple 'fix this code' prompt, not jailbreak",
@@ -171,7 +209,7 @@
         "Mythos",
         "Claude"
       ],
-      "rank": 9
+      "rank": 11
     },
     {
       "title": "Cohere's First Model for Developers",
@@ -190,7 +228,7 @@
         "Qwen 3.6",
         "Qwen 3.6 coder"
       ],
-      "rank": 10
+      "rank": 12
     },
     {
       "title": "Claude Corps",
@@ -209,7 +247,7 @@
         "Claude",
         "FDE"
       ],
-      "rank": 11
+      "rank": 13
     }
   ]
 }
