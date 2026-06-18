@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3408,
-  "filtered_articles": 33,
+  "filtered_articles": 31,
   "articles": [
+    {
+      "title": "DeepSeek Introduces Vision",
+      "title_display": "DeepSeek Introduces Vision",
+      "link": "https://chat.deepseek.com/",
+      "pub_date": "2026-06-18T06:51:02.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 133,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "DeepSeek",
+        "Vision",
+        "API",
+        "Chinese"
+      ],
+      "rank": 1
+    },
     {
       "title": "Clojure Hosted on Go",
       "title_display": "Clojure Hosted on Go",
@@ -22,7 +41,7 @@
         "Go",
         "glojurelang/glojure"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Tesco moving 40k server workloads off VMware amid Broadcom's abusive conduct",
@@ -41,7 +60,7 @@
         "Tesco",
         "Proxmox"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Leaked financial docs show OpenAI is losing billions of dollars a year",
@@ -60,7 +79,7 @@
         "financial-losses",
         "marketing"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "US holds off blacklisting DeepSeek, more than 100 firms deemed security risks",
@@ -79,7 +98,7 @@
         "Anthropic",
         "OpenAI"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Launch HN: Adam (YC W25) – Open-Source AI CAD",
@@ -98,7 +117,7 @@
         "AI CAD",
         "Open-source"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Show HN: Inkwash, a watercolor sketching app and explanation",
@@ -117,7 +136,7 @@
         "sketching-app",
         "fluid-simulation"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Volkswagen started blocking GrapheneOS users",
@@ -136,7 +155,7 @@
         "Play Integrity",
         "Google Play Services"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "AI demands more engineering discipline. Not less",
@@ -155,7 +174,7 @@
         "LLMs",
         "agents"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Epic Games announces Lore version control system",
@@ -174,7 +193,7 @@
         "version control",
         "Git"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Want your images back? Sure... That'll be $5!",
@@ -193,7 +212,7 @@
         "chargeback",
         "cloud storage"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "MicroUI – A tiny, portable, immediate-mode UI library written in ANSI C",
@@ -212,7 +231,7 @@
         "ANSI C",
         "Dear ImGui"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "Show HN: Capacitor Alarm Clock",
@@ -231,7 +250,7 @@
         "ArcaEge",
         "GitHub"
       ],
-      "rank": 12
+      "rank": 13
     }
   ]
 }
