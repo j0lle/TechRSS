@@ -63,6 +63,25 @@
       "rank": 3
     },
     {
+      "title": "Has W Social switched to closed source?",
+      "title_display": "Has W Social switched to closed source?",
+      "link": "https://blog.elenarossini.com/w-social-public-institutions-and-the-theater-of-european-digital-sovereignty/",
+      "pub_date": "2026-06-18T13:01:03.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 152,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "W Social",
+        "closed source",
+        "European digital sovereignty",
+        "Eurosky"
+      ],
+      "rank": 4
+    },
+    {
       "title": "Hospitals and universities repurposing drugs at 90% lower cost",
       "title_display": "Hospitals and universities repurposing drugs at 90% lower cost",
       "link": "https://www.kcl.ac.uk/news/hospitals-and-universities-repurposing-drugs-at-90-lower-cost",
@@ -79,7 +98,7 @@
         "hospitals",
         "universities"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "I Hate Compilers",
@@ -98,7 +117,7 @@
         "Anubis",
         "deterministic builds"
       ],
-      "rank": 5
+      "rank": 6
     }
   ]
 }
