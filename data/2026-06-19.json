@@ -3,8 +3,46 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3340,
-  "filtered_articles": 29,
+  "filtered_articles": 30,
   "articles": [
+    {
+      "title": "I found 10k GitHub repositories distributing Trojan malware",
+      "title_display": "I found 10k GitHub repositories distributing Trojan malware",
+      "link": "https://orchidfiles.com/github-repositories-distributing-malware/",
+      "pub_date": "2026-06-18T13:21:02.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 253,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "GitHub",
+        "malware",
+        "Trojan",
+        "open-source"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Advanced Compilers: The Self-Guided Online Course",
+      "title_display": "Advanced Compilers: The Self-Guided Online Course",
+      "link": "https://www.cs.cornell.edu/courses/cs6120/2025fa/self-guided/",
+      "pub_date": "2026-06-18T13:01:04.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 170,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "compilers",
+        "CS6120",
+        "Cornell",
+        "trace compilation"
+      ],
+      "rank": 2
+    },
     {
       "title": "Hospitals and universities repurposing drugs at 90% lower cost",
       "title_display": "Hospitals and universities repurposing drugs at 90% lower cost",
@@ -22,7 +60,7 @@
         "hospitals",
         "universities"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "I Hate Compilers",
@@ -41,7 +79,7 @@
         "Anubis",
         "deterministic builds"
       ],
-      "rank": 2
+      "rank": 4
     }
   ]
 }
