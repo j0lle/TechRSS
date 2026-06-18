@@ -2,9 +2,28 @@
   "date": "2026-06-19",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3340,
-  "filtered_articles": 30,
+  "total_articles": 3341,
+  "filtered_articles": 31,
   "articles": [
+    {
+      "title": "Modos Color Monitor Pushes E-Paper Displays Further",
+      "title_display": "Modos Color Monitor Pushes E-Paper Displays Further",
+      "link": "https://spectrum.ieee.org/modos-e-paper-monitor",
+      "pub_date": "2026-06-18T14:41:03.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 147,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Modos Flow",
+        "Modos",
+        "e-paper",
+        "color e-paper"
+      ],
+      "rank": 1
+    },
     {
       "title": "I found 10k GitHub repositories distributing Trojan malware",
       "title_display": "I found 10k GitHub repositories distributing Trojan malware",
@@ -13,8 +32,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 253,
-      "score": 29,
+      "hn_points": 368,
+      "score": 30,
       "category": "other",
       "keywords": [
         "GitHub",
@@ -22,7 +41,7 @@
         "Trojan",
         "open-source"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Advanced Compilers: The Self-Guided Online Course",
@@ -41,7 +60,7 @@
         "Cornell",
         "trace compilation"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Hospitals and universities repurposing drugs at 90% lower cost",
@@ -60,7 +79,7 @@
         "hospitals",
         "universities"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "I Hate Compilers",
@@ -79,7 +98,7 @@
         "Anubis",
         "deterministic builds"
       ],
-      "rank": 4
+      "rank": 5
     }
   ]
 }
