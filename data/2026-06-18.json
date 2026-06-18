@@ -1,10 +1,29 @@
 {
   "date": "2026-06-18",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3408,
-  "filtered_articles": 33,
+  "success_feeds": 88,
+  "total_articles": 3393,
+  "filtered_articles": 34,
   "articles": [
+    {
+      "title": "Tesco moving 40k server workloads off VMware amid Broadcom's abusive conduct",
+      "title_display": "Tesco moving 40k server workloads off VMware amid Broadcom's abusive conduct",
+      "link": "https://arstechnica.com/information-technology/2026/06/tesco-moving-40000-server-workloads-off-vmware-amid-broadcoms-abusive-conduct/",
+      "pub_date": "2026-06-17T23:11:01.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 189,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "VMware",
+        "Broadcom",
+        "Tesco",
+        "Proxmox"
+      ],
+      "rank": 1
+    },
     {
       "title": "Leaked financial docs show OpenAI is losing billions of dollars a year",
       "title_display": "Leaked financial docs show OpenAI is losing billions of dollars a year",
@@ -22,7 +41,7 @@
         "financial-losses",
         "marketing"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "US holds off blacklisting DeepSeek, more than 100 firms deemed security risks",
@@ -32,7 +51,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 279,
+      "hn_points": 381,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -41,7 +60,7 @@
         "Anthropic",
         "OpenAI"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Launch HN: Adam (YC W25) – Open-Source AI CAD",
@@ -60,7 +79,7 @@
         "AI CAD",
         "Open-source"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Show HN: Inkwash, a watercolor sketching app and explanation",
@@ -79,7 +98,7 @@
         "sketching-app",
         "fluid-simulation"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Volkswagen started blocking GrapheneOS users",
@@ -98,7 +117,7 @@
         "Play Integrity",
         "Google Play Services"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "AI demands more engineering discipline. Not less",
@@ -117,7 +136,7 @@
         "LLMs",
         "agents"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Epic Games announces Lore version control system",
@@ -136,7 +155,7 @@
         "version control",
         "Git"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Want your images back? Sure... That'll be $5!",
@@ -155,7 +174,7 @@
         "chargeback",
         "cloud storage"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "MicroUI – A tiny, portable, immediate-mode UI library written in ANSI C",
@@ -174,7 +193,7 @@
         "ANSI C",
         "Dear ImGui"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Show HN: Capacitor Alarm Clock",
@@ -193,7 +212,7 @@
         "ArcaEge",
         "GitHub"
       ],
-      "rank": 10
+      "rank": 11
     }
   ]
 }
