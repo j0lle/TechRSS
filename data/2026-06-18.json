@@ -2,9 +2,28 @@
   "date": "2026-06-18",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3408,
-  "filtered_articles": 31,
+  "total_articles": 3338,
+  "filtered_articles": 36,
   "articles": [
+    {
+      "title": "AMD silently removes memory encryption from consumer Ryzen CPUs",
+      "title_display": "AMD silently removes memory encryption from consumer Ryzen CPUs",
+      "link": "https://www.tomshardware.com/pc-components/cpus/amd-silently-removes-memory-encryption-from-consumer-ryzen-cpus-leaving-users-unaware-that-they-may-be-vulnerable-security-feature-vanishes-after-newer-agesa-firmware-amd-engineers-go-radio-silent-when-pressed-about-the-change",
+      "pub_date": "2026-06-18T09:21:04.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 163,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "AMD",
+        "Ryzen",
+        "memory encryption",
+        "AGESA"
+      ],
+      "rank": 1
+    },
     {
       "title": "DeepSeek Introduces Vision",
       "title_display": "DeepSeek Introduces Vision",
@@ -22,7 +41,7 @@
         "API",
         "Chinese"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Clojure Hosted on Go",
@@ -41,7 +60,7 @@
         "Go",
         "glojurelang/glojure"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Tesco moving 40k server workloads off VMware amid Broadcom's abusive conduct",
@@ -60,7 +79,7 @@
         "Tesco",
         "Proxmox"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Leaked financial docs show OpenAI is losing billions of dollars a year",
@@ -79,7 +98,7 @@
         "financial-losses",
         "marketing"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "US holds off blacklisting DeepSeek, more than 100 firms deemed security risks",
@@ -98,7 +117,7 @@
         "Anthropic",
         "OpenAI"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Launch HN: Adam (YC W25) – Open-Source AI CAD",
@@ -117,7 +136,7 @@
         "AI CAD",
         "Open-source"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Show HN: Inkwash, a watercolor sketching app and explanation",
@@ -136,7 +155,7 @@
         "sketching-app",
         "fluid-simulation"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Volkswagen started blocking GrapheneOS users",
@@ -146,7 +165,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 397,
+      "hn_points": 705,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -155,7 +174,7 @@
         "Play Integrity",
         "Google Play Services"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "AI demands more engineering discipline. Not less",
@@ -174,7 +193,7 @@
         "LLMs",
         "agents"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Epic Games announces Lore version control system",
@@ -193,7 +212,7 @@
         "version control",
         "Git"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "Want your images back? Sure... That'll be $5!",
@@ -212,7 +231,7 @@
         "chargeback",
         "cloud storage"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "MicroUI – A tiny, portable, immediate-mode UI library written in ANSI C",
@@ -231,7 +250,7 @@
         "ANSI C",
         "Dear ImGui"
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "title": "Show HN: Capacitor Alarm Clock",
@@ -250,7 +269,7 @@
         "ArcaEge",
         "GitHub"
       ],
-      "rank": 13
+      "rank": 14
     }
   ]
 }
