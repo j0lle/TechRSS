@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3409,
-  "filtered_articles": 31,
+  "filtered_articles": 34,
   "articles": [
+    {
+      "title": "Leaked financial docs show OpenAI is losing billions of dollars a year",
+      "title_display": "Leaked financial docs show OpenAI is losing billions of dollars a year",
+      "link": "https://arstechnica.com/ai/2026/06/leaked-financial-docs-show-openai-is-losing-billions-of-dollars-a-year/",
+      "pub_date": "2026-06-17T22:01:01.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 207,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "OpenAI",
+        "leaked-financial-docs",
+        "financial-losses",
+        "marketing"
+      ],
+      "rank": 1
+    },
     {
       "title": "US holds off blacklisting DeepSeek, more than 100 firms deemed security risks",
       "title_display": "US holds off blacklisting DeepSeek, more than 100 firms deemed security risks",
@@ -22,7 +41,7 @@
         "Anthropic",
         "OpenAI"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Launch HN: Adam (YC W25) – Open-Source AI CAD",
@@ -41,7 +60,26 @@
         "AI CAD",
         "Open-source"
       ],
-      "rank": 2
+      "rank": 3
+    },
+    {
+      "title": "Show HN: Inkwash, a watercolor sketching app and explanation",
+      "title_display": "Show HN: Inkwash, a watercolor sketching app and explanation",
+      "link": "https://johnowhitaker.github.io/inkwash/about",
+      "pub_date": "2026-06-17T16:11:04.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 161,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Inkwash",
+        "watercolor",
+        "sketching-app",
+        "fluid-simulation"
+      ],
+      "rank": 4
     },
     {
       "title": "Volkswagen started blocking GrapheneOS users",
@@ -60,7 +98,7 @@
         "Play Integrity",
         "Google Play Services"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "AI demands more engineering discipline. Not less",
@@ -79,7 +117,7 @@
         "LLMs",
         "agents"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "Epic Games announces Lore version control system",
@@ -98,7 +136,7 @@
         "version control",
         "Git"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "Want your images back? Sure... That'll be $5!",
@@ -117,7 +155,7 @@
         "chargeback",
         "cloud storage"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "MicroUI – A tiny, portable, immediate-mode UI library written in ANSI C",
@@ -136,7 +174,7 @@
         "ANSI C",
         "Dear ImGui"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "Show HN: Capacitor Alarm Clock",
@@ -155,7 +193,7 @@
         "ArcaEge",
         "GitHub"
       ],
-      "rank": 8
+      "rank": 10
     }
   ]
 }
