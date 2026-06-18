@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3338,
-  "filtered_articles": 36,
+  "filtered_articles": 33,
   "articles": [
     {
       "title": "AMD silently removes memory encryption from consumer Ryzen CPUs",
@@ -32,8 +32,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 133,
-      "score": 26,
+      "hn_points": 242,
+      "score": 29,
       "category": "other",
       "keywords": [
         "DeepSeek",
@@ -203,7 +203,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 863,
+      "hn_points": 1165,
       "score": 30,
       "category": "other",
       "keywords": [
