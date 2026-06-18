@@ -1,0 +1,47 @@
+{
+  "date": "2026-06-19",
+  "total_feeds": 95,
+  "success_feeds": 89,
+  "total_articles": 3340,
+  "filtered_articles": 29,
+  "articles": [
+    {
+      "title": "Hospitals and universities repurposing drugs at 90% lower cost",
+      "title_display": "Hospitals and universities repurposing drugs at 90% lower cost",
+      "link": "https://www.kcl.ac.uk/news/hospitals-and-universities-repurposing-drugs-at-90-lower-cost",
+      "pub_date": "2026-06-18T10:51:04.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 141,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "drug repurposing",
+        "King's College London",
+        "hospitals",
+        "universities"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "I Hate Compilers",
+      "title_display": "I Hate Compilers",
+      "link": "https://xeiaso.net/notes/2026/anubis-wasm-vendor-binary/",
+      "pub_date": "2026-06-18T05:31:02.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 131,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "compilers",
+        "WebAssembly",
+        "Anubis",
+        "deterministic builds"
+      ],
+      "rank": 2
+    }
+  ]
+}
