@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3342,
-  "filtered_articles": 18,
+  "filtered_articles": 17,
   "articles": [
     {
       "title": "DuckDB Internals: Why Is DuckDB Fast? (Part 1)",
@@ -108,8 +108,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 275,
-      "score": 29,
+      "hn_points": 380,
+      "score": 30,
       "category": "other",
       "keywords": [
         "compilers",
