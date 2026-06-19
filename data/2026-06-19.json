@@ -2,9 +2,28 @@
   "date": "2026-06-19",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3343,
-  "filtered_articles": 16,
+  "total_articles": 3344,
+  "filtered_articles": 15,
   "articles": [
+    {
+      "title": "Ten years of ClickHouse in open source",
+      "title_display": "Ten years of ClickHouse in open source",
+      "link": "https://clickhouse.com/blog/open-source-10",
+      "pub_date": "2026-06-19T09:31:03.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 131,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "ClickHouse",
+        "open source",
+        "analytics",
+        "observability"
+      ],
+      "rank": 1
+    },
     {
       "title": "DuckDB Internals: Why Is DuckDB Fast? (Part 1)",
       "title_display": "DuckDB Internals: Why Is DuckDB Fast? (Part 1)",
@@ -22,7 +41,7 @@
         "S3",
         "SQL"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Ice Water Drowning Survival After 147-Minute Submersion and Hypothermic Arrest",
@@ -41,7 +60,7 @@
         "147-minute submersion",
         "Cold-water immersion"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Show HN: Are You in the Weights?",
@@ -60,7 +79,7 @@
         "hallucination",
         "LLMs"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Modos Color Monitor Pushes E-Paper Displays Further",
@@ -79,7 +98,7 @@
         "e-paper",
         "color e-paper"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "I found 10k GitHub repositories distributing Trojan malware",
@@ -98,7 +117,7 @@
         "Trojan",
         "open-source"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Advanced Compilers: The Self-Guided Online Course",
@@ -117,7 +136,7 @@
         "Cornell",
         "trace compilation"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Has W Social switched to closed source?",
@@ -136,7 +155,7 @@
         "European digital sovereignty",
         "Eurosky"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Hospitals and universities repurposing drugs at 90% lower cost",
@@ -155,7 +174,7 @@
         "hospitals",
         "universities"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "I Hate Compilers",
@@ -174,7 +193,7 @@
         "Anubis",
         "deterministic builds"
       ],
-      "rank": 9
+      "rank": 10
     }
   ]
 }
