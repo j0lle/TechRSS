@@ -1,10 +1,29 @@
 {
   "date": "2026-06-19",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3341,
-  "filtered_articles": 24,
+  "success_feeds": 88,
+  "total_articles": 3331,
+  "filtered_articles": 25,
   "articles": [
+    {
+      "title": "Show HN: Are You in the Weights?",
+      "title_display": "Show HN: Are You in the Weights?",
+      "link": "https://www.intheweights.com/",
+      "pub_date": "2026-06-18T21:31:01.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 141,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "intheweights",
+        "model weights",
+        "hallucination",
+        "LLMs"
+      ],
+      "rank": 1
+    },
     {
       "title": "Modos Color Monitor Pushes E-Paper Displays Further",
       "title_display": "Modos Color Monitor Pushes E-Paper Displays Further",
@@ -22,7 +41,7 @@
         "e-paper",
         "color e-paper"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "I found 10k GitHub repositories distributing Trojan malware",
@@ -41,7 +60,7 @@
         "Trojan",
         "open-source"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Advanced Compilers: The Self-Guided Online Course",
@@ -60,7 +79,7 @@
         "Cornell",
         "trace compilation"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Has W Social switched to closed source?",
@@ -79,7 +98,7 @@
         "European digital sovereignty",
         "Eurosky"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Hospitals and universities repurposing drugs at 90% lower cost",
@@ -98,7 +117,7 @@
         "hospitals",
         "universities"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "I Hate Compilers",
@@ -117,7 +136,7 @@
         "Anubis",
         "deterministic builds"
       ],
-      "rank": 6
+      "rank": 7
     }
   ]
 }
