@@ -2,8 +2,8 @@
   "date": "2026-06-19",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3342,
-  "filtered_articles": 17,
+  "total_articles": 3343,
+  "filtered_articles": 16,
   "articles": [
     {
       "title": "DuckDB Internals: Why Is DuckDB Fast? (Part 1)",
@@ -13,8 +13,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 133,
-      "score": 26,
+      "hn_points": 235,
+      "score": 29,
       "category": "other",
       "keywords": [
         "DuckDB",
