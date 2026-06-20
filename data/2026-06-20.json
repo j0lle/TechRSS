@@ -1,9 +1,9 @@
 {
   "date": "2026-06-20",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3341,
-  "filtered_articles": 12,
+  "success_feeds": 87,
+  "total_articles": 3311,
+  "filtered_articles": 11,
   "articles": [
     {
       "title": "I Stored a Website in a Favicon",
