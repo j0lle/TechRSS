@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3341,
-  "filtered_articles": 12,
+  "filtered_articles": 13,
   "articles": [
     {
       "title": "I Stored a Website in a Favicon",
@@ -23,6 +23,25 @@
         "favicon cache"
       ],
       "rank": 1
+    },
+    {
+      "title": "Surprising Economics of Load-Balanced Systems",
+      "title_display": "Surprising Economics of Load-Balanced Systems",
+      "link": "https://brooker.co.za/blog/2020/08/06/erlang.html",
+      "pub_date": "2026-06-19T22:31:02.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 124,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "load balancing",
+        "queuing theory",
+        "economics",
+        "Erlang"
+      ],
+      "rank": 2
     }
   ]
 }
