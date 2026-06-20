@@ -1,10 +1,67 @@
 {
   "date": "2026-06-21",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3321,
-  "filtered_articles": 11,
+  "success_feeds": 87,
+  "total_articles": 3305,
+  "filtered_articles": 14,
   "articles": [
+    {
+      "title": "Agency stole bestselling author's book, used AI to relaunch as their own",
+      "title_display": "Agency stole bestselling author's book, used AI to relaunch as their own",
+      "link": "https://waxy.org/2026/06/the-wholesale-plagiarism-of-obscure-sorrows/",
+      "pub_date": "2026-06-20T18:21:02.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 261,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "Qontour",
+        "Obscure Sorrows",
+        "Koenig",
+        "AI"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "SMPTE Makes Its Standards Freely Accessible",
+      "title_display": "SMPTE Makes Its Standards Freely Accessible",
+      "link": "https://www.smpte.org/blog/smpte-makes-its-standards-freely-accessible-openingstandards-library-to-the-global-media-technology-community",
+      "pub_date": "2026-06-20T17:21:01.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 133,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "SMPTE",
+        "standards",
+        "freely accessible",
+        "standards library"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "DOS Game \"F-15 Strike Eagle II\" reversing project needs DOS test pilots",
+      "title_display": "DOS Game \"F-15 Strike Eagle II\" reversing project needs DOS test pilots",
+      "link": "https://neuviemeporte.github.io/f15-se2/2026/06/20/needyou.html",
+      "pub_date": "2026-06-20T16:01:02.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 120,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "F-15 Strike Eagle II",
+        "DOS",
+        "reverse engineering",
+        "neuviemeporte"
+      ],
+      "rank": 3
+    },
     {
       "title": "CSSQuake",
       "title_display": "CSSQuake",
@@ -22,7 +79,7 @@
         "Quake",
         "cssDOOM"
       ],
-      "rank": 1
+      "rank": 4
     }
   ]
 }
