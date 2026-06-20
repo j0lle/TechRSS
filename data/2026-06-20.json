@@ -1,8 +1,28 @@
 {
   "date": "2026-06-20",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3321,
-  "filtered_articles": 11,
-  "articles": []
+  "success_feeds": 89,
+  "total_articles": 3341,
+  "filtered_articles": 12,
+  "articles": [
+    {
+      "title": "I Stored a Website in a Favicon",
+      "title_display": "I Stored a Website in a Favicon",
+      "link": "https://www.timwehrle.de/blog/i-stored-a-website-in-a-favicon/",
+      "pub_date": "2026-06-20T06:01:03.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 143,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "favicon",
+        "pixel data",
+        "SVG",
+        "favicon cache"
+      ],
+      "rank": 1
+    }
+  ]
 }
