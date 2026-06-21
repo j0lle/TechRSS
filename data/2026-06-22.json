@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3345,
-  "filtered_articles": 21,
+  "filtered_articles": 22,
   "articles": [
     {
       "title": "Code duplication is far cheaper than the wrong abstraction",
@@ -118,6 +118,25 @@
         "instruction tuning"
       ],
       "rank": 6
+    },
+    {
+      "title": "Zigzag Decoding with AVX-512",
+      "title_display": "Zigzag Decoding with AVX-512",
+      "link": "https://zeux.io/2026/06/17/zigzag-decoding-avx512/",
+      "pub_date": "2026-06-21T05:31:03.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 121,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "AVX-512",
+        "zigzag decoding",
+        "compilers",
+        "zeux"
+      ],
+      "rank": 7
     }
   ]
 }
