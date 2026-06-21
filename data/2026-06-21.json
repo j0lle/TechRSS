@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 88,
   "total_articles": 3325,
-  "filtered_articles": 16,
+  "filtered_articles": 17,
   "articles": [
     {
       "title": "Developers don't understand CORS (2019)",
@@ -13,8 +13,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 143,
-      "score": 26,
+      "hn_points": 244,
+      "score": 29,
       "category": "other",
       "keywords": [
         "CORS",
