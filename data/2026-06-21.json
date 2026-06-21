@@ -1,10 +1,48 @@
 {
   "date": "2026-06-21",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3345,
-  "filtered_articles": 10,
+  "success_feeds": 87,
+  "total_articles": 3310,
+  "filtered_articles": 12,
   "articles": [
+    {
+      "title": "Loupe – A iOS app that raises awareness about what native apps can see",
+      "title_display": "Loupe – A iOS app that raises awareness about what native apps can see",
+      "link": "https://github.com/mysk-research/loupe",
+      "pub_date": "2026-06-21T00:51:02.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 134,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Loupe",
+        "iOS",
+        "native apps",
+        "macOS"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Not just books: renting a sewing machine from the library can improve democracy",
+      "title_display": "Not just books: renting a sewing machine from the library can improve democracy",
+      "link": "https://www.bbc.com/future/article/20260618-the-weird-and-wonderful-libraries-of-finland",
+      "pub_date": "2026-06-20T23:21:02.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 143,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "libraries",
+        "democracy",
+        "sewing machine",
+        "Finland"
+      ],
+      "rank": 2
+    },
     {
       "title": "Agency stole bestselling author's book, used AI to relaunch as their own",
       "title_display": "Agency stole bestselling author's book, used AI to relaunch as their own",
@@ -22,7 +60,7 @@
         "Koenig",
         "AI"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "SMPTE Makes Its Standards Freely Accessible",
@@ -41,7 +79,7 @@
         "freely accessible",
         "standards library"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "DOS Game \"F-15 Strike Eagle II\" reversing project needs DOS test pilots",
@@ -51,8 +89,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 120,
-      "score": 25,
+      "hn_points": 221,
+      "score": 28,
       "category": "other",
       "keywords": [
         "F-15 Strike Eagle II",
@@ -60,7 +98,7 @@
         "reverse engineering",
         "neuviemeporte"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "CSSQuake",
@@ -79,7 +117,7 @@
         "Quake",
         "cssDOOM"
       ],
-      "rank": 4
+      "rank": 6
     }
   ]
 }
