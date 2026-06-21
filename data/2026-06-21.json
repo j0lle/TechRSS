@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 88,
   "total_articles": 3325,
-  "filtered_articles": 17,
+  "filtered_articles": 18,
   "articles": [
     {
       "title": "Developers don't understand CORS (2019)",
@@ -120,6 +120,25 @@
       "rank": 6
     },
     {
+      "title": "Alice. Alice Is Impatient",
+      "title_display": "Alice. Alice Is Impatient",
+      "link": "https://brooker.co.za/blog/2026/06/19/waiting.html",
+      "pub_date": "2026-06-20T22:11:02.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 123,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "p99",
+        "latency",
+        "experienced latency",
+        "expected value"
+      ],
+      "rank": 7
+    },
+    {
       "title": "Unauthorized alert sent to cell phones across Brazil",
       "title_display": "Unauthorized alert sent to cell phones across Brazil",
       "link": "https://www.cnn.com/2026/06/20/americas/brazil-hackers-unauthorized-alert-latam",
@@ -136,7 +155,7 @@
         "cell phones",
         "cellular alert"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Show HN: Make PDFs look scanned (CLI or in the browser via WASM)",
@@ -155,7 +174,7 @@
         "WASM",
         "CLI"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Agency stole bestselling author's book, used AI to relaunch as their own",
@@ -174,7 +193,7 @@
         "Koenig",
         "AI"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "SMPTE Makes Its Standards Freely Accessible",
@@ -193,7 +212,7 @@
         "freely accessible",
         "standards library"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "DOS Game \"F-15 Strike Eagle II\" reversing project needs DOS test pilots",
@@ -212,7 +231,7 @@
         "reverse engineering",
         "neuviemeporte"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "CSSQuake",
@@ -231,7 +250,7 @@
         "Quake",
         "cssDOOM"
       ],
-      "rank": 12
+      "rank": 13
     }
   ]
 }
