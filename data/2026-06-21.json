@@ -1,10 +1,29 @@
 {
   "date": "2026-06-21",
   "total_feeds": 95,
-  "success_feeds": 87,
-  "total_articles": 3310,
-  "filtered_articles": 12,
+  "success_feeds": 89,
+  "total_articles": 3345,
+  "filtered_articles": 15,
   "articles": [
+    {
+      "title": "When I reject AI code even if it works",
+      "title_display": "When I reject AI code even if it works",
+      "link": "https://vinibrasil.com/when-i-reject-ai-code-even-if-it-works/",
+      "pub_date": "2026-06-21T02:01:03.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 126,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "AI",
+        "LLM",
+        "code review",
+        "tech debt"
+      ],
+      "rank": 1
+    },
     {
       "title": "Loupe – A iOS app that raises awareness about what native apps can see",
       "title_display": "Loupe – A iOS app that raises awareness about what native apps can see",
@@ -22,7 +41,45 @@
         "native apps",
         "macOS"
       ],
-      "rank": 1
+      "rank": 2
+    },
+    {
+      "title": "Show HN: TownSquare, a tiny presence layer for websites",
+      "title_display": "Show HN: TownSquare, a tiny presence layer for websites",
+      "link": "https://townsquare.cauenapier.com/",
+      "pub_date": "2026-06-20T23:51:03.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 127,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "TownSquare",
+        "presence",
+        "cauenapier",
+        "GitHub"
+      ],
+      "rank": 3
+    },
+    {
+      "title": "Epoll vs. Io_uring in Linux",
+      "title_display": "Epoll vs. Io_uring in Linux",
+      "link": "https://sibexi.co/posts/epoll-vs-io_uring/",
+      "pub_date": "2026-06-20T23:31:01.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 126,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "io_uring",
+        "epoll",
+        "Linux",
+        "Go"
+      ],
+      "rank": 4
     },
     {
       "title": "Not just books: renting a sewing machine from the library can improve democracy",
@@ -41,7 +98,7 @@
         "sewing machine",
         "Finland"
       ],
-      "rank": 2
+      "rank": 5
     },
     {
       "title": "Agency stole bestselling author's book, used AI to relaunch as their own",
@@ -60,7 +117,7 @@
         "Koenig",
         "AI"
       ],
-      "rank": 3
+      "rank": 6
     },
     {
       "title": "SMPTE Makes Its Standards Freely Accessible",
@@ -79,7 +136,7 @@
         "freely accessible",
         "standards library"
       ],
-      "rank": 4
+      "rank": 7
     },
     {
       "title": "DOS Game \"F-15 Strike Eagle II\" reversing project needs DOS test pilots",
@@ -98,7 +155,7 @@
         "reverse engineering",
         "neuviemeporte"
       ],
-      "rank": 5
+      "rank": 8
     },
     {
       "title": "CSSQuake",
@@ -117,7 +174,7 @@
         "Quake",
         "cssDOOM"
       ],
-      "rank": 6
+      "rank": 9
     }
   ]
 }
