@@ -120,6 +120,25 @@
       "rank": 6
     },
     {
+      "title": "Unauthorized alert sent to cell phones across Brazil",
+      "title_display": "Unauthorized alert sent to cell phones across Brazil",
+      "link": "https://www.cnn.com/2026/06/20/americas/brazil-hackers-unauthorized-alert-latam",
+      "pub_date": "2026-06-20T22:01:01.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 129,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Brazil",
+        "unauthorized alert",
+        "cell phones",
+        "cellular alert"
+      ],
+      "rank": 7
+    },
+    {
       "title": "Agency stole bestselling author's book, used AI to relaunch as their own",
       "title_display": "Agency stole bestselling author's book, used AI to relaunch as their own",
       "link": "https://waxy.org/2026/06/the-wholesale-plagiarism-of-obscure-sorrows/",
@@ -136,7 +155,7 @@
         "Koenig",
         "AI"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "SMPTE Makes Its Standards Freely Accessible",
@@ -155,7 +174,7 @@
         "freely accessible",
         "standards library"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "DOS Game \"F-15 Strike Eagle II\" reversing project needs DOS test pilots",
@@ -174,7 +193,7 @@
         "reverse engineering",
         "neuviemeporte"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "CSSQuake",
@@ -193,7 +212,7 @@
         "Quake",
         "cssDOOM"
       ],
-      "rank": 10
+      "rank": 11
     }
   ]
 }
