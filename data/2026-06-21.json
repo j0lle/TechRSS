@@ -1,9 +1,9 @@
 {
   "date": "2026-06-21",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3335,
-  "filtered_articles": 15,
+  "success_feeds": 89,
+  "total_articles": 3345,
+  "filtered_articles": 16,
   "articles": [
     {
       "title": "Developers don't understand CORS (2019)",
@@ -139,6 +139,25 @@
       "rank": 7
     },
     {
+      "title": "Show HN: Make PDFs look scanned (CLI or in the browser via WASM)",
+      "title_display": "Show HN: Make PDFs look scanned (CLI or in the browser via WASM)",
+      "link": "https://github.com/overflowy/make-look-scanned",
+      "pub_date": "2026-06-20T19:51:01.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 127,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "make-look-scanned",
+        "PDF",
+        "WASM",
+        "CLI"
+      ],
+      "rank": 8
+    },
+    {
       "title": "Agency stole bestselling author's book, used AI to relaunch as their own",
       "title_display": "Agency stole bestselling author's book, used AI to relaunch as their own",
       "link": "https://waxy.org/2026/06/the-wholesale-plagiarism-of-obscure-sorrows/",
@@ -155,7 +174,7 @@
         "Koenig",
         "AI"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "SMPTE Makes Its Standards Freely Accessible",
@@ -174,7 +193,7 @@
         "freely accessible",
         "standards library"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "DOS Game \"F-15 Strike Eagle II\" reversing project needs DOS test pilots",
@@ -193,7 +212,7 @@
         "reverse engineering",
         "neuviemeporte"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "CSSQuake",
@@ -212,7 +231,7 @@
         "Quake",
         "cssDOOM"
       ],
-      "rank": 11
+      "rank": 12
     }
   ]
 }
