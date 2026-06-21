@@ -1,10 +1,48 @@
 {
   "date": "2026-06-22",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3325,
-  "filtered_articles": 17,
+  "success_feeds": 89,
+  "total_articles": 3345,
+  "filtered_articles": 21,
   "articles": [
+    {
+      "title": "Code duplication is far cheaper than the wrong abstraction",
+      "title_display": "Code duplication is far cheaper than the wrong abstraction",
+      "link": "https://sandimetz.com/blog/2016/1/20/the-wrong-abstraction",
+      "pub_date": "2026-06-21T16:40:17.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 288,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "code duplication",
+        "abstraction",
+        "Sandi Metz",
+        "DRY"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "(How to Write a (Lisp) Interpreter (In Python))",
+      "title_display": "(How to Write a (Lisp) Interpreter (In Python))",
+      "link": "https://norvig.com/lispy.html",
+      "pub_date": "2026-06-21T15:50:17.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 121,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "Lisp",
+        "Python",
+        "interpreter",
+        "lispy"
+      ],
+      "rank": 2
+    },
     {
       "title": "Beyond All Reason (Free Total Annihilation Inspired RTS)",
       "title_display": "Beyond All Reason (Free Total Annihilation Inspired RTS)",
@@ -22,7 +60,45 @@
         "RTS",
         "Open-source"
       ],
-      "rank": 1
+      "rank": 3
+    },
+    {
+      "title": "Windows UI evolution: Clicking an unassociated file",
+      "title_display": "Windows UI evolution: Clicking an unassociated file",
+      "link": "https://movq.de/blog/postings/2026-06-20/0/POSTING-en.html",
+      "pub_date": "2026-06-21T10:11:04.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 123,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "Windows",
+        "UI",
+        "file association",
+        "file dialog"
+      ],
+      "rank": 4
+    },
+    {
+      "title": "A 3D voxel game engine written in APL",
+      "title_display": "A 3D voxel game engine written in APL",
+      "link": "https://github.com/namgyaaal/avoxelgame",
+      "pub_date": "2026-06-21T08:21:01.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 127,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "APL",
+        "voxel",
+        "game engine",
+        "3D"
+      ],
+      "rank": 5
     },
     {
       "title": "The 100k Whys of AI",
@@ -41,7 +117,7 @@
         "mode collapse",
         "instruction tuning"
       ],
-      "rank": 2
+      "rank": 6
     }
   ]
 }
