@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3345,
-  "filtered_articles": 31,
+  "filtered_articles": 28,
   "articles": [
+    {
+      "title": "Flock-Powered Police Chiefs Stalking Women Shows Why Warrants Are Needed",
+      "title_display": "Flock-Powered Police Chiefs Stalking Women Shows Why Warrants Are Needed",
+      "link": "https://ipvm.com/reports/police-chiefs-track",
+      "pub_date": "2026-06-22T21:20:16.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 111,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "Flock Safety",
+        "License plate reader (LPR)",
+        "Warrants",
+        "Fourth Amendment"
+      ],
+      "rank": 1
+    },
     {
       "title": "Moebius: 0.2B image inpainting model with 10B-level performance",
       "title_display": "Moebius: 0.2B image inpainting model with 10B-level performance",
@@ -22,7 +41,7 @@
         "0.2B",
         "10B-level"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Claude Code's \"extended thinking\" is a summary- not authentic thinking",
@@ -41,7 +60,7 @@
         "extended thinking",
         "reasoning"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Pledging Another $400k to the Zig Software Foundation",
@@ -60,7 +79,7 @@
         "Mitchell Hashimoto",
         "donation"
       ],
-      "rank": 3
+      "rank": 4
     }
   ]
 }
