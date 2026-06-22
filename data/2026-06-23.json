@@ -1,9 +1,9 @@
 {
   "date": "2026-06-23",
   "total_feeds": 95,
-  "success_feeds": 86,
-  "total_articles": 3174,
-  "filtered_articles": 26,
+  "success_feeds": 89,
+  "total_articles": 3345,
+  "filtered_articles": 31,
   "articles": [
     {
       "title": "Moebius: 0.2B image inpainting model with 10B-level performance",
