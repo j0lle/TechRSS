@@ -1,10 +1,48 @@
 {
   "date": "2026-06-22",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3345,
-  "filtered_articles": 17,
+  "success_feeds": 88,
+  "total_articles": 3321,
+  "filtered_articles": 19,
   "articles": [
+    {
+      "title": "Apertus – Open Foundation Model for Sovereign AI",
+      "title_display": "Apertus – Open Foundation Model for Sovereign AI",
+      "link": "https://apertvs.ai/",
+      "pub_date": "2026-06-21T21:40:17.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 172,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Apertus",
+        "Open Foundation Model",
+        "Sovereign AI",
+        "open weights"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "The Minimum Viable Unit of Saleable Software",
+      "title_display": "The Minimum Viable Unit of Saleable Software",
+      "link": "https://brandur.org/minimum-viable-unit",
+      "pub_date": "2026-06-21T17:20:18.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 132,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Minimum Viable Unit",
+        "saleable software",
+        "buy vs build",
+        "LLM"
+      ],
+      "rank": 2
+    },
     {
       "title": "Code duplication is far cheaper than the wrong abstraction",
       "title_display": "Code duplication is far cheaper than the wrong abstraction",
@@ -22,7 +60,7 @@
         "Sandi Metz",
         "DRY"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "Fossil Fuels Are 40% of Freight Shipping Tonnage, but Half Its Fuel Use",
@@ -41,7 +79,7 @@
         "ton-kilometres",
         "tonnage"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "(How to Write a (Lisp) Interpreter (In Python))",
@@ -60,7 +98,7 @@
         "interpreter",
         "lispy"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "Beyond All Reason (Free Total Annihilation Inspired RTS)",
@@ -79,7 +117,7 @@
         "RTS",
         "Open-source"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "Windows UI evolution: Clicking an unassociated file",
@@ -98,7 +136,7 @@
         "file association",
         "file dialog"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "A 3D voxel game engine written in APL",
@@ -117,7 +155,7 @@
         "game engine",
         "3D"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "The 100k Whys of AI",
@@ -136,7 +174,7 @@
         "mode collapse",
         "instruction tuning"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "Zigzag Decoding with AVX-512",
@@ -155,7 +193,7 @@
         "compilers",
         "zeux"
       ],
-      "rank": 8
+      "rank": 10
     }
   ]
 }
