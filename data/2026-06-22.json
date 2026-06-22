@@ -1,10 +1,85 @@
 {
   "date": "2026-06-22",
   "total_feeds": 95,
-  "success_feeds": 86,
-  "total_articles": 3270,
-  "filtered_articles": 17,
+  "success_feeds": 89,
+  "total_articles": 3341,
+  "filtered_articles": 20,
   "articles": [
+    {
+      "title": "Deno Desktop",
+      "title_display": "Deno Desktop",
+      "link": "https://docs.deno.com/runtime/desktop/",
+      "pub_date": "2026-06-22T06:20:17.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 315,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Deno Desktop",
+        "Deno",
+        "WebView",
+        "Electron"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Help I Accidentally a Wigglegram",
+      "title_display": "Help I Accidentally a Wigglegram",
+      "link": "https://lmao.center/blog/wiggle-accidents/",
+      "pub_date": "2026-06-22T03:20:18.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 180,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "wigglegram",
+        "GitHub",
+        "lmao.center"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "Good results fine tuning a local LLM like Qwen 3:0.6B to categorize questions",
+      "title_display": "Good results fine tuning a local LLM like Qwen 3:0.6B to categorize questions",
+      "link": "https://www.teachmecoolstuff.com/viewarticle/fine-tuning-a-local-llm-to-categorize-questions",
+      "pub_date": "2026-06-22T01:40:17.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 123,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "Qwen 0.6B",
+        "fine-tuning",
+        "local LLM",
+        "text classification"
+      ],
+      "rank": 3
+    },
+    {
+      "title": "PowerFox Browser",
+      "title_display": "PowerFox Browser",
+      "link": "https://powerfox.jazzzny.me/",
+      "pub_date": "2026-06-21T22:00:17.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 124,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "PowerFox",
+        "Firefox",
+        "TenFourFox",
+        "PowerPC"
+      ],
+      "rank": 4
+    },
     {
       "title": "Apertus – Open Foundation Model for Sovereign AI",
       "title_display": "Apertus – Open Foundation Model for Sovereign AI",
@@ -13,8 +88,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 274,
-      "score": 29,
+      "hn_points": 375,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Apertus",
@@ -22,7 +97,7 @@
         "Sovereign AI",
         "open weights"
       ],
-      "rank": 1
+      "rank": 5
     },
     {
       "title": "The Minimum Viable Unit of Saleable Software",
@@ -41,7 +116,7 @@
         "buy vs build",
         "LLM"
       ],
-      "rank": 2
+      "rank": 6
     },
     {
       "title": "Code duplication is far cheaper than the wrong abstraction",
@@ -60,7 +135,7 @@
         "Sandi Metz",
         "DRY"
       ],
-      "rank": 3
+      "rank": 7
     },
     {
       "title": "Fossil Fuels Are 40% of Freight Shipping Tonnage, but Half Its Fuel Use",
@@ -79,7 +154,7 @@
         "ton-kilometres",
         "tonnage"
       ],
-      "rank": 4
+      "rank": 8
     },
     {
       "title": "(How to Write a (Lisp) Interpreter (In Python))",
@@ -98,7 +173,7 @@
         "interpreter",
         "lispy"
       ],
-      "rank": 5
+      "rank": 9
     },
     {
       "title": "Beyond All Reason (Free Total Annihilation Inspired RTS)",
@@ -117,7 +192,7 @@
         "RTS",
         "Open-source"
       ],
-      "rank": 6
+      "rank": 10
     },
     {
       "title": "The case against geometric algebra",
@@ -136,7 +211,7 @@
         "Exterior algebra",
         "Differential forms"
       ],
-      "rank": 7
+      "rank": 11
     },
     {
       "title": "Windows UI evolution: Clicking an unassociated file",
@@ -155,7 +230,7 @@
         "file association",
         "file dialog"
       ],
-      "rank": 8
+      "rank": 12
     },
     {
       "title": "A 3D voxel game engine written in APL",
@@ -174,7 +249,7 @@
         "game engine",
         "3D"
       ],
-      "rank": 9
+      "rank": 13
     },
     {
       "title": "The 100k Whys of AI",
@@ -193,7 +268,7 @@
         "mode collapse",
         "instruction tuning"
       ],
-      "rank": 10
+      "rank": 14
     },
     {
       "title": "Zigzag Decoding with AVX-512",
@@ -212,7 +287,7 @@
         "compilers",
         "zeux"
       ],
-      "rank": 11
+      "rank": 15
     }
   ]
 }
