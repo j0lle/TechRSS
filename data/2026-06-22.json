@@ -1,10 +1,48 @@
 {
   "date": "2026-06-22",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3341,
-  "filtered_articles": 20,
+  "success_feeds": 88,
+  "total_articles": 3323,
+  "filtered_articles": 23,
   "articles": [
+    {
+      "title": "Codex logging bug may write TBs to local SSDs",
+      "title_display": "Codex logging bug may write TBs to local SSDs",
+      "link": "https://github.com/openai/codex/issues/28224",
+      "pub_date": "2026-06-22T07:40:19.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 155,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Codex",
+        "OpenAI",
+        "Logging",
+        "SSD"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "GLM 5.2 vs. Opus",
+      "title_display": "GLM 5.2 vs. Opus",
+      "link": "https://techstackups.com/comparisons/glm-5.2-vs-opus/",
+      "pub_date": "2026-06-22T07:40:18.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 160,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "GLM-5.2",
+        "Opus",
+        "Claude",
+        "GPT-5.5"
+      ],
+      "rank": 2
+    },
     {
       "title": "Deno Desktop",
       "title_display": "Deno Desktop",
@@ -22,7 +60,7 @@
         "WebView",
         "Electron"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "Help I Accidentally a Wigglegram",
@@ -32,15 +70,15 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 180,
-      "score": 27,
+      "hn_points": 295,
+      "score": 30,
       "category": "other",
       "keywords": [
         "wigglegram",
         "GitHub",
         "lmao.center"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "Good results fine tuning a local LLM like Qwen 3:0.6B to categorize questions",
@@ -59,7 +97,7 @@
         "local LLM",
         "text classification"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "PowerFox Browser",
@@ -78,7 +116,7 @@
         "TenFourFox",
         "PowerPC"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "Apertus – Open Foundation Model for Sovereign AI",
@@ -97,7 +135,7 @@
         "Sovereign AI",
         "open weights"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "The Minimum Viable Unit of Saleable Software",
@@ -116,7 +154,7 @@
         "buy vs build",
         "LLM"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "Code duplication is far cheaper than the wrong abstraction",
@@ -135,7 +173,7 @@
         "Sandi Metz",
         "DRY"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "Fossil Fuels Are 40% of Freight Shipping Tonnage, but Half Its Fuel Use",
@@ -154,7 +192,7 @@
         "ton-kilometres",
         "tonnage"
       ],
-      "rank": 8
+      "rank": 10
     },
     {
       "title": "(How to Write a (Lisp) Interpreter (In Python))",
@@ -173,7 +211,7 @@
         "interpreter",
         "lispy"
       ],
-      "rank": 9
+      "rank": 11
     },
     {
       "title": "Beyond All Reason (Free Total Annihilation Inspired RTS)",
@@ -192,7 +230,7 @@
         "RTS",
         "Open-source"
       ],
-      "rank": 10
+      "rank": 12
     },
     {
       "title": "The case against geometric algebra",
@@ -211,7 +249,7 @@
         "Exterior algebra",
         "Differential forms"
       ],
-      "rank": 11
+      "rank": 13
     },
     {
       "title": "Windows UI evolution: Clicking an unassociated file",
@@ -230,7 +268,7 @@
         "file association",
         "file dialog"
       ],
-      "rank": 12
+      "rank": 14
     },
     {
       "title": "A 3D voxel game engine written in APL",
@@ -249,7 +287,7 @@
         "game engine",
         "3D"
       ],
-      "rank": 13
+      "rank": 15
     },
     {
       "title": "The 100k Whys of AI",
@@ -268,7 +306,7 @@
         "mode collapse",
         "instruction tuning"
       ],
-      "rank": 14
+      "rank": 16
     },
     {
       "title": "Zigzag Decoding with AVX-512",
@@ -287,7 +325,7 @@
         "compilers",
         "zeux"
       ],
-      "rank": 15
+      "rank": 17
     }
   ]
 }
