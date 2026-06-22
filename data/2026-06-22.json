@@ -1,9 +1,9 @@
 {
   "date": "2026-06-22",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3321,
-  "filtered_articles": 18,
+  "success_feeds": 86,
+  "total_articles": 3270,
+  "filtered_articles": 17,
   "articles": [
     {
       "title": "Apertus – Open Foundation Model for Sovereign AI",
@@ -120,6 +120,25 @@
       "rank": 6
     },
     {
+      "title": "The case against geometric algebra",
+      "title_display": "The case against geometric algebra",
+      "link": "https://alexkritchevsky.com/2024/02/28/geometric-algebra.html",
+      "pub_date": "2026-06-21T12:10:18.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 125,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Geometric algebra",
+        "Clifford algebra",
+        "Exterior algebra",
+        "Differential forms"
+      ],
+      "rank": 7
+    },
+    {
       "title": "Windows UI evolution: Clicking an unassociated file",
       "title_display": "Windows UI evolution: Clicking an unassociated file",
       "link": "https://movq.de/blog/postings/2026-06-20/0/POSTING-en.html",
@@ -136,7 +155,7 @@
         "file association",
         "file dialog"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "A 3D voxel game engine written in APL",
@@ -155,7 +174,7 @@
         "game engine",
         "3D"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "The 100k Whys of AI",
@@ -174,7 +193,7 @@
         "mode collapse",
         "instruction tuning"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Zigzag Decoding with AVX-512",
@@ -193,7 +212,7 @@
         "compilers",
         "zeux"
       ],
-      "rank": 10
+      "rank": 11
     }
   ]
 }
