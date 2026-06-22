@@ -1,10 +1,29 @@
 {
   "date": "2026-06-23",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3345,
-  "filtered_articles": 28,
+  "success_feeds": 86,
+  "total_articles": 3174,
+  "filtered_articles": 26,
   "articles": [
+    {
+      "title": "Moebius: 0.2B image inpainting model with 10B-level performance",
+      "title_display": "Moebius: 0.2B image inpainting model with 10B-level performance",
+      "link": "https://hustvl.github.io/Moebius/",
+      "pub_date": "2026-06-22T15:10:17.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 146,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Moebius",
+        "image inpainting",
+        "0.2B",
+        "10B-level"
+      ],
+      "rank": 1
+    },
     {
       "title": "Claude Code's \"extended thinking\" is a summary- not authentic thinking",
       "title_display": "Claude Code's \"extended thinking\" is a summary- not authentic thinking",
@@ -22,7 +41,7 @@
         "extended thinking",
         "reasoning"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Pledging Another $400k to the Zig Software Foundation",
@@ -41,7 +60,7 @@
         "Mitchell Hashimoto",
         "donation"
       ],
-      "rank": 2
+      "rank": 3
     }
   ]
 }
