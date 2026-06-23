@@ -1,0 +1,28 @@
+{
+  "date": "2026-06-24",
+  "total_feeds": 95,
+  "success_feeds": 88,
+  "total_articles": 3330,
+  "filtered_articles": 39,
+  "articles": [
+    {
+      "title": "The Coming Loop",
+      "title_display": "The Coming Loop",
+      "link": "https://lucumr.pocoo.org/2026/6/23/the-coming-loop/",
+      "pub_date": "2026-06-23T12:20:19.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 148,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "LLMs",
+        "agents",
+        "loops",
+        "Claude"
+      ],
+      "rank": 1
+    }
+  ]
+}
