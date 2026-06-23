@@ -1,10 +1,48 @@
 {
   "date": "2026-06-24",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3330,
-  "filtered_articles": 39,
+  "success_feeds": 89,
+  "total_articles": 3350,
+  "filtered_articles": 40,
   "articles": [
+    {
+      "title": "Spying on kids to save kids from spying is stupid",
+      "title_display": "Spying on kids to save kids from spying is stupid",
+      "link": "https://pluralistic.net/2026/06/23/destroy-the-village/",
+      "pub_date": "2026-06-23T14:30:19.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 360,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "age verification",
+        "spying",
+        "kids",
+        "privacy"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Elevated error rate across multiple models",
+      "title_display": "Elevated error rate across multiple models",
+      "link": "https://status.claude.com/incidents/jbhf20wjmzrf",
+      "pub_date": "2026-06-23T14:30:17.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 165,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Claude",
+        "status.claude.com",
+        "models",
+        "outage"
+      ],
+      "rank": 2
+    },
     {
       "title": "The Coming Loop",
       "title_display": "The Coming Loop",
@@ -22,7 +60,7 @@
         "loops",
         "Claude"
       ],
-      "rank": 1
+      "rank": 3
     }
   ]
 }
