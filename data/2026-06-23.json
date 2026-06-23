@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3347,
-  "filtered_articles": 25,
+  "filtered_articles": 27,
   "articles": [
     {
       "title": "Nearly Half of LG Smart TV Apps Contain Residential Proxy SDKs",
@@ -44,6 +44,25 @@
       "rank": 2
     },
     {
+      "title": "Optocam Zero: a Pi Zero based digital camera made using off the shelf components",
+      "title_display": "Optocam Zero: a Pi Zero based digital camera made using off the shelf components",
+      "link": "https://github.com/dorukkumkumoglu/optocamzero",
+      "pub_date": "2026-06-22T20:40:17.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 135,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Optocam Zero",
+        "Raspberry Pi Zero",
+        "Picam2",
+        "Linux"
+      ],
+      "rank": 3
+    },
+    {
       "title": "Jobs and Software Is Fucked",
       "title_display": "Jobs and Software Is Fucked",
       "link": "https://urflow.bearblog.dev/jobs-and-software-is-fucked/",
@@ -60,7 +79,7 @@
         "Software",
         "Recruiters"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "A Theory of Why Prompt Injection Works",
@@ -79,7 +98,7 @@
         "role confusion",
         "control tokens"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Git is forever. I'm building Oak anyways",
@@ -98,7 +117,7 @@
         "Jujutsu",
         "Git LFS"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Moebius: 0.2B image inpainting model with 10B-level performance",
@@ -108,8 +127,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 146,
-      "score": 26,
+      "hn_points": 248,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Moebius",
@@ -117,7 +136,7 @@
         "0.2B",
         "10B-level"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Claude Code's \"extended thinking\" is a summary- not authentic thinking",
@@ -136,7 +155,7 @@
         "extended thinking",
         "reasoning"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Pledging Another $400k to the Zig Software Foundation",
@@ -146,7 +165,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 453,
+      "hn_points": 753,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -155,7 +174,7 @@
         "Mitchell Hashimoto",
         "donation"
       ],
-      "rank": 8
+      "rank": 9
     }
   ]
 }
