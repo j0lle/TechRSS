@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 88,
   "total_articles": 3330,
-  "filtered_articles": 42,
+  "filtered_articles": 41,
   "articles": [
+    {
+      "title": "F3",
+      "title_display": "F3",
+      "link": "https://github.com/future-file-format/f3",
+      "pub_date": "2026-06-23T17:20:15.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 490,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "F3",
+        "WebAssembly",
+        "Parquet",
+        "columnar data"
+      ],
+      "rank": 1
+    },
     {
       "title": "Spying on kids to save kids from spying is stupid",
       "title_display": "Spying on kids to save kids from spying is stupid",
@@ -22,7 +41,7 @@
         "kids",
         "privacy"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Elevated error rate across multiple models",
@@ -41,7 +60,7 @@
         "models",
         "outage"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "MSG Made Dossier on Activists Who Opposed Facial Recognition",
@@ -60,7 +79,7 @@
         "Activists",
         "Dossier"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "The Coming Loop",
@@ -79,7 +98,7 @@
         "loops",
         "Claude"
       ],
-      "rank": 4
+      "rank": 5
     }
   ]
 }
