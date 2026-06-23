@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3350,
-  "filtered_articles": 40,
+  "filtered_articles": 38,
   "articles": [
+    {
+      "title": "Swift Package Index Joins Apple",
+      "title_display": "Swift Package Index Joins Apple",
+      "link": "https://swiftpackageindex.com/blog/swift-package-index-joins-apple",
+      "pub_date": "2026-06-23T18:30:16.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 138,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Swift Package Index",
+        "Apple",
+        "Swift",
+        "SPI"
+      ],
+      "rank": 1
+    },
     {
       "title": "F3",
       "title_display": "F3",
@@ -22,7 +41,7 @@
         "Parquet",
         "columnar data"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Spying on kids to save kids from spying is stupid",
@@ -41,7 +60,7 @@
         "kids",
         "privacy"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Elevated error rate across multiple models",
@@ -60,7 +79,7 @@
         "models",
         "outage"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "MSG Made Dossier on Activists Who Opposed Facial Recognition",
@@ -79,7 +98,7 @@
         "Activists",
         "Dossier"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "The Coming Loop",
@@ -89,8 +108,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 148,
-      "score": 26,
+      "hn_points": 257,
+      "score": 29,
       "category": "other",
       "keywords": [
         "LLMs",
@@ -98,7 +117,7 @@
         "loops",
         "Claude"
       ],
-      "rank": 5
+      "rank": 6
     }
   ]
 }
