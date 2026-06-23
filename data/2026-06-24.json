@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3350,
-  "filtered_articles": 40,
+  "filtered_articles": 41,
   "articles": [
     {
       "title": "Spying on kids to save kids from spying is stupid",
@@ -44,6 +44,25 @@
       "rank": 2
     },
     {
+      "title": "MSG Made Dossier on Activists Who Opposed Facial Recognition",
+      "title_display": "MSG Made Dossier on Activists Who Opposed Facial Recognition",
+      "link": "https://www.404media.co/madison-square-garden-made-dossier-on-activists-who-opposed-facial-recognition/",
+      "pub_date": "2026-06-23T14:20:18.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 215,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "Madison Square Garden (MSG)",
+        "Facial recognition",
+        "Activists",
+        "Dossier"
+      ],
+      "rank": 3
+    },
+    {
       "title": "The Coming Loop",
       "title_display": "The Coming Loop",
       "link": "https://lucumr.pocoo.org/2026/6/23/the-coming-loop/",
@@ -60,7 +79,7 @@
         "loops",
         "Claude"
       ],
-      "rank": 3
+      "rank": 4
     }
   ]
 }
