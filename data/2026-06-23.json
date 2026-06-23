@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3347,
-  "filtered_articles": 26,
+  "filtered_articles": 24,
   "articles": [
+    {
+      "title": "VibeThinker: 3B param model that beats Opus 4.5 on reasoning with novel SFT+GRPO",
+      "title_display": "VibeThinker: 3B param model that beats Opus 4.5 on reasoning with novel SFT+GRPO",
+      "link": "https://arxiv.org/abs/2606.16140",
+      "pub_date": "2026-06-23T03:10:18.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 132,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "VibeThinker",
+        "SFT+GRPO",
+        "Opus 4.5",
+        "3B parameters"
+      ],
+      "rank": 1
+    },
     {
       "title": "Nearly Half of LG Smart TV Apps Contain Residential Proxy SDKs",
       "title_display": "Nearly Half of LG Smart TV Apps Contain Residential Proxy SDKs",
@@ -22,7 +41,7 @@
         "Residential proxy",
         "SDK"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Flock-Powered Police Chiefs Stalking Women Shows Why Warrants Are Needed",
@@ -41,7 +60,7 @@
         "Warrants",
         "Fourth Amendment"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Optocam Zero: a Pi Zero based digital camera made using off the shelf components",
@@ -60,7 +79,7 @@
         "Picam2",
         "Linux"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Jobs and Software Is Fucked",
@@ -79,7 +98,7 @@
         "Software",
         "Recruiters"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "A Theory of Why Prompt Injection Works",
@@ -98,7 +117,7 @@
         "role confusion",
         "control tokens"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Git is forever. I'm building Oak anyways",
@@ -117,7 +136,7 @@
         "Jujutsu",
         "Git LFS"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Moebius: 0.2B image inpainting model with 10B-level performance",
@@ -136,7 +155,7 @@
         "0.2B",
         "10B-level"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Claude Code's \"extended thinking\" is a summary- not authentic thinking",
@@ -155,7 +174,7 @@
         "extended thinking",
         "reasoning"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Pledging Another $400k to the Zig Software Foundation",
@@ -174,7 +193,7 @@
         "Mitchell Hashimoto",
         "donation"
       ],
-      "rank": 9
+      "rank": 10
     }
   ]
 }
