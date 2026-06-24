@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 88,
   "total_articles": 3328,
-  "filtered_articles": 30,
+  "filtered_articles": 31,
   "articles": [
     {
       "title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
@@ -44,6 +44,25 @@
       "rank": 2
     },
     {
+      "title": "RubyLLM: A single, beautiful Ruby framework for all major AI providers",
+      "title_display": "RubyLLM: A single, beautiful Ruby framework for all major AI providers",
+      "link": "https://rubyllm.com/",
+      "pub_date": "2026-06-24T15:10:36.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 224,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "RubyLLM",
+        "Ruby",
+        "AI",
+        "LLM"
+      ],
+      "rank": 3
+    },
+    {
       "title": "Founding a company in Germany: €9600, 152 days and I still can't send an invoice",
       "title_display": "Founding a company in Germany: €9600, 152 days and I still can't send an invoice",
       "link": "https://paolino.me/founding-a-company-in-germany/",
@@ -60,7 +79,26 @@
         "UG",
         "Stammkapital"
       ],
-      "rank": 3
+      "rank": 4
+    },
+    {
+      "title": "Krea 2 Technical Report",
+      "title_display": "Krea 2 Technical Report",
+      "link": "https://www.krea.ai/blog/krea-2-technical-report",
+      "pub_date": "2026-06-24T12:20:36.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 205,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "Krea 2",
+        "krea.ai",
+        "text-to-image",
+        "weights"
+      ],
+      "rank": 5
     }
   ]
 }
