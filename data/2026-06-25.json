@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 88,
   "total_articles": 3328,
-  "filtered_articles": 29,
+  "filtered_articles": 30,
   "articles": [
+    {
+      "title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
+      "title_display": "OpenAI and Broadcom unveil LLM-optimized inference chip",
+      "link": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip/",
+      "pub_date": "2026-06-24T17:50:36.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 134,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "OpenAI",
+        "Broadcom",
+        "Jalapeno",
+        "LLM"
+      ],
+      "rank": 1
+    },
     {
       "title": "John Carmack on the mistakes around Quake that ruined id software",
       "title_display": "John Carmack on the mistakes around Quake that ruined id software",
@@ -22,7 +41,7 @@
         "Quake",
         "Doom"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Founding a company in Germany: €9600, 152 days and I still can't send an invoice",
@@ -41,7 +60,7 @@
         "UG",
         "Stammkapital"
       ],
-      "rank": 2
+      "rank": 3
     }
   ]
 }
