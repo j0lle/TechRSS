@@ -1,10 +1,29 @@
 {
   "date": "2026-06-24",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3328,
+  "success_feeds": 84,
+  "total_articles": 3237,
   "filtered_articles": 25,
   "articles": [
+    {
+      "title": "Raspberry Pi Pico W as USB Wi-Fi Adapter",
+      "title_display": "Raspberry Pi Pico W as USB Wi-Fi Adapter",
+      "link": "https://gitlab.com/baiyibai/pico-usb-wifi",
+      "pub_date": "2026-06-24T05:20:18.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 132,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Raspberry Pi Pico W",
+        "pico-usb-wifi",
+        "USB",
+        "Wi-Fi"
+      ],
+      "rank": 1
+    },
     {
       "title": "Vulnerability reports are not special anymore",
       "title_display": "Vulnerability reports are not special anymore",
@@ -22,7 +41,7 @@
         "LLM",
         "AI"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Usbliter8: an A12/A13 SecureROM Exploit",
@@ -41,7 +60,7 @@
         "A12",
         "A13"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "In memory of the man who put red and green squiggles under words",
@@ -60,7 +79,7 @@
         "Green squiggles",
         "Raymond Chen"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Swift Package Index Joins Apple",
@@ -79,7 +98,7 @@
         "Swift",
         "SPI"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "F3",
@@ -98,7 +117,7 @@
         "Parquet",
         "columnar data"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Digital euro clears key hurdle as EU seeks to break free from U.S. credit cards",
@@ -117,7 +136,7 @@
         "EU",
         "CBDC"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Spying on kids to save kids from spying is stupid",
@@ -136,7 +155,7 @@
         "kids",
         "privacy"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Elevated error rate across multiple models",
@@ -155,7 +174,7 @@
         "models",
         "outage"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "MSG Made Dossier on Activists Who Opposed Facial Recognition",
@@ -174,7 +193,7 @@
         "Activists",
         "Dossier"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "The Coming Loop",
@@ -193,7 +212,7 @@
         "loops",
         "Claude"
       ],
-      "rank": 10
+      "rank": 11
     }
   ]
 }
