@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 88,
   "total_articles": 3328,
-  "filtered_articles": 26,
+  "filtered_articles": 25,
   "articles": [
     {
       "title": "Vulnerability reports are not special anymore",
@@ -13,8 +13,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 144,
-      "score": 26,
+      "hn_points": 246,
+      "score": 29,
       "category": "other",
       "keywords": [
         "vulnerability reports",
@@ -23,6 +23,25 @@
         "AI"
       ],
       "rank": 1
+    },
+    {
+      "title": "Usbliter8: an A12/A13 SecureROM Exploit",
+      "title_display": "Usbliter8: an A12/A13 SecureROM Exploit",
+      "link": "https://ps.tc/pages/blog-usbliter8.html",
+      "pub_date": "2026-06-23T23:50:17.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 136,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Usbliter8",
+        "SecureROM",
+        "A12",
+        "A13"
+      ],
+      "rank": 2
     },
     {
       "title": "In memory of the man who put red and green squiggles under words",
@@ -41,7 +60,7 @@
         "Green squiggles",
         "Raymond Chen"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Swift Package Index Joins Apple",
@@ -60,7 +79,7 @@
         "Swift",
         "SPI"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "F3",
@@ -79,7 +98,7 @@
         "Parquet",
         "columnar data"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Digital euro clears key hurdle as EU seeks to break free from U.S. credit cards",
@@ -98,7 +117,7 @@
         "EU",
         "CBDC"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Spying on kids to save kids from spying is stupid",
@@ -117,7 +136,7 @@
         "kids",
         "privacy"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Elevated error rate across multiple models",
@@ -136,7 +155,7 @@
         "models",
         "outage"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "MSG Made Dossier on Activists Who Opposed Facial Recognition",
@@ -155,7 +174,7 @@
         "Activists",
         "Dossier"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "The Coming Loop",
@@ -174,7 +193,7 @@
         "loops",
         "Claude"
       ],
-      "rank": 9
+      "rank": 10
     }
   ]
 }
