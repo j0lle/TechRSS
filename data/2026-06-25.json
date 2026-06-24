@@ -2,9 +2,28 @@
   "date": "2026-06-25",
   "total_feeds": 95,
   "success_feeds": 88,
-  "total_articles": 3330,
-  "filtered_articles": 27,
+  "total_articles": 3328,
+  "filtered_articles": 29,
   "articles": [
+    {
+      "title": "John Carmack on the mistakes around Quake that ruined id software",
+      "title_display": "John Carmack on the mistakes around Quake that ruined id software",
+      "link": "https://twitter.com/ID_AA_Carmack/status/2069799283369345247",
+      "pub_date": "2026-06-24T16:10:35.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 117,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "John Carmack",
+        "id Software",
+        "Quake",
+        "Doom"
+      ],
+      "rank": 1
+    },
     {
       "title": "Founding a company in Germany: €9600, 152 days and I still can't send an invoice",
       "title_display": "Founding a company in Germany: €9600, 152 days and I still can't send an invoice",
@@ -22,7 +41,7 @@
         "UG",
         "Stammkapital"
       ],
-      "rank": 1
+      "rank": 2
     }
   ]
 }
