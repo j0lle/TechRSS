@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 88,
   "total_articles": 3328,
-  "filtered_articles": 31,
+  "filtered_articles": 33,
   "articles": [
     {
       "title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
@@ -32,8 +32,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 117,
-      "score": 25,
+      "hn_points": 371,
+      "score": 30,
       "category": "other",
       "keywords": [
         "John Carmack",
@@ -42,6 +42,25 @@
         "Doom"
       ],
       "rank": 2
+    },
+    {
+      "title": "Show HN: Nub – A Bun-like all-in-one toolkit for Node.js",
+      "title_display": "Show HN: Nub – A Bun-like all-in-one toolkit for Node.js",
+      "link": "https://github.com/nubjs/nub",
+      "pub_date": "2026-06-24T15:10:37.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 145,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Nub",
+        "Node.js",
+        "Bun",
+        "GitHub"
+      ],
+      "rank": 3
     },
     {
       "title": "RubyLLM: A single, beautiful Ruby framework for all major AI providers",
@@ -60,7 +79,7 @@
         "AI",
         "LLM"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Founding a company in Germany: €9600, 152 days and I still can't send an invoice",
@@ -79,7 +98,7 @@
         "UG",
         "Stammkapital"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Krea 2 Technical Report",
@@ -98,7 +117,7 @@
         "text-to-image",
         "weights"
       ],
-      "rank": 5
+      "rank": 6
     }
   ]
 }
