@@ -1,0 +1,28 @@
+{
+  "date": "2026-06-25",
+  "total_feeds": 95,
+  "success_feeds": 88,
+  "total_articles": 3330,
+  "filtered_articles": 27,
+  "articles": [
+    {
+      "title": "Founding a company in Germany: €9600, 152 days and I still can't send an invoice",
+      "title_display": "Founding a company in Germany: €9600, 152 days and I still can't send an invoice",
+      "link": "https://paolino.me/founding-a-company-in-germany/",
+      "pub_date": "2026-06-24T13:00:38.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 345,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Germany",
+        "GmbH",
+        "UG",
+        "Stammkapital"
+      ],
+      "rank": 1
+    }
+  ]
+}
