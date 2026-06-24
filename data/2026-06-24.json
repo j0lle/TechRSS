@@ -6,6 +6,25 @@
   "filtered_articles": 26,
   "articles": [
     {
+      "title": "In memory of the man who put red and green squiggles under words",
+      "title_display": "In memory of the man who put red and green squiggles under words",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260622-00/?p=112451",
+      "pub_date": "2026-06-23T23:30:16.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 205,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "Spell check",
+        "Red squiggles",
+        "Green squiggles",
+        "Raymond Chen"
+      ],
+      "rank": 1
+    },
+    {
       "title": "Swift Package Index Joins Apple",
       "title_display": "Swift Package Index Joins Apple",
       "link": "https://swiftpackageindex.com/blog/swift-package-index-joins-apple",
@@ -22,7 +41,7 @@
         "Swift",
         "SPI"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "F3",
@@ -41,7 +60,7 @@
         "Parquet",
         "columnar data"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Digital euro clears key hurdle as EU seeks to break free from U.S. credit cards",
@@ -60,7 +79,7 @@
         "EU",
         "CBDC"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Spying on kids to save kids from spying is stupid",
@@ -79,7 +98,7 @@
         "kids",
         "privacy"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Elevated error rate across multiple models",
@@ -98,7 +117,7 @@
         "models",
         "outage"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "MSG Made Dossier on Activists Who Opposed Facial Recognition",
@@ -117,7 +136,7 @@
         "Activists",
         "Dossier"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "The Coming Loop",
@@ -127,8 +146,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 257,
-      "score": 29,
+      "hn_points": 360,
+      "score": 30,
       "category": "other",
       "keywords": [
         "LLMs",
@@ -136,7 +155,7 @@
         "loops",
         "Claude"
       ],
-      "rank": 7
+      "rank": 8
     }
   ]
 }
