@@ -1,9 +1,9 @@
 {
   "date": "2026-06-25",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3328,
-  "filtered_articles": 35,
+  "success_feeds": 87,
+  "total_articles": 3308,
+  "filtered_articles": 34,
   "articles": [
     {
       "title": "OpenAI unveils its first custom chip, built by Broadcom",
