@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 88,
   "total_articles": 3328,
-  "filtered_articles": 23,
+  "filtered_articles": 27,
   "articles": [
     {
       "title": "We're making Bunny DNS free: because a faster internet won't build itself",
@@ -25,6 +25,25 @@
       "rank": 1
     },
     {
+      "title": "\"Fix\" MacBook Neo Cursor Lag: Record 1 Pixel of the Screen Every 10 Seconds",
+      "title_display": "\"Fix\" MacBook Neo Cursor Lag: Record 1 Pixel of the Screen Every 10 Seconds",
+      "link": "https://gist.github.com/retroplasma/ec21767d0a8380c7ea9c2fbee1c7d6bf",
+      "pub_date": "2026-06-24T06:00:18.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 134,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "MacBook Neo",
+        "cursor lag",
+        "hardware cursor",
+        "software cursor"
+      ],
+      "rank": 2
+    },
+    {
       "title": "Raspberry Pi Pico W as USB Wi-Fi Adapter",
       "title_display": "Raspberry Pi Pico W as USB Wi-Fi Adapter",
       "link": "https://gitlab.com/baiyibai/pico-usb-wifi",
@@ -41,7 +60,7 @@
         "USB",
         "Wi-Fi"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Vulnerability reports are not special anymore",
@@ -60,7 +79,7 @@
         "LLM",
         "AI"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Usbliter8: an A12/A13 SecureROM Exploit",
@@ -79,7 +98,7 @@
         "A12",
         "A13"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "In memory of the man who put red and green squiggles under words",
@@ -98,7 +117,7 @@
         "Green squiggles",
         "Raymond Chen"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Swift Package Index Joins Apple",
@@ -117,7 +136,7 @@
         "Swift",
         "SPI"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "F3",
@@ -136,7 +155,7 @@
         "Parquet",
         "columnar data"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Digital euro clears key hurdle as EU seeks to break free from U.S. credit cards",
@@ -155,7 +174,7 @@
         "EU",
         "CBDC"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Spying on kids to save kids from spying is stupid",
@@ -174,7 +193,7 @@
         "kids",
         "privacy"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Elevated error rate across multiple models",
@@ -193,7 +212,7 @@
         "models",
         "outage"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "MSG Made Dossier on Activists Who Opposed Facial Recognition",
@@ -212,7 +231,7 @@
         "Activists",
         "Dossier"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "The Coming Loop",
@@ -231,7 +250,7 @@
         "loops",
         "Claude"
       ],
-      "rank": 12
+      "rank": 13
     }
   ]
 }
