@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 88,
   "total_articles": 3328,
-  "filtered_articles": 27,
+  "filtered_articles": 26,
   "articles": [
     {
       "title": "We're making Bunny DNS free: because a faster internet won't build itself",
@@ -13,8 +13,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 276,
-      "score": 29,
+      "hn_points": 489,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Bunny DNS",
@@ -70,8 +70,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 246,
-      "score": 29,
+      "hn_points": 348,
+      "score": 30,
       "category": "other",
       "keywords": [
         "vulnerability reports",
