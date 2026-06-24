@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 88,
   "total_articles": 3328,
-  "filtered_articles": 26,
+  "filtered_articles": 28,
   "articles": [
+    {
+      "title": "Vulnerability reports are not special anymore",
+      "title_display": "Vulnerability reports are not special anymore",
+      "link": "https://words.filippo.io/vuln-reports/",
+      "pub_date": "2026-06-24T00:30:18.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 144,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "vulnerability reports",
+        "vulnerability disclosure",
+        "LLM",
+        "AI"
+      ],
+      "rank": 1
+    },
     {
       "title": "In memory of the man who put red and green squiggles under words",
       "title_display": "In memory of the man who put red and green squiggles under words",
@@ -22,7 +41,7 @@
         "Green squiggles",
         "Raymond Chen"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Swift Package Index Joins Apple",
@@ -41,7 +60,7 @@
         "Swift",
         "SPI"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "F3",
@@ -60,7 +79,7 @@
         "Parquet",
         "columnar data"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Digital euro clears key hurdle as EU seeks to break free from U.S. credit cards",
@@ -79,7 +98,7 @@
         "EU",
         "CBDC"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Spying on kids to save kids from spying is stupid",
@@ -98,7 +117,7 @@
         "kids",
         "privacy"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Elevated error rate across multiple models",
@@ -117,7 +136,7 @@
         "models",
         "outage"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "MSG Made Dossier on Activists Who Opposed Facial Recognition",
@@ -136,7 +155,7 @@
         "Activists",
         "Dossier"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "The Coming Loop",
@@ -155,7 +174,7 @@
         "loops",
         "Claude"
       ],
-      "rank": 8
+      "rank": 9
     }
   ]
 }
