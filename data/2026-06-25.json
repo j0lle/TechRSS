@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 88,
   "total_articles": 3328,
-  "filtered_articles": 33,
+  "filtered_articles": 35,
   "articles": [
+    {
+      "title": "OpenAI unveils its first custom chip, built by Broadcom",
+      "title_display": "OpenAI unveils its first custom chip, built by Broadcom",
+      "link": "https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/",
+      "pub_date": "2026-06-24T18:00:34.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 282,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "OpenAI",
+        "Broadcom",
+        "Jalapeño",
+        "NVIDIA"
+      ],
+      "rank": 1
+    },
     {
       "title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
       "title_display": "OpenAI and Broadcom unveil LLM-optimized inference chip",
@@ -22,7 +41,26 @@
         "Jalapeno",
         "LLM"
       ],
-      "rank": 1
+      "rank": 2
+    },
+    {
+      "title": "For Most of the World, Open-Source AI Is the Only Way Forward",
+      "title_display": "For Most of the World, Open-Source AI Is the Only Way Forward",
+      "link": "https://techstrong.ai/articles/for-most-of-the-world-open-source-ai-is-the-only-way-forward/",
+      "pub_date": "2026-06-24T17:00:36.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 159,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Open-source AI",
+        "open weights",
+        "consumer hardware",
+        "GPUs"
+      ],
+      "rank": 3
     },
     {
       "title": "John Carmack on the mistakes around Quake that ruined id software",
@@ -41,7 +79,7 @@
         "Quake",
         "Doom"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "Show HN: Nub – A Bun-like all-in-one toolkit for Node.js",
@@ -60,7 +98,7 @@
         "Bun",
         "GitHub"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "RubyLLM: A single, beautiful Ruby framework for all major AI providers",
@@ -79,7 +117,7 @@
         "AI",
         "LLM"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "Founding a company in Germany: €9600, 152 days and I still can't send an invoice",
@@ -98,7 +136,7 @@
         "UG",
         "Stammkapital"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "Krea 2 Technical Report",
@@ -117,7 +155,7 @@
         "text-to-image",
         "weights"
       ],
-      "rank": 6
+      "rank": 8
     }
   ]
 }
