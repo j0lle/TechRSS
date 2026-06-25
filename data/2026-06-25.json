@@ -1,10 +1,29 @@
 {
   "date": "2026-06-25",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3327,
+  "success_feeds": 87,
+  "total_articles": 3307,
   "filtered_articles": 38,
   "articles": [
+    {
+      "title": "Dolphin Emulator Progress Release 2606",
+      "title_display": "Dolphin Emulator Progress Release 2606",
+      "link": "https://dolphin-emu.org/blog/2026/06/25/dolphin-progress-report-release-2606/",
+      "pub_date": "2026-06-25T10:50:35.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 176,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Dolphin Emulator",
+        "Steam Deck",
+        "Nintendo",
+        "Yuzu"
+      ],
+      "rank": 1
+    },
     {
       "title": "Bohemia Interactive: Cold War Assault Remastered Source Code on GitHub",
       "title_display": "Bohemia Interactive: Cold War Assault Remastered Source Code on GitHub",
@@ -22,7 +41,7 @@
         "source code",
         "GitHub"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Zombie unicorns are haunting Silicon Valley",
@@ -41,7 +60,7 @@
         "valuations",
         "interest rates"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Cloudflare launched self-managed OAuth for all",
@@ -60,7 +79,7 @@
         "self-managed OAuth",
         "API key"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "LuaJIT 3.0 proposed syntax extensions",
@@ -79,7 +98,7 @@
         "syntax extensions",
         "ternary operator"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "GLM-5.2 is a step change for open agents",
@@ -98,7 +117,7 @@
         "open-weight models",
         "Claude Opus 4.8"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Thomann takes legal action against Fender",
@@ -117,7 +136,7 @@
         "Stratocaster (S-type body shape)",
         "Copyright"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "OpenAI unveils its first custom chip, built by Broadcom",
@@ -136,7 +155,7 @@
         "Jalapeño",
         "NVIDIA"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
@@ -155,7 +174,7 @@
         "Jalapeno",
         "LLM"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Computer use in Gemini 3.5 Flash",
@@ -174,7 +193,7 @@
         "Gemini",
         "Google"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "The Xteink X4 E-Ink Reader",
@@ -193,7 +212,7 @@
         "CrossPoint",
         "ESP32"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "For Most of the World, Open-Source AI Is the Only Way Forward",
@@ -212,7 +231,7 @@
         "consumer hardware",
         "GPUs"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "PR spam today looks like email spam in the early 2000s",
@@ -231,7 +250,7 @@
         "AI",
         "GitHub"
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "title": "John Carmack on the mistakes around Quake that ruined id software",
@@ -250,7 +269,7 @@
         "Quake",
         "Doom"
       ],
-      "rank": 13
+      "rank": 14
     },
     {
       "title": "Show HN: Nub – A Bun-like all-in-one toolkit for Node.js",
@@ -269,7 +288,7 @@
         "Bun",
         "GitHub"
       ],
-      "rank": 14
+      "rank": 15
     },
     {
       "title": "RubyLLM: A single, beautiful Ruby framework for all major AI providers",
@@ -288,7 +307,7 @@
         "AI",
         "LLM"
       ],
-      "rank": 15
+      "rank": 16
     },
     {
       "title": "Founding a company in Germany: €9600, 152 days and I still can't send an invoice",
@@ -307,7 +326,7 @@
         "UG",
         "Stammkapital"
       ],
-      "rank": 16
+      "rank": 17
     },
     {
       "title": "Krea 2 Technical Report",
@@ -326,7 +345,7 @@
         "text-to-image",
         "weights"
       ],
-      "rank": 17
+      "rank": 18
     },
     {
       "title": "Statistics that live in your SQL",
@@ -345,7 +364,7 @@
         "VISUALIZE",
         "ggsql"
       ],
-      "rank": 18
+      "rank": 19
     }
   ]
 }
