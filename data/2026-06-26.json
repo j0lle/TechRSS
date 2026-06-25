@@ -1,10 +1,29 @@
 {
   "date": "2026-06-26",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3329,
-  "filtered_articles": 32,
+  "success_feeds": 89,
+  "total_articles": 3354,
+  "filtered_articles": 37,
   "articles": [
+    {
+      "title": "Show HN: OpenKnowledge – open source AI-first alternative to Obsidian/Notion",
+      "title_display": "Show HN: OpenKnowledge – open source AI-first alternative to Obsidian/Notion",
+      "link": "https://github.com/inkeep/open-knowledge",
+      "pub_date": "2026-06-25T19:50:35.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 136,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "OpenKnowledge",
+        "AI",
+        "Obsidian",
+        "Notion"
+      ],
+      "rank": 1
+    },
     {
       "title": "Oxide computer 3D rack guided tour",
       "title_display": "Oxide computer 3D rack guided tour",
@@ -22,7 +41,26 @@
         "3D tour",
         "AMD EPYC 9005"
       ],
-      "rank": 1
+      "rank": 2
+    },
+    {
+      "title": "OS9Map",
+      "title_display": "OS9Map",
+      "link": "https://yllan.org/software/OS9Map/",
+      "pub_date": "2026-06-25T17:50:35.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 145,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "OS9Map",
+        "Mac OS 9",
+        "PowerPC",
+        "G4"
+      ],
+      "rank": 3
     },
     {
       "title": "Windows 10 quietly gets one more year of support and updates",
@@ -41,7 +79,7 @@
         "Windows 11",
         "Windows 10 IoT Enterprise LTSC 2021"
       ],
-      "rank": 2
+      "rank": 4
     }
   ]
 }
