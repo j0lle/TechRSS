@@ -3,8 +3,46 @@
   "total_feeds": 95,
   "success_feeds": 88,
   "total_articles": 3324,
-  "filtered_articles": 32,
+  "filtered_articles": 33,
   "articles": [
+    {
+      "title": "Cloudflare launched self-managed OAuth for all",
+      "title_display": "Cloudflare launched self-managed OAuth for all",
+      "link": "https://blog.cloudflare.com/oauth-for-all/",
+      "pub_date": "2026-06-25T03:20:35.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 143,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Cloudflare",
+        "OAuth",
+        "self-managed OAuth",
+        "API key"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "LuaJIT 3.0 proposed syntax extensions",
+      "title_display": "LuaJIT 3.0 proposed syntax extensions",
+      "link": "https://github.com/LuaJIT/LuaJIT/issues/1475",
+      "pub_date": "2026-06-25T00:50:35.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 141,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "LuaJIT",
+        "Lua",
+        "syntax extensions",
+        "ternary operator"
+      ],
+      "rank": 2
+    },
     {
       "title": "GLM-5.2 is a step change for open agents",
       "title_display": "GLM-5.2 is a step change for open agents",
@@ -13,8 +51,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 115,
-      "score": 25,
+      "hn_points": 217,
+      "score": 28,
       "category": "other",
       "keywords": [
         "GLM-5.2",
@@ -22,7 +60,7 @@
         "open-weight models",
         "Claude Opus 4.8"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "Thomann takes legal action against Fender",
@@ -41,7 +79,7 @@
         "Stratocaster (S-type body shape)",
         "Copyright"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "OpenAI unveils its first custom chip, built by Broadcom",
@@ -60,7 +98,7 @@
         "Jalapeño",
         "NVIDIA"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
@@ -79,7 +117,7 @@
         "Jalapeno",
         "LLM"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "Computer use in Gemini 3.5 Flash",
@@ -98,7 +136,7 @@
         "Gemini",
         "Google"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "The Xteink X4 E-Ink Reader",
@@ -108,8 +146,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 128,
-      "score": 26,
+      "hn_points": 230,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Xteink X4",
@@ -117,7 +155,7 @@
         "CrossPoint",
         "ESP32"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "For Most of the World, Open-Source AI Is the Only Way Forward",
@@ -136,7 +174,7 @@
         "consumer hardware",
         "GPUs"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "PR spam today looks like email spam in the early 2000s",
@@ -155,7 +193,7 @@
         "AI",
         "GitHub"
       ],
-      "rank": 8
+      "rank": 10
     },
     {
       "title": "John Carmack on the mistakes around Quake that ruined id software",
@@ -174,7 +212,7 @@
         "Quake",
         "Doom"
       ],
-      "rank": 9
+      "rank": 11
     },
     {
       "title": "Show HN: Nub – A Bun-like all-in-one toolkit for Node.js",
@@ -193,7 +231,7 @@
         "Bun",
         "GitHub"
       ],
-      "rank": 10
+      "rank": 12
     },
     {
       "title": "RubyLLM: A single, beautiful Ruby framework for all major AI providers",
@@ -212,7 +250,7 @@
         "AI",
         "LLM"
       ],
-      "rank": 11
+      "rank": 13
     },
     {
       "title": "Founding a company in Germany: €9600, 152 days and I still can't send an invoice",
@@ -231,7 +269,7 @@
         "UG",
         "Stammkapital"
       ],
-      "rank": 12
+      "rank": 14
     },
     {
       "title": "Krea 2 Technical Report",
@@ -250,7 +288,7 @@
         "text-to-image",
         "weights"
       ],
-      "rank": 13
+      "rank": 15
     },
     {
       "title": "Statistics that live in your SQL",
@@ -269,7 +307,7 @@
         "VISUALIZE",
         "ggsql"
       ],
-      "rank": 14
+      "rank": 16
     }
   ]
 }
