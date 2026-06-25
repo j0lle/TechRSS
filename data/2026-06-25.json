@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 88,
   "total_articles": 3324,
-  "filtered_articles": 33,
+  "filtered_articles": 34,
   "articles": [
     {
       "title": "Cloudflare launched self-managed OAuth for all",
