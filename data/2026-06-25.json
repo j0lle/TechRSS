@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 88,
   "total_articles": 3328,
-  "filtered_articles": 38,
+  "filtered_articles": 34,
   "articles": [
+    {
+      "title": "GLM-5.2 is a step change for open agents",
+      "title_display": "GLM-5.2 is a step change for open agents",
+      "link": "https://www.interconnects.ai/p/glm-52-is-the-step-change-for-open",
+      "pub_date": "2026-06-25T00:40:36.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 115,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "GLM-5.2",
+        "GLM-5.1",
+        "open-weight models",
+        "Claude Opus 4.8"
+      ],
+      "rank": 1
+    },
     {
       "title": "Thomann takes legal action against Fender",
       "title_display": "Thomann takes legal action against Fender",
@@ -22,7 +41,7 @@
         "Stratocaster (S-type body shape)",
         "Copyright"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "OpenAI unveils its first custom chip, built by Broadcom",
@@ -41,7 +60,7 @@
         "Jalapeño",
         "NVIDIA"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
@@ -60,7 +79,26 @@
         "Jalapeno",
         "LLM"
       ],
-      "rank": 3
+      "rank": 4
+    },
+    {
+      "title": "Computer use in Gemini 3.5 Flash",
+      "title_display": "Computer use in Gemini 3.5 Flash",
+      "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash/",
+      "pub_date": "2026-06-24T17:40:37.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 135,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Gemini 3.5 Flash",
+        "Computer use",
+        "Gemini",
+        "Google"
+      ],
+      "rank": 5
     },
     {
       "title": "The Xteink X4 E-Ink Reader",
@@ -79,7 +117,7 @@
         "CrossPoint",
         "ESP32"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "For Most of the World, Open-Source AI Is the Only Way Forward",
@@ -98,7 +136,7 @@
         "consumer hardware",
         "GPUs"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "PR spam today looks like email spam in the early 2000s",
@@ -117,7 +155,7 @@
         "AI",
         "GitHub"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "John Carmack on the mistakes around Quake that ruined id software",
@@ -136,7 +174,7 @@
         "Quake",
         "Doom"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "Show HN: Nub – A Bun-like all-in-one toolkit for Node.js",
@@ -155,7 +193,7 @@
         "Bun",
         "GitHub"
       ],
-      "rank": 8
+      "rank": 10
     },
     {
       "title": "RubyLLM: A single, beautiful Ruby framework for all major AI providers",
@@ -165,8 +203,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 224,
-      "score": 28,
+      "hn_points": 327,
+      "score": 30,
       "category": "other",
       "keywords": [
         "RubyLLM",
@@ -174,7 +212,7 @@
         "AI",
         "LLM"
       ],
-      "rank": 9
+      "rank": 11
     },
     {
       "title": "Founding a company in Germany: €9600, 152 days and I still can't send an invoice",
@@ -193,7 +231,7 @@
         "UG",
         "Stammkapital"
       ],
-      "rank": 10
+      "rank": 12
     },
     {
       "title": "Krea 2 Technical Report",
@@ -203,8 +241,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 205,
-      "score": 28,
+      "hn_points": 310,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Krea 2",
@@ -212,7 +250,7 @@
         "text-to-image",
         "weights"
       ],
-      "rank": 11
+      "rank": 13
     },
     {
       "title": "Statistics that live in your SQL",
@@ -231,7 +269,7 @@
         "VISUALIZE",
         "ggsql"
       ],
-      "rank": 12
+      "rank": 14
     }
   ]
 }
