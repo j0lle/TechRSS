@@ -1,9 +1,9 @@
 {
   "date": "2026-06-25",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3324,
-  "filtered_articles": 34,
+  "success_feeds": 89,
+  "total_articles": 3350,
+  "filtered_articles": 35,
   "articles": [
     {
       "title": "Cloudflare launched self-managed OAuth for all",
@@ -222,8 +222,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 145,
-      "score": 26,
+      "hn_points": 248,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Nub",
