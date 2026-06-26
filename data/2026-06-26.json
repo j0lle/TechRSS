@@ -2,9 +2,47 @@
   "date": "2026-06-26",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3364,
-  "filtered_articles": 25,
+  "total_articles": 3365,
+  "filtered_articles": 28,
   "articles": [
+    {
+      "title": "We All Depend on Open Source. We Will Defend It Together",
+      "title_display": "We All Depend on Open Source. We Will Defend It Together",
+      "link": "https://akrites.org/letter/",
+      "pub_date": "2026-06-26T06:50:36.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 146,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Akrites",
+        "Open Source",
+        "Linux Foundation",
+        "Microsoft"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Libre Barcode Project",
+      "title_display": "Libre Barcode Project",
+      "link": "https://graphicore.github.io/librebarcode/",
+      "pub_date": "2026-06-26T03:40:36.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 168,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Libre Barcode",
+        "Graphicore",
+        "barcode fonts",
+        "Code 128"
+      ],
+      "rank": 2
+    },
     {
       "title": "Framework's 10G Ethernet module exposes USB-C's complexity",
       "title_display": "Framework's 10G Ethernet module exposes USB-C's complexity",
@@ -22,7 +60,7 @@
         "USB-C",
         "Jeff Geerling"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "The Garbage Collection Handbook: The Art of Automatic Memory Management (2nd Ed)",
@@ -41,7 +79,7 @@
         "Garbage collection",
         "gchandbook.org"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "A game where you're an OS and have to manage processes, memory and I/O events",
@@ -60,7 +98,26 @@
         "game",
         "processes"
       ],
-      "rank": 3
+      "rank": 5
+    },
+    {
+      "title": "The Doorman's Fallacy in Action",
+      "title_display": "The Doorman's Fallacy in Action",
+      "link": "https://rozumem.xyz/posts/17",
+      "pub_date": "2026-06-25T21:30:35.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 122,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "Doorman's Fallacy",
+        "self-checkout",
+        "QR code",
+        "split bill"
+      ],
+      "rank": 6
     },
     {
       "title": "Show HN: OpenKnowledge – open source AI-first alternative to Obsidian/Notion",
@@ -79,7 +136,7 @@
         "Obsidian",
         "Notion"
       ],
-      "rank": 4
+      "rank": 7
     },
     {
       "title": "Oxide computer 3D rack guided tour",
@@ -98,7 +155,7 @@
         "3D tour",
         "AMD EPYC 9005"
       ],
-      "rank": 5
+      "rank": 8
     },
     {
       "title": "OS9Map",
@@ -117,7 +174,7 @@
         "PowerPC",
         "G4"
       ],
-      "rank": 6
+      "rank": 9
     },
     {
       "title": "Windows 10 quietly gets one more year of support and updates",
@@ -136,7 +193,7 @@
         "Windows 11",
         "Windows 10 IoT Enterprise LTSC 2021"
       ],
-      "rank": 7
+      "rank": 10
     },
     {
       "title": "You didn't vibe code it, you stole it from open source&enterprise-licensed code",
@@ -155,7 +212,7 @@
         "AGPL",
         "Papermark"
       ],
-      "rank": 8
+      "rank": 11
     },
     {
       "title": "The Unbearable Cheapness of Open Weight Models",
@@ -174,7 +231,7 @@
         "OpenAI",
         "Anthropic"
       ],
-      "rank": 9
+      "rank": 12
     }
   ]
 }
