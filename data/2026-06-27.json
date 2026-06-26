@@ -3,6 +3,26 @@
   "total_feeds": 95,
   "success_feeds": 88,
   "total_articles": 3340,
-  "filtered_articles": 26,
-  "articles": []
+  "filtered_articles": 28,
+  "articles": [
+    {
+      "title": "22-year-old Mozart's handwritten notebook unearthed in 'major discovery'",
+      "title_display": "22-year-old Mozart's handwritten notebook unearthed in 'major discovery'",
+      "link": "https://www.classicfm.com/composers/mozart/handwritten-notebook-discovered-major-paris/",
+      "pub_date": "2026-06-26T11:30:36.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 175,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Mozart",
+        "Classic FM",
+        "handwritten notebook",
+        "Paris"
+      ],
+      "rank": 1
+    }
+  ]
 }
