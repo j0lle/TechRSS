@@ -2,8 +2,8 @@
   "date": "2026-06-26",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3363,
-  "filtered_articles": 29,
+  "total_articles": 3364,
+  "filtered_articles": 27,
   "articles": [
     {
       "title": "Framework's 10G Ethernet module exposes USB-C's complexity",
@@ -25,6 +25,25 @@
       "rank": 1
     },
     {
+      "title": "The Garbage Collection Handbook: The Art of Automatic Memory Management (2nd Ed)",
+      "title_display": "The Garbage Collection Handbook: The Art of Automatic Memory Management (2nd Ed)",
+      "link": "https://gchandbook.org/",
+      "pub_date": "2026-06-26T00:10:36.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 127,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "The Garbage Collection Handbook",
+        "Automatic memory management",
+        "Garbage collection",
+        "gchandbook.org"
+      ],
+      "rank": 2
+    },
+    {
       "title": "A game where you're an OS and have to manage processes, memory and I/O events",
       "title_display": "A game where you're an OS and have to manage processes, memory and I/O events",
       "link": "https://github.com/plbrault/youre-the-os",
@@ -41,7 +60,7 @@
         "game",
         "processes"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Show HN: OpenKnowledge – open source AI-first alternative to Obsidian/Notion",
@@ -60,7 +79,7 @@
         "Obsidian",
         "Notion"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Oxide computer 3D rack guided tour",
@@ -79,7 +98,7 @@
         "3D tour",
         "AMD EPYC 9005"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "OS9Map",
@@ -98,7 +117,7 @@
         "PowerPC",
         "G4"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Windows 10 quietly gets one more year of support and updates",
@@ -117,7 +136,7 @@
         "Windows 11",
         "Windows 10 IoT Enterprise LTSC 2021"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "You didn't vibe code it, you stole it from open source&enterprise-licensed code",
@@ -136,7 +155,7 @@
         "AGPL",
         "Papermark"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "The Unbearable Cheapness of Open Weight Models",
@@ -155,7 +174,7 @@
         "OpenAI",
         "Anthropic"
       ],
-      "rank": 8
+      "rank": 9
     }
   ]
 }
