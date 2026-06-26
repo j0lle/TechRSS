@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3364,
-  "filtered_articles": 27,
+  "filtered_articles": 25,
   "articles": [
     {
       "title": "Framework's 10G Ethernet module exposes USB-C's complexity",
@@ -146,8 +146,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 227,
-      "score": 28,
+      "hn_points": 335,
+      "score": 30,
       "category": "other",
       "keywords": [
         "open source",
