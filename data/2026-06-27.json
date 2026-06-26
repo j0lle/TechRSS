@@ -6,6 +6,25 @@
   "filtered_articles": 28,
   "articles": [
     {
+      "title": "Incident CVE-2026-LGTM",
+      "title_display": "Incident CVE-2026-LGTM",
+      "link": "https://nesbitt.io/2026/06/26/incident-report-cve-2026-lgtm.html",
+      "pub_date": "2026-06-26T14:00:36.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 354,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "CVE-2026-LGTM",
+        "CVE",
+        "AI",
+        "autonomous agent"
+      ],
+      "rank": 1
+    },
+    {
       "title": "22-year-old Mozart's handwritten notebook unearthed in 'major discovery'",
       "title_display": "22-year-old Mozart's handwritten notebook unearthed in 'major discovery'",
       "link": "https://www.classicfm.com/composers/mozart/handwritten-notebook-discovered-major-paris/",
@@ -22,7 +41,7 @@
         "handwritten notebook",
         "Paris"
       ],
-      "rank": 1
+      "rank": 2
     }
   ]
 }
