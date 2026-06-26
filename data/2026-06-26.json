@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3363,
-  "filtered_articles": 26,
+  "filtered_articles": 27,
   "articles": [
+    {
+      "title": "A game where you're an OS and have to manage processes, memory and I/O events",
+      "title_display": "A game where you're an OS and have to manage processes, memory and I/O events",
+      "link": "https://github.com/plbrault/youre-the-os",
+      "pub_date": "2026-06-25T23:00:35.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 135,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "youre-the-os",
+        "OS",
+        "game",
+        "processes"
+      ],
+      "rank": 1
+    },
     {
       "title": "Show HN: OpenKnowledge – open source AI-first alternative to Obsidian/Notion",
       "title_display": "Show HN: OpenKnowledge – open source AI-first alternative to Obsidian/Notion",
@@ -22,7 +41,7 @@
         "Obsidian",
         "Notion"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Oxide computer 3D rack guided tour",
@@ -41,7 +60,7 @@
         "3D tour",
         "AMD EPYC 9005"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "OS9Map",
@@ -60,7 +79,7 @@
         "PowerPC",
         "G4"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Windows 10 quietly gets one more year of support and updates",
@@ -79,7 +98,26 @@
         "Windows 11",
         "Windows 10 IoT Enterprise LTSC 2021"
       ],
-      "rank": 4
+      "rank": 5
+    },
+    {
+      "title": "You didn't vibe code it, you stole it from open source&enterprise-licensed code",
+      "title_display": "You didn't vibe code it, you stole it from open source&enterprise-licensed code",
+      "link": "https://twitter.com/mfts0/status/2070080422482977095",
+      "pub_date": "2026-06-25T13:20:38.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 227,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "open source",
+        "licensing",
+        "AGPL",
+        "Papermark"
+      ],
+      "rank": 6
     },
     {
       "title": "The Unbearable Cheapness of Open Weight Models",
@@ -98,7 +136,7 @@
         "OpenAI",
         "Anthropic"
       ],
-      "rank": 5
+      "rank": 7
     }
   ]
 }
