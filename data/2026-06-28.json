@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3360,
-  "filtered_articles": 20,
+  "filtered_articles": 22,
   "articles": [
+    {
+      "title": "If You Can't Hold It, You Don't Own It",
+      "title_display": "If You Can't Hold It, You Don't Own It",
+      "link": "https://dervis.de/physical/",
+      "pub_date": "2026-06-27T12:50:17.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 154,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "physical media",
+        "digital ownership",
+        "digital licenses",
+        "DRM"
+      ],
+      "rank": 1
+    },
     {
       "title": "Linux on Older Hardware: The Complete Revival Guide",
       "title_display": "Linux on Older Hardware: The Complete Revival Guide",
@@ -22,7 +41,7 @@
         "FossLinux",
         "RAM"
       ],
-      "rank": 1
+      "rank": 2
     }
   ]
 }
