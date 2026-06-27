@@ -1,10 +1,48 @@
 {
   "date": "2026-06-27",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3340,
+  "success_feeds": 85,
+  "total_articles": 3269,
   "filtered_articles": 20,
   "articles": [
+    {
+      "title": "Fintech Engineering Handbook",
+      "title_display": "Fintech Engineering Handbook",
+      "link": "https://w.pitula.me/fintech-engineering-handbook/",
+      "pub_date": "2026-06-27T10:40:36.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 186,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "Fintech Engineering Handbook",
+        "monetary amounts",
+        "minor-units precision",
+        "JSON"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "DeepSeek open-sources inference optimizations with 60–85% faster generation [pdf]",
+      "title_display": "DeepSeek open-sources inference optimizations with 60–85% faster generation [pdf]",
+      "link": "https://github.com/deepseek-ai/DeepSpec/blob/main/DSpark_paper.pdf",
+      "pub_date": "2026-06-27T09:50:34.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 477,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "DeepSeek",
+        "DSpark",
+        "DeepSpec",
+        "inference optimizations"
+      ],
+      "rank": 2
+    },
     {
       "title": "The gap between open weights LLMs and closed source LLMs",
       "title_display": "The gap between open weights LLMs and closed source LLMs",
@@ -22,7 +60,7 @@
         "LLMs",
         "open-source models"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "What Is a Nomogram and Why Would It Interest Me?",
@@ -40,7 +78,7 @@
         "pynomo",
         "Bayes' theorem"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "Show HN: Smart model routing directly in Claude, Codex and Cursor",
@@ -59,7 +97,7 @@
         "Codex",
         "Cursor"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "Incident CVE-2026-LGTM",
@@ -78,7 +116,7 @@
         "AI",
         "autonomous agent"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "22-year-old Mozart's handwritten notebook unearthed in 'major discovery'",
@@ -97,7 +135,7 @@
         "handwritten notebook",
         "Paris"
       ],
-      "rank": 5
+      "rank": 7
     }
   ]
 }
