@@ -1,9 +1,9 @@
 {
   "date": "2026-06-27",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3340,
-  "filtered_articles": 19,
+  "success_feeds": 87,
+  "total_articles": 3305,
+  "filtered_articles": 20,
   "articles": [
     {
       "title": "Show HN: Smart model routing directly in Claude, Codex and Cursor",
