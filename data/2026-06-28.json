@@ -1,10 +1,27 @@
 {
   "date": "2026-06-28",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3361,
-  "filtered_articles": 17,
+  "success_feeds": 88,
+  "total_articles": 3341,
+  "filtered_articles": 18,
   "articles": [
+    {
+      "title": "Turn your site into a place people can bump into each other",
+      "title_display": "Turn your site into a place people can bump into each other",
+      "link": "https://cauenapier.com/blog/townsquare_release/",
+      "pub_date": "2026-06-27T19:10:17.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 129,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "TownSquare",
+        "cauenapier"
+      ],
+      "rank": 1
+    },
     {
       "title": "Anonymous GitHub account mass-dropping undisclosed 0-days",
       "title_display": "Anonymous GitHub account mass-dropping undisclosed 0-days",
@@ -22,7 +39,7 @@
         "0-day",
         "PoC"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Suspicious Discontinuities",
@@ -41,7 +58,7 @@
         "marathon",
         "goal-time peaks"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Streaming services' obnoxiously loud ads become illegal on July 1 in California",
@@ -60,7 +77,7 @@
         "California",
         "server-side ad insertion"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "If You Can't Hold It, You Don't Own It",
@@ -79,7 +96,7 @@
         "digital licenses",
         "DRM"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Linux on Older Hardware: The Complete Revival Guide",
@@ -98,7 +115,7 @@
         "FossLinux",
         "RAM"
       ],
-      "rank": 5
+      "rank": 6
     }
   ]
 }
