@@ -6,6 +6,25 @@
   "filtered_articles": 20,
   "articles": [
     {
+      "title": "Anonymous GitHub account mass-dropping undisclosed 0-days",
+      "title_display": "Anonymous GitHub account mass-dropping undisclosed 0-days",
+      "link": "https://github.com/bikini/exploitarium",
+      "pub_date": "2026-06-27T15:50:17.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 335,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "bikini/exploitarium",
+        "GitHub",
+        "0-day",
+        "PoC"
+      ],
+      "rank": 1
+    },
+    {
       "title": "Streaming services' obnoxiously loud ads become illegal on July 1 in California",
       "title_display": "Streaming services' obnoxiously loud ads become illegal on July 1 in California",
       "link": "https://arstechnica.com/gadgets/2026/06/streaming-services-obnoxiously-loud-ads-become-illegal-on-july-1-in-california/",
@@ -22,7 +41,7 @@
         "California",
         "server-side ad insertion"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "If You Can't Hold It, You Don't Own It",
@@ -32,8 +51,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 154,
-      "score": 27,
+      "hn_points": 259,
+      "score": 29,
       "category": "other",
       "keywords": [
         "physical media",
@@ -41,7 +60,7 @@
         "digital licenses",
         "DRM"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Linux on Older Hardware: The Complete Revival Guide",
@@ -60,7 +79,7 @@
         "FossLinux",
         "RAM"
       ],
-      "rank": 3
+      "rank": 4
     }
   ]
 }
