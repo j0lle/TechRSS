@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 87,
   "total_articles": 3334,
-  "filtered_articles": 13,
+  "filtered_articles": 12,
   "articles": [
     {
       "title": "AMD Strix Halo RDMA Cluster Setup Guide",
