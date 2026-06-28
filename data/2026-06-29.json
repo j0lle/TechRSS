@@ -1,8 +1,47 @@
 {
   "date": "2026-06-29",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3364,
-  "filtered_articles": 10,
-  "articles": []
+  "success_feeds": 88,
+  "total_articles": 3354,
+  "filtered_articles": 11,
+  "articles": [
+    {
+      "title": "EU to legislate about Chat Control behind closed doors",
+      "title_display": "EU to legislate about Chat Control behind closed doors",
+      "link": "https://www.patrick-breyer.de/en/double-threat-to-private-communications-undemocratic-chat-control-backroom-deals-and-imminent-concessions-spark-relaunch-of-fightchatcontrol-eu/",
+      "pub_date": "2026-06-28T15:10:18.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 278,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Chat Control",
+        "EU",
+        "European Parliament",
+        "Patrick Breyer"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "EU Open Sources Ten-Year Network Development Planning Tools",
+      "title_display": "EU Open Sources Ten-Year Network Development Planning Tools",
+      "link": "https://github.com/open-energy-transition/open-tyndp",
+      "pub_date": "2026-06-28T14:20:16.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 147,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "open-tyndp",
+        "PyPSA-Eur",
+        "PyPSA",
+        "Open Energy Transition"
+      ],
+      "rank": 2
+    }
+  ]
 }
