@@ -1,10 +1,29 @@
 {
   "date": "2026-06-29",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3344,
-  "filtered_articles": 14,
+  "success_feeds": 89,
+  "total_articles": 3364,
+  "filtered_articles": 16,
   "articles": [
+    {
+      "title": "Semgrep: GLM 5.2 beats Claude in our Cyber Benchmarks",
+      "title_display": "Semgrep: GLM 5.2 beats Claude in our Cyber Benchmarks",
+      "link": "https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks/",
+      "pub_date": "2026-06-28T20:00:16.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 289,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "GLM 5.2",
+        "Semgrep",
+        "Claude",
+        "Cybersecurity"
+      ],
+      "rank": 1
+    },
     {
       "title": "I used Claude Code to get a second opinion on my MRI",
       "title_display": "I used Claude Code to get a second opinion on my MRI",
@@ -22,7 +41,7 @@
         "LLM",
         "MRI"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "EU to legislate about Chat Control behind closed doors",
@@ -41,7 +60,7 @@
         "European Parliament",
         "Patrick Breyer"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "EU Open Sources Ten-Year Network Development Planning Tools",
@@ -60,7 +79,7 @@
         "PyPSA",
         "Open Energy Transition"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Google limits Meta's use of its Gemini AI models",
@@ -79,7 +98,7 @@
         "Meta",
         "Financial Times"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "A way to exclude sensitive files issue still open for OpenAI Codex",
@@ -98,7 +117,7 @@
         "security",
         "agent"
       ],
-      "rank": 5
+      "rank": 6
     }
   ]
 }
