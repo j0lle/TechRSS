@@ -1,8 +1,8 @@
 {
   "date": "2026-06-29",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3354,
+  "success_feeds": 89,
+  "total_articles": 3364,
   "filtered_articles": 11,
   "articles": [
     {
@@ -13,7 +13,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 278,
+      "hn_points": 406,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -42,6 +42,25 @@
         "Open Energy Transition"
       ],
       "rank": 2
+    },
+    {
+      "title": "A way to exclude sensitive files issue still open for OpenAI Codex",
+      "title_display": "A way to exclude sensitive files issue still open for OpenAI Codex",
+      "link": "https://github.com/openai/codex/issues/2847",
+      "pub_date": "2026-06-28T13:00:15.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 134,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "OpenAI",
+        "Codex",
+        "security",
+        "agent"
+      ],
+      "rank": 3
     }
   ]
 }
