@@ -1,8 +1,8 @@
 {
   "date": "2026-06-29",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3364,
+  "success_feeds": 88,
+  "total_articles": 3344,
   "filtered_articles": 16,
   "articles": [
     {
@@ -25,6 +25,25 @@
       "rank": 1
     },
     {
+      "title": "GitHub – librepods-org/librepods: AirPods liberated from Apple's ecosystem",
+      "title_display": "GitHub – librepods-org/librepods: AirPods liberated from Apple's ecosystem",
+      "link": "https://github.com/librepods-org/librepods",
+      "pub_date": "2026-06-28T19:50:16.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 218,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "librepods",
+        "AirPods",
+        "Apple",
+        "Android"
+      ],
+      "rank": 2
+    },
+    {
       "title": "I used Claude Code to get a second opinion on my MRI",
       "title_display": "I used Claude Code to get a second opinion on my MRI",
       "link": "https://antoine.fi/mri-analysis-using-claude-code-opus",
@@ -41,7 +60,7 @@
         "LLM",
         "MRI"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "EU to legislate about Chat Control behind closed doors",
@@ -60,7 +79,7 @@
         "European Parliament",
         "Patrick Breyer"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "EU Open Sources Ten-Year Network Development Planning Tools",
@@ -79,7 +98,7 @@
         "PyPSA",
         "Open Energy Transition"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Google limits Meta's use of its Gemini AI models",
@@ -98,7 +117,7 @@
         "Meta",
         "Financial Times"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "A way to exclude sensitive files issue still open for OpenAI Codex",
@@ -117,7 +136,7 @@
         "security",
         "agent"
       ],
-      "rank": 6
+      "rank": 7
     }
   ]
 }
