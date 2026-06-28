@@ -1,10 +1,29 @@
 {
   "date": "2026-06-28",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3354,
+  "success_feeds": 89,
+  "total_articles": 3364,
   "filtered_articles": 19,
   "articles": [
+    {
+      "title": "AMD Strix Halo RDMA Cluster Setup Guide",
+      "title_display": "AMD Strix Halo RDMA Cluster Setup Guide",
+      "link": "https://github.com/kyuz0/amd-strix-halo-vllm-toolboxes/blob/main/rdma_cluster/setup_guide.md",
+      "pub_date": "2026-06-28T01:40:17.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 125,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "AMD Strix Halo",
+        "RDMA",
+        "vLLM",
+        "kyuz0"
+      ],
+      "rank": 1
+    },
     {
       "title": "Turn your site into a place people can bump into each other",
       "title_display": "Turn your site into a place people can bump into each other",
@@ -20,7 +39,7 @@
         "TownSquare",
         "cauenapier"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Anonymous GitHub account mass-dropping undisclosed 0-days",
@@ -39,7 +58,7 @@
         "0-day",
         "PoC"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Suspicious Discontinuities",
@@ -58,7 +77,7 @@
         "marathon",
         "goal-time peaks"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Post-Mythos Cybersecurity: Keep calm and carry on",
@@ -77,7 +96,7 @@
         "Anthropic",
         "U.S. government"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Streaming services' obnoxiously loud ads become illegal on July 1 in California",
@@ -96,7 +115,7 @@
         "California",
         "server-side ad insertion"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "If You Can't Hold It, You Don't Own It",
@@ -115,7 +134,7 @@
         "digital licenses",
         "DRM"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Linux on Older Hardware: The Complete Revival Guide",
@@ -134,7 +153,7 @@
         "FossLinux",
         "RAM"
       ],
-      "rank": 7
+      "rank": 8
     }
   ]
 }
