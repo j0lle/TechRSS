@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3364,
-  "filtered_articles": 11,
+  "filtered_articles": 14,
   "articles": [
+    {
+      "title": "I used Claude Code to get a second opinion on my MRI",
+      "title_display": "I used Claude Code to get a second opinion on my MRI",
+      "link": "https://antoine.fi/mri-analysis-using-claude-code-opus",
+      "pub_date": "2026-06-28T16:50:17.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 156,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Claude Code",
+        "Claude",
+        "LLM",
+        "MRI"
+      ],
+      "rank": 1
+    },
     {
       "title": "EU to legislate about Chat Control behind closed doors",
       "title_display": "EU to legislate about Chat Control behind closed doors",
@@ -22,7 +41,7 @@
         "European Parliament",
         "Patrick Breyer"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "EU Open Sources Ten-Year Network Development Planning Tools",
@@ -41,7 +60,26 @@
         "PyPSA",
         "Open Energy Transition"
       ],
-      "rank": 2
+      "rank": 3
+    },
+    {
+      "title": "Google limits Meta's use of its Gemini AI models",
+      "title_display": "Google limits Meta's use of its Gemini AI models",
+      "link": "https://www.cnbc.com/2026/06/28/google-limits-metas-use-of-its-gemini-ai-models-ft-reports.html",
+      "pub_date": "2026-06-28T14:10:17.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 126,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Google",
+        "Gemini",
+        "Meta",
+        "Financial Times"
+      ],
+      "rank": 4
     },
     {
       "title": "A way to exclude sensitive files issue still open for OpenAI Codex",
@@ -60,7 +98,7 @@
         "security",
         "agent"
       ],
-      "rank": 3
+      "rank": 5
     }
   ]
 }
