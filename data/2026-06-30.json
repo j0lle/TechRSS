@@ -1,9 +1,9 @@
 {
   "date": "2026-06-30",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3348,
-  "filtered_articles": 26,
+  "success_feeds": 89,
+  "total_articles": 3368,
+  "filtered_articles": 29,
   "articles": [
     {
       "title": "RocketLab Acquires Iridium",
@@ -13,8 +13,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 189,
-      "score": 28,
+      "hn_points": 289,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Rocket Lab",
@@ -23,6 +23,25 @@
         "Starlink"
       ],
       "rank": 1
+    },
+    {
+      "title": "Mag 7 starting to underperform [pdf]",
+      "title_display": "Mag 7 starting to underperform [pdf]",
+      "link": "https://www.apollo.com/content/dam/apolloaem/pdf/daily-spark/2026/jun/28/062826-Mag7.pdf",
+      "pub_date": "2026-06-29T14:40:19.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 171,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Magnificent Seven (Mag 7)",
+        "Apollo",
+        "AI capex",
+        "free cash flow (FCF)"
+      ],
+      "rank": 2
     },
     {
       "title": "Instagram is incorporating users' photos in ads for Meta Glasses",
@@ -41,7 +60,26 @@
         "Meta",
         "ads"
       ],
-      "rank": 2
+      "rank": 3
+    },
+    {
+      "title": "What happens when you run a CUDA kernel?",
+      "title_display": "What happens when you run a CUDA kernel?",
+      "link": "https://fergusfinn.com/blog/what-happens-when-you-run-a-gpu-kernel/",
+      "pub_date": "2026-06-29T14:10:18.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 170,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "CUDA",
+        "GPU",
+        "NVIDIA",
+        "CUDA Driver API"
+      ],
+      "rank": 4
     },
     {
       "title": "Halvar's Guide to Entrepreneurship",
@@ -60,7 +98,26 @@
         "Thomas Dullien",
         "personas"
       ],
-      "rank": 3
+      "rank": 5
+    },
+    {
+      "title": "NUMA: Cores, memory, and the distance between them",
+      "title_display": "NUMA: Cores, memory, and the distance between them",
+      "link": "https://edera.dev/stories/numa-part-1-cores-memory-and-the-distance-between-them",
+      "pub_date": "2026-06-29T09:20:18.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 123,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "NUMA",
+        "cores",
+        "memory",
+        "Intel"
+      ],
+      "rank": 6
     },
     {
       "title": "We found a bug in the hyper HTTP library",
@@ -79,7 +136,7 @@
         "Rust",
         "HTTP"
       ],
-      "rank": 4
+      "rank": 7
     },
     {
       "title": "Herdr: Agent multiplexer that lives in your terminal",
@@ -98,7 +155,7 @@
         "terminal",
         "tmux"
       ],
-      "rank": 5
+      "rank": 8
     },
     {
       "title": "Dissecting Apple's Sparse Image Format (ASIF)",
@@ -117,7 +174,7 @@
         "Apple",
         "cstruct"
       ],
-      "rank": 6
+      "rank": 9
     }
   ]
 }
