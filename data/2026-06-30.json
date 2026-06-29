@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3367,
-  "filtered_articles": 25,
+  "filtered_articles": 28,
   "articles": [
+    {
+      "title": "RocketLab Acquires Iridium",
+      "title_display": "RocketLab Acquires Iridium",
+      "link": "https://investors.rocketlabcorp.com/news-releases/news-release-details/rocket-lab-acquire-iridium-historic-deal-creating-fully",
+      "pub_date": "2026-06-29T14:50:18.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 189,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "Rocket Lab",
+        "Iridium",
+        "SpaceX",
+        "Starlink"
+      ],
+      "rank": 1
+    },
     {
       "title": "Instagram is incorporating users' photos in ads for Meta Glasses",
       "title_display": "Instagram is incorporating users' photos in ads for Meta Glasses",
@@ -22,7 +41,26 @@
         "Meta",
         "ads"
       ],
-      "rank": 1
+      "rank": 2
+    },
+    {
+      "title": "Halvar's Guide to Entrepreneurship",
+      "title_display": "Halvar's Guide to Entrepreneurship",
+      "link": "https://thomasdullien.github.io/guides/entrepreneurship/",
+      "pub_date": "2026-06-29T12:40:19.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 132,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Entrepreneurship",
+        "Halvar",
+        "Thomas Dullien",
+        "personas"
+      ],
+      "rank": 3
     },
     {
       "title": "We found a bug in the hyper HTTP library",
@@ -41,7 +79,7 @@
         "Rust",
         "HTTP"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "Dissecting Apple's Sparse Image Format (ASIF)",
@@ -60,7 +98,7 @@
         "Apple",
         "cstruct"
       ],
-      "rank": 3
+      "rank": 5
     }
   ]
 }
