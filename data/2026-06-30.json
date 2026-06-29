@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3367,
-  "filtered_articles": 28,
+  "filtered_articles": 26,
   "articles": [
     {
       "title": "RocketLab Acquires Iridium",
@@ -82,6 +82,25 @@
       "rank": 4
     },
     {
+      "title": "Herdr: Agent multiplexer that lives in your terminal",
+      "title_display": "Herdr: Agent multiplexer that lives in your terminal",
+      "link": "https://github.com/ogulcancelik/herdr",
+      "pub_date": "2026-06-29T05:50:17.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 129,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Herdr",
+        "agent",
+        "terminal",
+        "tmux"
+      ],
+      "rank": 5
+    },
+    {
       "title": "Dissecting Apple's Sparse Image Format (ASIF)",
       "title_display": "Dissecting Apple's Sparse Image Format (ASIF)",
       "link": "https://schamper.dev/dissecting-apples-sparse-image-format-asif/",
@@ -98,7 +117,7 @@
         "Apple",
         "cstruct"
       ],
-      "rank": 5
+      "rank": 6
     }
   ]
 }
