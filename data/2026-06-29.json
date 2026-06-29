@@ -2,7 +2,7 @@
   "date": "2026-06-29",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3364,
+  "total_articles": 3363,
   "filtered_articles": 17,
   "articles": [
     {
@@ -32,7 +32,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 289,
+      "hn_points": 406,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -156,6 +156,25 @@
         "agent"
       ],
       "rank": 8
+    },
+    {
+      "title": "DLL that was not present in memory despite not being formally unloaded",
+      "title_display": "DLL that was not present in memory despite not being formally unloaded",
+      "link": "https://devblogs.microsoft.com/oldnewthing/20260625-00/?p=112467",
+      "pub_date": "2026-06-28T12:00:20.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 132,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "DLL",
+        "Windows",
+        "Microsoft",
+        "Old New Thing"
+      ],
+      "rank": 9
     }
   ]
 }
