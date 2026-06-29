@@ -2,9 +2,28 @@
   "date": "2026-06-29",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3366,
-  "filtered_articles": 22,
+  "total_articles": 3367,
+  "filtered_articles": 25,
   "articles": [
+    {
+      "title": "Pollen (CEO Negus-Fancey, CTO Wright) tried to remove article, and Google helped",
+      "title_display": "Pollen (CEO Negus-Fancey, CTO Wright) tried to remove article, and Google helped",
+      "link": "https://blog.pragmaticengineer.com/pollen-tried-to-remove-my-article-about-callum-negus-fancey-and-google-is-assisting-to-it/",
+      "pub_date": "2026-06-29T10:10:18.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 430,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Pollen",
+        "Google",
+        "Callum Negus-Fancey",
+        "Wright"
+      ],
+      "rank": 1
+    },
     {
       "title": "HackerRank open sourced its ATS. My resume scored 90/100. Oh wait 74. No – 88",
       "title_display": "HackerRank open sourced its ATS. My resume scored 90/100. Oh wait 74. No – 88",
@@ -22,7 +41,7 @@
         "resume",
         "open source"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Historical memory prices 1960-2026",
@@ -41,7 +60,7 @@
         "RAM",
         "DRAM"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Semgrep: GLM 5.2 beats Claude in our Cyber Benchmarks",
@@ -60,7 +79,7 @@
         "Claude",
         "Cybersecurity"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "GitHub – librepods-org/librepods: AirPods liberated from Apple's ecosystem",
@@ -79,7 +98,7 @@
         "Apple",
         "Android"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Working around dragons with the Lemote Yeeloong laptop and OpenBSD",
@@ -98,7 +117,7 @@
         "NetSurf",
         "wscons"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "I used Claude Code to get a second opinion on my MRI",
@@ -117,7 +136,7 @@
         "LLM",
         "MRI"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "EU to legislate about Chat Control behind closed doors",
@@ -136,7 +155,7 @@
         "European Parliament",
         "Patrick Breyer"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "EU Open Sources Ten-Year Network Development Planning Tools",
@@ -155,7 +174,7 @@
         "PyPSA",
         "Open Energy Transition"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Google limits Meta's use of its Gemini AI models",
@@ -174,7 +193,7 @@
         "Meta",
         "Financial Times"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "A way to exclude sensitive files issue still open for OpenAI Codex",
@@ -193,7 +212,7 @@
         "security",
         "agent"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "DLL that was not present in memory despite not being formally unloaded",
@@ -212,7 +231,7 @@
         "Microsoft",
         "Old New Thing"
       ],
-      "rank": 11
+      "rank": 12
     }
   ]
 }
