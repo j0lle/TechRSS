@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3364,
-  "filtered_articles": 17,
+  "filtered_articles": 18,
   "articles": [
+    {
+      "title": "HackerRank open sourced its ATS. My resume scored 90/100. Oh wait 74. No – 88",
+      "title_display": "HackerRank open sourced its ATS. My resume scored 90/100. Oh wait 74. No – 88",
+      "link": "https://danunparsed.com/p/hackerrank-open-source-ats",
+      "pub_date": "2026-06-29T05:00:17.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 314,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "HackerRank",
+        "ATS",
+        "resume",
+        "open source"
+      ],
+      "rank": 1
+    },
     {
       "title": "Historical memory prices 1960-2026",
       "title_display": "Historical memory prices 1960-2026",
@@ -22,7 +41,7 @@
         "RAM",
         "DRAM"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Semgrep: GLM 5.2 beats Claude in our Cyber Benchmarks",
@@ -41,7 +60,7 @@
         "Claude",
         "Cybersecurity"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "GitHub – librepods-org/librepods: AirPods liberated from Apple's ecosystem",
@@ -60,7 +79,7 @@
         "Apple",
         "Android"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "I used Claude Code to get a second opinion on my MRI",
@@ -79,7 +98,7 @@
         "LLM",
         "MRI"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "EU to legislate about Chat Control behind closed doors",
@@ -98,7 +117,7 @@
         "European Parliament",
         "Patrick Breyer"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "EU Open Sources Ten-Year Network Development Planning Tools",
@@ -117,7 +136,7 @@
         "PyPSA",
         "Open Energy Transition"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Google limits Meta's use of its Gemini AI models",
@@ -136,7 +155,7 @@
         "Meta",
         "Financial Times"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "A way to exclude sensitive files issue still open for OpenAI Codex",
@@ -155,7 +174,7 @@
         "security",
         "agent"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "DLL that was not present in memory despite not being formally unloaded",
@@ -174,7 +193,7 @@
         "Microsoft",
         "Old New Thing"
       ],
-      "rank": 9
+      "rank": 10
     }
   ]
 }
