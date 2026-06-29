@@ -1,0 +1,47 @@
+{
+  "date": "2026-06-30",
+  "total_feeds": 95,
+  "success_feeds": 89,
+  "total_articles": 3367,
+  "filtered_articles": 26,
+  "articles": [
+    {
+      "title": "We found a bug in the hyper HTTP library",
+      "title_display": "We found a bug in the hyper HTTP library",
+      "link": "https://blog.cloudflare.com/hyper-bug/",
+      "pub_date": "2026-06-29T07:40:19.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 128,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "hyper",
+        "Cloudflare",
+        "Rust",
+        "HTTP"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Dissecting Apple's Sparse Image Format (ASIF)",
+      "title_display": "Dissecting Apple's Sparse Image Format (ASIF)",
+      "link": "https://schamper.dev/dissecting-apples-sparse-image-format-asif/",
+      "pub_date": "2026-06-29T05:40:18.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 124,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "ASIF",
+        "DMG",
+        "Apple",
+        "cstruct"
+      ],
+      "rank": 2
+    }
+  ]
+}
