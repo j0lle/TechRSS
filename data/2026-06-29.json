@@ -2,8 +2,8 @@
   "date": "2026-06-29",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3363,
-  "filtered_articles": 17,
+  "total_articles": 3364,
+  "filtered_articles": 18,
   "articles": [
     {
       "title": "Historical memory prices 1960-2026",
@@ -13,8 +13,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 137,
-      "score": 26,
+      "hn_points": 242,
+      "score": 29,
       "category": "other",
       "keywords": [
         "memory prices",
@@ -51,8 +51,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 218,
-      "score": 28,
+      "hn_points": 320,
+      "score": 30,
       "category": "other",
       "keywords": [
         "librepods",
@@ -70,8 +70,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 265,
-      "score": 29,
+      "hn_points": 367,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Claude Code",
