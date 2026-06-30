@@ -2,9 +2,28 @@
   "date": "2026-06-30",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3368,
-  "filtered_articles": 28,
+  "total_articles": 3370,
+  "filtered_articles": 30,
   "articles": [
+    {
+      "title": "Free the Icons",
+      "title_display": "Free the Icons",
+      "link": "https://weblog.rogueamoeba.com/2026/06/26/free-the-icons/",
+      "pub_date": "2026-06-29T22:10:16.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 200,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "icons",
+        "macOS",
+        "Apple",
+        "Golden Gate"
+      ],
+      "rank": 1
+    },
     {
       "title": "Announcing .self: A New Top-Level Domain Designed to Support Self-Hosting",
       "title_display": "Announcing .self: A New Top-Level Domain Designed to Support Self-Hosting",
@@ -13,8 +32,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 211,
-      "score": 28,
+      "hn_points": 319,
+      "score": 30,
       "category": "other",
       "keywords": [
         ".self",
@@ -22,7 +41,7 @@
         "self-hosting",
         "HCCF"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Ornith-1.0: self-improving open-source models for agentic coding",
@@ -41,7 +60,7 @@
         "Qwen",
         "Gemma 4"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "RocketLab Acquires Iridium",
@@ -60,7 +79,7 @@
         "SpaceX",
         "Starlink"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Mag 7 starting to underperform [pdf]",
@@ -79,7 +98,7 @@
         "AI capex",
         "free cash flow (FCF)"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Instagram is incorporating users' photos in ads for Meta Glasses",
@@ -98,7 +117,7 @@
         "Meta",
         "ads"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "What happens when you run a CUDA kernel?",
@@ -117,7 +136,7 @@
         "NVIDIA",
         "CUDA Driver API"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Halvar's Guide to Entrepreneurship",
@@ -136,7 +155,7 @@
         "Thomas Dullien",
         "personas"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "NUMA: Cores, memory, and the distance between them",
@@ -155,7 +174,7 @@
         "memory",
         "Intel"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "We found a bug in the hyper HTTP library",
@@ -174,7 +193,7 @@
         "Rust",
         "HTTP"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Herdr: Agent multiplexer that lives in your terminal",
@@ -193,7 +212,7 @@
         "terminal",
         "tmux"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "Dissecting Apple's Sparse Image Format (ASIF)",
@@ -212,7 +231,7 @@
         "Apple",
         "cstruct"
       ],
-      "rank": 11
+      "rank": 12
     }
   ]
 }
