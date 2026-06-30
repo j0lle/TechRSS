@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3372,
-  "filtered_articles": 39,
+  "filtered_articles": 40,
   "articles": [
+    {
+      "title": "Looking Ahead to Postgres 19",
+      "title_display": "Looking Ahead to Postgres 19",
+      "link": "https://www.snowflake.com/en/blog/engineering/postgresql-19-features-beta/",
+      "pub_date": "2026-06-30T14:40:21.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 158,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "PostgreSQL",
+        "Postgres 19",
+        "Snowflake",
+        "Crunchy Data"
+      ],
+      "rank": 1
+    },
     {
       "title": "Exercise intensity influences body composition in healthy older adults",
       "title_display": "Exercise intensity influences body composition in healthy older adults",
@@ -22,7 +41,7 @@
         "Older adults",
         "High-intensity interval training (HIIT)"
       ],
-      "rank": 1
+      "rank": 2
     }
   ]
 }
