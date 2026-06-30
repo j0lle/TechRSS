@@ -2,9 +2,28 @@
   "date": "2026-06-30",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3370,
-  "filtered_articles": 32,
+  "total_articles": 3372,
+  "filtered_articles": 36,
   "articles": [
+    {
+      "title": "The US ambassador had Belgian police stop our reporting",
+      "title_display": "The US ambassador had Belgian police stop our reporting",
+      "link": "https://europeancorrespondent.com/en/r/the-us-ambassador-had-belgian-police-stop-our-reporting",
+      "pub_date": "2026-06-30T12:00:21.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 511,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "US ambassador",
+        "Belgian police",
+        "press freedom",
+        "Belgium"
+      ],
+      "rank": 1
+    },
     {
       "title": "European digital ID wallets are a gift to Google and Apple",
       "title_display": "European digital ID wallets are a gift to Google and Apple",
@@ -22,7 +41,7 @@
         "Apple",
         "EU"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Open Source Low Tech",
@@ -41,7 +60,7 @@
         "low-tech",
         "bicycle"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Linux for the Sega MegaDrive",
@@ -60,7 +79,7 @@
         "Sega Genesis",
         "linuxmd"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Popping the GPU Bubble",
@@ -79,7 +98,7 @@
         "LLM",
         "LLM inference"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Memory Safe Context Switching (longjmp, setjmp) in Fil-C",
@@ -98,7 +117,7 @@
         "memory safety",
         "ucontext"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "South Korea to spend $1T on more memory chip production and humanoid robots",
@@ -117,7 +136,7 @@
         "humanoid robots",
         "$1T"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Free the Icons",
@@ -136,7 +155,7 @@
         "Apple",
         "Golden Gate"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Announcing .self: A New Top-Level Domain Designed to Support Self-Hosting",
@@ -155,7 +174,7 @@
         "self-hosting",
         "HCCF"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Ornith-1.0: self-improving open-source models for agentic coding",
@@ -174,7 +193,7 @@
         "Qwen",
         "Gemma 4"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "RocketLab Acquires Iridium",
@@ -193,7 +212,7 @@
         "SpaceX",
         "Starlink"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "Mag 7 starting to underperform [pdf]",
@@ -212,7 +231,7 @@
         "AI capex",
         "free cash flow (FCF)"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "Instagram is incorporating users' photos in ads for Meta Glasses",
@@ -231,7 +250,7 @@
         "Meta",
         "ads"
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "title": "What happens when you run a CUDA kernel?",
@@ -250,7 +269,7 @@
         "NVIDIA",
         "CUDA Driver API"
       ],
-      "rank": 13
+      "rank": 14
     },
     {
       "title": "Halvar's Guide to Entrepreneurship",
@@ -269,7 +288,7 @@
         "Thomas Dullien",
         "personas"
       ],
-      "rank": 14
+      "rank": 15
     },
     {
       "title": "NUMA: Cores, memory, and the distance between them",
@@ -288,7 +307,7 @@
         "memory",
         "Intel"
       ],
-      "rank": 15
+      "rank": 16
     },
     {
       "title": "We found a bug in the hyper HTTP library",
@@ -307,7 +326,7 @@
         "Rust",
         "HTTP"
       ],
-      "rank": 16
+      "rank": 17
     },
     {
       "title": "Herdr: Agent multiplexer that lives in your terminal",
@@ -326,7 +345,7 @@
         "terminal",
         "tmux"
       ],
-      "rank": 17
+      "rank": 18
     },
     {
       "title": "Dissecting Apple's Sparse Image Format (ASIF)",
@@ -345,7 +364,7 @@
         "Apple",
         "cstruct"
       ],
-      "rank": 18
+      "rank": 19
     }
   ]
 }
