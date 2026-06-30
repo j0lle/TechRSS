@@ -1,8 +1,8 @@
 {
   "date": "2026-07-01",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3372,
+  "success_feeds": 88,
+  "total_articles": 3352,
   "filtered_articles": 48,
   "articles": [
     {
@@ -120,6 +120,25 @@
       "rank": 6
     },
     {
+      "title": "Zluda 6 release (run unmodified CUDA applications on non-Nvidia GPUs)",
+      "title_display": "Zluda 6 release (run unmodified CUDA applications on non-Nvidia GPUs)",
+      "link": "https://vosen.github.io/ZLUDA/blog/zluda-update-q1q2-2026/",
+      "pub_date": "2026-06-30T13:40:21.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 128,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "ZLuda",
+        "CUDA",
+        "NVIDIA",
+        "Vulkan"
+      ],
+      "rank": 7
+    },
+    {
       "title": "Exercise intensity influences body composition in healthy older adults",
       "title_display": "Exercise intensity influences body composition in healthy older adults",
       "link": "https://www.maturitas.org/article/S0378-5122(25)00571-7/fulltext",
@@ -136,7 +155,7 @@
         "Older adults",
         "High-intensity interval training (HIIT)"
       ],
-      "rank": 7
+      "rank": 8
     }
   ]
 }
