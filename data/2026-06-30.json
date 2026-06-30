@@ -1,9 +1,9 @@
 {
   "date": "2026-06-30",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3348,
-  "filtered_articles": 31,
+  "success_feeds": 89,
+  "total_articles": 3368,
+  "filtered_articles": 28,
   "articles": [
     {
       "title": "Announcing .self: A New Top-Level Domain Designed to Support Self-Hosting",
