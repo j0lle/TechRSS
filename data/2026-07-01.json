@@ -1,0 +1,28 @@
+{
+  "date": "2026-07-01",
+  "total_feeds": 95,
+  "success_feeds": 89,
+  "total_articles": 3372,
+  "filtered_articles": 38,
+  "articles": [
+    {
+      "title": "Exercise intensity influences body composition in healthy older adults",
+      "title_display": "Exercise intensity influences body composition in healthy older adults",
+      "link": "https://www.maturitas.org/article/S0378-5122(25)00571-7/fulltext",
+      "pub_date": "2026-06-30T11:10:21.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 143,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Exercise intensity",
+        "Body composition",
+        "Older adults",
+        "High-intensity interval training (HIIT)"
+      ],
+      "rank": 1
+    }
+  ]
+}
