@@ -1,10 +1,67 @@
 {
   "date": "2026-07-01",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3372,
-  "filtered_articles": 40,
+  "success_feeds": 85,
+  "total_articles": 3280,
+  "filtered_articles": 42,
   "articles": [
+    {
+      "title": "Claude Code Is Steganographically Marking Requests",
+      "title_display": "Claude Code Is Steganographically Marking Requests",
+      "link": "https://thereallo.dev/blog/claude-code-prompt-steganography",
+      "pub_date": "2026-06-30T16:00:19.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 692,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Claude Code",
+        "Anthropic",
+        "steganography",
+        "fingerprinting"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "The labor share of income in the US is at its lowest post-war level",
+      "title_display": "The labor share of income in the US is at its lowest post-war level",
+      "link": "https://libertystreeteconomics.newyorkfed.org/2026/06/the-post-covid-decline-in-the-labor-share/",
+      "pub_date": "2026-06-30T15:40:19.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 386,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "labor share",
+        "United States",
+        "post-COVID",
+        "New York Fed"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "Knoppix",
+      "title_display": "Knoppix",
+      "link": "https://www.knopper.net/knoppix/index-en.html",
+      "pub_date": "2026-06-30T15:20:22.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 134,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Knoppix",
+        "Linux",
+        "Live CD",
+        "Debian"
+      ],
+      "rank": 3
+    },
     {
       "title": "Looking Ahead to Postgres 19",
       "title_display": "Looking Ahead to Postgres 19",
@@ -22,7 +79,7 @@
         "Snowflake",
         "Crunchy Data"
       ],
-      "rank": 1
+      "rank": 4
     },
     {
       "title": "Exercise intensity influences body composition in healthy older adults",
@@ -41,7 +98,7 @@
         "Older adults",
         "High-intensity interval training (HIIT)"
       ],
-      "rank": 2
+      "rank": 5
     }
   ]
 }
