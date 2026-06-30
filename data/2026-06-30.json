@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3370,
-  "filtered_articles": 29,
+  "filtered_articles": 32,
   "articles": [
+    {
+      "title": "Open Source Low Tech",
+      "title_display": "Open Source Low Tech",
+      "link": "https://opensourcelowtech.org/",
+      "pub_date": "2026-06-30T07:10:18.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 270,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "Open Source Low Tech",
+        "open-source",
+        "low-tech",
+        "bicycle"
+      ],
+      "rank": 1
+    },
     {
       "title": "Memory Safe Context Switching (longjmp, setjmp) in Fil-C",
       "title_display": "Memory Safe Context Switching (longjmp, setjmp) in Fil-C",
@@ -22,7 +41,7 @@
         "memory safety",
         "ucontext"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "South Korea to spend $1T on more memory chip production and humanoid robots",
@@ -41,7 +60,7 @@
         "humanoid robots",
         "$1T"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Free the Icons",
@@ -60,7 +79,7 @@
         "Apple",
         "Golden Gate"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Announcing .self: A New Top-Level Domain Designed to Support Self-Hosting",
@@ -79,7 +98,7 @@
         "self-hosting",
         "HCCF"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Ornith-1.0: self-improving open-source models for agentic coding",
@@ -98,7 +117,7 @@
         "Qwen",
         "Gemma 4"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "RocketLab Acquires Iridium",
@@ -117,7 +136,7 @@
         "SpaceX",
         "Starlink"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Mag 7 starting to underperform [pdf]",
@@ -136,7 +155,7 @@
         "AI capex",
         "free cash flow (FCF)"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Instagram is incorporating users' photos in ads for Meta Glasses",
@@ -155,7 +174,7 @@
         "Meta",
         "ads"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "What happens when you run a CUDA kernel?",
@@ -174,7 +193,7 @@
         "NVIDIA",
         "CUDA Driver API"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Halvar's Guide to Entrepreneurship",
@@ -193,7 +212,7 @@
         "Thomas Dullien",
         "personas"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "NUMA: Cores, memory, and the distance between them",
@@ -212,7 +231,7 @@
         "memory",
         "Intel"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "We found a bug in the hyper HTTP library",
@@ -231,7 +250,7 @@
         "Rust",
         "HTTP"
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "title": "Herdr: Agent multiplexer that lives in your terminal",
@@ -250,7 +269,7 @@
         "terminal",
         "tmux"
       ],
-      "rank": 13
+      "rank": 14
     },
     {
       "title": "Dissecting Apple's Sparse Image Format (ASIF)",
@@ -269,7 +288,7 @@
         "Apple",
         "cstruct"
       ],
-      "rank": 14
+      "rank": 15
     }
   ]
 }
