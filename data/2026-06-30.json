@@ -25,6 +25,25 @@
       "rank": 1
     },
     {
+      "title": "Popping the GPU Bubble",
+      "title_display": "Popping the GPU Bubble",
+      "link": "https://moondream.ai/blog/popping-the-gpu-bubble",
+      "pub_date": "2026-06-30T05:40:18.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 147,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "GPU bubble",
+        "GPU",
+        "LLM",
+        "LLM inference"
+      ],
+      "rank": 2
+    },
+    {
       "title": "Memory Safe Context Switching (longjmp, setjmp) in Fil-C",
       "title_display": "Memory Safe Context Switching (longjmp, setjmp) in Fil-C",
       "link": "https://fil-c.org/context_switches",
@@ -41,7 +60,7 @@
         "memory safety",
         "ucontext"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "South Korea to spend $1T on more memory chip production and humanoid robots",
@@ -60,7 +79,7 @@
         "humanoid robots",
         "$1T"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Free the Icons",
@@ -79,7 +98,7 @@
         "Apple",
         "Golden Gate"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Announcing .self: A New Top-Level Domain Designed to Support Self-Hosting",
@@ -98,7 +117,7 @@
         "self-hosting",
         "HCCF"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Ornith-1.0: self-improving open-source models for agentic coding",
@@ -117,7 +136,7 @@
         "Qwen",
         "Gemma 4"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "RocketLab Acquires Iridium",
@@ -136,7 +155,7 @@
         "SpaceX",
         "Starlink"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Mag 7 starting to underperform [pdf]",
@@ -155,7 +174,7 @@
         "AI capex",
         "free cash flow (FCF)"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Instagram is incorporating users' photos in ads for Meta Glasses",
@@ -174,7 +193,7 @@
         "Meta",
         "ads"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "What happens when you run a CUDA kernel?",
@@ -193,7 +212,7 @@
         "NVIDIA",
         "CUDA Driver API"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "Halvar's Guide to Entrepreneurship",
@@ -212,7 +231,7 @@
         "Thomas Dullien",
         "personas"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "NUMA: Cores, memory, and the distance between them",
@@ -231,7 +250,7 @@
         "memory",
         "Intel"
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "title": "We found a bug in the hyper HTTP library",
@@ -250,7 +269,7 @@
         "Rust",
         "HTTP"
       ],
-      "rank": 13
+      "rank": 14
     },
     {
       "title": "Herdr: Agent multiplexer that lives in your terminal",
@@ -269,7 +288,7 @@
         "terminal",
         "tmux"
       ],
-      "rank": 14
+      "rank": 15
     },
     {
       "title": "Dissecting Apple's Sparse Image Format (ASIF)",
@@ -288,7 +307,7 @@
         "Apple",
         "cstruct"
       ],
-      "rank": 15
+      "rank": 16
     }
   ]
 }
