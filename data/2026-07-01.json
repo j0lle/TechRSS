@@ -1,10 +1,29 @@
 {
   "date": "2026-07-01",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3368,
+  "success_feeds": 88,
+  "total_articles": 3348,
   "filtered_articles": 37,
   "articles": [
+    {
+      "title": "Asahi Linux 7.1 Progress Report",
+      "title_display": "Asahi Linux 7.1 Progress Report",
+      "link": "https://asahilinux.org/2026/06/progress-report-7-1/",
+      "pub_date": "2026-07-01T10:20:20.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 305,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Asahi Linux",
+        "Asahi Linux 7.1",
+        "Linux kernel",
+        "Apple"
+      ],
+      "rank": 1
+    },
     {
       "title": "Godot will no longer accept AI-authored code contributions",
       "title_display": "Godot will no longer accept AI-authored code contributions",
@@ -13,8 +32,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 182,
-      "score": 27,
+      "hn_points": 343,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Godot",
@@ -22,7 +41,7 @@
         "contribution policy",
         "open-source"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Google copybara: moving code between repositories",
@@ -41,7 +60,7 @@
         "monorepo",
         "GitHub"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Meta's brain-scanning system reads sentences non-invasively, code open source",
@@ -60,7 +79,7 @@
         "brain-computer interface",
         "non-invasive brain scanning"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "I ported Kubernetes to the browser",
@@ -79,7 +98,7 @@
         "ngrok",
         "AI"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Claude Sonnet 5",
@@ -98,7 +117,7 @@
         "Opus 4.8",
         "Sonnet 4.6"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Crypto firms have spent $189M so far on 2026 US election, report says",
@@ -117,7 +136,7 @@
         "Public Citizen",
         "AI"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Claude Code Is Steganographically Marking Requests",
@@ -127,7 +146,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 1723,
+      "hn_points": 2209,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -136,7 +155,7 @@
         "steganography",
         "fingerprinting"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "The labor share of income in the US is at its lowest post-war level",
@@ -155,7 +174,7 @@
         "post-COVID",
         "New York Fed"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Knoppix",
@@ -174,7 +193,7 @@
         "Live CD",
         "Debian"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Looking Ahead to Postgres 19",
@@ -193,7 +212,7 @@
         "Snowflake",
         "Crunchy Data"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "Zluda 6 release (run unmodified CUDA applications on non-Nvidia GPUs)",
@@ -212,7 +231,7 @@
         "NVIDIA",
         "Vulkan"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "Exercise intensity influences body composition in healthy older adults",
@@ -231,7 +250,7 @@
         "Older adults",
         "High-intensity interval training (HIIT)"
       ],
-      "rank": 12
+      "rank": 13
     }
   ]
 }
