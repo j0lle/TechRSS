@@ -1,8 +1,28 @@
 {
   "date": "2026-07-02",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3354,
+  "success_feeds": 89,
+  "total_articles": 3370,
   "filtered_articles": 30,
-  "articles": []
+  "articles": [
+    {
+      "title": "FFmpeg 9.1's new AAC encoder",
+      "title_display": "FFmpeg 9.1's new AAC encoder",
+      "link": "https://hydrogenaudio.org/index.php/topic,129691.0.html",
+      "pub_date": "2026-07-01T17:30:19.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 136,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "FFmpeg",
+        "AAC",
+        "FFmpeg 9.1",
+        "Opus"
+      ],
+      "rank": 1
+    }
+  ]
 }
