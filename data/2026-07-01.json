@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3367,
-  "filtered_articles": 40,
+  "filtered_articles": 34,
   "articles": [
+    {
+      "title": "Godot will no longer accept AI-authored code contributions",
+      "title_display": "Godot will no longer accept AI-authored code contributions",
+      "link": "https://www.pcgamer.com/gaming-industry/open-source-game-engine-godot-will-no-longer-accept-ai-authored-code-contributions-we-cant-trust-heavy-users-of-ai-to-understand-their-code-enough-to-fix-it/",
+      "pub_date": "2026-07-01T08:40:22.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 182,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Godot",
+        "AI",
+        "contribution policy",
+        "open-source"
+      ],
+      "rank": 1
+    },
     {
       "title": "Google copybara: moving code between repositories",
       "title_display": "Google copybara: moving code between repositories",
@@ -22,7 +41,7 @@
         "monorepo",
         "GitHub"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Meta's brain-scanning system reads sentences non-invasively, code open source",
@@ -41,7 +60,7 @@
         "brain-computer interface",
         "non-invasive brain scanning"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "I ported Kubernetes to the browser",
@@ -60,7 +79,7 @@
         "ngrok",
         "AI"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Claude Sonnet 5",
@@ -79,7 +98,7 @@
         "Opus 4.8",
         "Sonnet 4.6"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Crypto firms have spent $189M so far on 2026 US election, report says",
@@ -98,7 +117,7 @@
         "Public Citizen",
         "AI"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Claude Code Is Steganographically Marking Requests",
@@ -117,7 +136,7 @@
         "steganography",
         "fingerprinting"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "The labor share of income in the US is at its lowest post-war level",
@@ -136,7 +155,7 @@
         "post-COVID",
         "New York Fed"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Knoppix",
@@ -155,7 +174,7 @@
         "Live CD",
         "Debian"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Looking Ahead to Postgres 19",
@@ -174,7 +193,7 @@
         "Snowflake",
         "Crunchy Data"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Zluda 6 release (run unmodified CUDA applications on non-Nvidia GPUs)",
@@ -193,7 +212,7 @@
         "NVIDIA",
         "Vulkan"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "Exercise intensity influences body composition in healthy older adults",
@@ -212,7 +231,7 @@
         "Older adults",
         "High-intensity interval training (HIIT)"
       ],
-      "rank": 11
+      "rank": 12
     }
   ]
 }
