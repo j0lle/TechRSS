@@ -2,8 +2,8 @@
   "date": "2026-07-01",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3367,
-  "filtered_articles": 34,
+  "total_articles": 3368,
+  "filtered_articles": 37,
   "articles": [
     {
       "title": "Godot will no longer accept AI-authored code contributions",
@@ -32,8 +32,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 143,
-      "score": 26,
+      "hn_points": 243,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Copybara",
