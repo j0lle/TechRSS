@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 88,
   "total_articles": 3344,
-  "filtered_articles": 42,
+  "filtered_articles": 41,
   "articles": [
     {
       "title": "I ported Kubernetes to the browser",
