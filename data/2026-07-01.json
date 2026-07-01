@@ -1,10 +1,29 @@
 {
   "date": "2026-07-01",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3348,
-  "filtered_articles": 37,
+  "success_feeds": 89,
+  "total_articles": 3369,
+  "filtered_articles": 36,
   "articles": [
+    {
+      "title": "Single Dose of Frog-Derived Gut Bacterium Eradicates 100% of Tumors in Mice",
+      "title_display": "Single Dose of Frog-Derived Gut Bacterium Eradicates 100% of Tumors in Mice",
+      "link": "https://www.thefocalpoints.com/p/new-study-frog-derived-gut-bacterium",
+      "pub_date": "2026-07-01T11:50:20.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 263,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "frog-derived gut bacterium",
+        "cancer",
+        "tumors",
+        "mice"
+      ],
+      "rank": 1
+    },
     {
       "title": "Asahi Linux 7.1 Progress Report",
       "title_display": "Asahi Linux 7.1 Progress Report",
@@ -22,7 +41,7 @@
         "Linux kernel",
         "Apple"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Godot will no longer accept AI-authored code contributions",
@@ -41,7 +60,7 @@
         "contribution policy",
         "open-source"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Google copybara: moving code between repositories",
@@ -60,7 +79,7 @@
         "monorepo",
         "GitHub"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Meta's brain-scanning system reads sentences non-invasively, code open source",
@@ -79,7 +98,7 @@
         "brain-computer interface",
         "non-invasive brain scanning"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "I ported Kubernetes to the browser",
@@ -98,7 +117,7 @@
         "ngrok",
         "AI"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Claude Sonnet 5",
@@ -108,7 +127,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 889,
+      "hn_points": 1194,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -117,7 +136,7 @@
         "Opus 4.8",
         "Sonnet 4.6"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Crypto firms have spent $189M so far on 2026 US election, report says",
@@ -136,7 +155,7 @@
         "Public Citizen",
         "AI"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Claude Code Is Steganographically Marking Requests",
@@ -155,7 +174,7 @@
         "steganography",
         "fingerprinting"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "The labor share of income in the US is at its lowest post-war level",
@@ -174,7 +193,7 @@
         "post-COVID",
         "New York Fed"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Knoppix",
@@ -193,7 +212,7 @@
         "Live CD",
         "Debian"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "Looking Ahead to Postgres 19",
@@ -212,7 +231,7 @@
         "Snowflake",
         "Crunchy Data"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "Zluda 6 release (run unmodified CUDA applications on non-Nvidia GPUs)",
@@ -231,7 +250,7 @@
         "NVIDIA",
         "Vulkan"
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "title": "Exercise intensity influences body composition in healthy older adults",
@@ -250,7 +269,7 @@
         "Older adults",
         "High-intensity interval training (HIIT)"
       ],
-      "rank": 13
+      "rank": 14
     }
   ]
 }
