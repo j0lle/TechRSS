@@ -1,0 +1,28 @@
+{
+  "date": "2026-07-03",
+  "total_feeds": 95,
+  "success_feeds": 88,
+  "total_articles": 3353,
+  "filtered_articles": 18,
+  "articles": [
+    {
+      "title": "Many people misunderstand the purpose of code review",
+      "title_display": "Many people misunderstand the purpose of code review",
+      "link": "https://mathstodon.xyz/@mjd/115096720350507897",
+      "pub_date": "2026-07-02T13:50:21.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 180,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "code review",
+        "maintainability",
+        "pull request",
+        "knowledge transfer"
+      ],
+      "rank": 1
+    }
+  ]
+}
