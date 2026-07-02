@@ -1,10 +1,29 @@
 {
   "date": "2026-07-03",
   "total_feeds": 95,
-  "success_feeds": 87,
-  "total_articles": 3343,
-  "filtered_articles": 19,
+  "success_feeds": 90,
+  "total_articles": 3386,
+  "filtered_articles": 22,
   "articles": [
+    {
+      "title": "Spain Orders Blacklist of Palantir from Public and Private Companies",
+      "title_display": "Spain Orders Blacklist of Palantir from Public and Private Companies",
+      "link": "https://clashreport.com/world/articles/spain-orders-blacklist-of-us-tech-giant-palantir-from-public-and-private-companies-fsnc2z17gjv",
+      "pub_date": "2026-07-02T18:00:20.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 135,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Palantir",
+        "Spain",
+        "blacklist",
+        "ClashReport"
+      ],
+      "rank": 1
+    },
     {
       "title": "The Egg Bandits Made a Thousand Times the Fine They Just Paid for Price Fixing",
       "title_display": "The Egg Bandits Made a Thousand Times the Fine They Just Paid for Price Fixing",
@@ -22,7 +41,7 @@
         "fines",
         "antitrust"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Many people misunderstand the purpose of code review",
@@ -41,7 +60,7 @@
         "pull request",
         "knowledge transfer"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Senior SWE-Bench: open-source benchmark that assesses agents as senior engineers",
@@ -60,7 +79,7 @@
         "benchmark",
         "open-source"
       ],
-      "rank": 3
+      "rank": 4
     }
   ]
 }
