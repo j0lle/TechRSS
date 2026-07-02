@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 90,
   "total_articles": 3386,
-  "filtered_articles": 22,
+  "filtered_articles": 27,
   "articles": [
     {
       "title": "Spain Orders Blacklist of Palantir from Public and Private Companies",
@@ -32,8 +32,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 132,
-      "score": 26,
+      "hn_points": 282,
+      "score": 30,
       "category": "other",
       "keywords": [
         "price fixing",
@@ -42,6 +42,63 @@
         "antitrust"
       ],
       "rank": 2
+    },
+    {
+      "title": "PeerTube is a free, decentralized and federated video platform",
+      "title_display": "PeerTube is a free, decentralized and federated video platform",
+      "link": "https://github.com/Chocobozzz/PeerTube",
+      "pub_date": "2026-07-02T16:10:20.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 264,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "PeerTube",
+        "decentralized",
+        "federated",
+        "streaming"
+      ],
+      "rank": 3
+    },
+    {
+      "title": "Since Linux 6.9, LUKS suspend stopped wiping disk-encryption keys from memory",
+      "title_display": "Since Linux 6.9, LUKS suspend stopped wiping disk-encryption keys from memory",
+      "link": "https://mathstodon.xyz/@iblech/116769502749142438",
+      "pub_date": "2026-07-02T16:00:19.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 252,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "LUKS",
+        "Linux 6.9",
+        "cryptsetup",
+        "luksSuspend"
+      ],
+      "rank": 4
+    },
+    {
+      "title": "How to ask for help from people who don't know you",
+      "title_display": "How to ask for help from people who don't know you",
+      "link": "https://pradyuprasad.com/writings/how-to-ask-for-help/",
+      "pub_date": "2026-07-02T15:10:20.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 218,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "asking for help",
+        "networking",
+        "proof of work",
+        "Pradyu Prasad"
+      ],
+      "rank": 5
     },
     {
       "title": "Many people misunderstand the purpose of code review",
@@ -60,7 +117,7 @@
         "pull request",
         "knowledge transfer"
       ],
-      "rank": 3
+      "rank": 6
     },
     {
       "title": "Senior SWE-Bench: open-source benchmark that assesses agents as senior engineers",
@@ -79,7 +136,7 @@
         "benchmark",
         "open-source"
       ],
-      "rank": 4
+      "rank": 7
     }
   ]
 }
