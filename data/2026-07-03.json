@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 90,
   "total_articles": 3386,
-  "filtered_articles": 27,
+  "filtered_articles": 29,
   "articles": [
     {
       "title": "Spain Orders Blacklist of Palantir from Public and Private Companies",
@@ -13,8 +13,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 135,
-      "score": 26,
+      "hn_points": 346,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Palantir",
