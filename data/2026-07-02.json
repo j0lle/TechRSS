@@ -1,9 +1,9 @@
 {
   "date": "2026-07-02",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3373,
-  "filtered_articles": 23,
+  "success_feeds": 88,
+  "total_articles": 3353,
+  "filtered_articles": 21,
   "articles": [
     {
       "title": "Kimi K2.7 Code is generally available in GitHub Copilot",
