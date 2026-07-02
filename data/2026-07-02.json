@@ -1,9 +1,9 @@
 {
   "date": "2026-07-02",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3372,
-  "filtered_articles": 22,
+  "success_feeds": 88,
+  "total_articles": 3352,
+  "filtered_articles": 21,
   "articles": [
     {
       "title": "Kimi K2.7 Code is generally available in GitHub Copilot",
@@ -158,6 +158,25 @@
       "rank": 8
     },
     {
+      "title": "Ask HN: Who wants to be hired? (July 2026)",
+      "title_display": "Ask HN: Who wants to be hired? (July 2026)",
+      "link": "https://news.ycombinator.com/item?id=48747975",
+      "pub_date": "2026-07-01T16:40:20.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 132,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "AI",
+        "LLM",
+        "TypeScript",
+        "React"
+      ],
+      "rank": 9
+    },
+    {
       "title": "Ask HN: Who is hiring? (July 2026)",
       "title_display": "Ask HN: Who is hiring? (July 2026)",
       "link": "https://news.ycombinator.com/item?id=48747976",
@@ -174,7 +193,7 @@
         "Python",
         "React"
       ],
-      "rank": 9
+      "rank": 10
     }
   ]
 }
