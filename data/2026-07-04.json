@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 90,
   "total_articles": 3389,
-  "filtered_articles": 24,
+  "filtered_articles": 25,
   "articles": [
+    {
+      "title": "Claude, please stop trying to memorize random crap",
+      "title_display": "Claude, please stop trying to memorize random crap",
+      "link": "https://12gramsofcarbon.com/p/agentics-memorizing-session-transcripts",
+      "pub_date": "2026-07-03T17:00:44.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 166,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Claude",
+        "session transcripts",
+        "memory",
+        "agentics"
+      ],
+      "rank": 1
+    },
     {
       "title": "Jamesob's guide to running SOTA LLMs locally",
       "title_display": "Jamesob's guide to running SOTA LLMs locally",
@@ -22,7 +41,7 @@
         "GLM-5.2",
         "Qwen 3.6"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Valve open source the Steam Machine e-ink screen so you can make your own",
@@ -41,7 +60,7 @@
         "e-ink",
         "GamingOnLinux"
       ],
-      "rank": 2
+      "rank": 3
     }
   ]
 }
