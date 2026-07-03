@@ -1,10 +1,29 @@
 {
   "date": "2026-07-04",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3369,
-  "filtered_articles": 25,
+  "success_feeds": 90,
+  "total_articles": 3389,
+  "filtered_articles": 24,
   "articles": [
+    {
+      "title": "Jamesob's guide to running SOTA LLMs locally",
+      "title_display": "Jamesob's guide to running SOTA LLMs locally",
+      "link": "https://github.com/jamesob/local-llm",
+      "pub_date": "2026-07-03T15:40:45.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 131,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "jamesob/local-llm",
+        "local LLMs",
+        "GLM-5.2",
+        "Qwen 3.6"
+      ],
+      "rank": 1
+    },
     {
       "title": "Valve open source the Steam Machine e-ink screen so you can make your own",
       "title_display": "Valve open source the Steam Machine e-ink screen so you can make your own",
@@ -22,7 +41,7 @@
         "e-ink",
         "GamingOnLinux"
       ],
-      "rank": 1
+      "rank": 2
     }
   ]
 }
