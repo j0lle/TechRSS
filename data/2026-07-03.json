@@ -2,8 +2,8 @@
   "date": "2026-07-03",
   "total_feeds": 95,
   "success_feeds": 90,
-  "total_articles": 3387,
-  "filtered_articles": 33,
+  "total_articles": 3388,
+  "filtered_articles": 35,
   "articles": [
     {
       "title": "Right to Local Intelligence",
@@ -51,8 +51,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 151,
-      "score": 26,
+      "hn_points": 254,
+      "score": 29,
       "category": "other",
       "keywords": [
         "crustc",
@@ -70,8 +70,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 128,
-      "score": 26,
+      "hn_points": 231,
+      "score": 29,
       "category": "other",
       "keywords": [
         "John Salvatier",
@@ -146,7 +146,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 346,
+      "hn_points": 647,
       "score": 30,
       "category": "other",
       "keywords": [
