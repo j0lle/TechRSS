@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 90,
   "total_articles": 3386,
-  "filtered_articles": 33,
+  "filtered_articles": 30,
   "articles": [
     {
       "title": "Podman v6.0.0",
