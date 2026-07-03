@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 90,
   "total_articles": 3389,
-  "filtered_articles": 26,
+  "filtered_articles": 27,
   "articles": [
     {
       "title": "Claude, please stop trying to memorize random crap",
@@ -80,6 +80,25 @@
         "GamingOnLinux"
       ],
       "rank": 4
+    },
+    {
+      "title": "PostgreSQL and the OOM Killer: Why You Must Use Strict Memory Overcommit",
+      "title_display": "PostgreSQL and the OOM Killer: Why You Must Use Strict Memory Overcommit",
+      "link": "https://www.ubicloud.com/blog/postgresql-and-the-oom-killer-why-we-use-strict-memory-overcommit",
+      "pub_date": "2026-07-03T13:30:47.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 136,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "PostgreSQL",
+        "memory overcommit",
+        "OOM killer",
+        "overcommit_ratio"
+      ],
+      "rank": 5
     }
   ]
 }
