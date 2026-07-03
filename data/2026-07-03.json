@@ -2,9 +2,28 @@
   "date": "2026-07-03",
   "total_feeds": 95,
   "success_feeds": 90,
-  "total_articles": 3386,
-  "filtered_articles": 30,
+  "total_articles": 3387,
+  "filtered_articles": 32,
   "articles": [
+    {
+      "title": "crustc: entirety of `rustc`, translated to C",
+      "title_display": "crustc: entirety of `rustc`, translated to C",
+      "link": "https://github.com/FractalFir/crustc",
+      "pub_date": "2026-07-02T23:20:43.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 151,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "crustc",
+        "rustc",
+        "C",
+        "GitHub"
+      ],
+      "rank": 1
+    },
     {
       "title": "Reality has a surprising amount of detail",
       "title_display": "Reality has a surprising amount of detail",
@@ -22,7 +41,7 @@
         "LLMs",
         "agents"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Virginia Bans Sale of Geolocation Data",
@@ -41,7 +60,7 @@
         "location data",
         "privacy"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Podman v6.0.0",
@@ -60,7 +79,7 @@
         "Docker",
         "rootless"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Spain Orders Blacklist of Palantir from Public and Private Companies",
@@ -79,7 +98,7 @@
         "blacklist",
         "ClashReport"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "The Egg Bandits Made a Thousand Times the Fine They Just Paid for Price Fixing",
@@ -98,7 +117,7 @@
         "fines",
         "antitrust"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "PeerTube is a free, decentralized and federated video platform",
@@ -117,7 +136,7 @@
         "federated",
         "streaming"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Since Linux 6.9, LUKS suspend stopped wiping disk-encryption keys from memory",
@@ -136,7 +155,7 @@
         "cryptsetup",
         "luksSuspend"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "How to ask for help from people who don't know you",
@@ -155,7 +174,7 @@
         "proof of work",
         "Pradyu Prasad"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Many people misunderstand the purpose of code review",
@@ -174,7 +193,7 @@
         "pull request",
         "knowledge transfer"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Is One Layer Enough? A Single Transformer Layer Matches Full-Parameter RL Train",
@@ -193,7 +212,7 @@
         "Single Transformer layer",
         "RL post-training"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "Senior SWE-Bench: open-source benchmark that assesses agents as senior engineers",
@@ -212,7 +231,7 @@
         "benchmark",
         "open-source"
       ],
-      "rank": 11
+      "rank": 12
     }
   ]
 }
