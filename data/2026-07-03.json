@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 90,
   "total_articles": 3388,
-  "filtered_articles": 35,
+  "filtered_articles": 34,
   "articles": [
     {
       "title": "Right to Local Intelligence",
@@ -13,8 +13,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 130,
-      "score": 26,
+      "hn_points": 241,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Right to Local Intelligence",
