@@ -6,6 +6,44 @@
   "filtered_articles": 30,
   "articles": [
     {
+      "title": "Reality has a surprising amount of detail",
+      "title_display": "Reality has a surprising amount of detail",
+      "link": "https://johnsalvatier.org/blog/2017/reality-has-a-surprising-amount-of-detail",
+      "pub_date": "2026-07-02T22:20:45.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 128,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "John Salvatier",
+        "AI",
+        "LLMs",
+        "agents"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Virginia Bans Sale of Geolocation Data",
+      "title_display": "Virginia Bans Sale of Geolocation Data",
+      "link": "https://www.hunton.com/privacy-and-cybersecurity-law-blog/virginia-bans-sale-of-geolocation-data",
+      "pub_date": "2026-07-02T21:30:42.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 392,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Virginia",
+        "geolocation data",
+        "location data",
+        "privacy"
+      ],
+      "rank": 2
+    },
+    {
       "title": "Podman v6.0.0",
       "title_display": "Podman v6.0.0",
       "link": "https://blog.podman.io/2026/07/introducing-podman-v6-0-0/",
@@ -13,8 +51,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 269,
-      "score": 29,
+      "hn_points": 381,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Podman",
@@ -22,7 +60,7 @@
         "Docker",
         "rootless"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "Spain Orders Blacklist of Palantir from Public and Private Companies",
@@ -41,7 +79,7 @@
         "blacklist",
         "ClashReport"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "The Egg Bandits Made a Thousand Times the Fine They Just Paid for Price Fixing",
@@ -60,7 +98,7 @@
         "fines",
         "antitrust"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "PeerTube is a free, decentralized and federated video platform",
@@ -79,7 +117,7 @@
         "federated",
         "streaming"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "Since Linux 6.9, LUKS suspend stopped wiping disk-encryption keys from memory",
@@ -98,7 +136,7 @@
         "cryptsetup",
         "luksSuspend"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "How to ask for help from people who don't know you",
@@ -117,7 +155,7 @@
         "proof of work",
         "Pradyu Prasad"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "Many people misunderstand the purpose of code review",
@@ -136,7 +174,7 @@
         "pull request",
         "knowledge transfer"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "Is One Layer Enough? A Single Transformer Layer Matches Full-Parameter RL Train",
@@ -155,7 +193,7 @@
         "Single Transformer layer",
         "RL post-training"
       ],
-      "rank": 8
+      "rank": 10
     },
     {
       "title": "Senior SWE-Bench: open-source benchmark that assesses agents as senior engineers",
@@ -174,7 +212,7 @@
         "benchmark",
         "open-source"
       ],
-      "rank": 9
+      "rank": 11
     }
   ]
 }
