@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 90,
   "total_articles": 3389,
-  "filtered_articles": 33,
+  "filtered_articles": 34,
   "articles": [
+    {
+      "title": "Alibaba to ban Claude Code in workplace over alleged backdoor risks, source says",
+      "title_display": "Alibaba to ban Claude Code in workplace over alleged backdoor risks, source says",
+      "link": "https://www.reuters.com/world/china/alibaba-ban-claude-code-workplace-over-alleged-backdoor-risks-source-says-2026-07-03/",
+      "pub_date": "2026-07-03T09:40:45.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 137,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Claude Code",
+        "Alibaba",
+        "backdoor",
+        "China"
+      ],
+      "rank": 1
+    },
     {
       "title": "Right to Local Intelligence",
       "title_display": "Right to Local Intelligence",
@@ -22,7 +41,7 @@
         "OpenAI",
         "Anthropic"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "GitHub is proud to announce that you can now obtain your public repo on CD-ROM",
@@ -41,7 +60,7 @@
         "Microsoft",
         "PlayStation"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "crustc: entirety of `rustc`, translated to C",
@@ -60,7 +79,7 @@
         "C",
         "GitHub"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Reality has a surprising amount of detail",
@@ -79,7 +98,7 @@
         "LLMs",
         "agents"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Virginia Bans Sale of Geolocation Data",
@@ -98,7 +117,7 @@
         "location data",
         "privacy"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Postgres transactions are a distributed systems superpower",
@@ -117,7 +136,7 @@
         "distributed systems",
         "outbox pattern"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Podman v6.0.0",
@@ -136,7 +155,7 @@
         "Docker",
         "rootless"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Spain Orders Blacklist of Palantir from Public and Private Companies",
@@ -155,7 +174,7 @@
         "blacklist",
         "ClashReport"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "The Egg Bandits Made a Thousand Times the Fine They Just Paid for Price Fixing",
@@ -174,7 +193,7 @@
         "fines",
         "antitrust"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "PeerTube is a free, decentralized and federated video platform",
@@ -193,7 +212,7 @@
         "federated",
         "streaming"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "Since Linux 6.9, LUKS suspend stopped wiping disk-encryption keys from memory",
@@ -212,7 +231,7 @@
         "cryptsetup",
         "luksSuspend"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "How to ask for help from people who don't know you",
@@ -231,7 +250,7 @@
         "proof of work",
         "Pradyu Prasad"
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "title": "Many people misunderstand the purpose of code review",
@@ -250,7 +269,7 @@
         "pull request",
         "knowledge transfer"
       ],
-      "rank": 13
+      "rank": 14
     },
     {
       "title": "Is One Layer Enough? A Single Transformer Layer Matches Full-Parameter RL Train",
@@ -269,7 +288,7 @@
         "Single Transformer layer",
         "RL post-training"
       ],
-      "rank": 14
+      "rank": 15
     },
     {
       "title": "Senior SWE-Bench: open-source benchmark that assesses agents as senior engineers",
@@ -288,7 +307,7 @@
         "benchmark",
         "open-source"
       ],
-      "rank": 15
+      "rank": 16
     }
   ]
 }
