@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 90,
   "total_articles": 3387,
-  "filtered_articles": 31,
+  "filtered_articles": 33,
   "articles": [
+    {
+      "title": "Right to Local Intelligence",
+      "title_display": "Right to Local Intelligence",
+      "link": "https://righttointelligence.org/",
+      "pub_date": "2026-07-03T01:50:44.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 130,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Right to Local Intelligence",
+        "Local AI",
+        "OpenAI",
+        "Anthropic"
+      ],
+      "rank": 1
+    },
     {
       "title": "GitHub is proud to announce that you can now obtain your public repo on CD-ROM",
       "title_display": "GitHub is proud to announce that you can now obtain your public repo on CD-ROM",
@@ -22,7 +41,7 @@
         "Microsoft",
         "PlayStation"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "crustc: entirety of `rustc`, translated to C",
@@ -41,7 +60,7 @@
         "C",
         "GitHub"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Reality has a surprising amount of detail",
@@ -60,7 +79,7 @@
         "LLMs",
         "agents"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Virginia Bans Sale of Geolocation Data",
@@ -70,7 +89,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 392,
+      "hn_points": 701,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -79,7 +98,7 @@
         "location data",
         "privacy"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Postgres transactions are a distributed systems superpower",
@@ -98,7 +117,7 @@
         "distributed systems",
         "outbox pattern"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Podman v6.0.0",
@@ -117,7 +136,7 @@
         "Docker",
         "rootless"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Spain Orders Blacklist of Palantir from Public and Private Companies",
@@ -136,7 +155,7 @@
         "blacklist",
         "ClashReport"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "The Egg Bandits Made a Thousand Times the Fine They Just Paid for Price Fixing",
@@ -155,7 +174,7 @@
         "fines",
         "antitrust"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "PeerTube is a free, decentralized and federated video platform",
@@ -174,7 +193,7 @@
         "federated",
         "streaming"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Since Linux 6.9, LUKS suspend stopped wiping disk-encryption keys from memory",
@@ -193,7 +212,7 @@
         "cryptsetup",
         "luksSuspend"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "How to ask for help from people who don't know you",
@@ -212,7 +231,7 @@
         "proof of work",
         "Pradyu Prasad"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "Many people misunderstand the purpose of code review",
@@ -231,7 +250,7 @@
         "pull request",
         "knowledge transfer"
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "title": "Is One Layer Enough? A Single Transformer Layer Matches Full-Parameter RL Train",
@@ -250,7 +269,7 @@
         "Single Transformer layer",
         "RL post-training"
       ],
-      "rank": 13
+      "rank": 14
     },
     {
       "title": "Senior SWE-Bench: open-source benchmark that assesses agents as senior engineers",
@@ -269,7 +288,7 @@
         "benchmark",
         "open-source"
       ],
-      "rank": 14
+      "rank": 15
     }
   ]
 }
