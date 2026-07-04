@@ -1,10 +1,48 @@
 {
   "date": "2026-07-04",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3365,
-  "filtered_articles": 21,
+  "success_feeds": 90,
+  "total_articles": 3385,
+  "filtered_articles": 24,
   "articles": [
+    {
+      "title": "Odin, Wikipedia and Engagement Farming",
+      "title_display": "Odin, Wikipedia and Engagement Farming",
+      "link": "https://katamari64.se/posts/2026/odin-wikipedia/",
+      "pub_date": "2026-07-03T23:51:00.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 129,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Odin (programming language)",
+        "Wikipedia",
+        "Engagement farming",
+        "katamari64.se"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Steam Controller Auto-Charge – pilot to magnetic charging puck using CV",
+      "title_display": "Steam Controller Auto-Charge – pilot to magnetic charging puck using CV",
+      "link": "https://github.com/FossPrime/Steam-Controller-Auto-Charge",
+      "pub_date": "2026-07-03T23:20:59.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 122,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "Steam Controller",
+        "computer vision",
+        "haptic feedback",
+        "magnetic charging puck"
+      ],
+      "rank": 2
+    },
     {
       "title": "SearXNG: A free internet metasearch engine",
       "title_display": "SearXNG: A free internet metasearch engine",
@@ -22,7 +60,26 @@
         "Brave Search",
         "self-hosting"
       ],
-      "rank": 1
+      "rank": 3
+    },
+    {
+      "title": "FreeBSD Ate My RAM",
+      "title_display": "FreeBSD Ate My RAM",
+      "link": "https://crocidb.com/post/freebsd-ate-my-ram/",
+      "pub_date": "2026-07-03T20:30:42.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 127,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "FreeBSD",
+        "ZFS",
+        "RAM",
+        "swap"
+      ],
+      "rank": 4
     },
     {
       "title": "Claude, please stop trying to memorize random crap",
@@ -41,7 +98,7 @@
         "memory",
         "agentics"
       ],
-      "rank": 2
+      "rank": 5
     },
     {
       "title": "Factories Are Just Rooms",
@@ -60,7 +117,7 @@
         "Shenzhen",
         "China"
       ],
-      "rank": 3
+      "rank": 6
     },
     {
       "title": "Hunting a 16-year-old SQLite WAL bug with TLA+",
@@ -79,7 +136,7 @@
         "WAL",
         "dqlite"
       ],
-      "rank": 4
+      "rank": 7
     },
     {
       "title": "Jamesob's guide to running SOTA LLMs locally",
@@ -98,7 +155,7 @@
         "GLM-5.2",
         "Qwen 3.6"
       ],
-      "rank": 5
+      "rank": 8
     },
     {
       "title": "Valve open source the Steam Machine e-ink screen so you can make your own",
@@ -117,7 +174,7 @@
         "e-ink",
         "GamingOnLinux"
       ],
-      "rank": 6
+      "rank": 9
     },
     {
       "title": "PostgreSQL and the OOM Killer: Why You Must Use Strict Memory Overcommit",
@@ -136,7 +193,7 @@
         "OOM killer",
         "overcommit_ratio"
       ],
-      "rank": 7
+      "rank": 10
     }
   ]
 }
