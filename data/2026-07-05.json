@@ -1,10 +1,29 @@
 {
   "date": "2026-07-05",
   "total_feeds": 95,
-  "success_feeds": 90,
-  "total_articles": 3385,
-  "filtered_articles": 17,
+  "success_feeds": 89,
+  "total_articles": 3365,
+  "filtered_articles": 16,
   "articles": [
+    {
+      "title": "Google Books (or similar) all book scans – $200k bounty",
+      "title_display": "Google Books (or similar) all book scans – $200k bounty",
+      "link": "https://software.annas-archive.gl/AnnaArchivist/annas-archive/-/work_items/234",
+      "pub_date": "2026-07-04T17:31:00.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 194,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "Anna's Archive",
+        "Google Books",
+        "$200k bounty",
+        "Z-Library"
+      ],
+      "rank": 1
+    },
     {
       "title": "Potential session/cache leakage between workspace instances or consumer accounts",
       "title_display": "Potential session/cache leakage between workspace instances or consumer accounts",
@@ -22,7 +41,7 @@
         "claude-code",
         "session/cache leakage"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Explanation of everything you can see in htop/top on Linux",
@@ -32,8 +51,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 222,
-      "score": 28,
+      "hn_points": 331,
+      "score": 30,
       "category": "other",
       "keywords": [
         "htop",
@@ -41,7 +60,7 @@
         "Linux",
         "GPU"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Postgres data stored in Parquet on S3: LTAP architecture explained",
@@ -60,7 +79,7 @@
         "Databricks",
         "Postgres"
       ],
-      "rank": 3
+      "rank": 4
     }
   ]
 }
