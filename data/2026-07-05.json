@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 90,
   "total_articles": 3385,
-  "filtered_articles": 15,
+  "filtered_articles": 17,
   "articles": [
+    {
+      "title": "Command and Conquer Generals natively ported to macOS, iPhone, iPad using Fable",
+      "title_display": "Command and Conquer Generals natively ported to macOS, iPhone, iPad using Fable",
+      "link": "https://github.com/ammaarreshi/Generals-Mac-iOS-iPad/tree/main",
+      "pub_date": "2026-07-04T19:51:00.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 239,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "Command and Conquer Generals",
+        "Zero Hour",
+        "GeneralsX",
+        "Fable"
+      ],
+      "rank": 1
+    },
     {
       "title": "Google Books (or similar) all book scans – $200k bounty",
       "title_display": "Google Books (or similar) all book scans – $200k bounty",
@@ -22,7 +41,7 @@
         "$200k bounty",
         "Z-Library"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Potential session/cache leakage between workspace instances or consumer accounts",
@@ -41,7 +60,7 @@
         "claude-code",
         "session/cache leakage"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Explanation of everything you can see in htop/top on Linux",
@@ -60,7 +79,7 @@
         "Linux",
         "GPU"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Postgres data stored in Parquet on S3: LTAP architecture explained",
@@ -79,7 +98,7 @@
         "Databricks",
         "Postgres"
       ],
-      "rank": 4
+      "rank": 5
     }
   ]
 }
