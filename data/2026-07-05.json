@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 90,
   "total_articles": 3385,
-  "filtered_articles": 14,
+  "filtered_articles": 15,
   "articles": [
+    {
+      "title": "Potential session/cache leakage between workspace instances or consumer accounts",
+      "title_display": "Potential session/cache leakage between workspace instances or consumer accounts",
+      "link": "https://github.com/anthropics/claude-code/issues/74066",
+      "pub_date": "2026-07-04T14:30:59.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 200,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "Anthropic",
+        "Claude",
+        "claude-code",
+        "session/cache leakage"
+      ],
+      "rank": 1
+    },
     {
       "title": "Explanation of everything you can see in htop/top on Linux",
       "title_display": "Explanation of everything you can see in htop/top on Linux",
@@ -22,7 +41,7 @@
         "Linux",
         "GPU"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Postgres data stored in Parquet on S3: LTAP architecture explained",
@@ -41,7 +60,7 @@
         "Databricks",
         "Postgres"
       ],
-      "rank": 2
+      "rank": 3
     }
   ]
 }
