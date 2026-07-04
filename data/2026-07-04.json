@@ -44,6 +44,25 @@
       "rank": 2
     },
     {
+      "title": "Hunting a 16-year-old SQLite WAL bug with TLA+",
+      "title_display": "Hunting a 16-year-old SQLite WAL bug with TLA+",
+      "link": "https://ubuntu.com/blog/hunting-a-16-year-old-sqlite-bug-with-tla-is-dqlite-affected",
+      "pub_date": "2026-07-03T15:50:45.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 160,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "SQLite",
+        "TLA+",
+        "WAL",
+        "dqlite"
+      ],
+      "rank": 3
+    },
+    {
       "title": "Jamesob's guide to running SOTA LLMs locally",
       "title_display": "Jamesob's guide to running SOTA LLMs locally",
       "link": "https://github.com/jamesob/local-llm",
@@ -60,7 +79,7 @@
         "GLM-5.2",
         "Qwen 3.6"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Valve open source the Steam Machine e-ink screen so you can make your own",
@@ -79,7 +98,7 @@
         "e-ink",
         "GamingOnLinux"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "PostgreSQL and the OOM Killer: Why You Must Use Strict Memory Overcommit",
@@ -98,7 +117,7 @@
         "OOM killer",
         "overcommit_ratio"
       ],
-      "rank": 5
+      "rank": 6
     }
   ]
 }
