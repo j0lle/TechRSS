@@ -1,10 +1,29 @@
 {
   "date": "2026-07-04",
   "total_feeds": 95,
-  "success_feeds": 90,
-  "total_articles": 3385,
-  "filtered_articles": 18,
+  "success_feeds": 89,
+  "total_articles": 3365,
+  "filtered_articles": 17,
   "articles": [
+    {
+      "title": "Agentic coding notes from Galapogos Island",
+      "title_display": "Agentic coding notes from Galapogos Island",
+      "link": "https://danluu.com/ai-coding/#appendix-agentic-loops-and-writing-this-post",
+      "pub_date": "2026-07-04T04:40:59.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 130,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Agentic coding",
+        "agentic loops",
+        "Fable",
+        "API"
+      ],
+      "rank": 1
+    },
     {
       "title": "Odin, Wikipedia and Engagement Farming",
       "title_display": "Odin, Wikipedia and Engagement Farming",
@@ -22,7 +41,7 @@
         "Engagement farming",
         "katamari64.se"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Steam Controller Auto-Charge – pilot to magnetic charging puck using CV",
@@ -41,7 +60,7 @@
         "haptic feedback",
         "magnetic charging puck"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "SearXNG: A free internet metasearch engine",
@@ -60,7 +79,7 @@
         "Brave Search",
         "self-hosting"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "FreeBSD Ate My RAM",
@@ -79,7 +98,7 @@
         "RAM",
         "swap"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Claude, please stop trying to memorize random crap",
@@ -98,7 +117,7 @@
         "memory",
         "agentics"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Factories Are Just Rooms",
@@ -117,7 +136,7 @@
         "Shenzhen",
         "China"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Hunting a 16-year-old SQLite WAL bug with TLA+",
@@ -136,7 +155,7 @@
         "WAL",
         "dqlite"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Jamesob's guide to running SOTA LLMs locally",
@@ -155,7 +174,7 @@
         "GLM-5.2",
         "Qwen 3.6"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Valve open source the Steam Machine e-ink screen so you can make your own",
@@ -174,7 +193,7 @@
         "e-ink",
         "GamingOnLinux"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "PostgreSQL and the OOM Killer: Why You Must Use Strict Memory Overcommit",
@@ -193,7 +212,7 @@
         "OOM killer",
         "overcommit_ratio"
       ],
-      "rank": 10
+      "rank": 11
     }
   ]
 }
