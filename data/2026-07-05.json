@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 90,
   "total_articles": 3385,
-  "filtered_articles": 18,
+  "filtered_articles": 17,
   "articles": [
     {
       "title": "Potential session/cache leakage between workspace instances or consumer accounts",
