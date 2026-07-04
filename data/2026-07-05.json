@@ -3,6 +3,45 @@
   "total_feeds": 95,
   "success_feeds": 90,
   "total_articles": 3385,
-  "filtered_articles": 12,
-  "articles": []
+  "filtered_articles": 14,
+  "articles": [
+    {
+      "title": "Explanation of everything you can see in htop/top on Linux",
+      "title_display": "Explanation of everything you can see in htop/top on Linux",
+      "link": "https://peteris.rocks/blog/htop/",
+      "pub_date": "2026-07-04T14:10:59.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 222,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "htop",
+        "top",
+        "Linux",
+        "GPU"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Postgres data stored in Parquet on S3: LTAP architecture explained",
+      "title_display": "Postgres data stored in Parquet on S3: LTAP architecture explained",
+      "link": "https://www.databricks.com/blog/lakebase-ltap-rethinking-database-storage",
+      "pub_date": "2026-07-04T09:11:01.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 122,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "LTAP",
+        "Lakebase",
+        "Databricks",
+        "Postgres"
+      ],
+      "rank": 2
+    }
+  ]
 }
