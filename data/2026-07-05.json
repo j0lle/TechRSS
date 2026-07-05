@@ -1,10 +1,29 @@
 {
   "date": "2026-07-05",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3346,
-  "filtered_articles": 15,
+  "success_feeds": 89,
+  "total_articles": 3356,
+  "filtered_articles": 16,
   "articles": [
+    {
+      "title": "Shadcn/UI now defaults to Base UI instead of Radix",
+      "title_display": "Shadcn/UI now defaults to Base UI instead of Radix",
+      "link": "https://ui.shadcn.com/docs/changelog",
+      "pub_date": "2026-07-05T05:21:02.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 128,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "shadcn/ui",
+        "Base UI",
+        "Radix",
+        "Mantine"
+      ],
+      "rank": 1
+    },
     {
       "title": "If you're a button, you have one job",
       "title_display": "If you're a button, you have one job",
@@ -22,7 +41,7 @@
         "keystrokes",
         "aresluna"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "GPT-5.5 Codex reasoning-token clustering may be leading to degraded performance",
@@ -41,7 +60,7 @@
         "OpenAI",
         "reasoning-token clustering"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Better Models: Worse Tools",
@@ -60,7 +79,7 @@
         "harness",
         "system prompt"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Zig: All Package Management Functionality Moved from Compiler to Build System",
@@ -79,7 +98,7 @@
         "build system",
         "compiler"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Command and Conquer Generals natively ported to macOS, iPhone, iPad using Fable",
@@ -98,7 +117,7 @@
         "GeneralsX",
         "Fable"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Google Books (or similar) all book scans – $200k bounty",
@@ -117,7 +136,7 @@
         "$200k bounty",
         "Z-Library"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "What ORMs have taught me: just learn SQL (2014)",
@@ -136,7 +155,7 @@
         "Postgres",
         "Hibernate"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Potential session/cache leakage between workspace instances or consumer accounts",
@@ -146,8 +165,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 200,
-      "score": 28,
+      "hn_points": 300,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Anthropic",
@@ -155,7 +174,7 @@
         "claude-code",
         "session/cache leakage"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Explanation of everything you can see in htop/top on Linux",
@@ -174,7 +193,7 @@
         "Linux",
         "GPU"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Postgres data stored in Parquet on S3: LTAP architecture explained",
@@ -193,7 +212,7 @@
         "Databricks",
         "Postgres"
       ],
-      "rank": 10
+      "rank": 11
     }
   ]
 }
