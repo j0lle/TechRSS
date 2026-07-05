@@ -6,6 +6,25 @@
   "filtered_articles": 15,
   "articles": [
     {
+      "title": "It's not about physical vs. digital games, it's about ownership",
+      "title_display": "It's not about physical vs. digital games, it's about ownership",
+      "link": "https://popcar.bearblog.dev/its-about-ownership/",
+      "pub_date": "2026-07-05T17:21:01.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 140,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "digital ownership",
+        "resale",
+        "subscriptions",
+        "recurring revenue"
+      ],
+      "rank": 1
+    },
+    {
       "title": "Organic Maps",
       "title_display": "Organic Maps",
       "link": "https://organicmaps.app/",
@@ -22,7 +41,7 @@
         "OpenStreetMap",
         "Codeberg"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Introduction to Compilers and Language Design",
@@ -41,7 +60,7 @@
         "C",
         "C-like"
       ],
-      "rank": 2
+      "rank": 3
     }
   ]
 }
