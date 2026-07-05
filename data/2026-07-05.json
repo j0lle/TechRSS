@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 90,
   "total_articles": 3381,
-  "filtered_articles": 14,
+  "filtered_articles": 16,
   "articles": [
     {
       "title": "GPT-5.5 Codex reasoning-token clustering may be leading to degraded performance",
@@ -25,6 +25,25 @@
       "rank": 1
     },
     {
+      "title": "Better Models: Worse Tools",
+      "title_display": "Better Models: Worse Tools",
+      "link": "https://lucumr.pocoo.org/2026/7/4/better-models-worse-tools/",
+      "pub_date": "2026-07-04T21:21:00.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 128,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "models",
+        "tools",
+        "harness",
+        "system prompt"
+      ],
+      "rank": 2
+    },
+    {
       "title": "Zig: All Package Management Functionality Moved from Compiler to Build System",
       "title_display": "Zig: All Package Management Functionality Moved from Compiler to Build System",
       "link": "https://ziglang.org/devlog/2026/#2026-06-30",
@@ -41,7 +60,7 @@
         "build system",
         "compiler"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Command and Conquer Generals natively ported to macOS, iPhone, iPad using Fable",
@@ -60,7 +79,7 @@
         "GeneralsX",
         "Fable"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Google Books (or similar) all book scans – $200k bounty",
@@ -79,7 +98,26 @@
         "$200k bounty",
         "Z-Library"
       ],
-      "rank": 4
+      "rank": 5
+    },
+    {
+      "title": "What ORMs have taught me: just learn SQL (2014)",
+      "title_display": "What ORMs have taught me: just learn SQL (2014)",
+      "link": "https://wozniak.ca/blog/2014/08/03/1/index.html",
+      "pub_date": "2026-07-04T15:31:01.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 148,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "ORM",
+        "SQL",
+        "Postgres",
+        "Hibernate"
+      ],
+      "rank": 6
     },
     {
       "title": "Potential session/cache leakage between workspace instances or consumer accounts",
@@ -98,7 +136,7 @@
         "claude-code",
         "session/cache leakage"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "Explanation of everything you can see in htop/top on Linux",
@@ -117,7 +155,7 @@
         "Linux",
         "GPU"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "Postgres data stored in Parquet on S3: LTAP architecture explained",
@@ -136,7 +174,7 @@
         "Databricks",
         "Postgres"
       ],
-      "rank": 7
+      "rank": 9
     }
   ]
 }
