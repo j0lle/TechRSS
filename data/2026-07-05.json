@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 90,
   "total_articles": 3385,
-  "filtered_articles": 13,
+  "filtered_articles": 15,
   "articles": [
+    {
+      "title": "Zig: All Package Management Functionality Moved from Compiler to Build System",
+      "title_display": "Zig: All Package Management Functionality Moved from Compiler to Build System",
+      "link": "https://ziglang.org/devlog/2026/#2026-06-30",
+      "pub_date": "2026-07-04T20:41:00.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 135,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Zig",
+        "package management",
+        "build system",
+        "compiler"
+      ],
+      "rank": 1
+    },
     {
       "title": "Command and Conquer Generals natively ported to macOS, iPhone, iPad using Fable",
       "title_display": "Command and Conquer Generals natively ported to macOS, iPhone, iPad using Fable",
@@ -13,8 +32,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 239,
-      "score": 29,
+      "hn_points": 341,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Command and Conquer Generals",
@@ -22,7 +41,7 @@
         "GeneralsX",
         "Fable"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Google Books (or similar) all book scans – $200k bounty",
@@ -41,7 +60,7 @@
         "$200k bounty",
         "Z-Library"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Potential session/cache leakage between workspace instances or consumer accounts",
@@ -60,7 +79,7 @@
         "claude-code",
         "session/cache leakage"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Explanation of everything you can see in htop/top on Linux",
@@ -79,7 +98,7 @@
         "Linux",
         "GPU"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Postgres data stored in Parquet on S3: LTAP architecture explained",
@@ -98,7 +117,7 @@
         "Databricks",
         "Postgres"
       ],
-      "rank": 5
+      "rank": 6
     }
   ]
 }
