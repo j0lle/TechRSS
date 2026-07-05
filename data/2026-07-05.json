@@ -1,10 +1,29 @@
 {
   "date": "2026-07-05",
   "total_feeds": 95,
-  "success_feeds": 90,
-  "total_articles": 3381,
+  "success_feeds": 89,
+  "total_articles": 3361,
   "filtered_articles": 16,
   "articles": [
+    {
+      "title": "If you're a button, you have one job",
+      "title_display": "If you're a button, you have one job",
+      "link": "https://unsung.aresluna.org/if-youre-a-button-you-have-one-job/",
+      "pub_date": "2026-07-05T03:50:59.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 133,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "button",
+        "Morse code",
+        "keystrokes",
+        "aresluna"
+      ],
+      "rank": 1
+    },
     {
       "title": "GPT-5.5 Codex reasoning-token clustering may be leading to degraded performance",
       "title_display": "GPT-5.5 Codex reasoning-token clustering may be leading to degraded performance",
@@ -22,7 +41,7 @@
         "OpenAI",
         "reasoning-token clustering"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Better Models: Worse Tools",
@@ -41,7 +60,7 @@
         "harness",
         "system prompt"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Zig: All Package Management Functionality Moved from Compiler to Build System",
@@ -60,7 +79,7 @@
         "build system",
         "compiler"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Command and Conquer Generals natively ported to macOS, iPhone, iPad using Fable",
@@ -79,7 +98,7 @@
         "GeneralsX",
         "Fable"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Google Books (or similar) all book scans – $200k bounty",
@@ -98,7 +117,7 @@
         "$200k bounty",
         "Z-Library"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "What ORMs have taught me: just learn SQL (2014)",
@@ -117,7 +136,7 @@
         "Postgres",
         "Hibernate"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Potential session/cache leakage between workspace instances or consumer accounts",
@@ -136,7 +155,7 @@
         "claude-code",
         "session/cache leakage"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Explanation of everything you can see in htop/top on Linux",
@@ -155,7 +174,7 @@
         "Linux",
         "GPU"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Postgres data stored in Parquet on S3: LTAP architecture explained",
@@ -174,7 +193,7 @@
         "Databricks",
         "Postgres"
       ],
-      "rank": 9
+      "rank": 10
     }
   ]
 }
