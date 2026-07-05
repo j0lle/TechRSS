@@ -1,8 +1,28 @@
 {
   "date": "2026-07-06",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3361,
-  "filtered_articles": 13,
-  "articles": []
+  "success_feeds": 90,
+  "total_articles": 3381,
+  "filtered_articles": 14,
+  "articles": [
+    {
+      "title": "Organic Maps",
+      "title_display": "Organic Maps",
+      "link": "https://organicmaps.app/",
+      "pub_date": "2026-07-05T14:31:01.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 393,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Organic Maps",
+        "CoMaps",
+        "OpenStreetMap",
+        "Codeberg"
+      ],
+      "rank": 1
+    }
+  ]
 }
