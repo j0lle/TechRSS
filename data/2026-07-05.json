@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 90,
   "total_articles": 3381,
-  "filtered_articles": 15,
+  "filtered_articles": 13,
   "articles": [
     {
       "title": "Shadcn/UI now defaults to Base UI instead of Radix",
@@ -32,8 +32,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 236,
-      "score": 29,
+      "hn_points": 339,
+      "score": 30,
       "category": "other",
       "keywords": [
         "button",
