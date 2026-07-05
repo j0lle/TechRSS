@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 90,
   "total_articles": 3381,
-  "filtered_articles": 13,
+  "filtered_articles": 10,
   "articles": [
     {
       "title": "It's not about physical vs. digital games, it's about ownership",
@@ -13,8 +13,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 140,
-      "score": 26,
+      "hn_points": 243,
+      "score": 29,
       "category": "other",
       "keywords": [
         "digital ownership",
