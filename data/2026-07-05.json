@@ -2,9 +2,28 @@
   "date": "2026-07-05",
   "total_feeds": 95,
   "success_feeds": 90,
-  "total_articles": 3385,
-  "filtered_articles": 15,
+  "total_articles": 3381,
+  "filtered_articles": 14,
   "articles": [
+    {
+      "title": "GPT-5.5 Codex reasoning-token clustering may be leading to degraded performance",
+      "title_display": "GPT-5.5 Codex reasoning-token clustering may be leading to degraded performance",
+      "link": "https://github.com/openai/codex/issues/30364",
+      "pub_date": "2026-07-04T22:10:59.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 150,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "GPT-5.5",
+        "Codex",
+        "OpenAI",
+        "reasoning-token clustering"
+      ],
+      "rank": 1
+    },
     {
       "title": "Zig: All Package Management Functionality Moved from Compiler to Build System",
       "title_display": "Zig: All Package Management Functionality Moved from Compiler to Build System",
@@ -22,7 +41,7 @@
         "build system",
         "compiler"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Command and Conquer Generals natively ported to macOS, iPhone, iPad using Fable",
@@ -41,7 +60,7 @@
         "GeneralsX",
         "Fable"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Google Books (or similar) all book scans – $200k bounty",
@@ -60,7 +79,7 @@
         "$200k bounty",
         "Z-Library"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Potential session/cache leakage between workspace instances or consumer accounts",
@@ -79,7 +98,7 @@
         "claude-code",
         "session/cache leakage"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Explanation of everything you can see in htop/top on Linux",
@@ -98,7 +117,7 @@
         "Linux",
         "GPU"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Postgres data stored in Parquet on S3: LTAP architecture explained",
@@ -117,7 +136,7 @@
         "Databricks",
         "Postgres"
       ],
-      "rank": 6
+      "rank": 7
     }
   ]
 }
