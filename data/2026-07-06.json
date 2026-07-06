@@ -1,10 +1,29 @@
 {
   "date": "2026-07-06",
   "total_feeds": 95,
-  "success_feeds": 90,
-  "total_articles": 3381,
+  "success_feeds": 89,
+  "total_articles": 3361,
   "filtered_articles": 10,
   "articles": [
+    {
+      "title": "Reparaible and open source paper printer",
+      "title_display": "Reparaible and open source paper printer",
+      "link": "https://www.opentools.studio/",
+      "pub_date": "2026-07-05T21:30:58.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 305,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Open Tools",
+        "open-source hardware",
+        "repairable printer",
+        "printer"
+      ],
+      "rank": 1
+    },
     {
       "title": "It's not about physical vs. digital games, it's about ownership",
       "title_display": "It's not about physical vs. digital games, it's about ownership",
@@ -22,7 +41,7 @@
         "subscriptions",
         "recurring revenue"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Organic Maps",
@@ -32,7 +51,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 393,
+      "hn_points": 758,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -41,7 +60,7 @@
         "OpenStreetMap",
         "Codeberg"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Introduction to Compilers and Language Design",
@@ -60,7 +79,25 @@
         "C",
         "C-like"
       ],
-      "rank": 3
+      "rank": 4
+    },
+    {
+      "title": "Fast Software, the Best Software",
+      "title_display": "Fast Software, the Best Software",
+      "link": "https://craigmod.com/essays/fast_software/",
+      "pub_date": "2026-07-05T10:41:01.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 126,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Craig Mod",
+        "Fast Software",
+        "software performance"
+      ],
+      "rank": 5
     }
   ]
 }
