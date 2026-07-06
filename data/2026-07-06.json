@@ -1,9 +1,9 @@
 {
   "date": "2026-07-06",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3368,
-  "filtered_articles": 12,
+  "success_feeds": 90,
+  "total_articles": 3388,
+  "filtered_articles": 14,
   "articles": [
     {
       "title": "GPT-5.6 Sol Ultra will be in Codex",
@@ -25,6 +25,25 @@
       "rank": 1
     },
     {
+      "title": "Show HN: Homegames. An open-source game platform I've been making for 8 years",
+      "title_display": "Show HN: Homegames. An open-source game platform I've been making for 8 years",
+      "link": "https://homegames.io",
+      "pub_date": "2026-07-05T21:51:00.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 143,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Homegames",
+        "game platform",
+        "open-source",
+        "multiplayer"
+      ],
+      "rank": 2
+    },
+    {
       "title": "Reparaible and open source paper printer",
       "title_display": "Reparaible and open source paper printer",
       "link": "https://www.opentools.studio/",
@@ -41,7 +60,7 @@
         "repairable printer",
         "printer"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "It's not about physical vs. digital games, it's about ownership",
@@ -60,7 +79,7 @@
         "subscriptions",
         "recurring revenue"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Organic Maps",
@@ -79,7 +98,7 @@
         "OpenStreetMap",
         "Codeberg"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Introduction to Compilers and Language Design",
@@ -98,7 +117,7 @@
         "C",
         "C-like"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Fast Software, the Best Software",
@@ -116,7 +135,7 @@
         "Fast Software",
         "software performance"
       ],
-      "rank": 6
+      "rank": 7
     }
   ]
 }
