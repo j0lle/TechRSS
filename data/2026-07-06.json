@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 90,
   "total_articles": 3388,
-  "filtered_articles": 14,
+  "filtered_articles": 16,
   "articles": [
+    {
+      "title": "Does Code Cleanliness Affect Coding Agents?",
+      "title_display": "Does Code Cleanliness Affect Coding Agents?",
+      "link": "https://arxiv.org/abs/2605.20049",
+      "pub_date": "2026-07-06T02:01:02.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 127,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Code cleanliness",
+        "Coding agents",
+        "Claude Code",
+        "LLM"
+      ],
+      "rank": 1
+    },
     {
       "title": "GPT-5.6 Sol Ultra will be in Codex",
       "title_display": "GPT-5.6 Sol Ultra will be in Codex",
@@ -13,8 +32,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 148,
-      "score": 26,
+      "hn_points": 258,
+      "score": 29,
       "category": "other",
       "keywords": [
         "GPT-5.6 Sol Ultra",
@@ -22,7 +41,7 @@
         "OpenAI",
         "subagents"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Show HN: Homegames. An open-source game platform I've been making for 8 years",
@@ -41,7 +60,7 @@
         "open-source",
         "multiplayer"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Reparaible and open source paper printer",
@@ -60,7 +79,7 @@
         "repairable printer",
         "printer"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "It's not about physical vs. digital games, it's about ownership",
@@ -79,7 +98,7 @@
         "subscriptions",
         "recurring revenue"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Organic Maps",
@@ -98,7 +117,7 @@
         "OpenStreetMap",
         "Codeberg"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Introduction to Compilers and Language Design",
@@ -117,7 +136,7 @@
         "C",
         "C-like"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Fast Software, the Best Software",
@@ -135,7 +154,7 @@
         "Fast Software",
         "software performance"
       ],
-      "rank": 7
+      "rank": 8
     }
   ]
 }
