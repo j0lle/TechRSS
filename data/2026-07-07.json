@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 90,
   "total_articles": 3391,
-  "filtered_articles": 26,
+  "filtered_articles": 27,
   "articles": [
+    {
+      "title": "CoMaps – FOSS Offline Maps",
+      "title_display": "CoMaps – FOSS Offline Maps",
+      "link": "https://www.comaps.app/",
+      "pub_date": "2026-07-06T20:00:59.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 247,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "CoMaps",
+        "OrganicMaps",
+        "FOSS",
+        "offline maps"
+      ],
+      "rank": 1
+    },
     {
       "title": "OpenWrt One – Open Hardware Router",
       "title_display": "OpenWrt One – Open Hardware Router",
@@ -13,8 +32,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 187,
-      "score": 28,
+      "hn_points": 347,
+      "score": 30,
       "category": "other",
       "keywords": [
         "OpenWrt One",
@@ -22,7 +41,7 @@
         "Open hardware",
         "Router"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "AMD Ryzen AI Halo – $4k AI Dev Kit",
@@ -41,7 +60,7 @@
         "Strix Halo",
         "Ryzen AI Max 395"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Aluminum Foil",
@@ -59,7 +78,7 @@
         "folding",
         "microfabricator"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Workers Cache",
@@ -78,7 +97,7 @@
         "Cloudflare",
         "stale-while-revalidate"
       ],
-      "rank": 4
+      "rank": 5
     }
   ]
 }
