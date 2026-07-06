@@ -1,10 +1,29 @@
 {
   "date": "2026-07-06",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3363,
-  "filtered_articles": 10,
+  "success_feeds": 90,
+  "total_articles": 3388,
+  "filtered_articles": 12,
   "articles": [
+    {
+      "title": "GPT-5.6 Sol Ultra will be in Codex",
+      "title_display": "GPT-5.6 Sol Ultra will be in Codex",
+      "link": "https://twitter.com/thsottiaux/status/2073933490513752151",
+      "pub_date": "2026-07-06T01:41:01.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 148,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "GPT-5.6 Sol Ultra",
+        "Codex",
+        "OpenAI",
+        "subagents"
+      ],
+      "rank": 1
+    },
     {
       "title": "Reparaible and open source paper printer",
       "title_display": "Reparaible and open source paper printer",
@@ -22,7 +41,7 @@
         "repairable printer",
         "printer"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "It's not about physical vs. digital games, it's about ownership",
@@ -32,8 +51,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 243,
-      "score": 29,
+      "hn_points": 344,
+      "score": 30,
       "category": "other",
       "keywords": [
         "digital ownership",
@@ -41,7 +60,7 @@
         "subscriptions",
         "recurring revenue"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Organic Maps",
@@ -60,7 +79,7 @@
         "OpenStreetMap",
         "Codeberg"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Introduction to Compilers and Language Design",
@@ -79,7 +98,7 @@
         "C",
         "C-like"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Fast Software, the Best Software",
@@ -97,7 +116,7 @@
         "Fast Software",
         "software performance"
       ],
-      "rank": 5
+      "rank": 6
     }
   ]
 }
