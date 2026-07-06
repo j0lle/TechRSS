@@ -1,10 +1,29 @@
 {
   "date": "2026-07-07",
   "total_feeds": 95,
-  "success_feeds": 90,
-  "total_articles": 3391,
-  "filtered_articles": 25,
+  "success_feeds": 89,
+  "total_articles": 3366,
+  "filtered_articles": 24,
   "articles": [
+    {
+      "title": "OpenWrt One – Open Hardware Router",
+      "title_display": "OpenWrt One – Open Hardware Router",
+      "link": "https://openwrt.org/toh/openwrt/one",
+      "pub_date": "2026-07-06T18:40:56.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 187,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "OpenWrt One",
+        "OpenWrt",
+        "Open hardware",
+        "Router"
+      ],
+      "rank": 1
+    },
     {
       "title": "AMD Ryzen AI Halo – $4k AI Dev Kit",
       "title_display": "AMD Ryzen AI Halo – $4k AI Dev Kit",
@@ -22,7 +41,7 @@
         "Strix Halo",
         "Ryzen AI Max 395"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Aluminum Foil",
@@ -40,7 +59,7 @@
         "folding",
         "microfabricator"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Workers Cache",
@@ -59,7 +78,7 @@
         "Cloudflare",
         "stale-while-revalidate"
       ],
-      "rank": 3
+      "rank": 4
     }
   ]
 }
