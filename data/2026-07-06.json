@@ -2,9 +2,28 @@
   "date": "2026-07-06",
   "total_feeds": 95,
   "success_feeds": 90,
-  "total_articles": 3388,
-  "filtered_articles": 17,
+  "total_articles": 3390,
+  "filtered_articles": 21,
   "articles": [
+    {
+      "title": "Real-time map of Great Britain's rail network",
+      "title_display": "Real-time map of Great Britain's rail network",
+      "link": "https://www.map.signalbox.io",
+      "pub_date": "2026-07-06T10:00:59.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 209,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "Signalbox",
+        "map.signalbox.io",
+        "Great Britain rail network",
+        "real-time"
+      ],
+      "rank": 1
+    },
     {
       "title": "Does Code Cleanliness Affect Coding Agents?",
       "title_display": "Does Code Cleanliness Affect Coding Agents?",
@@ -22,7 +41,26 @@
         "Claude Code",
         "LLM"
       ],
-      "rank": 1
+      "rank": 2
+    },
+    {
+      "title": "The Private Capture of Public Genius",
+      "title_display": "The Private Capture of Public Genius",
+      "link": "https://www.wysr.xyz/p/the-private-capture-of-public-genius",
+      "pub_date": "2026-07-06T01:41:03.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 128,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "AI",
+        "LLMs",
+        "training data",
+        "UN"
+      ],
+      "rank": 3
     },
     {
       "title": "GPT-5.6 Sol Ultra will be in Codex",
@@ -41,7 +79,7 @@
         "OpenAI",
         "subagents"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "Show HN: Homegames. An open-source game platform I've been making for 8 years",
@@ -60,7 +98,7 @@
         "open-source",
         "multiplayer"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "Reparaible and open source paper printer",
@@ -70,7 +108,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 644,
+      "hn_points": 953,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -79,7 +117,7 @@
         "repairable printer",
         "printer"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "It's not about physical vs. digital games, it's about ownership",
@@ -98,7 +136,7 @@
         "subscriptions",
         "recurring revenue"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "Organic Maps",
@@ -108,7 +146,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 758,
+      "hn_points": 1066,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -117,7 +155,7 @@
         "OpenStreetMap",
         "Codeberg"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "Introduction to Compilers and Language Design",
@@ -136,7 +174,7 @@
         "C",
         "C-like"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "Fast Software, the Best Software",
@@ -154,7 +192,7 @@
         "Fast Software",
         "software performance"
       ],
-      "rank": 8
+      "rank": 10
     }
   ]
 }
