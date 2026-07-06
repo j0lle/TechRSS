@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 90,
   "total_articles": 3390,
-  "filtered_articles": 24,
+  "filtered_articles": 25,
   "articles": [
+    {
+      "title": "AMD Ryzen AI Halo – $4k AI Dev Kit",
+      "title_display": "AMD Ryzen AI Halo – $4k AI Dev Kit",
+      "link": "https://www.lttlabs.com/articles/2026/07/06/amd-ryzen-ai-halo",
+      "pub_date": "2026-07-06T15:21:00.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 141,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "AMD",
+        "Ryzen AI Halo",
+        "Strix Halo",
+        "Ryzen AI Max 395"
+      ],
+      "rank": 1
+    },
     {
       "title": "Aluminum Foil",
       "title_display": "Aluminum Foil",
@@ -21,7 +40,7 @@
         "folding",
         "microfabricator"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Workers Cache",
@@ -40,7 +59,7 @@
         "Cloudflare",
         "stale-while-revalidate"
       ],
-      "rank": 2
+      "rank": 3
     }
   ]
 }
