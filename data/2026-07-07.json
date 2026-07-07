@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 90,
   "total_articles": 3384,
-  "filtered_articles": 21,
+  "filtered_articles": 22,
   "articles": [
     {
       "title": "Fable turned remarkable into Tom Riddle's diary from Harry Potter",
@@ -13,8 +13,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 176,
-      "score": 27,
+      "hn_points": 293,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Fable",
@@ -23,6 +23,44 @@
         "Harry Potter"
       ],
       "rank": 1
+    },
+    {
+      "title": "Ternlight – 7 MB embedding model that runs in browser (WASM)",
+      "title_display": "Ternlight – 7 MB embedding model that runs in browser (WASM)",
+      "link": "https://ternlight-demo.vercel.app/",
+      "pub_date": "2026-07-06T23:31:00.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 135,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Ternlight",
+        "embeddings",
+        "WASM",
+        "MiniLM"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "Learning to code is still worthwhile",
+      "title_display": "Learning to code is still worthwhile",
+      "link": "https://stevekrouse.com/learn-to-code",
+      "pub_date": "2026-07-06T21:20:58.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 144,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Learning to code",
+        "LLMs",
+        "AI",
+        "Steve Krouse"
+      ],
+      "rank": 3
     },
     {
       "title": "CoMaps – FOSS Offline Maps",
@@ -41,7 +79,7 @@
         "FOSS",
         "offline maps"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "OpenWrt One – Open Hardware Router",
@@ -60,7 +98,7 @@
         "Open hardware",
         "Router"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "OfficeCLI: Office suite for AI agents to read and edit Microsoft Office files",
@@ -79,7 +117,7 @@
         "Microsoft Office",
         "Word"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "Egypt Is Building a New Nile",
@@ -98,7 +136,7 @@
         "TheB1M",
         "feddan"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "AMD Ryzen AI Halo – $4k AI Dev Kit",
@@ -117,7 +155,7 @@
         "Strix Halo",
         "Ryzen AI Max 395"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "Aluminum Foil",
@@ -127,15 +165,15 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 154,
-      "score": 27,
+      "hn_points": 254,
+      "score": 29,
       "category": "other",
       "keywords": [
         "aluminum foil",
         "folding",
         "microfabricator"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "Workers Cache",
@@ -154,7 +192,7 @@
         "Cloudflare",
         "stale-while-revalidate"
       ],
-      "rank": 8
+      "rank": 10
     }
   ]
 }
