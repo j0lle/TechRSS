@@ -1,10 +1,29 @@
 {
   "date": "2026-07-07",
   "total_feeds": 95,
-  "success_feeds": 86,
-  "total_articles": 3294,
+  "success_feeds": 90,
+  "total_articles": 3386,
   "filtered_articles": 26,
   "articles": [
+    {
+      "title": "98% Isn't Much",
+      "title_display": "98% Isn't Much",
+      "link": "https://whynothugo.nl/journal/2026/07/03/98-isnt-very-much/",
+      "pub_date": "2026-07-07T13:01:04.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 241,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "98%",
+        "software quality",
+        "reliability",
+        "AI"
+      ],
+      "rank": 1
+    },
     {
       "title": "Small AI Models Gain Traction In places with unreliable networks",
       "title_display": "Small AI Models Gain Traction In places with unreliable networks",
@@ -22,7 +41,7 @@
         "pharmaceuticals",
         "LLM"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "NSA and IETF: Fairness",
@@ -41,7 +60,7 @@
         "NSA",
         "Kyber"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Fable turned remarkable into Tom Riddle's diary from Harry Potter",
@@ -60,7 +79,7 @@
         "Tom Riddle",
         "Harry Potter"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Ternlight – 7 MB embedding model that runs in browser (WASM)",
@@ -79,7 +98,26 @@
         "WASM",
         "MiniLM"
       ],
-      "rank": 4
+      "rank": 5
+    },
+    {
+      "title": "Pruning RAG context down to what the answer actually needs",
+      "title_display": "Pruning RAG context down to what the answer actually needs",
+      "link": "https://www.kapa.ai/blog/how-we-prune-rag-context",
+      "pub_date": "2026-07-06T22:11:00.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 124,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "RAG",
+        "pruning",
+        "context window",
+        "kapa.ai"
+      ],
+      "rank": 6
     },
     {
       "title": "Learning to code is still worthwhile",
@@ -98,7 +136,7 @@
         "AI",
         "Steve Krouse"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "Python 3.14 compiled to metal – no interpreter",
@@ -117,7 +155,7 @@
         "native compilation",
         "CPython"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "CoMaps – FOSS Offline Maps",
@@ -136,7 +174,7 @@
         "FOSS",
         "offline maps"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "Linux on the Atari Jaguar. No, really.",
@@ -155,7 +193,7 @@
         "m68k",
         "68000"
       ],
-      "rank": 8
+      "rank": 10
     },
     {
       "title": "OpenWrt One – Open Hardware Router",
@@ -174,7 +212,7 @@
         "Open hardware",
         "Router"
       ],
-      "rank": 9
+      "rank": 11
     },
     {
       "title": "OfficeCLI: Office suite for AI agents to read and edit Microsoft Office files",
@@ -193,7 +231,7 @@
         "Microsoft Office",
         "Word"
       ],
-      "rank": 10
+      "rank": 12
     },
     {
       "title": "Egypt Is Building a New Nile",
@@ -212,7 +250,7 @@
         "TheB1M",
         "feddan"
       ],
-      "rank": 11
+      "rank": 13
     },
     {
       "title": "AMD Ryzen AI Halo – $4k AI Dev Kit",
@@ -231,7 +269,7 @@
         "Strix Halo",
         "Ryzen AI Max 395"
       ],
-      "rank": 12
+      "rank": 14
     },
     {
       "title": "Aluminum Foil",
@@ -249,7 +287,7 @@
         "folding",
         "microfabricator"
       ],
-      "rank": 13
+      "rank": 15
     },
     {
       "title": "Workers Cache",
@@ -268,7 +306,7 @@
         "Cloudflare",
         "stale-while-revalidate"
       ],
-      "rank": 14
+      "rank": 16
     }
   ]
 }
