@@ -1,0 +1,47 @@
+{
+  "date": "2026-07-08",
+  "total_feeds": 95,
+  "success_feeds": 90,
+  "total_articles": 3387,
+  "filtered_articles": 31,
+  "articles": [
+    {
+      "title": "Dua Lipa opens library for banned and censored books in Portugal",
+      "title_display": "Dua Lipa opens library for banned and censored books in Portugal",
+      "link": "https://www.euronews.com/culture/2026/06/29/dua-lipa-opens-library-for-banned-and-censored-books-in-portugal",
+      "pub_date": "2026-07-07T13:21:07.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 159,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Dua Lipa",
+        "banned books",
+        "censorship",
+        "library"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Januscape: Guest-to-Host Escape in KVM/x86 [CVE-2026-53359]",
+      "title_display": "Januscape: Guest-to-Host Escape in KVM/x86 [CVE-2026-53359]",
+      "link": "https://github.com/V4bel/Januscape",
+      "pub_date": "2026-07-06T19:20:59.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 129,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Januscape",
+        "KVM",
+        "guest-to-host escape",
+        "x86"
+      ],
+      "rank": 2
+    }
+  ]
+}
