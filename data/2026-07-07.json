@@ -1,10 +1,29 @@
 {
   "date": "2026-07-07",
   "total_feeds": 95,
-  "success_feeds": 87,
-  "total_articles": 3312,
-  "filtered_articles": 24,
+  "success_feeds": 89,
+  "total_articles": 3359,
+  "filtered_articles": 26,
   "articles": [
+    {
+      "title": "Small AI Models Gain Traction In places with unreliable networks",
+      "title_display": "Small AI Models Gain Traction In places with unreliable networks",
+      "link": "https://spectrum.ieee.org/small-language-models-ai-pharmaceuticals",
+      "pub_date": "2026-07-07T02:00:52.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 125,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "small language models",
+        "unreliable networks",
+        "pharmaceuticals",
+        "LLM"
+      ],
+      "rank": 1
+    },
     {
       "title": "Fable turned remarkable into Tom Riddle's diary from Harry Potter",
       "title_display": "Fable turned remarkable into Tom Riddle's diary from Harry Potter",
@@ -13,7 +32,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 293,
+      "hn_points": 400,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -22,7 +41,7 @@
         "Tom Riddle",
         "Harry Potter"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Ternlight – 7 MB embedding model that runs in browser (WASM)",
@@ -41,7 +60,7 @@
         "WASM",
         "MiniLM"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Learning to code is still worthwhile",
@@ -60,7 +79,7 @@
         "AI",
         "Steve Krouse"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Python 3.14 compiled to metal – no interpreter",
@@ -79,7 +98,7 @@
         "native compilation",
         "CPython"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "CoMaps – FOSS Offline Maps",
@@ -98,7 +117,26 @@
         "FOSS",
         "offline maps"
       ],
-      "rank": 5
+      "rank": 6
+    },
+    {
+      "title": "Linux on the Atari Jaguar. No, really.",
+      "title_display": "Linux on the Atari Jaguar. No, really.",
+      "link": "https://cakehonolulu.github.io/linux-for-jaguar/",
+      "pub_date": "2026-07-06T19:40:59.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 138,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Atari Jaguar",
+        "Linux",
+        "m68k",
+        "68000"
+      ],
+      "rank": 7
     },
     {
       "title": "OpenWrt One – Open Hardware Router",
@@ -117,7 +155,7 @@
         "Open hardware",
         "Router"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "OfficeCLI: Office suite for AI agents to read and edit Microsoft Office files",
@@ -136,7 +174,7 @@
         "Microsoft Office",
         "Word"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "Egypt Is Building a New Nile",
@@ -155,7 +193,7 @@
         "TheB1M",
         "feddan"
       ],
-      "rank": 8
+      "rank": 10
     },
     {
       "title": "AMD Ryzen AI Halo – $4k AI Dev Kit",
@@ -174,7 +212,7 @@
         "Strix Halo",
         "Ryzen AI Max 395"
       ],
-      "rank": 9
+      "rank": 11
     },
     {
       "title": "Aluminum Foil",
@@ -192,7 +230,7 @@
         "folding",
         "microfabricator"
       ],
-      "rank": 10
+      "rank": 12
     },
     {
       "title": "Workers Cache",
@@ -211,7 +249,7 @@
         "Cloudflare",
         "stale-while-revalidate"
       ],
-      "rank": 11
+      "rank": 13
     }
   ]
 }
