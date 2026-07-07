@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 90,
   "total_articles": 3388,
-  "filtered_articles": 29,
+  "filtered_articles": 30,
   "articles": [
+    {
+      "title": "Microsoft Fire IdTech Team at Id Software",
+      "title_display": "Microsoft Fire IdTech Team at Id Software",
+      "link": "https://gamefromscratch.com/microsoft-fire-idtech-team-at-id-software/",
+      "pub_date": "2026-07-07T15:51:03.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 318,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Microsoft",
+        "idTech",
+        "id Software",
+        "Unreal Engine (UE5)"
+      ],
+      "rank": 1
+    },
     {
       "title": "Dua Lipa opens library for banned and censored books in Portugal",
       "title_display": "Dua Lipa opens library for banned and censored books in Portugal",
@@ -22,7 +41,7 @@
         "censorship",
         "library"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Januscape: Guest-to-Host Escape in KVM/x86 [CVE-2026-53359]",
@@ -41,7 +60,7 @@
         "guest-to-host escape",
         "x86"
       ],
-      "rank": 2
+      "rank": 3
     }
   ]
 }
