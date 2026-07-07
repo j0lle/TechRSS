@@ -1,10 +1,29 @@
 {
   "date": "2026-07-07",
   "total_feeds": 95,
-  "success_feeds": 84,
-  "total_articles": 3279,
-  "filtered_articles": 19,
+  "success_feeds": 89,
+  "total_articles": 3359,
+  "filtered_articles": 18,
   "articles": [
+    {
+      "title": "Fable turned remarkable into Tom Riddle's diary from Harry Potter",
+      "title_display": "Fable turned remarkable into Tom Riddle's diary from Harry Potter",
+      "link": "https://github.com/MaximeRivest/Riddle",
+      "pub_date": "2026-07-06T23:40:58.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 176,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Fable",
+        "reMarkable",
+        "Tom Riddle",
+        "Harry Potter"
+      ],
+      "rank": 1
+    },
     {
       "title": "CoMaps – FOSS Offline Maps",
       "title_display": "CoMaps – FOSS Offline Maps",
@@ -22,7 +41,7 @@
         "FOSS",
         "offline maps"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "OpenWrt One – Open Hardware Router",
@@ -41,7 +60,7 @@
         "Open hardware",
         "Router"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "OfficeCLI: Office suite for AI agents to read and edit Microsoft Office files",
@@ -60,7 +79,7 @@
         "Microsoft Office",
         "Word"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "AMD Ryzen AI Halo – $4k AI Dev Kit",
@@ -79,7 +98,7 @@
         "Strix Halo",
         "Ryzen AI Max 395"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Aluminum Foil",
@@ -97,7 +116,7 @@
         "folding",
         "microfabricator"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Workers Cache",
@@ -116,7 +135,7 @@
         "Cloudflare",
         "stale-while-revalidate"
       ],
-      "rank": 6
+      "rank": 7
     }
   ]
 }
