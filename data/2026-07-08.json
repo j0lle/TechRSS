@@ -2,9 +2,28 @@
   "date": "2026-07-08",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3381,
-  "filtered_articles": 29,
+  "total_articles": 3366,
+  "filtered_articles": 31,
   "articles": [
+    {
+      "title": "GitLost: We Tricked GitHub's AI Agent into Leaking Private Repos",
+      "title_display": "GitLost: We Tricked GitHub's AI Agent into Leaking Private Repos",
+      "link": "https://noma.security/blog/gitlost-how-we-tricked-githubs-ai-agent-into-leaking-private-repos/",
+      "pub_date": "2026-07-08T06:51:05.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 172,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "GitHub",
+        "GitLost",
+        "AI agent",
+        "private repositories"
+      ],
+      "rank": 1
+    },
     {
       "title": "GPT-5.6 Sol, along with Terra and Luna, will launch publicly this Thursday",
       "title_display": "GPT-5.6 Sol, along with Terra and Luna, will launch publicly this Thursday",
@@ -22,7 +41,26 @@
         "Luna",
         "OpenAI"
       ],
-      "rank": 1
+      "rank": 2
+    },
+    {
+      "title": "We're extending access to Fable 5 on all paid plans through July 12",
+      "title_display": "We're extending access to Fable 5 on all paid plans through July 12",
+      "link": "https://twitter.com/claudeai/status/2074548242386178258",
+      "pub_date": "2026-07-08T03:31:04.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 187,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "Fable 5",
+        "Anthropic",
+        "Claude",
+        "Opus"
+      ],
+      "rank": 3
     },
     {
       "title": "Herdr: One terminal to rule them all",
@@ -41,7 +79,26 @@
         "tmux",
         "AI agents"
       ],
-      "rank": 2
+      "rank": 4
+    },
+    {
+      "title": "Notes on Software Quality",
+      "title_display": "Notes on Software Quality",
+      "link": "https://anthonyhobday.com/blog/20260410",
+      "pub_date": "2026-07-07T19:41:04.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 128,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "software quality",
+        "interface design",
+        "Anthony Hobday",
+        "CEO"
+      ],
+      "rank": 5
     },
     {
       "title": "A new runtime for k and q: l",
@@ -60,7 +117,7 @@
         "l",
         "lv1.sh"
       ],
-      "rank": 3
+      "rank": 6
     },
     {
       "title": "Why we built yet another Postgres connection pooler",
@@ -79,7 +136,7 @@
         "connection pooling",
         "pgbouncer"
       ],
-      "rank": 4
+      "rank": 7
     },
     {
       "title": "Jim's TrueType QR Code Font",
@@ -98,7 +155,7 @@
         "font",
         "qr-font"
       ],
-      "rank": 5
+      "rank": 8
     },
     {
       "title": "Microsoft Fire IdTech Team at Id Software",
@@ -117,7 +174,7 @@
         "id Software",
         "Unreal Engine (UE5)"
       ],
-      "rank": 6
+      "rank": 9
     },
     {
       "title": "Dua Lipa opens library for banned and censored books in Portugal",
@@ -136,7 +193,7 @@
         "censorship",
         "library"
       ],
-      "rank": 7
+      "rank": 10
     },
     {
       "title": "Dolosse – a South African invention used over the world",
@@ -155,7 +212,7 @@
         "Tetrapod",
         "wave-dissipating concrete blocks"
       ],
-      "rank": 8
+      "rank": 11
     },
     {
       "title": "Januscape: Guest-to-Host Escape in KVM/x86 [CVE-2026-53359]",
@@ -174,7 +231,7 @@
         "guest-to-host escape",
         "x86"
       ],
-      "rank": 9
+      "rank": 12
     }
   ]
 }
