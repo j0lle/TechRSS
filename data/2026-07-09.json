@@ -2,7 +2,46 @@
   "date": "2026-07-09",
   "total_feeds": 95,
   "success_feeds": 90,
-  "total_articles": 3391,
-  "filtered_articles": 28,
-  "articles": []
+  "total_articles": 3392,
+  "filtered_articles": 31,
+  "articles": [
+    {
+      "title": "GPT‑Live",
+      "title_display": "GPT‑Live",
+      "link": "https://openai.com/index/introducing-gpt-live/",
+      "pub_date": "2026-07-08T17:10:14.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 136,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "GPT-Live",
+        "OpenAI",
+        "ChatGPT",
+        "GPT-Live-1"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "OpenBSD has a use-after-free allowing local privilege escalation to root",
+      "title_display": "OpenBSD has a use-after-free allowing local privilege escalation to root",
+      "link": "https://nvd.nist.gov/vuln/detail/cve-2026-57589",
+      "pub_date": "2026-07-08T14:50:14.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 147,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "OpenBSD",
+        "CVE-2026-57589",
+        "use-after-free",
+        "local privilege escalation"
+      ],
+      "rank": 2
+    }
+  ]
 }
