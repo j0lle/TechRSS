@@ -1,10 +1,29 @@
 {
   "date": "2026-07-08",
   "total_feeds": 95,
-  "success_feeds": 90,
-  "total_articles": 3391,
-  "filtered_articles": 31,
+  "success_feeds": 89,
+  "total_articles": 3381,
+  "filtered_articles": 33,
   "articles": [
+    {
+      "title": "EVE Online's Carbon engine is now open source: Fenris Creations explains why",
+      "title_display": "EVE Online's Carbon engine is now open source: Fenris Creations explains why",
+      "link": "https://www.gamesindustry.biz/eve-onlines-carbon-engine-is-now-open-source-fenris-creations-explains-why",
+      "pub_date": "2026-07-08T11:11:06.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 177,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "EVE Online",
+        "Carbon engine",
+        "Fenris Creations",
+        "open-source"
+      ],
+      "rank": 1
+    },
     {
       "title": "GitLost: We Tricked GitHub's AI Agent into Leaking Private Repos",
       "title_display": "GitLost: We Tricked GitHub's AI Agent into Leaking Private Repos",
@@ -22,7 +41,7 @@
         "AI agent",
         "private repositories"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "GPT-5.6 Sol, along with Terra and Luna, will launch publicly this Thursday",
@@ -41,7 +60,26 @@
         "Luna",
         "OpenAI"
       ],
-      "rank": 2
+      "rank": 3
+    },
+    {
+      "title": "Copy That Floppy – Cambridge guide for preserving data from fragile floppy disks",
+      "title_display": "Copy That Floppy – Cambridge guide for preserving data from fragile floppy disks",
+      "link": "https://www.digipres.org/the-floppy-guide/",
+      "pub_date": "2026-07-08T05:01:06.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 124,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "floppy disk",
+        "digital preservation",
+        "Copy That Floppy",
+        "Digipres"
+      ],
+      "rank": 4
     },
     {
       "title": "We're extending access to Fable 5 on all paid plans through July 12",
@@ -60,7 +98,7 @@
         "Claude",
         "Opus"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "Herdr: One terminal to rule them all",
@@ -70,8 +108,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 234,
-      "score": 29,
+      "hn_points": 334,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Herdr",
@@ -79,7 +117,7 @@
         "tmux",
         "AI agents"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "Notes on Software Quality",
@@ -98,7 +136,7 @@
         "Anthony Hobday",
         "CEO"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "A new runtime for k and q: l",
@@ -117,7 +155,7 @@
         "l",
         "lv1.sh"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "Why we built yet another Postgres connection pooler",
@@ -136,7 +174,7 @@
         "connection pooling",
         "pgbouncer"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "Jim's TrueType QR Code Font",
@@ -155,7 +193,7 @@
         "font",
         "qr-font"
       ],
-      "rank": 8
+      "rank": 10
     },
     {
       "title": "Microsoft Fire IdTech Team at Id Software",
@@ -165,7 +203,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 318,
+      "hn_points": 620,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -174,7 +212,7 @@
         "id Software",
         "Unreal Engine (UE5)"
       ],
-      "rank": 9
+      "rank": 11
     },
     {
       "title": "Dua Lipa opens library for banned and censored books in Portugal",
@@ -193,7 +231,7 @@
         "censorship",
         "library"
       ],
-      "rank": 10
+      "rank": 12
     },
     {
       "title": "Dolosse – a South African invention used over the world",
@@ -212,7 +250,7 @@
         "Tetrapod",
         "wave-dissipating concrete blocks"
       ],
-      "rank": 11
+      "rank": 13
     },
     {
       "title": "Januscape: Guest-to-Host Escape in KVM/x86 [CVE-2026-53359]",
@@ -231,7 +269,7 @@
         "guest-to-host escape",
         "x86"
       ],
-      "rank": 12
+      "rank": 14
     }
   ]
 }
