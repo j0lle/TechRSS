@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 90,
   "total_articles": 3392,
-  "filtered_articles": 32,
+  "filtered_articles": 33,
   "articles": [
+    {
+      "title": "Show HN: Microsoft releases Flint, a visualization language for AI agents",
+      "title_display": "Show HN: Microsoft releases Flint, a visualization language for AI agents",
+      "link": "https://microsoft.github.io/flint-chart/#/",
+      "pub_date": "2026-07-08T18:10:13.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 131,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Flint",
+        "Microsoft",
+        "AI agents",
+        "data visualization"
+      ],
+      "rank": 1
+    },
     {
       "title": "GPT‑Live",
       "title_display": "GPT‑Live",
@@ -22,7 +41,7 @@
         "ChatGPT",
         "GPT-Live-1"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "SWE-1.7 Reach Near GPT 5.5 and Opus Intelligence",
@@ -41,7 +60,7 @@
         "GPT-5.5",
         "Opus Intelligence"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Chatto is now Open Source",
@@ -60,7 +79,7 @@
         "self-hosting",
         "Tauri"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "OpenBSD has a use-after-free allowing local privilege escalation to root",
@@ -79,7 +98,7 @@
         "use-after-free",
         "local privilege escalation"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Cloudflare Meerkat - Globally distributed consensus",
@@ -98,7 +117,7 @@
         "distributed consensus",
         "QuePaxa"
       ],
-      "rank": 5
+      "rank": 6
     }
   ]
 }
