@@ -3,8 +3,46 @@
   "total_feeds": 95,
   "success_feeds": 90,
   "total_articles": 3392,
-  "filtered_articles": 33,
+  "filtered_articles": 35,
   "articles": [
+    {
+      "title": "OpenAI no longer recommends SWE-Bench Pro",
+      "title_display": "OpenAI no longer recommends SWE-Bench Pro",
+      "link": "https://openai.com/index/separating-signal-from-noise-coding-evaluations/",
+      "pub_date": "2026-07-08T21:20:13.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 127,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "SWE-Bench Pro",
+        "OpenAI",
+        "coding evaluations",
+        "SWE-Bench"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Fable is not a useful model",
+      "title_display": "Fable is not a useful model",
+      "link": "https://combine-lab.github.io/blog/2026/07/07/fable-is-not-a-useful-model.html",
+      "pub_date": "2026-07-08T20:50:13.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 180,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Fable",
+        "Anthropic",
+        "Opus",
+        "classifier"
+      ],
+      "rank": 2
+    },
     {
       "title": "Show HN: Microsoft releases Flint, a visualization language for AI agents",
       "title_display": "Show HN: Microsoft releases Flint, a visualization language for AI agents",
@@ -22,7 +60,7 @@
         "AI agents",
         "data visualization"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "GPT‑Live",
@@ -41,7 +79,7 @@
         "ChatGPT",
         "GPT-Live-1"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "SWE-1.7 Reach Near GPT 5.5 and Opus Intelligence",
@@ -60,7 +98,7 @@
         "GPT-5.5",
         "Opus Intelligence"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "Chatto is now Open Source",
@@ -79,7 +117,7 @@
         "self-hosting",
         "Tauri"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "OpenBSD has a use-after-free allowing local privilege escalation to root",
@@ -98,7 +136,7 @@
         "use-after-free",
         "local privilege escalation"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "Cloudflare Meerkat - Globally distributed consensus",
@@ -117,7 +155,7 @@
         "distributed consensus",
         "QuePaxa"
       ],
-      "rank": 6
+      "rank": 8
     }
   ]
 }
