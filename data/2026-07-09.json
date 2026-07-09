@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 90,
   "total_articles": 3390,
-  "filtered_articles": 34,
+  "filtered_articles": 35,
   "articles": [
+    {
+      "title": "Postgres rewritten in Rust, now passing 100% of the Postgres regression tests",
+      "title_display": "Postgres rewritten in Rust, now passing 100% of the Postgres regression tests",
+      "link": "https://github.com/malisper/pgrust",
+      "pub_date": "2026-07-09T07:30:14.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 139,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Postgres",
+        "Rust",
+        "pgrust",
+        "regression tests"
+      ],
+      "rank": 1
+    },
     {
       "title": "I Think I Have LLM Burnout",
       "title_display": "I Think I Have LLM Burnout",
@@ -22,7 +41,7 @@
         "vibe coding",
         "code generation"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Rewriting Bun in Rust",
@@ -41,7 +60,7 @@
         "Zig",
         "Claude Code"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Turning a pile of documents into a searchable useable knowledge base",
@@ -60,7 +79,7 @@
         "GitHub",
         "local AI"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "OpenAI no longer recommends SWE-Bench Pro",
@@ -79,7 +98,7 @@
         "coding evaluations",
         "SWE-Bench"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Fable is not a useful model",
@@ -98,7 +117,7 @@
         "Opus",
         "classifier"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Show HN: Microsoft releases Flint, a visualization language for AI agents",
@@ -117,7 +136,7 @@
         "AI agents",
         "data visualization"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "GPT‑Live",
@@ -136,7 +155,7 @@
         "ChatGPT",
         "GPT-Live-1"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "SWE-1.7 Reach Near GPT 5.5 and Opus Intelligence",
@@ -155,7 +174,7 @@
         "GPT-5.5",
         "Opus Intelligence"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Chatto is now Open Source",
@@ -174,7 +193,7 @@
         "self-hosting",
         "Tauri"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "OpenBSD has a use-after-free allowing local privilege escalation to root",
@@ -193,7 +212,7 @@
         "use-after-free",
         "local privilege escalation"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "Cloudflare Meerkat - Globally distributed consensus",
@@ -212,7 +231,7 @@
         "distributed consensus",
         "QuePaxa"
       ],
-      "rank": 11
+      "rank": 12
     }
   ]
 }
