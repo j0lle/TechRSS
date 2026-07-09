@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 90,
   "total_articles": 3391,
-  "filtered_articles": 32,
+  "filtered_articles": 31,
   "articles": [
     {
       "title": "ChatGPT Work",
@@ -44,6 +44,25 @@
       "rank": 2
     },
     {
+      "title": "A Possible Future for Damn Interesting",
+      "title_display": "A Possible Future for Damn Interesting",
+      "link": "https://www.damninteresting.com/a-possible-future/",
+      "pub_date": "2026-07-09T16:20:15.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 179,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Damn Interesting",
+        "Stuff You Should Know",
+        "99PI",
+        "RadioLab"
+      ],
+      "rank": 3
+    },
+    {
       "title": "Introducing Muse Spark 1.1",
       "title_display": "Introducing Muse Spark 1.1",
       "link": "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/?_fb_noscript=1",
@@ -51,8 +70,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 176,
-      "score": 27,
+      "hn_points": 282,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Muse Spark 1.1",
@@ -60,7 +79,7 @@
         "Grok",
         "Grok 4.5"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "I Built the Only 2026 WWII Jeep",
@@ -78,7 +97,7 @@
         "WWII",
         "The Autopian"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Unicode's transliteration rules are Turing-complete",
@@ -97,7 +116,7 @@
         "transliteration",
         "Turing-complete"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "OpenMandriva: Statement regarding attempted distribution sabotage",
@@ -116,7 +135,7 @@
         "GitHub",
         "Mandriva"
       ],
-      "rank": 6
+      "rank": 7
     }
   ]
 }
