@@ -1,0 +1,65 @@
+{
+  "date": "2026-07-10",
+  "total_feeds": 95,
+  "success_feeds": 90,
+  "total_articles": 3391,
+  "filtered_articles": 34,
+  "articles": [
+    {
+      "title": "I Built the Only 2026 WWII Jeep",
+      "title_display": "I Built the Only 2026 WWII Jeep",
+      "link": "https://www.theautopian.com/i-bet-my-company-on-an-impossible-jeep-build-then-a-miracle-happened/",
+      "pub_date": "2026-07-09T09:10:15.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 128,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Jeep",
+        "WWII",
+        "The Autopian"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Unicode's transliteration rules are Turing-complete",
+      "title_display": "Unicode's transliteration rules are Turing-complete",
+      "link": "https://seriot.ch/computation/uts35/",
+      "pub_date": "2026-07-09T01:10:14.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 121,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "Unicode",
+        "UTS #35",
+        "transliteration",
+        "Turing-complete"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "OpenMandriva: Statement regarding attempted distribution sabotage",
+      "title_display": "OpenMandriva: Statement regarding attempted distribution sabotage",
+      "link": "https://forum.openmandriva.org/t/statement-regarding-attempted-distribution-sabotage/8997",
+      "pub_date": "2026-07-08T20:00:13.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 125,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "OpenMandriva",
+        "sabotage",
+        "GitHub",
+        "Mandriva"
+      ],
+      "rank": 3
+    }
+  ]
+}
