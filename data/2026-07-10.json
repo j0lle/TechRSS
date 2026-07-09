@@ -6,6 +6,25 @@
   "filtered_articles": 32,
   "articles": [
     {
+      "title": "ChatGPT Work",
+      "title_display": "ChatGPT Work",
+      "link": "https://openai.com/index/chatgpt-for-your-most-ambitious-work/",
+      "pub_date": "2026-07-09T17:20:14.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 257,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "ChatGPT Work",
+        "OpenAI",
+        "Codex",
+        "ChatGPT"
+      ],
+      "rank": 1
+    },
+    {
       "title": "GPT-5.6",
       "title_display": "GPT-5.6",
       "link": "https://openai.com/index/gpt-5-6/",
@@ -22,7 +41,7 @@
         "Fable 5",
         "Claude Code"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Introducing Muse Spark 1.1",
@@ -41,7 +60,7 @@
         "Grok",
         "Grok 4.5"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "I Built the Only 2026 WWII Jeep",
@@ -59,7 +78,7 @@
         "WWII",
         "The Autopian"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Unicode's transliteration rules are Turing-complete",
@@ -78,7 +97,7 @@
         "transliteration",
         "Turing-complete"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "OpenMandriva: Statement regarding attempted distribution sabotage",
@@ -97,7 +116,7 @@
         "GitHub",
         "Mandriva"
       ],
-      "rank": 5
+      "rank": 6
     }
   ]
 }
