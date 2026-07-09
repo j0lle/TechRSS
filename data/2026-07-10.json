@@ -6,6 +6,25 @@
   "filtered_articles": 34,
   "articles": [
     {
+      "title": "Introducing Muse Spark 1.1",
+      "title_display": "Introducing Muse Spark 1.1",
+      "link": "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/?_fb_noscript=1",
+      "pub_date": "2026-07-09T14:30:14.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 176,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Muse Spark 1.1",
+        "Meta",
+        "Grok",
+        "Grok 4.5"
+      ],
+      "rank": 1
+    },
+    {
       "title": "I Built the Only 2026 WWII Jeep",
       "title_display": "I Built the Only 2026 WWII Jeep",
       "link": "https://www.theautopian.com/i-bet-my-company-on-an-impossible-jeep-build-then-a-miracle-happened/",
@@ -21,7 +40,7 @@
         "WWII",
         "The Autopian"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Unicode's transliteration rules are Turing-complete",
@@ -40,7 +59,7 @@
         "transliteration",
         "Turing-complete"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "OpenMandriva: Statement regarding attempted distribution sabotage",
@@ -59,7 +78,7 @@
         "GitHub",
         "Mandriva"
       ],
-      "rank": 3
+      "rank": 4
     }
   ]
 }
