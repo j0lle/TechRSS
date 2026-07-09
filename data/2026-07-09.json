@@ -1,10 +1,29 @@
 {
   "date": "2026-07-09",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3328,
-  "filtered_articles": 36,
+  "success_feeds": 90,
+  "total_articles": 3390,
+  "filtered_articles": 34,
   "articles": [
+    {
+      "title": "I Think I Have LLM Burnout",
+      "title_display": "I Think I Have LLM Burnout",
+      "link": "https://www.alecscollon.com/blog/llm-burnout/",
+      "pub_date": "2026-07-09T02:00:16.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 237,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "LLM",
+        "burnout",
+        "vibe coding",
+        "code generation"
+      ],
+      "rank": 1
+    },
     {
       "title": "Rewriting Bun in Rust",
       "title_display": "Rewriting Bun in Rust",
@@ -22,7 +41,7 @@
         "Zig",
         "Claude Code"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "OpenAI no longer recommends SWE-Bench Pro",
@@ -41,7 +60,7 @@
         "coding evaluations",
         "SWE-Bench"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Fable is not a useful model",
@@ -60,7 +79,7 @@
         "Opus",
         "classifier"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Show HN: Microsoft releases Flint, a visualization language for AI agents",
@@ -79,7 +98,7 @@
         "AI agents",
         "data visualization"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "GPT‑Live",
@@ -98,7 +117,7 @@
         "ChatGPT",
         "GPT-Live-1"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "SWE-1.7 Reach Near GPT 5.5 and Opus Intelligence",
@@ -117,7 +136,7 @@
         "GPT-5.5",
         "Opus Intelligence"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Chatto is now Open Source",
@@ -136,7 +155,7 @@
         "self-hosting",
         "Tauri"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "OpenBSD has a use-after-free allowing local privilege escalation to root",
@@ -155,7 +174,7 @@
         "use-after-free",
         "local privilege escalation"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Cloudflare Meerkat - Globally distributed consensus",
@@ -174,7 +193,7 @@
         "distributed consensus",
         "QuePaxa"
       ],
-      "rank": 9
+      "rank": 10
     }
   ]
 }
