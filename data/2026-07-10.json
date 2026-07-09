@@ -1,10 +1,29 @@
 {
   "date": "2026-07-10",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3291,
-  "filtered_articles": 30,
+  "success_feeds": 90,
+  "total_articles": 3391,
+  "filtered_articles": 32,
   "articles": [
+    {
+      "title": "GPT-5.6",
+      "title_display": "GPT-5.6",
+      "link": "https://openai.com/index/gpt-5-6/",
+      "pub_date": "2026-07-09T17:10:12.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 584,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "GPT-5.6",
+        "OpenAI",
+        "Fable 5",
+        "Claude Code"
+      ],
+      "rank": 1
+    },
     {
       "title": "Introducing Muse Spark 1.1",
       "title_display": "Introducing Muse Spark 1.1",
@@ -22,7 +41,7 @@
         "Grok",
         "Grok 4.5"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "I Built the Only 2026 WWII Jeep",
@@ -40,7 +59,7 @@
         "WWII",
         "The Autopian"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Unicode's transliteration rules are Turing-complete",
@@ -59,7 +78,7 @@
         "transliteration",
         "Turing-complete"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "OpenMandriva: Statement regarding attempted distribution sabotage",
@@ -78,7 +97,7 @@
         "GitHub",
         "Mandriva"
       ],
-      "rank": 4
+      "rank": 5
     }
   ]
 }
