@@ -44,6 +44,25 @@
       "rank": 2
     },
     {
+      "title": "Turning a pile of documents into a searchable useable knowledge base",
+      "title_display": "Turning a pile of documents into a searchable useable knowledge base",
+      "link": "https://github.com/linuxrebel/DocuBrowser",
+      "pub_date": "2026-07-08T21:50:12.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 130,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "DocuBrowser",
+        "linuxrebel",
+        "GitHub",
+        "local AI"
+      ],
+      "rank": 3
+    },
+    {
       "title": "OpenAI no longer recommends SWE-Bench Pro",
       "title_display": "OpenAI no longer recommends SWE-Bench Pro",
       "link": "https://openai.com/index/separating-signal-from-noise-coding-evaluations/",
@@ -60,7 +79,7 @@
         "coding evaluations",
         "SWE-Bench"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Fable is not a useful model",
@@ -79,7 +98,7 @@
         "Opus",
         "classifier"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Show HN: Microsoft releases Flint, a visualization language for AI agents",
@@ -98,7 +117,7 @@
         "AI agents",
         "data visualization"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "GPT‑Live",
@@ -117,7 +136,7 @@
         "ChatGPT",
         "GPT-Live-1"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "SWE-1.7 Reach Near GPT 5.5 and Opus Intelligence",
@@ -136,7 +155,7 @@
         "GPT-5.5",
         "Opus Intelligence"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Chatto is now Open Source",
@@ -155,7 +174,7 @@
         "self-hosting",
         "Tauri"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "OpenBSD has a use-after-free allowing local privilege escalation to root",
@@ -174,7 +193,7 @@
         "use-after-free",
         "local privilege escalation"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Cloudflare Meerkat - Globally distributed consensus",
@@ -193,7 +212,7 @@
         "distributed consensus",
         "QuePaxa"
       ],
-      "rank": 10
+      "rank": 11
     }
   ]
 }
