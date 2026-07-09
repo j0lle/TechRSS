@@ -1,10 +1,67 @@
 {
   "date": "2026-07-09",
   "total_feeds": 95,
-  "success_feeds": 90,
-  "total_articles": 3391,
-  "filtered_articles": 35,
+  "success_feeds": 89,
+  "total_articles": 3379,
+  "filtered_articles": 33,
   "articles": [
+    {
+      "title": "Bonnie Tyler, singer of Total Eclipse of the Heart, dies aged 75",
+      "title_display": "Bonnie Tyler, singer of Total Eclipse of the Heart, dies aged 75",
+      "link": "https://www.bbc.com/news/articles/cg5pd9z2487o",
+      "pub_date": "2026-07-09T11:40:14.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 231,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "Bonnie Tyler",
+        "Total Eclipse of the Heart",
+        "BBC",
+        "YouTube"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "My Thoughts on the Bun Rust Rewrite",
+      "title_display": "My Thoughts on the Bun Rust Rewrite",
+      "link": "https://andrewkelley.me/post/my-thoughts-bun-rust-rewrite.html",
+      "pub_date": "2026-07-09T11:00:14.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 327,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Bun",
+        "Rust",
+        "Zig",
+        "Jarred"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "Meta reuses old RAM in new servers with custom bridge chip",
+      "title_display": "Meta reuses old RAM in new servers with custom bridge chip",
+      "link": "https://www.networkworld.com/article/4192827/meta-reuses-old-ram-in-new-servers-with-custom-bridge-chip.html",
+      "pub_date": "2026-07-09T10:00:14.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 146,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Meta",
+        "CXL",
+        "Vistara",
+        "DRAM"
+      ],
+      "rank": 3
+    },
     {
       "title": "Why developers are ditching GitHub for Codeberg and self-hosting alternatives",
       "title_display": "Why developers are ditching GitHub for Codeberg and self-hosting alternatives",
@@ -13,8 +70,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 167,
-      "score": 27,
+      "hn_points": 271,
+      "score": 29,
       "category": "other",
       "keywords": [
         "GitHub",
@@ -22,7 +79,7 @@
         "self-hosting",
         "HowToGeek"
       ],
-      "rank": 1
+      "rank": 4
     },
     {
       "title": "Postgres rewritten in Rust, now passing 100% of the Postgres regression tests",
@@ -41,7 +98,26 @@
         "pgrust",
         "regression tests"
       ],
-      "rank": 2
+      "rank": 5
+    },
+    {
+      "title": "Benchmarking coding agents on Databricks' multi-million line codebase",
+      "title_display": "Benchmarking coding agents on Databricks' multi-million line codebase",
+      "link": "https://www.databricks.com/blog/benchmarking-coding-agents-databricks-multi-million-line-codebase",
+      "pub_date": "2026-07-09T05:00:15.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 131,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Databricks",
+        "coding agents",
+        "benchmarking",
+        "lines-of-code"
+      ],
+      "rank": 6
     },
     {
       "title": "I Think I Have LLM Burnout",
@@ -60,7 +136,7 @@
         "vibe coding",
         "code generation"
       ],
-      "rank": 3
+      "rank": 7
     },
     {
       "title": "Rewriting Bun in Rust",
@@ -70,7 +146,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 362,
+      "hn_points": 667,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -79,7 +155,7 @@
         "Zig",
         "Claude Code"
       ],
-      "rank": 4
+      "rank": 8
     },
     {
       "title": "Turning a pile of documents into a searchable useable knowledge base",
@@ -98,7 +174,7 @@
         "GitHub",
         "local AI"
       ],
-      "rank": 5
+      "rank": 9
     },
     {
       "title": "OpenAI no longer recommends SWE-Bench Pro",
@@ -117,7 +193,7 @@
         "coding evaluations",
         "SWE-Bench"
       ],
-      "rank": 6
+      "rank": 10
     },
     {
       "title": "Fable is not a useful model",
@@ -136,7 +212,7 @@
         "Opus",
         "classifier"
       ],
-      "rank": 7
+      "rank": 11
     },
     {
       "title": "Show HN: Microsoft releases Flint, a visualization language for AI agents",
@@ -155,7 +231,7 @@
         "AI agents",
         "data visualization"
       ],
-      "rank": 8
+      "rank": 12
     },
     {
       "title": "GPT‑Live",
@@ -174,7 +250,7 @@
         "ChatGPT",
         "GPT-Live-1"
       ],
-      "rank": 9
+      "rank": 13
     },
     {
       "title": "SWE-1.7 Reach Near GPT 5.5 and Opus Intelligence",
@@ -193,7 +269,7 @@
         "GPT-5.5",
         "Opus Intelligence"
       ],
-      "rank": 10
+      "rank": 14
     },
     {
       "title": "Chatto is now Open Source",
@@ -212,7 +288,7 @@
         "self-hosting",
         "Tauri"
       ],
-      "rank": 11
+      "rank": 15
     },
     {
       "title": "OpenBSD has a use-after-free allowing local privilege escalation to root",
@@ -231,7 +307,7 @@
         "use-after-free",
         "local privilege escalation"
       ],
-      "rank": 12
+      "rank": 16
     },
     {
       "title": "Cloudflare Meerkat - Globally distributed consensus",
@@ -250,7 +326,7 @@
         "distributed consensus",
         "QuePaxa"
       ],
-      "rank": 13
+      "rank": 17
     }
   ]
 }
