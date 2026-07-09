@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 90,
   "total_articles": 3390,
-  "filtered_articles": 35,
+  "filtered_articles": 34,
   "articles": [
+    {
+      "title": "Why developers are ditching GitHub for Codeberg and self-hosting alternatives",
+      "title_display": "Why developers are ditching GitHub for Codeberg and self-hosting alternatives",
+      "link": "https://www.howtogeek.com/why-developers-are-ditching-github-for-codeberg-and-self-hosting-alternatives/",
+      "pub_date": "2026-07-09T08:50:18.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 167,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "GitHub",
+        "Codeberg",
+        "self-hosting",
+        "HowToGeek"
+      ],
+      "rank": 1
+    },
     {
       "title": "Postgres rewritten in Rust, now passing 100% of the Postgres regression tests",
       "title_display": "Postgres rewritten in Rust, now passing 100% of the Postgres regression tests",
@@ -22,7 +41,7 @@
         "pgrust",
         "regression tests"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "I Think I Have LLM Burnout",
@@ -41,7 +60,7 @@
         "vibe coding",
         "code generation"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Rewriting Bun in Rust",
@@ -60,7 +79,7 @@
         "Zig",
         "Claude Code"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Turning a pile of documents into a searchable useable knowledge base",
@@ -79,7 +98,7 @@
         "GitHub",
         "local AI"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "OpenAI no longer recommends SWE-Bench Pro",
@@ -98,7 +117,7 @@
         "coding evaluations",
         "SWE-Bench"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Fable is not a useful model",
@@ -117,7 +136,7 @@
         "Opus",
         "classifier"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Show HN: Microsoft releases Flint, a visualization language for AI agents",
@@ -136,7 +155,7 @@
         "AI agents",
         "data visualization"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "GPT‑Live",
@@ -155,7 +174,7 @@
         "ChatGPT",
         "GPT-Live-1"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "SWE-1.7 Reach Near GPT 5.5 and Opus Intelligence",
@@ -174,7 +193,7 @@
         "GPT-5.5",
         "Opus Intelligence"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Chatto is now Open Source",
@@ -193,7 +212,7 @@
         "self-hosting",
         "Tauri"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "OpenBSD has a use-after-free allowing local privilege escalation to root",
@@ -212,7 +231,7 @@
         "use-after-free",
         "local privilege escalation"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "Cloudflare Meerkat - Globally distributed consensus",
@@ -231,7 +250,7 @@
         "distributed consensus",
         "QuePaxa"
       ],
-      "rank": 12
+      "rank": 13
     }
   ]
 }
