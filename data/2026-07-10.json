@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 90,
   "total_articles": 3392,
-  "filtered_articles": 27,
+  "filtered_articles": 26,
   "articles": [
+    {
+      "title": "Apple Silicon Exec Explains Mac Mini AI Demand and On-Device Future",
+      "title_display": "Apple Silicon Exec Explains Mac Mini AI Demand and On-Device Future",
+      "link": "https://www.macrumors.com/2026/07/06/apple-silicon-exec-explains-mac-mini-ai-demand/",
+      "pub_date": "2026-07-10T04:50:58.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 132,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Apple",
+        "Apple Silicon",
+        "Mac mini",
+        "AI"
+      ],
+      "rank": 1
+    },
     {
       "title": "Interview with Mitchell Hashimoto about Ghostty and Zig",
       "title_display": "Interview with Mitchell Hashimoto about Ghostty and Zig",
@@ -22,7 +41,7 @@
         "Zig",
         "Rust"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Show HN: Getting GLM 5.2 running on my slow computer",
@@ -41,7 +60,7 @@
         "JustVugg",
         "GitHub"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "GLM 5.2 is nearly as accurate as a human book keeper",
@@ -60,7 +79,7 @@
         "VAT",
         "benchmark"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Girls Just Wanna Have Fast MPMC Queues with Bounded Waiting",
@@ -79,7 +98,7 @@
         "bounded waiting",
         "LCRQ"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "ChatGPT Work",
@@ -98,7 +117,7 @@
         "Codex",
         "ChatGPT"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "GPT-5.6",
@@ -117,7 +136,7 @@
         "Fable 5",
         "Claude Code"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "A Possible Future for Damn Interesting",
@@ -136,7 +155,7 @@
         "99PI",
         "RadioLab"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Opinionated and Easy Pi.dev Configuration",
@@ -155,7 +174,7 @@
         "OpenCode",
         "lazyvim"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "TLS certificates for internal services done right",
@@ -174,7 +193,7 @@
         "ACME",
         "split-horizon DNS"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Introducing Muse Spark 1.1",
@@ -193,7 +212,7 @@
         "Grok",
         "Grok 4.5"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "I Built the Only 2026 WWII Jeep",
@@ -211,7 +230,7 @@
         "WWII",
         "The Autopian"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "Unicode's transliteration rules are Turing-complete",
@@ -230,7 +249,7 @@
         "transliteration",
         "Turing-complete"
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "title": "OpenMandriva: Statement regarding attempted distribution sabotage",
@@ -249,7 +268,7 @@
         "GitHub",
         "Mandriva"
       ],
-      "rank": 13
+      "rank": 14
     }
   ]
 }
