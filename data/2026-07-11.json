@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3293,
-  "filtered_articles": 22,
+  "filtered_articles": 24,
   "articles": [
+    {
+      "title": "How the Terrorist Group Boko Haram Uses Frontier AI",
+      "title_display": "How the Terrorist Group Boko Haram Uses Frontier AI",
+      "link": "https://casp.ac/reports/ai-enabled-terrorism",
+      "pub_date": "2026-07-10T19:20:50.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 148,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Boko Haram",
+        "Frontier AI",
+        "LLMs",
+        "ChatGPT"
+      ],
+      "rank": 1
+    },
     {
       "title": "Snails' Teeth Beats Spider Silk as Nature's Strongest Material",
       "title_display": "Snails' Teeth Beats Spider Silk as Nature's Strongest Material",
@@ -22,7 +41,26 @@
         "Smithsonian Magazine",
         "Wiley Online Library"
       ],
-      "rank": 1
+      "rank": 2
+    },
+    {
+      "title": "Punk, or why I don't stream anymore",
+      "title_display": "Punk, or why I don't stream anymore",
+      "link": "https://geohot.github.io//blog/jekyll/update/2026/05/03/punk-or-why-i-dont-stream.html",
+      "pub_date": "2026-07-10T14:00:51.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 130,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "geohot",
+        "streaming",
+        "punk",
+        "AI"
+      ],
+      "rank": 3
     },
     {
       "title": "Write code like a human will maintain it",
@@ -41,7 +79,7 @@
         "AI agents",
         "Claude"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "Late Bronze Age Collapse",
@@ -60,7 +98,7 @@
         "ACOUP",
         "Sea Peoples"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "Good Tools Are Invisible",
@@ -79,7 +117,7 @@
         "terminal",
         "Sublime Text"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "EU Commission: addictive design Instagram and Facebook in breach of the DSA",
@@ -98,7 +136,7 @@
         "Digital Services Act (DSA)",
         "EU Commission"
       ],
-      "rank": 5
+      "rank": 7
     }
   ]
 }
