@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 90,
   "total_articles": 3391,
-  "filtered_articles": 29,
+  "filtered_articles": 28,
   "articles": [
     {
       "title": "Interview with Mitchell Hashimoto about Ghostty and Zig",
