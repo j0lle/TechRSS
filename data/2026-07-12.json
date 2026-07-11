@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3299,
-  "filtered_articles": 13,
+  "filtered_articles": 14,
   "articles": [
+    {
+      "title": "Prefer Strict Tables in SQLite",
+      "title_display": "Prefer Strict Tables in SQLite",
+      "link": "https://evanhahn.com/prefer-strict-tables-in-sqlite/",
+      "pub_date": "2026-07-11T18:30:38.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 156,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "SQLite",
+        "Strict tables",
+        "flexible typing",
+        "implicit casting"
+      ],
+      "rank": 1
+    },
     {
       "title": "Modern Decor May Be Straining People's Brains",
       "title_display": "Modern Decor May Be Straining People's Brains",
@@ -22,7 +41,7 @@
         "visual stress",
         "StudyFinds"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "We scaled PgBouncer to 4x throughput",
@@ -41,7 +60,7 @@
         "Postgres",
         "SO_REUSEPORT"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Networking and the Internet, from First Principles",
@@ -60,7 +79,7 @@
         "Mental models",
         "First principles"
       ],
-      "rank": 3
+      "rank": 4
     }
   ]
 }
