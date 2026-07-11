@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3298,
-  "filtered_articles": 21,
+  "filtered_articles": 23,
   "articles": [
+    {
+      "title": "SpaceX wants to launch 100k more Starlink satellites for 100x the bandwidth",
+      "title_display": "SpaceX wants to launch 100k more Starlink satellites for 100x the bandwidth",
+      "link": "https://www.zdnet.com/home-and-office/networking/spacex-wants-to-launch-100000-more-starlink-satellites/",
+      "pub_date": "2026-07-11T00:30:52.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 157,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Starlink",
+        "SpaceX",
+        "satellites",
+        "satellite internet"
+      ],
+      "rank": 1
+    },
     {
       "title": "How the Terrorist Group Boko Haram Uses Frontier AI",
       "title_display": "How the Terrorist Group Boko Haram Uses Frontier AI",
@@ -22,7 +41,7 @@
         "LLMs",
         "ChatGPT"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "War Atlas: An interactive cartography of every named war in human history",
@@ -41,7 +60,7 @@
         "map projection",
         "Mercator projection"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Snails' Teeth Beats Spider Silk as Nature's Strongest Material",
@@ -60,7 +79,7 @@
         "Smithsonian Magazine",
         "Wiley Online Library"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Punk, or why I don't stream anymore",
@@ -79,7 +98,7 @@
         "punk",
         "AI"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Write code like a human will maintain it",
@@ -98,7 +117,7 @@
         "AI agents",
         "Claude"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Late Bronze Age Collapse",
@@ -117,7 +136,7 @@
         "ACOUP",
         "Sea Peoples"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Good Tools Are Invisible",
@@ -136,7 +155,7 @@
         "terminal",
         "Sublime Text"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "EU Commission: addictive design Instagram and Facebook in breach of the DSA",
@@ -155,7 +174,7 @@
         "Digital Services Act (DSA)",
         "EU Commission"
       ],
-      "rank": 8
+      "rank": 9
     }
   ]
 }
