@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3299,
-  "filtered_articles": 16,
+  "filtered_articles": 17,
   "articles": [
+    {
+      "title": "Show HN: Ant – A JavaScript Runtime and Ecosystem",
+      "title_display": "Show HN: Ant – A JavaScript Runtime and Ecosystem",
+      "link": "https://antjs.org",
+      "pub_date": "2026-07-11T20:30:37.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 145,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Ant",
+        "JavaScript",
+        "antjs.org",
+        "ant-desktop"
+      ],
+      "rank": 1
+    },
     {
       "title": "AI 2040 and the Cult of Intelligence",
       "title_display": "AI 2040 and the Cult of Intelligence",
@@ -22,7 +41,7 @@
         "cult of intelligence",
         "centralization"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Prefer Strict Tables in SQLite",
@@ -41,7 +60,7 @@
         "flexible typing",
         "implicit casting"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Modern Decor May Be Straining People's Brains",
@@ -60,7 +79,7 @@
         "visual stress",
         "StudyFinds"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "We scaled PgBouncer to 4x throughput",
@@ -79,7 +98,7 @@
         "Postgres",
         "SO_REUSEPORT"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Networking and the Internet, from First Principles",
@@ -98,7 +117,7 @@
         "Mental models",
         "First principles"
       ],
-      "rank": 5
+      "rank": 6
     }
   ]
 }
