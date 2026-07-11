@@ -1,10 +1,29 @@
 {
   "date": "2026-07-11",
   "total_feeds": 95,
-  "success_feeds": 87,
-  "total_articles": 3245,
-  "filtered_articles": 18,
+  "success_feeds": 86,
+  "total_articles": 3208,
+  "filtered_articles": 14,
   "articles": [
+    {
+      "title": "An iroh powered smart fan",
+      "title_display": "An iroh powered smart fan",
+      "link": "https://www.iroh.computer/blog/an-iroh-powered-smart-fan",
+      "pub_date": "2026-07-11T01:30:52.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 126,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "iroh",
+        "smart fan",
+        "JavaScript",
+        "TypeScript"
+      ],
+      "rank": 1
+    },
     {
       "title": "SpaceX wants to launch 100k more Starlink satellites for 100x the bandwidth",
       "title_display": "SpaceX wants to launch 100k more Starlink satellites for 100x the bandwidth",
@@ -22,7 +41,7 @@
         "satellites",
         "satellite internet"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "How the Terrorist Group Boko Haram Uses Frontier AI",
@@ -41,7 +60,7 @@
         "LLMs",
         "ChatGPT"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "War Atlas: An interactive cartography of every named war in human history",
@@ -60,7 +79,7 @@
         "map projection",
         "Mercator projection"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Snails' Teeth Beats Spider Silk as Nature's Strongest Material",
@@ -79,7 +98,7 @@
         "Smithsonian Magazine",
         "Wiley Online Library"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Scarf has moved away from Haskell",
@@ -98,7 +117,7 @@
         "Python",
         "LLM"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Punk, or why I don't stream anymore",
@@ -117,7 +136,7 @@
         "punk",
         "AI"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Write code like a human will maintain it",
@@ -136,7 +155,7 @@
         "AI agents",
         "Claude"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Late Bronze Age Collapse",
@@ -155,7 +174,7 @@
         "ACOUP",
         "Sea Peoples"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Good Tools Are Invisible",
@@ -174,7 +193,7 @@
         "terminal",
         "Sublime Text"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "EU Commission: addictive design Instagram and Facebook in breach of the DSA",
@@ -193,7 +212,7 @@
         "Digital Services Act (DSA)",
         "EU Commission"
       ],
-      "rank": 10
+      "rank": 11
     }
   ]
 }
