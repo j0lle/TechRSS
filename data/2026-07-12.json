@@ -2,9 +2,28 @@
   "date": "2026-07-12",
   "total_feeds": 95,
   "success_feeds": 88,
-  "total_articles": 3289,
-  "filtered_articles": 11,
+  "total_articles": 3274,
+  "filtered_articles": 12,
   "articles": [
+    {
+      "title": "Modern Decor May Be Straining People's Brains",
+      "title_display": "Modern Decor May Be Straining People's Brains",
+      "link": "https://studyfinds.com/modern-decor-may-be-straining-peoples-brains/",
+      "pub_date": "2026-07-11T17:00:39.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 130,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "modern decor",
+        "brains",
+        "visual stress",
+        "StudyFinds"
+      ],
+      "rank": 1
+    },
     {
       "title": "Networking and the Internet, from First Principles",
       "title_display": "Networking and the Internet, from First Principles",
@@ -22,7 +41,7 @@
         "Mental models",
         "First principles"
       ],
-      "rank": 1
+      "rank": 2
     }
   ]
 }
