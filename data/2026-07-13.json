@@ -6,6 +6,25 @@
   "filtered_articles": 14,
   "articles": [
     {
+      "title": "Understanding the Odin Programming Language",
+      "title_display": "Understanding the Odin Programming Language",
+      "link": "https://odinbook.com/",
+      "pub_date": "2026-07-12T12:50:15.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 125,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Odin",
+        "Programming language",
+        "Rust",
+        "Zig"
+      ],
+      "rank": 1
+    },
+    {
       "title": "Ghostel.el: Terminal emulator powered by libghostty",
       "title_display": "Ghostel.el: Terminal emulator powered by libghostty",
       "link": "https://dakra.github.io/ghostel/",
@@ -22,7 +41,7 @@
         "libghostty",
         "libghostty-vt"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Show HN: Mindwalk – Replay coding-agent sessions on a 3D map of your codebase",
@@ -41,7 +60,7 @@
         "3D map",
         "codebase"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Billions of Sketches Reveal Hidden Cultural Variation in Human Concepts",
@@ -60,7 +79,7 @@
         "sketches",
         "QuickDraw dataset"
       ],
-      "rank": 3
+      "rank": 4
     }
   ]
 }
