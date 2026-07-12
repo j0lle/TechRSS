@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3306,
-  "filtered_articles": 16,
+  "filtered_articles": 15,
   "articles": [
     {
       "title": "What xAI's Grok Build CLI Actually Sends to xAI",
@@ -13,8 +13,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 173,
-      "score": 27,
+      "hn_points": 274,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Grok Build CLI",
@@ -215,6 +215,25 @@
       "rank": 11
     },
     {
+      "title": "Book: RISC-V System-on-Chip Design",
+      "title_display": "Book: RISC-V System-on-Chip Design",
+      "link": "https://www.amazon.com/RISC-V-Microprocessor-System-Chip-Design/dp/0323994989",
+      "pub_date": "2026-07-11T15:00:43.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 122,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "RISC-V",
+        "System-on-Chip",
+        "C (compressed) extension",
+        "Linux"
+      ],
+      "rank": 12
+    },
+    {
       "title": "Networking and the Internet, from First Principles",
       "title_display": "Networking and the Internet, from First Principles",
       "link": "https://fazamhd.com/mental-models/networking/",
@@ -231,7 +250,7 @@
         "Mental models",
         "First principles"
       ],
-      "rank": 12
+      "rank": 13
     }
   ]
 }
