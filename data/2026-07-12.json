@@ -1,10 +1,29 @@
 {
   "date": "2026-07-12",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3306,
+  "success_feeds": 88,
+  "total_articles": 3286,
   "filtered_articles": 15,
   "articles": [
+    {
+      "title": "What xAI's Grok Build CLI Actually Sends to xAI",
+      "title_display": "What xAI's Grok Build CLI Actually Sends to xAI",
+      "link": "https://gist.github.com/cereblab/dc9a40bc26120f4540e4e09b75ffb547",
+      "pub_date": "2026-07-12T02:50:36.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 173,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Grok Build CLI",
+        "xAI",
+        "Grok",
+        "GitHub"
+      ],
+      "rank": 1
+    },
     {
       "title": "Mesh LLM: distributed AI computing on iroh",
       "title_display": "Mesh LLM: distributed AI computing on iroh",
@@ -22,7 +41,7 @@
         "distributed LLM",
         "cocompute.ai"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Show HN: Ant – A JavaScript Runtime and Ecosystem",
@@ -41,7 +60,7 @@
         "antjs.org",
         "ant-desktop"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "UPI: Anatomy of a Payment Transaction",
@@ -60,7 +79,7 @@
         "RBI",
         "NEFT"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Nvidia, CoreWeave, and Nebius: Inside the Circular Financing of the GPU Boom",
@@ -79,7 +98,7 @@
         "Nebius",
         "circular financing"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "AI 2040 and the Cult of Intelligence",
@@ -98,7 +117,7 @@
         "cult of intelligence",
         "centralization"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Prefer Strict Tables in SQLite",
@@ -108,8 +127,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 156,
-      "score": 27,
+      "hn_points": 258,
+      "score": 29,
       "category": "other",
       "keywords": [
         "SQLite",
@@ -117,7 +136,7 @@
         "flexible typing",
         "implicit casting"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Modern Decor May Be Straining People's Brains",
@@ -136,7 +155,7 @@
         "visual stress",
         "StudyFinds"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "We scaled PgBouncer to 4x throughput",
@@ -155,7 +174,7 @@
         "Postgres",
         "SO_REUSEPORT"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Networking and the Internet, from First Principles",
@@ -174,7 +193,7 @@
         "Mental models",
         "First principles"
       ],
-      "rank": 9
+      "rank": 10
     }
   ]
 }
