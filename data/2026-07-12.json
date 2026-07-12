@@ -32,8 +32,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 125,
-      "score": 26,
+      "hn_points": 225,
+      "score": 28,
       "category": "other",
       "keywords": [
         "Mesh LLM",
@@ -82,6 +82,25 @@
       "rank": 4
     },
     {
+      "title": "Show HN: Learn by rebuilding Redis, Git, a database from scratch",
+      "title_display": "Show HN: Learn by rebuilding Redis, Git, a database from scratch",
+      "link": "https://shipthatcode.com",
+      "pub_date": "2026-07-11T20:20:38.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 169,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Redis",
+        "Git",
+        "database",
+        "ShipThatCode"
+      ],
+      "rank": 5
+    },
+    {
       "title": "UPI: Anatomy of a Payment Transaction",
       "title_display": "UPI: Anatomy of a Payment Transaction",
       "link": "https://timeseriesofindia.com/economy/reads/upi-architecture/",
@@ -98,7 +117,7 @@
         "RBI",
         "NEFT"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Nvidia, CoreWeave, and Nebius: Inside the Circular Financing of the GPU Boom",
@@ -117,7 +136,7 @@
         "Nebius",
         "circular financing"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "AI 2040 and the Cult of Intelligence",
@@ -136,7 +155,7 @@
         "cult of intelligence",
         "centralization"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Prefer Strict Tables in SQLite",
@@ -155,7 +174,7 @@
         "flexible typing",
         "implicit casting"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Modern Decor May Be Straining People's Brains",
@@ -174,7 +193,7 @@
         "visual stress",
         "StudyFinds"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "We scaled PgBouncer to 4x throughput",
@@ -193,7 +212,7 @@
         "Postgres",
         "SO_REUSEPORT"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "Networking and the Internet, from First Principles",
@@ -212,7 +231,7 @@
         "Mental models",
         "First principles"
       ],
-      "rank": 11
+      "rank": 12
     }
   ]
 }
