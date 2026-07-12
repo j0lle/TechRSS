@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3306,
-  "filtered_articles": 15,
+  "filtered_articles": 16,
   "articles": [
+    {
+      "title": "An agent in 100 lines of Lisp",
+      "title_display": "An agent in 100 lines of Lisp",
+      "link": "https://thebeach.dev/posts/lisp-agent/",
+      "pub_date": "2026-07-12T04:20:39.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 158,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Lisp",
+        "Agent",
+        "LLM",
+        "Python"
+      ],
+      "rank": 1
+    },
     {
       "title": "What xAI's Grok Build CLI Actually Sends to xAI",
       "title_display": "What xAI's Grok Build CLI Actually Sends to xAI",
@@ -22,7 +41,7 @@
         "Grok",
         "GitHub"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Mesh LLM: distributed AI computing on iroh",
@@ -41,7 +60,7 @@
         "distributed LLM",
         "cocompute.ai"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "RISCBoy is an open-source portable games console, designed from scratch",
@@ -60,7 +79,7 @@
         "Game Boy Advance",
         "Raspberry Pi"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Show HN: Ant – A JavaScript Runtime and Ecosystem",
@@ -79,7 +98,7 @@
         "antjs.org",
         "ant-desktop"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Show HN: Learn by rebuilding Redis, Git, a database from scratch",
@@ -98,7 +117,7 @@
         "database",
         "ShipThatCode"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "UPI: Anatomy of a Payment Transaction",
@@ -117,7 +136,7 @@
         "RBI",
         "NEFT"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Nvidia, CoreWeave, and Nebius: Inside the Circular Financing of the GPU Boom",
@@ -136,7 +155,7 @@
         "Nebius",
         "circular financing"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "AI 2040 and the Cult of Intelligence",
@@ -155,7 +174,7 @@
         "cult of intelligence",
         "centralization"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Prefer Strict Tables in SQLite",
@@ -174,7 +193,7 @@
         "flexible typing",
         "implicit casting"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Modern Decor May Be Straining People's Brains",
@@ -193,7 +212,7 @@
         "visual stress",
         "StudyFinds"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "We scaled PgBouncer to 4x throughput",
@@ -212,7 +231,7 @@
         "Postgres",
         "SO_REUSEPORT"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "Book: RISC-V System-on-Chip Design",
@@ -231,7 +250,7 @@
         "C (compressed) extension",
         "Linux"
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "title": "Networking and the Internet, from First Principles",
@@ -250,7 +269,7 @@
         "Mental models",
         "First principles"
       ],
-      "rank": 13
+      "rank": 14
     }
   ]
 }
