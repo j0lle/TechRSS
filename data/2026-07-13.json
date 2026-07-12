@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3306,
-  "filtered_articles": 15,
+  "filtered_articles": 16,
   "articles": [
+    {
+      "title": "Show HN: Mindwalk – Replay coding-agent sessions on a 3D map of your codebase",
+      "title_display": "Show HN: Mindwalk – Replay coding-agent sessions on a 3D map of your codebase",
+      "link": "https://github.com/cosmtrek/mindwalk",
+      "pub_date": "2026-07-12T07:30:38.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 126,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Mindwalk",
+        "coding-agent",
+        "3D map",
+        "codebase"
+      ],
+      "rank": 1
+    },
     {
       "title": "Billions of Sketches Reveal Hidden Cultural Variation in Human Concepts",
       "title_display": "Billions of Sketches Reveal Hidden Cultural Variation in Human Concepts",
@@ -22,7 +41,7 @@
         "sketches",
         "QuickDraw dataset"
       ],
-      "rank": 1
+      "rank": 2
     }
   ]
 }
