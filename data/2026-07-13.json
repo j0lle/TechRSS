@@ -1,0 +1,28 @@
+{
+  "date": "2026-07-13",
+  "total_feeds": 95,
+  "success_feeds": 89,
+  "total_articles": 3306,
+  "filtered_articles": 15,
+  "articles": [
+    {
+      "title": "Billions of Sketches Reveal Hidden Cultural Variation in Human Concepts",
+      "title_display": "Billions of Sketches Reveal Hidden Cultural Variation in Human Concepts",
+      "link": "https://arxiv.org/abs/2607.07267",
+      "pub_date": "2026-07-11T22:50:37.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 122,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "cultural variation",
+        "human concepts",
+        "sketches",
+        "QuickDraw dataset"
+      ],
+      "rank": 1
+    }
+  ]
+}
