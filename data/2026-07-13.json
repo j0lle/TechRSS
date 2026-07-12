@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3306,
-  "filtered_articles": 15,
+  "filtered_articles": 17,
   "articles": [
+    {
+      "title": "Claude Code sends 33k tokens before reading the prompt; OpenCode sends 7k",
+      "title_display": "Claude Code sends 33k tokens before reading the prompt; OpenCode sends 7k",
+      "link": "https://systima.ai/blog/claude-code-vs-opencode-token-overhead",
+      "pub_date": "2026-07-12T18:50:14.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 310,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Claude Code",
+        "OpenCode",
+        "tokens",
+        "Anthropic"
+      ],
+      "rank": 1
+    },
     {
       "title": "Understanding the Odin Programming Language",
       "title_display": "Understanding the Odin Programming Language",
@@ -22,7 +41,7 @@
         "Rust",
         "Zig"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Ghostel.el: Terminal emulator powered by libghostty",
@@ -41,7 +60,7 @@
         "libghostty",
         "libghostty-vt"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Show HN: Mindwalk – Replay coding-agent sessions on a 3D map of your codebase",
@@ -60,7 +79,7 @@
         "3D map",
         "codebase"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Billions of Sketches Reveal Hidden Cultural Variation in Human Concepts",
@@ -79,7 +98,7 @@
         "sketches",
         "QuickDraw dataset"
       ],
-      "rank": 4
+      "rank": 5
     }
   ]
 }
