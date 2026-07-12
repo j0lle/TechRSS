@@ -1,10 +1,29 @@
 {
   "date": "2026-07-12",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3306,
-  "filtered_articles": 13,
+  "success_feeds": 88,
+  "total_articles": 3286,
+  "filtered_articles": 15,
   "articles": [
+    {
+      "title": "Mesh LLM: distributed AI computing on iroh",
+      "title_display": "Mesh LLM: distributed AI computing on iroh",
+      "link": "https://www.iroh.computer/blog/mesh-llm",
+      "pub_date": "2026-07-11T22:50:36.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 125,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Mesh LLM",
+        "iroh",
+        "distributed LLM",
+        "cocompute.ai"
+      ],
+      "rank": 1
+    },
     {
       "title": "Show HN: Ant – A JavaScript Runtime and Ecosystem",
       "title_display": "Show HN: Ant – A JavaScript Runtime and Ecosystem",
@@ -22,7 +41,26 @@
         "antjs.org",
         "ant-desktop"
       ],
-      "rank": 1
+      "rank": 2
+    },
+    {
+      "title": "UPI: Anatomy of a Payment Transaction",
+      "title_display": "UPI: Anatomy of a Payment Transaction",
+      "link": "https://timeseriesofindia.com/economy/reads/upi-architecture/",
+      "pub_date": "2026-07-11T19:20:37.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 125,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "UPI",
+        "NPCI",
+        "RBI",
+        "NEFT"
+      ],
+      "rank": 3
     },
     {
       "title": "Nvidia, CoreWeave, and Nebius: Inside the Circular Financing of the GPU Boom",
@@ -41,7 +79,7 @@
         "Nebius",
         "circular financing"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "AI 2040 and the Cult of Intelligence",
@@ -60,7 +98,7 @@
         "cult of intelligence",
         "centralization"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "Prefer Strict Tables in SQLite",
@@ -79,7 +117,7 @@
         "flexible typing",
         "implicit casting"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "Modern Decor May Be Straining People's Brains",
@@ -98,7 +136,7 @@
         "visual stress",
         "StudyFinds"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "We scaled PgBouncer to 4x throughput",
@@ -117,7 +155,7 @@
         "Postgres",
         "SO_REUSEPORT"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "Networking and the Internet, from First Principles",
@@ -136,7 +174,7 @@
         "Mental models",
         "First principles"
       ],
-      "rank": 7
+      "rank": 9
     }
   ]
 }
