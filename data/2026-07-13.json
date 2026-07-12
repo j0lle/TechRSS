@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3306,
-  "filtered_articles": 17,
+  "filtered_articles": 15,
   "articles": [
+    {
+      "title": "Ghostel.el: Terminal emulator powered by libghostty",
+      "title_display": "Ghostel.el: Terminal emulator powered by libghostty",
+      "link": "https://dakra.github.io/ghostel/",
+      "pub_date": "2026-07-12T11:50:16.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 195,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "Ghostel",
+        "Emacs",
+        "libghostty",
+        "libghostty-vt"
+      ],
+      "rank": 1
+    },
     {
       "title": "Show HN: Mindwalk – Replay coding-agent sessions on a 3D map of your codebase",
       "title_display": "Show HN: Mindwalk – Replay coding-agent sessions on a 3D map of your codebase",
@@ -22,7 +41,7 @@
         "3D map",
         "codebase"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Billions of Sketches Reveal Hidden Cultural Variation in Human Concepts",
@@ -41,7 +60,7 @@
         "sketches",
         "QuickDraw dataset"
       ],
-      "rank": 2
+      "rank": 3
     }
   ]
 }
