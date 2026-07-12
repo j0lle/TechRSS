@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3306,
-  "filtered_articles": 14,
+  "filtered_articles": 15,
   "articles": [
     {
       "title": "Ghostel.el: Terminal emulator powered by libghostty",
