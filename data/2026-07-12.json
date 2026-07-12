@@ -2,8 +2,8 @@
   "date": "2026-07-12",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3299,
-  "filtered_articles": 17,
+  "total_articles": 3300,
+  "filtered_articles": 15,
   "articles": [
     {
       "title": "Show HN: Ant – A JavaScript Runtime and Ecosystem",
@@ -25,6 +25,25 @@
       "rank": 1
     },
     {
+      "title": "Nvidia, CoreWeave, and Nebius: Inside the Circular Financing of the GPU Boom",
+      "title_display": "Nvidia, CoreWeave, and Nebius: Inside the Circular Financing of the GPU Boom",
+      "link": "https://io-fund.com/ai-stocks/nvidia-coreweave-nebius-circular-financing-gpu-boom",
+      "pub_date": "2026-07-11T18:40:38.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 126,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Nvidia",
+        "CoreWeave",
+        "Nebius",
+        "circular financing"
+      ],
+      "rank": 2
+    },
+    {
       "title": "AI 2040 and the Cult of Intelligence",
       "title_display": "AI 2040 and the Cult of Intelligence",
       "link": "https://geohot.github.io//blog/jekyll/update/2026/07/11/ai-2040.html",
@@ -41,7 +60,7 @@
         "cult of intelligence",
         "centralization"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Prefer Strict Tables in SQLite",
@@ -60,7 +79,7 @@
         "flexible typing",
         "implicit casting"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Modern Decor May Be Straining People's Brains",
@@ -79,7 +98,7 @@
         "visual stress",
         "StudyFinds"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "We scaled PgBouncer to 4x throughput",
@@ -98,7 +117,7 @@
         "Postgres",
         "SO_REUSEPORT"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Networking and the Internet, from First Principles",
@@ -117,7 +136,7 @@
         "Mental models",
         "First principles"
       ],
-      "rank": 6
+      "rank": 7
     }
   ]
 }
