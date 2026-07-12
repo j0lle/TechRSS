@@ -1,9 +1,9 @@
 {
   "date": "2026-07-12",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3286,
-  "filtered_articles": 15,
+  "success_feeds": 89,
+  "total_articles": 3306,
+  "filtered_articles": 16,
   "articles": [
     {
       "title": "What xAI's Grok Build CLI Actually Sends to xAI",
@@ -44,6 +44,25 @@
       "rank": 2
     },
     {
+      "title": "RISCBoy is an open-source portable games console, designed from scratch",
+      "title_display": "RISCBoy is an open-source portable games console, designed from scratch",
+      "link": "https://github.com/Wren6991/RISCBoy",
+      "pub_date": "2026-07-11T22:40:35.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 124,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "RISCBoy",
+        "RISC-V",
+        "Game Boy Advance",
+        "Raspberry Pi"
+      ],
+      "rank": 3
+    },
+    {
       "title": "Show HN: Ant – A JavaScript Runtime and Ecosystem",
       "title_display": "Show HN: Ant – A JavaScript Runtime and Ecosystem",
       "link": "https://antjs.org",
@@ -51,8 +70,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 145,
-      "score": 26,
+      "hn_points": 246,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Ant",
@@ -60,7 +79,7 @@
         "antjs.org",
         "ant-desktop"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "UPI: Anatomy of a Payment Transaction",
@@ -79,7 +98,7 @@
         "RBI",
         "NEFT"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Nvidia, CoreWeave, and Nebius: Inside the Circular Financing of the GPU Boom",
@@ -89,8 +108,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 126,
-      "score": 26,
+      "hn_points": 230,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Nvidia",
@@ -98,7 +117,7 @@
         "Nebius",
         "circular financing"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "AI 2040 and the Cult of Intelligence",
@@ -117,7 +136,7 @@
         "cult of intelligence",
         "centralization"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Prefer Strict Tables in SQLite",
@@ -136,7 +155,7 @@
         "flexible typing",
         "implicit casting"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Modern Decor May Be Straining People's Brains",
@@ -155,7 +174,7 @@
         "visual stress",
         "StudyFinds"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "We scaled PgBouncer to 4x throughput",
@@ -174,7 +193,7 @@
         "Postgres",
         "SO_REUSEPORT"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Networking and the Internet, from First Principles",
@@ -193,7 +212,7 @@
         "Mental models",
         "First principles"
       ],
-      "rank": 10
+      "rank": 11
     }
   ]
 }
