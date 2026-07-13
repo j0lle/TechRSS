@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3302,
-  "filtered_articles": 16,
+  "filtered_articles": 20,
   "articles": [
+    {
+      "title": "Tiny Emulators",
+      "title_display": "Tiny Emulators",
+      "link": "https://floooh.github.io/tiny8bit-preview/index.html",
+      "pub_date": "2026-07-12T20:40:15.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 199,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "tiny8bit",
+        "Tiny Emulators",
+        "emulator",
+        "8-bit"
+      ],
+      "rank": 1
+    },
     {
       "title": "I love LLMs, I hate hype",
       "title_display": "I love LLMs, I hate hype",
@@ -22,7 +41,26 @@
         "AI",
         "geohot"
       ],
-      "rank": 1
+      "rank": 2
+    },
+    {
+      "title": "Why write code in 2026",
+      "title_display": "Why write code in 2026",
+      "link": "https://softwaredoug.com/blog/2026/07/09/write-code",
+      "pub_date": "2026-07-12T19:00:14.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 128,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "LLMs",
+        "AI",
+        "agents",
+        "code review"
+      ],
+      "rank": 3
     },
     {
       "title": "Claude Code sends 33k tokens before reading the prompt; OpenCode sends 7k",
@@ -41,7 +79,7 @@
         "tokens",
         "Anthropic"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "LARP – Revenue infrastructure for serious founders",
@@ -60,7 +98,7 @@
         "Y Combinator",
         "startups"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "Understanding the Odin Programming Language",
@@ -79,7 +117,7 @@
         "Rust",
         "Zig"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "Ghostel.el: Terminal emulator powered by libghostty",
@@ -98,7 +136,7 @@
         "libghostty",
         "libghostty-vt"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "Show HN: Mindwalk – Replay coding-agent sessions on a 3D map of your codebase",
@@ -117,7 +155,7 @@
         "3D map",
         "codebase"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "Billions of Sketches Reveal Hidden Cultural Variation in Human Concepts",
@@ -136,7 +174,7 @@
         "sketches",
         "QuickDraw dataset"
       ],
-      "rank": 7
+      "rank": 9
     }
   ]
 }
