@@ -32,8 +32,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 127,
-      "score": 26,
+      "hn_points": 357,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Climate.gov",
@@ -42,6 +42,25 @@
         "weather data"
       ],
       "rank": 2
+    },
+    {
+      "title": "The real prices of frontier models. Tokens * Price, right?",
+      "title_display": "The real prices of frontier models. Tokens * Price, right?",
+      "link": "https://playcode.io/blog/real-price-of-frontier-models",
+      "pub_date": "2026-07-13T19:10:13.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 138,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "tokens",
+        "tokenizer",
+        "OpenAI",
+        "Anthropic"
+      ],
+      "rank": 3
     },
     {
       "title": "Building and Shipping Mac and iOS Apps Without Ever Opening Xcode",
@@ -60,7 +79,7 @@
         "iOS",
         "Claude Code"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Apple's new SpeechAnalyzer API, benchmarked against Whisper and its predecessor",
@@ -79,7 +98,7 @@
         "Apple",
         "Inscribe"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Show HN: Clawk – Give coding agents a disposable Linux VM, not your laptop",
@@ -98,7 +117,7 @@
         "Linux VM",
         "sandboxing"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Grok uploaded my user directory to xAI's servers",
@@ -117,7 +136,7 @@
         "AI agent",
         "Twitter"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Grok CLI uploaded the whole home directory to GCS",
@@ -136,7 +155,7 @@
         "Twitter/X",
         "home directory"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Control the Ideas, Not the Code",
@@ -155,7 +174,7 @@
         "Valkey",
         "antirez"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Show HN: DOM-docx – HTML to native, editable Word docs (MIT)",
@@ -174,7 +193,7 @@
         "HTML",
         "Microsoft Word"
       ],
-      "rank": 9
+      "rank": 10
     }
   ]
 }
