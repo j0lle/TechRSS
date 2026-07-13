@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3306,
-  "filtered_articles": 16,
+  "filtered_articles": 17,
   "articles": [
     {
       "title": "I love LLMs, I hate hype",
@@ -44,6 +44,25 @@
       "rank": 2
     },
     {
+      "title": "LARP – Revenue infrastructure for serious founders",
+      "title_display": "LARP – Revenue infrastructure for serious founders",
+      "link": "https://www.larp.website/",
+      "pub_date": "2026-07-12T18:40:16.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 134,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "LARP",
+        "revenue infrastructure",
+        "Y Combinator",
+        "startups"
+      ],
+      "rank": 3
+    },
+    {
       "title": "Understanding the Odin Programming Language",
       "title_display": "Understanding the Odin Programming Language",
       "link": "https://odinbook.com/",
@@ -60,7 +79,7 @@
         "Rust",
         "Zig"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Ghostel.el: Terminal emulator powered by libghostty",
@@ -79,7 +98,7 @@
         "libghostty",
         "libghostty-vt"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Show HN: Mindwalk – Replay coding-agent sessions on a 3D map of your codebase",
@@ -98,7 +117,7 @@
         "3D map",
         "codebase"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Billions of Sketches Reveal Hidden Cultural Variation in Human Concepts",
@@ -117,7 +136,7 @@
         "sketches",
         "QuickDraw dataset"
       ],
-      "rank": 6
+      "rank": 7
     }
   ]
 }
