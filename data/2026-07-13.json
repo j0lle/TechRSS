@@ -1,9 +1,9 @@
 {
   "date": "2026-07-13",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3306,
-  "filtered_articles": 17,
+  "success_feeds": 88,
+  "total_articles": 3282,
+  "filtered_articles": 15,
   "articles": [
     {
       "title": "I love LLMs, I hate hype",
