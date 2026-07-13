@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3304,
-  "filtered_articles": 30,
+  "filtered_articles": 31,
   "articles": [
     {
       "title": "Apple's new SpeechAnalyzer API, benchmarked against Whisper and its predecessor",
