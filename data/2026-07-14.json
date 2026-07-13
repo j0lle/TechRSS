@@ -6,6 +6,25 @@
   "filtered_articles": 35,
   "articles": [
     {
+      "title": "Show HN: Clawk – Give coding agents a disposable Linux VM, not your laptop",
+      "title_display": "Show HN: Clawk – Give coding agents a disposable Linux VM, not your laptop",
+      "link": "https://github.com/clawkwork/clawk",
+      "pub_date": "2026-07-13T14:30:17.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 125,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Clawk",
+        "coding agents",
+        "Linux VM",
+        "sandboxing"
+      ],
+      "rank": 1
+    },
+    {
       "title": "Grok uploaded my user directory to xAI's servers",
       "title_display": "Grok uploaded my user directory to xAI's servers",
       "link": "https://twitter.com/a_green_being/status/2076598897779020159",
@@ -22,7 +41,7 @@
         "AI agent",
         "Twitter"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Grok CLI uploaded the whole home directory to GCS",
@@ -41,7 +60,7 @@
         "Twitter/X",
         "home directory"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Control the Ideas, Not the Code",
@@ -60,7 +79,7 @@
         "Valkey",
         "antirez"
       ],
-      "rank": 3
+      "rank": 4
     }
   ]
 }
