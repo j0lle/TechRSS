@@ -1,9 +1,9 @@
 {
   "date": "2026-07-13",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3282,
-  "filtered_articles": 15,
+  "success_feeds": 89,
+  "total_articles": 3302,
+  "filtered_articles": 16,
   "articles": [
     {
       "title": "I love LLMs, I hate hype",
@@ -13,8 +13,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 242,
-      "score": 29,
+      "hn_points": 342,
+      "score": 30,
       "category": "other",
       "keywords": [
         "LLMs",
