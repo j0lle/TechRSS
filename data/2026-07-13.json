@@ -6,6 +6,44 @@
   "filtered_articles": 20,
   "articles": [
     {
+      "title": "GhostLock, a stack-UAF that has existed in all Linux distributions for 15 years",
+      "title_display": "GhostLock, a stack-UAF that has existed in all Linux distributions for 15 years",
+      "link": "https://nebusec.ai/research/ionstack-part-2/",
+      "pub_date": "2026-07-13T02:00:15.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 200,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "GhostLock",
+        "Linux kernel",
+        "stack UAF",
+        "IonStack"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Why Vanilla JavaScript",
+      "title_display": "Why Vanilla JavaScript",
+      "link": "https://guseyn.com/html/posts/why-vanilla-js.html",
+      "pub_date": "2026-07-13T01:30:15.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 128,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Vanilla JavaScript",
+        "JavaScript frameworks",
+        "React",
+        "TypeScript"
+      ],
+      "rank": 2
+    },
+    {
       "title": "Tiny Emulators",
       "title_display": "Tiny Emulators",
       "link": "https://floooh.github.io/tiny8bit-preview/index.html",
@@ -22,7 +60,7 @@
         "emulator",
         "8-bit"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "I love LLMs, I hate hype",
@@ -41,7 +79,7 @@
         "AI",
         "geohot"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "Why write code in 2026",
@@ -60,7 +98,7 @@
         "agents",
         "code review"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "Claude Code sends 33k tokens before reading the prompt; OpenCode sends 7k",
@@ -79,7 +117,7 @@
         "tokens",
         "Anthropic"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "LARP – Revenue infrastructure for serious founders",
@@ -98,7 +136,7 @@
         "Y Combinator",
         "startups"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "Understanding the Odin Programming Language",
@@ -117,7 +155,7 @@
         "Rust",
         "Zig"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "Ghostel.el: Terminal emulator powered by libghostty",
@@ -136,7 +174,7 @@
         "libghostty",
         "libghostty-vt"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "Show HN: Mindwalk – Replay coding-agent sessions on a 3D map of your codebase",
@@ -155,7 +193,7 @@
         "3D map",
         "codebase"
       ],
-      "rank": 8
+      "rank": 10
     },
     {
       "title": "Billions of Sketches Reveal Hidden Cultural Variation in Human Concepts",
@@ -174,7 +212,7 @@
         "sketches",
         "QuickDraw dataset"
       ],
-      "rank": 9
+      "rank": 11
     }
   ]
 }
