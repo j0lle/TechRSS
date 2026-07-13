@@ -1,10 +1,29 @@
 {
   "date": "2026-07-14",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3284,
+  "success_feeds": 89,
+  "total_articles": 3304,
   "filtered_articles": 30,
   "articles": [
+    {
+      "title": "Apple's new SpeechAnalyzer API, benchmarked against Whisper and its predecessor",
+      "title_display": "Apple's new SpeechAnalyzer API, benchmarked against Whisper and its predecessor",
+      "link": "https://get-inscribe.com/blog/apple-speech-api-benchmark.html",
+      "pub_date": "2026-07-13T16:20:15.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 242,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "Apple SpeechAnalyzer",
+        "Whisper",
+        "Apple",
+        "Inscribe"
+      ],
+      "rank": 1
+    },
     {
       "title": "Show HN: Clawk – Give coding agents a disposable Linux VM, not your laptop",
       "title_display": "Show HN: Clawk – Give coding agents a disposable Linux VM, not your laptop",
@@ -22,7 +41,7 @@
         "Linux VM",
         "sandboxing"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Grok uploaded my user directory to xAI's servers",
@@ -41,7 +60,7 @@
         "AI agent",
         "Twitter"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Grok CLI uploaded the whole home directory to GCS",
@@ -60,7 +79,7 @@
         "Twitter/X",
         "home directory"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Control the Ideas, Not the Code",
@@ -79,7 +98,7 @@
         "Valkey",
         "antirez"
       ],
-      "rank": 4
+      "rank": 5
     }
   ]
 }
