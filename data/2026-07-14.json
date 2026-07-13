@@ -1,0 +1,28 @@
+{
+  "date": "2026-07-14",
+  "total_feeds": 95,
+  "success_feeds": 89,
+  "total_articles": 3304,
+  "filtered_articles": 32,
+  "articles": [
+    {
+      "title": "Control the Ideas, Not the Code",
+      "title_display": "Control the Ideas, Not the Code",
+      "link": "https://antirez.com/news/169",
+      "pub_date": "2026-07-13T12:50:18.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 149,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "AI",
+        "Redis",
+        "Valkey",
+        "antirez"
+      ],
+      "rank": 1
+    }
+  ]
+}
