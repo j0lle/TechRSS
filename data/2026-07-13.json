@@ -2,8 +2,8 @@
   "date": "2026-07-13",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3303,
-  "filtered_articles": 28,
+  "total_articles": 3304,
+  "filtered_articles": 30,
   "articles": [
     {
       "title": "The Graph That Should Be Front-Page News",
@@ -108,8 +108,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 199,
-      "score": 28,
+      "hn_points": 301,
+      "score": 30,
       "category": "other",
       "keywords": [
         "tiny8bit",
