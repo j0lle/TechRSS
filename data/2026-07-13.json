@@ -2,8 +2,8 @@
   "date": "2026-07-13",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3302,
-  "filtered_articles": 22,
+  "total_articles": 3303,
+  "filtered_articles": 24,
   "articles": [
     {
       "title": "GhostLock, a stack-UAF that has existed in all Linux distributions for 15 years",
@@ -127,7 +127,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 310,
+      "hn_points": 616,
       "score": 30,
       "category": "other",
       "keywords": [
