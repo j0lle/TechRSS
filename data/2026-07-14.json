@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3304,
-  "filtered_articles": 32,
+  "filtered_articles": 30,
   "articles": [
+    {
+      "title": "Samsung will delete your health data if you don't let them use it to train AI",
+      "title_display": "Samsung will delete your health data if you don't let them use it to train AI",
+      "link": "https://neow.in/cWsyMTV3",
+      "pub_date": "2026-07-13T21:20:03.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 218,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "Samsung",
+        "health data",
+        "AI",
+        "training data"
+      ],
+      "rank": 1
+    },
     {
       "title": "Telegram's t.me domain has been suspended",
       "title_display": "Telegram's t.me domain has been suspended",
@@ -22,7 +41,7 @@
         "DNS",
         "serverHold"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Climate.gov was destroyed. Open data saved it",
@@ -41,7 +60,7 @@
         "climate data",
         "weather data"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "The real prices of frontier models. Tokens * Price, right?",
@@ -60,7 +79,7 @@
         "OpenAI",
         "Anthropic"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Building and Shipping Mac and iOS Apps Without Ever Opening Xcode",
@@ -79,7 +98,7 @@
         "iOS",
         "Claude Code"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Apple's new SpeechAnalyzer API, benchmarked against Whisper and its predecessor",
@@ -98,7 +117,7 @@
         "Apple",
         "Inscribe"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Show HN: Clawk – Give coding agents a disposable Linux VM, not your laptop",
@@ -117,7 +136,7 @@
         "Linux VM",
         "sandboxing"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Grok uploaded my user directory to xAI's servers",
@@ -136,7 +155,7 @@
         "AI agent",
         "Twitter"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Grok CLI uploaded the whole home directory to GCS",
@@ -155,7 +174,7 @@
         "Twitter/X",
         "home directory"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Control the Ideas, Not the Code",
@@ -174,7 +193,7 @@
         "Valkey",
         "antirez"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Show HN: DOM-docx – HTML to native, editable Word docs (MIT)",
@@ -193,7 +212,7 @@
         "HTML",
         "Microsoft Word"
       ],
-      "rank": 10
+      "rank": 11
     }
   ]
 }
