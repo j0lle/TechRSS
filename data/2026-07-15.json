@@ -2,8 +2,8 @@
   "date": "2026-07-15",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3307,
-  "filtered_articles": 40,
+  "total_articles": 3308,
+  "filtered_articles": 41,
   "articles": [
     {
       "title": "The Tower Keeps Rising",
@@ -44,6 +44,25 @@
       "rank": 2
     },
     {
+      "title": "Show HN: Juggler – an open-source GUI coding agent, by the creator of JUCE",
+      "title_display": "Show HN: Juggler – an open-source GUI coding agent, by the creator of JUCE",
+      "link": "https://github.com/juggler-ai/juggler",
+      "pub_date": "2026-07-14T14:50:07.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 132,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Juggler",
+        "JUCE",
+        "coding agent",
+        "GUI"
+      ],
+      "rank": 3
+    },
+    {
       "title": "Codex scraped the ICM website and discovered 2026 Fields Medal winner list",
       "title_display": "Codex scraped the ICM website and discovered 2026 Fields Medal winner list",
       "link": "https://phemex.com/news/article/2026-fields-medal-winners-list-leaked-includes-two-peking-university-alumni-92948",
@@ -60,7 +79,7 @@
         "ICM",
         "Phemex"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Just Let Me Write Digits",
@@ -79,7 +98,7 @@
         "scroll-smoothing",
         "IBM CUA"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "European \"age verification\" \"app\" forcing everyone to use Android or iOS",
@@ -89,7 +108,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 285,
+      "hn_points": 395,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -98,7 +117,7 @@
         "Android",
         "iOS"
       ],
-      "rank": 5
+      "rank": 6
     }
   ]
 }
