@@ -2,9 +2,28 @@
   "date": "2026-07-14",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3306,
+  "total_articles": 3307,
   "filtered_articles": 32,
   "articles": [
+    {
+      "title": "Codex starts encrypting prompts, uses ciphertext for inference instead",
+      "title_display": "Codex starts encrypting prompts, uses ciphertext for inference instead",
+      "link": "https://github.com/openai/codex/issues/28058",
+      "pub_date": "2026-07-14T11:30:05.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 251,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "Codex",
+        "OpenAI",
+        "encryption",
+        "ciphertext"
+      ],
+      "rank": 1
+    },
     {
       "title": "YouTrackDB is a general-use object-oriented graph database",
       "title_display": "YouTrackDB is a general-use object-oriented graph database",
@@ -22,7 +41,7 @@
         "graph database",
         "object-oriented"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Japan develops a method to recover up to 90% of lithium from used EV batteries",
@@ -41,7 +60,7 @@
         "EV batteries",
         "Japan"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "What will be left for us to work on?",
@@ -60,7 +79,7 @@
         "developers",
         "tech debt"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "The Git history command deserves more attention",
@@ -79,7 +98,7 @@
         "git rebase",
         "git rebase --update-refs"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Samsung will delete your health data if you don't let them use it to train AI",
@@ -98,7 +117,7 @@
         "AI",
         "training data"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Telegram's t.me domain has been suspended",
@@ -117,7 +136,7 @@
         "DNS",
         "serverHold"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Climate.gov was destroyed. Open data saved it",
@@ -136,7 +155,7 @@
         "climate data",
         "weather data"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "The real prices of frontier models. Tokens * Price, right?",
@@ -155,7 +174,7 @@
         "OpenAI",
         "Anthropic"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Linux on the Sega 32X. Who needs hardware synchronization primitives anyway?",
@@ -174,7 +193,7 @@
         "SMP",
         "SH2"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Building and Shipping Mac and iOS Apps Without Ever Opening Xcode",
@@ -193,7 +212,7 @@
         "iOS",
         "Claude Code"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "Benchmarking 15 \"E-Waste\" GPUs with Modern Workloads",
@@ -212,7 +231,7 @@
         "E-waste GPUs",
         "VRAM"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "Apple's new SpeechAnalyzer API, benchmarked against Whisper and its predecessor",
@@ -231,7 +250,7 @@
         "Apple",
         "Inscribe"
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "title": "Show HN: Clawk – Give coding agents a disposable Linux VM, not your laptop",
@@ -250,7 +269,7 @@
         "Linux VM",
         "sandboxing"
       ],
-      "rank": 13
+      "rank": 14
     },
     {
       "title": "The 'absolute magic' of Morse code that still connects people globally",
@@ -269,7 +288,7 @@
         "morsechat",
         "BBC"
       ],
-      "rank": 14
+      "rank": 15
     },
     {
       "title": "Grok uploaded my user directory to xAI's servers",
@@ -288,7 +307,7 @@
         "AI agent",
         "Twitter"
       ],
-      "rank": 15
+      "rank": 16
     },
     {
       "title": "Grok CLI uploaded the whole home directory to GCS",
@@ -307,7 +326,7 @@
         "Twitter/X",
         "home directory"
       ],
-      "rank": 16
+      "rank": 17
     },
     {
       "title": "Control the Ideas, Not the Code",
@@ -326,7 +345,7 @@
         "Valkey",
         "antirez"
       ],
-      "rank": 17
+      "rank": 18
     },
     {
       "title": "Show HN: DOM-docx – HTML to native, editable Word docs (MIT)",
@@ -345,7 +364,7 @@
         "HTML",
         "Microsoft Word"
       ],
-      "rank": 18
+      "rank": 19
     }
   ]
 }
