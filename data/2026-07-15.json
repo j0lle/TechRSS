@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3307,
-  "filtered_articles": 38,
+  "filtered_articles": 40,
   "articles": [
+    {
+      "title": "The Tower Keeps Rising",
+      "title_display": "The Tower Keeps Rising",
+      "link": "https://lucumr.pocoo.org/2026/7/13/the-tower-keeps-rising/",
+      "pub_date": "2026-07-14T17:20:05.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 183,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "AI",
+        "AI agents",
+        "software architecture",
+        "refactoring"
+      ],
+      "rank": 1
+    },
     {
       "title": "Measuring Input Latency on Linux: X11 vs. Wayland, VRR, and DXVK",
       "title_display": "Measuring Input Latency on Linux: X11 vs. Wayland, VRR, and DXVK",
@@ -22,7 +41,7 @@
         "X11",
         "XWayland"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Codex scraped the ICM website and discovered 2026 Fields Medal winner list",
@@ -41,7 +60,26 @@
         "ICM",
         "Phemex"
       ],
-      "rank": 2
+      "rank": 3
+    },
+    {
+      "title": "Just Let Me Write Digits",
+      "title_display": "Just Let Me Write Digits",
+      "link": "https://gendx.dev/blog/2026/07/13/input-digits.html",
+      "pub_date": "2026-07-14T10:40:06.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 137,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "digit-input",
+        "JavaScript",
+        "scroll-smoothing",
+        "IBM CUA"
+      ],
+      "rank": 4
     },
     {
       "title": "European \"age verification\" \"app\" forcing everyone to use Android or iOS",
@@ -60,7 +98,7 @@
         "Android",
         "iOS"
       ],
-      "rank": 3
+      "rank": 5
     }
   ]
 }
