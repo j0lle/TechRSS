@@ -2,8 +2,8 @@
   "date": "2026-07-14",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3305,
-  "filtered_articles": 34,
+  "total_articles": 3306,
+  "filtered_articles": 32,
   "articles": [
     {
       "title": "YouTrackDB is a general-use object-oriented graph database",
