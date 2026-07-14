@@ -1,0 +1,47 @@
+{
+  "date": "2026-07-15",
+  "total_feeds": 95,
+  "success_feeds": 89,
+  "total_articles": 3307,
+  "filtered_articles": 35,
+  "articles": [
+    {
+      "title": "Codex scraped the ICM website and discovered 2026 Fields Medal winner list",
+      "title_display": "Codex scraped the ICM website and discovered 2026 Fields Medal winner list",
+      "link": "https://phemex.com/news/article/2026-fields-medal-winners-list-leaked-includes-two-peking-university-alumni-92948",
+      "pub_date": "2026-07-14T11:50:06.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 135,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Codex",
+        "Fields Medal",
+        "ICM",
+        "Phemex"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "European \"age verification\" \"app\" forcing everyone to use Android or iOS",
+      "title_display": "European \"age verification\" \"app\" forcing everyone to use Android or iOS",
+      "link": "https://github.com/eu-digital-identity-wallet/av-doc-technical-specification/discussions/19",
+      "pub_date": "2026-07-14T09:10:04.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 152,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "eu-digital-identity-wallet",
+        "age verification",
+        "Android",
+        "iOS"
+      ],
+      "rank": 2
+    }
+  ]
+}
