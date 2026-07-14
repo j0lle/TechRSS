@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3307,
-  "filtered_articles": 35,
+  "filtered_articles": 36,
   "articles": [
     {
       "title": "Codex scraped the ICM website and discovered 2026 Fields Medal winner list",
@@ -32,8 +32,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 152,
-      "score": 27,
+      "hn_points": 285,
+      "score": 30,
       "category": "other",
       "keywords": [
         "eu-digital-identity-wallet",
