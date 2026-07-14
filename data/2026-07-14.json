@@ -1,9 +1,9 @@
 {
   "date": "2026-07-14",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3304,
-  "filtered_articles": 30,
+  "success_feeds": 88,
+  "total_articles": 3284,
+  "filtered_articles": 29,
   "articles": [
     {
       "title": "Samsung will delete your health data if you don't let them use it to train AI",
@@ -89,8 +89,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 178,
-      "score": 27,
+      "hn_points": 286,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Xcode",
