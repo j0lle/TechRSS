@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3303,
-  "filtered_articles": 30,
+  "filtered_articles": 31,
   "articles": [
+    {
+      "title": "Japan develops a method to recover up to 90% of lithium from used EV batteries",
+      "title_display": "Japan develops a method to recover up to 90% of lithium from used EV batteries",
+      "link": "https://tech.supercarblondie.com/japan-recovers-up-to-90-of-lithium-from-used-ev-batteries/",
+      "pub_date": "2026-07-14T03:20:04.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 238,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "lithium",
+        "battery recycling",
+        "EV batteries",
+        "Japan"
+      ],
+      "rank": 1
+    },
     {
       "title": "The Git history command deserves more attention",
       "title_display": "The Git history command deserves more attention",
@@ -22,7 +41,7 @@
         "git rebase",
         "git rebase --update-refs"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Samsung will delete your health data if you don't let them use it to train AI",
@@ -41,7 +60,7 @@
         "AI",
         "training data"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Telegram's t.me domain has been suspended",
@@ -51,8 +70,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 192,
-      "score": 28,
+      "hn_points": 295,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Telegram",
@@ -60,7 +79,7 @@
         "DNS",
         "serverHold"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Climate.gov was destroyed. Open data saved it",
@@ -79,7 +98,7 @@
         "climate data",
         "weather data"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "The real prices of frontier models. Tokens * Price, right?",
@@ -98,7 +117,7 @@
         "OpenAI",
         "Anthropic"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Building and Shipping Mac and iOS Apps Without Ever Opening Xcode",
@@ -108,7 +127,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 286,
+      "hn_points": 388,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -117,7 +136,7 @@
         "iOS",
         "Claude Code"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Apple's new SpeechAnalyzer API, benchmarked against Whisper and its predecessor",
@@ -136,7 +155,7 @@
         "Apple",
         "Inscribe"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Show HN: Clawk – Give coding agents a disposable Linux VM, not your laptop",
@@ -155,7 +174,7 @@
         "Linux VM",
         "sandboxing"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Grok uploaded my user directory to xAI's servers",
@@ -174,7 +193,7 @@
         "AI agent",
         "Twitter"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Grok CLI uploaded the whole home directory to GCS",
@@ -193,7 +212,7 @@
         "Twitter/X",
         "home directory"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "Control the Ideas, Not the Code",
@@ -212,7 +231,7 @@
         "Valkey",
         "antirez"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "Show HN: DOM-docx – HTML to native, editable Word docs (MIT)",
@@ -231,7 +250,7 @@
         "HTML",
         "Microsoft Word"
       ],
-      "rank": 12
+      "rank": 13
     }
   ]
 }
