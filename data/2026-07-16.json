@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3313,
-  "filtered_articles": 24,
+  "filtered_articles": 25,
   "articles": [
     {
       "title": "Codex Micro",
@@ -25,6 +25,25 @@
       "rank": 1
     },
     {
+      "title": "Towards a Harness That Can Do Anything",
+      "title_display": "Towards a Harness That Can Do Anything",
+      "link": "https://eardatasci.github.io/c/ambiance/index.html",
+      "pub_date": "2026-07-15T14:31:06.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 142,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Ambiance",
+        "agents",
+        "LLM",
+        "Claude Code"
+      ],
+      "rank": 2
+    },
+    {
       "title": "Telegram Serverless",
       "title_display": "Telegram Serverless",
       "link": "https://core.telegram.org/bots/serverless",
@@ -41,7 +60,7 @@
         "Telegram Bot API",
         "bots"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Prioritize mental health, and why communication is so important",
@@ -60,7 +79,7 @@
         "anxiety",
         "therapy"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "LeMario: Training a JEPA World Model on Super Mario Bros",
@@ -79,7 +98,7 @@
         "Super Mario Bros",
         "LeMario"
       ],
-      "rank": 4
+      "rank": 5
     }
   ]
 }
