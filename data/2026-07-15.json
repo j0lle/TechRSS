@@ -25,6 +25,25 @@
       "rank": 1
     },
     {
+      "title": "Dependabot version updates introduce default package cooldown",
+      "title_display": "Dependabot version updates introduce default package cooldown",
+      "link": "https://github.blog/changelog/2026-07-14-dependabot-version-updates-introduce-default-package-cooldown/",
+      "pub_date": "2026-07-14T22:00:04.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 142,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Dependabot",
+        "GitHub",
+        "package cooldown",
+        "software supply chain"
+      ],
+      "rank": 2
+    },
+    {
       "title": "Cursor 0day: When Full Disclosure Becomes the Only Protection Left",
       "title_display": "Cursor 0day: When Full Disclosure Becomes the Only Protection Left",
       "link": "https://mindgard.ai/blog/cursor-0day-when-full-disclosure-becomes-the-only-protection-left",
@@ -41,7 +60,7 @@
         "git",
         "git.exe"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "The largest available Minecraft world, totalling 15 TB",
@@ -60,7 +79,7 @@
         "2b2t.place",
         "15 TB"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "The zero-cost fallacy: open-source software in the agentic era",
@@ -79,7 +98,7 @@
         "agentic era",
         "AI"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "The Tower Keeps Rising",
@@ -89,7 +108,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 286,
+      "hn_points": 396,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -98,7 +117,7 @@
         "software architecture",
         "refactoring"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Measuring Input Latency on Linux: X11 vs. Wayland, VRR, and DXVK",
@@ -117,7 +136,7 @@
         "X11",
         "XWayland"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Show HN: Juggler – an open-source GUI coding agent, by the creator of JUCE",
@@ -136,7 +155,7 @@
         "coding agent",
         "GUI"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Codex scraped the ICM website and discovered 2026 Fields Medal winner list",
@@ -155,7 +174,7 @@
         "ICM",
         "Phemex"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Just Let Me Write Digits",
@@ -174,7 +193,7 @@
         "scroll-smoothing",
         "IBM CUA"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "European \"age verification\" \"app\" forcing everyone to use Android or iOS",
@@ -193,7 +212,7 @@
         "Android",
         "iOS"
       ],
-      "rank": 10
+      "rank": 11
     }
   ]
 }
