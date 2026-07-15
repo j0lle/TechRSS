@@ -2,9 +2,28 @@
   "date": "2026-07-16",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3312,
+  "total_articles": 3313,
   "filtered_articles": 28,
   "articles": [
+    {
+      "title": "Telegram Serverless",
+      "title_display": "Telegram Serverless",
+      "link": "https://core.telegram.org/bots/serverless",
+      "pub_date": "2026-07-15T12:41:06.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 124,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Telegram Serverless",
+        "Telegram",
+        "Telegram Bot API",
+        "bots"
+      ],
+      "rank": 1
+    },
     {
       "title": "Prioritize mental health, and why communication is so important",
       "title_display": "Prioritize mental health, and why communication is so important",
@@ -22,7 +41,7 @@
         "anxiety",
         "therapy"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "LeMario: Training a JEPA World Model on Super Mario Bros",
@@ -41,7 +60,7 @@
         "Super Mario Bros",
         "LeMario"
       ],
-      "rank": 2
+      "rank": 3
     }
   ]
 }
