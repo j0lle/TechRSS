@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3314,
-  "filtered_articles": 25,
+  "filtered_articles": 23,
   "articles": [
     {
       "title": "Inkling: Our Open-Weights Model",
@@ -25,6 +25,25 @@
       "rank": 1
     },
     {
+      "title": "Collection of Digital Clock Designs",
+      "title_display": "Collection of Digital Clock Designs",
+      "link": "https://clocks.dev",
+      "pub_date": "2026-07-15T17:41:04.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 137,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "clocks.dev",
+        "digital clock",
+        "watchface",
+        "SVG"
+      ],
+      "rank": 2
+    },
+    {
       "title": "Codex Micro",
       "title_display": "Codex Micro",
       "link": "https://openai.com/supply/co-lab/work-louder/",
@@ -41,7 +60,7 @@
         "Work Louder",
         "Codex"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Towards a Harness That Can Do Anything",
@@ -60,7 +79,7 @@
         "LLM",
         "Claude Code"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Telegram Serverless",
@@ -79,7 +98,7 @@
         "Telegram Bot API",
         "bots"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Prioritize mental health, and why communication is so important",
@@ -98,7 +117,7 @@
         "anxiety",
         "therapy"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "LeMario: Training a JEPA World Model on Super Mario Bros",
@@ -117,7 +136,7 @@
         "Super Mario Bros",
         "LeMario"
       ],
-      "rank": 6
+      "rank": 7
     }
   ]
 }
