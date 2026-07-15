@@ -2,9 +2,28 @@
   "date": "2026-07-16",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3313,
+  "total_articles": 3314,
   "filtered_articles": 25,
   "articles": [
+    {
+      "title": "Inkling: Our Open-Weights Model",
+      "title_display": "Inkling: Our Open-Weights Model",
+      "link": "https://thinkingmachines.ai/news/introducing-inkling/",
+      "pub_date": "2026-07-15T18:51:03.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 410,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Inkling",
+        "Thinking Machines",
+        "open-weights",
+        "multimodal"
+      ],
+      "rank": 1
+    },
     {
       "title": "Codex Micro",
       "title_display": "Codex Micro",
@@ -22,7 +41,7 @@
         "Work Louder",
         "Codex"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Towards a Harness That Can Do Anything",
@@ -41,7 +60,7 @@
         "LLM",
         "Claude Code"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Telegram Serverless",
@@ -60,7 +79,7 @@
         "Telegram Bot API",
         "bots"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Prioritize mental health, and why communication is so important",
@@ -79,7 +98,7 @@
         "anxiety",
         "therapy"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "LeMario: Training a JEPA World Model on Super Mario Bros",
@@ -98,7 +117,7 @@
         "Super Mario Bros",
         "LeMario"
       ],
-      "rank": 5
+      "rank": 6
     }
   ]
 }
