@@ -2,9 +2,28 @@
   "date": "2026-07-15",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3308,
-  "filtered_articles": 35,
+  "total_articles": 3311,
+  "filtered_articles": 36,
   "articles": [
+    {
+      "title": "How I use HTMX with Go",
+      "title_display": "How I use HTMX with Go",
+      "link": "https://www.alexedwards.net/blog/how-i-use-htmx-with-go",
+      "pub_date": "2026-07-14T22:10:05.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 126,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "HTMX",
+        "Go",
+        "Alex Edwards",
+        "SQLite"
+      ],
+      "rank": 1
+    },
     {
       "title": "Cursor 0day: When Full Disclosure Becomes the Only Protection Left",
       "title_display": "Cursor 0day: When Full Disclosure Becomes the Only Protection Left",
@@ -22,7 +41,7 @@
         "git",
         "git.exe"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "The largest available Minecraft world, totalling 15 TB",
@@ -41,7 +60,7 @@
         "2b2t.place",
         "15 TB"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "The Tower Keeps Rising",
@@ -60,7 +79,7 @@
         "software architecture",
         "refactoring"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Measuring Input Latency on Linux: X11 vs. Wayland, VRR, and DXVK",
@@ -79,7 +98,7 @@
         "X11",
         "XWayland"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Show HN: Juggler – an open-source GUI coding agent, by the creator of JUCE",
@@ -98,7 +117,7 @@
         "coding agent",
         "GUI"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Codex scraped the ICM website and discovered 2026 Fields Medal winner list",
@@ -117,7 +136,7 @@
         "ICM",
         "Phemex"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Just Let Me Write Digits",
@@ -136,7 +155,7 @@
         "scroll-smoothing",
         "IBM CUA"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "European \"age verification\" \"app\" forcing everyone to use Android or iOS",
@@ -155,7 +174,7 @@
         "Android",
         "iOS"
       ],
-      "rank": 8
+      "rank": 9
     }
   ]
 }
