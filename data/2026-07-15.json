@@ -1,10 +1,29 @@
 {
   "date": "2026-07-15",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3311,
+  "success_feeds": 88,
+  "total_articles": 3292,
   "filtered_articles": 36,
   "articles": [
+    {
+      "title": "I tricked Claude into leaking your deepest, darkest secrets",
+      "title_display": "I tricked Claude into leaking your deepest, darkest secrets",
+      "link": "https://www.ayush.digital/blog/the-memory-heist",
+      "pub_date": "2026-07-15T07:00:50.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 310,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Claude",
+        "Anthropic",
+        "memory",
+        "AI agents"
+      ],
+      "rank": 1
+    },
     {
       "title": "Solving 20 Erdős Problems with 20 Codex Accounts Running in Parallel",
       "title_display": "Solving 20 Erdős Problems with 20 Codex Accounts Running in Parallel",
@@ -22,7 +41,7 @@
         "Lean 4",
         "ChatGPT"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "TS-2026-009: Insecure argument handling in Tailscale SSH permitted root access",
@@ -41,7 +60,7 @@
         "TS-2026-009",
         "SSH"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "How I use HTMX with Go",
@@ -60,7 +79,7 @@
         "Alex Edwards",
         "SQLite"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Dependabot version updates introduce default package cooldown",
@@ -79,7 +98,7 @@
         "package cooldown",
         "software supply chain"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Cursor 0day: When Full Disclosure Becomes the Only Protection Left",
@@ -98,7 +117,7 @@
         "git",
         "git.exe"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "The largest available Minecraft world, totalling 15 TB",
@@ -117,7 +136,7 @@
         "2b2t.place",
         "15 TB"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "The zero-cost fallacy: open-source software in the agentic era",
@@ -136,7 +155,7 @@
         "agentic era",
         "AI"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "The Tower Keeps Rising",
@@ -155,7 +174,7 @@
         "software architecture",
         "refactoring"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Measuring Input Latency on Linux: X11 vs. Wayland, VRR, and DXVK",
@@ -174,7 +193,7 @@
         "X11",
         "XWayland"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Show HN: Juggler – an open-source GUI coding agent, by the creator of JUCE",
@@ -184,8 +203,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 132,
-      "score": 26,
+      "hn_points": 237,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Juggler",
@@ -193,7 +212,7 @@
         "coding agent",
         "GUI"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "Codex scraped the ICM website and discovered 2026 Fields Medal winner list",
@@ -212,7 +231,7 @@
         "ICM",
         "Phemex"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "Just Let Me Write Digits",
@@ -231,7 +250,7 @@
         "scroll-smoothing",
         "IBM CUA"
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "title": "European \"age verification\" \"app\" forcing everyone to use Android or iOS",
@@ -250,7 +269,7 @@
         "Android",
         "iOS"
       ],
-      "rank": 13
+      "rank": 14
     }
   ]
 }
