@@ -1,10 +1,29 @@
 {
   "date": "2026-07-16",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3314,
-  "filtered_articles": 23,
+  "success_feeds": 88,
+  "total_articles": 3294,
+  "filtered_articles": 20,
   "articles": [
+    {
+      "title": "Grok Build",
+      "title_display": "Grok Build",
+      "link": "https://github.com/xai-org/grok-build",
+      "pub_date": "2026-07-15T21:11:03.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 203,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "grok-build",
+        "Grok",
+        "xAI",
+        "data exfiltration"
+      ],
+      "rank": 1
+    },
     {
       "title": "Inkling: Our Open-Weights Model",
       "title_display": "Inkling: Our Open-Weights Model",
@@ -22,7 +41,7 @@
         "open-weights",
         "multimodal"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Collection of Digital Clock Designs",
@@ -41,7 +60,7 @@
         "watchface",
         "SVG"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Codex Micro",
@@ -60,7 +79,7 @@
         "Work Louder",
         "Codex"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Towards a Harness That Can Do Anything",
@@ -79,7 +98,7 @@
         "LLM",
         "Claude Code"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Telegram Serverless",
@@ -98,7 +117,7 @@
         "Telegram Bot API",
         "bots"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Prioritize mental health, and why communication is so important",
@@ -117,7 +136,7 @@
         "anxiety",
         "therapy"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "LeMario: Training a JEPA World Model on Super Mario Bros",
@@ -136,7 +155,7 @@
         "Super Mario Bros",
         "LeMario"
       ],
-      "rank": 7
+      "rank": 8
     }
   ]
 }
