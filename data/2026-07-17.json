@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3311,
-  "filtered_articles": 28,
+  "filtered_articles": 29,
   "articles": [
+    {
+      "title": "NotebookLM is now Gemini Notebook",
+      "title_display": "NotebookLM is now Gemini Notebook",
+      "link": "https://blog.google/innovation-and-ai/products/gemini-notebook/notebooklm-gemini-notebook/",
+      "pub_date": "2026-07-16T17:31:03.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 152,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "NotebookLM",
+        "Gemini Notebook",
+        "Google",
+        "Gemini"
+      ],
+      "rank": 1
+    },
     {
       "title": "Microsoft Comic Chat is now open source",
       "title_display": "Microsoft Comic Chat is now open source",
@@ -22,7 +41,7 @@
         "open-source",
         "GitHub"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "How Our Rust-to-Zig Rewrite Is Going",
@@ -41,7 +60,25 @@
         "Roc",
         "compiler"
       ],
-      "rank": 2
+      "rank": 3
+    },
+    {
+      "title": "Let's Build PlanetScale from Scratch: Infrastructure",
+      "title_display": "Let's Build PlanetScale from Scratch: Infrastructure",
+      "link": "https://onatm.dev/2026/07/16/homescale-part-1/",
+      "pub_date": "2026-07-16T12:21:07.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 125,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "PlanetScale",
+        "Postgres",
+        "Homescale"
+      ],
+      "rank": 4
     },
     {
       "title": "The LLM Critics Are Right. I Use LLMs Anyway",
@@ -60,7 +97,7 @@
         "AI",
         "open source"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "Making 768 servers look like 1",
@@ -79,7 +116,7 @@
         "distributed-databases",
         "scaling"
       ],
-      "rank": 4
+      "rank": 6
     }
   ]
 }
