@@ -1,10 +1,29 @@
 {
   "date": "2026-07-17",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3286,
-  "filtered_articles": 22,
+  "success_feeds": 89,
+  "total_articles": 3310,
+  "filtered_articles": 24,
   "articles": [
+    {
+      "title": "The LLM Critics Are Right. I Use LLMs Anyway",
+      "title_display": "The LLM Critics Are Right. I Use LLMs Anyway",
+      "link": "https://www.theocharis.dev/blog/llm-critics-are-right-i-use-llms-anyway/",
+      "pub_date": "2026-07-16T12:21:06.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 133,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "LLMs",
+        "agents",
+        "AI",
+        "open source"
+      ],
+      "rank": 1
+    },
     {
       "title": "Making 768 servers look like 1",
       "title_display": "Making 768 servers look like 1",
@@ -22,7 +41,7 @@
         "distributed-databases",
         "scaling"
       ],
-      "rank": 1
+      "rank": 2
     }
   ]
 }
