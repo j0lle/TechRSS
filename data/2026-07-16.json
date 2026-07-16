@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3310,
-  "filtered_articles": 22,
+  "filtered_articles": 23,
   "articles": [
+    {
+      "title": "The lost joy of music piracy",
+      "title_display": "The lost joy of music piracy",
+      "link": "https://www.pigeonsandplanes.com/read/music-piracy-what-cd-oink-nine-inch-nails-streaming",
+      "pub_date": "2026-07-16T05:51:04.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 255,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "music piracy",
+        "What.CD",
+        "Redacted",
+        "Soulseek"
+      ],
+      "rank": 1
+    },
     {
       "title": "SQLite should have (Rust-style) editions",
       "title_display": "SQLite should have (Rust-style) editions",
@@ -22,7 +41,7 @@
         "Rust",
         "PRAGMA"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Must actively fund open source AI [pdf]",
@@ -41,7 +60,7 @@
         "David Siegel",
         "Fortune"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Show HN: Firefox in WebAssembly",
@@ -60,7 +79,7 @@
         "Wasm JIT",
         "SpiderMonkey"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Grok Build",
@@ -79,7 +98,7 @@
         "xAI",
         "data exfiltration"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Inkling: Our Open-Weights Model",
@@ -98,7 +117,7 @@
         "open-weights",
         "multimodal"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Collection of Digital Clock Designs",
@@ -108,8 +127,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 137,
-      "score": 26,
+      "hn_points": 238,
+      "score": 29,
       "category": "other",
       "keywords": [
         "clocks.dev",
@@ -117,7 +136,7 @@
         "watchface",
         "SVG"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Codex Micro",
@@ -136,7 +155,7 @@
         "Work Louder",
         "Codex"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Show HN: misa77 - a codec that decodes 2x faster than LZ4 (at better ratios)",
@@ -155,7 +174,7 @@
         "codec",
         "lz4hc"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Towards a Harness That Can Do Anything",
@@ -174,7 +193,7 @@
         "LLM",
         "Claude Code"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Telegram Serverless",
@@ -193,7 +212,7 @@
         "Telegram Bot API",
         "bots"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "Prioritize mental health, and why communication is so important",
@@ -212,7 +231,7 @@
         "anxiety",
         "therapy"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "LeMario: Training a JEPA World Model on Super Mario Bros",
@@ -231,7 +250,7 @@
         "Super Mario Bros",
         "LeMario"
       ],
-      "rank": 12
+      "rank": 13
     }
   ]
 }
