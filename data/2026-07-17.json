@@ -1,10 +1,29 @@
 {
   "date": "2026-07-17",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3290,
-  "filtered_articles": 24,
+  "success_feeds": 89,
+  "total_articles": 3310,
+  "filtered_articles": 25,
   "articles": [
+    {
+      "title": "How Our Rust-to-Zig Rewrite Is Going",
+      "title_display": "How Our Rust-to-Zig Rewrite Is Going",
+      "link": "https://rtfeldman.com/rust-to-zig",
+      "pub_date": "2026-07-16T15:01:07.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 244,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "Rust",
+        "Zig",
+        "Roc",
+        "compiler"
+      ],
+      "rank": 1
+    },
     {
       "title": "The LLM Critics Are Right. I Use LLMs Anyway",
       "title_display": "The LLM Critics Are Right. I Use LLMs Anyway",
@@ -22,7 +41,7 @@
         "AI",
         "open source"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Making 768 servers look like 1",
@@ -41,7 +60,7 @@
         "distributed-databases",
         "scaling"
       ],
-      "rank": 2
+      "rank": 3
     }
   ]
 }
