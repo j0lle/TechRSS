@@ -1,0 +1,28 @@
+{
+  "date": "2026-07-17",
+  "total_feeds": 95,
+  "success_feeds": 88,
+  "total_articles": 3286,
+  "filtered_articles": 22,
+  "articles": [
+    {
+      "title": "Making 768 servers look like 1",
+      "title_display": "Making 768 servers look like 1",
+      "link": "https://planetscale.com/blog/making-768-servers-look-like-1",
+      "pub_date": "2026-07-16T04:31:05.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 129,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "PlanetScale",
+        "sharding",
+        "distributed-databases",
+        "scaling"
+      ],
+      "rank": 1
+    }
+  ]
+}
