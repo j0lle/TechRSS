@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3311,
-  "filtered_articles": 20,
+  "filtered_articles": 21,
   "articles": [
+    {
+      "title": "Sony Deletes a Bunch More Movies from the Accounts of People Who 'Bought' Them",
+      "title_display": "Sony Deletes a Bunch More Movies from the Accounts of People Who 'Bought' Them",
+      "link": "https://www.techdirt.com/2026/07/15/sony-deletes-a-bunch-more-movies-from-the-accounts-of-people-who-bought-them/",
+      "pub_date": "2026-07-16T14:31:06.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 106,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "Sony",
+        "movies",
+        "digital purchases",
+        "licenses"
+      ],
+      "rank": 1
+    },
     {
       "title": "OnePlus halts operations in USA and Europe",
       "title_display": "OnePlus halts operations in USA and Europe",
@@ -22,7 +41,7 @@
         "North America",
         "Europe"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "The lost joy of music piracy",
@@ -41,7 +60,7 @@
         "Redacted",
         "Soulseek"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "1,300 Beautiful Wildlife Illustrations from the 19th Century Now Restored",
@@ -60,7 +79,7 @@
         "19th century",
         "OpenCulture"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "SQLite should have (Rust-style) editions",
@@ -79,7 +98,7 @@
         "Rust",
         "PRAGMA"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Must actively fund open source AI [pdf]",
@@ -98,7 +117,7 @@
         "David Siegel",
         "Fortune"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Show HN: Firefox in WebAssembly",
@@ -117,7 +136,7 @@
         "Wasm JIT",
         "SpiderMonkey"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Grok Build",
@@ -136,7 +155,7 @@
         "xAI",
         "data exfiltration"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Inkling: Our Open-Weights Model",
@@ -155,7 +174,7 @@
         "open-weights",
         "multimodal"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Collection of Digital Clock Designs",
@@ -174,7 +193,7 @@
         "watchface",
         "SVG"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Codex Micro",
@@ -193,7 +212,7 @@
         "Work Louder",
         "Codex"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "Show HN: misa77 - a codec that decodes 2x faster than LZ4 (at better ratios)",
@@ -212,7 +231,7 @@
         "codec",
         "lz4hc"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "Towards a Harness That Can Do Anything",
@@ -231,7 +250,7 @@
         "LLM",
         "Claude Code"
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "title": "Telegram Serverless",
@@ -250,7 +269,7 @@
         "Telegram Bot API",
         "bots"
       ],
-      "rank": 13
+      "rank": 14
     },
     {
       "title": "Prioritize mental health, and why communication is so important",
@@ -269,7 +288,7 @@
         "anxiety",
         "therapy"
       ],
-      "rank": 14
+      "rank": 15
     },
     {
       "title": "LeMario: Training a JEPA World Model on Super Mario Bros",
@@ -288,7 +307,7 @@
         "Super Mario Bros",
         "LeMario"
       ],
-      "rank": 15
+      "rank": 16
     }
   ]
 }
