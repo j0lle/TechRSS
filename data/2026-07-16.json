@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3310,
-  "filtered_articles": 22,
+  "filtered_articles": 21,
   "articles": [
     {
       "title": "The lost joy of music piracy",
@@ -25,6 +25,25 @@
       "rank": 1
     },
     {
+      "title": "1,300 Beautiful Wildlife Illustrations from the 19th Century Now Restored",
+      "title_display": "1,300 Beautiful Wildlife Illustrations from the 19th Century Now Restored",
+      "link": "https://www.openculture.com/2026/07/explore-1300-beautiful-wildlife-illustrations-from-the-19th-century.html",
+      "pub_date": "2026-07-16T05:21:06.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 130,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "wildlife illustrations",
+        "restoration",
+        "19th century",
+        "OpenCulture"
+      ],
+      "rank": 2
+    },
+    {
       "title": "SQLite should have (Rust-style) editions",
       "title_display": "SQLite should have (Rust-style) editions",
       "link": "https://mort.coffee/home/sqlite-editions/",
@@ -41,7 +60,7 @@
         "Rust",
         "PRAGMA"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Must actively fund open source AI [pdf]",
@@ -60,7 +79,7 @@
         "David Siegel",
         "Fortune"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Show HN: Firefox in WebAssembly",
@@ -79,7 +98,7 @@
         "Wasm JIT",
         "SpiderMonkey"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Grok Build",
@@ -98,7 +117,7 @@
         "xAI",
         "data exfiltration"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Inkling: Our Open-Weights Model",
@@ -117,7 +136,7 @@
         "open-weights",
         "multimodal"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Collection of Digital Clock Designs",
@@ -136,7 +155,7 @@
         "watchface",
         "SVG"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Codex Micro",
@@ -155,7 +174,7 @@
         "Work Louder",
         "Codex"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Show HN: misa77 - a codec that decodes 2x faster than LZ4 (at better ratios)",
@@ -174,7 +193,7 @@
         "codec",
         "lz4hc"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Towards a Harness That Can Do Anything",
@@ -193,7 +212,7 @@
         "LLM",
         "Claude Code"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "Telegram Serverless",
@@ -212,7 +231,7 @@
         "Telegram Bot API",
         "bots"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "Prioritize mental health, and why communication is so important",
@@ -231,7 +250,7 @@
         "anxiety",
         "therapy"
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "title": "LeMario: Training a JEPA World Model on Super Mario Bros",
@@ -250,7 +269,7 @@
         "Super Mario Bros",
         "LeMario"
       ],
-      "rank": 13
+      "rank": 14
     }
   ]
 }
