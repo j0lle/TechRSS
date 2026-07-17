@@ -1,10 +1,29 @@
 {
   "date": "2026-07-17",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3308,
+  "success_feeds": 88,
+  "total_articles": 3288,
   "filtered_articles": 22,
   "articles": [
+    {
+      "title": "The Little Book of Reinforcement Learning",
+      "title_display": "The Little Book of Reinforcement Learning",
+      "link": "https://github.com/alxndrTL/little-book-rl/",
+      "pub_date": "2026-07-16T23:11:04.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 123,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "Reinforcement Learning",
+        "RL",
+        "Little Book",
+        "little-book-rl"
+      ],
+      "rank": 1
+    },
     {
       "title": "My car's OTA update broke Android Auto, and it's a indictment of modern software",
       "title_display": "My car's OTA update broke Android Auto, and it's a indictment of modern software",
@@ -22,7 +41,7 @@
         "Apple CarPlay",
         "Tesla"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "NotebookLM is now Gemini Notebook",
@@ -41,7 +60,7 @@
         "Google",
         "Gemini"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Microsoft Comic Chat is now open source",
@@ -60,7 +79,7 @@
         "open-source",
         "GitHub"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "How Our Rust-to-Zig Rewrite Is Going",
@@ -79,7 +98,7 @@
         "Roc",
         "compiler"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Let's Build PlanetScale from Scratch: Infrastructure",
@@ -97,7 +116,7 @@
         "Postgres",
         "Homescale"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "The LLM Critics Are Right. I Use LLMs Anyway",
@@ -116,7 +135,7 @@
         "AI",
         "open source"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Making 768 servers look like 1",
@@ -135,7 +154,7 @@
         "distributed-databases",
         "scaling"
       ],
-      "rank": 7
+      "rank": 8
     }
   ]
 }
