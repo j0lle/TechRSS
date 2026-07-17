@@ -1,10 +1,29 @@
 {
   "date": "2026-07-17",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3308,
+  "success_feeds": 88,
+  "total_articles": 3283,
   "filtered_articles": 23,
   "articles": [
+    {
+      "title": "EEG shows brain can simultaneous encode two speech streams",
+      "title_display": "EEG shows brain can simultaneous encode two speech streams",
+      "link": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003876",
+      "pub_date": "2026-07-17T06:31:05.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 133,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "EEG",
+        "speech streams",
+        "attention",
+        "brain"
+      ],
+      "rank": 1
+    },
     {
       "title": "The Little Book of Reinforcement Learning",
       "title_display": "The Little Book of Reinforcement Learning",
@@ -22,7 +41,7 @@
         "Little Book",
         "little-book-rl"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "My car's OTA update broke Android Auto, and it's a indictment of modern software",
@@ -41,7 +60,7 @@
         "Apple CarPlay",
         "Tesla"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "NotebookLM is now Gemini Notebook",
@@ -60,7 +79,7 @@
         "Google",
         "Gemini"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Microsoft Comic Chat is now open source",
@@ -79,7 +98,7 @@
         "open-source",
         "GitHub"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "How Our Rust-to-Zig Rewrite Is Going",
@@ -98,7 +117,7 @@
         "Roc",
         "compiler"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Let's Build PlanetScale from Scratch: Infrastructure",
@@ -116,7 +135,7 @@
         "Postgres",
         "Homescale"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "The LLM Critics Are Right. I Use LLMs Anyway",
@@ -135,7 +154,7 @@
         "AI",
         "open source"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Making 768 servers look like 1",
@@ -154,7 +173,7 @@
         "distributed-databases",
         "scaling"
       ],
-      "rank": 8
+      "rank": 9
     }
   ]
 }
