@@ -1,8 +1,28 @@
 {
   "date": "2026-07-18",
   "total_feeds": 95,
-  "success_feeds": 86,
-  "total_articles": 3222,
+  "success_feeds": 89,
+  "total_articles": 3308,
   "filtered_articles": 22,
-  "articles": []
+  "articles": [
+    {
+      "title": "AWS: Inaccurate Estimated Billing Data – $1.7 billion",
+      "title_display": "AWS: Inaccurate Estimated Billing Data – $1.7 billion",
+      "link": "https://news.ycombinator.com/item?id=48945241",
+      "pub_date": "2026-07-17T14:21:06.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 519,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "AWS",
+        "Estimated billing",
+        "S3",
+        "AWS Billing Console"
+      ],
+      "rank": 1
+    }
+  ]
 }
