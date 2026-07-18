@@ -1,10 +1,48 @@
 {
   "date": "2026-07-18",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3308,
-  "filtered_articles": 21,
+  "success_feeds": 88,
+  "total_articles": 3233,
+  "filtered_articles": 22,
   "articles": [
+    {
+      "title": "Kaiser nurses say AI, workplace surveillance are making their jobs, care worse",
+      "title_display": "Kaiser nurses say AI, workplace surveillance are making their jobs, care worse",
+      "link": "https://localnewsmatters.org/2026/07/15/kaiser-nurses-say-ai-workplace-surveillance-are-making-their-jobs-and-patient-care-worse/",
+      "pub_date": "2026-07-17T22:51:01.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 267,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "Kaiser Permanente",
+        "AI",
+        "workplace surveillance",
+        "nurses"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Lobste.rs is now running on SQLite",
+      "title_display": "Lobste.rs is now running on SQLite",
+      "link": "https://lobste.rs/s/ko1ji1",
+      "pub_date": "2026-07-17T21:31:03.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 157,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "lobste.rs",
+        "SQLite",
+        "MariaDB",
+        "GitHub"
+      ],
+      "rank": 2
+    },
     {
       "title": "Learning a few things about running SQLite",
       "title_display": "Learning a few things about running SQLite",
@@ -22,7 +60,7 @@
         "batching",
         "query plan"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "Frame – the first Linux Assembly X server",
@@ -41,7 +79,7 @@
         "Assembly",
         "Linux"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "Kimi K3, and what we can still learn from the pelican benchmark",
@@ -60,7 +98,7 @@
         "Simon Willison",
         "LLM"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "Mozilla: The state of open source AI",
@@ -79,7 +117,7 @@
         "OpenAI",
         "Kimi"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "AWS: Inaccurate Estimated Billing Data – $1.7 billion",
@@ -98,7 +136,7 @@
         "S3",
         "AWS Billing Console"
       ],
-      "rank": 5
+      "rank": 7
     }
   ]
 }
