@@ -1,10 +1,29 @@
 {
   "date": "2026-07-19",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3283,
-  "filtered_articles": 17,
+  "success_feeds": 89,
+  "total_articles": 3310,
+  "filtered_articles": 19,
   "articles": [
+    {
+      "title": "Gleam Is Now on Tangled",
+      "title_display": "Gleam Is Now on Tangled",
+      "link": "https://tangled.org/gleam.run/gleam",
+      "pub_date": "2026-07-18T16:00:15.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 132,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Tangled",
+        "Gleam",
+        "Knot",
+        "Bobbin"
+      ],
+      "rank": 1
+    },
     {
       "title": "Static search trees: 40x faster than binary search (2024)",
       "title_display": "Static search trees: 40x faster than binary search (2024)",
@@ -22,7 +41,7 @@
         "Eytzinger layout",
         "cache locality"
       ],
-      "rank": 1
+      "rank": 2
     }
   ]
 }
