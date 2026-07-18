@@ -2,8 +2,8 @@
   "date": "2026-07-19",
   "total_feeds": 95,
   "success_feeds": 88,
-  "total_articles": 3300,
-  "filtered_articles": 17,
+  "total_articles": 3290,
+  "filtered_articles": 16,
   "articles": [
     {
       "title": "Static search trees: 40x faster than binary search (2024)",
