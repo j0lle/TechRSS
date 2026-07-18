@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3310,
-  "filtered_articles": 17,
+  "filtered_articles": 16,
   "articles": [
     {
       "title": "Static search trees: 40x faster than binary search (2024)",
