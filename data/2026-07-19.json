@@ -1,0 +1,28 @@
+{
+  "date": "2026-07-19",
+  "total_feeds": 95,
+  "success_feeds": 89,
+  "total_articles": 3310,
+  "filtered_articles": 17,
+  "articles": [
+    {
+      "title": "Static search trees: 40x faster than binary search (2024)",
+      "title_display": "Static search trees: 40x faster than binary search (2024)",
+      "link": "https://curiouscoding.nl/posts/static-search-tree/",
+      "pub_date": "2026-07-17T23:21:04.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 164,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Static search tree",
+        "binary search",
+        "Eytzinger layout",
+        "cache locality"
+      ],
+      "rank": 1
+    }
+  ]
+}
