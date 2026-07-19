@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3288,
-  "filtered_articles": 18,
+  "filtered_articles": 19,
   "articles": [
     {
       "title": "Better and Cheaper Than IPTV",
@@ -63,6 +63,25 @@
       "rank": 3
     },
     {
+      "title": "Codex Resets",
+      "title_display": "Codex Resets",
+      "link": "https://codex-resets.com/",
+      "pub_date": "2026-07-18T23:30:14.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 148,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Codex",
+        "resets",
+        "OpenAI",
+        "Anthropic"
+      ],
+      "rank": 4
+    },
+    {
       "title": "Hardcore IndieWeb: Run your own website 100% independently for only $0.01/day",
       "title_display": "Hardcore IndieWeb: Run your own website 100% independently for only $0.01/day",
       "link": "https://www.neatnik.net/hardcore-indieweb",
@@ -79,7 +98,7 @@
         "web server",
         "Cloudflare"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Speech Recognition and TTS in less than 500kb",
@@ -98,7 +117,7 @@
         "TTS",
         "micro"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "The Kimi K3 Moment",
@@ -117,7 +136,7 @@
         "OpenAI",
         "Claude"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Goodbye, and Thanks for All the Bikesheds",
@@ -136,7 +155,7 @@
         "privacy",
         "identity verification"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Setting up your spare Mac for Claude Code to control, a step-by-step guide",
@@ -155,7 +174,7 @@
         "Anthropic",
         "Dispatch"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Gleam Is Now on Tangled",
@@ -174,7 +193,7 @@
         "Knot",
         "Bobbin"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Static search trees: 40x faster than binary search (2024)",
@@ -193,7 +212,7 @@
         "Eytzinger layout",
         "cache locality"
       ],
-      "rank": 10
+      "rank": 11
     }
   ]
 }
