@@ -1,8 +1,8 @@
 {
   "date": "2026-07-19",
   "total_feeds": 95,
-  "success_feeds": 90,
-  "total_articles": 3313,
+  "success_feeds": 89,
+  "total_articles": 3293,
   "filtered_articles": 17,
   "articles": [
     {
@@ -32,8 +32,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 204,
-      "score": 28,
+      "hn_points": 310,
+      "score": 30,
       "category": "other",
       "keywords": [
         "moonshine-ai/moonshine",
