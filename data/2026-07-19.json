@@ -2,9 +2,28 @@
   "date": "2026-07-19",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3293,
+  "total_articles": 3236,
   "filtered_articles": 17,
   "articles": [
+    {
+      "title": "Transcribe.cpp",
+      "title_display": "Transcribe.cpp",
+      "link": "https://workshop.cjpais.com/projects/transcribe-cpp",
+      "pub_date": "2026-07-19T01:20:12.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 240,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "Transcribe.cpp",
+        "C++",
+        "cjpais",
+        "speech-to-text"
+      ],
+      "rank": 1
+    },
     {
       "title": "Mayor Mamdani Says Landlords Can't Use AI Images to Advertise",
       "title_display": "Mayor Mamdani Says Landlords Can't Use AI Images to Advertise",
@@ -13,8 +32,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 253,
-      "score": 29,
+      "hn_points": 361,
+      "score": 30,
       "category": "other",
       "keywords": [
         "AI images",
@@ -22,7 +41,7 @@
         "Landlords",
         "StreetEasy"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Speech Recognition and TTS in less than 500kb",
@@ -41,7 +60,7 @@
         "TTS",
         "micro"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "The Kimi K3 Moment",
@@ -60,7 +79,7 @@
         "OpenAI",
         "Claude"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Goodbye, and Thanks for All the Bikesheds",
@@ -79,7 +98,7 @@
         "privacy",
         "identity verification"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Setting up your spare Mac for Claude Code to control, a step-by-step guide",
@@ -98,7 +117,7 @@
         "Anthropic",
         "Dispatch"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Gleam Is Now on Tangled",
@@ -117,7 +136,7 @@
         "Knot",
         "Bobbin"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Static search trees: 40x faster than binary search (2024)",
@@ -136,7 +155,7 @@
         "Eytzinger layout",
         "cache locality"
       ],
-      "rank": 7
+      "rank": 8
     }
   ]
 }
