@@ -2,9 +2,28 @@
   "date": "2026-07-19",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3236,
-  "filtered_articles": 17,
+  "total_articles": 3288,
+  "filtered_articles": 18,
   "articles": [
+    {
+      "title": "Better and Cheaper Than IPTV",
+      "title_display": "Better and Cheaper Than IPTV",
+      "link": "https://github.com/stupside/castor",
+      "pub_date": "2026-07-19T01:30:13.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 134,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "castor",
+        "streaming",
+        "casting",
+        "piracy"
+      ],
+      "rank": 1
+    },
     {
       "title": "Transcribe.cpp",
       "title_display": "Transcribe.cpp",
@@ -13,8 +32,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 240,
-      "score": 29,
+      "hn_points": 351,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Transcribe.cpp",
@@ -22,7 +41,7 @@
         "cjpais",
         "speech-to-text"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Mayor Mamdani Says Landlords Can't Use AI Images to Advertise",
@@ -41,7 +60,26 @@
         "Landlords",
         "StreetEasy"
       ],
-      "rank": 2
+      "rank": 3
+    },
+    {
+      "title": "Hardcore IndieWeb: Run your own website 100% independently for only $0.01/day",
+      "title_display": "Hardcore IndieWeb: Run your own website 100% independently for only $0.01/day",
+      "link": "https://www.neatnik.net/hardcore-indieweb",
+      "pub_date": "2026-07-18T22:40:13.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 125,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "IndieWeb",
+        "self-hosting",
+        "web server",
+        "Cloudflare"
+      ],
+      "rank": 4
     },
     {
       "title": "Speech Recognition and TTS in less than 500kb",
@@ -60,7 +98,7 @@
         "TTS",
         "micro"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "The Kimi K3 Moment",
@@ -79,7 +117,7 @@
         "OpenAI",
         "Claude"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "Goodbye, and Thanks for All the Bikesheds",
@@ -98,7 +136,7 @@
         "privacy",
         "identity verification"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "Setting up your spare Mac for Claude Code to control, a step-by-step guide",
@@ -117,7 +155,7 @@
         "Anthropic",
         "Dispatch"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "Gleam Is Now on Tangled",
@@ -136,7 +174,7 @@
         "Knot",
         "Bobbin"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "Static search trees: 40x faster than binary search (2024)",
@@ -155,7 +193,7 @@
         "Eytzinger layout",
         "cache locality"
       ],
-      "rank": 8
+      "rank": 10
     }
   ]
 }
