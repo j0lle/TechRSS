@@ -1,10 +1,67 @@
 {
   "date": "2026-07-21",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3290,
-  "filtered_articles": 26,
+  "success_feeds": 90,
+  "total_articles": 3315,
+  "filtered_articles": 29,
   "articles": [
+    {
+      "title": "Kimi K3, Qwen 3.8, and Anthropic's (Potential) Unravelling",
+      "title_display": "Kimi K3, Qwen 3.8, and Anthropic's (Potential) Unravelling",
+      "link": "https://www.emergingtrajectories.com/lh/frontier-lab-economics/",
+      "pub_date": "2026-07-20T15:50:11.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 173,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Kimi K3",
+        "Qwen 3.8",
+        "Anthropic",
+        "Claude"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "American AI is locked down and proprietary. It's losing",
+      "title_display": "American AI is locked down and proprietary. It's losing",
+      "link": "https://werd.io/american-ai-is-locked-down-and-proprietary-its-losing/",
+      "pub_date": "2026-07-20T15:10:14.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 367,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "American AI",
+        "Chinese AI",
+        "open weights",
+        "open-source AI"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "Firefox Merges Support for Vulkan Video Decoding",
+      "title_display": "Firefox Merges Support for Vulkan Video Decoding",
+      "link": "https://github.com/search",
+      "pub_date": "2026-07-20T14:50:12.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 147,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Firefox",
+        "Vulkan Video",
+        "video decoding",
+        "Linux"
+      ],
+      "rank": 3
+    },
     {
       "title": "Hacker wipes Romania's land registry database",
       "title_display": "Hacker wipes Romania's land registry database",
@@ -22,7 +79,7 @@
         "database",
         "hacker"
       ],
-      "rank": 1
+      "rank": 4
     },
     {
       "title": "Stop Using OpenCode",
@@ -41,7 +98,7 @@
         "sandboxing",
         "Pi"
       ],
-      "rank": 2
+      "rank": 5
     },
     {
       "title": "LoRA Speedrun – a public wall-clock leaderboard for fine-tuning techniques",
@@ -60,7 +117,7 @@
         "speedrun",
         "leaderboard"
       ],
-      "rank": 3
+      "rank": 6
     }
   ]
 }
