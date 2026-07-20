@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 90,
   "total_articles": 3313,
-  "filtered_articles": 9,
+  "filtered_articles": 10,
   "articles": [
     {
       "title": "Minecraft: Java Edition now uses SDL3",
