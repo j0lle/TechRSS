@@ -3,6 +3,64 @@
   "total_feeds": 95,
   "success_feeds": 90,
   "total_articles": 3315,
-  "filtered_articles": 22,
-  "articles": []
+  "filtered_articles": 25,
+  "articles": [
+    {
+      "title": "Hacker wipes Romania's land registry database",
+      "title_display": "Hacker wipes Romania's land registry database",
+      "link": "https://news.risky.biz/risky-bulletin-hacker-wipes-romanias-entire-land-registry-database/",
+      "pub_date": "2026-07-20T13:50:11.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 307,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Romania",
+        "land registry",
+        "database",
+        "hacker"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Stop Using OpenCode",
+      "title_display": "Stop Using OpenCode",
+      "link": "https://wren.wtf/shower-thoughts/stop-using-opencode/",
+      "pub_date": "2026-07-20T13:20:11.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 284,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "OpenCode",
+        "local LLMs",
+        "sandboxing",
+        "Pi"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "LoRA Speedrun – a public wall-clock leaderboard for fine-tuning techniques",
+      "title_display": "LoRA Speedrun – a public wall-clock leaderboard for fine-tuning techniques",
+      "link": "https://github.com/Saivineeth147/lora-speedrun",
+      "pub_date": "2026-07-20T05:20:12.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 126,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "LoRA",
+        "fine-tuning",
+        "speedrun",
+        "leaderboard"
+      ],
+      "rank": 3
+    }
+  ]
 }
