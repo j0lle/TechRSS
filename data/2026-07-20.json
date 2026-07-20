@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3289,
-  "filtered_articles": 16,
+  "filtered_articles": 18,
   "articles": [
+    {
+      "title": "Airbus Takes Flight from AWS",
+      "title_display": "Airbus Takes Flight from AWS",
+      "link": "https://www.theregister.com/columnists/2026/07/20/airbus-takes-flight-from-aws-what-happens-next-is-critical/5274109",
+      "pub_date": "2026-07-20T11:30:13.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 149,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Airbus",
+        "AWS",
+        "Scaleway",
+        "digital sovereignty"
+      ],
+      "rank": 1
+    },
     {
       "title": "Exploit brokers pay $500k for WordPress RCEs. I found one with GPT5.6 and $25",
       "title_display": "Exploit brokers pay $500k for WordPress RCEs. I found one with GPT5.6 and $25",
@@ -22,7 +41,7 @@
         "RCE",
         "exploit brokers"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Power companies are using eminent domain to seize land for data centers",
@@ -41,7 +60,7 @@
         "power companies",
         "power lines"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Moonshine: Lets you stream games from your PC to any device running Moonlight",
@@ -60,7 +79,7 @@
         "game streaming",
         "Sunshine"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Orion Browser by Kagi",
@@ -79,7 +98,7 @@
         "Firefox",
         "iOS"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "The Zen of Parallel Programming",
@@ -97,7 +116,7 @@
         "synchronization",
         "smolnero.com"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Minecraft: Java Edition now uses SDL3",
@@ -116,7 +135,7 @@
         "Minecraft",
         "SDL"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "I burned all my tokens researching how to save tokens",
@@ -135,7 +154,7 @@
         "gpt-5.6",
         "GPT"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "The death and rebirth of my home server",
@@ -154,7 +173,7 @@
         "SD card",
         "flash memory"
       ],
-      "rank": 8
+      "rank": 9
     }
   ]
 }
