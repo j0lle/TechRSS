@@ -2,9 +2,47 @@
   "date": "2026-07-20",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3244,
-  "filtered_articles": 15,
+  "total_articles": 3289,
+  "filtered_articles": 16,
   "articles": [
+    {
+      "title": "Exploit brokers pay $500k for WordPress RCEs. I found one with GPT5.6 and $25",
+      "title_display": "Exploit brokers pay $500k for WordPress RCEs. I found one with GPT5.6 and $25",
+      "link": "https://slcyber.io/research-center/exploit-brokers-pay-500000-for-a-wordpress-rce-i-found-one-with-gpt5-6/",
+      "pub_date": "2026-07-20T09:10:10.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 178,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "WordPress",
+        "GPT5.6",
+        "RCE",
+        "exploit brokers"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Power companies are using eminent domain to seize land for data centers",
+      "title_display": "Power companies are using eminent domain to seize land for data centers",
+      "link": "https://fortune.com/2026/07/19/data-center-eminent-domain-public-use/",
+      "pub_date": "2026-07-20T04:50:13.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 130,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "eminent domain",
+        "data centers",
+        "power companies",
+        "power lines"
+      ],
+      "rank": 2
+    },
     {
       "title": "Moonshine: Lets you stream games from your PC to any device running Moonlight",
       "title_display": "Moonshine: Lets you stream games from your PC to any device running Moonlight",
@@ -13,8 +51,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 133,
-      "score": 26,
+      "hn_points": 241,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Moonshine",
@@ -22,7 +60,7 @@
         "game streaming",
         "Sunshine"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "Orion Browser by Kagi",
@@ -32,8 +70,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 127,
-      "score": 26,
+      "hn_points": 229,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Orion Browser",
@@ -41,7 +79,7 @@
         "Firefox",
         "iOS"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "The Zen of Parallel Programming",
@@ -59,7 +97,7 @@
         "synchronization",
         "smolnero.com"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "Minecraft: Java Edition now uses SDL3",
@@ -78,7 +116,7 @@
         "Minecraft",
         "SDL"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "I burned all my tokens researching how to save tokens",
@@ -97,7 +135,7 @@
         "gpt-5.6",
         "GPT"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "The death and rebirth of my home server",
@@ -116,7 +154,7 @@
         "SD card",
         "flash memory"
       ],
-      "rank": 6
+      "rank": 8
     }
   ]
 }
