@@ -1,10 +1,29 @@
 {
   "date": "2026-07-20",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3293,
-  "filtered_articles": 11,
+  "success_feeds": 90,
+  "total_articles": 3313,
+  "filtered_articles": 12,
   "articles": [
+    {
+      "title": "Orion Browser by Kagi",
+      "title_display": "Orion Browser by Kagi",
+      "link": "https://orionbrowser.com/",
+      "pub_date": "2026-07-19T21:00:59.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 127,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Orion Browser",
+        "Kagi",
+        "Firefox",
+        "iOS"
+      ],
+      "rank": 1
+    },
     {
       "title": "The Zen of Parallel Programming",
       "title_display": "The Zen of Parallel Programming",
@@ -21,7 +40,7 @@
         "synchronization",
         "smolnero.com"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Minecraft: Java Edition now uses SDL3",
@@ -40,7 +59,7 @@
         "Minecraft",
         "SDL"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "The death and rebirth of my home server",
@@ -59,7 +78,7 @@
         "SD card",
         "flash memory"
       ],
-      "rank": 3
+      "rank": 4
     }
   ]
 }
