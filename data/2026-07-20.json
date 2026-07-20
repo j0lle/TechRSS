@@ -1,10 +1,28 @@
 {
   "date": "2026-07-20",
   "total_feeds": 95,
-  "success_feeds": 90,
-  "total_articles": 3313,
-  "filtered_articles": 10,
+  "success_feeds": 89,
+  "total_articles": 3293,
+  "filtered_articles": 11,
   "articles": [
+    {
+      "title": "The Zen of Parallel Programming",
+      "title_display": "The Zen of Parallel Programming",
+      "link": "https://smolnero.com/posts/the-zen-of-parallel-programming",
+      "pub_date": "2026-07-19T20:00:58.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 127,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Parallel programming",
+        "synchronization",
+        "smolnero.com"
+      ],
+      "rank": 1
+    },
     {
       "title": "Minecraft: Java Edition now uses SDL3",
       "title_display": "Minecraft: Java Edition now uses SDL3",
@@ -22,7 +40,7 @@
         "Minecraft",
         "SDL"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "The death and rebirth of my home server",
@@ -41,7 +59,7 @@
         "SD card",
         "flash memory"
       ],
-      "rank": 2
+      "rank": 3
     }
   ]
 }
