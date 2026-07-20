@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 90,
   "total_articles": 3313,
-  "filtered_articles": 10,
+  "filtered_articles": 9,
   "articles": [
     {
       "title": "Minecraft: Java Edition now uses SDL3",
@@ -23,6 +23,25 @@
         "SDL"
       ],
       "rank": 1
+    },
+    {
+      "title": "The death and rebirth of my home server",
+      "title_display": "The death and rebirth of my home server",
+      "link": "https://sgt.hootr.club/blog/home-server-rebirth/",
+      "pub_date": "2026-07-19T12:00:17.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 122,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "home server",
+        "Raspberry Pi",
+        "SD card",
+        "flash memory"
+      ],
+      "rank": 2
     }
   ]
 }
