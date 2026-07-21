@@ -1,10 +1,29 @@
 {
   "date": "2026-07-21",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3296,
-  "filtered_articles": 28,
+  "success_feeds": 90,
+  "total_articles": 3316,
+  "filtered_articles": 30,
   "articles": [
+    {
+      "title": "Jane Street: Incremental",
+      "title_display": "Jane Street: Incremental",
+      "link": "https://github.com/janestreet/incremental",
+      "pub_date": "2026-07-21T04:40:17.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 150,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Incremental",
+        "Jane Street",
+        "OCaml",
+        "incremental computation"
+      ],
+      "rank": 1
+    },
     {
       "title": "Flock Credibility Lost as It Repeatedly Lies to City Councils, Police, & Public",
       "title_display": "Flock Credibility Lost as It Repeatedly Lies to City Councils, Police, & Public",
@@ -13,7 +32,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 280,
+      "hn_points": 381,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -22,7 +41,7 @@
         "ACLU",
         "surveillance"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Who's Afraid of Chinese Models?",
@@ -41,7 +60,7 @@
         "distillation",
         "OpenAI"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Agent swarms and the new model economics",
@@ -60,7 +79,7 @@
         "model-economics",
         "SQLite"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Nativ: Run frontier open models locally on your Mac",
@@ -79,7 +98,7 @@
         "frontier models",
         "local inference"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Jelly UI: Soft-body physics for native HTML form controls",
@@ -98,7 +117,7 @@
         "form controls",
         "HTML"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Kimi K3, Qwen 3.8, and Anthropic's (Potential) Unravelling",
@@ -117,7 +136,7 @@
         "Anthropic",
         "Claude"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "American AI is locked down and proprietary. It's losing",
@@ -136,7 +155,7 @@
         "open weights",
         "open-source AI"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Firefox Merges Support for Vulkan Video Decoding",
@@ -155,7 +174,7 @@
         "video decoding",
         "Linux"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Hacker wipes Romania's land registry database",
@@ -174,7 +193,7 @@
         "database",
         "hacker"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Stop Using OpenCode",
@@ -193,7 +212,7 @@
         "sandboxing",
         "Pi"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "LoRA Speedrun – a public wall-clock leaderboard for fine-tuning techniques",
@@ -212,7 +231,7 @@
         "speedrun",
         "leaderboard"
       ],
-      "rank": 11
+      "rank": 12
     }
   ]
 }
