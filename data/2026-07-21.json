@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 90,
   "total_articles": 3315,
-  "filtered_articles": 25,
+  "filtered_articles": 24,
   "articles": [
     {
       "title": "Who's Afraid of Chinese Models?",
@@ -51,8 +51,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 124,
-      "score": 26,
+      "hn_points": 226,
+      "score": 28,
       "category": "other",
       "keywords": [
         "Nativ",
@@ -127,8 +127,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 147,
-      "score": 26,
+      "hn_points": 250,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Firefox",
@@ -146,7 +146,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 307,
+      "hn_points": 613,
       "score": 30,
       "category": "other",
       "keywords": [
