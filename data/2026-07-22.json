@@ -1,10 +1,48 @@
 {
   "date": "2026-07-22",
   "total_feeds": 95,
-  "success_feeds": 90,
-  "total_articles": 3319,
-  "filtered_articles": 32,
+  "success_feeds": 89,
+  "total_articles": 3299,
+  "filtered_articles": 35,
   "articles": [
+    {
+      "title": "Laguna S 2.1",
+      "title_display": "Laguna S 2.1",
+      "link": "https://poolside.ai/blog/introducing-laguna-s-2-1",
+      "pub_date": "2026-07-21T21:20:13.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 136,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Laguna S 2.1",
+        "Poolside",
+        "DeepSeek V4",
+        "MoE"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Jack Dorsey launches Buzz to combine team chat, AI agents and Git hosting",
+      "title_display": "Jack Dorsey launches Buzz to combine team chat, AI agents and Git hosting",
+      "link": "https://runtimewire.com/article/jack-dorsey-block-buzz-team-chat-ai-agents-git",
+      "pub_date": "2026-07-21T18:10:14.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 150,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Buzz",
+        "Jack Dorsey",
+        "AI agents",
+        "Git"
+      ],
+      "rank": 2
+    },
     {
       "title": "Apple Defeats Liability for Not Scanning iCloud for CSAM",
       "title_display": "Apple Defeats Liability for Not Scanning iCloud for CSAM",
@@ -22,7 +60,26 @@
         "iCloud",
         "Amy v. Apple"
       ],
-      "rank": 1
+      "rank": 3
+    },
+    {
+      "title": "Python 3.15's Ultra-Low Overhead Interpreter Profiling Mode – Ken Jin's Blog",
+      "title_display": "Python 3.15's Ultra-Low Overhead Interpreter Profiling Mode – Ken Jin's Blog",
+      "link": "https://fidget-spinner.github.io/posts/ultra-fast-tracing.html",
+      "pub_date": "2026-07-21T12:50:12.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 141,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Python 3.15",
+        "profiling",
+        "CPython",
+        "interpreter"
+      ],
+      "rank": 4
     }
   ]
 }
