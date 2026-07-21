@@ -3,6 +3,26 @@
   "total_feeds": 95,
   "success_feeds": 90,
   "total_articles": 3319,
-  "filtered_articles": 31,
-  "articles": []
+  "filtered_articles": 30,
+  "articles": [
+    {
+      "title": "Apple Defeats Liability for Not Scanning iCloud for CSAM",
+      "title_display": "Apple Defeats Liability for Not Scanning iCloud for CSAM",
+      "link": "https://blog.ericgoldman.org/archives/2026/07/apple-defeats-liability-for-not-scanning-icloud-for-csam-but-the-judge-was-not-pleased-amy-v-apple.htm",
+      "pub_date": "2026-07-21T15:00:12.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 205,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "Apple",
+        "CSAM",
+        "iCloud",
+        "Amy v. Apple"
+      ],
+      "rank": 1
+    }
+  ]
 }
