@@ -1,9 +1,9 @@
 {
   "date": "2026-07-22",
   "total_feeds": 95,
-  "success_feeds": 90,
-  "total_articles": 3320,
-  "filtered_articles": 34,
+  "success_feeds": 89,
+  "total_articles": 3295,
+  "filtered_articles": 36,
   "articles": [
     {
       "title": "Laguna S 2.1",
@@ -25,6 +25,44 @@
       "rank": 1
     },
     {
+      "title": "'VPNs are lawful technical tools,' says EU Court in landmark copyright ruling",
+      "title_display": "'VPNs are lawful technical tools,' says EU Court in landmark copyright ruling",
+      "link": "https://www.techradar.com/vpn/vpn-privacy-security/vpns-are-lawful-technical-tools-says-eu-court-in-landmark-anne-frank-copyright-ruling",
+      "pub_date": "2026-07-21T20:30:14.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 318,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "VPNs",
+        "copyright",
+        "EU Court",
+        "geo-blocking"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "OpenAI and Hugging Face partner to address security incident",
+      "title_display": "OpenAI and Hugging Face partner to address security incident",
+      "link": "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
+      "pub_date": "2026-07-21T20:20:14.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 506,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "OpenAI",
+        "Hugging Face",
+        "autonomous AI agent",
+        "GPT-5.6 (Sol)"
+      ],
+      "rank": 3
+    },
+    {
       "title": "Freeink: Open Ecosystem for E-Readers",
       "title_display": "Freeink: Open Ecosystem for E-Readers",
       "link": "https://freeink.org/",
@@ -41,7 +79,7 @@
         "CrossPoint",
         "Xteink X4"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "Jack Dorsey launches Buzz to combine team chat, AI agents and Git hosting",
@@ -60,7 +98,7 @@
         "AI agents",
         "Git"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "My USB Drive Has a Hidden Encrypted Vault",
@@ -79,7 +117,7 @@
         "encryption",
         "KDF"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "Apple Defeats Liability for Not Scanning iCloud for CSAM",
@@ -89,8 +127,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 205,
-      "score": 28,
+      "hn_points": 309,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Apple",
@@ -98,7 +136,7 @@
         "iCloud",
         "Amy v. Apple"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "Python 3.15's Ultra-Low Overhead Interpreter Profiling Mode – Ken Jin's Blog",
@@ -117,7 +155,7 @@
         "CPython",
         "interpreter"
       ],
-      "rank": 6
+      "rank": 8
     }
   ]
 }
