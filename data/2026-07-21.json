@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 90,
   "total_articles": 3315,
-  "filtered_articles": 26,
+  "filtered_articles": 25,
   "articles": [
     {
       "title": "Who's Afraid of Chinese Models?",
@@ -25,6 +25,25 @@
       "rank": 1
     },
     {
+      "title": "Agent swarms and the new model economics",
+      "title_display": "Agent swarms and the new model economics",
+      "link": "https://cursor.com/blog/agent-swarm-model-economics",
+      "pub_date": "2026-07-20T20:40:12.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 142,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Cursor",
+        "agent-swarms",
+        "model-economics",
+        "SQLite"
+      ],
+      "rank": 2
+    },
+    {
       "title": "Nativ: Run frontier open models locally on your Mac",
       "title_display": "Nativ: Run frontier open models locally on your Mac",
       "link": "https://blaizzy.github.io/nativ/",
@@ -41,7 +60,7 @@
         "frontier models",
         "local inference"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Jelly UI: Soft-body physics for native HTML form controls",
@@ -60,7 +79,7 @@
         "form controls",
         "HTML"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Kimi K3, Qwen 3.8, and Anthropic's (Potential) Unravelling",
@@ -79,7 +98,7 @@
         "Anthropic",
         "Claude"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "American AI is locked down and proprietary. It's losing",
@@ -98,7 +117,7 @@
         "open weights",
         "open-source AI"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Firefox Merges Support for Vulkan Video Decoding",
@@ -117,7 +136,7 @@
         "video decoding",
         "Linux"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Hacker wipes Romania's land registry database",
@@ -136,7 +155,7 @@
         "database",
         "hacker"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Stop Using OpenCode",
@@ -155,7 +174,7 @@
         "sandboxing",
         "Pi"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "LoRA Speedrun – a public wall-clock leaderboard for fine-tuning techniques",
@@ -174,7 +193,7 @@
         "speedrun",
         "leaderboard"
       ],
-      "rank": 9
+      "rank": 10
     }
   ]
 }
