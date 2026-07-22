@@ -2,9 +2,47 @@
   "date": "2026-07-23",
   "total_feeds": 95,
   "success_feeds": 90,
-  "total_articles": 3325,
+  "total_articles": 3326,
   "filtered_articles": 28,
   "articles": [
+    {
+      "title": "The startup's Postgres survival guide",
+      "title_display": "The startup's Postgres survival guide",
+      "link": "https://hatchet.run/blog/postgres-survival-guide",
+      "pub_date": "2026-07-22T15:10:14.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 178,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Postgres",
+        "pgbackrest",
+        "pg_dump/pg_restore",
+        "backups"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "10 REM\"_(C2SLFF4",
+      "title_display": "10 REM\"_(C2SLFF4",
+      "link": "https://beej.us/blog/data/mystery-comment/",
+      "pub_date": "2026-07-22T13:20:17.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 130,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "BASIC",
+        "Exidy Sorcerer",
+        "machine code",
+        "Beej"
+      ],
+      "rank": 2
+    },
     {
       "title": "Original Apollo 11 Guidance Computer source code for command and lunar modules",
       "title_display": "Original Apollo 11 Guidance Computer source code for command and lunar modules",
@@ -22,7 +60,7 @@
         "chrislgarry/Apollo-11",
         "GitHub"
       ],
-      "rank": 1
+      "rank": 3
     }
   ]
 }
