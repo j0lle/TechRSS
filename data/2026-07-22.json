@@ -1,9 +1,9 @@
 {
   "date": "2026-07-22",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3303,
-  "filtered_articles": 29,
+  "success_feeds": 88,
+  "total_articles": 3277,
+  "filtered_articles": 28,
   "articles": [
     {
       "title": "Judge approves $1.5B Anthropic settlement for pirated books used to train Claude",
@@ -146,8 +146,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 126,
-      "score": 26,
+      "hn_points": 229,
+      "score": 29,
       "category": "other",
       "keywords": [
         "USB drive",
