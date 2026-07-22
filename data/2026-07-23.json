@@ -1,10 +1,29 @@
 {
   "date": "2026-07-23",
   "total_feeds": 95,
-  "success_feeds": 90,
-  "total_articles": 3326,
-  "filtered_articles": 28,
+  "success_feeds": 89,
+  "total_articles": 3306,
+  "filtered_articles": 29,
   "articles": [
+    {
+      "title": "I Inspected My Take-Home Interview Project. It Was a Whole Operation",
+      "title_display": "I Inspected My Take-Home Interview Project. It Was a Whole Operation",
+      "link": "https://citizendot.github.io/articles/fake-job-interview-git-hook-malware/",
+      "pub_date": "2026-07-22T21:10:11.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 108,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "git hook",
+        "malware",
+        "take-home interview",
+        "fake job interview"
+      ],
+      "rank": 1
+    },
     {
       "title": "GigaToken: ~1000x faster Language model tokenization",
       "title_display": "GigaToken: ~1000x faster Language model tokenization",
@@ -22,7 +41,7 @@
         "language model",
         "pretraining"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Making",
@@ -41,7 +60,7 @@
         "Claude",
         "compiler"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Does creatine make you smarter?",
@@ -60,7 +79,7 @@
         "muscle",
         "cycling"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "The startup's Postgres survival guide",
@@ -79,7 +98,7 @@
         "pg_dump/pg_restore",
         "backups"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "10 REM\"_(C2SLFF4",
@@ -98,7 +117,7 @@
         "machine code",
         "Beej"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Original Apollo 11 Guidance Computer source code for command and lunar modules",
@@ -117,7 +136,7 @@
         "chrislgarry/Apollo-11",
         "GitHub"
       ],
-      "rank": 6
+      "rank": 7
     }
   ]
 }
