@@ -2,8 +2,8 @@
   "date": "2026-07-22",
   "total_feeds": 95,
   "success_feeds": 88,
-  "total_articles": 3291,
-  "filtered_articles": 32,
+  "total_articles": 3281,
+  "filtered_articles": 30,
   "articles": [
     {
       "title": "Laguna S 2.1",
@@ -13,8 +13,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 136,
-      "score": 26,
+      "hn_points": 239,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Laguna S 2.1",
@@ -89,8 +89,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 150,
-      "score": 26,
+      "hn_points": 253,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Buzz",
