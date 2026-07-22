@@ -1,8 +1,8 @@
 {
   "date": "2026-07-22",
   "total_feeds": 95,
-  "success_feeds": 90,
-  "total_articles": 3321,
+  "success_feeds": 88,
+  "total_articles": 3276,
   "filtered_articles": 28,
   "articles": [
     {
@@ -32,8 +32,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 177,
-      "score": 27,
+      "hn_points": 278,
+      "score": 30,
       "category": "other",
       "keywords": [
         "LG",
