@@ -6,6 +6,25 @@
   "filtered_articles": 28,
   "articles": [
     {
+      "title": "GigaToken: ~1000x faster Language model tokenization",
+      "title_display": "GigaToken: ~1000x faster Language model tokenization",
+      "link": "https://github.com/marcelroed/gigatoken/",
+      "pub_date": "2026-07-22T17:50:11.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 225,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "GigaToken",
+        "tokenization",
+        "language model",
+        "pretraining"
+      ],
+      "rank": 1
+    },
+    {
       "title": "Making",
       "title_display": "Making",
       "link": "https://beej.us/blog/data/ai-making/",
@@ -22,7 +41,7 @@
         "Claude",
         "compiler"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Does creatine make you smarter?",
@@ -41,7 +60,7 @@
         "muscle",
         "cycling"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "The startup's Postgres survival guide",
@@ -60,7 +79,7 @@
         "pg_dump/pg_restore",
         "backups"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "10 REM\"_(C2SLFF4",
@@ -79,7 +98,7 @@
         "machine code",
         "Beej"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Original Apollo 11 Guidance Computer source code for command and lunar modules",
@@ -98,7 +117,7 @@
         "chrislgarry/Apollo-11",
         "GitHub"
       ],
-      "rank": 5
+      "rank": 6
     }
   ]
 }
