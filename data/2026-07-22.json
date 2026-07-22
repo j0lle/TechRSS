@@ -1,8 +1,8 @@
 {
   "date": "2026-07-22",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3277,
+  "success_feeds": 90,
+  "total_articles": 3321,
   "filtered_articles": 28,
   "articles": [
     {
@@ -101,6 +101,25 @@
       "rank": 5
     },
     {
+      "title": "Apple Private Cloud Compute SoC 3 audit reports",
+      "title_display": "Apple Private Cloud Compute SoC 3 audit reports",
+      "link": "https://support.apple.com/guide/certifications/apple-private-cloud-compute-soc-3-audit-apc95a31b9d8/web",
+      "pub_date": "2026-07-21T19:30:12.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 130,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Apple Private Cloud Compute",
+        "Apple",
+        "SOC 3",
+        "SOC2"
+      ],
+      "rank": 6
+    },
+    {
       "title": "Freeink: Open Ecosystem for E-Readers",
       "title_display": "Freeink: Open Ecosystem for E-Readers",
       "link": "https://freeink.org/",
@@ -117,7 +136,7 @@
         "CrossPoint",
         "Xteink X4"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Jack Dorsey launches Buzz to combine team chat, AI agents and Git hosting",
@@ -136,7 +155,7 @@
         "AI agents",
         "Git"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "My USB Drive Has a Hidden Encrypted Vault",
@@ -155,7 +174,7 @@
         "encryption",
         "KDF"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Apple Defeats Liability for Not Scanning iCloud for CSAM",
@@ -174,7 +193,7 @@
         "iCloud",
         "Amy v. Apple"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Python 3.15's Ultra-Low Overhead Interpreter Profiling Mode – Ken Jin's Blog",
@@ -193,7 +212,7 @@
         "CPython",
         "interpreter"
       ],
-      "rank": 10
+      "rank": 11
     }
   ]
 }
