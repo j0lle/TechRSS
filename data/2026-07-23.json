@@ -1,10 +1,48 @@
 {
   "date": "2026-07-23",
   "total_feeds": 95,
-  "success_feeds": 90,
-  "total_articles": 3326,
+  "success_feeds": 89,
+  "total_articles": 3306,
   "filtered_articles": 28,
   "articles": [
+    {
+      "title": "Making",
+      "title_display": "Making",
+      "link": "https://beej.us/blog/data/ai-making/",
+      "pub_date": "2026-07-22T16:10:15.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 184,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "AI",
+        "LLM",
+        "Claude",
+        "compiler"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Does creatine make you smarter?",
+      "title_display": "Does creatine make you smarter?",
+      "link": "https://dynomight.net/creatine/",
+      "pub_date": "2026-07-22T16:00:12.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 143,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "creatine",
+        "cognition",
+        "muscle",
+        "cycling"
+      ],
+      "rank": 2
+    },
     {
       "title": "The startup's Postgres survival guide",
       "title_display": "The startup's Postgres survival guide",
@@ -22,7 +60,7 @@
         "pg_dump/pg_restore",
         "backups"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "10 REM\"_(C2SLFF4",
@@ -41,7 +79,7 @@
         "machine code",
         "Beej"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "Original Apollo 11 Guidance Computer source code for command and lunar modules",
@@ -60,7 +98,7 @@
         "chrislgarry/Apollo-11",
         "GitHub"
       ],
-      "rank": 3
+      "rank": 5
     }
   ]
 }
