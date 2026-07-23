@@ -6,6 +6,25 @@
   "filtered_articles": 30,
   "articles": [
     {
+      "title": "What happened to TheNumbers.com",
+      "title_display": "What happened to TheNumbers.com",
+      "link": "https://stephenfollows.com/p/what-just-happened-to-thenumberscom-should-worry-us-all",
+      "pub_date": "2026-07-23T17:30:10.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 193,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "TheNumbers.com",
+        "AI",
+        "Web scraping",
+        "LLM"
+      ],
+      "rank": 1
+    },
+    {
       "title": "Writing by Hand is Good for your Brain",
       "title_display": "Writing by Hand is Good for your Brain",
       "link": "https://nealstephenson.substack.com/p/writing-by-hand-is-good-for-your",
@@ -22,7 +41,7 @@
         "Neal Stephenson",
         "Substack"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Software rendering in 500 lines of bare C++",
@@ -41,7 +60,7 @@
         "software rendering",
         "rasterization"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Alphabet's cash burn raises alarm for Big Tech as AI spending climbs",
@@ -60,7 +79,7 @@
         "AI",
         "Big Tech"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Escape IntelliJ: Scala and Kotlin LSPs on Emacs Eglot",
@@ -79,7 +98,7 @@
         "Scala",
         "Kotlin"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "OpenAI's accidental cyberattack against Hugging Face is science fiction",
@@ -98,7 +117,7 @@
         "cyberattack",
         "Simon Willison"
       ],
-      "rank": 5
+      "rank": 6
     }
   ]
 }
