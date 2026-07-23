@@ -3,8 +3,26 @@
   "total_feeds": 95,
   "success_feeds": 90,
   "total_articles": 3327,
-  "filtered_articles": 34,
+  "filtered_articles": 33,
   "articles": [
+    {
+      "title": "Codeberg Bans Cryptocurrency Projects",
+      "title_display": "Codeberg Bans Cryptocurrency Projects",
+      "link": "https://codeberg.org/Codeberg/org/pulls/1254",
+      "pub_date": "2026-07-23T02:10:12.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 160,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Codeberg",
+        "Cryptocurrency",
+        "AI slop"
+      ],
+      "rank": 1
+    },
     {
       "title": "I Inspected My Take-Home Interview Project. It Was a Whole Operation",
       "title_display": "I Inspected My Take-Home Interview Project. It Was a Whole Operation",
@@ -22,7 +40,7 @@
         "take-home interview",
         "fake job interview"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Everyone Should Know SIMD",
@@ -41,7 +59,7 @@
         "AoS",
         "SoA"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Are AI Labs Pelicanmaxxing?",
@@ -60,7 +78,7 @@
         "SVG",
         "pelican"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Nobody knows what a used GPU cluster is worth",
@@ -79,7 +97,7 @@
         "AI",
         "datacenter"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "GigaToken: ~1000x faster Language model tokenization",
@@ -98,7 +116,7 @@
         "language model",
         "pretraining"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Ghost Cut – or why Cut and Paste is broken everywhere",
@@ -117,7 +135,7 @@
         "Clipboard",
         "Textualize"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Making",
@@ -136,7 +154,7 @@
         "Claude",
         "compiler"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Does creatine make you smarter?",
@@ -155,7 +173,7 @@
         "muscle",
         "cycling"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "The startup's Postgres survival guide",
@@ -174,7 +192,7 @@
         "pg_dump/pg_restore",
         "backups"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "10 REM\"_(C2SLFF4",
@@ -193,7 +211,7 @@
         "machine code",
         "Beej"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "Original Apollo 11 Guidance Computer source code for command and lunar modules",
@@ -212,7 +230,7 @@
         "chrislgarry/Apollo-11",
         "GitHub"
       ],
-      "rank": 11
+      "rank": 12
     }
   ]
 }
