@@ -1,10 +1,48 @@
 {
   "date": "2026-07-24",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3307,
-  "filtered_articles": 30,
+  "success_feeds": 90,
+  "total_articles": 3333,
+  "filtered_articles": 31,
   "articles": [
+    {
+      "title": "Writing by Hand is Good for your Brain",
+      "title_display": "Writing by Hand is Good for your Brain",
+      "link": "https://nealstephenson.substack.com/p/writing-by-hand-is-good-for-your",
+      "pub_date": "2026-07-23T15:00:13.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 470,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Handwriting",
+        "Brain",
+        "Neal Stephenson",
+        "Substack"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Software rendering in 500 lines of bare C++",
+      "title_display": "Software rendering in 500 lines of bare C++",
+      "link": "https://haqr.eu/tinyrenderer/",
+      "pub_date": "2026-07-23T14:40:13.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 144,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "tinyrenderer",
+        "C++",
+        "software rendering",
+        "rasterization"
+      ],
+      "rank": 2
+    },
     {
       "title": "Alphabet's cash burn raises alarm for Big Tech as AI spending climbs",
       "title_display": "Alphabet's cash burn raises alarm for Big Tech as AI spending climbs",
@@ -22,7 +60,7 @@
         "AI",
         "Big Tech"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "Escape IntelliJ: Scala and Kotlin LSPs on Emacs Eglot",
@@ -41,7 +79,7 @@
         "Scala",
         "Kotlin"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "OpenAI's accidental cyberattack against Hugging Face is science fiction",
@@ -51,8 +89,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 140,
-      "score": 26,
+      "hn_points": 261,
+      "score": 29,
       "category": "other",
       "keywords": [
         "OpenAI",
@@ -60,7 +98,7 @@
         "cyberattack",
         "Simon Willison"
       ],
-      "rank": 3
+      "rank": 5
     }
   ]
 }
