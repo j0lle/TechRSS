@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 90,
   "total_articles": 3327,
-  "filtered_articles": 33,
+  "filtered_articles": 34,
   "articles": [
     {
       "title": "I Inspected My Take-Home Interview Project. It Was a Whole Operation",
@@ -32,8 +32,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 158,
-      "score": 27,
+      "hn_points": 259,
+      "score": 29,
       "category": "other",
       "keywords": [
         "SIMD",
@@ -101,6 +101,25 @@
       "rank": 5
     },
     {
+      "title": "Ghost Cut – or why Cut and Paste is broken everywhere",
+      "title_display": "Ghost Cut – or why Cut and Paste is broken everywhere",
+      "link": "https://ishmael.textualize.io/blog/ghost-cut/",
+      "pub_date": "2026-07-22T16:50:13.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 127,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Ghost Cut",
+        "Cut and Paste",
+        "Clipboard",
+        "Textualize"
+      ],
+      "rank": 6
+    },
+    {
       "title": "Making",
       "title_display": "Making",
       "link": "https://beej.us/blog/data/ai-making/",
@@ -108,8 +127,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 184,
-      "score": 27,
+      "hn_points": 286,
+      "score": 30,
       "category": "other",
       "keywords": [
         "AI",
@@ -117,7 +136,7 @@
         "Claude",
         "compiler"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Does creatine make you smarter?",
@@ -136,7 +155,7 @@
         "muscle",
         "cycling"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "The startup's Postgres survival guide",
@@ -155,7 +174,7 @@
         "pg_dump/pg_restore",
         "backups"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "10 REM\"_(C2SLFF4",
@@ -174,7 +193,7 @@
         "machine code",
         "Beej"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Original Apollo 11 Guidance Computer source code for command and lunar modules",
@@ -193,7 +212,7 @@
         "chrislgarry/Apollo-11",
         "GitHub"
       ],
-      "rank": 10
+      "rank": 11
     }
   ]
 }
