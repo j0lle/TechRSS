@@ -2,8 +2,8 @@
   "date": "2026-07-23",
   "total_feeds": 95,
   "success_feeds": 90,
-  "total_articles": 3329,
-  "filtered_articles": 30,
+  "total_articles": 3330,
+  "filtered_articles": 32,
   "articles": [
     {
       "title": "Codeberg Bans Cryptocurrency Projects",
@@ -13,8 +13,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 160,
-      "score": 27,
+      "hn_points": 266,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Codeberg",
@@ -22,6 +22,25 @@
         "AI slop"
       ],
       "rank": 1
+    },
+    {
+      "title": "Show HN: Cactus Hybrid: We taught Gemma 4 to know when it's wrong",
+      "title_display": "Show HN: Cactus Hybrid: We taught Gemma 4 to know when it's wrong",
+      "link": "https://github.com/cactus-compute/cactus-hybrid",
+      "pub_date": "2026-07-22T23:20:13.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 129,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Cactus Hybrid",
+        "Gemma 4",
+        "cactus-compute",
+        "mechanistic interpretability"
+      ],
+      "rank": 2
     },
     {
       "title": "I Inspected My Take-Home Interview Project. It Was a Whole Operation",
@@ -40,7 +59,7 @@
         "take-home interview",
         "fake job interview"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Everyone Should Know SIMD",
@@ -59,7 +78,7 @@
         "AoS",
         "SoA"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Are AI Labs Pelicanmaxxing?",
@@ -78,7 +97,7 @@
         "SVG",
         "pelican"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Nobody knows what a used GPU cluster is worth",
@@ -88,8 +107,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 123,
-      "score": 25,
+      "hn_points": 223,
+      "score": 28,
       "category": "other",
       "keywords": [
         "used GPU cluster",
@@ -97,7 +116,7 @@
         "AI",
         "datacenter"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "GigaToken: ~1000x faster Language model tokenization",
@@ -116,7 +135,7 @@
         "language model",
         "pretraining"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Ghost Cut – or why Cut and Paste is broken everywhere",
@@ -135,7 +154,7 @@
         "Clipboard",
         "Textualize"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Making",
@@ -154,7 +173,7 @@
         "Claude",
         "compiler"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Does creatine make you smarter?",
@@ -173,7 +192,7 @@
         "muscle",
         "cycling"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "The startup's Postgres survival guide",
@@ -192,7 +211,7 @@
         "pg_dump/pg_restore",
         "backups"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "10 REM\"_(C2SLFF4",
@@ -211,7 +230,7 @@
         "machine code",
         "Beej"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "Original Apollo 11 Guidance Computer source code for command and lunar modules",
@@ -230,7 +249,7 @@
         "chrislgarry/Apollo-11",
         "GitHub"
       ],
-      "rank": 12
+      "rank": 13
     }
   ]
 }
