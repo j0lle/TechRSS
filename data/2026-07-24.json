@@ -1,10 +1,29 @@
 {
   "date": "2026-07-24",
   "total_feeds": 95,
-  "success_feeds": 90,
-  "total_articles": 3327,
+  "success_feeds": 89,
+  "total_articles": 3317,
   "filtered_articles": 22,
   "articles": [
+    {
+      "title": "Claude Cookbook",
+      "title_display": "Claude Cookbook",
+      "link": "https://platform.claude.com/cookbook/",
+      "pub_date": "2026-07-24T08:30:11.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 138,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Claude Cookbook",
+        "Claude",
+        "Anthropic",
+        "OpenAI Cookbook"
+      ],
+      "rank": 1
+    },
     {
       "title": "98.css",
       "title_display": "98.css",
@@ -22,7 +41,7 @@
         "Windows 98",
         "Windows XP"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Couple pay >$800k for a gene-editing therapy for their daughter. She died.",
@@ -41,7 +60,7 @@
         "China",
         "Science"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "The Beam Engine",
@@ -59,7 +78,7 @@
         "steam engine",
         "glinscott"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Show HN: Palmier Pro – open-source macOS video editor built for AI",
@@ -78,7 +97,7 @@
         "AI",
         "macOS"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "The Arguments Against Open Source AI Are Very Bad",
@@ -97,7 +116,7 @@
         "poisoned weights",
         "open weights"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Why Software Factories Fail (or: harness engineering is not enough)",
@@ -107,8 +126,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 244,
-      "score": 29,
+      "hn_points": 346,
+      "score": 30,
       "category": "other",
       "keywords": [
         "software factories",
@@ -116,7 +135,7 @@
         "context engineering",
         "humanlayer"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "What happened to TheNumbers.com",
@@ -135,7 +154,7 @@
         "Web scraping",
         "LLM"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Writing by Hand is Good for your Brain",
@@ -154,7 +173,7 @@
         "Neal Stephenson",
         "Substack"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Software rendering in 500 lines of bare C++",
@@ -173,7 +192,7 @@
         "software rendering",
         "rasterization"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Alphabet's cash burn raises alarm for Big Tech as AI spending climbs",
@@ -192,7 +211,7 @@
         "AI",
         "Big Tech"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "Escape IntelliJ: Scala and Kotlin LSPs on Emacs Eglot",
@@ -211,7 +230,7 @@
         "Scala",
         "Kotlin"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "OpenAI's accidental cyberattack against Hugging Face is science fiction",
@@ -230,7 +249,7 @@
         "cyberattack",
         "Simon Willison"
       ],
-      "rank": 12
+      "rank": 13
     }
   ]
 }
