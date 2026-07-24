@@ -2,9 +2,47 @@
   "date": "2026-07-25",
   "total_feeds": 95,
   "success_feeds": 90,
-  "total_articles": 3327,
-  "filtered_articles": 27,
+  "total_articles": 3326,
+  "filtered_articles": 25,
   "articles": [
+    {
+      "title": "Claude Opus 5",
+      "title_display": "Claude Opus 5",
+      "link": "https://www.anthropic.com/claude-opus-5-system-card",
+      "pub_date": "2026-07-24T17:10:12.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 113,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "Claude Opus 5",
+        "Anthropic",
+        "Claude Fable 5",
+        "Opus 4.8"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "My security camera shipped a GitHub admin token in its login page",
+      "title_display": "My security camera shipped a GitHub admin token in its login page",
+      "link": "https://hhh.hn/hanwha-github-token/",
+      "pub_date": "2026-07-24T13:20:17.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 292,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "GitHub admin token",
+        "security camera",
+        "Hanwha",
+        "DoD IP space"
+      ],
+      "rank": 2
+    },
     {
       "title": "Buz – A fork of Bun using modern Zig, with sub-1s incremental builds",
       "title_display": "Buz – A fork of Bun using modern Zig, with sub-1s incremental builds",
@@ -22,7 +60,7 @@
         "Zig",
         "incremental builds"
       ],
-      "rank": 1
+      "rank": 3
     }
   ]
 }
