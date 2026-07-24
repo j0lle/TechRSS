@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 90,
   "total_articles": 3333,
-  "filtered_articles": 31,
+  "filtered_articles": 23,
   "articles": [
     {
       "title": "The Arguments Against Open Source AI Are Very Bad",
@@ -70,7 +70,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 470,
+      "hn_points": 918,
       "score": 30,
       "category": "other",
       "keywords": [
