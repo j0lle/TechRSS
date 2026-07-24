@@ -2,8 +2,8 @@
   "date": "2026-07-24",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3302,
-  "filtered_articles": 21,
+  "total_articles": 3250,
+  "filtered_articles": 20,
   "articles": [
     {
       "title": "98.css",
@@ -51,8 +51,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 232,
-      "score": 29,
+      "hn_points": 336,
+      "score": 30,
       "category": "other",
       "keywords": [
         "beam engine",
