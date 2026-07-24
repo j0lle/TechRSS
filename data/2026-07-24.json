@@ -3,8 +3,45 @@
   "total_feeds": 95,
   "success_feeds": 90,
   "total_articles": 3333,
-  "filtered_articles": 23,
+  "filtered_articles": 24,
   "articles": [
+    {
+      "title": "Couple pay >$800k for a gene-editing therapy for their daughter. She died.",
+      "title_display": "Couple pay >$800k for a gene-editing therapy for their daughter. She died.",
+      "link": "https://www.science.org/content/article/exclusive-death-girl-chinese-gene-editing-trial-was-never-made-public",
+      "pub_date": "2026-07-23T21:20:13.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 239,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "gene editing",
+        "clinical trial",
+        "China",
+        "Science"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "The Beam Engine",
+      "title_display": "The Beam Engine",
+      "link": "https://glinscott.github.io/beam-engine/",
+      "pub_date": "2026-07-23T21:00:12.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 130,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "beam engine",
+        "steam engine",
+        "glinscott"
+      ],
+      "rank": 2
+    },
     {
       "title": "The Arguments Against Open Source AI Are Very Bad",
       "title_display": "The Arguments Against Open Source AI Are Very Bad",
@@ -22,7 +59,7 @@
         "poisoned weights",
         "open weights"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "Why Software Factories Fail (or: harness engineering is not enough)",
@@ -41,7 +78,7 @@
         "context engineering",
         "humanlayer"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "What happened to TheNumbers.com",
@@ -60,7 +97,7 @@
         "Web scraping",
         "LLM"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "Writing by Hand is Good for your Brain",
@@ -79,7 +116,7 @@
         "Neal Stephenson",
         "Substack"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "Software rendering in 500 lines of bare C++",
@@ -98,7 +135,7 @@
         "software rendering",
         "rasterization"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "Alphabet's cash burn raises alarm for Big Tech as AI spending climbs",
@@ -117,7 +154,7 @@
         "AI",
         "Big Tech"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "Escape IntelliJ: Scala and Kotlin LSPs on Emacs Eglot",
@@ -136,7 +173,7 @@
         "Scala",
         "Kotlin"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "OpenAI's accidental cyberattack against Hugging Face is science fiction",
@@ -146,8 +183,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 261,
-      "score": 29,
+      "hn_points": 361,
+      "score": 30,
       "category": "other",
       "keywords": [
         "OpenAI",
@@ -155,7 +192,7 @@
         "cyberattack",
         "Simon Willison"
       ],
-      "rank": 8
+      "rank": 10
     }
   ]
 }
