@@ -6,6 +6,25 @@
   "filtered_articles": 24,
   "articles": [
     {
+      "title": "Postgres LISTEN/NOTIFY actually scales",
+      "title_display": "Postgres LISTEN/NOTIFY actually scales",
+      "link": "https://www.dbos.dev/blog/postgres-listen-notify-scalability",
+      "pub_date": "2026-07-24T19:20:11.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 151,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Postgres",
+        "LISTEN/NOTIFY",
+        "DBOS",
+        "batching"
+      ],
+      "rank": 1
+    },
+    {
       "title": "Claude Opus 5",
       "title_display": "Claude Opus 5",
       "link": "https://www.anthropic.com/claude-opus-5-system-card",
@@ -22,7 +41,7 @@
         "Claude Fable 5",
         "Opus 4.8"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Government orders GitHub to remove Bluetooth-based chat app Bitchat: Jack Dorsey",
@@ -41,7 +60,7 @@
         "India",
         "Bluetooth"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "My security camera shipped a GitHub admin token in its login page",
@@ -60,7 +79,7 @@
         "Hanwha",
         "DoD IP space"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Buz – A fork of Bun using modern Zig, with sub-1s incremental builds",
@@ -79,7 +98,7 @@
         "Zig",
         "incremental builds"
       ],
-      "rank": 4
+      "rank": 5
     }
   ]
 }
