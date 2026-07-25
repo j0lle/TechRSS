@@ -1,10 +1,48 @@
 {
   "date": "2026-07-25",
   "total_feeds": 95,
-  "success_feeds": 90,
-  "total_articles": 3332,
-  "filtered_articles": 22,
+  "success_feeds": 89,
+  "total_articles": 3307,
+  "filtered_articles": 24,
   "articles": [
+    {
+      "title": "Show HN: I simulated closing the Strait of Hormuz on real oil trade data",
+      "title_display": "Show HN: I simulated closing the Strait of Hormuz on real oil trade data",
+      "link": "https://globaloilnetwork.staffinganalytics.io/",
+      "pub_date": "2026-07-24T22:20:13.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 127,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Strait of Hormuz",
+        "oil trade",
+        "simulation",
+        "Global Oil Network"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Designing an Ethernet Switch ASIC",
+      "title_display": "Designing an Ethernet Switch ASIC",
+      "link": "https://essenceia.github.io/projects/ethernet_switch_asic/",
+      "pub_date": "2026-07-24T21:40:12.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 124,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Ethernet switch",
+        "ASIC",
+        "EDA",
+        "Tiny Tapeout"
+      ],
+      "rank": 2
+    },
     {
       "title": "Postgres LISTEN/NOTIFY actually scales",
       "title_display": "Postgres LISTEN/NOTIFY actually scales",
@@ -22,7 +60,7 @@
         "DBOS",
         "batching"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "Claude Opus 5",
@@ -41,7 +79,7 @@
         "Claude Fable 5",
         "Opus 4.8"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "Government orders GitHub to remove Bluetooth-based chat app Bitchat: Jack Dorsey",
@@ -60,7 +98,7 @@
         "India",
         "Bluetooth"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "My security camera shipped a GitHub admin token in its login page",
@@ -79,7 +117,7 @@
         "Hanwha",
         "DoD IP space"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "Buz – A fork of Bun using modern Zig, with sub-1s incremental builds",
@@ -89,8 +127,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 132,
-      "score": 26,
+      "hn_points": 234,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Buz",
@@ -98,7 +136,7 @@
         "Zig",
         "incremental builds"
       ],
-      "rank": 5
+      "rank": 7
     }
   ]
 }
