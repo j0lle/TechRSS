@@ -2,8 +2,8 @@
   "date": "2026-07-26",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3307,
-  "filtered_articles": 15,
+  "total_articles": 3303,
+  "filtered_articles": 16,
   "articles": [
     {
       "title": "Zero roadkill as Amazon canopy bridges secure 15,000 crossings",
@@ -25,6 +25,25 @@
       "rank": 1
     },
     {
+      "title": "Open-weight AI is having its Kubernetes moment. Let's not ruin it",
+      "title_display": "Open-weight AI is having its Kubernetes moment. Let's not ruin it",
+      "link": "https://tobi.knaup.me/2026-07-25-open-weight-ai-is-having-its-kubernetes-moment/",
+      "pub_date": "2026-07-25T16:40:26.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 183,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Open-weight AI",
+        "Kubernetes",
+        "GPT-4",
+        "Kimi"
+      ],
+      "rank": 2
+    },
+    {
       "title": "Bitchat Is Now on Radicle",
       "title_display": "Bitchat Is Now on Radicle",
       "link": "https://radicle.network/nodes/rosa.radicle.network/rad%3Az2v9tRJz1oknFAqCSY5W5c76nVvm6",
@@ -41,7 +60,7 @@
         "Nostr",
         "Bluetooth mesh"
       ],
-      "rank": 2
+      "rank": 3
     }
   ]
 }
