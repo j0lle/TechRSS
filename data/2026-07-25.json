@@ -1,9 +1,9 @@
 {
   "date": "2026-07-25",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3278,
-  "filtered_articles": 24,
+  "success_feeds": 89,
+  "total_articles": 3303,
+  "filtered_articles": 25,
   "articles": [
     {
       "title": "Show HN: I simulated closing the Strait of Hormuz on real oil trade data",
@@ -51,8 +51,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 151,
-      "score": 26,
+      "hn_points": 258,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Postgres",
@@ -61,6 +61,25 @@
         "batching"
       ],
       "rank": 3
+    },
+    {
+      "title": "Fil-C: Garbage In, Memory Safety Out [video]",
+      "title_display": "Fil-C: Garbage In, Memory Safety Out [video]",
+      "link": "https://www.youtube.com/watch?v=5F-2Y1LPRek",
+      "pub_date": "2026-07-24T18:50:12.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 124,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Fil-C",
+        "memory safety",
+        "Rust",
+        "C"
+      ],
+      "rank": 4
     },
     {
       "title": "Claude Opus 5",
@@ -79,7 +98,7 @@
         "Claude Fable 5",
         "Opus 4.8"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Government orders GitHub to remove Bluetooth-based chat app Bitchat: Jack Dorsey",
@@ -98,7 +117,7 @@
         "India",
         "Bluetooth"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "My security camera shipped a GitHub admin token in its login page",
@@ -117,7 +136,7 @@
         "Hanwha",
         "DoD IP space"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Buz – A fork of Bun using modern Zig, with sub-1s incremental builds",
@@ -136,7 +155,7 @@
         "Zig",
         "incremental builds"
       ],
-      "rank": 7
+      "rank": 8
     }
   ]
 }
