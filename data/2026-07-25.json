@@ -6,6 +6,25 @@
   "filtered_articles": 22,
   "articles": [
     {
+      "title": "Android May Soon Restrict On-Device ADB",
+      "title_display": "Android May Soon Restrict On-Device ADB",
+      "link": "https://kitsumed.github.io/blog/posts/android-may-soon-restrict-on-device-adb/",
+      "pub_date": "2026-07-25T07:30:12.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 249,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "ADB",
+        "Android",
+        "Google",
+        "on-device ADB"
+      ],
+      "rank": 1
+    },
+    {
       "title": "Show HN: I simulated closing the Strait of Hormuz on real oil trade data",
       "title_display": "Show HN: I simulated closing the Strait of Hormuz on real oil trade data",
       "link": "https://globaloilnetwork.staffinganalytics.io/",
@@ -22,7 +41,7 @@
         "simulation",
         "Global Oil Network"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Designing an Ethernet Switch ASIC",
@@ -41,7 +60,7 @@
         "EDA",
         "Tiny Tapeout"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Postgres LISTEN/NOTIFY actually scales",
@@ -60,7 +79,7 @@
         "DBOS",
         "batching"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Fil-C: Garbage In, Memory Safety Out [video]",
@@ -79,7 +98,7 @@
         "Rust",
         "C"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Claude Opus 5",
@@ -89,7 +108,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 1272,
+      "hn_points": 1574,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -98,7 +117,7 @@
         "Claude Fable 5",
         "Opus 4.8"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Government orders GitHub to remove Bluetooth-based chat app Bitchat: Jack Dorsey",
@@ -117,7 +136,7 @@
         "India",
         "Bluetooth"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "My security camera shipped a GitHub admin token in its login page",
@@ -136,7 +155,7 @@
         "Hanwha",
         "DoD IP space"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Buz – A fork of Bun using modern Zig, with sub-1s incremental builds",
@@ -155,7 +174,7 @@
         "Zig",
         "incremental builds"
       ],
-      "rank": 8
+      "rank": 9
     }
   ]
 }
