@@ -1,8 +1,8 @@
 {
   "date": "2026-07-25",
   "total_feeds": 95,
-  "success_feeds": 90,
-  "total_articles": 3332,
+  "success_feeds": 88,
+  "total_articles": 3278,
   "filtered_articles": 20,
   "articles": [
     {
@@ -63,6 +63,25 @@
       "rank": 3
     },
     {
+      "title": "Marimo Now Runs in PyCharm",
+      "title_display": "Marimo Now Runs in PyCharm",
+      "link": "https://marimo.io/blog/pycharm",
+      "pub_date": "2026-07-24T20:40:12.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 121,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "Marimo",
+        "PyCharm",
+        "notebook",
+        "Jupyter"
+      ],
+      "rank": 4
+    },
+    {
       "title": "Postgres LISTEN/NOTIFY actually scales",
       "title_display": "Postgres LISTEN/NOTIFY actually scales",
       "link": "https://www.dbos.dev/blog/postgres-listen-notify-scalability",
@@ -79,7 +98,7 @@
         "DBOS",
         "batching"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Fil-C: Garbage In, Memory Safety Out [video]",
@@ -98,7 +117,7 @@
         "Rust",
         "C"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Claude Opus 5",
@@ -117,7 +136,7 @@
         "Claude Fable 5",
         "Opus 4.8"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Government orders GitHub to remove Bluetooth-based chat app Bitchat: Jack Dorsey",
@@ -136,7 +155,7 @@
         "India",
         "Bluetooth"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "My security camera shipped a GitHub admin token in its login page",
@@ -155,7 +174,7 @@
         "Hanwha",
         "DoD IP space"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Buz – A fork of Bun using modern Zig, with sub-1s incremental builds",
@@ -174,7 +193,7 @@
         "Zig",
         "incremental builds"
       ],
-      "rank": 9
+      "rank": 10
     }
   ]
 }
