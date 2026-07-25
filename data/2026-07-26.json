@@ -4,5 +4,44 @@
   "success_feeds": 89,
   "total_articles": 3307,
   "filtered_articles": 15,
-  "articles": []
+  "articles": [
+    {
+      "title": "Zero roadkill as Amazon canopy bridges secure 15,000 crossings",
+      "title_display": "Zero roadkill as Amazon canopy bridges secure 15,000 crossings",
+      "link": "https://news.mongabay.com/2026/07/zero-roadkill-as-amazon-canopy-bridges-secure-15000-crossings/",
+      "pub_date": "2026-07-25T19:00:25.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 139,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "canopy bridges",
+        "Amazon rainforest",
+        "roadkill",
+        "wildlife crossings"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Bitchat Is Now on Radicle",
+      "title_display": "Bitchat Is Now on Radicle",
+      "link": "https://radicle.network/nodes/rosa.radicle.network/rad%3Az2v9tRJz1oknFAqCSY5W5c76nVvm6",
+      "pub_date": "2026-07-25T15:20:27.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 130,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Bitchat",
+        "Radicle",
+        "Nostr",
+        "Bluetooth mesh"
+      ],
+      "rank": 2
+    }
+  ]
 }
