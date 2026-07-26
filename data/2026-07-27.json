@@ -1,10 +1,29 @@
 {
   "date": "2026-07-27",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3316,
+  "success_feeds": 88,
+  "total_articles": 3296,
   "filtered_articles": 21,
   "articles": [
+    {
+      "title": "French firefighters face 'pyrocumulonimbus' for first time",
+      "title_display": "French firefighters face 'pyrocumulonimbus' for first time",
+      "link": "https://www.france24.com/en/live-news/20260726-french-firefighters-face-pyrocumulonimbus-for-first-time",
+      "pub_date": "2026-07-26T23:10:26.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 107,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "pyrocumulonimbus",
+        "firefighters",
+        "Bordeaux",
+        "Gironde"
+      ],
+      "rank": 1
+    },
     {
       "title": "The Strongest El Niño Ever",
       "title_display": "The Strongest El Niño Ever",
@@ -22,7 +41,7 @@
         "ocean heat uptake",
         "heatwaves"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Htmx 4.0, the first JavaScript library to release exclusively on the Game Boy",
@@ -41,7 +60,7 @@
         "JavaScript",
         "Game Boy"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "An Inside Look at the Token Reseller Market",
@@ -60,7 +79,7 @@
         "reseller",
         "credit card fraud"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "I learned PCB design, 3D printing and C just to listen to music",
@@ -79,7 +98,7 @@
         "3D printing",
         "C"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Go Analysis Framework: modular static analysis by go team",
@@ -98,7 +117,7 @@
         "static analysis",
         "golang.org/x/tools"
       ],
-      "rank": 5
+      "rank": 6
     }
   ]
 }
