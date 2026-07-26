@@ -1,8 +1,8 @@
 {
   "date": "2026-07-26",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3301,
+  "success_feeds": 90,
+  "total_articles": 3326,
   "filtered_articles": 15,
   "articles": [
     {
@@ -44,6 +44,25 @@
       "rank": 2
     },
     {
+      "title": "Cloudflare's new AI traffic options for customers",
+      "title_display": "Cloudflare's new AI traffic options for customers",
+      "link": "https://blog.cloudflare.com/content-independence-day-ai-options/",
+      "pub_date": "2026-07-26T01:20:25.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 131,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Cloudflare",
+        "AI",
+        "Googlebot",
+        "Google"
+      ],
+      "rank": 3
+    },
+    {
       "title": "DeepSeek pause fundraise after comments on compute gap to US leaked (transcript) [pdf]",
       "title_display": "DeepSeek pause fundraise after comments on compute gap to US leaked (transcript) [pdf]",
       "link": "https://github.com/demo-zexuan/liang-wenfeng-investor-meeting-2026-7-22/blob/master/%E6%A2%81%E6%96%87%E9%94%8B%E6%8A%95%E8%B5%84%E8%80%85%E4%BA%A4%E6%B5%81%E4%BC%9A-%E6%96%87%E5%AD%97%E7%A8%BF_1_18_translate_20260723201651.pdf",
@@ -60,7 +79,7 @@
         "compute gap",
         "fundraising pause"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "GM Backs Sodium Ion Batteries for U.S. Grid Storage",
@@ -79,7 +98,7 @@
         "Grid storage",
         "Peak Energy"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Zero roadkill as Amazon canopy bridges secure 15,000 crossings",
@@ -98,7 +117,7 @@
         "roadkill",
         "wildlife crossings"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Tile's Security Is So Bad It's a Feature for Stalkers",
@@ -117,7 +136,7 @@
         "stalkers",
         "Adafruit"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "GDID Windows – Cut the tracker that follows you even under VPN",
@@ -136,7 +155,7 @@
         "Microsoft",
         "ngrok"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Open-weight AI is having its Kubernetes moment. Let's not ruin it",
@@ -155,7 +174,7 @@
         "GPT-4",
         "Kimi"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Bitchat Is Now on Radicle",
@@ -174,7 +193,7 @@
         "Nostr",
         "Bluetooth mesh"
       ],
-      "rank": 9
+      "rank": 10
     }
   ]
 }
