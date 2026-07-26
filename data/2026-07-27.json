@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 90,
   "total_articles": 3326,
-  "filtered_articles": 17,
+  "filtered_articles": 18,
   "articles": [
     {
       "title": "Htmx 4.0, the first JavaScript library to release exclusively on the Game Boy",
@@ -23,6 +23,25 @@
         "Game Boy"
       ],
       "rank": 1
+    },
+    {
+      "title": "I learned PCB design, 3D printing and C just to listen to music",
+      "title_display": "I learned PCB design, 3D printing and C just to listen to music",
+      "link": "https://pentaton.app/blog/2026-07-12-introducing-pentaton-lp/",
+      "pub_date": "2026-07-26T13:50:28.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 130,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Pentaton LP",
+        "PCB",
+        "3D printing",
+        "C"
+      ],
+      "rank": 2
     }
   ]
 }
