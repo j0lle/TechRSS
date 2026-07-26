@@ -1,10 +1,29 @@
 {
   "date": "2026-07-26",
   "total_feeds": 95,
-  "success_feeds": 90,
-  "total_articles": 3326,
-  "filtered_articles": 13,
+  "success_feeds": 82,
+  "total_articles": 3015,
+  "filtered_articles": 14,
   "articles": [
+    {
+      "title": "JetZero",
+      "title_display": "JetZero",
+      "link": "https://www.jetzero.aero",
+      "pub_date": "2026-07-26T03:10:24.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 155,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "JetZero",
+        "blended wing body",
+        "windowless cabin",
+        "digital windows"
+      ],
+      "rank": 1
+    },
     {
       "title": "GM Backs Sodium Ion Batteries for U.S. Grid Storage",
       "title_display": "GM Backs Sodium Ion Batteries for U.S. Grid Storage",
@@ -22,7 +41,7 @@
         "Grid storage",
         "Peak Energy"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Zero roadkill as Amazon canopy bridges secure 15,000 crossings",
@@ -32,8 +51,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 250,
-      "score": 29,
+      "hn_points": 351,
+      "score": 30,
       "category": "other",
       "keywords": [
         "canopy bridges",
@@ -41,7 +60,7 @@
         "roadkill",
         "wildlife crossings"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Tile's Security Is So Bad It's a Feature for Stalkers",
@@ -60,7 +79,7 @@
         "stalkers",
         "Adafruit"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "GDID Windows – Cut the tracker that follows you even under VPN",
@@ -79,7 +98,7 @@
         "Microsoft",
         "ngrok"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Open-weight AI is having its Kubernetes moment. Let's not ruin it",
@@ -98,7 +117,7 @@
         "GPT-4",
         "Kimi"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Bitchat Is Now on Radicle",
@@ -108,8 +127,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 130,
-      "score": 26,
+      "hn_points": 230,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Bitchat",
@@ -117,7 +136,7 @@
         "Nostr",
         "Bluetooth mesh"
       ],
-      "rank": 6
+      "rank": 7
     }
   ]
 }
