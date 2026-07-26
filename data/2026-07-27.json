@@ -1,8 +1,28 @@
 {
   "date": "2026-07-27",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3297,
-  "filtered_articles": 14,
-  "articles": []
+  "success_feeds": 90,
+  "total_articles": 3326,
+  "filtered_articles": 15,
+  "articles": [
+    {
+      "title": "Htmx 4.0, the first JavaScript library to release exclusively on the Game Boy",
+      "title_display": "Htmx 4.0, the first JavaScript library to release exclusively on the Game Boy",
+      "link": "https://swag.htmx.org/en-cad/products/htmx-4-the-game",
+      "pub_date": "2026-07-26T16:10:27.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 171,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "htmx",
+        "htmx 4.0",
+        "JavaScript",
+        "Game Boy"
+      ],
+      "rank": 1
+    }
+  ]
 }
