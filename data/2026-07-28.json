@@ -3,8 +3,46 @@
   "total_feeds": 95,
   "success_feeds": 90,
   "total_articles": 3331,
-  "filtered_articles": 25,
+  "filtered_articles": 26,
   "articles": [
+    {
+      "title": "Judge Rejects Google's Attempt to DMCA Its Way Out of Being Scraped",
+      "title_display": "Judge Rejects Google's Attempt to DMCA Its Way Out of Being Scraped",
+      "link": "https://www.techdirt.com/2026/07/27/judge-rejects-googles-attempt-to-dmca-its-way-out-of-being-scraped/",
+      "pub_date": "2026-07-27T20:20:18.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 103,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "Google",
+        "DMCA",
+        "web scraping",
+        "SERP"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "MAI-Cyber 1",
+      "title_display": "MAI-Cyber 1",
+      "link": "https://microsoft.ai/news/introducing-mai-cyber-1-flash-inside-mdash/",
+      "pub_date": "2026-07-27T17:40:18.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 186,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "MAI-Cyber-1",
+        "Microsoft",
+        "MAI",
+        "MDASH"
+      ],
+      "rank": 2
+    },
     {
       "title": "Decathlon Germany adds Wero payment option to decathlon.de website",
       "title_display": "Decathlon Germany adds Wero payment option to decathlon.de website",
@@ -22,7 +60,7 @@
         "decathlon.de",
         "e-commerce"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "Kimi-K3 Technical Report [pdf]",
@@ -41,7 +79,7 @@
         "open source",
         "open weights"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "Removing React.js from the codebase and adapting Htmx for UI interactivity",
@@ -60,7 +98,7 @@
         "Misago",
         "server-side rendering"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "VLC for Unity now supported on Linux",
@@ -79,7 +117,7 @@
         "VideoLAN",
         "Linux"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "Libsm64: Mario 64 as a library for use in external game engines",
@@ -98,7 +136,7 @@
         "SM64",
         "game engine"
       ],
-      "rank": 5
+      "rank": 7
     }
   ]
 }
