@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3309,
-  "filtered_articles": 22,
+  "filtered_articles": 23,
   "articles": [
     {
       "title": "PGSimCity - How PostgreSQL Works",
@@ -13,8 +13,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 240,
-      "score": 29,
+      "hn_points": 415,
+      "score": 30,
       "category": "other",
       "keywords": [
         "PostgreSQL",
@@ -100,6 +100,25 @@
       "rank": 5
     },
     {
+      "title": "Show HN: CheapSecurity – Lightweight, Self-Hosted CCTV for Linux SBCs",
+      "title_display": "Show HN: CheapSecurity – Lightweight, Self-Hosted CCTV for Linux SBCs",
+      "link": "https://github.com/gmrandazzo/CheapSecurity",
+      "pub_date": "2026-07-26T16:20:27.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 125,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "CheapSecurity",
+        "CCTV",
+        "Linux",
+        "SBC"
+      ],
+      "rank": 6
+    },
+    {
       "title": "Htmx 4.0, the first JavaScript library to release exclusively on the Game Boy",
       "title_display": "Htmx 4.0, the first JavaScript library to release exclusively on the Game Boy",
       "link": "https://swag.htmx.org/en-cad/products/htmx-4-the-game",
@@ -116,7 +135,7 @@
         "JavaScript",
         "Game Boy"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "An Inside Look at the Token Reseller Market",
@@ -135,7 +154,7 @@
         "reseller",
         "credit card fraud"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "I learned PCB design, 3D printing and C just to listen to music",
@@ -154,7 +173,7 @@
         "3D printing",
         "C"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Go Analysis Framework: modular static analysis by go team",
@@ -173,7 +192,7 @@
         "static analysis",
         "golang.org/x/tools"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Some more things about Django I've been enjoying",
@@ -192,7 +211,7 @@
         "migrations",
         "SQLite"
       ],
-      "rank": 10
+      "rank": 11
     }
   ]
 }
