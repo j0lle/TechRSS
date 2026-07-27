@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 90,
   "total_articles": 3330,
-  "filtered_articles": 25,
+  "filtered_articles": 24,
   "articles": [
+    {
+      "title": "Kimi-K3 Technical Report [pdf]",
+      "title_display": "Kimi-K3 Technical Report [pdf]",
+      "link": "https://github.com/MoonshotAI/Kimi-K3/blob/main/k3_tech_report.pdf",
+      "pub_date": "2026-07-27T15:40:18.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 318,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Kimi-K3",
+        "MoonshotAI",
+        "open source",
+        "open weights"
+      ],
+      "rank": 1
+    },
     {
       "title": "Removing React.js from the codebase and adapting Htmx for UI interactivity",
       "title_display": "Removing React.js from the codebase and adapting Htmx for UI interactivity",
@@ -22,7 +41,7 @@
         "Misago",
         "server-side rendering"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Libsm64: Mario 64 as a library for use in external game engines",
@@ -41,7 +60,7 @@
         "SM64",
         "game engine"
       ],
-      "rank": 2
+      "rank": 3
     }
   ]
 }
