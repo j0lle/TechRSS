@@ -2,9 +2,28 @@
   "date": "2026-07-28",
   "total_feeds": 95,
   "success_feeds": 90,
-  "total_articles": 3330,
-  "filtered_articles": 24,
+  "total_articles": 3331,
+  "filtered_articles": 25,
   "articles": [
+    {
+      "title": "Decathlon Germany adds Wero payment option to decathlon.de website",
+      "title_display": "Decathlon Germany adds Wero payment option to decathlon.de website",
+      "link": "https://www.sgieurope.com/e-commerce/decathlon-germany-launches-wero-payment-on-its-website/122397.article",
+      "pub_date": "2026-07-27T17:30:17.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 175,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Wero",
+        "Decathlon",
+        "decathlon.de",
+        "e-commerce"
+      ],
+      "rank": 1
+    },
     {
       "title": "Kimi-K3 Technical Report [pdf]",
       "title_display": "Kimi-K3 Technical Report [pdf]",
@@ -22,7 +41,7 @@
         "open source",
         "open weights"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Removing React.js from the codebase and adapting Htmx for UI interactivity",
@@ -41,7 +60,26 @@
         "Misago",
         "server-side rendering"
       ],
-      "rank": 2
+      "rank": 3
+    },
+    {
+      "title": "VLC for Unity now supported on Linux",
+      "title_display": "VLC for Unity now supported on Linux",
+      "link": "https://code.videolan.org/videolan/vlc-unity",
+      "pub_date": "2026-07-27T11:30:45.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 125,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "VLC",
+        "Unity",
+        "VideoLAN",
+        "Linux"
+      ],
+      "rank": 4
     },
     {
       "title": "Libsm64: Mario 64 as a library for use in external game engines",
@@ -60,7 +98,7 @@
         "SM64",
         "game engine"
       ],
-      "rank": 3
+      "rank": 5
     }
   ]
 }
