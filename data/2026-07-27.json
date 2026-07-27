@@ -1,8 +1,8 @@
 {
   "date": "2026-07-27",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3325,
+  "success_feeds": 90,
+  "total_articles": 3330,
   "filtered_articles": 24,
   "articles": [
     {
@@ -44,6 +44,25 @@
       "rank": 2
     },
     {
+      "title": "I wanted a clock that never needed setting. Things escalated",
+      "title_display": "I wanted a clock that never needed setting. Things escalated",
+      "link": "https://arstechnica.com/gadgets/2026/07/i-wanted-a-clock-that-never-needed-setting-things-escalated/",
+      "pub_date": "2026-07-27T00:00:25.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 132,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Raspberry Pi",
+        "NTP",
+        "LLM",
+        "Atomic clock"
+      ],
+      "rank": 3
+    },
+    {
       "title": "French firefighters face 'pyrocumulonimbus' for first time",
       "title_display": "French firefighters face 'pyrocumulonimbus' for first time",
       "link": "https://www.france24.com/en/live-news/20260726-french-firefighters-face-pyrocumulonimbus-for-first-time",
@@ -60,7 +79,7 @@
         "Bordeaux",
         "Gironde"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Simulate cassette tape audio profiles using FFmpeg",
@@ -79,7 +98,7 @@
         "Audio-Cassette-Simulation",
         "GitHub"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "It's not empowering to hand off the details",
@@ -97,7 +116,7 @@
         "Software engineering",
         "David Nicholas Williams"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Introduction to Data-Oriented Design [pdf]",
@@ -116,7 +135,7 @@
         "array programming",
         "Struct of Arrays"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "The Strongest El Niño Ever",
@@ -135,7 +154,7 @@
         "ocean heat uptake",
         "heatwaves"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Show HN: CheapSecurity – Lightweight, Self-Hosted CCTV for Linux SBCs",
@@ -154,7 +173,7 @@
         "Linux",
         "SBC"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Htmx 4.0, the first JavaScript library to release exclusively on the Game Boy",
@@ -173,7 +192,7 @@
         "JavaScript",
         "Game Boy"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "An Inside Look at the Token Reseller Market",
@@ -192,7 +211,7 @@
         "reseller",
         "credit card fraud"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "I learned PCB design, 3D printing and C just to listen to music",
@@ -211,7 +230,7 @@
         "3D printing",
         "C"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "Go Analysis Framework: modular static analysis by go team",
@@ -230,7 +249,7 @@
         "static analysis",
         "golang.org/x/tools"
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "title": "Some more things about Django I've been enjoying",
@@ -249,7 +268,7 @@
         "migrations",
         "SQLite"
       ],
-      "rank": 13
+      "rank": 14
     }
   ]
 }
