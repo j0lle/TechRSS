@@ -1,8 +1,28 @@
 {
   "date": "2026-07-28",
   "total_feeds": 95,
-  "success_feeds": 90,
-  "total_articles": 3330,
+  "success_feeds": 89,
+  "total_articles": 3329,
   "filtered_articles": 26,
-  "articles": []
+  "articles": [
+    {
+      "title": "Removing React.js from the codebase and adapting Htmx for UI interactivity",
+      "title_display": "Removing React.js from the codebase and adapting Htmx for UI interactivity",
+      "link": "https://misago-project.org/t/removing-reactjs-from-the-codebase-and-adapting-htmx-for-ui-interactivity/1267/",
+      "pub_date": "2026-07-27T12:50:19.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 139,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "htmx",
+        "React.js",
+        "Misago",
+        "server-side rendering"
+      ],
+      "rank": 1
+    }
+  ]
 }
