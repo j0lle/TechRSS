@@ -1,10 +1,29 @@
 {
   "date": "2026-07-27",
   "total_feeds": 95,
-  "success_feeds": 83,
-  "total_articles": 3196,
-  "filtered_articles": 18,
+  "success_feeds": 89,
+  "total_articles": 3324,
+  "filtered_articles": 22,
   "articles": [
+    {
+      "title": "PGSimCity - How PostgreSQL Works",
+      "title_display": "PGSimCity - How PostgreSQL Works",
+      "link": "https://nikolays.github.io/PGSimCity/",
+      "pub_date": "2026-07-27T01:10:26.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 240,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "PostgreSQL",
+        "PGSimCity",
+        "visualization",
+        "database internals"
+      ],
+      "rank": 1
+    },
     {
       "title": "French firefighters face 'pyrocumulonimbus' for first time",
       "title_display": "French firefighters face 'pyrocumulonimbus' for first time",
@@ -13,8 +32,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 107,
-      "score": 25,
+      "hn_points": 212,
+      "score": 28,
       "category": "other",
       "keywords": [
         "pyrocumulonimbus",
@@ -22,7 +41,7 @@
         "Bordeaux",
         "Gironde"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "It's not empowering to hand off the details",
@@ -40,7 +59,26 @@
         "Software engineering",
         "David Nicholas Williams"
       ],
-      "rank": 2
+      "rank": 3
+    },
+    {
+      "title": "Introduction to Data-Oriented Design [pdf]",
+      "title_display": "Introduction to Data-Oriented Design [pdf]",
+      "link": "https://www.gamedevs.org/uploads/introduction-to-data-oriented-design.pdf",
+      "pub_date": "2026-07-26T19:30:25.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 127,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Data-Oriented Design",
+        "C++",
+        "array programming",
+        "Struct of Arrays"
+      ],
+      "rank": 4
     },
     {
       "title": "The Strongest El Niño Ever",
@@ -59,7 +97,7 @@
         "ocean heat uptake",
         "heatwaves"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "Htmx 4.0, the first JavaScript library to release exclusively on the Game Boy",
@@ -69,8 +107,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 271,
-      "score": 29,
+      "hn_points": 373,
+      "score": 30,
       "category": "other",
       "keywords": [
         "htmx",
@@ -78,7 +116,7 @@
         "JavaScript",
         "Game Boy"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "An Inside Look at the Token Reseller Market",
@@ -97,7 +135,7 @@
         "reseller",
         "credit card fraud"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "I learned PCB design, 3D printing and C just to listen to music",
@@ -116,7 +154,7 @@
         "3D printing",
         "C"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "Go Analysis Framework: modular static analysis by go team",
@@ -135,7 +173,7 @@
         "static analysis",
         "golang.org/x/tools"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "Some more things about Django I've been enjoying",
@@ -154,7 +192,7 @@
         "migrations",
         "SQLite"
       ],
-      "rank": 8
+      "rank": 10
     }
   ]
 }
