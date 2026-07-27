@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 90,
   "total_articles": 3330,
-  "filtered_articles": 26,
+  "filtered_articles": 25,
   "articles": [
     {
       "title": "Removing React.js from the codebase and adapting Htmx for UI interactivity",
@@ -23,6 +23,25 @@
         "server-side rendering"
       ],
       "rank": 1
+    },
+    {
+      "title": "Libsm64: Mario 64 as a library for use in external game engines",
+      "title_display": "Libsm64: Mario 64 as a library for use in external game engines",
+      "link": "https://github.com/libsm64/libsm64",
+      "pub_date": "2026-07-27T11:10:19.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 124,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "libsm64",
+        "Mario 64",
+        "SM64",
+        "game engine"
+      ],
+      "rank": 2
     }
   ]
 }
