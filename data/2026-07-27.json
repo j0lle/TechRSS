@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3309,
-  "filtered_articles": 23,
+  "filtered_articles": 24,
   "articles": [
+    {
+      "title": "Scriptc by Vercel: TypeScript-to-Native compiler, no JavaScript engine in binary",
+      "title_display": "Scriptc by Vercel: TypeScript-to-Native compiler, no JavaScript engine in binary",
+      "link": "https://github.com/vercel-labs/scriptc",
+      "pub_date": "2026-07-27T03:00:19.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 142,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Scriptc",
+        "Vercel",
+        "TypeScript",
+        "TypeScript compiler"
+      ],
+      "rank": 1
+    },
     {
       "title": "PGSimCity - How PostgreSQL Works",
       "title_display": "PGSimCity - How PostgreSQL Works",
@@ -22,7 +41,7 @@
         "visualization",
         "database internals"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "French firefighters face 'pyrocumulonimbus' for first time",
@@ -32,8 +51,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 212,
-      "score": 28,
+      "hn_points": 326,
+      "score": 30,
       "category": "other",
       "keywords": [
         "pyrocumulonimbus",
@@ -41,7 +60,26 @@
         "Bordeaux",
         "Gironde"
       ],
-      "rank": 2
+      "rank": 3
+    },
+    {
+      "title": "Simulate cassette tape audio profiles using FFmpeg",
+      "title_display": "Simulate cassette tape audio profiles using FFmpeg",
+      "link": "https://github.com/AARomanov1985/Audio-Cassette-Simulation",
+      "pub_date": "2026-07-26T21:40:25.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 124,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "FFmpeg",
+        "cassette tape",
+        "Audio-Cassette-Simulation",
+        "GitHub"
+      ],
+      "rank": 4
     },
     {
       "title": "It's not empowering to hand off the details",
@@ -59,7 +97,7 @@
         "Software engineering",
         "David Nicholas Williams"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "Introduction to Data-Oriented Design [pdf]",
@@ -78,7 +116,7 @@
         "array programming",
         "Struct of Arrays"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "The Strongest El Niño Ever",
@@ -97,7 +135,7 @@
         "ocean heat uptake",
         "heatwaves"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "Show HN: CheapSecurity – Lightweight, Self-Hosted CCTV for Linux SBCs",
@@ -116,7 +154,7 @@
         "Linux",
         "SBC"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "Htmx 4.0, the first JavaScript library to release exclusively on the Game Boy",
@@ -135,7 +173,7 @@
         "JavaScript",
         "Game Boy"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "An Inside Look at the Token Reseller Market",
@@ -154,7 +192,7 @@
         "reseller",
         "credit card fraud"
       ],
-      "rank": 8
+      "rank": 10
     },
     {
       "title": "I learned PCB design, 3D printing and C just to listen to music",
@@ -173,7 +211,7 @@
         "3D printing",
         "C"
       ],
-      "rank": 9
+      "rank": 11
     },
     {
       "title": "Go Analysis Framework: modular static analysis by go team",
@@ -192,7 +230,7 @@
         "static analysis",
         "golang.org/x/tools"
       ],
-      "rank": 10
+      "rank": 12
     },
     {
       "title": "Some more things about Django I've been enjoying",
@@ -211,7 +249,7 @@
         "migrations",
         "SQLite"
       ],
-      "rank": 11
+      "rank": 13
     }
   ]
 }
