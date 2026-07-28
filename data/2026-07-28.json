@@ -1,8 +1,8 @@
 {
   "date": "2026-07-28",
   "total_feeds": 95,
-  "success_feeds": 90,
-  "total_articles": 3327,
+  "success_feeds": 89,
+  "total_articles": 3302,
   "filtered_articles": 31,
   "articles": [
     {
@@ -51,8 +51,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 147,
-      "score": 26,
+      "hn_points": 255,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Opus 5",
@@ -70,7 +70,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 407,
+      "hn_points": 776,
       "score": 30,
       "category": "other",
       "keywords": [
