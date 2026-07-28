@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3304,
-  "filtered_articles": 31,
+  "filtered_articles": 33,
   "articles": [
     {
       "title": "DMARC Has Been Public Since 2012. 68.4% of Domains Still Don't Enforce It",
@@ -44,6 +44,25 @@
       "rank": 2
     },
     {
+      "title": "I'm 38 and I Can't Support Myself Anymore",
+      "title_display": "I'm 38 and I Can't Support Myself Anymore",
+      "link": "https://itsmevox.substack.com/p/im-38-and-i-cant-support-myself-anymore",
+      "pub_date": "2026-07-28T12:50:22.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 137,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "disability",
+        "capitalism",
+        "productivity",
+        "family"
+      ],
+      "rank": 3
+    },
+    {
       "title": "Google's Beyond Zero: Enterprise Security for the AI Era",
       "title_display": "Google's Beyond Zero: Enterprise Security for the AI Era",
       "link": "https://spawn-queue.acm.org/doi/10.1145/3819083",
@@ -60,7 +79,7 @@
         "Enterprise security",
         "AI"
       ],
-      "rank": 3
+      "rank": 4
     }
   ]
 }
