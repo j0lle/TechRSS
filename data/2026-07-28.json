@@ -1,10 +1,29 @@
 {
   "date": "2026-07-28",
   "total_feeds": 95,
-  "success_feeds": 90,
-  "total_articles": 3331,
-  "filtered_articles": 26,
+  "success_feeds": 89,
+  "total_articles": 3306,
+  "filtered_articles": 27,
   "articles": [
+    {
+      "title": "Netflix employee fired for sharing personal details in retreat trust exercise",
+      "title_display": "Netflix employee fired for sharing personal details in retreat trust exercise",
+      "link": "https://www.inc.com/amaya-nichole/netflix-company-retreat-sparked-lawsuit-experts-say-real-damage-may-be-just-beginning/91380349",
+      "pub_date": "2026-07-28T01:00:21.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 119,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "Netflix",
+        "ketamine therapy",
+        "company retreat",
+        "trust exercise"
+      ],
+      "rank": 1
+    },
     {
       "title": "Judge Rejects Google's Attempt to DMCA Its Way Out of Being Scraped",
       "title_display": "Judge Rejects Google's Attempt to DMCA Its Way Out of Being Scraped",
@@ -22,7 +41,26 @@
         "web scraping",
         "SERP"
       ],
-      "rank": 1
+      "rank": 2
+    },
+    {
+      "title": "Watching Go's new garbage collector move through the heap",
+      "title_display": "Watching Go's new garbage collector move through the heap",
+      "link": "https://theconsensus.dev/p/2026/07/19/observing-gos-garbage-collector-old-and-new.html",
+      "pub_date": "2026-07-27T18:50:18.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 161,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Go",
+        "garbage collector",
+        "heap",
+        "memory allocation"
+      ],
+      "rank": 3
     },
     {
       "title": "MAI-Cyber 1",
@@ -41,7 +79,7 @@
         "MAI",
         "MDASH"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "Decathlon Germany adds Wero payment option to decathlon.de website",
@@ -60,7 +98,7 @@
         "decathlon.de",
         "e-commerce"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "Glue bonds to nonstick surfaces and wipes clean with ethanol",
@@ -79,7 +117,7 @@
         "Ethanol",
         "Adhesives"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "Kimi-K3 Technical Report [pdf]",
@@ -98,7 +136,7 @@
         "open source",
         "open weights"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "The Computer That Helped Win World War II",
@@ -117,7 +155,7 @@
         "Enigma",
         "Bombe"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "Removing React.js from the codebase and adapting Htmx for UI interactivity",
@@ -136,7 +174,7 @@
         "Misago",
         "server-side rendering"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "VLC for Unity now supported on Linux",
@@ -155,7 +193,7 @@
         "VideoLAN",
         "Linux"
       ],
-      "rank": 8
+      "rank": 10
     },
     {
       "title": "Libsm64: Mario 64 as a library for use in external game engines",
@@ -174,7 +212,7 @@
         "SM64",
         "game engine"
       ],
-      "rank": 9
+      "rank": 11
     }
   ]
 }
