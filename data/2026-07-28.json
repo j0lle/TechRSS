@@ -2,9 +2,28 @@
   "date": "2026-07-28",
   "total_feeds": 95,
   "success_feeds": 90,
-  "total_articles": 3328,
-  "filtered_articles": 33,
+  "total_articles": 3329,
+  "filtered_articles": 34,
   "articles": [
+    {
+      "title": "RTX 2080 Ti Memory Upgrade to 22 GB",
+      "title_display": "RTX 2080 Ti Memory Upgrade to 22 GB",
+      "link": "https://gpusolutions.net/rbservices/graphics-card-upgrade/",
+      "pub_date": "2026-07-28T02:10:27.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 138,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "RTX 2080 Ti",
+        "memory upgrade",
+        "22 GB",
+        "gpusolutions.net"
+      ],
+      "rank": 1
+    },
     {
       "title": "Netflix employee fired for sharing personal details in retreat trust exercise",
       "title_display": "Netflix employee fired for sharing personal details in retreat trust exercise",
@@ -22,7 +41,7 @@
         "company retreat",
         "trust exercise"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Astronauts describe persistent 'observer' sensation after 6 month missions",
@@ -41,7 +60,7 @@
         "six-month missions",
         "dissociation"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Benchmarking Opus 5 on SlopCodeBench",
@@ -60,7 +79,7 @@
         "Fable",
         "Opus 4.8"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Our position on open-weights models",
@@ -79,7 +98,7 @@
         "safety testing",
         "model distillation"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Judge Rejects Google's Attempt to DMCA Its Way Out of Being Scraped",
@@ -98,7 +117,7 @@
         "web scraping",
         "SERP"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Watching Go's new garbage collector move through the heap",
@@ -117,7 +136,7 @@
         "heap",
         "memory allocation"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Self-contained highly-portable Python distributions",
@@ -136,7 +155,7 @@
         "PyOxidizer",
         "astral-sh"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Exploiting Volvo/Eicher's fleet platform to gain control over all users/vehicles",
@@ -155,7 +174,7 @@
         "fleet platform",
         "exploit"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "MAI-Cyber 1",
@@ -174,7 +193,7 @@
         "MAI",
         "MDASH"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Decathlon Germany adds Wero payment option to decathlon.de website",
@@ -193,7 +212,7 @@
         "decathlon.de",
         "e-commerce"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "Glue bonds to nonstick surfaces and wipes clean with ethanol",
@@ -212,7 +231,7 @@
         "Ethanol",
         "Adhesives"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "Kimi-K3 Technical Report [pdf]",
@@ -231,7 +250,7 @@
         "open source",
         "open weights"
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "title": "The Computer That Helped Win World War II",
@@ -250,7 +269,7 @@
         "Enigma",
         "Bombe"
       ],
-      "rank": 13
+      "rank": 14
     },
     {
       "title": "Removing React.js from the codebase and adapting Htmx for UI interactivity",
@@ -269,7 +288,7 @@
         "Misago",
         "server-side rendering"
       ],
-      "rank": 14
+      "rank": 15
     },
     {
       "title": "VLC for Unity now supported on Linux",
@@ -288,7 +307,7 @@
         "VideoLAN",
         "Linux"
       ],
-      "rank": 15
+      "rank": 16
     },
     {
       "title": "Libsm64: Mario 64 as a library for use in external game engines",
@@ -307,7 +326,7 @@
         "SM64",
         "game engine"
       ],
-      "rank": 16
+      "rank": 17
     }
   ]
 }
