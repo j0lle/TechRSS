@@ -1,10 +1,29 @@
 {
   "date": "2026-07-29",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3304,
-  "filtered_articles": 33,
+  "success_feeds": 90,
+  "total_articles": 3329,
+  "filtered_articles": 34,
   "articles": [
+    {
+      "title": "Kimi K3 Architecture Overview and Notes",
+      "title_display": "Kimi K3 Architecture Overview and Notes",
+      "link": "https://sebastianraschka.com/blog/2026/kimi-k3-architecture-notes.html",
+      "pub_date": "2026-07-28T16:40:20.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 203,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "Kimi K3",
+        "Kimi Delta (KDA)",
+        "RoPE",
+        "Sliding Window Attention (SWA)"
+      ],
+      "rank": 1
+    },
     {
       "title": "DMARC Has Been Public Since 2012. 68.4% of Domains Still Don't Enforce It",
       "title_display": "DMARC Has Been Public Since 2012. 68.4% of Domains Still Don't Enforce It",
@@ -22,7 +41,7 @@
         "DKIM",
         "Email"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "New HIV vaccine shows unprecedented success in preclinical study",
@@ -41,7 +60,7 @@
         "preclinical study",
         "La Jolla Institute for Immunology"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "I'm 38 and I Can't Support Myself Anymore",
@@ -60,7 +79,7 @@
         "productivity",
         "family"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Google's Beyond Zero: Enterprise Security for the AI Era",
@@ -79,7 +98,7 @@
         "Enterprise security",
         "AI"
       ],
-      "rank": 4
+      "rank": 5
     }
   ]
 }
