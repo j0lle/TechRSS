@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3304,
-  "filtered_articles": 32,
+  "filtered_articles": 31,
   "articles": [
+    {
+      "title": "DMARC Has Been Public Since 2012. 68.4% of Domains Still Don't Enforce It",
+      "title_display": "DMARC Has Been Public Since 2012. 68.4% of Domains Still Don't Enforce It",
+      "link": "https://ciphercue.com/blog/dmarc-enforcement-gap-rua-fragmentation-2026",
+      "pub_date": "2026-07-28T14:00:20.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 141,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "DMARC",
+        "SPF",
+        "DKIM",
+        "Email"
+      ],
+      "rank": 1
+    },
     {
       "title": "New HIV vaccine shows unprecedented success in preclinical study",
       "title_display": "New HIV vaccine shows unprecedented success in preclinical study",
@@ -13,7 +32,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 288,
+      "hn_points": 398,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -22,7 +41,26 @@
         "preclinical study",
         "La Jolla Institute for Immunology"
       ],
-      "rank": 1
+      "rank": 2
+    },
+    {
+      "title": "Google's Beyond Zero: Enterprise Security for the AI Era",
+      "title_display": "Google's Beyond Zero: Enterprise Security for the AI Era",
+      "link": "https://spawn-queue.acm.org/doi/10.1145/3819083",
+      "pub_date": "2026-07-28T10:50:20.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 127,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Google",
+        "Beyond Zero",
+        "Enterprise security",
+        "AI"
+      ],
+      "rank": 3
     }
   ]
 }
