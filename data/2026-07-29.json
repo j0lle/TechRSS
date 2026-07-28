@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 90,
   "total_articles": 3329,
-  "filtered_articles": 34,
+  "filtered_articles": 37,
   "articles": [
+    {
+      "title": "OpenAI just open-sourced Codex Security",
+      "title_display": "OpenAI just open-sourced Codex Security",
+      "link": "https://github.com/openai/codex-security",
+      "pub_date": "2026-07-28T21:10:18.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 109,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "Codex Security",
+        "OpenAI",
+        "Codex",
+        "GitHub"
+      ],
+      "rank": 1
+    },
     {
       "title": "Kimi K3 Architecture Overview and Notes",
       "title_display": "Kimi K3 Architecture Overview and Notes",
@@ -22,7 +41,7 @@
         "RoPE",
         "Sliding Window Attention (SWA)"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "DMARC Has Been Public Since 2012. 68.4% of Domains Still Don't Enforce It",
@@ -41,7 +60,7 @@
         "DKIM",
         "Email"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "New HIV vaccine shows unprecedented success in preclinical study",
@@ -60,7 +79,7 @@
         "preclinical study",
         "La Jolla Institute for Immunology"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "I'm 38 and I Can't Support Myself Anymore",
@@ -79,7 +98,7 @@
         "productivity",
         "family"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Google's Beyond Zero: Enterprise Security for the AI Era",
@@ -98,7 +117,7 @@
         "Enterprise security",
         "AI"
       ],
-      "rank": 5
+      "rank": 6
     }
   ]
 }
