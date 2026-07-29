@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3307,
-  "filtered_articles": 24,
+  "filtered_articles": 27,
   "articles": [
+    {
+      "title": "Show HN: Open-source engine running Gemma 4 26B in 2 GB RAM on any M-series Mac",
+      "title_display": "Show HN: Open-source engine running Gemma 4 26B in 2 GB RAM on any M-series Mac",
+      "link": "https://github.com/drumih/turbo-fieldfare",
+      "pub_date": "2026-07-29T15:30:19.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 352,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Gemma 4 26B",
+        "turbo-fieldfare",
+        "M-series Mac",
+        "expert caching"
+      ],
+      "rank": 1
+    },
     {
       "title": "Handbook.md shows that long policy documents do not reliably govern agents",
       "title_display": "Handbook.md shows that long policy documents do not reliably govern agents",
@@ -22,7 +41,7 @@
         "agents",
         "context window"
       ],
-      "rank": 1
+      "rank": 2
     }
   ]
 }
