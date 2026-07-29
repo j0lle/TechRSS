@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3304,
-  "filtered_articles": 26,
+  "filtered_articles": 27,
   "articles": [
+    {
+      "title": "Show HN: I was tired of opening 2 tabs for every HN link, so I made a userscript",
+      "title_display": "Show HN: I was tired of opening 2 tabs for every HN link, so I made a userscript",
+      "link": "https://github.com/twalichiewicz/HNewhere",
+      "pub_date": "2026-07-28T22:50:18.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 129,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "userscript",
+        "HNewhere",
+        "Hacker News",
+        "GitHub"
+      ],
+      "rank": 1
+    },
     {
       "title": "OpenAI just open-sourced Codex Security",
       "title_display": "OpenAI just open-sourced Codex Security",
@@ -22,7 +41,7 @@
         "Codex",
         "GitHub"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Kimi K3 Architecture Overview and Notes",
@@ -32,8 +51,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 203,
-      "score": 28,
+      "hn_points": 310,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Kimi K3",
@@ -41,7 +60,7 @@
         "RoPE",
         "Sliding Window Attention (SWA)"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "DMARC Has Been Public Since 2012. 68.4% of Domains Still Don't Enforce It",
@@ -60,7 +79,7 @@
         "DKIM",
         "Email"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "New HIV vaccine shows unprecedented success in preclinical study",
@@ -79,7 +98,7 @@
         "preclinical study",
         "La Jolla Institute for Immunology"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "I'm 38 and I Can't Support Myself Anymore",
@@ -98,7 +117,7 @@
         "productivity",
         "family"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Google's Beyond Zero: Enterprise Security for the AI Era",
@@ -117,7 +136,7 @@
         "Enterprise security",
         "AI"
       ],
-      "rank": 6
+      "rank": 7
     }
   ]
 }
