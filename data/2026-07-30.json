@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 90,
   "total_articles": 3332,
-  "filtered_articles": 27,
+  "filtered_articles": 29,
   "articles": [
+    {
+      "title": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the Incident",
+      "title_display": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the Incident",
+      "link": "https://huggingface.co/blog/agent-intrusion-technical-timeline",
+      "pub_date": "2026-07-29T19:40:17.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 128,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Hugging Face",
+        "OpenAI",
+        "Artifactory",
+        "Jinja2"
+      ],
+      "rank": 1
+    },
     {
       "title": "Mitchellh starts a new company: Superlogical",
       "title_display": "Mitchellh starts a new company: Superlogical",
@@ -22,7 +41,7 @@
         "Herdr",
         "Ghostty"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Show HN: Open-source engine running Gemma 4 26B in 2 GB RAM on any M-series Mac",
@@ -41,7 +60,7 @@
         "M-series Mac",
         "expert caching"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Handbook.md shows that long policy documents do not reliably govern agents",
@@ -60,7 +79,7 @@
         "agents",
         "context window"
       ],
-      "rank": 3
+      "rank": 4
     }
   ]
 }
