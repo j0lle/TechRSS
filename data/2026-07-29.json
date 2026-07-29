@@ -1,10 +1,29 @@
 {
   "date": "2026-07-29",
   "total_feeds": 95,
-  "success_feeds": 90,
-  "total_articles": 3329,
+  "success_feeds": 89,
+  "total_articles": 3304,
   "filtered_articles": 28,
   "articles": [
+    {
+      "title": "Teach yourself programming in ten years (1998)",
+      "title_display": "Teach yourself programming in ten years (1998)",
+      "link": "https://www.norvig.com/21-days.html",
+      "pub_date": "2026-07-29T00:50:22.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 127,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Teach Yourself Programming",
+        "Peter Norvig",
+        "AI",
+        "LLMs"
+      ],
+      "rank": 1
+    },
     {
       "title": "Show HN: I was tired of opening 2 tabs for every HN link, so I made a userscript",
       "title_display": "Show HN: I was tired of opening 2 tabs for every HN link, so I made a userscript",
@@ -22,7 +41,7 @@
         "Hacker News",
         "GitHub"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Underwater Oxygen Loss Threatens Earth's Stability, Researchers Warn",
@@ -41,7 +60,7 @@
         "dead zones",
         "nutrient runoff"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "OpenAI just open-sourced Codex Security",
@@ -60,7 +79,7 @@
         "Codex",
         "GitHub"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Kimi K3 Architecture Overview and Notes",
@@ -79,7 +98,7 @@
         "RoPE",
         "Sliding Window Attention (SWA)"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Show HN: XY – Fast, composable, GPU-accelerated charts, written in Rust",
@@ -98,7 +117,7 @@
         "GPU",
         "charts"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "DMARC Has Been Public Since 2012. 68.4% of Domains Still Don't Enforce It",
@@ -117,7 +136,7 @@
         "DKIM",
         "Email"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "New HIV vaccine shows unprecedented success in preclinical study",
@@ -136,7 +155,7 @@
         "preclinical study",
         "La Jolla Institute for Immunology"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "I'm 38 and I Can't Support Myself Anymore",
@@ -155,7 +174,7 @@
         "productivity",
         "family"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Google's Beyond Zero: Enterprise Security for the AI Era",
@@ -174,7 +193,7 @@
         "Enterprise security",
         "AI"
       ],
-      "rank": 9
+      "rank": 10
     }
   ]
 }
