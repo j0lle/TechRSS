@@ -1,8 +1,8 @@
 {
   "date": "2026-07-30",
   "total_feeds": 95,
-  "success_feeds": 90,
-  "total_articles": 3332,
+  "success_feeds": 89,
+  "total_articles": 3312,
   "filtered_articles": 30,
   "articles": [
     {
@@ -25,6 +25,25 @@
       "rank": 1
     },
     {
+      "title": "A.I. companies are recruiting electricians and carpenters by the thousands",
+      "title_display": "A.I. companies are recruiting electricians and carpenters by the thousands",
+      "link": "https://www.nytimes.com/2026/07/29/business/economy/data-center-electricians-training.html",
+      "pub_date": "2026-07-29T17:40:19.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 163,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "AI",
+        "data centers",
+        "electricians",
+        "carpenters"
+      ],
+      "rank": 2
+    },
+    {
       "title": "Keychron announces first open-source firmware for gaming mice",
       "title_display": "Keychron announces first open-source firmware for gaming mice",
       "link": "https://www.digitalfoundry.net/news/2026/07/keychron-announces-first-open-source-firmware-for-gaming-mice",
@@ -41,7 +60,7 @@
         "QMK",
         "zgm"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Mitchellh starts a new company: Superlogical",
@@ -60,7 +79,7 @@
         "Herdr",
         "Ghostty"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Show HN: Open-source engine running Gemma 4 26B in 2 GB RAM on any M-series Mac",
@@ -79,7 +98,7 @@
         "M-series Mac",
         "expert caching"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Handbook.md shows that long policy documents do not reliably govern agents",
@@ -98,7 +117,7 @@
         "agents",
         "context window"
       ],
-      "rank": 5
+      "rank": 6
     }
   ]
 }
