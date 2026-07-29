@@ -1,10 +1,29 @@
 {
   "date": "2026-07-30",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3307,
+  "success_feeds": 90,
+  "total_articles": 3332,
   "filtered_articles": 27,
   "articles": [
+    {
+      "title": "Mitchellh starts a new company: Superlogical",
+      "title_display": "Mitchellh starts a new company: Superlogical",
+      "link": "https://www.superlogical.com/",
+      "pub_date": "2026-07-29T16:40:18.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 245,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "Superlogical",
+        "Mitchellh",
+        "Herdr",
+        "Ghostty"
+      ],
+      "rank": 1
+    },
     {
       "title": "Show HN: Open-source engine running Gemma 4 26B in 2 GB RAM on any M-series Mac",
       "title_display": "Show HN: Open-source engine running Gemma 4 26B in 2 GB RAM on any M-series Mac",
@@ -22,7 +41,7 @@
         "M-series Mac",
         "expert caching"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Handbook.md shows that long policy documents do not reliably govern agents",
@@ -41,7 +60,7 @@
         "agents",
         "context window"
       ],
-      "rank": 2
+      "rank": 3
     }
   ]
 }
