@@ -2,8 +2,8 @@
   "date": "2026-07-30",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3312,
-  "filtered_articles": 30,
+  "total_articles": 3307,
+  "filtered_articles": 28,
   "articles": [
     {
       "title": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the Incident",
