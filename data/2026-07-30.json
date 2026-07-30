@@ -1,10 +1,29 @@
 {
   "date": "2026-07-30",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3314,
-  "filtered_articles": 24,
+  "success_feeds": 90,
+  "total_articles": 3334,
+  "filtered_articles": 26,
   "articles": [
+    {
+      "title": "The Productivity Mirage",
+      "title_display": "The Productivity Mirage",
+      "link": "https://frantic.im/mirage/",
+      "pub_date": "2026-07-30T00:50:20.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 138,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "productivity",
+        "AI",
+        "agents",
+        "Jira"
+      ],
+      "rank": 1
+    },
     {
       "title": "Claude Is Down",
       "title_display": "Claude Is Down",
@@ -22,7 +41,7 @@
         "ChatGPT",
         "OpenAI"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Turning a Dumb AC Unit Smart (Without Losing My Security Deposit)",
@@ -41,7 +60,7 @@
         "stepper motor",
         "thermostat terminals"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Kimi K3-256k",
@@ -51,7 +70,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 281,
+      "hn_points": 384,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -60,7 +79,7 @@
         "K3",
         "Kimi Code"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the Incident",
@@ -79,7 +98,7 @@
         "Artifactory",
         "Jinja2"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "A.I. companies are recruiting electricians and carpenters by the thousands",
@@ -98,7 +117,7 @@
         "electricians",
         "carpenters"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Keychron announces first open-source firmware for gaming mice",
@@ -117,7 +136,7 @@
         "QMK",
         "zgm"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Mitchellh starts a new company: Superlogical",
@@ -136,7 +155,7 @@
         "Herdr",
         "Ghostty"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Show HN: Open-source engine running Gemma 4 26B in 2 GB RAM on any M-series Mac",
@@ -155,7 +174,7 @@
         "M-series Mac",
         "expert caching"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Handbook.md shows that long policy documents do not reliably govern agents",
@@ -174,7 +193,7 @@
         "agents",
         "context window"
       ],
-      "rank": 9
+      "rank": 10
     }
   ]
 }
