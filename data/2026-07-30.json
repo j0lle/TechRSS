@@ -2,9 +2,28 @@
   "date": "2026-07-30",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3310,
-  "filtered_articles": 26,
+  "total_articles": 3326,
+  "filtered_articles": 25,
   "articles": [
+    {
+      "title": "Google will expand age checks on Android worldwide till the end of the year",
+      "title_display": "Google will expand age checks on Android worldwide till the end of the year",
+      "link": "https://android-developers.googleblog.com/2026/07/google-play-age-signals-api-safer-experiences.html",
+      "pub_date": "2026-07-30T10:40:16.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 172,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Google",
+        "Android",
+        "Google Play",
+        "Play Age Signals API"
+      ],
+      "rank": 1
+    },
     {
       "title": "The Productivity Mirage",
       "title_display": "The Productivity Mirage",
@@ -22,7 +41,7 @@
         "agents",
         "Jira"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Claude Is Down",
@@ -41,7 +60,7 @@
         "ChatGPT",
         "OpenAI"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Turning a Dumb AC Unit Smart (Without Losing My Security Deposit)",
@@ -60,7 +79,7 @@
         "stepper motor",
         "thermostat terminals"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the Incident",
@@ -79,7 +98,7 @@
         "Artifactory",
         "Jinja2"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Kimi K3-256k",
@@ -98,7 +117,7 @@
         "K3",
         "Kimi Code"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "A.I. companies are recruiting electricians and carpenters by the thousands",
@@ -117,7 +136,7 @@
         "electricians",
         "carpenters"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Keychron announces first open-source firmware for gaming mice",
@@ -136,7 +155,7 @@
         "QMK",
         "zgm"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Mitchellh starts a new company: Superlogical",
@@ -155,7 +174,7 @@
         "Herdr",
         "Ghostty"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Show HN: Open-source engine running Gemma 4 26B in 2 GB RAM on any M-series Mac",
@@ -174,7 +193,7 @@
         "M-series Mac",
         "expert caching"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Handbook.md shows that long policy documents do not reliably govern agents",
@@ -193,7 +212,7 @@
         "agents",
         "context window"
       ],
-      "rank": 10
+      "rank": 11
     }
   ]
 }
