@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3314,
-  "filtered_articles": 21,
+  "filtered_articles": 23,
   "articles": [
+    {
+      "title": "Stacked PRs are now live on GitHub",
+      "title_display": "Stacked PRs are now live on GitHub",
+      "link": "https://github.blog/changelog/2026-07-30-stacked-pull-requests-are-now-in-public-preview/",
+      "pub_date": "2026-07-30T18:00:18.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 204,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "GitHub",
+        "Stacked PRs",
+        "gh stack",
+        "squash and merge"
+      ],
+      "rank": 1
+    },
     {
       "title": "Advancing the price-performance frontier with GPT‑5.6",
       "title_display": "Advancing the price-performance frontier with GPT‑5.6",
@@ -22,7 +41,26 @@
         "price-performance",
         "Luna"
       ],
-      "rank": 1
+      "rank": 2
+    },
+    {
+      "title": "Read This Before You Buy That TV Streaming Stick",
+      "title_display": "Read This Before You Buy That TV Streaming Stick",
+      "link": "https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/",
+      "pub_date": "2026-07-30T17:20:17.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 255,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "TV streaming stick",
+        "residential proxy",
+        "ad fraud",
+        "KrebsOnSecurity"
+      ],
+      "rank": 3
     },
     {
       "title": "Azulejo",
@@ -41,7 +79,7 @@
         "tiles",
         "lapis lazuli"
       ],
-      "rank": 2
+      "rank": 4
     }
   ]
 }
