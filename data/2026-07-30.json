@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 90,
   "total_articles": 3334,
-  "filtered_articles": 24,
+  "filtered_articles": 23,
   "articles": [
     {
       "title": "The Productivity Mirage",
@@ -127,8 +127,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 260,
-      "score": 29,
+      "hn_points": 363,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Keychron",
@@ -146,7 +146,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 375,
+      "hn_points": 676,
       "score": 30,
       "category": "other",
       "keywords": [
