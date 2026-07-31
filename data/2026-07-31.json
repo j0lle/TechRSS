@@ -1,10 +1,29 @@
 {
   "date": "2026-07-31",
   "total_feeds": 95,
-  "success_feeds": 90,
-  "total_articles": 3341,
-  "filtered_articles": 34,
+  "success_feeds": 89,
+  "total_articles": 3316,
+  "filtered_articles": 35,
   "articles": [
+    {
+      "title": "DeepSeek V4 Flash 0731 Intelligence, Performance and Price Analysis",
+      "title_display": "DeepSeek V4 Flash 0731 Intelligence, Performance and Price Analysis",
+      "link": "https://artificialanalysis.ai/models/deepseek-v4-flash-ga",
+      "pub_date": "2026-07-31T10:00:20.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 223,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "DeepSeek V4 Flash",
+        "DeepSeek",
+        "OpenAI Luna",
+        "artificialanalysis.ai"
+      ],
+      "rank": 1
+    },
     {
       "title": "Google fixed more Chrome bugs in June than over the past two years, thanks to AI",
       "title_display": "Google fixed more Chrome bugs in June than over the past two years, thanks to AI",
@@ -13,8 +32,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 138,
-      "score": 26,
+      "hn_points": 242,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Chrome",
@@ -22,7 +41,26 @@
         "AI",
         "Gemini"
       ],
-      "rank": 1
+      "rank": 2
+    },
+    {
+      "title": "Show HN: Gander, an Android file viewer that asks for no permissions at all",
+      "title_display": "Show HN: Gander, an Android file viewer that asks for no permissions at all",
+      "link": "https://github.com/mokshablr/gander",
+      "pub_date": "2026-07-31T07:40:20.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 126,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Gander",
+        "Android",
+        "file viewer",
+        "permissions"
+      ],
+      "rank": 3
     },
     {
       "title": "DeepSeek-V4-Flash Update",
@@ -41,7 +79,7 @@
         "DeepSeek-V4-Flash-284B-A13B",
         "DSv4"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "The Religion of Speed",
@@ -60,7 +98,7 @@
         "workplace culture",
         "management"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "JEP 401: Value Objects (Preview) merged to OpenJDK master",
@@ -79,7 +117,7 @@
         "OpenJDK",
         "Java"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "The Session You Cannot take with you",
@@ -98,7 +136,7 @@
         "open-weights",
         "conversation export"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "The AI Aesthetic",
@@ -117,7 +155,7 @@
         "UI design",
         "web design"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "Investigating three real-world incidents in our cybersecurity evaluations",
@@ -136,7 +174,7 @@
         "Cybersecurity",
         "Mythos 5"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "Agent Skill to Force Docs in ASD-STE100 Simplified Technical English",
@@ -155,7 +193,7 @@
         "Agent Skill",
         "SimpleEnglish"
       ],
-      "rank": 8
+      "rank": 10
     },
     {
       "title": "CodePen 2.0",
@@ -172,7 +210,7 @@
         "CodePen",
         "Chris Coyier"
       ],
-      "rank": 9
+      "rank": 11
     },
     {
       "title": "Stacked PRs are now live on GitHub",
@@ -191,7 +229,7 @@
         "gh stack",
         "squash and merge"
       ],
-      "rank": 10
+      "rank": 12
     },
     {
       "title": "Advancing the price-performance frontier with GPT‑5.6",
@@ -210,7 +248,7 @@
         "price-performance",
         "Luna"
       ],
-      "rank": 11
+      "rank": 13
     },
     {
       "title": "Read This Before You Buy That TV Streaming Stick",
@@ -229,7 +267,7 @@
         "ad fraud",
         "KrebsOnSecurity"
       ],
-      "rank": 12
+      "rank": 14
     },
     {
       "title": "Hacker Public Radio",
@@ -248,7 +286,7 @@
         "DEF CON",
         "hackers"
       ],
-      "rank": 13
+      "rank": 15
     },
     {
       "title": "Azulejo",
@@ -267,7 +305,7 @@
         "tiles",
         "lapis lazuli"
       ],
-      "rank": 14
+      "rank": 16
     }
   ]
 }
