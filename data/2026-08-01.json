@@ -2,9 +2,28 @@
   "date": "2026-08-01",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3316,
-  "filtered_articles": 33,
+  "total_articles": 3321,
+  "filtered_articles": 34,
   "articles": [
+    {
+      "title": "Big Food vs. the People",
+      "title_display": "Big Food vs. the People",
+      "link": "https://www.lighthousereports.com/investigation/big-food-vs-the-people/",
+      "pub_date": "2026-07-31T16:30:18.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 148,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Big Food",
+        "Lighthouse Reports",
+        "antitrust",
+        "monopoly"
+      ],
+      "rank": 1
+    },
     {
       "title": "Situational Awareness Down 67% in July in AI Stock Rout",
       "title_display": "Situational Awareness Down 67% in July in AI Stock Rout",
@@ -22,7 +41,7 @@
         "Citadel",
         "Wall Street Journal"
       ],
-      "rank": 1
+      "rank": 2
     }
   ]
 }
