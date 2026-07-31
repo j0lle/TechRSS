@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 90,
   "total_articles": 3339,
-  "filtered_articles": 27,
+  "filtered_articles": 26,
   "articles": [
     {
       "title": "The AI Aesthetic",
@@ -13,8 +13,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 157,
-      "score": 27,
+      "hn_points": 261,
+      "score": 29,
       "category": "other",
       "keywords": [
         "AI aesthetic",
