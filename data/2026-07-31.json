@@ -1,10 +1,29 @@
 {
   "date": "2026-07-31",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3319,
-  "filtered_articles": 24,
+  "success_feeds": 90,
+  "total_articles": 3339,
+  "filtered_articles": 25,
   "articles": [
+    {
+      "title": "The AI Aesthetic",
+      "title_display": "The AI Aesthetic",
+      "link": "https://blog.jim-nielsen.com/2026/ai-aesthetic/",
+      "pub_date": "2026-07-31T00:00:19.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 157,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "AI aesthetic",
+        "AI",
+        "UI design",
+        "web design"
+      ],
+      "rank": 1
+    },
     {
       "title": "Agent Skill to Force Docs in ASD-STE100 Simplified Technical English",
       "title_display": "Agent Skill to Force Docs in ASD-STE100 Simplified Technical English",
@@ -22,7 +41,7 @@
         "Agent Skill",
         "SimpleEnglish"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "CodePen 2.0",
@@ -39,7 +58,7 @@
         "CodePen",
         "Chris Coyier"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Stacked PRs are now live on GitHub",
@@ -58,7 +77,7 @@
         "gh stack",
         "squash and merge"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Advancing the price-performance frontier with GPT‑5.6",
@@ -77,7 +96,7 @@
         "price-performance",
         "Luna"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Read This Before You Buy That TV Streaming Stick",
@@ -96,7 +115,7 @@
         "ad fraud",
         "KrebsOnSecurity"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Hacker Public Radio",
@@ -115,7 +134,7 @@
         "DEF CON",
         "hackers"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Azulejo",
@@ -134,7 +153,7 @@
         "tiles",
         "lapis lazuli"
       ],
-      "rank": 7
+      "rank": 8
     }
   ]
 }
