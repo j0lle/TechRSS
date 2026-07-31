@@ -1,8 +1,8 @@
 {
   "date": "2026-07-31",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3316,
+  "success_feeds": 90,
+  "total_articles": 3341,
   "filtered_articles": 33,
   "articles": [
     {
@@ -44,6 +44,25 @@
       "rank": 2
     },
     {
+      "title": "The Religion of Speed",
+      "title_display": "The Religion of Speed",
+      "link": "https://graybeard.ing/the-religion-of-speed/",
+      "pub_date": "2026-07-31T06:40:17.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 191,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "speed culture",
+        "venture capital",
+        "workplace culture",
+        "management"
+      ],
+      "rank": 3
+    },
+    {
       "title": "JEP 401: Value Objects (Preview) merged to OpenJDK master",
       "title_display": "JEP 401: Value Objects (Preview) merged to OpenJDK master",
       "link": "https://github.com/openjdk/jdk/pull/31120",
@@ -60,7 +79,7 @@
         "OpenJDK",
         "Java"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "The Session You Cannot take with you",
@@ -79,7 +98,7 @@
         "open-weights",
         "conversation export"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "The AI Aesthetic",
@@ -98,7 +117,7 @@
         "UI design",
         "web design"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Investigating three real-world incidents in our cybersecurity evaluations",
@@ -117,7 +136,7 @@
         "Cybersecurity",
         "Mythos 5"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Agent Skill to Force Docs in ASD-STE100 Simplified Technical English",
@@ -136,7 +155,7 @@
         "Agent Skill",
         "SimpleEnglish"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "CodePen 2.0",
@@ -153,7 +172,7 @@
         "CodePen",
         "Chris Coyier"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Stacked PRs are now live on GitHub",
@@ -172,7 +191,7 @@
         "gh stack",
         "squash and merge"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Advancing the price-performance frontier with GPT‑5.6",
@@ -191,7 +210,7 @@
         "price-performance",
         "Luna"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "Read This Before You Buy That TV Streaming Stick",
@@ -210,7 +229,7 @@
         "ad fraud",
         "KrebsOnSecurity"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "Hacker Public Radio",
@@ -229,7 +248,7 @@
         "DEF CON",
         "hackers"
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "title": "Azulejo",
@@ -248,7 +267,7 @@
         "tiles",
         "lapis lazuli"
       ],
-      "rank": 13
+      "rank": 14
     }
   ]
 }
