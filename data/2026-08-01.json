@@ -2,7 +2,27 @@
   "date": "2026-08-01",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3312,
+  "total_articles": 3316,
   "filtered_articles": 33,
-  "articles": []
+  "articles": [
+    {
+      "title": "Situational Awareness Down 67% in July in AI Stock Rout",
+      "title_display": "Situational Awareness Down 67% in July in AI Stock Rout",
+      "link": "https://www.wsj.com/finance/investing/situational-awareness-down-67-in-july-in-ai-stock-rout-cd19901f",
+      "pub_date": "2026-07-31T14:00:19.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 122,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "Situational Awareness",
+        "AI",
+        "Citadel",
+        "Wall Street Journal"
+      ],
+      "rank": 1
+    }
+  ]
 }
