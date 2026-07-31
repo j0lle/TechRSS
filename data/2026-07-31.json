@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 90,
   "total_articles": 3339,
-  "filtered_articles": 25,
+  "filtered_articles": 27,
   "articles": [
     {
       "title": "The AI Aesthetic",
@@ -25,6 +25,25 @@
       "rank": 1
     },
     {
+      "title": "Investigating three real-world incidents in our cybersecurity evaluations",
+      "title_display": "Investigating three real-world incidents in our cybersecurity evaluations",
+      "link": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
+      "pub_date": "2026-07-30T23:20:17.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 134,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Anthropic",
+        "Claude",
+        "Cybersecurity",
+        "Mythos 5"
+      ],
+      "rank": 2
+    },
+    {
       "title": "Agent Skill to Force Docs in ASD-STE100 Simplified Technical English",
       "title_display": "Agent Skill to Force Docs in ASD-STE100 Simplified Technical English",
       "link": "https://github.com/AminBlg/SimpleEnglish",
@@ -32,8 +51,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 157,
-      "score": 27,
+      "hn_points": 263,
+      "score": 29,
       "category": "other",
       "keywords": [
         "ASD-STE100",
@@ -41,7 +60,7 @@
         "Agent Skill",
         "SimpleEnglish"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "CodePen 2.0",
@@ -58,7 +77,7 @@
         "CodePen",
         "Chris Coyier"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Stacked PRs are now live on GitHub",
@@ -77,7 +96,7 @@
         "gh stack",
         "squash and merge"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Advancing the price-performance frontier with GPT‑5.6",
@@ -96,7 +115,7 @@
         "price-performance",
         "Luna"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Read This Before You Buy That TV Streaming Stick",
@@ -115,7 +134,7 @@
         "ad fraud",
         "KrebsOnSecurity"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Hacker Public Radio",
@@ -134,7 +153,7 @@
         "DEF CON",
         "hackers"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Azulejo",
@@ -153,7 +172,7 @@
         "tiles",
         "lapis lazuli"
       ],
-      "rank": 8
+      "rank": 9
     }
   ]
 }
