@@ -1,10 +1,29 @@
 {
   "date": "2026-07-31",
   "total_feeds": 95,
-  "success_feeds": 90,
-  "total_articles": 3340,
-  "filtered_articles": 29,
+  "success_feeds": 89,
+  "total_articles": 3316,
+  "filtered_articles": 33,
   "articles": [
+    {
+      "title": "Google fixed more Chrome bugs in June than over the past two years, thanks to AI",
+      "title_display": "Google fixed more Chrome bugs in June than over the past two years, thanks to AI",
+      "link": "https://blog.google/security/chrome-stronger-with-every-update/",
+      "pub_date": "2026-07-31T08:40:19.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 138,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Chrome",
+        "Google",
+        "AI",
+        "Gemini"
+      ],
+      "rank": 1
+    },
     {
       "title": "DeepSeek-V4-Flash Update",
       "title_display": "DeepSeek-V4-Flash Update",
@@ -13,8 +32,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 215,
-      "score": 28,
+      "hn_points": 354,
+      "score": 30,
       "category": "other",
       "keywords": [
         "DeepSeek-V4-Flash",
@@ -22,7 +41,26 @@
         "DeepSeek-V4-Flash-284B-A13B",
         "DSv4"
       ],
-      "rank": 1
+      "rank": 2
+    },
+    {
+      "title": "JEP 401: Value Objects (Preview) merged to OpenJDK master",
+      "title_display": "JEP 401: Value Objects (Preview) merged to OpenJDK master",
+      "link": "https://github.com/openjdk/jdk/pull/31120",
+      "pub_date": "2026-07-31T06:30:17.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 133,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "JEP 401",
+        "Value Objects",
+        "OpenJDK",
+        "Java"
+      ],
+      "rank": 3
     },
     {
       "title": "The Session You Cannot take with you",
@@ -32,7 +70,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 290,
+      "hn_points": 445,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -41,7 +79,7 @@
         "open-weights",
         "conversation export"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "The AI Aesthetic",
@@ -60,7 +98,7 @@
         "UI design",
         "web design"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "Investigating three real-world incidents in our cybersecurity evaluations",
@@ -79,7 +117,7 @@
         "Cybersecurity",
         "Mythos 5"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "Agent Skill to Force Docs in ASD-STE100 Simplified Technical English",
@@ -98,7 +136,7 @@
         "Agent Skill",
         "SimpleEnglish"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "CodePen 2.0",
@@ -115,7 +153,7 @@
         "CodePen",
         "Chris Coyier"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "Stacked PRs are now live on GitHub",
@@ -125,7 +163,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 368,
+      "hn_points": 668,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -134,7 +172,7 @@
         "gh stack",
         "squash and merge"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "Advancing the price-performance frontier with GPT‑5.6",
@@ -153,7 +191,7 @@
         "price-performance",
         "Luna"
       ],
-      "rank": 8
+      "rank": 10
     },
     {
       "title": "Read This Before You Buy That TV Streaming Stick",
@@ -163,7 +201,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 426,
+      "hn_points": 726,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -172,7 +210,7 @@
         "ad fraud",
         "KrebsOnSecurity"
       ],
-      "rank": 9
+      "rank": 11
     },
     {
       "title": "Hacker Public Radio",
@@ -191,7 +229,7 @@
         "DEF CON",
         "hackers"
       ],
-      "rank": 10
+      "rank": 12
     },
     {
       "title": "Azulejo",
@@ -210,7 +248,7 @@
         "tiles",
         "lapis lazuli"
       ],
-      "rank": 11
+      "rank": 13
     }
   ]
 }
