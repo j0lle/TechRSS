@@ -2,9 +2,28 @@
   "date": "2026-08-01",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3316,
-  "filtered_articles": 35,
+  "total_articles": 3264,
+  "filtered_articles": 37,
   "articles": [
+    {
+      "title": "qm",
+      "title_display": "qm",
+      "link": "https://github.com/yc-software/qm",
+      "pub_date": "2026-07-31T18:40:18.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 285,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "qm",
+        "yc-software",
+        "AI",
+        "coding agents"
+      ],
+      "rank": 1
+    },
     {
       "title": "Big Food vs. the People",
       "title_display": "Big Food vs. the People",
@@ -22,7 +41,26 @@
         "antitrust",
         "monopoly"
       ],
-      "rank": 1
+      "rank": 2
+    },
+    {
+      "title": "Arch Linux disables AUR package adoption",
+      "title_display": "Arch Linux disables AUR package adoption",
+      "link": "https://lwn.net/Articles/1086489/",
+      "pub_date": "2026-07-31T16:30:18.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 122,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "Arch Linux",
+        "AUR",
+        "AUR package adoption",
+        "orphaned packages"
+      ],
+      "rank": 3
     },
     {
       "title": "Situational Awareness Down 67% in July in AI Stock Rout",
@@ -41,7 +79,7 @@
         "Citadel",
         "Wall Street Journal"
       ],
-      "rank": 2
+      "rank": 4
     }
   ]
 }
