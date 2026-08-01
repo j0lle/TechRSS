@@ -1,10 +1,29 @@
 {
   "date": "2026-08-01",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3321,
-  "filtered_articles": 34,
+  "success_feeds": 90,
+  "total_articles": 3341,
+  "filtered_articles": 33,
   "articles": [
+    {
+      "title": "Run Kimi K3 using 29 GB of RAM at 0.50 tok/s",
+      "title_display": "Run Kimi K3 using 29 GB of RAM at 0.50 tok/s",
+      "link": "https://github.com/sqliteai/waste",
+      "pub_date": "2026-08-01T06:20:27.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 212,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "Kimi K3",
+        "sqliteai/waste",
+        "llama.cpp",
+        "3-bit quantization"
+      ],
+      "rank": 1
+    },
     {
       "title": "Twenty-five years ago it was cryptography, today it's model weights",
       "title_display": "Twenty-five years ago it was cryptography, today it's model weights",
@@ -22,7 +41,7 @@
         "DRM",
         "piracy"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Golang proposal: container/: generic collection types",
@@ -41,7 +60,7 @@
         "container/",
         "collections"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "qm",
@@ -60,7 +79,7 @@
         "AI",
         "coding agents"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Big Food vs. the People",
@@ -79,7 +98,7 @@
         "antitrust",
         "monopoly"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Arch Linux disables AUR package adoption",
@@ -98,7 +117,7 @@
         "AUR package adoption",
         "orphaned packages"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Situational Awareness Down 67% in July in AI Stock Rout",
@@ -117,7 +136,7 @@
         "Citadel",
         "Wall Street Journal"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Danube's record low levels force shutdown of Hungary's only nuclear plant",
@@ -136,7 +155,7 @@
         "Hungary",
         "cooling systems"
       ],
-      "rank": 7
+      "rank": 8
     }
   ]
 }
