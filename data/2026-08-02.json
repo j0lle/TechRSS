@@ -2,7 +2,27 @@
   "date": "2026-08-02",
   "total_feeds": 95,
   "success_feeds": 90,
-  "total_articles": 3341,
+  "total_articles": 3342,
   "filtered_articles": 22,
-  "articles": []
+  "articles": [
+    {
+      "title": "RipGrep musl binaries occasionally segfault during very-large searches",
+      "title_display": "RipGrep musl binaries occasionally segfault during very-large searches",
+      "link": "https://github.com/BurntSushi/ripgrep/issues/3494",
+      "pub_date": "2026-08-01T12:50:26.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 128,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "ripgrep",
+        "musl",
+        "segfault",
+        "BurntSushi"
+      ],
+      "rank": 1
+    }
+  ]
 }
