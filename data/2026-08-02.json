@@ -2,9 +2,28 @@
   "date": "2026-08-02",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3322,
-  "filtered_articles": 17,
+  "total_articles": 3317,
+  "filtered_articles": 18,
   "articles": [
+    {
+      "title": "Cursor removed cost information from the usage page and CSV export",
+      "title_display": "Cursor removed cost information from the usage page and CSV export",
+      "link": "https://forum.cursor.com/t/usage-page-to-token-amount-what/167153",
+      "pub_date": "2026-08-01T16:00:28.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 208,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "Cursor",
+        "pricing",
+        "CSV export",
+        "usage page"
+      ],
+      "rank": 1
+    },
     {
       "title": "RipGrep musl binaries occasionally segfault during very-large searches",
       "title_display": "RipGrep musl binaries occasionally segfault during very-large searches",
@@ -22,7 +41,7 @@
         "segfault",
         "BurntSushi"
       ],
-      "rank": 1
+      "rank": 2
     }
   ]
 }
