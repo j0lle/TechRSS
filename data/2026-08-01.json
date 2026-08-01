@@ -1,9 +1,9 @@
 {
   "date": "2026-08-01",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3321,
-  "filtered_articles": 35,
+  "success_feeds": 90,
+  "total_articles": 3341,
+  "filtered_articles": 36,
   "articles": [
     {
       "title": "Twenty-five years ago it was cryptography, today it's model weights",
@@ -25,6 +25,25 @@
       "rank": 1
     },
     {
+      "title": "Golang proposal: container/: generic collection types",
+      "title_display": "Golang proposal: container/: generic collection types",
+      "link": "https://github.com/golang/go/issues/80590",
+      "pub_date": "2026-07-31T19:40:16.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 133,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Golang",
+        "generics",
+        "container/",
+        "collections"
+      ],
+      "rank": 2
+    },
+    {
       "title": "qm",
       "title_display": "qm",
       "link": "https://github.com/yc-software/qm",
@@ -41,7 +60,7 @@
         "AI",
         "coding agents"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Big Food vs. the People",
@@ -60,7 +79,7 @@
         "antitrust",
         "monopoly"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Arch Linux disables AUR package adoption",
@@ -79,7 +98,7 @@
         "AUR package adoption",
         "orphaned packages"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Situational Awareness Down 67% in July in AI Stock Rout",
@@ -98,7 +117,7 @@
         "Citadel",
         "Wall Street Journal"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Danube's record low levels force shutdown of Hungary's only nuclear plant",
@@ -117,7 +136,7 @@
         "Hungary",
         "cooling systems"
       ],
-      "rank": 6
+      "rank": 7
     }
   ]
 }
