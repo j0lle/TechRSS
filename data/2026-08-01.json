@@ -25,6 +25,25 @@
       "rank": 1
     },
     {
+      "title": "Flint: A Visualization Language for the AI Era",
+      "title_display": "Flint: A Visualization Language for the AI Era",
+      "link": "https://microsoft.github.io/flint-chart/",
+      "pub_date": "2026-08-01T03:20:27.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 123,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "Flint",
+        "Microsoft",
+        "Visualization",
+        "AI"
+      ],
+      "rank": 2
+    },
+    {
       "title": "Twenty-five years ago it was cryptography, today it's model weights",
       "title_display": "Twenty-five years ago it was cryptography, today it's model weights",
       "link": "https://weeraman.com/because-we-can/",
@@ -41,7 +60,7 @@
         "DRM",
         "piracy"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Golang proposal: container/: generic collection types",
@@ -60,7 +79,7 @@
         "container/",
         "collections"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "qm",
@@ -79,7 +98,7 @@
         "AI",
         "coding agents"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Big Food vs. the People",
@@ -98,7 +117,7 @@
         "antitrust",
         "monopoly"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Arch Linux disables AUR package adoption",
@@ -117,7 +136,7 @@
         "AUR package adoption",
         "orphaned packages"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Situational Awareness Down 67% in July in AI Stock Rout",
@@ -136,7 +155,7 @@
         "Citadel",
         "Wall Street Journal"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Danube's record low levels force shutdown of Hungary's only nuclear plant",
@@ -155,7 +174,7 @@
         "Hungary",
         "cooling systems"
       ],
-      "rank": 8
+      "rank": 9
     }
   ]
 }
