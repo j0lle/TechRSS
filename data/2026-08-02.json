@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3317,
-  "filtered_articles": 18,
+  "filtered_articles": 20,
   "articles": [
+    {
+      "title": "I ♥ RSS – A directory of people who love RSS",
+      "title_display": "I ♥ RSS – A directory of people who love RSS",
+      "link": "https://andrewshell.org/2026/07/i-%e2%99%a5-rss/",
+      "pub_date": "2026-08-01T17:00:27.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 124,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "RSS",
+        "Atom",
+        "emoji",
+        "Unicode"
+      ],
+      "rank": 1
+    },
     {
       "title": "Cursor removed cost information from the usage page and CSV export",
       "title_display": "Cursor removed cost information from the usage page and CSV export",
@@ -22,7 +41,7 @@
         "CSV export",
         "usage page"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "RipGrep musl binaries occasionally segfault during very-large searches",
@@ -41,7 +60,7 @@
         "segfault",
         "BurntSushi"
       ],
-      "rank": 2
+      "rank": 3
     }
   ]
 }
