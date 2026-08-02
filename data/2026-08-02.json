@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3322,
-  "filtered_articles": 16,
+  "filtered_articles": 17,
   "articles": [
     {
       "title": "Postmortem for Kernel Soundness Bug #14576",
