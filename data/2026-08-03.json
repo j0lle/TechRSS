@@ -2,9 +2,28 @@
   "date": "2026-08-03",
   "total_feeds": 95,
   "success_feeds": 90,
-  "total_articles": 3339,
-  "filtered_articles": 18,
+  "total_articles": 3340,
+  "filtered_articles": 19,
   "articles": [
+    {
+      "title": "F*: A general-purpose proof-oriented programming language",
+      "title_display": "F*: A general-purpose proof-oriented programming language",
+      "link": "https://fstar-lang.org/",
+      "pub_date": "2026-08-02T14:20:28.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 126,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "F*",
+        "proof-oriented programming",
+        "fstar-lang.org",
+        "tutorial"
+      ],
+      "rank": 1
+    },
     {
       "title": "Meshdiff – visually compare two STL versions in the browser, client-side",
       "title_display": "Meshdiff – visually compare two STL versions in the browser, client-side",
@@ -22,7 +41,7 @@
         "voxel diff",
         "3D printing"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Show HN: Bor – Open-source policy management for Linux desktops",
@@ -41,7 +60,7 @@
         "Linux",
         "desktop"
       ],
-      "rank": 2
+      "rank": 3
     }
   ]
 }
