@@ -2,9 +2,28 @@
   "date": "2026-08-02",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3318,
+  "total_articles": 3322,
   "filtered_articles": 16,
   "articles": [
+    {
+      "title": "Postmortem for Kernel Soundness Bug #14576",
+      "title_display": "Postmortem for Kernel Soundness Bug #14576",
+      "link": "https://leodemoura.github.io/blog/2026-8-1-postmortem-for-kernel-soundness-bug-14576/",
+      "pub_date": "2026-08-01T18:50:26.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 121,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "Lean",
+        "soundness",
+        "kernel",
+        "Collatz conjecture"
+      ],
+      "rank": 1
+    },
     {
       "title": "I ♥ RSS – A directory of people who love RSS",
       "title_display": "I ♥ RSS – A directory of people who love RSS",
@@ -22,7 +41,7 @@
         "emoji",
         "Unicode"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Cursor removed cost information from the usage page and CSV export",
@@ -32,8 +51,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 208,
-      "score": 28,
+      "hn_points": 308,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Cursor",
@@ -41,7 +60,7 @@
         "CSV export",
         "usage page"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "RipGrep musl binaries occasionally segfault during very-large searches",
@@ -60,7 +79,7 @@
         "segfault",
         "BurntSushi"
       ],
-      "rank": 3
+      "rank": 4
     }
   ]
 }
