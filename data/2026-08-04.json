@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3320,
-  "filtered_articles": 29,
+  "filtered_articles": 30,
   "articles": [
     {
       "title": "Wind and solar overtake fossil fuels in Germany for the first time",
@@ -44,6 +44,25 @@
       "rank": 2
     },
     {
+      "title": "Hollywood Stopped Making Movies in Hollywood",
+      "title_display": "Hollywood Stopped Making Movies in Hollywood",
+      "link": "https://www.statsignificant.com/p/how-hollywood-stopped-making-movies",
+      "pub_date": "2026-08-03T15:10:21.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 136,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Hollywood",
+        "tax incentives",
+        "film production",
+        "Los Angeles"
+      ],
+      "rank": 3
+    },
+    {
       "title": "Devtools must be open source",
       "title_display": "Devtools must be open source",
       "link": "https://blog.exe.dev/devtools-must-be-open-source",
@@ -60,7 +79,7 @@
         "exe.dev",
         "LLMs"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "MiniMax H3 Day-0 Support in ComfyUI: Open Weights, Native Audio, and 2K Video",
@@ -79,7 +98,7 @@
         "open weights",
         "2K video"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "AirLLM 70B inference with single 4GB GPU",
@@ -98,7 +117,7 @@
         "4GB GPU",
         "inference"
       ],
-      "rank": 5
+      "rank": 6
     }
   ]
 }
