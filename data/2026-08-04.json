@@ -3,8 +3,46 @@
   "total_feeds": 95,
   "success_feeds": 90,
   "total_articles": 3345,
-  "filtered_articles": 29,
+  "filtered_articles": 31,
   "articles": [
+    {
+      "title": "Wind and solar overtake fossil fuels in Germany for the first time",
+      "title_display": "Wind and solar overtake fossil fuels in Germany for the first time",
+      "link": "https://www.intellinews.com/wind-and-solar-overtake-fossil-fuels-in-germany-for-the-first-time-ever-458379/",
+      "pub_date": "2026-08-03T16:50:19.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 238,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "Germany",
+        "wind",
+        "solar",
+        "fossil fuels"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Andy Pavlo Joins ClickHouse to Establish ClickHouse Labs",
+      "title_display": "Andy Pavlo Joins ClickHouse to Establish ClickHouse Labs",
+      "link": "https://clickhouse.com/blog/andy-pavlo-joins-clickhouse",
+      "pub_date": "2026-08-03T15:30:22.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 159,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Andy Pavlo",
+        "ClickHouse",
+        "ClickHouse Labs",
+        "databases"
+      ],
+      "rank": 2
+    },
     {
       "title": "Devtools must be open source",
       "title_display": "Devtools must be open source",
@@ -22,7 +60,7 @@
         "exe.dev",
         "LLMs"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "MiniMax H3 Day-0 Support in ComfyUI: Open Weights, Native Audio, and 2K Video",
@@ -41,7 +79,7 @@
         "open weights",
         "2K video"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "AirLLM 70B inference with single 4GB GPU",
@@ -60,7 +98,7 @@
         "4GB GPU",
         "inference"
       ],
-      "rank": 3
+      "rank": 5
     }
   ]
 }
