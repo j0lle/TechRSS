@@ -1,10 +1,29 @@
 {
   "date": "2026-08-03",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3298,
-  "filtered_articles": 14,
+  "success_feeds": 89,
+  "total_articles": 3318,
+  "filtered_articles": 19,
   "articles": [
+    {
+      "title": "Qwen3.8-Max: A New Bar for Coding and Cowork",
+      "title_display": "Qwen3.8-Max: A New Bar for Coding and Cowork",
+      "link": "https://qwen.ai/blog?id=qwen3.8",
+      "pub_date": "2026-08-03T03:10:18.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 359,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Qwen3.8-Max",
+        "open weights",
+        "reasoning_effort",
+        "QwenCloud"
+      ],
+      "rank": 1
+    },
     {
       "title": "Show HN: Isopolis – isometric pixel map of SF",
       "title_display": "Show HN: Isopolis – isometric pixel map of SF",
@@ -22,7 +41,45 @@
         "pixel art",
         "San Francisco"
       ],
-      "rank": 1
+      "rank": 2
+    },
+    {
+      "title": "Show HN: Shitty – fast terminal. Memory-unsafe and faster than yours",
+      "title_display": "Show HN: Shitty – fast terminal. Memory-unsafe and faster than yours",
+      "link": "https://github.com/pg83/shitty",
+      "pub_date": "2026-08-02T23:30:18.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 129,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Shitty",
+        "terminal",
+        "memory-unsafe",
+        "st"
+      ],
+      "rank": 3
+    },
+    {
+      "title": "My personal AI benchmark: \"Generate an SVG of a frog with a Habsburg jaw.\"",
+      "title_display": "My personal AI benchmark: \"Generate an SVG of a frog with a Habsburg jaw.\"",
+      "link": "https://frogs.vaguespac.es/",
+      "pub_date": "2026-08-02T20:40:17.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 133,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "SVG",
+        "Habsburg jaw",
+        "frog",
+        "Opus 5"
+      ],
+      "rank": 4
     },
     {
       "title": "Developers are attached to tools because tools encode trust",
@@ -41,7 +98,7 @@
         "Stack Overflow",
         "Vim"
       ],
-      "rank": 2
+      "rank": 5
     },
     {
       "title": "Show HN: Kakehashi – Experimental userspace to run macOS binaries on Linux ARM",
@@ -60,7 +117,7 @@
         "Linux ARM",
         "userspace"
       ],
-      "rank": 3
+      "rank": 6
     },
     {
       "title": "F*: A general-purpose proof-oriented programming language",
@@ -79,7 +136,7 @@
         "fstar-lang.org",
         "tutorial"
       ],
-      "rank": 4
+      "rank": 7
     },
     {
       "title": "Meshdiff – visually compare two STL versions in the browser, client-side",
@@ -98,7 +155,7 @@
         "voxel diff",
         "3D printing"
       ],
-      "rank": 5
+      "rank": 8
     },
     {
       "title": "Show HN: Bor – Open-source policy management for Linux desktops",
@@ -117,7 +174,7 @@
         "Linux",
         "desktop"
       ],
-      "rank": 6
+      "rank": 9
     }
   ]
 }
