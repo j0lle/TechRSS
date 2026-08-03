@@ -2,9 +2,66 @@
   "date": "2026-08-03",
   "total_feeds": 95,
   "success_feeds": 90,
-  "total_articles": 3343,
-  "filtered_articles": 22,
+  "total_articles": 3345,
+  "filtered_articles": 27,
   "articles": [
+    {
+      "title": "Prevent cognitive debt by manually retyping LLM-generated code",
+      "title_display": "Prevent cognitive debt by manually retyping LLM-generated code",
+      "link": "https://ankursethi.com/blog/prevent-cognitive-debt-by-manually-retyping-llm-generated-code/",
+      "pub_date": "2026-08-03T10:00:20.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 148,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "LLM-generated code",
+        "LLM",
+        "cognitive debt",
+        "manual retyping"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Bonsai: Janestreet's UI Library",
+      "title_display": "Bonsai: Janestreet's UI Library",
+      "link": "https://github.com/janestreet/bonsai",
+      "pub_date": "2026-08-03T08:50:19.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 135,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Bonsai",
+        "Jane Street",
+        "OCaml",
+        "Web UI"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "Rust project goals: Immobile types and guaranteed destructors",
+      "title_display": "Rust project goals: Immobile types and guaranteed destructors",
+      "link": "https://github.com/rust-lang/rust-project-goals/blob/main/src/2026/move-trait.md",
+      "pub_date": "2026-08-03T07:00:18.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 125,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Rust",
+        "immovable types",
+        "guaranteed destructors",
+        "move trait"
+      ],
+      "rank": 3
+    },
     {
       "title": "Qwen3.8-Max: A New Bar for Coding and Cowork",
       "title_display": "Qwen3.8-Max: A New Bar for Coding and Cowork",
@@ -22,7 +79,7 @@
         "reasoning_effort",
         "QwenCloud"
       ],
-      "rank": 1
+      "rank": 4
     },
     {
       "title": "Show HN: Isopolis – isometric pixel map of SF",
@@ -41,7 +98,7 @@
         "pixel art",
         "San Francisco"
       ],
-      "rank": 2
+      "rank": 5
     },
     {
       "title": "Show HN: Shitty – fast terminal. Memory-unsafe and faster than yours",
@@ -60,7 +117,7 @@
         "memory-unsafe",
         "st"
       ],
-      "rank": 3
+      "rank": 6
     },
     {
       "title": "My personal AI benchmark: \"Generate an SVG of a frog with a Habsburg jaw.\"",
@@ -79,7 +136,7 @@
         "frog",
         "Opus 5"
       ],
-      "rank": 4
+      "rank": 7
     },
     {
       "title": "Developers are attached to tools because tools encode trust",
@@ -89,8 +146,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 126,
-      "score": 26,
+      "hn_points": 228,
+      "score": 29,
       "category": "other",
       "keywords": [
         "AI",
@@ -98,7 +155,7 @@
         "Stack Overflow",
         "Vim"
       ],
-      "rank": 5
+      "rank": 8
     },
     {
       "title": "Show HN: Kakehashi – Experimental userspace to run macOS binaries on Linux ARM",
@@ -117,7 +174,7 @@
         "Linux ARM",
         "userspace"
       ],
-      "rank": 6
+      "rank": 9
     },
     {
       "title": "F*: A general-purpose proof-oriented programming language",
@@ -136,7 +193,7 @@
         "fstar-lang.org",
         "tutorial"
       ],
-      "rank": 7
+      "rank": 10
     },
     {
       "title": "Meshdiff – visually compare two STL versions in the browser, client-side",
@@ -155,7 +212,7 @@
         "voxel diff",
         "3D printing"
       ],
-      "rank": 8
+      "rank": 11
     },
     {
       "title": "Show HN: Bor – Open-source policy management for Linux desktops",
@@ -174,7 +231,7 @@
         "Linux",
         "desktop"
       ],
-      "rank": 9
+      "rank": 12
     }
   ]
 }
