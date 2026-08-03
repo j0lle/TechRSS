@@ -6,6 +6,25 @@
   "filtered_articles": 14,
   "articles": [
     {
+      "title": "Show HN: Isopolis – isometric pixel map of SF",
+      "title_display": "Show HN: Isopolis – isometric pixel map of SF",
+      "link": "https://sf.isopolis.city/",
+      "pub_date": "2026-08-03T01:50:19.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 127,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Isopolis",
+        "isometric",
+        "pixel art",
+        "San Francisco"
+      ],
+      "rank": 1
+    },
+    {
       "title": "Developers are attached to tools because tools encode trust",
       "title_display": "Developers are attached to tools because tools encode trust",
       "link": "https://stackoverflow.blog/2026/07/29/developers-are-attached-to-tools-because-tools-encode-trust/",
@@ -22,7 +41,7 @@
         "Stack Overflow",
         "Vim"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Show HN: Kakehashi – Experimental userspace to run macOS binaries on Linux ARM",
@@ -41,7 +60,7 @@
         "Linux ARM",
         "userspace"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "F*: A general-purpose proof-oriented programming language",
@@ -60,7 +79,7 @@
         "fstar-lang.org",
         "tutorial"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Meshdiff – visually compare two STL versions in the browser, client-side",
@@ -79,7 +98,7 @@
         "voxel diff",
         "3D printing"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Show HN: Bor – Open-source policy management for Linux desktops",
@@ -98,7 +117,7 @@
         "Linux",
         "desktop"
       ],
-      "rank": 5
+      "rank": 6
     }
   ]
 }
