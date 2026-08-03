@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 90,
   "total_articles": 3345,
-  "filtered_articles": 28,
+  "filtered_articles": 29,
   "articles": [
+    {
+      "title": "Devtools must be open source",
+      "title_display": "Devtools must be open source",
+      "link": "https://blog.exe.dev/devtools-must-be-open-source",
+      "pub_date": "2026-08-03T15:00:19.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 258,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "devtools",
+        "open-source",
+        "exe.dev",
+        "LLMs"
+      ],
+      "rank": 1
+    },
     {
       "title": "MiniMax H3 Day-0 Support in ComfyUI: Open Weights, Native Audio, and 2K Video",
       "title_display": "MiniMax H3 Day-0 Support in ComfyUI: Open Weights, Native Audio, and 2K Video",
@@ -22,7 +41,26 @@
         "open weights",
         "2K video"
       ],
-      "rank": 1
+      "rank": 2
+    },
+    {
+      "title": "AirLLM 70B inference with single 4GB GPU",
+      "title_display": "AirLLM 70B inference with single 4GB GPU",
+      "link": "https://github.com/lyogavin/airllm",
+      "pub_date": "2026-08-03T13:00:20.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 135,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "AirLLM",
+        "70B",
+        "4GB GPU",
+        "inference"
+      ],
+      "rank": 3
     }
   ]
 }
