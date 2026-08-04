@@ -2,9 +2,47 @@
   "date": "2026-08-04",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3324,
+  "total_articles": 3272,
   "filtered_articles": 28,
   "articles": [
+    {
+      "title": "Show HN: Run an 80B Qwen in 4.3 GB of RAM on a Mac, and a 35B on an iPhone",
+      "title_display": "Show HN: Run an 80B Qwen in 4.3 GB of RAM on a Mac, and a 35B on an iPhone",
+      "link": "https://github.com/leonickson1/Swiftlet",
+      "pub_date": "2026-08-04T03:10:19.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 125,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Qwen",
+        "80B",
+        "35B",
+        "Mac"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Ask HN: Who is hiring? (August 2026)",
+      "title_display": "Ask HN: Who is hiring? (August 2026)",
+      "link": "https://news.ycombinator.com/item?id=49156683",
+      "pub_date": "2026-08-03T23:00:18.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 154,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "AI",
+        "Agentic AI",
+        "LLM",
+        "TypeScript"
+      ],
+      "rank": 2
+    },
     {
       "title": "200 Milliseconds",
       "title_display": "200 Milliseconds",
@@ -13,8 +51,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 159,
-      "score": 27,
+      "hn_points": 262,
+      "score": 29,
       "category": "other",
       "keywords": [
         "200ms",
@@ -22,7 +60,7 @@
         "latency",
         "request lifecycle"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "The Dunning-Kruger Effect Is Probably Not Real",
@@ -41,7 +79,7 @@
         "replication crisis",
         "McGill Office for Science and Society"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "Celebrating 45 Years of Kermit with the First New C-Kermit Release in 15 Years",
@@ -60,7 +98,7 @@
         "serial",
         "embedded"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "Wind and solar overtake fossil fuels in Germany for the first time",
@@ -79,7 +117,7 @@
         "solar",
         "fossil fuels"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "Andy Pavlo Joins ClickHouse to Establish ClickHouse Labs",
@@ -98,7 +136,7 @@
         "ClickHouse Labs",
         "databases"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "Hollywood Stopped Making Movies in Hollywood",
@@ -117,7 +155,7 @@
         "film production",
         "Los Angeles"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "Devtools must be open source",
@@ -136,7 +174,7 @@
         "exe.dev",
         "LLMs"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "MiniMax H3 Day-0 Support in ComfyUI: Open Weights, Native Audio, and 2K Video",
@@ -155,7 +193,7 @@
         "open weights",
         "2K video"
       ],
-      "rank": 8
+      "rank": 10
     },
     {
       "title": "AirLLM 70B inference with single 4GB GPU",
@@ -174,7 +212,7 @@
         "4GB GPU",
         "inference"
       ],
-      "rank": 9
+      "rank": 11
     }
   ]
 }
