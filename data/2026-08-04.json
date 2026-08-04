@@ -2,8 +2,8 @@
   "date": "2026-08-04",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3320,
-  "filtered_articles": 26,
+  "total_articles": 3324,
+  "filtered_articles": 28,
   "articles": [
     {
       "title": "200 Milliseconds",
@@ -25,6 +25,44 @@
       "rank": 1
     },
     {
+      "title": "The Dunning-Kruger Effect Is Probably Not Real",
+      "title_display": "The Dunning-Kruger Effect Is Probably Not Real",
+      "link": "https://www.mcgill.ca/oss/article/critical-thinking/dunning-kruger-effect-probably-not-real",
+      "pub_date": "2026-08-03T20:30:17.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 123,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "Dunning-Kruger effect",
+        "psychology",
+        "replication crisis",
+        "McGill Office for Science and Society"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "Celebrating 45 Years of Kermit with the First New C-Kermit Release in 15 Years",
+      "title_display": "Celebrating 45 Years of Kermit with the First New C-Kermit Release in 15 Years",
+      "link": "https://changelog.complete.org/archives/44456-celebrating-45-years-of-kermit-with-the-first-new-c-kermit-release-in-15-years-and-working-with-a-decades-old-c-codebase",
+      "pub_date": "2026-08-03T17:40:20.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 129,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "C-Kermit",
+        "Kermit",
+        "serial",
+        "embedded"
+      ],
+      "rank": 3
+    },
+    {
       "title": "Wind and solar overtake fossil fuels in Germany for the first time",
       "title_display": "Wind and solar overtake fossil fuels in Germany for the first time",
       "link": "https://www.intellinews.com/wind-and-solar-overtake-fossil-fuels-in-germany-for-the-first-time-ever-458379/",
@@ -41,7 +79,7 @@
         "solar",
         "fossil fuels"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "Andy Pavlo Joins ClickHouse to Establish ClickHouse Labs",
@@ -60,7 +98,7 @@
         "ClickHouse Labs",
         "databases"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "Hollywood Stopped Making Movies in Hollywood",
@@ -79,7 +117,7 @@
         "film production",
         "Los Angeles"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "Devtools must be open source",
@@ -98,7 +136,7 @@
         "exe.dev",
         "LLMs"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "MiniMax H3 Day-0 Support in ComfyUI: Open Weights, Native Audio, and 2K Video",
@@ -117,7 +155,7 @@
         "open weights",
         "2K video"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "AirLLM 70B inference with single 4GB GPU",
@@ -136,7 +174,7 @@
         "4GB GPU",
         "inference"
       ],
-      "rank": 7
+      "rank": 9
     }
   ]
 }
