@@ -1,10 +1,29 @@
 {
   "date": "2026-08-05",
   "total_feeds": 95,
-  "success_feeds": 90,
-  "total_articles": 3352,
-  "filtered_articles": 28,
+  "success_feeds": 89,
+  "total_articles": 3342,
+  "filtered_articles": 29,
   "articles": [
+    {
+      "title": "Show HN: Simple algorithm and color space to generate diverse skin tones",
+      "title_display": "Show HN: Simple algorithm and color space to generate diverse skin tones",
+      "link": "https://toneyalexander.github.io/inclusive-color-space/",
+      "pub_date": "2026-08-04T15:30:20.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 262,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "skin tones",
+        "color space",
+        "algorithm",
+        "inclusive-color-space"
+      ],
+      "rank": 1
+    },
     {
       "title": "Keyv and friends compromised in active Shai-Hulud supply chain attack",
       "title_display": "Keyv and friends compromised in active Shai-Hulud supply chain attack",
@@ -22,7 +41,7 @@
         "npm",
         "supply-chain attack"
       ],
-      "rank": 1
+      "rank": 2
     }
   ]
 }
