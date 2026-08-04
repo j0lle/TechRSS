@@ -2,8 +2,8 @@
   "date": "2026-08-04",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3324,
-  "filtered_articles": 26,
+  "total_articles": 3329,
+  "filtered_articles": 23,
   "articles": [
     {
       "title": "Show HN: Run an 80B Qwen in 4.3 GB of RAM on a Mac, and a 35B on an iPhone",
