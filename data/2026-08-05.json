@@ -1,10 +1,24 @@
 {
   "date": "2026-08-05",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3342,
-  "filtered_articles": 29,
+  "success_feeds": 90,
+  "total_articles": 3355,
+  "filtered_articles": 33,
   "articles": [
+    {
+      "title": "Stephen Wolfram's Wife Has Died",
+      "title_display": "Stephen Wolfram's Wife Has Died",
+      "link": "https://writings.stephenwolfram.com/2026/08/in-memory-of-my-wife-elise-cawley-1961-2026-with-thanks-for-36-wonderful-years/",
+      "pub_date": "2026-08-04T20:00:17.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 122,
+      "score": 25,
+      "category": "other",
+      "keywords": [],
+      "rank": 1
+    },
     {
       "title": "Show HN: Simple algorithm and color space to generate diverse skin tones",
       "title_display": "Show HN: Simple algorithm and color space to generate diverse skin tones",
@@ -22,7 +36,7 @@
         "algorithm",
         "inclusive-color-space"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Keyv and friends compromised in active Shai-Hulud supply chain attack",
@@ -41,7 +55,26 @@
         "npm",
         "supply-chain attack"
       ],
-      "rank": 2
+      "rank": 3
+    },
+    {
+      "title": "U.S. used 'virtually all' of its long-range precision missiles during Iran war",
+      "title_display": "U.S. used 'virtually all' of its long-range precision missiles during Iran war",
+      "link": "https://www.cnbc.com/2026/08/04/us-has-used-virtually-all-of-its-long-range-precision-missiles-report.html",
+      "pub_date": "2026-08-04T11:20:17.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 152,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "United States",
+        "long-range precision missiles",
+        "Iran",
+        "CNBC"
+      ],
+      "rank": 4
     }
   ]
 }
