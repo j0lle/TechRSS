@@ -2,9 +2,28 @@
   "date": "2026-08-04",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3324,
+  "total_articles": 3330,
   "filtered_articles": 28,
   "articles": [
+    {
+      "title": "AI-Generated Images Discourage Me from Reading Your Blog",
+      "title_display": "AI-Generated Images Discourage Me from Reading Your Blog",
+      "link": "https://nelson.cloud/ai-generated-images-discourage-me-from-reading-your-blog/",
+      "pub_date": "2026-08-04T12:20:18.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 125,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "AI-generated images",
+        "blogs",
+        "AI",
+        "stock photography"
+      ],
+      "rank": 1
+    },
     {
       "title": "Show HN: Run an 80B Qwen in 4.3 GB of RAM on a Mac, and a 35B on an iPhone",
       "title_display": "Show HN: Run an 80B Qwen in 4.3 GB of RAM on a Mac, and a 35B on an iPhone",
@@ -22,7 +41,7 @@
         "35B",
         "Mac"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Ask HN: Who wants to be hired? (August 2026)",
@@ -41,7 +60,7 @@
         "Agents",
         "RAG"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Ask HN: Who is hiring? (August 2026)",
@@ -60,7 +79,7 @@
         "LLM",
         "TypeScript"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "200 Milliseconds",
@@ -79,7 +98,7 @@
         "latency",
         "request lifecycle"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "The Dunning-Kruger Effect Is Probably Not Real",
@@ -98,7 +117,7 @@
         "replication crisis",
         "McGill Office for Science and Society"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Celebrating 45 Years of Kermit with the First New C-Kermit Release in 15 Years",
@@ -117,7 +136,7 @@
         "serial",
         "embedded"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Wind and solar overtake fossil fuels in Germany for the first time",
@@ -136,7 +155,7 @@
         "solar",
         "fossil fuels"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Andy Pavlo Joins ClickHouse to Establish ClickHouse Labs",
@@ -155,7 +174,7 @@
         "ClickHouse Labs",
         "databases"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Hollywood Stopped Making Movies in Hollywood",
@@ -174,7 +193,7 @@
         "film production",
         "Los Angeles"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Devtools must be open source",
@@ -193,7 +212,7 @@
         "exe.dev",
         "LLMs"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "MiniMax H3 Day-0 Support in ComfyUI: Open Weights, Native Audio, and 2K Video",
@@ -212,7 +231,7 @@
         "open weights",
         "2K video"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "AirLLM 70B inference with single 4GB GPU",
@@ -231,7 +250,7 @@
         "4GB GPU",
         "inference"
       ],
-      "rank": 12
+      "rank": 13
     }
   ]
 }
