@@ -1,9 +1,9 @@
 {
   "date": "2026-08-04",
   "total_feeds": 95,
-  "success_feeds": 90,
-  "total_articles": 3349,
-  "filtered_articles": 25,
+  "success_feeds": 89,
+  "total_articles": 3324,
+  "filtered_articles": 28,
   "articles": [
     {
       "title": "Show HN: Run an 80B Qwen in 4.3 GB of RAM on a Mac, and a 35B on an iPhone",
@@ -25,6 +25,25 @@
       "rank": 1
     },
     {
+      "title": "Ask HN: Who wants to be hired? (August 2026)",
+      "title_display": "Ask HN: Who wants to be hired? (August 2026)",
+      "link": "https://news.ycombinator.com/item?id=49156682",
+      "pub_date": "2026-08-03T23:00:19.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 128,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "AI",
+        "LLMs",
+        "Agents",
+        "RAG"
+      ],
+      "rank": 2
+    },
+    {
       "title": "Ask HN: Who is hiring? (August 2026)",
       "title_display": "Ask HN: Who is hiring? (August 2026)",
       "link": "https://news.ycombinator.com/item?id=49156683",
@@ -41,7 +60,7 @@
         "LLM",
         "TypeScript"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "200 Milliseconds",
@@ -60,7 +79,7 @@
         "latency",
         "request lifecycle"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "The Dunning-Kruger Effect Is Probably Not Real",
@@ -79,7 +98,7 @@
         "replication crisis",
         "McGill Office for Science and Society"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Celebrating 45 Years of Kermit with the First New C-Kermit Release in 15 Years",
@@ -98,7 +117,7 @@
         "serial",
         "embedded"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Wind and solar overtake fossil fuels in Germany for the first time",
@@ -117,7 +136,7 @@
         "solar",
         "fossil fuels"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Andy Pavlo Joins ClickHouse to Establish ClickHouse Labs",
@@ -136,7 +155,7 @@
         "ClickHouse Labs",
         "databases"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Hollywood Stopped Making Movies in Hollywood",
@@ -155,7 +174,7 @@
         "film production",
         "Los Angeles"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Devtools must be open source",
@@ -174,7 +193,7 @@
         "exe.dev",
         "LLMs"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "MiniMax H3 Day-0 Support in ComfyUI: Open Weights, Native Audio, and 2K Video",
@@ -193,7 +212,7 @@
         "open weights",
         "2K video"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "AirLLM 70B inference with single 4GB GPU",
@@ -212,7 +231,7 @@
         "4GB GPU",
         "inference"
       ],
-      "rank": 11
+      "rank": 12
     }
   ]
 }
