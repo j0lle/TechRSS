@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 90,
   "total_articles": 3351,
-  "filtered_articles": 30,
+  "filtered_articles": 31,
   "articles": [
     {
       "title": "AI-Generated Images Discourage Me from Reading Your Blog",
@@ -25,6 +25,25 @@
       "rank": 1
     },
     {
+      "title": "DeepSeek V4 Flash on a Single AMD MI300X",
+      "title_display": "DeepSeek V4 Flash on a Single AMD MI300X",
+      "link": "https://github.com/ryanzhou/deepseek-v4-flash-mi300x",
+      "pub_date": "2026-08-04T10:40:19.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 194,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "DeepSeek V4 Flash",
+        "AMD MI300X",
+        "AMD",
+        "AMD Developer Cloud"
+      ],
+      "rank": 2
+    },
+    {
       "title": "FFmpeg 9.0",
       "title_display": "FFmpeg 9.0",
       "link": "https://github.com/FFmpeg/FFmpeg/blob/n9.0/RELEASE_NOTES",
@@ -41,7 +60,26 @@
         "Anthropic",
         "ONNX Runtime"
       ],
-      "rank": 2
+      "rank": 3
+    },
+    {
+      "title": "Harness Engineering for Self-Improvement",
+      "title_display": "Harness Engineering for Self-Improvement",
+      "link": "https://lilianweng.github.io/posts/2026-07-04-harness/",
+      "pub_date": "2026-08-04T08:50:21.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 149,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Harness engineering",
+        "Self-improvement",
+        "Agents",
+        "Agent harness"
+      ],
+      "rank": 4
     },
     {
       "title": "Show HN: Run an 80B Qwen in 4.3 GB of RAM on a Mac, and a 35B on an iPhone",
@@ -60,7 +98,7 @@
         "35B",
         "Mac"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "Ask HN: Who wants to be hired? (August 2026)",
@@ -79,7 +117,7 @@
         "Agents",
         "RAG"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "Ask HN: Who is hiring? (August 2026)",
@@ -98,7 +136,7 @@
         "LLM",
         "TypeScript"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "200 Milliseconds",
@@ -117,7 +155,7 @@
         "latency",
         "request lifecycle"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "The Dunning-Kruger Effect Is Probably Not Real",
@@ -136,7 +174,7 @@
         "replication crisis",
         "McGill Office for Science and Society"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "Celebrating 45 Years of Kermit with the First New C-Kermit Release in 15 Years",
@@ -155,7 +193,7 @@
         "serial",
         "embedded"
       ],
-      "rank": 8
+      "rank": 10
     },
     {
       "title": "Wind and solar overtake fossil fuels in Germany for the first time",
@@ -174,7 +212,7 @@
         "solar",
         "fossil fuels"
       ],
-      "rank": 9
+      "rank": 11
     },
     {
       "title": "Andy Pavlo Joins ClickHouse to Establish ClickHouse Labs",
@@ -193,7 +231,7 @@
         "ClickHouse Labs",
         "databases"
       ],
-      "rank": 10
+      "rank": 12
     },
     {
       "title": "Hollywood Stopped Making Movies in Hollywood",
@@ -212,7 +250,7 @@
         "film production",
         "Los Angeles"
       ],
-      "rank": 11
+      "rank": 13
     },
     {
       "title": "Devtools must be open source",
@@ -231,7 +269,7 @@
         "exe.dev",
         "LLMs"
       ],
-      "rank": 12
+      "rank": 14
     },
     {
       "title": "MiniMax H3 Day-0 Support in ComfyUI: Open Weights, Native Audio, and 2K Video",
@@ -250,7 +288,7 @@
         "open weights",
         "2K video"
       ],
-      "rank": 13
+      "rank": 15
     },
     {
       "title": "AirLLM 70B inference with single 4GB GPU",
@@ -269,7 +307,7 @@
         "4GB GPU",
         "inference"
       ],
-      "rank": 14
+      "rank": 16
     }
   ]
 }
