@@ -1,10 +1,29 @@
 {
   "date": "2026-08-05",
   "total_feeds": 95,
-  "success_feeds": 90,
-  "total_articles": 3356,
-  "filtered_articles": 35,
+  "success_feeds": 89,
+  "total_articles": 3344,
+  "filtered_articles": 37,
   "articles": [
+    {
+      "title": "Stateless MCP has recaptured my interest",
+      "title_display": "Stateless MCP has recaptured my interest",
+      "link": "https://simonwillison.net/2026/Jul/31/stateless-mcp/",
+      "pub_date": "2026-08-05T04:30:20.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 131,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Model Context Protocol (MCP)",
+        "stateless MCP",
+        "agents",
+        "CLI"
+      ],
+      "rank": 1
+    },
     {
       "title": "Eight Myths on Software Engineering and GenAI",
       "title_display": "Eight Myths on Software Engineering and GenAI",
@@ -22,7 +41,7 @@
         "ACM Queue",
         "agents"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Pi's Minimalism Is Its Advantage",
@@ -32,8 +51,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 142,
-      "score": 26,
+      "hn_points": 257,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Pi",
@@ -41,7 +60,7 @@
         "Claude Code",
         "ohmypi"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "AI fuels more than half of cybercrime in Africa as digital scams surge: INTERPOL",
@@ -60,7 +79,7 @@
         "INTERPOL",
         "digital scams"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Stephen Wolfram's Wife Has Died",
@@ -78,7 +97,7 @@
         "Elise Cawley",
         "writings.stephenwolfram.com"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Mistral's Shieldstral: 3B open-weights model for multimodal moderation",
@@ -97,7 +116,7 @@
         "multimodal moderation",
         "open-weights"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Security Is Hard, Y'all",
@@ -116,7 +135,7 @@
         "phishing",
         "subdomain"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Online ad giant Adform was hacked, proving once again why ad blockers are needed",
@@ -135,7 +154,7 @@
         "adtech",
         "malware"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Show HN: Simple algorithm and color space to generate diverse skin tones",
@@ -154,7 +173,7 @@
         "algorithm",
         "inclusive-color-space"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Keyv and friends compromised in active Shai-Hulud supply chain attack",
@@ -173,7 +192,7 @@
         "npm",
         "supply-chain attack"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "U.S. used 'virtually all' of its long-range precision missiles during Iran war",
@@ -192,7 +211,7 @@
         "Iran",
         "CNBC"
       ],
-      "rank": 10
+      "rank": 11
     }
   ]
 }
