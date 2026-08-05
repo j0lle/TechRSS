@@ -1,10 +1,48 @@
 {
   "date": "2026-08-05",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3336,
-  "filtered_articles": 32,
+  "success_feeds": 90,
+  "total_articles": 3356,
+  "filtered_articles": 35,
   "articles": [
+    {
+      "title": "Eight Myths on Software Engineering and GenAI",
+      "title_display": "Eight Myths on Software Engineering and GenAI",
+      "link": "https://queue.acm.org/detail.cfm?id=3807963",
+      "pub_date": "2026-08-05T00:30:17.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 139,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "GenAI",
+        "Software Engineering",
+        "ACM Queue",
+        "agents"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Pi's Minimalism Is Its Advantage",
+      "title_display": "Pi's Minimalism Is Its Advantage",
+      "link": "https://earendil.com/posts/pi-autoresearch-and-databricks/",
+      "pub_date": "2026-08-04T23:40:18.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 142,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Pi",
+        "Databricks",
+        "Claude Code",
+        "ohmypi"
+      ],
+      "rank": 2
+    },
     {
       "title": "AI fuels more than half of cybercrime in Africa as digital scams surge: INTERPOL",
       "title_display": "AI fuels more than half of cybercrime in Africa as digital scams surge: INTERPOL",
@@ -22,7 +60,7 @@
         "INTERPOL",
         "digital scams"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "Stephen Wolfram's Wife Has Died",
@@ -32,7 +70,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 702,
+      "hn_points": 1156,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -40,7 +78,7 @@
         "Elise Cawley",
         "writings.stephenwolfram.com"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "Mistral's Shieldstral: 3B open-weights model for multimodal moderation",
@@ -50,8 +88,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 228,
-      "score": 29,
+      "hn_points": 328,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Mistral",
@@ -59,7 +97,7 @@
         "multimodal moderation",
         "open-weights"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "Security Is Hard, Y'all",
@@ -78,7 +116,7 @@
         "phishing",
         "subdomain"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "Online ad giant Adform was hacked, proving once again why ad blockers are needed",
@@ -97,7 +135,7 @@
         "adtech",
         "malware"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "Show HN: Simple algorithm and color space to generate diverse skin tones",
@@ -116,7 +154,7 @@
         "algorithm",
         "inclusive-color-space"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "Keyv and friends compromised in active Shai-Hulud supply chain attack",
@@ -135,7 +173,7 @@
         "npm",
         "supply-chain attack"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "U.S. used 'virtually all' of its long-range precision missiles during Iran war",
@@ -154,7 +192,7 @@
         "Iran",
         "CNBC"
       ],
-      "rank": 8
+      "rank": 10
     }
   ]
 }
