@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3344,
-  "filtered_articles": 31,
+  "filtered_articles": 32,
   "articles": [
+    {
+      "title": "\"Gravity is worth asking about.\"",
+      "title_display": "\"Gravity is worth asking about.\"",
+      "link": "https://unsung.aresluna.org/gravity-is-worth-asking-about/",
+      "pub_date": "2026-08-05T06:40:57.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 132,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "UX",
+        "product-design",
+        "feature-bloat",
+        "minimalism"
+      ],
+      "rank": 1
+    },
     {
       "title": "Stateless MCP has recaptured my interest",
       "title_display": "Stateless MCP has recaptured my interest",
@@ -22,7 +41,7 @@
         "agents",
         "CLI"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Eight Myths on Software Engineering and GenAI",
@@ -32,8 +51,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 139,
-      "score": 26,
+      "hn_points": 241,
+      "score": 29,
       "category": "other",
       "keywords": [
         "GenAI",
@@ -41,7 +60,7 @@
         "ACM Queue",
         "agents"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Pi's Minimalism Is Its Advantage",
@@ -60,7 +79,26 @@
         "Claude Code",
         "ohmypi"
       ],
-      "rank": 3
+      "rank": 4
+    },
+    {
+      "title": "DuckDB – Data power tools for your laptop, now in Clojure (2023)",
+      "title_display": "DuckDB – Data power tools for your laptop, now in Clojure (2023)",
+      "link": "https://techascent.com/blog/just-ducking-around.html",
+      "pub_date": "2026-08-04T22:50:17.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 122,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "DuckDB",
+        "Clojure",
+        "SQL",
+        "Spark"
+      ],
+      "rank": 5
     },
     {
       "title": "AI fuels more than half of cybercrime in Africa as digital scams surge: INTERPOL",
@@ -79,7 +117,7 @@
         "INTERPOL",
         "digital scams"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "Stephen Wolfram's Wife Has Died",
@@ -89,7 +127,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 1156,
+      "hn_points": 1466,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -97,7 +135,7 @@
         "Elise Cawley",
         "writings.stephenwolfram.com"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "Mistral's Shieldstral: 3B open-weights model for multimodal moderation",
@@ -116,7 +154,7 @@
         "multimodal moderation",
         "open-weights"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "Security Is Hard, Y'all",
@@ -135,7 +173,7 @@
         "phishing",
         "subdomain"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "Online ad giant Adform was hacked, proving once again why ad blockers are needed",
@@ -154,7 +192,7 @@
         "adtech",
         "malware"
       ],
-      "rank": 8
+      "rank": 10
     },
     {
       "title": "Show HN: Simple algorithm and color space to generate diverse skin tones",
@@ -173,7 +211,7 @@
         "algorithm",
         "inclusive-color-space"
       ],
-      "rank": 9
+      "rank": 11
     },
     {
       "title": "Keyv and friends compromised in active Shai-Hulud supply chain attack",
@@ -192,7 +230,7 @@
         "npm",
         "supply-chain attack"
       ],
-      "rank": 10
+      "rank": 12
     },
     {
       "title": "U.S. used 'virtually all' of its long-range precision missiles during Iran war",
@@ -211,7 +249,7 @@
         "Iran",
         "CNBC"
       ],
-      "rank": 11
+      "rank": 13
     }
   ]
 }
