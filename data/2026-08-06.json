@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3344,
-  "filtered_articles": 30,
+  "filtered_articles": 28,
   "articles": [
+    {
+      "title": "Cloudflare OS: an open platform for agents, apps, and work",
+      "title_display": "Cloudflare OS: an open platform for agents, apps, and work",
+      "link": "https://blog.cloudflare.com/cloudflare-os/",
+      "pub_date": "2026-08-05T14:10:56.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 295,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Cloudflare OS",
+        "Cloudflare",
+        "Cloudflare Workers",
+        "cloudflare-os"
+      ],
+      "rank": 1
+    },
     {
       "title": "TIME Is Serving AI Bots a Different Website, with Ads Built In",
       "title_display": "TIME Is Serving AI Bots a Different Website, with Ads Built In",
@@ -22,7 +41,7 @@
         "LLMs",
         "ads"
       ],
-      "rank": 1
+      "rank": 2
     }
   ]
 }
