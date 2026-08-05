@@ -2,9 +2,28 @@
   "date": "2026-08-05",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3330,
-  "filtered_articles": 36,
+  "total_articles": 3336,
+  "filtered_articles": 32,
   "articles": [
+    {
+      "title": "AI fuels more than half of cybercrime in Africa as digital scams surge: INTERPOL",
+      "title_display": "AI fuels more than half of cybercrime in Africa as digital scams surge: INTERPOL",
+      "link": "https://www.africanews.com/2026/08/04/ai-fuels-more-than-half-of-cybercrime-in-africa-as-digital-scams-surge-interpol/",
+      "pub_date": "2026-08-04T22:20:18.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 135,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "AI",
+        "cybercrime",
+        "INTERPOL",
+        "digital scams"
+      ],
+      "rank": 1
+    },
     {
       "title": "Stephen Wolfram's Wife Has Died",
       "title_display": "Stephen Wolfram's Wife Has Died",
@@ -21,7 +40,7 @@
         "Elise Cawley",
         "writings.stephenwolfram.com"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Mistral's Shieldstral: 3B open-weights model for multimodal moderation",
@@ -40,7 +59,7 @@
         "multimodal moderation",
         "open-weights"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Security Is Hard, Y'all",
@@ -59,7 +78,7 @@
         "phishing",
         "subdomain"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Online ad giant Adform was hacked, proving once again why ad blockers are needed",
@@ -78,7 +97,7 @@
         "adtech",
         "malware"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Show HN: Simple algorithm and color space to generate diverse skin tones",
@@ -97,7 +116,7 @@
         "algorithm",
         "inclusive-color-space"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Keyv and friends compromised in active Shai-Hulud supply chain attack",
@@ -116,7 +135,7 @@
         "npm",
         "supply-chain attack"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "U.S. used 'virtually all' of its long-range precision missiles during Iran war",
@@ -135,7 +154,7 @@
         "Iran",
         "CNBC"
       ],
-      "rank": 7
+      "rank": 8
     }
   ]
 }
