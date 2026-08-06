@@ -2,8 +2,8 @@
   "date": "2026-08-06",
   "total_feeds": 95,
   "success_feeds": 88,
-  "total_articles": 3334,
-  "filtered_articles": 30,
+  "total_articles": 3320,
+  "filtered_articles": 28,
   "articles": [
     {
       "title": "Branchless Rust: Making a Filter 4x Faster by Removing an If",
