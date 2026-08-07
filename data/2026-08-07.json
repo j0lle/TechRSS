@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3331,
-  "filtered_articles": 23,
+  "filtered_articles": 24,
   "articles": [
     {
       "title": "AMD acquires Taalas to boost inference performance by etching models in silicon",
@@ -13,7 +13,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 363,
+      "hn_points": 670,
       "score": 30,
       "category": "other",
       "keywords": [
