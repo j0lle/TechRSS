@@ -1,10 +1,48 @@
 {
   "date": "2026-08-08",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3331,
-  "filtered_articles": 25,
+  "success_feeds": 87,
+  "total_articles": 3282,
+  "filtered_articles": 27,
   "articles": [
+    {
+      "title": "Databricks drove down AI coding spend 70%",
+      "title_display": "Databricks drove down AI coding spend 70%",
+      "link": "https://www.databricks.com/blog/managing-ai-coding-costs-scale",
+      "pub_date": "2026-08-07T19:30:22.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 139,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Databricks",
+        "Omnigent",
+        "AI coding costs",
+        "model efficiency"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Assembly Hall of Shame",
+      "title_display": "Assembly Hall of Shame",
+      "link": "https://github.com/xoreaxeaxeax/asm-hall-of-shame",
+      "pub_date": "2026-08-07T18:30:19.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 174,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Assembly",
+        "asm-hall-of-shame",
+        "NOP",
+        "MMIO"
+      ],
+      "rank": 2
+    },
     {
       "title": "DeepSeek V4 Flash 0731",
       "title_display": "DeepSeek V4 Flash 0731",
@@ -22,7 +60,7 @@
         "open-weights",
         "caching"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "Oracle bans AI-generated code from OpenJDK",
@@ -32,8 +70,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 240,
-      "score": 29,
+      "hn_points": 342,
+      "score": 30,
       "category": "other",
       "keywords": [
         "OpenJDK",
@@ -41,7 +79,7 @@
         "AI-generated code",
         "Generative AI"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "Iceberg Collapses and Flips over in Ilulissat, Greenland (July 25, 2026) [video]",
@@ -60,7 +98,7 @@
         "Greenland",
         "Glacier"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "99% of My Website Traffic Is Bots",
@@ -70,8 +108,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 246,
-      "score": 29,
+      "hn_points": 347,
+      "score": 30,
       "category": "other",
       "keywords": [
         "bots",
@@ -79,7 +117,7 @@
         "Cloudflare",
         "proof-of-work"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "US's largest newspaper chain partners with Palantir to analyze audience data",
@@ -98,7 +136,26 @@
         "audience data",
         "data privacy"
       ],
-      "rank": 5
+      "rank": 7
+    },
+    {
+      "title": "Kitesurf: Agent-first browser that runs in V8 isolates",
+      "title_display": "Kitesurf: Agent-first browser that runs in V8 isolates",
+      "link": "https://blog.cloudflare.com/kitesurf/",
+      "pub_date": "2026-08-07T14:10:27.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 136,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Kitesurf",
+        "Cloudflare",
+        "V8 isolates",
+        "Agents"
+      ],
+      "rank": 8
     },
     {
       "title": "Show HN: Wyzer Programming Language",
@@ -117,7 +174,7 @@
         "Rust",
         "GitHub"
       ],
-      "rank": 6
+      "rank": 9
     },
     {
       "title": "Making Postgres 300x faster for analytics: batching, operator fusion, and SIMD",
@@ -136,7 +193,7 @@
         "Rust",
         "SIMD"
       ],
-      "rank": 7
+      "rank": 10
     },
     {
       "title": "U.S. economy lost 23,000 jobs in July, a sudden reversal",
@@ -155,7 +212,7 @@
         "NBC News",
         "July 2026"
       ],
-      "rank": 8
+      "rank": 11
     },
     {
       "title": "2027 memory capacity is reportedly sold out",
@@ -174,7 +231,7 @@
         "AI",
         "IGN"
       ],
-      "rank": 9
+      "rank": 12
     }
   ]
 }
