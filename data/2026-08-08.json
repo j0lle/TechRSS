@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3331,
-  "filtered_articles": 24,
+  "filtered_articles": 25,
   "articles": [
     {
       "title": "DeepSeek V4 Flash 0731",
@@ -13,8 +13,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 200,
-      "score": 28,
+      "hn_points": 327,
+      "score": 30,
       "category": "other",
       "keywords": [
         "DeepSeek V4 Flash 0731",
