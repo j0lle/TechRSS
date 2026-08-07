@@ -3,8 +3,46 @@
   "total_feeds": 95,
   "success_feeds": 90,
   "total_articles": 3356,
-  "filtered_articles": 25,
+  "filtered_articles": 24,
   "articles": [
+    {
+      "title": "DeepSeek V4 Flash 0731",
+      "title_display": "DeepSeek V4 Flash 0731",
+      "link": "https://arcprize.org/results/deepseek-v4-flash-0731",
+      "pub_date": "2026-08-07T18:10:19.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 200,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "DeepSeek V4 Flash 0731",
+        "DeepSeek",
+        "open-weights",
+        "caching"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Oracle bans AI-generated code from OpenJDK",
+      "title_display": "Oracle bans AI-generated code from OpenJDK",
+      "link": "https://app.dealroom.co/news/feed/oracle-bans-ai-generated-code-from-openjdk-despite-ellison-s-claim-oracle-isn-t-writing-its-own-code",
+      "pub_date": "2026-08-07T18:00:23.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 240,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "OpenJDK",
+        "Oracle",
+        "AI-generated code",
+        "Generative AI"
+      ],
+      "rank": 2
+    },
     {
       "title": "Iceberg Collapses and Flips over in Ilulissat, Greenland (July 25, 2026) [video]",
       "title_display": "Iceberg Collapses and Flips over in Ilulissat, Greenland (July 25, 2026) [video]",
@@ -22,7 +60,7 @@
         "Greenland",
         "Glacier"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "99% of My Website Traffic Is Bots",
@@ -41,7 +79,7 @@
         "Cloudflare",
         "proof-of-work"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "US's largest newspaper chain partners with Palantir to analyze audience data",
@@ -60,7 +98,7 @@
         "audience data",
         "data privacy"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "Show HN: Wyzer Programming Language",
@@ -79,7 +117,7 @@
         "Rust",
         "GitHub"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "Making Postgres 300x faster for analytics: batching, operator fusion, and SIMD",
@@ -98,7 +136,7 @@
         "Rust",
         "SIMD"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "U.S. economy lost 23,000 jobs in July, a sudden reversal",
@@ -117,7 +155,7 @@
         "NBC News",
         "July 2026"
       ],
-      "rank": 6
+      "rank": 8
     }
   ]
 }
