@@ -1,8 +1,8 @@
 {
   "date": "2026-08-08",
   "total_feeds": 95,
-  "success_feeds": 90,
-  "total_articles": 3356,
+  "success_feeds": 89,
+  "total_articles": 3331,
   "filtered_articles": 24,
   "articles": [
     {
@@ -156,6 +156,25 @@
         "July 2026"
       ],
       "rank": 8
+    },
+    {
+      "title": "2027 memory capacity is reportedly sold out",
+      "title_display": "2027 memory capacity is reportedly sold out",
+      "link": "https://www.ign.com/articles/ramageddon-continues-another-year-as-2027-memory-capacity-is-reportedly-sold-out",
+      "pub_date": "2026-08-07T09:20:22.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 144,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "RAM",
+        "memory",
+        "AI",
+        "IGN"
+      ],
+      "rank": 9
     }
   ]
 }
