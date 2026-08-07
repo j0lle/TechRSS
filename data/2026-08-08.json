@@ -6,6 +6,44 @@
   "filtered_articles": 25,
   "articles": [
     {
+      "title": "99% of My Website Traffic Is Bots",
+      "title_display": "99% of My Website Traffic Is Bots",
+      "link": "https://patronview.com/news/99-percent-of-my-website-traffic-is-bots/",
+      "pub_date": "2026-08-07T15:00:24.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 246,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "bots",
+        "scraping",
+        "Cloudflare",
+        "proof-of-work"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "US's largest newspaper chain partners with Palantir to analyze audience data",
+      "title_display": "US's largest newspaper chain partners with Palantir to analyze audience data",
+      "link": "https://www.niemanlab.org/2026/08/americas-largest-newspaper-chain-usa-today-co-partners-with-palantir-to-analyze-audience-data/",
+      "pub_date": "2026-08-07T14:30:20.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 129,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Palantir",
+        "USA Today",
+        "audience data",
+        "data privacy"
+      ],
+      "rank": 2
+    },
+    {
       "title": "U.S. economy lost 23,000 jobs in July, a sudden reversal",
       "title_display": "U.S. economy lost 23,000 jobs in July, a sudden reversal",
       "link": "https://www.nbcnews.com/business/economy/july-2026-jobs-report-rcna591138",
@@ -22,7 +60,7 @@
         "NBC News",
         "July 2026"
       ],
-      "rank": 1
+      "rank": 3
     }
   ]
 }
