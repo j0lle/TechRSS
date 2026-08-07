@@ -6,6 +6,25 @@
   "filtered_articles": 25,
   "articles": [
     {
+      "title": "Iceberg Collapses and Flips over in Ilulissat, Greenland (July 25, 2026) [video]",
+      "title_display": "Iceberg Collapses and Flips over in Ilulissat, Greenland (July 25, 2026) [video]",
+      "link": "https://www.youtube.com/watch?v=UufMqwyO7pY",
+      "pub_date": "2026-08-07T15:20:24.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 163,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Iceberg",
+        "Ilulissat",
+        "Greenland",
+        "Glacier"
+      ],
+      "rank": 1
+    },
+    {
       "title": "99% of My Website Traffic Is Bots",
       "title_display": "99% of My Website Traffic Is Bots",
       "link": "https://patronview.com/news/99-percent-of-my-website-traffic-is-bots/",
@@ -22,7 +41,7 @@
         "Cloudflare",
         "proof-of-work"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "US's largest newspaper chain partners with Palantir to analyze audience data",
@@ -41,7 +60,45 @@
         "audience data",
         "data privacy"
       ],
-      "rank": 2
+      "rank": 3
+    },
+    {
+      "title": "Show HN: Wyzer Programming Language",
+      "title_display": "Show HN: Wyzer Programming Language",
+      "link": "https://github.com/Wyzer-Lang/wyzer",
+      "pub_date": "2026-08-07T14:00:24.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 138,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Wyzer",
+        "choreographic programming",
+        "Rust",
+        "GitHub"
+      ],
+      "rank": 4
+    },
+    {
+      "title": "Making Postgres 300x faster for analytics: batching, operator fusion, and SIMD",
+      "title_display": "Making Postgres 300x faster for analytics: batching, operator fusion, and SIMD",
+      "link": "https://malisper.me/how-we-made-postgres-hundreds-of-times-faster-the-query-engine/",
+      "pub_date": "2026-08-07T13:50:19.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 142,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Postgres",
+        "pgrust",
+        "Rust",
+        "SIMD"
+      ],
+      "rank": 5
     },
     {
       "title": "U.S. economy lost 23,000 jobs in July, a sudden reversal",
@@ -60,7 +117,7 @@
         "NBC News",
         "July 2026"
       ],
-      "rank": 3
+      "rank": 6
     }
   ]
 }
