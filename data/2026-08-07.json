@@ -1,0 +1,199 @@
+{
+  "date": "2026-08-07",
+  "total_feeds": 95,
+  "success_feeds": 90,
+  "total_articles": 3357,
+  "filtered_articles": 21,
+  "articles": [
+    {
+      "title": "AMD acquires Taalas to boost inference performance by etching models in silicon",
+      "title_display": "AMD acquires Taalas to boost inference performance by etching models in silicon",
+      "link": "https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344",
+      "pub_date": "2026-08-06T21:00:51.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 242,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "AMD",
+        "Taalas",
+        "AI chip",
+        "inference performance"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "GitHub Actions and Pages are experiencing degraded availability",
+      "title_display": "GitHub Actions and Pages are experiencing degraded availability",
+      "link": "https://www.githubstatus.com/incidents/qcvjkzcs7j74",
+      "pub_date": "2026-08-06T20:20:53.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 270,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "GitHub",
+        "GitHub Actions",
+        "GitHub Pages",
+        "Microsoft"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "Herdr is joining Y Combinator. The runtime stays open",
+      "title_display": "Herdr is joining Y Combinator. The runtime stays open",
+      "link": "https://herdr.dev/blog/herdr-is-joining-y-combinator/",
+      "pub_date": "2026-08-06T20:00:53.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 126,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Herdr",
+        "Y Combinator",
+        "open-source",
+        "runtime"
+      ],
+      "rank": 3
+    },
+    {
+      "title": "Taste Is All That's Left",
+      "title_display": "Taste Is All That's Left",
+      "link": "https://notashelf.dev/posts/taste-is-all-thats-left",
+      "pub_date": "2026-08-06T19:50:52.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 135,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "taste",
+        "LLM",
+        "design",
+        "software"
+      ],
+      "rank": 4
+    },
+    {
+      "title": "Improving GPT-5.6 Sol in ChatGPT—and expanding access for free users",
+      "title_display": "Improving GPT-5.6 Sol in ChatGPT—and expanding access for free users",
+      "link": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/",
+      "pub_date": "2026-08-06T19:20:53.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 127,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "GPT-5.6",
+        "Sol",
+        "ChatGPT",
+        "OpenAI"
+      ],
+      "rank": 5
+    },
+    {
+      "title": "Qwen3.8 Max now ranked as the best overall model by agentic index",
+      "title_display": "Qwen3.8 Max now ranked as the best overall model by agentic index",
+      "link": "https://artificialanalysis.ai/?intelligence=agentic-index",
+      "pub_date": "2026-08-06T19:20:51.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 317,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Qwen3.8 Max",
+        "Agentic Index",
+        "Artificial Analysis",
+        "Qwen"
+      ],
+      "rank": 6
+    },
+    {
+      "title": "Almost no skill required to cook a steak",
+      "title_display": "Almost no skill required to cook a steak",
+      "link": "https://blog.sydorets.com/en/posts/almost-no-skill-required-to-cook-a-steak/",
+      "pub_date": "2026-08-06T15:50:54.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 240,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "steak",
+        "cooking",
+        "software",
+        "software engineering"
+      ],
+      "rank": 7
+    },
+    {
+      "title": "Show HN: I spent 2 years designing a mechanical Magic Keyboard",
+      "title_display": "Show HN: I spent 2 years designing a mechanical Magic Keyboard",
+      "link": "https://electronicmaterialsoffice.com/",
+      "pub_date": "2026-08-06T15:40:53.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 209,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "Magic Keyboard",
+        "mechanical keyboard",
+        "Apple",
+        "Touch ID"
+      ],
+      "rank": 8
+    },
+    {
+      "title": "Humans missed 1 in 3 threats approving AI agent commands across 40k game runs",
+      "title_display": "Humans missed 1 in 3 threats approving AI agent commands across 40k game runs",
+      "link": "https://scalex.dev/blog/ai-agent-permissions-stats/",
+      "pub_date": "2026-08-06T13:20:53.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 148,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "AI agents",
+        "agent permissions",
+        "agent permission game",
+        "human-in-the-loop"
+      ],
+      "rank": 9
+    },
+    {
+      "title": "On non-rooted Android 17, ADB uninstall of system apps fails",
+      "title_display": "On non-rooted Android 17, ADB uninstall of system apps fails",
+      "link": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/issues/1426",
+      "pub_date": "2026-08-06T12:00:54.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 157,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Android 17",
+        "ADB",
+        "Universal Android Debloater",
+        "non-rooted"
+      ],
+      "rank": 10
+    }
+  ]
+}
