@@ -1,9 +1,9 @@
 {
   "date": "2026-08-08",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3308,
-  "filtered_articles": 32,
+  "success_feeds": 90,
+  "total_articles": 3353,
+  "filtered_articles": 33,
   "articles": [
     {
       "title": "Physicist Rigged His Pet Hamster's Wheel to Strava. It Runs Far Every Night",
@@ -127,7 +127,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 327,
+      "hn_points": 632,
       "score": 30,
       "category": "other",
       "keywords": [
