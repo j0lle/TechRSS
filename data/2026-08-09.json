@@ -3,6 +3,26 @@
   "total_feeds": 95,
   "success_feeds": 88,
   "total_articles": 3308,
-  "filtered_articles": 11,
-  "articles": []
+  "filtered_articles": 12,
+  "articles": [
+    {
+      "title": "\"Code was never the hard part\" is an insult to all programmers",
+      "title_display": "\"Code was never the hard part\" is an insult to all programmers",
+      "link": "https://blog.senko.net/code-was-never-the-hard-part-is-an-insult-to-all-programmers",
+      "pub_date": "2026-08-08T18:00:52.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 265,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "programming",
+        "code",
+        "software-engineering",
+        "AI"
+      ],
+      "rank": 1
+    }
+  ]
 }
