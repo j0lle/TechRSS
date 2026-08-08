@@ -1,10 +1,29 @@
 {
   "date": "2026-08-08",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3328,
+  "success_feeds": 88,
+  "total_articles": 3308,
   "filtered_articles": 32,
   "articles": [
+    {
+      "title": "Physicist Rigged His Pet Hamster's Wheel to Strava. It Runs Far Every Night",
+      "title_display": "Physicist Rigged His Pet Hamster's Wheel to Strava. It Runs Far Every Night",
+      "link": "https://www.runnersworld.com/news/a73355106/hamster-wheel-strava-running/",
+      "pub_date": "2026-08-08T03:50:53.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 159,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Strava",
+        "hamster wheel",
+        "ESP32",
+        "Python"
+      ],
+      "rank": 1
+    },
     {
       "title": "U.S. Department of Energy Launches the Genesis Open Models Initiative",
       "title_display": "U.S. Department of Energy Launches the Genesis Open Models Initiative",
@@ -22,7 +41,7 @@
         "Argonne National Laboratory",
         "Open models"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Water system controllers don't belong on the internet, says ex-NSA chief",
@@ -41,7 +60,7 @@
         "Iran",
         "PLC"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Databricks drove down AI coding spend 70%",
@@ -60,7 +79,7 @@
         "AI coding costs",
         "model efficiency"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Ancient Library – 1,060 Greek/Latin texts, click any word to parse it",
@@ -79,7 +98,7 @@
         "Greek",
         "Latin"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Assembly Hall of Shame",
@@ -98,7 +117,7 @@
         "NOP",
         "MMIO"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "DeepSeek V4 Flash 0731",
@@ -117,7 +136,7 @@
         "open-weights",
         "caching"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Oracle bans AI-generated code from OpenJDK",
@@ -136,7 +155,7 @@
         "AI-generated code",
         "Generative AI"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Responding to the next frontier of critical cyber capabilities",
@@ -155,7 +174,7 @@
         "AI agents",
         "RCE"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Iceberg Collapses and Flips over in Ilulissat, Greenland (July 25, 2026) [video]",
@@ -174,7 +193,7 @@
         "Greenland",
         "Glacier"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "99% of My Website Traffic Is Bots",
@@ -193,7 +212,7 @@
         "Cloudflare",
         "proof-of-work"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "US's largest newspaper chain partners with Palantir to analyze audience data",
@@ -212,7 +231,7 @@
         "audience data",
         "data privacy"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "Kitesurf: Agent-first browser that runs in V8 isolates",
@@ -231,7 +250,7 @@
         "V8 isolates",
         "Agents"
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "title": "Show HN: Wyzer Programming Language",
@@ -250,7 +269,7 @@
         "Rust",
         "GitHub"
       ],
-      "rank": 13
+      "rank": 14
     },
     {
       "title": "Making Postgres 300x faster for analytics: batching, operator fusion, and SIMD",
@@ -269,7 +288,7 @@
         "Rust",
         "SIMD"
       ],
-      "rank": 14
+      "rank": 15
     },
     {
       "title": "U.S. economy lost 23,000 jobs in July, a sudden reversal",
@@ -288,7 +307,7 @@
         "NBC News",
         "July 2026"
       ],
-      "rank": 15
+      "rank": 16
     },
     {
       "title": "2027 memory capacity is reportedly sold out",
@@ -307,7 +326,7 @@
         "AI",
         "IGN"
       ],
-      "rank": 16
+      "rank": 17
     }
   ]
 }
