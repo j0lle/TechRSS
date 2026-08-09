@@ -1,10 +1,29 @@
 {
   "date": "2026-08-09",
   "total_feeds": 95,
-  "success_feeds": 90,
-  "total_articles": 3352,
-  "filtered_articles": 16,
+  "success_feeds": 89,
+  "total_articles": 3327,
+  "filtered_articles": 12,
   "articles": [
+    {
+      "title": "Can Intel finally beat ARM on performance per Watt?",
+      "title_display": "Can Intel finally beat ARM on performance per Watt?",
+      "link": "https://hackaday.com/2026/08/08/want-energy-efficiency-dude-youre-getting-a-dell/",
+      "pub_date": "2026-08-08T19:00:51.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 136,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Intel",
+        "ARM",
+        "Apple",
+        "Apple Neo"
+      ],
+      "rank": 1
+    },
     {
       "title": "\"Code was never the hard part\" is an insult to all programmers",
       "title_display": "\"Code was never the hard part\" is an insult to all programmers",
@@ -22,7 +41,7 @@
         "software-engineering",
         "AI"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "LinkedIn Feed Blocker",
@@ -41,7 +60,7 @@
         "GitHub",
         "Chrome extension"
       ],
-      "rank": 2
+      "rank": 3
     }
   ]
 }
