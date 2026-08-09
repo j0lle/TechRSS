@@ -1,10 +1,29 @@
 {
   "date": "2026-08-09",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3327,
-  "filtered_articles": 12,
+  "success_feeds": 90,
+  "total_articles": 3354,
+  "filtered_articles": 14,
   "articles": [
+    {
+      "title": "My server is a phone now",
+      "title_display": "My server is a phone now",
+      "link": "https://seg6.space/posts/phone-server/",
+      "pub_date": "2026-08-08T23:30:49.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 138,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "phone",
+        "server",
+        "battery",
+        "bypass charging"
+      ],
+      "rank": 1
+    },
     {
       "title": "Can Intel finally beat ARM on performance per Watt?",
       "title_display": "Can Intel finally beat ARM on performance per Watt?",
@@ -22,7 +41,7 @@
         "Apple",
         "Apple Neo"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "\"Code was never the hard part\" is an insult to all programmers",
@@ -41,7 +60,7 @@
         "software-engineering",
         "AI"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "LinkedIn Feed Blocker",
@@ -60,7 +79,7 @@
         "GitHub",
         "Chrome extension"
       ],
-      "rank": 3
+      "rank": 4
     }
   ]
 }
