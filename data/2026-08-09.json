@@ -1,8 +1,8 @@
 {
   "date": "2026-08-09",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3329,
+  "success_feeds": 90,
+  "total_articles": 3354,
   "filtered_articles": 14,
   "articles": [
     {
@@ -13,8 +13,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 133,
-      "score": 26,
+      "hn_points": 239,
+      "score": 29,
       "category": "other",
       "keywords": [
         "QR codes",
@@ -32,8 +32,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 123,
-      "score": 25,
+      "hn_points": 227,
+      "score": 28,
       "category": "other",
       "keywords": [
         "Shopify",
@@ -51,8 +51,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 244,
-      "score": 29,
+      "hn_points": 347,
+      "score": 30,
       "category": "other",
       "keywords": [
         "phone",
