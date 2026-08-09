@@ -1,9 +1,9 @@
 {
   "date": "2026-08-09",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3334,
-  "filtered_articles": 14,
+  "success_feeds": 90,
+  "total_articles": 3354,
+  "filtered_articles": 16,
   "articles": [
     {
       "title": "Dithered QR Codes",
@@ -63,6 +63,25 @@
       "rank": 3
     },
     {
+      "title": "Open-source interactive map for the Aug 12 total solar eclipse",
+      "title_display": "Open-source interactive map for the Aug 12 total solar eclipse",
+      "link": "https://eclipsefan.org/?v=2&t=max&layers=eclipse%2Cbesselian%2Cumbra-live%2Cshadow-3d%2Ccloud-projection%2Cosm&lat=43.4623&lon=-3.8099&opacity=besselian%3A0.2%2Cumbra-live%3A0.2&zoom=6&palier=minute",
+      "pub_date": "2026-08-08T21:00:51.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 129,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "total solar eclipse",
+        "eclipsefan",
+        "open-source",
+        "interactive map"
+      ],
+      "rank": 4
+    },
+    {
       "title": "Can Intel finally beat ARM on performance per Watt?",
       "title_display": "Can Intel finally beat ARM on performance per Watt?",
       "link": "https://hackaday.com/2026/08/08/want-energy-efficiency-dude-youre-getting-a-dell/",
@@ -79,7 +98,7 @@
         "Apple",
         "Apple Neo"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "\"Code was never the hard part\" is an insult to all programmers",
@@ -98,7 +117,7 @@
         "software-engineering",
         "AI"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "LinkedIn Feed Blocker",
@@ -117,7 +136,7 @@
         "GitHub",
         "Chrome extension"
       ],
-      "rank": 6
+      "rank": 7
     }
   ]
 }
