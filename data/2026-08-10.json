@@ -1,10 +1,29 @@
 {
   "date": "2026-08-10",
   "total_feeds": 95,
-  "success_feeds": 90,
-  "total_articles": 3352,
+  "success_feeds": 88,
+  "total_articles": 3298,
   "filtered_articles": 26,
   "articles": [
+    {
+      "title": "Auto mode is now the default in Claude Code",
+      "title_display": "Auto mode is now the default in Claude Code",
+      "link": "https://claude.com/blog/auto-mode-default-in-claude-code",
+      "pub_date": "2026-08-10T04:40:43.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 166,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Claude Code",
+        "Claude",
+        "auto mode",
+        "auto-approve"
+      ],
+      "rank": 1
+    },
     {
       "title": "What Happened to HackerOne?",
       "title_display": "What Happened to HackerOne?",
@@ -22,7 +41,7 @@
         "AI",
         "LLM"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "How I use LLMs to learn complex topics",
@@ -41,7 +60,7 @@
         "simulation games",
         "quizzes"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "OpenChamber: An Agentic Development Environment",
@@ -60,7 +79,7 @@
         "OpenCode",
         "Paseo"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Ask HN: What are you working on? (August 2026)",
@@ -70,8 +89,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 131,
-      "score": 26,
+      "hn_points": 233,
+      "score": 29,
       "category": "other",
       "keywords": [
         "agents",
@@ -79,7 +98,7 @@
         "Codex",
         "Python"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Windows 11's built-in Weather app wastes more than 1 GB of RAM",
@@ -98,7 +117,7 @@
         "RAM",
         "Microsoft"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Mea Culpa – Dark Hours",
@@ -117,7 +136,7 @@
         "App Store",
         "astrology"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Reviving a four year old reMarkable 2",
@@ -136,7 +155,7 @@
         "Linux",
         "remarkable.guide"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Microsoft Word for Windows 1.1a, Native X64 Port",
@@ -155,7 +174,7 @@
         "jmarshall23/msword",
         "GitHub"
       ],
-      "rank": 8
+      "rank": 9
     }
   ]
 }
