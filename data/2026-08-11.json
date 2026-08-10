@@ -2,9 +2,28 @@
   "date": "2026-08-11",
   "total_feeds": 95,
   "success_feeds": 90,
-  "total_articles": 3354,
-  "filtered_articles": 36,
+  "total_articles": 3355,
+  "filtered_articles": 38,
   "articles": [
+    {
+      "title": "Kinney Drugs pulls back AI phone assistant after hundreds of customer complaints",
+      "title_display": "Kinney Drugs pulls back AI phone assistant after hundreds of customer complaints",
+      "link": "https://www.wcax.com/2026/08/07/kinney-drugs-pulls-back-ai-phone-assistant-after-hundreds-customer-complaints/",
+      "pub_date": "2026-08-10T16:20:41.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 130,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Kinney Drugs",
+        "AI phone assistant",
+        "AI",
+        "customer service"
+      ],
+      "rank": 1
+    },
     {
       "title": "Mark Zuckerberg attacks 'closed' AI rivals as Meta returns to open models",
       "title_display": "Mark Zuckerberg attacks 'closed' AI rivals as Meta returns to open models",
@@ -13,8 +32,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 155,
-      "score": 27,
+      "hn_points": 260,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Meta",
@@ -22,7 +41,7 @@
         "AI",
         "open models"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Mistral Patent for \"Code implemented tool calls\"",
@@ -41,7 +60,7 @@
         "tool calls",
         "RPC"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Over 181,000 AI meeting recordings left wide open in note taking app",
@@ -60,7 +79,7 @@
         "note-taking app",
         "exposed recordings"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Parametron: 50s Japanese computer that uses neither transistors nor vacuum tubes",
@@ -79,7 +98,7 @@
         "NEAC-1101",
         "NEC"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "ATProto for Distributed Systems Engineers",
@@ -98,7 +117,7 @@
         "signatures",
         "federation"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "How We Pushed CDC into Postgres",
@@ -117,7 +136,7 @@
         "CDC",
         "pg_lake"
       ],
-      "rank": 6
+      "rank": 7
     }
   ]
 }
