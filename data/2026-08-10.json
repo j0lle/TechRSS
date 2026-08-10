@@ -13,8 +13,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 254,
-      "score": 29,
+      "hn_points": 360,
+      "score": 30,
       "category": "other",
       "keywords": [
         "LLMs",
@@ -82,6 +82,25 @@
       "rank": 4
     },
     {
+      "title": "Reviving a four year old reMarkable 2",
+      "title_display": "Reviving a four year old reMarkable 2",
+      "link": "https://oskrim.github.io/hardware/2026/08/09/remarkable-over-ssh.html",
+      "pub_date": "2026-08-09T12:20:51.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 124,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "reMarkable 2",
+        "SSH",
+        "Linux",
+        "remarkable.guide"
+      ],
+      "rank": 5
+    },
+    {
       "title": "Microsoft Word for Windows 1.1a, Native X64 Port",
       "title_display": "Microsoft Word for Windows 1.1a, Native X64 Port",
       "link": "https://github.com/jmarshall23/msword",
@@ -98,7 +117,7 @@
         "jmarshall23/msword",
         "GitHub"
       ],
-      "rank": 5
+      "rank": 6
     }
   ]
 }
