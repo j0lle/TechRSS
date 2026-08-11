@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3332,
-  "filtered_articles": 27,
+  "filtered_articles": 28,
   "articles": [
     {
       "title": "Antirez/h3.c: MiniMax H3 inference engine for Mac computers",
@@ -101,6 +101,25 @@
       "rank": 5
     },
     {
+      "title": "How Claude marks AI-generated content",
+      "title_display": "How Claude marks AI-generated content",
+      "link": "https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content",
+      "pub_date": "2026-08-10T22:00:39.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 125,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Claude",
+        "Anthropic",
+        "watermarking",
+        "provenance metadata"
+      ],
+      "rank": 6
+    },
+    {
       "title": "Illinois Just Passed a Law That Puts Linux on the Hook for Age Verification",
       "title_display": "Illinois Just Passed a Law That Puts Linux on the Hook for Age Verification",
       "link": "https://linuxstans.com/illinois-hb5511-operating-system-age-verification/",
@@ -117,7 +136,7 @@
         "age verification",
         "operating system provider"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Show HN: Ante, a coding agent in a single binary that runs offline",
@@ -136,7 +155,7 @@
         "GGUF",
         "coding agent"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Exploiting System Management Mode with a very long interrupt",
@@ -155,7 +174,7 @@
         "xoreaxeaxeax",
         "smiiiiiiiiiiiiiiii"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Kinney Drugs pulls back AI phone assistant after hundreds of customer complaints",
@@ -174,7 +193,7 @@
         "AI",
         "customer service"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Mark Zuckerberg attacks 'closed' AI rivals as Meta returns to open models",
@@ -193,7 +212,7 @@
         "AI",
         "open models"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "Mistral Patent for \"Code implemented tool calls\"",
@@ -212,7 +231,7 @@
         "tool calls",
         "RPC"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "Over 181,000 AI meeting recordings left wide open in note taking app",
@@ -231,7 +250,7 @@
         "note-taking app",
         "exposed recordings"
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "title": "Parametron: 50s Japanese computer that uses neither transistors nor vacuum tubes",
@@ -250,7 +269,7 @@
         "NEAC-1101",
         "NEC"
       ],
-      "rank": 13
+      "rank": 14
     },
     {
       "title": "ATProto for Distributed Systems Engineers",
@@ -269,7 +288,7 @@
         "signatures",
         "federation"
       ],
-      "rank": 14
+      "rank": 15
     },
     {
       "title": "How We Pushed CDC into Postgres",
@@ -288,7 +307,7 @@
         "CDC",
         "pg_lake"
       ],
-      "rank": 15
+      "rank": 16
     }
   ]
 }
