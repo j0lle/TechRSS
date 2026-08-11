@@ -2,9 +2,47 @@
   "date": "2026-08-12",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3329,
-  "filtered_articles": 34,
+  "total_articles": 3334,
+  "filtered_articles": 36,
   "articles": [
+    {
+      "title": "Compression Is Prediction",
+      "title_display": "Compression Is Prediction",
+      "link": "https://ngrok.com/blog/compression-is-prediction",
+      "pub_date": "2026-08-11T20:10:40.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 183,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "compression",
+        "prediction",
+        "LLMs",
+        "ngrok"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Nvidia Nemotron 3.5 lightning and Nemo Switchyard",
+      "title_display": "Nvidia Nemotron 3.5 lightning and Nemo Switchyard",
+      "link": "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/",
+      "pub_date": "2026-08-11T19:50:40.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 144,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Nemotron 3.5 Lightning",
+        "NeMo Switchyard",
+        "NVIDIA",
+        "model routing"
+      ],
+      "rank": 2
+    },
     {
       "title": "Mojo 1.0",
       "title_display": "Mojo 1.0",
@@ -22,7 +60,7 @@
         "Mojo compiler",
         "open-source"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "Why Go Is an Ideal Language for AI-Assisted Software Engineering",
@@ -41,7 +79,7 @@
         "software engineering",
         "LLMs"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "Jolt: Clojure compiler implemented with Chez Scheme",
@@ -60,7 +98,7 @@
         "Chez Scheme",
         "Gambit"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "Apple Silicon and macOS VMs: 11–16× Faster LLM Inference with Llama.cpp",
@@ -79,7 +117,7 @@
         "macOS",
         "GPU passthrough"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "Stealing Reasoning Traces from Proprietary LLM APIs",
@@ -98,7 +136,7 @@
         "LLM APIs",
         "OpenAI"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "What I learned by putting GitHub Copilot behind a MitM proxy",
@@ -117,7 +155,7 @@
         "eBPF",
         ".env"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "OpenAI's Only Ethicist Reportedly Left Last Month",
@@ -136,7 +174,7 @@
         "ethics",
         "Gizmodo"
       ],
-      "rank": 7
+      "rank": 9
     }
   ]
 }
