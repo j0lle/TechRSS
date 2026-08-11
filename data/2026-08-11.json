@@ -2,8 +2,8 @@
   "date": "2026-08-11",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3332,
-  "filtered_articles": 27,
+  "total_articles": 3328,
+  "filtered_articles": 30,
   "articles": [
     {
       "title": "Antirez/h3.c: MiniMax H3 inference engine for Mac computers",
@@ -32,8 +32,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 128,
-      "score": 26,
+      "hn_points": 236,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Chicken Scheme",
