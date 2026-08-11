@@ -1,9 +1,9 @@
 {
   "date": "2026-08-12",
   "total_feeds": 95,
-  "success_feeds": 90,
-  "total_articles": 3354,
-  "filtered_articles": 37,
+  "success_feeds": 89,
+  "total_articles": 3329,
+  "filtered_articles": 34,
   "articles": [
     {
       "title": "Mojo 1.0",
@@ -44,6 +44,25 @@
       "rank": 2
     },
     {
+      "title": "Jolt: Clojure compiler implemented with Chez Scheme",
+      "title_display": "Jolt: Clojure compiler implemented with Chez Scheme",
+      "link": "https://jolt-lang.github.io",
+      "pub_date": "2026-08-11T16:30:41.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 122,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "Jolt",
+        "Clojure",
+        "Chez Scheme",
+        "Gambit"
+      ],
+      "rank": 3
+    },
+    {
       "title": "Apple Silicon and macOS VMs: 11–16× Faster LLM Inference with Llama.cpp",
       "title_display": "Apple Silicon and macOS VMs: 11–16× Faster LLM Inference with Llama.cpp",
       "link": "https://github.com/trycua/cua/blob/main/blog/gpu-passthrough-macos-vms.md",
@@ -60,7 +79,7 @@
         "macOS",
         "GPU passthrough"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Stealing Reasoning Traces from Proprietary LLM APIs",
@@ -79,7 +98,7 @@
         "LLM APIs",
         "OpenAI"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "What I learned by putting GitHub Copilot behind a MitM proxy",
@@ -98,7 +117,7 @@
         "eBPF",
         ".env"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "OpenAI's Only Ethicist Reportedly Left Last Month",
@@ -117,7 +136,7 @@
         "ethics",
         "Gizmodo"
       ],
-      "rank": 6
+      "rank": 7
     }
   ]
 }
