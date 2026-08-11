@@ -3,8 +3,46 @@
   "total_feeds": 95,
   "success_feeds": 90,
   "total_articles": 3354,
-  "filtered_articles": 33,
+  "filtered_articles": 37,
   "articles": [
+    {
+      "title": "Mojo 1.0",
+      "title_display": "Mojo 1.0",
+      "link": "https://www.modular.com/blog/modular-26-5-mojo-1-0-is-here",
+      "pub_date": "2026-08-11T19:10:40.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 183,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Mojo",
+        "Modular",
+        "Mojo compiler",
+        "open-source"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Why Go Is an Ideal Language for AI-Assisted Software Engineering",
+      "title_display": "Why Go Is an Ideal Language for AI-Assisted Software Engineering",
+      "link": "https://developers.googleblog.com/why-go-is-an-ideal-language-for-ai-assisted-software-engineering/",
+      "pub_date": "2026-08-11T17:40:41.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 177,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Go",
+        "AI",
+        "software engineering",
+        "LLMs"
+      ],
+      "rank": 2
+    },
     {
       "title": "Apple Silicon and macOS VMs: 11–16× Faster LLM Inference with Llama.cpp",
       "title_display": "Apple Silicon and macOS VMs: 11–16× Faster LLM Inference with Llama.cpp",
@@ -22,7 +60,7 @@
         "macOS",
         "GPU passthrough"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "Stealing Reasoning Traces from Proprietary LLM APIs",
@@ -41,7 +79,7 @@
         "LLM APIs",
         "OpenAI"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "What I learned by putting GitHub Copilot behind a MitM proxy",
@@ -60,7 +98,26 @@
         "eBPF",
         ".env"
       ],
-      "rank": 3
+      "rank": 5
+    },
+    {
+      "title": "OpenAI's Only Ethicist Reportedly Left Last Month",
+      "title_display": "OpenAI's Only Ethicist Reportedly Left Last Month",
+      "link": "https://gizmodo.com/openais-only-ethicist-reportedly-left-last-month-she-wasnt-replaced-2000796883",
+      "pub_date": "2026-08-11T13:00:43.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 132,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "OpenAI",
+        "ethicist",
+        "ethics",
+        "Gizmodo"
+      ],
+      "rank": 6
     }
   ]
 }
