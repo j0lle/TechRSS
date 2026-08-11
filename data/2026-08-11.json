@@ -1,10 +1,29 @@
 {
   "date": "2026-08-11",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3307,
+  "success_feeds": 89,
+  "total_articles": 3332,
   "filtered_articles": 27,
   "articles": [
+    {
+      "title": "Antirez/h3.c: MiniMax H3 inference engine for Mac computers",
+      "title_display": "Antirez/h3.c: MiniMax H3 inference engine for Mac computers",
+      "link": "https://github.com/antirez/h3.c",
+      "pub_date": "2026-08-11T02:40:40.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 199,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "MiniMax H3",
+        "antirez",
+        "h3.c",
+        "Mac"
+      ],
+      "rank": 1
+    },
     {
       "title": "Chicken Scheme 6.0 Released",
       "title_display": "Chicken Scheme 6.0 Released",
@@ -22,7 +41,7 @@
         "Crunch",
         "call-cc"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "The UK's War on Anonymity Has Come to America",
@@ -41,7 +60,7 @@
         "UK",
         "United States"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Stop Killing Games: It's time to sue Sony, join us",
@@ -60,7 +79,7 @@
         "Stop Killing Games",
         "digital download codes"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Amazon backs power plant that may become top source of US climate pollution",
@@ -79,7 +98,7 @@
         "climate pollution",
         "data centers"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Illinois Just Passed a Law That Puts Linux on the Hook for Age Verification",
@@ -98,7 +117,26 @@
         "age verification",
         "operating system provider"
       ],
-      "rank": 5
+      "rank": 6
+    },
+    {
+      "title": "Show HN: Ante, a coding agent in a single binary that runs offline",
+      "title_display": "Show HN: Ante, a coding agent in a single binary that runs offline",
+      "link": "https://github.com/AntigmaLabs/ante",
+      "pub_date": "2026-08-10T17:00:38.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 127,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Ante",
+        "llama.cpp",
+        "GGUF",
+        "coding agent"
+      ],
+      "rank": 7
     },
     {
       "title": "Exploiting System Management Mode with a very long interrupt",
@@ -117,7 +155,7 @@
         "xoreaxeaxeax",
         "smiiiiiiiiiiiiiiii"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "Kinney Drugs pulls back AI phone assistant after hundreds of customer complaints",
@@ -136,7 +174,7 @@
         "AI",
         "customer service"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "Mark Zuckerberg attacks 'closed' AI rivals as Meta returns to open models",
@@ -155,7 +193,7 @@
         "AI",
         "open models"
       ],
-      "rank": 8
+      "rank": 10
     },
     {
       "title": "Mistral Patent for \"Code implemented tool calls\"",
@@ -174,7 +212,7 @@
         "tool calls",
         "RPC"
       ],
-      "rank": 9
+      "rank": 11
     },
     {
       "title": "Over 181,000 AI meeting recordings left wide open in note taking app",
@@ -193,7 +231,7 @@
         "note-taking app",
         "exposed recordings"
       ],
-      "rank": 10
+      "rank": 12
     },
     {
       "title": "Parametron: 50s Japanese computer that uses neither transistors nor vacuum tubes",
@@ -212,7 +250,7 @@
         "NEAC-1101",
         "NEC"
       ],
-      "rank": 11
+      "rank": 13
     },
     {
       "title": "ATProto for Distributed Systems Engineers",
@@ -231,7 +269,7 @@
         "signatures",
         "federation"
       ],
-      "rank": 12
+      "rank": 14
     },
     {
       "title": "How We Pushed CDC into Postgres",
@@ -250,7 +288,7 @@
         "CDC",
         "pg_lake"
       ],
-      "rank": 13
+      "rank": 15
     }
   ]
 }
