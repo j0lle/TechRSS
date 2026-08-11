@@ -1,10 +1,29 @@
 {
   "date": "2026-08-11",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3327,
-  "filtered_articles": 30,
+  "success_feeds": 88,
+  "total_articles": 3307,
+  "filtered_articles": 27,
   "articles": [
+    {
+      "title": "Chicken Scheme 6.0 Released",
+      "title_display": "Chicken Scheme 6.0 Released",
+      "link": "https://code.call-cc.org/releases/6.0.0/NEWS",
+      "pub_date": "2026-08-11T01:10:40.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 128,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Chicken Scheme",
+        "Scheme",
+        "Crunch",
+        "call-cc"
+      ],
+      "rank": 1
+    },
     {
       "title": "The UK's War on Anonymity Has Come to America",
       "title_display": "The UK's War on Anonymity Has Come to America",
@@ -22,7 +41,7 @@
         "UK",
         "United States"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Stop Killing Games: It's time to sue Sony, join us",
@@ -41,7 +60,7 @@
         "Stop Killing Games",
         "digital download codes"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Amazon backs power plant that may become top source of US climate pollution",
@@ -60,7 +79,7 @@
         "climate pollution",
         "data centers"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Illinois Just Passed a Law That Puts Linux on the Hook for Age Verification",
@@ -79,7 +98,7 @@
         "age verification",
         "operating system provider"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Exploiting System Management Mode with a very long interrupt",
@@ -98,7 +117,7 @@
         "xoreaxeaxeax",
         "smiiiiiiiiiiiiiiii"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Kinney Drugs pulls back AI phone assistant after hundreds of customer complaints",
@@ -117,7 +136,7 @@
         "AI",
         "customer service"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Mark Zuckerberg attacks 'closed' AI rivals as Meta returns to open models",
@@ -136,7 +155,7 @@
         "AI",
         "open models"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Mistral Patent for \"Code implemented tool calls\"",
@@ -155,7 +174,7 @@
         "tool calls",
         "RPC"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Over 181,000 AI meeting recordings left wide open in note taking app",
@@ -174,7 +193,7 @@
         "note-taking app",
         "exposed recordings"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Parametron: 50s Japanese computer that uses neither transistors nor vacuum tubes",
@@ -193,7 +212,7 @@
         "NEAC-1101",
         "NEC"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "ATProto for Distributed Systems Engineers",
@@ -212,7 +231,7 @@
         "signatures",
         "federation"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "How We Pushed CDC into Postgres",
@@ -231,7 +250,7 @@
         "CDC",
         "pg_lake"
       ],
-      "rank": 12
+      "rank": 13
     }
   ]
 }
