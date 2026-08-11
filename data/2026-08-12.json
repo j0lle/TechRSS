@@ -1,10 +1,29 @@
 {
   "date": "2026-08-12",
   "total_feeds": 95,
-  "success_feeds": 90,
-  "total_articles": 3354,
-  "filtered_articles": 30,
+  "success_feeds": 89,
+  "total_articles": 3329,
+  "filtered_articles": 32,
   "articles": [
+    {
+      "title": "Apple Silicon and macOS VMs: 11–16× Faster LLM Inference with Llama.cpp",
+      "title_display": "Apple Silicon and macOS VMs: 11–16× Faster LLM Inference with Llama.cpp",
+      "link": "https://github.com/trycua/cua/blob/main/blog/gpu-passthrough-macos-vms.md",
+      "pub_date": "2026-08-11T15:10:38.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 182,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "llama.cpp",
+        "Apple Silicon",
+        "macOS",
+        "GPU passthrough"
+      ],
+      "rank": 1
+    },
     {
       "title": "Stealing Reasoning Traces from Proprietary LLM APIs",
       "title_display": "Stealing Reasoning Traces from Proprietary LLM APIs",
@@ -22,7 +41,7 @@
         "LLM APIs",
         "OpenAI"
       ],
-      "rank": 1
+      "rank": 2
     }
   ]
 }
