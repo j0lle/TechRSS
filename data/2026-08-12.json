@@ -1,8 +1,28 @@
 {
   "date": "2026-08-12",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3338,
-  "filtered_articles": 28,
-  "articles": []
+  "success_feeds": 90,
+  "total_articles": 3354,
+  "filtered_articles": 30,
+  "articles": [
+    {
+      "title": "Stealing Reasoning Traces from Proprietary LLM APIs",
+      "title_display": "Stealing Reasoning Traces from Proprietary LLM APIs",
+      "link": "https://stolen-thoughts.com/",
+      "pub_date": "2026-08-11T14:50:42.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 236,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "reasoning traces",
+        "chain-of-thought",
+        "LLM APIs",
+        "OpenAI"
+      ],
+      "rank": 1
+    }
+  ]
 }
