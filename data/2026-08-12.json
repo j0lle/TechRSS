@@ -1,10 +1,29 @@
 {
   "date": "2026-08-12",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3339,
-  "filtered_articles": 31,
+  "success_feeds": 90,
+  "total_articles": 3360,
+  "filtered_articles": 33,
   "articles": [
+    {
+      "title": "WorldClaw Agentic 3D open-world generation at scale",
+      "title_display": "WorldClaw Agentic 3D open-world generation at scale",
+      "link": "https://tencent-hunyuan.github.io/Hunyuan3D-WorldClaw/",
+      "pub_date": "2026-08-11T22:30:41.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 138,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "WorldClaw",
+        "Hunyuan3D",
+        "Tencent",
+        "Agentic"
+      ],
+      "rank": 1
+    },
     {
       "title": "Compression Is Prediction",
       "title_display": "Compression Is Prediction",
@@ -13,8 +32,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 183,
-      "score": 27,
+      "hn_points": 297,
+      "score": 30,
       "category": "other",
       "keywords": [
         "compression",
@@ -22,7 +41,7 @@
         "LLMs",
         "ngrok"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Nvidia Nemotron 3.5 lightning and Nemo Switchyard",
@@ -41,7 +60,7 @@
         "NVIDIA",
         "model routing"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Mojo 1.0",
@@ -60,7 +79,7 @@
         "Mojo compiler",
         "open-source"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Why Go Is an Ideal Language for AI-Assisted Software Engineering",
@@ -70,8 +89,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 177,
-      "score": 27,
+      "hn_points": 278,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Go",
@@ -79,7 +98,7 @@
         "software engineering",
         "LLMs"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Jolt: Clojure compiler implemented with Chez Scheme",
@@ -98,7 +117,7 @@
         "Chez Scheme",
         "Gambit"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Show HN: Git-knife – edit commit messages, authors, and dates like a spreadsheet",
@@ -117,7 +136,7 @@
         "commit messages",
         "authors"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Apple Silicon and macOS VMs: 11–16× Faster LLM Inference with Llama.cpp",
@@ -136,7 +155,7 @@
         "macOS",
         "GPU passthrough"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Stealing Reasoning Traces from Proprietary LLM APIs",
@@ -155,7 +174,7 @@
         "LLM APIs",
         "OpenAI"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "What I learned by putting GitHub Copilot behind a MitM proxy",
@@ -174,7 +193,7 @@
         "eBPF",
         ".env"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "OpenAI's Only Ethicist Reportedly Left Last Month",
@@ -193,7 +212,7 @@
         "ethics",
         "Gizmodo"
       ],
-      "rank": 10
+      "rank": 11
     }
   ]
 }
