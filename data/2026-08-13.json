@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 90,
   "total_articles": 3361,
-  "filtered_articles": 40,
+  "filtered_articles": 39,
   "articles": [
+    {
+      "title": "SpaceXAI's Grok 4.6 Scores 61 on the Artificial Analysis Intelligence Index",
+      "title_display": "SpaceXAI's Grok 4.6 Scores 61 on the Artificial Analysis Intelligence Index",
+      "link": "https://artificialanalysis.ai/articles/grok-4-6-benchmarks-and-analysis",
+      "pub_date": "2026-08-12T17:10:39.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 206,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "Grok 4.6",
+        "Grok",
+        "xAI",
+        "Cursor"
+      ],
+      "rank": 1
+    },
     {
       "title": "DeepSeek V4 Pro 0813",
       "title_display": "DeepSeek V4 Pro 0813",
@@ -13,8 +32,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 136,
-      "score": 26,
+      "hn_points": 452,
+      "score": 30,
       "category": "other",
       "keywords": [
         "DeepSeek V4 Pro",
@@ -22,7 +41,7 @@
         "DeepSeek",
         "OpenRouter"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Tailscale Traces Database Corruption to 16y/o SQLite WAL-Reset Bug",
@@ -41,7 +60,7 @@
         "WAL reset bug",
         "database corruption"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Someone is running mass vulnerability scans, spoofing AI bots like ClaudeBot",
@@ -60,7 +79,7 @@
         "mass vulnerability scans",
         "user-agent spoofing"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "AI is removing the middle class of software engineering",
@@ -79,7 +98,7 @@
         "Claude",
         "Oracle"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Obituary: AmigaDOS developer Dr. Tim King has passed away",
@@ -98,7 +117,7 @@
         "Amiga",
         "TripOS"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Why Tiny JPEGs Look Different in Chrome",
@@ -117,7 +136,7 @@
         "Firefox",
         "scaling algorithms"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "2026 Eclipse Webcams",
@@ -136,7 +155,26 @@
         "2026",
         "jonty.github.io"
       ],
-      "rank": 7
+      "rank": 8
+    },
+    {
+      "title": "High-Res Photo Shows Sand-Capped Butte Rising from Mars Plain of Polygons",
+      "title_display": "High-Res Photo Shows Sand-Capped Butte Rising from Mars Plain of Polygons",
+      "link": "https://petapixel.com/2026/08/04/amazing-high-res-photo-shows-a-butte-rising-from-mars/",
+      "pub_date": "2026-08-12T10:40:42.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 142,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Mars",
+        "Curiosity",
+        "NASA",
+        "Plain of Polygons"
+      ],
+      "rank": 9
     }
   ]
 }
