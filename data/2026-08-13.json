@@ -25,6 +25,25 @@
       "rank": 1
     },
     {
+      "title": "Tailscale Traces Database Corruption to 16y/o SQLite WAL-Reset Bug",
+      "title_display": "Tailscale Traces Database Corruption to 16y/o SQLite WAL-Reset Bug",
+      "link": "https://tailscale.com/blog/sqlite-wal-reset-bug",
+      "pub_date": "2026-08-12T15:00:43.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 477,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Tailscale",
+        "SQLite",
+        "WAL reset bug",
+        "database corruption"
+      ],
+      "rank": 2
+    },
+    {
       "title": "Someone is running mass vulnerability scans, spoofing AI bots like ClaudeBot",
       "title_display": "Someone is running mass vulnerability scans, spoofing AI bots like ClaudeBot",
       "link": "https://knownagents.com/insights",
@@ -41,7 +60,7 @@
         "mass vulnerability scans",
         "user-agent spoofing"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "AI is removing the middle class of software engineering",
@@ -60,7 +79,26 @@
         "Claude",
         "Oracle"
       ],
-      "rank": 3
+      "rank": 4
+    },
+    {
+      "title": "Obituary: AmigaDOS developer Dr. Tim King has passed away",
+      "title_display": "Obituary: AmigaDOS developer Dr. Tim King has passed away",
+      "link": "https://amiga-news.de/en/news/AN-2026-08-00070-EN.html",
+      "pub_date": "2026-08-12T14:30:39.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 138,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Dr. Tim King",
+        "AmigaDOS",
+        "Amiga",
+        "TripOS"
+      ],
+      "rank": 5
     },
     {
       "title": "Why Tiny JPEGs Look Different in Chrome",
@@ -79,7 +117,7 @@
         "Firefox",
         "scaling algorithms"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "2026 Eclipse Webcams",
@@ -98,7 +136,7 @@
         "2026",
         "jonty.github.io"
       ],
-      "rank": 5
+      "rank": 7
     }
   ]
 }
