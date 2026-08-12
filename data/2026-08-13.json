@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 90,
   "total_articles": 3361,
-  "filtered_articles": 39,
+  "filtered_articles": 40,
   "articles": [
     {
       "title": "DeepSeek V4 Pro 0813",
@@ -25,6 +25,25 @@
       "rank": 1
     },
     {
+      "title": "Someone is running mass vulnerability scans, spoofing AI bots like ClaudeBot",
+      "title_display": "Someone is running mass vulnerability scans, spoofing AI bots like ClaudeBot",
+      "link": "https://knownagents.com/insights",
+      "pub_date": "2026-08-12T14:50:40.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 122,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "ClaudeBot",
+        "KnownAgents",
+        "mass vulnerability scans",
+        "user-agent spoofing"
+      ],
+      "rank": 2
+    },
+    {
       "title": "AI is removing the middle class of software engineering",
       "title_display": "AI is removing the middle class of software engineering",
       "link": "https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html",
@@ -41,7 +60,26 @@
         "Claude",
         "Oracle"
       ],
-      "rank": 2
+      "rank": 3
+    },
+    {
+      "title": "Why Tiny JPEGs Look Different in Chrome",
+      "title_display": "Why Tiny JPEGs Look Different in Chrome",
+      "link": "https://guillaumetech.github.io/posts/jpg-scaling-chrome/",
+      "pub_date": "2026-08-12T14:20:40.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 149,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Chrome",
+        "JPEG",
+        "Firefox",
+        "scaling algorithms"
+      ],
+      "rank": 4
     },
     {
       "title": "2026 Eclipse Webcams",
@@ -60,7 +98,7 @@
         "2026",
         "jonty.github.io"
       ],
-      "rank": 3
+      "rank": 5
     }
   ]
 }
