@@ -1,10 +1,48 @@
 {
   "date": "2026-08-13",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3332,
-  "filtered_articles": 35,
+  "success_feeds": 90,
+  "total_articles": 3361,
+  "filtered_articles": 39,
   "articles": [
+    {
+      "title": "DeepSeek V4 Pro 0813",
+      "title_display": "DeepSeek V4 Pro 0813",
+      "link": "https://openrouter.ai/deepseek/deepseek-v4-pro-0813",
+      "pub_date": "2026-08-12T16:40:40.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 136,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "DeepSeek V4 Pro",
+        "DeepSeek V4 Flash",
+        "DeepSeek",
+        "OpenRouter"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "AI is removing the middle class of software engineering",
+      "title_display": "AI is removing the middle class of software engineering",
+      "link": "https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html",
+      "pub_date": "2026-08-12T14:30:40.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 319,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "AI",
+        "software engineering",
+        "Claude",
+        "Oracle"
+      ],
+      "rank": 2
+    },
     {
       "title": "2026 Eclipse Webcams",
       "title_display": "2026 Eclipse Webcams",
@@ -22,7 +60,7 @@
         "2026",
         "jonty.github.io"
       ],
-      "rank": 1
+      "rank": 3
     }
   ]
 }
