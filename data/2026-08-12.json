@@ -2,8 +2,8 @@
   "date": "2026-08-12",
   "total_feeds": 95,
   "success_feeds": 88,
-  "total_articles": 3306,
-  "filtered_articles": 34,
+  "total_articles": 3313,
+  "filtered_articles": 37,
   "articles": [
     {
       "title": "WorldClaw Agentic 3D open-world generation at scale",
