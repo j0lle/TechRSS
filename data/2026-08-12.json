@@ -2,9 +2,28 @@
   "date": "2026-08-12",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3335,
+  "total_articles": 3331,
   "filtered_articles": 36,
   "articles": [
+    {
+      "title": "Facebook is paying controversial creators to produce rage-bait content",
+      "title_display": "Facebook is paying controversial creators to produce rage-bait content",
+      "link": "https://www.abc.net.au/news/2026-08-06/ragebait-how-facebook-is-paying-controversial-creators/106940696",
+      "pub_date": "2026-08-12T10:10:40.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 175,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Facebook",
+        "rage-bait",
+        "ABC News",
+        "content monetization"
+      ],
+      "rank": 1
+    },
     {
       "title": "llama.cpp",
       "title_display": "llama.cpp",
@@ -22,7 +41,26 @@
         "llama-server",
         "Ollama"
       ],
-      "rank": 1
+      "rank": 2
+    },
+    {
+      "title": "CFTC declares market emergency, orders Kalshi to continue to operate in New York",
+      "title_display": "CFTC declares market emergency, orders Kalshi to continue to operate in New York",
+      "link": "https://www.cftc.gov/PressRoom/PressReleases/9281-26",
+      "pub_date": "2026-08-12T00:50:40.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 147,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "CFTC",
+        "Kalshi",
+        "New York",
+        "market emergency"
+      ],
+      "rank": 3
     },
     {
       "title": "WorldClaw Agentic 3D open-world generation at scale",
@@ -32,8 +70,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 138,
-      "score": 26,
+      "hn_points": 239,
+      "score": 29,
       "category": "other",
       "keywords": [
         "WorldClaw",
@@ -41,7 +79,7 @@
         "Tencent",
         "Agentic"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "Compression Is Prediction",
@@ -60,7 +98,7 @@
         "LLMs",
         "ngrok"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "Nvidia Nemotron 3.5 lightning and Nemo Switchyard",
@@ -79,7 +117,7 @@
         "NVIDIA",
         "model routing"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "Mojo 1.0",
@@ -98,7 +136,7 @@
         "Mojo compiler",
         "open-source"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "Why Go Is an Ideal Language for AI-Assisted Software Engineering",
@@ -117,7 +155,7 @@
         "software engineering",
         "LLMs"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "Jolt: Clojure compiler implemented with Chez Scheme",
@@ -136,7 +174,7 @@
         "Chez Scheme",
         "Gambit"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "Show HN: Git-knife – edit commit messages, authors, and dates like a spreadsheet",
@@ -155,7 +193,7 @@
         "commit messages",
         "authors"
       ],
-      "rank": 8
+      "rank": 10
     },
     {
       "title": "Apple Silicon and macOS VMs: 11–16× Faster LLM Inference with Llama.cpp",
@@ -174,7 +212,7 @@
         "macOS",
         "GPU passthrough"
       ],
-      "rank": 9
+      "rank": 11
     },
     {
       "title": "Stealing Reasoning Traces from Proprietary LLM APIs",
@@ -193,7 +231,7 @@
         "LLM APIs",
         "OpenAI"
       ],
-      "rank": 10
+      "rank": 12
     },
     {
       "title": "What I learned by putting GitHub Copilot behind a MitM proxy",
@@ -212,7 +250,7 @@
         "eBPF",
         ".env"
       ],
-      "rank": 11
+      "rank": 13
     },
     {
       "title": "OpenAI's Only Ethicist Reportedly Left Last Month",
@@ -231,7 +269,7 @@
         "ethics",
         "Gizmodo"
       ],
-      "rank": 12
+      "rank": 14
     }
   ]
 }
