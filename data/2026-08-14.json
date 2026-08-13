@@ -2,8 +2,8 @@
   "date": "2026-08-14",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3337,
-  "filtered_articles": 28,
+  "total_articles": 3333,
+  "filtered_articles": 32,
   "articles": [
     {
       "title": "Gemini 3.7 Flash",
@@ -25,6 +25,25 @@
       "rank": 1
     },
     {
+      "title": "Kubernetes on Oxide: How Customer Needs Shaped Our Integrations",
+      "title_display": "Kubernetes on Oxide: How Customer Needs Shaped Our Integrations",
+      "link": "https://oxide.computer/blog/kubernetes-on-oxide",
+      "pub_date": "2026-08-13T14:50:43.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 133,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Kubernetes",
+        "Oxide",
+        "oxide-cloud-controller-manager",
+        "Cloud Controller Manager (CCM)"
+      ],
+      "rank": 2
+    },
+    {
       "title": "Spaghettifying DRAM",
       "title_display": "Spaghettifying DRAM",
       "link": "https://github.com/xoreaxeaxeax/skitter-creek-bath-salts",
@@ -41,7 +60,26 @@
         "xoreaxeaxeax",
         "Christopher Domas"
       ],
-      "rank": 2
+      "rank": 3
+    },
+    {
+      "title": "I Built a 500k-Domain Search Engine for Makers in a Weekend for $10",
+      "title_display": "I Built a 500k-Domain Search Engine for Makers in a Weekend for $10",
+      "link": "https://alexmorleyfinch.github.io/marlin/history/v1/article/the_birth.html",
+      "pub_date": "2026-08-13T14:20:42.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 123,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "search engine",
+        "500k domains",
+        "Marlin",
+        "personal search"
+      ],
+      "rank": 4
     },
     {
       "title": "DeepSeek Harness",
@@ -60,7 +98,7 @@
         "Cordis",
         "JavaScript"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "Choosing an AI model: one prompt, 11 models, different results",
@@ -79,7 +117,7 @@
         "Netlify",
         "benchmarking"
       ],
-      "rank": 4
+      "rank": 6
     }
   ]
 }
