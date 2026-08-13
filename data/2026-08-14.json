@@ -6,6 +6,25 @@
   "filtered_articles": 27,
   "articles": [
     {
+      "title": "Spaghettifying DRAM",
+      "title_display": "Spaghettifying DRAM",
+      "link": "https://github.com/xoreaxeaxeax/skitter-creek-bath-salts",
+      "pub_date": "2026-08-13T14:40:40.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 272,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "DRAM",
+        "skitter-creek-bath-salts",
+        "xoreaxeaxeax",
+        "Christopher Domas"
+      ],
+      "rank": 1
+    },
+    {
       "title": "DeepSeek Harness",
       "title_display": "DeepSeek Harness",
       "link": "https://github.com/deepseek-ai/deepseek-harness",
@@ -22,7 +41,7 @@
         "Cordis",
         "JavaScript"
       ],
-      "rank": 1
+      "rank": 2
     }
   ]
 }
