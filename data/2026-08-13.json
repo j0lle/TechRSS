@@ -1,9 +1,9 @@
 {
   "date": "2026-08-13",
   "total_feeds": 95,
-  "success_feeds": 90,
-  "total_articles": 3361,
-  "filtered_articles": 33,
+  "success_feeds": 89,
+  "total_articles": 3333,
+  "filtered_articles": 27,
   "articles": [
     {
       "title": "uBlock Origin Is Giving Up the Fight to Keep Ads Off Facebook",
@@ -32,8 +32,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 143,
-      "score": 26,
+      "hn_points": 246,
+      "score": 29,
       "category": "other",
       "keywords": [
         "ChatGPT Desktop",
@@ -42,6 +42,25 @@
         "Linux"
       ],
       "rank": 2
+    },
+    {
+      "title": "Why Target Common Lisp for Code Generation?",
+      "title_display": "Why Target Common Lisp for Code Generation?",
+      "link": "http://funcall.blogspot.com/2026/08/why-vibe-code-in-lisp.html",
+      "pub_date": "2026-08-12T23:30:40.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 124,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Common Lisp",
+        "code generation",
+        "LLM",
+        "SBCL"
+      ],
+      "rank": 3
     },
     {
       "title": "Zed: Delta",
@@ -60,7 +79,7 @@
         "coding agents",
         "LLMs"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "SpaceXAI's Grok 4.6 Scores 61 on the Artificial Analysis Intelligence Index",
@@ -79,7 +98,7 @@
         "xAI",
         "Cursor"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "DeepSeek V4 Pro 0813",
@@ -98,7 +117,7 @@
         "DeepSeek",
         "OpenRouter"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Tailscale Traces Database Corruption to 16y/o SQLite WAL-Reset Bug",
@@ -108,7 +127,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 784,
+      "hn_points": 1085,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -117,7 +136,7 @@
         "WAL reset bug",
         "database corruption"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Someone is running mass vulnerability scans, spoofing AI bots like ClaudeBot",
@@ -136,7 +155,7 @@
         "mass vulnerability scans",
         "user-agent spoofing"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "AI is removing the middle class of software engineering",
@@ -155,7 +174,7 @@
         "Claude",
         "Oracle"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Obituary: AmigaDOS developer Dr. Tim King has passed away",
@@ -174,7 +193,7 @@
         "Amiga",
         "TripOS"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Why Tiny JPEGs Look Different in Chrome",
@@ -193,7 +212,7 @@
         "Firefox",
         "scaling algorithms"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "2026 Eclipse Webcams",
@@ -212,7 +231,7 @@
         "2026",
         "jonty.github.io"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "High-Res Photo Shows Sand-Capped Butte Rising from Mars Plain of Polygons",
@@ -231,7 +250,7 @@
         "NASA",
         "Plain of Polygons"
       ],
-      "rank": 12
+      "rank": 13
     }
   ]
 }
