@@ -1,10 +1,29 @@
 {
   "date": "2026-08-14",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3333,
-  "filtered_articles": 27,
+  "success_feeds": 90,
+  "total_articles": 3362,
+  "filtered_articles": 28,
   "articles": [
+    {
+      "title": "Gemini 3.7 Flash",
+      "title_display": "Gemini 3.7 Flash",
+      "link": "https://ai.google.dev/gemini-api/docs/models/gemini-3.7-flash",
+      "pub_date": "2026-08-13T17:30:38.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 330,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Gemini 3.7 Flash",
+        "Gemini",
+        "Google",
+        "DeepMind"
+      ],
+      "rank": 1
+    },
     {
       "title": "Spaghettifying DRAM",
       "title_display": "Spaghettifying DRAM",
@@ -22,7 +41,7 @@
         "xoreaxeaxeax",
         "Christopher Domas"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "DeepSeek Harness",
@@ -41,7 +60,26 @@
         "Cordis",
         "JavaScript"
       ],
-      "rank": 2
+      "rank": 3
+    },
+    {
+      "title": "Choosing an AI model: one prompt, 11 models, different results",
+      "title_display": "Choosing an AI model: one prompt, 11 models, different results",
+      "link": "https://www.netlify.com/blog/one-prompt-11-models-very-different-results/",
+      "pub_date": "2026-08-13T13:20:43.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 132,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "AI model",
+        "LLM",
+        "Netlify",
+        "benchmarking"
+      ],
+      "rank": 4
     }
   ]
 }
