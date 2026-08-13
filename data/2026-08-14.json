@@ -3,6 +3,26 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3333,
-  "filtered_articles": 23,
-  "articles": []
+  "filtered_articles": 27,
+  "articles": [
+    {
+      "title": "DeepSeek Harness",
+      "title_display": "DeepSeek Harness",
+      "link": "https://github.com/deepseek-ai/deepseek-harness",
+      "pub_date": "2026-08-13T13:50:39.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 326,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "DeepSeek Harness",
+        "DeepSeek",
+        "Cordis",
+        "JavaScript"
+      ],
+      "rank": 1
+    }
+  ]
 }
