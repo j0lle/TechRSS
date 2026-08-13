@@ -1,10 +1,48 @@
 {
   "date": "2026-08-13",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3336,
-  "filtered_articles": 33,
+  "success_feeds": 88,
+  "total_articles": 3255,
+  "filtered_articles": 34,
   "articles": [
+    {
+      "title": "uBlock Origin Is Giving Up the Fight to Keep Ads Off Facebook",
+      "title_display": "uBlock Origin Is Giving Up the Fight to Keep Ads Off Facebook",
+      "link": "https://digitalescapetools.com/2026/08/ublock-origin-stops-chasing-facebook-ads.html",
+      "pub_date": "2026-08-13T09:30:44.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 492,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "uBlock Origin",
+        "Facebook",
+        "adblockers",
+        "ads"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "ChatGPT Desktop (Codex Desktop) for Linux",
+      "title_display": "ChatGPT Desktop (Codex Desktop) for Linux",
+      "link": "https://openai.com/codex/",
+      "pub_date": "2026-08-13T07:00:42.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 143,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "ChatGPT Desktop",
+        "Codex",
+        "OpenAI",
+        "Linux"
+      ],
+      "rank": 2
+    },
     {
       "title": "Zed: Delta",
       "title_display": "Zed: Delta",
@@ -22,7 +60,7 @@
         "coding agents",
         "LLMs"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "SpaceXAI's Grok 4.6 Scores 61 on the Artificial Analysis Intelligence Index",
@@ -41,7 +79,7 @@
         "xAI",
         "Cursor"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "DeepSeek V4 Pro 0813",
@@ -60,7 +98,7 @@
         "DeepSeek",
         "OpenRouter"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "Tailscale Traces Database Corruption to 16y/o SQLite WAL-Reset Bug",
@@ -79,7 +117,7 @@
         "WAL reset bug",
         "database corruption"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "Someone is running mass vulnerability scans, spoofing AI bots like ClaudeBot",
@@ -98,7 +136,7 @@
         "mass vulnerability scans",
         "user-agent spoofing"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "AI is removing the middle class of software engineering",
@@ -117,7 +155,7 @@
         "Claude",
         "Oracle"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "Obituary: AmigaDOS developer Dr. Tim King has passed away",
@@ -136,7 +174,7 @@
         "Amiga",
         "TripOS"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "Why Tiny JPEGs Look Different in Chrome",
@@ -155,7 +193,7 @@
         "Firefox",
         "scaling algorithms"
       ],
-      "rank": 8
+      "rank": 10
     },
     {
       "title": "2026 Eclipse Webcams",
@@ -174,7 +212,7 @@
         "2026",
         "jonty.github.io"
       ],
-      "rank": 9
+      "rank": 11
     },
     {
       "title": "High-Res Photo Shows Sand-Capped Butte Rising from Mars Plain of Polygons",
@@ -193,7 +231,7 @@
         "NASA",
         "Plain of Polygons"
       ],
-      "rank": 10
+      "rank": 12
     }
   ]
 }
