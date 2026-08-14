@@ -6,6 +6,44 @@
   "filtered_articles": 29,
   "articles": [
     {
+      "title": "Count Binface receives over a quarter of votes in Clacton by-election",
+      "title_display": "Count Binface receives over a quarter of votes in Clacton by-election",
+      "link": "https://www.bbc.com/news/articles/ce97mm3vvemo",
+      "pub_date": "2026-08-14T17:30:41.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 367,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Count Binface",
+        "Clacton by-election",
+        "Nigel Farage",
+        "Reform UK"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Google Is Making Private AI Practical with Homomorphic Encryption",
+      "title_display": "Google Is Making Private AI Practical with Homomorphic Encryption",
+      "link": "https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption/",
+      "pub_date": "2026-08-14T16:50:41.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 126,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "homomorphic encryption",
+        "Google",
+        "FHE",
+        "private AI"
+      ],
+      "rank": 2
+    },
+    {
       "title": "Introducing Toast 1",
       "title_display": "Introducing Toast 1",
       "link": "https://www.mixedbread.com/blog/toast-1",
@@ -22,7 +60,7 @@
         "Mixedbread Search",
         "Wholembed v3"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "Every Fucking Website",
@@ -41,7 +79,7 @@
         "dark patterns",
         "popups"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "In Australia, a Home Battery Boom Has Helped Cut Wholesale Power Prices in Half",
@@ -60,7 +98,7 @@
         "solar PV",
         "energy storage"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "Don't classify, hallucinate!",
@@ -79,7 +117,7 @@
         "classification",
         "embeddings"
       ],
-      "rank": 4
+      "rank": 6
     }
   ]
 }
