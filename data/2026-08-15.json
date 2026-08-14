@@ -3,8 +3,46 @@
   "total_feeds": 95,
   "success_feeds": 90,
   "total_articles": 3364,
-  "filtered_articles": 30,
+  "filtered_articles": 31,
   "articles": [
+    {
+      "title": "Every Fucking Website",
+      "title_display": "Every Fucking Website",
+      "link": "https://lxe.github.io/everywebsite/",
+      "pub_date": "2026-08-14T15:00:39.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 514,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "cookie banner",
+        "trackers",
+        "dark patterns",
+        "popups"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "In Australia, a Home Battery Boom Has Helped Cut Wholesale Power Prices in Half",
+      "title_display": "In Australia, a Home Battery Boom Has Helped Cut Wholesale Power Prices in Half",
+      "link": "https://e360.yale.edu/digest/australia-home-batteries",
+      "pub_date": "2026-08-14T14:30:43.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 202,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "Australia",
+        "home batteries",
+        "solar PV",
+        "energy storage"
+      ],
+      "rank": 2
+    },
     {
       "title": "Don't classify, hallucinate!",
       "title_display": "Don't classify, hallucinate!",
@@ -22,7 +60,7 @@
         "classification",
         "embeddings"
       ],
-      "rank": 1
+      "rank": 3
     }
   ]
 }
