@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 90,
   "total_articles": 3364,
-  "filtered_articles": 31,
+  "filtered_articles": 29,
   "articles": [
+    {
+      "title": "Introducing Toast 1",
+      "title_display": "Introducing Toast 1",
+      "link": "https://www.mixedbread.com/blog/toast-1",
+      "pub_date": "2026-08-14T15:30:46.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 126,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Mixedbread",
+        "Toast 1",
+        "Mixedbread Search",
+        "Wholembed v3"
+      ],
+      "rank": 1
+    },
     {
       "title": "Every Fucking Website",
       "title_display": "Every Fucking Website",
@@ -22,7 +41,7 @@
         "dark patterns",
         "popups"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "In Australia, a Home Battery Boom Has Helped Cut Wholesale Power Prices in Half",
@@ -41,7 +60,7 @@
         "solar PV",
         "energy storage"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Don't classify, hallucinate!",
@@ -60,7 +79,7 @@
         "classification",
         "embeddings"
       ],
-      "rank": 3
+      "rank": 4
     }
   ]
 }
