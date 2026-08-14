@@ -1,0 +1,28 @@
+{
+  "date": "2026-08-15",
+  "total_feeds": 95,
+  "success_feeds": 90,
+  "total_articles": 3364,
+  "filtered_articles": 30,
+  "articles": [
+    {
+      "title": "Don't classify, hallucinate!",
+      "title_display": "Don't classify, hallucinate!",
+      "link": "https://softwaredoug.com/blog/2026/08/10/hypothetical-classifications",
+      "pub_date": "2026-08-14T12:30:41.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 147,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "LLMs",
+        "hallucination",
+        "classification",
+        "embeddings"
+      ],
+      "rank": 1
+    }
+  ]
+}
