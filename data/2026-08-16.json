@@ -1,10 +1,29 @@
 {
   "date": "2026-08-16",
   "total_feeds": 95,
-  "success_feeds": 90,
-  "total_articles": 3361,
-  "filtered_articles": 13,
+  "success_feeds": 89,
+  "total_articles": 3336,
+  "filtered_articles": 14,
   "articles": [
+    {
+      "title": "Semaglutide linked to 26% lower 5-year predicted dementia risk",
+      "title_display": "Semaglutide linked to 26% lower 5-year predicted dementia risk",
+      "link": "https://alz-journals.onlinelibrary.wiley.com/doi/10.1002/dad2.70432",
+      "pub_date": "2026-08-15T17:00:12.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 214,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "Semaglutide",
+        "Dementia",
+        "GLP-1 receptor agonist",
+        "Type 2 diabetes (T2D)"
+      ],
+      "rank": 1
+    },
     {
       "title": "Working with AI Feels More Like Leadership Than Coding",
       "title_display": "Working with AI Feels More Like Leadership Than Coding",
@@ -22,7 +41,7 @@
         "leadership",
         "coding"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Show HN: Eigendrum - Draw any shape and hear what it sounds like as a drum",
@@ -41,7 +60,7 @@
         "2D wave equation",
         "Web Audio"
       ],
-      "rank": 2
+      "rank": 3
     }
   ]
 }
