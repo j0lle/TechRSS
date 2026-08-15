@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 90,
   "total_articles": 3361,
-  "filtered_articles": 15,
+  "filtered_articles": 16,
   "articles": [
     {
       "title": "AI Isn't Outthinking Mathematicians. It's Out-Remembering Them",
@@ -70,8 +70,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 137,
-      "score": 26,
+      "hn_points": 239,
+      "score": 29,
       "category": "other",
       "keywords": [
         "AI",
