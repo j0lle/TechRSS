@@ -3,6 +3,45 @@
   "total_feeds": 95,
   "success_feeds": 90,
   "total_articles": 3361,
-  "filtered_articles": 13,
-  "articles": []
+  "filtered_articles": 15,
+  "articles": [
+    {
+      "title": "Working with AI Feels More Like Leadership Than Coding",
+      "title_display": "Working with AI Feels More Like Leadership Than Coding",
+      "link": "https://allen.bargi.org/notes/working-with-ai-feels-like-leadership/",
+      "pub_date": "2026-08-15T13:40:44.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 137,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "AI",
+        "LLM",
+        "leadership",
+        "coding"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Show HN: Eigendrum - Draw any shape and hear what it sounds like as a drum",
+      "title_display": "Show HN: Eigendrum - Draw any shape and hear what it sounds like as a drum",
+      "link": "https://baselashraf81.github.io/eigendrum/",
+      "pub_date": "2026-08-15T10:00:42.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 123,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "Eigendrum",
+        "FEM",
+        "2D wave equation",
+        "Web Audio"
+      ],
+      "rank": 2
+    }
+  ]
 }
