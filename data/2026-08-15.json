@@ -1,9 +1,9 @@
 {
   "date": "2026-08-15",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3332,
-  "filtered_articles": 17,
+  "success_feeds": 86,
+  "total_articles": 3279,
+  "filtered_articles": 16,
   "articles": [
     {
       "title": "Maximizing the value of your Claude Code sessions",
