@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3330,
-  "filtered_articles": 18,
+  "filtered_articles": 17,
   "articles": [
     {
       "title": "Software Engineering fundamentals matter more",
@@ -51,8 +51,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 158,
-      "score": 27,
+      "hn_points": 262,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Super El Niño",
