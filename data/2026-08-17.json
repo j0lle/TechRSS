@@ -2,9 +2,27 @@
   "date": "2026-08-17",
   "total_feeds": 95,
   "success_feeds": 90,
-  "total_articles": 3359,
-  "filtered_articles": 10,
+  "total_articles": 3360,
+  "filtered_articles": 13,
   "articles": [
+    {
+      "title": "Does anyone run Postgres without PgBouncer?",
+      "title_display": "Does anyone run Postgres without PgBouncer?",
+      "link": "https://brandur.org/fragments/postgres-without-pgbouncer",
+      "pub_date": "2026-08-16T13:40:13.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 126,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Postgres",
+        "PgBouncer",
+        "serverless"
+      ],
+      "rank": 1
+    },
     {
       "title": "Claude: System Prompts",
       "title_display": "Claude: System Prompts",
@@ -22,7 +40,7 @@
         "Anthropic",
         "Opus 5"
       ],
-      "rank": 1
+      "rank": 2
     }
   ]
 }
