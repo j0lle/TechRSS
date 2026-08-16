@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 90,
   "total_articles": 3359,
-  "filtered_articles": 11,
+  "filtered_articles": 10,
   "articles": [
     {
       "title": "Claude: System Prompts",
