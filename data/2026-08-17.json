@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3335,
-  "filtered_articles": 14,
+  "filtered_articles": 15,
   "articles": [
     {
       "title": "Tell HN: Cloudflare silently injects its analytics when you switch nameservers",
@@ -25,6 +25,25 @@
       "rank": 1
     },
     {
+      "title": "Models Are Getting Dumber on Purpose",
+      "title_display": "Models Are Getting Dumber on Purpose",
+      "link": "https://w4g1.dev/blog/models-are-getting-dumber-on-purpose",
+      "pub_date": "2026-08-16T19:50:11.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 198,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "LLM",
+        "agents",
+        "RAG",
+        "tool-calling"
+      ],
+      "rank": 2
+    },
+    {
       "title": "Does anyone run Postgres without PgBouncer?",
       "title_display": "Does anyone run Postgres without PgBouncer?",
       "link": "https://brandur.org/fragments/postgres-without-pgbouncer",
@@ -40,7 +59,7 @@
         "PgBouncer",
         "serverless"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Claude: System Prompts",
@@ -59,7 +78,7 @@
         "Anthropic",
         "Opus 5"
       ],
-      "rank": 3
+      "rank": 4
     }
   ]
 }
