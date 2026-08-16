@@ -1,10 +1,29 @@
 {
   "date": "2026-08-17",
   "total_feeds": 95,
-  "success_feeds": 90,
-  "total_articles": 3360,
-  "filtered_articles": 13,
+  "success_feeds": 89,
+  "total_articles": 3335,
+  "filtered_articles": 14,
   "articles": [
+    {
+      "title": "Tell HN: Cloudflare silently injects its analytics when you switch nameservers",
+      "title_display": "Tell HN: Cloudflare silently injects its analytics when you switch nameservers",
+      "link": "https://news.ycombinator.com/item?id=49322107",
+      "pub_date": "2026-08-16T20:00:12.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 200,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "Cloudflare",
+        "web analytics",
+        "nameservers",
+        "DNS"
+      ],
+      "rank": 1
+    },
     {
       "title": "Does anyone run Postgres without PgBouncer?",
       "title_display": "Does anyone run Postgres without PgBouncer?",
@@ -21,7 +40,7 @@
         "PgBouncer",
         "serverless"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Claude: System Prompts",
@@ -40,7 +59,7 @@
         "Anthropic",
         "Opus 5"
       ],
-      "rank": 2
+      "rank": 3
     }
   ]
 }
