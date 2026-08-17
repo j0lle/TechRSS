@@ -1,10 +1,29 @@
 {
   "date": "2026-08-17",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3262,
+  "success_feeds": 89,
+  "total_articles": 3344,
   "filtered_articles": 13,
   "articles": [
+    {
+      "title": "The Life and Death of Direct File [pdf]",
+      "title_display": "The Life and Death of Direct File [pdf]",
+      "link": "https://www.ischool.berkeley.edu/sites/default/files/vinton_report_5.pdf",
+      "pub_date": "2026-08-17T00:50:12.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 126,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Direct File",
+        "IRS",
+        "IRS-Public/direct-file",
+        "open source"
+      ],
+      "rank": 1
+    },
     {
       "title": "Stripe Clinches over $7B Deal to Buy AI Firm OpenRouter",
       "title_display": "Stripe Clinches over $7B Deal to Buy AI Firm OpenRouter",
@@ -22,7 +41,7 @@
         "AI",
         "models"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Tell HN: Cloudflare silently injects its analytics when you switch nameservers",
@@ -41,7 +60,7 @@
         "nameservers",
         "DNS"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Models Are Getting Dumber on Purpose",
@@ -60,7 +79,7 @@
         "RAG",
         "tool-calling"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "NIH is ending a key grant for budding clinical researchers",
@@ -79,7 +98,7 @@
         "clinical research",
         "Science (AAAS)"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Does anyone run Postgres without PgBouncer?",
@@ -97,7 +116,7 @@
         "PgBouncer",
         "serverless"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Claude: System Prompts",
@@ -116,7 +135,7 @@
         "Anthropic",
         "Opus 5"
       ],
-      "rank": 6
+      "rank": 7
     }
   ]
 }
