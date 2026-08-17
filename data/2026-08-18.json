@@ -1,8 +1,28 @@
 {
   "date": "2026-08-18",
   "total_feeds": 95,
-  "success_feeds": 87,
-  "total_articles": 3300,
-  "filtered_articles": 22,
-  "articles": []
+  "success_feeds": 90,
+  "total_articles": 3364,
+  "filtered_articles": 25,
+  "articles": [
+    {
+      "title": "Ask HN: Alternatives to GitHub",
+      "title_display": "Ask HN: Alternatives to GitHub",
+      "link": "https://news.ycombinator.com/item?id=49331033",
+      "pub_date": "2026-08-17T14:30:15.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 189,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "GitHub",
+        "GitLab",
+        "Forgejo",
+        "Gitea"
+      ],
+      "rank": 1
+    }
+  ]
 }
