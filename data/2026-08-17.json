@@ -1,10 +1,28 @@
 {
   "date": "2026-08-17",
   "total_feeds": 95,
-  "success_feeds": 87,
-  "total_articles": 3290,
-  "filtered_articles": 14,
+  "success_feeds": 90,
+  "total_articles": 3364,
+  "filtered_articles": 16,
   "articles": [
+    {
+      "title": "Reticulum – Decentralized Mesh Network",
+      "title_display": "Reticulum – Decentralized Mesh Network",
+      "link": "https://reticulum.network/",
+      "pub_date": "2026-08-17T01:50:13.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 121,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "Reticulum",
+        "mesh network",
+        "decentralized"
+      ],
+      "rank": 1
+    },
     {
       "title": "The Life and Death of Direct File [pdf]",
       "title_display": "The Life and Death of Direct File [pdf]",
@@ -22,7 +40,7 @@
         "IRS-Public/direct-file",
         "open source"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Nvidia dramatically reduces amount of OpenAI infra financing it may guarantee",
@@ -41,7 +59,7 @@
         "GPUs",
         "Data centers"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Stripe Clinches over $7B Deal to Buy AI Firm OpenRouter",
@@ -51,8 +69,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 251,
-      "score": 29,
+      "hn_points": 351,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Stripe",
@@ -60,7 +78,7 @@
         "AI",
         "models"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Tell HN: Cloudflare silently injects its analytics when you switch nameservers",
@@ -79,7 +97,7 @@
         "nameservers",
         "DNS"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Models Are Getting Dumber on Purpose",
@@ -98,7 +116,7 @@
         "RAG",
         "tool-calling"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "NIH is ending a key grant for budding clinical researchers",
@@ -117,7 +135,7 @@
         "clinical research",
         "Science (AAAS)"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Does anyone run Postgres without PgBouncer?",
@@ -135,7 +153,7 @@
         "PgBouncer",
         "serverless"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Claude: System Prompts",
@@ -154,7 +172,7 @@
         "Anthropic",
         "Opus 5"
       ],
-      "rank": 8
+      "rank": 9
     }
   ]
 }
