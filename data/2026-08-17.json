@@ -1,10 +1,29 @@
 {
   "date": "2026-08-17",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3335,
-  "filtered_articles": 21,
+  "success_feeds": 84,
+  "total_articles": 3240,
+  "filtered_articles": 19,
   "articles": [
+    {
+      "title": "On A.I. regulation and messaging",
+      "title_display": "On A.I. regulation and messaging",
+      "link": "https://twitter.com/DarioAmodei/status/2088758816376807762",
+      "pub_date": "2026-08-17T07:50:14.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 129,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Dario Amodei",
+        "Anthropic",
+        "AI regulation",
+        "Frontier AI"
+      ],
+      "rank": 1
+    },
     {
       "title": "GIMP Development Update",
       "title_display": "GIMP Development Update",
@@ -22,7 +41,7 @@
         "zipped XML",
         "SQLite"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Reticulum – Decentralized Mesh Network",
@@ -40,7 +59,7 @@
         "mesh network",
         "decentralized"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "The Life and Death of Direct File [pdf]",
@@ -59,7 +78,7 @@
         "IRS-Public/direct-file",
         "open source"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Nvidia dramatically reduces amount of OpenAI infra financing it may guarantee",
@@ -78,7 +97,7 @@
         "GPUs",
         "Data centers"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Stripe Clinches over $7B Deal to Buy AI Firm OpenRouter",
@@ -97,7 +116,7 @@
         "AI",
         "models"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "SIMD in the 90s: Programming Intel's Pentium MMX",
@@ -116,7 +135,7 @@
         "SIMD",
         "Intel"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Tell HN: Cloudflare silently injects its analytics when you switch nameservers",
@@ -135,7 +154,7 @@
         "nameservers",
         "DNS"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Models Are Getting Dumber on Purpose",
@@ -154,7 +173,7 @@
         "RAG",
         "tool-calling"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "NIH is ending a key grant for budding clinical researchers",
@@ -173,7 +192,7 @@
         "clinical research",
         "Science (AAAS)"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Does anyone run Postgres without PgBouncer?",
@@ -191,7 +210,7 @@
         "PgBouncer",
         "serverless"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "Claude: System Prompts",
@@ -210,7 +229,7 @@
         "Anthropic",
         "Opus 5"
       ],
-      "rank": 11
+      "rank": 12
     }
   ]
 }
