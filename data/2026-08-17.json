@@ -1,9 +1,9 @@
 {
   "date": "2026-08-17",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3310,
-  "filtered_articles": 17,
+  "success_feeds": 90,
+  "total_articles": 3364,
+  "filtered_articles": 18,
   "articles": [
     {
       "title": "GIMP Development Update",
@@ -100,6 +100,25 @@
       "rank": 5
     },
     {
+      "title": "SIMD in the 90s: Programming Intel's Pentium MMX",
+      "title_display": "SIMD in the 90s: Programming Intel's Pentium MMX",
+      "link": "https://pikuma.com/blog/programming-intel-pentium-mmx-simd",
+      "pub_date": "2026-08-16T21:00:11.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 124,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Pentium MMX",
+        "MMX",
+        "SIMD",
+        "Intel"
+      ],
+      "rank": 6
+    },
+    {
       "title": "Tell HN: Cloudflare silently injects its analytics when you switch nameservers",
       "title_display": "Tell HN: Cloudflare silently injects its analytics when you switch nameservers",
       "link": "https://news.ycombinator.com/item?id=49322107",
@@ -116,7 +135,7 @@
         "nameservers",
         "DNS"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Models Are Getting Dumber on Purpose",
@@ -135,7 +154,7 @@
         "RAG",
         "tool-calling"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "NIH is ending a key grant for budding clinical researchers",
@@ -154,7 +173,7 @@
         "clinical research",
         "Science (AAAS)"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Does anyone run Postgres without PgBouncer?",
@@ -172,7 +191,7 @@
         "PgBouncer",
         "serverless"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Claude: System Prompts",
@@ -191,7 +210,7 @@
         "Anthropic",
         "Opus 5"
       ],
-      "rank": 10
+      "rank": 11
     }
   ]
 }
