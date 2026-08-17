@@ -2,8 +2,8 @@
   "date": "2026-08-18",
   "total_feeds": 95,
   "success_feeds": 90,
-  "total_articles": 3364,
-  "filtered_articles": 24,
+  "total_articles": 3365,
+  "filtered_articles": 23,
   "articles": [
     {
       "title": "A Preview of DuckDB v2.0",
