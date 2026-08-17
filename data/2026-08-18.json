@@ -1,10 +1,48 @@
 {
   "date": "2026-08-18",
   "total_feeds": 95,
-  "success_feeds": 90,
-  "total_articles": 3364,
-  "filtered_articles": 26,
+  "success_feeds": 89,
+  "total_articles": 3354,
+  "filtered_articles": 28,
   "articles": [
+    {
+      "title": "A Preview of DuckDB v2.0",
+      "title_display": "A Preview of DuckDB v2.0",
+      "link": "https://duckdb.org/2026/08/17/duckdb-20-highlights",
+      "pub_date": "2026-08-17T14:50:12.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 325,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "DuckDB",
+        "DuckDB v2.0",
+        "WASM",
+        "Parquet"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "AI-Generated GitHub Copilot \"Autofix\" Allowed Compromise of Snowflake's Jira",
+      "title_display": "AI-Generated GitHub Copilot \"Autofix\" Allowed Compromise of Snowflake's Jira",
+      "link": "https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug",
+      "pub_date": "2026-08-17T14:40:17.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 154,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Snowflake",
+        "GitHub Copilot",
+        "Jira",
+        "GitHub Actions"
+      ],
+      "rank": 2
+    },
     {
       "title": "Ask HN: Alternatives to GitHub",
       "title_display": "Ask HN: Alternatives to GitHub",
@@ -22,7 +60,7 @@
         "Forgejo",
         "Gitea"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "Tell HN: GitHub Is Overloaded",
@@ -39,7 +77,7 @@
         "GitHub",
         "githubstatus.com"
       ],
-      "rank": 2
+      "rank": 4
     }
   ]
 }
