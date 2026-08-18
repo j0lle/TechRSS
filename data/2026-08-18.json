@@ -2,8 +2,8 @@
   "date": "2026-08-18",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3340,
-  "filtered_articles": 22,
+  "total_articles": 3336,
+  "filtered_articles": 21,
   "articles": [
     {
       "title": "Fairphone 6 and PostmarketOS working main camera",
@@ -25,6 +25,25 @@
       "rank": 1
     },
     {
+      "title": "India built the biggest digital payments miracle: Now comes the bill",
+      "title_display": "India built the biggest digital payments miracle: Now comes the bill",
+      "link": "https://www.bbc.com/news/articles/c8xnwqe00v1o",
+      "pub_date": "2026-08-17T20:20:13.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 132,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "UPI",
+        "India",
+        "digital payments",
+        "payment fees"
+      ],
+      "rank": 2
+    },
+    {
       "title": "Judge sets framework for Nine PBS to retrieve archival data",
       "title_display": "Judge sets framework for Nine PBS to retrieve archival data",
       "link": "https://current.org/2026/08/judge-sets-framework-for-nine-pbs-to-retrieve-archival-data/",
@@ -41,7 +60,7 @@
         "archival data",
         "court order"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "A Preview of DuckDB v2.0",
@@ -60,7 +79,7 @@
         "WASM",
         "Parquet"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "AI-Generated GitHub Copilot \"Autofix\" Allowed Compromise of Snowflake's Jira",
@@ -79,7 +98,7 @@
         "Jira",
         "GitHub Actions"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Ask HN: Alternatives to GitHub",
@@ -98,7 +117,7 @@
         "Forgejo",
         "Gitea"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Tell HN: GitHub Is Overloaded",
@@ -115,7 +134,7 @@
         "GitHub",
         "githubstatus.com"
       ],
-      "rank": 6
+      "rank": 7
     }
   ]
 }
