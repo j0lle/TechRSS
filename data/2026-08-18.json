@@ -1,10 +1,48 @@
 {
   "date": "2026-08-18",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3337,
+  "success_feeds": 88,
+  "total_articles": 3313,
   "filtered_articles": 26,
   "articles": [
+    {
+      "title": "Google buys crashed airline Spirit's data at auction, because AI",
+      "title_display": "Google buys crashed airline Spirit's data at auction, because AI",
+      "link": "https://www.theregister.com/ai-and-ml/2026/08/18/google-buys-crashed-airline-spirits-data-at-auction-because-ai/5288962",
+      "pub_date": "2026-08-18T10:40:40.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 267,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "Google",
+        "Spirit Airlines",
+        "AI",
+        "deidentified"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Rethinking Database Programming",
+      "title_display": "Rethinking Database Programming",
+      "link": "https://acadia.engineering/blog/rethinking-database-programming",
+      "pub_date": "2026-08-18T09:00:40.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 133,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Acadia",
+        "Database programming",
+        "PostgreSQL",
+        "SQL"
+      ],
+      "rank": 2
+    },
     {
       "title": "Linux 7.3 improves performance when running out of vRAM",
       "title_display": "Linux 7.3 improves performance when running out of vRAM",
@@ -22,7 +60,7 @@
         "VRAM overcommit",
         "Linux kernel"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "The Benchmarkpocalypse",
@@ -41,7 +79,7 @@
         "overfitting",
         "testing"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "Fairphone 6 and PostmarketOS working main camera",
@@ -60,7 +98,7 @@
         "mainline Linux",
         "camera"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "India built the biggest digital payments miracle: Now comes the bill",
@@ -79,7 +117,7 @@
         "digital payments",
         "payment fees"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "Judge sets framework for Nine PBS to retrieve archival data",
@@ -98,7 +136,7 @@
         "archival data",
         "court order"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "A Preview of DuckDB v2.0",
@@ -117,7 +155,7 @@
         "WASM",
         "Parquet"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "AI-Generated GitHub Copilot \"Autofix\" Allowed Compromise of Snowflake's Jira",
@@ -136,7 +174,7 @@
         "Jira",
         "GitHub Actions"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "Ask HN: Alternatives to GitHub",
@@ -155,7 +193,7 @@
         "Forgejo",
         "Gitea"
       ],
-      "rank": 8
+      "rank": 10
     },
     {
       "title": "Tell HN: GitHub Is Overloaded",
@@ -172,7 +210,7 @@
         "GitHub",
         "githubstatus.com"
       ],
-      "rank": 9
+      "rank": 11
     }
   ]
 }
