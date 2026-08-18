@@ -2,8 +2,8 @@
   "date": "2026-08-19",
   "total_feeds": 95,
   "success_feeds": 90,
-  "total_articles": 3367,
-  "filtered_articles": 28,
+  "total_articles": 3368,
+  "filtered_articles": 29,
   "articles": [
     {
       "title": "Cursor launches Origin, GitHub alternative",
@@ -25,6 +25,24 @@
       "rank": 1
     },
     {
+      "title": "Claude: Degraded Performance for Multiple Models",
+      "title_display": "Claude: Degraded Performance for Multiple Models",
+      "link": "https://status.claude.com/incidents/q7txxvbsftgq",
+      "pub_date": "2026-08-18T16:40:39.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 141,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Claude",
+        "Anthropic",
+        "status.claude.com"
+      ],
+      "rank": 2
+    },
+    {
       "title": "Fixing a Bricked Framework Laptop",
       "title_display": "Fixing a Bricked Framework Laptop",
       "link": "https://quantum5.ca/2026/08/16/fixing-bricked-amd-7040-series-framework-13-laptop-with-20-tools/",
@@ -41,7 +59,7 @@
         "AMD 7040 series",
         "bricked"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Using the railway network as a flatbed scanner",
@@ -60,7 +78,7 @@
         "linecam",
         "line-scan camera"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Finger: Social network that never died",
@@ -79,7 +97,7 @@
         ".plan",
         "telnet"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Teaching my kid to code with a modern MUD",
@@ -98,7 +116,7 @@
         "Scratch",
         "AI"
       ],
-      "rank": 5
+      "rank": 6
     }
   ]
 }
