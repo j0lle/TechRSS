@@ -1,10 +1,29 @@
 {
   "date": "2026-08-18",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3317,
-  "filtered_articles": 24,
+  "success_feeds": 89,
+  "total_articles": 3337,
+  "filtered_articles": 26,
   "articles": [
+    {
+      "title": "Linux 7.3 improves performance when running out of vRAM",
+      "title_display": "Linux 7.3 improves performance when running out of vRAM",
+      "link": "https://pixelcluster.dev/VRAM-Overcommit/",
+      "pub_date": "2026-08-18T09:00:37.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 261,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "Linux 7.3",
+        "vRAM",
+        "VRAM overcommit",
+        "Linux kernel"
+      ],
+      "rank": 1
+    },
     {
       "title": "The Benchmarkpocalypse",
       "title_display": "The Benchmarkpocalypse",
@@ -22,7 +41,7 @@
         "overfitting",
         "testing"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Fairphone 6 and PostmarketOS working main camera",
@@ -41,7 +60,7 @@
         "mainline Linux",
         "camera"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "India built the biggest digital payments miracle: Now comes the bill",
@@ -60,7 +79,7 @@
         "digital payments",
         "payment fees"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Judge sets framework for Nine PBS to retrieve archival data",
@@ -79,7 +98,7 @@
         "archival data",
         "court order"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "A Preview of DuckDB v2.0",
@@ -98,7 +117,7 @@
         "WASM",
         "Parquet"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "AI-Generated GitHub Copilot \"Autofix\" Allowed Compromise of Snowflake's Jira",
@@ -117,7 +136,7 @@
         "Jira",
         "GitHub Actions"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Ask HN: Alternatives to GitHub",
@@ -136,7 +155,7 @@
         "Forgejo",
         "Gitea"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Tell HN: GitHub Is Overloaded",
@@ -153,7 +172,7 @@
         "GitHub",
         "githubstatus.com"
       ],
-      "rank": 8
+      "rank": 9
     }
   ]
 }
