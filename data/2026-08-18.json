@@ -1,10 +1,29 @@
 {
   "date": "2026-08-18",
   "total_feeds": 95,
-  "success_feeds": 90,
-  "total_articles": 3365,
-  "filtered_articles": 20,
+  "success_feeds": 89,
+  "total_articles": 3340,
+  "filtered_articles": 22,
   "articles": [
+    {
+      "title": "Fairphone 6 and PostmarketOS working main camera",
+      "title_display": "Fairphone 6 and PostmarketOS working main camera",
+      "link": "https://catcrafts.net/posts/fairphone-6-postmarketos-working-main-camera",
+      "pub_date": "2026-08-17T22:30:11.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 124,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "PostmarketOS",
+        "Fairphone 6",
+        "mainline Linux",
+        "camera"
+      ],
+      "rank": 1
+    },
     {
       "title": "Judge sets framework for Nine PBS to retrieve archival data",
       "title_display": "Judge sets framework for Nine PBS to retrieve archival data",
@@ -22,7 +41,7 @@
         "archival data",
         "court order"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "A Preview of DuckDB v2.0",
@@ -41,7 +60,7 @@
         "WASM",
         "Parquet"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "AI-Generated GitHub Copilot \"Autofix\" Allowed Compromise of Snowflake's Jira",
@@ -60,7 +79,7 @@
         "Jira",
         "GitHub Actions"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Ask HN: Alternatives to GitHub",
@@ -79,7 +98,7 @@
         "Forgejo",
         "Gitea"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Tell HN: GitHub Is Overloaded",
@@ -96,7 +115,7 @@
         "GitHub",
         "githubstatus.com"
       ],
-      "rank": 5
+      "rank": 6
     }
   ]
 }
