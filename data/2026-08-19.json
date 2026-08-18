@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 90,
   "total_articles": 3368,
-  "filtered_articles": 30,
+  "filtered_articles": 31,
   "articles": [
+    {
+      "title": "Claude Code weekly limits reduce by a third tomorrow",
+      "title_display": "Claude Code weekly limits reduce by a third tomorrow",
+      "link": "https://support.claude.com/en/articles/15910845-claude-code-may-august-2026-weekly-limits-promotion",
+      "pub_date": "2026-08-18T17:50:37.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 235,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "Claude Code",
+        "Anthropic",
+        "weekly usage limits",
+        "promotion"
+      ],
+      "rank": 1
+    },
     {
       "title": "Cursor launches Origin, GitHub alternative",
       "title_display": "Cursor launches Origin, GitHub alternative",
@@ -22,7 +41,7 @@
         "GitHub",
         "agents"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Claude: Degraded Performance for Multiple Models",
@@ -40,7 +59,7 @@
         "Anthropic",
         "status.claude.com"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Fixing a Bricked Framework Laptop",
@@ -50,8 +69,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 174,
-      "score": 27,
+      "hn_points": 281,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Framework",
@@ -59,7 +78,7 @@
         "AMD 7040 series",
         "bricked"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Using the railway network as a flatbed scanner",
@@ -78,7 +97,7 @@
         "linecam",
         "line-scan camera"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Finger: Social network that never died",
@@ -97,7 +116,7 @@
         ".plan",
         "telnet"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Teaching my kid to code with a modern MUD",
@@ -116,7 +135,7 @@
         "Scratch",
         "AI"
       ],
-      "rank": 6
+      "rank": 7
     }
   ]
 }
