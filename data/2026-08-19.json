@@ -1,8 +1,8 @@
 {
   "date": "2026-08-19",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3348,
+  "success_feeds": 90,
+  "total_articles": 3368,
   "filtered_articles": 34,
   "articles": [
     {
@@ -25,6 +25,25 @@
       "rank": 1
     },
     {
+      "title": "Turbovec – Google's TurboQuant for vector search in Rust",
+      "title_display": "Turbovec – Google's TurboQuant for vector search in Rust",
+      "link": "https://github.com/RyanCodrai/turbovec",
+      "pub_date": "2026-08-18T18:30:38.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 178,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Turbovec",
+        "TurboQuant",
+        "vector search",
+        "Rust"
+      ],
+      "rank": 2
+    },
+    {
       "title": "Data centers raise nearby temperatures by up to 4 degrees in Phoenix",
       "title_display": "Data centers raise nearby temperatures by up to 4 degrees in Phoenix",
       "link": "https://asmedigitalcollection.asme.org/sustainablebuildings/article/7/2/024501/1233035/Data-Center-Waste-Heat-as-an-Emerging-Urban",
@@ -41,7 +60,7 @@
         "Phoenix",
         "Urban heat island"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Claude Code weekly limits reduce by a third tomorrow",
@@ -60,7 +79,7 @@
         "weekly usage limits",
         "promotion"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Cursor launches Origin, GitHub alternative",
@@ -79,7 +98,7 @@
         "GitHub",
         "agents"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Claude: Degraded Performance for Multiple Models",
@@ -97,7 +116,7 @@
         "Anthropic",
         "status.claude.com"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Python Polars Cheatsheet (based on our O'Reilly book)",
@@ -116,7 +135,7 @@
         "O'Reilly",
         "Posit"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Fixing a Bricked Framework Laptop",
@@ -135,7 +154,7 @@
         "AMD 7040 series",
         "bricked"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Using the railway network as a flatbed scanner",
@@ -154,7 +173,7 @@
         "linecam",
         "line-scan camera"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Finger: Social network that never died",
@@ -173,7 +192,7 @@
         ".plan",
         "telnet"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Teaching my kid to code with a modern MUD",
@@ -192,7 +211,7 @@
         "Scratch",
         "AI"
       ],
-      "rank": 10
+      "rank": 11
     }
   ]
 }
