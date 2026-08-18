@@ -1,10 +1,29 @@
 {
   "date": "2026-08-19",
   "total_feeds": 95,
-  "success_feeds": 90,
-  "total_articles": 3368,
+  "success_feeds": 89,
+  "total_articles": 3348,
   "filtered_articles": 34,
   "articles": [
+    {
+      "title": "How does IKEA come up with names for its products?",
+      "title_display": "How does IKEA come up with names for its products?",
+      "link": "https://www.ikea.com/se/en/customer-service/knowledge/articles/6f564c4d-2ccc-46de-b643-545a3948dc79.html",
+      "pub_date": "2026-08-18T18:30:39.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 164,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "IKEA",
+        "product naming",
+        "naming framework",
+        "Swedish"
+      ],
+      "rank": 1
+    },
     {
       "title": "Data centers raise nearby temperatures by up to 4 degrees in Phoenix",
       "title_display": "Data centers raise nearby temperatures by up to 4 degrees in Phoenix",
@@ -22,7 +41,7 @@
         "Phoenix",
         "Urban heat island"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Claude Code weekly limits reduce by a third tomorrow",
@@ -41,7 +60,7 @@
         "weekly usage limits",
         "promotion"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Cursor launches Origin, GitHub alternative",
@@ -51,7 +70,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 278,
+      "hn_points": 380,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -60,7 +79,7 @@
         "GitHub",
         "agents"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Claude: Degraded Performance for Multiple Models",
@@ -78,7 +97,7 @@
         "Anthropic",
         "status.claude.com"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Python Polars Cheatsheet (based on our O'Reilly book)",
@@ -97,7 +116,7 @@
         "O'Reilly",
         "Posit"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Fixing a Bricked Framework Laptop",
@@ -116,7 +135,7 @@
         "AMD 7040 series",
         "bricked"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Using the railway network as a flatbed scanner",
@@ -135,7 +154,7 @@
         "linecam",
         "line-scan camera"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Finger: Social network that never died",
@@ -154,7 +173,7 @@
         ".plan",
         "telnet"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Teaching my kid to code with a modern MUD",
@@ -173,7 +192,7 @@
         "Scratch",
         "AI"
       ],
-      "rank": 9
+      "rank": 10
     }
   ]
 }
