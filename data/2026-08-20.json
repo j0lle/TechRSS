@@ -1,9 +1,9 @@
 {
   "date": "2026-08-20",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3290,
-  "filtered_articles": 34,
+  "success_feeds": 87,
+  "total_articles": 3255,
+  "filtered_articles": 35,
   "articles": [
     {
       "title": "Google replaced Git tags for certain source code with obtaining via Google Drive",
