@@ -1,10 +1,29 @@
 {
   "date": "2026-08-19",
   "total_feeds": 95,
-  "success_feeds": 90,
-  "total_articles": 3367,
+  "success_feeds": 89,
+  "total_articles": 3338,
   "filtered_articles": 31,
   "articles": [
+    {
+      "title": "GrapheneOS in 2027 available on high-end Motorola phones",
+      "title_display": "GrapheneOS in 2027 available on high-end Motorola phones",
+      "link": "https://grapheneos.social/@GrapheneOS/117078064184215730",
+      "pub_date": "2026-08-19T12:10:42.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 347,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "GrapheneOS",
+        "Motorola",
+        "Android",
+        "Snapdragon"
+      ],
+      "rank": 1
+    },
     {
       "title": "OpenLogi",
       "title_display": "OpenLogi",
@@ -13,7 +32,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 587,
+      "hn_points": 1174,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -22,7 +41,7 @@
         "mouse",
         "LLM"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "New paper shows that 37% of workers in US saw real wages decline from 2021-2024 [pdf]",
@@ -41,7 +60,7 @@
         "job hopping",
         "job stayers"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Cerebras CS4",
@@ -60,7 +79,7 @@
         "inference",
         "GPU"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "AI usage patterns in software teams",
@@ -79,7 +98,7 @@
         "code generation",
         "prompting"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Solo – a .so loader for static Linux binaries",
@@ -98,7 +117,7 @@
         "musl",
         "static binaries"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "GLM-5.3 Artificial Analysis Benchmarks",
@@ -117,7 +136,7 @@
         "Kimi K3",
         "GPT-5.6"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "A 3D fruit fly on macOS desktop powered by the real FlyWire connectome",
@@ -136,7 +155,7 @@
         "fruit fly",
         "macOS"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Claude Code Teaching macOS to Natively Print to the HP Laser 1008a",
@@ -155,7 +174,7 @@
         "HP Laser 1008a",
         "Linux driver"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "How does IKEA come up with names for its products?",
@@ -174,7 +193,7 @@
         "naming framework",
         "Swedish"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Turbovec – Google's TurboQuant for vector search in Rust",
@@ -193,7 +212,7 @@
         "vector search",
         "Rust"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "Data centers raise nearby temperatures by up to 4 degrees in Phoenix",
@@ -212,7 +231,7 @@
         "Phoenix",
         "Urban heat island"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "Claude Code weekly limits reduce by a third tomorrow",
@@ -231,7 +250,7 @@
         "weekly usage limits",
         "promotion"
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "title": "Cursor launches Origin, GitHub alternative",
@@ -250,7 +269,7 @@
         "GitHub",
         "agents"
       ],
-      "rank": 13
+      "rank": 14
     },
     {
       "title": "Claude: Degraded Performance for Multiple Models",
@@ -268,7 +287,7 @@
         "Anthropic",
         "status.claude.com"
       ],
-      "rank": 14
+      "rank": 15
     },
     {
       "title": "Apple announces changes for apps in the European Union",
@@ -287,7 +306,7 @@
         "European Commission",
         "Digital Markets Act (DMA)"
       ],
-      "rank": 15
+      "rank": 16
     },
     {
       "title": "Python Polars Cheatsheet (based on our O'Reilly book)",
@@ -306,7 +325,7 @@
         "O'Reilly",
         "Posit"
       ],
-      "rank": 16
+      "rank": 17
     },
     {
       "title": "Fixing a Bricked Framework Laptop",
@@ -325,7 +344,7 @@
         "AMD 7040 series",
         "bricked"
       ],
-      "rank": 17
+      "rank": 18
     },
     {
       "title": "Using the railway network as a flatbed scanner",
@@ -344,7 +363,7 @@
         "linecam",
         "line-scan camera"
       ],
-      "rank": 18
+      "rank": 19
     },
     {
       "title": "Finger: Social network that never died",
@@ -363,7 +382,7 @@
         ".plan",
         "telnet"
       ],
-      "rank": 19
+      "rank": 20
     },
     {
       "title": "Teaching my kid to code with a modern MUD",
@@ -382,7 +401,7 @@
         "Scratch",
         "AI"
       ],
-      "rank": 20
+      "rank": 21
     }
   ]
 }
