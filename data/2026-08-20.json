@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 88,
   "total_articles": 3265,
-  "filtered_articles": 31,
+  "filtered_articles": 33,
   "articles": [
+    {
+      "title": "Go 1.27",
+      "title_display": "Go 1.27",
+      "link": "https://go.dev/blog/go1.27",
+      "pub_date": "2026-08-19T19:20:37.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 342,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Go",
+        "Go 1.27",
+        "generic methods",
+        "generics"
+      ],
+      "rank": 1
+    },
     {
       "title": "OpenRouter Is Joining Stripe",
       "title_display": "OpenRouter Is Joining Stripe",
@@ -22,7 +41,7 @@
         "tokens",
         "LLMs"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Remote workers report the highest well-being in study of 7,700 employees",
@@ -41,7 +60,7 @@
         "University of Colorado Boulder",
         "healthcare"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Civic Hygiene – avoid building technologies that could be used by a police state",
@@ -60,7 +79,7 @@
         "surveillance",
         "open source"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Moderna reports first positive Phase 3 for mRNA neoantigen therapy in melanoma",
@@ -79,7 +98,7 @@
         "neoantigen",
         "melanoma"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "PostgreSQL for Everything",
@@ -98,7 +117,7 @@
         "SQLite",
         "VACUUM"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Geolocating a random island using geometry and CUDA programming",
@@ -117,7 +136,7 @@
         "geometry",
         "OSINT"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Air Theremin – a browser theremin you play by waving at your webcam",
@@ -136,7 +155,7 @@
         "MediaPipe",
         "WASM"
       ],
-      "rank": 7
+      "rank": 8
     }
   ]
 }
