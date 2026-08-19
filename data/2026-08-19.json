@@ -1,10 +1,29 @@
 {
   "date": "2026-08-19",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3347,
-  "filtered_articles": 32,
+  "success_feeds": 90,
+  "total_articles": 3367,
+  "filtered_articles": 36,
   "articles": [
+    {
+      "title": "OpenLogi",
+      "title_display": "OpenLogi",
+      "link": "https://openlogi.org/en",
+      "pub_date": "2026-08-19T03:00:41.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 298,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "OpenLogi",
+        "Logitech",
+        "mouse",
+        "LLM"
+      ],
+      "rank": 1
+    },
     {
       "title": "New paper shows that 37% of workers in US saw real wages decline from 2021-2024 [pdf]",
       "title_display": "New paper shows that 37% of workers in US saw real wages decline from 2021-2024 [pdf]",
@@ -22,7 +41,7 @@
         "job hopping",
         "job stayers"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Cerebras CS4",
@@ -41,7 +60,7 @@
         "inference",
         "GPU"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "A 3D fruit fly on macOS desktop powered by the real FlyWire connectome",
@@ -60,7 +79,7 @@
         "fruit fly",
         "macOS"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Claude Code Teaching macOS to Natively Print to the HP Laser 1008a",
@@ -79,7 +98,7 @@
         "HP Laser 1008a",
         "Linux driver"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "How does IKEA come up with names for its products?",
@@ -98,7 +117,7 @@
         "naming framework",
         "Swedish"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Turbovec – Google's TurboQuant for vector search in Rust",
@@ -117,7 +136,7 @@
         "vector search",
         "Rust"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Data centers raise nearby temperatures by up to 4 degrees in Phoenix",
@@ -136,7 +155,7 @@
         "Phoenix",
         "Urban heat island"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Claude Code weekly limits reduce by a third tomorrow",
@@ -155,7 +174,7 @@
         "weekly usage limits",
         "promotion"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Cursor launches Origin, GitHub alternative",
@@ -174,7 +193,7 @@
         "GitHub",
         "agents"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Claude: Degraded Performance for Multiple Models",
@@ -192,7 +211,7 @@
         "Anthropic",
         "status.claude.com"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "Apple announces changes for apps in the European Union",
@@ -211,7 +230,7 @@
         "European Commission",
         "Digital Markets Act (DMA)"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "Python Polars Cheatsheet (based on our O'Reilly book)",
@@ -230,7 +249,7 @@
         "O'Reilly",
         "Posit"
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "title": "Fixing a Bricked Framework Laptop",
@@ -249,7 +268,7 @@
         "AMD 7040 series",
         "bricked"
       ],
-      "rank": 13
+      "rank": 14
     },
     {
       "title": "Using the railway network as a flatbed scanner",
@@ -268,7 +287,7 @@
         "linecam",
         "line-scan camera"
       ],
-      "rank": 14
+      "rank": 15
     },
     {
       "title": "Finger: Social network that never died",
@@ -287,7 +306,7 @@
         ".plan",
         "telnet"
       ],
-      "rank": 15
+      "rank": 16
     },
     {
       "title": "Teaching my kid to code with a modern MUD",
@@ -306,7 +325,7 @@
         "Scratch",
         "AI"
       ],
-      "rank": 16
+      "rank": 17
     }
   ]
 }
