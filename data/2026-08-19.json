@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 90,
   "total_articles": 3367,
-  "filtered_articles": 31,
+  "filtered_articles": 32,
   "articles": [
+    {
+      "title": "New paper shows that 37% of workers in US saw real wages decline from 2021-2024 [pdf]",
+      "title_display": "New paper shows that 37% of workers in US saw real wages decline from 2021-2024 [pdf]",
+      "link": "https://bfi.uchicago.edu/wp-content/uploads/2026/08/BFI_WP_2026-108-1.pdf",
+      "pub_date": "2026-08-19T01:40:41.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 326,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "real wages",
+        "inflation",
+        "job hopping",
+        "job stayers"
+      ],
+      "rank": 1
+    },
     {
       "title": "Cerebras CS4",
       "title_display": "Cerebras CS4",
@@ -22,7 +41,7 @@
         "inference",
         "GPU"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "A 3D fruit fly on macOS desktop powered by the real FlyWire connectome",
@@ -41,7 +60,26 @@
         "fruit fly",
         "macOS"
       ],
-      "rank": 2
+      "rank": 3
+    },
+    {
+      "title": "Claude Code Teaching macOS to Natively Print to the HP Laser 1008a",
+      "title_display": "Claude Code Teaching macOS to Natively Print to the HP Laser 1008a",
+      "link": "https://cdn.kuber.studio/chat/hp-laser-1008a-driver",
+      "pub_date": "2026-08-18T21:30:39.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 126,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Claude Code",
+        "macOS",
+        "HP Laser 1008a",
+        "Linux driver"
+      ],
+      "rank": 4
     },
     {
       "title": "How does IKEA come up with names for its products?",
@@ -51,8 +89,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 164,
-      "score": 27,
+      "hn_points": 269,
+      "score": 29,
       "category": "other",
       "keywords": [
         "IKEA",
@@ -60,7 +98,7 @@
         "naming framework",
         "Swedish"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "Turbovec – Google's TurboQuant for vector search in Rust",
@@ -79,7 +117,7 @@
         "vector search",
         "Rust"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "Data centers raise nearby temperatures by up to 4 degrees in Phoenix",
@@ -98,7 +136,7 @@
         "Phoenix",
         "Urban heat island"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "Claude Code weekly limits reduce by a third tomorrow",
@@ -117,7 +155,7 @@
         "weekly usage limits",
         "promotion"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "Cursor launches Origin, GitHub alternative",
@@ -136,7 +174,7 @@
         "GitHub",
         "agents"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "Claude: Degraded Performance for Multiple Models",
@@ -154,7 +192,7 @@
         "Anthropic",
         "status.claude.com"
       ],
-      "rank": 8
+      "rank": 10
     },
     {
       "title": "Apple announces changes for apps in the European Union",
@@ -173,7 +211,7 @@
         "European Commission",
         "Digital Markets Act (DMA)"
       ],
-      "rank": 9
+      "rank": 11
     },
     {
       "title": "Python Polars Cheatsheet (based on our O'Reilly book)",
@@ -192,7 +230,7 @@
         "O'Reilly",
         "Posit"
       ],
-      "rank": 10
+      "rank": 12
     },
     {
       "title": "Fixing a Bricked Framework Laptop",
@@ -211,7 +249,7 @@
         "AMD 7040 series",
         "bricked"
       ],
-      "rank": 11
+      "rank": 13
     },
     {
       "title": "Using the railway network as a flatbed scanner",
@@ -230,7 +268,7 @@
         "linecam",
         "line-scan camera"
       ],
-      "rank": 12
+      "rank": 14
     },
     {
       "title": "Finger: Social network that never died",
@@ -249,7 +287,7 @@
         ".plan",
         "telnet"
       ],
-      "rank": 13
+      "rank": 15
     },
     {
       "title": "Teaching my kid to code with a modern MUD",
@@ -268,7 +306,7 @@
         "Scratch",
         "AI"
       ],
-      "rank": 14
+      "rank": 16
     }
   ]
 }
