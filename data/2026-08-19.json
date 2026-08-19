@@ -1,10 +1,29 @@
 {
   "date": "2026-08-19",
   "total_feeds": 95,
-  "success_feeds": 84,
-  "total_articles": 3262,
-  "filtered_articles": 29,
+  "success_feeds": 90,
+  "total_articles": 3367,
+  "filtered_articles": 31,
   "articles": [
+    {
+      "title": "Cerebras CS4",
+      "title_display": "Cerebras CS4",
+      "link": "https://www.cerebras.ai/cs4",
+      "pub_date": "2026-08-19T01:40:40.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 137,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Cerebras",
+        "CS-4",
+        "inference",
+        "GPU"
+      ],
+      "rank": 1
+    },
     {
       "title": "A 3D fruit fly on macOS desktop powered by the real FlyWire connectome",
       "title_display": "A 3D fruit fly on macOS desktop powered by the real FlyWire connectome",
@@ -22,7 +41,7 @@
         "fruit fly",
         "macOS"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "How does IKEA come up with names for its products?",
@@ -41,7 +60,7 @@
         "naming framework",
         "Swedish"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Turbovec – Google's TurboQuant for vector search in Rust",
@@ -60,7 +79,7 @@
         "vector search",
         "Rust"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Data centers raise nearby temperatures by up to 4 degrees in Phoenix",
@@ -79,7 +98,7 @@
         "Phoenix",
         "Urban heat island"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Claude Code weekly limits reduce by a third tomorrow",
@@ -98,7 +117,7 @@
         "weekly usage limits",
         "promotion"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Cursor launches Origin, GitHub alternative",
@@ -117,7 +136,7 @@
         "GitHub",
         "agents"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Claude: Degraded Performance for Multiple Models",
@@ -135,7 +154,26 @@
         "Anthropic",
         "status.claude.com"
       ],
-      "rank": 7
+      "rank": 8
+    },
+    {
+      "title": "Apple announces changes for apps in the European Union",
+      "title_display": "Apple announces changes for apps in the European Union",
+      "link": "https://www.apple.com/newsroom/2026/08/apple-announces-changes-for-apps-in-the-european-union/",
+      "pub_date": "2026-08-18T16:30:40.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 127,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Apple",
+        "European Union",
+        "European Commission",
+        "Digital Markets Act (DMA)"
+      ],
+      "rank": 9
     },
     {
       "title": "Python Polars Cheatsheet (based on our O'Reilly book)",
@@ -154,7 +192,7 @@
         "O'Reilly",
         "Posit"
       ],
-      "rank": 8
+      "rank": 10
     },
     {
       "title": "Fixing a Bricked Framework Laptop",
@@ -164,7 +202,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 281,
+      "hn_points": 383,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -173,7 +211,7 @@
         "AMD 7040 series",
         "bricked"
       ],
-      "rank": 9
+      "rank": 11
     },
     {
       "title": "Using the railway network as a flatbed scanner",
@@ -192,7 +230,7 @@
         "linecam",
         "line-scan camera"
       ],
-      "rank": 10
+      "rank": 12
     },
     {
       "title": "Finger: Social network that never died",
@@ -211,7 +249,7 @@
         ".plan",
         "telnet"
       ],
-      "rank": 11
+      "rank": 13
     },
     {
       "title": "Teaching my kid to code with a modern MUD",
@@ -230,7 +268,7 @@
         "Scratch",
         "AI"
       ],
-      "rank": 12
+      "rank": 14
     }
   ]
 }
