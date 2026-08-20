@@ -1,9 +1,9 @@
 {
   "date": "2026-08-21",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3340,
-  "filtered_articles": 21,
+  "success_feeds": 90,
+  "total_articles": 3365,
+  "filtered_articles": 23,
   "articles": [
     {
       "title": "Aaron Swartz was prosecuted for scraping, while Meta does it without consequence",
@@ -13,8 +13,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 206,
-      "score": 28,
+      "hn_points": 687,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Aaron Swartz",
@@ -44,6 +44,25 @@
       "rank": 2
     },
     {
+      "title": "The August 17 outage, and the work ahead",
+      "title_display": "The August 17 outage, and the work ahead",
+      "link": "https://github.blog/news-insights/company-news/the-august-17-outage-and-the-work-ahead/",
+      "pub_date": "2026-08-20T19:40:39.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 210,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "GitHub",
+        "Azure",
+        "Microsoft",
+        "HAProxy"
+      ],
+      "rank": 3
+    },
+    {
       "title": "Scientific study reveals TikTok videos deactivate key cognitive brain regions",
       "title_display": "Scientific study reveals TikTok videos deactivate key cognitive brain regions",
       "link": "https://www.rathbiotaclan.com/tiktok-videos-deactivate-key-cognitive-brain-regions/",
@@ -60,7 +79,7 @@
         "social media",
         "neuroimaging"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Linux 7.2 Released",
@@ -79,7 +98,7 @@
         "Igalia",
         "HDMI 2.1"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Clean up Claude 5's token vomit with a separate LLM",
@@ -98,7 +117,7 @@
         "Anthropic",
         "zachahn/vomit"
       ],
-      "rank": 5
+      "rank": 6
     }
   ]
 }
