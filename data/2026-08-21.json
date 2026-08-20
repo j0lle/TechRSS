@@ -1,9 +1,9 @@
 {
   "date": "2026-08-21",
   "total_feeds": 95,
-  "success_feeds": 90,
-  "total_articles": 3365,
-  "filtered_articles": 24,
+  "success_feeds": 89,
+  "total_articles": 3340,
+  "filtered_articles": 21,
   "articles": [
     {
       "title": "Aaron Swartz was prosecuted for scraping, while Meta does it without consequence",
@@ -25,6 +25,25 @@
       "rank": 1
     },
     {
+      "title": "Show HN: Huzzah – a novel approach to coding with AI",
+      "title_display": "Show HN: Huzzah – a novel approach to coding with AI",
+      "link": "https://www.danielvaughn.dev/posts/huzzah/",
+      "pub_date": "2026-08-20T19:50:39.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 167,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Huzzah",
+        "AI",
+        "pseudocode",
+        "sessions"
+      ],
+      "rank": 2
+    },
+    {
       "title": "Scientific study reveals TikTok videos deactivate key cognitive brain regions",
       "title_display": "Scientific study reveals TikTok videos deactivate key cognitive brain regions",
       "link": "https://www.rathbiotaclan.com/tiktok-videos-deactivate-key-cognitive-brain-regions/",
@@ -41,7 +60,7 @@
         "social media",
         "neuroimaging"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Linux 7.2 Released",
@@ -60,7 +79,7 @@
         "Igalia",
         "HDMI 2.1"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Clean up Claude 5's token vomit with a separate LLM",
@@ -79,7 +98,7 @@
         "Anthropic",
         "zachahn/vomit"
       ],
-      "rank": 4
+      "rank": 5
     }
   ]
 }
