@@ -1,10 +1,29 @@
 {
   "date": "2026-08-22",
   "total_feeds": 95,
-  "success_feeds": 90,
-  "total_articles": 3370,
-  "filtered_articles": 31,
+  "success_feeds": 89,
+  "total_articles": 3345,
+  "filtered_articles": 32,
   "articles": [
+    {
+      "title": "Grand jury declines to indict Ohio man charged with destroying Flock camera",
+      "title_display": "Grand jury declines to indict Ohio man charged with destroying Flock camera",
+      "link": "https://san.com/cc/grand-jury-declines-to-indict-ohio-man-charged-with-destroying-flock-camera/",
+      "pub_date": "2026-08-21T13:40:44.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 424,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Flock Safety",
+        "Flock camera",
+        "grand jury",
+        "Ohio"
+      ],
+      "rank": 1
+    },
     {
       "title": "We Rebuilt the Linux MicroVM Stack on Apple Silicon",
       "title_display": "We Rebuilt the Linux MicroVM Stack on Apple Silicon",
@@ -22,7 +41,7 @@
         "Linux",
         "MicroVM"
       ],
-      "rank": 1
+      "rank": 2
     }
   ]
 }
