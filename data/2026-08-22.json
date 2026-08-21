@@ -1,10 +1,48 @@
 {
   "date": "2026-08-22",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3341,
-  "filtered_articles": 31,
+  "success_feeds": 90,
+  "total_articles": 3370,
+  "filtered_articles": 30,
   "articles": [
+    {
+      "title": "Omacom Foundation Launches with $8M",
+      "title_display": "Omacom Foundation Launches with $8M",
+      "link": "https://omarchy.org/news/2026/08/omacom-foundation-launches-with-8-million/",
+      "pub_date": "2026-08-21T16:20:47.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 140,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Omacom Foundation",
+        "Omarchy",
+        "Omarchy Quattro",
+        "Linux"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Felony Bench",
+      "title_display": "Felony Bench",
+      "link": "https://www.felonybench.com/",
+      "pub_date": "2026-08-21T16:10:47.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 198,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "Felony Bench",
+        "AI agents",
+        "benchmark",
+        "API"
+      ],
+      "rank": 2
+    },
     {
       "title": "Grand jury declines to indict Ohio man charged with destroying Flock camera",
       "title_display": "Grand jury declines to indict Ohio man charged with destroying Flock camera",
@@ -22,7 +60,7 @@
         "grand jury",
         "Ohio"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "We Rebuilt the Linux MicroVM Stack on Apple Silicon",
@@ -41,7 +79,7 @@
         "Linux",
         "MicroVM"
       ],
-      "rank": 2
+      "rank": 4
     }
   ]
 }
