@@ -2,9 +2,28 @@
   "date": "2026-08-21",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3344,
+  "total_articles": 3340,
   "filtered_articles": 30,
   "articles": [
+    {
+      "title": "Small, native web tricks worth remembering",
+      "title_display": "Small, native web tricks worth remembering",
+      "link": "https://htmlcat.net/",
+      "pub_date": "2026-08-21T10:10:42.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 127,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "htmlcat",
+        "web",
+        "HTML",
+        "CSS"
+      ],
+      "rank": 1
+    },
     {
       "title": "Japan tried to build an operating system for the world, the US intervened",
       "title_display": "Japan tried to build an operating system for the world, the US intervened",
@@ -13,8 +32,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 165,
-      "score": 27,
+      "hn_points": 270,
+      "score": 29,
       "category": "other",
       "keywords": [
         "TRON",
@@ -22,7 +41,7 @@
         "Japan",
         "United States government"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Codex on AWS bedrock bug causing 10x charges",
@@ -41,7 +60,7 @@
         "OpenAI",
         "prompt caching"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Aaron Swartz was prosecuted for scraping, while Meta does it without consequence",
@@ -60,7 +79,7 @@
         "scraping",
         "AI"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Show HN: Huzzah – a novel approach to coding with AI",
@@ -79,7 +98,7 @@
         "pseudocode",
         "sessions"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "The August 17 outage, and the work ahead",
@@ -98,7 +117,7 @@
         "Microsoft",
         "HAProxy"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Consumer Rights Wiki",
@@ -117,7 +136,7 @@
         "consumerrights.wiki",
         "AI"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Scientific study reveals TikTok videos deactivate key cognitive brain regions",
@@ -136,7 +155,7 @@
         "social media",
         "neuroimaging"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Linux 7.2 Released",
@@ -155,7 +174,7 @@
         "Igalia",
         "HDMI 2.1"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "How to compromise your system with a job interview",
@@ -174,7 +193,7 @@
         "job interview",
         "Y Combinator"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Clean up Claude 5's token vomit with a separate LLM",
@@ -193,7 +212,7 @@
         "Anthropic",
         "zachahn/vomit"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "DiffusionGemma Technical Report",
@@ -212,7 +231,7 @@
         "Gemma",
         "denoising"
       ],
-      "rank": 11
+      "rank": 12
     }
   ]
 }
