@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 90,
   "total_articles": 3370,
-  "filtered_articles": 30,
+  "filtered_articles": 34,
   "articles": [
+    {
+      "title": "Kobo can run apps now",
+      "title_display": "Kobo can run apps now",
+      "link": "https://bandarlabs.github.io/Cobalt/",
+      "pub_date": "2026-08-21T17:20:49.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 269,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "Kobo",
+        "Cobalt",
+        "Bandar Labs",
+        "Kobo Clara BW (N365)"
+      ],
+      "rank": 1
+    },
     {
       "title": "Omacom Foundation Launches with $8M",
       "title_display": "Omacom Foundation Launches with $8M",
@@ -22,7 +41,7 @@
         "Omarchy Quattro",
         "Linux"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Felony Bench",
@@ -41,7 +60,26 @@
         "benchmark",
         "API"
       ],
-      "rank": 2
+      "rank": 3
+    },
+    {
+      "title": "Claudette: Make Claude Stop Talking Like a BuzzFeed Article",
+      "title_display": "Claudette: Make Claude Stop Talking Like a BuzzFeed Article",
+      "link": "https://github.com/adnanakil/nobuzz/blob/main/README.md",
+      "pub_date": "2026-08-21T15:20:48.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 124,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Claudette",
+        "Claude",
+        "Anthropic",
+        "nobuzz"
+      ],
+      "rank": 4
     },
     {
       "title": "Grand jury declines to indict Ohio man charged with destroying Flock camera",
@@ -60,7 +98,7 @@
         "grand jury",
         "Ohio"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "We Rebuilt the Linux MicroVM Stack on Apple Silicon",
@@ -79,7 +117,7 @@
         "Linux",
         "MicroVM"
       ],
-      "rank": 4
+      "rank": 6
     }
   ]
 }
