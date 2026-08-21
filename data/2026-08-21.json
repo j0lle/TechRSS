@@ -2,9 +2,28 @@
   "date": "2026-08-21",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3343,
-  "filtered_articles": 25,
+  "total_articles": 3344,
+  "filtered_articles": 27,
   "articles": [
+    {
+      "title": "Codex on AWS bedrock bug causing 10x charges",
+      "title_display": "Codex on AWS bedrock bug causing 10x charges",
+      "link": "https://github.com/openai/codex/issues/37674",
+      "pub_date": "2026-08-21T03:50:43.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 129,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Codex",
+        "AWS Bedrock",
+        "OpenAI",
+        "prompt caching"
+      ],
+      "rank": 1
+    },
     {
       "title": "Aaron Swartz was prosecuted for scraping, while Meta does it without consequence",
       "title_display": "Aaron Swartz was prosecuted for scraping, while Meta does it without consequence",
@@ -22,7 +41,7 @@
         "scraping",
         "AI"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Show HN: Huzzah – a novel approach to coding with AI",
@@ -41,7 +60,7 @@
         "pseudocode",
         "sessions"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "The August 17 outage, and the work ahead",
@@ -60,7 +79,7 @@
         "Microsoft",
         "HAProxy"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Consumer Rights Wiki",
@@ -79,7 +98,7 @@
         "consumerrights.wiki",
         "AI"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Scientific study reveals TikTok videos deactivate key cognitive brain regions",
@@ -98,7 +117,7 @@
         "social media",
         "neuroimaging"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Linux 7.2 Released",
@@ -117,7 +136,7 @@
         "Igalia",
         "HDMI 2.1"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "How to compromise your system with a job interview",
@@ -136,7 +155,7 @@
         "job interview",
         "Y Combinator"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Clean up Claude 5's token vomit with a separate LLM",
@@ -155,7 +174,7 @@
         "Anthropic",
         "zachahn/vomit"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "DiffusionGemma Technical Report",
@@ -174,7 +193,7 @@
         "Gemma",
         "denoising"
       ],
-      "rank": 9
+      "rank": 10
     }
   ]
 }
