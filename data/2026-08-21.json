@@ -1,9 +1,9 @@
 {
   "date": "2026-08-21",
   "total_feeds": 95,
-  "success_feeds": 90,
-  "total_articles": 3368,
-  "filtered_articles": 21,
+  "success_feeds": 89,
+  "total_articles": 3343,
+  "filtered_articles": 22,
   "articles": [
     {
       "title": "Aaron Swartz was prosecuted for scraping, while Meta does it without consequence",
@@ -120,6 +120,25 @@
       "rank": 6
     },
     {
+      "title": "How to compromise your system with a job interview",
+      "title_display": "How to compromise your system with a job interview",
+      "link": "https://www.codedge.de/posts/how-to-compromise-your-system-with-a-job-interview",
+      "pub_date": "2026-08-20T16:10:41.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 125,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "coding interview tool",
+        "CLI",
+        "job interview",
+        "Y Combinator"
+      ],
+      "rank": 7
+    },
+    {
       "title": "Clean up Claude 5's token vomit with a separate LLM",
       "title_display": "Clean up Claude 5's token vomit with a separate LLM",
       "link": "https://github.com/zachahn/vomit",
@@ -136,7 +155,7 @@
         "Anthropic",
         "zachahn/vomit"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "DiffusionGemma Technical Report",
@@ -155,7 +174,7 @@
         "Gemma",
         "denoising"
       ],
-      "rank": 8
+      "rank": 9
     }
   ]
 }
