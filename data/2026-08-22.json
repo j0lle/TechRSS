@@ -1,10 +1,29 @@
 {
   "date": "2026-08-22",
   "total_feeds": 95,
-  "success_feeds": 90,
-  "total_articles": 3370,
-  "filtered_articles": 18,
+  "success_feeds": 89,
+  "total_articles": 3350,
+  "filtered_articles": 19,
   "articles": [
+    {
+      "title": "OTel isn't going well (and I made a spreadsheet about it)",
+      "title_display": "OTel isn't going well (and I made a spreadsheet about it)",
+      "link": "https://matduggan.com/otel-isnt-going-well-and-i-made-a-spreadsheet-about-it/",
+      "pub_date": "2026-08-22T04:00:48.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 162,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "OpenTelemetry (OTel)",
+        "Prometheus",
+        "Jaeger",
+        "Grafana"
+      ],
+      "rank": 1
+    },
     {
       "title": "There's no reason for software to be slow anymore",
       "title_display": "There's no reason for software to be slow anymore",
@@ -22,7 +41,7 @@
         "AI",
         "Dan Luu"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Rust Glancer: Rust LSP using 100x less RAM",
@@ -41,7 +60,7 @@
         "LSP",
         "Language Server Protocol"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Three important steps in my maturation process",
@@ -60,7 +79,7 @@
         "incentive structure",
         "emotion"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "People of ACM – Russ Cox",
@@ -79,7 +98,7 @@
         "People of ACM",
         "software engineering"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "How we made a text-to-speech model respond in sub-50 ms",
@@ -98,7 +117,7 @@
         "TTFA",
         "low-latency"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Kobo can run apps now",
@@ -117,7 +136,7 @@
         "Bandar Labs",
         "Kobo Clara BW (N365)"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Omacom Foundation Launches with $8M",
@@ -136,7 +155,7 @@
         "Omarchy Quattro",
         "Linux"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Felony Bench",
@@ -155,7 +174,7 @@
         "benchmark",
         "API"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Claudette: Make Claude Stop Talking Like a BuzzFeed Article",
@@ -174,7 +193,7 @@
         "Anthropic",
         "nobuzz"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Grand jury declines to indict Ohio man charged with destroying Flock camera",
@@ -193,7 +212,7 @@
         "grand jury",
         "Ohio"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "We Rebuilt the Linux MicroVM Stack on Apple Silicon",
@@ -212,7 +231,7 @@
         "Linux",
         "MicroVM"
       ],
-      "rank": 11
+      "rank": 12
     }
   ]
 }
