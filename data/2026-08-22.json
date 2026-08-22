@@ -1,9 +1,9 @@
 {
   "date": "2026-08-22",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3345,
-  "filtered_articles": 28,
+  "success_feeds": 85,
+  "total_articles": 3275,
+  "filtered_articles": 27,
   "articles": [
     {
       "title": "There's no reason for software to be slow anymore",
@@ -25,6 +25,44 @@
       "rank": 1
     },
     {
+      "title": "Rust Glancer: Rust LSP using 100x less RAM",
+      "title_display": "Rust Glancer: Rust LSP using 100x less RAM",
+      "link": "https://rust-glancer.github.io/blog/hello-world/",
+      "pub_date": "2026-08-22T01:10:47.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 135,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Rust Glancer",
+        "Rust",
+        "LSP",
+        "Language Server Protocol"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "Three important steps in my maturation process",
+      "title_display": "Three important steps in my maturation process",
+      "link": "https://thomasdullien.github.io/posts/2026-08-21-three-important-steps-in-my-maturation-process/",
+      "pub_date": "2026-08-22T00:40:48.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 128,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Thomas Dullien",
+        "maturation",
+        "incentive structure",
+        "emotion"
+      ],
+      "rank": 3
+    },
+    {
       "title": "People of ACM – Russ Cox",
       "title_display": "People of ACM – Russ Cox",
       "link": "https://www.acm.org/articles/people-of-acm/2026/russ-cox",
@@ -41,7 +79,7 @@
         "People of ACM",
         "software engineering"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "How we made a text-to-speech model respond in sub-50 ms",
@@ -60,7 +98,7 @@
         "TTFA",
         "low-latency"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "Kobo can run apps now",
@@ -79,7 +117,7 @@
         "Bandar Labs",
         "Kobo Clara BW (N365)"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "Omacom Foundation Launches with $8M",
@@ -98,7 +136,7 @@
         "Omarchy Quattro",
         "Linux"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "Felony Bench",
@@ -108,7 +146,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 353,
+      "hn_points": 662,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -117,7 +155,7 @@
         "benchmark",
         "API"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "Claudette: Make Claude Stop Talking Like a BuzzFeed Article",
@@ -136,7 +174,7 @@
         "Anthropic",
         "nobuzz"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "Grand jury declines to indict Ohio man charged with destroying Flock camera",
@@ -155,7 +193,7 @@
         "grand jury",
         "Ohio"
       ],
-      "rank": 8
+      "rank": 10
     },
     {
       "title": "We Rebuilt the Linux MicroVM Stack on Apple Silicon",
@@ -174,7 +212,7 @@
         "Linux",
         "MicroVM"
       ],
-      "rank": 9
+      "rank": 11
     }
   ]
 }
