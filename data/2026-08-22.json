@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3345,
-  "filtered_articles": 27,
+  "filtered_articles": 28,
   "articles": [
     {
       "title": "There's no reason for software to be slow anymore",
@@ -25,6 +25,25 @@
       "rank": 1
     },
     {
+      "title": "How we made a text-to-speech model respond in sub-50 ms",
+      "title_display": "How we made a text-to-speech model respond in sub-50 ms",
+      "link": "https://nari-labs.com/blog/qwen3-tts-speed-cost-frontier/",
+      "pub_date": "2026-08-21T18:30:47.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 130,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "qwen3-tts",
+        "text-to-speech",
+        "TTFA",
+        "low-latency"
+      ],
+      "rank": 2
+    },
+    {
       "title": "Kobo can run apps now",
       "title_display": "Kobo can run apps now",
       "link": "https://bandarlabs.github.io/Cobalt/",
@@ -41,7 +60,7 @@
         "Bandar Labs",
         "Kobo Clara BW (N365)"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Omacom Foundation Launches with $8M",
@@ -60,7 +79,7 @@
         "Omarchy Quattro",
         "Linux"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Felony Bench",
@@ -79,7 +98,7 @@
         "benchmark",
         "API"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Claudette: Make Claude Stop Talking Like a BuzzFeed Article",
@@ -98,7 +117,7 @@
         "Anthropic",
         "nobuzz"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Grand jury declines to indict Ohio man charged with destroying Flock camera",
@@ -117,7 +136,7 @@
         "grand jury",
         "Ohio"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "We Rebuilt the Linux MicroVM Stack on Apple Silicon",
@@ -136,7 +155,7 @@
         "Linux",
         "MicroVM"
       ],
-      "rank": 7
+      "rank": 8
     }
   ]
 }
