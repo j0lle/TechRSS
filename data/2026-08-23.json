@@ -6,6 +6,25 @@
   "filtered_articles": 17,
   "articles": [
     {
+      "title": "ElevenLabs, TwelveLabs, ThirteenLabs",
+      "title_display": "ElevenLabs, TwelveLabs, ThirteenLabs",
+      "link": "https://quantumi.sh/public/labs.html",
+      "pub_date": "2026-08-22T16:00:48.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 182,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "ElevenLabs",
+        "TwelveLabs",
+        "ThirteenLabs",
+        "quantumi.sh"
+      ],
+      "rank": 1
+    },
+    {
       "title": "The New MCP Roadmap",
       "title_display": "The New MCP Roadmap",
       "link": "https://blog.modelcontextprotocol.io/posts/mcp-roadmap/",
@@ -22,7 +41,7 @@
         "DPoP",
         "Workload Identity Federation"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Zig's Io.Threaded Is Neat",
@@ -41,7 +60,7 @@
         "Rust",
         "LLMs"
       ],
-      "rank": 2
+      "rank": 3
     }
   ]
 }
