@@ -1,10 +1,29 @@
 {
   "date": "2026-08-24",
   "total_feeds": 95,
-  "success_feeds": 90,
-  "total_articles": 3369,
-  "filtered_articles": 17,
+  "success_feeds": 89,
+  "total_articles": 3344,
+  "filtered_articles": 18,
   "articles": [
+    {
+      "title": "How I Find Problems to Solve as a Staff Engineer",
+      "title_display": "How I Find Problems to Solve as a Staff Engineer",
+      "link": "https://lalitm.com/post/find-problems-staff-engineer/",
+      "pub_date": "2026-08-23T19:40:48.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 183,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "staff engineer",
+        "problem finding",
+        "prioritization",
+        "autonomy"
+      ],
+      "rank": 1
+    },
     {
       "title": "A website for debloated open source alternatives",
       "title_display": "A website for debloated open source alternatives",
@@ -22,7 +41,7 @@
         "ffmpeg",
         "XBMC"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "I spent $266 and four AI models to own my tablet. GLM-5.3 finished it in a day",
@@ -41,7 +60,7 @@
         "CVE-2022-38181",
         "Amazon"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "What Is a Harness?",
@@ -51,8 +70,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 130,
-      "score": 26,
+      "hn_points": 237,
+      "score": 29,
       "category": "other",
       "keywords": [
         "harness",
@@ -60,7 +79,7 @@
         "Claude Code",
         "ChatGPT"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "JIT Compiling Code in 5μs",
@@ -79,7 +98,7 @@
         "W^X",
         "malisper.me"
       ],
-      "rank": 4
+      "rank": 5
     }
   ]
 }
