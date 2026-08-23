@@ -2,8 +2,8 @@
   "date": "2026-08-23",
   "total_feeds": 95,
   "success_feeds": 90,
-  "total_articles": 3370,
-  "filtered_articles": 18,
+  "total_articles": 3368,
+  "filtered_articles": 17,
   "articles": [
     {
       "title": "hdiutil is deprecated in macOS 27 Golden Gate",
