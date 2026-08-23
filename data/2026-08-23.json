@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 90,
   "total_articles": 3368,
-  "filtered_articles": 17,
+  "filtered_articles": 16,
   "articles": [
     {
       "title": "I gave Qwen 3.8 27B a reverse-engineering job and it finished in 30 minutes",
