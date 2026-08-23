@@ -25,6 +25,25 @@
       "rank": 1
     },
     {
+      "title": "How a Texas student blew the whistle on a rogue AI hacking attempt",
+      "title_display": "How a Texas student blew the whistle on a rogue AI hacking attempt",
+      "link": "https://www.reuters.com/world/how-texas-student-blew-whistle-rogue-ai-hacking-attempt-2026-08-20/",
+      "pub_date": "2026-08-22T19:00:47.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 124,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "AI",
+        "Mythos 5",
+        "GitHub",
+        "whistleblower"
+      ],
+      "rank": 2
+    },
+    {
       "title": "Anthropic appears to be A/B testing reduced effort levels in Claude Code",
       "title_display": "Anthropic appears to be A/B testing reduced effort levels in Claude Code",
       "link": "https://twitter.com/argofowl/status/2091150597374537729",
@@ -41,7 +60,7 @@
         "Claude",
         "A/B testing"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "ElevenLabs, TwelveLabs, ThirteenLabs",
@@ -60,7 +79,7 @@
         "ThirteenLabs",
         "quantumi.sh"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "The New MCP Roadmap",
@@ -79,7 +98,7 @@
         "DPoP",
         "Workload Identity Federation"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Zig's Io.Threaded Is Neat",
@@ -98,7 +117,7 @@
         "Rust",
         "LLMs"
       ],
-      "rank": 5
+      "rank": 6
     }
   ]
 }
