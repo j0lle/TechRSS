@@ -1,10 +1,29 @@
 {
   "date": "2026-08-23",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3339,
-  "filtered_articles": 16,
+  "success_feeds": 90,
+  "total_articles": 3368,
+  "filtered_articles": 17,
   "articles": [
+    {
+      "title": "I gave Qwen 3.8 27B a reverse-engineering job and it finished in 30 minutes",
+      "title_display": "I gave Qwen 3.8 27B a reverse-engineering job and it finished in 30 minutes",
+      "link": "https://www.xda-developers.com/qwen-3-8-27b-reverse-engineering-job-frontier-model/",
+      "pub_date": "2026-08-23T12:10:53.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 157,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Qwen 3.8 27B",
+        "reverse engineering",
+        "local models",
+        "safety-alignment"
+      ],
+      "rank": 1
+    },
     {
       "title": "Wi-Fi 8 is the first wireless upgrade in years that isn't chasing speed",
       "title_display": "Wi-Fi 8 is the first wireless upgrade in years that isn't chasing speed",
@@ -22,7 +41,7 @@
         "Wi-Fi 6E",
         "MLO"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "MartyPC is a cross-platform emulator of early PCs written in Rust",
@@ -41,7 +60,7 @@
         "emulator",
         "PC"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "hdiutil is deprecated in macOS 27 Golden Gate",
@@ -60,7 +79,7 @@
         "macOS",
         "lapcatsoftware"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "How a Texas student blew the whistle on a rogue AI hacking attempt",
@@ -79,7 +98,7 @@
         "GitHub",
         "whistleblower"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Anthropic appears to be A/B testing reduced effort levels in Claude Code",
@@ -98,7 +117,7 @@
         "Claude",
         "A/B testing"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "ElevenLabs, TwelveLabs, ThirteenLabs",
@@ -117,7 +136,7 @@
         "ThirteenLabs",
         "quantumi.sh"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "The New MCP Roadmap",
@@ -136,7 +155,7 @@
         "DPoP",
         "Workload Identity Federation"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Zig's Io.Threaded Is Neat",
@@ -155,7 +174,7 @@
         "Rust",
         "LLMs"
       ],
-      "rank": 8
+      "rank": 9
     }
   ]
 }
