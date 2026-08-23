@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3339,
-  "filtered_articles": 17,
+  "filtered_articles": 18,
   "articles": [
+    {
+      "title": "Wi-Fi 8 is the first wireless upgrade in years that isn't chasing speed",
+      "title_display": "Wi-Fi 8 is the first wireless upgrade in years that isn't chasing speed",
+      "link": "https://www.xda-developers.com/wi-fi-8-first-wireless-upgrade-years-isnt-chasing-speed-home-networks-need-it/",
+      "pub_date": "2026-08-23T07:00:48.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 126,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Wi-Fi 8",
+        "Wi-Fi 7",
+        "Wi-Fi 6E",
+        "MLO"
+      ],
+      "rank": 1
+    },
     {
       "title": "hdiutil is deprecated in macOS 27 Golden Gate",
       "title_display": "hdiutil is deprecated in macOS 27 Golden Gate",
@@ -22,7 +41,7 @@
         "macOS",
         "lapcatsoftware"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "How a Texas student blew the whistle on a rogue AI hacking attempt",
@@ -41,7 +60,7 @@
         "GitHub",
         "whistleblower"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Anthropic appears to be A/B testing reduced effort levels in Claude Code",
@@ -60,7 +79,7 @@
         "Claude",
         "A/B testing"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "ElevenLabs, TwelveLabs, ThirteenLabs",
@@ -79,7 +98,7 @@
         "ThirteenLabs",
         "quantumi.sh"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "The New MCP Roadmap",
@@ -98,7 +117,7 @@
         "DPoP",
         "Workload Identity Federation"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Zig's Io.Threaded Is Neat",
@@ -117,7 +136,7 @@
         "Rust",
         "LLMs"
       ],
-      "rank": 6
+      "rank": 7
     }
   ]
 }
