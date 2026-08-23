@@ -2,9 +2,28 @@
   "date": "2026-08-24",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3359,
+  "total_articles": 3344,
   "filtered_articles": 17,
   "articles": [
+    {
+      "title": "A website for debloated open source alternatives",
+      "title_display": "A website for debloated open source alternatives",
+      "link": "https://debloat.dev/",
+      "pub_date": "2026-08-23T17:20:46.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 162,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "debloat.dev",
+        "open source",
+        "ffmpeg",
+        "XBMC"
+      ],
+      "rank": 1
+    },
     {
       "title": "I spent $266 and four AI models to own my tablet. GLM-5.3 finished it in a day",
       "title_display": "I spent $266 and four AI models to own my tablet. GLM-5.3 finished it in a day",
@@ -22,7 +41,7 @@
         "CVE-2022-38181",
         "Amazon"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "What Is a Harness?",
@@ -41,7 +60,7 @@
         "Claude Code",
         "ChatGPT"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "JIT Compiling Code in 5μs",
@@ -60,7 +79,7 @@
         "W^X",
         "malisper.me"
       ],
-      "rank": 3
+      "rank": 4
     }
   ]
 }
