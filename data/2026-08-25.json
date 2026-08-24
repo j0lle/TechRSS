@@ -1,10 +1,67 @@
 {
   "date": "2026-08-25",
   "total_feeds": 95,
-  "success_feeds": 90,
-  "total_articles": 3373,
-  "filtered_articles": 27,
+  "success_feeds": 89,
+  "total_articles": 3296,
+  "filtered_articles": 30,
   "articles": [
+    {
+      "title": "IPFS Maintainers Winding Down",
+      "title_display": "IPFS Maintainers Winding Down",
+      "link": "https://ipshipyard.com/blog/2026-the-end-of-ipfs-at-shipyard/",
+      "pub_date": "2026-08-24T16:10:09.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 203,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "IPFS",
+        "Protocol Labs",
+        "Shipyard",
+        "ipfs.io"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Coding expertise is going to collapse from AI reliance",
+      "title_display": "Coding expertise is going to collapse from AI reliance",
+      "link": "https://larsfaye.com/articles/ai-coding-will-prevent-expertise",
+      "pub_date": "2026-08-24T16:00:09.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 247,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "AI",
+        "LLMs",
+        "coding",
+        "software engineering"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "OpenAI: GPT 5.6 Sol price reduction (until at least Nov 21)",
+      "title_display": "OpenAI: GPT 5.6 Sol price reduction (until at least Nov 21)",
+      "link": "https://developers.openai.com/api/docs/pricing",
+      "pub_date": "2026-08-24T15:40:08.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 175,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "OpenAI",
+        "gpt-5.6-sol",
+        "GPT-5.6",
+        "pricing"
+      ],
+      "rank": 3
+    },
     {
       "title": "Anna's Archive Owes $340 Million, Lost Several Domains, but It's Still Online",
       "title_display": "Anna's Archive Owes $340 Million, Lost Several Domains, but It's Still Online",
@@ -22,7 +79,7 @@
         "US$340 million",
         "piracy"
       ],
-      "rank": 1
+      "rank": 4
     },
     {
       "title": "SeL4 security proofs now complete on AArch64",
@@ -41,7 +98,26 @@
         "Proofcraft",
         "formal verification"
       ],
-      "rank": 2
+      "rank": 5
+    },
+    {
+      "title": "Fast drilldown dashboards from a single Parquet file",
+      "title_display": "Fast drilldown dashboards from a single Parquet file",
+      "link": "https://www.hamiltonulmer.com/customer-dashboards-r2-hyparquet/",
+      "pub_date": "2026-08-24T10:50:10.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 140,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Parquet",
+        "Cloudflare R2",
+        "data cube",
+        "HTTP range requests"
+      ],
+      "rank": 6
     },
     {
       "title": "AI Chip Architectures",
@@ -59,7 +135,7 @@
         "analog in-memory computing",
         "AI-generated"
       ],
-      "rank": 3
+      "rank": 7
     }
   ]
 }
