@@ -6,6 +6,44 @@
   "filtered_articles": 27,
   "articles": [
     {
+      "title": "Anna's Archive Owes $340 Million, Lost Several Domains, but It's Still Online",
+      "title_display": "Anna's Archive Owes $340 Million, Lost Several Domains, but It's Still Online",
+      "link": "https://torrentfreak.com/annas-archive-owes-340-million-lost-several-domains-but-its-still-online/",
+      "pub_date": "2026-08-24T15:30:11.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 153,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Anna's Archive",
+        "domain seizure",
+        "US$340 million",
+        "piracy"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "SeL4 security proofs now complete on AArch64",
+      "title_display": "SeL4 security proofs now complete on AArch64",
+      "link": "https://proofcraft.systems/news-2026/#2026-08-21",
+      "pub_date": "2026-08-24T12:20:12.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 135,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "seL4",
+        "AArch64",
+        "Proofcraft",
+        "formal verification"
+      ],
+      "rank": 2
+    },
+    {
       "title": "AI Chip Architectures",
       "title_display": "AI Chip Architectures",
       "link": "https://www.jepeake.com/ai-chip-architectures",
@@ -21,7 +59,7 @@
         "analog in-memory computing",
         "AI-generated"
       ],
-      "rank": 1
+      "rank": 3
     }
   ]
 }
