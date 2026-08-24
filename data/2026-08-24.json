@@ -6,6 +6,25 @@
   "filtered_articles": 26,
   "articles": [
     {
+      "title": "Woman stranded in Spain after UK's eVisa system mistakes her for twin sister",
+      "title_display": "Woman stranded in Spain after UK's eVisa system mistakes her for twin sister",
+      "link": "https://www.theguardian.com/uk-news/2026/aug/24/woman-stranded-spain-uk-evisa-system-mistakes-twin-sister",
+      "pub_date": "2026-08-24T10:10:14.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 137,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "UK eVisa",
+        "twins",
+        "identity verification",
+        "face recognition"
+      ],
+      "rank": 1
+    },
+    {
       "title": "Executable Is a SQLite Database",
       "title_display": "Executable Is a SQLite Database",
       "link": "https://fzakaria.com/2026/08/23/your-executable-is-a-sqlite-database",
@@ -13,15 +32,15 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 173,
-      "score": 27,
+      "hn_points": 278,
+      "score": 30,
       "category": "other",
       "keywords": [
         "SQLite",
         "executable format",
         "database"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "New EU-wide product repair rules come into force",
@@ -40,7 +59,7 @@
         "software updates",
         "firmware"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "I were 17, I'd learn how to build LLMs from scratch",
@@ -59,7 +78,7 @@
         "Twitter",
         "LLM training"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "I built a low-latency AI companion that plays Skyrim with me",
@@ -78,7 +97,7 @@
         "ALE",
         "LLM"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "My agent.md to improve LLM-assisted code quality",
@@ -97,7 +116,7 @@
         "code quality",
         "prompt engineering"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "How I Find Problems to Solve as a Staff Engineer",
@@ -116,7 +135,7 @@
         "prioritization",
         "autonomy"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "A website for debloated open source alternatives",
@@ -135,7 +154,7 @@
         "ffmpeg",
         "XBMC"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "I spent $266 and four AI models to own my tablet. GLM-5.3 finished it in a day",
@@ -154,7 +173,7 @@
         "CVE-2022-38181",
         "Amazon"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "What Is a Harness?",
@@ -173,7 +192,7 @@
         "Claude Code",
         "ChatGPT"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "JIT Compiling Code in 5μs",
@@ -192,7 +211,7 @@
         "W^X",
         "malisper.me"
       ],
-      "rank": 10
+      "rank": 11
     }
   ]
 }
