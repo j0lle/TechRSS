@@ -1,10 +1,29 @@
 {
   "date": "2026-08-24",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3347,
-  "filtered_articles": 17,
+  "success_feeds": 87,
+  "total_articles": 3241,
+  "filtered_articles": 18,
   "articles": [
+    {
+      "title": "I built a low-latency AI companion that plays Skyrim with me",
+      "title_display": "I built a low-latency AI companion that plays Skyrim with me",
+      "link": "https://pantel.is/projects/ai-gaming-companion/",
+      "pub_date": "2026-08-24T04:20:49.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 134,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Skyrim",
+        "AI companion",
+        "ALE",
+        "LLM"
+      ],
+      "rank": 1
+    },
     {
       "title": "My agent.md to improve LLM-assisted code quality",
       "title_display": "My agent.md to improve LLM-assisted code quality",
@@ -22,7 +41,7 @@
         "code quality",
         "prompt engineering"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "How I Find Problems to Solve as a Staff Engineer",
@@ -41,7 +60,7 @@
         "prioritization",
         "autonomy"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "A website for debloated open source alternatives",
@@ -60,7 +79,7 @@
         "ffmpeg",
         "XBMC"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "I spent $266 and four AI models to own my tablet. GLM-5.3 finished it in a day",
@@ -79,7 +98,7 @@
         "CVE-2022-38181",
         "Amazon"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "What Is a Harness?",
@@ -98,7 +117,7 @@
         "Claude Code",
         "ChatGPT"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "JIT Compiling Code in 5μs",
@@ -117,7 +136,7 @@
         "W^X",
         "malisper.me"
       ],
-      "rank": 6
+      "rank": 7
     }
   ]
 }
