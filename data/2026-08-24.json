@@ -2,8 +2,8 @@
   "date": "2026-08-24",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3343,
-  "filtered_articles": 16,
+  "total_articles": 3347,
+  "filtered_articles": 17,
   "articles": [
     {
       "title": "My agent.md to improve LLM-assisted code quality",
@@ -32,7 +32,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 286,
+      "hn_points": 391,
       "score": 30,
       "category": "other",
       "keywords": [
