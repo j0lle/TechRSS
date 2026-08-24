@@ -3,6 +3,25 @@
   "total_feeds": 95,
   "success_feeds": 90,
   "total_articles": 3373,
-  "filtered_articles": 25,
-  "articles": []
+  "filtered_articles": 27,
+  "articles": [
+    {
+      "title": "AI Chip Architectures",
+      "title_display": "AI Chip Architectures",
+      "link": "https://www.jepeake.com/ai-chip-architectures",
+      "pub_date": "2026-08-23T23:40:50.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 132,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "AI chip architectures",
+        "analog in-memory computing",
+        "AI-generated"
+      ],
+      "rank": 1
+    }
+  ]
 }
