@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3348,
-  "filtered_articles": 51,
+  "filtered_articles": 45,
   "articles": [
     {
       "title": "What's new in Emacs 31.1",
@@ -13,8 +13,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 129,
-      "score": 26,
+      "hn_points": 245,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Emacs",
