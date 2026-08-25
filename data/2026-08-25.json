@@ -1,9 +1,9 @@
 {
   "date": "2026-08-25",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3354,
-  "filtered_articles": 26,
+  "success_feeds": 90,
+  "total_articles": 3374,
+  "filtered_articles": 28,
   "articles": [
     {
       "title": "iCloud+ Hide My Email addresses will remain on icloud.com",
@@ -44,6 +44,25 @@
       "rank": 2
     },
     {
+      "title": "LLMs could control their host machines by exploiting inference engines",
+      "title_display": "LLMs could control their host machines by exploiting inference engines",
+      "link": "https://boydkane.com/essays/llms-could-control-their-host-machines-by-exploiting-inference-engines",
+      "pub_date": "2026-08-24T19:30:08.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 128,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "LLM",
+        "inference engine",
+        "exploit",
+        "sandboxing"
+      ],
+      "rank": 3
+    },
+    {
       "title": "Jabber/XMPP: 25 Years of Digital Independence",
       "title_display": "Jabber/XMPP: 25 Years of Digital Independence",
       "link": "https://gultsch.de/posts/25-years-of-digital-independence/",
@@ -60,7 +79,7 @@
         "ejabberd",
         "WhatsApp"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "IPFS Maintainers Winding Down",
@@ -79,7 +98,7 @@
         "Shipyard",
         "ipfs.io"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Coding expertise is going to collapse from AI reliance",
@@ -98,7 +117,7 @@
         "coding",
         "software engineering"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "OpenAI: GPT 5.6 Sol price reduction (until at least Nov 21)",
@@ -117,7 +136,7 @@
         "GPT-5.6",
         "pricing"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Anna's Archive Owes $340 Million, Lost Several Domains, but It's Still Online",
@@ -136,7 +155,7 @@
         "US$340 million",
         "piracy"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Show HN: A techno machine in one HTML file, with verifiable renders",
@@ -155,7 +174,7 @@
         "HTML",
         "single-file"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "SeL4 security proofs now complete on AArch64",
@@ -174,7 +193,7 @@
         "Proofcraft",
         "formal verification"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Fast drilldown dashboards from a single Parquet file",
@@ -193,7 +212,7 @@
         "data cube",
         "HTTP range requests"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "AI Chip Architectures",
@@ -211,7 +230,7 @@
         "analog in-memory computing",
         "AI-generated"
       ],
-      "rank": 11
+      "rank": 12
     }
   ]
 }
