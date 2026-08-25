@@ -1,0 +1,66 @@
+{
+  "date": "2026-08-26",
+  "total_feeds": 95,
+  "success_feeds": 89,
+  "total_articles": 3348,
+  "filtered_articles": 46,
+  "articles": [
+    {
+      "title": "Apple Introduces New Mac Studio with M5 Max and M5 Ultra",
+      "title_display": "Apple Introduces New Mac Studio with M5 Max and M5 Ultra",
+      "link": "https://www.apple.com/newsroom/2026/08/apple-introduces-new-mac-studio-with-m5-max-and-m5-ultra/",
+      "pub_date": "2026-08-25T13:10:16.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 418,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Mac Studio",
+        "M5 Max",
+        "M5 Ultra",
+        "Apple"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Apple introduces M6 and M5 Ultra for a big leap in performance and AI compute",
+      "title_display": "Apple introduces M6 and M5 Ultra for a big leap in performance and AI compute",
+      "link": "https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute/",
+      "pub_date": "2026-08-25T13:10:16.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 439,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Apple",
+        "M6",
+        "M5 Ultra",
+        "Mac Studio"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "Don't Wordle",
+      "title_display": "Don't Wordle",
+      "link": "https://dontwordle.com/",
+      "pub_date": "2026-08-25T12:40:07.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 170,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Don't Wordle",
+        "Wordle",
+        "dontwordle.com",
+        "cookie consent"
+      ],
+      "rank": 3
+    }
+  ]
+}
