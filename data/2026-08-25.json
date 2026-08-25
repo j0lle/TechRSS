@@ -2,8 +2,8 @@
   "date": "2026-08-25",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3347,
-  "filtered_articles": 30,
+  "total_articles": 3348,
+  "filtered_articles": 51,
   "articles": [
     {
       "title": "What's new in Emacs 31.1",
@@ -25,6 +25,25 @@
       "rank": 1
     },
     {
+      "title": "Bookshelf – Self-hosted eBook library that runs on object storage",
+      "title_display": "Bookshelf – Self-hosted eBook library that runs on object storage",
+      "link": "https://github.com/murerkinn/bookshelf",
+      "pub_date": "2026-08-25T00:40:12.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 126,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Bookshelf",
+        "eBook",
+        "object storage",
+        "S3"
+      ],
+      "rank": 2
+    },
+    {
       "title": "iCloud+ Hide My Email addresses will remain on icloud.com",
       "title_display": "iCloud+ Hide My Email addresses will remain on icloud.com",
       "link": "https://developer.apple.com/news/?id=1ptvdtcm",
@@ -41,7 +60,7 @@
         "icloud.com",
         "private.icloud.com"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Oceans hit highest temperature on record",
@@ -51,7 +70,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 314,
+      "hn_points": 619,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -60,7 +79,7 @@
         "BBC",
         "El Niño"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "LLMs could control their host machines by exploiting inference engines",
@@ -79,7 +98,7 @@
         "exploit",
         "sandboxing"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Show HN: PicoMQ – Durable Streams over HTTP, on object storage",
@@ -98,7 +117,7 @@
         "object storage",
         "Kafka"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Jabber/XMPP: 25 Years of Digital Independence",
@@ -117,7 +136,7 @@
         "ejabberd",
         "WhatsApp"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "IPFS Maintainers Winding Down",
@@ -136,7 +155,7 @@
         "Shipyard",
         "ipfs.io"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Coding expertise is going to collapse from AI reliance",
@@ -155,7 +174,7 @@
         "coding",
         "software engineering"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "OpenAI: GPT 5.6 Sol price reduction (until at least Nov 21)",
@@ -174,7 +193,7 @@
         "GPT-5.6",
         "pricing"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Anna's Archive Owes $340 Million, Lost Several Domains, but It's Still Online",
@@ -193,7 +212,7 @@
         "US$340 million",
         "piracy"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "Show HN: A techno machine in one HTML file, with verifiable renders",
@@ -212,7 +231,7 @@
         "HTML",
         "single-file"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "SeL4 security proofs now complete on AArch64",
@@ -231,7 +250,7 @@
         "Proofcraft",
         "formal verification"
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "title": "Fast drilldown dashboards from a single Parquet file",
@@ -250,7 +269,7 @@
         "data cube",
         "HTTP range requests"
       ],
-      "rank": 13
+      "rank": 14
     },
     {
       "title": "AI Chip Architectures",
@@ -268,7 +287,7 @@
         "analog in-memory computing",
         "AI-generated"
       ],
-      "rank": 14
+      "rank": 15
     }
   ]
 }
