@@ -2,8 +2,8 @@
   "date": "2026-08-25",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3345,
-  "filtered_articles": 28,
+  "total_articles": 3347,
+  "filtered_articles": 30,
   "articles": [
     {
       "title": "What's new in Emacs 31.1",
