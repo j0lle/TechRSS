@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 90,
   "total_articles": 3374,
-  "filtered_articles": 29,
+  "filtered_articles": 28,
   "articles": [
     {
       "title": "iCloud+ Hide My Email addresses will remain on icloud.com",
@@ -13,8 +13,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 199,
-      "score": 28,
+      "hn_points": 302,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Hide My Email",
