@@ -3,8 +3,46 @@
   "total_feeds": 95,
   "success_feeds": 90,
   "total_articles": 3378,
-  "filtered_articles": 46,
+  "filtered_articles": 47,
   "articles": [
+    {
+      "title": "Dolly Parton has died",
+      "title_display": "Dolly Parton has died",
+      "link": "https://www.theguardian.com/music/2026/aug/25/dolly-parton-country-singer-dead",
+      "pub_date": "2026-08-25T18:20:08.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 840,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Dolly Parton",
+        "The Guardian",
+        "Dolly Parton's Imagination Library",
+        "Dolly Parton's America"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Nitter project received cease and desist",
+      "title_display": "Nitter project received cease and desist",
+      "link": "https://github.com/zedeus/nitter/issues/1442",
+      "pub_date": "2026-08-25T17:30:07.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 307,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Nitter",
+        "Twitter/X",
+        "GitHub",
+        "scraping"
+      ],
+      "rank": 2
+    },
     {
       "title": "Apple Introduces New Mac Studio with M5 Max and M5 Ultra",
       "title_display": "Apple Introduces New Mac Studio with M5 Max and M5 Ultra",
@@ -22,7 +60,7 @@
         "M5 Ultra",
         "Apple"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "Apple introduces M6 and M5 Ultra for a big leap in performance and AI compute",
@@ -41,7 +79,7 @@
         "M5 Ultra",
         "Mac Studio"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "Don't Wordle",
@@ -60,7 +98,7 @@
         "dontwordle.com",
         "cookie consent"
       ],
-      "rank": 3
+      "rank": 5
     }
   ]
 }
