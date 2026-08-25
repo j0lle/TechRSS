@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 90,
   "total_articles": 3378,
-  "filtered_articles": 47,
+  "filtered_articles": 49,
   "articles": [
     {
       "title": "Dolly Parton has died",
@@ -44,6 +44,25 @@
       "rank": 2
     },
     {
+      "title": "Apple introduces M6 and M5 Ultra for a big leap in performance and AI compute",
+      "title_display": "Apple introduces M6 and M5 Ultra for a big leap in performance and AI compute",
+      "link": "https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute/",
+      "pub_date": "2026-08-25T13:10:16.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 867,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Apple",
+        "M6",
+        "M5 Ultra",
+        "Mac Studio"
+      ],
+      "rank": 3
+    },
+    {
       "title": "Apple Introduces New Mac Studio with M5 Max and M5 Ultra",
       "title_display": "Apple Introduces New Mac Studio with M5 Max and M5 Ultra",
       "link": "https://www.apple.com/newsroom/2026/08/apple-introduces-new-mac-studio-with-m5-max-and-m5-ultra/",
@@ -60,25 +79,6 @@
         "M5 Ultra",
         "Apple"
       ],
-      "rank": 3
-    },
-    {
-      "title": "Apple introduces M6 and M5 Ultra for a big leap in performance and AI compute",
-      "title_display": "Apple introduces M6 and M5 Ultra for a big leap in performance and AI compute",
-      "link": "https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute/",
-      "pub_date": "2026-08-25T13:10:16.000Z",
-      "summary": "",
-      "source_name": "Hacker News",
-      "source_type": "hn",
-      "hn_points": 439,
-      "score": 30,
-      "category": "other",
-      "keywords": [
-        "Apple",
-        "M6",
-        "M5 Ultra",
-        "Mac Studio"
-      ],
       "rank": 4
     },
     {
@@ -89,8 +89,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 170,
-      "score": 27,
+      "hn_points": 271,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Don't Wordle",
