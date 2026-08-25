@@ -1,10 +1,29 @@
 {
   "date": "2026-08-25",
   "total_feeds": 95,
-  "success_feeds": 90,
-  "total_articles": 3374,
+  "success_feeds": 88,
+  "total_articles": 3335,
   "filtered_articles": 28,
   "articles": [
+    {
+      "title": "What's new in Emacs 31.1",
+      "title_display": "What's new in Emacs 31.1",
+      "link": "https://www.masteringemacs.org/article/whats-new-in-emacs-311",
+      "pub_date": "2026-08-25T09:20:15.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 129,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Emacs",
+        "Emacs 31.1",
+        "Tree-sitter",
+        "user-lisp-directory"
+      ],
+      "rank": 1
+    },
     {
       "title": "iCloud+ Hide My Email addresses will remain on icloud.com",
       "title_display": "iCloud+ Hide My Email addresses will remain on icloud.com",
@@ -22,7 +41,7 @@
         "icloud.com",
         "private.icloud.com"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Oceans hit highest temperature on record",
@@ -41,7 +60,7 @@
         "BBC",
         "El Niño"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "LLMs could control their host machines by exploiting inference engines",
@@ -60,7 +79,7 @@
         "exploit",
         "sandboxing"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Jabber/XMPP: 25 Years of Digital Independence",
@@ -79,7 +98,7 @@
         "ejabberd",
         "WhatsApp"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "IPFS Maintainers Winding Down",
@@ -98,7 +117,7 @@
         "Shipyard",
         "ipfs.io"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Coding expertise is going to collapse from AI reliance",
@@ -117,7 +136,7 @@
         "coding",
         "software engineering"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "OpenAI: GPT 5.6 Sol price reduction (until at least Nov 21)",
@@ -136,7 +155,7 @@
         "GPT-5.6",
         "pricing"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Anna's Archive Owes $340 Million, Lost Several Domains, but It's Still Online",
@@ -155,7 +174,7 @@
         "US$340 million",
         "piracy"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Show HN: A techno machine in one HTML file, with verifiable renders",
@@ -174,7 +193,7 @@
         "HTML",
         "single-file"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "SeL4 security proofs now complete on AArch64",
@@ -193,7 +212,7 @@
         "Proofcraft",
         "formal verification"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "Fast drilldown dashboards from a single Parquet file",
@@ -212,7 +231,7 @@
         "data cube",
         "HTTP range requests"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "AI Chip Architectures",
@@ -230,7 +249,7 @@
         "analog in-memory computing",
         "AI-generated"
       ],
-      "rank": 12
+      "rank": 13
     }
   ]
 }
