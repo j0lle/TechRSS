@@ -1,9 +1,9 @@
 {
   "date": "2026-08-26",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3348,
-  "filtered_articles": 36,
+  "success_feeds": 88,
+  "total_articles": 3323,
+  "filtered_articles": 35,
   "articles": [
     {
       "title": "Queryable Executables",
@@ -44,6 +44,25 @@
       "rank": 2
     },
     {
+      "title": "When str.lower() is a security vulnerability in Python – Seth Larson",
+      "title_display": "When str.lower() is a security vulnerability in Python – Seth Larson",
+      "link": "https://sethmlarson.dev/when-str-lower-is-a-security-vulnerability",
+      "pub_date": "2026-08-25T21:40:08.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 123,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "str.lower()",
+        "Python",
+        "IDNA 2003",
+        "IDN"
+      ],
+      "rank": 3
+    },
+    {
       "title": "FDA authorizes first wearable device that monitors ketone and blood sugar levels",
       "title_display": "FDA authorizes first wearable device that monitors ketone and blood sugar levels",
       "link": "https://www.fda.gov/news-events/press-announcements/fda-authorizes-first-wearable-device-continuously-monitors-both-ketone-levels-and-blood-sugar",
@@ -51,7 +70,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 282,
+      "hn_points": 389,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -60,7 +79,7 @@
         "glucose",
         "wearable"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Show HN: I made a Raspberry with Qwen my local car AI",
@@ -79,7 +98,7 @@
         "CarWatch",
         "OBD2"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Show HN: LatticeDB – Like SQLite but for graph databases",
@@ -98,7 +117,7 @@
         "SQLite",
         "DuckDB"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Dolly Parton has died",
@@ -117,7 +136,7 @@
         "Dolly Parton's Imagination Library",
         "Dolly Parton's America"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Run OpenBSD on DigitalOcean for $4/month",
@@ -135,7 +154,7 @@
         "DigitalOcean",
         "Vultr"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Nitter project received cease and desist",
@@ -154,7 +173,7 @@
         "GitHub",
         "scraping"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Apple Introduces New Mac Studio with M5 Max and M5 Ultra",
@@ -173,7 +192,7 @@
         "M5 Ultra",
         "Apple"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Apple introduces M6 and M5 Ultra for a big leap in performance and AI compute",
@@ -192,7 +211,7 @@
         "M5 Ultra",
         "Mac Studio"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "Don't Wordle",
@@ -211,7 +230,7 @@
         "dontwordle.com",
         "cookie consent"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "Credit Card Rewards Became a $9.2B Wealth Transfer",
@@ -230,7 +249,7 @@
         "Interchange fees",
         "Debit cards"
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "title": "SiFive's First Server Platform",
@@ -249,7 +268,7 @@
         "Server",
         "GPU"
       ],
-      "rank": 13
+      "rank": 14
     }
   ]
 }
