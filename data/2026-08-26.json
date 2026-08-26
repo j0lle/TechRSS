@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 90,
   "total_articles": 3377,
-  "filtered_articles": 50,
+  "filtered_articles": 49,
   "articles": [
     {
       "title": "Python's pre-declared constants are kinda weird",
@@ -195,6 +195,25 @@
       "rank": 10
     },
     {
+      "title": "Credit Card Rewards Became a $9.2B Wealth Transfer",
+      "title_display": "Credit Card Rewards Became a $9.2B Wealth Transfer",
+      "link": "https://www.library.hbs.edu/working-knowledge/how-credit-card-rewards-became-multibillion-dollar-wealth-transfer",
+      "pub_date": "2026-08-25T12:00:07.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 163,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Credit card rewards",
+        "Wealth transfer",
+        "Interchange fees",
+        "Debit cards"
+      ],
+      "rank": 11
+    },
+    {
       "title": "SiFive's First Server Platform",
       "title_display": "SiFive's First Server Platform",
       "link": "https://chipsandcheese.com/p/sifives-first-server-platform",
@@ -211,7 +230,7 @@
         "Server",
         "GPU"
       ],
-      "rank": 11
+      "rank": 12
     }
   ]
 }
