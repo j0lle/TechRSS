@@ -1,0 +1,47 @@
+{
+  "date": "2026-08-27",
+  "total_feeds": 95,
+  "success_feeds": 89,
+  "total_articles": 3350,
+  "filtered_articles": 37,
+  "articles": [
+    {
+      "title": "Z.ai confirms Ox Alpha is a new GLM-series model and will release its weights",
+      "title_display": "Z.ai confirms Ox Alpha is a new GLM-series model and will release its weights",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-26/china-s-z-ai-made-ox-alpha-stealth-model-that-rivals-deepseek",
+      "pub_date": "2026-08-26T10:50:08.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 246,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "Ox Alpha",
+        "Z.ai",
+        "GLM",
+        "weights"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Oldinsurancemaps.net is now a Charter Project",
+      "title_display": "Oldinsurancemaps.net is now a Charter Project",
+      "link": "https://openstreetmap.us/news/2026/08/oim-charter-project/",
+      "pub_date": "2026-08-26T09:40:07.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 129,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "OldInsuranceMaps.net",
+        "OpenStreetMap US",
+        "Sanborn maps",
+        "historical maps"
+      ],
+      "rank": 2
+    }
+  ]
+}
