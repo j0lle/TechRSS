@@ -3,8 +3,46 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3348,
-  "filtered_articles": 35,
+  "filtered_articles": 33,
   "articles": [
+    {
+      "title": "Omarchy is full of security holes",
+      "title_display": "Omarchy is full of security holes",
+      "link": "https://blog.happyfellow.dev/merchants-of-insecurity/",
+      "pub_date": "2026-08-26T12:20:08.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 104,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "Omarchy",
+        "security",
+        "DHH",
+        "Arch Linux"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Stalking the Wily Hacker: 40 years later – Cliff Stoll [video]",
+      "title_display": "Stalking the Wily Hacker: 40 years later – Cliff Stoll [video]",
+      "link": "https://www.youtube.com/watch?v=656058JxTM0",
+      "pub_date": "2026-08-26T05:50:08.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 137,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Cliff Stoll",
+        "The Cuckoo's Egg",
+        "Klein bottle",
+        "YouTube"
+      ],
+      "rank": 2
+    },
     {
       "title": "Queryable Executables",
       "title_display": "Queryable Executables",
@@ -22,7 +60,7 @@
         "executable",
         "mmap"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "Python's pre-declared constants are kinda weird",
@@ -41,7 +79,7 @@
         "True",
         "False"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "When str.lower() is a security vulnerability in Python – Seth Larson",
@@ -60,7 +98,7 @@
         "IDNA 2003",
         "IDN"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "FDA authorizes first wearable device that monitors ketone and blood sugar levels",
@@ -79,7 +117,7 @@
         "glucose",
         "wearable"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "Show HN: I made a Raspberry with Qwen my local car AI",
@@ -98,7 +136,7 @@
         "CarWatch",
         "OBD2"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "Show HN: LatticeDB – Like SQLite but for graph databases",
@@ -117,7 +155,7 @@
         "SQLite",
         "DuckDB"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "Dolly Parton has died",
@@ -136,7 +174,7 @@
         "Dolly Parton's Imagination Library",
         "Dolly Parton's America"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "Run OpenBSD on DigitalOcean for $4/month",
@@ -154,7 +192,7 @@
         "DigitalOcean",
         "Vultr"
       ],
-      "rank": 8
+      "rank": 10
     },
     {
       "title": "Nitter project received cease and desist",
@@ -173,7 +211,26 @@
         "GitHub",
         "scraping"
       ],
-      "rank": 9
+      "rank": 11
+    },
+    {
+      "title": "Apple introduces M6 and M5 Ultra for a big leap in performance and AI compute",
+      "title_display": "Apple introduces M6 and M5 Ultra for a big leap in performance and AI compute",
+      "link": "https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute/",
+      "pub_date": "2026-08-25T13:10:16.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 1179,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Apple",
+        "M6",
+        "M5 Ultra",
+        "Mac Studio"
+      ],
+      "rank": 12
     },
     {
       "title": "Apple Introduces New Mac Studio with M5 Max and M5 Ultra",
@@ -192,26 +249,7 @@
         "M5 Ultra",
         "Apple"
       ],
-      "rank": 10
-    },
-    {
-      "title": "Apple introduces M6 and M5 Ultra for a big leap in performance and AI compute",
-      "title_display": "Apple introduces M6 and M5 Ultra for a big leap in performance and AI compute",
-      "link": "https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute/",
-      "pub_date": "2026-08-25T13:10:16.000Z",
-      "summary": "",
-      "source_name": "Hacker News",
-      "source_type": "hn",
-      "hn_points": 867,
-      "score": 30,
-      "category": "other",
-      "keywords": [
-        "Apple",
-        "M6",
-        "M5 Ultra",
-        "Mac Studio"
-      ],
-      "rank": 11
+      "rank": 13
     },
     {
       "title": "Don't Wordle",
@@ -230,7 +268,7 @@
         "dontwordle.com",
         "cookie consent"
       ],
-      "rank": 12
+      "rank": 14
     },
     {
       "title": "Credit Card Rewards Became a $9.2B Wealth Transfer",
@@ -249,7 +287,7 @@
         "Interchange fees",
         "Debit cards"
       ],
-      "rank": 13
+      "rank": 15
     },
     {
       "title": "SiFive's First Server Platform",
@@ -268,7 +306,7 @@
         "Server",
         "GPU"
       ],
-      "rank": 14
+      "rank": 16
     }
   ]
 }
