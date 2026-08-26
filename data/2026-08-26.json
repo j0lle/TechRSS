@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 90,
   "total_articles": 3377,
-  "filtered_articles": 46,
+  "filtered_articles": 47,
   "articles": [
     {
       "title": "Python's pre-declared constants are kinda weird",
@@ -51,7 +51,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 840,
+      "hn_points": 1291,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -100,6 +100,25 @@
       "rank": 5
     },
     {
+      "title": "Apple Introduces New Mac Studio with M5 Max and M5 Ultra",
+      "title_display": "Apple Introduces New Mac Studio with M5 Max and M5 Ultra",
+      "link": "https://www.apple.com/newsroom/2026/08/apple-introduces-new-mac-studio-with-m5-max-and-m5-ultra/",
+      "pub_date": "2026-08-25T13:10:16.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 718,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Mac Studio",
+        "M5 Max",
+        "M5 Ultra",
+        "Apple"
+      ],
+      "rank": 6
+    },
+    {
       "title": "Apple introduces M6 and M5 Ultra for a big leap in performance and AI compute",
       "title_display": "Apple introduces M6 and M5 Ultra for a big leap in performance and AI compute",
       "link": "https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute/",
@@ -115,25 +134,6 @@
         "M6",
         "M5 Ultra",
         "Mac Studio"
-      ],
-      "rank": 6
-    },
-    {
-      "title": "Apple Introduces New Mac Studio with M5 Max and M5 Ultra",
-      "title_display": "Apple Introduces New Mac Studio with M5 Max and M5 Ultra",
-      "link": "https://www.apple.com/newsroom/2026/08/apple-introduces-new-mac-studio-with-m5-max-and-m5-ultra/",
-      "pub_date": "2026-08-25T13:10:16.000Z",
-      "summary": "",
-      "source_name": "Hacker News",
-      "source_type": "hn",
-      "hn_points": 418,
-      "score": 30,
-      "category": "other",
-      "keywords": [
-        "Mac Studio",
-        "M5 Max",
-        "M5 Ultra",
-        "Apple"
       ],
       "rank": 7
     },
