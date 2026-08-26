@@ -1,10 +1,29 @@
 {
   "date": "2026-08-26",
   "total_feeds": 95,
-  "success_feeds": 90,
-  "total_articles": 3377,
-  "filtered_articles": 49,
+  "success_feeds": 89,
+  "total_articles": 3348,
+  "filtered_articles": 36,
   "articles": [
+    {
+      "title": "Queryable Executables",
+      "title_display": "Queryable Executables",
+      "link": "https://fzakaria.com/2026/08/24/actually-queryable-executables",
+      "pub_date": "2026-08-26T03:20:08.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 150,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "SQLite",
+        "SELF",
+        "executable",
+        "mmap"
+      ],
+      "rank": 1
+    },
     {
       "title": "Python's pre-declared constants are kinda weird",
       "title_display": "Python's pre-declared constants are kinda weird",
@@ -22,7 +41,7 @@
         "True",
         "False"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "FDA authorizes first wearable device that monitors ketone and blood sugar levels",
@@ -41,7 +60,7 @@
         "glucose",
         "wearable"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Show HN: I made a Raspberry with Qwen my local car AI",
@@ -60,7 +79,7 @@
         "CarWatch",
         "OBD2"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Show HN: LatticeDB – Like SQLite but for graph databases",
@@ -79,7 +98,7 @@
         "SQLite",
         "DuckDB"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Dolly Parton has died",
@@ -98,7 +117,7 @@
         "Dolly Parton's Imagination Library",
         "Dolly Parton's America"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Run OpenBSD on DigitalOcean for $4/month",
@@ -116,7 +135,7 @@
         "DigitalOcean",
         "Vultr"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Nitter project received cease and desist",
@@ -135,7 +154,7 @@
         "GitHub",
         "scraping"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Apple Introduces New Mac Studio with M5 Max and M5 Ultra",
@@ -154,7 +173,7 @@
         "M5 Ultra",
         "Apple"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Apple introduces M6 and M5 Ultra for a big leap in performance and AI compute",
@@ -173,7 +192,7 @@
         "M5 Ultra",
         "Mac Studio"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Don't Wordle",
@@ -192,7 +211,7 @@
         "dontwordle.com",
         "cookie consent"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "Credit Card Rewards Became a $9.2B Wealth Transfer",
@@ -211,7 +230,7 @@
         "Interchange fees",
         "Debit cards"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "SiFive's First Server Platform",
@@ -230,7 +249,7 @@
         "Server",
         "GPU"
       ],
-      "rank": 12
+      "rank": 13
     }
   ]
 }
