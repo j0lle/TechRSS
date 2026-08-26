@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3348,
-  "filtered_articles": 33,
+  "filtered_articles": 31,
   "articles": [
     {
       "title": "Omarchy is full of security holes",
@@ -25,6 +25,25 @@
       "rank": 1
     },
     {
+      "title": "RAG Is Simpler Than You Think",
+      "title_display": "RAG Is Simpler Than You Think",
+      "link": "https://www.lighthousenewsletter.com/p/rag-is-simpler-than-you-think",
+      "pub_date": "2026-08-26T09:50:07.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 181,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "RAG",
+        "embeddings",
+        "vector search",
+        "BM25"
+      ],
+      "rank": 2
+    },
+    {
       "title": "Stalking the Wily Hacker: 40 years later – Cliff Stoll [video]",
       "title_display": "Stalking the Wily Hacker: 40 years later – Cliff Stoll [video]",
       "link": "https://www.youtube.com/watch?v=656058JxTM0",
@@ -41,7 +60,7 @@
         "Klein bottle",
         "YouTube"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Queryable Executables",
@@ -51,8 +70,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 150,
-      "score": 26,
+      "hn_points": 250,
+      "score": 29,
       "category": "other",
       "keywords": [
         "SQLite",
@@ -60,7 +79,7 @@
         "executable",
         "mmap"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Python's pre-declared constants are kinda weird",
@@ -79,7 +98,7 @@
         "True",
         "False"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "When str.lower() is a security vulnerability in Python – Seth Larson",
@@ -98,7 +117,7 @@
         "IDNA 2003",
         "IDN"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "FDA authorizes first wearable device that monitors ketone and blood sugar levels",
@@ -117,7 +136,7 @@
         "glucose",
         "wearable"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Show HN: I made a Raspberry with Qwen my local car AI",
@@ -136,7 +155,7 @@
         "CarWatch",
         "OBD2"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Show HN: LatticeDB – Like SQLite but for graph databases",
@@ -155,7 +174,7 @@
         "SQLite",
         "DuckDB"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Dolly Parton has died",
@@ -174,7 +193,7 @@
         "Dolly Parton's Imagination Library",
         "Dolly Parton's America"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Run OpenBSD on DigitalOcean for $4/month",
@@ -192,7 +211,7 @@
         "DigitalOcean",
         "Vultr"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "Nitter project received cease and desist",
@@ -211,7 +230,7 @@
         "GitHub",
         "scraping"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "Apple introduces M6 and M5 Ultra for a big leap in performance and AI compute",
@@ -230,7 +249,7 @@
         "M5 Ultra",
         "Mac Studio"
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "title": "Apple Introduces New Mac Studio with M5 Max and M5 Ultra",
@@ -249,7 +268,7 @@
         "M5 Ultra",
         "Apple"
       ],
-      "rank": 13
+      "rank": 14
     },
     {
       "title": "Don't Wordle",
@@ -268,7 +287,7 @@
         "dontwordle.com",
         "cookie consent"
       ],
-      "rank": 14
+      "rank": 15
     },
     {
       "title": "Credit Card Rewards Became a $9.2B Wealth Transfer",
@@ -287,7 +306,7 @@
         "Interchange fees",
         "Debit cards"
       ],
-      "rank": 15
+      "rank": 16
     },
     {
       "title": "SiFive's First Server Platform",
@@ -306,7 +325,7 @@
         "Server",
         "GPU"
       ],
-      "rank": 16
+      "rank": 17
     }
   ]
 }
