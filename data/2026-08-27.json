@@ -2,9 +2,85 @@
   "date": "2026-08-27",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3354,
-  "filtered_articles": 28,
+  "total_articles": 3350,
+  "filtered_articles": 23,
   "articles": [
+    {
+      "title": "CEO fired developers to make room for AI. Developers create open source AI CEO",
+      "title_display": "CEO fired developers to make room for AI. Developers create open source AI CEO",
+      "link": "https://github.com/SenteLabsAI/OpenExecutive",
+      "pub_date": "2026-08-27T02:20:09.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 451,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "OpenExecutive",
+        "SenteLabsAI",
+        "AI",
+        "open-source"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Nvidia agrees to acquire Hugging Face for $13B",
+      "title_display": "Nvidia agrees to acquire Hugging Face for $13B",
+      "link": "https://www.businessinsider.com/nvidia-in-talks-to-buy-hugging-face-13-billion-dollars-2026-8",
+      "pub_date": "2026-08-27T01:40:08.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 1187,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Nvidia",
+        "Hugging Face",
+        "antitrust",
+        "open-source"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "Asahi Linux Progress Report: Linux 7.2",
+      "title_display": "Asahi Linux Progress Report: Linux 7.2",
+      "link": "https://asahilinux.org/2026/08/progress-report-7-2/",
+      "pub_date": "2026-08-27T01:30:09.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 272,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "Asahi Linux",
+        "Linux 7.2",
+        "Apple",
+        "macOS"
+      ],
+      "rank": 3
+    },
+    {
+      "title": "IBM Unveils Next Generation Dual-Architecture Processor",
+      "title_display": "IBM Unveils Next Generation Dual-Architecture Processor",
+      "link": "https://newsroom.ibm.com/2026-08-24-ibm-unveils-next-generation-dual-architecture-processor-for-ibm-z-and-linuxone",
+      "pub_date": "2026-08-26T21:30:08.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 122,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "IBM",
+        "IBM Z",
+        "LinuxONE",
+        "z/Architecture"
+      ],
+      "rank": 4
+    },
     {
       "title": "GitHub Outage Tracker: Is GitHub Cooked?",
       "title_display": "GitHub Outage Tracker: Is GitHub Cooked?",
@@ -21,7 +97,7 @@
         "isgithubcooked.com",
         "outage tracker"
       ],
-      "rank": 1
+      "rank": 5
     },
     {
       "title": "Tailcat: Secure Tunnels in Seconds (Tailscale)",
@@ -40,7 +116,7 @@
         "DERP",
         "WireGuard"
       ],
-      "rank": 2
+      "rank": 6
     },
     {
       "title": "France reaches 94.9% fiber coverage in 2026",
@@ -59,7 +135,7 @@
         "ARCEP",
         "cartefibre"
       ],
-      "rank": 3
+      "rank": 7
     },
     {
       "title": "Disruption with Some GitHub Services",
@@ -78,7 +154,7 @@
         "githubstatus.com",
         "GitHub Enterprise Cloud"
       ],
-      "rank": 4
+      "rank": 8
     },
     {
       "title": "Taylor Farms: How One Company's Reach Became a National Risk",
@@ -88,8 +164,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 153,
-      "score": 27,
+      "hn_points": 255,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Taylor Farms",
@@ -97,7 +173,7 @@
         "Food safety",
         "Cyclospora"
       ],
-      "rank": 5
+      "rank": 9
     },
     {
       "title": "Twitter Viewer – View Twitter Without Account",
@@ -107,8 +183,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 256,
-      "score": 29,
+      "hn_points": 360,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Twitter",
@@ -116,7 +192,7 @@
         "X",
         "cease and desist"
       ],
-      "rank": 6
+      "rank": 10
     },
     {
       "title": "AWS Acquires DuckDB",
@@ -135,7 +211,7 @@
         "AWS",
         "DuckDB Foundation"
       ],
-      "rank": 7
+      "rank": 11
     },
     {
       "title": "Z.ai confirms Ox Alpha is a new GLM-series model and will release its weights",
@@ -154,7 +230,7 @@
         "GLM",
         "weights"
       ],
-      "rank": 8
+      "rank": 12
     },
     {
       "title": "Oldinsurancemaps.net is now a Charter Project",
@@ -173,7 +249,7 @@
         "Sanborn maps",
         "historical maps"
       ],
-      "rank": 9
+      "rank": 13
     }
   ]
 }
