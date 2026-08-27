@@ -1,0 +1,85 @@
+{
+  "date": "2026-08-28",
+  "total_feeds": 95,
+  "success_feeds": 90,
+  "total_articles": 3383,
+  "filtered_articles": 29,
+  "articles": [
+    {
+      "title": "Two German airport workers die of malaria after 'mosquito arrives on plane'",
+      "title_display": "Two German airport workers die of malaria after 'mosquito arrives on plane'",
+      "link": "https://www.bbc.com/news/articles/cz6zwgg9y8go",
+      "pub_date": "2026-08-27T17:50:07.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 137,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Malaria",
+        "Mosquito",
+        "Germany",
+        "Airport"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Saving 100 terabytes of memory by optimizing 1.1.1.1's DNS cache",
+      "title_display": "Saving 100 terabytes of memory by optimizing 1.1.1.1's DNS cache",
+      "link": "https://blog.cloudflare.com/dns-cache-memory-optimization-1111/",
+      "pub_date": "2026-08-27T17:40:06.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 286,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Cloudflare",
+        "1.1.1.1",
+        "DNS",
+        "DNS cache"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "Small Models Have Arrived",
+      "title_display": "Small Models Have Arrived",
+      "link": "https://calv.info/small-models-have-arrived",
+      "pub_date": "2026-08-27T16:40:07.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 226,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "small models",
+        "local models",
+        "Luna",
+        "Terra"
+      ],
+      "rank": 3
+    },
+    {
+      "title": "Emacs 31: An unofficial guide to Markdown-ts-mode",
+      "title_display": "Emacs 31: An unofficial guide to Markdown-ts-mode",
+      "link": "https://rahuljuliato.com/posts/markdown-ts-mode-emacs-31",
+      "pub_date": "2026-08-27T14:00:08.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 123,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "Emacs 31",
+        "markdown-ts-mode",
+        "Emacs",
+        "tree-sitter"
+      ],
+      "rank": 4
+    }
+  ]
+}
