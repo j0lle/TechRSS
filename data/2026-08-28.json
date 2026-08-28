@@ -3,8 +3,65 @@
   "total_feeds": 95,
   "success_feeds": 90,
   "total_articles": 3383,
-  "filtered_articles": 29,
+  "filtered_articles": 30,
   "articles": [
+    {
+      "title": "Show HN: We built open OpenRouter that distills usage into a better model",
+      "title_display": "Show HN: We built open OpenRouter that distills usage into a better model",
+      "link": "https://github.com/experientiallabs/experiential",
+      "pub_date": "2026-08-27T22:00:07.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 138,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "OpenRouter",
+        "experientiallabs/experiential",
+        "model distillation",
+        "gateway"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Gemini Omni 1.1 Flash",
+      "title_display": "Gemini Omni 1.1 Flash",
+      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/",
+      "pub_date": "2026-08-27T18:40:07.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 155,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Gemini Omni 1.1 Flash",
+        "Google",
+        "Gemini",
+        "Developer tools"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "We found a division by zero bug in FFmpeg with a vibecoded fuzzer",
+      "title_display": "We found a division by zero bug in FFmpeg with a vibecoded fuzzer",
+      "link": "https://code.ffmpeg.org/FFmpeg/FFmpeg/issues/24290",
+      "pub_date": "2026-08-27T18:30:08.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 142,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "FFmpeg",
+        "division by zero",
+        "vibecoded fuzzer",
+        "fuzzing"
+      ],
+      "rank": 3
+    },
     {
       "title": "Two German airport workers die of malaria after 'mosquito arrives on plane'",
       "title_display": "Two German airport workers die of malaria after 'mosquito arrives on plane'",
@@ -22,7 +79,7 @@
         "Germany",
         "Airport"
       ],
-      "rank": 1
+      "rank": 4
     },
     {
       "title": "Saving 100 terabytes of memory by optimizing 1.1.1.1's DNS cache",
@@ -32,7 +89,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 286,
+      "hn_points": 394,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -41,7 +98,26 @@
         "DNS",
         "DNS cache"
       ],
-      "rank": 2
+      "rank": 5
+    },
+    {
+      "title": "Suica, Japan's First IC Transit Card",
+      "title_display": "Suica, Japan's First IC Transit Card",
+      "link": "https://www.tokyodev.com/articles/the-story-of-suica",
+      "pub_date": "2026-08-27T17:20:07.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 147,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Suica",
+        "IC card",
+        "JR East",
+        "RFID"
+      ],
+      "rank": 6
     },
     {
       "title": "Small Models Have Arrived",
@@ -51,8 +127,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 226,
-      "score": 28,
+      "hn_points": 334,
+      "score": 30,
       "category": "other",
       "keywords": [
         "small models",
@@ -60,7 +136,45 @@
         "Luna",
         "Terra"
       ],
-      "rank": 3
+      "rank": 7
+    },
+    {
+      "title": "Aphantasia Beginner's Guide",
+      "title_display": "Aphantasia Beginner's Guide",
+      "link": "https://aphantasia.com/guide",
+      "pub_date": "2026-08-27T14:20:09.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 129,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Aphantasia",
+        "Visualization",
+        "SDAM",
+        "Autobiographical memory"
+      ],
+      "rank": 8
+    },
+    {
+      "title": "CoMaps integration with the wider FLOSS ecosystem – CoMaps",
+      "title_display": "CoMaps integration with the wider FLOSS ecosystem – CoMaps",
+      "link": "https://www.comaps.app/news/2026-08-23/comaps-integration-with-the-wider-floss-ecosystem/",
+      "pub_date": "2026-08-27T14:00:08.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 124,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "CoMaps",
+        "FLOSS",
+        "OpenStreetMap",
+        "OsmAnd"
+      ],
+      "rank": 9
     },
     {
       "title": "Emacs 31: An unofficial guide to Markdown-ts-mode",
@@ -79,7 +193,7 @@
         "Emacs",
         "tree-sitter"
       ],
-      "rank": 4
+      "rank": 10
     }
   ]
 }
