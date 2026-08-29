@@ -3,8 +3,84 @@
   "total_feeds": 95,
   "success_feeds": 90,
   "total_articles": 3383,
-  "filtered_articles": 20,
+  "filtered_articles": 17,
   "articles": [
+    {
+      "title": "Samsung's Processing-in-Memory (PIM)",
+      "title_display": "Samsung's Processing-in-Memory (PIM)",
+      "link": "https://chipsandcheese.com/p/hot-chips-2026-samsungs-processing",
+      "pub_date": "2026-08-29T07:00:10.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 124,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Samsung",
+        "PIM",
+        "Hot Chips 2026",
+        "HBM2"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "TurboKV: Insanely fast Rust key-value store",
+      "title_display": "TurboKV: Insanely fast Rust key-value store",
+      "link": "https://github.com/kingroryg/turbokv",
+      "pub_date": "2026-08-29T02:50:08.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 127,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "TurboKV",
+        "Rust",
+        "key-value store",
+        "WAL"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "I accidentally turned LLM memory into program analysis",
+      "title_display": "I accidentally turned LLM memory into program analysis",
+      "link": "https://pwning.systems/posts/llm-memory-program-analysis/",
+      "pub_date": "2026-08-29T02:30:08.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 128,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "LLM memory",
+        "Datalog",
+        "program analysis",
+        "CodeQL"
+      ],
+      "rank": 3
+    },
+    {
+      "title": "StemDeck, a free, open-source and local AI stem separator",
+      "title_display": "StemDeck, a free, open-source and local AI stem separator",
+      "link": "https://github.com/stemdeckapp/stemdeck",
+      "pub_date": "2026-08-29T02:10:09.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 133,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "StemDeck",
+        "Demucs",
+        "stem separation",
+        "Tauri"
+      ],
+      "rank": 4
+    },
     {
       "title": "Boot a Virtual iPhone via Apple's Virtualization.framework",
       "title_display": "Boot a Virtual iPhone via Apple's Virtualization.framework",
@@ -22,7 +98,7 @@
         "iPhone",
         "iOS"
       ],
-      "rank": 1
+      "rank": 5
     },
     {
       "title": "Just the rumour of a bug is enough to find an exploit these days",
@@ -32,8 +108,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 242,
-      "score": 29,
+      "hn_points": 344,
+      "score": 30,
       "category": "other",
       "keywords": [
         "LLMs",
@@ -41,7 +117,7 @@
         "exploit",
         "CVE"
       ],
-      "rank": 2
+      "rank": 6
     },
     {
       "title": "OpenAI: Migrating to HTTPX2",
@@ -60,7 +136,7 @@
         "openai-python",
         "httpx"
       ],
-      "rank": 3
+      "rank": 7
     },
     {
       "title": "Judge Rules Trump Administration’s Blacklisting of Anthropic Was Illegal",
@@ -79,7 +155,7 @@
         "blacklisting",
         "AI"
       ],
-      "rank": 4
+      "rank": 8
     },
     {
       "title": "Show HN: OpenTIE and OpenXWA, Modern Ports of Tie Fighter and X-Wing Alliance",
@@ -98,7 +174,7 @@
         "TIE Fighter",
         "X-Wing Alliance"
       ],
-      "rank": 5
+      "rank": 9
     }
   ]
 }
