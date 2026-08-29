@@ -1,10 +1,29 @@
 {
   "date": "2026-08-29",
   "total_feeds": 95,
-  "success_feeds": 90,
-  "total_articles": 3381,
-  "filtered_articles": 30,
+  "success_feeds": 89,
+  "total_articles": 3353,
+  "filtered_articles": 21,
   "articles": [
+    {
+      "title": "Just the rumour of a bug is enough to find an exploit these days",
+      "title_display": "Just the rumour of a bug is enough to find an exploit these days",
+      "link": "https://anil.recoil.org/notes/rumour-is-the-exploit",
+      "pub_date": "2026-08-28T16:10:08.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 242,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "LLMs",
+        "AI",
+        "exploit",
+        "CVE"
+      ],
+      "rank": 1
+    },
     {
       "title": "OpenAI: Migrating to HTTPX2",
       "title_display": "OpenAI: Migrating to HTTPX2",
@@ -22,7 +41,7 @@
         "openai-python",
         "httpx"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Judge Rules Trump Administration’s Blacklisting of Anthropic Was Illegal",
@@ -41,7 +60,7 @@
         "blacklisting",
         "AI"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Show HN: OpenTIE and OpenXWA, Modern Ports of Tie Fighter and X-Wing Alliance",
@@ -60,7 +79,7 @@
         "TIE Fighter",
         "X-Wing Alliance"
       ],
-      "rank": 3
+      "rank": 4
     }
   ]
 }
