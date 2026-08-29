@@ -1,0 +1,47 @@
+{
+  "date": "2026-08-30",
+  "total_feeds": 95,
+  "success_feeds": 90,
+  "total_articles": 3383,
+  "filtered_articles": 13,
+  "articles": [
+    {
+      "title": "EVE Online moves to Python 3",
+      "title_display": "EVE Online moves to Python 3",
+      "link": "https://www.eveonline.com/news/view/the-move-to-python-3-begins",
+      "pub_date": "2026-08-29T16:10:10.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 138,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "EVE Online",
+        "Python 3",
+        "Stackless Python",
+        "Python 2"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Debian votes to allow \"responsible use of generative AI\"",
+      "title_display": "Debian votes to allow \"responsible use of generative AI\"",
+      "link": "https://lwn.net/Articles/1091231/",
+      "pub_date": "2026-08-29T14:40:06.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 285,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Debian",
+        "generative AI",
+        "LWN.net",
+        "Debian policy"
+      ],
+      "rank": 2
+    }
+  ]
+}
