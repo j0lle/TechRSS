@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 90,
   "total_articles": 3383,
-  "filtered_articles": 13,
+  "filtered_articles": 16,
   "articles": [
+    {
+      "title": "Tether: iMessage, SMS, etc. on Linux",
+      "title_display": "Tether: iMessage, SMS, etc. on Linux",
+      "link": "https://zackbartel.com/blog/2026/08/tether/",
+      "pub_date": "2026-08-29T16:30:10.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 168,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Tether",
+        "iMessage",
+        "Linux",
+        "SMS"
+      ],
+      "rank": 1
+    },
     {
       "title": "EVE Online moves to Python 3",
       "title_display": "EVE Online moves to Python 3",
@@ -22,7 +41,7 @@
         "Stackless Python",
         "Python 2"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Debian votes to allow \"responsible use of generative AI\"",
@@ -32,7 +51,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 285,
+      "hn_points": 430,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -41,7 +60,7 @@
         "LWN.net",
         "Debian policy"
       ],
-      "rank": 2
+      "rank": 3
     }
   ]
 }
