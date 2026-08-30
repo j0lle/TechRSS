@@ -3,8 +3,84 @@
   "total_feeds": 95,
   "success_feeds": 90,
   "total_articles": 3383,
-  "filtered_articles": 14,
+  "filtered_articles": 17,
   "articles": [
+    {
+      "title": "Brits would quite like their private messages to stay private",
+      "title_display": "Brits would quite like their private messages to stay private",
+      "link": "https://www.theregister.com/security/2026/08/30/turns-out-brits-would-quite-like-their-private-messages-to-stay-private/5292994",
+      "pub_date": "2026-08-30T10:00:11.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 146,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "private messages",
+        "privacy",
+        "Brits",
+        "Brexit"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "California lawmakers unanimously pass Linux exemption from age-verification law",
+      "title_display": "California lawmakers unanimously pass Linux exemption from age-verification law",
+      "link": "https://www.tomshardware.com/software/linux/california-lawmakers-unanimously-pass-linux-exemption-from-age-verification-law-software-distributed-under-the-gpl-mit-bsd-and-apache-licenses-are-exempt",
+      "pub_date": "2026-08-30T06:30:10.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 343,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Linux",
+        "age-verification law",
+        "California",
+        "GPL"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "FreeCORE TrueNAS Core – Continued",
+      "title_display": "FreeCORE TrueNAS Core – Continued",
+      "link": "https://freecore.org/",
+      "pub_date": "2026-08-30T01:50:10.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 126,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "FreeCORE",
+        "TrueNAS CORE",
+        "TrueNAS SCALE",
+        "TrueNAS"
+      ],
+      "rank": 3
+    },
+    {
+      "title": "RISC-V is now officially supported by CPython",
+      "title_display": "RISC-V is now officially supported by CPython",
+      "link": "https://blog.python.org/2026/08/riscv-now-officially-supported/",
+      "pub_date": "2026-08-30T01:30:10.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 126,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "CPython",
+        "RISC-V",
+        "Tier 3",
+        "SiFive"
+      ],
+      "rank": 4
+    },
     {
       "title": "Bug Blindness",
       "title_display": "Bug Blindness",
@@ -13,8 +89,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 146,
-      "score": 26,
+      "hn_points": 246,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Bug Blindness",
@@ -22,7 +98,7 @@
         "software quality",
         "quality blindness"
       ],
-      "rank": 1
+      "rank": 5
     },
     {
       "title": "Highest-ever ocean temperature measured as powerful El Niño forms",
@@ -41,7 +117,7 @@
         "ocean temperature",
         "climate change"
       ],
-      "rank": 2
+      "rank": 6
     },
     {
       "title": "Tencent Releases and Open-Sources Tencent Hy4 Preview",
@@ -60,7 +136,7 @@
         "open-source",
         "Hy3"
       ],
-      "rank": 3
+      "rank": 7
     },
     {
       "title": "Tether: iMessage, SMS, etc. on Linux",
@@ -79,7 +155,7 @@
         "Linux",
         "SMS"
       ],
-      "rank": 4
+      "rank": 8
     },
     {
       "title": "EVE Online moves to Python 3",
@@ -89,8 +165,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 241,
-      "score": 29,
+      "hn_points": 343,
+      "score": 30,
       "category": "other",
       "keywords": [
         "EVE Online",
@@ -98,7 +174,7 @@
         "Stackless Python",
         "Python 2"
       ],
-      "rank": 5
+      "rank": 9
     },
     {
       "title": "SQLite as a Document Database (2020)",
@@ -117,7 +193,7 @@
         "JSON",
         "JSONB"
       ],
-      "rank": 6
+      "rank": 10
     },
     {
       "title": "Debian votes to allow \"responsible use of generative AI\"",
@@ -136,7 +212,7 @@
         "LWN.net",
         "Debian policy"
       ],
-      "rank": 7
+      "rank": 11
     }
   ]
 }
