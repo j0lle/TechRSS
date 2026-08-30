@@ -1,0 +1,47 @@
+{
+  "date": "2026-08-31",
+  "total_feeds": 95,
+  "success_feeds": 88,
+  "total_articles": 3339,
+  "filtered_articles": 16,
+  "articles": [
+    {
+      "title": "Casey Muratori – The Root of the Root of All Evil – BSC 2026 [video]",
+      "title_display": "Casey Muratori – The Root of the Root of All Evil – BSC 2026 [video]",
+      "link": "https://www.youtube.com/watch?v=hpj6r6CjJf8",
+      "pub_date": "2026-08-30T12:50:12.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 173,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Casey Muratori",
+        "The Root of the Root of All Evil",
+        "BSC 2026",
+        "YouTube"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Arbitrary code execution in QubesOS via copy-to-VM error reporting backchannel",
+      "title_display": "Arbitrary code execution in QubesOS via copy-to-VM error reporting backchannel",
+      "link": "https://www.qubes-os.org/news/2026/08/29/qsb-118/",
+      "pub_date": "2026-08-30T09:30:10.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 122,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "QubesOS",
+        "arbitrary code execution",
+        "copy-to-VM",
+        "dom0"
+      ],
+      "rank": 2
+    }
+  ]
+}
