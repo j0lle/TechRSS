@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 90,
   "total_articles": 3383,
-  "filtered_articles": 16,
+  "filtered_articles": 15,
   "articles": [
+    {
+      "title": "Tencent Releases and Open-Sources Tencent Hy4 Preview",
+      "title_display": "Tencent Releases and Open-Sources Tencent Hy4 Preview",
+      "link": "https://www.tencent.com/tencent-releases-and-open-sources-tencent-hy4-preview/",
+      "pub_date": "2026-08-29T20:10:10.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 149,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Hy4",
+        "Tencent",
+        "open-source",
+        "Hy3"
+      ],
+      "rank": 1
+    },
     {
       "title": "Tether: iMessage, SMS, etc. on Linux",
       "title_display": "Tether: iMessage, SMS, etc. on Linux",
@@ -22,7 +41,7 @@
         "Linux",
         "SMS"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "EVE Online moves to Python 3",
@@ -41,7 +60,7 @@
         "Stackless Python",
         "Python 2"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "SQLite as a Document Database (2020)",
@@ -60,7 +79,7 @@
         "JSON",
         "JSONB"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Debian votes to allow \"responsible use of generative AI\"",
@@ -79,7 +98,7 @@
         "LWN.net",
         "Debian policy"
       ],
-      "rank": 4
+      "rank": 5
     }
   ]
 }
