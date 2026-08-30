@@ -3,8 +3,46 @@
   "total_feeds": 95,
   "success_feeds": 90,
   "total_articles": 3383,
-  "filtered_articles": 15,
+  "filtered_articles": 14,
   "articles": [
+    {
+      "title": "Bug Blindness",
+      "title_display": "Bug Blindness",
+      "link": "https://danluu.com/bug-blind/",
+      "pub_date": "2026-08-30T00:50:08.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 146,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Bug Blindness",
+        "Dan Luu",
+        "software quality",
+        "quality blindness"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Highest-ever ocean temperature measured as powerful El Niño forms",
+      "title_display": "Highest-ever ocean temperature measured as powerful El Niño forms",
+      "link": "https://www.latimes.com/environment/story/2026-08-26/highest-ever-ocean-temperature-measured-as-powerful-el-nino-forms",
+      "pub_date": "2026-08-30T00:10:07.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 124,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "El Niño",
+        "sea surface temperature",
+        "ocean temperature",
+        "climate change"
+      ],
+      "rank": 2
+    },
     {
       "title": "Tencent Releases and Open-Sources Tencent Hy4 Preview",
       "title_display": "Tencent Releases and Open-Sources Tencent Hy4 Preview",
@@ -13,8 +51,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 149,
-      "score": 26,
+      "hn_points": 252,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Hy4",
@@ -22,7 +60,7 @@
         "open-source",
         "Hy3"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "Tether: iMessage, SMS, etc. on Linux",
@@ -32,8 +70,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 270,
-      "score": 29,
+      "hn_points": 373,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Tether",
@@ -41,7 +79,7 @@
         "Linux",
         "SMS"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "EVE Online moves to Python 3",
@@ -60,7 +98,7 @@
         "Stackless Python",
         "Python 2"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "SQLite as a Document Database (2020)",
@@ -79,7 +117,7 @@
         "JSON",
         "JSONB"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "Debian votes to allow \"responsible use of generative AI\"",
@@ -98,7 +136,7 @@
         "LWN.net",
         "Debian policy"
       ],
-      "rank": 5
+      "rank": 7
     }
   ]
 }
