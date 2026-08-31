@@ -1,0 +1,161 @@
+{
+  "date": "2026-09-01",
+  "total_feeds": 95,
+  "success_feeds": 89,
+  "total_articles": 3372,
+  "filtered_articles": 26,
+  "articles": [
+    {
+      "title": "A CVE Dispute",
+      "title_display": "A CVE Dispute",
+      "link": "https://daniel.haxx.se/blog/2026/06/24/a-cve-dispute/",
+      "pub_date": "2026-08-31T11:50:13.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 139,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "CVE",
+        "MITRE",
+        "curl",
+        "LLM"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Breaking Claude Code Opus 5 Auto Mode",
+      "title_display": "Breaking Claude Code Opus 5 Auto Mode",
+      "link": "https://embracethered.com/blog/posts/2026/breaking-claude-code-opus-5-and-automode/",
+      "pub_date": "2026-08-31T10:10:15.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 178,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Claude Code",
+        "Opus 5",
+        "Auto Mode",
+        "Anthropic"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "uv: Deduplicate all files in the wheel cache",
+      "title_display": "uv: Deduplicate all files in the wheel cache",
+      "link": "https://github.com/astral-sh/uv/pull/21327",
+      "pub_date": "2026-08-31T10:00:16.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 136,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "uv",
+        "wheel-cache",
+        "BLAKE3",
+        "Python"
+      ],
+      "rank": 3
+    },
+    {
+      "title": "P99 0 ms* autocomplete for 240M domain names",
+      "title_display": "P99 0 ms* autocomplete for 240M domain names",
+      "link": "https://ruurtjan.com/articles/p99-0ms-autocomplete-for-240-million-domain-names",
+      "pub_date": "2026-08-31T04:20:10.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 131,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "autocomplete",
+        "240M domain names",
+        "p99",
+        "latency"
+      ],
+      "rank": 4
+    },
+    {
+      "title": "How to build a diffusion language model",
+      "title_display": "How to build a diffusion language model",
+      "link": "https://kuleshov-group.github.io/blog/blog/2026/how-to-build-a-diffusion-language-model/",
+      "pub_date": "2026-08-31T03:10:11.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 135,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "diffusion language model",
+        "diffusion models",
+        "language model",
+        "token embeddings"
+      ],
+      "rank": 5
+    },
+    {
+      "title": "It takes 5 cloud services to hear my doorbell",
+      "title_display": "It takes 5 cloud services to hear my doorbell",
+      "link": "https://blog.vghaisas.com/rube-goldberg-doorbell/",
+      "pub_date": "2026-08-31T03:00:09.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 133,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Samsung SmartThings API",
+        "SmartThings",
+        "Ring",
+        "cloud services"
+      ],
+      "rank": 6
+    },
+    {
+      "title": "Cores in space: The core memory module from a 1980 Spacelab computer",
+      "title_display": "Cores in space: The core memory module from a 1980 Spacelab computer",
+      "link": "https://www.righto.com/2026/08/spacelab-core-memory.html",
+      "pub_date": "2026-08-30T20:20:08.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 123,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "core memory",
+        "Spacelab",
+        "FRAM",
+        "radiation"
+      ],
+      "rank": 7
+    },
+    {
+      "title": "Sort branches by last commit date",
+      "title_display": "Sort branches by last commit date",
+      "link": "https://ryangreenberg.com/til/git-branches-by-commit-date/",
+      "pub_date": "2026-08-30T19:50:07.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 124,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "git",
+        "git branches",
+        "last commit date",
+        "fzf"
+      ],
+      "rank": 8
+    }
+  ]
+}
