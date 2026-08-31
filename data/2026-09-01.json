@@ -1,10 +1,105 @@
 {
   "date": "2026-09-01",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3372,
-  "filtered_articles": 26,
+  "success_feeds": 90,
+  "total_articles": 3390,
+  "filtered_articles": 29,
   "articles": [
+    {
+      "title": "Dwarf Fortress is getting the mother of all magic updates",
+      "title_display": "Dwarf Fortress is getting the mother of all magic updates",
+      "link": "https://www.rockpapershotgun.com/dwarf-fortress-is-getting-the-mother-of-all-magic-updates-extending-to-the-fundamental-cosmological-makeup-of-the-universe",
+      "pub_date": "2026-08-31T19:40:09.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 121,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "Dwarf Fortress",
+        "magic",
+        "Steam",
+        "Tarn Adams"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "I Turned My Security Cameras into an Automatic Bird Identification System",
+      "title_display": "I Turned My Security Cameras into an Automatic Bird Identification System",
+      "link": "https://jasontucker.blog/how-i-turned-my-security-cameras-into-an-automatic-bird-identification-system-with-birdnet-go/",
+      "pub_date": "2026-08-31T17:00:09.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 192,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "BirdNet-Go",
+        "security cameras",
+        "bird identification",
+        "Unifi"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "ChatGPT Work Tool and Skill Reference",
+      "title_display": "ChatGPT Work Tool and Skill Reference",
+      "link": "https://codex-tool-reference.simonw.chatgpt.site/",
+      "pub_date": "2026-08-31T14:20:11.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 125,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "ChatGPT Work",
+        "ChatGPT",
+        "codex-tool-reference",
+        "Playwright"
+      ],
+      "rank": 3
+    },
+    {
+      "title": "Apple Caught Off Guard by AI Demand for Mac Mini and Mac Studio",
+      "title_display": "Apple Caught Off Guard by AI Demand for Mac Mini and Mac Studio",
+      "link": "https://www.macrumors.com/2026/08/30/apple-unexpected-mac-mini-and-studio-demand/",
+      "pub_date": "2026-08-31T13:40:12.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 152,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Apple",
+        "AI",
+        "Mac mini",
+        "Mac Studio"
+      ],
+      "rank": 4
+    },
+    {
+      "title": "Agent Memory as a File Format",
+      "title_display": "Agent Memory as a File Format",
+      "link": "https://calpaterson.com/memoryfields.html",
+      "pub_date": "2026-08-31T11:50:13.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 124,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "agent memory",
+        "memoryfields",
+        "file format",
+        "information retrieval"
+      ],
+      "rank": 5
+    },
     {
       "title": "A CVE Dispute",
       "title_display": "A CVE Dispute",
@@ -22,7 +117,7 @@
         "curl",
         "LLM"
       ],
-      "rank": 1
+      "rank": 6
     },
     {
       "title": "Breaking Claude Code Opus 5 Auto Mode",
@@ -32,8 +127,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 178,
-      "score": 27,
+      "hn_points": 279,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Claude Code",
@@ -41,7 +136,7 @@
         "Auto Mode",
         "Anthropic"
       ],
-      "rank": 2
+      "rank": 7
     },
     {
       "title": "uv: Deduplicate all files in the wheel cache",
@@ -60,7 +155,26 @@
         "BLAKE3",
         "Python"
       ],
-      "rank": 3
+      "rank": 8
+    },
+    {
+      "title": "Transfer files over an Ethernet patch cable",
+      "title_display": "Transfer files over an Ethernet patch cable",
+      "link": "https://maurycyz.com/misc/etherfiles/",
+      "pub_date": "2026-08-31T06:10:12.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 124,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Ethernet",
+        "patch cable",
+        "crossover cable",
+        "auto-MDI/MDIX"
+      ],
+      "rank": 9
     },
     {
       "title": "P99 0 ms* autocomplete for 240M domain names",
@@ -79,7 +193,7 @@
         "p99",
         "latency"
       ],
-      "rank": 4
+      "rank": 10
     },
     {
       "title": "How to build a diffusion language model",
@@ -98,7 +212,7 @@
         "language model",
         "token embeddings"
       ],
-      "rank": 5
+      "rank": 11
     },
     {
       "title": "It takes 5 cloud services to hear my doorbell",
@@ -117,7 +231,7 @@
         "Ring",
         "cloud services"
       ],
-      "rank": 6
+      "rank": 12
     },
     {
       "title": "Cores in space: The core memory module from a 1980 Spacelab computer",
@@ -136,7 +250,7 @@
         "FRAM",
         "radiation"
       ],
-      "rank": 7
+      "rank": 13
     },
     {
       "title": "Sort branches by last commit date",
@@ -155,7 +269,7 @@
         "last commit date",
         "fzf"
       ],
-      "rank": 8
+      "rank": 14
     }
   ]
 }
