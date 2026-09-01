@@ -2,9 +2,28 @@
   "date": "2026-09-01",
   "total_feeds": 95,
   "success_feeds": 88,
-  "total_articles": 3354,
-  "filtered_articles": 30,
+  "total_articles": 3336,
+  "filtered_articles": 27,
   "articles": [
+    {
+      "title": "Run macOS Software on Linux",
+      "title_display": "Run macOS Software on Linux",
+      "link": "https://www.darlinghq.org/",
+      "pub_date": "2026-08-31T23:40:09.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 139,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Darling",
+        "macOS",
+        "Linux",
+        "Apple Silicon"
+      ],
+      "rank": 1
+    },
     {
       "title": "Dwarf Fortress is getting the mother of all magic updates",
       "title_display": "Dwarf Fortress is getting the mother of all magic updates",
@@ -13,8 +32,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 221,
-      "score": 28,
+      "hn_points": 326,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Dwarf Fortress",
@@ -22,7 +41,26 @@
         "Steam",
         "Tarn Adams"
       ],
-      "rank": 1
+      "rank": 2
+    },
+    {
+      "title": "No country for mediocre mathematicians",
+      "title_display": "No country for mediocre mathematicians",
+      "link": "https://garvvee.substack.com/p/no-country-for-mediocre-mathematicians",
+      "pub_date": "2026-08-31T19:00:08.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 167,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "mathematicians",
+        "AI",
+        "Terence Tao",
+        "Lean"
+      ],
+      "rank": 3
     },
     {
       "title": "A walkable ASCII cyberpunk city in one HTML file [video]",
@@ -32,8 +70,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 144,
-      "score": 26,
+      "hn_points": 253,
+      "score": 29,
       "category": "other",
       "keywords": [
         "ASCII",
@@ -41,7 +79,7 @@
         "cyberpunk",
         "YouTube"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "I Turned My Security Cameras into an Automatic Bird Identification System",
@@ -60,7 +98,7 @@
         "bird identification",
         "Unifi"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "ChatGPT Work Tool and Skill Reference",
@@ -79,7 +117,7 @@
         "codex-tool-reference",
         "Playwright"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "Apple Caught Off Guard by AI Demand for Mac Mini and Mac Studio",
@@ -89,8 +127,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 262,
-      "score": 29,
+      "hn_points": 365,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Apple",
@@ -98,7 +136,7 @@
         "Mac mini",
         "Mac Studio"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "Agent Memory as a File Format",
@@ -117,7 +155,7 @@
         "file format",
         "information retrieval"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "A CVE Dispute",
@@ -136,7 +174,7 @@
         "curl",
         "LLM"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "Breaking Claude Code Opus 5 Auto Mode",
@@ -155,7 +193,7 @@
         "Auto Mode",
         "Anthropic"
       ],
-      "rank": 8
+      "rank": 10
     },
     {
       "title": "uv: Deduplicate all files in the wheel cache",
@@ -174,7 +212,7 @@
         "BLAKE3",
         "Python"
       ],
-      "rank": 9
+      "rank": 11
     },
     {
       "title": "Transfer files over an Ethernet patch cable",
@@ -193,7 +231,7 @@
         "crossover cable",
         "auto-MDI/MDIX"
       ],
-      "rank": 10
+      "rank": 12
     },
     {
       "title": "P99 0 ms* autocomplete for 240M domain names",
@@ -212,7 +250,7 @@
         "p99",
         "latency"
       ],
-      "rank": 11
+      "rank": 13
     },
     {
       "title": "How to build a diffusion language model",
@@ -231,7 +269,7 @@
         "language model",
         "token embeddings"
       ],
-      "rank": 12
+      "rank": 14
     },
     {
       "title": "It takes 5 cloud services to hear my doorbell",
@@ -250,7 +288,7 @@
         "Ring",
         "cloud services"
       ],
-      "rank": 13
+      "rank": 15
     },
     {
       "title": "Cores in space: The core memory module from a 1980 Spacelab computer",
@@ -269,7 +307,7 @@
         "FRAM",
         "radiation"
       ],
-      "rank": 14
+      "rank": 16
     },
     {
       "title": "Sort branches by last commit date",
@@ -288,7 +326,7 @@
         "last commit date",
         "fzf"
       ],
-      "rank": 15
+      "rank": 17
     }
   ]
 }
