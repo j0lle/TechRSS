@@ -2,9 +2,28 @@
   "date": "2026-09-02",
   "total_feeds": 95,
   "success_feeds": 90,
-  "total_articles": 3391,
-  "filtered_articles": 31,
+  "total_articles": 3394,
+  "filtered_articles": 34,
   "articles": [
+    {
+      "title": "Play Store blocks AuroraStore, hurting GrapheneOS users",
+      "title_display": "Play Store blocks AuroraStore, hurting GrapheneOS users",
+      "link": "https://gitlab.com/AuroraOSS/AuroraStore/-/work_items/1566",
+      "pub_date": "2026-09-01T16:20:10.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 314,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "AuroraStore",
+        "GrapheneOS",
+        "Google Play Store",
+        "Google Play Services"
+      ],
+      "rank": 1
+    },
     {
       "title": "AnkiDroid: Google Play no longer allowing Open Collective donation link",
       "title_display": "AnkiDroid: Google Play no longer allowing Open Collective donation link",
@@ -22,7 +41,7 @@
         "Open Collective",
         "Google Play Billing"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "44% on ARC-AGI-1 in 67 cents",
@@ -32,8 +51,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 155,
-      "score": 27,
+      "hn_points": 383,
+      "score": 30,
       "category": "other",
       "keywords": [
         "ARC-AGI-1",
@@ -41,7 +60,7 @@
         "ARC",
         "LLM"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "RotaryCell: Making an unmodified rotary phone work over LTE with an ESP32-S3",
@@ -60,7 +79,7 @@
         "rotary phone",
         "LTE"
       ],
-      "rank": 3
+      "rank": 4
     }
   ]
 }
