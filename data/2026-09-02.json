@@ -1,10 +1,48 @@
 {
   "date": "2026-09-02",
   "total_feeds": 95,
-  "success_feeds": 90,
-  "total_articles": 3394,
-  "filtered_articles": 34,
+  "success_feeds": 89,
+  "total_articles": 3317,
+  "filtered_articles": 39,
   "articles": [
+    {
+      "title": "The creator of Jujutsu has joined ERSC",
+      "title_display": "The creator of Jujutsu has joined ERSC",
+      "link": "https://ersc.io/blog/martin-joins-ersc",
+      "pub_date": "2026-09-01T18:20:09.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 136,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "ERSC",
+        "Jujutsu",
+        "jj",
+        "Git"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "What's new in Claude Fable 5.1",
+      "title_display": "What's new in Claude Fable 5.1",
+      "link": "https://platform.claude.com/docs/en/models/fable-5-1/whats-new-fable-5-1",
+      "pub_date": "2026-09-01T18:10:07.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 548,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Claude Fable 5.1",
+        "Anthropic",
+        "Fable 5",
+        "Opus 5"
+      ],
+      "rank": 2
+    },
     {
       "title": "Play Store blocks AuroraStore, hurting GrapheneOS users",
       "title_display": "Play Store blocks AuroraStore, hurting GrapheneOS users",
@@ -22,7 +60,7 @@
         "Google Play Store",
         "Google Play Services"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "AnkiDroid: Google Play no longer allowing Open Collective donation link",
@@ -32,7 +70,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 349,
+      "hn_points": 730,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -41,7 +79,7 @@
         "Open Collective",
         "Google Play Billing"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "44% on ARC-AGI-1 in 67 cents",
@@ -60,7 +98,7 @@
         "ARC",
         "LLM"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "RotaryCell: Making an unmodified rotary phone work over LTE with an ESP32-S3",
@@ -79,7 +117,7 @@
         "rotary phone",
         "LTE"
       ],
-      "rank": 4
+      "rank": 6
     }
   ]
 }
