@@ -1,9 +1,9 @@
 {
   "date": "2026-09-01",
   "total_feeds": 95,
-  "success_feeds": 90,
-  "total_articles": 3390,
-  "filtered_articles": 29,
+  "success_feeds": 88,
+  "total_articles": 3354,
+  "filtered_articles": 30,
   "articles": [
     {
       "title": "Dwarf Fortress is getting the mother of all magic updates",
@@ -13,8 +13,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 121,
-      "score": 25,
+      "hn_points": 221,
+      "score": 28,
       "category": "other",
       "keywords": [
         "Dwarf Fortress",
@@ -25,6 +25,25 @@
       "rank": 1
     },
     {
+      "title": "A walkable ASCII cyberpunk city in one HTML file [video]",
+      "title_display": "A walkable ASCII cyberpunk city in one HTML file [video]",
+      "link": "https://www.youtube.com/watch?v=3YtygAx_C6A",
+      "pub_date": "2026-08-31T18:40:08.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 144,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "ASCII",
+        "HTML",
+        "cyberpunk",
+        "YouTube"
+      ],
+      "rank": 2
+    },
+    {
       "title": "I Turned My Security Cameras into an Automatic Bird Identification System",
       "title_display": "I Turned My Security Cameras into an Automatic Bird Identification System",
       "link": "https://jasontucker.blog/how-i-turned-my-security-cameras-into-an-automatic-bird-identification-system-with-birdnet-go/",
@@ -32,8 +51,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 192,
-      "score": 28,
+      "hn_points": 301,
+      "score": 30,
       "category": "other",
       "keywords": [
         "BirdNet-Go",
@@ -41,7 +60,7 @@
         "bird identification",
         "Unifi"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "ChatGPT Work Tool and Skill Reference",
@@ -60,7 +79,7 @@
         "codex-tool-reference",
         "Playwright"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Apple Caught Off Guard by AI Demand for Mac Mini and Mac Studio",
@@ -70,8 +89,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 152,
-      "score": 27,
+      "hn_points": 262,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Apple",
@@ -79,7 +98,7 @@
         "Mac mini",
         "Mac Studio"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Agent Memory as a File Format",
@@ -98,7 +117,7 @@
         "file format",
         "information retrieval"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "A CVE Dispute",
@@ -117,7 +136,7 @@
         "curl",
         "LLM"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Breaking Claude Code Opus 5 Auto Mode",
@@ -136,7 +155,7 @@
         "Auto Mode",
         "Anthropic"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "uv: Deduplicate all files in the wheel cache",
@@ -155,7 +174,7 @@
         "BLAKE3",
         "Python"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Transfer files over an Ethernet patch cable",
@@ -174,7 +193,7 @@
         "crossover cable",
         "auto-MDI/MDIX"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "P99 0 ms* autocomplete for 240M domain names",
@@ -193,7 +212,7 @@
         "p99",
         "latency"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "How to build a diffusion language model",
@@ -212,7 +231,7 @@
         "language model",
         "token embeddings"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "It takes 5 cloud services to hear my doorbell",
@@ -231,7 +250,7 @@
         "Ring",
         "cloud services"
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "title": "Cores in space: The core memory module from a 1980 Spacelab computer",
@@ -250,7 +269,7 @@
         "FRAM",
         "radiation"
       ],
-      "rank": 13
+      "rank": 14
     },
     {
       "title": "Sort branches by last commit date",
@@ -269,7 +288,7 @@
         "last commit date",
         "fzf"
       ],
-      "rank": 14
+      "rank": 15
     }
   ]
 }
