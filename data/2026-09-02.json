@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 90,
   "total_articles": 3394,
-  "filtered_articles": 37,
+  "filtered_articles": 41,
   "articles": [
+    {
+      "title": "Hang on to Your Firefox",
+      "title_display": "Hang on to Your Firefox",
+      "link": "https://www.newsonaut.com/articles/hang-on-to-your-firefox",
+      "pub_date": "2026-09-01T22:40:10.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 342,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Firefox",
+        "Mozilla",
+        "uBlock Origin",
+        "Brave"
+      ],
+      "rank": 1
+    },
     {
       "title": "The ChatGPT/Codex app bundles a full copy of LibreOffice",
       "title_display": "The ChatGPT/Codex app bundles a full copy of LibreOffice",
@@ -13,8 +32,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 188,
-      "score": 28,
+      "hn_points": 293,
+      "score": 30,
       "category": "other",
       "keywords": [
         "LibreOffice",
@@ -22,7 +41,7 @@
         "Codex",
         "Simon Willison"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "The creator of Jujutsu has joined ERSC",
@@ -41,7 +60,7 @@
         "jj",
         "Git"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "What's new in Claude Fable 5.1",
@@ -51,7 +70,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 548,
+      "hn_points": 953,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -60,7 +79,26 @@
         "Fable 5",
         "Opus 5"
       ],
-      "rank": 3
+      "rank": 4
+    },
+    {
+      "title": "Show HN: Running 104GB Qwen3.8-Flash-Next on 48GB Mac with at ~12 tok/s",
+      "title_display": "Show HN: Running 104GB Qwen3.8-Flash-Next on 48GB Mac with at ~12 tok/s",
+      "link": "https://github.com/carloslfu/slotstream",
+      "pub_date": "2026-09-01T17:00:09.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 132,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Qwen3.8-Flash-Next",
+        "slotstream",
+        "Apple Silicon",
+        "48GB Mac"
+      ],
+      "rank": 5
     },
     {
       "title": "Play Store blocks AuroraStore, hurting GrapheneOS users",
@@ -79,7 +117,7 @@
         "Google Play Store",
         "Google Play Services"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "AnkiDroid: Google Play no longer allowing Open Collective donation link",
@@ -98,7 +136,7 @@
         "Open Collective",
         "Google Play Billing"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "44% on ARC-AGI-1 in 67 cents",
@@ -117,7 +155,7 @@
         "ARC",
         "LLM"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "AI Can Make You Suck Faster Too",
@@ -136,7 +174,7 @@
         "Claude",
         "prompt engineering"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "RotaryCell: Making an unmodified rotary phone work over LTE with an ESP32-S3",
@@ -155,7 +193,7 @@
         "rotary phone",
         "LTE"
       ],
-      "rank": 8
+      "rank": 10
     }
   ]
 }
