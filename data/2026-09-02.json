@@ -1,10 +1,29 @@
 {
   "date": "2026-09-02",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3317,
-  "filtered_articles": 39,
+  "success_feeds": 90,
+  "total_articles": 3394,
+  "filtered_articles": 37,
   "articles": [
+    {
+      "title": "The ChatGPT/Codex app bundles a full copy of LibreOffice",
+      "title_display": "The ChatGPT/Codex app bundles a full copy of LibreOffice",
+      "link": "https://simonwillison.net/2026/Sep/1/codex-libreoffice/",
+      "pub_date": "2026-09-01T20:30:10.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 188,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "LibreOffice",
+        "ChatGPT",
+        "Codex",
+        "Simon Willison"
+      ],
+      "rank": 1
+    },
     {
       "title": "The creator of Jujutsu has joined ERSC",
       "title_display": "The creator of Jujutsu has joined ERSC",
@@ -22,7 +41,7 @@
         "jj",
         "Git"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "What's new in Claude Fable 5.1",
@@ -41,7 +60,7 @@
         "Fable 5",
         "Opus 5"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Play Store blocks AuroraStore, hurting GrapheneOS users",
@@ -60,7 +79,7 @@
         "Google Play Store",
         "Google Play Services"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "AnkiDroid: Google Play no longer allowing Open Collective donation link",
@@ -79,7 +98,7 @@
         "Open Collective",
         "Google Play Billing"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "44% on ARC-AGI-1 in 67 cents",
@@ -98,7 +117,26 @@
         "ARC",
         "LLM"
       ],
-      "rank": 5
+      "rank": 6
+    },
+    {
+      "title": "AI Can Make You Suck Faster Too",
+      "title_display": "AI Can Make You Suck Faster Too",
+      "link": "https://www.hermit-tech.com/blog/ai-can-make-you-suck-faster-too",
+      "pub_date": "2026-09-01T06:10:16.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 138,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "LLMs",
+        "DeepSeek",
+        "Claude",
+        "prompt engineering"
+      ],
+      "rank": 7
     },
     {
       "title": "RotaryCell: Making an unmodified rotary phone work over LTE with an ESP32-S3",
@@ -117,7 +155,7 @@
         "rotary phone",
         "LTE"
       ],
-      "rank": 6
+      "rank": 8
     }
   ]
 }
