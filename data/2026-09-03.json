@@ -1,10 +1,48 @@
 {
   "date": "2026-09-03",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3367,
-  "filtered_articles": 45,
+  "success_feeds": 90,
+  "total_articles": 3396,
+  "filtered_articles": 40,
   "articles": [
+    {
+      "title": "Six curl CVEs after OpenAI and Anthropic came back with zero",
+      "title_display": "Six curl CVEs after OpenAI and Anthropic came back with zero",
+      "link": "https://aisle.com/blog/aisle-discovered-six-curl-cves-after-openai-and-anthropic-found-zero",
+      "pub_date": "2026-09-02T14:20:11.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 124,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "curl",
+        "CVEs",
+        "AISLE",
+        "OpenAI"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Check if a file was made with Claude",
+      "title_display": "Check if a file was made with Claude",
+      "link": "https://claude.com/check-content",
+      "pub_date": "2026-09-02T14:10:13.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 128,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Claude",
+        "C2PA",
+        "watermark",
+        "metadata"
+      ],
+      "rank": 2
+    },
     {
       "title": "Three sites made 215,128 \"best software\" pages for AI. Perplexity cites them",
       "title_display": "Three sites made 215,128 \"best software\" pages for AI. Perplexity cites them",
@@ -22,7 +60,26 @@
         "trellner",
         "AI-generated content"
       ],
-      "rank": 1
+      "rank": 3
+    },
+    {
+      "title": "Aging Brains Blend Memories Together Instead of Just Forgetting Them",
+      "title_display": "Aging Brains Blend Memories Together Instead of Just Forgetting Them",
+      "link": "https://studyfinds.com/aging-brains-blend-memories-together-instead-of-forgetting-them-study-finds/",
+      "pub_date": "2026-09-02T14:00:12.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 127,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "aging",
+        "memory",
+        "brains",
+        "StudyFinds"
+      ],
+      "rank": 4
     },
     {
       "title": "Mistral now trains on user input by default, except on enterprise tier",
@@ -32,8 +89,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 188,
-      "score": 28,
+      "hn_points": 291,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Mistral",
@@ -41,7 +98,7 @@
         "user input",
         "opt-out"
       ],
-      "rank": 2
+      "rank": 5
     },
     {
       "title": "A Note from LWN",
@@ -60,7 +117,7 @@
         "pricing",
         "Linux"
       ],
-      "rank": 3
+      "rank": 6
     },
     {
       "title": "Quasar 438B: Europe's Leading AI Model",
@@ -79,7 +136,7 @@
         "European AI",
         "open-weight models"
       ],
-      "rank": 4
+      "rank": 7
     }
   ]
 }
