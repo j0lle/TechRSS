@@ -1,10 +1,67 @@
 {
   "date": "2026-09-03",
   "total_feeds": 95,
-  "success_feeds": 90,
-  "total_articles": 3396,
-  "filtered_articles": 40,
+  "success_feeds": 89,
+  "total_articles": 3367,
+  "filtered_articles": 38,
   "articles": [
+    {
+      "title": "Muse Spark 1.3",
+      "title_display": "Muse Spark 1.3",
+      "link": "https://developer.meta.com/ai/models/muse-spark/",
+      "pub_date": "2026-09-02T19:50:09.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 266,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "Muse Spark 1.3",
+        "Muse Spark",
+        "Meta",
+        "Meta AI"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "I Don't Have a Smartphone",
+      "title_display": "I Don't Have a Smartphone",
+      "link": "https://ploum.net/2026-09-02-i_dont_have_a_smartphone.html",
+      "pub_date": "2026-09-02T18:20:08.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 162,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "smartphone",
+        "dumbphone",
+        "privacy",
+        "GrapheneOS"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "Paint.net 5.2 alpha now runs on Linux",
+      "title_display": "Paint.net 5.2 alpha now runs on Linux",
+      "link": "https://forums.paint.net/topic/134562-paintnet-52-alpha-build-9739/",
+      "pub_date": "2026-09-02T18:00:08.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 141,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Paint.NET",
+        "Linux",
+        "Wine",
+        "Direct2D"
+      ],
+      "rank": 3
+    },
     {
       "title": "Six curl CVEs after OpenAI and Anthropic came back with zero",
       "title_display": "Six curl CVEs after OpenAI and Anthropic came back with zero",
@@ -22,7 +79,7 @@
         "AISLE",
         "OpenAI"
       ],
-      "rank": 1
+      "rank": 4
     },
     {
       "title": "Check if a file was made with Claude",
@@ -41,7 +98,7 @@
         "watermark",
         "metadata"
       ],
-      "rank": 2
+      "rank": 5
     },
     {
       "title": "Three sites made 215,128 \"best software\" pages for AI. Perplexity cites them",
@@ -60,7 +117,7 @@
         "trellner",
         "AI-generated content"
       ],
-      "rank": 3
+      "rank": 6
     },
     {
       "title": "Aging Brains Blend Memories Together Instead of Just Forgetting Them",
@@ -79,7 +136,7 @@
         "brains",
         "StudyFinds"
       ],
-      "rank": 4
+      "rank": 7
     },
     {
       "title": "Mistral now trains on user input by default, except on enterprise tier",
@@ -98,7 +155,7 @@
         "user input",
         "opt-out"
       ],
-      "rank": 5
+      "rank": 8
     },
     {
       "title": "A Note from LWN",
@@ -117,7 +174,7 @@
         "pricing",
         "Linux"
       ],
-      "rank": 6
+      "rank": 9
     },
     {
       "title": "Quasar 438B: Europe's Leading AI Model",
@@ -136,7 +193,7 @@
         "European AI",
         "open-weight models"
       ],
-      "rank": 7
+      "rank": 10
     }
   ]
 }
