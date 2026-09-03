@@ -2,9 +2,66 @@
   "date": "2026-09-04",
   "total_feeds": 95,
   "success_feeds": 90,
-  "total_articles": 3404,
-  "filtered_articles": 24,
+  "total_articles": 3405,
+  "filtered_articles": 28,
   "articles": [
+    {
+      "title": "VC isn't VC anymore",
+      "title_display": "VC isn't VC anymore",
+      "link": "https://www.anildash.com/2026/09/02/cancer-capital/",
+      "pub_date": "2026-09-03T19:40:10.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 170,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Venture capital",
+        "Cancer Capital",
+        "a16z",
+        "Anil Dash"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "GPT-6 Astra",
+      "title_display": "GPT-6 Astra",
+      "link": "https://openai.com/index/gpt-6-astra/",
+      "pub_date": "2026-09-03T19:40:09.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 889,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "GPT-6 Astra",
+        "OpenAI",
+        "ARC-AGI-3",
+        "Responses API harness"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "Qwen 3.8 27B available on Cerebras at 1500 tok/SEC",
+      "title_display": "Qwen 3.8 27B available on Cerebras at 1500 tok/SEC",
+      "link": "https://inference-docs.cerebras.ai/models/overview",
+      "pub_date": "2026-09-03T18:40:07.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 332,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Qwen 3.8 27B",
+        "Cerebras",
+        "inference",
+        "tok/SEC"
+      ],
+      "rank": 3
+    },
     {
       "title": "Google Antigravity TOS: 3rd party usage can get Google account suspended",
       "title_display": "Google Antigravity TOS: 3rd party usage can get Google account suspended",
@@ -13,8 +70,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 137,
-      "score": 26,
+      "hn_points": 245,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Google Antigravity",
@@ -22,7 +79,7 @@
         "Terms of Service",
         "Google account suspension"
       ],
-      "rank": 1
+      "rank": 4
     },
     {
       "title": "Nvidia to Acquire Hugging Face",
@@ -41,7 +98,25 @@
         "OpenAI",
         "Jensen Huang"
       ],
-      "rank": 2
+      "rank": 5
+    },
+    {
+      "title": "K2 Horizon: Frontier Performance, Radically Open",
+      "title_display": "K2 Horizon: Frontier Performance, Radically Open",
+      "link": "https://ifm.ai/blog/k2/",
+      "pub_date": "2026-09-03T16:10:13.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 167,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "K2 Horizon",
+        "IFM.ai",
+        "open models"
+      ],
+      "rank": 6
     },
     {
       "title": "ChatGPT Is Throwing 404",
@@ -60,7 +135,7 @@
         "OpenAI",
         "Claude"
       ],
-      "rank": 3
+      "rank": 7
     },
     {
       "title": "Audacity 4.0",
@@ -70,7 +145,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 506,
+      "hn_points": 958,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -78,7 +153,7 @@
         "UI",
         "GitHub"
       ],
-      "rank": 4
+      "rank": 8
     },
     {
       "title": "Invisible Companies",
@@ -97,7 +172,7 @@
         "Spreadsheets",
         "Carpet stores"
       ],
-      "rank": 5
+      "rank": 9
     },
     {
       "title": "The Browser's Main Thread Is Expensive",
@@ -107,8 +182,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 260,
-      "score": 29,
+      "hn_points": 365,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Browser main thread",
@@ -116,7 +191,7 @@
         "JavaScript",
         "WebAssembly (WASM)"
       ],
-      "rank": 6
+      "rank": 10
     },
     {
       "title": "Pre-Release of Polars 2.0",
@@ -135,7 +210,7 @@
         "SQL",
         "Claude"
       ],
-      "rank": 7
+      "rank": 11
     }
   ]
 }
