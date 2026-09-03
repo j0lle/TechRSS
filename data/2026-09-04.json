@@ -1,10 +1,67 @@
 {
   "date": "2026-09-04",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3374,
-  "filtered_articles": 20,
+  "success_feeds": 90,
+  "total_articles": 3404,
+  "filtered_articles": 24,
   "articles": [
+    {
+      "title": "Google Antigravity TOS: 3rd party usage can get Google account suspended",
+      "title_display": "Google Antigravity TOS: 3rd party usage can get Google account suspended",
+      "link": "https://twitter.com/GergelyOrosz/status/2095453567955968398",
+      "pub_date": "2026-09-03T17:30:10.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 137,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Google Antigravity",
+        "Google",
+        "Terms of Service",
+        "Google account suspension"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Nvidia to Acquire Hugging Face",
+      "title_display": "Nvidia to Acquire Hugging Face",
+      "link": "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/",
+      "pub_date": "2026-09-03T16:40:13.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 199,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "Nvidia",
+        "Hugging Face",
+        "OpenAI",
+        "Jensen Huang"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "ChatGPT Is Throwing 404",
+      "title_display": "ChatGPT Is Throwing 404",
+      "link": "https://chatgpt.com/",
+      "pub_date": "2026-09-03T15:00:09.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 352,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "ChatGPT",
+        "404",
+        "OpenAI",
+        "Claude"
+      ],
+      "rank": 3
+    },
     {
       "title": "Audacity 4.0",
       "title_display": "Audacity 4.0",
@@ -21,7 +78,26 @@
         "UI",
         "GitHub"
       ],
-      "rank": 1
+      "rank": 4
+    },
+    {
+      "title": "Invisible Companies",
+      "title_display": "Invisible Companies",
+      "link": "https://colossus.com/article/invisible-companies/",
+      "pub_date": "2026-09-03T11:40:10.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 125,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Invisible Companies",
+        "Colossus",
+        "Spreadsheets",
+        "Carpet stores"
+      ],
+      "rank": 5
     },
     {
       "title": "The Browser's Main Thread Is Expensive",
@@ -40,7 +116,7 @@
         "JavaScript",
         "WebAssembly (WASM)"
       ],
-      "rank": 2
+      "rank": 6
     },
     {
       "title": "Pre-Release of Polars 2.0",
@@ -50,8 +126,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 206,
-      "score": 28,
+      "hn_points": 308,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Polars",
@@ -59,7 +135,7 @@
         "SQL",
         "Claude"
       ],
-      "rank": 3
+      "rank": 7
     }
   ]
 }
