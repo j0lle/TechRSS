@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 90,
   "total_articles": 3405,
-  "filtered_articles": 28,
+  "filtered_articles": 29,
   "articles": [
+    {
+      "title": "GPS glitched across the US by as much as 33 feet",
+      "title_display": "GPS glitched across the US by as much as 33 feet",
+      "link": "https://www.sciencealert.com/gps-glitched-across-the-us-by-as-much-as-33-feet-scientists-have-never-seen-this-before",
+      "pub_date": "2026-09-04T00:30:09.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 106,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "GPS",
+        "space weather",
+        "solar storm",
+        "GNSS"
+      ],
+      "rank": 1
+    },
     {
       "title": "VC isn't VC anymore",
       "title_display": "VC isn't VC anymore",
@@ -22,7 +41,7 @@
         "a16z",
         "Anil Dash"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "GPT-6 Astra",
@@ -41,7 +60,7 @@
         "ARC-AGI-3",
         "Responses API harness"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Qwen 3.8 27B available on Cerebras at 1500 tok/SEC",
@@ -60,7 +79,7 @@
         "inference",
         "tok/SEC"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Google Antigravity TOS: 3rd party usage can get Google account suspended",
@@ -79,7 +98,7 @@
         "Terms of Service",
         "Google account suspension"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Nvidia to Acquire Hugging Face",
@@ -89,8 +108,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 199,
-      "score": 28,
+      "hn_points": 299,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Nvidia",
@@ -98,7 +117,7 @@
         "OpenAI",
         "Jensen Huang"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "K2 Horizon: Frontier Performance, Radically Open",
@@ -108,15 +127,15 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 167,
-      "score": 27,
+      "hn_points": 268,
+      "score": 29,
       "category": "other",
       "keywords": [
         "K2 Horizon",
         "IFM.ai",
         "open models"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "ChatGPT Is Throwing 404",
@@ -135,7 +154,7 @@
         "OpenAI",
         "Claude"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Audacity 4.0",
@@ -153,7 +172,7 @@
         "UI",
         "GitHub"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Invisible Companies",
@@ -172,7 +191,7 @@
         "Spreadsheets",
         "Carpet stores"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "The Browser's Main Thread Is Expensive",
@@ -191,7 +210,7 @@
         "JavaScript",
         "WebAssembly (WASM)"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "Pre-Release of Polars 2.0",
@@ -210,7 +229,7 @@
         "SQL",
         "Claude"
       ],
-      "rank": 11
+      "rank": 12
     }
   ]
 }
