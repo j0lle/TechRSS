@@ -1,10 +1,29 @@
 {
   "date": "2026-09-04",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3373,
-  "filtered_articles": 29,
+  "success_feeds": 90,
+  "total_articles": 3400,
+  "filtered_articles": 31,
   "articles": [
+    {
+      "title": "How an MIT research project became a global programming language",
+      "title_display": "How an MIT research project became a global programming language",
+      "link": "https://news.mit.edu/2026/how-mit-research-project-became-global-programming-language-0831",
+      "pub_date": "2026-09-04T03:20:09.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 123,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "Julia",
+        "MIT",
+        "JIT",
+        "R"
+      ],
+      "rank": 1
+    },
     {
       "title": "GPS glitched across the US by as much as 33 feet",
       "title_display": "GPS glitched across the US by as much as 33 feet",
@@ -22,7 +41,7 @@
         "solar storm",
         "GNSS"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Which tools do Claude, Codex and Cursor choose? We measured 17k runs to find out",
@@ -32,8 +51,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 137,
-      "score": 26,
+      "hn_points": 241,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Claude",
@@ -41,7 +60,7 @@
         "Cursor",
         "coding agents"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "VC isn't VC anymore",
@@ -60,7 +79,7 @@
         "a16z",
         "Anil Dash"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "GPT-6 Astra",
@@ -70,7 +89,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 1436,
+      "hn_points": 1794,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -79,7 +98,7 @@
         "ARC-AGI-3",
         "Responses API harness"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Qwen 3.8 27B available on Cerebras at 1500 tok/SEC",
@@ -98,7 +117,7 @@
         "inference",
         "tok/SEC"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Google Antigravity TOS: 3rd party usage can get Google account suspended",
@@ -117,7 +136,7 @@
         "Terms of Service",
         "Google account suspension"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Nvidia to Acquire Hugging Face",
@@ -136,7 +155,7 @@
         "OpenAI",
         "Jensen Huang"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "K2 Horizon: Frontier Performance, Radically Open",
@@ -154,7 +173,7 @@
         "IFM.ai",
         "open models"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "ChatGPT Is Throwing 404",
@@ -173,7 +192,7 @@
         "OpenAI",
         "Claude"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Audacity 4.0",
@@ -191,7 +210,7 @@
         "UI",
         "GitHub"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "Invisible Companies",
@@ -210,7 +229,7 @@
         "Spreadsheets",
         "Carpet stores"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "The Browser's Main Thread Is Expensive",
@@ -229,7 +248,7 @@
         "JavaScript",
         "WebAssembly (WASM)"
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "title": "Pre-Release of Polars 2.0",
@@ -248,7 +267,7 @@
         "SQL",
         "Claude"
       ],
-      "rank": 13
+      "rank": 14
     }
   ]
 }
