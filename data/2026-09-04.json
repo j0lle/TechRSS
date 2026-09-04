@@ -1,8 +1,8 @@
 {
   "date": "2026-09-04",
   "total_feeds": 95,
-  "success_feeds": 90,
-  "total_articles": 3405,
+  "success_feeds": 89,
+  "total_articles": 3373,
   "filtered_articles": 29,
   "articles": [
     {
@@ -25,6 +25,25 @@
       "rank": 1
     },
     {
+      "title": "Which tools do Claude, Codex and Cursor choose? We measured 17k runs to find out",
+      "title_display": "Which tools do Claude, Codex and Cursor choose? We measured 17k runs to find out",
+      "link": "https://armature.tech/blog/which-tools-coding-agents-install",
+      "pub_date": "2026-09-03T22:40:12.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 137,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Claude",
+        "Codex",
+        "Cursor",
+        "coding agents"
+      ],
+      "rank": 2
+    },
+    {
       "title": "VC isn't VC anymore",
       "title_display": "VC isn't VC anymore",
       "link": "https://www.anildash.com/2026/09/02/cancer-capital/",
@@ -41,7 +60,7 @@
         "a16z",
         "Anil Dash"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "GPT-6 Astra",
@@ -51,7 +70,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 889,
+      "hn_points": 1436,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -60,7 +79,7 @@
         "ARC-AGI-3",
         "Responses API harness"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Qwen 3.8 27B available on Cerebras at 1500 tok/SEC",
@@ -79,7 +98,7 @@
         "inference",
         "tok/SEC"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Google Antigravity TOS: 3rd party usage can get Google account suspended",
@@ -98,7 +117,7 @@
         "Terms of Service",
         "Google account suspension"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Nvidia to Acquire Hugging Face",
@@ -117,7 +136,7 @@
         "OpenAI",
         "Jensen Huang"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "K2 Horizon: Frontier Performance, Radically Open",
@@ -135,7 +154,7 @@
         "IFM.ai",
         "open models"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "ChatGPT Is Throwing 404",
@@ -154,7 +173,7 @@
         "OpenAI",
         "Claude"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Audacity 4.0",
@@ -172,7 +191,7 @@
         "UI",
         "GitHub"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Invisible Companies",
@@ -191,7 +210,7 @@
         "Spreadsheets",
         "Carpet stores"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "The Browser's Main Thread Is Expensive",
@@ -210,7 +229,7 @@
         "JavaScript",
         "WebAssembly (WASM)"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "Pre-Release of Polars 2.0",
@@ -229,7 +248,7 @@
         "SQL",
         "Claude"
       ],
-      "rank": 12
+      "rank": 13
     }
   ]
 }
