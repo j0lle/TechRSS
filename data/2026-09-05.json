@@ -1,10 +1,29 @@
 {
   "date": "2026-09-05",
   "total_feeds": 95,
-  "success_feeds": 90,
-  "total_articles": 3401,
-  "filtered_articles": 27,
+  "success_feeds": 88,
+  "total_articles": 3347,
+  "filtered_articles": 26,
   "articles": [
+    {
+      "title": "Shutting down our public encrypted DNS",
+      "title_display": "Shutting down our public encrypted DNS",
+      "link": "https://mullvad.net/en/blog/shutting-down-our-public-encrypted-dns-servers-and-sponsoring-quad9-instead",
+      "pub_date": "2026-09-04T19:00:07.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 179,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Mullvad",
+        "Quad9",
+        "encrypted DNS",
+        "DNS"
+      ],
+      "rank": 1
+    },
     {
       "title": "Nearly impossible? How Fairphone built the ethical, repairable Fairphone Gen 6+",
       "title_display": "Nearly impossible? How Fairphone built the ethical, repairable Fairphone Gen 6+",
@@ -22,7 +41,7 @@
         "repairable",
         "ethical"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Solving the Jane Street Reverse Engineering Challenge",
@@ -32,8 +51,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 269,
-      "score": 29,
+      "hn_points": 370,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Jane Street",
@@ -41,7 +60,7 @@
         "ASIC",
         "sky130"
       ],
-      "rank": 2
+      "rank": 3
     }
   ]
 }
