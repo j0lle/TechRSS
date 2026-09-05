@@ -1,10 +1,48 @@
 {
   "date": "2026-09-05",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3347,
-  "filtered_articles": 26,
+  "success_feeds": 90,
+  "total_articles": 3401,
+  "filtered_articles": 22,
   "articles": [
+    {
+      "title": "GPT-6 Astra on OpenRouter",
+      "title_display": "GPT-6 Astra on OpenRouter",
+      "link": "https://openrouter.ai/openai/gpt-6-astra",
+      "pub_date": "2026-09-04T22:20:10.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 133,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "GPT-6 Astra",
+        "OpenRouter",
+        "OpenAI",
+        "Codex"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Actively exploited sandbox RCE in all Chromium versions",
+      "title_display": "Actively exploited sandbox RCE in all Chromium versions",
+      "link": "https://nvd.nist.gov/vuln/detail/cve-2026-85046",
+      "pub_date": "2026-09-04T22:10:09.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 227,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "Chromium",
+        "CVE-2026-85046",
+        "RCE",
+        "sandbox"
+      ],
+      "rank": 2
+    },
     {
       "title": "Shutting down our public encrypted DNS",
       "title_display": "Shutting down our public encrypted DNS",
@@ -22,7 +60,7 @@
         "encrypted DNS",
         "DNS"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "Nearly impossible? How Fairphone built the ethical, repairable Fairphone Gen 6+",
@@ -41,7 +79,7 @@
         "repairable",
         "ethical"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "Solving the Jane Street Reverse Engineering Challenge",
@@ -60,7 +98,7 @@
         "ASIC",
         "sky130"
       ],
-      "rank": 3
+      "rank": 5
     }
   ]
 }
