@@ -2,9 +2,28 @@
   "date": "2026-09-06",
   "total_feeds": 95,
   "success_feeds": 90,
-  "total_articles": 3407,
-  "filtered_articles": 14,
+  "total_articles": 3398,
+  "filtered_articles": 13,
   "articles": [
+    {
+      "title": "Chrome again exempts Google from user site data settings",
+      "title_display": "Chrome again exempts Google from user site data settings",
+      "link": "https://lapcatsoftware.com/articles/2026/9/1.html",
+      "pub_date": "2026-09-06T02:10:29.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 254,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "Chrome",
+        "Google",
+        "site data",
+        "Chrome sign-in"
+      ],
+      "rank": 1
+    },
     {
       "title": "Cloud in a Bottle: making self-hosting accessible to everyone",
       "title_display": "Cloud in a Bottle: making self-hosting accessible to everyone",
@@ -13,8 +32,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 176,
-      "score": 27,
+      "hn_points": 288,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Cloud in a Bottle",
@@ -22,7 +41,7 @@
         "Docker",
         "managed service"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Learn Programming with OCaml",
@@ -32,15 +51,15 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 132,
-      "score": 26,
+      "hn_points": 233,
+      "score": 29,
       "category": "other",
       "keywords": [
         "OCaml",
         "functional programming",
         "LLM"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Visualizing Rust's Vtables: How dyn Trait Works In Memory",
@@ -59,7 +78,7 @@
         "dyn Trait",
         "memory layout"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": ".gitignore Everything by Default",
@@ -78,7 +97,7 @@
         "git add .",
         "git add -p"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Global warming will exceed 1.5-degree limit, UN says",
@@ -97,7 +116,7 @@
         "1.5°C",
         "PBS NewsHour"
       ],
-      "rank": 5
+      "rank": 6
     }
   ]
 }
