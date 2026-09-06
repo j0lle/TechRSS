@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3370,
-  "filtered_articles": 12,
+  "filtered_articles": 16,
   "articles": [
+    {
+      "title": "Nitter is unarchived and will continue",
+      "title_display": "Nitter is unarchived and will continue",
+      "link": "https://github.com/zedeus/nitter/commit/1428b4c2b4246f92a7e5b2673438e5fb39fcc4a3",
+      "pub_date": "2026-09-06T18:50:27.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 337,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Nitter",
+        "Twitter / X",
+        "GitHub",
+        "Elon Musk"
+      ],
+      "rank": 1
+    },
     {
       "title": "Asahi Linux Now Officially Supports Apple M3 Macs – With Caveats",
       "title_display": "Asahi Linux Now Officially Supports Apple M3 Macs – With Caveats",
@@ -13,8 +32,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 153,
-      "score": 27,
+      "hn_points": 258,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Asahi Linux",
@@ -22,7 +41,26 @@
         "Apple",
         "Phoronix"
       ],
-      "rank": 1
+      "rank": 2
+    },
+    {
+      "title": "AI, Tools and Transformation",
+      "title_display": "AI, Tools and Transformation",
+      "link": "https://www.ben-evans.com/benedictevans/2026/9/3/ai-tools-and-transformation",
+      "pub_date": "2026-09-06T08:00:28.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 137,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "AI",
+        "Ben Evans",
+        "agents",
+        "LLMs"
+      ],
+      "rank": 3
     }
   ]
 }
