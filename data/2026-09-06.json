@@ -1,10 +1,29 @@
 {
   "date": "2026-09-06",
   "total_feeds": 95,
-  "success_feeds": 90,
-  "total_articles": 3398,
+  "success_feeds": 89,
+  "total_articles": 3373,
   "filtered_articles": 13,
   "articles": [
+    {
+      "title": "Isar Aerospace reaches orbit and deploys payloads on second flight",
+      "title_display": "Isar Aerospace reaches orbit and deploys payloads on second flight",
+      "link": "https://isaraerospace.com/press/history-for-european-spaceflight-isar-aerospace-reaches-orbit-and-deploys-payloads-on-second-flight",
+      "pub_date": "2026-09-06T08:40:27.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 294,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Isar Aerospace",
+        "European spaceflight",
+        "orbit",
+        "payloads"
+      ],
+      "rank": 1
+    },
     {
       "title": "Chrome again exempts Google from user site data settings",
       "title_display": "Chrome again exempts Google from user site data settings",
@@ -22,7 +41,7 @@
         "site data",
         "Chrome sign-in"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Cloud in a Bottle: making self-hosting accessible to everyone",
@@ -41,7 +60,7 @@
         "Docker",
         "managed service"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Learn Programming with OCaml",
@@ -59,7 +78,7 @@
         "functional programming",
         "LLM"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Visualizing Rust's Vtables: How dyn Trait Works In Memory",
@@ -78,7 +97,7 @@
         "dyn Trait",
         "memory layout"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": ".gitignore Everything by Default",
@@ -97,7 +116,7 @@
         "git add .",
         "git add -p"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Global warming will exceed 1.5-degree limit, UN says",
@@ -116,7 +135,7 @@
         "1.5°C",
         "PBS NewsHour"
       ],
-      "rank": 6
+      "rank": 7
     }
   ]
 }
