@@ -1,0 +1,85 @@
+{
+  "date": "2026-09-08",
+  "total_feeds": 95,
+  "success_feeds": 90,
+  "total_articles": 3411,
+  "filtered_articles": 22,
+  "articles": [
+    {
+      "title": "bzip3",
+      "title_display": "bzip3",
+      "link": "https://github.com/iczelia/bzip3",
+      "pub_date": "2026-09-07T14:00:31.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 174,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "bzip3",
+        "zstd",
+        "lrzip",
+        "xz"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "De-Brainrot Vacations",
+      "title_display": "De-Brainrot Vacations",
+      "link": "https://devz.cl/posts/i-spent-my-vacations-de-brainrotting/",
+      "pub_date": "2026-09-07T13:10:33.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 292,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "De-Brainrot",
+        "Vacations",
+        "devz.cl",
+        "mental health"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "LG smart TVs caught logging audio with screen off and snooping on local devices",
+      "title_display": "LG smart TVs caught logging audio with screen off and snooping on local devices",
+      "link": "https://www.notebookcheck.net/LG-smart-TVs-caught-logging-audio-with-screen-off-and-snooping-on-local-devices.1391214.0.html",
+      "pub_date": "2026-09-07T09:30:24.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 491,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "LG",
+        "Smart TV",
+        "Audio logging",
+        "Privacy"
+      ],
+      "rank": 3
+    },
+    {
+      "title": "Programming is Art",
+      "title_display": "Programming is Art",
+      "link": "https://orchidfiles.com/programming-is-art/",
+      "pub_date": "2026-09-07T09:00:31.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 126,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "programming",
+        "art",
+        "AI",
+        "LLMs"
+      ],
+      "rank": 4
+    }
+  ]
+}
