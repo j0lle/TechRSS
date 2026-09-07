@@ -2,9 +2,85 @@
   "date": "2026-09-07",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3382,
-  "filtered_articles": 18,
+  "total_articles": 3381,
+  "filtered_articles": 17,
   "articles": [
+    {
+      "title": "Switzerland's Federal Government Is Replacing Microsoft on 3k Computers",
+      "title_display": "Switzerland's Federal Government Is Replacing Microsoft on 3k Computers",
+      "link": "https://itsfoss.com/news/switzerland-replace-microssoft-pilot/",
+      "pub_date": "2026-09-07T07:40:32.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 145,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Microsoft",
+        "Swiss Federal Government",
+        "Linux",
+        "Microsoft Office"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Ask HN: How do you manage skills files?",
+      "title_display": "Ask HN: How do you manage skills files?",
+      "link": "https://news.ycombinator.com/item?id=49589914",
+      "pub_date": "2026-09-07T05:00:32.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 145,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "skills",
+        "agents",
+        "Claude",
+        "Codex"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "Ask HN: Fable hacked my piano, can I release the results?",
+      "title_display": "Ask HN: Fable hacked my piano, can I release the results?",
+      "link": "https://news.ycombinator.com/item?id=49577129",
+      "pub_date": "2026-09-07T04:00:29.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 133,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Fable",
+        "DMCA",
+        "PianoDisc",
+        "encoder/decoder"
+      ],
+      "rank": 3
+    },
+    {
+      "title": "Keep Our Servers Running: Your Recurring Donation Goes 3X This September",
+      "title_display": "Keep Our Servers Running: Your Recurring Donation Goes 3X This September",
+      "link": "https://blog.archive.org/2026/09/01/keep-our-servers-running-your-recurring-donation-goes-3x-this-september/",
+      "pub_date": "2026-09-07T03:50:27.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 388,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Internet Archive",
+        "Wayback Machine",
+        "recurring donation",
+        "donation matching"
+      ],
+      "rank": 4
+    },
     {
       "title": "Making a Python interpreter in 1024 bytes",
       "title_display": "Making a Python interpreter in 1024 bytes",
@@ -13,8 +89,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 123,
-      "score": 25,
+      "hn_points": 233,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Python",
@@ -22,7 +98,7 @@
         "1024 bytes",
         "whitespace"
       ],
-      "rank": 1
+      "rank": 5
     },
     {
       "title": "GrapheneOS Overhauled Default Apps and Secure Clipboard",
@@ -32,8 +108,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 152,
-      "score": 27,
+      "hn_points": 259,
+      "score": 29,
       "category": "other",
       "keywords": [
         "GrapheneOS",
@@ -41,7 +117,7 @@
         "Default Apps",
         "RCS"
       ],
-      "rank": 2
+      "rank": 6
     },
     {
       "title": "It took a year to ship WebAssembly in Anubis",
@@ -51,8 +127,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 124,
-      "score": 26,
+      "hn_points": 225,
+      "score": 28,
       "category": "other",
       "keywords": [
         "Anubis",
@@ -60,7 +136,7 @@
         "Proof-of-work",
         "argon2"
       ],
-      "rank": 3
+      "rank": 7
     },
     {
       "title": "Nitter is unarchived and will continue",
@@ -70,7 +146,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 337,
+      "hn_points": 660,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -79,7 +155,7 @@
         "GitHub",
         "Elon Musk"
       ],
-      "rank": 4
+      "rank": 8
     },
     {
       "title": "Asahi Linux Now Officially Supports Apple M3 Macs – With Caveats",
@@ -98,7 +174,7 @@
         "Apple",
         "Phoronix"
       ],
-      "rank": 5
+      "rank": 9
     },
     {
       "title": "AI, Tools and Transformation",
@@ -117,7 +193,7 @@
         "agents",
         "LLMs"
       ],
-      "rank": 6
+      "rank": 10
     }
   ]
 }
