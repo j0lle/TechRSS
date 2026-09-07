@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3370,
-  "filtered_articles": 16,
+  "filtered_articles": 15,
   "articles": [
+    {
+      "title": "GrapheneOS Overhauled Default Apps and Secure Clipboard",
+      "title_display": "GrapheneOS Overhauled Default Apps and Secure Clipboard",
+      "link": "https://grapheneos.social/@GrapheneOS/117225539756835649",
+      "pub_date": "2026-09-06T21:00:26.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 152,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "GrapheneOS",
+        "Secure Clipboard",
+        "Default Apps",
+        "RCS"
+      ],
+      "rank": 1
+    },
     {
       "title": "Nitter is unarchived and will continue",
       "title_display": "Nitter is unarchived and will continue",
@@ -22,7 +41,7 @@
         "GitHub",
         "Elon Musk"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Asahi Linux Now Officially Supports Apple M3 Macs – With Caveats",
@@ -41,7 +60,7 @@
         "Apple",
         "Phoronix"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "AI, Tools and Transformation",
@@ -60,7 +79,7 @@
         "agents",
         "LLMs"
       ],
-      "rank": 3
+      "rank": 4
     }
   ]
 }
