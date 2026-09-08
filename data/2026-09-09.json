@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3386,
-  "filtered_articles": 34,
+  "filtered_articles": 36,
   "articles": [
     {
       "title": "LG TVs caught spying even when offline or on standby",
@@ -13,8 +13,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 175,
-      "score": 27,
+      "hn_points": 398,
+      "score": 30,
       "category": "other",
       "keywords": [
         "LG",
@@ -23,6 +23,25 @@
         "Samsung"
       ],
       "rank": 1
+    },
+    {
+      "title": "On the Navier–Stokes Millennium Prize Problem",
+      "title_display": "On the Navier–Stokes Millennium Prize Problem",
+      "link": "https://openai.com/index/navier-stokes-solution/",
+      "pub_date": "2026-09-08T17:20:28.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 748,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "OpenAI",
+        "Navier-Stokes",
+        "Millennium Prize Problem",
+        "Lean"
+      ],
+      "rank": 2
     },
     {
       "title": "Benchmarking Qwen3.8 27B quantizations: 4-bit holds up, 1-bit collapses",
@@ -41,7 +60,7 @@
         "4-bit",
         "1-bit"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "I-have-ADHD: A skill to stop your coding agent from burying the answer",
@@ -51,8 +70,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 139,
-      "score": 26,
+      "hn_points": 253,
+      "score": 29,
       "category": "other",
       "keywords": [
         "i-have-adhd",
@@ -60,7 +79,7 @@
         "agent skill",
         "agent"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "The two Christian saints who are the Buddha",
@@ -79,7 +98,7 @@
         "Saint Josaphat",
         "Roman Catholic Church"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "LibreOffice breaks download records after declaring it has no AI features",
@@ -98,7 +117,7 @@
         "no-AI",
         "Codex"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "DaVinci Resolve 21.1",
@@ -108,8 +127,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 197,
-      "score": 28,
+      "hn_points": 299,
+      "score": 30,
       "category": "other",
       "keywords": [
         "DaVinci Resolve 21.1",
@@ -117,7 +136,7 @@
         "AI assistants",
         "Codex"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Show HN: Copperhead – Hardware as Fast as Software",
@@ -136,7 +155,7 @@
         "agents",
         "KiCad"
       ],
-      "rank": 7
+      "rank": 8
     }
   ]
 }
