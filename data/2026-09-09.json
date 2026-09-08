@@ -1,0 +1,28 @@
+{
+  "date": "2026-09-09",
+  "total_feeds": 95,
+  "success_feeds": 89,
+  "total_articles": 3382,
+  "filtered_articles": 28,
+  "articles": [
+    {
+      "title": "DaVinci Resolve 21.1",
+      "title_display": "DaVinci Resolve 21.1",
+      "link": "https://www.blackmagicdesign.com/media/release/20260908-03",
+      "pub_date": "2026-09-08T14:00:29.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 197,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "DaVinci Resolve 21.1",
+        "Blackmagic Design",
+        "AI assistants",
+        "Codex"
+      ],
+      "rank": 1
+    }
+  ]
+}
