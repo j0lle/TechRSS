@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3382,
-  "filtered_articles": 24,
+  "filtered_articles": 27,
   "articles": [
+    {
+      "title": "Trusting-Trust Attack against an Entire Linux Distribution",
+      "title_display": "Trusting-Trust Attack against an Entire Linux Distribution",
+      "link": "https://arxiv.org/abs/2607.24888",
+      "pub_date": "2026-09-07T20:20:28.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 131,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Trusting-Trust attack",
+        "Linux distribution",
+        "Ken Thompson",
+        "compiler"
+      ],
+      "rank": 1
+    },
     {
       "title": "bzip3",
       "title_display": "bzip3",
@@ -13,7 +32,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 280,
+      "hn_points": 380,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -22,7 +41,7 @@
         "lrzip",
         "xz"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "De-Brainrot Vacations",
@@ -41,7 +60,7 @@
         "devz.cl",
         "mental health"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Tiny $70 Xteink X3 e-reader puts Silicon Valley to shame",
@@ -60,7 +79,7 @@
         "Xteink X4",
         "Xteink X4 Pro"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "LG smart TVs caught logging audio with screen off and snooping on local devices",
@@ -79,7 +98,7 @@
         "Audio logging",
         "Privacy"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Programming is Art",
@@ -98,7 +117,7 @@
         "AI",
         "LLMs"
       ],
-      "rank": 5
+      "rank": 6
     }
   ]
 }
