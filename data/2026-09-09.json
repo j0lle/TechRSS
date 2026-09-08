@@ -2,9 +2,104 @@
   "date": "2026-09-09",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3382,
-  "filtered_articles": 28,
+  "total_articles": 3386,
+  "filtered_articles": 34,
   "articles": [
+    {
+      "title": "LG TVs caught spying even when offline or on standby",
+      "title_display": "LG TVs caught spying even when offline or on standby",
+      "link": "https://www.theverge.com/tech/991190/lg-tv-spying-standby-recording-wi-fi-scanning-gamers-nexus",
+      "pub_date": "2026-09-08T18:00:29.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 175,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "LG",
+        "Smart TV",
+        "Automatic Content Recognition (ACR)",
+        "Samsung"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Benchmarking Qwen3.8 27B quantizations: 4-bit holds up, 1-bit collapses",
+      "title_display": "Benchmarking Qwen3.8 27B quantizations: 4-bit holds up, 1-bit collapses",
+      "link": "https://quesma.com/blog/qwen38-27b-quantizations-benchmarked/",
+      "pub_date": "2026-09-08T15:50:29.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 146,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Qwen3.8 27B",
+        "quantization",
+        "4-bit",
+        "1-bit"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "I-have-ADHD: A skill to stop your coding agent from burying the answer",
+      "title_display": "I-have-ADHD: A skill to stop your coding agent from burying the answer",
+      "link": "https://github.com/ayghri/i-have-adhd",
+      "pub_date": "2026-09-08T15:30:28.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 139,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "i-have-adhd",
+        "coding agent",
+        "agent skill",
+        "agent"
+      ],
+      "rank": 3
+    },
+    {
+      "title": "The two Christian saints who are the Buddha",
+      "title_display": "The two Christian saints who are the Buddha",
+      "link": "https://signoregalilei.com/2026/08/30/the-two-christian-saints-who-are-secretly-the-buddha/",
+      "pub_date": "2026-09-08T15:10:29.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 144,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Buddha",
+        "Christian saints",
+        "Saint Josaphat",
+        "Roman Catholic Church"
+      ],
+      "rank": 4
+    },
+    {
+      "title": "LibreOffice breaks download records after declaring it has no AI features",
+      "title_display": "LibreOffice breaks download records after declaring it has no AI features",
+      "link": "https://manualdousuario.net/en/libreoffice-download-record-no-ai/",
+      "pub_date": "2026-09-08T14:20:32.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 569,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "LibreOffice",
+        "AI",
+        "no-AI",
+        "Codex"
+      ],
+      "rank": 5
+    },
     {
       "title": "DaVinci Resolve 21.1",
       "title_display": "DaVinci Resolve 21.1",
@@ -22,7 +117,26 @@
         "AI assistants",
         "Codex"
       ],
-      "rank": 1
+      "rank": 6
+    },
+    {
+      "title": "Show HN: Copperhead – Hardware as Fast as Software",
+      "title_display": "Show HN: Copperhead – Hardware as Fast as Software",
+      "link": "https://copperhead.sh/",
+      "pub_date": "2026-09-08T13:40:32.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 133,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Copperhead",
+        "hardware",
+        "agents",
+        "KiCad"
+      ],
+      "rank": 7
     }
   ]
 }
