@@ -1,10 +1,48 @@
 {
   "date": "2026-09-08",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3382,
-  "filtered_articles": 27,
+  "success_feeds": 88,
+  "total_articles": 3356,
+  "filtered_articles": 25,
   "articles": [
+    {
+      "title": "We have a year to fix security everywhere",
+      "title_display": "We have a year to fix security everywhere",
+      "link": "https://jyn.dev/a-year-to-fix-security/",
+      "pub_date": "2026-09-08T05:00:30.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 187,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "security",
+        "LLM",
+        "AI",
+        "supply chain"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Show HN: Stuxnet – A reconstructed source code of the infamous cyber-weapon",
+      "title_display": "Show HN: Stuxnet – A reconstructed source code of the infamous cyber-weapon",
+      "link": "https://github.com/Sadpainy/Stuxnet",
+      "pub_date": "2026-09-07T23:10:28.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 140,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Stuxnet",
+        "GitHub",
+        "source code",
+        "cyber-weapon"
+      ],
+      "rank": 2
+    },
     {
       "title": "Trusting-Trust Attack against an Entire Linux Distribution",
       "title_display": "Trusting-Trust Attack against an Entire Linux Distribution",
@@ -22,7 +60,7 @@
         "Ken Thompson",
         "compiler"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "bzip3",
@@ -41,7 +79,7 @@
         "lrzip",
         "xz"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "De-Brainrot Vacations",
@@ -60,7 +98,7 @@
         "devz.cl",
         "mental health"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "Tiny $70 Xteink X3 e-reader puts Silicon Valley to shame",
@@ -79,7 +117,7 @@
         "Xteink X4",
         "Xteink X4 Pro"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "LG smart TVs caught logging audio with screen off and snooping on local devices",
@@ -98,7 +136,7 @@
         "Audio logging",
         "Privacy"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "Programming is Art",
@@ -117,7 +155,7 @@
         "AI",
         "LLMs"
       ],
-      "rank": 6
+      "rank": 8
     }
   ]
 }
