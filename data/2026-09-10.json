@@ -1,9 +1,9 @@
 {
   "date": "2026-09-10",
   "total_feeds": 95,
-  "success_feeds": 90,
-  "total_articles": 3413,
-  "filtered_articles": 33,
+  "success_feeds": 89,
+  "total_articles": 3388,
+  "filtered_articles": 31,
   "articles": [
     {
       "title": "What do Visa and Mastercard do? An intro to card networks",
@@ -25,6 +25,44 @@
       "rank": 1
     },
     {
+      "title": "Qwen 3.8 follows GPT-5.5 Pro reasoning prefills",
+      "title_display": "Qwen 3.8 follows GPT-5.5 Pro reasoning prefills",
+      "link": "https://gist.github.com/wsxiaoys/e0286dc6bb624ff5fdf49e7f4c528ba3",
+      "pub_date": "2026-09-09T17:50:27.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 135,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Qwen 3.8",
+        "GPT-5.5 Pro",
+        "Chain-of-Thought",
+        "stolen-thoughts"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "Understanding the recent DDoS attack against Read the Docs",
+      "title_display": "Understanding the recent DDoS attack against Read the Docs",
+      "link": "https://about.readthedocs.com/blog/2026/09/2026-ddos-attack/",
+      "pub_date": "2026-09-09T17:20:30.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 125,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Read the Docs",
+        "DDoS",
+        "scraping",
+        "rate limits"
+      ],
+      "rank": 3
+    },
+    {
       "title": "GNU Radio in the Browser",
       "title_display": "GNU Radio in the Browser",
       "link": "https://gnuradioworld.com/",
@@ -41,7 +79,7 @@
         "RTL-SDR",
         "SDR"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "Claude, change the \"Add to Cart\" button to blue",
@@ -59,7 +97,7 @@
         "Opus 5",
         "Codex"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "I advertise malicious software on Google Ads",
@@ -78,7 +116,7 @@
         "Google",
         "Google Maps"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "DeepSeek launching v4.1 flash cheaper and more capable than v4 pro",
@@ -97,7 +135,7 @@
         "v4 Pro",
         "Flash"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "How An AI math breakthrough ignited a controversy",
@@ -116,7 +154,7 @@
         "Buckmaster",
         "Alpöge"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "How GPT‑5.6 Sol helps run quantum computing experiments",
@@ -135,7 +173,7 @@
         "Quantum computing",
         "Codex"
       ],
-      "rank": 7
+      "rank": 9
     }
   ]
 }
