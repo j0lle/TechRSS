@@ -3,8 +3,46 @@
   "total_feeds": 95,
   "success_feeds": 90,
   "total_articles": 3413,
-  "filtered_articles": 35,
+  "filtered_articles": 33,
   "articles": [
+    {
+      "title": "What do Visa and Mastercard do? An intro to card networks",
+      "title_display": "What do Visa and Mastercard do? An intro to card networks",
+      "link": "https://tautology.town/2026/06/01/card-networks.html",
+      "pub_date": "2026-09-09T17:50:28.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 221,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "Visa",
+        "Mastercard",
+        "card networks",
+        "interchange fee"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "GNU Radio in the Browser",
+      "title_display": "GNU Radio in the Browser",
+      "link": "https://gnuradioworld.com/",
+      "pub_date": "2026-09-09T16:10:28.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 130,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "GNU Radio",
+        "WebAssembly",
+        "RTL-SDR",
+        "SDR"
+      ],
+      "rank": 2
+    },
     {
       "title": "Claude, change the \"Add to Cart\" button to blue",
       "title_display": "Claude, change the \"Add to Cart\" button to blue",
@@ -13,7 +51,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 477,
+      "hn_points": 895,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -21,7 +59,7 @@
         "Opus 5",
         "Codex"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "I advertise malicious software on Google Ads",
@@ -31,8 +69,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 202,
-      "score": 28,
+      "hn_points": 304,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Google Ads",
@@ -40,7 +78,7 @@
         "Google",
         "Google Maps"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "DeepSeek launching v4.1 flash cheaper and more capable than v4 pro",
@@ -59,7 +97,7 @@
         "v4 Pro",
         "Flash"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "How An AI math breakthrough ignited a controversy",
@@ -78,7 +116,7 @@
         "Buckmaster",
         "Alpöge"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "How GPT‑5.6 Sol helps run quantum computing experiments",
@@ -97,7 +135,7 @@
         "Quantum computing",
         "Codex"
       ],
-      "rank": 5
+      "rank": 7
     }
   ]
 }
