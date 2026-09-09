@@ -1,10 +1,48 @@
 {
   "date": "2026-09-09",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3382,
-  "filtered_articles": 33,
+  "success_feeds": 88,
+  "total_articles": 3361,
+  "filtered_articles": 32,
   "articles": [
+    {
+      "title": "Large Language Models Develop Novel Social Biases Through Adaptive Exploration",
+      "title_display": "Large Language Models Develop Novel Social Biases Through Adaptive Exploration",
+      "link": "https://openreview.net/challenge?redirect=%2Fforum%3Fid%3Dpc7fqaOcAH",
+      "pub_date": "2026-09-08T22:10:27.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 128,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Large Language Models",
+        "social bias",
+        "adaptive exploration",
+        "exploration-exploitation"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Mercury 2.5",
+      "title_display": "Mercury 2.5",
+      "link": "https://www.inceptionlabs.ai/blog/introducing-mercury-2-5",
+      "pub_date": "2026-09-08T20:50:27.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 134,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Mercury 2.5",
+        "Inception Labs",
+        "Mercury 2",
+        "diffusion"
+      ],
+      "rank": 2
+    },
     {
       "title": "Kimi K3 (2.8T) at 1 token/s on a MacBook Pro, streamed from four SSDs",
       "title_display": "Kimi K3 (2.8T) at 1 token/s on a MacBook Pro, streamed from four SSDs",
@@ -22,7 +60,7 @@
         "argonautlabsai",
         "MacBook Pro"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "LG TVs caught spying even when offline or on standby",
@@ -41,7 +79,7 @@
         "Automatic Content Recognition (ACR)",
         "Samsung"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "On the Navier–Stokes Millennium Prize Problem",
@@ -60,7 +98,7 @@
         "Millennium Prize Problem",
         "Lean"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "Benchmarking Qwen3.8 27B quantizations: 4-bit holds up, 1-bit collapses",
@@ -79,7 +117,7 @@
         "4-bit",
         "1-bit"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "I-have-ADHD: A skill to stop your coding agent from burying the answer",
@@ -89,8 +127,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 253,
-      "score": 29,
+      "hn_points": 353,
+      "score": 30,
       "category": "other",
       "keywords": [
         "i-have-adhd",
@@ -98,7 +136,7 @@
         "agent skill",
         "agent"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "The two Christian saints who are the Buddha",
@@ -117,7 +155,7 @@
         "Saint Josaphat",
         "Roman Catholic Church"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "LibreOffice breaks download records after declaring it has no AI features",
@@ -136,7 +174,7 @@
         "no-AI",
         "Codex"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "DaVinci Resolve 21.1",
@@ -155,7 +193,7 @@
         "AI assistants",
         "Codex"
       ],
-      "rank": 8
+      "rank": 10
     },
     {
       "title": "Show HN: Copperhead – Hardware as Fast as Software",
@@ -174,7 +212,7 @@
         "agents",
         "KiCad"
       ],
-      "rank": 9
+      "rank": 11
     }
   ]
 }
