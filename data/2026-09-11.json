@@ -1,10 +1,104 @@
 {
   "date": "2026-09-11",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3361,
-  "filtered_articles": 28,
+  "success_feeds": 90,
+  "total_articles": 3416,
+  "filtered_articles": 31,
   "articles": [
+    {
+      "title": "Software Drives People Insane",
+      "title_display": "Software Drives People Insane",
+      "link": "https://graybeard.ing/software-drives-people-insane/",
+      "pub_date": "2026-09-10T17:01:07.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 181,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "software",
+        "users",
+        "project manager"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Cognition launches new SWE-2 model, Rivaling Fable 5.1 and GPT-Astra",
+      "title_display": "Cognition launches new SWE-2 model, Rivaling Fable 5.1 and GPT-Astra",
+      "link": "https://cognition.com/blog/swe-2",
+      "pub_date": "2026-09-10T16:11:07.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 184,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Cognition",
+        "SWE-2",
+        "Fable 5.1",
+        "GPT-Astra"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "More questions about whether researchers can trust OpenAI with unpublished math",
+      "title_display": "More questions about whether researchers can trust OpenAI with unpublished math",
+      "link": "https://mathstodon.xyz/@andreasthom/117240535270608201",
+      "pub_date": "2026-09-10T16:01:07.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 258,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "OpenAI",
+        "training data",
+        "mathematics",
+        "Andreas Thom"
+      ],
+      "rank": 3
+    },
+    {
+      "title": "Tell HN: OpenAI keeps re-enabling the 'allow training' setting",
+      "title_display": "Tell HN: OpenAI keeps re-enabling the 'allow training' setting",
+      "link": "https://news.ycombinator.com/item?id=49643556",
+      "pub_date": "2026-09-10T14:01:07.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 358,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "OpenAI",
+        "allow training",
+        "checkbox",
+        "privacy"
+      ],
+      "rank": 4
+    },
+    {
+      "title": "List of references on Sony websites to players \"owning\" their digital games",
+      "title_display": "List of references on Sony websites to players \"owning\" their digital games",
+      "link": "https://consumerrights.wiki/w/Sony_PlayStation_digital_game_ownership_lawsuit",
+      "pub_date": "2026-09-10T13:11:09.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 214,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "Sony",
+        "PlayStation",
+        "digital game ownership",
+        "lawsuit"
+      ],
+      "rank": 5
+    },
     {
       "title": "Show HN: The same nine streaming subscriptions cost $702/year more than in 2021",
       "title_display": "Show HN: The same nine streaming subscriptions cost $702/year more than in 2021",
@@ -22,7 +116,7 @@
         "inflation",
         "physical media"
       ],
-      "rank": 1
+      "rank": 6
     },
     {
       "title": "Stockfish 19",
@@ -41,7 +135,7 @@
         "Chess engine",
         "AlphaZero"
       ],
-      "rank": 2
+      "rank": 7
     }
   ]
 }
