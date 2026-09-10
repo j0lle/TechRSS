@@ -1,0 +1,47 @@
+{
+  "date": "2026-09-11",
+  "total_feeds": 95,
+  "success_feeds": 88,
+  "total_articles": 3361,
+  "filtered_articles": 28,
+  "articles": [
+    {
+      "title": "Show HN: The same nine streaming subscriptions cost $702/year more than in 2021",
+      "title_display": "Show HN: The same nine streaming subscriptions cost $702/year more than in 2021",
+      "link": "https://honestlyranked.com/guides/streaming-price-increases/",
+      "pub_date": "2026-09-10T10:51:06.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 242,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "streaming subscriptions",
+        "streaming price increases",
+        "inflation",
+        "physical media"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Stockfish 19",
+      "title_display": "Stockfish 19",
+      "link": "https://stockfishchess.org/blog/2026/stockfish-19/",
+      "pub_date": "2026-09-10T09:31:05.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 146,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Stockfish",
+        "Stockfish 19",
+        "Chess engine",
+        "AlphaZero"
+      ],
+      "rank": 2
+    }
+  ]
+}
