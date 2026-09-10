@@ -1,10 +1,48 @@
 {
   "date": "2026-09-10",
   "total_feeds": 95,
-  "success_feeds": 90,
-  "total_articles": 3413,
-  "filtered_articles": 27,
+  "success_feeds": 89,
+  "total_articles": 3384,
+  "filtered_articles": 28,
   "articles": [
+    {
+      "title": "DeepSeek v4.1 Flash",
+      "title_display": "DeepSeek v4.1 Flash",
+      "link": "https://twitter.com/deepseek_ai/status/2097930608790167907",
+      "pub_date": "2026-09-10T07:11:05.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 374,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "DeepSeek v4.1 Flash",
+        "DeepSeek",
+        "Engram",
+        "KV cache"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "OpenAI might have stolen another major proof",
+      "title_display": "OpenAI might have stolen another major proof",
+      "link": "https://twitter.com/ValerioCapraro/status/2097791836269977996",
+      "pub_date": "2026-09-10T04:41:06.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 202,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "OpenAI",
+        "proof",
+        "training data",
+        "Andreas Thom"
+      ],
+      "rank": 2
+    },
     {
       "title": "What do Visa and Mastercard do? An intro to card networks",
       "title_display": "What do Visa and Mastercard do? An intro to card networks",
@@ -22,7 +60,7 @@
         "card networks",
         "interchange fee"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "Qwen 3.8 follows GPT-5.5 Pro reasoning prefills",
@@ -41,7 +79,7 @@
         "Chain-of-Thought",
         "stolen-thoughts"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "Understanding the recent DDoS attack against Read the Docs",
@@ -60,7 +98,7 @@
         "scraping",
         "rate limits"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "GNU Radio in the Browser",
@@ -79,7 +117,7 @@
         "RTL-SDR",
         "SDR"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "Claude, change the \"Add to Cart\" button to blue",
@@ -97,7 +135,7 @@
         "Opus 5",
         "Codex"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "I advertise malicious software on Google Ads",
@@ -116,7 +154,7 @@
         "Google",
         "Google Maps"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "DeepSeek launching v4.1 flash cheaper and more capable than v4 pro",
@@ -135,7 +173,7 @@
         "v4 Pro",
         "Flash"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "How An AI math breakthrough ignited a controversy",
@@ -154,7 +192,7 @@
         "Buckmaster",
         "Alpöge"
       ],
-      "rank": 8
+      "rank": 10
     },
     {
       "title": "How GPT‑5.6 Sol helps run quantum computing experiments",
@@ -173,7 +211,7 @@
         "Quantum computing",
         "Codex"
       ],
-      "rank": 9
+      "rank": 11
     }
   ]
 }
