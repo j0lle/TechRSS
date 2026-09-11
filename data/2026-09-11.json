@@ -1,10 +1,48 @@
 {
   "date": "2026-09-11",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3309,
-  "filtered_articles": 33,
+  "success_feeds": 89,
+  "total_articles": 3386,
+  "filtered_articles": 32,
   "articles": [
+    {
+      "title": "Silicon Valley Is Transforming the Military-Industrial Complex",
+      "title_display": "Silicon Valley Is Transforming the Military-Industrial Complex",
+      "link": "https://costsofwar.watson.brown.edu/paper/how-big-tech-and-silicon-valley-are-transforming-military-industrial-complex",
+      "pub_date": "2026-09-10T17:31:05.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 129,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Silicon Valley",
+        "Military-Industrial Complex",
+        "Venture capital (VC)",
+        "Pentagon"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Forgejo <=16.0.3 Critical RCE",
+      "title_display": "Forgejo <=16.0.3 Critical RCE",
+      "link": "https://codeberg.org/forgejo/forgejo/src/branch/forgejo/release-notes-published/16.0.4.md",
+      "pub_date": "2026-09-10T17:31:04.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 127,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Forgejo",
+        "RCE",
+        "template expansion",
+        ".git"
+      ],
+      "rank": 2
+    },
     {
       "title": "Software Drives People Insane",
       "title_display": "Software Drives People Insane",
@@ -21,7 +59,7 @@
         "users",
         "project manager"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "Neki",
@@ -40,7 +78,7 @@
         "Postgres",
         "sharding"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "Cognition launches new SWE-2 model, Rivaling Fable 5.1 and GPT-Astra",
@@ -59,7 +97,7 @@
         "Fable 5.1",
         "GPT-Astra"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "More questions about whether researchers can trust OpenAI with unpublished math",
@@ -78,7 +116,7 @@
         "mathematics",
         "Andreas Thom"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "Tell HN: OpenAI keeps re-enabling the 'allow training' setting",
@@ -97,7 +135,7 @@
         "checkbox",
         "privacy"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "List of references on Sony websites to players \"owning\" their digital games",
@@ -116,7 +154,7 @@
         "digital game ownership",
         "lawsuit"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "Show HN: The same nine streaming subscriptions cost $702/year more than in 2021",
@@ -135,7 +173,7 @@
         "inflation",
         "physical media"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "Stockfish 19",
@@ -154,7 +192,7 @@
         "Chess engine",
         "AlphaZero"
       ],
-      "rank": 8
+      "rank": 10
     }
   ]
 }
