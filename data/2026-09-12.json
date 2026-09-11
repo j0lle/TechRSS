@@ -3,8 +3,46 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3384,
-  "filtered_articles": 34,
+  "filtered_articles": 36,
   "articles": [
+    {
+      "title": "GrapheneOS' rewritten Messages app is released",
+      "title_display": "GrapheneOS' rewritten Messages app is released",
+      "link": "https://github.com/GrapheneOS/Messaging/releases/tag/13",
+      "pub_date": "2026-09-11T19:40:31.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 151,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "GrapheneOS",
+        "GrapheneOS Messaging",
+        "GitHub",
+        "alpha release channel"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "The EPA Is Planning to Scrap Public Review Rules for Data Center Pollution",
+      "title_display": "The EPA Is Planning to Scrap Public Review Rules for Data Center Pollution",
+      "link": "https://capitalbnews.org/data-centers-permit-rules-epa/",
+      "pub_date": "2026-09-11T18:50:34.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 209,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "EPA",
+        "data centers",
+        "pollution",
+        "public review"
+      ],
+      "rank": 2
+    },
     {
       "title": "Feeling Sad about AI",
       "title_display": "Feeling Sad about AI",
@@ -22,7 +60,26 @@
         "Software engineering",
         "ChatGPT"
       ],
-      "rank": 1
+      "rank": 3
+    },
+    {
+      "title": "Global Glacier Extinction Explorer",
+      "title_display": "Global Glacier Extinction Explorer",
+      "link": "https://glacierextinction.com",
+      "pub_date": "2026-09-11T16:20:34.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 141,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Global Glacier Extinction Explorer",
+        "glacierextinction.com",
+        "glaciers",
+        "glacier extinction"
+      ],
+      "rank": 4
     },
     {
       "title": "I've operated petabyte-scale ClickHouse clusters for 5 years",
@@ -41,7 +98,7 @@
         "petabyte-scale",
         "DBA"
       ],
-      "rank": 2
+      "rank": 5
     },
     {
       "title": "HuggingFace: Security.txt",
@@ -60,7 +117,7 @@
         "robots.txt",
         "LLMs"
       ],
-      "rank": 3
+      "rank": 6
     },
     {
       "title": "If coding is solved, what now?: Measuring the sloppiness of code",
@@ -79,7 +136,7 @@
         "SlopCodeBench",
         "benchmark"
       ],
-      "rank": 4
+      "rank": 7
     },
     {
       "title": "Logo Programming Language",
@@ -98,7 +155,7 @@
         "Logo Foundation",
         "MIT Media Lab"
       ],
-      "rank": 5
+      "rank": 8
     },
     {
       "title": "RTK reports token savings, but our cost benchmarks disagree",
@@ -117,7 +174,7 @@
         "cost benchmarks",
         "AI coding"
       ],
-      "rank": 6
+      "rank": 9
     },
     {
       "title": "The Waymo effect: how AI is quietly making research less collaborative",
@@ -136,7 +193,7 @@
         "LLM",
         "Waymo"
       ],
-      "rank": 7
+      "rank": 10
     },
     {
       "title": "Claude is no longer available for minors",
@@ -155,7 +212,7 @@
         "age-assurance",
         "Yoti"
       ],
-      "rank": 8
+      "rank": 11
     }
   ]
 }
