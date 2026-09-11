@@ -1,10 +1,48 @@
 {
   "date": "2026-09-11",
   "total_feeds": 95,
-  "success_feeds": 90,
-  "total_articles": 3411,
-  "filtered_articles": 29,
+  "success_feeds": 89,
+  "total_articles": 3384,
+  "filtered_articles": 30,
   "articles": [
+    {
+      "title": "So you want to use OpenRouter?",
+      "title_display": "So you want to use OpenRouter?",
+      "link": "https://mmoustafa.com/blog/so-you-want-to-use-openrouter/",
+      "pub_date": "2026-09-11T10:30:35.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 277,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "OpenRouter",
+        "OpenRouter credits",
+        "opencode",
+        "Deepseek"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Nine coding harnesses vs. your laptop",
+      "title_display": "Nine coding harnesses vs. your laptop",
+      "link": "https://nasutton.notion.site/Nine-coding-harnesses-vs-your-laptop-3d139990182b80d59fa3cf500f0450ba?pvs=74",
+      "pub_date": "2026-09-11T05:01:07.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 130,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "coding harnesses",
+        "local models",
+        "laptop",
+        "llama.cpp"
+      ],
+      "rank": 2
+    },
     {
       "title": "OpenAI Agents API",
       "title_display": "OpenAI Agents API",
@@ -22,7 +60,26 @@
         "Codex",
         "Astra"
       ],
-      "rank": 1
+      "rank": 3
+    },
+    {
+      "title": "Proof of Capture: Apple Reference Image, but open source and using steganography",
+      "title_display": "Proof of Capture: Apple Reference Image, but open source and using steganography",
+      "link": "https://merybenavente.me/blog/proof-of-capture",
+      "pub_date": "2026-09-10T21:01:05.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 122,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "Proof of Capture",
+        "Apple Reference Image",
+        "steganography",
+        "digital signatures"
+      ],
+      "rank": 4
     },
     {
       "title": "Silicon Valley Is Transforming the Military-Industrial Complex",
@@ -41,7 +98,7 @@
         "Venture capital (VC)",
         "Pentagon"
       ],
-      "rank": 2
+      "rank": 5
     },
     {
       "title": "Forgejo <=16.0.3 Critical RCE",
@@ -60,7 +117,7 @@
         "template expansion",
         ".git"
       ],
-      "rank": 3
+      "rank": 6
     },
     {
       "title": "Software Drives People Insane",
@@ -78,7 +135,7 @@
         "users",
         "project manager"
       ],
-      "rank": 4
+      "rank": 7
     },
     {
       "title": "Neki",
@@ -88,8 +145,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 152,
-      "score": 27,
+      "hn_points": 252,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Neki",
@@ -97,7 +154,7 @@
         "Postgres",
         "sharding"
       ],
-      "rank": 5
+      "rank": 8
     },
     {
       "title": "Cognition launches new SWE-2 model, Rivaling Fable 5.1 and GPT-Astra",
@@ -116,7 +173,7 @@
         "Fable 5.1",
         "GPT-Astra"
       ],
-      "rank": 6
+      "rank": 9
     },
     {
       "title": "More questions about whether researchers can trust OpenAI with unpublished math",
@@ -135,7 +192,7 @@
         "mathematics",
         "Andreas Thom"
       ],
-      "rank": 7
+      "rank": 10
     },
     {
       "title": "Tell HN: OpenAI keeps re-enabling the 'allow training' setting",
@@ -154,7 +211,7 @@
         "checkbox",
         "privacy"
       ],
-      "rank": 8
+      "rank": 11
     },
     {
       "title": "List of references on Sony websites to players \"owning\" their digital games",
@@ -173,7 +230,7 @@
         "digital game ownership",
         "lawsuit"
       ],
-      "rank": 9
+      "rank": 12
     },
     {
       "title": "Show HN: The same nine streaming subscriptions cost $702/year more than in 2021",
@@ -192,7 +249,7 @@
         "inflation",
         "physical media"
       ],
-      "rank": 10
+      "rank": 13
     },
     {
       "title": "Stockfish 19",
@@ -211,7 +268,7 @@
         "Chess engine",
         "AlphaZero"
       ],
-      "rank": 11
+      "rank": 14
     }
   ]
 }
