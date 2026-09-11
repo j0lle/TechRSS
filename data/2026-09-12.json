@@ -2,9 +2,123 @@
   "date": "2026-09-12",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3389,
-  "filtered_articles": 26,
+  "total_articles": 3384,
+  "filtered_articles": 34,
   "articles": [
+    {
+      "title": "Feeling Sad about AI",
+      "title_display": "Feeling Sad about AI",
+      "link": "https://artificialworlds.net/blog/2026/09/11/feeling-sad-about-ai/",
+      "pub_date": "2026-09-11T17:10:30.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 125,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "AI",
+        "LLM",
+        "Software engineering",
+        "ChatGPT"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "I've operated petabyte-scale ClickHouse clusters for 5 years",
+      "title_display": "I've operated petabyte-scale ClickHouse clusters for 5 years",
+      "link": "https://www.tinybird.co/blog/what-i-learned-operating-clickhouse",
+      "pub_date": "2026-09-11T15:50:36.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 133,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "ClickHouse",
+        "Tinybird",
+        "petabyte-scale",
+        "DBA"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "HuggingFace: Security.txt",
+      "title_display": "HuggingFace: Security.txt",
+      "link": "https://huggingface.co/security.txt",
+      "pub_date": "2026-09-11T15:20:34.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 177,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "HuggingFace",
+        "security.txt",
+        "robots.txt",
+        "LLMs"
+      ],
+      "rank": 3
+    },
+    {
+      "title": "If coding is solved, what now?: Measuring the sloppiness of code",
+      "title_display": "If coding is solved, what now?: Measuring the sloppiness of code",
+      "link": "https://earendil.com/posts/measuring-code-sloppiness/",
+      "pub_date": "2026-09-11T14:20:37.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 132,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "code sloppiness",
+        "code quality",
+        "SlopCodeBench",
+        "benchmark"
+      ],
+      "rank": 4
+    },
+    {
+      "title": "Logo Programming Language",
+      "title_display": "Logo Programming Language",
+      "link": "https://el.media.mit.edu/logo-foundation/what_is_logo/logo_programming.html",
+      "pub_date": "2026-09-11T14:10:36.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 145,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Logo",
+        "Turtle graphics",
+        "Logo Foundation",
+        "MIT Media Lab"
+      ],
+      "rank": 5
+    },
+    {
+      "title": "RTK reports token savings, but our cost benchmarks disagree",
+      "title_display": "RTK reports token savings, but our cost benchmarks disagree",
+      "link": "https://quesma.com/blog/does-rtk-make-ai-coding-cheaper/",
+      "pub_date": "2026-09-11T11:30:34.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 127,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "RTK",
+        "tokens",
+        "cost benchmarks",
+        "AI coding"
+      ],
+      "rank": 6
+    },
     {
       "title": "The Waymo effect: how AI is quietly making research less collaborative",
       "title_display": "The Waymo effect: how AI is quietly making research less collaborative",
@@ -22,7 +136,7 @@
         "LLM",
         "Waymo"
       ],
-      "rank": 1
+      "rank": 7
     },
     {
       "title": "Claude is no longer available for minors",
@@ -41,7 +155,7 @@
         "age-assurance",
         "Yoti"
       ],
-      "rank": 2
+      "rank": 8
     }
   ]
 }
