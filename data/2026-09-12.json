@@ -1,10 +1,29 @@
 {
   "date": "2026-09-12",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3360,
-  "filtered_articles": 38,
+  "success_feeds": 89,
+  "total_articles": 3385,
+  "filtered_articles": 32,
   "articles": [
+    {
+      "title": "Retrospectively Reverse-Engineering Apple's Neural Engine",
+      "title_display": "Retrospectively Reverse-Engineering Apple's Neural Engine",
+      "link": "https://eiln.github.io/posts/ane.html",
+      "pub_date": "2026-09-12T08:00:54.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 134,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Apple Neural Engine (ANE)",
+        "reverse-engineering",
+        "Apple",
+        "M4"
+      ],
+      "rank": 1
+    },
     {
       "title": "Pandas Should Go Extinct",
       "title_display": "Pandas Should Go Extinct",
@@ -22,7 +41,7 @@
         "duckdb",
         "python"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Rune is now open source",
@@ -41,7 +60,7 @@
         "Go",
         "contributor program"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "GrapheneOS' rewritten Messages app is released",
@@ -60,7 +79,7 @@
         "GitHub",
         "alpha release channel"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "The EPA Is Planning to Scrap Public Review Rules for Data Center Pollution",
@@ -79,7 +98,7 @@
         "pollution",
         "public review"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Litelm: LiteLLM Without the Bloat",
@@ -98,7 +117,7 @@
         "Bifrost",
         "LLM"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Λ Snap – An inviting programming language for kids and adults for CS study",
@@ -117,7 +136,7 @@
         "BYOB",
         "Berkeley"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Feeling Sad about AI",
@@ -136,7 +155,7 @@
         "Software engineering",
         "ChatGPT"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Global Glacier Extinction Explorer",
@@ -155,7 +174,7 @@
         "glaciers",
         "glacier extinction"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "I've operated petabyte-scale ClickHouse clusters for 5 years",
@@ -174,7 +193,7 @@
         "petabyte-scale",
         "DBA"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "HuggingFace: Security.txt",
@@ -193,7 +212,7 @@
         "robots.txt",
         "LLMs"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "If coding is solved, what now?: Measuring the sloppiness of code",
@@ -212,7 +231,7 @@
         "SlopCodeBench",
         "benchmark"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "Logo Programming Language",
@@ -231,7 +250,7 @@
         "Logo Foundation",
         "MIT Media Lab"
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "title": "RTK reports token savings, but our cost benchmarks disagree",
@@ -250,7 +269,7 @@
         "cost benchmarks",
         "AI coding"
       ],
-      "rank": 13
+      "rank": 14
     },
     {
       "title": "The Waymo effect: how AI is quietly making research less collaborative",
@@ -269,7 +288,7 @@
         "LLM",
         "Waymo"
       ],
-      "rank": 14
+      "rank": 15
     },
     {
       "title": "Claude is no longer available for minors",
@@ -288,7 +307,7 @@
         "age-assurance",
         "Yoti"
       ],
-      "rank": 15
+      "rank": 16
     },
     {
       "title": "Stop making swap partitions–use swap files instead",
@@ -307,7 +326,7 @@
         "Linux",
         "hibernation"
       ],
-      "rank": 16
+      "rank": 17
     }
   ]
 }
