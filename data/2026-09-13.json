@@ -1,10 +1,29 @@
 {
   "date": "2026-09-13",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3383,
-  "filtered_articles": 18,
+  "success_feeds": 88,
+  "total_articles": 3358,
+  "filtered_articles": 19,
   "articles": [
+    {
+      "title": "Homebrew 7.0.0",
+      "title_display": "Homebrew 7.0.0",
+      "link": "https://brew.sh/2026/09/13/homebrew-7.0.0/",
+      "pub_date": "2026-09-13T11:21:01.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 201,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "Homebrew",
+        "macOS",
+        "Intel Macs",
+        "Linux"
+      ],
+      "rank": 1
+    },
     {
       "title": "Why are AI agents lying, cheating and coordinating?",
       "title_display": "Why are AI agents lying, cheating and coordinating?",
@@ -13,8 +32,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 131,
-      "score": 26,
+      "hn_points": 339,
+      "score": 30,
       "category": "other",
       "keywords": [
         "AI agents",
@@ -22,7 +41,7 @@
         "AI alignment",
         "training data"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Getting 50 GB/S Back from the Apple Neural Engine",
@@ -41,7 +60,7 @@
         "DMA",
         "kernel DMA"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Apple iPod Engraver (2019)",
@@ -51,8 +70,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 128,
-      "score": 26,
+      "hn_points": 230,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Apple",
@@ -60,7 +79,7 @@
         "Dunstan Orchard",
         "JavaScript"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Real-SWE: Benchmarking AI models on private, real-world, enterprise codebases",
@@ -79,7 +98,7 @@
         "enterprise codebases",
         "withspecific.com"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Stabilizing Rust's Never Type",
@@ -98,7 +117,7 @@
         "!",
         "Default"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "LG denies TV spying claims, says tracking and snooping concerns 'not true'",
@@ -117,7 +136,7 @@
         "Tom's Hardware",
         "GamersNexus"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Make Your First Edit to OpenStreetMap in the Next 15 Minutes",
@@ -136,7 +155,7 @@
         "iD",
         "josm-plugin-website-wizard"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "We Must Pace the Frontier",
@@ -155,7 +174,7 @@
         "AI governance",
         "China"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Fuck it, make it anyway",
@@ -174,7 +193,7 @@
         "programming",
         "code"
       ],
-      "rank": 9
+      "rank": 10
     }
   ]
 }
