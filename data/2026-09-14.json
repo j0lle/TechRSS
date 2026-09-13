@@ -1,0 +1,28 @@
+{
+  "date": "2026-09-14",
+  "total_feeds": 95,
+  "success_feeds": 90,
+  "total_articles": 3413,
+  "filtered_articles": 18,
+  "articles": [
+    {
+      "title": "Aligned to Whom?",
+      "title_display": "Aligned to Whom?",
+      "link": "https://hyperbo.la/w/aligned-to-whom/",
+      "pub_date": "2026-09-13T07:20:54.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 132,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "alignment",
+        "LLMs",
+        "hacking",
+        "training data"
+      ],
+      "rank": 1
+    }
+  ]
+}
