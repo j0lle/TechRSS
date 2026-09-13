@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3385,
-  "filtered_articles": 20,
+  "filtered_articles": 17,
   "articles": [
     {
       "title": "LG denies TV spying claims, says tracking and snooping concerns 'not true'",
@@ -13,8 +13,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 276,
-      "score": 29,
+      "hn_points": 386,
+      "score": 30,
       "category": "other",
       "keywords": [
         "LG",
@@ -32,8 +32,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 125,
-      "score": 26,
+      "hn_points": 235,
+      "score": 29,
       "category": "other",
       "keywords": [
         "OpenStreetMap",
