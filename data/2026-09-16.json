@@ -1,0 +1,66 @@
+{
+  "date": "2026-09-16",
+  "total_feeds": 95,
+  "success_feeds": 90,
+  "total_articles": 3418,
+  "filtered_articles": 24,
+  "articles": [
+    {
+      "title": "Show HN: An e-ink frame that hears birds and draws them as 1800s illustrations",
+      "title_display": "Show HN: An e-ink frame that hears birds and draws them as 1800s illustrations",
+      "link": "https://github.com/arnegiacomo/fugleramme",
+      "pub_date": "2026-09-15T13:10:54.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 538,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "fugleramme",
+        "e-ink",
+        "BirdNET-Go",
+        "bird-detection"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "CSS-Tricks in Limbo",
+      "title_display": "CSS-Tricks in Limbo",
+      "link": "https://vale.rocks/micros/20260915-0135",
+      "pub_date": "2026-09-15T11:31:04.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 164,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "CSS-Tricks",
+        "DigitalOcean",
+        "Tailwind CSS",
+        "Omarchy"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "OpenArm: An open-source 7DOF humanoid arm",
+      "title_display": "OpenArm: An open-source 7DOF humanoid arm",
+      "link": "https://github.com/enactic/OpenArm",
+      "pub_date": "2026-09-15T05:30:55.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 131,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "OpenArm",
+        "humanoid arm",
+        "7DOF",
+        "open-source"
+      ],
+      "rank": 3
+    }
+  ]
+}
