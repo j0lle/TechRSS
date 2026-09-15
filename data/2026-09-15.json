@@ -1,10 +1,67 @@
 {
   "date": "2026-09-15",
   "total_feeds": 95,
-  "success_feeds": 90,
-  "total_articles": 3414,
-  "filtered_articles": 23,
+  "success_feeds": 88,
+  "total_articles": 3361,
+  "filtered_articles": 26,
   "articles": [
+    {
+      "title": "Linux from Scratch",
+      "title_display": "Linux from Scratch",
+      "link": "https://www.linuxfromscratch.org/",
+      "pub_date": "2026-09-15T05:40:54.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 147,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Linux From Scratch",
+        "LFS",
+        "Linux",
+        "Linux kernel"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Dropping eBPF CPU Cost by About 90% with Memoization (Not AI Gen)",
+      "title_display": "Dropping eBPF CPU Cost by About 90% with Memoization (Not AI Gen)",
+      "link": "https://nathannaveen.dev/posts/dropping-ebpf-cpu-cost-by-90/",
+      "pub_date": "2026-09-15T00:30:55.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 121,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "eBPF",
+        "memoization",
+        "CPU",
+        "Linux"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "GPT-5.6 Luna vs. GPT-6 Astra: Is a $1.20 Model Good Enough for Code Review?",
+      "title_display": "GPT-5.6 Luna vs. GPT-6 Astra: Is a $1.20 Model Good Enough for Code Review?",
+      "link": "https://entelligence.ai/blogs/gpt-5.6-luna-vs-gpt-6-astra-is-a-1.20-model-good-enough-for-code-review",
+      "pub_date": "2026-09-14T20:20:57.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 138,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "GPT-5.6 Luna",
+        "GPT-6 Astra",
+        "code review",
+        "Claude"
+      ],
+      "rank": 3
+    },
     {
       "title": "How my e-reader lost its stripes",
       "title_display": "How my e-reader lost its stripes",
@@ -22,7 +79,7 @@
         "CrossPoint Reader",
         "e-reader"
       ],
-      "rank": 1
+      "rank": 4
     },
     {
       "title": "Steam Frame starts at $1059",
@@ -32,7 +89,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 315,
+      "hn_points": 617,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -41,7 +98,7 @@
         "Meta Quest 3",
         "Half-Life Alyx"
       ],
-      "rank": 2
+      "rank": 5
     },
     {
       "title": "iOS 27, iPadOS 27, and macOS 27 released",
@@ -60,7 +117,7 @@
         "iPadOS 27",
         "macOS 27"
       ],
-      "rank": 3
+      "rank": 6
     },
     {
       "title": "Show HN: Neobrutalism.dev – just added Base UI support and added new color theme",
@@ -79,7 +136,7 @@
         "Base UI",
         "design system"
       ],
-      "rank": 4
+      "rank": 7
     },
     {
       "title": "Principles for Fast Tokio Applications",
@@ -98,7 +155,7 @@
         "tracing",
         "eBPF"
       ],
-      "rank": 5
+      "rank": 8
     },
     {
       "title": "Distributed Systems Classics",
@@ -117,7 +174,7 @@
         "Leslie Lamport",
         "Paxos"
       ],
-      "rank": 6
+      "rank": 9
     },
     {
       "title": "How to Write an Effective Software Design Document",
@@ -136,7 +193,26 @@
         "software architecture",
         "LLM"
       ],
-      "rank": 7
+      "rank": 10
+    },
+    {
+      "title": "People Who Can't Picture Anything Are Rewriting the Science of Imagination",
+      "title_display": "People Who Can't Picture Anything Are Rewriting the Science of Imagination",
+      "link": "https://dailyneuron.com/aphantasia-mental-imagery-brain-network/",
+      "pub_date": "2026-09-14T14:21:03.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 172,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "aphantasia",
+        "mental imagery",
+        "brain network",
+        "visual cortex"
+      ],
+      "rank": 11
     },
     {
       "title": "Apple's Siri AI Can Be Swapped Out for Claude, ChatGPT, Code Shows",
@@ -155,7 +231,7 @@
         "ChatGPT",
         "Claude"
       ],
-      "rank": 8
+      "rank": 12
     },
     {
       "title": "XCancel suspended \"due to a new development in the ongoing legal proceedings\"",
@@ -174,7 +250,7 @@
         "Nitter",
         "zedeus/nitter"
       ],
-      "rank": 9
+      "rank": 13
     },
     {
       "title": "OpenArch – PyTorch implementations of modern LLM architectures",
@@ -193,7 +269,7 @@
         "LLM",
         "inference"
       ],
-      "rank": 10
+      "rank": 14
     },
     {
       "title": "A 386 PC for Your RP2350",
@@ -212,7 +288,7 @@
         "frank-386",
         "rh1tech"
       ],
-      "rank": 11
+      "rank": 15
     },
     {
       "title": "EuroBirdPortal – Live bird movements across Europe",
@@ -231,7 +307,7 @@
         "visualization",
         "real-time"
       ],
-      "rank": 12
+      "rank": 16
     }
   ]
 }
