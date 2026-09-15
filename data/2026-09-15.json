@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 88,
   "total_articles": 3359,
-  "filtered_articles": 29,
+  "filtered_articles": 26,
   "articles": [
     {
       "title": "Steam Frame starts at $1059",
@@ -44,6 +44,25 @@
       "rank": 2
     },
     {
+      "title": "Show HN: Neobrutalism.dev – just added Base UI support and added new color theme",
+      "title_display": "Show HN: Neobrutalism.dev – just added Base UI support and added new color theme",
+      "link": "https://www.neobrutalism.dev/",
+      "pub_date": "2026-09-14T16:51:00.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 122,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "neobrutalism.dev",
+        "Neobrutalism",
+        "Base UI",
+        "design system"
+      ],
+      "rank": 3
+    },
+    {
       "title": "Principles for Fast Tokio Applications",
       "title_display": "Principles for Fast Tokio Applications",
       "link": "https://dial9-rs.github.io/blog/principles-for-fast-tokio-applications/",
@@ -60,7 +79,7 @@
         "tracing",
         "eBPF"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Distributed Systems Classics",
@@ -79,7 +98,7 @@
         "Leslie Lamport",
         "Paxos"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "How to Write an Effective Software Design Document",
@@ -98,7 +117,7 @@
         "software architecture",
         "LLM"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Apple's Siri AI Can Be Swapped Out for Claude, ChatGPT, Code Shows",
@@ -117,7 +136,7 @@
         "ChatGPT",
         "Claude"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "XCancel suspended \"due to a new development in the ongoing legal proceedings\"",
@@ -136,7 +155,26 @@
         "Nitter",
         "zedeus/nitter"
       ],
-      "rank": 7
+      "rank": 8
+    },
+    {
+      "title": "OpenArch – PyTorch implementations of modern LLM architectures",
+      "title_display": "OpenArch – PyTorch implementations of modern LLM architectures",
+      "link": "https://github.com/anuj0456/OpenArch",
+      "pub_date": "2026-09-14T10:40:54.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 128,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "OpenArch",
+        "PyTorch",
+        "LLM",
+        "inference"
+      ],
+      "rank": 9
     },
     {
       "title": "A 386 PC for Your RP2350",
@@ -155,7 +193,7 @@
         "frank-386",
         "rh1tech"
       ],
-      "rank": 8
+      "rank": 10
     },
     {
       "title": "EuroBirdPortal – Live bird movements across Europe",
@@ -174,7 +212,7 @@
         "visualization",
         "real-time"
       ],
-      "rank": 9
+      "rank": 11
     }
   ]
 }
