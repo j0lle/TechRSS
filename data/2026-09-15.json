@@ -1,10 +1,29 @@
 {
   "date": "2026-09-15",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3359,
-  "filtered_articles": 26,
+  "success_feeds": 90,
+  "total_articles": 3414,
+  "filtered_articles": 23,
   "articles": [
+    {
+      "title": "How my e-reader lost its stripes",
+      "title_display": "How my e-reader lost its stripes",
+      "link": "https://www.serpentine.com/posts/2026/x3-stripes/",
+      "pub_date": "2026-09-14T19:00:56.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 146,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Xteink X3",
+        "CrossPoint",
+        "CrossPoint Reader",
+        "e-reader"
+      ],
+      "rank": 1
+    },
     {
       "title": "Steam Frame starts at $1059",
       "title_display": "Steam Frame starts at $1059",
@@ -22,7 +41,7 @@
         "Meta Quest 3",
         "Half-Life Alyx"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "iOS 27, iPadOS 27, and macOS 27 released",
@@ -32,8 +51,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 226,
-      "score": 28,
+      "hn_points": 335,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Apple",
@@ -41,7 +60,7 @@
         "iPadOS 27",
         "macOS 27"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Show HN: Neobrutalism.dev – just added Base UI support and added new color theme",
@@ -60,7 +79,7 @@
         "Base UI",
         "design system"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Principles for Fast Tokio Applications",
@@ -79,7 +98,7 @@
         "tracing",
         "eBPF"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Distributed Systems Classics",
@@ -89,8 +108,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 156,
-      "score": 27,
+      "hn_points": 256,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Distributed systems",
@@ -98,7 +117,7 @@
         "Leslie Lamport",
         "Paxos"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "How to Write an Effective Software Design Document",
@@ -117,7 +136,7 @@
         "software architecture",
         "LLM"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Apple's Siri AI Can Be Swapped Out for Claude, ChatGPT, Code Shows",
@@ -136,7 +155,7 @@
         "ChatGPT",
         "Claude"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "XCancel suspended \"due to a new development in the ongoing legal proceedings\"",
@@ -155,7 +174,7 @@
         "Nitter",
         "zedeus/nitter"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "OpenArch – PyTorch implementations of modern LLM architectures",
@@ -174,7 +193,7 @@
         "LLM",
         "inference"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "A 386 PC for Your RP2350",
@@ -193,7 +212,7 @@
         "frank-386",
         "rh1tech"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "EuroBirdPortal – Live bird movements across Europe",
@@ -212,7 +231,7 @@
         "visualization",
         "real-time"
       ],
-      "rank": 11
+      "rank": 12
     }
   ]
 }
