@@ -1,10 +1,67 @@
 {
   "date": "2026-09-16",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3388,
+  "success_feeds": 90,
+  "total_articles": 3418,
   "filtered_articles": 27,
   "articles": [
+    {
+      "title": "Jev: New frontier model 40-400x cheaper and 20-200x faster",
+      "title_display": "Jev: New frontier model 40-400x cheaper and 20-200x faster",
+      "link": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
+      "pub_date": "2026-09-15T19:40:53.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 521,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Jev",
+        "System One",
+        "TypeSafe",
+        "LLM"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "An Update on Wayback Machine Access",
+      "title_display": "An Update on Wayback Machine Access",
+      "link": "https://blog.archive.org/2026/09/15/an-update-on-wayback-machine-access/",
+      "pub_date": "2026-09-15T18:30:57.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 237,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "Wayback Machine",
+        "Internet Archive",
+        "web scraping",
+        "HTTP 429"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "We got admin access to Baseten's production GitHub in 25 minutes",
+      "title_display": "We got admin access to Baseten's production GitHub in 25 minutes",
+      "link": "https://www.strix.ai/blog/baseten-harbor-github-pat-takeover",
+      "pub_date": "2026-09-15T18:20:54.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 146,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Baseten",
+        "GitHub",
+        "GitHub PAT",
+        "Harbor"
+      ],
+      "rank": 3
+    },
     {
       "title": "Show HN: Capsule – Single-file web apps that save their data into SQLite",
       "title_display": "Show HN: Capsule – Single-file web apps that save their data into SQLite",
@@ -13,8 +70,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 156,
-      "score": 27,
+      "hn_points": 256,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Capsule",
@@ -22,7 +79,7 @@
         ".capsule",
         "single-file web apps"
       ],
-      "rank": 1
+      "rank": 4
     },
     {
       "title": "Show HN: Hacking a $20 4G wireless hotspot into a texting device",
@@ -41,7 +98,7 @@
         "modem-thing",
         "bkovac"
       ],
-      "rank": 2
+      "rank": 5
     },
     {
       "title": "Show HN: An e-ink frame that hears birds and draws them as 1800s illustrations",
@@ -51,7 +108,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 538,
+      "hn_points": 1149,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -60,7 +117,7 @@
         "BirdNET-Go",
         "bird-detection"
       ],
-      "rank": 3
+      "rank": 6
     },
     {
       "title": "CSS-Tricks in Limbo",
@@ -79,7 +136,7 @@
         "Tailwind CSS",
         "Omarchy"
       ],
-      "rank": 4
+      "rank": 7
     },
     {
       "title": "Let's make quality the norm again",
@@ -89,8 +146,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 145,
-      "score": 26,
+      "hn_points": 252,
+      "score": 29,
       "category": "other",
       "keywords": [
         "quality",
@@ -98,7 +155,7 @@
         "short-life",
         "planned obsolescence"
       ],
-      "rank": 5
+      "rank": 8
     },
     {
       "title": "OpenArm: An open-source 7DOF humanoid arm",
@@ -117,7 +174,7 @@
         "7DOF",
         "open-source"
       ],
-      "rank": 6
+      "rank": 9
     }
   ]
 }
