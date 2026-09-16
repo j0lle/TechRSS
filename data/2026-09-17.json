@@ -1,10 +1,48 @@
 {
   "date": "2026-09-17",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3394,
+  "success_feeds": 90,
+  "total_articles": 3419,
   "filtered_articles": 34,
   "articles": [
+    {
+      "title": "Xiami Mimo 2.6 Live Training Dashboard",
+      "title_display": "Xiami Mimo 2.6 Live Training Dashboard",
+      "link": "https://mimo.xiaomi.com/rl/",
+      "pub_date": "2026-09-16T20:50:54.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 174,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "MiMo 2.6",
+        "MiMo",
+        "Xiaomi",
+        "live training dashboard"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Training a 4B model to produce 81% faster query plans than Postgres",
+      "title_display": "Training a 4B model to produce 81% faster query plans than Postgres",
+      "link": "https://rohanbansal.com/qorl",
+      "pub_date": "2026-09-16T19:30:56.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 292,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Postgres",
+        "query plans",
+        "4B model",
+        "pg_hint_plan"
+      ],
+      "rank": 2
+    },
     {
       "title": "Claude Cowork and chat are now one Claude",
       "title_display": "Claude Cowork and chat are now one Claude",
@@ -22,7 +60,7 @@
         "Chat",
         "Anthropic"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "Small Programming Tricks",
@@ -32,8 +70,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 195,
-      "score": 28,
+      "hn_points": 301,
+      "score": 30,
       "category": "other",
       "keywords": [
         "shell",
@@ -41,7 +79,26 @@
         "zsh",
         "terminal"
       ],
-      "rank": 2
+      "rank": 4
+    },
+    {
+      "title": "Can We Stop with the Uptime Percentages?",
+      "title_display": "Can We Stop with the Uptime Percentages?",
+      "link": "https://blog.jim-nielsen.com/2026/stop-with-the-uptime-percentage/",
+      "pub_date": "2026-09-16T16:10:53.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 123,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "uptime percentages",
+        "downtime",
+        "nines",
+        "SLA"
+      ],
+      "rank": 5
     },
     {
       "title": "PS5 Linux lead quits: \"a bunch of noobs using LLMs\" that \"they don't understand\"",
@@ -60,7 +117,7 @@
         "LLMs",
         "Sony"
       ],
-      "rank": 3
+      "rank": 6
     },
     {
       "title": "Hackers Got Inside a Flock Camera. Its Data Shows How the System Works",
@@ -79,7 +136,7 @@
         "ALPR",
         "Linux kernel 3.18"
       ],
-      "rank": 4
+      "rank": 7
     },
     {
       "title": "Original Sony PlayStation 2 security chip 'broken wide open' after 26 years",
@@ -98,7 +155,7 @@
         "Mechacon",
         "Sony"
       ],
-      "rank": 5
+      "rank": 8
     },
     {
       "title": "Learning Programming in an Age of LLMs",
@@ -117,7 +174,7 @@
         "AI",
         "JavaScript"
       ],
-      "rank": 6
+      "rank": 9
     }
   ]
 }
