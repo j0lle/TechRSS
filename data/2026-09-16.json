@@ -1,10 +1,29 @@
 {
   "date": "2026-09-16",
   "total_feeds": 95,
-  "success_feeds": 90,
-  "total_articles": 3418,
-  "filtered_articles": 28,
+  "success_feeds": 89,
+  "total_articles": 3393,
+  "filtered_articles": 30,
   "articles": [
+    {
+      "title": "Apple Reference Image: A New Approach for Verified Photography",
+      "title_display": "Apple Reference Image: A New Approach for Verified Photography",
+      "link": "https://security.apple.com/blog/apple-reference-image/",
+      "pub_date": "2026-09-16T03:00:59.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 144,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Apple Reference Image",
+        "Verified photography",
+        "Apple",
+        "LiDAR"
+      ],
+      "rank": 1
+    },
     {
       "title": "German Rheinmetall open-sources its Battlesuite connected weapon system protcol",
       "title_display": "German Rheinmetall open-sources its Battlesuite connected weapon system protcol",
@@ -22,7 +41,7 @@
         "DDS",
         "Onboard API"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Building a Linux GPU Driver for the M4 Mac Mini in One Month",
@@ -32,8 +51,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 138,
-      "score": 26,
+      "hn_points": 242,
+      "score": 29,
       "category": "other",
       "keywords": [
         "M4 Mac Mini",
@@ -41,7 +60,26 @@
         "Cody Ho",
         "Linux kernel"
       ],
-      "rank": 2
+      "rank": 3
+    },
+    {
+      "title": "WangNet – 1.8 MB, zero-dependency Numberwang adjudication in 11 languages",
+      "title_display": "WangNet – 1.8 MB, zero-dependency Numberwang adjudication in 11 languages",
+      "link": "https://github.com/GraafHenk/numberwang",
+      "pub_date": "2026-09-15T20:20:54.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 133,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Numberwang",
+        "WangNet",
+        "GraafHenk",
+        "GitHub"
+      ],
+      "rank": 4
     },
     {
       "title": "Jev: New frontier model 40-400x cheaper and 20-200x faster",
@@ -51,7 +89,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 521,
+      "hn_points": 1017,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -60,7 +98,7 @@
         "TypeSafe",
         "LLM"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "An Update on Wayback Machine Access",
@@ -79,7 +117,7 @@
         "web scraping",
         "HTTP 429"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "We got admin access to Baseten's production GitHub in 25 minutes",
@@ -89,8 +127,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 146,
-      "score": 26,
+      "hn_points": 246,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Baseten",
@@ -98,7 +136,7 @@
         "GitHub PAT",
         "Harbor"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "The CSS Zen Garden dream shipped",
@@ -117,7 +155,7 @@
         "csszengarden.com",
         "Jos Prague"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "Show HN: Capsule – Single-file web apps that save their data into SQLite",
@@ -136,7 +174,7 @@
         ".capsule",
         "single-file web apps"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "Show HN: Hacking a $20 4G wireless hotspot into a texting device",
@@ -155,7 +193,7 @@
         "modem-thing",
         "bkovac"
       ],
-      "rank": 8
+      "rank": 10
     },
     {
       "title": "Show HN: An e-ink frame that hears birds and draws them as 1800s illustrations",
@@ -165,7 +203,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 1149,
+      "hn_points": 1464,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -174,7 +212,7 @@
         "BirdNET-Go",
         "bird-detection"
       ],
-      "rank": 9
+      "rank": 11
     },
     {
       "title": "CSS-Tricks in Limbo",
@@ -193,7 +231,7 @@
         "Tailwind CSS",
         "Omarchy"
       ],
-      "rank": 10
+      "rank": 12
     },
     {
       "title": "Let's make quality the norm again",
@@ -203,8 +241,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 252,
-      "score": 29,
+      "hn_points": 357,
+      "score": 30,
       "category": "other",
       "keywords": [
         "quality",
@@ -212,7 +250,7 @@
         "short-life",
         "planned obsolescence"
       ],
-      "rank": 11
+      "rank": 13
     },
     {
       "title": "OpenArm: An open-source 7DOF humanoid arm",
@@ -231,7 +269,7 @@
         "7DOF",
         "open-source"
       ],
-      "rank": 12
+      "rank": 14
     }
   ]
 }
