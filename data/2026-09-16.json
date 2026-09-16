@@ -3,8 +3,46 @@
   "total_feeds": 95,
   "success_feeds": 90,
   "total_articles": 3418,
-  "filtered_articles": 27,
+  "filtered_articles": 28,
   "articles": [
+    {
+      "title": "German Rheinmetall open-sources its Battlesuite connected weapon system protcol",
+      "title_display": "German Rheinmetall open-sources its Battlesuite connected weapon system protcol",
+      "link": "https://rheinmetall.github.io/onboardapi-documentation/9.10.0/index.html",
+      "pub_date": "2026-09-15T21:30:53.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 125,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Rheinmetall",
+        "Battlesuite",
+        "DDS",
+        "Onboard API"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Building a Linux GPU Driver for the M4 Mac Mini in One Month",
+      "title_display": "Building a Linux GPU Driver for the M4 Mac Mini in One Month",
+      "link": "https://codyho.dev/blog/gpu-driver/",
+      "pub_date": "2026-09-15T21:20:54.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 138,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "M4 Mac Mini",
+        "Linux GPU driver",
+        "Cody Ho",
+        "Linux kernel"
+      ],
+      "rank": 2
+    },
     {
       "title": "Jev: New frontier model 40-400x cheaper and 20-200x faster",
       "title_display": "Jev: New frontier model 40-400x cheaper and 20-200x faster",
@@ -22,7 +60,7 @@
         "TypeSafe",
         "LLM"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "An Update on Wayback Machine Access",
@@ -32,8 +70,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 237,
-      "score": 29,
+      "hn_points": 346,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Wayback Machine",
@@ -41,7 +79,7 @@
         "web scraping",
         "HTTP 429"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "We got admin access to Baseten's production GitHub in 25 minutes",
@@ -60,7 +98,26 @@
         "GitHub PAT",
         "Harbor"
       ],
-      "rank": 3
+      "rank": 5
+    },
+    {
+      "title": "The CSS Zen Garden dream shipped",
+      "title_display": "The CSS Zen Garden dream shipped",
+      "link": "https://josprague.com/blog/the-css-zen-garden-dream-finally-shipped/",
+      "pub_date": "2026-09-15T16:30:59.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 120,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "CSS Zen Garden",
+        "CSS",
+        "csszengarden.com",
+        "Jos Prague"
+      ],
+      "rank": 6
     },
     {
       "title": "Show HN: Capsule – Single-file web apps that save their data into SQLite",
@@ -79,7 +136,7 @@
         ".capsule",
         "single-file web apps"
       ],
-      "rank": 4
+      "rank": 7
     },
     {
       "title": "Show HN: Hacking a $20 4G wireless hotspot into a texting device",
@@ -98,7 +155,7 @@
         "modem-thing",
         "bkovac"
       ],
-      "rank": 5
+      "rank": 8
     },
     {
       "title": "Show HN: An e-ink frame that hears birds and draws them as 1800s illustrations",
@@ -117,7 +174,7 @@
         "BirdNET-Go",
         "bird-detection"
       ],
-      "rank": 6
+      "rank": 9
     },
     {
       "title": "CSS-Tricks in Limbo",
@@ -136,7 +193,7 @@
         "Tailwind CSS",
         "Omarchy"
       ],
-      "rank": 7
+      "rank": 10
     },
     {
       "title": "Let's make quality the norm again",
@@ -155,7 +212,7 @@
         "short-life",
         "planned obsolescence"
       ],
-      "rank": 8
+      "rank": 11
     },
     {
       "title": "OpenArm: An open-source 7DOF humanoid arm",
@@ -174,7 +231,7 @@
         "7DOF",
         "open-source"
       ],
-      "rank": 9
+      "rank": 12
     }
   ]
 }
