@@ -2,9 +2,47 @@
   "date": "2026-09-17",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3388,
-  "filtered_articles": 32,
+  "total_articles": 3394,
+  "filtered_articles": 34,
   "articles": [
+    {
+      "title": "Claude Cowork and chat are now one Claude",
+      "title_display": "Claude Cowork and chat are now one Claude",
+      "link": "https://claude.com/blog/cowork-is-now-claude",
+      "pub_date": "2026-09-16T17:01:13.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 134,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Claude",
+        "Claude Cowork",
+        "Chat",
+        "Anthropic"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Small Programming Tricks",
+      "title_display": "Small Programming Tricks",
+      "link": "https://will-keleher.com/posts/small-programming-tricks-matter/",
+      "pub_date": "2026-09-16T16:10:54.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 195,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "shell",
+        "bash",
+        "zsh",
+        "terminal"
+      ],
+      "rank": 2
+    },
     {
       "title": "PS5 Linux lead quits: \"a bunch of noobs using LLMs\" that \"they don't understand\"",
       "title_display": "PS5 Linux lead quits: \"a bunch of noobs using LLMs\" that \"they don't understand\"",
@@ -22,7 +60,7 @@
         "LLMs",
         "Sony"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "Hackers Got Inside a Flock Camera. Its Data Shows How the System Works",
@@ -32,8 +70,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 239,
-      "score": 29,
+      "hn_points": 354,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Flock Safety",
@@ -41,7 +79,26 @@
         "ALPR",
         "Linux kernel 3.18"
       ],
-      "rank": 2
+      "rank": 4
+    },
+    {
+      "title": "Original Sony PlayStation 2 security chip 'broken wide open' after 26 years",
+      "title_display": "Original Sony PlayStation 2 security chip 'broken wide open' after 26 years",
+      "link": "https://www.tomshardware.com/video-games/playstation/26-year-old-sony-ps2-security-chip-broken-wide-open-after-four-years-of-effort-reverse-engineering-enthusiast-successfully-unlocks-cxp102064-mechacon-chip",
+      "pub_date": "2026-09-16T13:40:55.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 185,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "PlayStation 2",
+        "CXP102064",
+        "Mechacon",
+        "Sony"
+      ],
+      "rank": 5
     },
     {
       "title": "Learning Programming in an Age of LLMs",
@@ -60,7 +117,7 @@
         "AI",
         "JavaScript"
       ],
-      "rank": 3
+      "rank": 6
     }
   ]
 }
