@@ -1,0 +1,66 @@
+{
+  "date": "2026-09-18",
+  "total_feeds": 95,
+  "success_feeds": 89,
+  "total_articles": 3397,
+  "filtered_articles": 35,
+  "articles": [
+    {
+      "title": "Fujitsu launches made-in-Japan next-generation CPU FUJITSU-MONAKA",
+      "title_display": "Fujitsu launches made-in-Japan next-generation CPU FUJITSU-MONAKA",
+      "link": "https://global.fujitsu/en-global/pr/news/2026/09/14-02",
+      "pub_date": "2026-09-17T13:41:00.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 274,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "FUJITSU-MONAKA",
+        "Fujitsu",
+        "2nm",
+        "3D-stacked"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Cloudflare/Security-Audit-Skill",
+      "title_display": "Cloudflare/Security-Audit-Skill",
+      "link": "https://github.com/cloudflare/security-audit-skill",
+      "pub_date": "2026-09-17T07:51:00.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 138,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Cloudflare",
+        "security-audit-skill",
+        "Cloudflare Skills",
+        "tokens"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "Comparison of Malloc() Algorithms",
+      "title_display": "Comparison of Malloc() Algorithms",
+      "link": "https://egbert.net/blog/articles/comparison-of-arena-architecture-in-malloc.html",
+      "pub_date": "2026-09-17T06:00:56.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 129,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "malloc",
+        "arena architecture",
+        "memory allocator",
+        "TLS"
+      ],
+      "rank": 3
+    }
+  ]
+}
