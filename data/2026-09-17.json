@@ -2,9 +2,28 @@
   "date": "2026-09-17",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3392,
-  "filtered_articles": 40,
+  "total_articles": 3395,
+  "filtered_articles": 41,
   "articles": [
+    {
+      "title": "GLM Built Its Own Inference Infrastructure",
+      "title_display": "GLM Built Its Own Inference Infrastructure",
+      "link": "https://z.ai/blog/glm-built-its-inference-infrastructure",
+      "pub_date": "2026-09-17T09:50:59.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 153,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "GLM",
+        "z.ai",
+        "GLM-5.3",
+        "GLM-5.3-Flash"
+      ],
+      "rank": 1
+    },
     {
       "title": "Keys Not Included: recovering the signing keys for US driver's license barcodes",
       "title_display": "Keys Not Included: recovering the signing keys for US driver's license barcodes",
@@ -22,7 +41,45 @@
         "barcode",
         "public key"
       ],
-      "rank": 1
+      "rank": 2
+    },
+    {
+      "title": "Developing provably correct Rust code with Verus",
+      "title_display": "Developing provably correct Rust code with Verus",
+      "link": "https://www.amazon.science/blog/developing-provably-correct-rust-code-with-verus",
+      "pub_date": "2026-09-17T02:00:55.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 122,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "Verus",
+        "Rust",
+        "Formal verification",
+        "SMT"
+      ],
+      "rank": 3
+    },
+    {
+      "title": "HarnessTax: How Much Does the Harness Matter for Coding Agents?",
+      "title_display": "HarnessTax: How Much Does the Harness Matter for Coding Agents?",
+      "link": "https://harnesstax.github.io/",
+      "pub_date": "2026-09-17T01:31:00.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 132,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "HarnessTax",
+        "harness",
+        "coding agents",
+        "Claude Code"
+      ],
+      "rank": 4
     },
     {
       "title": "OpenSpec – A lightweight and configurable AI spec framework",
@@ -41,7 +98,7 @@
         "AI agents",
         "LLMs"
       ],
-      "rank": 2
+      "rank": 5
     },
     {
       "title": "Japan's book scene is moving from bookstores to libraries",
@@ -60,7 +117,7 @@
         "bookstores",
         "books"
       ],
-      "rank": 3
+      "rank": 6
     },
     {
       "title": "Nvidia announces native GPU programming in Rust",
@@ -70,7 +127,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 421,
+      "hn_points": 739,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -79,7 +136,7 @@
         "Rust",
         "cuda-oxide"
       ],
-      "rank": 4
+      "rank": 7
     },
     {
       "title": "Performance Improvements in .NET 11",
@@ -98,7 +155,7 @@
         "Microsoft",
         "AoT"
       ],
-      "rank": 5
+      "rank": 8
     },
     {
       "title": "AWS says it can't restore some data from mideast facilities struck by Iran",
@@ -117,7 +174,7 @@
         "data loss",
         "availability zones"
       ],
-      "rank": 6
+      "rank": 9
     },
     {
       "title": "Xiami Mimo 2.6 Live Training Dashboard",
@@ -136,7 +193,7 @@
         "Xiaomi",
         "live training dashboard"
       ],
-      "rank": 7
+      "rank": 10
     },
     {
       "title": "Reversing Factorio's RNG",
@@ -155,7 +212,7 @@
         "reverse engineering",
         "Nintendo Switch"
       ],
-      "rank": 8
+      "rank": 11
     },
     {
       "title": "Training a 4B model to produce 81% faster query plans than Postgres",
@@ -174,7 +231,7 @@
         "4B model",
         "pg_hint_plan"
       ],
-      "rank": 9
+      "rank": 12
     },
     {
       "title": "Claude Cowork and chat are now one Claude",
@@ -193,7 +250,7 @@
         "Chat",
         "Anthropic"
       ],
-      "rank": 10
+      "rank": 13
     },
     {
       "title": "Small Programming Tricks",
@@ -212,7 +269,7 @@
         "zsh",
         "terminal"
       ],
-      "rank": 11
+      "rank": 14
     },
     {
       "title": "Can We Stop with the Uptime Percentages?",
@@ -231,7 +288,7 @@
         "nines",
         "SLA"
       ],
-      "rank": 12
+      "rank": 15
     },
     {
       "title": "PS5 Linux lead quits: \"a bunch of noobs using LLMs\" that \"they don't understand\"",
@@ -250,7 +307,7 @@
         "LLMs",
         "Sony"
       ],
-      "rank": 13
+      "rank": 16
     },
     {
       "title": "Hackers Got Inside a Flock Camera. Its Data Shows How the System Works",
@@ -269,7 +326,7 @@
         "ALPR",
         "Linux kernel 3.18"
       ],
-      "rank": 14
+      "rank": 17
     },
     {
       "title": "Original Sony PlayStation 2 security chip 'broken wide open' after 26 years",
@@ -288,7 +345,7 @@
         "Mechacon",
         "Sony"
       ],
-      "rank": 15
+      "rank": 18
     },
     {
       "title": "Learning Programming in an Age of LLMs",
@@ -307,7 +364,7 @@
         "AI",
         "JavaScript"
       ],
-      "rank": 16
+      "rank": 19
     }
   ]
 }
