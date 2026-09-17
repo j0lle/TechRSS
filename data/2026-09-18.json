@@ -2,9 +2,66 @@
   "date": "2026-09-18",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3397,
-  "filtered_articles": 35,
+  "total_articles": 3402,
+  "filtered_articles": 33,
   "articles": [
+    {
+      "title": "hister",
+      "title_display": "hister",
+      "link": "https://github.com/asciimoo/hister",
+      "pub_date": "2026-09-17T16:50:56.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 303,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "hister",
+        "personal search",
+        "full-text search",
+        "semantic search"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Show HN: Share your AI Setup, Learn from others",
+      "title_display": "Show HN: Share your AI Setup, Learn from others",
+      "link": "https://mysetup.ai/",
+      "pub_date": "2026-09-17T15:00:59.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 132,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "mysetup.ai",
+        "MCP",
+        "Claude",
+        "Codex"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "The American Religion of Self-Storage Facilities",
+      "title_display": "The American Religion of Self-Storage Facilities",
+      "link": "https://www.newyorker.com/magazine/2026/09/21/the-american-religion-of-self-storage-facilities",
+      "pub_date": "2026-09-17T14:00:55.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 140,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "self-storage",
+        "self-storage industry",
+        "storage units",
+        "The New Yorker"
+      ],
+      "rank": 3
+    },
     {
       "title": "Fujitsu launches made-in-Japan next-generation CPU FUJITSU-MONAKA",
       "title_display": "Fujitsu launches made-in-Japan next-generation CPU FUJITSU-MONAKA",
@@ -13,8 +70,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 274,
-      "score": 29,
+      "hn_points": 396,
+      "score": 30,
       "category": "other",
       "keywords": [
         "FUJITSU-MONAKA",
@@ -22,7 +79,7 @@
         "2nm",
         "3D-stacked"
       ],
-      "rank": 1
+      "rank": 4
     },
     {
       "title": "Cloudflare/Security-Audit-Skill",
@@ -41,7 +98,7 @@
         "Cloudflare Skills",
         "tokens"
       ],
-      "rank": 2
+      "rank": 5
     },
     {
       "title": "Comparison of Malloc() Algorithms",
@@ -60,7 +117,7 @@
         "memory allocator",
         "TLS"
       ],
-      "rank": 3
+      "rank": 6
     }
   ]
 }
