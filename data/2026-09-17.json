@@ -1,10 +1,67 @@
 {
   "date": "2026-09-17",
   "total_feeds": 95,
-  "success_feeds": 90,
-  "total_articles": 3419,
-  "filtered_articles": 38,
+  "success_feeds": 89,
+  "total_articles": 3392,
+  "filtered_articles": 40,
   "articles": [
+    {
+      "title": "Keys Not Included: recovering the signing keys for US driver's license barcodes",
+      "title_display": "Keys Not Included: recovering the signing keys for US driver's license barcodes",
+      "link": "https://ryan.science/blog/keys-not-included",
+      "pub_date": "2026-09-17T03:31:01.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 146,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "signing keys",
+        "US driver's license",
+        "barcode",
+        "public key"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "OpenSpec – A lightweight and configurable AI spec framework",
+      "title_display": "OpenSpec – A lightweight and configurable AI spec framework",
+      "link": "https://openspec.dev/",
+      "pub_date": "2026-09-16T23:20:57.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 134,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "OpenSpec",
+        "spec-driven development",
+        "AI agents",
+        "LLMs"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "Japan's book scene is moving from bookstores to libraries",
+      "title_display": "Japan's book scene is moving from bookstores to libraries",
+      "link": "https://untranslatedjp.substack.com/p/japans-book-scene-is-quietly-moving",
+      "pub_date": "2026-09-16T22:40:58.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 161,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Japan",
+        "libraries",
+        "bookstores",
+        "books"
+      ],
+      "rank": 3
+    },
     {
       "title": "Nvidia announces native GPU programming in Rust",
       "title_display": "Nvidia announces native GPU programming in Rust",
@@ -13,8 +70,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 271,
-      "score": 29,
+      "hn_points": 421,
+      "score": 30,
       "category": "other",
       "keywords": [
         "NVIDIA",
@@ -22,7 +79,7 @@
         "Rust",
         "cuda-oxide"
       ],
-      "rank": 1
+      "rank": 4
     },
     {
       "title": "Performance Improvements in .NET 11",
@@ -32,8 +89,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 168,
-      "score": 27,
+      "hn_points": 273,
+      "score": 29,
       "category": "other",
       "keywords": [
         ".NET 11",
@@ -41,7 +98,7 @@
         "Microsoft",
         "AoT"
       ],
-      "rank": 2
+      "rank": 5
     },
     {
       "title": "AWS says it can't restore some data from mideast facilities struck by Iran",
@@ -51,8 +108,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 172,
-      "score": 27,
+      "hn_points": 378,
+      "score": 30,
       "category": "other",
       "keywords": [
         "AWS",
@@ -60,7 +117,7 @@
         "data loss",
         "availability zones"
       ],
-      "rank": 3
+      "rank": 6
     },
     {
       "title": "Xiami Mimo 2.6 Live Training Dashboard",
@@ -70,7 +127,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 283,
+      "hn_points": 389,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -79,7 +136,7 @@
         "Xiaomi",
         "live training dashboard"
       ],
-      "rank": 4
+      "rank": 7
     },
     {
       "title": "Reversing Factorio's RNG",
@@ -98,7 +155,7 @@
         "reverse engineering",
         "Nintendo Switch"
       ],
-      "rank": 5
+      "rank": 8
     },
     {
       "title": "Training a 4B model to produce 81% faster query plans than Postgres",
@@ -117,7 +174,7 @@
         "4B model",
         "pg_hint_plan"
       ],
-      "rank": 6
+      "rank": 9
     },
     {
       "title": "Claude Cowork and chat are now one Claude",
@@ -136,7 +193,7 @@
         "Chat",
         "Anthropic"
       ],
-      "rank": 7
+      "rank": 10
     },
     {
       "title": "Small Programming Tricks",
@@ -155,7 +212,7 @@
         "zsh",
         "terminal"
       ],
-      "rank": 8
+      "rank": 11
     },
     {
       "title": "Can We Stop with the Uptime Percentages?",
@@ -174,7 +231,7 @@
         "nines",
         "SLA"
       ],
-      "rank": 9
+      "rank": 12
     },
     {
       "title": "PS5 Linux lead quits: \"a bunch of noobs using LLMs\" that \"they don't understand\"",
@@ -193,7 +250,7 @@
         "LLMs",
         "Sony"
       ],
-      "rank": 10
+      "rank": 13
     },
     {
       "title": "Hackers Got Inside a Flock Camera. Its Data Shows How the System Works",
@@ -212,7 +269,7 @@
         "ALPR",
         "Linux kernel 3.18"
       ],
-      "rank": 11
+      "rank": 14
     },
     {
       "title": "Original Sony PlayStation 2 security chip 'broken wide open' after 26 years",
@@ -231,7 +288,7 @@
         "Mechacon",
         "Sony"
       ],
-      "rank": 12
+      "rank": 15
     },
     {
       "title": "Learning Programming in an Age of LLMs",
@@ -250,7 +307,7 @@
         "AI",
         "JavaScript"
       ],
-      "rank": 13
+      "rank": 16
     }
   ]
 }
