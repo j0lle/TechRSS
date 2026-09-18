@@ -3,8 +3,46 @@
   "total_feeds": 95,
   "success_feeds": 90,
   "total_articles": 3427,
-  "filtered_articles": 29,
+  "filtered_articles": 32,
   "articles": [
+    {
+      "title": "Bonsai 2 27B: Near-Lossless Compression in a 9x Smaller Footprint",
+      "title_display": "Bonsai 2 27B: Near-Lossless Compression in a 9x Smaller Footprint",
+      "link": "https://prismml.com/news/bonsai-2-27b",
+      "pub_date": "2026-09-17T21:40:53.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 269,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "Bonsai 2 27B",
+        "PrismML",
+        "ternary quantization",
+        "GGUF"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Bend",
+      "title_display": "Bend",
+      "link": "https://bend-lang.com/",
+      "pub_date": "2026-09-17T21:00:54.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 335,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Bend",
+        "AI",
+        "formal verification",
+        "proof"
+      ],
+      "rank": 2
+    },
     {
       "title": "Wax Motor",
       "title_display": "Wax Motor",
@@ -13,8 +51,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 183,
-      "score": 27,
+      "hn_points": 283,
+      "score": 30,
       "category": "other",
       "keywords": [
         "wax motor",
@@ -22,7 +60,26 @@
         "automotive thermostat",
         "Big Clive"
       ],
-      "rank": 1
+      "rank": 3
+    },
+    {
+      "title": "Infinite-Parameter LLMs: Generating and Adapting Weights from Live Data",
+      "title_display": "Infinite-Parameter LLMs: Generating and Adapting Weights from Live Data",
+      "link": "https://arxiv.org/abs/2609.18842",
+      "pub_date": "2026-09-17T18:20:53.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 124,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Infinite-Parameter LLMs",
+        "generating weights",
+        "adapting weights",
+        "continuous learning"
+      ],
+      "rank": 4
     },
     {
       "title": "hister",
@@ -41,7 +98,26 @@
         "full-text search",
         "semantic search"
       ],
-      "rank": 2
+      "rank": 5
+    },
+    {
+      "title": "CrowdSec Source Code Leak",
+      "title_display": "CrowdSec Source Code Leak",
+      "link": "https://www.crowdsec.net/blog/crowdsec-statement-source-code-exposure",
+      "pub_date": "2026-09-17T16:30:54.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 123,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "CrowdSec",
+        "source code leak",
+        "GitHub",
+        "IP reputation"
+      ],
+      "rank": 6
     },
     {
       "title": "Rate limits on GitLab.com are changing",
@@ -60,7 +136,7 @@
         "LLMs",
         "scraping"
       ],
-      "rank": 3
+      "rank": 7
     },
     {
       "title": "Show HN: Share your AI Setup, Learn from others",
@@ -79,7 +155,7 @@
         "Claude",
         "Codex"
       ],
-      "rank": 4
+      "rank": 8
     },
     {
       "title": "The American Religion of Self-Storage Facilities",
@@ -98,7 +174,7 @@
         "storage units",
         "The New Yorker"
       ],
-      "rank": 5
+      "rank": 9
     },
     {
       "title": "Fujitsu launches made-in-Japan next-generation CPU FUJITSU-MONAKA",
@@ -117,7 +193,7 @@
         "2nm",
         "3D-stacked"
       ],
-      "rank": 6
+      "rank": 10
     },
     {
       "title": "Cloudflare/Security-Audit-Skill",
@@ -136,7 +212,7 @@
         "Cloudflare Skills",
         "tokens"
       ],
-      "rank": 7
+      "rank": 11
     },
     {
       "title": "Comparison of Malloc() Algorithms",
@@ -155,7 +231,7 @@
         "memory allocator",
         "TLS"
       ],
-      "rank": 8
+      "rank": 12
     }
   ]
 }
