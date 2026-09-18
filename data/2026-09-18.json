@@ -1,10 +1,48 @@
 {
   "date": "2026-09-18",
   "total_feeds": 95,
-  "success_feeds": 90,
-  "total_articles": 3427,
-  "filtered_articles": 32,
+  "success_feeds": 89,
+  "total_articles": 3400,
+  "filtered_articles": 28,
   "articles": [
+    {
+      "title": "Hacking OpenAI",
+      "title_display": "Hacking OpenAI",
+      "link": "https://www.hacktron.ai/blog/hacking-openai",
+      "pub_date": "2026-09-18T03:40:53.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 338,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "OpenAI",
+        "model weights",
+        "bug bounty",
+        "source code"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Alibaba releases Qwen 3.8 Omni Flash",
+      "title_display": "Alibaba releases Qwen 3.8 Omni Flash",
+      "link": "https://qwen.ai/blog?id=qwen3.8-omni-flash",
+      "pub_date": "2026-09-18T01:40:56.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 128,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Qwen 3.8 Omni Flash",
+        "Alibaba",
+        "Qwen4",
+        "Flash-Next"
+      ],
+      "rank": 2
+    },
     {
       "title": "Bonsai 2 27B: Near-Lossless Compression in a 9x Smaller Footprint",
       "title_display": "Bonsai 2 27B: Near-Lossless Compression in a 9x Smaller Footprint",
@@ -13,8 +51,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 269,
-      "score": 29,
+      "hn_points": 382,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Bonsai 2 27B",
@@ -22,7 +60,7 @@
         "ternary quantization",
         "GGUF"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "Bend",
@@ -41,7 +79,7 @@
         "formal verification",
         "proof"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "Wax Motor",
@@ -51,7 +89,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 283,
+      "hn_points": 390,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -60,7 +98,7 @@
         "automotive thermostat",
         "Big Clive"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "Infinite-Parameter LLMs: Generating and Adapting Weights from Live Data",
@@ -79,7 +117,7 @@
         "adapting weights",
         "continuous learning"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "hister",
@@ -89,7 +127,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 303,
+      "hn_points": 604,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -98,7 +136,7 @@
         "full-text search",
         "semantic search"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "CrowdSec Source Code Leak",
@@ -117,7 +155,7 @@
         "GitHub",
         "IP reputation"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "Rate limits on GitLab.com are changing",
@@ -136,7 +174,7 @@
         "LLMs",
         "scraping"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "Show HN: Share your AI Setup, Learn from others",
@@ -155,7 +193,7 @@
         "Claude",
         "Codex"
       ],
-      "rank": 8
+      "rank": 10
     },
     {
       "title": "The American Religion of Self-Storage Facilities",
@@ -174,7 +212,7 @@
         "storage units",
         "The New Yorker"
       ],
-      "rank": 9
+      "rank": 11
     },
     {
       "title": "Fujitsu launches made-in-Japan next-generation CPU FUJITSU-MONAKA",
@@ -193,7 +231,7 @@
         "2nm",
         "3D-stacked"
       ],
-      "rank": 10
+      "rank": 12
     },
     {
       "title": "Cloudflare/Security-Audit-Skill",
@@ -212,7 +250,7 @@
         "Cloudflare Skills",
         "tokens"
       ],
-      "rank": 11
+      "rank": 13
     },
     {
       "title": "Comparison of Malloc() Algorithms",
@@ -231,7 +269,7 @@
         "memory allocator",
         "TLS"
       ],
-      "rank": 12
+      "rank": 14
     }
   ]
 }
