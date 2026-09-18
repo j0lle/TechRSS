@@ -1,10 +1,48 @@
 {
   "date": "2026-09-18",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3400,
-  "filtered_articles": 28,
+  "success_feeds": 88,
+  "total_articles": 3371,
+  "filtered_articles": 32,
   "articles": [
+    {
+      "title": "Microsoft exec called AI scraping 'the largest theft of labor in human history'",
+      "title_display": "Microsoft exec called AI scraping 'the largest theft of labor in human history'",
+      "link": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal/",
+      "pub_date": "2026-09-18T10:50:54.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 375,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Microsoft",
+        "AI",
+        "scraping",
+        "labor"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Jemalloc 5.4.0",
+      "title_display": "Jemalloc 5.4.0",
+      "link": "https://github.com/jemalloc/jemalloc/releases/tag/5.4.0",
+      "pub_date": "2026-09-18T05:50:56.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 148,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "jemalloc",
+        "malloc",
+        "memory allocator",
+        "GitHub"
+      ],
+      "rank": 2
+    },
     {
       "title": "Hacking OpenAI",
       "title_display": "Hacking OpenAI",
@@ -22,7 +60,7 @@
         "bug bounty",
         "source code"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "Alibaba releases Qwen 3.8 Omni Flash",
@@ -32,8 +70,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 128,
-      "score": 26,
+      "hn_points": 232,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Qwen 3.8 Omni Flash",
@@ -41,7 +79,26 @@
         "Qwen4",
         "Flash-Next"
       ],
-      "rank": 2
+      "rank": 4
+    },
+    {
+      "title": "Flet 1.0 – Build cross-platform apps in Python",
+      "title_display": "Flet 1.0 – Build cross-platform apps in Python",
+      "link": "https://flet.dev/",
+      "pub_date": "2026-09-17T22:30:52.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 129,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Flet",
+        "Python",
+        "Flutter",
+        "cross-platform"
+      ],
+      "rank": 5
     },
     {
       "title": "Bonsai 2 27B: Near-Lossless Compression in a 9x Smaller Footprint",
@@ -60,7 +117,7 @@
         "ternary quantization",
         "GGUF"
       ],
-      "rank": 3
+      "rank": 6
     },
     {
       "title": "Bend",
@@ -79,7 +136,7 @@
         "formal verification",
         "proof"
       ],
-      "rank": 4
+      "rank": 7
     },
     {
       "title": "Wax Motor",
@@ -98,7 +155,7 @@
         "automotive thermostat",
         "Big Clive"
       ],
-      "rank": 5
+      "rank": 8
     },
     {
       "title": "Infinite-Parameter LLMs: Generating and Adapting Weights from Live Data",
@@ -117,7 +174,7 @@
         "adapting weights",
         "continuous learning"
       ],
-      "rank": 6
+      "rank": 9
     },
     {
       "title": "hister",
@@ -136,7 +193,7 @@
         "full-text search",
         "semantic search"
       ],
-      "rank": 7
+      "rank": 10
     },
     {
       "title": "CrowdSec Source Code Leak",
@@ -155,7 +212,7 @@
         "GitHub",
         "IP reputation"
       ],
-      "rank": 8
+      "rank": 11
     },
     {
       "title": "Rate limits on GitLab.com are changing",
@@ -174,7 +231,7 @@
         "LLMs",
         "scraping"
       ],
-      "rank": 9
+      "rank": 12
     },
     {
       "title": "Show HN: Share your AI Setup, Learn from others",
@@ -193,7 +250,7 @@
         "Claude",
         "Codex"
       ],
-      "rank": 10
+      "rank": 13
     },
     {
       "title": "The American Religion of Self-Storage Facilities",
@@ -212,7 +269,7 @@
         "storage units",
         "The New Yorker"
       ],
-      "rank": 11
+      "rank": 14
     },
     {
       "title": "Fujitsu launches made-in-Japan next-generation CPU FUJITSU-MONAKA",
@@ -231,7 +288,7 @@
         "2nm",
         "3D-stacked"
       ],
-      "rank": 12
+      "rank": 15
     },
     {
       "title": "Cloudflare/Security-Audit-Skill",
@@ -250,7 +307,7 @@
         "Cloudflare Skills",
         "tokens"
       ],
-      "rank": 13
+      "rank": 16
     },
     {
       "title": "Comparison of Malloc() Algorithms",
@@ -269,7 +326,7 @@
         "memory allocator",
         "TLS"
       ],
-      "rank": 14
+      "rank": 17
     }
   ]
 }
