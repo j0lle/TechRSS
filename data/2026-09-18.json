@@ -1,10 +1,29 @@
 {
   "date": "2026-09-18",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3402,
-  "filtered_articles": 33,
+  "success_feeds": 90,
+  "total_articles": 3427,
+  "filtered_articles": 29,
   "articles": [
+    {
+      "title": "Wax Motor",
+      "title_display": "Wax Motor",
+      "link": "https://en.wikipedia.org/wiki/Wax_motor",
+      "pub_date": "2026-09-17T19:50:52.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 183,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "wax motor",
+        "wax thermostatic element",
+        "automotive thermostat",
+        "Big Clive"
+      ],
+      "rank": 1
+    },
     {
       "title": "hister",
       "title_display": "hister",
@@ -22,7 +41,26 @@
         "full-text search",
         "semantic search"
       ],
-      "rank": 1
+      "rank": 2
+    },
+    {
+      "title": "Rate limits on GitLab.com are changing",
+      "title_display": "Rate limits on GitLab.com are changing",
+      "link": "https://about.gitlab.com/blog/rate-limit-change-2026/",
+      "pub_date": "2026-09-17T16:00:58.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 135,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "GitLab",
+        "rate limits",
+        "LLMs",
+        "scraping"
+      ],
+      "rank": 3
     },
     {
       "title": "Show HN: Share your AI Setup, Learn from others",
@@ -41,7 +79,7 @@
         "Claude",
         "Codex"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "The American Religion of Self-Storage Facilities",
@@ -60,7 +98,7 @@
         "storage units",
         "The New Yorker"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "Fujitsu launches made-in-Japan next-generation CPU FUJITSU-MONAKA",
@@ -79,7 +117,7 @@
         "2nm",
         "3D-stacked"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "Cloudflare/Security-Audit-Skill",
@@ -98,7 +136,7 @@
         "Cloudflare Skills",
         "tokens"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "Comparison of Malloc() Algorithms",
@@ -117,7 +155,7 @@
         "memory allocator",
         "TLS"
       ],
-      "rank": 6
+      "rank": 8
     }
   ]
 }
