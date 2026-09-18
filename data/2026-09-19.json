@@ -1,8 +1,8 @@
 {
   "date": "2026-09-19",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3372,
+  "success_feeds": 89,
+  "total_articles": 3402,
   "filtered_articles": 35,
   "articles": [
     {
@@ -13,8 +13,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 122,
-      "score": 25,
+      "hn_points": 376,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Android 17",
@@ -23,6 +23,44 @@
         "Pixel"
       ],
       "rank": 1
+    },
+    {
+      "title": "US Military had close call after using AI for hallucinated intelligence report",
+      "title_display": "US Military had close call after using AI for hallucinated intelligence report",
+      "link": "https://www.cnn.com/2026/09/18/politics/us-military-ai-false-intelligence-china-ship",
+      "pub_date": "2026-09-18T18:10:53.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 292,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "AI",
+        "US military",
+        "hallucination",
+        "intelligence report"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "Photon-Emission-Guided Laser Fault Injection Enables RP2350 Secure Debug",
+      "title_display": "Photon-Emission-Guided Laser Fault Injection Enables RP2350 Secure Debug",
+      "link": "https://donjon.ledger.com/blog/rp2350-secure-debug-laser-fault-injection/",
+      "pub_date": "2026-09-18T17:10:57.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 131,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "RP2350",
+        "laser fault injection",
+        "photon-emission-guided",
+        "secure debug"
+      ],
+      "rank": 3
     },
     {
       "title": "An Empirical Study of Harness Design for Coding Agents",
@@ -41,7 +79,7 @@
         "LLM",
         "planning"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "Bend 2 and the Vibe-Coding Trap",
@@ -60,7 +98,7 @@
         "LLMs",
         "formal verification"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "ZCode, the GLM coding agent, silently uploads your Git history",
@@ -79,7 +117,26 @@
         "git",
         "git history"
       ],
-      "rank": 4
+      "rank": 6
+    },
+    {
+      "title": "Replacing Pull Requests with Delta",
+      "title_display": "Replacing Pull Requests with Delta",
+      "link": "https://zed.dev/blog/delta-public-beta",
+      "pub_date": "2026-09-18T10:30:57.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 128,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Delta",
+        "Zed",
+        "Pull Requests",
+        "AI agents"
+      ],
+      "rank": 7
     }
   ]
 }
