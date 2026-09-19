@@ -1,0 +1,47 @@
+{
+  "date": "2026-09-20",
+  "total_feeds": 95,
+  "success_feeds": 88,
+  "total_articles": 3390,
+  "filtered_articles": 18,
+  "articles": [
+    {
+      "title": "Laya the open source version of Jev",
+      "title_display": "Laya the open source version of Jev",
+      "link": "https://laya.convaiinnovations.com/",
+      "pub_date": "2026-09-19T11:50:43.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 358,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Laya",
+        "Jev",
+        "open-source",
+        "Convai Innovations"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Science Is Open Software",
+      "title_display": "Science Is Open Software",
+      "link": "https://jepedersen.dk/blog/202505_research/",
+      "pub_date": "2026-09-19T02:40:38.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 127,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "open source software",
+        "open science",
+        "reproducibility",
+        "open data"
+      ],
+      "rank": 2
+    }
+  ]
+}
