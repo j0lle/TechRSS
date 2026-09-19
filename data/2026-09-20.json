@@ -2,9 +2,28 @@
   "date": "2026-09-20",
   "total_feeds": 95,
   "success_feeds": 88,
-  "total_articles": 3375,
-  "filtered_articles": 16,
+  "total_articles": 3385,
+  "filtered_articles": 19,
   "articles": [
+    {
+      "title": "Tin: full-text search for Postgres",
+      "title_display": "Tin: full-text search for Postgres",
+      "link": "https://planetscale.com/blog/introducing-tin",
+      "pub_date": "2026-09-19T14:20:38.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 142,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Tin",
+        "PlanetScale",
+        "Postgres",
+        "full-text search"
+      ],
+      "rank": 1
+    },
     {
       "title": "What Zig felt like, coming from Rust",
       "title_display": "What Zig felt like, coming from Rust",
@@ -22,7 +41,7 @@
         "comptime",
         "allocators"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Laya the open source version of Jev",
@@ -32,7 +51,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 358,
+      "hn_points": 920,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -41,7 +60,45 @@
         "open-source",
         "Convai Innovations"
       ],
-      "rank": 2
+      "rank": 3
+    },
+    {
+      "title": "You can run Git on object storage if you re-make packfiles",
+      "title_display": "You can run Git on object storage if you re-make packfiles",
+      "link": "https://www.tigrisdata.com/blog/objgit-packfiles/",
+      "pub_date": "2026-09-19T07:50:35.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 131,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Git",
+        "packfiles",
+        "object storage",
+        "Tigris Data"
+      ],
+      "rank": 4
+    },
+    {
+      "title": "SDCC – Small Device C Compiler",
+      "title_display": "SDCC – Small Device C Compiler",
+      "link": "https://sdcc.sourceforge.net/",
+      "pub_date": "2026-09-19T03:00:32.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 121,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "SDCC",
+        "Small Device C Compiler",
+        "SourceForge",
+        "8051"
+      ],
+      "rank": 5
     },
     {
       "title": "Why building a Rust LSP is hard",
@@ -60,7 +117,7 @@
         "JSON",
         "Microsoft"
       ],
-      "rank": 3
+      "rank": 6
     },
     {
       "title": "Science Is Open Software",
@@ -79,7 +136,7 @@
         "reproducibility",
         "open data"
       ],
-      "rank": 4
+      "rank": 7
     }
   ]
 }
