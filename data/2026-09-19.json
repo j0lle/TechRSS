@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3402,
-  "filtered_articles": 35,
+  "filtered_articles": 30,
   "articles": [
+    {
+      "title": "Claude Code now reads AGENTS.md if there is no Claude.md",
+      "title_display": "Claude Code now reads AGENTS.md if there is no Claude.md",
+      "link": "https://code.claude.com/docs/en/changelog",
+      "pub_date": "2026-09-18T21:20:50.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 392,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Claude Code",
+        "AGENTS.md",
+        "Claude.md",
+        "Anthropic"
+      ],
+      "rank": 1
+    },
     {
       "title": "Android 17 is the first since 3.x to add new APIs without releasing to the AOSP",
       "title_display": "Android 17 is the first since 3.x to add new APIs without releasing to the AOSP",
@@ -22,7 +41,7 @@
         "Google",
         "Pixel"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "US Military had close call after using AI for hallucinated intelligence report",
@@ -32,7 +51,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 292,
+      "hn_points": 392,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -41,7 +60,7 @@
         "hallucination",
         "intelligence report"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Photon-Emission-Guided Laser Fault Injection Enables RP2350 Secure Debug",
@@ -60,7 +79,7 @@
         "photon-emission-guided",
         "secure debug"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "An Empirical Study of Harness Design for Coding Agents",
@@ -79,7 +98,7 @@
         "LLM",
         "planning"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Bend 2 and the Vibe-Coding Trap",
@@ -98,7 +117,7 @@
         "LLMs",
         "formal verification"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "ZCode, the GLM coding agent, silently uploads your Git history",
@@ -117,7 +136,7 @@
         "git",
         "git history"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Replacing Pull Requests with Delta",
@@ -136,7 +155,7 @@
         "Pull Requests",
         "AI agents"
       ],
-      "rank": 7
+      "rank": 8
     }
   ]
 }
