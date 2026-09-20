@@ -1,0 +1,28 @@
+{
+  "date": "2026-09-21",
+  "total_feeds": 95,
+  "success_feeds": 89,
+  "total_articles": 3398,
+  "filtered_articles": 15,
+  "articles": [
+    {
+      "title": "Chat-based Large Language Models replicate the mechanisms of a psychic's con",
+      "title_display": "Chat-based Large Language Models replicate the mechanisms of a psychic's con",
+      "link": "https://softwarecrisis.dev/letters/llmentalist/",
+      "pub_date": "2026-09-20T13:10:50.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 135,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Large Language Models",
+        "LLMs",
+        "Chat-based LLMs",
+        "psychic"
+      ],
+      "rank": 1
+    }
+  ]
+}
