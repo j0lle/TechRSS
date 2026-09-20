@@ -2,8 +2,8 @@
   "date": "2026-09-20",
   "total_feeds": 95,
   "success_feeds": 90,
-  "total_articles": 3430,
-  "filtered_articles": 17,
+  "total_articles": 3428,
+  "filtered_articles": 16,
   "articles": [
     {
       "title": "Exfiltrate Your Weights",
@@ -13,8 +13,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 173,
-      "score": 27,
+      "hn_points": 287,
+      "score": 30,
       "category": "other",
       "keywords": [
         "model weights",
@@ -70,8 +70,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 143,
-      "score": 26,
+      "hn_points": 244,
+      "score": 29,
       "category": "other",
       "keywords": [
         "StarCraft: Brood War",
@@ -80,6 +80,25 @@
         "agents"
       ],
       "rank": 4
+    },
+    {
+      "title": "Btrfs/ZFS/bcachefs under workloads classic benchmarks skip",
+      "title_display": "Btrfs/ZFS/bcachefs under workloads classic benchmarks skip",
+      "link": "https://bartosz.fenski.pl/modern-fs-benchmark/",
+      "pub_date": "2026-09-19T18:40:36.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 123,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "bcachefs",
+        "ZFS",
+        "Btrfs",
+        "modern-fs-benchmark"
+      ],
+      "rank": 5
     },
     {
       "title": "Tin: full-text search for Postgres",
@@ -98,7 +117,7 @@
         "Postgres",
         "full-text search"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "What Zig felt like, coming from Rust",
@@ -117,7 +136,7 @@
         "comptime",
         "allocators"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Laya the open source version of Jev",
@@ -136,7 +155,7 @@
         "open-source",
         "Convai Innovations"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "You can run Git on object storage if you re-make packfiles",
@@ -155,7 +174,7 @@
         "object storage",
         "Tigris Data"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "SDCC – Small Device C Compiler",
@@ -174,7 +193,7 @@
         "SourceForge",
         "8051"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Why building a Rust LSP is hard",
@@ -193,7 +212,7 @@
         "JSON",
         "Microsoft"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "Science Is Open Software",
@@ -212,7 +231,7 @@
         "reproducibility",
         "open data"
       ],
-      "rank": 11
+      "rank": 12
     }
   ]
 }
