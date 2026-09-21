@@ -2,9 +2,84 @@
   "date": "2026-09-21",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3400,
-  "filtered_articles": 12,
+  "total_articles": 3395,
+  "filtered_articles": 20,
   "articles": [
+    {
+      "title": "Disney+: New user agreement allows ads before movies in all subscriptions",
+      "title_display": "Disney+: New user agreement allows ads before movies in all subscriptions",
+      "link": "https://consumerrights.wiki/w/Disney%2B_ad_policy_change",
+      "pub_date": "2026-09-21T11:00:53.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 178,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Disney+",
+        "Disney",
+        "streaming",
+        "advertising"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Jev-Leftpad",
+      "title_display": "Jev-Leftpad",
+      "link": "https://github.com/f/jev-leftpad",
+      "pub_date": "2026-09-21T09:50:40.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 128,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Jev",
+        "left-pad",
+        "npm"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "Kev: Tiny Jev-like family of decision models built on top of Qwen3.5",
+      "title_display": "Kev: Tiny Jev-like family of decision models built on top of Qwen3.5",
+      "link": "https://github.com/jaredpalmer/kev/tree/main",
+      "pub_date": "2026-09-21T07:40:35.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 135,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Kev",
+        "Jev",
+        "Qwen3.5",
+        "decision models"
+      ],
+      "rank": 3
+    },
+    {
+      "title": "Mini-AGI – dynamic continual learning model trained from scratch on 8GB VRAM",
+      "title_display": "Mini-AGI – dynamic continual learning model trained from scratch on 8GB VRAM",
+      "link": "https://github.com/volotat/mini-AGI/",
+      "pub_date": "2026-09-21T07:30:36.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 124,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Mini-AGI",
+        "continual learning",
+        "catastrophic forgetting",
+        "RTX 3070"
+      ],
+      "rank": 4
+    },
     {
       "title": "Google's Open Agentic Orchestrator",
       "title_display": "Google's Open Agentic Orchestrator",
@@ -22,7 +97,7 @@
         "Agentic Orchestrator",
         "Kubernetes"
       ],
-      "rank": 1
+      "rank": 5
     },
     {
       "title": "Nobody pays for FOSS, we can force them to",
@@ -41,7 +116,26 @@
         "licensing",
         "monetization"
       ],
-      "rank": 2
+      "rank": 6
+    },
+    {
+      "title": "Why MCP Was Always a Bad Idea",
+      "title_display": "Why MCP Was Always a Bad Idea",
+      "link": "https://maharship.com/blog/why-mcp-was-always-a-bad-idea/",
+      "pub_date": "2026-09-20T20:00:07.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 144,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "MCP",
+        "agents",
+        "API",
+        "CLI"
+      ],
+      "rank": 7
     },
     {
       "title": "I Am Often Wrong",
@@ -51,8 +145,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 129,
-      "score": 26,
+      "hn_points": 230,
+      "score": 29,
       "category": "other",
       "keywords": [
         "management",
@@ -60,7 +154,45 @@
         "Boris Cherny",
         "management framework"
       ],
-      "rank": 3
+      "rank": 8
+    },
+    {
+      "title": "Resident Evil 4 (GameCube) – complete byte-identical decompilation to C/C++",
+      "title_display": "Resident Evil 4 (GameCube) – complete byte-identical decompilation to C/C++",
+      "link": "https://github.com/adonis-singh/re4",
+      "pub_date": "2026-09-20T18:30:07.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 121,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "Resident Evil 4",
+        "decompilation",
+        "GameCube",
+        "C/C++"
+      ],
+      "rank": 9
+    },
+    {
+      "title": "I turned Jev into a (lousy) chatbot",
+      "title_display": "I turned Jev into a (lousy) chatbot",
+      "link": "https://github.com/kyle-pena-nlp/jevchat/",
+      "pub_date": "2026-09-20T18:10:06.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 129,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Jev",
+        "jevchat",
+        "GitHub",
+        "Codex"
+      ],
+      "rank": 10
     },
     {
       "title": "Laya (OS Jev) on Mac M4 CoreML Offline (45 decisions per second)",
@@ -79,7 +211,26 @@
         "CoreML",
         "Mac M4"
       ],
-      "rank": 4
+      "rank": 11
+    },
+    {
+      "title": "Key symbols we lost to time, pt. 2: The Mac side",
+      "title_display": "Key symbols we lost to time, pt. 2: The Mac side",
+      "link": "https://unsung.aresluna.org/key-symbols-we-lost-to-time-pt-2-the-mac-side/",
+      "pub_date": "2026-09-20T14:50:34.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 133,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Mac",
+        "keyboard symbols",
+        "Apple",
+        "ASCII"
+      ],
+      "rank": 12
     },
     {
       "title": "Chat-based Large Language Models replicate the mechanisms of a psychic's con",
@@ -98,7 +249,7 @@
         "Chat-based LLMs",
         "psychic"
       ],
-      "rank": 5
+      "rank": 13
     },
     {
       "title": "Step 5 Preview: Advancing the Pareto Frontier",
@@ -117,7 +268,7 @@
         "Kimi",
         "Pareto Frontier"
       ],
-      "rank": 6
+      "rank": 14
     }
   ]
 }
