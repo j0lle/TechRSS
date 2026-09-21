@@ -1,10 +1,48 @@
 {
   "date": "2026-09-21",
   "total_feeds": 95,
-  "success_feeds": 90,
-  "total_articles": 3428,
-  "filtered_articles": 14,
+  "success_feeds": 89,
+  "total_articles": 3403,
+  "filtered_articles": 10,
   "articles": [
+    {
+      "title": "Nobody pays for FOSS, we can force them to",
+      "title_display": "Nobody pays for FOSS, we can force them to",
+      "link": "https://seldo.com/posts/nobody-pays-for-open-source-we-can-force-them-to/",
+      "pub_date": "2026-09-20T21:30:05.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 126,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "FOSS",
+        "open source",
+        "licensing",
+        "monetization"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Laya (OS Jev) on Mac M4 CoreML Offline (45 decisions per second)",
+      "title_display": "Laya (OS Jev) on Mac M4 CoreML Offline (45 decisions per second)",
+      "link": "https://gist.github.com/fordnox/e592d0f68b543fd044be8e6d040863a0",
+      "pub_date": "2026-09-20T16:50:10.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 125,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Laya",
+        "OS Jev",
+        "CoreML",
+        "Mac M4"
+      ],
+      "rank": 2
+    },
     {
       "title": "Chat-based Large Language Models replicate the mechanisms of a psychic's con",
       "title_display": "Chat-based Large Language Models replicate the mechanisms of a psychic's con",
@@ -22,7 +60,7 @@
         "Chat-based LLMs",
         "psychic"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "Step 5 Preview: Advancing the Pareto Frontier",
@@ -41,7 +79,7 @@
         "Kimi",
         "Pareto Frontier"
       ],
-      "rank": 2
+      "rank": 4
     }
   ]
 }
