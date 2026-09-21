@@ -2,9 +2,28 @@
   "date": "2026-09-21",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3403,
-  "filtered_articles": 10,
+  "total_articles": 3400,
+  "filtered_articles": 12,
   "articles": [
+    {
+      "title": "Google's Open Agentic Orchestrator",
+      "title_display": "Google's Open Agentic Orchestrator",
+      "link": "https://agentexecutor.io",
+      "pub_date": "2026-09-20T22:50:06.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 302,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Agent Executor",
+        "Google",
+        "Agentic Orchestrator",
+        "Kubernetes"
+      ],
+      "rank": 1
+    },
     {
       "title": "Nobody pays for FOSS, we can force them to",
       "title_display": "Nobody pays for FOSS, we can force them to",
@@ -22,7 +41,26 @@
         "licensing",
         "monetization"
       ],
-      "rank": 1
+      "rank": 2
+    },
+    {
+      "title": "I Am Often Wrong",
+      "title_display": "I Am Often Wrong",
+      "link": "https://borischerny.com/management,/product/2026/09/19/I-am-often-wrong.html",
+      "pub_date": "2026-09-20T18:40:07.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 129,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "management",
+        "product",
+        "Boris Cherny",
+        "management framework"
+      ],
+      "rank": 3
     },
     {
       "title": "Laya (OS Jev) on Mac M4 CoreML Offline (45 decisions per second)",
@@ -41,7 +79,7 @@
         "CoreML",
         "Mac M4"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "Chat-based Large Language Models replicate the mechanisms of a psychic's con",
@@ -60,7 +98,7 @@
         "Chat-based LLMs",
         "psychic"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "Step 5 Preview: Advancing the Pareto Frontier",
@@ -79,7 +117,7 @@
         "Kimi",
         "Pareto Frontier"
       ],
-      "rank": 4
+      "rank": 6
     }
   ]
 }
