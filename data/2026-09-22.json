@@ -2,8 +2,8 @@
   "date": "2026-09-22",
   "total_feeds": 95,
   "success_feeds": 90,
-  "total_articles": 3426,
-  "filtered_articles": 22,
+  "total_articles": 3427,
+  "filtered_articles": 26,
   "articles": [
     {
       "title": "Transformers Explained Visually",
@@ -13,8 +13,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 159,
-      "score": 27,
+      "hn_points": 280,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Transformer",
@@ -23,6 +23,25 @@
         "LLM"
       ],
       "rank": 1
+    },
+    {
+      "title": "Frontier AI on Your Own Hardware",
+      "title_display": "Frontier AI on Your Own Hardware",
+      "link": "https://timdettmers.com/2026/09/21/dlab-open-source-week/",
+      "pub_date": "2026-09-21T20:30:37.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 120,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "Frontier AI",
+        "GPUs",
+        "Open Source Week",
+        "Carnegie Mellon University"
+      ],
+      "rank": 2
     },
     {
       "title": "AI coding has made CI a bottleneck, so we reworked ours to keep up",
@@ -41,7 +60,7 @@
         "GitHub Actions",
         "Bazel"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Fable 5 – Median thinking declined in August",
@@ -60,7 +79,7 @@
         "reasoning",
         "Anthropic"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Python Workers are now generally available",
@@ -79,7 +98,7 @@
         "Cloudflare",
         "Pyodide"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "What Sun Got Wrong",
@@ -98,7 +117,7 @@
         "SPARC",
         "Linux"
       ],
-      "rank": 5
+      "rank": 6
     }
   ]
 }
