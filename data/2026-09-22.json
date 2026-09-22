@@ -1,10 +1,29 @@
 {
   "date": "2026-09-22",
   "total_feeds": 95,
-  "success_feeds": 90,
-  "total_articles": 3427,
-  "filtered_articles": 26,
+  "success_feeds": 89,
+  "total_articles": 3397,
+  "filtered_articles": 30,
   "articles": [
+    {
+      "title": "Looking forward to Git 2.56 – and 3.0",
+      "title_display": "Looking forward to Git 2.56 – and 3.0",
+      "link": "https://lwn.net/SubscriberLink/1094575/2385e98583715c2b/",
+      "pub_date": "2026-09-22T00:50:35.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 128,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Git",
+        "Git 2.56",
+        "Git 3.0",
+        "SHA-256"
+      ],
+      "rank": 1
+    },
     {
       "title": "Transformers Explained Visually",
       "title_display": "Transformers Explained Visually",
@@ -13,7 +32,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 280,
+      "hn_points": 383,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -22,7 +41,7 @@
         "attention",
         "LLM"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Frontier AI on Your Own Hardware",
@@ -41,7 +60,7 @@
         "Open Source Week",
         "Carnegie Mellon University"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "AI coding has made CI a bottleneck, so we reworked ours to keep up",
@@ -51,8 +70,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 126,
-      "score": 26,
+      "hn_points": 226,
+      "score": 28,
       "category": "other",
       "keywords": [
         "Linear",
@@ -60,7 +79,7 @@
         "GitHub Actions",
         "Bazel"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Fable 5 – Median thinking declined in August",
@@ -79,7 +98,26 @@
         "reasoning",
         "Anthropic"
       ],
-      "rank": 4
+      "rank": 5
+    },
+    {
+      "title": "This Digital Radio Gets Messages to the World’s Remotest Locations",
+      "title_display": "This Digital Radio Gets Messages to the World’s Remotest Locations",
+      "link": "https://spectrum.ieee.org/hermes-shortwave-radio-digital-data",
+      "pub_date": "2026-09-21T17:01:05.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 120,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "HERMES",
+        "shortwave radio",
+        "software-defined radio",
+        "digital data"
+      ],
+      "rank": 6
     },
     {
       "title": "Python Workers are now generally available",
@@ -98,7 +136,7 @@
         "Cloudflare",
         "Pyodide"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "What Sun Got Wrong",
@@ -117,7 +155,7 @@
         "SPARC",
         "Linux"
       ],
-      "rank": 6
+      "rank": 8
     }
   ]
 }
