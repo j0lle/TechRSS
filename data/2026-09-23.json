@@ -1,10 +1,67 @@
 {
   "date": "2026-09-23",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3400,
-  "filtered_articles": 30,
+  "success_feeds": 90,
+  "total_articles": 3430,
+  "filtered_articles": 33,
   "articles": [
+    {
+      "title": "GPT-6 Sol and Luna",
+      "title_display": "GPT-6 Sol and Luna",
+      "link": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+      "pub_date": "2026-09-22T18:10:30.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 103,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "OpenAI",
+        "GPT-6",
+        "GPT-6 Sol",
+        "GPT-6 Luna"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "How Meta's Muse works, revealed by the 6.8 GB filesystem it sent me",
+      "title_display": "How Meta's Muse works, revealed by the 6.8 GB filesystem it sent me",
+      "link": "https://mouse.dev/blog/muse-runtime-export/",
+      "pub_date": "2026-09-22T15:40:38.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 225,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "Meta",
+        "Muse",
+        "SSH",
+        "Codex CLI"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "Show HN: Drop – a rootless Linux sandbox with gVisor support",
+      "title_display": "Show HN: Drop – a rootless Linux sandbox with gVisor support",
+      "link": "https://droprun.sh/",
+      "pub_date": "2026-09-22T14:30:39.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 124,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Drop",
+        "Linux",
+        "gVisor",
+        "runsc"
+      ],
+      "rank": 3
+    },
     {
       "title": "AI Has No Wisdom and Neither Will You",
       "title_display": "AI Has No Wisdom and Neither Will You",
@@ -22,7 +79,7 @@
         "code maintainability",
         "vibe coding"
       ],
-      "rank": 1
+      "rank": 4
     },
     {
       "title": "AMD's random number generator can't generate a 0?",
@@ -41,7 +98,7 @@
         "Zen 2",
         "Ryzen 5 3600"
       ],
-      "rank": 2
+      "rank": 5
     },
     {
       "title": "MiMo-v2.6-Pro: Intelligence, Performance and Price Analysis",
@@ -60,7 +117,7 @@
         "Artificial Analysis",
         "DeepSeek-V4.1"
       ],
-      "rank": 3
+      "rank": 6
     }
   ]
 }
