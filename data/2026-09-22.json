@@ -1,10 +1,48 @@
 {
   "date": "2026-09-22",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3401,
-  "filtered_articles": 20,
+  "success_feeds": 90,
+  "total_articles": 3426,
+  "filtered_articles": 22,
   "articles": [
+    {
+      "title": "Transformers Explained Visually",
+      "title_display": "Transformers Explained Visually",
+      "link": "https://poloclub.github.io/transformer-explainer/",
+      "pub_date": "2026-09-21T20:40:32.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 159,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Transformer",
+        "GPT-2",
+        "attention",
+        "LLM"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "AI coding has made CI a bottleneck, so we reworked ours to keep up",
+      "title_display": "AI coding has made CI a bottleneck, so we reworked ours to keep up",
+      "link": "https://linear.app/now/ci-bottleneck-reworked",
+      "pub_date": "2026-09-21T19:50:40.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 126,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Linear",
+        "CI/CD",
+        "GitHub Actions",
+        "Bazel"
+      ],
+      "rank": 2
+    },
     {
       "title": "Fable 5 – Median thinking declined in August",
       "title_display": "Fable 5 – Median thinking declined in August",
@@ -13,8 +51,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 217,
-      "score": 28,
+      "hn_points": 317,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Fable 5",
@@ -22,7 +60,7 @@
         "reasoning",
         "Anthropic"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "Python Workers are now generally available",
@@ -41,7 +79,7 @@
         "Cloudflare",
         "Pyodide"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "What Sun Got Wrong",
@@ -60,7 +98,7 @@
         "SPARC",
         "Linux"
       ],
-      "rank": 3
+      "rank": 5
     }
   ]
 }
