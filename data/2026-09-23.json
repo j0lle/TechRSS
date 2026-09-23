@@ -2,9 +2,28 @@
   "date": "2026-09-23",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3405,
-  "filtered_articles": 33,
+  "total_articles": 3400,
+  "filtered_articles": 34,
   "articles": [
+    {
+      "title": "ReBarUEFI: Resizable BAR for almost any UEFI system",
+      "title_display": "ReBarUEFI: Resizable BAR for almost any UEFI system",
+      "link": "https://github.com/xCuri0/ReBarUEFI",
+      "pub_date": "2026-09-22T22:50:38.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 130,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "ReBarUEFI",
+        "Resizable BAR",
+        "UEFI",
+        "Base Address Register"
+      ],
+      "rank": 1
+    },
     {
       "title": "Microsoft killed FoxPro in 2007. Anyway, here's FoxPro revived",
       "title_display": "Microsoft killed FoxPro in 2007. Anyway, here's FoxPro revived",
@@ -13,8 +32,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 148,
-      "score": 26,
+      "hn_points": 254,
+      "score": 29,
       "category": "other",
       "keywords": [
         "FoxPro",
@@ -22,7 +41,7 @@
         "Microsoft",
         "FoxScript"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Unreal Agent",
@@ -41,7 +60,7 @@
         "async tool calling",
         "agent harness"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "GPT-6 Sol and Luna",
@@ -51,7 +70,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 682,
+      "hn_points": 1226,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -60,7 +79,7 @@
         "GPT-6 Sol",
         "GPT-6 Luna"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "There's a high chance of devices being sold with GrapheneOS preinstalled in 2027",
@@ -79,7 +98,7 @@
         "Android",
         "Google Pixel"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Claude Opus 5.5 Intelligence, Performance and Price Analysis",
@@ -89,8 +108,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 142,
-      "score": 26,
+      "hn_points": 245,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Claude Opus 5.5",
@@ -98,7 +117,7 @@
         "Anthropic",
         "reasoning"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "A WordPress vulnerability scored 9.2/10 is present in all versions since 2016",
@@ -117,7 +136,7 @@
         "CVSS",
         "remote code execution"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "How Meta's Muse works, revealed by the 6.8 GB filesystem it sent me",
@@ -136,7 +155,7 @@
         "SSH",
         "Codex CLI"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Show HN: Drop – a rootless Linux sandbox with gVisor support",
@@ -155,7 +174,7 @@
         "gVisor",
         "runsc"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "AI Has No Wisdom and Neither Will You",
@@ -174,7 +193,7 @@
         "code maintainability",
         "vibe coding"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "AMD's random number generator can't generate a 0?",
@@ -193,7 +212,7 @@
         "Zen 2",
         "Ryzen 5 3600"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "MiMo-v2.6-Pro: Intelligence, Performance and Price Analysis",
@@ -212,7 +231,7 @@
         "Artificial Analysis",
         "DeepSeek-V4.1"
       ],
-      "rank": 11
+      "rank": 12
     }
   ]
 }
