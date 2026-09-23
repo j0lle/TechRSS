@@ -1,10 +1,66 @@
 {
   "date": "2026-09-24",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3370,
-  "filtered_articles": 26,
+  "success_feeds": 90,
+  "total_articles": 3425,
+  "filtered_articles": 24,
   "articles": [
+    {
+      "title": "28% of job postings on company career sites have been open over 90 days",
+      "title_display": "28% of job postings on company career sites have been open over 90 days",
+      "link": "https://unlisted.careers/ghost-jobs/report/2026-09",
+      "pub_date": "2026-09-23T17:00:47.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 139,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "ghost jobs",
+        "job postings",
+        "hiring"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Tokens Too Cheap to Meter",
+      "title_display": "Tokens Too Cheap to Meter",
+      "link": "https://jyn.dev/tokens-too-cheap-to-meter/",
+      "pub_date": "2026-09-23T14:20:31.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 150,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "LLM",
+        "inference",
+        "data centers",
+        "GPT-5.6 Luna"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "The GitHub wiki is an anti-pattern",
+      "title_display": "The GitHub wiki is an anti-pattern",
+      "link": "https://michaelheap.com/github-wiki-is-an-antipattern/",
+      "pub_date": "2026-09-23T13:40:34.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 139,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "GitHub",
+        "GitHub Wiki",
+        "Fossil",
+        "GitLab"
+      ],
+      "rank": 3
+    },
     {
       "title": "Samsung accidentally freezes its smart fridges with a software update",
       "title_display": "Samsung accidentally freezes its smart fridges with a software update",
@@ -22,7 +78,7 @@
         "software update",
         "IoT"
       ],
-      "rank": 1
+      "rank": 4
     },
     {
       "title": "Claude Code reads AGENTS.md only when telemetry is on",
@@ -41,7 +97,7 @@
         "AGENTS.md",
         "telemetry"
       ],
-      "rank": 2
+      "rank": 5
     }
   ]
 }
