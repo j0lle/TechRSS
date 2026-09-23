@@ -1,10 +1,67 @@
 {
   "date": "2026-09-23",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3400,
-  "filtered_articles": 34,
+  "success_feeds": 87,
+  "total_articles": 3350,
+  "filtered_articles": 30,
   "articles": [
+    {
+      "title": "How did AMD Ryzen get 50% faster in two years?",
+      "title_display": "How did AMD Ryzen get 50% faster in two years?",
+      "link": "https://lemire.me/blog/2026/09/18/how-did-amd-ryzen-get-50-faster-in-two-years/",
+      "pub_date": "2026-09-23T10:40:33.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 346,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "AMD Ryzen",
+        "AMD",
+        "Zen 5",
+        "Zen 3"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Jev in 25 Lines of Python",
+      "title_display": "Jev in 25 Lines of Python",
+      "link": "https://www.nobodywho.ai/posts/jev-in-25-lines/",
+      "pub_date": "2026-09-23T08:10:30.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 334,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Jev",
+        "Python",
+        "logprobs",
+        "structured outputs"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "Transit rewards (Waymo pays you to take the train)",
+      "title_display": "Transit rewards (Waymo pays you to take the train)",
+      "link": "https://waymo.com/blog/2026/09/transit-rewards/",
+      "pub_date": "2026-09-23T04:00:44.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 136,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Waymo",
+        "Transit Rewards",
+        "BART",
+        "Caltrain"
+      ],
+      "rank": 3
+    },
     {
       "title": "ReBarUEFI: Resizable BAR for almost any UEFI system",
       "title_display": "ReBarUEFI: Resizable BAR for almost any UEFI system",
@@ -22,7 +79,7 @@
         "UEFI",
         "Base Address Register"
       ],
-      "rank": 1
+      "rank": 4
     },
     {
       "title": "Microsoft killed FoxPro in 2007. Anyway, here's FoxPro revived",
@@ -32,8 +89,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 254,
-      "score": 29,
+      "hn_points": 358,
+      "score": 30,
       "category": "other",
       "keywords": [
         "FoxPro",
@@ -41,7 +98,7 @@
         "Microsoft",
         "FoxScript"
       ],
-      "rank": 2
+      "rank": 5
     },
     {
       "title": "Unreal Agent",
@@ -60,7 +117,7 @@
         "async tool calling",
         "agent harness"
       ],
-      "rank": 3
+      "rank": 6
     },
     {
       "title": "GPT-6 Sol and Luna",
@@ -70,7 +127,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 1226,
+      "hn_points": 1541,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -79,7 +136,7 @@
         "GPT-6 Sol",
         "GPT-6 Luna"
       ],
-      "rank": 4
+      "rank": 7
     },
     {
       "title": "There's a high chance of devices being sold with GrapheneOS preinstalled in 2027",
@@ -98,7 +155,7 @@
         "Android",
         "Google Pixel"
       ],
-      "rank": 5
+      "rank": 8
     },
     {
       "title": "Claude Opus 5.5 Intelligence, Performance and Price Analysis",
@@ -117,7 +174,7 @@
         "Anthropic",
         "reasoning"
       ],
-      "rank": 6
+      "rank": 9
     },
     {
       "title": "A WordPress vulnerability scored 9.2/10 is present in all versions since 2016",
@@ -136,7 +193,7 @@
         "CVSS",
         "remote code execution"
       ],
-      "rank": 7
+      "rank": 10
     },
     {
       "title": "How Meta's Muse works, revealed by the 6.8 GB filesystem it sent me",
@@ -155,7 +212,7 @@
         "SSH",
         "Codex CLI"
       ],
-      "rank": 8
+      "rank": 11
     },
     {
       "title": "Show HN: Drop – a rootless Linux sandbox with gVisor support",
@@ -174,7 +231,7 @@
         "gVisor",
         "runsc"
       ],
-      "rank": 9
+      "rank": 12
     },
     {
       "title": "AI Has No Wisdom and Neither Will You",
@@ -193,7 +250,7 @@
         "code maintainability",
         "vibe coding"
       ],
-      "rank": 10
+      "rank": 13
     },
     {
       "title": "AMD's random number generator can't generate a 0?",
@@ -212,7 +269,7 @@
         "Zen 2",
         "Ryzen 5 3600"
       ],
-      "rank": 11
+      "rank": 14
     },
     {
       "title": "MiMo-v2.6-Pro: Intelligence, Performance and Price Analysis",
@@ -231,7 +288,7 @@
         "Artificial Analysis",
         "DeepSeek-V4.1"
       ],
-      "rank": 12
+      "rank": 15
     }
   ]
 }
