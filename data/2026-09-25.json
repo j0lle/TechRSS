@@ -1,10 +1,48 @@
 {
   "date": "2026-09-25",
   "total_feeds": 95,
-  "success_feeds": 90,
-  "total_articles": 3428,
-  "filtered_articles": 20,
+  "success_feeds": 89,
+  "total_articles": 3398,
+  "filtered_articles": 22,
   "articles": [
+    {
+      "title": "Show HN: Make cursed fonts like Times New Bastard",
+      "title_display": "Show HN: Make cursed fonts like Times New Bastard",
+      "link": "https://bastardica.mitpit.com",
+      "pub_date": "2026-09-24T18:40:35.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 231,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "Times New Bastard",
+        "Bastardica",
+        "CSS",
+        "@font-face"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "GitHub has not removed malicious imitation software after 3 weeks",
+      "title_display": "GitHub has not removed malicious imitation software after 3 weeks",
+      "link": "https://successfulsoftware.net/2026/09/24/github-has-not-removed-malicious-imitation-software-after-3-weeks/",
+      "pub_date": "2026-09-24T16:30:41.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 187,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "GitHub",
+        "Microsoft",
+        "malware",
+        "DMCA"
+      ],
+      "rank": 2
+    },
     {
       "title": "The newest ESP32 can run Linux and it's getting close to a Raspberry Pi",
       "title_display": "The newest ESP32 can run Linux and it's getting close to a Raspberry Pi",
@@ -22,7 +60,7 @@
         "Raspberry Pi",
         "Espressif"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "Virtio-nvgpu: Near-native Nvidia GPU access inside a KVM guest",
@@ -41,7 +79,7 @@
         "KVM",
         "Virtio"
       ],
-      "rank": 2
+      "rank": 4
     }
   ]
 }
