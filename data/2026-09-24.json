@@ -1,10 +1,29 @@
 {
   "date": "2026-09-24",
   "total_feeds": 95,
-  "success_feeds": 90,
-  "total_articles": 3425,
-  "filtered_articles": 25,
+  "success_feeds": 88,
+  "total_articles": 3391,
+  "filtered_articles": 22,
   "articles": [
+    {
+      "title": "The \"Windows XP Box\" (2003)",
+      "title_display": "The \"Windows XP Box\" (2003)",
+      "link": "https://www.mini-itx.com/projects/windowsxpbox/",
+      "pub_date": "2026-09-24T00:10:31.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 129,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Windows XP",
+        "Mini-ITX",
+        "Red Hat Linux",
+        "Pentium III"
+      ],
+      "rank": 1
+    },
     {
       "title": "Meta VR Glasses",
       "title_display": "Meta VR Glasses",
@@ -13,8 +32,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 230,
-      "score": 29,
+      "hn_points": 332,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Meta VR Glasses",
@@ -22,7 +41,7 @@
         "virtual reality",
         "mixed reality"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Linux support is coming to Snapdragon X2 Series",
@@ -32,8 +51,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 162,
-      "score": 27,
+      "hn_points": 280,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Qualcomm",
@@ -41,7 +60,7 @@
         "Linux",
         "Snapdragon"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "VSCode's SSH Agent Is Bananas",
@@ -60,7 +79,7 @@
         "Remote Development",
         "SSH Agent"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "How we made claude.ai 3x faster in two weeks",
@@ -78,7 +97,7 @@
         "Anthropic",
         "frontend performance"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "28% of job postings on company career sites have been open over 90 days",
@@ -96,7 +115,7 @@
         "job postings",
         "hiring"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Radicle: Disclosure of Vulnerability in the Network Protocol",
@@ -115,7 +134,26 @@
         "authentication",
         "encryption"
       ],
-      "rank": 6
+      "rank": 7
+    },
+    {
+      "title": "Strands Harness",
+      "title_display": "Strands Harness",
+      "link": "https://strandsagents.com/blog/introducing-strands-harness/",
+      "pub_date": "2026-09-23T15:20:28.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 134,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Strands Harness",
+        "Strands Agents",
+        "Amazon",
+        "Claude Code"
+      ],
+      "rank": 8
     },
     {
       "title": "Tokens Too Cheap to Meter",
@@ -125,8 +163,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 150,
-      "score": 26,
+      "hn_points": 252,
+      "score": 29,
       "category": "other",
       "keywords": [
         "LLM",
@@ -134,7 +172,7 @@
         "data centers",
         "GPT-5.6 Luna"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "The GitHub wiki is an anti-pattern",
@@ -153,7 +191,7 @@
         "Fossil",
         "GitLab"
       ],
-      "rank": 8
+      "rank": 10
     },
     {
       "title": "Samsung accidentally freezes its smart fridges with a software update",
@@ -172,7 +210,7 @@
         "software update",
         "IoT"
       ],
-      "rank": 9
+      "rank": 11
     },
     {
       "title": "Claude Code reads AGENTS.md only when telemetry is on",
@@ -191,7 +229,7 @@
         "AGENTS.md",
         "telemetry"
       ],
-      "rank": 10
+      "rank": 12
     },
     {
       "title": "Z80 REPL",
@@ -208,7 +246,7 @@
         "Z80",
         "REPL"
       ],
-      "rank": 11
+      "rank": 13
     }
   ]
 }
