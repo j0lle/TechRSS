@@ -2,9 +2,28 @@
   "date": "2026-09-24",
   "total_feeds": 95,
   "success_feeds": 88,
-  "total_articles": 3391,
-  "filtered_articles": 22,
+  "total_articles": 3354,
+  "filtered_articles": 20,
   "articles": [
+    {
+      "title": "Ideas on modernizing the open-source desktop",
+      "title_display": "Ideas on modernizing the open-source desktop",
+      "link": "https://lwn.net/SubscriberLink/1095425/2d9f411252325784/",
+      "pub_date": "2026-09-24T05:30:32.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 232,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "Linux",
+        "GNOME",
+        "Wayland",
+        "MATE"
+      ],
+      "rank": 1
+    },
     {
       "title": "The \"Windows XP Box\" (2003)",
       "title_display": "The \"Windows XP Box\" (2003)",
@@ -22,7 +41,7 @@
         "Red Hat Linux",
         "Pentium III"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Meta VR Glasses",
@@ -41,7 +60,7 @@
         "virtual reality",
         "mixed reality"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Linux support is coming to Snapdragon X2 Series",
@@ -51,7 +70,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 280,
+      "hn_points": 385,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -60,7 +79,7 @@
         "Linux",
         "Snapdragon"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "VSCode's SSH Agent Is Bananas",
@@ -70,8 +89,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 139,
-      "score": 26,
+      "hn_points": 241,
+      "score": 29,
       "category": "other",
       "keywords": [
         "VS Code",
@@ -79,7 +98,7 @@
         "Remote Development",
         "SSH Agent"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "How we made claude.ai 3x faster in two weeks",
@@ -97,7 +116,7 @@
         "Anthropic",
         "frontend performance"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "28% of job postings on company career sites have been open over 90 days",
@@ -115,7 +134,7 @@
         "job postings",
         "hiring"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Radicle: Disclosure of Vulnerability in the Network Protocol",
@@ -134,7 +153,7 @@
         "authentication",
         "encryption"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Strands Harness",
@@ -153,7 +172,7 @@
         "Amazon",
         "Claude Code"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Tokens Too Cheap to Meter",
@@ -172,7 +191,7 @@
         "data centers",
         "GPT-5.6 Luna"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "The GitHub wiki is an anti-pattern",
@@ -191,7 +210,7 @@
         "Fossil",
         "GitLab"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "Samsung accidentally freezes its smart fridges with a software update",
@@ -210,7 +229,7 @@
         "software update",
         "IoT"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "Claude Code reads AGENTS.md only when telemetry is on",
@@ -229,7 +248,7 @@
         "AGENTS.md",
         "telemetry"
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "title": "Z80 REPL",
@@ -246,7 +265,7 @@
         "Z80",
         "REPL"
       ],
-      "rank": 13
+      "rank": 14
     }
   ]
 }
