@@ -1,9 +1,9 @@
 {
   "date": "2026-09-25",
   "total_feeds": 95,
-  "success_feeds": 90,
-  "total_articles": 3436,
-  "filtered_articles": 22,
+  "success_feeds": 87,
+  "total_articles": 3368,
+  "filtered_articles": 24,
   "articles": [
     {
       "title": "2DWillNeverDie",
@@ -25,6 +25,44 @@
       "rank": 1
     },
     {
+      "title": "Sourcehut account takeover via build logs (XSS in ansi2html)",
+      "title_display": "Sourcehut account takeover via build logs (XSS in ansi2html)",
+      "link": "https://blog.arusekk.pl/posts/srht-account-takeover/",
+      "pub_date": "2026-09-24T20:30:39.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 125,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "SourceHut",
+        "ansi2html",
+        "XSS",
+        "OSC 8"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "Using LLMs to trace alchemical knowledge and decode 17th century letters",
+      "title_display": "Using LLMs to trace alchemical knowledge and decode 17th century letters",
+      "link": "https://resobscura.substack.com/p/ai-labs-need-to-start-funding-historical",
+      "pub_date": "2026-09-24T20:20:33.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 130,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "LLMs",
+        "alchemy",
+        "historical letters",
+        "digital humanities"
+      ],
+      "rank": 3
+    },
+    {
       "title": "My weird new hobby: Wandering around Tokyo on Google Maps",
       "title_display": "My weird new hobby: Wandering around Tokyo on Google Maps",
       "link": "https://ahmedhossamdev.com/writing/my-weird-new-hobby-wandering-around-tokyo/",
@@ -41,7 +79,25 @@
         "Google Street View",
         "Google Earth"
       ],
-      "rank": 2
+      "rank": 4
+    },
+    {
+      "title": "Book review: Is parallel programming hard, and, if so, what can you do about it?",
+      "title_display": "Book review: Is parallel programming hard, and, if so, what can you do about it?",
+      "link": "https://ahelwer.ca/post/2026-09-21-concurrency-textbook/",
+      "pub_date": "2026-09-24T18:50:32.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 123,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "parallel programming",
+        "concurrency",
+        "Is Parallel Programming Hard, and, If So, What Can You Do About It?"
+      ],
+      "rank": 5
     },
     {
       "title": "Show HN: Make cursed fonts like Times New Bastard",
@@ -51,7 +107,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 367,
+      "hn_points": 674,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -60,7 +116,7 @@
         "CSS",
         "@font-face"
       ],
-      "rank": 3
+      "rank": 6
     },
     {
       "title": "Google’s Project Suncatcher to put ML infrastructure in space",
@@ -79,7 +135,7 @@
         "ML infrastructure",
         "space-based data centers"
       ],
-      "rank": 4
+      "rank": 7
     },
     {
       "title": "Show HN: Whiteboard (YC W26) – An open-source IDE for thoughtful software design",
@@ -89,8 +145,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 156,
-      "score": 27,
+      "hn_points": 260,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Whiteboard",
@@ -98,7 +154,7 @@
         "GitHub",
         "IDE"
       ],
-      "rank": 5
+      "rank": 8
     },
     {
       "title": "GitHub has not removed malicious imitation software after 3 weeks",
@@ -117,7 +173,7 @@
         "malware",
         "DMCA"
       ],
-      "rank": 6
+      "rank": 9
     },
     {
       "title": "The newest ESP32 can run Linux and it's getting close to a Raspberry Pi",
@@ -136,7 +192,7 @@
         "Raspberry Pi",
         "Espressif"
       ],
-      "rank": 7
+      "rank": 10
     },
     {
       "title": "Virtio-nvgpu: Near-native Nvidia GPU access inside a KVM guest",
@@ -155,7 +211,7 @@
         "KVM",
         "Virtio"
       ],
-      "rank": 8
+      "rank": 11
     }
   ]
 }
