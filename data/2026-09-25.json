@@ -1,10 +1,29 @@
 {
   "date": "2026-09-25",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3398,
-  "filtered_articles": 22,
+  "success_feeds": 90,
+  "total_articles": 3428,
+  "filtered_articles": 20,
   "articles": [
+    {
+      "title": "My weird new hobby: Wandering around Tokyo on Google Maps",
+      "title_display": "My weird new hobby: Wandering around Tokyo on Google Maps",
+      "link": "https://ahmedhossamdev.com/writing/my-weird-new-hobby-wandering-around-tokyo/",
+      "pub_date": "2026-09-24T19:40:31.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 167,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Google Maps",
+        "Tokyo",
+        "Google Street View",
+        "Google Earth"
+      ],
+      "rank": 1
+    },
     {
       "title": "Show HN: Make cursed fonts like Times New Bastard",
       "title_display": "Show HN: Make cursed fonts like Times New Bastard",
@@ -13,8 +32,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 231,
-      "score": 29,
+      "hn_points": 367,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Times New Bastard",
@@ -22,7 +41,26 @@
         "CSS",
         "@font-face"
       ],
-      "rank": 1
+      "rank": 2
+    },
+    {
+      "title": "Show HN: Whiteboard (YC W26) – An open-source IDE for thoughtful software design",
+      "title_display": "Show HN: Whiteboard (YC W26) – An open-source IDE for thoughtful software design",
+      "link": "https://github.com/devdotfast/whiteboard",
+      "pub_date": "2026-09-24T17:40:34.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 156,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Whiteboard",
+        "YC",
+        "GitHub",
+        "IDE"
+      ],
+      "rank": 3
     },
     {
       "title": "GitHub has not removed malicious imitation software after 3 weeks",
@@ -41,7 +79,7 @@
         "malware",
         "DMCA"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "The newest ESP32 can run Linux and it's getting close to a Raspberry Pi",
@@ -60,7 +98,7 @@
         "Raspberry Pi",
         "Espressif"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "Virtio-nvgpu: Near-native Nvidia GPU access inside a KVM guest",
@@ -79,7 +117,7 @@
         "KVM",
         "Virtio"
       ],
-      "rank": 4
+      "rank": 6
     }
   ]
 }
