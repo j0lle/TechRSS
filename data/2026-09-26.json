@@ -1,10 +1,48 @@
 {
   "date": "2026-09-26",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3381,
-  "filtered_articles": 28,
+  "success_feeds": 89,
+  "total_articles": 3406,
+  "filtered_articles": 26,
   "articles": [
+    {
+      "title": "Factorio that you can touch",
+      "title_display": "Factorio that you can touch",
+      "link": "https://factorio.com/blog/post/fff-447",
+      "pub_date": "2026-09-25T16:00:49.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 209,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "Factorio",
+        "Wube Software",
+        "3D printing",
+        "ARM64"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "First Principles Thinking",
+      "title_display": "First Principles Thinking",
+      "link": "https://sunilsadasivan.com/writing/first-principles-thinking/",
+      "pub_date": "2026-09-25T14:50:34.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 146,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "First principles thinking",
+        "AI agents",
+        "ChatGPT",
+        "Claude"
+      ],
+      "rank": 2
+    },
     {
       "title": "Git-bug: Distributed, offline-first bug tracker embedded in Git",
       "title_display": "Git-bug: Distributed, offline-first bug tracker embedded in Git",
@@ -21,7 +59,7 @@
         "Git",
         "GitHub"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "Platform-Independent SIMD in Go",
@@ -31,8 +69,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 173,
-      "score": 27,
+      "hn_points": 277,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Go",
@@ -40,7 +78,26 @@
         "Go compiler",
         "autovectorization"
       ],
-      "rank": 2
+      "rank": 4
+    },
+    {
+      "title": "Oracle on the hook to pay data centre investors even if site has no electricity",
+      "title_display": "Oracle on the hook to pay data centre investors even if site has no electricity",
+      "link": "https://www.ft.com/content/a96bf05a-a299-4d6a-a753-b298dd0f4016",
+      "pub_date": "2026-09-25T11:50:32.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 137,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Oracle",
+        "data centers",
+        "AI",
+        "fuel cells"
+      ],
+      "rank": 5
     },
     {
       "title": "Dutch governments builds alternative for Microsoft based on NixOS",
@@ -50,7 +107,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 364,
+      "hn_points": 846,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -59,7 +116,7 @@
         "Dutch government",
         "Microsoft"
       ],
-      "rank": 3
+      "rank": 6
     }
   ]
 }
