@@ -1,10 +1,29 @@
 {
   "date": "2026-09-26",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3406,
+  "success_feeds": 90,
+  "total_articles": 3436,
   "filtered_articles": 26,
   "articles": [
+    {
+      "title": "Ollaya – Ollama for open-source, Jev-style decision models",
+      "title_display": "Ollaya – Ollama for open-source, Jev-style decision models",
+      "link": "https://ollaya.dev/",
+      "pub_date": "2026-09-25T18:50:31.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 209,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "Ollaya",
+        "Ollama",
+        "Jev",
+        "Laya"
+      ],
+      "rank": 1
+    },
     {
       "title": "Factorio that you can touch",
       "title_display": "Factorio that you can touch",
@@ -22,7 +41,7 @@
         "3D printing",
         "ARM64"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "First Principles Thinking",
@@ -41,7 +60,7 @@
         "ChatGPT",
         "Claude"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Git-bug: Distributed, offline-first bug tracker embedded in Git",
@@ -51,15 +70,15 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 155,
-      "score": 27,
+      "hn_points": 256,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Git-bug",
         "Git",
         "GitHub"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Platform-Independent SIMD in Go",
@@ -78,7 +97,7 @@
         "Go compiler",
         "autovectorization"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Oracle on the hook to pay data centre investors even if site has no electricity",
@@ -97,7 +116,7 @@
         "AI",
         "fuel cells"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Dutch governments builds alternative for Microsoft based on NixOS",
@@ -116,7 +135,7 @@
         "Dutch government",
         "Microsoft"
       ],
-      "rank": 6
+      "rank": 7
     }
   ]
 }
