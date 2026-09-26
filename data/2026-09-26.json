@@ -2,9 +2,47 @@
   "date": "2026-09-26",
   "total_feeds": 95,
   "success_feeds": 90,
-  "total_articles": 3436,
-  "filtered_articles": 21,
+  "total_articles": 3434,
+  "filtered_articles": 24,
   "articles": [
+    {
+      "title": "Plan mode is dead",
+      "title_display": "Plan mode is dead",
+      "link": "https://www.aymannadeem.com/artificial/intelligence,/developer/tools/2026/09/24/plan-mode-is-dead.html",
+      "pub_date": "2026-09-26T00:50:30.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 168,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Claude Code",
+        "plan mode",
+        "Anthropic",
+        "Fable"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "How we learned to stop worrying and love campus surveillance",
+      "title_display": "How we learned to stop worrying and love campus surveillance",
+      "link": "https://fnl.mit.edu/how-we-learned-to-stop-worrying-and-love-campus-surveillance/",
+      "pub_date": "2026-09-25T22:50:30.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 127,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "MIT",
+        "campus surveillance",
+        "AI",
+        "audio surveillance"
+      ],
+      "rank": 2
+    },
     {
       "title": "Ollaya – Ollama for open-source, Jev-style decision models",
       "title_display": "Ollaya – Ollama for open-source, Jev-style decision models",
@@ -22,7 +60,7 @@
         "Jev",
         "Laya"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "Factorio that you can touch",
@@ -41,7 +79,7 @@
         "3D printing",
         "ARM64"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "First Principles Thinking",
@@ -51,8 +89,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 146,
-      "score": 26,
+      "hn_points": 248,
+      "score": 29,
       "category": "other",
       "keywords": [
         "First principles thinking",
@@ -60,7 +98,7 @@
         "ChatGPT",
         "Claude"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "Git-bug: Distributed, offline-first bug tracker embedded in Git",
@@ -78,7 +116,7 @@
         "Git",
         "GitHub"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "Platform-Independent SIMD in Go",
@@ -88,8 +126,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 277,
-      "score": 29,
+      "hn_points": 379,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Go",
@@ -97,7 +135,7 @@
         "Go compiler",
         "autovectorization"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "Oracle on the hook to pay data centre investors even if site has no electricity",
@@ -116,7 +154,7 @@
         "AI",
         "fuel cells"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "Dutch governments builds alternative for Microsoft based on NixOS",
@@ -135,7 +173,7 @@
         "Dutch government",
         "Microsoft"
       ],
-      "rank": 7
+      "rank": 9
     }
   ]
 }
