@@ -1,10 +1,46 @@
 {
   "date": "2026-09-27",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3404,
-  "filtered_articles": 16,
+  "success_feeds": 90,
+  "total_articles": 3434,
+  "filtered_articles": 15,
   "articles": [
+    {
+      "title": "I'm the Mom in That Viral Giants Clip. Let Me Tell You About My Husband",
+      "title_display": "I'm the Mom in That Viral Giants Clip. Let Me Tell You About My Husband",
+      "link": "https://themomoftheyear.substack.com/p/im-the-mom-in-that-viral-giants-clip",
+      "pub_date": "2026-09-26T17:10:56.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 256,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "TikTok",
+        "Reddit"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "PipePipe: NewPipe hard fork implementing SponsorBlock",
+      "title_display": "PipePipe: NewPipe hard fork implementing SponsorBlock",
+      "link": "https://github.com/InfinityLoop1308/PipePipe",
+      "pub_date": "2026-09-26T16:10:49.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 124,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "PipePipe",
+        "NewPipe",
+        "SponsorBlock",
+        "YouTube"
+      ],
+      "rank": 2
+    },
     {
       "title": "One Month Without AI",
       "title_display": "One Month Without AI",
@@ -22,7 +58,7 @@
         "AI agents",
         "Claude"
       ],
-      "rank": 1
+      "rank": 3
     }
   ]
 }
