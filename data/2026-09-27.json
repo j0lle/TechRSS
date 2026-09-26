@@ -1,0 +1,28 @@
+{
+  "date": "2026-09-27",
+  "total_feeds": 95,
+  "success_feeds": 89,
+  "total_articles": 3404,
+  "filtered_articles": 16,
+  "articles": [
+    {
+      "title": "One Month Without AI",
+      "title_display": "One Month Without AI",
+      "link": "https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html",
+      "pub_date": "2026-09-26T11:10:51.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 143,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "AI",
+        "LLMs",
+        "AI agents",
+        "Claude"
+      ],
+      "rank": 1
+    }
+  ]
+}
