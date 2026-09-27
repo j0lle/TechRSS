@@ -6,6 +6,25 @@
   "filtered_articles": 12,
   "articles": [
     {
+      "title": "The Normalization of Inexplicable Failures",
+      "title_display": "The Normalization of Inexplicable Failures",
+      "link": "https://www.ihatethefuture.com/2026/09/the-normalization-of-inexplicable.html",
+      "pub_date": "2026-09-27T15:50:49.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 186,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "LLM",
+        "agentic development",
+        "software reliability",
+        "nondeterminism"
+      ],
+      "rank": 1
+    },
+    {
       "title": "Turning GLM-5.3-Flash into a Jev-like decision model",
       "title_display": "Turning GLM-5.3-Flash into a Jev-like decision model",
       "link": "https://www.privatemode.ai/blog/system-one-from-glm-flash",
@@ -22,7 +41,7 @@
         "Privatemode",
         "autoregressive decoder"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "An agent used DNS to reach an external chatbot",
@@ -41,7 +60,7 @@
         "AI agents",
         "tool use"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Evolving programming languages in the AI era",
@@ -60,7 +79,7 @@
         "LLMs",
         "ASTs"
       ],
-      "rank": 3
+      "rank": 4
     }
   ]
 }
