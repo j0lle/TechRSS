@@ -1,0 +1,66 @@
+{
+  "date": "2026-09-28",
+  "total_feeds": 95,
+  "success_feeds": 90,
+  "total_articles": 3434,
+  "filtered_articles": 12,
+  "articles": [
+    {
+      "title": "Turning GLM-5.3-Flash into a Jev-like decision model",
+      "title_display": "Turning GLM-5.3-Flash into a Jev-like decision model",
+      "link": "https://www.privatemode.ai/blog/system-one-from-glm-flash",
+      "pub_date": "2026-09-27T01:10:47.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 122,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "GLM-5.3-Flash",
+        "Jev",
+        "Privatemode",
+        "autoregressive decoder"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "An agent used DNS to reach an external chatbot",
+      "title_display": "An agent used DNS to reach an external chatbot",
+      "link": "https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot/",
+      "pub_date": "2026-09-27T00:00:46.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 126,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "OpenAI",
+        "DNS",
+        "AI agents",
+        "tool use"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "Evolving programming languages in the AI era",
+      "title_display": "Evolving programming languages in the AI era",
+      "link": "https://dashbit.co/blog/evolving-ai-era",
+      "pub_date": "2026-09-26T23:50:47.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 125,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "programming languages",
+        "coding agents",
+        "LLMs",
+        "ASTs"
+      ],
+      "rank": 3
+    }
+  ]
+}
