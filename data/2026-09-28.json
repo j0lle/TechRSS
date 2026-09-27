@@ -1,10 +1,29 @@
 {
   "date": "2026-09-28",
   "total_feeds": 95,
-  "success_feeds": 90,
-  "total_articles": 3434,
-  "filtered_articles": 12,
+  "success_feeds": 89,
+  "total_articles": 3404,
+  "filtered_articles": 11,
   "articles": [
+    {
+      "title": "postmarketOS Rebrand: Nura",
+      "title_display": "postmarketOS Rebrand: Nura",
+      "link": "https://nura.eco/blog/2026/09/27/nura-rename/",
+      "pub_date": "2026-09-27T16:50:51.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 147,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Nura",
+        "postmarketOS",
+        "Linux",
+        "AI"
+      ],
+      "rank": 1
+    },
     {
       "title": "The Normalization of Inexplicable Failures",
       "title_display": "The Normalization of Inexplicable Failures",
@@ -22,7 +41,26 @@
         "software reliability",
         "nondeterminism"
       ],
-      "rank": 1
+      "rank": 2
+    },
+    {
+      "title": "Writing Efficient C++ Code",
+      "title_display": "Writing Efficient C++ Code",
+      "link": "https://asawicki.info/articles/writing_efficient_cpp_code.php",
+      "pub_date": "2026-09-27T15:20:50.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 131,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "C++",
+        "SIMD",
+        "C++23",
+        "std::span"
+      ],
+      "rank": 3
     },
     {
       "title": "Turning GLM-5.3-Flash into a Jev-like decision model",
@@ -41,7 +79,7 @@
         "Privatemode",
         "autoregressive decoder"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "An agent used DNS to reach an external chatbot",
@@ -60,7 +98,7 @@
         "AI agents",
         "tool use"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "Evolving programming languages in the AI era",
@@ -79,7 +117,7 @@
         "LLMs",
         "ASTs"
       ],
-      "rank": 4
+      "rank": 6
     }
   ]
 }
