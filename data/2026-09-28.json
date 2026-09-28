@@ -1,10 +1,28 @@
 {
   "date": "2026-09-28",
   "total_feeds": 95,
-  "success_feeds": 90,
-  "total_articles": 3434,
-  "filtered_articles": 15,
+  "success_feeds": 89,
+  "total_articles": 3396,
+  "filtered_articles": 23,
   "articles": [
+    {
+      "title": "There is more to code review than (automatable) detection",
+      "title_display": "There is more to code review than (automatable) detection",
+      "link": "https://www.adaptivecapacitylabs.com/2026/08/24/there-is-more-to-code-review-than-automatable-detection/",
+      "pub_date": "2026-09-27T21:50:48.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 128,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "code review",
+        "LLMs",
+        "AI"
+      ],
+      "rank": 1
+    },
     {
       "title": "Don't couple your Go code to GitHub",
       "title_display": "Don't couple your Go code to GitHub",
@@ -13,8 +31,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 133,
-      "score": 26,
+      "hn_points": 236,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Go",
@@ -22,7 +40,26 @@
         "Go modules",
         "vanity import paths"
       ],
-      "rank": 1
+      "rank": 2
+    },
+    {
+      "title": "The state of SIMD in Rust in 2026",
+      "title_display": "The state of SIMD in Rust in 2026",
+      "link": "https://shnatsel.github.io/state-of-simd-rust-2026/",
+      "pub_date": "2026-09-27T19:50:46.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 127,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Rust",
+        "SIMD",
+        "portable SIMD",
+        "x86"
+      ],
+      "rank": 3
     },
     {
       "title": "postmarketOS Rebrand: Nura",
@@ -41,7 +78,7 @@
         "Linux",
         "AI"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "The Normalization of Inexplicable Failures",
@@ -60,7 +97,7 @@
         "software reliability",
         "nondeterminism"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "Ten Lines of Code That Changed My World",
@@ -79,7 +116,7 @@
         "C",
         "POKE"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "Writing Efficient C++ Code",
@@ -98,7 +135,7 @@
         "C++23",
         "std::span"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "Turning GLM-5.3-Flash into a Jev-like decision model",
@@ -117,7 +154,7 @@
         "Privatemode",
         "autoregressive decoder"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "An agent used DNS to reach an external chatbot",
@@ -136,7 +173,7 @@
         "AI agents",
         "tool use"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "Evolving programming languages in the AI era",
@@ -155,7 +192,7 @@
         "LLMs",
         "ASTs"
       ],
-      "rank": 8
+      "rank": 10
     }
   ]
 }
