@@ -1,0 +1,140 @@
+{
+  "date": "2026-09-29",
+  "total_feeds": 95,
+  "success_feeds": 90,
+  "total_articles": 3428,
+  "filtered_articles": 30,
+  "articles": [
+    {
+      "title": "The problem is not the AI code, but nobody knows anything anymore",
+      "title_display": "The problem is not the AI code, but nobody knows anything anymore",
+      "link": "https://www.ssp.sh/brain/the-problem-is-not-the-ai-code-but-nobody-knows-anything-anymore/",
+      "pub_date": "2026-09-28T16:21:22.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 292,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "LLMs",
+        "Claude",
+        "coding agents",
+        "Claude Code"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "MongoDB CEO resigns \"effective immediately\" to join Meta, stock drops 20%",
+      "title_display": "MongoDB CEO resigns \"effective immediately\" to join Meta, stock drops 20%",
+      "link": "https://www.reuters.com/technology/mongodb-ceo-desai-steps-down-lead-metas-enterprise-platform-2026-09-28/",
+      "pub_date": "2026-09-28T15:41:18.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 165,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "MongoDB",
+        "Meta",
+        "Dev Ittycheria",
+        "Muse"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "37,500 border drawings: a map of the world as people remember it",
+      "title_display": "37,500 border drawings: a map of the world as people remember it",
+      "link": "https://www.habibicode.org/thedrawnworld",
+      "pub_date": "2026-09-28T11:50:46.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 126,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Borderline",
+        "habibicode.org",
+        "world map",
+        "data visualization"
+      ],
+      "rank": 3
+    },
+    {
+      "title": "Parley: Federated, decentralised chat that speaks plain IRC",
+      "title_display": "Parley: Federated, decentralised chat that speaks plain IRC",
+      "link": "https://git.mills.io/prologic/parley",
+      "pub_date": "2026-09-28T11:00:48.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 238,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "Parley",
+        "IRC",
+        "DNS",
+        "HTTPS"
+      ],
+      "rank": 4
+    },
+    {
+      "title": "Footguns with Postgres \"at time zone 'UTC'\"",
+      "title_display": "Footguns with Postgres \"at time zone 'UTC'\"",
+      "link": "https://bookofrevenue.com/blog/6ab81e9a97a13f0001f7e4e1/postgres-at-time-zone-u-does-not-do-what-you-think-it-does",
+      "pub_date": "2026-09-28T08:40:52.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 127,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "PostgreSQL",
+        "AT TIME ZONE",
+        "UTC",
+        "timestamp"
+      ],
+      "rank": 5
+    },
+    {
+      "title": "Malleable software: Restoring user agency in a world of locked-down apps (2025)",
+      "title_display": "Malleable software: Restoring user agency in a world of locked-down apps (2025)",
+      "link": "https://www.inkandswitch.com/essay/malleable-software/",
+      "pub_date": "2026-09-28T04:20:45.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 125,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Malleable software",
+        "Ink & Switch"
+      ],
+      "rank": 6
+    },
+    {
+      "title": "Guitar amp and effects pedal built on the Waveshare ESP32-S3-Touch-AMOLED-2.06",
+      "title_display": "Guitar amp and effects pedal built on the Waveshare ESP32-S3-Touch-AMOLED-2.06",
+      "link": "https://github.com/dashersw/coyopedal",
+      "pub_date": "2026-09-28T02:00:47.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 120,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "coyopedal",
+        "ESP32-S3",
+        "Waveshare",
+        "NAM"
+      ],
+      "rank": 7
+    }
+  ]
+}
