@@ -1,10 +1,29 @@
 {
   "date": "2026-09-28",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3404,
-  "filtered_articles": 11,
+  "success_feeds": 90,
+  "total_articles": 3434,
+  "filtered_articles": 15,
   "articles": [
+    {
+      "title": "Don't couple your Go code to GitHub",
+      "title_display": "Don't couple your Go code to GitHub",
+      "link": "https://iain.rocks/blog/dont-couple-your-go-code-to-github",
+      "pub_date": "2026-09-27T19:50:48.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 133,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Go",
+        "GitHub",
+        "Go modules",
+        "vanity import paths"
+      ],
+      "rank": 1
+    },
     {
       "title": "postmarketOS Rebrand: Nura",
       "title_display": "postmarketOS Rebrand: Nura",
@@ -22,7 +41,7 @@
         "Linux",
         "AI"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "The Normalization of Inexplicable Failures",
@@ -41,7 +60,26 @@
         "software reliability",
         "nondeterminism"
       ],
-      "rank": 2
+      "rank": 3
+    },
+    {
+      "title": "Ten Lines of Code That Changed My World",
+      "title_display": "Ten Lines of Code That Changed My World",
+      "link": "https://pixelambacht.nl/2026/ten-lines-of-code/",
+      "pub_date": "2026-09-27T15:40:50.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 123,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "BASIC",
+        "CSS",
+        "C",
+        "POKE"
+      ],
+      "rank": 4
     },
     {
       "title": "Writing Efficient C++ Code",
@@ -60,7 +98,7 @@
         "C++23",
         "std::span"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "Turning GLM-5.3-Flash into a Jev-like decision model",
@@ -79,7 +117,7 @@
         "Privatemode",
         "autoregressive decoder"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "An agent used DNS to reach an external chatbot",
@@ -98,7 +136,7 @@
         "AI agents",
         "tool use"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "Evolving programming languages in the AI era",
@@ -117,7 +155,7 @@
         "LLMs",
         "ASTs"
       ],
-      "rank": 6
+      "rank": 8
     }
   ]
 }
