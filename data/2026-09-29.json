@@ -1,10 +1,67 @@
 {
   "date": "2026-09-29",
   "total_feeds": 95,
-  "success_feeds": 90,
-  "total_articles": 3428,
-  "filtered_articles": 30,
+  "success_feeds": 88,
+  "total_articles": 3372,
+  "filtered_articles": 32,
   "articles": [
+    {
+      "title": "Definitely not Windows (Win 11 parody)",
+      "title_display": "Definitely not Windows (Win 11 parody)",
+      "link": "https://definitelynotwindows.com/",
+      "pub_date": "2026-09-28T18:11:19.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 353,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Windows 11",
+        "Microsoft",
+        "Windows",
+        "Linux"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Claude Sonnet 5.5",
+      "title_display": "Claude Sonnet 5.5",
+      "link": "https://www.anthropic.com/claude-sonnet-5-5",
+      "pub_date": "2026-09-28T18:11:19.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 340,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Anthropic",
+        "Claude Sonnet 5.5",
+        "Claude",
+        "Opus 5.5"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "Hijacking the PS5's RTMP Stream",
+      "title_display": "Hijacking the PS5's RTMP Stream",
+      "link": "https://yashgarg.dev/posts/hijacking-ps5-rtmp-stream/",
+      "pub_date": "2026-09-28T16:31:24.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 147,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "PlayStation 5",
+        "RTMP",
+        "Twitch",
+        "Sony"
+      ],
+      "rank": 3
+    },
     {
       "title": "The problem is not the AI code, but nobody knows anything anymore",
       "title_display": "The problem is not the AI code, but nobody knows anything anymore",
@@ -22,7 +79,26 @@
         "coding agents",
         "Claude Code"
       ],
-      "rank": 1
+      "rank": 4
+    },
+    {
+      "title": "Pirating the Pirates",
+      "title_display": "Pirating the Pirates",
+      "link": "https://mubi.com/en/notebook/posts/pirating-the-pirates",
+      "pub_date": "2026-09-28T16:11:12.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 349,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Mubi",
+        "piracy",
+        "digital preservation",
+        "copyright"
+      ],
+      "rank": 5
     },
     {
       "title": "MongoDB CEO resigns \"effective immediately\" to join Meta, stock drops 20%",
@@ -32,8 +108,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 165,
-      "score": 27,
+      "hn_points": 277,
+      "score": 29,
       "category": "other",
       "keywords": [
         "MongoDB",
@@ -41,7 +117,45 @@
         "Dev Ittycheria",
         "Muse"
       ],
-      "rank": 2
+      "rank": 6
+    },
+    {
+      "title": "Show HN: PaperMono, e-ink fridge magnet shopping list with mobile web page",
+      "title_display": "Show HN: PaperMono, e-ink fridge magnet shopping list with mobile web page",
+      "link": "https://github.com/seamusc/papermono-shopping-list",
+      "pub_date": "2026-09-28T14:11:21.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 122,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "PaperMono",
+        "e-ink",
+        "Meshtastic",
+        "LoRa"
+      ],
+      "rank": 7
+    },
+    {
+      "title": "Coding Is Not Solved – Alex Ewerlöf Notes",
+      "title_display": "Coding Is Not Solved – Alex Ewerlöf Notes",
+      "link": "https://blog.alexewerlof.com/p/coding-is-not-solved",
+      "pub_date": "2026-09-28T14:11:20.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 389,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "LLMs",
+        "AI coding agents",
+        "Claude",
+        "GitHub Copilot"
+      ],
+      "rank": 8
     },
     {
       "title": "37,500 border drawings: a map of the world as people remember it",
@@ -60,7 +174,7 @@
         "world map",
         "data visualization"
       ],
-      "rank": 3
+      "rank": 9
     },
     {
       "title": "Parley: Federated, decentralised chat that speaks plain IRC",
@@ -79,7 +193,7 @@
         "DNS",
         "HTTPS"
       ],
-      "rank": 4
+      "rank": 10
     },
     {
       "title": "Footguns with Postgres \"at time zone 'UTC'\"",
@@ -98,7 +212,7 @@
         "UTC",
         "timestamp"
       ],
-      "rank": 5
+      "rank": 11
     },
     {
       "title": "Malleable software: Restoring user agency in a world of locked-down apps (2025)",
@@ -115,7 +229,7 @@
         "Malleable software",
         "Ink & Switch"
       ],
-      "rank": 6
+      "rank": 12
     },
     {
       "title": "Guitar amp and effects pedal built on the Waveshare ESP32-S3-Touch-AMOLED-2.06",
@@ -134,7 +248,7 @@
         "Waveshare",
         "NAM"
       ],
-      "rank": 7
+      "rank": 13
     }
   ]
 }
