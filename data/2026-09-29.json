@@ -1,10 +1,67 @@
 {
   "date": "2026-09-29",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3372,
+  "success_feeds": 90,
+  "total_articles": 3427,
   "filtered_articles": 32,
   "articles": [
+    {
+      "title": "Jeff – Jev-compatible 0.8B decision models, trained at home, ~30 ms",
+      "title_display": "Jeff – Jev-compatible 0.8B decision models, trained at home, ~30 ms",
+      "link": "https://github.com/firelex/jeff",
+      "pub_date": "2026-09-28T21:01:22.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 344,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Jeff",
+        "Jev",
+        "Qwen",
+        "Gemma"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "MicroLLM Lab – Try 7 tiny LLM's in the browser",
+      "title_display": "MicroLLM Lab – Try 7 tiny LLM's in the browser",
+      "link": "https://stateofutopia.com/experiments/microllmlab/",
+      "pub_date": "2026-09-28T19:41:13.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 141,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "LLM",
+        "PetitGPT",
+        "Web Models API",
+        "Three.js"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "Claude Sonnet 5.5",
+      "title_display": "Claude Sonnet 5.5",
+      "link": "https://www.anthropic.com/claude-sonnet-5-5",
+      "pub_date": "2026-09-28T18:11:19.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 640,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Anthropic",
+        "Claude Sonnet 5.5",
+        "Claude",
+        "Opus 5.5"
+      ],
+      "rank": 3
+    },
     {
       "title": "Definitely not Windows (Win 11 parody)",
       "title_display": "Definitely not Windows (Win 11 parody)",
@@ -22,26 +79,26 @@
         "Windows",
         "Linux"
       ],
-      "rank": 1
+      "rank": 4
     },
     {
-      "title": "Claude Sonnet 5.5",
-      "title_display": "Claude Sonnet 5.5",
-      "link": "https://www.anthropic.com/claude-sonnet-5-5",
-      "pub_date": "2026-09-28T18:11:19.000Z",
+      "title": "Cf: The Agentic CLI for the Cloudflare API",
+      "title_display": "Cf: The Agentic CLI for the Cloudflare API",
+      "link": "https://blog.cloudflare.com/cloudflare-cf-cli-launch/",
+      "pub_date": "2026-09-28T17:31:10.000Z",
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 340,
-      "score": 30,
+      "hn_points": 121,
+      "score": 25,
       "category": "other",
       "keywords": [
-        "Anthropic",
-        "Claude Sonnet 5.5",
-        "Claude",
-        "Opus 5.5"
+        "Cloudflare",
+        "cf",
+        "Cloudflare API",
+        "AI agents"
       ],
-      "rank": 2
+      "rank": 5
     },
     {
       "title": "Hijacking the PS5's RTMP Stream",
@@ -60,7 +117,7 @@
         "Twitch",
         "Sony"
       ],
-      "rank": 3
+      "rank": 6
     },
     {
       "title": "The problem is not the AI code, but nobody knows anything anymore",
@@ -79,7 +136,7 @@
         "coding agents",
         "Claude Code"
       ],
-      "rank": 4
+      "rank": 7
     },
     {
       "title": "Pirating the Pirates",
@@ -98,7 +155,7 @@
         "digital preservation",
         "copyright"
       ],
-      "rank": 5
+      "rank": 8
     },
     {
       "title": "MongoDB CEO resigns \"effective immediately\" to join Meta, stock drops 20%",
@@ -117,7 +174,7 @@
         "Dev Ittycheria",
         "Muse"
       ],
-      "rank": 6
+      "rank": 9
     },
     {
       "title": "Show HN: PaperMono, e-ink fridge magnet shopping list with mobile web page",
@@ -136,7 +193,7 @@
         "Meshtastic",
         "LoRa"
       ],
-      "rank": 7
+      "rank": 10
     },
     {
       "title": "Coding Is Not Solved – Alex Ewerlöf Notes",
@@ -155,7 +212,7 @@
         "Claude",
         "GitHub Copilot"
       ],
-      "rank": 8
+      "rank": 11
     },
     {
       "title": "37,500 border drawings: a map of the world as people remember it",
@@ -174,7 +231,7 @@
         "world map",
         "data visualization"
       ],
-      "rank": 9
+      "rank": 12
     },
     {
       "title": "Parley: Federated, decentralised chat that speaks plain IRC",
@@ -193,7 +250,7 @@
         "DNS",
         "HTTPS"
       ],
-      "rank": 10
+      "rank": 13
     },
     {
       "title": "Footguns with Postgres \"at time zone 'UTC'\"",
@@ -212,7 +269,7 @@
         "UTC",
         "timestamp"
       ],
-      "rank": 11
+      "rank": 14
     },
     {
       "title": "Malleable software: Restoring user agency in a world of locked-down apps (2025)",
@@ -229,7 +286,7 @@
         "Malleable software",
         "Ink & Switch"
       ],
-      "rank": 12
+      "rank": 15
     },
     {
       "title": "Guitar amp and effects pedal built on the Waveshare ESP32-S3-Touch-AMOLED-2.06",
@@ -248,7 +305,7 @@
         "Waveshare",
         "NAM"
       ],
-      "rank": 13
+      "rank": 16
     }
   ]
 }
