@@ -1,0 +1,66 @@
+{
+  "date": "2026-10-01",
+  "total_feeds": 95,
+  "success_feeds": 90,
+  "total_articles": 3442,
+  "filtered_articles": 51,
+  "articles": [
+    {
+      "title": "The AI Race Just Got Awkward",
+      "title_display": "The AI Race Just Got Awkward",
+      "link": "https://insufferable.dev/posts/the-ai-race-just-got-awkward/",
+      "pub_date": "2026-09-30T16:11:21.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 209,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "OpenAI",
+        "Anthropic",
+        "DeepSeek",
+        "Qwen"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Pi.dev: You Said No MCP",
+      "title_display": "Pi.dev: You Said No MCP",
+      "link": "https://earendil.com/posts/you-said-no-mcp/",
+      "pub_date": "2026-09-30T10:21:03.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 354,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Pi.dev",
+        "MCP",
+        "Model Context Protocol",
+        "Codemode"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "Needed 1+1, built a functional programming language",
+      "title_display": "Needed 1+1, built a functional programming language",
+      "link": "https://hereticpleb.vercel.app/blog/needed-one-plus-one/",
+      "pub_date": "2026-09-30T00:01:35.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 127,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "functional programming",
+        "hash tables",
+        "lambda calculus",
+        "C"
+      ],
+      "rank": 3
+    }
+  ]
+}
