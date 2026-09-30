@@ -1,10 +1,29 @@
 {
   "date": "2026-09-30",
   "total_feeds": 95,
-  "success_feeds": 90,
-  "total_articles": 3435,
-  "filtered_articles": 32,
+  "success_feeds": 88,
+  "total_articles": 3384,
+  "filtered_articles": 42,
   "articles": [
+    {
+      "title": "Backblaze drive stats for Q2 2026",
+      "title_display": "Backblaze drive stats for Q2 2026",
+      "link": "https://www.backblaze.com/blog/backblaze-drive-stats-for-q2-2026/",
+      "pub_date": "2026-09-30T03:01:25.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 195,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "Backblaze",
+        "hard drives",
+        "drive reliability",
+        "Seagate"
+      ],
+      "rank": 1
+    },
     {
       "title": "Livenerf: Has Opus 5.5 been nerfed yet?",
       "title_display": "Livenerf: Has Opus 5.5 been nerfed yet?",
@@ -13,7 +32,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 353,
+      "hn_points": 662,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -22,7 +41,7 @@
         "Anthropic",
         "model benchmarking"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "USPS shuts down site that sold 5M counterfeit postage labels for $2 each",
@@ -32,8 +51,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 138,
-      "score": 26,
+      "hn_points": 238,
+      "score": 29,
       "category": "other",
       "keywords": [
         "USPS",
@@ -41,7 +60,7 @@
         "U.S. Postal Inspectors",
         "eBay"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "AI needs $6T in annual revenue to justify data centre boom",
@@ -60,7 +79,7 @@
         "AI infrastructure",
         "Bain"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "New PlayStation 5 Console Jailbreak Released",
@@ -79,7 +98,7 @@
         "Sony",
         "WebKit"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Tcl/Tk 9.1 Released",
@@ -89,15 +108,15 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 168,
-      "score": 27,
+      "hn_points": 269,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Tcl/Tk",
         "Tcl",
         "Tk"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "ChatGPT Pro 500",
@@ -116,7 +135,26 @@
         "ChatGPT",
         "Codex"
       ],
-      "rank": 6
+      "rank": 7
+    },
+    {
+      "title": "Show HN: NSL – WSL for Linux",
+      "title_display": "Show HN: NSL – WSL for Linux",
+      "link": "https://frostyard.github.io/nsl/",
+      "pub_date": "2026-09-29T17:21:18.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 127,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "NSL",
+        "WSL",
+        "systemd-nspawn",
+        "systemd-vmspawn"
+      ],
+      "rank": 8
     },
     {
       "title": "Dots",
@@ -135,7 +173,7 @@
         "AI agents",
         "ChatGPT"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "macOS Golden Gate Is a Buggy Mess",
@@ -154,7 +192,7 @@
         "Golden Gate",
         "macOS Tahoe"
       ],
-      "rank": 8
+      "rank": 10
     },
     {
       "title": "Claude partial outage",
@@ -173,7 +211,7 @@
         "Claude API",
         "Claude Code"
       ],
-      "rank": 9
+      "rank": 11
     },
     {
       "title": "Delhi Cut Electricity Loss from 50 to 5 Percent",
@@ -192,7 +230,7 @@
         "electricity grid",
         "power losses"
       ],
-      "rank": 10
+      "rank": 12
     },
     {
       "title": "US sanctions force The Netherlands off Microsoft and toward alternative NixOS",
@@ -211,7 +249,7 @@
         "Netherlands",
         "United States sanctions"
       ],
-      "rank": 11
+      "rank": 13
     },
     {
       "title": "Jeeves. Reasoning improves Jev-like decision models",
@@ -230,7 +268,7 @@
         "decision models",
         "reasoning"
       ],
-      "rank": 12
+      "rank": 14
     },
     {
       "title": "Using any C++ library in Godot",
@@ -249,7 +287,7 @@
         "Conan",
         "GDExtension"
       ],
-      "rank": 13
+      "rank": 15
     },
     {
       "title": "Booted up in 1993, this server still runs – but not for much longer (2017)",
@@ -268,7 +306,7 @@
         "Stratus Continuum",
         "fault tolerance"
       ],
-      "rank": 14
+      "rank": 16
     },
     {
       "title": "ESP32S3 cluster running 1.58-bit (BitNet) Language model",
@@ -287,7 +325,7 @@
         "LLM",
         "1.58-bit quantization"
       ],
-      "rank": 15
+      "rank": 17
     }
   ]
 }
