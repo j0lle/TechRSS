@@ -1,10 +1,29 @@
 {
   "date": "2026-09-30",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3410,
+  "success_feeds": 90,
+  "total_articles": 3435,
   "filtered_articles": 32,
   "articles": [
+    {
+      "title": "Livenerf: Has Opus 5.5 been nerfed yet?",
+      "title_display": "Livenerf: Has Opus 5.5 been nerfed yet?",
+      "link": "https://github.com/ninjahawk/livenerf",
+      "pub_date": "2026-09-29T23:11:00.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 353,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Livenerf",
+        "Claude Opus 5.5",
+        "Anthropic",
+        "model benchmarking"
+      ],
+      "rank": 1
+    },
     {
       "title": "USPS shuts down site that sold 5M counterfeit postage labels for $2 each",
       "title_display": "USPS shuts down site that sold 5M counterfeit postage labels for $2 each",
@@ -22,7 +41,7 @@
         "U.S. Postal Inspectors",
         "eBay"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "AI needs $6T in annual revenue to justify data centre boom",
@@ -41,7 +60,7 @@
         "AI infrastructure",
         "Bain"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "New PlayStation 5 Console Jailbreak Released",
@@ -51,8 +70,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 162,
-      "score": 27,
+      "hn_points": 262,
+      "score": 29,
       "category": "other",
       "keywords": [
         "PlayStation 5",
@@ -60,7 +79,7 @@
         "Sony",
         "WebKit"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Tcl/Tk 9.1 Released",
@@ -78,7 +97,7 @@
         "Tcl",
         "Tk"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "ChatGPT Pro 500",
@@ -97,7 +116,7 @@
         "ChatGPT",
         "Codex"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Dots",
@@ -116,7 +135,7 @@
         "AI agents",
         "ChatGPT"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "macOS Golden Gate Is a Buggy Mess",
@@ -135,7 +154,7 @@
         "Golden Gate",
         "macOS Tahoe"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Claude partial outage",
@@ -154,7 +173,7 @@
         "Claude API",
         "Claude Code"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Delhi Cut Electricity Loss from 50 to 5 Percent",
@@ -173,7 +192,7 @@
         "electricity grid",
         "power losses"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "US sanctions force The Netherlands off Microsoft and toward alternative NixOS",
@@ -192,7 +211,7 @@
         "Netherlands",
         "United States sanctions"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "Jeeves. Reasoning improves Jev-like decision models",
@@ -211,7 +230,7 @@
         "decision models",
         "reasoning"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "Using any C++ library in Godot",
@@ -230,7 +249,7 @@
         "Conan",
         "GDExtension"
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "title": "Booted up in 1993, this server still runs – but not for much longer (2017)",
@@ -249,7 +268,7 @@
         "Stratus Continuum",
         "fault tolerance"
       ],
-      "rank": 13
+      "rank": 14
     },
     {
       "title": "ESP32S3 cluster running 1.58-bit (BitNet) Language model",
@@ -268,7 +287,7 @@
         "LLM",
         "1.58-bit quantization"
       ],
-      "rank": 14
+      "rank": 15
     }
   ]
 }
