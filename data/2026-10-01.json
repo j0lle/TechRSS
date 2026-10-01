@@ -1,10 +1,29 @@
 {
   "date": "2026-10-01",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3387,
-  "filtered_articles": 45,
+  "success_feeds": 90,
+  "total_articles": 3446,
+  "filtered_articles": 52,
   "articles": [
+    {
+      "title": "Surprisingly Complex Waves Reveal the Brain's Inner Workings",
+      "title_display": "Surprisingly Complex Waves Reveal the Brain's Inner Workings",
+      "link": "https://www.quantamagazine.org/surprisingly-complex-waves-reveal-the-brains-inner-workings-20260930/",
+      "pub_date": "2026-09-30T19:51:16.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 129,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "brain waves",
+        "intracranial recordings",
+        "EEG",
+        "memory"
+      ],
+      "rank": 1
+    },
     {
       "title": "EDG C++ front-end goes public",
       "title_display": "EDG C++ front-end goes public",
@@ -22,7 +41,64 @@
         "C++",
         "compiler frontend"
       ],
-      "rank": 1
+      "rank": 2
+    },
+    {
+      "title": "5x faster Edge Functions: V8 isolates to Firecracker MicroVMs",
+      "title_display": "5x faster Edge Functions: V8 isolates to Firecracker MicroVMs",
+      "link": "https://www.netlify.com/blog/edge-functions-firecracker-microvms/",
+      "pub_date": "2026-09-30T19:32:00.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 137,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Netlify",
+        "Edge Functions",
+        "Firecracker",
+        "MicroVMs"
+      ],
+      "rank": 3
+    },
+    {
+      "title": "What TLA+ can and can't check",
+      "title_display": "What TLA+ can and can't check",
+      "link": "https://buttondown.com/hillelwayne/archive/what-tla-can-and-cant-check/",
+      "pub_date": "2026-09-30T18:31:57.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 149,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "TLA+",
+        "PlusCal",
+        "formal verification",
+        "weak memory semantics"
+      ],
+      "rank": 4
+    },
+    {
+      "title": "Launch HN: Magnitude (YC S25) – Self-optimizing inference engine for agents",
+      "title_display": "Launch HN: Magnitude (YC S25) – Self-optimizing inference engine for agents",
+      "link": "https://github.com/magnitudedev/magnitude",
+      "pub_date": "2026-09-30T17:41:24.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 132,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Magnitude",
+        "YC",
+        "LLM inference",
+        "AI agents"
+      ],
+      "rank": 5
     },
     {
       "title": "The AI Race Just Got Awkward",
@@ -41,7 +117,7 @@
         "DeepSeek",
         "Qwen"
       ],
-      "rank": 2
+      "rank": 6
     },
     {
       "title": "SDF vs. MSDF vs. Slug: GPU Text Rendering",
@@ -60,7 +136,7 @@
         "MSDF",
         "Slug"
       ],
-      "rank": 3
+      "rank": 7
     },
     {
       "title": "Pi.dev: You Said No MCP",
@@ -79,7 +155,7 @@
         "Model Context Protocol",
         "Codemode"
       ],
-      "rank": 4
+      "rank": 8
     },
     {
       "title": "Needed 1+1, built a functional programming language",
@@ -98,7 +174,7 @@
         "lambda calculus",
         "C"
       ],
-      "rank": 5
+      "rank": 9
     }
   ]
 }
