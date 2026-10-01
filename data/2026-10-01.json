@@ -1,10 +1,29 @@
 {
   "date": "2026-10-01",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3412,
-  "filtered_articles": 46,
+  "success_feeds": 88,
+  "total_articles": 3387,
+  "filtered_articles": 45,
   "articles": [
+    {
+      "title": "EDG C++ front-end goes public",
+      "title_display": "EDG C++ front-end goes public",
+      "link": "https://edgcpp.org/#transition",
+      "pub_date": "2026-09-30T19:41:16.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 144,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "EDG C++",
+        "Edison Design Group",
+        "C++",
+        "compiler frontend"
+      ],
+      "rank": 1
+    },
     {
       "title": "The AI Race Just Got Awkward",
       "title_display": "The AI Race Just Got Awkward",
@@ -22,7 +41,26 @@
         "DeepSeek",
         "Qwen"
       ],
-      "rank": 1
+      "rank": 2
+    },
+    {
+      "title": "SDF vs. MSDF vs. Slug: GPU Text Rendering",
+      "title_display": "SDF vs. MSDF vs. Slug: GPU Text Rendering",
+      "link": "https://alphapixeldev.com/sdf-vs-msdf-vs-slug-vs-rive-gpu-text-rendering/",
+      "pub_date": "2026-09-30T14:11:17.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 124,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "GPU text rendering",
+        "Signed Distance Fields",
+        "MSDF",
+        "Slug"
+      ],
+      "rank": 3
     },
     {
       "title": "Pi.dev: You Said No MCP",
@@ -41,7 +79,7 @@
         "Model Context Protocol",
         "Codemode"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "Needed 1+1, built a functional programming language",
@@ -60,7 +98,7 @@
         "lambda calculus",
         "C"
       ],
-      "rank": 3
+      "rank": 5
     }
   ]
 }
