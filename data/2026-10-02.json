@@ -1,0 +1,161 @@
+{
+  "date": "2026-10-02",
+  "total_feeds": 95,
+  "success_feeds": 89,
+  "total_articles": 3422,
+  "filtered_articles": 23,
+  "articles": [
+    {
+      "title": "Clef: our open-source decision models",
+      "title_display": "Clef: our open-source decision models",
+      "link": "https://blog.cloudflare.com/clef-decision-models/",
+      "pub_date": "2026-10-01T16:41:28.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 284,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Cloudflare",
+        "Clef",
+        "Clef Flash",
+        "Qwen3.8"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "RIP, vector database",
+      "title_display": "RIP, vector database",
+      "link": "https://turbopuffer.com/blog/rip-vector-database",
+      "pub_date": "2026-10-01T16:21:28.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 189,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "Turbopuffer",
+        "vector databases",
+        "ANN",
+        "PostgreSQL"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "Cloudflare K2: serverless event streams",
+      "title_display": "Cloudflare K2: serverless event streams",
+      "link": "https://blog.cloudflare.com/cloudflare-k2-streams/",
+      "pub_date": "2026-10-01T16:02:38.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 126,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Cloudflare K2",
+        "Cloudflare",
+        "event streams",
+        "serverless"
+      ],
+      "rank": 3
+    },
+    {
+      "title": "Micron CEO Says Memory Supply Will Be Much Tighter in 2027 and 2028 Than in 2026",
+      "title_display": "Micron CEO Says Memory Supply Will Be Much Tighter in 2027 and 2028 Than in 2026",
+      "link": "https://www.techpowerup.com/353296/micron-ceo-says-memory-supply-will-be-much-tighter-in-2027-and-2028-than-in-2026",
+      "pub_date": "2026-10-01T13:11:21.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 245,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "Micron",
+        "memory supply",
+        "RAM",
+        "DDR5"
+      ],
+      "rank": 4
+    },
+    {
+      "title": "How to speed up the Rust compiler in September 2026",
+      "title_display": "How to speed up the Rust compiler in September 2026",
+      "link": "https://nnethercote.github.io/2026/09/30/how-to-speed-up-the-rust-compiler-in-september-2026.html",
+      "pub_date": "2026-10-01T13:02:15.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 135,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Rust",
+        "rustc",
+        "borrow checker",
+        "Polonius"
+      ],
+      "rank": 5
+    },
+    {
+      "title": "Returning from vacation? The government can search your phone without a warrant",
+      "title_display": "Returning from vacation? The government can search your phone without a warrant",
+      "link": "https://arstechnica.com/tech-policy/2026/09/immigration-advocate-sues-border-agents-for-demanding-his-cell-phone/",
+      "pub_date": "2026-10-01T12:02:17.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 301,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "CBP",
+        "border searches",
+        "cell phone searches",
+        "Fourth Amendment"
+      ],
+      "rank": 6
+    },
+    {
+      "title": "StreetComplete on iOS is now in public beta",
+      "title_display": "StreetComplete on iOS is now in public beta",
+      "link": "https://github.com/streetcomplete/StreetComplete/issues/5421",
+      "pub_date": "2026-10-01T11:21:22.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 376,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "StreetComplete",
+        "OpenStreetMap",
+        "iOS",
+        "TestFlight"
+      ],
+      "rank": 7
+    },
+    {
+      "title": "OpenDLSS: A Vulkan Reimplementation of Nvidia's DLSS 5 Neural Rendering Network",
+      "title_display": "OpenDLSS: A Vulkan Reimplementation of Nvidia's DLSS 5 Neural Rendering Network",
+      "link": "https://github.com/maanHimself/OpenDLSS-NR",
+      "pub_date": "2026-10-01T08:21:28.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 145,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "OpenDLSS",
+        "Nvidia",
+        "DLSS 5",
+        "Vulkan"
+      ],
+      "rank": 8
+    }
+  ]
+}
