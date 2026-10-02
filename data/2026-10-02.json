@@ -1,10 +1,47 @@
 {
   "date": "2026-10-02",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3392,
-  "filtered_articles": 22,
+  "success_feeds": 90,
+  "total_articles": 3447,
+  "filtered_articles": 30,
   "articles": [
+    {
+      "title": "Several vulnerabilities have been discovered in the Linux kernel",
+      "title_display": "Several vulnerabilities have been discovered in the Linux kernel",
+      "link": "https://lwn.net/Articles/1097401/",
+      "pub_date": "2026-10-02T00:21:01.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 142,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Linux kernel",
+        "CVE",
+        "LWN.net"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "The death of web development education",
+      "title_display": "The death of web development education",
+      "link": "https://molily.de/web-dev-education/",
+      "pub_date": "2026-10-01T21:31:26.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 150,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Generative AI",
+        "LLMs",
+        "web development",
+        "programming education"
+      ],
+      "rank": 2
+    },
     {
       "title": "Pi 1.0",
       "title_display": "Pi 1.0",
@@ -13,7 +50,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 476,
+      "hn_points": 892,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -22,7 +59,26 @@
         "Claude Code",
         "Codex"
       ],
-      "rank": 1
+      "rank": 3
+    },
+    {
+      "title": "Various Projects Find Hidden SDR Capabilities in ESP32 Microcontrollers",
+      "title_display": "Various Projects Find Hidden SDR Capabilities in ESP32 Microcontrollers",
+      "link": "https://www.rtl-sdr.com/various-projects-independently-find-hidden-sdr-capabilities-in-esp32-microcontrollers/",
+      "pub_date": "2026-10-01T18:31:48.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 169,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "ESP32",
+        "software-defined radio",
+        "SDR",
+        "Espressif"
+      ],
+      "rank": 4
     },
     {
       "title": "Ask HN: Who is hiring? (October 2026)",
@@ -41,7 +97,26 @@
         "React",
         "Python"
       ],
-      "rank": 2
+      "rank": 5
+    },
+    {
+      "title": "Git 3.0's upcoming SHA-256 default will be a costly mistake",
+      "title_display": "Git 3.0's upcoming SHA-256 default will be a costly mistake",
+      "link": "https://blog.gitbutler.com/git-3-sha-256",
+      "pub_date": "2026-10-01T17:21:25.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 267,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "Git",
+        "SHA-256",
+        "SHA-1",
+        "Git 3.0"
+      ],
+      "rank": 6
     },
     {
       "title": "Red Hat being phased out of existence?",
@@ -60,7 +135,7 @@
         "Linux",
         "RHEL"
       ],
-      "rank": 3
+      "rank": 7
     },
     {
       "title": "Clef: our open-source decision models",
@@ -79,7 +154,7 @@
         "Clef Flash",
         "Qwen3.8"
       ],
-      "rank": 4
+      "rank": 8
     },
     {
       "title": "Figma restricts MCP access to whitelisted clients, excluding Pi",
@@ -98,7 +173,7 @@
         "Pi",
         "GitHub Copilot"
       ],
-      "rank": 5
+      "rank": 9
     },
     {
       "title": "RIP, vector database",
@@ -108,8 +183,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 189,
-      "score": 28,
+      "hn_points": 289,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Turbopuffer",
@@ -117,7 +192,7 @@
         "ANN",
         "PostgreSQL"
       ],
-      "rank": 6
+      "rank": 10
     },
     {
       "title": "Cloudflare K2: serverless event streams",
@@ -136,7 +211,7 @@
         "event streams",
         "serverless"
       ],
-      "rank": 7
+      "rank": 11
     },
     {
       "title": "Micron CEO Says Memory Supply Will Be Much Tighter in 2027 and 2028 Than in 2026",
@@ -155,7 +230,7 @@
         "RAM",
         "DDR5"
       ],
-      "rank": 8
+      "rank": 12
     },
     {
       "title": "How to speed up the Rust compiler in September 2026",
@@ -165,8 +240,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 135,
-      "score": 26,
+      "hn_points": 236,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Rust",
@@ -174,7 +249,7 @@
         "borrow checker",
         "Polonius"
       ],
-      "rank": 9
+      "rank": 13
     },
     {
       "title": "Returning from vacation? The government can search your phone without a warrant",
@@ -193,7 +268,7 @@
         "cell phone searches",
         "Fourth Amendment"
       ],
-      "rank": 10
+      "rank": 14
     },
     {
       "title": "StreetComplete on iOS is now in public beta",
@@ -212,7 +287,7 @@
         "iOS",
         "TestFlight"
       ],
-      "rank": 11
+      "rank": 15
     },
     {
       "title": "OpenDLSS: A Vulkan Reimplementation of Nvidia's DLSS 5 Neural Rendering Network",
@@ -231,7 +306,7 @@
         "DLSS 5",
         "Vulkan"
       ],
-      "rank": 12
+      "rank": 16
     }
   ]
 }
