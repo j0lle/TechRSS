@@ -1,10 +1,67 @@
 {
   "date": "2026-10-02",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3422,
-  "filtered_articles": 23,
+  "success_feeds": 88,
+  "total_articles": 3392,
+  "filtered_articles": 22,
   "articles": [
+    {
+      "title": "Pi 1.0",
+      "title_display": "Pi 1.0",
+      "link": "https://earendil.com/posts/pi-1-0/",
+      "pub_date": "2026-10-01T19:51:22.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 476,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Pi",
+        "MCP",
+        "Claude Code",
+        "Codex"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Ask HN: Who is hiring? (October 2026)",
+      "title_display": "Ask HN: Who is hiring? (October 2026)",
+      "link": "https://news.ycombinator.com/item?id=49922569",
+      "pub_date": "2026-10-01T17:41:36.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 130,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "AI",
+        "TypeScript",
+        "React",
+        "Python"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "Red Hat being phased out of existence?",
+      "title_display": "Red Hat being phased out of existence?",
+      "link": "https://techrights.org/n/2026/10/01/Red_Hat_Being_Phased_Out_of_Existence_Like_Many_Other_Companies.shtml",
+      "pub_date": "2026-10-01T17:11:25.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 173,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Red Hat",
+        "IBM",
+        "Linux",
+        "RHEL"
+      ],
+      "rank": 3
+    },
     {
       "title": "Clef: our open-source decision models",
       "title_display": "Clef: our open-source decision models",
@@ -13,7 +70,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 284,
+      "hn_points": 393,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -22,7 +79,26 @@
         "Clef Flash",
         "Qwen3.8"
       ],
-      "rank": 1
+      "rank": 4
+    },
+    {
+      "title": "Figma restricts MCP access to whitelisted clients, excluding Pi",
+      "title_display": "Figma restricts MCP access to whitelisted clients, excluding Pi",
+      "link": "https://twitter.com/GayaniFigma/status/2105295629941350454",
+      "pub_date": "2026-10-01T16:31:48.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 171,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Figma",
+        "Model Context Protocol (MCP)",
+        "Pi",
+        "GitHub Copilot"
+      ],
+      "rank": 5
     },
     {
       "title": "RIP, vector database",
@@ -41,7 +117,7 @@
         "ANN",
         "PostgreSQL"
       ],
-      "rank": 2
+      "rank": 6
     },
     {
       "title": "Cloudflare K2: serverless event streams",
@@ -60,7 +136,7 @@
         "event streams",
         "serverless"
       ],
-      "rank": 3
+      "rank": 7
     },
     {
       "title": "Micron CEO Says Memory Supply Will Be Much Tighter in 2027 and 2028 Than in 2026",
@@ -79,7 +155,7 @@
         "RAM",
         "DDR5"
       ],
-      "rank": 4
+      "rank": 8
     },
     {
       "title": "How to speed up the Rust compiler in September 2026",
@@ -98,7 +174,7 @@
         "borrow checker",
         "Polonius"
       ],
-      "rank": 5
+      "rank": 9
     },
     {
       "title": "Returning from vacation? The government can search your phone without a warrant",
@@ -117,7 +193,7 @@
         "cell phone searches",
         "Fourth Amendment"
       ],
-      "rank": 6
+      "rank": 10
     },
     {
       "title": "StreetComplete on iOS is now in public beta",
@@ -136,7 +212,7 @@
         "iOS",
         "TestFlight"
       ],
-      "rank": 7
+      "rank": 11
     },
     {
       "title": "OpenDLSS: A Vulkan Reimplementation of Nvidia's DLSS 5 Neural Rendering Network",
@@ -146,8 +222,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 145,
-      "score": 26,
+      "hn_points": 245,
+      "score": 29,
       "category": "other",
       "keywords": [
         "OpenDLSS",
@@ -155,7 +231,7 @@
         "DLSS 5",
         "Vulkan"
       ],
-      "rank": 8
+      "rank": 12
     }
   ]
 }
