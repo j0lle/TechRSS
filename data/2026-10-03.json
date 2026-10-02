@@ -2,9 +2,47 @@
   "date": "2026-10-03",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3424,
-  "filtered_articles": 18,
+  "total_articles": 3419,
+  "filtered_articles": 20,
   "articles": [
+    {
+      "title": "Court agrees with EFF: Utah's VPN law demands a technical impossibility",
+      "title_display": "Court agrees with EFF: Utah's VPN law demands a technical impossibility",
+      "link": "https://www.eff.org/deeplinks/2026/10/court-agrees-eff-utahs-vpn-law-demands-technical-impossibility",
+      "pub_date": "2026-10-02T17:00:54.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 322,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "EFF",
+        "Utah",
+        "VPN",
+        "Mozilla VPN"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Supabase Is Acquiring Turso",
+      "title_display": "Supabase Is Acquiring Turso",
+      "link": "https://supabase.com/blog/supabase-is-acquiring-turso",
+      "pub_date": "2026-10-02T16:00:44.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 161,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Supabase",
+        "Turso",
+        "SQLite",
+        "Rust"
+      ],
+      "rank": 2
+    },
     {
       "title": "Frog and Toad and the Increasingly Capable Machines",
       "title_display": "Frog and Toad and the Increasingly Capable Machines",
@@ -22,7 +60,7 @@
         "Hugging Face",
         "AI agents"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "Show HN: Audionaut – an open-source cross-platform multitrack audio editor",
@@ -41,7 +79,7 @@
         "MCP",
         "macOS"
       ],
-      "rank": 2
+      "rank": 4
     }
   ]
 }
