@@ -1,0 +1,66 @@
+{
+  "date": "2026-10-04",
+  "total_feeds": 95,
+  "success_feeds": 89,
+  "total_articles": 3414,
+  "filtered_articles": 21,
+  "articles": [
+    {
+      "title": "Kolibri Has Landed: A Sovereign Open-Weight Model",
+      "title_display": "Kolibri Has Landed: A Sovereign Open-Weight Model",
+      "link": "https://aleph-alpha.com/en/blog/kolibri-has-landed-a-sovereign-open-weight-model/",
+      "pub_date": "2026-10-03T13:50:48.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 226,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "Kolibri",
+        "Aleph Alpha",
+        "open-weight model",
+        "LLM"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "An Update on Orion for Linux and Windows",
+      "title_display": "An Update on Orion for Linux and Windows",
+      "link": "https://blog.kagi.com/update-orion-linux-windows",
+      "pub_date": "2026-10-03T07:40:41.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 124,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Orion",
+        "Kagi",
+        "Linux",
+        "Windows"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "Show HN: Made an open-source Lego AI generator",
+      "title_display": "Show HN: Made an open-source Lego AI generator",
+      "link": "https://github.com/anteloc/ldraw-nova",
+      "pub_date": "2026-10-02T20:20:47.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 124,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "LEGO",
+        "LDraw",
+        "Claude",
+        "ChatGPT"
+      ],
+      "rank": 3
+    }
+  ]
+}
