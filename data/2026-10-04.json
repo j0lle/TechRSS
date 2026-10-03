@@ -1,10 +1,29 @@
 {
   "date": "2026-10-04",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3414,
-  "filtered_articles": 16,
+  "success_feeds": 90,
+  "total_articles": 3444,
+  "filtered_articles": 19,
   "articles": [
+    {
+      "title": "FTL: A new operating system for clouds",
+      "title_display": "FTL: A new operating system for clouds",
+      "link": "https://ftl-os.org/",
+      "pub_date": "2026-10-03T15:40:47.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 133,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "FTL",
+        "Rust",
+        "Linux",
+        "Tokio"
+      ],
+      "rank": 1
+    },
     {
       "title": "Kolibri Has Landed: A Sovereign Open-Weight Model",
       "title_display": "Kolibri Has Landed: A Sovereign Open-Weight Model",
@@ -22,7 +41,26 @@
         "open-weight model",
         "LLM"
       ],
-      "rank": 1
+      "rank": 2
+    },
+    {
+      "title": "C++ Insights – See your source code with the eyes of a Compiler",
+      "title_display": "C++ Insights – See your source code with the eyes of a Compiler",
+      "link": "https://github.com/andreasfertig/cppinsights",
+      "pub_date": "2026-10-03T13:00:55.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 125,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "C++ Insights",
+        "C++",
+        "Clang",
+        "lambdas"
+      ],
+      "rank": 3
     },
     {
       "title": "An Update on Orion for Linux and Windows",
@@ -41,7 +79,7 @@
         "Linux",
         "Windows"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "Show HN: Made an open-source Lego AI generator",
@@ -60,7 +98,7 @@
         "Claude",
         "ChatGPT"
       ],
-      "rank": 3
+      "rank": 5
     }
   ]
 }
