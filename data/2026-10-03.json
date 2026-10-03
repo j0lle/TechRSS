@@ -1,10 +1,105 @@
 {
   "date": "2026-10-03",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3419,
-  "filtered_articles": 20,
+  "success_feeds": 90,
+  "total_articles": 3449,
+  "filtered_articles": 19,
   "articles": [
+    {
+      "title": "Zig v0.17.0",
+      "title_display": "Zig v0.17.0",
+      "link": "https://ziglang.org/download/0.17.0/release-notes.html",
+      "pub_date": "2026-10-02T21:10:45.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 191,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "Zig",
+        "Zig 0.17.0",
+        "Zig Foundation",
+        "TigerBeetle"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Apple Pass Designer",
+      "title_display": "Apple Pass Designer",
+      "link": "https://developer.apple.com/pass-designer/",
+      "pub_date": "2026-10-02T19:20:46.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 243,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "Apple Pass Designer",
+        "Apple",
+        "Apple Wallet",
+        "PKPASS"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "A 12-year sequence of telescope images of a star and four planets orbiting",
+      "title_display": "A 12-year sequence of telescope images of a star and four planets orbiting",
+      "link": "https://bsky.app/profile/theplanetaryguy.com/post/3mwucf5ert22f",
+      "pub_date": "2026-10-02T19:10:44.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 150,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "HR 8799",
+        "exoplanets",
+        "direct imaging",
+        "telescope imaging"
+      ],
+      "rank": 3
+    },
+    {
+      "title": "Loss of cell identity drives human aging: Two new papers",
+      "title_display": "Loss of cell identity drives human aging: Two new papers",
+      "link": "https://erictopol.substack.com/p/loss-of-cell-identity-drives-human",
+      "pub_date": "2026-10-02T18:40:54.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 144,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "aging",
+        "cell identity",
+        "epigenetics",
+        "methylation"
+      ],
+      "rank": 4
+    },
+    {
+      "title": "Greg Kroah-Hartman – Security in the LLM Age [video]",
+      "title_display": "Greg Kroah-Hartman – Security in the LLM Age [video]",
+      "link": "https://www.youtube.com/watch?v=NnV_cWeoo5Q",
+      "pub_date": "2026-10-02T18:40:53.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 145,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Greg Kroah-Hartman",
+        "Mythos",
+        "Anthropic",
+        "Linux kernel"
+      ],
+      "rank": 5
+    },
     {
       "title": "Court agrees with EFF: Utah's VPN law demands a technical impossibility",
       "title_display": "Court agrees with EFF: Utah's VPN law demands a technical impossibility",
@@ -22,7 +117,7 @@
         "VPN",
         "Mozilla VPN"
       ],
-      "rank": 1
+      "rank": 6
     },
     {
       "title": "Supabase Is Acquiring Turso",
@@ -41,7 +136,7 @@
         "SQLite",
         "Rust"
       ],
-      "rank": 2
+      "rank": 7
     },
     {
       "title": "Frog and Toad and the Increasingly Capable Machines",
@@ -60,7 +155,7 @@
         "Hugging Face",
         "AI agents"
       ],
-      "rank": 3
+      "rank": 8
     },
     {
       "title": "Show HN: Audionaut – an open-source cross-platform multitrack audio editor",
@@ -79,7 +174,7 @@
         "MCP",
         "macOS"
       ],
-      "rank": 4
+      "rank": 9
     }
   ]
 }
