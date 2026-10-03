@@ -3,7 +3,7 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3414,
-  "filtered_articles": 21,
+  "filtered_articles": 16,
   "articles": [
     {
       "title": "Kolibri Has Landed: A Sovereign Open-Weight Model",
@@ -13,8 +13,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 226,
-      "score": 28,
+      "hn_points": 351,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Kolibri",
