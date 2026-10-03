@@ -2,9 +2,47 @@
   "date": "2026-10-03",
   "total_feeds": 95,
   "success_feeds": 90,
-  "total_articles": 3449,
-  "filtered_articles": 19,
+  "total_articles": 3444,
+  "filtered_articles": 23,
   "articles": [
+    {
+      "title": "The Forgetful CPU (Linux on M4)",
+      "title_display": "The Forgetful CPU (Linux on M4)",
+      "link": "https://yuka.dev/blog-2026-10-02-linux-m4.html",
+      "pub_date": "2026-10-02T23:40:44.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 144,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Apple M4",
+        "Linux",
+        "Apple",
+        "CPU"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Muse Gadgets",
+      "title_display": "Muse Gadgets",
+      "link": "https://gadgets.muse.ai",
+      "pub_date": "2026-10-02T21:10:46.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 131,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Muse",
+        "Meta",
+        "Muse Gadget SDK",
+        "ESP32"
+      ],
+      "rank": 2
+    },
     {
       "title": "Zig v0.17.0",
       "title_display": "Zig v0.17.0",
@@ -22,7 +60,25 @@
         "Zig Foundation",
         "TigerBeetle"
       ],
-      "rank": 1
+      "rank": 3
+    },
+    {
+      "title": "Updates to Full Disk Access in macOS",
+      "title_display": "Updates to Full Disk Access in macOS",
+      "link": "https://developer.apple.com/news/?id=p6zjojqw",
+      "pub_date": "2026-10-02T20:10:42.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 129,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Apple",
+        "macOS",
+        "Full Disk Access"
+      ],
+      "rank": 4
     },
     {
       "title": "Apple Pass Designer",
@@ -32,8 +88,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 243,
-      "score": 29,
+      "hn_points": 346,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Apple Pass Designer",
@@ -41,7 +97,7 @@
         "Apple Wallet",
         "PKPASS"
       ],
-      "rank": 2
+      "rank": 5
     },
     {
       "title": "A 12-year sequence of telescope images of a star and four planets orbiting",
@@ -51,8 +107,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 150,
-      "score": 26,
+      "hn_points": 253,
+      "score": 29,
       "category": "other",
       "keywords": [
         "HR 8799",
@@ -60,7 +116,7 @@
         "direct imaging",
         "telescope imaging"
       ],
-      "rank": 3
+      "rank": 6
     },
     {
       "title": "Loss of cell identity drives human aging: Two new papers",
@@ -79,7 +135,7 @@
         "epigenetics",
         "methylation"
       ],
-      "rank": 4
+      "rank": 7
     },
     {
       "title": "Greg Kroah-Hartman – Security in the LLM Age [video]",
@@ -98,7 +154,7 @@
         "Anthropic",
         "Linux kernel"
       ],
-      "rank": 5
+      "rank": 8
     },
     {
       "title": "Court agrees with EFF: Utah's VPN law demands a technical impossibility",
@@ -117,7 +173,7 @@
         "VPN",
         "Mozilla VPN"
       ],
-      "rank": 6
+      "rank": 9
     },
     {
       "title": "Supabase Is Acquiring Turso",
@@ -136,7 +192,7 @@
         "SQLite",
         "Rust"
       ],
-      "rank": 7
+      "rank": 10
     },
     {
       "title": "Frog and Toad and the Increasingly Capable Machines",
@@ -155,7 +211,7 @@
         "Hugging Face",
         "AI agents"
       ],
-      "rank": 8
+      "rank": 11
     },
     {
       "title": "Show HN: Audionaut – an open-source cross-platform multitrack audio editor",
@@ -174,7 +230,7 @@
         "MCP",
         "macOS"
       ],
-      "rank": 9
+      "rank": 12
     }
   ]
 }
