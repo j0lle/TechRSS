@@ -3,8 +3,46 @@
   "total_feeds": 95,
   "success_feeds": 90,
   "total_articles": 3444,
-  "filtered_articles": 19,
+  "filtered_articles": 18,
   "articles": [
+    {
+      "title": "The work by Valve's Timur Kristóf on improving old AMD GPUs on Linux",
+      "title_display": "The work by Valve's Timur Kristóf on improving old AMD GPUs on Linux",
+      "link": "https://www.phoronix.com/news/XDC-2026-Valve-Timur-AMDGPU",
+      "pub_date": "2026-10-03T22:30:51.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 154,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Valve",
+        "AMD",
+        "Linux",
+        "AMDGPU"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Getting the most out of Opus 5.5 in Claude and Claude Code",
+      "title_display": "Getting the most out of Opus 5.5 in Claude and Claude Code",
+      "link": "https://claude.dev/blog/getting-the-most-out-of-opus-5-5/",
+      "pub_date": "2026-10-03T20:20:46.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 149,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Claude",
+        "Opus 5.5",
+        "Claude Code",
+        "Anthropic"
+      ],
+      "rank": 2
+    },
     {
       "title": "FTL: A new operating system for clouds",
       "title_display": "FTL: A new operating system for clouds",
@@ -22,7 +60,7 @@
         "Linux",
         "Tokio"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "Kolibri Has Landed: A Sovereign Open-Weight Model",
@@ -41,7 +79,7 @@
         "open-weight model",
         "LLM"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "C++ Insights – See your source code with the eyes of a Compiler",
@@ -60,7 +98,7 @@
         "Clang",
         "lambdas"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "An Update on Orion for Linux and Windows",
@@ -79,7 +117,7 @@
         "Linux",
         "Windows"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "Show HN: Made an open-source Lego AI generator",
@@ -98,7 +136,7 @@
         "Claude",
         "ChatGPT"
       ],
-      "rank": 5
+      "rank": 7
     }
   ]
 }
