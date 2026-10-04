@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-05",
+  "total_feeds": 95,
+  "success_feeds": 89,
+  "total_articles": 3417,
+  "filtered_articles": 22,
+  "articles": [
+    {
+      "title": "Run Qwen 3.8 Flash Next (125B) on consumer hardware (RTX 4090) at 100T/s",
+      "title_display": "Run Qwen 3.8 Flash Next (125B) on consumer hardware (RTX 4090) at 100T/s",
+      "link": "https://github.com/Niko1221/Strata",
+      "pub_date": "2026-10-04T13:20:42.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 374,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Strata",
+        "Qwen 3.8 Flash Next",
+        "Qwen",
+        "RTX 4090"
+      ],
+      "rank": 1
+    }
+  ]
+}
