@@ -1,10 +1,48 @@
 {
   "date": "2026-10-04",
   "total_feeds": 95,
-  "success_feeds": 90,
-  "total_articles": 3444,
-  "filtered_articles": 18,
+  "success_feeds": 89,
+  "total_articles": 3417,
+  "filtered_articles": 17,
   "articles": [
+    {
+      "title": "Why don't more developers \"use the platform\"?",
+      "title_display": "Why don't more developers \"use the platform\"?",
+      "link": "https://nolanlawson.com/2026/10/03/why-dont-more-developers-use-the-platform/",
+      "pub_date": "2026-10-04T04:20:44.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 130,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Web platform",
+        "Web Components",
+        "React",
+        "native HTML"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Agents don't need memory, they need documentation",
+      "title_display": "Agents don't need memory, they need documentation",
+      "link": "https://liao.gg/blog/agents-dont-need-memory",
+      "pub_date": "2026-10-04T00:30:41.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 136,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "AI agents",
+        "documentation",
+        "agent memory",
+        "AGENTS.md"
+      ],
+      "rank": 2
+    },
     {
       "title": "The work by Valve's Timur Kristóf on improving old AMD GPUs on Linux",
       "title_display": "The work by Valve's Timur Kristóf on improving old AMD GPUs on Linux",
@@ -13,8 +51,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 154,
-      "score": 27,
+      "hn_points": 264,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Valve",
@@ -22,7 +60,7 @@
         "Linux",
         "AMDGPU"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "Getting the most out of Opus 5.5 in Claude and Claude Code",
@@ -41,7 +79,7 @@
         "Claude Code",
         "Anthropic"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "FTL: A new operating system for clouds",
@@ -60,7 +98,26 @@
         "Linux",
         "Tokio"
       ],
-      "rank": 3
+      "rank": 5
+    },
+    {
+      "title": "Woking Electrical Control Room (2016)",
+      "title_display": "Woking Electrical Control Room (2016)",
+      "link": "http://www.darbiansphotography.com/woking-electrical-control-room-urbex",
+      "pub_date": "2026-10-03T14:20:50.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 140,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Woking Electrical Control Room",
+        "Network Rail",
+        "urbex",
+        "Art Deco"
+      ],
+      "rank": 6
     },
     {
       "title": "Kolibri Has Landed: A Sovereign Open-Weight Model",
@@ -79,7 +136,7 @@
         "open-weight model",
         "LLM"
       ],
-      "rank": 4
+      "rank": 7
     },
     {
       "title": "C++ Insights – See your source code with the eyes of a Compiler",
@@ -98,7 +155,7 @@
         "Clang",
         "lambdas"
       ],
-      "rank": 5
+      "rank": 8
     },
     {
       "title": "An Update on Orion for Linux and Windows",
@@ -117,7 +174,7 @@
         "Linux",
         "Windows"
       ],
-      "rank": 6
+      "rank": 9
     },
     {
       "title": "Show HN: Made an open-source Lego AI generator",
@@ -136,7 +193,7 @@
         "Claude",
         "ChatGPT"
       ],
-      "rank": 7
+      "rank": 10
     }
   ]
 }
