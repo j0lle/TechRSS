@@ -2,9 +2,66 @@
   "date": "2026-10-06",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3412,
-  "filtered_articles": 21,
+  "total_articles": 3417,
+  "filtered_articles": 23,
   "articles": [
+    {
+      "title": "Why Plain Text Is Still One of the Best Technologies We Have",
+      "title_display": "Why Plain Text Is Still One of the Best Technologies We Have",
+      "link": "https://deadparrotbbs.com/why-plain-text-is-still-one-of-the-best-technologies-we-have/",
+      "pub_date": "2026-10-05T19:40:49.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 167,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Plain text",
+        "ASCII",
+        "Unicode",
+        "UTF-8"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "US closely monitoring case of lab worker who possibly died of plague in Siberia",
+      "title_display": "US closely monitoring case of lab worker who possibly died of plague in Siberia",
+      "link": "https://www.theguardian.com/world/2026/oct/05/russia-lab-worker-possibly-dies-of-plague-siberia-quarantine-measures-irkutsk",
+      "pub_date": "2026-10-05T17:30:44.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 173,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "plague",
+        "Russia",
+        "Siberia",
+        "Irkutsk"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "Mold Linker Version 3.0.0 Release – Rewritten in Rust",
+      "title_display": "Mold Linker Version 3.0.0 Release – Rewritten in Rust",
+      "link": "https://github.com/rui314/mold/releases/tag/v3.0.0",
+      "pub_date": "2026-10-05T16:00:45.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 168,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "mold",
+        "Rust",
+        "linker",
+        "C++"
+      ],
+      "rank": 3
+    },
     {
       "title": "Pixel 11 doesn't yet meet the GrapheneOS security standards and may be skipped",
       "title_display": "Pixel 11 doesn't yet meet the GrapheneOS security standards and may be skipped",
@@ -13,8 +70,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 240,
-      "score": 29,
+      "hn_points": 348,
+      "score": 30,
       "category": "other",
       "keywords": [
         "GrapheneOS",
@@ -22,7 +79,7 @@
         "Google",
         "Memory Tagging Extension"
       ],
-      "rank": 1
+      "rank": 4
     },
     {
       "title": "Web Search API",
@@ -32,8 +89,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 156,
-      "score": 27,
+      "hn_points": 376,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Cloudflare",
@@ -41,7 +98,26 @@
         "Cloudflare AI Gateway",
         "Ceramic"
       ],
-      "rank": 2
+      "rank": 5
+    },
+    {
+      "title": "Anthropic reported diary entry to police, woman faces felony charge",
+      "title_display": "Anthropic reported diary entry to police, woman faces felony charge",
+      "link": "https://www.techspot.com/news/114091-florida-woman-used-claude-diary-anthropic-reported-shoot.html",
+      "pub_date": "2026-10-05T06:40:52.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 346,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Anthropic",
+        "Claude",
+        "Florida",
+        "AI privacy"
+      ],
+      "rank": 6
     },
     {
       "title": "We ported the original Doom to SQL",
@@ -59,7 +135,7 @@
         "SQL",
         "CedarDB"
       ],
-      "rank": 3
+      "rank": 7
     },
     {
       "title": "In the wake of closure, a digital archive of animated materials appears online",
@@ -69,8 +145,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 128,
-      "score": 26,
+      "hn_points": 228,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Tippett Studios",
@@ -78,7 +154,7 @@
         "Internet Archive",
         "Textfiles.com"
       ],
-      "rank": 4
+      "rank": 8
     }
   ]
 }
