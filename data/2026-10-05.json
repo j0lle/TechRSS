@@ -3,8 +3,46 @@
   "total_feeds": 95,
   "success_feeds": 90,
   "total_articles": 3447,
-  "filtered_articles": 18,
+  "filtered_articles": 19,
   "articles": [
+    {
+      "title": "Powerless F1 drivers frustrated by Bahrain F1 software glitch",
+      "title_display": "Powerless F1 drivers frustrated by Bahrain F1 software glitch",
+      "link": "https://www.motorsport.com/f1/news/horrible-totally-unacceptable-powerless-f1-drivers-frustrated-by-bahrain-f1-software-glitch/10861968/",
+      "pub_date": "2026-10-05T02:10:46.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 158,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Formula 1",
+        "FIA",
+        "ECU",
+        "firmware"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "A browser-native classic Visual Basic VB6 IDE",
+      "title_display": "A browser-native classic Visual Basic VB6 IDE",
+      "link": "https://wieslawsoltes.github.io/VB6/",
+      "pub_date": "2026-10-04T23:10:44.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 142,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Visual Basic 6",
+        "VB6",
+        "IDE",
+        "Win32 API"
+      ],
+      "rank": 2
+    },
     {
       "title": "Remove and Disable Apple Macos27 AI Models Tool",
       "title_display": "Remove and Disable Apple Macos27 AI Models Tool",
@@ -13,8 +51,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 257,
-      "score": 29,
+      "hn_points": 360,
+      "score": 30,
       "category": "other",
       "keywords": [
         "macOS",
@@ -22,7 +60,7 @@
         "RemoveMacAI",
         "AI models"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "Run Qwen 3.8 Flash Next (125B) on consumer hardware (RTX 4090) at 100T/s",
@@ -32,7 +70,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 374,
+      "hn_points": 674,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -41,7 +79,7 @@
         "Qwen",
         "RTX 4090"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "Show HN: AI search for every photo and every frame of video on macOS",
@@ -59,7 +97,7 @@
         "macOS",
         "M1"
       ],
-      "rank": 3
+      "rank": 5
     }
   ]
 }
