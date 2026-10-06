@@ -2,9 +2,28 @@
   "date": "2026-10-06",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3417,
-  "filtered_articles": 20,
+  "total_articles": 3411,
+  "filtered_articles": 19,
   "articles": [
+    {
+      "title": "Why Common Lisp Is Now the Best Programming Language",
+      "title_display": "Why Common Lisp Is Now the Best Programming Language",
+      "link": "https://www.vivienhenz.com/common-lisp",
+      "pub_date": "2026-10-06T04:10:40.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 135,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Common Lisp",
+        "Lisp macros",
+        "LLMs",
+        "domain-specific languages"
+      ],
+      "rank": 1
+    },
     {
       "title": "ChatGPT is adding real cartoonists' signatures to fake New Yorker cartoons",
       "title_display": "ChatGPT is adding real cartoonists' signatures to fake New Yorker cartoons",
@@ -22,7 +41,43 @@
         "The New Yorker",
         "copyright"
       ],
-      "rank": 1
+      "rank": 2
+    },
+    {
+      "title": "Example.com Just Launched the Biggest Redesign in Decades",
+      "title_display": "Example.com Just Launched the Biggest Redesign in Decades",
+      "link": "https://www.debugbear.com/blog/example-dot-com-redesign-history",
+      "pub_date": "2026-10-05T23:10:44.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 130,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Example.com",
+        "SVG"
+      ],
+      "rank": 3
+    },
+    {
+      "title": "Dust: Pretraining Transformers Without Backpropagation",
+      "title_display": "Dust: Pretraining Transformers Without Backpropagation",
+      "link": "https://qlabs.sh/research/dust",
+      "pub_date": "2026-10-05T21:50:42.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 131,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Dust",
+        "Transformers",
+        "backpropagation",
+        "Neural Predictive Coding"
+      ],
+      "rank": 4
     },
     {
       "title": "Competitive Programmer's Handbook (2018) [pdf]",
@@ -41,7 +96,7 @@
         "competitive programming",
         "coding interviews"
       ],
-      "rank": 2
+      "rank": 5
     },
     {
       "title": "Why Plain Text Is Still One of the Best Technologies We Have",
@@ -60,7 +115,7 @@
         "Unicode",
         "UTF-8"
       ],
-      "rank": 3
+      "rank": 6
     },
     {
       "title": "US closely monitoring case of lab worker who possibly died of plague in Siberia",
@@ -79,7 +134,7 @@
         "Siberia",
         "Irkutsk"
       ],
-      "rank": 4
+      "rank": 7
     },
     {
       "title": "Mold Linker Version 3.0.0 Release – Rewritten in Rust",
@@ -98,7 +153,7 @@
         "linker",
         "C++"
       ],
-      "rank": 5
+      "rank": 8
     },
     {
       "title": "Pixel 11 doesn't yet meet the GrapheneOS security standards and may be skipped",
@@ -117,7 +172,7 @@
         "Google",
         "Memory Tagging Extension"
       ],
-      "rank": 6
+      "rank": 9
     },
     {
       "title": "Web Search API",
@@ -136,7 +191,7 @@
         "Cloudflare AI Gateway",
         "Ceramic"
       ],
-      "rank": 7
+      "rank": 10
     },
     {
       "title": "Anthropic reported diary entry to police, woman faces felony charge",
@@ -155,7 +210,7 @@
         "Florida",
         "AI privacy"
       ],
-      "rank": 8
+      "rank": 11
     },
     {
       "title": "We ported the original Doom to SQL",
@@ -173,7 +228,7 @@
         "SQL",
         "CedarDB"
       ],
-      "rank": 9
+      "rank": 12
     },
     {
       "title": "In the wake of closure, a digital archive of animated materials appears online",
@@ -192,7 +247,7 @@
         "Internet Archive",
         "Textfiles.com"
       ],
-      "rank": 10
+      "rank": 13
     }
   ]
 }
