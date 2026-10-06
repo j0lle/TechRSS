@@ -1,0 +1,104 @@
+{
+  "date": "2026-10-07",
+  "total_feeds": 95,
+  "success_feeds": 89,
+  "total_articles": 3433,
+  "filtered_articles": 29,
+  "articles": [
+    {
+      "title": "Mistral Large 4: \"Le Chonk\"",
+      "title_display": "Mistral Large 4: \"Le Chonk\"",
+      "link": "https://mistral.ai/news/mistral-large-4/",
+      "pub_date": "2026-10-06T13:40:50.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 479,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Mistral Large 4",
+        "Mistral AI",
+        "Le Chonk",
+        "Le Chat"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Meta's Muse Is an Adorable Privacy and Security Dumpster Fire",
+      "title_display": "Meta's Muse Is an Adorable Privacy and Security Dumpster Fire",
+      "link": "https://www.techdirt.com/2026/10/06/metas-muse-is-an-adorable-privacy-and-security-dumpster-fire/",
+      "pub_date": "2026-10-06T13:30:41.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 220,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "Meta",
+        "Muse",
+        "privacy",
+        "AI agents"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "Release of Polars 2.0",
+      "title_display": "Release of Polars 2.0",
+      "link": "https://pola.rs/posts/release-polars-2/",
+      "pub_date": "2026-10-06T12:50:48.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 228,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "Polars",
+        "DataFusion",
+        "Pandas",
+        "DuckDB"
+      ],
+      "rank": 3
+    },
+    {
+      "title": "JetBrains reported a net financial loss first time in its tracked history",
+      "title_display": "JetBrains reported a net financial loss first time in its tracked history",
+      "link": "https://www.helgilibrary.com/companies/jetbrains",
+      "pub_date": "2026-10-06T12:30:38.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 321,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "JetBrains",
+        "IDE",
+        "AI",
+        "Junie"
+      ],
+      "rank": 4
+    },
+    {
+      "title": "Gleam doesn't compile to Erlang source anymore",
+      "title_display": "Gleam doesn't compile to Erlang source anymore",
+      "link": "https://gleam.run/news/gleam-doesnt-compile-to-erlang-source-anymore/",
+      "pub_date": "2026-10-06T11:20:48.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 165,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Gleam",
+        "Erlang",
+        "BEAM",
+        "Erlang abstract format"
+      ],
+      "rank": 5
+    }
+  ]
+}
