@@ -2,9 +2,47 @@
   "date": "2026-10-07",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3433,
-  "filtered_articles": 29,
+  "total_articles": 3414,
+  "filtered_articles": 36,
   "articles": [
+    {
+      "title": "AI is now capable of developing its own inference hardware",
+      "title_display": "AI is now capable of developing its own inference hardware",
+      "link": "https://github.com/FeSens/openTPU",
+      "pub_date": "2026-10-06T16:40:42.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 151,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "OpenTPU",
+        "TPU",
+        "FPGA",
+        "AI inference"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Vibecoding isn't as fun as writing code by hand",
+      "title_display": "Vibecoding isn't as fun as writing code by hand",
+      "link": "https://www.autodidacts.io/vibecoding-isnt-as-fun-as-writing-code-by-hand/",
+      "pub_date": "2026-10-06T15:10:53.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 148,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "vibe coding",
+        "AI pair programming",
+        "Claude Code",
+        "Codex"
+      ],
+      "rank": 2
+    },
     {
       "title": "Mistral Large 4: \"Le Chonk\"",
       "title_display": "Mistral Large 4: \"Le Chonk\"",
@@ -22,7 +60,7 @@
         "Le Chonk",
         "Le Chat"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "Meta's Muse Is an Adorable Privacy and Security Dumpster Fire",
@@ -32,8 +70,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 220,
-      "score": 28,
+      "hn_points": 329,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Meta",
@@ -41,7 +79,7 @@
         "privacy",
         "AI agents"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "Release of Polars 2.0",
@@ -51,8 +89,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 228,
-      "score": 29,
+      "hn_points": 336,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Polars",
@@ -60,7 +98,7 @@
         "Pandas",
         "DuckDB"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "JetBrains reported a net financial loss first time in its tracked history",
@@ -79,7 +117,7 @@
         "AI",
         "Junie"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "Gleam doesn't compile to Erlang source anymore",
@@ -89,8 +127,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 165,
-      "score": 27,
+      "hn_points": 269,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Gleam",
@@ -98,7 +136,7 @@
         "BEAM",
         "Erlang abstract format"
       ],
-      "rank": 5
+      "rank": 7
     }
   ]
 }
