@@ -3,8 +3,46 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3417,
-  "filtered_articles": 23,
+  "filtered_articles": 20,
   "articles": [
+    {
+      "title": "ChatGPT is adding real cartoonists' signatures to fake New Yorker cartoons",
+      "title_display": "ChatGPT is adding real cartoonists' signatures to fake New Yorker cartoons",
+      "link": "https://www.niemanlab.org/2026/10/chatgpt-is-adding-real-cartoonists-signatures-to-fake-new-yorker-cartoons/",
+      "pub_date": "2026-10-05T23:40:49.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 300,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "ChatGPT",
+        "OpenAI",
+        "The New Yorker",
+        "copyright"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Competitive Programmer's Handbook (2018) [pdf]",
+      "title_display": "Competitive Programmer's Handbook (2018) [pdf]",
+      "link": "https://cses.fi/book/book.pdf",
+      "pub_date": "2026-10-05T20:00:40.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 133,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Competitive Programmer's Handbook",
+        "algorithms",
+        "competitive programming",
+        "coding interviews"
+      ],
+      "rank": 2
+    },
     {
       "title": "Why Plain Text Is Still One of the Best Technologies We Have",
       "title_display": "Why Plain Text Is Still One of the Best Technologies We Have",
@@ -22,7 +60,7 @@
         "Unicode",
         "UTF-8"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "US closely monitoring case of lab worker who possibly died of plague in Siberia",
@@ -41,7 +79,7 @@
         "Siberia",
         "Irkutsk"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "Mold Linker Version 3.0.0 Release – Rewritten in Rust",
@@ -60,7 +98,7 @@
         "linker",
         "C++"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "Pixel 11 doesn't yet meet the GrapheneOS security standards and may be skipped",
@@ -79,7 +117,7 @@
         "Google",
         "Memory Tagging Extension"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "Web Search API",
@@ -98,7 +136,7 @@
         "Cloudflare AI Gateway",
         "Ceramic"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "Anthropic reported diary entry to police, woman faces felony charge",
@@ -117,7 +155,7 @@
         "Florida",
         "AI privacy"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "We ported the original Doom to SQL",
@@ -135,7 +173,7 @@
         "SQL",
         "CedarDB"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "In the wake of closure, a digital archive of animated materials appears online",
@@ -154,7 +192,7 @@
         "Internet Archive",
         "Textfiles.com"
       ],
-      "rank": 8
+      "rank": 10
     }
   ]
 }
