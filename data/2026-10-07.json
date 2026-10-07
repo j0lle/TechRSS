@@ -1,10 +1,101 @@
 {
   "date": "2026-10-07",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3399,
+  "success_feeds": 89,
+  "total_articles": 3411,
   "filtered_articles": 41,
   "articles": [
+    {
+      "title": "Shipping JPEG XL in Chrome",
+      "title_display": "Shipping JPEG XL in Chrome",
+      "link": "https://developer.chrome.com/blog/jpeg-xl-in-chrome",
+      "pub_date": "2026-10-07T11:40:52.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 238,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "JPEG XL",
+        "Chrome",
+        "Google",
+        "Chromium"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "A font recreated from photographs of classic Commodore 64 keycaps",
+      "title_display": "A font recreated from photographs of classic Commodore 64 keycaps",
+      "link": "https://github.com/szabadkai/c64-keyboard-font/",
+      "pub_date": "2026-10-07T09:50:46.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 183,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Commodore 64",
+        "C64 Keyboard Font",
+        "TTF"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "ESP32-C3 Adblock",
+      "title_display": "ESP32-C3 Adblock",
+      "link": "https://github.com/M-Abozaid/esp32-c3-adblock",
+      "pub_date": "2026-10-07T04:00:56.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 121,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "ESP32-C3",
+        "Adblock",
+        "DNS",
+        "Pi-hole"
+      ],
+      "rank": 3
+    },
+    {
+      "title": "The cost of lies: A Mineserver story",
+      "title_display": "The cost of lies: A Mineserver story",
+      "link": "https://www.jeremyreimer.com/rockets-item.lsp?f=true&p=272",
+      "pub_date": "2026-10-07T02:30:50.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 128,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Mineserver",
+        "Robert X. Cringely",
+        "Kickstarter",
+        "Minecraft"
+      ],
+      "rank": 4
+    },
+    {
+      "title": "State of Devs 2026 survey results: developers are exhausted",
+      "title_display": "State of Devs 2026 survey results: developers are exhausted",
+      "link": "https://2026.stateofdevs.com/en-US/",
+      "pub_date": "2026-10-07T01:40:47.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 166,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "State of Devs"
+      ],
+      "rank": 5
+    },
     {
       "title": "AnyPS5: Port PS5 binaries to PC without emulation (87% system libraries mapped)",
       "title_display": "AnyPS5: Port PS5 binaries to PC without emulation (87% system libraries mapped)",
@@ -22,7 +113,7 @@
         "Sony",
         "PC"
       ],
-      "rank": 1
+      "rank": 6
     },
     {
       "title": "Penguin Mail – open-source Rust email client for Linux with AI",
@@ -41,7 +132,7 @@
         "Linux",
         "AI"
       ],
-      "rank": 2
+      "rank": 7
     },
     {
       "title": "Decisions API is in public beta",
@@ -51,8 +142,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 224,
-      "score": 28,
+      "hn_points": 330,
+      "score": 30,
       "category": "other",
       "keywords": [
         "OpenAI",
@@ -60,7 +151,7 @@
         "GPT-6 Luna",
         "Jev"
       ],
-      "rank": 3
+      "rank": 8
     },
     {
       "title": "Claude Code’s suggested message feature: I think the real customer is the model",
@@ -70,15 +161,15 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 129,
-      "score": 26,
+      "hn_points": 230,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Claude Code",
         "Anthropic",
         "suggested messages"
       ],
-      "rank": 4
+      "rank": 9
     },
     {
       "title": "EmbeddingGemma 2",
@@ -97,7 +188,7 @@
         "embedding models",
         "multimodal"
       ],
-      "rank": 5
+      "rank": 10
     },
     {
       "title": "AI is now capable of developing its own inference hardware",
@@ -116,7 +207,7 @@
         "FPGA",
         "AI inference"
       ],
-      "rank": 6
+      "rank": 11
     },
     {
       "title": "Vibecoding isn't as fun as writing code by hand",
@@ -135,7 +226,7 @@
         "Claude Code",
         "Codex"
       ],
-      "rank": 7
+      "rank": 12
     },
     {
       "title": "Benchmark in Milliseconds",
@@ -154,7 +245,7 @@
         "Rust",
         "Python"
       ],
-      "rank": 8
+      "rank": 13
     },
     {
       "title": "Tapo (Rust/Python library) now speaks TP-Link's TPAP protocol",
@@ -173,7 +264,7 @@
         "TPAP",
         "Rust"
       ],
-      "rank": 9
+      "rank": 14
     },
     {
       "title": "Mistral Large 4: \"Le Chonk\"",
@@ -192,7 +283,7 @@
         "Le Chonk",
         "Le Chat"
       ],
-      "rank": 10
+      "rank": 15
     },
     {
       "title": "Meta's Muse Is an Adorable Privacy and Security Dumpster Fire",
@@ -211,7 +302,7 @@
         "privacy",
         "AI agents"
       ],
-      "rank": 11
+      "rank": 16
     },
     {
       "title": "Release of Polars 2.0",
@@ -230,7 +321,7 @@
         "Pandas",
         "DuckDB"
       ],
-      "rank": 12
+      "rank": 17
     },
     {
       "title": "JetBrains reported a net financial loss first time in its tracked history",
@@ -249,7 +340,7 @@
         "AI",
         "Junie"
       ],
-      "rank": 13
+      "rank": 18
     },
     {
       "title": "Gleam doesn't compile to Erlang source anymore",
@@ -268,7 +359,7 @@
         "BEAM",
         "Erlang abstract format"
       ],
-      "rank": 14
+      "rank": 19
     },
     {
       "title": "Photopea creator weighs in on Photosuite project",
@@ -287,7 +378,7 @@
         "GitHub",
         "Claude"
       ],
-      "rank": 15
+      "rank": 20
     }
   ]
 }
