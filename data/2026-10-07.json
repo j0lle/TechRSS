@@ -1,10 +1,85 @@
 {
   "date": "2026-10-07",
   "total_feeds": 95,
-  "success_feeds": 90,
-  "total_articles": 3444,
-  "filtered_articles": 36,
+  "success_feeds": 88,
+  "total_articles": 3399,
+  "filtered_articles": 41,
   "articles": [
+    {
+      "title": "AnyPS5: Port PS5 binaries to PC without emulation (87% system libraries mapped)",
+      "title_display": "AnyPS5: Port PS5 binaries to PC without emulation (87% system libraries mapped)",
+      "link": "https://github.com/boykopovar/AnyPS5",
+      "pub_date": "2026-10-07T00:30:48.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 140,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "AnyPS5",
+        "PlayStation 5",
+        "Sony",
+        "PC"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Penguin Mail – open-source Rust email client for Linux with AI",
+      "title_display": "Penguin Mail – open-source Rust email client for Linux with AI",
+      "link": "https://penguin-mail.com/",
+      "pub_date": "2026-10-06T23:40:46.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 136,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Penguin Mail",
+        "Rust",
+        "Linux",
+        "AI"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "Decisions API is in public beta",
+      "title_display": "Decisions API is in public beta",
+      "link": "https://developers.openai.com/api/docs/guides/decisions",
+      "pub_date": "2026-10-06T22:20:39.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 224,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "OpenAI",
+        "Decisions API",
+        "GPT-6 Luna",
+        "Jev"
+      ],
+      "rank": 3
+    },
+    {
+      "title": "Claude Code’s suggested message feature: I think the real customer is the model",
+      "title_display": "Claude Code’s suggested message feature: I think the real customer is the model",
+      "link": "https://www.zohaib.cc/blog/smartest-claude-code-feature",
+      "pub_date": "2026-10-06T22:00:40.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 129,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Claude Code",
+        "Anthropic",
+        "suggested messages"
+      ],
+      "rank": 4
+    },
     {
       "title": "EmbeddingGemma 2",
       "title_display": "EmbeddingGemma 2",
@@ -13,8 +88,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 195,
-      "score": 28,
+      "hn_points": 296,
+      "score": 30,
       "category": "other",
       "keywords": [
         "EmbeddingGemma 2",
@@ -22,7 +97,7 @@
         "embedding models",
         "multimodal"
       ],
-      "rank": 1
+      "rank": 5
     },
     {
       "title": "AI is now capable of developing its own inference hardware",
@@ -32,8 +107,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 151,
-      "score": 26,
+      "hn_points": 252,
+      "score": 29,
       "category": "other",
       "keywords": [
         "OpenTPU",
@@ -41,7 +116,7 @@
         "FPGA",
         "AI inference"
       ],
-      "rank": 2
+      "rank": 6
     },
     {
       "title": "Vibecoding isn't as fun as writing code by hand",
@@ -60,7 +135,7 @@
         "Claude Code",
         "Codex"
       ],
-      "rank": 3
+      "rank": 7
     },
     {
       "title": "Benchmark in Milliseconds",
@@ -79,7 +154,7 @@
         "Rust",
         "Python"
       ],
-      "rank": 4
+      "rank": 8
     },
     {
       "title": "Tapo (Rust/Python library) now speaks TP-Link's TPAP protocol",
@@ -98,7 +173,7 @@
         "TPAP",
         "Rust"
       ],
-      "rank": 5
+      "rank": 9
     },
     {
       "title": "Mistral Large 4: \"Le Chonk\"",
@@ -117,7 +192,7 @@
         "Le Chonk",
         "Le Chat"
       ],
-      "rank": 6
+      "rank": 10
     },
     {
       "title": "Meta's Muse Is an Adorable Privacy and Security Dumpster Fire",
@@ -136,7 +211,7 @@
         "privacy",
         "AI agents"
       ],
-      "rank": 7
+      "rank": 11
     },
     {
       "title": "Release of Polars 2.0",
@@ -155,7 +230,7 @@
         "Pandas",
         "DuckDB"
       ],
-      "rank": 8
+      "rank": 12
     },
     {
       "title": "JetBrains reported a net financial loss first time in its tracked history",
@@ -174,7 +249,7 @@
         "AI",
         "Junie"
       ],
-      "rank": 9
+      "rank": 13
     },
     {
       "title": "Gleam doesn't compile to Erlang source anymore",
@@ -193,7 +268,7 @@
         "BEAM",
         "Erlang abstract format"
       ],
-      "rank": 10
+      "rank": 14
     },
     {
       "title": "Photopea creator weighs in on Photosuite project",
@@ -212,7 +287,7 @@
         "GitHub",
         "Claude"
       ],
-      "rank": 11
+      "rank": 15
     }
   ]
 }
