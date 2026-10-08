@@ -1,0 +1,64 @@
+{
+  "date": "2026-10-09",
+  "total_feeds": 95,
+  "success_feeds": 90,
+  "total_articles": 3449,
+  "filtered_articles": 24,
+  "articles": [
+    {
+      "title": "4-hour battery storage is cheaper to install than gas turbines all across globe",
+      "title_display": "4-hour battery storage is cheaper to install than gas turbines all across globe",
+      "link": "https://www.solarpowerworldonline.com/2026/10/4-hour-battery-storage-is-cheaper-to-install-than-gas-turbines-all-across-globe/",
+      "pub_date": "2026-10-08T17:00:45.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 171,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "battery storage",
+        "gas turbines",
+        "grid-scale battery storage",
+        "renewable energy"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "The Slow Formation of Durable Software",
+      "title_display": "The Slow Formation of Durable Software",
+      "link": "https://newsletter.dancohen.org/archive/the-slow-formation-of-durable-software/",
+      "pub_date": "2026-10-08T11:30:53.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 125,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Zotero",
+        "LLMs",
+        "AI",
+        "coding agents"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "Classic PC demoscene productions running natively in the browser",
+      "title_display": "Classic PC demoscene productions running natively in the browser",
+      "link": "https://treylorswift.github.io/demoscene-recomp/web/",
+      "pub_date": "2026-10-08T08:30:40.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 145,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "demoscene",
+        "DOS"
+      ],
+      "rank": 3
+    }
+  ]
+}
