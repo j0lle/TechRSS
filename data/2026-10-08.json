@@ -1,10 +1,29 @@
 {
   "date": "2026-10-08",
   "total_feeds": 95,
-  "success_feeds": 90,
-  "total_articles": 3443,
-  "filtered_articles": 28,
+  "success_feeds": 89,
+  "total_articles": 3419,
+  "filtered_articles": 29,
   "articles": [
+    {
+      "title": "OpenAI Withdraws 3 Math Papers",
+      "title_display": "OpenAI Withdraws 3 Math Papers",
+      "link": "https://github.com/openai/math/blob/main/history.md",
+      "pub_date": "2026-10-08T11:50:43.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 195,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "OpenAI",
+        "mathematics",
+        "formal proof",
+        "Lean"
+      ],
+      "rank": 1
+    },
     {
       "title": "Margaret Hamilton, who led software development for Apollo program, dies at 90",
       "title_display": "Margaret Hamilton, who led software development for Apollo program, dies at 90",
@@ -13,7 +32,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 633,
+      "hn_points": 1772,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -22,7 +41,7 @@
         "MIT",
         "software engineering"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "How machines learned precision",
@@ -41,7 +60,7 @@
         "Henry Maudslay",
         "James Watt"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Push Ifs Up and Fors Down: The Idiom, Its Algebra, and Its Limits",
@@ -59,7 +78,7 @@
         "functional programming",
         "optimization"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Docker Agent",
@@ -69,14 +88,14 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 133,
-      "score": 26,
+      "hn_points": 233,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Docker Agent",
         "Docker"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "GPT‑6 and Intelligent UI for everyone",
@@ -86,7 +105,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 339,
+      "hn_points": 645,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -95,7 +114,7 @@
         "ChatGPT",
         "Codex"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Show HN: Bigwords.page – Turn any screen into a sign. The URL is the app",
@@ -114,7 +133,7 @@
         "QR codes",
         "MIT License"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Anti-Patterns in Software Blogging",
@@ -124,8 +143,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 182,
-      "score": 27,
+      "hn_points": 283,
+      "score": 30,
       "category": "other",
       "keywords": [
         "software blogging",
@@ -133,7 +152,7 @@
         "LLMs",
         "Stack Overflow"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "GitHub Incident with Git Operations, Pull Requests and Actions",
@@ -152,7 +171,7 @@
         "GitHub Actions",
         "pull requests"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "What Is Codemode",
@@ -171,7 +190,7 @@
         "MCP",
         "Claude"
       ],
-      "rank": 9
+      "rank": 10
     }
   ]
 }
