@@ -1,10 +1,27 @@
 {
   "date": "2026-10-08",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3412,
-  "filtered_articles": 37,
+  "success_feeds": 90,
+  "total_articles": 3443,
+  "filtered_articles": 29,
   "articles": [
+    {
+      "title": "Docker Agent",
+      "title_display": "Docker Agent",
+      "link": "https://github.com/docker/docker-agent",
+      "pub_date": "2026-10-07T18:30:43.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 133,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Docker Agent",
+        "Docker"
+      ],
+      "rank": 1
+    },
     {
       "title": "GPT‑6 and Intelligent UI for everyone",
       "title_display": "GPT‑6 and Intelligent UI for everyone",
@@ -13,8 +30,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 100,
-      "score": 24,
+      "hn_points": 339,
+      "score": 30,
       "category": "other",
       "keywords": [
         "GPT-6",
@@ -22,7 +39,7 @@
         "ChatGPT",
         "Codex"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Show HN: Bigwords.page – Turn any screen into a sign. The URL is the app",
@@ -32,8 +49,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 173,
-      "score": 27,
+      "hn_points": 282,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Bigwords.page",
@@ -41,7 +58,26 @@
         "QR codes",
         "MIT License"
       ],
-      "rank": 2
+      "rank": 3
+    },
+    {
+      "title": "Anti-Patterns in Software Blogging",
+      "title_display": "Anti-Patterns in Software Blogging",
+      "link": "https://refactoringenglish.com/blog/anti-patterns-software-blogging/",
+      "pub_date": "2026-10-07T17:10:43.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 182,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "software blogging",
+        "technical writing",
+        "LLMs",
+        "Stack Overflow"
+      ],
+      "rank": 4
     },
     {
       "title": "GitHub Incident with Git Operations, Pull Requests and Actions",
@@ -60,7 +96,7 @@
         "GitHub Actions",
         "pull requests"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "What Is Codemode",
@@ -79,7 +115,7 @@
         "MCP",
         "Claude"
       ],
-      "rank": 4
+      "rank": 6
     }
   ]
 }
