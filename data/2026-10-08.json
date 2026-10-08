@@ -3,8 +3,64 @@
   "total_feeds": 95,
   "success_feeds": 90,
   "total_articles": 3443,
-  "filtered_articles": 29,
+  "filtered_articles": 28,
   "articles": [
+    {
+      "title": "Margaret Hamilton, who led software development for Apollo program, dies at 90",
+      "title_display": "Margaret Hamilton, who led software development for Apollo program, dies at 90",
+      "link": "https://news.mit.edu/2026/margaret-hamilton-computing-pioneer-dies-1007",
+      "pub_date": "2026-10-07T22:20:41.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 633,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Margaret Hamilton",
+        "Apollo program",
+        "MIT",
+        "software engineering"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "How machines learned precision",
+      "title_display": "How machines learned precision",
+      "link": "https://glinscott.github.io/how-machines-learned-precision/",
+      "pub_date": "2026-10-07T19:50:47.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 125,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Industrial Revolution",
+        "steam engine",
+        "Henry Maudslay",
+        "James Watt"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "Push Ifs Up and Fors Down: The Idiom, Its Algebra, and Its Limits",
+      "title_display": "Push Ifs Up and Fors Down: The Idiom, Its Algebra, and Its Limits",
+      "link": "https://debasishg.github.io/blog/push-ifs-up-fors-down/",
+      "pub_date": "2026-10-07T19:40:43.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 127,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "vectorization",
+        "functional programming",
+        "optimization"
+      ],
+      "rank": 3
+    },
     {
       "title": "Docker Agent",
       "title_display": "Docker Agent",
@@ -20,7 +76,7 @@
         "Docker Agent",
         "Docker"
       ],
-      "rank": 1
+      "rank": 4
     },
     {
       "title": "GPT‑6 and Intelligent UI for everyone",
@@ -39,7 +95,7 @@
         "ChatGPT",
         "Codex"
       ],
-      "rank": 2
+      "rank": 5
     },
     {
       "title": "Show HN: Bigwords.page – Turn any screen into a sign. The URL is the app",
@@ -49,7 +105,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 282,
+      "hn_points": 382,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -58,7 +114,7 @@
         "QR codes",
         "MIT License"
       ],
-      "rank": 3
+      "rank": 6
     },
     {
       "title": "Anti-Patterns in Software Blogging",
@@ -77,7 +133,7 @@
         "LLMs",
         "Stack Overflow"
       ],
-      "rank": 4
+      "rank": 7
     },
     {
       "title": "GitHub Incident with Git Operations, Pull Requests and Actions",
@@ -96,7 +152,7 @@
         "GitHub Actions",
         "pull requests"
       ],
-      "rank": 5
+      "rank": 8
     },
     {
       "title": "What Is Codemode",
@@ -115,7 +171,7 @@
         "MCP",
         "Claude"
       ],
-      "rank": 6
+      "rank": 9
     }
   ]
 }
