@@ -2,9 +2,27 @@
   "date": "2026-10-09",
   "total_feeds": 95,
   "success_feeds": 90,
-  "total_articles": 3449,
-  "filtered_articles": 24,
+  "total_articles": 3450,
+  "filtered_articles": 22,
   "articles": [
+    {
+      "title": "Man discovers his parents' coffee machine used 1TB of data in 10 days",
+      "title_display": "Man discovers his parents' coffee machine used 1TB of data in 10 days",
+      "link": "https://www.dexerto.com/entertainment/man-discovers-his-parents-coffee-machine-used-1tb-of-data-in-10-days-3416399/",
+      "pub_date": "2026-10-08T20:40:45.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 273,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "Keurig",
+        "IoT",
+        "network scanning"
+      ],
+      "rank": 1
+    },
     {
       "title": "4-hour battery storage is cheaper to install than gas turbines all across globe",
       "title_display": "4-hour battery storage is cheaper to install than gas turbines all across globe",
@@ -22,7 +40,7 @@
         "grid-scale battery storage",
         "renewable energy"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "The Slow Formation of Durable Software",
@@ -32,8 +50,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 125,
-      "score": 26,
+      "hn_points": 232,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Zotero",
@@ -41,7 +59,7 @@
         "AI",
         "coding agents"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Classic PC demoscene productions running natively in the browser",
@@ -58,7 +76,7 @@
         "demoscene",
         "DOS"
       ],
-      "rank": 3
+      "rank": 4
     }
   ]
 }
