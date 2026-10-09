@@ -1,10 +1,85 @@
 {
   "date": "2026-10-09",
   "total_feeds": 95,
-  "success_feeds": 90,
-  "total_articles": 3448,
-  "filtered_articles": 29,
+  "success_feeds": 89,
+  "total_articles": 3419,
+  "filtered_articles": 35,
   "articles": [
+    {
+      "title": "Let your AI agents paint big arrows, boxes and text on your screen",
+      "title_display": "Let your AI agents paint big arrows, boxes and text on your screen",
+      "link": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
+      "pub_date": "2026-10-09T11:20:58.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 176,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Big Arrow on the Screen",
+        "AI agents",
+        "macOS"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Show HN: Quake ported to safe Rust, playable in browser",
+      "title_display": "Show HN: Quake ported to safe Rust, playable in browser",
+      "link": "https://quake-srp.pages.dev/",
+      "pub_date": "2026-10-09T05:40:45.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 171,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Quake",
+        "Rust",
+        "WebAssembly",
+        "Claude"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "Keyboard differences between Windows and Macs",
+      "title_display": "Keyboard differences between Windows and Macs",
+      "link": "https://unsung.aresluna.org/deeper-dive-keyboard-differences-between-windows-and-macs/",
+      "pub_date": "2026-10-09T03:20:44.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 131,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "macOS",
+        "Windows",
+        "Apple",
+        "Linux"
+      ],
+      "rank": 3
+    },
+    {
+      "title": "OpenAI, the Partition Principle, and Mathematics",
+      "title_display": "OpenAI, the Partition Principle, and Mathematics",
+      "link": "https://karagila.org/2026/openai-pp/",
+      "pub_date": "2026-10-09T00:00:39.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 122,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "OpenAI",
+        "Partition Principle",
+        "Lean",
+        "LLM"
+      ],
+      "rank": 4
+    },
     {
       "title": "ETH-68: Ethernet Audio Interface for Linux",
       "title_display": "ETH-68: Ethernet Audio Interface for Linux",
@@ -22,7 +97,7 @@
         "Ethernet",
         "ESP32"
       ],
-      "rank": 1
+      "rank": 5
     },
     {
       "title": "Man discovers his parents' coffee machine used 1TB of data in 10 days",
@@ -32,7 +107,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 378,
+      "hn_points": 695,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -40,7 +115,7 @@
         "IoT",
         "network scanning"
       ],
-      "rank": 2
+      "rank": 6
     },
     {
       "title": "A Terminal Protocol for Program Status (OSC 7501)",
@@ -59,7 +134,7 @@
         "ANSI escape sequences",
         "CLI"
       ],
-      "rank": 3
+      "rank": 7
     },
     {
       "title": "US man given prison sentence for bot-farming music streams",
@@ -78,7 +153,7 @@
         "bot farm",
         "streaming fraud"
       ],
-      "rank": 4
+      "rank": 8
     },
     {
       "title": "4-hour battery storage is cheaper to install than gas turbines all across globe",
@@ -97,7 +172,7 @@
         "grid-scale battery storage",
         "renewable energy"
       ],
-      "rank": 5
+      "rank": 9
     },
     {
       "title": "The Slow Formation of Durable Software",
@@ -116,7 +191,7 @@
         "AI",
         "coding agents"
       ],
-      "rank": 6
+      "rank": 10
     },
     {
       "title": "Classic PC demoscene productions running natively in the browser",
@@ -133,7 +208,7 @@
         "demoscene",
         "DOS"
       ],
-      "rank": 7
+      "rank": 11
     }
   ]
 }
