@@ -1,0 +1,103 @@
+{
+  "date": "2026-10-10",
+  "total_feeds": 95,
+  "success_feeds": 90,
+  "total_articles": 3449,
+  "filtered_articles": 38,
+  "articles": [
+    {
+      "title": "Python 3.15.0",
+      "title_display": "Python 3.15.0",
+      "link": "https://www.python.org/downloads/release/python-3150/",
+      "pub_date": "2026-10-09T16:01:17.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 234,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "Python",
+        "Python 3.15",
+        "CPython",
+        "abi3t"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Germany turning abandoned coal mines into 23 lakes, becoming artificial wetland",
+      "title_display": "Germany turning abandoned coal mines into 23 lakes, becoming artificial wetland",
+      "link": "https://timesofindia.indiatimes.com/world/europe/germany-is-turning-abandoned-coal-mines-into-23-lakes-the-former-mining-landscape-is-becoming-europes-largest-artificial-wetland/articleshow/134725669.cms",
+      "pub_date": "2026-10-09T15:51:07.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 130,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Germany",
+        "coal mines",
+        "wetlands"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "Deno Is Joining Cloudflare",
+      "title_display": "Deno Is Joining Cloudflare",
+      "link": "https://deno.com/blog/cloudflare",
+      "pub_date": "2026-10-09T13:21:00.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 482,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Deno",
+        "Cloudflare",
+        "Deno runtime",
+        "workerd"
+      ],
+      "rank": 3
+    },
+    {
+      "title": "OpenAI fires three safety researchers for \"mishandling research information\"",
+      "title_display": "OpenAI fires three safety researchers for \"mishandling research information\"",
+      "link": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/",
+      "pub_date": "2026-10-09T10:40:59.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 240,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "OpenAI",
+        "AI safety",
+        "ChatGPT",
+        "Anthropic"
+      ],
+      "rank": 4
+    },
+    {
+      "title": "MXC - a sandboxed code execution system",
+      "title_display": "MXC - a sandboxed code execution system",
+      "link": "https://github.com/microsoft/mxc",
+      "pub_date": "2026-10-09T08:31:02.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 121,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "MXC",
+        "Microsoft",
+        "Rust",
+        "sandboxing"
+      ],
+      "rank": 5
+    }
+  ]
+}
