@@ -1,10 +1,66 @@
 {
   "date": "2026-10-11",
   "total_feeds": 95,
-  "success_feeds": 87,
-  "total_articles": 3386,
+  "success_feeds": 89,
+  "total_articles": 3441,
   "filtered_articles": 25,
   "articles": [
+    {
+      "title": "Grieving the Loss of Details",
+      "title_display": "Grieving the Loss of Details",
+      "link": "https://purplesyringa.moe/blog/grieving-the-loss-of-details/",
+      "pub_date": "2026-10-10T17:01:07.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 234,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "LLMs",
+        "agentic coding",
+        "software engineering"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Mxc: Microsoft Execution Containers version 1.0.0",
+      "title_display": "Mxc: Microsoft Execution Containers version 1.0.0",
+      "link": "https://blogs.windows.com/windowsdeveloper/2026/10/07/microsoft-execution-containers-policy-driven-containment-for-ai-agents/",
+      "pub_date": "2026-10-10T15:40:58.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 126,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Microsoft Execution Containers",
+        "Microsoft",
+        "Mxc",
+        "AI agents"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "Bitwarden Dual License Model",
+      "title_display": "Bitwarden Dual License Model",
+      "link": "https://community.bitwarden.com/t/published-version-update-in-app-stores/102750",
+      "pub_date": "2026-10-10T14:50:56.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 200,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "Bitwarden",
+        "dual licensing",
+        "open source",
+        "password managers"
+      ],
+      "rank": 3
+    },
     {
       "title": "Talorys – A self-hosted personal AI agent on Cloudflare's free tier",
       "title_display": "Talorys – A self-hosted personal AI agent on Cloudflare's free tier",
@@ -22,7 +78,7 @@
         "Cloudflare Workers",
         "Workers AI"
       ],
-      "rank": 1
+      "rank": 4
     },
     {
       "title": "`123456' password used in Danish CPR data breach",
@@ -41,7 +97,7 @@
         "Pays ApS",
         "DXC Technology"
       ],
-      "rank": 2
+      "rank": 5
     },
     {
       "title": "WSL3 Performance is about 5-60% faster than WSL2 depending on the workload",
@@ -60,7 +116,7 @@
         "WSL 3",
         "Microsoft"
       ],
-      "rank": 3
+      "rank": 6
     },
     {
       "title": "Clinical trial of a prion disease drug candidate begins enrolling participants",
@@ -78,7 +134,26 @@
         "Clinical trial",
         "Broad Institute"
       ],
-      "rank": 4
+      "rank": 7
+    },
+    {
+      "title": "Compiling Rust to readable C with Eurydice",
+      "title_display": "Compiling Rust to readable C with Eurydice",
+      "link": "https://lwn.net/Articles/1055211/",
+      "pub_date": "2026-10-10T02:21:00.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 124,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Eurydice",
+        "Rust",
+        "C",
+        "compiler"
+      ],
+      "rank": 8
     }
   ]
 }
