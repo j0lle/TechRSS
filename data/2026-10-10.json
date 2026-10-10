@@ -3,8 +3,46 @@
   "total_feeds": 95,
   "success_feeds": 90,
   "total_articles": 3449,
-  "filtered_articles": 38,
+  "filtered_articles": 34,
   "articles": [
+    {
+      "title": "No Man Is an Island",
+      "title_display": "No Man Is an Island",
+      "link": "https://borretti.me/article/no-man-is-an-island",
+      "pub_date": "2026-10-09T20:21:01.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 229,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "AI",
+        "Claude",
+        "Claude Code",
+        "Codex"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "TypeSafe a Raises $870M at a $7.5B",
+      "title_display": "TypeSafe a Raises $870M at a $7.5B",
+      "link": "https://typesafe.ai/blog/series-ai",
+      "pub_date": "2026-10-09T18:31:08.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 168,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "TypeSafe AI",
+        "Jev",
+        "OpenAI",
+        "Decisions API"
+      ],
+      "rank": 2
+    },
     {
       "title": "Python 3.15.0",
       "title_display": "Python 3.15.0",
@@ -22,7 +60,7 @@
         "CPython",
         "abi3t"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "Germany turning abandoned coal mines into 23 lakes, becoming artificial wetland",
@@ -40,7 +78,7 @@
         "coal mines",
         "wetlands"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "Deno Is Joining Cloudflare",
@@ -50,7 +88,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 482,
+      "hn_points": 965,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -59,7 +97,7 @@
         "Deno runtime",
         "workerd"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "OpenAI fires three safety researchers for \"mishandling research information\"",
@@ -78,7 +116,7 @@
         "ChatGPT",
         "Anthropic"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "MXC - a sandboxed code execution system",
@@ -97,7 +135,7 @@
         "Rust",
         "sandboxing"
       ],
-      "rank": 5
+      "rank": 7
     }
   ]
 }
