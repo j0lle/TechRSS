@@ -1,10 +1,48 @@
 {
   "date": "2026-10-10",
   "total_feeds": 95,
-  "success_feeds": 90,
-  "total_articles": 3449,
-  "filtered_articles": 34,
+  "success_feeds": 87,
+  "total_articles": 3386,
+  "filtered_articles": 27,
   "articles": [
+    {
+      "title": "Telegram Desktop vulnerability allowed any user's file to be stolen",
+      "title_display": "Telegram Desktop vulnerability allowed any user's file to be stolen",
+      "link": "https://beaksec.github.io/posts/telegram-desktop-one-click-account-takeover/",
+      "pub_date": "2026-10-10T04:40:58.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 131,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Telegram Desktop",
+        "Telegram",
+        "account takeover",
+        "file exfiltration"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Eye of Sauron: Long-Range Hidden Spy Camera Detection",
+      "title_display": "Eye of Sauron: Long-Range Hidden Spy Camera Detection",
+      "link": "https://www.usenix.org/conference/usenixsecurity24/presentation/zhang-qibo",
+      "pub_date": "2026-10-10T03:40:59.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 145,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Eye of Sauron",
+        "USENIX Security",
+        "hidden spy cameras",
+        "electromagnetic side channels"
+      ],
+      "rank": 2
+    },
     {
       "title": "REA Reverse – Engineer Anything",
       "title_display": "REA Reverse – Engineer Anything",
@@ -13,8 +51,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 187,
-      "score": 28,
+      "hn_points": 396,
+      "score": 30,
       "category": "other",
       "keywords": [
         "REA",
@@ -22,7 +60,7 @@
         "Ghidra",
         "Claude"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "No Man Is an Island",
@@ -41,7 +79,7 @@
         "Claude Code",
         "Codex"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "TypeSafe a Raises $870M at a $7.5B",
@@ -51,8 +89,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 272,
-      "score": 29,
+      "hn_points": 374,
+      "score": 30,
       "category": "other",
       "keywords": [
         "TypeSafe AI",
@@ -60,7 +98,7 @@
         "OpenAI",
         "Decisions API"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "Python 3.15.0",
@@ -79,7 +117,7 @@
         "CPython",
         "abi3t"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "Germany turning abandoned coal mines into 23 lakes, becoming artificial wetland",
@@ -97,7 +135,7 @@
         "coal mines",
         "wetlands"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "Deno Is Joining Cloudflare",
@@ -107,7 +145,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 965,
+      "hn_points": 1266,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -116,7 +154,7 @@
         "Deno runtime",
         "workerd"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "OpenAI fires three safety researchers for \"mishandling research information\"",
@@ -135,7 +173,7 @@
         "ChatGPT",
         "Anthropic"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "Programming Isn't Special",
@@ -153,7 +191,7 @@
         "AI",
         "Art"
       ],
-      "rank": 8
+      "rank": 10
     },
     {
       "title": "MXC - a sandboxed code execution system",
@@ -172,7 +210,7 @@
         "Rust",
         "sandboxing"
       ],
-      "rank": 9
+      "rank": 11
     }
   ]
 }
