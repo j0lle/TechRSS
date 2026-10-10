@@ -6,6 +6,25 @@
   "filtered_articles": 34,
   "articles": [
     {
+      "title": "REA Reverse – Engineer Anything",
+      "title_display": "REA Reverse – Engineer Anything",
+      "link": "https://rea.tools/",
+      "pub_date": "2026-10-10T01:01:03.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 187,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "REA",
+        "reverse engineering",
+        "Ghidra",
+        "Claude"
+      ],
+      "rank": 1
+    },
+    {
       "title": "No Man Is an Island",
       "title_display": "No Man Is an Island",
       "link": "https://borretti.me/article/no-man-is-an-island",
@@ -22,7 +41,7 @@
         "Claude Code",
         "Codex"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "TypeSafe a Raises $870M at a $7.5B",
@@ -32,8 +51,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 168,
-      "score": 27,
+      "hn_points": 272,
+      "score": 29,
       "category": "other",
       "keywords": [
         "TypeSafe AI",
@@ -41,7 +60,7 @@
         "OpenAI",
         "Decisions API"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Python 3.15.0",
@@ -60,7 +79,7 @@
         "CPython",
         "abi3t"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Germany turning abandoned coal mines into 23 lakes, becoming artificial wetland",
@@ -78,7 +97,7 @@
         "coal mines",
         "wetlands"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Deno Is Joining Cloudflare",
@@ -97,7 +116,7 @@
         "Deno runtime",
         "workerd"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "OpenAI fires three safety researchers for \"mishandling research information\"",
@@ -116,7 +135,25 @@
         "ChatGPT",
         "Anthropic"
       ],
-      "rank": 6
+      "rank": 7
+    },
+    {
+      "title": "Programming Isn't Special",
+      "title_display": "Programming Isn't Special",
+      "link": "https://blog.glyph.im/2026/10/programming-isnt-special.html",
+      "pub_date": "2026-10-09T08:40:56.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 173,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Programming",
+        "AI",
+        "Art"
+      ],
+      "rank": 8
     },
     {
       "title": "MXC - a sandboxed code execution system",
@@ -135,7 +172,7 @@
         "Rust",
         "sandboxing"
       ],
-      "rank": 7
+      "rank": 9
     }
   ]
 }
