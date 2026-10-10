@@ -1,0 +1,84 @@
+{
+  "date": "2026-10-11",
+  "total_feeds": 95,
+  "success_feeds": 87,
+  "total_articles": 3386,
+  "filtered_articles": 25,
+  "articles": [
+    {
+      "title": "Talorys – A self-hosted personal AI agent on Cloudflare's free tier",
+      "title_display": "Talorys – A self-hosted personal AI agent on Cloudflare's free tier",
+      "link": "https://github.com/rociiu/talorys",
+      "pub_date": "2026-10-10T11:30:58.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 128,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Talorys",
+        "Cloudflare",
+        "Cloudflare Workers",
+        "Workers AI"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "`123456' password used in Danish CPR data breach",
+      "title_display": "`123456' password used in Danish CPR data breach",
+      "link": "https://cphpost.dk/2026-10-10/news/round-up/123456-password-used-in-massive-danish-cpr-data-breach/",
+      "pub_date": "2026-10-10T10:10:53.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 292,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "CPR",
+        "Denmark",
+        "Pays ApS",
+        "DXC Technology"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "WSL3 Performance is about 5-60% faster than WSL2 depending on the workload",
+      "title_display": "WSL3 Performance is about 5-60% faster than WSL2 depending on the workload",
+      "link": "https://tonym.us/wsl2-vs-wsl3-benchmarks.html",
+      "pub_date": "2026-10-10T09:50:56.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 130,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "WSL",
+        "WSL 2",
+        "WSL 3",
+        "Microsoft"
+      ],
+      "rank": 3
+    },
+    {
+      "title": "Clinical trial of a prion disease drug candidate begins enrolling participants",
+      "title_display": "Clinical trial of a prion disease drug candidate begins enrolling participants",
+      "link": "https://www.broadinstitute.org/news/clinical-trial-prion-disease-drug-candidate-begins-enrolling-participants",
+      "pub_date": "2026-10-10T04:31:00.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 122,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "Prion disease",
+        "Clinical trial",
+        "Broad Institute"
+      ],
+      "rank": 4
+    }
+  ]
+}
