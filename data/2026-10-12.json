@@ -1,10 +1,29 @@
 {
   "date": "2026-10-12",
   "total_feeds": 95,
-  "success_feeds": 87,
-  "total_articles": 3388,
-  "filtered_articles": 16,
+  "success_feeds": 90,
+  "total_articles": 3453,
+  "filtered_articles": 18,
   "articles": [
+    {
+      "title": "NYC's \"Click to Cancel\" rule is now in effect",
+      "title_display": "NYC's \"Click to Cancel\" rule is now in effect",
+      "link": "https://www.nyc.gov/main/click-to-cancel",
+      "pub_date": "2026-10-11T18:51:01.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 245,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "New York City",
+        "Click to Cancel",
+        "subscription cancellation",
+        "automatic renewals"
+      ],
+      "rank": 1
+    },
     {
       "title": "Internal files add to evidence of an ExxonMobil climate deception campaign",
       "title_display": "Internal files add to evidence of an ExxonMobil climate deception campaign",
@@ -20,7 +39,45 @@
         "ExxonMobil",
         "climate change"
       ],
-      "rank": 1
+      "rank": 2
+    },
+    {
+      "title": "Terence Tao: Math 2.0 [pdf]",
+      "title_display": "Terence Tao: Math 2.0 [pdf]",
+      "link": "https://teorth.github.io/tao-web/slides/math-2-0-caltech-2026.pdf",
+      "pub_date": "2026-10-11T14:10:58.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 268,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "Terence Tao",
+        "Math 2.0",
+        "AI",
+        "mathematics"
+      ],
+      "rank": 3
+    },
+    {
+      "title": "PSPi 6 – Raspberry Pi in a PSP",
+      "title_display": "PSPi 6 – Raspberry Pi in a PSP",
+      "link": "https://github.com/othermod/PSPi-Version-6",
+      "pub_date": "2026-10-11T02:01:03.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 125,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "PSPi 6",
+        "Raspberry Pi",
+        "PlayStation Portable",
+        "PSP"
+      ],
+      "rank": 4
     }
   ]
 }
