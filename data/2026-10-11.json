@@ -1,10 +1,47 @@
 {
   "date": "2026-10-11",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3416,
-  "filtered_articles": 20,
+  "success_feeds": 87,
+  "total_articles": 3388,
+  "filtered_articles": 19,
   "articles": [
+    {
+      "title": "LineageOS 24.0",
+      "title_display": "LineageOS 24.0",
+      "link": "https://lineageos.org/Changelog-32/",
+      "pub_date": "2026-10-11T08:40:56.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 157,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "LineageOS",
+        "Android",
+        "Cyanogen",
+        "Pixel 4a"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Five months treating bugs like patients and coding agents like a medical team",
+      "title_display": "Five months treating bugs like patients and coding agents like a medical team",
+      "link": "https://www.cockroachlabs.com/blog/experiment-running-hospital-code/",
+      "pub_date": "2026-10-10T23:40:56.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 125,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Cockroach Labs",
+        "coding agents",
+        "Hospital Code"
+      ],
+      "rank": 2
+    },
     {
       "title": "Nix wrote half of my debugger",
       "title_display": "Nix wrote half of my debugger",
@@ -20,7 +57,7 @@
         "Nix",
         "debugger"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "Why DuckDB 2.0 is faster",
@@ -39,7 +76,7 @@
         "MotherDuck",
         "Parquet"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "Grieving the Loss of Details",
@@ -57,7 +94,7 @@
         "agentic coding",
         "software engineering"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "Mxc: Microsoft Execution Containers version 1.0.0",
@@ -76,7 +113,7 @@
         "Mxc",
         "AI agents"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "Bitwarden Dual License Model",
@@ -95,7 +132,7 @@
         "open source",
         "password managers"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "Talorys – A self-hosted personal AI agent on Cloudflare's free tier",
@@ -114,7 +151,7 @@
         "Cloudflare Workers",
         "Workers AI"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "`123456' password used in Danish CPR data breach",
@@ -133,7 +170,7 @@
         "Pays ApS",
         "DXC Technology"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "WSL3 Performance is about 5-60% faster than WSL2 depending on the workload",
@@ -152,7 +189,7 @@
         "WSL 3",
         "Microsoft"
       ],
-      "rank": 8
+      "rank": 10
     },
     {
       "title": "Clinical trial of a prion disease drug candidate begins enrolling participants",
@@ -170,7 +207,7 @@
         "Clinical trial",
         "Broad Institute"
       ],
-      "rank": 9
+      "rank": 11
     },
     {
       "title": "Compiling Rust to readable C with Eurydice",
@@ -189,7 +226,7 @@
         "C",
         "compiler"
       ],
-      "rank": 10
+      "rank": 12
     }
   ]
 }
