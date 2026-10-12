@@ -1,0 +1,159 @@
+{
+  "date": "2026-10-13",
+  "total_feeds": 95,
+  "success_feeds": 89,
+  "total_articles": 3418,
+  "filtered_articles": 27,
+  "articles": [
+    {
+      "title": "Incident with Actions, Pull Requests and Issues",
+      "title_display": "Incident with Actions, Pull Requests and Issues",
+      "link": "https://www.githubstatus.com/incidents/93njd414rpbx",
+      "pub_date": "2026-10-12T13:41:06.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 131,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "GitHub",
+        "GitHub Actions",
+        "GitHub Pull Requests",
+        "GitHub Issues"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "QGIS bans AI assisted contributions",
+      "title_display": "QGIS bans AI assisted contributions",
+      "link": "https://github.com/qgis/QGIS-Enhancement-Proposals/pull/387",
+      "pub_date": "2026-10-12T11:30:59.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 333,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "QGIS",
+        "GitHub",
+        "LLM",
+        "open source"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "Show HN: PS2 games statically recompiled to WebAssembly",
+      "title_display": "Show HN: PS2 games statically recompiled to WebAssembly",
+      "link": "https://github.com/snuri00/ps2-web-recomp",
+      "pub_date": "2026-10-12T10:20:56.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 141,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "PlayStation 2",
+        "WebAssembly",
+        "static recompilation",
+        "PS2"
+      ],
+      "rank": 3
+    },
+    {
+      "title": "Zod 4.6.6 malware infection",
+      "title_display": "Zod 4.6.6 malware infection",
+      "link": "https://github.com/colinhacks/zod/commit/d821685ea6732436fcdf786a81d076958471e467",
+      "pub_date": "2026-10-12T08:31:00.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 154,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Zod",
+        "npm",
+        "Ethereum",
+        "JavaScript"
+      ],
+      "rank": 4
+    },
+    {
+      "title": "Postgres isn't slow, your storage is",
+      "title_display": "Postgres isn't slow, your storage is",
+      "link": "https://clickhouse.com/blog/posette-talk-recap-postgres-isnt-slow-your-storage-is",
+      "pub_date": "2026-10-12T07:40:55.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 122,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "PostgreSQL",
+        "ClickHouse",
+        "NVMe"
+      ],
+      "rank": 5
+    },
+    {
+      "title": "Will Linux phones become a viable alternative to the Android/iOS duopoly?",
+      "title_display": "Will Linux phones become a viable alternative to the Android/iOS duopoly?",
+      "link": "https://amosbbatto.wordpress.com/2026/10/05/linux-phones-alternative/",
+      "pub_date": "2026-10-12T06:01:08.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 232,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "Linux",
+        "Android",
+        "iOS",
+        "AOSP"
+      ],
+      "rank": 6
+    },
+    {
+      "title": "Doory – Open-Source Canva",
+      "title_display": "Doory – Open-Source Canva",
+      "link": "https://github.com/shaongitbd/doory",
+      "pub_date": "2026-10-12T04:21:00.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 133,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Doory",
+        "Canva",
+        "Claude",
+        "GitHub"
+      ],
+      "rank": 7
+    },
+    {
+      "title": "Calculus with Julia",
+      "title_display": "Calculus with Julia",
+      "link": "https://jverzani.github.io/CalculusWithJuliaNotes.jl/",
+      "pub_date": "2026-10-12T03:40:57.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 150,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Julia",
+        "calculus",
+        "mathematics"
+      ],
+      "rank": 8
+    }
+  ]
+}
