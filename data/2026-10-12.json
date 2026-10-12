@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 90,
   "total_articles": 3453,
-  "filtered_articles": 18,
+  "filtered_articles": 17,
   "articles": [
+    {
+      "title": "The gap in shared understanding of LLM capability is widening",
+      "title_display": "The gap in shared understanding of LLM capability is widening",
+      "link": "https://twitter.com/karpathy/status/2109361546505966046",
+      "pub_date": "2026-10-11T21:50:57.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 188,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "LLM",
+        "Andrej Karpathy",
+        "OpenAI",
+        "Anthropic"
+      ],
+      "rank": 1
+    },
     {
       "title": "NYC's \"Click to Cancel\" rule is now in effect",
       "title_display": "NYC's \"Click to Cancel\" rule is now in effect",
@@ -22,7 +41,7 @@
         "subscription cancellation",
         "automatic renewals"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Internal files add to evidence of an ExxonMobil climate deception campaign",
@@ -39,7 +58,7 @@
         "ExxonMobil",
         "climate change"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Terence Tao: Math 2.0 [pdf]",
@@ -58,7 +77,26 @@
         "AI",
         "mathematics"
       ],
-      "rank": 3
+      "rank": 4
+    },
+    {
+      "title": "Valen's Memory Safety: A New Kind of Borrow Checking",
+      "title_display": "Valen's Memory Safety: A New Kind of Borrow Checking",
+      "link": "https://verdagon.dev/blog/valen-group-borrowing",
+      "pub_date": "2026-10-11T12:40:58.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 121,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "Valen",
+        "borrow checking",
+        "memory safety",
+        "Rust"
+      ],
+      "rank": 5
     },
     {
       "title": "PSPi 6 – Raspberry Pi in a PSP",
@@ -77,7 +115,7 @@
         "PlayStation Portable",
         "PSP"
       ],
-      "rank": 4
+      "rank": 6
     }
   ]
 }
