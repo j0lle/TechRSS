@@ -2,9 +2,28 @@
   "date": "2026-10-12",
   "total_feeds": 95,
   "success_feeds": 90,
-  "total_articles": 3453,
-  "filtered_articles": 17,
+  "total_articles": 3448,
+  "filtered_articles": 19,
   "articles": [
+    {
+      "title": "A Remote Employee Refused 160 Webcam Photos a Day. Her Employer Fired Her",
+      "title_display": "A Remote Employee Refused 160 Webcam Photos a Day. Her Employer Fired Her",
+      "link": "https://www.inc.com/chloe-rosenberg/a-remote-employee-refused-160-webcam-photos-a-day-her-employer-fired-her/91415963",
+      "pub_date": "2026-10-11T22:01:11.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 149,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "remote work",
+        "employee monitoring",
+        "webcam surveillance",
+        "Zscaler"
+      ],
+      "rank": 1
+    },
     {
       "title": "The gap in shared understanding of LLM capability is widening",
       "title_display": "The gap in shared understanding of LLM capability is widening",
@@ -13,8 +32,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 188,
-      "score": 28,
+      "hn_points": 411,
+      "score": 30,
       "category": "other",
       "keywords": [
         "LLM",
@@ -22,7 +41,7 @@
         "OpenAI",
         "Anthropic"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "NYC's \"Click to Cancel\" rule is now in effect",
@@ -32,8 +51,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 245,
-      "score": 29,
+      "hn_points": 351,
+      "score": 30,
       "category": "other",
       "keywords": [
         "New York City",
@@ -41,7 +60,7 @@
         "subscription cancellation",
         "automatic renewals"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Internal files add to evidence of an ExxonMobil climate deception campaign",
@@ -58,7 +77,7 @@
         "ExxonMobil",
         "climate change"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Terence Tao: Math 2.0 [pdf]",
@@ -68,8 +87,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 268,
-      "score": 29,
+      "hn_points": 374,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Terence Tao",
@@ -77,7 +96,7 @@
         "AI",
         "mathematics"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Valen's Memory Safety: A New Kind of Borrow Checking",
@@ -96,7 +115,7 @@
         "memory safety",
         "Rust"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "PSPi 6 – Raspberry Pi in a PSP",
@@ -115,7 +134,7 @@
         "PlayStation Portable",
         "PSP"
       ],
-      "rank": 6
+      "rank": 7
     }
   ]
 }
