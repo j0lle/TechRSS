@@ -1,10 +1,48 @@
 {
   "date": "2026-10-13",
   "total_feeds": 95,
-  "success_feeds": 90,
-  "total_articles": 3448,
-  "filtered_articles": 27,
+  "success_feeds": 88,
+  "total_articles": 3396,
+  "filtered_articles": 24,
   "articles": [
+    {
+      "title": "AI Models Can Provably Hide Arbitrary Capabilities",
+      "title_display": "AI Models Can Provably Hide Arbitrary Capabilities",
+      "link": "https://arxiv.org/abs/2610.13928",
+      "pub_date": "2026-10-13T03:50:56.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 155,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "AI models",
+        "model weights",
+        "encryption",
+        "sleeper agents"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Making big downloads resumable in Firefox",
+      "title_display": "Making big downloads resumable in Firefox",
+      "link": "https://lunarwatcher.codeberg.page/til/firefox/resumable-big-downloads.html",
+      "pub_date": "2026-10-12T22:21:07.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 125,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Firefox",
+        "Mozilla",
+        "HTTP Range requests",
+        "ETag"
+      ],
+      "rank": 2
+    },
     {
       "title": "Codex CLI installs a persistent, self-updating background daemon by default",
       "title_display": "Codex CLI installs a persistent, self-updating background daemon by default",
@@ -22,7 +60,7 @@
         "Claude Code",
         "self-updating daemon"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "AI coding agents generate more code, but not more software",
@@ -41,7 +79,7 @@
         "developer productivity",
         "LLMs"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "Muse Wonder",
@@ -60,7 +98,7 @@
         "LLM",
         "Muse Spark"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "Turn a WiFi 7 Router into a 320Msps Software Defined Radio Receiver",
@@ -70,8 +108,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 163,
-      "score": 27,
+      "hn_points": 266,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Wi‑Fi 7",
@@ -79,7 +117,7 @@
         "SDR",
         "MediaTek"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "A Modern Web App in C",
@@ -98,7 +136,26 @@
         "CGI",
         "FastCGI"
       ],
-      "rank": 5
+      "rank": 7
+    },
+    {
+      "title": "Solar Panels That Plug into Your Wall Are About to Be Everywhere",
+      "title_display": "Solar Panels That Plug into Your Wall Are About to Be Everywhere",
+      "link": "https://www.nationalgeographic.com/environment/article/balcony-plug-in-solar-panels-renewable-energy",
+      "pub_date": "2026-10-12T15:11:07.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 133,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "plug-in solar panels",
+        "balcony solar",
+        "solar inverter",
+        "distributed energy"
+      ],
+      "rank": 8
     },
     {
       "title": "Incident with Actions, Pull Requests and Issues",
@@ -117,7 +174,7 @@
         "GitHub Pull Requests",
         "GitHub Issues"
       ],
-      "rank": 6
+      "rank": 9
     },
     {
       "title": "Hackers activate automatic defrosting accross European supermarket fridges",
@@ -136,7 +193,7 @@
         "automatic defrosting",
         "remote monitoring"
       ],
-      "rank": 7
+      "rank": 10
     },
     {
       "title": "QGIS bans AI assisted contributions",
@@ -155,7 +212,7 @@
         "LLM",
         "open source"
       ],
-      "rank": 8
+      "rank": 11
     },
     {
       "title": "Show HN: PS2 games statically recompiled to WebAssembly",
@@ -174,7 +231,7 @@
         "static recompilation",
         "PS2"
       ],
-      "rank": 9
+      "rank": 12
     },
     {
       "title": "Zod 4.6.6 malware infection",
@@ -193,7 +250,7 @@
         "Ethereum",
         "JavaScript"
       ],
-      "rank": 10
+      "rank": 13
     },
     {
       "title": "Postgres isn't slow, your storage is",
@@ -211,7 +268,7 @@
         "ClickHouse",
         "NVMe"
       ],
-      "rank": 11
+      "rank": 14
     },
     {
       "title": "Will Linux phones become a viable alternative to the Android/iOS duopoly?",
@@ -230,7 +287,7 @@
         "iOS",
         "AOSP"
       ],
-      "rank": 12
+      "rank": 15
     },
     {
       "title": "Doory – Open-Source Canva",
@@ -249,7 +306,7 @@
         "Claude",
         "GitHub"
       ],
-      "rank": 13
+      "rank": 16
     },
     {
       "title": "Calculus with Julia",
@@ -267,7 +324,7 @@
         "calculus",
         "mathematics"
       ],
-      "rank": 14
+      "rank": 17
     }
   ]
 }
