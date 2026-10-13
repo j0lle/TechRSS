@@ -1,10 +1,105 @@
 {
   "date": "2026-10-13",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3418,
+  "success_feeds": 90,
+  "total_articles": 3448,
   "filtered_articles": 27,
   "articles": [
+    {
+      "title": "Codex CLI installs a persistent, self-updating background daemon by default",
+      "title_display": "Codex CLI installs a persistent, self-updating background daemon by default",
+      "link": "https://github.com/openai/codex/issues/48195",
+      "pub_date": "2026-10-12T18:41:01.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 357,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Codex CLI",
+        "OpenAI",
+        "Claude Code",
+        "self-updating daemon"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "AI coding agents generate more code, but not more software",
+      "title_display": "AI coding agents generate more code, but not more software",
+      "link": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
+      "pub_date": "2026-10-12T17:41:07.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 304,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "AI coding agents",
+        "code review",
+        "developer productivity",
+        "LLMs"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "Muse Wonder",
+      "title_display": "Muse Wonder",
+      "link": "https://research.meta.ai/blog/muse-wonder",
+      "pub_date": "2026-10-12T17:11:07.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 380,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Muse Wonder",
+        "Meta",
+        "LLM",
+        "Muse Spark"
+      ],
+      "rank": 3
+    },
+    {
+      "title": "Turn a WiFi 7 Router into a 320Msps Software Defined Radio Receiver",
+      "title_display": "Turn a WiFi 7 Router into a 320Msps Software Defined Radio Receiver",
+      "link": "https://github.com/h0m3us3r/w1700k-sdr",
+      "pub_date": "2026-10-12T16:41:07.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 163,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Wi‑Fi 7",
+        "Software-defined radio",
+        "SDR",
+        "MediaTek"
+      ],
+      "rank": 4
+    },
+    {
+      "title": "A Modern Web App in C",
+      "title_display": "A Modern Web App in C",
+      "link": "https://prophitt.me/writing/a-modern-web-app-in-c",
+      "pub_date": "2026-10-12T16:41:05.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 323,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "C",
+        "SQLite",
+        "CGI",
+        "FastCGI"
+      ],
+      "rank": 5
+    },
     {
       "title": "Incident with Actions, Pull Requests and Issues",
       "title_display": "Incident with Actions, Pull Requests and Issues",
@@ -22,7 +117,26 @@
         "GitHub Pull Requests",
         "GitHub Issues"
       ],
-      "rank": 1
+      "rank": 6
+    },
+    {
+      "title": "Hackers activate automatic defrosting accross European supermarket fridges",
+      "title_display": "Hackers activate automatic defrosting accross European supermarket fridges",
+      "link": "https://www.tomshardware.com/tech-industry/cyber-security/unprecedented-cyberattack-cripples-supermarket-fridges-across-europe-as-hackers-activate-automatic-defrosting-delivery-and-store-prices-also-impacted-by-incident",
+      "pub_date": "2026-10-12T12:31:07.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 379,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "IoT",
+        "supermarket refrigeration",
+        "automatic defrosting",
+        "remote monitoring"
+      ],
+      "rank": 7
     },
     {
       "title": "QGIS bans AI assisted contributions",
@@ -41,7 +155,7 @@
         "LLM",
         "open source"
       ],
-      "rank": 2
+      "rank": 8
     },
     {
       "title": "Show HN: PS2 games statically recompiled to WebAssembly",
@@ -51,8 +165,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 141,
-      "score": 26,
+      "hn_points": 244,
+      "score": 29,
       "category": "other",
       "keywords": [
         "PlayStation 2",
@@ -60,7 +174,7 @@
         "static recompilation",
         "PS2"
       ],
-      "rank": 3
+      "rank": 9
     },
     {
       "title": "Zod 4.6.6 malware infection",
@@ -79,7 +193,7 @@
         "Ethereum",
         "JavaScript"
       ],
-      "rank": 4
+      "rank": 10
     },
     {
       "title": "Postgres isn't slow, your storage is",
@@ -97,7 +211,7 @@
         "ClickHouse",
         "NVMe"
       ],
-      "rank": 5
+      "rank": 11
     },
     {
       "title": "Will Linux phones become a viable alternative to the Android/iOS duopoly?",
@@ -116,7 +230,7 @@
         "iOS",
         "AOSP"
       ],
-      "rank": 6
+      "rank": 12
     },
     {
       "title": "Doory – Open-Source Canva",
@@ -135,7 +249,7 @@
         "Claude",
         "GitHub"
       ],
-      "rank": 7
+      "rank": 13
     },
     {
       "title": "Calculus with Julia",
@@ -145,15 +259,15 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 150,
-      "score": 26,
+      "hn_points": 251,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Julia",
         "calculus",
         "mathematics"
       ],
-      "rank": 8
+      "rank": 14
     }
   ]
 }
