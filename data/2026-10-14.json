@@ -1,10 +1,123 @@
 {
   "date": "2026-10-14",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3398,
-  "filtered_articles": 30,
+  "success_feeds": 89,
+  "total_articles": 3428,
+  "filtered_articles": 33,
   "articles": [
+    {
+      "title": "Gemini 4 Argon for Robotics",
+      "title_display": "Gemini 4 Argon for Robotics",
+      "link": "https://developers.googleblog.com/gemini-4-argon-for-robotics/",
+      "pub_date": "2026-10-13T18:01:30.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 148,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Gemini 4 Argon",
+        "Google",
+        "Robotics"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Redesigning Source Control at Anthropic",
+      "title_display": "Redesigning Source Control at Anthropic",
+      "link": "https://www.anthropic.com/engineering/redesigning-source-control",
+      "pub_date": "2026-10-13T17:31:19.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 238,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "Anthropic",
+        "Git",
+        "Scion",
+        "Claude"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "Gemini 4 Argon",
+      "title_display": "Gemini 4 Argon",
+      "link": "https://deepmind.google/models/gemini/",
+      "pub_date": "2026-10-13T16:10:59.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 462,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Gemini 4 Argon",
+        "Gemini",
+        "Google DeepMind",
+        "Google"
+      ],
+      "rank": 3
+    },
+    {
+      "title": "Thunderbird for iOS",
+      "title_display": "Thunderbird for iOS",
+      "link": "https://blog.thunderbird.net/2026/10/thunderbird-for-ios-a-first-look-at-the-native-iphone-email-app-in-development/",
+      "pub_date": "2026-10-13T16:01:26.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 185,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Thunderbird",
+        "iOS",
+        "Mozilla",
+        "iPhone"
+      ],
+      "rank": 4
+    },
+    {
+      "title": "I posted to HN, and then my website was flooded with AI BOT traffic",
+      "title_display": "I posted to HN, and then my website was flooded with AI BOT traffic",
+      "link": "https://www.sammystraus.com/#i-posted-to-hn-and-then-my-website-was-flooded-with-ai-bot-traffic",
+      "pub_date": "2026-10-13T15:41:07.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 145,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "AI bots",
+        "web scraping",
+        "Cloudflare",
+        "AWS"
+      ],
+      "rank": 5
+    },
+    {
+      "title": "Apple's Minions: A virtual GPU cloud built from idle Apple Silicon Macs",
+      "title_display": "Apple's Minions: A virtual GPU cloud built from idle Apple Silicon Macs",
+      "link": "https://machinelearning.apple.com/research/distributed-gpu-cloud",
+      "pub_date": "2026-10-13T13:11:15.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 152,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Apple",
+        "Minions",
+        "Apple Silicon",
+        "Mac"
+      ],
+      "rank": 6
+    },
     {
       "title": "An hour of audio transcribed in about 13s on MacBook Air",
       "title_display": "An hour of audio transcribed in about 13s on MacBook Air",
@@ -13,8 +126,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 219,
-      "score": 28,
+      "hn_points": 320,
+      "score": 30,
       "category": "other",
       "keywords": [
         "EmbeddingGemma 2",
@@ -22,7 +135,7 @@
         "MacBook Air",
         "Google DeepMind"
       ],
-      "rank": 1
+      "rank": 7
     },
     {
       "title": "11 year old unsoundness bugs found in Rust borrow checker",
@@ -41,7 +154,26 @@
         "compiler soundness",
         "cve-rs"
       ],
-      "rank": 2
+      "rank": 8
+    },
+    {
+      "title": "Show HN: Use your OpenAI subscription to create audiobooks",
+      "title_display": "Show HN: Use your OpenAI subscription to create audiobooks",
+      "link": "https://pdftomp3.com/connect-ai/",
+      "pub_date": "2026-10-13T10:41:02.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 124,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "OpenAI",
+        "OpenAI Codex",
+        "text-to-speech",
+        "MCP"
+      ],
+      "rank": 9
     },
     {
       "title": "OpenAI algorithm for the FFT is less a breakthrough and more a malicious exploit",
@@ -60,7 +192,7 @@
         "Fourier transform",
         "computational complexity"
       ],
-      "rank": 3
+      "rank": 10
     },
     {
       "title": "Janas: Run LLMs larger than RAM by streaming experts from SSD",
@@ -79,7 +211,7 @@
         "SSD",
         "Mixture of Experts"
       ],
-      "rank": 4
+      "rank": 11
     }
   ]
 }
