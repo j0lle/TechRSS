@@ -1,0 +1,85 @@
+{
+  "date": "2026-10-14",
+  "total_feeds": 95,
+  "success_feeds": 88,
+  "total_articles": 3398,
+  "filtered_articles": 30,
+  "articles": [
+    {
+      "title": "An hour of audio transcribed in about 13s on MacBook Air",
+      "title_display": "An hour of audio transcribed in about 13s on MacBook Air",
+      "link": "https://eg2.haku.sh/",
+      "pub_date": "2026-10-13T11:41:01.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 219,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "EmbeddingGemma 2",
+        "speech-to-text",
+        "MacBook Air",
+        "Google DeepMind"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "11 year old unsoundness bugs found in Rust borrow checker",
+      "title_display": "11 year old unsoundness bugs found in Rust borrow checker",
+      "link": "https://github.com/rust-lang/rust/issues/164250",
+      "pub_date": "2026-10-13T11:01:14.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 459,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Rust",
+        "Rust borrow checker",
+        "compiler soundness",
+        "cve-rs"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "OpenAI algorithm for the FFT is less a breakthrough and more a malicious exploit",
+      "title_display": "OpenAI algorithm for the FFT is less a breakthrough and more a malicious exploit",
+      "link": "https://www.argmin.net/p/faster-fourier-transforms",
+      "pub_date": "2026-10-13T03:40:57.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 146,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "OpenAI",
+        "FFT",
+        "Fourier transform",
+        "computational complexity"
+      ],
+      "rank": 3
+    },
+    {
+      "title": "Janas: Run LLMs larger than RAM by streaming experts from SSD",
+      "title_display": "Janas: Run LLMs larger than RAM by streaming experts from SSD",
+      "link": "https://github.com/prabanta-dev/janas",
+      "pub_date": "2026-10-13T02:01:14.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 133,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Janas",
+        "LLM",
+        "SSD",
+        "Mixture of Experts"
+      ],
+      "rank": 4
+    }
+  ]
+}
