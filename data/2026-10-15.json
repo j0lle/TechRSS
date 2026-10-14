@@ -1,10 +1,86 @@
 {
   "date": "2026-10-15",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3424,
-  "filtered_articles": 28,
+  "success_feeds": 90,
+  "total_articles": 3455,
+  "filtered_articles": 32,
   "articles": [
+    {
+      "title": "Google is silently linking your phone number across all signed-in accounts",
+      "title_display": "Google is silently linking your phone number across all signed-in accounts",
+      "link": "https://www.androidauthority.com/google-auto-phone-number-verification-android-3723117/",
+      "pub_date": "2026-10-14T18:40:44.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 108,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "Google",
+        "Android",
+        "phone number verification",
+        "privacy"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "The Emperor Pelican Has No Clothes",
+      "title_display": "The Emperor Pelican Has No Clothes",
+      "link": "https://arcfu.com/post/the-emperor-pelican-has-no-clothes/",
+      "pub_date": "2026-10-14T17:10:40.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 136,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "LLM",
+        "SVG",
+        "Pelican benchmark",
+        "mode collapse"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "Passkeys Are Not a Trap",
+      "title_display": "Passkeys Are Not a Trap",
+      "link": "https://scotthelme.co.uk/passkeys-are-not-a-trap/",
+      "pub_date": "2026-10-14T15:20:41.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 275,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "Passkeys",
+        "password managers",
+        "biometrics",
+        "hardware security keys"
+      ],
+      "rank": 3
+    },
+    {
+      "title": "The Origin Story of Kid Pix",
+      "title_display": "The Origin Story of Kid Pix",
+      "link": "http://red-green-blue.com/kid-pix-the-early-years",
+      "pub_date": "2026-10-14T14:20:43.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 164,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Kid Pix",
+        "Macintosh",
+        "iOS",
+        "WebAssembly"
+      ],
+      "rank": 4
+    },
     {
       "title": "Switzerland proposes banning profiling-based ads to minors",
       "title_display": "Switzerland proposes banning profiling-based ads to minors",
@@ -22,7 +98,26 @@
         "profiling",
         "minors"
       ],
-      "rank": 1
+      "rank": 5
+    },
+    {
+      "title": "Pg_vectorsearch: An index that is faster than pgvector's IVFFlat and HNSW",
+      "title_display": "Pg_vectorsearch: An index that is faster than pgvector's IVFFlat and HNSW",
+      "link": "https://github.com/timescale/pg_vectorsearch",
+      "pub_date": "2026-10-14T12:10:43.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 127,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "pg_vectorsearch",
+        "PostgreSQL",
+        "pgvector",
+        "PRISM"
+      ],
+      "rank": 6
     },
     {
       "title": "Amazon pushes up prices across the Internet",
@@ -41,7 +136,7 @@
         "AliExpress",
         "eBay"
       ],
-      "rank": 2
+      "rank": 7
     },
     {
       "title": "Iosevka is an open-source, sans-serif and slab-serif, monospace font",
@@ -60,7 +155,7 @@
         "Fira Code",
         "Commit Mono"
       ],
-      "rank": 3
+      "rank": 8
     }
   ]
 }
