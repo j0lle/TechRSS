@@ -1,9 +1,9 @@
 {
   "date": "2026-10-15",
   "total_feeds": 95,
-  "success_feeds": 90,
-  "total_articles": 3455,
-  "filtered_articles": 32,
+  "success_feeds": 89,
+  "total_articles": 3430,
+  "filtered_articles": 31,
   "articles": [
     {
       "title": "Google is silently linking your phone number across all signed-in accounts",
@@ -13,8 +13,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 108,
-      "score": 25,
+      "hn_points": 244,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Google",
@@ -23,6 +23,44 @@
         "privacy"
       ],
       "rank": 1
+    },
+    {
+      "title": "AI agents aren't 'going rogue.' Frontier labs are skipping security basics",
+      "title_display": "AI agents aren't 'going rogue.' Frontier labs are skipping security basics",
+      "link": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html",
+      "pub_date": "2026-10-14T18:10:44.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 672,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "AI agents",
+        "OpenAI",
+        "Anthropic",
+        "Hugging Face"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "Better HTTP/1 connection reuse in Go 1.27",
+      "title_display": "Better HTTP/1 connection reuse in Go 1.27",
+      "link": "https://go.dev/blog/http-connection-reuse",
+      "pub_date": "2026-10-14T17:20:42.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 151,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Go",
+        "Go 1.27",
+        "HTTP/1",
+        "net/http"
+      ],
+      "rank": 3
     },
     {
       "title": "The Emperor Pelican Has No Clothes",
@@ -41,7 +79,7 @@
         "Pelican benchmark",
         "mode collapse"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "Passkeys Are Not a Trap",
@@ -51,8 +89,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 275,
-      "score": 29,
+      "hn_points": 383,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Passkeys",
@@ -60,7 +98,7 @@
         "biometrics",
         "hardware security keys"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "The Origin Story of Kid Pix",
@@ -79,7 +117,7 @@
         "iOS",
         "WebAssembly"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "Switzerland proposes banning profiling-based ads to minors",
@@ -98,7 +136,7 @@
         "profiling",
         "minors"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "Pg_vectorsearch: An index that is faster than pgvector's IVFFlat and HNSW",
@@ -117,7 +155,7 @@
         "pgvector",
         "PRISM"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "Amazon pushes up prices across the Internet",
@@ -136,7 +174,7 @@
         "AliExpress",
         "eBay"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "Iosevka is an open-source, sans-serif and slab-serif, monospace font",
@@ -146,7 +184,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 347,
+      "hn_points": 653,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -155,7 +193,7 @@
         "Fira Code",
         "Commit Mono"
       ],
-      "rank": 8
+      "rank": 10
     }
   ]
 }
