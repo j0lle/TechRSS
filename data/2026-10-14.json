@@ -2,8 +2,8 @@
   "date": "2026-10-14",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3423,
-  "filtered_articles": 33,
+  "total_articles": 3428,
+  "filtered_articles": 29,
   "articles": [
     {
       "title": "Gemini 4 Argon for Robotics",
@@ -50,7 +50,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 462,
+      "hn_points": 949,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -69,7 +69,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 288,
+      "hn_points": 388,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -88,8 +88,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 145,
-      "score": 26,
+      "hn_points": 250,
+      "score": 29,
       "category": "other",
       "keywords": [
         "AI bots",
