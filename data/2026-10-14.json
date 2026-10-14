@@ -2,9 +2,66 @@
   "date": "2026-10-14",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3428,
-  "filtered_articles": 29,
+  "total_articles": 3423,
+  "filtered_articles": 31,
   "articles": [
+    {
+      "title": "AOSP Source Releases Are So Late Developers Disassemble Libraries to Report Bugs",
+      "title_display": "AOSP Source Releases Are So Late Developers Disassemble Libraries to Report Bugs",
+      "link": "https://github.com/android/ndk/issues/2260",
+      "pub_date": "2026-10-14T06:50:42.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 259,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "AOSP",
+        "Android",
+        "Google",
+        "Android NDK"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Felix Rieseberg Homepage",
+      "title_display": "Felix Rieseberg Homepage",
+      "link": "https://felixrieseberg.com/",
+      "pub_date": "2026-10-14T05:10:43.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 167,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Felix Rieseberg",
+        "Electron",
+        "Tauri",
+        "Linux"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "Recreational Programming",
+      "title_display": "Recreational Programming",
+      "link": "https://www.cphiri.dev/presentations/recreational-programming",
+      "pub_date": "2026-10-14T00:50:44.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 137,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Recreational programming",
+        "Tsoding",
+        "Common Lisp",
+        "CFFI"
+      ],
+      "rank": 3
+    },
     {
       "title": "Gemini 4 Argon for Robotics",
       "title_display": "Gemini 4 Argon for Robotics",
@@ -21,7 +78,7 @@
         "Google",
         "Robotics"
       ],
-      "rank": 1
+      "rank": 4
     },
     {
       "title": "Redesigning Source Control at Anthropic",
@@ -31,7 +88,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 416,
+      "hn_points": 727,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -40,7 +97,7 @@
         "Scion",
         "Claude"
       ],
-      "rank": 2
+      "rank": 5
     },
     {
       "title": "Gemini 4 Argon",
@@ -50,7 +107,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 949,
+      "hn_points": 1260,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -59,7 +116,7 @@
         "Google DeepMind",
         "Google"
       ],
-      "rank": 3
+      "rank": 6
     },
     {
       "title": "Thunderbird for iOS",
@@ -78,7 +135,7 @@
         "Mozilla",
         "iPhone"
       ],
-      "rank": 4
+      "rank": 7
     },
     {
       "title": "I posted to HN, and then my website was flooded with AI BOT traffic",
@@ -97,7 +154,7 @@
         "Cloudflare",
         "AWS"
       ],
-      "rank": 5
+      "rank": 8
     },
     {
       "title": "Apple's Minions: A virtual GPU cloud built from idle Apple Silicon Macs",
@@ -116,7 +173,7 @@
         "Apple Silicon",
         "Mac"
       ],
-      "rank": 6
+      "rank": 9
     },
     {
       "title": "An hour of audio transcribed in about 13s on MacBook Air",
@@ -135,7 +192,7 @@
         "MacBook Air",
         "Google DeepMind"
       ],
-      "rank": 7
+      "rank": 10
     },
     {
       "title": "11 year old unsoundness bugs found in Rust borrow checker",
@@ -154,7 +211,7 @@
         "compiler soundness",
         "cve-rs"
       ],
-      "rank": 8
+      "rank": 11
     },
     {
       "title": "Show HN: Use your OpenAI subscription to create audiobooks",
@@ -173,7 +230,7 @@
         "text-to-speech",
         "MCP"
       ],
-      "rank": 9
+      "rank": 12
     },
     {
       "title": "OpenAI algorithm for the FFT is less a breakthrough and more a malicious exploit",
@@ -192,7 +249,7 @@
         "Fourier transform",
         "computational complexity"
       ],
-      "rank": 10
+      "rank": 13
     },
     {
       "title": "Janas: Run LLMs larger than RAM by streaming experts from SSD",
@@ -211,7 +268,7 @@
         "SSD",
         "Mixture of Experts"
       ],
-      "rank": 11
+      "rank": 14
     }
   ]
 }
