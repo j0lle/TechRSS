@@ -2,9 +2,66 @@
   "date": "2026-10-16",
   "total_feeds": 95,
   "success_feeds": 88,
-  "total_articles": 3405,
-  "filtered_articles": 19,
+  "total_articles": 3422,
+  "filtered_articles": 21,
   "articles": [
+    {
+      "title": "Muse Spark Open",
+      "title_display": "Muse Spark Open",
+      "link": "https://research.meta.ai/blog/muse-spark-open",
+      "pub_date": "2026-10-15T18:00:37.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 371,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Muse Spark Open",
+        "Meta",
+        "open weights",
+        "Anthropic"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "More on Anthropic's Scion ripping off Mononoke",
+      "title_display": "More on Anthropic's Scion ripping off Mononoke",
+      "link": "https://sunshowers.io/posts/anthropic-mononoke-2/",
+      "pub_date": "2026-10-15T17:40:45.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 182,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Anthropic",
+        "Scion",
+        "Mononoke",
+        "Meta"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "Neural Networks Are Already Clean",
+      "title_display": "Neural Networks Are Already Clean",
+      "link": "https://already-clean.goodfire.com/",
+      "pub_date": "2026-10-15T16:40:48.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 311,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Goodfire",
+        "Neural Networks",
+        "mechanistic interpretability",
+        "AI alignment"
+      ],
+      "rank": 3
+    },
     {
       "title": "Steam Client Is Now Faster Than Epic's New Vibe Coded Launcher",
       "title_display": "Steam Client Is Now Faster Than Epic's New Vibe Coded Launcher",
@@ -22,7 +79,26 @@
         "Valve",
         "Steam Client"
       ],
-      "rank": 1
+      "rank": 4
+    },
+    {
+      "title": "Zero-Click Spyware Delivered via Targeted Ads: AdFection",
+      "title_display": "Zero-Click Spyware Delivered via Targeted Ads: AdFection",
+      "link": "https://citizenlab.ca/research/how-discover-tech-turned-targeted-ads-into-a-pipeline-for-spyware/",
+      "pub_date": "2026-10-15T14:40:46.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 325,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "AdFection",
+        "Citizen Lab",
+        "Discover Tech",
+        "spyware"
+      ],
+      "rank": 5
     },
     {
       "title": "Wayland desktop for Linux with skeuomorphic design",
@@ -32,7 +108,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 283,
+      "hn_points": 397,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -41,7 +117,7 @@
         "Linux",
         "skeuomorphism"
       ],
-      "rank": 2
+      "rank": 6
     },
     {
       "title": "Show HN: Unfenced – Land for sale that borders public land",
@@ -51,8 +127,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 134,
-      "score": 26,
+      "hn_points": 234,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Unfenced",
@@ -60,7 +136,24 @@
         "USGS PAD-US",
         "RentCast"
       ],
-      "rank": 3
+      "rank": 7
+    },
+    {
+      "title": "The First Social Network: In rural Argentina residents send messages w AM radio",
+      "title_display": "The First Social Network: In rural Argentina residents send messages w AM radio",
+      "link": "https://www.newyorker.com/magazine/2026/10/19/the-first-social-network",
+      "pub_date": "2026-10-15T09:30:46.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 125,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "AM radio",
+        "Argentina"
+      ],
+      "rank": 8
     }
   ]
 }
