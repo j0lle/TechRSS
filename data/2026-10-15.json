@@ -2,9 +2,28 @@
   "date": "2026-10-15",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3430,
-  "filtered_articles": 31,
+  "total_articles": 3425,
+  "filtered_articles": 32,
   "articles": [
+    {
+      "title": "OpenCode 2.0",
+      "title_display": "OpenCode 2.0",
+      "link": "https://anoma.ly/notes/opencode-2-0/",
+      "pub_date": "2026-10-14T21:20:41.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 344,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "OpenCode",
+        "Claude Code",
+        "Codex",
+        "Crush"
+      ],
+      "rank": 1
+    },
     {
       "title": "Google is silently linking your phone number across all signed-in accounts",
       "title_display": "Google is silently linking your phone number across all signed-in accounts",
@@ -13,8 +32,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 244,
-      "score": 29,
+      "hn_points": 353,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Google",
@@ -22,7 +41,7 @@
         "phone number verification",
         "privacy"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "AI agents aren't 'going rogue.' Frontier labs are skipping security basics",
@@ -41,7 +60,7 @@
         "Anthropic",
         "Hugging Face"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Better HTTP/1 connection reuse in Go 1.27",
@@ -60,7 +79,26 @@
         "HTTP/1",
         "net/http"
       ],
-      "rank": 3
+      "rank": 4
+    },
+    {
+      "title": "Americans' Social Activity Has Steeply Declined in the Past 30 Years",
+      "title_display": "Americans' Social Activity Has Steeply Declined in the Past 30 Years",
+      "link": "https://www.dataforprogress.org/blog/2026/9/29/americans-social-activity-has-steeply-declined-in-the-past-30-years",
+      "pub_date": "2026-10-14T17:10:42.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 277,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "Data for Progress",
+        "Bowling Alone",
+        "social media",
+        "smartphones"
+      ],
+      "rank": 5
     },
     {
       "title": "The Emperor Pelican Has No Clothes",
@@ -79,7 +117,7 @@
         "Pelican benchmark",
         "mode collapse"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "Passkeys Are Not a Trap",
@@ -98,7 +136,7 @@
         "biometrics",
         "hardware security keys"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "The Origin Story of Kid Pix",
@@ -117,7 +155,7 @@
         "iOS",
         "WebAssembly"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "Switzerland proposes banning profiling-based ads to minors",
@@ -136,7 +174,7 @@
         "profiling",
         "minors"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "Pg_vectorsearch: An index that is faster than pgvector's IVFFlat and HNSW",
@@ -155,7 +193,7 @@
         "pgvector",
         "PRISM"
       ],
-      "rank": 8
+      "rank": 10
     },
     {
       "title": "Amazon pushes up prices across the Internet",
@@ -165,7 +203,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 417,
+      "hn_points": 724,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -174,7 +212,7 @@
         "AliExpress",
         "eBay"
       ],
-      "rank": 9
+      "rank": 11
     },
     {
       "title": "Iosevka is an open-source, sans-serif and slab-serif, monospace font",
@@ -193,7 +231,7 @@
         "Fira Code",
         "Commit Mono"
       ],
-      "rank": 10
+      "rank": 12
     }
   ]
 }
