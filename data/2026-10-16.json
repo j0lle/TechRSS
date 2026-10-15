@@ -1,0 +1,66 @@
+{
+  "date": "2026-10-16",
+  "total_feeds": 95,
+  "success_feeds": 88,
+  "total_articles": 3405,
+  "filtered_articles": 19,
+  "articles": [
+    {
+      "title": "Steam Client Is Now Faster Than Epic's New Vibe Coded Launcher",
+      "title_display": "Steam Client Is Now Faster Than Epic's New Vibe Coded Launcher",
+      "link": "https://respawnfirst.com/steam-client-is-now-faster-than-epics-new-vibe-coded-launcher/",
+      "pub_date": "2026-10-15T16:10:47.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 150,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Steam",
+        "Epic Games",
+        "Valve",
+        "Steam Client"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Wayland desktop for Linux with skeuomorphic design",
+      "title_display": "Wayland desktop for Linux with skeuomorphic design",
+      "link": "https://github.com/fyzugx/DEsk",
+      "pub_date": "2026-10-15T14:40:45.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 283,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "DEsk",
+        "Wayland",
+        "Linux",
+        "skeuomorphism"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "Show HN: Unfenced – Land for sale that borders public land",
+      "title_display": "Show HN: Unfenced – Land for sale that borders public land",
+      "link": "https://unfenced.land/",
+      "pub_date": "2026-10-15T12:20:47.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 134,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Unfenced",
+        "GIS",
+        "USGS PAD-US",
+        "RentCast"
+      ],
+      "rank": 3
+    }
+  ]
+}
