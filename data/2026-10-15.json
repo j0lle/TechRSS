@@ -1,10 +1,29 @@
 {
   "date": "2026-10-15",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3402,
-  "filtered_articles": 28,
+  "success_feeds": 89,
+  "total_articles": 3430,
+  "filtered_articles": 26,
   "articles": [
+    {
+      "title": "Wanted to download an ISO, ended up writing a kernel exploit",
+      "title_display": "Wanted to download an ISO, ended up writing a kernel exploit",
+      "link": "https://blog.dfb.sh/blog/eap770-root-for-two-zeros/",
+      "pub_date": "2026-10-15T07:50:47.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 137,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "TP-Link",
+        "EAP770",
+        "kernel exploit",
+        "Anthropic"
+      ],
+      "rank": 1
+    },
     {
       "title": "OpenCode 2.0",
       "title_display": "OpenCode 2.0",
@@ -13,7 +32,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 344,
+      "hn_points": 660,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -22,7 +41,26 @@
         "Codex",
         "Crush"
       ],
-      "rank": 1
+      "rank": 2
+    },
+    {
+      "title": "Fancy Curl Sites",
+      "title_display": "Fancy Curl Sites",
+      "link": "https://nytpu.com/gemlog/2026-03-18",
+      "pub_date": "2026-10-14T20:01:11.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 126,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "curl",
+        "ANSI escape codes",
+        "HTML",
+        "HTTP"
+      ],
+      "rank": 3
     },
     {
       "title": "Show HN: Petal, open-source CoScreen/ScreenHero finally free",
@@ -41,7 +79,25 @@
         "Screenhero",
         "LiveKit"
       ],
-      "rank": 2
+      "rank": 4
+    },
+    {
+      "title": "Phloem: Git history grown like a slime mold",
+      "title_display": "Phloem: Git history grown like a slime mold",
+      "link": "https://phloem.stemdeck.app/",
+      "pub_date": "2026-10-14T19:20:42.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 121,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "Phloem",
+        "Git",
+        "Suno"
+      ],
+      "rank": 5
     },
     {
       "title": "Google is silently linking your phone number across all signed-in accounts",
@@ -60,7 +116,7 @@
         "phone number verification",
         "privacy"
       ],
-      "rank": 3
+      "rank": 6
     },
     {
       "title": "AI agents aren't 'going rogue.' Frontier labs are skipping security basics",
@@ -79,7 +135,7 @@
         "Anthropic",
         "Hugging Face"
       ],
-      "rank": 4
+      "rank": 7
     },
     {
       "title": "Better HTTP/1 connection reuse in Go 1.27",
@@ -89,8 +145,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 151,
-      "score": 26,
+      "hn_points": 251,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Go",
@@ -98,7 +154,7 @@
         "HTTP/1",
         "net/http"
       ],
-      "rank": 5
+      "rank": 8
     },
     {
       "title": "Americans' Social Activity Has Steeply Declined in the Past 30 Years",
@@ -117,7 +173,7 @@
         "social media",
         "smartphones"
       ],
-      "rank": 6
+      "rank": 9
     },
     {
       "title": "The Emperor Pelican Has No Clothes",
@@ -136,7 +192,7 @@
         "Pelican benchmark",
         "mode collapse"
       ],
-      "rank": 7
+      "rank": 10
     },
     {
       "title": "Passkeys Are Not a Trap",
@@ -155,7 +211,7 @@
         "biometrics",
         "hardware security keys"
       ],
-      "rank": 8
+      "rank": 11
     },
     {
       "title": "The Origin Story of Kid Pix",
@@ -174,7 +230,7 @@
         "iOS",
         "WebAssembly"
       ],
-      "rank": 9
+      "rank": 12
     },
     {
       "title": "Switzerland proposes banning profiling-based ads to minors",
@@ -193,7 +249,7 @@
         "profiling",
         "minors"
       ],
-      "rank": 10
+      "rank": 13
     },
     {
       "title": "Pg_vectorsearch: An index that is faster than pgvector's IVFFlat and HNSW",
@@ -212,7 +268,7 @@
         "pgvector",
         "PRISM"
       ],
-      "rank": 11
+      "rank": 14
     },
     {
       "title": "Amazon pushes up prices across the Internet",
@@ -231,7 +287,7 @@
         "AliExpress",
         "eBay"
       ],
-      "rank": 12
+      "rank": 15
     },
     {
       "title": "Iosevka is an open-source, sans-serif and slab-serif, monospace font",
@@ -250,7 +306,7 @@
         "Fira Code",
         "Commit Mono"
       ],
-      "rank": 13
+      "rank": 16
     }
   ]
 }
