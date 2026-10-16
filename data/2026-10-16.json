@@ -2,9 +2,28 @@
   "date": "2026-10-16",
   "total_feeds": 95,
   "success_feeds": 88,
-  "total_articles": 3422,
-  "filtered_articles": 21,
+  "total_articles": 3405,
+  "filtered_articles": 20,
   "articles": [
+    {
+      "title": "What I Self-Host",
+      "title_display": "What I Self-Host",
+      "link": "https://viceconsole.fyi/blog/2026/10/10/what-i-self-host/",
+      "pub_date": "2026-10-15T21:10:42.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 208,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "self-hosting",
+        "Docker",
+        "systemd",
+        "Docker Compose"
+      ],
+      "rank": 1
+    },
     {
       "title": "Muse Spark Open",
       "title_display": "Muse Spark Open",
@@ -22,7 +41,7 @@
         "open weights",
         "Anthropic"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "More on Anthropic's Scion ripping off Mononoke",
@@ -41,7 +60,7 @@
         "Mononoke",
         "Meta"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Neural Networks Are Already Clean",
@@ -60,7 +79,7 @@
         "mechanistic interpretability",
         "AI alignment"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Steam Client Is Now Faster Than Epic's New Vibe Coded Launcher",
@@ -70,8 +89,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 150,
-      "score": 26,
+      "hn_points": 254,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Steam",
@@ -79,7 +98,7 @@
         "Valve",
         "Steam Client"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Zero-Click Spyware Delivered via Targeted Ads: AdFection",
@@ -98,7 +117,7 @@
         "Discover Tech",
         "spyware"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Wayland desktop for Linux with skeuomorphic design",
@@ -117,7 +136,7 @@
         "Linux",
         "skeuomorphism"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Show HN: Unfenced – Land for sale that borders public land",
@@ -136,7 +155,7 @@
         "USGS PAD-US",
         "RentCast"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "The First Social Network: In rural Argentina residents send messages w AM radio",
@@ -153,7 +172,7 @@
         "AM radio",
         "Argentina"
       ],
-      "rank": 8
+      "rank": 9
     }
   ]
 }
