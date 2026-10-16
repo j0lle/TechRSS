@@ -1,10 +1,29 @@
 {
   "date": "2026-10-16",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3425,
-  "filtered_articles": 23,
+  "success_feeds": 88,
+  "total_articles": 3407,
+  "filtered_articles": 26,
   "articles": [
+    {
+      "title": "The Folders Programming Language",
+      "title_display": "The Folders Programming Language",
+      "link": "https://danieltemkin.com/esolangs/folders",
+      "pub_date": "2026-10-16T08:10:30.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 131,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Folders",
+        "esolang",
+        "Malbolge",
+        "WORST"
+      ],
+      "rank": 1
+    },
     {
       "title": "Any window from your Mac, on your iPhone and iPad",
       "title_display": "Any window from your Mac, on your iPhone and iPad",
@@ -22,7 +41,7 @@
         "iPhone",
         "iPad"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Business accounts will consent to Meta scraping their websites Starting Oct. 30",
@@ -32,8 +51,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 244,
-      "score": 29,
+      "hn_points": 346,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Meta",
@@ -41,7 +60,7 @@
         "website scraping",
         "commercial terms"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "What I Self-Host",
@@ -60,7 +79,7 @@
         "systemd",
         "Docker Compose"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Muse Spark Open",
@@ -79,7 +98,7 @@
         "open weights",
         "Anthropic"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "More on Anthropic's Scion ripping off Mononoke",
@@ -98,7 +117,7 @@
         "Mononoke",
         "Meta"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Neural Networks Are Already Clean",
@@ -117,7 +136,7 @@
         "mechanistic interpretability",
         "AI alignment"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Steam Client Is Now Faster Than Epic's New Vibe Coded Launcher",
@@ -136,7 +155,7 @@
         "Valve",
         "Steam Client"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Zero-Click Spyware Delivered via Targeted Ads: AdFection",
@@ -155,7 +174,7 @@
         "Discover Tech",
         "spyware"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Wayland desktop for Linux with skeuomorphic design",
@@ -174,7 +193,7 @@
         "Linux",
         "skeuomorphism"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Show HN: Unfenced – Land for sale that borders public land",
@@ -193,7 +212,7 @@
         "USGS PAD-US",
         "RentCast"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "The First Social Network: In rural Argentina residents send messages w AM radio",
@@ -210,7 +229,7 @@
         "AM radio",
         "Argentina"
       ],
-      "rank": 11
+      "rank": 12
     }
   ]
 }
