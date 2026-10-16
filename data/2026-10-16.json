@@ -1,10 +1,29 @@
 {
   "date": "2026-10-16",
   "total_feeds": 95,
-  "success_feeds": 90,
-  "total_articles": 3460,
-  "filtered_articles": 22,
+  "success_feeds": 89,
+  "total_articles": 3425,
+  "filtered_articles": 23,
   "articles": [
+    {
+      "title": "Any window from your Mac, on your iPhone and iPad",
+      "title_display": "Any window from your Mac, on your iPhone and iPad",
+      "link": "https://github.com/Saffsanity/sill",
+      "pub_date": "2026-10-16T02:50:45.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 130,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Sill",
+        "macOS",
+        "iPhone",
+        "iPad"
+      ],
+      "rank": 1
+    },
     {
       "title": "Business accounts will consent to Meta scraping their websites Starting Oct. 30",
       "title_display": "Business accounts will consent to Meta scraping their websites Starting Oct. 30",
@@ -13,8 +32,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 125,
-      "score": 26,
+      "hn_points": 244,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Meta",
@@ -22,7 +41,7 @@
         "website scraping",
         "commercial terms"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "What I Self-Host",
@@ -41,7 +60,7 @@
         "systemd",
         "Docker Compose"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Muse Spark Open",
@@ -60,7 +79,7 @@
         "open weights",
         "Anthropic"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "More on Anthropic's Scion ripping off Mononoke",
@@ -79,7 +98,7 @@
         "Mononoke",
         "Meta"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Neural Networks Are Already Clean",
@@ -89,7 +108,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 311,
+      "hn_points": 624,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -98,7 +117,7 @@
         "mechanistic interpretability",
         "AI alignment"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Steam Client Is Now Faster Than Epic's New Vibe Coded Launcher",
@@ -117,7 +136,7 @@
         "Valve",
         "Steam Client"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Zero-Click Spyware Delivered via Targeted Ads: AdFection",
@@ -136,7 +155,7 @@
         "Discover Tech",
         "spyware"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Wayland desktop for Linux with skeuomorphic design",
@@ -155,7 +174,7 @@
         "Linux",
         "skeuomorphism"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Show HN: Unfenced – Land for sale that borders public land",
@@ -174,7 +193,7 @@
         "USGS PAD-US",
         "RentCast"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "The First Social Network: In rural Argentina residents send messages w AM radio",
@@ -191,7 +210,7 @@
         "AM radio",
         "Argentina"
       ],
-      "rank": 10
+      "rank": 11
     }
   ]
 }
