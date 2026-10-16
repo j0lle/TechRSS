@@ -1,10 +1,48 @@
 {
   "date": "2026-10-17",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3402,
-  "filtered_articles": 24,
+  "success_feeds": 89,
+  "total_articles": 3427,
+  "filtered_articles": 23,
   "articles": [
+    {
+      "title": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
+      "title_display": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
+      "link": "https://www.mercor.com/research/labor-index/benchmark-map/",
+      "pub_date": "2026-10-16T17:50:26.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 257,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "Mercor",
+        "AI benchmarks",
+        "O*NET",
+        "labor market"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Big Fish: Exploiting a 37-Year-Old Kernel Bug in OpenBSD",
+      "title_display": "Big Fish: Exploiting a 37-Year-Old Kernel Bug in OpenBSD",
+      "link": "https://calif.io/research/big-fish",
+      "pub_date": "2026-10-16T15:00:33.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 128,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "OpenBSD",
+        "Big Fish",
+        "kernel",
+        "NetBSD"
+      ],
+      "rank": 2
+    },
     {
       "title": "I Love Software Rendering",
       "title_display": "I Love Software Rendering",
@@ -22,7 +60,7 @@
         "CPU",
         "DOS"
       ],
-      "rank": 1
+      "rank": 3
     }
   ]
 }
