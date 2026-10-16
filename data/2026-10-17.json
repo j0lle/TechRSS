@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-17",
+  "total_feeds": 95,
+  "success_feeds": 88,
+  "total_articles": 3402,
+  "filtered_articles": 24,
+  "articles": [
+    {
+      "title": "I Love Software Rendering",
+      "title_display": "I Love Software Rendering",
+      "link": "https://www.jamesfmackenzie.com/2026/10/13/i-love-software-rendering/",
+      "pub_date": "2026-10-16T13:10:28.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 180,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "software rendering",
+        "GPU",
+        "CPU",
+        "DOS"
+      ],
+      "rank": 1
+    }
+  ]
+}
