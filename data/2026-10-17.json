@@ -1,10 +1,29 @@
 {
   "date": "2026-10-17",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3405,
-  "filtered_articles": 25,
+  "success_feeds": 89,
+  "total_articles": 3430,
+  "filtered_articles": 26,
   "articles": [
+    {
+      "title": "You could have invented transformers from memory",
+      "title_display": "You could have invented transformers from memory",
+      "link": "https://alexwang.ai/posts/associative-memory/",
+      "pub_date": "2026-10-16T21:30:25.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 138,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Transformers",
+        "associative memory",
+        "neural networks",
+        "RAG"
+      ],
+      "rank": 1
+    },
     {
       "title": "I never authorized an integration that scans my secrets",
       "title_display": "I never authorized an integration that scans my secrets",
@@ -22,7 +41,26 @@
         "HIBP",
         "Home Assistant Supervisor"
       ],
-      "rank": 1
+      "rank": 2
+    },
+    {
+      "title": "Flux 3 Image Klein: open weights, 5.6B parameters",
+      "title_display": "Flux 3 Image Klein: open weights, 5.6B parameters",
+      "link": "https://bfl.ai/blog/flux-3-image-klein",
+      "pub_date": "2026-10-16T20:30:29.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 132,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Flux 3 Image Klein",
+        "Black Forest Labs",
+        "MOSS Image",
+        "Stable Diffusion"
+      ],
+      "rank": 3
     },
     {
       "title": "Claude writes about 90% of Claude Code's code",
@@ -32,8 +70,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 145,
-      "score": 26,
+      "hn_points": 245,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Claude",
@@ -41,7 +79,7 @@
         "Anthropic",
         "code review"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
@@ -60,7 +98,7 @@
         "GGUF",
         "PS5LM"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "eBay Restricts Listings of Radio Equipment, but Exempts Ham-Band-Only Gear",
@@ -79,7 +117,7 @@
         "amateur radio",
         "Baofeng"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
@@ -98,7 +136,42 @@
         "O*NET",
         "labor market"
       ],
-      "rank": 5
+      "rank": 7
+    },
+    {
+      "title": "/dev/null: social network for developers",
+      "title_display": "/dev/null: social network for developers",
+      "link": "https://dev-null.sh",
+      "pub_date": "2026-10-16T17:10:29.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 120,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "/dev/null"
+      ],
+      "rank": 8
+    },
+    {
+      "title": "Apple ML Research: Muse Spark Open with MLX on Mac Studio",
+      "title_display": "Apple ML Research: Muse Spark Open with MLX on Mac Studio",
+      "link": "https://machinelearning.apple.com/research/mlx-distributed-inference",
+      "pub_date": "2026-10-16T15:10:30.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 275,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "Apple",
+        "MLX",
+        "Muse Spark Open",
+        "Mac Studio"
+      ],
+      "rank": 9
     },
     {
       "title": "Big Fish: Exploiting a 37-Year-Old Kernel Bug in OpenBSD",
@@ -117,7 +190,7 @@
         "kernel",
         "NetBSD"
       ],
-      "rank": 6
+      "rank": 10
     },
     {
       "title": "I Love Software Rendering",
@@ -127,8 +200,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 180,
-      "score": 27,
+      "hn_points": 280,
+      "score": 30,
       "category": "other",
       "keywords": [
         "software rendering",
@@ -136,7 +209,7 @@
         "CPU",
         "DOS"
       ],
-      "rank": 7
+      "rank": 11
     }
   ]
 }
