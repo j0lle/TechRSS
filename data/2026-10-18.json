@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-18",
+  "total_feeds": 95,
+  "success_feeds": 88,
+  "total_articles": 3399,
+  "filtered_articles": 22,
+  "articles": [
+    {
+      "title": "Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware",
+      "title_display": "Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware",
+      "link": "https://llmspeed.dev/",
+      "pub_date": "2026-10-17T06:30:41.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 127,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Llmspeed",
+        "local LLM",
+        "LLM inference",
+        "hardware benchmarking"
+      ],
+      "rank": 1
+    }
+  ]
+}
