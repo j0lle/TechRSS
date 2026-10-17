@@ -2,8 +2,8 @@
   "date": "2026-10-17",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3430,
-  "filtered_articles": 26,
+  "total_articles": 3429,
+  "filtered_articles": 23,
   "articles": [
     {
       "title": "You could have invented transformers from memory",
@@ -13,8 +13,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 138,
-      "score": 26,
+      "hn_points": 238,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Transformers",
@@ -89,8 +89,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 138,
-      "score": 26,
+      "hn_points": 244,
+      "score": 29,
       "category": "other",
       "keywords": [
         "llama.cpp",
