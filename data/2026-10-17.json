@@ -1,10 +1,29 @@
 {
   "date": "2026-10-17",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3429,
-  "filtered_articles": 23,
+  "success_feeds": 87,
+  "total_articles": 3374,
+  "filtered_articles": 24,
   "articles": [
+    {
+      "title": "DeepSeek: DeepSeek v4.1 Flash 1017",
+      "title_display": "DeepSeek: DeepSeek v4.1 Flash 1017",
+      "link": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017",
+      "pub_date": "2026-10-17T09:10:38.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 276,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "DeepSeek",
+        "DeepSeek V4.1 Flash 1017",
+        "OpenRouter",
+        "Hugging Face"
+      ],
+      "rank": 1
+    },
     {
       "title": "You could have invented transformers from memory",
       "title_display": "You could have invented transformers from memory",
@@ -22,7 +41,7 @@
         "neural networks",
         "RAG"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "I never authorized an integration that scans my secrets",
@@ -41,7 +60,7 @@
         "HIBP",
         "Home Assistant Supervisor"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Flux 3 Image Klein: open weights, 5.6B parameters",
@@ -60,7 +79,7 @@
         "MOSS Image",
         "Stable Diffusion"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Claude writes about 90% of Claude Code's code",
@@ -70,8 +89,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 245,
-      "score": 29,
+      "hn_points": 348,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Claude",
@@ -79,7 +98,7 @@
         "Anthropic",
         "code review"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
@@ -98,7 +117,7 @@
         "GGUF",
         "PS5LM"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "eBay Restricts Listings of Radio Equipment, but Exempts Ham-Band-Only Gear",
@@ -108,8 +127,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 121,
-      "score": 25,
+      "hn_points": 221,
+      "score": 28,
       "category": "other",
       "keywords": [
         "eBay",
@@ -117,7 +136,7 @@
         "amateur radio",
         "Baofeng"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
@@ -136,7 +155,7 @@
         "O*NET",
         "labor market"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "/dev/null: social network for developers",
@@ -152,7 +171,7 @@
       "keywords": [
         "/dev/null"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Apple ML Research: Muse Spark Open with MLX on Mac Studio",
@@ -171,7 +190,7 @@
         "Muse Spark Open",
         "Mac Studio"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Big Fish: Exploiting a 37-Year-Old Kernel Bug in OpenBSD",
@@ -190,7 +209,7 @@
         "kernel",
         "NetBSD"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "I Love Software Rendering",
@@ -209,7 +228,7 @@
         "CPU",
         "DOS"
       ],
-      "rank": 11
+      "rank": 12
     }
   ]
 }
