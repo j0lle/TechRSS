@@ -1,10 +1,86 @@
 {
   "date": "2026-10-18",
   "total_feeds": 95,
-  "success_feeds": 87,
-  "total_articles": 3378,
-  "filtered_articles": 27,
+  "success_feeds": 88,
+  "total_articles": 3403,
+  "filtered_articles": 28,
   "articles": [
+    {
+      "title": "DeepSeek search and fetch – $0.75 per 1000 successful requests",
+      "title_display": "DeepSeek search and fetch – $0.75 per 1000 successful requests",
+      "link": "https://api-docs.deepseek.com/guides/search/",
+      "pub_date": "2026-10-18T07:10:43.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 190,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "DeepSeek",
+        "DeepSeek Search API",
+        "web search",
+        "web crawling"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Show HN: Sphinx – a hook that quizzes you on your AI's code before shipping",
+      "title_display": "Show HN: Sphinx – a hook that quizzes you on your AI's code before shipping",
+      "link": "https://sphinx-six-theta.vercel.app/",
+      "pub_date": "2026-10-18T05:01:28.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 132,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Sphinx",
+        "AI",
+        "code review",
+        "Git hooks"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "How the Elizabeth Holmes Doc 'You Can See Everything' Is Deceiving You",
+      "title_display": "How the Elizabeth Holmes Doc 'You Can See Everything' Is Deceiving You",
+      "link": "https://www.readtheprofile.com/p/elizabeth-holmes-documentary-you-can-see-everything",
+      "pub_date": "2026-10-18T04:40:40.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 151,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Elizabeth Holmes",
+        "Theranos",
+        "You Can See Everything",
+        "Bad Blood"
+      ],
+      "rank": 3
+    },
+    {
+      "title": "Lean Now Ships with Verified Kernels",
+      "title_display": "Lean Now Ships with Verified Kernels",
+      "link": "https://leodemoura.github.io/blog/2026-10-15-lean-now-ships-with-verified-kernels/",
+      "pub_date": "2026-10-18T02:30:41.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 136,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Lean",
+        "verified kernels",
+        "proof assistants",
+        "Lean typechecker"
+      ],
+      "rank": 4
+    },
     {
       "title": "NY announces game ownership bill requiring ownership rather than licensing",
       "title_display": "NY announces game ownership bill requiring ownership rather than licensing",
@@ -22,7 +98,26 @@
         "game ownership",
         "software licensing"
       ],
-      "rank": 1
+      "rank": 5
+    },
+    {
+      "title": "Codex Desktop continuously generates Crashpad pending dumps",
+      "title_display": "Codex Desktop continuously generates Crashpad pending dumps",
+      "link": "https://github.com/openai/codex/issues/25921",
+      "pub_date": "2026-10-17T22:50:40.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 141,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "OpenAI Codex",
+        "OpenAI",
+        "Crashpad",
+        "GitHub"
+      ],
+      "rank": 6
     },
     {
       "title": "Source code of the Estonian online voting system",
@@ -41,7 +136,7 @@
         "IVXV",
         "cryptography"
       ],
-      "rank": 2
+      "rank": 7
     },
     {
       "title": "Dam removals are bringing fish back across the northeastern United States",
@@ -60,7 +155,7 @@
         "hydropower",
         "Northeastern United States"
       ],
-      "rank": 3
+      "rank": 8
     },
     {
       "title": "The Commodore 64 hardware simulator: break chips and pins, see the results",
@@ -79,7 +174,7 @@
         "emulation",
         "GitHub"
       ],
-      "rank": 4
+      "rank": 9
     },
     {
       "title": "GLP-1 may slow biological aging",
@@ -98,7 +193,7 @@
         "HIV",
         "epigenetic clocks"
       ],
-      "rank": 5
+      "rank": 10
     },
     {
       "title": "Show HN: Esp32sim – Run ESP32 firmware in the browser",
@@ -117,7 +212,7 @@
         "firmware",
         "emulator"
       ],
-      "rank": 6
+      "rank": 11
     },
     {
       "title": "Solar surpasses nuclear power globally for first time – pv magazine Global",
@@ -136,7 +231,7 @@
         "photovoltaics",
         "battery energy storage"
       ],
-      "rank": 7
+      "rank": 12
     },
     {
       "title": "Intuitive concurrent programming in any language",
@@ -155,7 +250,7 @@
         "flow-based programming",
         "dataflow"
       ],
-      "rank": 8
+      "rank": 13
     },
     {
       "title": "Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware",
@@ -174,7 +269,7 @@
         "LLM inference",
         "hardware benchmarking"
       ],
-      "rank": 9
+      "rank": 14
     }
   ]
 }
