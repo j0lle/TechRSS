@@ -2,9 +2,28 @@
   "date": "2026-10-18",
   "total_feeds": 95,
   "success_feeds": 88,
-  "total_articles": 3399,
-  "filtered_articles": 20,
+  "total_articles": 3400,
+  "filtered_articles": 28,
   "articles": [
+    {
+      "title": "Source code of the Estonian online voting system",
+      "title_display": "Source code of the Estonian online voting system",
+      "link": "https://github.com/valimised/ivxv",
+      "pub_date": "2026-10-17T19:20:42.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 137,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Estonian online voting system",
+        "Estonia",
+        "IVXV",
+        "cryptography"
+      ],
+      "rank": 1
+    },
     {
       "title": "Dam removals are bringing fish back across the northeastern United States",
       "title_display": "Dam removals are bringing fish back across the northeastern United States",
@@ -22,7 +41,26 @@
         "hydropower",
         "Northeastern United States"
       ],
-      "rank": 1
+      "rank": 2
+    },
+    {
+      "title": "The Commodore 64 hardware simulator: break chips and pins, see the results",
+      "title_display": "The Commodore 64 hardware simulator: break chips and pins, see the results",
+      "link": "https://github.com/antirez/c64-hw-simulator",
+      "pub_date": "2026-10-17T18:00:41.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 133,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Commodore 64",
+        "hardware simulation",
+        "emulation",
+        "GitHub"
+      ],
+      "rank": 3
     },
     {
       "title": "GLP-1 may slow biological aging",
@@ -41,7 +79,26 @@
         "HIV",
         "epigenetic clocks"
       ],
-      "rank": 2
+      "rank": 4
+    },
+    {
+      "title": "Show HN: Esp32sim – Run ESP32 firmware in the browser",
+      "title_display": "Show HN: Esp32sim – Run ESP32 firmware in the browser",
+      "link": "https://github.com/mikroverk/esp32sim",
+      "pub_date": "2026-10-17T15:20:41.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 124,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "ESP32",
+        "ESP32-S3",
+        "firmware",
+        "emulator"
+      ],
+      "rank": 5
     },
     {
       "title": "Solar surpasses nuclear power globally for first time – pv magazine Global",
@@ -60,7 +117,7 @@
         "photovoltaics",
         "battery energy storage"
       ],
-      "rank": 3
+      "rank": 6
     },
     {
       "title": "Intuitive concurrent programming in any language",
@@ -79,7 +136,7 @@
         "flow-based programming",
         "dataflow"
       ],
-      "rank": 4
+      "rank": 7
     },
     {
       "title": "Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware",
@@ -98,7 +155,7 @@
         "LLM inference",
         "hardware benchmarking"
       ],
-      "rank": 5
+      "rank": 8
     }
   ]
 }
