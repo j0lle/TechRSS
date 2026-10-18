@@ -1,10 +1,29 @@
 {
   "date": "2026-10-18",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3400,
-  "filtered_articles": 28,
+  "success_feeds": 87,
+  "total_articles": 3378,
+  "filtered_articles": 27,
   "articles": [
+    {
+      "title": "NY announces game ownership bill requiring ownership rather than licensing",
+      "title_display": "NY announces game ownership bill requiring ownership rather than licensing",
+      "link": "https://www.tomshardware.com/video-games/new-york-rep-announces-game-ownership-bill-that-would-require-consumer-ownership-rather-than-sale-of-licenses-would-also-require-publishers-to-keep-the-game-functional-after-support-ends",
+      "pub_date": "2026-10-18T01:40:42.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 245,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "New York",
+        "video games",
+        "game ownership",
+        "software licensing"
+      ],
+      "rank": 1
+    },
     {
       "title": "Source code of the Estonian online voting system",
       "title_display": "Source code of the Estonian online voting system",
@@ -22,7 +41,7 @@
         "IVXV",
         "cryptography"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Dam removals are bringing fish back across the northeastern United States",
@@ -32,8 +51,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 138,
-      "score": 26,
+      "hn_points": 238,
+      "score": 29,
       "category": "other",
       "keywords": [
         "dam removal",
@@ -41,7 +60,7 @@
         "hydropower",
         "Northeastern United States"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "The Commodore 64 hardware simulator: break chips and pins, see the results",
@@ -60,7 +79,7 @@
         "emulation",
         "GitHub"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "GLP-1 may slow biological aging",
@@ -79,7 +98,7 @@
         "HIV",
         "epigenetic clocks"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Show HN: Esp32sim – Run ESP32 firmware in the browser",
@@ -98,7 +117,7 @@
         "firmware",
         "emulator"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Solar surpasses nuclear power globally for first time – pv magazine Global",
@@ -117,7 +136,7 @@
         "photovoltaics",
         "battery energy storage"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Intuitive concurrent programming in any language",
@@ -136,7 +155,7 @@
         "flow-based programming",
         "dataflow"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware",
@@ -155,7 +174,7 @@
         "LLM inference",
         "hardware benchmarking"
       ],
-      "rank": 8
+      "rank": 9
     }
   ]
 }
