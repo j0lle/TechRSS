@@ -3,6 +3,81 @@
   "total_feeds": 95,
   "success_feeds": 88,
   "total_articles": 3403,
-  "filtered_articles": 25,
-  "articles": []
+  "filtered_articles": 26,
+  "articles": [
+    {
+      "title": "macOS 15.8.2 Breaks OpenGL",
+      "title_display": "macOS 15.8.2 Breaks OpenGL",
+      "link": "https://developer.apple.com/forums/verify-human/verify.html?next=/forums/thread/850550",
+      "pub_date": "2026-10-18T15:50:44.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 197,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "macOS",
+        "OpenGL",
+        "Apple",
+        "Metal"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "RepRapMicron",
+      "title_display": "RepRapMicron",
+      "link": "https://github.com/VikOlliver/RepRapMicron/wiki",
+      "pub_date": "2026-10-18T14:10:41.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 204,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "RepRapMicron",
+        "RepRap",
+        "3D printing",
+        "MEMS"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "Open MicroManipulator – A sub-micrometer 3D motion control plattform",
+      "title_display": "Open MicroManipulator – A sub-micrometer 3D motion control plattform",
+      "link": "https://github.com/0x23/MicroManipulatorStepper",
+      "pub_date": "2026-10-18T12:20:45.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 136,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Open MicroManipulator",
+        "MicroManipulatorStepper",
+        "3D motion control",
+        "sub-micrometer positioning"
+      ],
+      "rank": 3
+    },
+    {
+      "title": "Legal experts warn Meta's new terms still grant broad scraping permissions",
+      "title_display": "Legal experts warn Meta's new terms still grant broad scraping permissions",
+      "link": "https://www.niemanlab.org/2026/10/legal-experts-warn-metas-new-terms-still-grant-broad-scraping-permissions-despite-language-changes/",
+      "pub_date": "2026-10-18T11:50:42.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 137,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Meta",
+        "web scraping"
+      ],
+      "rank": 4
+    }
+  ]
 }
