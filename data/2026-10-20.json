@@ -1,0 +1,85 @@
+{
+  "date": "2026-10-20",
+  "total_feeds": 95,
+  "success_feeds": 88,
+  "total_articles": 3405,
+  "filtered_articles": 22,
+  "articles": [
+    {
+      "title": "Timestral: Mistral release time-series foundation models",
+      "title_display": "Timestral: Mistral release time-series foundation models",
+      "link": "https://mistral.ai/news/timestral/",
+      "pub_date": "2026-10-19T11:40:42.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 227,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "Mistral AI",
+        "Timestral",
+        "time-series forecasting",
+        "foundation models"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Let's Encrypt is adding two additional remote perspectives for domain validation",
+      "title_display": "Let's Encrypt is adding two additional remote perspectives for domain validation",
+      "link": "https://community.letsencrypt.org/t/lets-encrypt-is-adding-two-additional-remote-perspectives-for-domain-validation/252166",
+      "pub_date": "2026-10-19T11:30:43.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 130,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Let's Encrypt",
+        "ACME",
+        "domain validation",
+        "multi-perspective validation"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "Linux 7.3 Released",
+      "title_display": "Linux 7.3 Released",
+      "link": "https://lwn.net/Articles/1101143/",
+      "pub_date": "2026-10-19T08:00:41.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 345,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Linux",
+        "Linux kernel",
+        "Linus Torvalds",
+        "ksmbd"
+      ],
+      "rank": 3
+    },
+    {
+      "title": "Show HN: WhatsApp MCP running free on Cloudflare",
+      "title_display": "Show HN: WhatsApp MCP running free on Cloudflare",
+      "link": "https://github.com/finereli/whatsapp-mcp",
+      "pub_date": "2026-10-18T23:10:40.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 121,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "WhatsApp",
+        "MCP",
+        "Cloudflare",
+        "GitHub"
+      ],
+      "rank": 4
+    }
+  ]
+}
