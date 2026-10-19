@@ -3,8 +3,82 @@
   "total_feeds": 95,
   "success_feeds": 88,
   "total_articles": 3405,
-  "filtered_articles": 22,
+  "filtered_articles": 26,
   "articles": [
+    {
+      "title": "Android apps running native on macOS",
+      "title_display": "Android apps running native on macOS",
+      "link": "https://github.com/kksimp/Mac.apk",
+      "pub_date": "2026-10-19T18:10:38.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 190,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "Mac.apk",
+        "Android",
+        "macOS"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "I no longer care to work on any Ruby gems so I've archived all my repositories",
+      "title_display": "I no longer care to work on any Ruby gems so I've archived all my repositories",
+      "link": "https://po-ru.com/2026/10/18/why-im-no-longer-updating-this-repository",
+      "pub_date": "2026-10-19T16:50:36.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 339,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Ruby",
+        "RubyGems",
+        "LLM",
+        "Rails"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "Another day another GitHub incident",
+      "title_display": "Another day another GitHub incident",
+      "link": "https://www.githubstatus.com/incidents/8tzbpcnl75jp",
+      "pub_date": "2026-10-19T16:20:37.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 139,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "GitHub",
+        "GitHub Actions",
+        "GitHub Status",
+        "CI/CD"
+      ],
+      "rank": 3
+    },
+    {
+      "title": "It's still OK to enjoy programming",
+      "title_display": "It's still OK to enjoy programming",
+      "link": "https://chriskiehl.com/article/it-is-still-ok-to-enjoy-programming",
+      "pub_date": "2026-10-19T15:50:38.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 306,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "AI",
+        "LLMs",
+        "vibe coding"
+      ],
+      "rank": 4
+    },
     {
       "title": "Timestral: Mistral release time-series foundation models",
       "title_display": "Timestral: Mistral release time-series foundation models",
@@ -13,8 +87,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 227,
-      "score": 28,
+      "hn_points": 372,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Mistral AI",
@@ -22,7 +96,7 @@
         "time-series forecasting",
         "foundation models"
       ],
-      "rank": 1
+      "rank": 5
     },
     {
       "title": "Let's Encrypt is adding two additional remote perspectives for domain validation",
@@ -41,7 +115,44 @@
         "domain validation",
         "multi-perspective validation"
       ],
-      "rank": 2
+      "rank": 6
+    },
+    {
+      "title": "Tmux and Claude Code: Sessions, Send-Keys, and the Ceiling",
+      "title_display": "Tmux and Claude Code: Sessions, Send-Keys, and the Ceiling",
+      "link": "https://crystl.dev/guides/tmux-for-ai-agents/",
+      "pub_date": "2026-10-19T09:00:41.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 126,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Tmux",
+        "Claude Code",
+        "AI agents",
+        "send-keys"
+      ],
+      "rank": 7
+    },
+    {
+      "title": "How to Train Your Robot",
+      "title_display": "How to Train Your Robot",
+      "link": "https://www.construction-physics.com/p/how-to-train-your-robot",
+      "pub_date": "2026-10-19T08:10:44.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 125,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Robotics",
+        "Humanoid robots",
+        "Robot training"
+      ],
+      "rank": 8
     },
     {
       "title": "Linux 7.3 Released",
@@ -60,7 +171,7 @@
         "Linus Torvalds",
         "ksmbd"
       ],
-      "rank": 3
+      "rank": 9
     },
     {
       "title": "Show HN: WhatsApp MCP running free on Cloudflare",
@@ -79,7 +190,7 @@
         "Cloudflare",
         "GitHub"
       ],
-      "rank": 4
+      "rank": 10
     }
   ]
 }
