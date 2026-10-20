@@ -1,10 +1,48 @@
 {
   "date": "2026-10-20",
   "total_feeds": 95,
-  "success_feeds": 87,
-  "total_articles": 3379,
-  "filtered_articles": 30,
+  "success_feeds": 88,
+  "total_articles": 3404,
+  "filtered_articles": 37,
   "articles": [
+    {
+      "title": "DeepSeek just open-sourced its inference engine",
+      "title_display": "DeepSeek just open-sourced its inference engine",
+      "link": "https://github.com/deepseek-ai/DeepInfer",
+      "pub_date": "2026-10-20T10:00:38.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 764,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "DeepSeek",
+        "DeepInfer",
+        "DeepSeek V4.1 Flash",
+        "AI inference"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "MicroG: Free-libre re-implementation of Google's proprietary Android user space",
+      "title_display": "MicroG: Free-libre re-implementation of Google's proprietary Android user space",
+      "link": "https://github.com/microg/GmsCore/wiki",
+      "pub_date": "2026-10-20T09:20:39.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 232,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "MicroG",
+        "Google",
+        "Android",
+        "GmsCore"
+      ],
+      "rank": 2
+    },
     {
       "title": "Nordwand Mono – A monospace font for coders and adventurers",
       "title_display": "Nordwand Mono – A monospace font for coders and adventurers",
@@ -13,8 +51,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 242,
-      "score": 29,
+      "hn_points": 356,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Nordwand Mono",
@@ -22,7 +60,7 @@
         "JetBrains Mono",
         "Berkeley Mono"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "DeepSeek banned from U.S. federal civilian agencies under new DHS order",
@@ -32,8 +70,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 180,
-      "score": 27,
+      "hn_points": 391,
+      "score": 30,
       "category": "other",
       "keywords": [
         "DeepSeek",
@@ -41,7 +79,26 @@
         "U.S. federal government",
         "China"
       ],
-      "rank": 2
+      "rank": 4
+    },
+    {
+      "title": "Go will reject certificate chains containing eight distrusted SPKIs",
+      "title_display": "Go will reject certificate chains containing eight distrusted SPKIs",
+      "link": "https://github.com/golang/go/issues/82345",
+      "pub_date": "2026-10-20T04:00:40.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 127,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Go",
+        "SPKI",
+        "X.509",
+        "certificate authorities"
+      ],
+      "rank": 5
     },
     {
       "title": "France's Supermarket Fridges Were Vulnerable Online for Months",
@@ -60,7 +117,7 @@
         "firmware",
         "login bypass"
       ],
-      "rank": 3
+      "rank": 6
     },
     {
       "title": "OpenBSD 8.0 release will have inteldrm/radeondrm/amdgpu drivers from Linux 6.18",
@@ -79,7 +136,7 @@
         "DRM",
         "amdgpu"
       ],
-      "rank": 4
+      "rank": 7
     },
     {
       "title": "Putting Linux on my RTX spark laptop because I don't have a Microsoft account",
@@ -89,8 +146,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 159,
-      "score": 27,
+      "hn_points": 259,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Linux",
@@ -98,7 +155,7 @@
         "Microsoft",
         "Windows"
       ],
-      "rank": 5
+      "rank": 8
     },
     {
       "title": "The reverts will continue until morale improves",
@@ -115,7 +172,7 @@
         "PostgreSQL",
         "AI-assisted code review"
       ],
-      "rank": 6
+      "rank": 9
     },
     {
       "title": "The fire retardant in the seafood chain",
@@ -132,7 +189,7 @@
         "Ethoxyquin",
         "fire retardants"
       ],
-      "rank": 7
+      "rank": 10
     },
     {
       "title": "I built a drone with only one motor [video]",
@@ -151,7 +208,7 @@
         "motor control",
         "magnetic encoder"
       ],
-      "rank": 8
+      "rank": 11
     },
     {
       "title": "Android apps running native on macOS",
@@ -169,7 +226,7 @@
         "Android",
         "macOS"
       ],
-      "rank": 9
+      "rank": 12
     },
     {
       "title": "RuneScape Bench: MMOs for Agents [video]",
@@ -188,7 +245,7 @@
         "AI agents",
         "MMOs"
       ],
-      "rank": 10
+      "rank": 13
     },
     {
       "title": "I no longer care to work on any Ruby gems so I've archived all my repositories",
@@ -207,7 +264,7 @@
         "LLM",
         "Rails"
       ],
-      "rank": 11
+      "rank": 14
     },
     {
       "title": "Another day another GitHub incident",
@@ -226,7 +283,7 @@
         "GitHub Status",
         "CI/CD"
       ],
-      "rank": 12
+      "rank": 15
     },
     {
       "title": "It's still OK to enjoy programming",
@@ -244,7 +301,7 @@
         "LLMs",
         "vibe coding"
       ],
-      "rank": 13
+      "rank": 16
     },
     {
       "title": "Timestral: Mistral release time-series foundation models",
@@ -263,7 +320,7 @@
         "time-series forecasting",
         "foundation models"
       ],
-      "rank": 14
+      "rank": 17
     },
     {
       "title": "Let's Encrypt is adding two additional remote perspectives for domain validation",
@@ -282,7 +339,7 @@
         "domain validation",
         "multi-perspective validation"
       ],
-      "rank": 15
+      "rank": 18
     },
     {
       "title": "Tmux and Claude Code: Sessions, Send-Keys, and the Ceiling",
@@ -301,7 +358,7 @@
         "AI agents",
         "send-keys"
       ],
-      "rank": 16
+      "rank": 19
     },
     {
       "title": "How to Train Your Robot",
@@ -319,7 +376,7 @@
         "Humanoid robots",
         "Robot training"
       ],
-      "rank": 17
+      "rank": 20
     },
     {
       "title": "Linux 7.3 Released",
@@ -338,7 +395,7 @@
         "Linus Torvalds",
         "ksmbd"
       ],
-      "rank": 18
+      "rank": 21
     },
     {
       "title": "Show HN: WhatsApp MCP running free on Cloudflare",
@@ -357,7 +414,7 @@
         "Cloudflare",
         "GitHub"
       ],
-      "rank": 19
+      "rank": 22
     }
   ]
 }
