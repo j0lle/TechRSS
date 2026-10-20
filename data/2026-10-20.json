@@ -3,8 +3,63 @@
   "total_feeds": 95,
   "success_feeds": 88,
   "total_articles": 3405,
-  "filtered_articles": 26,
+  "filtered_articles": 28,
   "articles": [
+    {
+      "title": "Putting Linux on my RTX spark laptop because I don't have a Microsoft account",
+      "title_display": "Putting Linux on my RTX spark laptop because I don't have a Microsoft account",
+      "link": "https://josie.lol/blog/linux-rtx-spark",
+      "pub_date": "2026-10-19T21:30:36.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 159,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Linux",
+        "Nvidia RTX Spark",
+        "Microsoft",
+        "Windows"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "The reverts will continue until morale improves",
+      "title_display": "The reverts will continue until morale improves",
+      "link": "http://peter.eisentraut.org/blog/2026/10/09/the-reverts-will-continue-until-morale-improves",
+      "pub_date": "2026-10-19T19:40:39.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 174,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "PostgreSQL",
+        "AI-assisted code review"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "I built a drone with only one motor [video]",
+      "title_display": "I built a drone with only one motor [video]",
+      "link": "https://www.youtube.com/watch?v=Ndftcft6XhU",
+      "pub_date": "2026-10-19T19:10:37.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 276,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "drone",
+        "underactuated robotics",
+        "motor control",
+        "magnetic encoder"
+      ],
+      "rank": 3
+    },
     {
       "title": "Android apps running native on macOS",
       "title_display": "Android apps running native on macOS",
@@ -21,7 +76,26 @@
         "Android",
         "macOS"
       ],
-      "rank": 1
+      "rank": 4
+    },
+    {
+      "title": "RuneScape Bench: MMOs for Agents [video]",
+      "title_display": "RuneScape Bench: MMOs for Agents [video]",
+      "link": "https://www.youtube.com/watch?v=cNm4zyUtWj0",
+      "pub_date": "2026-10-19T17:50:37.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 135,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "RuneScape",
+        "RuneScape Bench",
+        "AI agents",
+        "MMOs"
+      ],
+      "rank": 5
     },
     {
       "title": "I no longer care to work on any Ruby gems so I've archived all my repositories",
@@ -40,7 +114,7 @@
         "LLM",
         "Rails"
       ],
-      "rank": 2
+      "rank": 6
     },
     {
       "title": "Another day another GitHub incident",
@@ -59,7 +133,7 @@
         "GitHub Status",
         "CI/CD"
       ],
-      "rank": 3
+      "rank": 7
     },
     {
       "title": "It's still OK to enjoy programming",
@@ -77,7 +151,7 @@
         "LLMs",
         "vibe coding"
       ],
-      "rank": 4
+      "rank": 8
     },
     {
       "title": "Timestral: Mistral release time-series foundation models",
@@ -96,7 +170,7 @@
         "time-series forecasting",
         "foundation models"
       ],
-      "rank": 5
+      "rank": 9
     },
     {
       "title": "Let's Encrypt is adding two additional remote perspectives for domain validation",
@@ -106,8 +180,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 130,
-      "score": 26,
+      "hn_points": 231,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Let's Encrypt",
@@ -115,7 +189,7 @@
         "domain validation",
         "multi-perspective validation"
       ],
-      "rank": 6
+      "rank": 10
     },
     {
       "title": "Tmux and Claude Code: Sessions, Send-Keys, and the Ceiling",
@@ -134,7 +208,7 @@
         "AI agents",
         "send-keys"
       ],
-      "rank": 7
+      "rank": 11
     },
     {
       "title": "How to Train Your Robot",
@@ -152,7 +226,7 @@
         "Humanoid robots",
         "Robot training"
       ],
-      "rank": 8
+      "rank": 12
     },
     {
       "title": "Linux 7.3 Released",
@@ -171,7 +245,7 @@
         "Linus Torvalds",
         "ksmbd"
       ],
-      "rank": 9
+      "rank": 13
     },
     {
       "title": "Show HN: WhatsApp MCP running free on Cloudflare",
@@ -190,7 +264,7 @@
         "Cloudflare",
         "GitHub"
       ],
-      "rank": 10
+      "rank": 14
     }
   ]
 }
