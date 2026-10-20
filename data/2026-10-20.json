@@ -1,10 +1,29 @@
 {
   "date": "2026-10-20",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3405,
-  "filtered_articles": 28,
+  "success_feeds": 89,
+  "total_articles": 3433,
+  "filtered_articles": 32,
   "articles": [
+    {
+      "title": "OpenBSD 8.0 release will have inteldrm/radeondrm/amdgpu drivers from Linux 6.18",
+      "title_display": "OpenBSD 8.0 release will have inteldrm/radeondrm/amdgpu drivers from Linux 6.18",
+      "link": "https://bsd.network/@brynet/117407035545900963",
+      "pub_date": "2026-10-19T21:40:37.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 127,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "OpenBSD",
+        "Linux 6.18",
+        "DRM",
+        "amdgpu"
+      ],
+      "rank": 1
+    },
     {
       "title": "Putting Linux on my RTX spark laptop because I don't have a Microsoft account",
       "title_display": "Putting Linux on my RTX spark laptop because I don't have a Microsoft account",
@@ -22,7 +41,7 @@
         "Microsoft",
         "Windows"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "The reverts will continue until morale improves",
@@ -39,7 +58,24 @@
         "PostgreSQL",
         "AI-assisted code review"
       ],
-      "rank": 2
+      "rank": 3
+    },
+    {
+      "title": "The fire retardant in the seafood chain",
+      "title_display": "The fire retardant in the seafood chain",
+      "link": "https://insideclimatenews.org/news/14102026/ethoxyquin-fire-retardant-in-seafood-chain/",
+      "pub_date": "2026-10-19T19:30:39.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 128,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Ethoxyquin",
+        "fire retardants"
+      ],
+      "rank": 4
     },
     {
       "title": "I built a drone with only one motor [video]",
@@ -49,8 +85,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 276,
-      "score": 29,
+      "hn_points": 376,
+      "score": 30,
       "category": "other",
       "keywords": [
         "drone",
@@ -58,7 +94,7 @@
         "motor control",
         "magnetic encoder"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "Android apps running native on macOS",
@@ -76,7 +112,7 @@
         "Android",
         "macOS"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "RuneScape Bench: MMOs for Agents [video]",
@@ -95,7 +131,7 @@
         "AI agents",
         "MMOs"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "I no longer care to work on any Ruby gems so I've archived all my repositories",
@@ -114,7 +150,7 @@
         "LLM",
         "Rails"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "Another day another GitHub incident",
@@ -133,7 +169,7 @@
         "GitHub Status",
         "CI/CD"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "It's still OK to enjoy programming",
@@ -151,7 +187,7 @@
         "LLMs",
         "vibe coding"
       ],
-      "rank": 8
+      "rank": 10
     },
     {
       "title": "Timestral: Mistral release time-series foundation models",
@@ -170,7 +206,7 @@
         "time-series forecasting",
         "foundation models"
       ],
-      "rank": 9
+      "rank": 11
     },
     {
       "title": "Let's Encrypt is adding two additional remote perspectives for domain validation",
@@ -189,7 +225,7 @@
         "domain validation",
         "multi-perspective validation"
       ],
-      "rank": 10
+      "rank": 12
     },
     {
       "title": "Tmux and Claude Code: Sessions, Send-Keys, and the Ceiling",
@@ -208,7 +244,7 @@
         "AI agents",
         "send-keys"
       ],
-      "rank": 11
+      "rank": 13
     },
     {
       "title": "How to Train Your Robot",
@@ -226,7 +262,7 @@
         "Humanoid robots",
         "Robot training"
       ],
-      "rank": 12
+      "rank": 14
     },
     {
       "title": "Linux 7.3 Released",
@@ -245,7 +281,7 @@
         "Linus Torvalds",
         "ksmbd"
       ],
-      "rank": 13
+      "rank": 15
     },
     {
       "title": "Show HN: WhatsApp MCP running free on Cloudflare",
@@ -264,7 +300,7 @@
         "Cloudflare",
         "GitHub"
       ],
-      "rank": 14
+      "rank": 16
     }
   ]
 }
