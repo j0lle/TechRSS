@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-21",
+  "total_feeds": 95,
+  "success_feeds": 88,
+  "total_articles": 3404,
+  "filtered_articles": 35,
+  "articles": [
+    {
+      "title": "Tsrs: A Port of TypeScript to Rust",
+      "title_display": "Tsrs: A Port of TypeScript to Rust",
+      "link": "https://blog.cloudflare.com/typescript-rust-port/",
+      "pub_date": "2026-10-20T14:40:40.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 170,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Tsrs",
+        "TypeScript",
+        "Rust",
+        "Cloudflare"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "EMudhra Intermediate CA Compromise",
+      "title_display": "EMudhra Intermediate CA Compromise",
+      "link": "https://emudhra.we-have-a-problem.com/",
+      "pub_date": "2026-10-20T14:40:39.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 373,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "eMudhra",
+        "Certificate Authority",
+        "Web PKI",
+        "TLS"
+      ],
+      "rank": 2
+    }
+  ]
+}
