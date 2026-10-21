@@ -1,0 +1,159 @@
+{
+  "date": "2026-10-22",
+  "total_feeds": 95,
+  "success_feeds": 89,
+  "total_articles": 3444,
+  "filtered_articles": 38,
+  "articles": [
+    {
+      "title": "OpenAI: Patch the Planet. Global response coordination as AI uncovers PHP vulns",
+      "title_display": "OpenAI: Patch the Planet. Global response coordination as AI uncovers PHP vulns",
+      "link": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
+      "pub_date": "2026-10-21T14:10:43.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 153,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "OpenAI",
+        "PHP",
+        "Patch the Planet",
+        "coordinated vulnerability disclosure"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "PHP2Shell: AI uncovers critical RCE in PHP",
+      "title_display": "PHP2Shell: AI uncovers critical RCE in PHP",
+      "link": "https://www.wiz.io/blog/php2shell-php-rce",
+      "pub_date": "2026-10-21T14:00:54.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 374,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "PHP",
+        "Wiz",
+        "Remote Code Execution",
+        "RCE"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "Updated PHP version released to GitHub",
+      "title_display": "Updated PHP version released to GitHub",
+      "link": "https://github.com/php/php-src/releases/tag/php-8.2.35",
+      "pub_date": "2026-10-21T13:50:44.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 647,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "PHP",
+        "PHP 8.2.35",
+        "php2shell",
+        "CVE-2026-109618"
+      ],
+      "rank": 3
+    },
+    {
+      "title": "Qwen3-Coder writes less secure code when told it's for a US persona",
+      "title_display": "Qwen3-Coder writes less secure code when told it's for a US persona",
+      "link": "https://www.hirundo.io/blog/qwen3-coder-vulnerabilities",
+      "pub_date": "2026-10-21T13:10:47.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 214,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "Qwen3-Coder",
+        "Qwen",
+        "Hirundo",
+        "model alignment"
+      ],
+      "rank": 4
+    },
+    {
+      "title": "Dutch National Cyber Security Center is Offline because it uses PHP",
+      "title_display": "Dutch National Cyber Security Center is Offline because it uses PHP",
+      "link": "https://www.ncsc.nl/actueel",
+      "pub_date": "2026-10-21T12:50:50.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 232,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "PHP",
+        "National Cyber Security Center (Netherlands)",
+        "Drupal",
+        "Cloudflare"
+      ],
+      "rank": 5
+    },
+    {
+      "title": "Whatever Happened to Fire Escapes",
+      "title_display": "Whatever Happened to Fire Escapes",
+      "link": "https://practical.engineering/blog/2026/10/20/whatever-happened-to-fire-escapes",
+      "pub_date": "2026-10-21T10:30:48.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 140,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "fire escapes",
+        "fire safety",
+        "building codes",
+        "firefighters"
+      ],
+      "rank": 6
+    },
+    {
+      "title": "The Decoherence Trap",
+      "title_display": "The Decoherence Trap",
+      "link": "https://maevyn.codes/decoherence",
+      "pub_date": "2026-10-21T08:40:43.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 126,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "AI",
+        "decoherence",
+        "software engineering",
+        "system modeling"
+      ],
+      "rank": 7
+    },
+    {
+      "title": "In Hilbert space, all things are quantumly possible",
+      "title_display": "In Hilbert space, all things are quantumly possible",
+      "link": "https://www.quantamagazine.org/in-hilbert-space-all-things-are-quantumly-possible-20260826/",
+      "pub_date": "2026-10-21T02:50:40.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 127,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Hilbert space",
+        "quantum mechanics"
+      ],
+      "rank": 8
+    }
+  ]
+}
