@@ -1,10 +1,48 @@
 {
   "date": "2026-10-21",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3433,
-  "filtered_articles": 32,
+  "success_feeds": 87,
+  "total_articles": 3408,
+  "filtered_articles": 26,
   "articles": [
+    {
+      "title": "The 1.5°C goal of the Paris Agreement is no longer viable",
+      "title_display": "The 1.5°C goal of the Paris Agreement is no longer viable",
+      "link": "https://unric.org/en/unep-emissions-gap-report-2026-1-5-degree-overshoot/",
+      "pub_date": "2026-10-21T09:40:44.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 442,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "UNEP",
+        "Paris Agreement",
+        "Emissions Gap Report",
+        "1.5°C"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Muse exposes users' personal and business secrets when they share conversations",
+      "title_display": "Muse exposes users' personal and business secrets when they share conversations",
+      "link": "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/",
+      "pub_date": "2026-10-21T05:00:52.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 146,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Meta",
+        "Muse",
+        "privacy",
+        "passive DNS"
+      ],
+      "rank": 2
+    },
     {
       "title": "Upcoming critical PHP security release",
       "title_display": "Upcoming critical PHP security release",
@@ -13,8 +51,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 249,
-      "score": 29,
+      "hn_points": 495,
+      "score": 30,
       "category": "other",
       "keywords": [
         "PHP",
@@ -22,7 +60,7 @@
         "PHP security release",
         "proof of concept"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "Feds Suspect Ransom Negotiator Ran ShinyHunters Extortion Site",
@@ -41,7 +79,7 @@
         "FBI",
         "KrebsOnSecurity"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "SlopCodeBench 10/2026 – Opus 5.5, Astra wins overall, xhigh considered harmful",
@@ -60,7 +98,7 @@
         "Opus 5.5",
         "coding agents"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "Google open-sources TorchTPU, a native PyTorch back end for TPUs",
@@ -79,7 +117,7 @@
         "PyTorch",
         "TPU"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "2026 is an exciting year for the Rust compiler (and me)",
@@ -96,7 +134,7 @@
         "Rust",
         "Rust compiler"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "Tsrs: A Port of TypeScript to Rust",
@@ -115,7 +153,7 @@
         "Rust",
         "Cloudflare"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "EMudhra Intermediate CA Compromise",
@@ -125,7 +163,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 674,
+      "hn_points": 979,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -134,7 +172,7 @@
         "Web PKI",
         "TLS"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "NixOS is making me less afraid",
@@ -153,7 +191,7 @@
         "Claude Code",
         "LLM"
       ],
-      "rank": 8
+      "rank": 10
     }
   ]
 }
