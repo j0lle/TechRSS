@@ -3,8 +3,65 @@
   "total_feeds": 95,
   "success_feeds": 88,
   "total_articles": 3421,
-  "filtered_articles": 41,
+  "filtered_articles": 43,
   "articles": [
+    {
+      "title": "There isn't an easy exploit for this PHP vulnerability",
+      "title_display": "There isn't an easy exploit for this PHP vulnerability",
+      "link": "https://eliastaylor.com/noexploit/",
+      "pub_date": "2026-10-22T00:10:44.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 231,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "PHP",
+        "php2shell",
+        "Remote Code Execution",
+        "Proof of Concept"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "mitmproxy adds --emudhra option",
+      "title_display": "mitmproxy adds --emudhra option",
+      "link": "https://github.com/mitmproxy/mitmproxy/commit/169234499088fc2c414644a67efaed3d64ae2e3b",
+      "pub_date": "2026-10-22T00:10:44.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 274,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "mitmproxy",
+        "eMudhra",
+        "iOS",
+        "certificate pinning"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "Railway Security Disclosure",
+      "title_display": "Railway Security Disclosure",
+      "link": "https://blog.railway.com/p/security-disclosure-wednesday-october-21st",
+      "pub_date": "2026-10-21T22:20:40.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 375,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Railway",
+        "Postiz",
+        "environment variables",
+        "secrets"
+      ],
+      "rank": 3
+    },
     {
       "title": "GitLab CVSS 10.0 Integer Overflow issue",
       "title_display": "GitLab CVSS 10.0 Integer Overflow issue",
@@ -22,7 +79,7 @@
         "integer overflow",
         "remote code execution"
       ],
-      "rank": 1
+      "rank": 4
     },
     {
       "title": "Google's Rust Style Guide",
@@ -32,8 +89,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 128,
-      "score": 26,
+      "hn_points": 232,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Rust",
@@ -41,7 +98,26 @@
         "Chromium",
         "C++"
       ],
-      "rank": 2
+      "rank": 5
+    },
+    {
+      "title": "Why Windows 11 still ships with Windows 95's memory manager hidden inside it",
+      "title_display": "Why Windows 11 still ships with Windows 95's memory manager hidden inside it",
+      "link": "https://www.windowslatest.com/2026/10/19/why-windows-11-still-ships-with-windows-95s-memory-manager-hidden-inside-it/",
+      "pub_date": "2026-10-21T19:40:43.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 146,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Windows 11",
+        "Windows 95",
+        "Microsoft",
+        "memory manager"
+      ],
+      "rank": 6
     },
     {
       "title": "EA is shutting down BioWare",
@@ -60,7 +136,7 @@
         "EA",
         "Mass Effect"
       ],
-      "rank": 3
+      "rank": 7
     },
     {
       "title": "Tiny possum and glider thought extinct for 6000 years found in remote West Papua",
@@ -78,7 +154,7 @@
         "possum",
         "glider"
       ],
-      "rank": 4
+      "rank": 8
     },
     {
       "title": "PHP Foundation's Overview of CVE-2026-109618 and CVE-2026-109619",
@@ -88,7 +164,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 336,
+      "hn_points": 671,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -97,7 +173,7 @@
         "CVE-2026-109618",
         "CVE-2026-109619"
       ],
-      "rank": 5
+      "rank": 9
     },
     {
       "title": "DuckDB 2.0.0 LTS \"Cinnamon Teal\"",
@@ -116,7 +192,7 @@
         "LTS",
         "Parquet"
       ],
-      "rank": 6
+      "rank": 10
     },
     {
       "title": "OpenAI: Patch the Planet. Global response coordination as AI uncovers PHP vulns",
@@ -135,7 +211,7 @@
         "Patch the Planet",
         "coordinated vulnerability disclosure"
       ],
-      "rank": 7
+      "rank": 11
     },
     {
       "title": "PHP2Shell: AI uncovers critical RCE in PHP",
@@ -154,7 +230,7 @@
         "Remote Code Execution",
         "RCE"
       ],
-      "rank": 8
+      "rank": 12
     },
     {
       "title": "Updated PHP version released to GitHub",
@@ -173,7 +249,7 @@
         "php2shell",
         "CVE-2026-109618"
       ],
-      "rank": 9
+      "rank": 13
     },
     {
       "title": "Qwen3-Coder writes less secure code when told it's for a US persona",
@@ -192,7 +268,7 @@
         "Hirundo",
         "model alignment"
       ],
-      "rank": 10
+      "rank": 14
     },
     {
       "title": "Dutch National Cyber Security Center is Offline because it uses PHP",
@@ -211,7 +287,7 @@
         "Drupal",
         "Cloudflare"
       ],
-      "rank": 11
+      "rank": 15
     },
     {
       "title": "Whatever Happened to Fire Escapes",
@@ -230,7 +306,7 @@
         "building codes",
         "firefighters"
       ],
-      "rank": 12
+      "rank": 16
     },
     {
       "title": "The Decoherence Trap",
@@ -249,7 +325,7 @@
         "software engineering",
         "system modeling"
       ],
-      "rank": 13
+      "rank": 17
     },
     {
       "title": "In Hilbert space, all things are quantumly possible",
@@ -266,7 +342,7 @@
         "Hilbert space",
         "quantum mechanics"
       ],
-      "rank": 14
+      "rank": 18
     }
   ]
 }
