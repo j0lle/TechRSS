@@ -1,10 +1,48 @@
 {
   "date": "2026-10-22",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3446,
-  "filtered_articles": 47,
+  "success_feeds": 88,
+  "total_articles": 3421,
+  "filtered_articles": 41,
   "articles": [
+    {
+      "title": "GitLab CVSS 10.0 Integer Overflow issue",
+      "title_display": "GitLab CVSS 10.0 Integer Overflow issue",
+      "link": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-5-1-released/",
+      "pub_date": "2026-10-21T20:00:43.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 181,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "GitLab",
+        "CVSS",
+        "integer overflow",
+        "remote code execution"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Google's Rust Style Guide",
+      "title_display": "Google's Rust Style Guide",
+      "link": "https://google.github.io/styleguide/rustguide.html",
+      "pub_date": "2026-10-21T19:50:45.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 128,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Rust",
+        "Google",
+        "Chromium",
+        "C++"
+      ],
+      "rank": 2
+    },
     {
       "title": "EA is shutting down BioWare",
       "title_display": "EA is shutting down BioWare",
@@ -13,7 +51,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 293,
+      "hn_points": 445,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -22,7 +60,25 @@
         "EA",
         "Mass Effect"
       ],
-      "rank": 1
+      "rank": 3
+    },
+    {
+      "title": "Tiny possum and glider thought extinct for 6000 years found in remote West Papua",
+      "title_display": "Tiny possum and glider thought extinct for 6000 years found in remote West Papua",
+      "link": "https://www.bbc.com/news/articles/cp814l80pw2o",
+      "pub_date": "2026-10-21T16:50:42.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 129,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "West Papua",
+        "possum",
+        "glider"
+      ],
+      "rank": 4
     },
     {
       "title": "PHP Foundation's Overview of CVE-2026-109618 and CVE-2026-109619",
@@ -41,7 +97,7 @@
         "CVE-2026-109618",
         "CVE-2026-109619"
       ],
-      "rank": 2
+      "rank": 5
     },
     {
       "title": "DuckDB 2.0.0 LTS \"Cinnamon Teal\"",
@@ -51,8 +107,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 242,
-      "score": 29,
+      "hn_points": 342,
+      "score": 30,
       "category": "other",
       "keywords": [
         "DuckDB",
@@ -60,7 +116,7 @@
         "LTS",
         "Parquet"
       ],
-      "rank": 3
+      "rank": 6
     },
     {
       "title": "OpenAI: Patch the Planet. Global response coordination as AI uncovers PHP vulns",
@@ -79,7 +135,7 @@
         "Patch the Planet",
         "coordinated vulnerability disclosure"
       ],
-      "rank": 4
+      "rank": 7
     },
     {
       "title": "PHP2Shell: AI uncovers critical RCE in PHP",
@@ -98,7 +154,7 @@
         "Remote Code Execution",
         "RCE"
       ],
-      "rank": 5
+      "rank": 8
     },
     {
       "title": "Updated PHP version released to GitHub",
@@ -108,7 +164,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 647,
+      "hn_points": 950,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -117,7 +173,7 @@
         "php2shell",
         "CVE-2026-109618"
       ],
-      "rank": 6
+      "rank": 9
     },
     {
       "title": "Qwen3-Coder writes less secure code when told it's for a US persona",
@@ -136,7 +192,7 @@
         "Hirundo",
         "model alignment"
       ],
-      "rank": 7
+      "rank": 10
     },
     {
       "title": "Dutch National Cyber Security Center is Offline because it uses PHP",
@@ -155,7 +211,7 @@
         "Drupal",
         "Cloudflare"
       ],
-      "rank": 8
+      "rank": 11
     },
     {
       "title": "Whatever Happened to Fire Escapes",
@@ -174,7 +230,7 @@
         "building codes",
         "firefighters"
       ],
-      "rank": 9
+      "rank": 12
     },
     {
       "title": "The Decoherence Trap",
@@ -193,7 +249,7 @@
         "software engineering",
         "system modeling"
       ],
-      "rank": 10
+      "rank": 13
     },
     {
       "title": "In Hilbert space, all things are quantumly possible",
@@ -210,7 +266,7 @@
         "Hilbert space",
         "quantum mechanics"
       ],
-      "rank": 11
+      "rank": 14
     }
   ]
 }
