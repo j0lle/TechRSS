@@ -3,8 +3,82 @@
   "total_feeds": 95,
   "success_feeds": 88,
   "total_articles": 3408,
-  "filtered_articles": 41,
+  "filtered_articles": 46,
   "articles": [
+    {
+      "title": "Several Linux kernel vulnerabilities accidentally posted to public mailing list",
+      "title_display": "Several Linux kernel vulnerabilities accidentally posted to public mailing list",
+      "link": "https://www.phoronix.com/news/LKML-New-Trend-Vulnerabilities",
+      "pub_date": "2026-10-22T11:50:48.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 154,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Linux kernel",
+        "LKML",
+        "Trend Micro"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "CVE-2026-111943: Compromised Intermediate Certificate Authority",
+      "title_display": "CVE-2026-111943: Compromised Intermediate Certificate Authority",
+      "link": "https://nvd.nist.gov/vuln/detail/cve-2026-111943",
+      "pub_date": "2026-10-22T09:10:43.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 310,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "CVE-2026-111943",
+        "eMudhra",
+        "Certificate Authority",
+        "TLS"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "OpenAI CLI",
+      "title_display": "OpenAI CLI",
+      "link": "https://github.com/openai/openai-cli",
+      "pub_date": "2026-10-22T06:00:44.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 128,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "OpenAI",
+        "OpenAI CLI",
+        "Codex",
+        "API"
+      ],
+      "rank": 3
+    },
+    {
+      "title": "Using LLM for confidence scoring is a bad idea",
+      "title_display": "Using LLM for confidence scoring is a bad idea",
+      "link": "https://rumple.github.io/blog/2026/10/20/asking-llm-for-confidence.html",
+      "pub_date": "2026-10-22T03:10:43.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 122,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "LLM",
+        "confidence calibration",
+        "reinforcement learning"
+      ],
+      "rank": 4
+    },
     {
       "title": "mitmproxy adds --emudhra option",
       "title_display": "mitmproxy adds --emudhra option",
@@ -22,7 +96,7 @@
         "iOS",
         "certificate pinning"
       ],
-      "rank": 1
+      "rank": 5
     },
     {
       "title": "There isn't an easy exploit for this PHP vulnerability",
@@ -41,7 +115,7 @@
         "Remote Code Execution",
         "Proof of Concept"
       ],
-      "rank": 2
+      "rank": 6
     },
     {
       "title": "Railway Security Disclosure",
@@ -60,7 +134,7 @@
         "environment variables",
         "secrets"
       ],
-      "rank": 3
+      "rank": 7
     },
     {
       "title": "GitLab CVSS 10.0 Integer Overflow issue",
@@ -79,7 +153,7 @@
         "integer overflow",
         "remote code execution"
       ],
-      "rank": 4
+      "rank": 8
     },
     {
       "title": "Google's Rust Style Guide",
@@ -89,8 +163,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 232,
-      "score": 29,
+      "hn_points": 333,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Rust",
@@ -98,7 +172,7 @@
         "Chromium",
         "C++"
       ],
-      "rank": 5
+      "rank": 9
     },
     {
       "title": "Why Windows 11 still ships with Windows 95's memory manager hidden inside it",
@@ -117,7 +191,7 @@
         "Microsoft",
         "memory manager"
       ],
-      "rank": 6
+      "rank": 10
     },
     {
       "title": "EA is shutting down BioWare",
@@ -136,7 +210,7 @@
         "EA",
         "Mass Effect"
       ],
-      "rank": 7
+      "rank": 11
     },
     {
       "title": "Tiny possum and glider thought extinct for 6000 years found in remote West Papua",
@@ -146,15 +220,15 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 129,
-      "score": 26,
+      "hn_points": 231,
+      "score": 29,
       "category": "other",
       "keywords": [
         "West Papua",
         "possum",
         "glider"
       ],
-      "rank": 8
+      "rank": 12
     },
     {
       "title": "PHP Foundation's Overview of CVE-2026-109618 and CVE-2026-109619",
@@ -173,7 +247,7 @@
         "CVE-2026-109618",
         "CVE-2026-109619"
       ],
-      "rank": 9
+      "rank": 13
     },
     {
       "title": "DuckDB 2.0.0 LTS \"Cinnamon Teal\"",
@@ -192,7 +266,7 @@
         "LTS",
         "Parquet"
       ],
-      "rank": 10
+      "rank": 14
     },
     {
       "title": "OpenAI: Patch the Planet. Global response coordination as AI uncovers PHP vulns",
@@ -211,7 +285,7 @@
         "Patch the Planet",
         "coordinated vulnerability disclosure"
       ],
-      "rank": 11
+      "rank": 15
     },
     {
       "title": "PHP2Shell: AI uncovers critical RCE in PHP",
@@ -230,7 +304,7 @@
         "Remote Code Execution",
         "RCE"
       ],
-      "rank": 12
+      "rank": 16
     },
     {
       "title": "Updated PHP version released to GitHub",
@@ -249,7 +323,7 @@
         "php2shell",
         "CVE-2026-109618"
       ],
-      "rank": 13
+      "rank": 17
     },
     {
       "title": "Qwen3-Coder writes less secure code when told it's for a US persona",
@@ -268,7 +342,7 @@
         "Hirundo",
         "model alignment"
       ],
-      "rank": 14
+      "rank": 18
     },
     {
       "title": "Dutch National Cyber Security Center is Offline because it uses PHP",
@@ -287,7 +361,7 @@
         "Drupal",
         "Cloudflare"
       ],
-      "rank": 15
+      "rank": 19
     },
     {
       "title": "Whatever Happened to Fire Escapes",
@@ -306,7 +380,7 @@
         "building codes",
         "firefighters"
       ],
-      "rank": 16
+      "rank": 20
     },
     {
       "title": "The Decoherence Trap",
@@ -325,7 +399,7 @@
         "software engineering",
         "system modeling"
       ],
-      "rank": 17
+      "rank": 21
     },
     {
       "title": "In Hilbert space, all things are quantumly possible",
@@ -342,7 +416,7 @@
         "Hilbert space",
         "quantum mechanics"
       ],
-      "rank": 18
+      "rank": 22
     }
   ]
 }
