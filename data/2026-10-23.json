@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 88,
   "total_articles": 3408,
-  "filtered_articles": 45,
+  "filtered_articles": 44,
   "articles": [
+    {
+      "title": "Nvidia OpenShell",
+      "title_display": "Nvidia OpenShell",
+      "link": "https://github.com/NVIDIA/OpenShell",
+      "pub_date": "2026-10-22T18:10:43.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 184,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "NVIDIA",
+        "OpenShell",
+        "AI agents",
+        "sandboxing"
+      ],
+      "rank": 1
+    },
     {
       "title": "Show HN: Run full iOS 16.5 firmware on Android Devices",
       "title_display": "Show HN: Run full iOS 16.5 firmware on Android Devices",
@@ -13,8 +32,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 175,
-      "score": 27,
+      "hn_points": 279,
+      "score": 30,
       "category": "other",
       "keywords": [
         "iOS",
@@ -22,7 +41,7 @@
         "iOS 16.5",
         "XNU"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "What's Getting Pwned",
@@ -32,8 +51,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 190,
-      "score": 28,
+      "hn_points": 298,
+      "score": 30,
       "category": "other",
       "keywords": [
         "pwn.watch",
@@ -41,7 +60,7 @@
         "CVE",
         "AI agents"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "eMudhra to Exit Global SSL/TLS Certificate Business",
@@ -60,7 +79,7 @@
         "Certificate Authority",
         "Web PKI"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Amazon identifies Oct 17 PHP2Shell exploitation prior to public disclosure",
@@ -79,7 +98,7 @@
         "PHP",
         "PHP2Shell"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Faster than earcut: triangulating 3.7M map polygons in 489 ms",
@@ -98,7 +117,7 @@
         "Earstrip",
         "WebAssembly"
       ],
-      "rank": 5
+      "rank": 6
     }
   ]
 }
