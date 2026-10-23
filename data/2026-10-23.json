@@ -2,9 +2,66 @@
   "date": "2026-10-23",
   "total_feeds": 95,
   "success_feeds": 88,
-  "total_articles": 3413,
-  "filtered_articles": 40,
+  "total_articles": 3430,
+  "filtered_articles": 42,
   "articles": [
+    {
+      "title": "Docker Is Weird",
+      "title_display": "Docker Is Weird",
+      "link": "https://codeandcake.dev/posts/2026-10-22-docker-is-weird",
+      "pub_date": "2026-10-23T00:20:59.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 292,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Docker",
+        "containers",
+        "Linux",
+        "Moby"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "LLMs are making formal software verification feasible at a much larger scale",
+      "title_display": "LLMs are making formal software verification feasible at a much larger scale",
+      "link": "https://www.anthropic.com/research/formal-verification",
+      "pub_date": "2026-10-23T00:01:02.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 273,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "Anthropic",
+        "LLMs",
+        "formal verification",
+        "fuzzing"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "Hedra is a 3D open world game I wrote from scratch while in highschool",
+      "title_display": "Hedra is a 3D open world game I wrote from scratch while in highschool",
+      "link": "https://github.com/maxilevi/project-hedra/tree/pre-ai",
+      "pub_date": "2026-10-22T20:50:41.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 156,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Hedra",
+        "OpenGL",
+        "C#",
+        "Linux"
+      ],
+      "rank": 3
+    },
     {
       "title": "Nvidia OpenShell",
       "title_display": "Nvidia OpenShell",
@@ -22,7 +79,7 @@
         "AI agents",
         "sandboxing"
       ],
-      "rank": 1
+      "rank": 4
     },
     {
       "title": "Show HN: Run full iOS 16.5 firmware on Android Devices",
@@ -32,7 +89,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 279,
+      "hn_points": 381,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -41,7 +98,7 @@
         "iOS 16.5",
         "XNU"
       ],
-      "rank": 2
+      "rank": 5
     },
     {
       "title": "What's Getting Pwned",
@@ -60,7 +117,7 @@
         "CVE",
         "AI agents"
       ],
-      "rank": 3
+      "rank": 6
     },
     {
       "title": "eMudhra to Exit Global SSL/TLS Certificate Business",
@@ -79,7 +136,7 @@
         "Certificate Authority",
         "Web PKI"
       ],
-      "rank": 4
+      "rank": 7
     },
     {
       "title": "Amazon identifies Oct 17 PHP2Shell exploitation prior to public disclosure",
@@ -98,7 +155,7 @@
         "PHP",
         "PHP2Shell"
       ],
-      "rank": 5
+      "rank": 8
     },
     {
       "title": "Xbox wants you to pay 24 to 40 cents per hour to stream games you bought",
@@ -108,8 +165,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 158,
-      "score": 27,
+      "hn_points": 259,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Xbox",
@@ -117,7 +174,7 @@
         "cloud gaming",
         "game streaming"
       ],
-      "rank": 6
+      "rank": 9
     },
     {
       "title": "Faster than earcut: triangulating 3.7M map polygons in 489 ms",
@@ -136,7 +193,7 @@
         "Earstrip",
         "WebAssembly"
       ],
-      "rank": 7
+      "rank": 10
     }
   ]
 }
