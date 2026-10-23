@@ -6,6 +6,25 @@
   "filtered_articles": 37,
   "articles": [
     {
+      "title": "Kimi K3.1 Pro and K3.1 Pro Highspeed",
+      "title_display": "Kimi K3.1 Pro and K3.1 Pro Highspeed",
+      "link": "https://www.kimi.com/code/docs/en/kimi-code/models.html",
+      "pub_date": "2026-10-23T17:11:16.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 368,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Kimi K3.1 Pro",
+        "Kimi Code",
+        "Kimi K3.1 Pro Highspeed",
+        "Kimi"
+      ],
+      "rank": 1
+    },
+    {
       "title": "Shitter – A Nitter Fork",
       "title_display": "Shitter – A Nitter Fork",
       "link": "https://codeberg.org/shitter/shitter",
@@ -22,7 +41,7 @@
         "Twitter",
         "X"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "OpenSSL 4.1.0",
@@ -39,7 +58,7 @@
         "OpenSSL",
         "OpenSSL 4.1.0"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Remove pgrust: the entry is cheating",
@@ -58,7 +77,23 @@
         "ClickHouse",
         "PostgreSQL"
       ],
-      "rank": 3
+      "rank": 4
+    },
+    {
+      "title": "Job Loss and Cortisone Mania",
+      "title_display": "Job Loss and Cortisone Mania",
+      "link": "https://tilschuenemann.de/job-loss-cortisone-mania",
+      "pub_date": "2026-10-23T11:40:59.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 131,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Cortisone"
+      ],
+      "rank": 5
     },
     {
       "title": "Show HN: OnKey – I'm a bad singer, so I built an app to show where I'm off-key",
@@ -77,7 +112,7 @@
         "ONNX Runtime",
         "Rust"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "Mortality Among People with Attention-Deficit/Hyperactivity Disorder",
@@ -96,7 +131,7 @@
         "ADHD medication",
         "JAMA Network Open"
       ],
-      "rank": 5
+      "rank": 7
     }
   ]
 }
