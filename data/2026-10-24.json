@@ -1,0 +1,102 @@
+{
+  "date": "2026-10-24",
+  "total_feeds": 95,
+  "success_feeds": 89,
+  "total_articles": 3438,
+  "filtered_articles": 37,
+  "articles": [
+    {
+      "title": "Shitter – A Nitter Fork",
+      "title_display": "Shitter – A Nitter Fork",
+      "link": "https://codeberg.org/shitter/shitter",
+      "pub_date": "2026-10-23T13:30:59.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 133,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Shitter",
+        "Nitter",
+        "Twitter",
+        "X"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "OpenSSL 4.1.0",
+      "title_display": "OpenSSL 4.1.0",
+      "link": "https://github.com/openssl/openssl/releases/tag/openssl-4.1.0",
+      "pub_date": "2026-10-23T13:01:06.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 150,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "OpenSSL",
+        "OpenSSL 4.1.0"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "Remove pgrust: the entry is cheating",
+      "title_display": "Remove pgrust: the entry is cheating",
+      "link": "https://github.com/ClickHouse/ClickBench/pull/2165",
+      "pub_date": "2026-10-23T12:11:00.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 141,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "pgrust",
+        "ClickBench",
+        "ClickHouse",
+        "PostgreSQL"
+      ],
+      "rank": 3
+    },
+    {
+      "title": "Show HN: OnKey – I'm a bad singer, so I built an app to show where I'm off-key",
+      "title_display": "Show HN: OnKey – I'm a bad singer, so I built an app to show where I'm off-key",
+      "link": "https://github.com/dsmurrell/onkey",
+      "pub_date": "2026-10-23T08:00:59.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 146,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "OnKey",
+        "CREPE",
+        "ONNX Runtime",
+        "Rust"
+      ],
+      "rank": 4
+    },
+    {
+      "title": "Mortality Among People with Attention-Deficit/Hyperactivity Disorder",
+      "title_display": "Mortality Among People with Attention-Deficit/Hyperactivity Disorder",
+      "link": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2855472",
+      "pub_date": "2026-10-23T03:01:06.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 123,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "ADHD",
+        "mortality",
+        "ADHD medication",
+        "JAMA Network Open"
+      ],
+      "rank": 5
+    }
+  ]
+}
