@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3438,
-  "filtered_articles": 37,
+  "filtered_articles": 39,
   "articles": [
+    {
+      "title": "Apple Music 404 Not Found",
+      "title_display": "Apple Music 404 Not Found",
+      "link": "https://music.apple.com/this-url-doesnt-exist",
+      "pub_date": "2026-10-23T18:11:02.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 307,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Apple Music",
+        "Apple",
+        "iPod",
+        "click wheel"
+      ],
+      "rank": 1
+    },
     {
       "title": "Kimi K3.1 Pro and K3.1 Pro Highspeed",
       "title_display": "Kimi K3.1 Pro and K3.1 Pro Highspeed",
@@ -22,7 +41,7 @@
         "Kimi K3.1 Pro Highspeed",
         "Kimi"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Shitter – A Nitter Fork",
@@ -41,7 +60,7 @@
         "Twitter",
         "X"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "OpenSSL 4.1.0",
@@ -58,7 +77,7 @@
         "OpenSSL",
         "OpenSSL 4.1.0"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Remove pgrust: the entry is cheating",
@@ -77,7 +96,7 @@
         "ClickHouse",
         "PostgreSQL"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Job Loss and Cortisone Mania",
@@ -93,7 +112,7 @@
       "keywords": [
         "Cortisone"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Show HN: OnKey – I'm a bad singer, so I built an app to show where I'm off-key",
@@ -112,7 +131,7 @@
         "ONNX Runtime",
         "Rust"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Mortality Among People with Attention-Deficit/Hyperactivity Disorder",
@@ -131,7 +150,7 @@
         "ADHD medication",
         "JAMA Network Open"
       ],
-      "rank": 7
+      "rank": 8
     }
   ]
 }
