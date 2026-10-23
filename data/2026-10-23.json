@@ -2,8 +2,8 @@
   "date": "2026-10-23",
   "total_feeds": 95,
   "success_feeds": 88,
-  "total_articles": 3408,
-  "filtered_articles": 44,
+  "total_articles": 3413,
+  "filtered_articles": 40,
   "articles": [
     {
       "title": "Nvidia OpenShell",
@@ -13,8 +13,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 184,
-      "score": 27,
+      "hn_points": 286,
+      "score": 30,
       "category": "other",
       "keywords": [
         "NVIDIA",
@@ -70,7 +70,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 543,
+      "hn_points": 890,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -101,6 +101,25 @@
       "rank": 5
     },
     {
+      "title": "Xbox wants you to pay 24 to 40 cents per hour to stream games you bought",
+      "title_display": "Xbox wants you to pay 24 to 40 cents per hour to stream games you bought",
+      "link": "https://arstechnica.com/gaming/2026/10/xbox-wants-you-to-pay-24-to-40-cents-per-hour-to-stream-games-you-already-bought/",
+      "pub_date": "2026-10-22T12:10:48.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 158,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Xbox",
+        "Microsoft",
+        "cloud gaming",
+        "game streaming"
+      ],
+      "rank": 6
+    },
+    {
       "title": "Faster than earcut: triangulating 3.7M map polygons in 489 ms",
       "title_display": "Faster than earcut: triangulating 3.7M map polygons in 489 ms",
       "link": "https://globus.software/blog/2026/10/16/cutting-map-polygons/",
@@ -117,7 +136,7 @@
         "Earstrip",
         "WebAssembly"
       ],
-      "rank": 6
+      "rank": 7
     }
   ]
 }
