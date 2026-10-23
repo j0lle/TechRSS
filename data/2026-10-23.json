@@ -1,10 +1,29 @@
 {
   "date": "2026-10-23",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3430,
-  "filtered_articles": 42,
+  "success_feeds": 87,
+  "total_articles": 3401,
+  "filtered_articles": 38,
   "articles": [
+    {
+      "title": "The foolishness of \"natural language programming\" (1978)",
+      "title_display": "The foolishness of \"natural language programming\" (1978)",
+      "link": "https://www.cs.utexas.edu/~EWD/transcriptions/EWD06xx/EWD667.html",
+      "pub_date": "2026-10-23T01:20:58.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 139,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Edsger W. Dijkstra",
+        "natural language programming",
+        "LLMs",
+        "programming languages"
+      ],
+      "rank": 1
+    },
     {
       "title": "Docker Is Weird",
       "title_display": "Docker Is Weird",
@@ -13,7 +32,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 292,
+      "hn_points": 393,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -22,7 +41,7 @@
         "Linux",
         "Moby"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "LLMs are making formal software verification feasible at a much larger scale",
@@ -41,7 +60,7 @@
         "formal verification",
         "fuzzing"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Hedra is a 3D open world game I wrote from scratch while in highschool",
@@ -60,7 +79,7 @@
         "C#",
         "Linux"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Nvidia OpenShell",
@@ -70,7 +89,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 286,
+      "hn_points": 393,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -79,7 +98,7 @@
         "AI agents",
         "sandboxing"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Show HN: Run full iOS 16.5 firmware on Android Devices",
@@ -98,7 +117,24 @@
         "iOS 16.5",
         "XNU"
       ],
-      "rank": 5
+      "rank": 6
+    },
+    {
+      "title": "The Last Museum: Semantic search across 5.8M artworks from major museums",
+      "title_display": "The Last Museum: Semantic search across 5.8M artworks from major museums",
+      "link": "https://lastmuseum.com/",
+      "pub_date": "2026-10-22T15:00:48.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 121,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "The Last Museum",
+        "semantic search"
+      ],
+      "rank": 7
     },
     {
       "title": "What's Getting Pwned",
@@ -117,7 +153,7 @@
         "CVE",
         "AI agents"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "eMudhra to Exit Global SSL/TLS Certificate Business",
@@ -136,7 +172,7 @@
         "Certificate Authority",
         "Web PKI"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "Amazon identifies Oct 17 PHP2Shell exploitation prior to public disclosure",
@@ -155,7 +191,7 @@
         "PHP",
         "PHP2Shell"
       ],
-      "rank": 8
+      "rank": 10
     },
     {
       "title": "Xbox wants you to pay 24 to 40 cents per hour to stream games you bought",
@@ -174,7 +210,7 @@
         "cloud gaming",
         "game streaming"
       ],
-      "rank": 9
+      "rank": 11
     },
     {
       "title": "Faster than earcut: triangulating 3.7M map polygons in 489 ms",
@@ -193,7 +229,7 @@
         "Earstrip",
         "WebAssembly"
       ],
-      "rank": 10
+      "rank": 12
     }
   ]
 }
