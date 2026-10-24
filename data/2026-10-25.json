@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-25",
+  "total_feeds": 95,
+  "success_feeds": 90,
+  "total_articles": 3464,
+  "filtered_articles": 35,
+  "articles": [
+    {
+      "title": "Node2Shell evolves to HTTP2Shell, blast radius affects many HTTP libs and apps",
+      "title_display": "Node2Shell evolves to HTTP2Shell, blast radius affects many HTTP libs and apps",
+      "link": "https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497",
+      "pub_date": "2026-10-24T11:50:55.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 131,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "HTTP2Shell",
+        "Node2Shell",
+        "Brotli",
+        "Python"
+      ],
+      "rank": 1
+    }
+  ]
+}
