@@ -1,10 +1,27 @@
 {
   "date": "2026-10-24",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3438,
-  "filtered_articles": 39,
+  "success_feeds": 88,
+  "total_articles": 3433,
+  "filtered_articles": 34,
   "articles": [
+    {
+      "title": "We are all living inside of an obscure sci-fi film from 1970",
+      "title_display": "We are all living inside of an obscure sci-fi film from 1970",
+      "link": "https://thanksforthatjim.bearblog.dev/we-are-all-living-inside-of-an-obscure-sci-fi-film-from-1970/",
+      "pub_date": "2026-10-23T21:00:54.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 121,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "Colossus: The Forbin Project",
+        "AI"
+      ],
+      "rank": 1
+    },
     {
       "title": "Apple Music 404 Not Found",
       "title_display": "Apple Music 404 Not Found",
@@ -13,7 +30,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 307,
+      "hn_points": 622,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -22,7 +39,7 @@
         "iPod",
         "click wheel"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Kimi K3.1 Pro and K3.1 Pro Highspeed",
@@ -32,7 +49,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 368,
+      "hn_points": 719,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -41,7 +58,7 @@
         "Kimi K3.1 Pro Highspeed",
         "Kimi"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Shitter – A Nitter Fork",
@@ -60,7 +77,7 @@
         "Twitter",
         "X"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "OpenSSL 4.1.0",
@@ -77,7 +94,7 @@
         "OpenSSL",
         "OpenSSL 4.1.0"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Remove pgrust: the entry is cheating",
@@ -96,7 +113,7 @@
         "ClickHouse",
         "PostgreSQL"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Job Loss and Cortisone Mania",
@@ -112,7 +129,7 @@
       "keywords": [
         "Cortisone"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "Show HN: OnKey – I'm a bad singer, so I built an app to show where I'm off-key",
@@ -131,7 +148,7 @@
         "ONNX Runtime",
         "Rust"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Mortality Among People with Attention-Deficit/Hyperactivity Disorder",
@@ -150,7 +167,7 @@
         "ADHD medication",
         "JAMA Network Open"
       ],
-      "rank": 8
+      "rank": 9
     }
   ]
 }
