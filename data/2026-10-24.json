@@ -1,10 +1,85 @@
 {
   "date": "2026-10-24",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3433,
-  "filtered_articles": 34,
+  "success_feeds": 90,
+  "total_articles": 3463,
+  "filtered_articles": 38,
   "articles": [
+    {
+      "title": "Twelve Years of Distributed SQLite",
+      "title_display": "Twelve Years of Distributed SQLite",
+      "link": "https://philipotoole.com/twelve-years-of-distributed-sqlite/",
+      "pub_date": "2026-10-24T02:50:57.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 172,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "SQLite",
+        "rqlite",
+        "dqlite",
+        "WAL"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Bringing uv and ty together",
+      "title_display": "Bringing uv and ty together",
+      "link": "https://astral.sh/blog/uv-ty-integration",
+      "pub_date": "2026-10-24T01:50:55.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 133,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "uv",
+        "ty",
+        "Astral",
+        "Python"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "Evolving Threat: http2shell is an RCE in node, Python, and more",
+      "title_display": "Evolving Threat: http2shell is an RCE in node, Python, and more",
+      "link": "https://nitter.click/AikidoSecurity/status/2113759110625906950?__galadriel=lPmlGl9id4oAd5UeBwMhlYKArHyr6lR2IDGujPwB5HV2kQ1aLoPWFd5A9sGuzNcmrp8fUso8qygmHcKTDZ8MNHWqQ3bDJcycV87xp_0VypzQLYj6O_RRHlZuQqj33oASGY2YLSoAiMjeOZN40h7Stf8AG7DPrGZbAPVKUXy36HoMudRbvwF3_r2uYNmfJMhpKzywQDM6Ab8",
+      "pub_date": "2026-10-24T00:00:54.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 137,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "http2shell",
+        "Brotli",
+        "Node.js",
+        "Python"
+      ],
+      "rank": 3
+    },
+    {
+      "title": "CVE Tracker",
+      "title_display": "CVE Tracker",
+      "link": "https://cve.0xosprey.com/",
+      "pub_date": "2026-10-23T22:20:54.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 127,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "CVE",
+        "Linux kernel",
+        "MaraDNS"
+      ],
+      "rank": 4
+    },
     {
       "title": "We are all living inside of an obscure sci-fi film from 1970",
       "title_display": "We are all living inside of an obscure sci-fi film from 1970",
@@ -20,7 +95,7 @@
         "Colossus: The Forbin Project",
         "AI"
       ],
-      "rank": 1
+      "rank": 5
     },
     {
       "title": "Apple Music 404 Not Found",
@@ -39,7 +114,45 @@
         "iPod",
         "click wheel"
       ],
-      "rank": 2
+      "rank": 6
+    },
+    {
+      "title": "UUIDv7 doesn't have the properties you think it does",
+      "title_display": "UUIDv7 doesn't have the properties you think it does",
+      "link": "https://alexsci.com/blog/uuidv7-is-weird/",
+      "pub_date": "2026-10-23T17:31:00.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 121,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "UUIDv7",
+        "UUID",
+        "UUIDv4",
+        "UUIDv1"
+      ],
+      "rank": 7
+    },
+    {
+      "title": "How Is Music Possible",
+      "title_display": "How Is Music Possible",
+      "link": "https://www.henrikkarlsson.xyz/p/music",
+      "pub_date": "2026-10-23T17:20:58.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 126,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "music",
+        "Schopenhauer",
+        "Nietzsche",
+        "Kalash"
+      ],
+      "rank": 8
     },
     {
       "title": "Kimi K3.1 Pro and K3.1 Pro Highspeed",
@@ -58,7 +171,7 @@
         "Kimi K3.1 Pro Highspeed",
         "Kimi"
       ],
-      "rank": 3
+      "rank": 9
     },
     {
       "title": "Shitter – A Nitter Fork",
@@ -77,7 +190,7 @@
         "Twitter",
         "X"
       ],
-      "rank": 4
+      "rank": 10
     },
     {
       "title": "OpenSSL 4.1.0",
@@ -94,7 +207,7 @@
         "OpenSSL",
         "OpenSSL 4.1.0"
       ],
-      "rank": 5
+      "rank": 11
     },
     {
       "title": "Remove pgrust: the entry is cheating",
@@ -113,7 +226,7 @@
         "ClickHouse",
         "PostgreSQL"
       ],
-      "rank": 6
+      "rank": 12
     },
     {
       "title": "Job Loss and Cortisone Mania",
@@ -129,7 +242,26 @@
       "keywords": [
         "Cortisone"
       ],
-      "rank": 7
+      "rank": 13
+    },
+    {
+      "title": "Is this the new cyber normal?",
+      "title_display": "Is this the new cyber normal?",
+      "link": "https://drew.silcock.dev/blog/is-this-the-new-cyber-normal/",
+      "pub_date": "2026-10-23T11:31:09.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 151,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "LLMs",
+        "AI-generated code",
+        "Mythos",
+        "PHP"
+      ],
+      "rank": 14
     },
     {
       "title": "Show HN: OnKey – I'm a bad singer, so I built an app to show where I'm off-key",
@@ -148,7 +280,7 @@
         "ONNX Runtime",
         "Rust"
       ],
-      "rank": 8
+      "rank": 15
     },
     {
       "title": "Mortality Among People with Attention-Deficit/Hyperactivity Disorder",
@@ -167,7 +299,7 @@
         "ADHD medication",
         "JAMA Network Open"
       ],
-      "rank": 9
+      "rank": 16
     }
   ]
 }
