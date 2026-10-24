@@ -3,8 +3,63 @@
   "total_feeds": 95,
   "success_feeds": 90,
   "total_articles": 3463,
-  "filtered_articles": 38,
+  "filtered_articles": 33,
   "articles": [
+    {
+      "title": "Around a dozen banking apps began specifically permitting GrapheneOS",
+      "title_display": "Around a dozen banking apps began specifically permitting GrapheneOS",
+      "link": "https://grapheneos.social/@GrapheneOS/117492375462459244",
+      "pub_date": "2026-10-24T10:30:56.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 214,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "GrapheneOS",
+        "banking apps",
+        "hardware attestation",
+        "exploit protection"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "OBS Studio 33",
+      "title_display": "OBS Studio 33",
+      "link": "https://github.com/obsproject/obs-studio/releases/tag/33.0.0",
+      "pub_date": "2026-10-24T06:40:55.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 159,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "OBS Studio",
+        "WebSocket"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "How close can pure functional programming get to C?",
+      "title_display": "How close can pure functional programming get to C?",
+      "link": "https://rtfeldman.com/fp-vs-c",
+      "pub_date": "2026-10-24T05:00:55.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 138,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "C",
+        "functional programming",
+        "Roc",
+        "Richard Feldman"
+      ],
+      "rank": 3
+    },
     {
       "title": "Twelve Years of Distributed SQLite",
       "title_display": "Twelve Years of Distributed SQLite",
@@ -22,7 +77,7 @@
         "dqlite",
         "WAL"
       ],
-      "rank": 1
+      "rank": 4
     },
     {
       "title": "Bringing uv and ty together",
@@ -41,7 +96,7 @@
         "Astral",
         "Python"
       ],
-      "rank": 2
+      "rank": 5
     },
     {
       "title": "Evolving Threat: http2shell is an RCE in node, Python, and more",
@@ -60,7 +115,7 @@
         "Node.js",
         "Python"
       ],
-      "rank": 3
+      "rank": 6
     },
     {
       "title": "CVE Tracker",
@@ -78,7 +133,7 @@
         "Linux kernel",
         "MaraDNS"
       ],
-      "rank": 4
+      "rank": 7
     },
     {
       "title": "We are all living inside of an obscure sci-fi film from 1970",
@@ -95,7 +150,7 @@
         "Colossus: The Forbin Project",
         "AI"
       ],
-      "rank": 5
+      "rank": 8
     },
     {
       "title": "Apple Music 404 Not Found",
@@ -114,7 +169,7 @@
         "iPod",
         "click wheel"
       ],
-      "rank": 6
+      "rank": 9
     },
     {
       "title": "UUIDv7 doesn't have the properties you think it does",
@@ -133,7 +188,7 @@
         "UUIDv4",
         "UUIDv1"
       ],
-      "rank": 7
+      "rank": 10
     },
     {
       "title": "How Is Music Possible",
@@ -152,7 +207,7 @@
         "Nietzsche",
         "Kalash"
       ],
-      "rank": 8
+      "rank": 11
     },
     {
       "title": "Kimi K3.1 Pro and K3.1 Pro Highspeed",
@@ -171,7 +226,7 @@
         "Kimi K3.1 Pro Highspeed",
         "Kimi"
       ],
-      "rank": 9
+      "rank": 12
     },
     {
       "title": "Shitter – A Nitter Fork",
@@ -190,7 +245,7 @@
         "Twitter",
         "X"
       ],
-      "rank": 10
+      "rank": 13
     },
     {
       "title": "OpenSSL 4.1.0",
@@ -207,7 +262,7 @@
         "OpenSSL",
         "OpenSSL 4.1.0"
       ],
-      "rank": 11
+      "rank": 14
     },
     {
       "title": "Remove pgrust: the entry is cheating",
@@ -226,7 +281,7 @@
         "ClickHouse",
         "PostgreSQL"
       ],
-      "rank": 12
+      "rank": 15
     },
     {
       "title": "Job Loss and Cortisone Mania",
@@ -242,7 +297,7 @@
       "keywords": [
         "Cortisone"
       ],
-      "rank": 13
+      "rank": 16
     },
     {
       "title": "Is this the new cyber normal?",
@@ -261,7 +316,7 @@
         "Mythos",
         "PHP"
       ],
-      "rank": 14
+      "rank": 17
     },
     {
       "title": "Show HN: OnKey – I'm a bad singer, so I built an app to show where I'm off-key",
@@ -280,7 +335,7 @@
         "ONNX Runtime",
         "Rust"
       ],
-      "rank": 15
+      "rank": 18
     },
     {
       "title": "Mortality Among People with Attention-Deficit/Hyperactivity Disorder",
@@ -299,7 +354,7 @@
         "ADHD medication",
         "JAMA Network Open"
       ],
-      "rank": 16
+      "rank": 19
     }
   ]
 }
