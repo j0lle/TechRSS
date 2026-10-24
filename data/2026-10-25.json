@@ -1,10 +1,29 @@
 {
   "date": "2026-10-25",
   "total_feeds": 95,
-  "success_feeds": 90,
-  "total_articles": 3464,
-  "filtered_articles": 30,
+  "success_feeds": 88,
+  "total_articles": 3409,
+  "filtered_articles": 27,
   "articles": [
+    {
+      "title": "Roku developer repositories moved from GitHub to GitLab",
+      "title_display": "Roku developer repositories moved from GitHub to GitLab",
+      "link": "https://blog.roku.com/developer/gitlab-move",
+      "pub_date": "2026-10-24T16:20:54.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 165,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Roku",
+        "GitHub",
+        "GitLab",
+        "Microsoft"
+      ],
+      "rank": 1
+    },
     {
       "title": "Node2Shell evolves to HTTP2Shell, blast radius affects many HTTP libs and apps",
       "title_display": "Node2Shell evolves to HTTP2Shell, blast radius affects many HTTP libs and apps",
@@ -13,8 +32,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 131,
-      "score": 26,
+      "hn_points": 236,
+      "score": 29,
       "category": "other",
       "keywords": [
         "HTTP2Shell",
@@ -22,7 +41,7 @@
         "Brotli",
         "Python"
       ],
-      "rank": 1
+      "rank": 2
     }
   ]
 }
