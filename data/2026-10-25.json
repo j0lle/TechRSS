@@ -1,10 +1,48 @@
 {
   "date": "2026-10-25",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3409,
-  "filtered_articles": 27,
+  "success_feeds": 90,
+  "total_articles": 3464,
+  "filtered_articles": 26,
   "articles": [
+    {
+      "title": "No Signs of AI Payoff Outside the Tech Sector",
+      "title_display": "No Signs of AI Payoff Outside the Tech Sector",
+      "link": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
+      "pub_date": "2026-10-24T20:00:54.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 386,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "AI",
+        "Apollo",
+        "productivity",
+        "tech sector"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Danish Government silently drops plan to dump MS Office",
+      "title_display": "Danish Government silently drops plan to dump MS Office",
+      "link": "https://www.computerworld.dk/art/297226/digitaliseringsministeriet-har-i-al-stilhed-droppet-stort-anlagt-forsoeg-med-open-source-alternativ-til-microsoft",
+      "pub_date": "2026-10-24T19:10:55.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 168,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Microsoft Office",
+        "Collabora Online",
+        "Digitaliseringsministeriet",
+        "Danish Government"
+      ],
+      "rank": 2
+    },
     {
       "title": "Roku developer repositories moved from GitHub to GitLab",
       "title_display": "Roku developer repositories moved from GitHub to GitLab",
@@ -22,7 +60,7 @@
         "GitLab",
         "Microsoft"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "Node2Shell evolves to HTTP2Shell, blast radius affects many HTTP libs and apps",
@@ -41,7 +79,7 @@
         "Brotli",
         "Python"
       ],
-      "rank": 2
+      "rank": 4
     }
   ]
 }
