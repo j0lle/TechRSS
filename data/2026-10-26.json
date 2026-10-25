@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-26",
+  "total_feeds": 95,
+  "success_feeds": 89,
+  "total_articles": 3436,
+  "filtered_articles": 22,
+  "articles": [
+    {
+      "title": "Tool book of a Nuremberg knight from 1505",
+      "title_display": "Tool book of a Nuremberg knight from 1505",
+      "link": "https://loeffelholz-codex.org/en/",
+      "pub_date": "2026-10-25T13:31:15.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 134,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Löffelholz Codex",
+        "Nuremberg",
+        "LLM",
+        "medieval manuscript"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "fheroes2: A recreation of Heroes of Might and Magic II game engine",
+      "title_display": "fheroes2: A recreation of Heroes of Might and Magic II game engine",
+      "link": "https://github.com/ihhub/fheroes2",
+      "pub_date": "2026-10-25T11:50:57.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 121,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "fheroes2",
+        "Heroes of Might and Magic II",
+        "Heroes of Might and Magic III"
+      ],
+      "rank": 2
+    }
+  ]
+}
