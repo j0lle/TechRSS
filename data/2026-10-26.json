@@ -2,9 +2,27 @@
   "date": "2026-10-26",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3436,
-  "filtered_articles": 22,
+  "total_articles": 3433,
+  "filtered_articles": 24,
   "articles": [
+    {
+      "title": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
+      "title_display": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
+      "link": "https://lynchlab.net/llm-skin-cancer",
+      "pub_date": "2026-10-25T18:00:55.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 249,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "convolutional neural networks",
+        "large language models",
+        "skin cancer diagnosis"
+      ],
+      "rank": 1
+    },
     {
       "title": "Tool book of a Nuremberg knight from 1505",
       "title_display": "Tool book of a Nuremberg knight from 1505",
@@ -22,7 +40,7 @@
         "LLM",
         "medieval manuscript"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "fheroes2: A recreation of Heroes of Might and Magic II game engine",
@@ -40,7 +58,7 @@
         "Heroes of Might and Magic II",
         "Heroes of Might and Magic III"
       ],
-      "rank": 2
+      "rank": 3
     }
   ]
 }
