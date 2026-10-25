@@ -1,10 +1,46 @@
 {
   "date": "2026-10-26",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3433,
-  "filtered_articles": 24,
+  "success_feeds": 90,
+  "total_articles": 3463,
+  "filtered_articles": 26,
   "articles": [
+    {
+      "title": "JetBrains Thinkrail",
+      "title_display": "JetBrains Thinkrail",
+      "link": "https://github.com/JetBrains/thinkrail",
+      "pub_date": "2026-10-25T19:30:57.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 143,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Thinkrail",
+        "JetBrains",
+        "Pi",
+        "AI agents"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Dolly Parton's Imagination Library",
+      "title_display": "Dolly Parton's Imagination Library",
+      "link": "https://imaginationlibrary.com/",
+      "pub_date": "2026-10-25T18:40:55.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 237,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "Dolly Parton",
+        "Imagination Library"
+      ],
+      "rank": 2
+    },
     {
       "title": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
       "title_display": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
@@ -21,7 +57,7 @@
         "large language models",
         "skin cancer diagnosis"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "Tool book of a Nuremberg knight from 1505",
@@ -40,7 +76,7 @@
         "LLM",
         "medieval manuscript"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "fheroes2: A recreation of Heroes of Might and Magic II game engine",
@@ -58,7 +94,7 @@
         "Heroes of Might and Magic II",
         "Heroes of Might and Magic III"
       ],
-      "rank": 3
+      "rank": 5
     }
   ]
 }
