@@ -2,9 +2,85 @@
   "date": "2026-10-26",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3433,
-  "filtered_articles": 20,
+  "total_articles": 3436,
+  "filtered_articles": 29,
   "articles": [
+    {
+      "title": "IBM CEO says open weight models are now irresistibly good and cheap on-prem",
+      "title_display": "IBM CEO says open weight models are now irresistibly good and cheap on-prem",
+      "link": "https://www.theregister.com/systems/2026/10/22/ibm-ceo-says-open-weight-models-are-now-irresistibly-good-and-cheap-on-prem/5304640",
+      "pub_date": "2026-10-26T03:11:01.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 152,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "IBM",
+        "open-weight models",
+        "on-premises AI",
+        "LLM inference"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
+      "title_display": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
+      "link": "https://minimaxir.com/2026/10/cheap-llms/",
+      "pub_date": "2026-10-25T23:10:56.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 157,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "OpenAI",
+        "Anthropic",
+        "LLM pricing",
+        "LLM inference"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "The State of Context Engineering",
+      "title_display": "The State of Context Engineering",
+      "link": "https://www.dbreunig.com/2026/10/24/the-state-of-context-engineering.html",
+      "pub_date": "2026-10-25T22:30:58.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 134,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Context engineering",
+        "LLM context windows",
+        "Context compaction",
+        "Coding agents"
+      ],
+      "rank": 3
+    },
+    {
+      "title": "Why I Am a Programmer",
+      "title_display": "Why I Am a Programmer",
+      "link": "https://www.alfie.wtf/programming/why-i-am-a-programmer.html",
+      "pub_date": "2026-10-25T20:00:57.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 134,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Programming",
+        "Three.js",
+        "Geometric algebra",
+        "demoscene"
+      ],
+      "rank": 4
+    },
     {
       "title": "JetBrains Thinkrail",
       "title_display": "JetBrains Thinkrail",
@@ -22,7 +98,24 @@
         "Pi",
         "AI agents"
       ],
-      "rank": 1
+      "rank": 5
+    },
+    {
+      "title": "Amazon's \"digital pacifier\" for toddlers",
+      "title_display": "Amazon's \"digital pacifier\" for toddlers",
+      "link": "https://oligarchwatch.substack.com/p/amazons-digital-pacifier-for-toddlers",
+      "pub_date": "2026-10-25T18:40:56.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 144,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Amazon",
+        "AI"
+      ],
+      "rank": 6
     },
     {
       "title": "Dolly Parton's Imagination Library",
@@ -39,7 +132,7 @@
         "Dolly Parton",
         "Imagination Library"
       ],
-      "rank": 2
+      "rank": 7
     },
     {
       "title": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
@@ -57,7 +150,7 @@
         "large language models",
         "skin cancer diagnosis"
       ],
-      "rank": 3
+      "rank": 8
     },
     {
       "title": "Tool book of a Nuremberg knight from 1505",
@@ -76,7 +169,7 @@
         "LLM",
         "medieval manuscript"
       ],
-      "rank": 4
+      "rank": 9
     },
     {
       "title": "fheroes2: A recreation of Heroes of Might and Magic II game engine",
@@ -94,7 +187,7 @@
         "Heroes of Might and Magic II",
         "Heroes of Might and Magic III"
       ],
-      "rank": 5
+      "rank": 10
     }
   ]
 }
