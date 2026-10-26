@@ -2,9 +2,64 @@
   "date": "2026-10-26",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3436,
-  "filtered_articles": 29,
+  "total_articles": 3437,
+  "filtered_articles": 38,
   "articles": [
+    {
+      "title": "Birdwatching rewires the brain and slows cognitive decline",
+      "title_display": "Birdwatching rewires the brain and slows cognitive decline",
+      "link": "https://www.bbc.com/future/article/20261019-birdwatching-rewires-the-brain-and-slows-cognitive-decline",
+      "pub_date": "2026-10-26T10:11:07.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 135,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Birdwatching",
+        "Cognitive decline"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "PaperPilot – Zero-Cloud, Pure-Rust PDF Engine with WASM and MCP",
+      "title_display": "PaperPilot – Zero-Cloud, Pure-Rust PDF Engine with WASM and MCP",
+      "link": "https://github.com/KrushnaVardhanReddy/PaperPilot",
+      "pub_date": "2026-10-26T04:00:59.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 126,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "PaperPilot",
+        "Rust",
+        "PDF",
+        "WebAssembly"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "Show HN: A Truly Modular Keyboard",
+      "title_display": "Show HN: A Truly Modular Keyboard",
+      "link": "https://github.com/notaroomba/keybytes",
+      "pub_date": "2026-10-26T03:41:03.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 136,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Keybytes",
+        "modular keyboard",
+        "PCB",
+        "I2C"
+      ],
+      "rank": 3
+    },
     {
       "title": "IBM CEO says open weight models are now irresistibly good and cheap on-prem",
       "title_display": "IBM CEO says open weight models are now irresistibly good and cheap on-prem",
@@ -13,8 +68,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 152,
-      "score": 27,
+      "hn_points": 359,
+      "score": 30,
       "category": "other",
       "keywords": [
         "IBM",
@@ -22,7 +77,7 @@
         "on-premises AI",
         "LLM inference"
       ],
-      "rank": 1
+      "rank": 4
     },
     {
       "title": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
@@ -32,8 +87,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 157,
-      "score": 27,
+      "hn_points": 372,
+      "score": 30,
       "category": "other",
       "keywords": [
         "OpenAI",
@@ -41,7 +96,7 @@
         "LLM pricing",
         "LLM inference"
       ],
-      "rank": 2
+      "rank": 5
     },
     {
       "title": "The State of Context Engineering",
@@ -60,7 +115,7 @@
         "Context compaction",
         "Coding agents"
       ],
-      "rank": 3
+      "rank": 6
     },
     {
       "title": "Why I Am a Programmer",
@@ -70,8 +125,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 134,
-      "score": 26,
+      "hn_points": 237,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Programming",
@@ -79,7 +134,7 @@
         "Geometric algebra",
         "demoscene"
       ],
-      "rank": 4
+      "rank": 7
     },
     {
       "title": "JetBrains Thinkrail",
@@ -98,7 +153,7 @@
         "Pi",
         "AI agents"
       ],
-      "rank": 5
+      "rank": 8
     },
     {
       "title": "Amazon's \"digital pacifier\" for toddlers",
@@ -108,14 +163,14 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 144,
-      "score": 26,
+      "hn_points": 244,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Amazon",
         "AI"
       ],
-      "rank": 6
+      "rank": 9
     },
     {
       "title": "Dolly Parton's Imagination Library",
@@ -132,7 +187,7 @@
         "Dolly Parton",
         "Imagination Library"
       ],
-      "rank": 7
+      "rank": 10
     },
     {
       "title": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
@@ -150,7 +205,7 @@
         "large language models",
         "skin cancer diagnosis"
       ],
-      "rank": 8
+      "rank": 11
     },
     {
       "title": "Tool book of a Nuremberg knight from 1505",
@@ -169,7 +224,7 @@
         "LLM",
         "medieval manuscript"
       ],
-      "rank": 9
+      "rank": 12
     },
     {
       "title": "fheroes2: A recreation of Heroes of Might and Magic II game engine",
@@ -187,7 +242,7 @@
         "Heroes of Might and Magic II",
         "Heroes of Might and Magic III"
       ],
-      "rank": 10
+      "rank": 13
     }
   ]
 }
