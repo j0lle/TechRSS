@@ -1,0 +1,123 @@
+{
+  "date": "2026-10-28",
+  "total_feeds": 95,
+  "success_feeds": 89,
+  "total_articles": 3441,
+  "filtered_articles": 42,
+  "articles": [
+    {
+      "title": "Python's experimental JIT to be removed",
+      "title_display": "Python's experimental JIT to be removed",
+      "link": "https://lwn.net/SubscriberLink/1102102/0c00e4d550f25f8c/",
+      "pub_date": "2026-10-27T12:10:57.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 200,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "Python",
+        "CPython",
+        "JIT",
+        "PEP 836"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Software may be getting worse, but it used to be horrible",
+      "title_display": "Software may be getting worse, but it used to be horrible",
+      "link": "https://www.bitlog.com/2026/10/27/software-may-be-getting-worse-but-it-used-to-be-horrible/",
+      "pub_date": "2026-10-27T11:41:00.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 167,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "software quality",
+        "software architecture",
+        "user experience",
+        "LLMs"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "Roblox downloaded 145GB models from us (including adult content) without asking",
+      "title_display": "Roblox downloaded 145GB models from us (including adult content) without asking",
+      "link": "https://open3dlab.com/news/roblox-downloaded-145-gb-of-models-from-our-sites/",
+      "pub_date": "2026-10-27T10:50:57.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 383,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Roblox",
+        "Open3DLab",
+        "web scraping",
+        "robots.txt"
+      ],
+      "rank": 3
+    },
+    {
+      "title": "I will no longer upload to NEW",
+      "title_display": "I will no longer upload to NEW",
+      "link": "https://lists.debian.org/debian-devel/2026/10/msg00263.html",
+      "pub_date": "2026-10-27T10:40:57.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 177,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Debian",
+        "LLM",
+        "Debian NEW queue",
+        "FOSS"
+      ],
+      "rank": 4
+    },
+    {
+      "title": "The Mythical Man-Month in the Age of AI",
+      "title_display": "The Mythical Man-Month in the Age of AI",
+      "link": "https://j11g.com/the-mythical-man-month-in-the-age-of-ai",
+      "pub_date": "2026-10-27T07:11:09.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 268,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "The Mythical Man-Month",
+        "AI agents",
+        "LLM",
+        "Claude Code"
+      ],
+      "rank": 5
+    },
+    {
+      "title": "Microsoft Announces Type Server Protocol, Extension of Language Server Protocol",
+      "title_display": "Microsoft Announces Type Server Protocol, Extension of Language Server Protocol",
+      "link": "https://github.com/microsoft/pylance-release/blob/main/docs/tsp/type-server-protocol.md",
+      "pub_date": "2026-10-26T18:40:58.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 250,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "Microsoft",
+        "Type Server Protocol",
+        "Language Server Protocol",
+        "Pylance"
+      ],
+      "rank": 6
+    }
+  ]
+}
