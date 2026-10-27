@@ -1,9 +1,9 @@
 {
   "date": "2026-10-27",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3443,
-  "filtered_articles": 41,
+  "success_feeds": 88,
+  "total_articles": 3415,
+  "filtered_articles": 43,
   "articles": [
     {
       "title": "The Exponential Time Hypothesis Is False [pdf]",
@@ -13,7 +13,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 307,
+      "hn_points": 611,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -23,6 +23,25 @@
         "P versus NP"
       ],
       "rank": 1
+    },
+    {
+      "title": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model (155 responses)",
+      "title_display": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model (155 responses)",
+      "link": "https://blog.cloudflare.com/kv-cache-exposure-remediation/",
+      "pub_date": "2026-10-26T22:50:54.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 128,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Cloudflare",
+        "Workers AI",
+        "GLM-5.3",
+        "KV cache"
+      ],
+      "rank": 2
     },
     {
       "title": "Show HN: Hob - Open-source, on device alternative to Claude Cowork and ChatGPT",
@@ -41,7 +60,7 @@
         "ChatGPT",
         "llama.cpp"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "The EPA Is Quietly Killing Its Web Archive",
@@ -60,7 +79,7 @@
         "Internet Archive",
         "End of Term Web Archive"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Oldest GUI application that still runs on Windows 11",
@@ -70,7 +89,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 290,
+      "hn_points": 395,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -79,7 +98,7 @@
         "GUI",
         "Windows API"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Nietzschian Debugger",
@@ -98,7 +117,7 @@
         "Anthropic",
         "LLM"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "CSS-Tricks has a new owner",
@@ -117,7 +136,7 @@
         "Geoff Graham",
         "CSS"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "'It's offensively cheap': Solar power is quietly becoming bigger than nuclear",
@@ -127,8 +146,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 147,
-      "score": 26,
+      "hn_points": 253,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Solar power",
@@ -136,7 +155,7 @@
         "Battery storage",
         "Solar PV"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "Colorfigures",
@@ -154,7 +173,7 @@
         "Claude",
         "Python"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "Fixing Tool-Call Accuracy in vLLM",
@@ -173,7 +192,7 @@
         "constrained decoding",
         "LLM inference"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "One of the Greatest Inventions in the History of Human Transport",
@@ -192,7 +211,7 @@
         "Paris",
         "public transit"
       ],
-      "rank": 10
+      "rank": 11
     }
   ]
 }
