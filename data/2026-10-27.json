@@ -1,10 +1,48 @@
 {
   "date": "2026-10-27",
   "total_feeds": 95,
-  "success_feeds": 85,
-  "total_articles": 3353,
-  "filtered_articles": 32,
+  "success_feeds": 89,
+  "total_articles": 3443,
+  "filtered_articles": 41,
   "articles": [
+    {
+      "title": "The Exponential Time Hypothesis Is False [pdf]",
+      "title_display": "The Exponential Time Hypothesis Is False [pdf]",
+      "link": "https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf",
+      "pub_date": "2026-10-26T23:10:56.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 307,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Exponential Time Hypothesis",
+        "OpenAI",
+        "3-SAT",
+        "P versus NP"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Show HN: Hob - Open-source, on device alternative to Claude Cowork and ChatGPT",
+      "title_display": "Show HN: Hob - Open-source, on device alternative to Claude Cowork and ChatGPT",
+      "link": "https://github.com/FrigadeHQ/hob",
+      "pub_date": "2026-10-26T20:40:54.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 132,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Hob",
+        "Claude Cowork",
+        "ChatGPT",
+        "llama.cpp"
+      ],
+      "rank": 2
+    },
     {
       "title": "The EPA Is Quietly Killing Its Web Archive",
       "title_display": "The EPA Is Quietly Killing Its Web Archive",
@@ -22,7 +60,45 @@
         "Internet Archive",
         "End of Term Web Archive"
       ],
-      "rank": 1
+      "rank": 3
+    },
+    {
+      "title": "Oldest GUI application that still runs on Windows 11",
+      "title_display": "Oldest GUI application that still runs on Windows 11",
+      "link": "https://blog.enlyth.com/posts/oldest-windows-gui-app-win-11/",
+      "pub_date": "2026-10-26T19:00:55.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 290,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Windows 11",
+        "Windows",
+        "GUI",
+        "Windows API"
+      ],
+      "rank": 4
+    },
+    {
+      "title": "Nietzschian Debugger",
+      "title_display": "Nietzschian Debugger",
+      "link": "https://github.com/DilawarShafiq/nietzschian-debugger",
+      "pub_date": "2026-10-26T18:10:55.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 126,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Nietzschian Debugger",
+        "Claude",
+        "Anthropic",
+        "LLM"
+      ],
+      "rank": 5
     },
     {
       "title": "CSS-Tricks has a new owner",
@@ -41,7 +117,26 @@
         "Geoff Graham",
         "CSS"
       ],
-      "rank": 2
+      "rank": 6
+    },
+    {
+      "title": "'It's offensively cheap': Solar power is quietly becoming bigger than nuclear",
+      "title_display": "'It's offensively cheap': Solar power is quietly becoming bigger than nuclear",
+      "link": "https://www.bbc.com/future/article/20261023-how-solar-became-bigger-than-nuclear",
+      "pub_date": "2026-10-26T15:50:56.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 147,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Solar power",
+        "Nuclear power",
+        "Battery storage",
+        "Solar PV"
+      ],
+      "rank": 7
     },
     {
       "title": "Colorfigures",
@@ -59,7 +154,7 @@
         "Claude",
         "Python"
       ],
-      "rank": 3
+      "rank": 8
     },
     {
       "title": "Fixing Tool-Call Accuracy in vLLM",
@@ -78,7 +173,7 @@
         "constrained decoding",
         "LLM inference"
       ],
-      "rank": 4
+      "rank": 9
     },
     {
       "title": "One of the Greatest Inventions in the History of Human Transport",
@@ -88,8 +183,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 159,
-      "score": 27,
+      "hn_points": 261,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Blaise Pascal",
@@ -97,7 +192,7 @@
         "Paris",
         "public transit"
       ],
-      "rank": 5
+      "rank": 10
     }
   ]
 }
