@@ -1,10 +1,67 @@
 {
   "date": "2026-10-28",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3441,
-  "filtered_articles": 42,
+  "success_feeds": 90,
+  "total_articles": 3472,
+  "filtered_articles": 41,
   "articles": [
+    {
+      "title": "Apple introduces the new 14‑inch MacBook Pro with M6",
+      "title_display": "Apple introduces the new 14‑inch MacBook Pro with M6",
+      "link": "https://www.apple.com/in/newsroom/2026/10/apple-introduces-the-new-14-inch-macbook-pro-with-m6/",
+      "pub_date": "2026-10-27T16:21:08.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 136,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Apple",
+        "MacBook Pro",
+        "M6",
+        "Apple Silicon"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Giving chat feedback gives Anthropic your data",
+      "title_display": "Giving chat feedback gives Anthropic your data",
+      "link": "https://privacy.claude.com/en/articles/7996868-is-my-data-used-for-model-training",
+      "pub_date": "2026-10-27T14:31:00.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 165,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Anthropic",
+        "Claude",
+        "Claude Code",
+        "model training"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "Wiz: No successful PHP2Shell exploits seen so far; exposure down 67%",
+      "title_display": "Wiz: No successful PHP2Shell exploits seen so far; exposure down 67%",
+      "link": "https://www.wiz.io/blog/php2shell-exploitation-so-far",
+      "pub_date": "2026-10-27T14:10:56.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 149,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "PHP2Shell",
+        "Wiz",
+        "PHP",
+        "Trail of Bits"
+      ],
+      "rank": 3
+    },
     {
       "title": "Python's experimental JIT to be removed",
       "title_display": "Python's experimental JIT to be removed",
@@ -13,8 +70,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 200,
-      "score": 28,
+      "hn_points": 300,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Python",
@@ -22,7 +79,7 @@
         "JIT",
         "PEP 836"
       ],
-      "rank": 1
+      "rank": 4
     },
     {
       "title": "Software may be getting worse, but it used to be horrible",
@@ -32,8 +89,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 167,
-      "score": 27,
+      "hn_points": 270,
+      "score": 29,
       "category": "other",
       "keywords": [
         "software quality",
@@ -41,7 +98,7 @@
         "user experience",
         "LLMs"
       ],
-      "rank": 2
+      "rank": 5
     },
     {
       "title": "Roblox downloaded 145GB models from us (including adult content) without asking",
@@ -60,7 +117,7 @@
         "web scraping",
         "robots.txt"
       ],
-      "rank": 3
+      "rank": 6
     },
     {
       "title": "I will no longer upload to NEW",
@@ -79,7 +136,7 @@
         "Debian NEW queue",
         "FOSS"
       ],
-      "rank": 4
+      "rank": 7
     },
     {
       "title": "The Mythical Man-Month in the Age of AI",
@@ -89,8 +146,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 268,
-      "score": 29,
+      "hn_points": 371,
+      "score": 30,
       "category": "other",
       "keywords": [
         "The Mythical Man-Month",
@@ -98,7 +155,26 @@
         "LLM",
         "Claude Code"
       ],
-      "rank": 5
+      "rank": 8
+    },
+    {
+      "title": "16-bit Windows (Windows 1.x, 2.x, 3.0, 3.1, etc.) on 64-bit Windows",
+      "title_display": "16-bit Windows (Windows 1.x, 2.x, 3.0, 3.1, etc.) on 64-bit Windows",
+      "link": "https://github.com/otya128/winevdm",
+      "pub_date": "2026-10-27T01:30:55.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 122,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "WineVDM",
+        "Windows",
+        "Wine",
+        "16-bit Windows"
+      ],
+      "rank": 9
     },
     {
       "title": "Microsoft Announces Type Server Protocol, Extension of Language Server Protocol",
@@ -117,7 +193,7 @@
         "Language Server Protocol",
         "Pylance"
       ],
-      "rank": 6
+      "rank": 10
     }
   ]
 }
