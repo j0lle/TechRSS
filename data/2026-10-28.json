@@ -1,10 +1,29 @@
 {
   "date": "2026-10-28",
   "total_feeds": 95,
-  "success_feeds": 90,
-  "total_articles": 3472,
-  "filtered_articles": 41,
+  "success_feeds": 89,
+  "total_articles": 3442,
+  "filtered_articles": 35,
   "articles": [
+    {
+      "title": "Survival LLM: AI assistant and emergency library that runs on your own computer",
+      "title_display": "Survival LLM: AI assistant and emergency library that runs on your own computer",
+      "link": "https://www.brangus.io/survival-llm",
+      "pub_date": "2026-10-27T20:20:55.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 122,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "Survival LLM",
+        "IBM Granite 4.2 8B",
+        "RAG",
+        "Kiwix"
+      ],
+      "rank": 1
+    },
     {
       "title": "Apple introduces the new 14‑inch MacBook Pro with M6",
       "title_display": "Apple introduces the new 14‑inch MacBook Pro with M6",
@@ -13,8 +32,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 136,
-      "score": 26,
+      "hn_points": 247,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Apple",
@@ -22,7 +41,7 @@
         "M6",
         "Apple Silicon"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Giving chat feedback gives Anthropic your data",
@@ -41,7 +60,7 @@
         "Claude Code",
         "model training"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Wiz: No successful PHP2Shell exploits seen so far; exposure down 67%",
@@ -60,7 +79,7 @@
         "PHP",
         "Trail of Bits"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Python's experimental JIT to be removed",
@@ -79,7 +98,7 @@
         "JIT",
         "PEP 836"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "Software may be getting worse, but it used to be horrible",
@@ -98,7 +117,7 @@
         "user experience",
         "LLMs"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Roblox downloaded 145GB models from us (including adult content) without asking",
@@ -117,7 +136,7 @@
         "web scraping",
         "robots.txt"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "I will no longer upload to NEW",
@@ -136,7 +155,7 @@
         "Debian NEW queue",
         "FOSS"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "The Mythical Man-Month in the Age of AI",
@@ -155,7 +174,7 @@
         "LLM",
         "Claude Code"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "16-bit Windows (Windows 1.x, 2.x, 3.0, 3.1, etc.) on 64-bit Windows",
@@ -174,7 +193,7 @@
         "Wine",
         "16-bit Windows"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Microsoft Announces Type Server Protocol, Extension of Language Server Protocol",
@@ -193,7 +212,7 @@
         "Language Server Protocol",
         "Pylance"
       ],
-      "rank": 10
+      "rank": 11
     }
   ]
 }
