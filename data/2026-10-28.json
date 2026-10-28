@@ -2,9 +2,47 @@
   "date": "2026-10-28",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3442,
-  "filtered_articles": 35,
+  "total_articles": 3447,
+  "filtered_articles": 39,
   "articles": [
+    {
+      "title": "Git for US Legislation",
+      "title_display": "Git for US Legislation",
+      "link": "https://lexifina.com/blog/git-for-the-us-code",
+      "pub_date": "2026-10-28T02:40:59.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 153,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Git",
+        "U.S. Code",
+        "Lexifina",
+        "Office of the Law Revision Counsel"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Early progress on accelerating drug development with Claude",
+      "title_display": "Early progress on accelerating drug development with Claude",
+      "link": "https://www.anthropic.com/research/early-progress-drug-development",
+      "pub_date": "2026-10-27T21:10:55.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 136,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Claude",
+        "Anthropic",
+        "drug development",
+        "biotechnology"
+      ],
+      "rank": 2
+    },
     {
       "title": "Survival LLM: AI assistant and emergency library that runs on your own computer",
       "title_display": "Survival LLM: AI assistant and emergency library that runs on your own computer",
@@ -13,8 +51,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 122,
-      "score": 25,
+      "hn_points": 226,
+      "score": 28,
       "category": "other",
       "keywords": [
         "Survival LLM",
@@ -22,7 +60,7 @@
         "RAG",
         "Kiwix"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "Apple introduces the new 14‑inch MacBook Pro with M6",
@@ -41,7 +79,7 @@
         "M6",
         "Apple Silicon"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "Giving chat feedback gives Anthropic your data",
@@ -60,7 +98,7 @@
         "Claude Code",
         "model training"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "Wiz: No successful PHP2Shell exploits seen so far; exposure down 67%",
@@ -79,7 +117,7 @@
         "PHP",
         "Trail of Bits"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "Python's experimental JIT to be removed",
@@ -98,7 +136,7 @@
         "JIT",
         "PEP 836"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "Software may be getting worse, but it used to be horrible",
@@ -117,7 +155,7 @@
         "user experience",
         "LLMs"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "Roblox downloaded 145GB models from us (including adult content) without asking",
@@ -136,7 +174,7 @@
         "web scraping",
         "robots.txt"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "I will no longer upload to NEW",
@@ -155,7 +193,7 @@
         "Debian NEW queue",
         "FOSS"
       ],
-      "rank": 8
+      "rank": 10
     },
     {
       "title": "The Mythical Man-Month in the Age of AI",
@@ -174,7 +212,7 @@
         "LLM",
         "Claude Code"
       ],
-      "rank": 9
+      "rank": 11
     },
     {
       "title": "16-bit Windows (Windows 1.x, 2.x, 3.0, 3.1, etc.) on 64-bit Windows",
@@ -193,7 +231,7 @@
         "Wine",
         "16-bit Windows"
       ],
-      "rank": 10
+      "rank": 12
     },
     {
       "title": "Microsoft Announces Type Server Protocol, Extension of Language Server Protocol",
@@ -212,7 +250,7 @@
         "Language Server Protocol",
         "Pylance"
       ],
-      "rank": 11
+      "rank": 13
     }
   ]
 }
