@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-29",
+  "total_feeds": 95,
+  "success_feeds": 89,
+  "total_articles": 3449,
+  "filtered_articles": 27,
+  "articles": [
+    {
+      "title": "Ten days later, Git on macOS still trusts the compromised eMudhra certificates",
+      "title_display": "Ten days later, Git on macOS still trusts the compromised eMudhra certificates",
+      "link": "https://emudhra.we-have-a-problem.com/apple.html",
+      "pub_date": "2026-10-28T11:50:57.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 452,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Apple",
+        "macOS",
+        "Git",
+        "eMudhra"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Decompiling Fast Food Tycoon 2: Drawing the World",
+      "title_display": "Decompiling Fast Food Tycoon 2: Drawing the World",
+      "link": "https://healeycodes.com/decompiling-fast-food-tycoon-2-drawing-the-world",
+      "pub_date": "2026-10-28T09:21:07.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 129,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Fast Food Tycoon 2",
+        "Pizza Connection 2",
+        "decompilation",
+        "game rendering"
+      ],
+      "rank": 2
+    }
+  ]
+}
