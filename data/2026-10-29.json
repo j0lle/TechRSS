@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3449,
-  "filtered_articles": 27,
+  "filtered_articles": 24,
   "articles": [
+    {
+      "title": "AlpineBSD",
+      "title_display": "AlpineBSD",
+      "link": "https://wiki.alpinebsd.org",
+      "pub_date": "2026-10-28T15:21:07.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 134,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "AlpineBSD",
+        "NetBSD",
+        "Alpine Linux",
+        "AI-generated code"
+      ],
+      "rank": 1
+    },
     {
       "title": "Ten days later, Git on macOS still trusts the compromised eMudhra certificates",
       "title_display": "Ten days later, Git on macOS still trusts the compromised eMudhra certificates",
@@ -13,7 +32,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 452,
+      "hn_points": 938,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -22,7 +41,7 @@
         "Git",
         "eMudhra"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Decompiling Fast Food Tycoon 2: Drawing the World",
@@ -41,7 +60,7 @@
         "decompilation",
         "game rendering"
       ],
-      "rank": 2
+      "rank": 3
     }
   ]
 }
