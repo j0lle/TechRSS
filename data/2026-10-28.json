@@ -2,8 +2,8 @@
   "date": "2026-10-28",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3447,
-  "filtered_articles": 39,
+  "total_articles": 3443,
+  "filtered_articles": 32,
   "articles": [
     {
       "title": "Git for US Legislation",
@@ -13,8 +13,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 153,
-      "score": 27,
+      "hn_points": 257,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Git",
@@ -32,8 +32,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 136,
-      "score": 26,
+      "hn_points": 238,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Claude",
@@ -51,8 +51,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 226,
-      "score": 28,
+      "hn_points": 326,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Survival LLM",
@@ -70,8 +70,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 247,
-      "score": 29,
+      "hn_points": 348,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Apple",
