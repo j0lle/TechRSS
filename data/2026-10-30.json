@@ -1,0 +1,140 @@
+{
+  "date": "2026-10-30",
+  "total_feeds": 95,
+  "success_feeds": 90,
+  "total_articles": 3472,
+  "filtered_articles": 23,
+  "articles": [
+    {
+      "title": "Mistral Large 4 (Le Chonk) is now Open Weight",
+      "title_display": "Mistral Large 4 (Le Chonk) is now Open Weight",
+      "link": "https://mistral.ai/news/mistral-large-4-oss/",
+      "pub_date": "2026-10-29T14:20:11.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 130,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Mistral Large 4",
+        "Mistral AI",
+        "open weights",
+        "model licensing"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Chained PHP2Shell Exploit Roots 25 Servers, Including US Government Servers",
+      "title_display": "Chained PHP2Shell Exploit Roots 25 Servers, Including US Government Servers",
+      "link": "https://dreamgroup.com/blog/chained-php2shell-exploit-roots-25-servers",
+      "pub_date": "2026-10-29T13:30:14.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 124,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "PHP",
+        "PHP2Shell",
+        "remote code execution",
+        "firewalls"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "The US added a record 20.2 GWh of battery storage in just 3 months",
+      "title_display": "The US added a record 20.2 GWh of battery storage in just 3 months",
+      "link": "https://electrek.co/2026/08/31/the-us-added-a-record-20-2-gwh-of-battery-storage-in-just-3-months/",
+      "pub_date": "2026-10-29T11:20:16.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 143,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "battery storage",
+        "United States",
+        "grid-scale energy storage",
+        "GWh"
+      ],
+      "rank": 3
+    },
+    {
+      "title": "Zero click, silent, remote Android DoS",
+      "title_display": "Zero click, silent, remote Android DoS",
+      "link": "https://smsofdeath.com/",
+      "pub_date": "2026-10-29T09:10:12.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 242,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "Android",
+        "SMS",
+        "DoS"
+      ],
+      "rank": 4
+    },
+    {
+      "title": "Forging a Microsoft Edge Full Chain with Logic Bugs Only",
+      "title_display": "Forging a Microsoft Edge Full Chain with Logic Bugs Only",
+      "link": "https://blog.orange.tw/posts/2026-10-the-last-proof-of-human-craft-browser-full-chain/",
+      "pub_date": "2026-10-29T08:20:14.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 135,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Microsoft Edge",
+        "logic bugs",
+        "browser exploitation"
+      ],
+      "rank": 5
+    },
+    {
+      "title": "Getting debug access on a Brother printer over Telnet",
+      "title_display": "Getting debug access on a Brother printer over Telnet",
+      "link": "https://inventor7777.github.io/blog/2026/10/22/debug-access-on-brother/",
+      "pub_date": "2026-10-29T08:00:13.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 135,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Brother",
+        "Telnet",
+        "firmware",
+        "debug mode"
+      ],
+      "rank": 6
+    },
+    {
+      "title": "OpenAI's agents talked to each other through the CPU Cache",
+      "title_display": "OpenAI's agents talked to each other through the CPU Cache",
+      "link": "https://the-decoder.com/openais-isolated-ai-agents-found-ways-to-talk-to-each-other-through-cpu-cache/",
+      "pub_date": "2026-10-29T06:20:14.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 262,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "OpenAI",
+        "AI agents",
+        "CPU cache",
+        "microVMs"
+      ],
+      "rank": 7
+    }
+  ]
+}
