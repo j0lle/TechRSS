@@ -1,10 +1,48 @@
 {
   "date": "2026-10-30",
   "total_feeds": 95,
-  "success_feeds": 90,
-  "total_articles": 3472,
-  "filtered_articles": 23,
+  "success_feeds": 89,
+  "total_articles": 3448,
+  "filtered_articles": 35,
   "articles": [
+    {
+      "title": "Mexico is a showroom for electric vehicles you can't buy in the U.S.",
+      "title_display": "Mexico is a showroom for electric vehicles you can't buy in the U.S.",
+      "link": "https://www.washingtonpost.com/climate-environment/2026/10/27/i-saw-future-driving-mexico-its-off-limits-americans/",
+      "pub_date": "2026-10-29T16:30:14.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 190,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "BYD",
+        "Tesla",
+        "electric vehicles",
+        "Mexico"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "H.264 Is Magic",
+      "title_display": "H.264 Is Magic",
+      "link": "https://sidbala.com/h-264-is-magic/",
+      "pub_date": "2026-10-29T16:10:13.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 168,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "H.264",
+        "video codecs",
+        "AV1",
+        "H.265"
+      ],
+      "rank": 2
+    },
     {
       "title": "Mistral Large 4 (Le Chonk) is now Open Weight",
       "title_display": "Mistral Large 4 (Le Chonk) is now Open Weight",
@@ -13,8 +51,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 130,
-      "score": 26,
+      "hn_points": 607,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Mistral Large 4",
@@ -22,7 +60,7 @@
         "open weights",
         "model licensing"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "Chained PHP2Shell Exploit Roots 25 Servers, Including US Government Servers",
@@ -32,8 +70,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 124,
-      "score": 26,
+      "hn_points": 232,
+      "score": 29,
       "category": "other",
       "keywords": [
         "PHP",
@@ -41,7 +79,7 @@
         "remote code execution",
         "firewalls"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "The US added a record 20.2 GWh of battery storage in just 3 months",
@@ -51,8 +89,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 143,
-      "score": 26,
+      "hn_points": 243,
+      "score": 29,
       "category": "other",
       "keywords": [
         "battery storage",
@@ -60,7 +98,7 @@
         "grid-scale energy storage",
         "GWh"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "Zero click, silent, remote Android DoS",
@@ -78,7 +116,7 @@
         "SMS",
         "DoS"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "Forging a Microsoft Edge Full Chain with Logic Bugs Only",
@@ -96,7 +134,7 @@
         "logic bugs",
         "browser exploitation"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "Getting debug access on a Brother printer over Telnet",
@@ -115,7 +153,45 @@
         "firmware",
         "debug mode"
       ],
-      "rank": 6
+      "rank": 8
+    },
+    {
+      "title": "We Won't \"Just Hang Out\"",
+      "title_display": "We Won't \"Just Hang Out\"",
+      "link": "https://borretti.me/article/we-wont-just-hang-out",
+      "pub_date": "2026-10-29T07:50:12.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 142,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "AI",
+        "UBI",
+        "open source",
+        "automation"
+      ],
+      "rank": 9
+    },
+    {
+      "title": "A new faster algorithm to compute 64-bit signed floor division",
+      "title_display": "A new faster algorithm to compute 64-bit signed floor division",
+      "link": "https://www.benjoffe.com/fast-floordiv",
+      "pub_date": "2026-10-29T06:40:14.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 141,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "64-bit signed floor division",
+        "integer division",
+        "Robison division",
+        "SIMD"
+      ],
+      "rank": 10
     },
     {
       "title": "OpenAI's agents talked to each other through the CPU Cache",
@@ -134,7 +210,26 @@
         "CPU cache",
         "microVMs"
       ],
-      "rank": 7
+      "rank": 11
+    },
+    {
+      "title": "The 'else' keyword is probably a literal translation from German (2020)",
+      "title_display": "The 'else' keyword is probably a literal translation from German (2020)",
+      "link": "https://github.com/e-n-f/if-then-else/blob/master/if-then-else.md",
+      "pub_date": "2026-10-29T04:20:13.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 133,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "else",
+        "if-then-else",
+        "German",
+        "programming languages"
+      ],
+      "rank": 12
     }
   ]
 }
