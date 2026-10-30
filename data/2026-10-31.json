@@ -1,10 +1,86 @@
 {
   "date": "2026-10-31",
   "total_feeds": 95,
-  "success_feeds": 90,
-  "total_articles": 3473,
-  "filtered_articles": 28,
+  "success_feeds": 89,
+  "total_articles": 3448,
+  "filtered_articles": 30,
   "articles": [
+    {
+      "title": "Bunny CDN Security Incident",
+      "title_display": "Bunny CDN Security Incident",
+      "link": "https://status.bunny.net/incidents/p6gf1by9kr7m",
+      "pub_date": "2026-10-30T20:00:13.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 183,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Bunny CDN",
+        "Gcore",
+        "TLS certificates",
+        "CDN"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Florilegium: Procedural Flowers in LaTeX",
+      "title_display": "Florilegium: Procedural Flowers in LaTeX",
+      "link": "https://github.com/kevinraymond/florilegium",
+      "pub_date": "2026-10-30T17:30:25.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 155,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Florilegium",
+        "LaTeX",
+        "TeX",
+        "PDF"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "A Working Nintendo in ~1GB of Qwen Weights",
+      "title_display": "A Working Nintendo in ~1GB of Qwen Weights",
+      "link": "https://github.com/dbreunig/nesformer",
+      "pub_date": "2026-10-30T17:00:14.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 154,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Qwen",
+        "NESformer",
+        "Nintendo Entertainment System",
+        "Qwenputer"
+      ],
+      "rank": 3
+    },
+    {
+      "title": "The Federated Code Forge",
+      "title_display": "The Federated Code Forge",
+      "link": "https://tangled.org/blog/forge/",
+      "pub_date": "2026-10-30T16:30:16.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 134,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Tangled",
+        "AT Protocol",
+        "Git",
+        "federated code hosting"
+      ],
+      "rank": 4
+    },
     {
       "title": "AI Isn't Replacing SREs. It's Deskilling Them",
       "title_display": "AI Isn't Replacing SREs. It's Deskilling Them",
@@ -22,7 +98,7 @@
         "DevOps",
         "observability"
       ],
-      "rank": 1
+      "rank": 5
     },
     {
       "title": "Northflank Breached",
@@ -32,8 +108,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 195,
-      "score": 28,
+      "hn_points": 296,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Northflank",
@@ -41,7 +117,7 @@
         "PaaS",
         "cloud platform"
       ],
-      "rank": 2
+      "rank": 6
     },
     {
       "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
@@ -60,7 +136,7 @@
         "Anthropic",
         "VS Code"
       ],
-      "rank": 3
+      "rank": 7
     },
     {
       "title": "The $6.3B Binance Hack Was Pulled Off in Just 20 Minutes",
@@ -70,8 +146,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 174,
-      "score": 27,
+      "hn_points": 275,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Binance",
@@ -79,7 +155,7 @@
         "hack",
         "Claude Code"
       ],
-      "rank": 4
+      "rank": 8
     },
     {
       "title": "Azure's Weakest Link – Five Full Cross-Tenant Compromises",
@@ -98,7 +174,7 @@
         "cross-tenant compromise",
         "path traversal"
       ],
-      "rank": 5
+      "rank": 9
     }
   ]
 }
