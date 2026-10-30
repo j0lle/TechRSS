@@ -1,10 +1,48 @@
 {
   "date": "2026-10-30",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3448,
-  "filtered_articles": 35,
+  "success_feeds": 90,
+  "total_articles": 3473,
+  "filtered_articles": 28,
   "articles": [
+    {
+      "title": "Alleged Chinese spy had 'close relationship' with Nvidia boss Jensen Huang",
+      "title_display": "Alleged Chinese spy had 'close relationship' with Nvidia boss Jensen Huang",
+      "link": "https://nypost.com/2026/10/29/business/alleged-chinese-spy-had-close-relationship-with-nvidia-boss-jensen-huang-report/",
+      "pub_date": "2026-10-29T19:50:11.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 241,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "Nvidia",
+        "Jensen Huang",
+        "China",
+        "Megaspeed"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Tomas Mikolov (creator of Word2Vec) receives the Medal of Merit",
+      "title_display": "Tomas Mikolov (creator of Word2Vec) receives the Medal of Merit",
+      "link": "https://www.vut.cz/en/but/news-f19528/two-but-graduates-received-state-honors-from-the-president-of-the-republic-d378468",
+      "pub_date": "2026-10-29T17:20:16.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 156,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Tomas Mikolov",
+        "Word2Vec",
+        "word embeddings",
+        "BottleCap AI"
+      ],
+      "rank": 2
+    },
     {
       "title": "Mexico is a showroom for electric vehicles you can't buy in the U.S.",
       "title_display": "Mexico is a showroom for electric vehicles you can't buy in the U.S.",
@@ -22,7 +60,7 @@
         "electric vehicles",
         "Mexico"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "H.264 Is Magic",
@@ -32,8 +70,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 168,
-      "score": 27,
+      "hn_points": 269,
+      "score": 29,
       "category": "other",
       "keywords": [
         "H.264",
@@ -41,7 +79,7 @@
         "AV1",
         "H.265"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "Mistral Large 4 (Le Chonk) is now Open Weight",
@@ -51,7 +89,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 607,
+      "hn_points": 1122,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -60,7 +98,7 @@
         "open weights",
         "model licensing"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "Chained PHP2Shell Exploit Roots 25 Servers, Including US Government Servers",
@@ -79,7 +117,7 @@
         "remote code execution",
         "firewalls"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "The US added a record 20.2 GWh of battery storage in just 3 months",
@@ -98,7 +136,7 @@
         "grid-scale energy storage",
         "GWh"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "Zero click, silent, remote Android DoS",
@@ -116,7 +154,7 @@
         "SMS",
         "DoS"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "Forging a Microsoft Edge Full Chain with Logic Bugs Only",
@@ -134,7 +172,7 @@
         "logic bugs",
         "browser exploitation"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "Getting debug access on a Brother printer over Telnet",
@@ -153,7 +191,7 @@
         "firmware",
         "debug mode"
       ],
-      "rank": 8
+      "rank": 10
     },
     {
       "title": "We Won't \"Just Hang Out\"",
@@ -172,7 +210,7 @@
         "open source",
         "automation"
       ],
-      "rank": 9
+      "rank": 11
     },
     {
       "title": "A new faster algorithm to compute 64-bit signed floor division",
@@ -191,7 +229,7 @@
         "Robison division",
         "SIMD"
       ],
-      "rank": 10
+      "rank": 12
     },
     {
       "title": "OpenAI's agents talked to each other through the CPU Cache",
@@ -210,7 +248,7 @@
         "CPU cache",
         "microVMs"
       ],
-      "rank": 11
+      "rank": 13
     },
     {
       "title": "The 'else' keyword is probably a literal translation from German (2020)",
@@ -229,7 +267,7 @@
         "German",
         "programming languages"
       ],
-      "rank": 12
+      "rank": 14
     }
   ]
 }
