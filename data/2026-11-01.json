@@ -1,8 +1,47 @@
 {
   "date": "2026-11-01",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3426,
+  "success_feeds": 90,
+  "total_articles": 3481,
   "filtered_articles": 14,
-  "articles": []
+  "articles": [
+    {
+      "title": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
+      "title_display": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
+      "link": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf",
+      "pub_date": "2026-10-31T19:50:13.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 212,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "CVE-2026-98432",
+        "Linux",
+        "TCP",
+        "Use-After-Free"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Jepsen: ParticleDB 1.1.4",
+      "title_display": "Jepsen: ParticleDB 1.1.4",
+      "link": "https://jepsen.io/analyses/particledb-1.1.4",
+      "pub_date": "2026-10-31T16:50:15.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 120,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "ParticleDB",
+        "Jepsen",
+        "PostgreSQL",
+        "TLA+"
+      ],
+      "rank": 2
+    }
+  ]
 }
