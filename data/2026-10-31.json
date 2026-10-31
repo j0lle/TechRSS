@@ -2,9 +2,28 @@
   "date": "2026-10-31",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3441,
-  "filtered_articles": 29,
+  "total_articles": 3446,
+  "filtered_articles": 23,
   "articles": [
+    {
+      "title": "Digital Minimalism",
+      "title_display": "Digital Minimalism",
+      "link": "https://vitalik.eth.limo/general/2026/10/31/digital_minimalism.html",
+      "pub_date": "2026-10-31T09:10:16.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 127,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Vitalik Buterin",
+        "digital minimalism",
+        "AI",
+        "X"
+      ],
+      "rank": 1
+    },
     {
       "title": "Cloudflare Turnstile solver library (no headless browser required)",
       "title_display": "Cloudflare Turnstile solver library (no headless browser required)",
@@ -13,8 +32,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 138,
-      "score": 26,
+      "hn_points": 241,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Cloudflare Turnstile",
@@ -22,7 +41,7 @@
         "GitHub",
         "headless browser"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "The oldest ice disappears and the Stone Age emerges from it",
@@ -41,7 +60,7 @@
         "archaeology",
         "Holocene"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Linode Security Incident",
@@ -59,7 +78,7 @@
         "MPTCP",
         "CVE"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Bunny CDN Security Incident",
@@ -78,7 +97,7 @@
         "TLS certificates",
         "CDN"
       ],
-      "rank": 4
+      "rank": 5
     },
     {
       "title": "GitHub Incident with Actions, Pages, and Webhooks",
@@ -97,7 +116,7 @@
         "GitHub Pages",
         "Webhooks"
       ],
-      "rank": 5
+      "rank": 6
     },
     {
       "title": "Florilegium: Procedural Flowers in LaTeX",
@@ -116,7 +135,7 @@
         "TeX",
         "PDF"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "title": "A Working Nintendo in ~1GB of Qwen Weights",
@@ -135,7 +154,7 @@
         "Nintendo Entertainment System",
         "Qwenputer"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "title": "The Federated Code Forge",
@@ -154,7 +173,7 @@
         "Git",
         "federated code hosting"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "title": "AI Isn't Replacing SREs. It's Deskilling Them",
@@ -173,7 +192,7 @@
         "DevOps",
         "observability"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "title": "Northflank Breached",
@@ -192,7 +211,7 @@
         "PaaS",
         "cloud platform"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
@@ -211,7 +230,7 @@
         "Anthropic",
         "VS Code"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "title": "The $6.3B Binance Hack Was Pulled Off in Just 20 Minutes",
@@ -230,7 +249,7 @@
         "hack",
         "Claude Code"
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "title": "Azure's Weakest Link – Five Full Cross-Tenant Compromises",
@@ -249,7 +268,7 @@
         "cross-tenant compromise",
         "path traversal"
       ],
-      "rank": 13
+      "rank": 14
     }
   ]
 }
