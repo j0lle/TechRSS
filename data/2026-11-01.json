@@ -1,10 +1,48 @@
 {
   "date": "2026-11-01",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3456,
-  "filtered_articles": 17,
+  "success_feeds": 90,
+  "total_articles": 3486,
+  "filtered_articles": 18,
   "articles": [
+    {
+      "title": "Memdoor: A team of 5 Qwen3.8-27B models beats Fable 5 on LiveCodeBench Hard",
+      "title_display": "Memdoor: A team of 5 Qwen3.8-27B models beats Fable 5 on LiveCodeBench Hard",
+      "link": "https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve",
+      "pub_date": "2026-10-31T23:40:13.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 124,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Memdoor",
+        "Qwen3.8-27B",
+        "Fable 5",
+        "LiveCodeBench Hard"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "An Italian Farmer Found Some Unknown Seeds in His Attic and Planted Them",
+      "title_display": "An Italian Farmer Found Some Unknown Seeds in His Attic and Planted Them",
+      "link": "https://www.smithsonianmag.com/science-nature/italian-farmer-found-unknown-seeds-attic-with-nothing-lose-planted-them-result-biblical-180989644/",
+      "pub_date": "2026-10-31T23:00:13.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 395,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Triticum turgidum",
+        "poulard wheat",
+        "Claudio Grossi",
+        "Teofilo Vamerali"
+      ],
+      "rank": 2
+    },
     {
       "title": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
       "title_display": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
@@ -22,7 +60,7 @@
         "TCP",
         "Use-After-Free"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "It's the Memory Latency, Stupid",
@@ -40,7 +78,7 @@
         "cache",
         "C++"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "Jepsen: ParticleDB 1.1.4",
@@ -50,8 +88,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 120,
-      "score": 25,
+      "hn_points": 224,
+      "score": 28,
       "category": "other",
       "keywords": [
         "ParticleDB",
@@ -59,7 +97,7 @@
         "PostgreSQL",
         "TLA+"
       ],
-      "rank": 3
+      "rank": 5
     }
   ]
 }
