@@ -1,0 +1,46 @@
+{
+  "date": "2026-11-02",
+  "total_feeds": 95,
+  "success_feeds": 90,
+  "total_articles": 3487,
+  "filtered_articles": 21,
+  "articles": [
+    {
+      "title": "The AI cost of JavaScript frameworks",
+      "title_display": "The AI cost of JavaScript frameworks",
+      "link": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/",
+      "pub_date": "2026-11-01T07:40:14.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 132,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "JavaScript",
+        "AI",
+        "Astro",
+        "React"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Brazilian Court Sanctions Lawyers for Prompt Injection in Court Filing",
+      "title_display": "Brazilian Court Sanctions Lawyers for Prompt Injection in Court Filing",
+      "link": "https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing/",
+      "pub_date": "2026-11-01T03:50:17.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 130,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "prompt injection",
+        "Brazilian labor court",
+        "AI"
+      ],
+      "rank": 2
+    }
+  ]
+}
