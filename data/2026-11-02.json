@@ -1,10 +1,29 @@
 {
   "date": "2026-11-02",
   "total_feeds": 95,
-  "success_feeds": 90,
-  "total_articles": 3487,
+  "success_feeds": 89,
+  "total_articles": 3462,
   "filtered_articles": 21,
   "articles": [
+    {
+      "title": "Show HN: HackerBooks – HackerTube, but for books recommended on HN",
+      "title_display": "Show HN: HackerBooks – HackerTube, but for books recommended on HN",
+      "link": "https://hackerbooks.org",
+      "pub_date": "2026-11-01T16:20:13.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 389,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "HackerBooks",
+        "Hacker News",
+        "Cloudflare",
+        "Claude"
+      ],
+      "rank": 1
+    },
     {
       "title": "The AI cost of JavaScript frameworks",
       "title_display": "The AI cost of JavaScript frameworks",
@@ -13,8 +32,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 132,
-      "score": 26,
+      "hn_points": 232,
+      "score": 29,
       "category": "other",
       "keywords": [
         "JavaScript",
@@ -22,7 +41,7 @@
         "Astro",
         "React"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Brazilian Court Sanctions Lawyers for Prompt Injection in Court Filing",
@@ -32,15 +51,15 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 130,
-      "score": 26,
+      "hn_points": 231,
+      "score": 29,
       "category": "other",
       "keywords": [
         "prompt injection",
         "Brazilian labor court",
         "AI"
       ],
-      "rank": 2
+      "rank": 3
     }
   ]
 }
