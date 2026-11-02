@@ -2,9 +2,28 @@
   "date": "2026-11-02",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3462,
-  "filtered_articles": 21,
+  "total_articles": 3482,
+  "filtered_articles": 18,
   "articles": [
+    {
+      "title": "Show HN: OmniDiff – Opensource, super fast, content aware Git difftool, in Rust",
+      "title_display": "Show HN: OmniDiff – Opensource, super fast, content aware Git difftool, in Rust",
+      "link": "https://github.com/ivankovic/omnidiff",
+      "pub_date": "2026-11-01T22:30:14.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 110,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "OmniDiff",
+        "Git",
+        "Rust",
+        "APTED"
+      ],
+      "rank": 1
+    },
     {
       "title": "Show HN: HackerBooks – HackerTube, but for books recommended on HN",
       "title_display": "Show HN: HackerBooks – HackerTube, but for books recommended on HN",
@@ -22,7 +41,26 @@
         "Cloudflare",
         "Claude"
       ],
-      "rank": 1
+      "rank": 2
+    },
+    {
+      "title": "Radiation Map of the World",
+      "title_display": "Radiation Map of the World",
+      "link": "https://radiaverse.com/",
+      "pub_date": "2026-11-01T13:40:16.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 123,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "Radiaverse",
+        "RadiaCode",
+        "radiation mapping",
+        "gamma radiation"
+      ],
+      "rank": 3
     },
     {
       "title": "The AI cost of JavaScript frameworks",
@@ -41,7 +79,7 @@
         "Astro",
         "React"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "Brazilian Court Sanctions Lawyers for Prompt Injection in Court Filing",
@@ -59,7 +97,7 @@
         "Brazilian labor court",
         "AI"
       ],
-      "rank": 3
+      "rank": 5
     }
   ]
 }
