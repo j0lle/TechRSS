@@ -1,0 +1,122 @@
+{
+  "date": "2026-11-03",
+  "total_feeds": 95,
+  "success_feeds": 89,
+  "total_articles": 3470,
+  "filtered_articles": 25,
+  "articles": [
+    {
+      "title": "Supermarket freezers across Europe hit by second suspected cyber-attack",
+      "title_display": "Supermarket freezers across Europe hit by second suspected cyber-attack",
+      "link": "https://www.theguardian.com/world/2026/nov/02/supermarket-freezers-across-europe-hit-by-second-suspected-cyber-attack",
+      "pub_date": "2026-11-02T13:00:34.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 133,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Danfoss",
+        "OT",
+        "SCADA",
+        "SNMP"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Show HN: I've updated my Linux System Call website and API",
+      "title_display": "Show HN: I've updated my Linux System Call website and API",
+      "link": "https://syscall.sh/",
+      "pub_date": "2026-11-02T10:30:30.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 131,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Linux",
+        "system calls",
+        "syscall.sh",
+        "io_uring"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "Show HN: Wikihack – HackerTube, but for Wikipedia articles mentioned on HN",
+      "title_display": "Show HN: Wikihack – HackerTube, but for Wikipedia articles mentioned on HN",
+      "link": "https://wikihack.netlify.app",
+      "pub_date": "2026-11-02T06:30:30.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 288,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Wikihack",
+        "HackerTube",
+        "Wikipedia",
+        "Hacker News"
+      ],
+      "rank": 3
+    },
+    {
+      "title": "Trigger.dev customer environment variables exposed",
+      "title_display": "Trigger.dev customer environment variables exposed",
+      "link": "https://trigger.dev/blog/security-incident-nov-2026",
+      "pub_date": "2026-11-02T03:40:42.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 127,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Trigger.dev",
+        "environment variables",
+        "security incident"
+      ],
+      "rank": 4
+    },
+    {
+      "title": "Mystery of 60-Second Fluctuations in Power Grids Solved",
+      "title_display": "Mystery of 60-Second Fluctuations in Power Grids Solved",
+      "link": "https://www.fz-juelich.de/en/news/archive/press-release/2026/mystery-of-60-second-fluctuations-in-power-grids-solved",
+      "pub_date": "2026-11-02T03:10:42.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 232,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "power grids",
+        "Forschungszentrum Jülich",
+        "battery storage",
+        "60-second fluctuations"
+      ],
+      "rank": 5
+    },
+    {
+      "title": "F/OSS Comics #13: BSD Unix, Part 3 – The Beginning of BSD Unix",
+      "title_display": "F/OSS Comics #13: BSD Unix, Part 3 – The Beginning of BSD Unix",
+      "link": "https://fosscomics.com/posts/13.%20BSD%20Unix%20Part%203%20-%20The%20Beginning%20of%20BSD%20Unix/",
+      "pub_date": "2026-11-02T02:30:44.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 140,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "BSD Unix",
+        "Unix",
+        "F/OSS Comics",
+        "Pascal"
+      ],
+      "rank": 6
+    }
+  ]
+}
