@@ -3,8 +3,101 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3470,
-  "filtered_articles": 25,
+  "filtered_articles": 26,
   "articles": [
+    {
+      "title": "Astra can read and write weights to improve Qwen",
+      "title_display": "Astra can read and write weights to improve Qwen",
+      "link": "https://rikiyat.github.io/blog/weight-space-programming/",
+      "pub_date": "2026-11-02T19:00:30.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 1043,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Astra",
+        "Qwen",
+        "weight-space programming",
+        "model weights"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Anthropic's internal AI use, at retail prices, now exceeds its employee pay",
+      "title_display": "Anthropic's internal AI use, at retail prices, now exceeds its employee pay",
+      "link": "https://www.businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11",
+      "pub_date": "2026-11-02T18:40:31.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 242,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "Anthropic",
+        "Claude",
+        "AI tokens",
+        "Claude Code"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "Ask HN: Who is hiring? (November 2026)",
+      "title_display": "Ask HN: Who is hiring? (November 2026)",
+      "link": "https://news.ycombinator.com/item?id=50338728",
+      "pub_date": "2026-11-02T16:30:29.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 128,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "AI",
+        "TypeScript",
+        "Claude",
+        "Python"
+      ],
+      "rank": 3
+    },
+    {
+      "title": "Moving our warehouse off DuckDB",
+      "title_display": "Moving our warehouse off DuckDB",
+      "link": "https://posthog.com/blog/moving-off-duckdb",
+      "pub_date": "2026-11-02T16:30:27.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 129,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "PostHog",
+        "DuckDB",
+        "Trino",
+        "ClickHouse"
+      ],
+      "rank": 4
+    },
+    {
+      "title": "We halved DNS build delay and cut memory use by 85%",
+      "title_display": "We halved DNS build delay and cut memory use by 85%",
+      "link": "https://blog.cloudflare.com/dns-targeted-zone-builds/",
+      "pub_date": "2026-11-02T16:20:29.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 121,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "Cloudflare",
+        "DNS"
+      ],
+      "rank": 5
+    },
     {
       "title": "Supermarket freezers across Europe hit by second suspected cyber-attack",
       "title_display": "Supermarket freezers across Europe hit by second suspected cyber-attack",
@@ -13,8 +106,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 133,
-      "score": 26,
+      "hn_points": 346,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Danfoss",
@@ -22,7 +115,7 @@
         "SCADA",
         "SNMP"
       ],
-      "rank": 1
+      "rank": 6
     },
     {
       "title": "Show HN: I've updated my Linux System Call website and API",
@@ -41,7 +134,7 @@
         "syscall.sh",
         "io_uring"
       ],
-      "rank": 2
+      "rank": 7
     },
     {
       "title": "Show HN: Wikihack – HackerTube, but for Wikipedia articles mentioned on HN",
@@ -60,7 +153,7 @@
         "Wikipedia",
         "Hacker News"
       ],
-      "rank": 3
+      "rank": 8
     },
     {
       "title": "Trigger.dev customer environment variables exposed",
@@ -78,7 +171,7 @@
         "environment variables",
         "security incident"
       ],
-      "rank": 4
+      "rank": 9
     },
     {
       "title": "Mystery of 60-Second Fluctuations in Power Grids Solved",
@@ -97,7 +190,7 @@
         "battery storage",
         "60-second fluctuations"
       ],
-      "rank": 5
+      "rank": 10
     },
     {
       "title": "F/OSS Comics #13: BSD Unix, Part 3 – The Beginning of BSD Unix",
@@ -116,7 +209,7 @@
         "F/OSS Comics",
         "Pascal"
       ],
-      "rank": 6
+      "rank": 11
     }
   ]
 }
