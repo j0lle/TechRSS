@@ -1,10 +1,66 @@
 {
   "date": "2026-11-03",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3470,
-  "filtered_articles": 26,
+  "success_feeds": 88,
+  "total_articles": 3457,
+  "filtered_articles": 31,
   "articles": [
+    {
+      "title": "Scaling Git at OpenAI",
+      "title_display": "Scaling Git at OpenAI",
+      "link": "https://openai.com/index/scaling-git-at-openai/",
+      "pub_date": "2026-11-03T03:20:30.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 161,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "OpenAI",
+        "Git",
+        "source control"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "DiscImageStudio: burn visible artwork onto CDs, DVDs and Blu-ray discs",
+      "title_display": "DiscImageStudio: burn visible artwork onto CDs, DVDs and Blu-ray discs",
+      "link": "https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio",
+      "pub_date": "2026-11-03T02:00:30.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 122,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "DiscImageStudio",
+        "LightScribe",
+        "Blu-ray",
+        "DVD"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "Self-Employed? Solopreneur? NIST Has a Cybersecurity Guide Just for You",
+      "title_display": "Self-Employed? Solopreneur? NIST Has a Cybersecurity Guide Just for You",
+      "link": "https://www.nist.gov/news-events/news/2026/11/self-employed-solopreneur-nist-has-cybersecurity-guide-just-you",
+      "pub_date": "2026-11-03T01:10:34.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 182,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "NIST",
+        "CSWP 50",
+        "MFA",
+        "phishing"
+      ],
+      "rank": 3
+    },
     {
       "title": "Astra can read and write weights to improve Qwen",
       "title_display": "Astra can read and write weights to improve Qwen",
@@ -13,7 +69,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 1043,
+      "hn_points": 2066,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -22,7 +78,7 @@
         "weight-space programming",
         "model weights"
       ],
-      "rank": 1
+      "rank": 4
     },
     {
       "title": "Anthropic's internal AI use, at retail prices, now exceeds its employee pay",
@@ -41,7 +97,26 @@
         "AI tokens",
         "Claude Code"
       ],
-      "rank": 2
+      "rank": 5
+    },
+    {
+      "title": "Launch HN: Momentic (YC W24) – Agents that catch bugs by using your app",
+      "title_display": "Launch HN: Momentic (YC W24) – Agents that catch bugs by using your app",
+      "link": "https://momentic.ai/",
+      "pub_date": "2026-11-02T17:10:28.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 135,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Momentic",
+        "Mo",
+        "Y Combinator",
+        "Playwright"
+      ],
+      "rank": 6
     },
     {
       "title": "Ask HN: Who is hiring? (November 2026)",
@@ -60,7 +135,7 @@
         "Claude",
         "Python"
       ],
-      "rank": 3
+      "rank": 7
     },
     {
       "title": "Moving our warehouse off DuckDB",
@@ -79,7 +154,7 @@
         "Trino",
         "ClickHouse"
       ],
-      "rank": 4
+      "rank": 8
     },
     {
       "title": "We halved DNS build delay and cut memory use by 85%",
@@ -96,7 +171,7 @@
         "Cloudflare",
         "DNS"
       ],
-      "rank": 5
+      "rank": 9
     },
     {
       "title": "Supermarket freezers across Europe hit by second suspected cyber-attack",
@@ -115,7 +190,7 @@
         "SCADA",
         "SNMP"
       ],
-      "rank": 6
+      "rank": 10
     },
     {
       "title": "Show HN: I've updated my Linux System Call website and API",
@@ -134,7 +209,7 @@
         "syscall.sh",
         "io_uring"
       ],
-      "rank": 7
+      "rank": 11
     },
     {
       "title": "Show HN: Wikihack – HackerTube, but for Wikipedia articles mentioned on HN",
@@ -153,7 +228,7 @@
         "Wikipedia",
         "Hacker News"
       ],
-      "rank": 8
+      "rank": 12
     },
     {
       "title": "Trigger.dev customer environment variables exposed",
@@ -171,7 +246,7 @@
         "environment variables",
         "security incident"
       ],
-      "rank": 9
+      "rank": 13
     },
     {
       "title": "Mystery of 60-Second Fluctuations in Power Grids Solved",
@@ -190,7 +265,7 @@
         "battery storage",
         "60-second fluctuations"
       ],
-      "rank": 10
+      "rank": 14
     },
     {
       "title": "F/OSS Comics #13: BSD Unix, Part 3 – The Beginning of BSD Unix",
@@ -209,7 +284,7 @@
         "F/OSS Comics",
         "Pascal"
       ],
-      "rank": 11
+      "rank": 15
     }
   ]
 }
