@@ -2,9 +2,28 @@
   "date": "2026-11-03",
   "total_feeds": 95,
   "success_feeds": 88,
-  "total_articles": 3457,
-  "filtered_articles": 31,
+  "total_articles": 3447,
+  "filtered_articles": 36,
   "articles": [
+    {
+      "title": "Nvidia – open-source auto-ontology",
+      "title_display": "Nvidia – open-source auto-ontology",
+      "link": "https://github.com/NVIDIA/auto-ontology",
+      "pub_date": "2026-11-03T08:00:35.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 140,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Nvidia",
+        "Auto Ontology",
+        "LLM agents",
+        "enterprise data"
+      ],
+      "rank": 1
+    },
     {
       "title": "Scaling Git at OpenAI",
       "title_display": "Scaling Git at OpenAI",
@@ -21,7 +40,26 @@
         "Git",
         "source control"
       ],
-      "rank": 1
+      "rank": 2
+    },
+    {
+      "title": "Resisting Cognitive Surrender",
+      "title_display": "Resisting Cognitive Surrender",
+      "link": "https://knlb.dev/essays/surrender",
+      "pub_date": "2026-11-03T02:50:31.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 237,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "LLMs",
+        "AI-generated code",
+        "code review",
+        "pull requests"
+      ],
+      "rank": 3
     },
     {
       "title": "DiscImageStudio: burn visible artwork onto CDs, DVDs and Blu-ray discs",
@@ -31,8 +69,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 122,
-      "score": 25,
+      "hn_points": 237,
+      "score": 29,
       "category": "other",
       "keywords": [
         "DiscImageStudio",
@@ -40,7 +78,7 @@
         "Blu-ray",
         "DVD"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "Self-Employed? Solopreneur? NIST Has a Cybersecurity Guide Just for You",
@@ -50,8 +88,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 182,
-      "score": 27,
+      "hn_points": 288,
+      "score": 30,
       "category": "other",
       "keywords": [
         "NIST",
@@ -59,7 +97,7 @@
         "MFA",
         "phishing"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "Astra can read and write weights to improve Qwen",
@@ -69,7 +107,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 2066,
+      "hn_points": 2878,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -78,7 +116,7 @@
         "weight-space programming",
         "model weights"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "Anthropic's internal AI use, at retail prices, now exceeds its employee pay",
@@ -97,7 +135,7 @@
         "AI tokens",
         "Claude Code"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "Launch HN: Momentic (YC W24) – Agents that catch bugs by using your app",
@@ -116,7 +154,7 @@
         "Y Combinator",
         "Playwright"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "Ask HN: Who is hiring? (November 2026)",
@@ -126,8 +164,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 128,
-      "score": 26,
+      "hn_points": 229,
+      "score": 29,
       "category": "other",
       "keywords": [
         "AI",
@@ -135,7 +173,7 @@
         "Claude",
         "Python"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "Moving our warehouse off DuckDB",
@@ -154,7 +192,7 @@
         "Trino",
         "ClickHouse"
       ],
-      "rank": 8
+      "rank": 10
     },
     {
       "title": "We halved DNS build delay and cut memory use by 85%",
@@ -171,7 +209,7 @@
         "Cloudflare",
         "DNS"
       ],
-      "rank": 9
+      "rank": 11
     },
     {
       "title": "Supermarket freezers across Europe hit by second suspected cyber-attack",
@@ -190,7 +228,7 @@
         "SCADA",
         "SNMP"
       ],
-      "rank": 10
+      "rank": 12
     },
     {
       "title": "Show HN: I've updated my Linux System Call website and API",
@@ -209,7 +247,7 @@
         "syscall.sh",
         "io_uring"
       ],
-      "rank": 11
+      "rank": 13
     },
     {
       "title": "Show HN: Wikihack – HackerTube, but for Wikipedia articles mentioned on HN",
@@ -228,7 +266,7 @@
         "Wikipedia",
         "Hacker News"
       ],
-      "rank": 12
+      "rank": 14
     },
     {
       "title": "Trigger.dev customer environment variables exposed",
@@ -246,7 +284,7 @@
         "environment variables",
         "security incident"
       ],
-      "rank": 13
+      "rank": 15
     },
     {
       "title": "Mystery of 60-Second Fluctuations in Power Grids Solved",
@@ -265,7 +303,7 @@
         "battery storage",
         "60-second fluctuations"
       ],
-      "rank": 14
+      "rank": 16
     },
     {
       "title": "F/OSS Comics #13: BSD Unix, Part 3 – The Beginning of BSD Unix",
@@ -284,7 +322,7 @@
         "F/OSS Comics",
         "Pascal"
       ],
-      "rank": 15
+      "rank": 17
     }
   ]
 }
