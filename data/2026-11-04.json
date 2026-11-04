@@ -1,10 +1,48 @@
 {
   "date": "2026-11-04",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3467,
-  "filtered_articles": 35,
+  "success_feeds": 90,
+  "total_articles": 3498,
+  "filtered_articles": 30,
   "articles": [
+    {
+      "title": "The Internals of PostgreSQL",
+      "title_display": "The Internals of PostgreSQL",
+      "link": "https://www.interdb.jp/pg/index.html",
+      "pub_date": "2026-11-03T22:20:30.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 213,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "PostgreSQL",
+        "MVCC",
+        "HOT updates",
+        "Serializable Snapshot Isolation"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "macOS 27 does not support CoreStorage volumes",
+      "title_display": "macOS 27 does not support CoreStorage volumes",
+      "link": "https://wadetregaskis.com/macos-27-golden-gate-does-not-actually-support-corestorage-or-hfs-volumes/",
+      "pub_date": "2026-11-03T21:30:29.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 122,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "macOS",
+        "CoreStorage",
+        "HFS",
+        "Apple"
+      ],
+      "rank": 2
+    },
     {
       "title": "Preparing for the Flipper One Kickstarter and opening pre-orders",
       "title_display": "Preparing for the Flipper One Kickstarter and opening pre-orders",
@@ -22,7 +60,7 @@
         "Flipper",
         "Kickstarter"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "Qwen 3.8 27B on my laptop can interpret model weights, too",
@@ -41,7 +79,7 @@
         "model weights",
         "weight-space programming"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "Postman silently auto-installs AI plugins and attempts to share all API data",
@@ -58,7 +96,7 @@
         "Postman",
         "AI plugins"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "OpenAI seems to be silently re-enabling model training on Codex chats",
@@ -77,7 +115,7 @@
         "model training",
         "data privacy"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "The 'Astra can read and write weights to improve Qwen' post is misleading",
@@ -96,7 +134,7 @@
         "neural network weights",
         "weight-space programming"
       ],
-      "rank": 5
+      "rank": 7
     }
   ]
 }
