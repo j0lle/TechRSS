@@ -1,0 +1,102 @@
+{
+  "date": "2026-11-05",
+  "total_feeds": 95,
+  "success_feeds": 89,
+  "total_articles": 3474,
+  "filtered_articles": 31,
+  "articles": [
+    {
+      "title": "AI is forcing us to pay off 40 years of technical debt",
+      "title_display": "AI is forcing us to pay off 40 years of technical debt",
+      "link": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
+      "pub_date": "2026-11-04T12:10:29.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 382,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "PHP2Shell",
+        "PHP",
+        "AI",
+        "memory-safe languages"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Incident with Pull Requests, Git Operations and Issues",
+      "title_display": "Incident with Pull Requests, Git Operations and Issues",
+      "link": "https://www.githubstatus.com/incidents/smtdswd1h2w4",
+      "pub_date": "2026-11-04T11:40:30.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 184,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "GitHub",
+        "Git",
+        "SSH",
+        "Pull Requests"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "Tell HN: Gemini trains on chat history, even for subscribers (personal accounts)",
+      "title_display": "Tell HN: Gemini trains on chat history, even for subscribers (personal accounts)",
+      "link": "https://news.ycombinator.com/item?id=50363461",
+      "pub_date": "2026-11-04T11:40:29.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 365,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Gemini",
+        "Google",
+        "AI training",
+        "chat history"
+      ],
+      "rank": 3
+    },
+    {
+      "title": "Nvidia DGX Spark encrypted firmware slows inference speed to 35% on Linux",
+      "title_display": "Nvidia DGX Spark encrypted firmware slows inference speed to 35% on Linux",
+      "link": "https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop",
+      "pub_date": "2026-11-04T09:50:29.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 317,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Nvidia",
+        "RTX Spark",
+        "Linux",
+        "firmware encryption"
+      ],
+      "rank": 4
+    },
+    {
+      "title": "Jelly Sheet",
+      "title_display": "Jelly Sheet",
+      "link": "https://mrdoob.github.io/codevember-2026/01/",
+      "pub_date": "2026-11-04T05:30:30.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 307,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Jelly Sheet",
+        "Mr. Doob"
+      ],
+      "rank": 5
+    }
+  ]
+}
