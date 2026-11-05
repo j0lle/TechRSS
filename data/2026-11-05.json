@@ -3,8 +3,103 @@
   "total_feeds": 95,
   "success_feeds": 89,
   "total_articles": 3475,
-  "filtered_articles": 30,
+  "filtered_articles": 32,
   "articles": [
+    {
+      "title": "Local privilege escalation vulnerabilities in Linux",
+      "title_display": "Local privilege escalation vulnerabilities in Linux",
+      "link": "https://openai.com/index/a-thousand-fewer-paths-to-root/",
+      "pub_date": "2026-11-05T00:40:06.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 143,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Linux",
+        "OpenAI",
+        "local privilege escalation",
+        "AI-assisted vulnerability discovery"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Kimi K3.1 Pro model weights are out",
+      "title_display": "Kimi K3.1 Pro model weights are out",
+      "link": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+      "pub_date": "2026-11-05T00:00:07.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 332,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Kimi K3.1 Pro",
+        "Moonshot AI",
+        "Hugging Face",
+        "Mixture of Experts"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "Residential Proxies Detected on White House Network",
+      "title_display": "Residential Proxies Detected on White House Network",
+      "link": "https://layer3intel.com/blog/residential-proxies-white-house-network",
+      "pub_date": "2026-11-04T21:10:06.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 434,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Residential proxies",
+        "White House",
+        "Botnet",
+        "Command and control"
+      ],
+      "rank": 3
+    },
+    {
+      "title": "OpenAI to acquire Pierre Computer Company",
+      "title_display": "OpenAI to acquire Pierre Computer Company",
+      "link": "https://openai.com/index/openai-to-acquire-pierre/",
+      "pub_date": "2026-11-04T20:20:06.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 183,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "OpenAI",
+        "Pierre Computer",
+        "Code.Storage",
+        "Git"
+      ],
+      "rank": 4
+    },
+    {
+      "title": "Insects Don't Swarm at LED Lights",
+      "title_display": "Insects Don't Swarm at LED Lights",
+      "link": "https://www.birdsoutsidemywindow.org/2026/11/03/insects-dont-swarm-at-led-lights/",
+      "pub_date": "2026-11-04T20:10:07.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 130,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "LED",
+        "insects",
+        "ultraviolet",
+        "PWM"
+      ],
+      "rank": 5
+    },
     {
       "title": "A New Go API for JSON",
       "title_display": "A New Go API for JSON",
@@ -22,7 +117,7 @@
         "encoding/json/v2",
         "jsontext"
       ],
-      "rank": 1
+      "rank": 6
     },
     {
       "title": "Progress on provable inference for large language models",
@@ -41,7 +136,26 @@
         "large language models",
         "model weights"
       ],
-      "rank": 2
+      "rank": 7
+    },
+    {
+      "title": "Debian apt security update (man-in-the-middle)",
+      "title_display": "Debian apt security update (man-in-the-middle)",
+      "link": "https://lists.debian.org/debian-security-announce/2026/msg00526.html?pow_referer=",
+      "pub_date": "2026-11-04T15:40:08.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 130,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Debian",
+        "APT",
+        "man-in-the-middle",
+        "HTTP redirects"
+      ],
+      "rank": 8
     },
     {
       "title": "Guerrilla Bike Lanes: San Francisco Makes Illicit Infrastructure Permanent",
@@ -51,8 +165,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 165,
-      "score": 27,
+      "hn_points": 269,
+      "score": 29,
       "category": "other",
       "keywords": [
         "San Francisco",
@@ -60,7 +174,7 @@
         "tactical urbanism",
         "guerrilla urbanism"
       ],
-      "rank": 3
+      "rank": 9
     },
     {
       "title": "North Korean fake job interview led to $6.3B Binance heist",
@@ -79,7 +193,7 @@
         "cryptocurrency",
         "fake job interview"
       ],
-      "rank": 4
+      "rank": 10
     },
     {
       "title": "AI is forcing us to pay off 40 years of technical debt",
@@ -98,7 +212,7 @@
         "AI",
         "memory-safe languages"
       ],
-      "rank": 5
+      "rank": 11
     },
     {
       "title": "Incident with Pull Requests, Git Operations and Issues",
@@ -117,7 +231,7 @@
         "SSH",
         "Pull Requests"
       ],
-      "rank": 6
+      "rank": 12
     },
     {
       "title": "Tell HN: Gemini trains on chat history, even for subscribers (personal accounts)",
@@ -136,7 +250,7 @@
         "AI training",
         "chat history"
       ],
-      "rank": 7
+      "rank": 13
     },
     {
       "title": "Nvidia DGX Spark encrypted firmware slows inference speed to 35% on Linux",
@@ -155,7 +269,7 @@
         "Linux",
         "firmware encryption"
       ],
-      "rank": 8
+      "rank": 14
     },
     {
       "title": "Jelly Sheet",
@@ -172,7 +286,7 @@
         "Jelly Sheet",
         "Mr. Doob"
       ],
-      "rank": 9
+      "rank": 15
     }
   ]
 }
