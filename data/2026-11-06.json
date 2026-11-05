@@ -1,10 +1,67 @@
 {
   "date": "2026-11-06",
   "total_feeds": 95,
-  "success_feeds": 90,
-  "total_articles": 3500,
-  "filtered_articles": 28,
+  "success_feeds": 89,
+  "total_articles": 3491,
+  "filtered_articles": 29,
   "articles": [
+    {
+      "title": "Claude Code sends your email address to websites",
+      "title_display": "Claude Code sends your email address to websites",
+      "link": "https://github.com/anthropics/claude-code/issues/107757",
+      "pub_date": "2026-11-05T23:10:07.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 160,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Claude Code",
+        "Anthropic",
+        "User-Agent",
+        "email address"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "The Hackintosh Reborn",
+      "title_display": "The Hackintosh Reborn",
+      "link": "https://www.naut.ca/blog/2026/11/05/the-hackintosh-reborn-with-ai/",
+      "pub_date": "2026-11-05T20:20:05.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 155,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Hackintosh",
+        "macOS",
+        "AI",
+        "Apple"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "Window Sweaters",
+      "title_display": "Window Sweaters",
+      "link": "https://github.com/saragordic/window-sweaters",
+      "pub_date": "2026-11-05T17:40:07.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 154,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Window Sweaters",
+        "GitHub",
+        "Homebrew",
+        "macOS"
+      ],
+      "rank": 3
+    },
     {
       "title": "Alpine Linux Security advisory: OpenSSH-server password authentication bypass",
       "title_display": "Alpine Linux Security advisory: OpenSSH-server password authentication bypass",
@@ -13,11 +70,54 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 210,
+      "hn_points": 384,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Alpine Linux",
+        "OpenSSH",
+        "musl",
+        "crypt()"
+      ],
+      "rank": 4
+    },
+    {
+      "title": "The Lisp curse, now coming to your ecosystem",
+      "title_display": "The Lisp curse, now coming to your ecosystem",
+      "link": "https://javahippie.net/programming/llm/2026/03/05/the-lisp-curse-coming-to-your-ecosystem.html",
+      "pub_date": "2026-11-05T17:10:06.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 150,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Lisp",
+        "LLMs",
+        "software libraries",
+        "code reuse"
+      ],
+      "rank": 5
+    },
+    {
+      "title": "OpenSSH 10.6p2 Critical workaround for alpine without PAM",
+      "title_display": "OpenSSH 10.6p2 Critical workaround for alpine without PAM",
+      "link": "https://www.openssh.org/releasenotes.html#10.6p2",
+      "pub_date": "2026-11-05T13:30:05.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 221,
       "score": 28,
       "category": "other",
-      "keywords": [],
-      "rank": 1
+      "keywords": [
+        "OpenSSH",
+        "Alpine Linux",
+        "PAM",
+        "Damien Miller"
+      ],
+      "rank": 6
     },
     {
       "title": "Sshole",
@@ -27,7 +127,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 826,
+      "hn_points": 2027,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -36,7 +136,7 @@
         "OpenSSH",
         "Alpine Linux"
       ],
-      "rank": 2
+      "rank": 7
     },
     {
       "title": "Awesome repositories are no longer awesome",
@@ -46,15 +146,15 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 152,
-      "score": 27,
+      "hn_points": 253,
+      "score": 29,
       "category": "other",
       "keywords": [
         "GitHub",
         "Awesome lists",
         "LLMs"
       ],
-      "rank": 3
+      "rank": 8
     },
     {
       "title": "Hacking the Xbox 360 Hypervisor Part 3: Bad Update Improvements",
@@ -73,7 +173,7 @@
         "Bad Update",
         "Corona"
       ],
-      "rank": 4
+      "rank": 9
     }
   ]
 }
