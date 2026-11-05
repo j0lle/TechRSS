@@ -1,0 +1,79 @@
+{
+  "date": "2026-11-06",
+  "total_feeds": 95,
+  "success_feeds": 90,
+  "total_articles": 3500,
+  "filtered_articles": 28,
+  "articles": [
+    {
+      "title": "Alpine Linux Security advisory: OpenSSH-server password authentication bypass",
+      "title_display": "Alpine Linux Security advisory: OpenSSH-server password authentication bypass",
+      "link": "https://alpinelinux.org/posts/2026-11-05-openssh-password-authentication-bypass/",
+      "pub_date": "2026-11-05T17:10:06.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 210,
+      "score": 28,
+      "category": "other",
+      "keywords": [],
+      "rank": 1
+    },
+    {
+      "title": "Sshole",
+      "title_display": "Sshole",
+      "link": "https://sshhole.com",
+      "pub_date": "2026-11-05T13:10:06.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 826,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "*sshole",
+        "musl",
+        "OpenSSH",
+        "Alpine Linux"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "Awesome repositories are no longer awesome",
+      "title_display": "Awesome repositories are no longer awesome",
+      "link": "https://erikgahner.github.io/posts/2026/awesome-repositories-are-no-longer-awesome/",
+      "pub_date": "2026-11-05T12:20:06.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 152,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "GitHub",
+        "Awesome lists",
+        "LLMs"
+      ],
+      "rank": 3
+    },
+    {
+      "title": "Hacking the Xbox 360 Hypervisor Part 3: Bad Update Improvements",
+      "title_display": "Hacking the Xbox 360 Hypervisor Part 3: Bad Update Improvements",
+      "link": "https://icode4.coffee/?p=1746",
+      "pub_date": "2026-11-04T22:30:07.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 122,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "Xbox 360",
+        "Hypervisor",
+        "Bad Update",
+        "Corona"
+      ],
+      "rank": 4
+    }
+  ]
+}
