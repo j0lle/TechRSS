@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-07",
+  "total_feeds": 95,
+  "success_feeds": 89,
+  "total_articles": 3493,
+  "filtered_articles": 29,
+  "articles": [
+    {
+      "title": "Gemini Omni 1.2 Flash",
+      "title_display": "Gemini Omni 1.2 Flash",
+      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+      "pub_date": "2026-11-06T13:50:24.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 181,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Gemini Omni 1.2 Flash",
+        "Google",
+        "Gemini",
+        "video generation"
+      ],
+      "rank": 1
+    }
+  ]
+}
