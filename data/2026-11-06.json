@@ -2,9 +2,104 @@
   "date": "2026-11-06",
   "total_feeds": 95,
   "success_feeds": 89,
-  "total_articles": 3491,
-  "filtered_articles": 25,
+  "total_articles": 3492,
+  "filtered_articles": 29,
   "articles": [
+    {
+      "title": "Dutch 'idealist' bank ASN blocks non-Google Android, including GrapheneOS",
+      "title_display": "Dutch 'idealist' bank ASN blocks non-Google Android, including GrapheneOS",
+      "link": "https://github.com/PrivSec-dev/banking-apps-compat-report/issues/105",
+      "pub_date": "2026-11-06T10:40:22.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 201,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "ASN Bank",
+        "GrapheneOS",
+        "Android",
+        "Google"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Blender's UI and Runtime: Much Faster Than GPUI",
+      "title_display": "Blender's UI and Runtime: Much Faster Than GPUI",
+      "link": "https://github.com/ppmpreetham/BUI",
+      "pub_date": "2026-11-06T09:20:21.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 387,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Blender",
+        "BUI",
+        "GPUI",
+        "GPL"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "From Linux to Wikipedia: How Volunteers Build the Internet",
+      "title_display": "From Linux to Wikipedia: How Volunteers Build the Internet",
+      "link": "https://thereader.mitpress.mit.edu/from-linux-to-wikipedia-how-volunteers-build-the-internet/",
+      "pub_date": "2026-11-06T06:30:06.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 138,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Linux",
+        "Wikipedia",
+        "FOSS",
+        "open source"
+      ],
+      "rank": 3
+    },
+    {
+      "title": "Pwn.college",
+      "title_display": "Pwn.college",
+      "link": "https://pwn.college/",
+      "pub_date": "2026-11-06T05:40:06.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 153,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "pwn.college",
+        "cybersecurity",
+        "OverTheWire",
+        "Hack This Site"
+      ],
+      "rank": 4
+    },
+    {
+      "title": "Show HN: Firenook – Firebase emulators in Rust: 40× faster writes, 10× less RAM",
+      "title_display": "Show HN: Firenook – Firebase emulators in Rust: 40× faster writes, 10× less RAM",
+      "link": "https://firenook.dev/",
+      "pub_date": "2026-11-06T02:50:07.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 143,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Firenook",
+        "Firebase",
+        "Rust",
+        "Firebase Emulator Suite"
+      ],
+      "rank": 5
+    },
     {
       "title": "Claude Code sends your email address to websites",
       "title_display": "Claude Code sends your email address to websites",
@@ -13,7 +108,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 489,
+      "hn_points": 1298,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -22,7 +117,7 @@
         "User-Agent",
         "email address"
       ],
-      "rank": 1
+      "rank": 6
     },
     {
       "title": "MS Paint Remote Code Execution Vulnerability",
@@ -41,7 +136,7 @@
         "CVE-2026-83844",
         "Windows"
       ],
-      "rank": 2
+      "rank": 7
     },
     {
       "title": "The Hackintosh Reborn",
@@ -60,7 +155,7 @@
         "AI",
         "Apple"
       ],
-      "rank": 3
+      "rank": 8
     },
     {
       "title": "Window Sweaters",
@@ -70,8 +165,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 259,
-      "score": 29,
+      "hn_points": 362,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Window Sweaters",
@@ -79,7 +174,7 @@
         "Homebrew",
         "macOS"
       ],
-      "rank": 4
+      "rank": 9
     },
     {
       "title": "Alpine Linux Security advisory: OpenSSH-server password authentication bypass",
@@ -98,7 +193,7 @@
         "musl",
         "crypt()"
       ],
-      "rank": 5
+      "rank": 10
     },
     {
       "title": "September in Servo: <progress>, rounded rectangles, and more",
@@ -117,7 +212,7 @@
         "browser engine",
         "Android"
       ],
-      "rank": 6
+      "rank": 11
     },
     {
       "title": "The Lisp curse, now coming to your ecosystem",
@@ -136,7 +231,7 @@
         "software libraries",
         "code reuse"
       ],
-      "rank": 7
+      "rank": 12
     },
     {
       "title": "OpenSSH 10.6p2 Critical workaround for alpine without PAM",
@@ -155,7 +250,7 @@
         "PAM",
         "Damien Miller"
       ],
-      "rank": 8
+      "rank": 13
     },
     {
       "title": "Sshole",
@@ -174,7 +269,7 @@
         "OpenSSH",
         "Alpine Linux"
       ],
-      "rank": 9
+      "rank": 14
     },
     {
       "title": "Awesome repositories are no longer awesome",
@@ -192,7 +287,7 @@
         "Awesome lists",
         "LLMs"
       ],
-      "rank": 10
+      "rank": 15
     },
     {
       "title": "Hacking the Xbox 360 Hypervisor Part 3: Bad Update Improvements",
@@ -211,7 +306,7 @@
         "Bad Update",
         "Corona"
       ],
-      "rank": 11
+      "rank": 16
     }
   ]
 }
