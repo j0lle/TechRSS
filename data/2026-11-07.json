@@ -1,10 +1,29 @@
 {
   "date": "2026-11-07",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3494,
-  "filtered_articles": 29,
+  "success_feeds": 88,
+  "total_articles": 3472,
+  "filtered_articles": 27,
   "articles": [
+    {
+      "title": "Asahi Linux Progress Linux 7.3",
+      "title_display": "Asahi Linux Progress Linux 7.3",
+      "link": "https://asahilinux.org/2026/11/progress-report-7-3/",
+      "pub_date": "2026-11-07T06:20:21.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 164,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Asahi Linux",
+        "Apple Silicon",
+        "Linux",
+        "Apple"
+      ],
+      "rank": 1
+    },
     {
       "title": "CATL Sodium Battery Hits LFP Cost Parity in 2026: 15,000 Cycles, 30-Year Life",
       "title_display": "CATL Sodium Battery Hits LFP Cost Parity in 2026: 15,000 Cycles, 30-Year Life",
@@ -22,7 +41,26 @@
         "LFP",
         "lithium iron phosphate"
       ],
-      "rank": 1
+      "rank": 2
+    },
+    {
+      "title": "The Ubuntu 26.04 Rust sudo is not compatible with standard sudo",
+      "title_display": "The Ubuntu 26.04 Rust sudo is not compatible with standard sudo",
+      "link": "https://utcc.utoronto.ca/~cks/space/blog/linux/Ubuntu2604RustSudoNotCompatible",
+      "pub_date": "2026-11-06T22:50:22.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 182,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Ubuntu",
+        "sudo",
+        "Rust",
+        "sudo-rs"
+      ],
+      "rank": 3
     },
     {
       "title": "Rune: A native GPU-rendered Rust UI framework for macOS, Windows, Linux and web",
@@ -41,7 +79,7 @@
         "GPU rendering",
         "Anomaly"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "First steps in bare-metal programming using UEFI",
@@ -60,7 +98,7 @@
         "EFI",
         "EDK II"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "Gemini Omni 1.2 Flash",
@@ -79,7 +117,7 @@
         "Gemini",
         "video generation"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "We've built an open-source feature flag server for 11 years",
@@ -98,7 +136,7 @@
         "GitHub",
         "LaunchDarkly"
       ],
-      "rank": 5
+      "rank": 7
     }
   ]
 }
