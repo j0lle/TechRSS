@@ -1,10 +1,29 @@
 {
   "date": "2026-11-07",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3469,
-  "filtered_articles": 28,
+  "success_feeds": 89,
+  "total_articles": 3494,
+  "filtered_articles": 29,
   "articles": [
+    {
+      "title": "CATL Sodium Battery Hits LFP Cost Parity in 2026: 15,000 Cycles, 30-Year Life",
+      "title_display": "CATL Sodium Battery Hits LFP Cost Parity in 2026: 15,000 Cycles, 30-Year Life",
+      "link": "https://ievchina.com/energy-storage/catl-sodium-battery-cost-parity-lfp-2026-15000-cycles/",
+      "pub_date": "2026-11-06T23:10:21.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 142,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "CATL",
+        "sodium-ion batteries",
+        "LFP",
+        "lithium iron phosphate"
+      ],
+      "rank": 1
+    },
     {
       "title": "Rune: A native GPU-rendered Rust UI framework for macOS, Windows, Linux and web",
       "title_display": "Rune: A native GPU-rendered Rust UI framework for macOS, Windows, Linux and web",
@@ -22,7 +41,7 @@
         "GPU rendering",
         "Anomaly"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "First steps in bare-metal programming using UEFI",
@@ -41,7 +60,7 @@
         "EFI",
         "EDK II"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Gemini Omni 1.2 Flash",
@@ -60,7 +79,7 @@
         "Gemini",
         "video generation"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "We've built an open-source feature flag server for 11 years",
@@ -79,7 +98,7 @@
         "GitHub",
         "LaunchDarkly"
       ],
-      "rank": 4
+      "rank": 5
     }
   ]
 }
