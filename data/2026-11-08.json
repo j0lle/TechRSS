@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-08",
+  "total_feeds": 95,
+  "success_feeds": 89,
+  "total_articles": 3497,
+  "filtered_articles": 19,
+  "articles": [
+    {
+      "title": "Need for Speed Underground 2 online in the browser",
+      "title_display": "Need for Speed Underground 2 online in the browser",
+      "link": "https://nfsu2.xyz/",
+      "pub_date": "2026-11-07T11:10:21.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 446,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Need for Speed Underground 2",
+        "WebGPU",
+        "WebAssembly",
+        "WebGL"
+      ],
+      "rank": 1
+    }
+  ]
+}
