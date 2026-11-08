@@ -1,10 +1,48 @@
 {
   "date": "2026-11-08",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3497,
-  "filtered_articles": 23,
+  "success_feeds": 88,
+  "total_articles": 3472,
+  "filtered_articles": 21,
   "articles": [
+    {
+      "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
+      "title_display": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
+      "link": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
+      "pub_date": "2026-11-07T21:10:33.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 136,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Claude Code",
+        "GitHub",
+        "passwords",
+        "secrets"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "MaxxBench – \"Nice DeepSWE score. But is it true?\"",
+      "title_display": "MaxxBench – \"Nice DeepSWE score. But is it true?\"",
+      "link": "https://maxxbench.unlap.ai/research/why-maxxbench/",
+      "pub_date": "2026-11-07T18:40:35.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 134,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "MaxxBench",
+        "DeepSWE",
+        "DeepSeek",
+        "Claude"
+      ],
+      "rank": 2
+    },
     {
       "title": "What I run on my $10 USD OpenStick, Linux, Homelab",
       "title_display": "What I run on my $10 USD OpenStick, Linux, Homelab",
@@ -13,15 +51,15 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 206,
-      "score": 28,
+      "hn_points": 311,
+      "score": 30,
       "category": "other",
       "keywords": [
         "OpenStick",
         "Linux",
         "Homelab"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "Show HN: Coldframe, a honeypot that poses as a supermarket fridge controller",
@@ -40,7 +78,7 @@
         "supermarket refrigeration controllers",
         "Shodan"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "The $8 Linux Computer (2022)",
@@ -59,7 +97,7 @@
         "Raspberry Pi",
         "Pi Zero 2 W"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "Every Windows 11 app should kill Electron, and Discord just showed why",
@@ -78,7 +116,26 @@
         "Windows 11",
         "Rust"
       ],
-      "rank": 4
+      "rank": 6
+    },
+    {
+      "title": "Running a law firm on Free software",
+      "title_display": "Running a law firm on Free software",
+      "link": "https://decoded.legal/blog/2026/11/running-a-law-firm-on-free-software-2026-edition/",
+      "pub_date": "2026-11-07T13:30:35.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 230,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "Free Software",
+        "Microsoft Word",
+        "Claude",
+        "Harvey"
+      ],
+      "rank": 7
     },
     {
       "title": "Need for Speed Underground 2 online in the browser",
@@ -88,7 +145,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 446,
+      "hn_points": 750,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -97,7 +154,7 @@
         "WebAssembly",
         "WebGL"
       ],
-      "rank": 5
+      "rank": 8
     },
     {
       "title": "The Components of Agent Memory",
@@ -116,7 +173,7 @@
         "agent memory",
         "Claude Code"
       ],
-      "rank": 6
+      "rank": 9
     }
   ]
 }
