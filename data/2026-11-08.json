@@ -2,9 +2,47 @@
   "date": "2026-11-08",
   "total_feeds": 95,
   "success_feeds": 88,
-  "total_articles": 3472,
-  "filtered_articles": 21,
+  "total_articles": 3467,
+  "filtered_articles": 23,
   "articles": [
+    {
+      "title": "Goodbye Claude, Hello Pi",
+      "title_display": "Goodbye Claude, Hello Pi",
+      "link": "https://caleb.software/posts/claude-to-pi.html",
+      "pub_date": "2026-11-08T04:40:36.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 187,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "Claude Code",
+        "Pi",
+        "Anthropic",
+        "AGENTS.md"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "GitHub New pull request overview page in public preview",
+      "title_display": "GitHub New pull request overview page in public preview",
+      "link": "https://github.blog/changelog/2026-11-05-new-pull-request-overview-page-in-public-preview/",
+      "pub_date": "2026-11-07T23:50:34.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 134,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "GitHub",
+        "pull requests",
+        "code review",
+        "merge queue"
+      ],
+      "rank": 2
+    },
     {
       "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
       "title_display": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
@@ -13,8 +51,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 136,
-      "score": 26,
+      "hn_points": 351,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Claude Code",
@@ -22,7 +60,7 @@
         "passwords",
         "secrets"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "MaxxBench – \"Nice DeepSWE score. But is it true?\"",
@@ -32,8 +70,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 134,
-      "score": 26,
+      "hn_points": 237,
+      "score": 29,
       "category": "other",
       "keywords": [
         "MaxxBench",
@@ -41,7 +79,7 @@
         "DeepSeek",
         "Claude"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "What I run on my $10 USD OpenStick, Linux, Homelab",
@@ -59,7 +97,7 @@
         "Linux",
         "Homelab"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "Show HN: Coldframe, a honeypot that poses as a supermarket fridge controller",
@@ -78,7 +116,7 @@
         "supermarket refrigeration controllers",
         "Shodan"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "The $8 Linux Computer (2022)",
@@ -97,7 +135,7 @@
         "Raspberry Pi",
         "Pi Zero 2 W"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "Every Windows 11 app should kill Electron, and Discord just showed why",
@@ -107,8 +145,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 159,
-      "score": 27,
+      "hn_points": 259,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Discord",
@@ -116,7 +154,7 @@
         "Windows 11",
         "Rust"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "Running a law firm on Free software",
@@ -135,7 +173,7 @@
         "Claude",
         "Harvey"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "Need for Speed Underground 2 online in the browser",
@@ -154,7 +192,7 @@
         "WebAssembly",
         "WebGL"
       ],
-      "rank": 8
+      "rank": 10
     },
     {
       "title": "The Components of Agent Memory",
@@ -173,7 +211,7 @@
         "agent memory",
         "Claude Code"
       ],
-      "rank": 9
+      "rank": 11
     }
   ]
 }
