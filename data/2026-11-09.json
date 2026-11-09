@@ -3,8 +3,101 @@
   "total_feeds": 95,
   "success_feeds": 88,
   "total_articles": 3468,
-  "filtered_articles": 17,
+  "filtered_articles": 25,
   "articles": [
+    {
+      "title": "I'm Not Convinced the AI Bubble Exists",
+      "title_display": "I'm Not Convinced the AI Bubble Exists",
+      "link": "https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html#im-not-convinced-the-ai-bubble-exists",
+      "pub_date": "2026-11-09T02:10:34.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 138,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "AI",
+        "Anthropic",
+        "Nvidia",
+        "Meta"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Unlocking any car from X brand in most of the world",
+      "title_display": "Unlocking any car from X brand in most of the world",
+      "link": "https://shubs.io/unlocking-any-car-from-x-brand-in-most-of-the-world/",
+      "pub_date": "2026-11-09T00:40:35.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 142,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "vehicle security",
+        "remote vehicle access"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "KetchUp – Open-source SketchUp alternative built with Rust and WebGPU",
+      "title_display": "KetchUp – Open-source SketchUp alternative built with Rust and WebGPU",
+      "link": "https://ketchup3d.github.io/app/",
+      "pub_date": "2026-11-08T23:20:35.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 345,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "KetchUp",
+        "SketchUp",
+        "Rust",
+        "WebGPU"
+      ],
+      "rank": 3
+    },
+    {
+      "title": "Ask HN: What are you working on? (November 2026)",
+      "title_display": "Ask HN: What are you working on? (November 2026)",
+      "link": "https://news.ycombinator.com/item?id=50417407",
+      "pub_date": "2026-11-08T22:20:34.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 130,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Hacker News",
+        "Claude",
+        "Codex",
+        "AI agents"
+      ],
+      "rank": 4
+    },
+    {
+      "title": "How I Fight AI Brain Fry",
+      "title_display": "How I Fight AI Brain Fry",
+      "link": "https://sergeykuhne.com/blog/fighting-ai-brain-fry",
+      "pub_date": "2026-11-08T20:00:34.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 137,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "AI agents",
+        "Claude",
+        "GitHub Issues",
+        "Markdown"
+      ],
+      "rank": 5
+    },
     {
       "title": "Dux: Free, open-source Wayland desktop shell with file manager and theming",
       "title_display": "Dux: Free, open-source Wayland desktop shell with file manager and theming",
@@ -13,8 +106,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 148,
-      "score": 26,
+      "hn_points": 248,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Dux",
@@ -22,7 +115,7 @@
         "Niri",
         "Quickshell"
       ],
-      "rank": 1
+      "rank": 6
     },
     {
       "title": "Outlook.com Is Quietly Rejecting Email from Domains Without DMARC",
@@ -32,8 +125,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 155,
-      "score": 27,
+      "hn_points": 266,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Microsoft",
@@ -41,7 +134,7 @@
         "DMARC",
         "email"
       ],
-      "rank": 2
+      "rank": 7
     },
     {
       "title": "Declarative Dragging",
@@ -51,13 +144,13 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 289,
+      "hn_points": 402,
       "score": 30,
       "category": "other",
       "keywords": [
         "Declarative Dragging"
       ],
-      "rank": 3
+      "rank": 8
     },
     {
       "title": "Goldman Sachs Is Pulling Claude Code from Its Bankers and Traders",
@@ -76,7 +169,7 @@
         "Anthropic",
         "AI"
       ],
-      "rank": 4
+      "rank": 9
     },
     {
       "title": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU",
@@ -86,8 +179,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 251,
-      "score": 29,
+      "hn_points": 351,
+      "score": 30,
       "category": "other",
       "keywords": [
         "llama-modchip",
@@ -95,7 +188,7 @@
         "quantization",
         "llama.cpp"
       ],
-      "rank": 5
+      "rank": 10
     },
     {
       "title": "Petered (what happens after the Peter Principle)",
@@ -111,7 +204,7 @@
       "keywords": [
         "Peter Principle"
       ],
-      "rank": 6
+      "rank": 11
     },
     {
       "title": "Agent memory needs its OpenTelemetry moment",
@@ -129,7 +222,7 @@
         "OpenTelemetry",
         "Lorekit"
       ],
-      "rank": 7
+      "rank": 12
     }
   ]
 }
