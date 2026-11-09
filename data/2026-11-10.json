@@ -1,0 +1,47 @@
+{
+  "date": "2026-11-10",
+  "total_feeds": 95,
+  "success_feeds": 89,
+  "total_articles": 3500,
+  "filtered_articles": 36,
+  "articles": [
+    {
+      "title": "Humans will never again create a project like Wikipedia",
+      "title_display": "Humans will never again create a project like Wikipedia",
+      "link": "https://www.economist.com/culture/2026/10/29/humans-will-never-again-create-a-project-quite-like-wikipedia",
+      "pub_date": "2026-11-09T14:30:34.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 386,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Wikipedia",
+        "OpenStreetMap",
+        "AI",
+        "Wikimedia"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "The Web Is More Than Enough, by Paul Ford",
+      "title_display": "The Web Is More Than Enough, by Paul Ford",
+      "link": "https://ftrain.com/aboard-the-web-is-more-than-enough",
+      "pub_date": "2026-11-08T22:20:34.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 124,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Web",
+        "Paul Ford",
+        "WebAssembly",
+        "three.js"
+      ],
+      "rank": 2
+    }
+  ]
+}
