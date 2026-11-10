@@ -2,9 +2,141 @@
   "date": "2026-11-11",
   "total_feeds": 95,
   "success_feeds": 88,
-  "total_articles": 3472,
-  "filtered_articles": 41,
+  "total_articles": 3473,
+  "filtered_articles": 51,
   "articles": [
+    {
+      "title": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives",
+      "title_display": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives",
+      "link": "https://github.com/GoogleChrome/modern-web-guidance",
+      "pub_date": "2026-11-10T18:30:56.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 176,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Modern Web Guidance",
+        "Google Chrome",
+        "coding agents",
+        "web primitives"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Synaptics patent claims stop work on DisplayLink drivers",
+      "title_display": "Synaptics patent claims stop work on DisplayLink drivers",
+      "link": "https://lwn.net/SubscriberLink/1102549/acbc92e00cee3a3f/",
+      "pub_date": "2026-11-10T18:30:54.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 197,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "Synaptics",
+        "DisplayLink",
+        "Linux",
+        "Vino"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "What's new in the .NET 11 runtime",
+      "title_display": "What's new in the .NET 11 runtime",
+      "link": "https://learn.microsoft.com/en-us/dotnet/core/whats-new/dotnet-11/runtime",
+      "pub_date": "2026-11-10T17:00:54.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 211,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        ".NET 11",
+        ".NET runtime",
+        "Microsoft",
+        "C#"
+      ],
+      "rank": 3
+    },
+    {
+      "title": "Gemini 4 Carbon is now available",
+      "title_display": "Gemini 4 Carbon is now available",
+      "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+      "pub_date": "2026-11-10T16:20:53.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 229,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "Gemini 4 Carbon",
+        "Google",
+        "Gemini",
+        "Google AI Ultra"
+      ],
+      "rank": 4
+    },
+    {
+      "title": "Smart home devices should work without the internet",
+      "title_display": "Smart home devices should work without the internet",
+      "link": "https://docodethatmatters.com/home-automation-overnight-success/",
+      "pub_date": "2026-11-10T16:10:54.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 483,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Smart home",
+        "Home Assistant",
+        "IoT"
+      ],
+      "rank": 5
+    },
+    {
+      "title": "The Hardest Tarball?",
+      "title_display": "The Hardest Tarball?",
+      "link": "https://stoppels.ch/2026/11/07/the-hardest-tarball.html",
+      "pub_date": "2026-11-10T15:30:54.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 130,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "tar",
+        "POSIX",
+        "PAX",
+        "hard links"
+      ],
+      "rank": 6
+    },
+    {
+      "title": "Ableton Live 13",
+      "title_display": "Ableton Live 13",
+      "link": "https://www.ableton.com/en/live/",
+      "pub_date": "2026-11-10T14:40:54.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 180,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Ableton Live 13",
+        "Ableton",
+        "digital audio workstation",
+        "music production"
+      ],
+      "rank": 7
+    },
     {
       "title": "Show HN: A 15 MB self-hosted Netflix and Spotify for your media server",
       "title_display": "Show HN: A 15 MB self-hosted Netflix and Spotify for your media server",
@@ -22,7 +154,7 @@
         "Jellyfin",
         "Sonarr"
       ],
-      "rank": 1
+      "rank": 8
     },
     {
       "title": "AlphaProof Code",
@@ -32,7 +164,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 282,
+      "hn_points": 430,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -41,7 +173,7 @@
         "Signal",
         "libsignal"
       ],
-      "rank": 2
+      "rank": 9
     },
     {
       "title": "Fireworks AI security breach impacts Notion and their customers",
@@ -60,7 +192,7 @@
         "Notion AI",
         "data breach"
       ],
-      "rank": 3
+      "rank": 10
     },
     {
       "title": "Queens Public library under ransomware attack e-borrowing suspended",
@@ -77,7 +209,26 @@
         "Queens Public Library",
         "ransomware"
       ],
-      "rank": 4
+      "rank": 11
+    },
+    {
+      "title": "Ultorg: The User Interface for Relational Databases",
+      "title_display": "Ultorg: The User Interface for Relational Databases",
+      "link": "https://www.ultorg.com/",
+      "pub_date": "2026-11-10T05:50:55.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 123,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "Ultorg",
+        "SIEUFERD",
+        "Eirik Bakke",
+        "relational databases"
+      ],
+      "rank": 12
     },
     {
       "title": "Horible public key tricks",
@@ -96,7 +247,7 @@
         "RSA",
         "certificates"
       ],
-      "rank": 5
+      "rank": 13
     }
   ]
 }
