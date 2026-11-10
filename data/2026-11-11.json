@@ -1,0 +1,102 @@
+{
+  "date": "2026-11-11",
+  "total_feeds": 95,
+  "success_feeds": 88,
+  "total_articles": 3472,
+  "filtered_articles": 41,
+  "articles": [
+    {
+      "title": "Show HN: A 15 MB self-hosted Netflix and Spotify for your media server",
+      "title_display": "Show HN: A 15 MB self-hosted Netflix and Spotify for your media server",
+      "link": "https://github.com/HolyArrs/HolyArrs",
+      "pub_date": "2026-11-10T13:20:54.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 141,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "HolyArrs",
+        "Plex",
+        "Jellyfin",
+        "Sonarr"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "AlphaProof Code",
+      "title_display": "AlphaProof Code",
+      "link": "https://deepmind.google/blog/introducing-alphaproof-code/",
+      "pub_date": "2026-11-10T13:10:53.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 282,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "AlphaProof Code",
+        "Google DeepMind",
+        "Signal",
+        "libsignal"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "Fireworks AI security breach impacts Notion and their customers",
+      "title_display": "Fireworks AI security breach impacts Notion and their customers",
+      "link": "https://www.notion.com/help/security-incident-involving-a-third-party-ai-vendor",
+      "pub_date": "2026-11-10T09:50:55.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 136,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Notion",
+        "Fireworks AI",
+        "Notion AI",
+        "data breach"
+      ],
+      "rank": 3
+    },
+    {
+      "title": "Queens Public library under ransomware attack e-borrowing suspended",
+      "title_display": "Queens Public library under ransomware attack e-borrowing suspended",
+      "link": "https://connect.queenslibrary.org/",
+      "pub_date": "2026-11-10T09:50:54.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 134,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Queens Public Library",
+        "ransomware"
+      ],
+      "rank": 4
+    },
+    {
+      "title": "Horible public key tricks",
+      "title_display": "Horible public key tricks",
+      "link": "https://maurycyz.com/projects/badcert/",
+      "pub_date": "2026-11-10T04:00:55.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 157,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "TLS",
+        "public key",
+        "RSA",
+        "certificates"
+      ],
+      "rank": 5
+    }
+  ]
+}
