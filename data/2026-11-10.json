@@ -1,10 +1,232 @@
 {
   "date": "2026-11-10",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3500,
-  "filtered_articles": 36,
+  "success_feeds": 88,
+  "total_articles": 3472,
+  "filtered_articles": 37,
   "articles": [
+    {
+      "title": "Google Gemini routes personal Drive files and emails to human annotators",
+      "title_display": "Google Gemini routes personal Drive files and emails to human annotators",
+      "link": "https://github.com/thisisme6598/gemini_files/",
+      "pub_date": "2026-11-09T21:20:35.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 284,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Google Gemini",
+        "Google Drive",
+        "human annotators"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Claude Fable 5.2 Scores 65 on Artificial Analysis, Highest So Far",
+      "title_display": "Claude Fable 5.2 Scores 65 on Artificial Analysis, Highest So Far",
+      "link": "https://artificialanalysis.ai/models/claude-fable-5-2",
+      "pub_date": "2026-11-09T21:00:34.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 234,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "Claude Fable 5.2",
+        "Artificial Analysis",
+        "Anthropic",
+        "Opus 5.5"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "USPS now offers official ZIP Code boundary polygons",
+      "title_display": "USPS now offers official ZIP Code boundary polygons",
+      "link": "https://postalpro.usps.com/zcb",
+      "pub_date": "2026-11-09T20:40:34.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 305,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "USPS",
+        "ZIP Code",
+        "ZIP Code Boundary",
+        "geospatial data"
+      ],
+      "rank": 3
+    },
+    {
+      "title": "CUI – Native UI components for C",
+      "title_display": "CUI – Native UI components for C",
+      "link": "https://yappologistic.github.io/CUI/",
+      "pub_date": "2026-11-09T20:10:35.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 132,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "CUI",
+        "C"
+      ],
+      "rank": 4
+    },
+    {
+      "title": "E-means: 10x faster k-means at equal loss",
+      "title_display": "E-means: 10x faster k-means at equal loss",
+      "link": "https://e-means.github.io/",
+      "pub_date": "2026-11-09T19:50:35.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 236,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "E-means",
+        "k-means"
+      ],
+      "rank": 5
+    },
+    {
+      "title": "DeepX claims inference up to 100B parameters at less than 5 W",
+      "title_display": "DeepX claims inference up to 100B parameters at less than 5 W",
+      "link": "https://www.eetimes.com/deepx-tapes-out-second-gen-chip-projects-6-7x-performance-gain-with-lpddr5x-pim/",
+      "pub_date": "2026-11-09T19:20:34.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 136,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "DeepX",
+        "LPDDR5X",
+        "processing-in-memory",
+        "compute-in-memory"
+      ],
+      "rank": 6
+    },
+    {
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "title_display": "Claude Fable 5.2 and Mythos 5.2",
+      "link": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+      "pub_date": "2026-11-09T19:20:33.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 723,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Anthropic",
+        "Claude",
+        "Claude Fable 5.2",
+        "Claude Mythos 5.2"
+      ],
+      "rank": 7
+    },
+    {
+      "title": "Too many men suffering in silence, national health report finds (Canada)",
+      "title_display": "Too many men suffering in silence, national health report finds (Canada)",
+      "link": "https://www.westcentralonline.com/articles/too-many-men-suffering-in-silence-national-health-report-finds",
+      "pub_date": "2026-11-09T18:40:35.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 299,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Canada",
+        "men's health",
+        "mental health"
+      ],
+      "rank": 8
+    },
+    {
+      "title": "When will this stop? The Raspberry Pi 5 16GB SBC now sells for $385",
+      "title_display": "When will this stop? The Raspberry Pi 5 16GB SBC now sells for $385",
+      "link": "https://www.cnx-software.com/2026/11/03/when-will-this-stop-the-raspberry-pi-5-16gb-sbc-now-sells-for-385/",
+      "pub_date": "2026-11-09T18:00:35.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 275,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "Raspberry Pi 5",
+        "Raspberry Pi",
+        "single-board computers",
+        "RAM"
+      ],
+      "rank": 9
+    },
+    {
+      "title": "The same H100 costs $2.69 or $12.29 an hour depending where you rent it",
+      "title_display": "The same H100 costs $2.69 or $12.29 an hour depending where you rent it",
+      "link": "https://github.com/datareceipts/data-receipts/tree/main/109-gpu-pricing",
+      "pub_date": "2026-11-09T16:50:34.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 151,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "NVIDIA H100",
+        "GPU pricing",
+        "NVIDIA",
+        "Runpod"
+      ],
+      "rank": 10
+    },
+    {
+      "title": "Payments Canada announces launch of Canada's Real-Time Rail (RTR) payment system",
+      "title_display": "Payments Canada announces launch of Canada's Real-Time Rail (RTR) payment system",
+      "link": "https://www.payments.ca/canada-launches-real-time-rail-bringing-247-payment-infrastructure-national-economy",
+      "pub_date": "2026-11-09T16:50:33.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 272,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "Payments Canada",
+        "Real-Time Rail",
+        "RTR",
+        "Interac"
+      ],
+      "rank": 11
+    },
+    {
+      "title": "What is malloc doing, anyway?",
+      "title_display": "What is malloc doing, anyway?",
+      "link": "https://benmandrew.com/articles/what-is-malloc-doing-anyway",
+      "pub_date": "2026-11-09T14:30:35.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 160,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "malloc",
+        "memory allocation",
+        "heap allocation",
+        "stack allocation"
+      ],
+      "rank": 12
+    },
     {
       "title": "Humans will never again create a project like Wikipedia",
       "title_display": "Humans will never again create a project like Wikipedia",
@@ -22,7 +244,7 @@
         "AI",
         "Wikimedia"
       ],
-      "rank": 1
+      "rank": 13
     },
     {
       "title": "The Web Is More Than Enough, by Paul Ford",
@@ -41,7 +263,7 @@
         "WebAssembly",
         "three.js"
       ],
-      "rank": 2
+      "rank": 14
     }
   ]
 }
