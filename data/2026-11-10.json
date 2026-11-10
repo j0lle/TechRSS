@@ -2,9 +2,46 @@
   "date": "2026-11-10",
   "total_feeds": 95,
   "success_feeds": 88,
-  "total_articles": 3472,
-  "filtered_articles": 37,
+  "total_articles": 3471,
+  "filtered_articles": 41,
   "articles": [
+    {
+      "title": "Locating the source of a mysterious beep",
+      "title_display": "Locating the source of a mysterious beep",
+      "link": "https://simonwillison.net/2026/Nov/9/mysterious-beeps/",
+      "pub_date": "2026-11-10T04:00:56.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 145,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Simon Willison",
+        "Web Audio API",
+        "carbon monoxide detector"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "TPUs",
+      "title_display": "TPUs",
+      "link": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/",
+      "pub_date": "2026-11-09T23:10:52.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 209,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "Google",
+        "TPU",
+        "TPU 8tx",
+        "TPU 8i Max"
+      ],
+      "rank": 2
+    },
     {
       "title": "Google Gemini routes personal Drive files and emails to human annotators",
       "title_display": "Google Gemini routes personal Drive files and emails to human annotators",
@@ -13,7 +50,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 284,
+      "hn_points": 399,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -21,7 +58,7 @@
         "Google Drive",
         "human annotators"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "Claude Fable 5.2 Scores 65 on Artificial Analysis, Highest So Far",
@@ -31,8 +68,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 234,
-      "score": 29,
+      "hn_points": 337,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Claude Fable 5.2",
@@ -40,7 +77,7 @@
         "Anthropic",
         "Opus 5.5"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "USPS now offers official ZIP Code boundary polygons",
@@ -50,7 +87,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 305,
+      "hn_points": 610,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -59,7 +96,7 @@
         "ZIP Code Boundary",
         "geospatial data"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "CUI – Native UI components for C",
@@ -76,7 +113,7 @@
         "CUI",
         "C"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "E-means: 10x faster k-means at equal loss",
@@ -86,14 +123,14 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 236,
-      "score": 29,
+      "hn_points": 346,
+      "score": 30,
       "category": "other",
       "keywords": [
         "E-means",
         "k-means"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "DeepX claims inference up to 100B parameters at less than 5 W",
@@ -112,7 +149,7 @@
         "processing-in-memory",
         "compute-in-memory"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "Claude Fable 5.2 and Mythos 5.2",
@@ -131,7 +168,7 @@
         "Claude Fable 5.2",
         "Claude Mythos 5.2"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "Too many men suffering in silence, national health report finds (Canada)",
@@ -149,7 +186,7 @@
         "men's health",
         "mental health"
       ],
-      "rank": 8
+      "rank": 10
     },
     {
       "title": "When will this stop? The Raspberry Pi 5 16GB SBC now sells for $385",
@@ -168,7 +205,7 @@
         "single-board computers",
         "RAM"
       ],
-      "rank": 9
+      "rank": 11
     },
     {
       "title": "The same H100 costs $2.69 or $12.29 an hour depending where you rent it",
@@ -187,7 +224,7 @@
         "NVIDIA",
         "Runpod"
       ],
-      "rank": 10
+      "rank": 12
     },
     {
       "title": "Payments Canada announces launch of Canada's Real-Time Rail (RTR) payment system",
@@ -206,7 +243,7 @@
         "RTR",
         "Interac"
       ],
-      "rank": 11
+      "rank": 13
     },
     {
       "title": "What is malloc doing, anyway?",
@@ -225,7 +262,7 @@
         "heap allocation",
         "stack allocation"
       ],
-      "rank": 12
+      "rank": 14
     },
     {
       "title": "Humans will never again create a project like Wikipedia",
@@ -244,7 +281,7 @@
         "AI",
         "Wikimedia"
       ],
-      "rank": 13
+      "rank": 15
     },
     {
       "title": "The Web Is More Than Enough, by Paul Ford",
@@ -263,7 +300,7 @@
         "WebAssembly",
         "three.js"
       ],
-      "rank": 14
+      "rank": 16
     }
   ]
 }
