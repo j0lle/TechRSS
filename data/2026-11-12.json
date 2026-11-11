@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-12",
+  "total_feeds": 95,
+  "success_feeds": 89,
+  "total_articles": 3487,
+  "filtered_articles": 29,
+  "articles": [
+    {
+      "title": "A great old-timey game-programming hack (2013)",
+      "title_display": "A great old-timey game-programming hack (2013)",
+      "link": "https://blog.moertel.com/posts/2013-12-14-great-old-timey-game-programming-hack.html",
+      "pub_date": "2026-11-11T04:20:54.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 154,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Motorola 6809",
+        "Color Computer 3",
+        "assembly language",
+        "PSHU"
+      ],
+      "rank": 1
+    }
+  ]
+}
