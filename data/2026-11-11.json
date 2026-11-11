@@ -2,9 +2,65 @@
   "date": "2026-11-11",
   "total_feeds": 95,
   "success_feeds": 88,
-  "total_articles": 3473,
-  "filtered_articles": 42,
+  "total_articles": 3471,
+  "filtered_articles": 40,
   "articles": [
+    {
+      "title": "Protecting SSH Keys with macOS Secure Enclave",
+      "title_display": "Protecting SSH Keys with macOS Secure Enclave",
+      "link": "https://gatezh.com/posts/macos-secure-enclave-ssh-keys/",
+      "pub_date": "2026-11-11T05:30:53.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 144,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "SSH",
+        "macOS",
+        "Secure Enclave",
+        "Secretive"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "After 7 Months, Glasswing Overwelms Maintainers with Underwhelming Findings",
+      "title_display": "After 7 Months, Glasswing Overwelms Maintainers with Underwhelming Findings",
+      "link": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update",
+      "pub_date": "2026-11-10T22:50:53.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 359,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Anthropic",
+        "Glasswing",
+        "VulnCheck",
+        "CVE"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "Six Math Essentials by Terence Tao",
+      "title_display": "Six Math Essentials by Terence Tao",
+      "link": "https://teorth.github.io/tao-web/six-math-essentials.html",
+      "pub_date": "2026-11-10T21:10:55.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 138,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Terence Tao",
+        "mathematics",
+        "Six Math Essentials"
+      ],
+      "rank": 3
+    },
     {
       "title": "Process Explorer for macOS",
       "title_display": "Process Explorer for macOS",
@@ -22,7 +78,7 @@
         "Microsoft",
         "Sysinternals"
       ],
-      "rank": 1
+      "rank": 4
     },
     {
       "title": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives",
@@ -32,8 +88,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 176,
-      "score": 27,
+      "hn_points": 278,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Modern Web Guidance",
@@ -41,7 +97,7 @@
         "coding agents",
         "web primitives"
       ],
-      "rank": 2
+      "rank": 5
     },
     {
       "title": "Synaptics patent claims stop work on DisplayLink drivers",
@@ -51,8 +107,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 197,
-      "score": 28,
+      "hn_points": 300,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Synaptics",
@@ -60,7 +116,7 @@
         "Linux",
         "Vino"
       ],
-      "rank": 3
+      "rank": 6
     },
     {
       "title": "AMD's Zen 6 Family: Feeding the Beast",
@@ -79,7 +135,7 @@
         "Zen 6c",
         "EPYC"
       ],
-      "rank": 4
+      "rank": 7
     },
     {
       "title": "What's new in the .NET 11 runtime",
@@ -98,7 +154,7 @@
         "Microsoft",
         "C#"
       ],
-      "rank": 5
+      "rank": 8
     },
     {
       "title": "Gemini 4 Carbon is now available",
@@ -117,7 +173,7 @@
         "Gemini",
         "Google AI Ultra"
       ],
-      "rank": 6
+      "rank": 9
     },
     {
       "title": "Smart home devices should work without the internet",
@@ -127,7 +183,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 483,
+      "hn_points": 788,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -135,7 +191,7 @@
         "Home Assistant",
         "IoT"
       ],
-      "rank": 7
+      "rank": 10
     },
     {
       "title": "The Hardest Tarball?",
@@ -154,7 +210,7 @@
         "PAX",
         "hard links"
       ],
-      "rank": 8
+      "rank": 11
     },
     {
       "title": "Ableton Live 13",
@@ -164,8 +220,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 180,
-      "score": 27,
+      "hn_points": 280,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Ableton Live 13",
@@ -173,7 +229,7 @@
         "digital audio workstation",
         "music production"
       ],
-      "rank": 9
+      "rank": 12
     },
     {
       "title": "Show HN: A 15 MB self-hosted Netflix and Spotify for your media server",
@@ -192,7 +248,7 @@
         "Jellyfin",
         "Sonarr"
       ],
-      "rank": 10
+      "rank": 13
     },
     {
       "title": "AlphaProof Code",
@@ -211,7 +267,7 @@
         "Signal",
         "libsignal"
       ],
-      "rank": 11
+      "rank": 14
     },
     {
       "title": "Fireworks AI security breach impacts Notion and their customers",
@@ -230,7 +286,7 @@
         "Notion AI",
         "data breach"
       ],
-      "rank": 12
+      "rank": 15
     },
     {
       "title": "Queens Public library under ransomware attack e-borrowing suspended",
@@ -247,7 +303,7 @@
         "Queens Public Library",
         "ransomware"
       ],
-      "rank": 13
+      "rank": 16
     },
     {
       "title": "Ultorg: The User Interface for Relational Databases",
@@ -266,7 +322,7 @@
         "Eirik Bakke",
         "relational databases"
       ],
-      "rank": 14
+      "rank": 17
     },
     {
       "title": "Horible public key tricks",
@@ -285,7 +341,7 @@
         "RSA",
         "certificates"
       ],
-      "rank": 15
+      "rank": 18
     }
   ]
 }
