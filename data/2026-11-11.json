@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 88,
   "total_articles": 3473,
-  "filtered_articles": 51,
+  "filtered_articles": 42,
   "articles": [
+    {
+      "title": "Process Explorer for macOS",
+      "title_display": "Process Explorer for macOS",
+      "link": "https://github.com/microsoft/Procexp-Mac",
+      "pub_date": "2026-11-10T19:00:54.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 138,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Process Explorer",
+        "macOS",
+        "Microsoft",
+        "Sysinternals"
+      ],
+      "rank": 1
+    },
     {
       "title": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives",
       "title_display": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives",
@@ -22,7 +41,7 @@
         "coding agents",
         "web primitives"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Synaptics patent claims stop work on DisplayLink drivers",
@@ -41,7 +60,26 @@
         "Linux",
         "Vino"
       ],
-      "rank": 2
+      "rank": 3
+    },
+    {
+      "title": "AMD's Zen 6 Family: Feeding the Beast",
+      "title_display": "AMD's Zen 6 Family: Feeding the Beast",
+      "link": "https://chipsandcheese.com/p/amds-zen-6-family-feeding-the-beast",
+      "pub_date": "2026-11-10T17:40:55.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 144,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "AMD",
+        "Zen 6",
+        "Zen 6c",
+        "EPYC"
+      ],
+      "rank": 4
     },
     {
       "title": "What's new in the .NET 11 runtime",
@@ -60,7 +98,7 @@
         "Microsoft",
         "C#"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "Gemini 4 Carbon is now available",
@@ -79,7 +117,7 @@
         "Gemini",
         "Google AI Ultra"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "Smart home devices should work without the internet",
@@ -97,7 +135,7 @@
         "Home Assistant",
         "IoT"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "The Hardest Tarball?",
@@ -116,7 +154,7 @@
         "PAX",
         "hard links"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "Ableton Live 13",
@@ -135,7 +173,7 @@
         "digital audio workstation",
         "music production"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "Show HN: A 15 MB self-hosted Netflix and Spotify for your media server",
@@ -154,7 +192,7 @@
         "Jellyfin",
         "Sonarr"
       ],
-      "rank": 8
+      "rank": 10
     },
     {
       "title": "AlphaProof Code",
@@ -173,7 +211,7 @@
         "Signal",
         "libsignal"
       ],
-      "rank": 9
+      "rank": 11
     },
     {
       "title": "Fireworks AI security breach impacts Notion and their customers",
@@ -192,7 +230,7 @@
         "Notion AI",
         "data breach"
       ],
-      "rank": 10
+      "rank": 12
     },
     {
       "title": "Queens Public library under ransomware attack e-borrowing suspended",
@@ -209,7 +247,7 @@
         "Queens Public Library",
         "ransomware"
       ],
-      "rank": 11
+      "rank": 13
     },
     {
       "title": "Ultorg: The User Interface for Relational Databases",
@@ -228,7 +266,7 @@
         "Eirik Bakke",
         "relational databases"
       ],
-      "rank": 12
+      "rank": 14
     },
     {
       "title": "Horible public key tricks",
@@ -247,7 +285,7 @@
         "RSA",
         "certificates"
       ],
-      "rank": 13
+      "rank": 15
     }
   ]
 }
