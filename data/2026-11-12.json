@@ -1,10 +1,122 @@
 {
   "date": "2026-11-12",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3487,
-  "filtered_articles": 29,
+  "success_feeds": 88,
+  "total_articles": 3462,
+  "filtered_articles": 24,
   "articles": [
+    {
+      "title": "Gemini Decisions API",
+      "title_display": "Gemini Decisions API",
+      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+      "pub_date": "2026-11-11T20:30:54.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 189,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "Google",
+        "Gemini",
+        "Gemini Decisions API",
+        "Jev"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "AWS Finally Built Its Own AWS Emulator",
+      "title_display": "AWS Finally Built Its Own AWS Emulator",
+      "link": "https://github.com/aws/aws-emulator",
+      "pub_date": "2026-11-11T18:40:53.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 370,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "AWS",
+        "aws-emulator",
+        "LocalStack"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "Tim Peters has died",
+      "title_display": "Tim Peters has died",
+      "link": "https://discuss.python.org/t/in-memoriam-tim-peters-1952-2026/110028",
+      "pub_date": "2026-11-11T17:40:53.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 406,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Tim Peters",
+        "Python",
+        "Timsort",
+        "Zen of Python"
+      ],
+      "rank": 3
+    },
+    {
+      "title": "Hyper-Realistic Sand with WebGL2",
+      "title_display": "Hyper-Realistic Sand with WebGL2",
+      "link": "https://av.github.io/safe-sand/",
+      "pub_date": "2026-11-11T15:50:53.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 201,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "WebGL2",
+        "WebGL",
+        "Chrome",
+        "Safari"
+      ],
+      "rank": 4
+    },
+    {
+      "title": "Apple is killing its Support Community forum next week",
+      "title_display": "Apple is killing its Support Community forum next week",
+      "link": "https://www.theverge.com/tech/1031507/apple-community-support-forum-shutting-down",
+      "pub_date": "2026-11-11T15:20:53.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 180,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Apple",
+        "Apple Support Community",
+        "Apple Developer Forums"
+      ],
+      "rank": 5
+    },
+    {
+      "title": "Can a Linear Program Do Weight-Space Programming?",
+      "title_display": "Can a Linear Program Do Weight-Space Programming?",
+      "link": "https://nathan.rs/posts/weight-space-lp/",
+      "pub_date": "2026-11-11T15:10:52.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 199,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "Linear Programming",
+        "Weight-Space Programming",
+        "Astra",
+        "Qwen"
+      ],
+      "rank": 6
+    },
     {
       "title": "A great old-timey game-programming hack (2013)",
       "title_display": "A great old-timey game-programming hack (2013)",
@@ -22,7 +134,7 @@
         "assembly language",
         "PSHU"
       ],
-      "rank": 1
+      "rank": 7
     }
   ]
 }
