@@ -3,8 +3,65 @@
   "total_feeds": 95,
   "success_feeds": 88,
   "total_articles": 3462,
-  "filtered_articles": 24,
+  "filtered_articles": 27,
   "articles": [
+    {
+      "title": "Critical RCE Vulnerability in Apache HTTP Server",
+      "title_display": "Critical RCE Vulnerability in Apache HTTP Server",
+      "link": "https://www.wiz.io/blog/cve-2026-119618-rce-apache-http-server-vulnerability",
+      "pub_date": "2026-11-12T03:50:54.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 129,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Apache HTTP Server",
+        "CVE-2026-119618",
+        "mod_http2",
+        "HTTP/2"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Lock Your GitHub Actions",
+      "title_display": "Lock Your GitHub Actions",
+      "link": "https://hugovk.dev/blog/2026/lock-github-actions/",
+      "pub_date": "2026-11-11T22:30:54.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 149,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "GitHub Actions",
+        "GitHub",
+        "lockfiles",
+        "SHA pinning"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "Emacs in the Age of Magic",
+      "title_display": "Emacs in the Age of Magic",
+      "link": "https://commandlinesystems.com/magic.txt",
+      "pub_date": "2026-11-11T21:10:55.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 141,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Emacs",
+        "AI",
+        "Richard Stallman",
+        "Claude"
+      ],
+      "rank": 3
+    },
     {
       "title": "Gemini Decisions API",
       "title_display": "Gemini Decisions API",
@@ -13,8 +70,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 189,
-      "score": 28,
+      "hn_points": 290,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Google",
@@ -22,7 +79,26 @@
         "Gemini Decisions API",
         "Jev"
       ],
-      "rank": 1
+      "rank": 4
+    },
+    {
+      "title": "Show HN: Yogurt – Free, private, open-source alternative to Granola",
+      "title_display": "Show HN: Yogurt – Free, private, open-source alternative to Granola",
+      "link": "https://github.com/FrigadeHQ/yogurt",
+      "pub_date": "2026-11-11T18:40:54.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 150,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Yogurt",
+        "Granola",
+        "OpenWhispr",
+        "Electron"
+      ],
+      "rank": 5
     },
     {
       "title": "AWS Finally Built Its Own AWS Emulator",
@@ -32,7 +108,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 370,
+      "hn_points": 715,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -40,7 +116,26 @@
         "aws-emulator",
         "LocalStack"
       ],
-      "rank": 2
+      "rank": 6
+    },
+    {
+      "title": "Faster Retrieval for Better, More Efficient RAG",
+      "title_display": "Faster Retrieval for Better, More Efficient RAG",
+      "link": "https://machinelearning.apple.com/research/faster-retrieval",
+      "pub_date": "2026-11-11T17:50:54.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 135,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Apple",
+        "RAG",
+        "retrieval",
+        "large language models"
+      ],
+      "rank": 7
     },
     {
       "title": "Tim Peters has died",
@@ -50,7 +145,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 406,
+      "hn_points": 862,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -59,7 +154,7 @@
         "Timsort",
         "Zen of Python"
       ],
-      "rank": 3
+      "rank": 8
     },
     {
       "title": "Hyper-Realistic Sand with WebGL2",
@@ -69,8 +164,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 201,
-      "score": 28,
+      "hn_points": 301,
+      "score": 30,
       "category": "other",
       "keywords": [
         "WebGL2",
@@ -78,7 +173,7 @@
         "Chrome",
         "Safari"
       ],
-      "rank": 4
+      "rank": 9
     },
     {
       "title": "Apple is killing its Support Community forum next week",
@@ -96,7 +191,7 @@
         "Apple Support Community",
         "Apple Developer Forums"
       ],
-      "rank": 5
+      "rank": 10
     },
     {
       "title": "Can a Linear Program Do Weight-Space Programming?",
@@ -115,7 +210,7 @@
         "Astra",
         "Qwen"
       ],
-      "rank": 6
+      "rank": 11
     },
     {
       "title": "A great old-timey game-programming hack (2013)",
@@ -134,7 +229,7 @@
         "assembly language",
         "PSHU"
       ],
-      "rank": 7
+      "rank": 12
     }
   ]
 }
