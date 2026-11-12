@@ -1,0 +1,104 @@
+{
+  "date": "2026-11-13",
+  "total_feeds": 95,
+  "success_feeds": 88,
+  "total_articles": 3468,
+  "filtered_articles": 31,
+  "articles": [
+    {
+      "title": "Why Writing Correct Software Is Hard",
+      "title_display": "Why Writing Correct Software Is Hard",
+      "link": "https://pron.github.io/posts/correctness-and-complexity",
+      "pub_date": "2026-11-12T13:10:41.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 217,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "Formal verification",
+        "Software correctness",
+        "Halting problem",
+        "LLM"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "A live tree of systemd jobs on the boot console",
+      "title_display": "A live tree of systemd jobs on the boot console",
+      "link": "https://codeberg.org/wvhulle/bootvine",
+      "pub_date": "2026-11-12T10:10:54.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 159,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "systemd",
+        "Linux",
+        "OpenRC",
+        "SysVinit"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "Jane Street: Socratic Tutor",
+      "title_display": "Jane Street: Socratic Tutor",
+      "link": "https://github.com/janestreet/agent_skills/blob/master/socratic-tutor/SKILL.md",
+      "pub_date": "2026-11-12T10:10:52.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 309,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Jane Street",
+        "Socratic Tutor",
+        "LLM",
+        "Socratic questioning"
+      ],
+      "rank": 3
+    },
+    {
+      "title": "Humble Bundle just killed most of their security through vibecoding",
+      "title_display": "Humble Bundle just killed most of their security through vibecoding",
+      "link": "https://forums.spacebattles.com/threads/humble-bundle-just-completely-killed-most-of-their-security-through-vibecoding.1346295/",
+      "pub_date": "2026-11-12T08:40:54.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 176,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Humble Bundle",
+        "vibe coding",
+        "two-factor authentication",
+        "LLMs"
+      ],
+      "rank": 4
+    },
+    {
+      "title": "Huawei releases MACaQ, its internal quantizer for local inference",
+      "title_display": "Huawei releases MACaQ, its internal quantizer for local inference",
+      "link": "https://github.com/huawei-csl/MACaQ",
+      "pub_date": "2026-11-11T21:30:54.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 121,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "MACaQ",
+        "Huawei",
+        "quantization",
+        "local inference"
+      ],
+      "rank": 5
+    }
+  ]
+}
