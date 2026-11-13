@@ -1,10 +1,86 @@
 {
   "date": "2026-11-13",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3468,
-  "filtered_articles": 23,
+  "success_feeds": 91,
+  "total_articles": 3522,
+  "filtered_articles": 28,
   "articles": [
+    {
+      "title": "Foundation Models Framework (macOS)",
+      "title_display": "Foundation Models Framework (macOS)",
+      "link": "https://developer.apple.com/foundation-models-framework/",
+      "pub_date": "2026-11-12T21:40:41.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 138,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Apple",
+        "Foundation Models Framework",
+        "macOS",
+        "App Attest"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Rust 1.100",
+      "title_display": "Rust 1.100",
+      "link": "https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/",
+      "pub_date": "2026-11-12T20:30:41.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 371,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Rust",
+        "Cargo",
+        "Rust 1.100",
+        "Rust compiler"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "22-Year-Old PostgreSQL Bug Turned into Remote Code Execution",
+      "title_display": "22-Year-Old PostgreSQL Bug Turned into Remote Code Execution",
+      "link": "https://mehmetince.net/part-3-6-how-i-ended-up-turning-a-22-year-old-postgresql-type-confusion-primitive-into-rce-cve-2026-6460/",
+      "pub_date": "2026-11-12T20:20:43.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 138,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "PostgreSQL",
+        "CVE-2026-6460",
+        "remote code execution",
+        "type confusion"
+      ],
+      "rank": 3
+    },
+    {
+      "title": "Show HN: My $300 embroidery machine needed a subscription, so I built my own app",
+      "title_display": "Show HN: My $300 embroidery machine needed a subscription, so I built my own app",
+      "link": "https://github.com/simpsoka/zigzag",
+      "pub_date": "2026-11-12T19:10:42.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 322,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Zigzag",
+        "embroidery machines",
+        "Brother Skitch PP1",
+        "ChatGPT"
+      ],
+      "rank": 4
+    },
     {
       "title": "Outlook is down, and so is Microsoft's status page",
       "title_display": "Outlook is down, and so is Microsoft's status page",
@@ -13,8 +89,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 267,
-      "score": 29,
+      "hn_points": 380,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Microsoft Outlook",
@@ -22,7 +98,7 @@
         "Office 365",
         "Exchange Server"
       ],
-      "rank": 1
+      "rank": 5
     },
     {
       "title": "Ask HN: Microsoft/Azure Outage?",
@@ -41,7 +117,7 @@
         "Microsoft 365",
         "Exchange Online"
       ],
-      "rank": 2
+      "rank": 6
     },
     {
       "title": "Nintendo Takes Down Emulators and Firmware in Massive GitHub DMCA Sweep",
@@ -51,8 +127,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 165,
-      "score": 27,
+      "hn_points": 266,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Nintendo",
@@ -60,7 +136,7 @@
         "GitHub",
         "Nintendo Switch"
       ],
-      "rank": 3
+      "rank": 7
     },
     {
       "title": "I'm making LLMs work on small and old devices",
@@ -70,8 +146,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 166,
-      "score": 27,
+      "hn_points": 268,
+      "score": 29,
       "category": "other",
       "keywords": [
         "LLM",
@@ -79,7 +155,45 @@
         "TinyStories",
         "Nintendo Wii"
       ],
-      "rank": 4
+      "rank": 8
+    },
+    {
+      "title": "Libreagi – Save OSS Models",
+      "title_display": "Libreagi – Save OSS Models",
+      "link": "https://libreagi.com/",
+      "pub_date": "2026-11-12T15:50:43.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 130,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Libreagi",
+        "open-source models",
+        "LLM",
+        "BitTorrent"
+      ],
+      "rank": 9
+    },
+    {
+      "title": "Our software engineering interviews are changing (a little)",
+      "title_display": "Our software engineering interviews are changing (a little)",
+      "link": "https://blog.janestreet.com/software-engineering-interviews-are-changing-a-little/",
+      "pub_date": "2026-11-12T15:50:42.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 158,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Jane Street",
+        "software engineering interviews",
+        "LLMs",
+        "Git"
+      ],
+      "rank": 10
     },
     {
       "title": "Why Writing Correct Software Is Hard",
@@ -98,7 +212,7 @@
         "Halting problem",
         "LLM"
       ],
-      "rank": 5
+      "rank": 11
     },
     {
       "title": "A live tree of systemd jobs on the boot console",
@@ -117,7 +231,7 @@
         "OpenRC",
         "SysVinit"
       ],
-      "rank": 6
+      "rank": 12
     },
     {
       "title": "Jane Street: Socratic Tutor",
@@ -136,7 +250,7 @@
         "LLM",
         "Socratic questioning"
       ],
-      "rank": 7
+      "rank": 13
     },
     {
       "title": "Humble Bundle just killed most of their security through vibecoding",
@@ -155,7 +269,7 @@
         "two-factor authentication",
         "LLMs"
       ],
-      "rank": 8
+      "rank": 14
     },
     {
       "title": "Huawei releases MACaQ, its internal quantizer for local inference",
@@ -174,7 +288,7 @@
         "quantization",
         "local inference"
       ],
-      "rank": 9
+      "rank": 15
     }
   ]
 }
