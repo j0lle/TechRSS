@@ -1,10 +1,29 @@
 {
   "date": "2026-11-13",
   "total_feeds": 95,
-  "success_feeds": 91,
-  "total_articles": 3522,
-  "filtered_articles": 28,
+  "success_feeds": 88,
+  "total_articles": 3479,
+  "filtered_articles": 26,
   "articles": [
+    {
+      "title": "AI is turning Apple's app review process into a nightmare for synth developers",
+      "title_display": "AI is turning Apple's app review process into a nightmare for synth developers",
+      "link": "https://synthanatomy.com/2026/11/ai-is-turning-apples-app-review-process-into-a-nightmare-for-developers.html",
+      "pub_date": "2026-11-12T23:10:43.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 135,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Apple",
+        "App Store",
+        "iOS",
+        "AI"
+      ],
+      "rank": 1
+    },
     {
       "title": "Foundation Models Framework (macOS)",
       "title_display": "Foundation Models Framework (macOS)",
@@ -22,7 +41,7 @@
         "macOS",
         "App Attest"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "Rust 1.100",
@@ -32,7 +51,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 371,
+      "hn_points": 671,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -41,7 +60,7 @@
         "Rust 1.100",
         "Rust compiler"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "22-Year-Old PostgreSQL Bug Turned into Remote Code Execution",
@@ -60,7 +79,7 @@
         "remote code execution",
         "type confusion"
       ],
-      "rank": 3
+      "rank": 4
     },
     {
       "title": "Show HN: My $300 embroidery machine needed a subscription, so I built my own app",
@@ -79,7 +98,26 @@
         "Brother Skitch PP1",
         "ChatGPT"
       ],
-      "rank": 4
+      "rank": 5
+    },
+    {
+      "title": "Relax: JIT compiler for Rust to reduce build times",
+      "title_display": "Relax: JIT compiler for Rust to reduce build times",
+      "link": "https://makepad.github.io/relax/",
+      "pub_date": "2026-11-12T19:00:43.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 126,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Relax",
+        "Rust",
+        "JIT compiler",
+        "Makepad"
+      ],
+      "rank": 6
     },
     {
       "title": "Outlook is down, and so is Microsoft's status page",
@@ -98,7 +136,7 @@
         "Office 365",
         "Exchange Server"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "Ask HN: Microsoft/Azure Outage?",
@@ -117,7 +155,7 @@
         "Microsoft 365",
         "Exchange Online"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "Nintendo Takes Down Emulators and Firmware in Massive GitHub DMCA Sweep",
@@ -136,7 +174,7 @@
         "GitHub",
         "Nintendo Switch"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "I'm making LLMs work on small and old devices",
@@ -146,8 +184,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 268,
-      "score": 29,
+      "hn_points": 378,
+      "score": 30,
       "category": "other",
       "keywords": [
         "LLM",
@@ -155,7 +193,26 @@
         "TinyStories",
         "Nintendo Wii"
       ],
-      "rank": 8
+      "rank": 10
+    },
+    {
+      "title": "ExcalidrawZ: Local Native Excalidraw on macOS/iOS",
+      "title_display": "ExcalidrawZ: Local Native Excalidraw on macOS/iOS",
+      "link": "https://github.com/chocoford/ExcalidrawZ",
+      "pub_date": "2026-11-12T16:10:42.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 120,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "ExcalidrawZ",
+        "Excalidraw",
+        "macOS",
+        "iOS"
+      ],
+      "rank": 11
     },
     {
       "title": "Libreagi – Save OSS Models",
@@ -174,7 +231,7 @@
         "LLM",
         "BitTorrent"
       ],
-      "rank": 9
+      "rank": 12
     },
     {
       "title": "Our software engineering interviews are changing (a little)",
@@ -193,7 +250,7 @@
         "LLMs",
         "Git"
       ],
-      "rank": 10
+      "rank": 13
     },
     {
       "title": "Why Writing Correct Software Is Hard",
@@ -212,7 +269,7 @@
         "Halting problem",
         "LLM"
       ],
-      "rank": 11
+      "rank": 14
     },
     {
       "title": "A live tree of systemd jobs on the boot console",
@@ -231,7 +288,7 @@
         "OpenRC",
         "SysVinit"
       ],
-      "rank": 12
+      "rank": 15
     },
     {
       "title": "Jane Street: Socratic Tutor",
@@ -250,7 +307,7 @@
         "LLM",
         "Socratic questioning"
       ],
-      "rank": 13
+      "rank": 16
     },
     {
       "title": "Humble Bundle just killed most of their security through vibecoding",
@@ -269,7 +326,7 @@
         "two-factor authentication",
         "LLMs"
       ],
-      "rank": 14
+      "rank": 17
     },
     {
       "title": "Huawei releases MACaQ, its internal quantizer for local inference",
@@ -288,7 +345,7 @@
         "quantization",
         "local inference"
       ],
-      "rank": 15
+      "rank": 18
     }
   ]
 }
