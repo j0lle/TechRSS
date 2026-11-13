@@ -1,0 +1,66 @@
+{
+  "date": "2026-11-14",
+  "total_feeds": 95,
+  "success_feeds": 89,
+  "total_articles": 3505,
+  "filtered_articles": 28,
+  "articles": [
+    {
+      "title": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
+      "title_display": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
+      "link": "https://status.claude.com/incidents/nn11wk485zfn",
+      "pub_date": "2026-11-13T10:40:52.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 389,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Claude",
+        "Anthropic",
+        "Claude Code",
+        "Microsoft"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Brave Search API now accepts agentic payments via the x402 protocol",
+      "title_display": "Brave Search API now accepts agentic payments via the x402 protocol",
+      "link": "https://brave.com/blog/search-api-agentic-payments/",
+      "pub_date": "2026-11-13T06:40:43.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 150,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Brave Search API",
+        "x402",
+        "Brave",
+        "agentic payments"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "Show HN: AgentRun – open-source, Self-improving Managed Agents",
+      "title_display": "Show HN: AgentRun – open-source, Self-improving Managed Agents",
+      "link": "https://github.com/Parcha-ai/agentrun/blob/main/README.md",
+      "pub_date": "2026-11-12T19:00:44.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 124,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "AgentRun",
+        "Parcha AI",
+        "MCP",
+        "SLSA"
+      ],
+      "rank": 3
+    }
+  ]
+}
