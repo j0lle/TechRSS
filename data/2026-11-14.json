@@ -2,9 +2,85 @@
   "date": "2026-11-14",
   "total_feeds": 95,
   "success_feeds": 88,
-  "total_articles": 3480,
-  "filtered_articles": 29,
+  "total_articles": 3482,
+  "filtered_articles": 28,
   "articles": [
+    {
+      "title": "Jonathan Blow – If AI solved coding, why is my software still the same? [video]",
+      "title_display": "Jonathan Blow – If AI solved coding, why is my software still the same? [video]",
+      "link": "https://www.youtube.com/watch?v=IRK8h67ol7Q",
+      "pub_date": "2026-11-14T10:30:54.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 301,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Jonathan Blow",
+        "LLMs",
+        "coding agents",
+        "Claude"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Why get an expensive Pi when I have an old phone?",
+      "title_display": "Why get an expensive Pi when I have an old phone?",
+      "link": "https://so.long.thanks.fish/why-pi-when-i-have-an-old-phone/",
+      "pub_date": "2026-11-14T10:00:52.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 145,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Raspberry Pi",
+        "Android",
+        "GPIO",
+        "GNU/Linux"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "Ggml v1.0.0",
+      "title_display": "Ggml v1.0.0",
+      "link": "https://github.com/ggml-org/ggml/releases/tag/v1.0.0",
+      "pub_date": "2026-11-14T04:10:52.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 278,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "ggml",
+        "GGML",
+        "Georgi Gerganov",
+        "llama.cpp"
+      ],
+      "rank": 3
+    },
+    {
+      "title": "What Happened to 3Com?",
+      "title_display": "What Happened to 3Com?",
+      "link": "https://dfarq.homeip.net/what-happened-to-3com/",
+      "pub_date": "2026-11-14T00:50:53.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 123,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "3Com",
+        "Ethernet",
+        "network interface cards",
+        "Bob Metcalfe"
+      ],
+      "rank": 4
+    },
     {
       "title": "Live airband on all frequencies from KORS. Victoria, CA also ground stopped",
       "title_display": "Live airband on all frequencies from KORS. Victoria, CA also ground stopped",
@@ -13,8 +89,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 178,
-      "score": 27,
+      "hn_points": 278,
+      "score": 30,
       "category": "other",
       "keywords": [
         "KORS",
@@ -22,7 +98,26 @@
         "airband",
         "LLM"
       ],
-      "rank": 1
+      "rank": 5
+    },
+    {
+      "title": "Perplexity Decider v1.3: Training, eval, and use cases",
+      "title_display": "Perplexity Decider v1.3: Training, eval, and use cases",
+      "link": "https://www.perplexity.ai/hub/blog/perplexity-decider",
+      "pub_date": "2026-11-13T20:10:53.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 130,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Perplexity",
+        "Perplexity Decider",
+        "Decider v1.3",
+        "decision models"
+      ],
+      "rank": 6
     },
     {
       "title": "It Takes 16 Clicks for a Student to Open a PowerPoint on an iPad",
@@ -41,7 +136,7 @@
         "Clever",
         "Google Classroom"
       ],
-      "rank": 2
+      "rank": 7
     },
     {
       "title": "Models can now transmit viruses in weight-space",
@@ -58,7 +153,7 @@
         "weight-space misfolding",
         "model weights"
       ],
-      "rank": 3
+      "rank": 8
     },
     {
       "title": "Show HN: Isometric SF – A pixel-art map of the SF Bay Area",
@@ -77,7 +172,7 @@
         "SF Bay Area",
         "pixel art"
       ],
-      "rank": 4
+      "rank": 9
     },
     {
       "title": "AI unlocks Gödel's notebooks, said to contain hundreds of proved theorems",
@@ -96,7 +191,7 @@
         "Gabelsberger shorthand",
         "Gödel notebooks"
       ],
-      "rank": 5
+      "rank": 10
     },
     {
       "title": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
@@ -115,7 +210,7 @@
         "Claude Code",
         "Microsoft"
       ],
-      "rank": 6
+      "rank": 11
     },
     {
       "title": "The Dawn of the Data Intelligence Engineer",
@@ -134,7 +229,7 @@
         "data engineering",
         "AI"
       ],
-      "rank": 7
+      "rank": 12
     },
     {
       "title": "Brave Search API now accepts agentic payments via the x402 protocol",
@@ -153,7 +248,7 @@
         "Brave",
         "agentic payments"
       ],
-      "rank": 8
+      "rank": 13
     },
     {
       "title": "Don't argue with me. $100k is fair, and you know it",
@@ -170,7 +265,7 @@
         "Switcher",
         "Memory Shift"
       ],
-      "rank": 9
+      "rank": 14
     },
     {
       "title": "Show HN: AgentRun – open-source, Self-improving Managed Agents",
@@ -189,7 +284,7 @@
         "MCP",
         "SLSA"
       ],
-      "rank": 10
+      "rank": 15
     }
   ]
 }
