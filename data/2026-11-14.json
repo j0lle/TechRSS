@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 88,
   "total_articles": 3480,
-  "filtered_articles": 28,
+  "filtered_articles": 29,
   "articles": [
+    {
+      "title": "Live airband on all frequencies from KORS. Victoria, CA also ground stopped",
+      "title_display": "Live airband on all frequencies from KORS. Victoria, CA also ground stopped",
+      "link": "https://orcasairband.com/",
+      "pub_date": "2026-11-13T23:10:53.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 178,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "KORS",
+        "software-defined radio",
+        "airband",
+        "LLM"
+      ],
+      "rank": 1
+    },
     {
       "title": "It Takes 16 Clicks for a Student to Open a PowerPoint on an iPad",
       "title_display": "It Takes 16 Clicks for a Student to Open a PowerPoint on an iPad",
@@ -13,8 +32,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 207,
-      "score": 28,
+      "hn_points": 315,
+      "score": 30,
       "category": "other",
       "keywords": [
         "iPad",
@@ -22,7 +41,24 @@
         "Clever",
         "Google Classroom"
       ],
-      "rank": 1
+      "rank": 2
+    },
+    {
+      "title": "Models can now transmit viruses in weight-space",
+      "title_display": "Models can now transmit viruses in weight-space",
+      "link": "https://www.alphaxiv.org/abs/2611.weight-space-misfolding",
+      "pub_date": "2026-11-13T19:20:53.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 130,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "weight-space misfolding",
+        "model weights"
+      ],
+      "rank": 3
     },
     {
       "title": "Show HN: Isometric SF – A pixel-art map of the SF Bay Area",
@@ -41,7 +77,7 @@
         "SF Bay Area",
         "pixel art"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "AI unlocks Gödel's notebooks, said to contain hundreds of proved theorems",
@@ -51,8 +87,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 244,
-      "score": 29,
+      "hn_points": 344,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Kurt Gödel",
@@ -60,7 +96,7 @@
         "Gabelsberger shorthand",
         "Gödel notebooks"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
@@ -79,7 +115,7 @@
         "Claude Code",
         "Microsoft"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "The Dawn of the Data Intelligence Engineer",
@@ -98,7 +134,7 @@
         "data engineering",
         "AI"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "Brave Search API now accepts agentic payments via the x402 protocol",
@@ -117,7 +153,7 @@
         "Brave",
         "agentic payments"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "Don't argue with me. $100k is fair, and you know it",
@@ -134,7 +170,7 @@
         "Switcher",
         "Memory Shift"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "Show HN: AgentRun – open-source, Self-improving Managed Agents",
@@ -153,7 +189,7 @@
         "MCP",
         "SLSA"
       ],
-      "rank": 8
+      "rank": 10
     }
   ]
 }
