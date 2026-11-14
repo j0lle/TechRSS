@@ -1,0 +1,47 @@
+{
+  "date": "2026-11-15",
+  "total_feeds": 95,
+  "success_feeds": 88,
+  "total_articles": 3483,
+  "filtered_articles": 25,
+  "articles": [
+    {
+      "title": "KDE: The Documentary on Free Software [video]",
+      "title_display": "KDE: The Documentary on Free Software [video]",
+      "link": "https://tube.kockatoo.org/w/fFinNHfanLT7aBEb2B8y4c",
+      "pub_date": "2026-11-14T17:10:23.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 132,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "KDE",
+        "Free Software",
+        "Qt",
+        "C++"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Elephants Found to Be Increasingly Isolated Leading to Fractured Social Networks",
+      "title_display": "Elephants Found to Be Increasingly Isolated Leading to Fractured Social Networks",
+      "link": "https://today.ucsd.edu/story/elephants-found-to-be-increasingly-isolated-leading-to-fractured-social-networks",
+      "pub_date": "2026-11-14T03:00:53.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 169,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Elephants",
+        "social networks",
+        "poaching",
+        "habitat connectivity"
+      ],
+      "rank": 2
+    }
+  ]
+}
