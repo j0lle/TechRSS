@@ -1,10 +1,67 @@
 {
   "date": "2026-11-14",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3505,
+  "success_feeds": 88,
+  "total_articles": 3480,
   "filtered_articles": 28,
   "articles": [
+    {
+      "title": "It Takes 16 Clicks for a Student to Open a PowerPoint on an iPad",
+      "title_display": "It Takes 16 Clicks for a Student to Open a PowerPoint on an iPad",
+      "link": "https://www.reddit.com/r/Teachers/comments/1xuup7a/technology_sucks_it_literally_takes_16_clicks_for/",
+      "pub_date": "2026-11-13T20:00:54.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 207,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "iPad",
+        "PowerPoint",
+        "Clever",
+        "Google Classroom"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Show HN: Isometric SF – A pixel-art map of the SF Bay Area",
+      "title_display": "Show HN: Isometric SF – A pixel-art map of the SF Bay Area",
+      "link": "https://isometricsf.com/",
+      "pub_date": "2026-11-13T18:50:53.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 128,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Google 3D Photorealistic Tiles API",
+        "three.js",
+        "SF Bay Area",
+        "pixel art"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "AI unlocks Gödel's notebooks, said to contain hundreds of proved theorems",
+      "title_display": "AI unlocks Gödel's notebooks, said to contain hundreds of proved theorems",
+      "link": "https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths",
+      "pub_date": "2026-11-13T18:20:53.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 244,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "Kurt Gödel",
+        "Jan von Plato",
+        "Gabelsberger shorthand",
+        "Gödel notebooks"
+      ],
+      "rank": 3
+    },
     {
       "title": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
       "title_display": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
@@ -22,7 +79,26 @@
         "Claude Code",
         "Microsoft"
       ],
-      "rank": 1
+      "rank": 4
+    },
+    {
+      "title": "The Dawn of the Data Intelligence Engineer",
+      "title_display": "The Dawn of the Data Intelligence Engineer",
+      "link": "https://motherduck.com/blog/the-data-intelligence-engineer/",
+      "pub_date": "2026-11-13T09:20:42.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 127,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Data Intelligence Engineer",
+        "MotherDuck",
+        "data engineering",
+        "AI"
+      ],
+      "rank": 5
     },
     {
       "title": "Brave Search API now accepts agentic payments via the x402 protocol",
@@ -32,8 +108,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 150,
-      "score": 26,
+      "hn_points": 254,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Brave Search API",
@@ -41,7 +117,24 @@
         "Brave",
         "agentic payments"
       ],
-      "rank": 2
+      "rank": 6
+    },
+    {
+      "title": "Don't argue with me. $100k is fair, and you know it",
+      "title_display": "Don't argue with me. $100k is fair, and you know it",
+      "link": "https://folklore.org/Switcher.html",
+      "pub_date": "2026-11-13T04:10:43.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 143,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Switcher",
+        "Memory Shift"
+      ],
+      "rank": 7
     },
     {
       "title": "Show HN: AgentRun – open-source, Self-improving Managed Agents",
@@ -60,7 +153,7 @@
         "MCP",
         "SLSA"
       ],
-      "rank": 3
+      "rank": 8
     }
   ]
 }
