@@ -1,10 +1,47 @@
 {
   "date": "2026-11-15",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3508,
+  "success_feeds": 91,
+  "total_articles": 3543,
   "filtered_articles": 17,
   "articles": [
+    {
+      "title": "Memory Safety Bugs in Rust Standard Library",
+      "title_display": "Memory Safety Bugs in Rust Standard Library",
+      "link": "https://forge-blog.github.io/posts/rust-std-memory-safety/",
+      "pub_date": "2026-11-15T05:50:23.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 140,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Rust",
+        "Rust standard library",
+        "Microsoft Security"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "How did Woz write the Apple 1 BASIC before building the computer?",
+      "title_display": "How did Woz write the Apple 1 BASIC before building the computer?",
+      "link": "https://retrocomputing.stackexchange.com/questions/17957",
+      "pub_date": "2026-11-14T23:40:22.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 129,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Steve Wozniak",
+        "Apple I",
+        "Apple BASIC",
+        "6502"
+      ],
+      "rank": 2
+    },
     {
       "title": "US IRS free online tax filing open source repo",
       "title_display": "US IRS free online tax filing open source repo",
@@ -22,7 +59,7 @@
         "GitHub",
         "TurboTax"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "A Family Tree of Software Job Titles",
@@ -32,8 +69,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 149,
-      "score": 26,
+      "hn_points": 253,
+      "score": 29,
       "category": "other",
       "keywords": [
         "DevOps",
@@ -41,7 +78,26 @@
         "Platform Engineering",
         "Scrum"
       ],
-      "rank": 2
+      "rank": 4
+    },
+    {
+      "title": "Show HN: DeepSeek V3 in ~200 lines of pure Jax",
+      "title_display": "Show HN: DeepSeek V3 in ~200 lines of pure Jax",
+      "link": "https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax",
+      "pub_date": "2026-11-14T17:50:22.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 210,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "DeepSeek V3",
+        "JAX",
+        "DeepSeek",
+        "Mixture of Experts"
+      ],
+      "rank": 5
     },
     {
       "title": "KDE: The Documentary on Free Software [video]",
@@ -60,7 +116,7 @@
         "Qt",
         "C++"
       ],
-      "rank": 3
+      "rank": 6
     },
     {
       "title": "PyPI's redesigned project pages with clearer security signals are now live",
@@ -79,7 +135,26 @@
         "Warehouse",
         "provenance"
       ],
-      "rank": 4
+      "rank": 7
+    },
+    {
+      "title": "Show HN: A terminal-native idle factory game, written in Rust with ratatui",
+      "title_display": "Show HN: A terminal-native idle factory game, written in Rust with ratatui",
+      "link": "https://gitlab.com/snipedbywifi/terminactory",
+      "pub_date": "2026-11-14T16:00:53.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 146,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Rust",
+        "ratatui",
+        "Claude Code",
+        "NetHack"
+      ],
+      "rank": 8
     },
     {
       "title": "Elephants Found to Be Increasingly Isolated Leading to Fractured Social Networks",
@@ -98,7 +173,7 @@
         "poaching",
         "habitat connectivity"
       ],
-      "rank": 5
+      "rank": 9
     }
   ]
 }
