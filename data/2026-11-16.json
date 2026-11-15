@@ -1,8 +1,66 @@
 {
   "date": "2026-11-16",
   "total_feeds": 95,
-  "success_feeds": 91,
-  "total_articles": 3543,
-  "filtered_articles": 12,
-  "articles": []
+  "success_feeds": 89,
+  "total_articles": 3509,
+  "filtered_articles": 14,
+  "articles": [
+    {
+      "title": "Claude Code and Codex reverse engineered my 1994 Jeep's ECU over a $3 Arduino [video]",
+      "title_display": "Claude Code and Codex reverse engineered my 1994 Jeep's ECU over a $3 Arduino [video]",
+      "link": "https://www.youtube.com/watch?v=WPj3aQ-xxpI",
+      "pub_date": "2026-11-15T17:30:23.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 177,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Claude Code",
+        "Codex",
+        "Jeep",
+        "Arduino"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "All AI-generated code should be Open Source",
+      "title_display": "All AI-generated code should be Open Source",
+      "link": "https://jakub.jankiewicz.org/blog/ai-code-open-source/",
+      "pub_date": "2026-11-15T15:20:22.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 485,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "AI-generated code",
+        "Open Source",
+        "copyright",
+        "LLMs"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "Understanding Positional Embeddings in Modern LLMs",
+      "title_display": "Understanding Positional Embeddings in Modern LLMs",
+      "link": "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings",
+      "pub_date": "2026-11-15T14:10:22.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 180,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "LLMs",
+        "positional embeddings",
+        "Rotary Positional Embeddings",
+        "RoPE"
+      ],
+      "rank": 3
+    }
+  ]
 }
