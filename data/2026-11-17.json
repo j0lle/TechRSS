@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-17",
+  "total_feeds": 95,
+  "success_feeds": 88,
+  "total_articles": 3412,
+  "filtered_articles": 21,
+  "articles": [
+    {
+      "title": "The Secret ThinkPad Powerbutton Code to Bring Dead Laptops Back to Life (2007)",
+      "title_display": "The Secret ThinkPad Powerbutton Code to Bring Dead Laptops Back to Life (2007)",
+      "link": "https://masnick.com/posts/the-secret-thinkpad-powerbutton-code-to-bring-dead-laptops-back-to-life/",
+      "pub_date": "2026-11-16T12:10:43.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 184,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "ThinkPad",
+        "Lenovo",
+        "embedded controller",
+        "static discharge"
+      ],
+      "rank": 1
+    }
+  ]
+}
