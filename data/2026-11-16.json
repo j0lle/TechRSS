@@ -1,10 +1,28 @@
 {
   "date": "2026-11-16",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3509,
-  "filtered_articles": 14,
+  "success_feeds": 88,
+  "total_articles": 3484,
+  "filtered_articles": 18,
   "articles": [
+    {
+      "title": "A short explainer on how El Niño works [video]",
+      "title_display": "A short explainer on how El Niño works [video]",
+      "link": "https://www.youtube.com/watch?v=7_JF3etiAv8",
+      "pub_date": "2026-11-15T18:40:23.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 138,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "El Niño",
+        "climate",
+        "aviation"
+      ],
+      "rank": 1
+    },
     {
       "title": "Claude Code and Codex reverse engineered my 1994 Jeep's ECU over a $3 Arduino [video]",
       "title_display": "Claude Code and Codex reverse engineered my 1994 Jeep's ECU over a $3 Arduino [video]",
@@ -13,8 +31,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 177,
-      "score": 27,
+      "hn_points": 294,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Claude Code",
@@ -22,7 +40,7 @@
         "Jeep",
         "Arduino"
       ],
-      "rank": 1
+      "rank": 2
     },
     {
       "title": "All AI-generated code should be Open Source",
@@ -32,7 +50,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 485,
+      "hn_points": 1040,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -41,7 +59,7 @@
         "copyright",
         "LLMs"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "title": "Understanding Positional Embeddings in Modern LLMs",
@@ -60,7 +78,7 @@
         "Rotary Positional Embeddings",
         "RoPE"
       ],
-      "rank": 3
+      "rank": 4
     }
   ]
 }
