@@ -1,10 +1,181 @@
 {
   "date": "2026-11-17",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3412,
+  "success_feeds": 87,
+  "total_articles": 3382,
   "filtered_articles": 21,
   "articles": [
+    {
+      "title": "Optimizely Compromised, Served Malware on Zoom, GitLab",
+      "title_display": "Optimizely Compromised, Served Malware on Zoom, GitLab",
+      "link": "https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/",
+      "pub_date": "2026-11-16T23:40:44.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 131,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Optimizely",
+        "Zoom",
+        "GitLab",
+        "malware"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Windows 11 Is Collecting Data on Which Coding Agents and Developer Tools You Use",
+      "title_display": "Windows 11 Is Collecting Data on Which Coding Agents and Developer Tools You Use",
+      "link": "https://xusheng.dev/posts/windows-coding-agent-telemetry/",
+      "pub_date": "2026-11-16T23:30:43.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 280,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Windows 11",
+        "Microsoft",
+        "telemetry",
+        "coding agents"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "OpenCode Browse",
+      "title_display": "OpenCode Browse",
+      "link": "https://opencode.ai/product/browse",
+      "pub_date": "2026-11-16T22:40:44.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 134,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "OpenCode",
+        "OpenCode Browse",
+        "MCP",
+        "Chrome DevTools Protocol"
+      ],
+      "rank": 3
+    },
+    {
+      "title": "Rust changed me as a developer",
+      "title_display": "Rust changed me as a developer",
+      "link": "https://blog.startifact.com/posts/how-rust-changed-me/",
+      "pub_date": "2026-11-16T21:10:42.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 160,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Rust",
+        "Zig",
+        "Elixir",
+        "BEAM"
+      ],
+      "rank": 4
+    },
+    {
+      "title": "Squircles",
+      "title_display": "Squircles",
+      "link": "https://linebender.org/wiki/curves/squircle/",
+      "pub_date": "2026-11-16T20:10:43.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 134,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Squircle",
+        "CSS",
+        "Chrome",
+        "Firefox"
+      ],
+      "rank": 5
+    },
+    {
+      "title": "Software is breaking down at a systemic level",
+      "title_display": "Software is breaking down at a systemic level",
+      "link": "https://www.breck-mckye.com/blog/2026/11/software-is-breaking-down-at-a-systemic-level/",
+      "pub_date": "2026-11-16T18:20:42.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 257,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "software reliability",
+        "LLMs",
+        "Rice's theorem",
+        "Halting Problem"
+      ],
+      "rank": 6
+    },
+    {
+      "title": "Jiff 1.0: A datetime library for Rust",
+      "title_display": "Jiff 1.0: A datetime library for Rust",
+      "link": "https://burntsushi.net/jiff/",
+      "pub_date": "2026-11-16T17:50:41.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 313,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Jiff",
+        "Rust",
+        "datetime",
+        "Chrono"
+      ],
+      "rank": 7
+    },
+    {
+      "title": "Sheep grazing in solar fields offers farmers economic, ecological gains",
+      "title_display": "Sheep grazing in solar fields offers farmers economic, ecological gains",
+      "link": "https://news.cornell.edu/stories/2026/10/sheep-grazing-solar-fields-offers-farmers-economic-ecological-gains",
+      "pub_date": "2026-11-16T17:40:42.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 161,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "agrivoltaics",
+        "solar energy",
+        "photovoltaics",
+        "sheep grazing"
+      ],
+      "rank": 8
+    },
+    {
+      "title": "OOS – an open operating system for the Rigol Scopes",
+      "title_display": "OOS – an open operating system for the Rigol Scopes",
+      "link": "https://www.eevblog.com/forum/testgear/oos-an-open-operating-system-for-the-rigol-scopes/",
+      "pub_date": "2026-11-16T12:20:43.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 129,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "OOS",
+        "Rigol",
+        "oscilloscope",
+        "FPGA"
+      ],
+      "rank": 9
+    },
     {
       "title": "The Secret ThinkPad Powerbutton Code to Bring Dead Laptops Back to Life (2007)",
       "title_display": "The Secret ThinkPad Powerbutton Code to Bring Dead Laptops Back to Life (2007)",
@@ -13,8 +184,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 184,
-      "score": 27,
+      "hn_points": 286,
+      "score": 30,
       "category": "other",
       "keywords": [
         "ThinkPad",
@@ -22,7 +193,7 @@
         "embedded controller",
         "static discharge"
       ],
-      "rank": 1
+      "rank": 10
     }
   ]
 }
