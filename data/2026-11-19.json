@@ -1,0 +1,85 @@
+{
+  "date": "2026-11-19",
+  "total_feeds": 95,
+  "success_feeds": 88,
+  "total_articles": 3490,
+  "filtered_articles": 31,
+  "articles": [
+    {
+      "title": "CVE-2026-99312: KVM Guest-to-Host Escape",
+      "title_display": "CVE-2026-99312: KVM Guest-to-Host Escape",
+      "link": "https://www.terra.security/blog/kvm-guest-to-host-escape",
+      "pub_date": "2026-11-18T17:00:47.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 132,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "CVE-2026-99312",
+        "KVM",
+        "nested KVM",
+        "guest-to-host escape"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Microsoft AI: Seven new world-class models at scalable price-performance",
+      "title_display": "Microsoft AI: Seven new world-class models at scalable price-performance",
+      "link": "https://microsoft.ai/news/microsoft-ignite-2026/",
+      "pub_date": "2026-11-18T16:40:47.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 281,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Microsoft",
+        "MAI Code 2",
+        "MAI Licensed Weights",
+        "MAI Image 2.7 Flash"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "Pre-auth RCE in Nginx HTTP/2 handling",
+      "title_display": "Pre-auth RCE in Nginx HTTP/2 handling",
+      "link": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
+      "pub_date": "2026-11-18T15:40:07.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 340,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Nginx",
+        "HTTP/2",
+        "RCE",
+        "Wiz"
+      ],
+      "rank": 3
+    },
+    {
+      "title": "Energy-Based Reasoners: 385x more efficient inference",
+      "title_display": "Energy-Based Reasoners: 385x more efficient inference",
+      "link": "https://energy-based-reasoners.github.io/",
+      "pub_date": "2026-11-18T10:10:08.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 216,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "Energy-Based Reasoners",
+        "energy-based models",
+        "reasoning",
+        "inference"
+      ],
+      "rank": 4
+    }
+  ]
+}
