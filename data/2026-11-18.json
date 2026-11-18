@@ -3,8 +3,27 @@
   "total_feeds": 95,
   "success_feeds": 88,
   "total_articles": 3487,
-  "filtered_articles": 32,
+  "filtered_articles": 33,
   "articles": [
+    {
+      "title": "Java4Shell: RCE in OpenJDK when processing Base64",
+      "title_display": "Java4Shell: RCE in OpenJDK when processing Base64",
+      "link": "https://calif.io/java4shell/",
+      "pub_date": "2026-11-17T21:40:06.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 451,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Java4Shell",
+        "OpenJDK",
+        "Base64",
+        "RCE"
+      ],
+      "rank": 1
+    },
     {
       "title": "jQuery 4.1.0",
       "title_display": "jQuery 4.1.0",
@@ -13,8 +32,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 116,
-      "score": 25,
+      "hn_points": 221,
+      "score": 28,
       "category": "other",
       "keywords": [
         "jQuery",
@@ -22,7 +41,26 @@
         "GitHub",
         "jQuery UI"
       ],
-      "rank": 1
+      "rank": 2
+    },
+    {
+      "title": "MAI Code 2 and Code 2 Flash",
+      "title_display": "MAI Code 2 and Code 2 Flash",
+      "link": "https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/",
+      "pub_date": "2026-11-17T18:50:07.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 303,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "MAI Code 2",
+        "MAI Code 2 Flash",
+        "Microsoft",
+        "coding models"
+      ],
+      "rank": 3
     },
     {
       "title": "NSA Internal Network Down",
@@ -41,7 +79,7 @@
         "Reuters",
         "national security communications network"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "Highly classified US national security communications network goes down",
@@ -51,8 +89,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 235,
-      "score": 29,
+      "hn_points": 336,
+      "score": 30,
       "category": "other",
       "keywords": [
         "NSANet",
@@ -60,7 +98,7 @@
         "CNN",
         "JWICS"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "Show HN: Alloy CSS, dialogs, menus and tabs that work with JavaScript off",
@@ -79,7 +117,7 @@
         "JavaScript",
         "HTML"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "In 27,280 coding agent runs, 64% of inference spend went to runs that failed",
@@ -89,8 +127,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 241,
-      "score": 29,
+      "hn_points": 341,
+      "score": 30,
       "category": "other",
       "keywords": [
         "FrontierHarness Eval",
@@ -98,7 +136,7 @@
         "coding agents",
         "agent harnesses"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "Loopholes Are for Assholes",
@@ -117,7 +155,7 @@
         "categorical imperative",
         "Tragedy of the Commons"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "We don't need more apps. We need better open source",
@@ -136,7 +174,7 @@
         "LLMs",
         "GitHub"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "Rows vs. Columns: How different are they, really?",
@@ -155,7 +193,7 @@
         "column-oriented storage",
         "HTAP"
       ],
-      "rank": 8
+      "rank": 10
     },
     {
       "title": "VisualBasic.World: A gallery of Planet Source Code programs from 1997 to 2012",
@@ -172,7 +210,7 @@
         "Visual Basic",
         "Planet Source Code"
       ],
-      "rank": 9
+      "rank": 11
     },
     {
       "title": "How the Claude Code team thinks about verification",
@@ -182,8 +220,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 135,
-      "score": 26,
+      "hn_points": 236,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Claude Code",
@@ -191,7 +229,7 @@
         "Claude",
         "verification"
       ],
-      "rank": 10
+      "rank": 12
     },
     {
       "title": "Nimony: A New Compiler for Nim",
@@ -210,7 +248,7 @@
         "compiler",
         "borrow checking"
       ],
-      "rank": 11
+      "rank": 13
     }
   ]
 }
