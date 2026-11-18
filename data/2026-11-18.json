@@ -1,10 +1,48 @@
 {
   "date": "2026-11-18",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3487,
+  "success_feeds": 87,
+  "total_articles": 3457,
   "filtered_articles": 33,
   "articles": [
+    {
+      "title": "Codeberg.org Not Reachable",
+      "title_display": "Codeberg.org Not Reachable",
+      "link": "https://social.anoxinon.de/@codebergstatus/117636437840688845",
+      "pub_date": "2026-11-18T10:10:07.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 109,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "Codeberg",
+        "NameSilo",
+        "DNS",
+        "ICANN"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Microsoft's ONNX Runtime has disappeared from GitHub",
+      "title_display": "Microsoft's ONNX Runtime has disappeared from GitHub",
+      "link": "https://github.com/microsoft/onnxruntime",
+      "pub_date": "2026-11-18T03:30:08.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 265,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "ONNX Runtime",
+        "Microsoft",
+        "GitHub",
+        "ONNX"
+      ],
+      "rank": 2
+    },
     {
       "title": "Java4Shell: RCE in OpenJDK when processing Base64",
       "title_display": "Java4Shell: RCE in OpenJDK when processing Base64",
@@ -13,7 +51,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 451,
+      "hn_points": 784,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -22,7 +60,26 @@
         "Base64",
         "RCE"
       ],
-      "rank": 1
+      "rank": 3
+    },
+    {
+      "title": "Web Browser Engineering (2021)",
+      "title_display": "Web Browser Engineering (2021)",
+      "link": "https://browser.engineering/",
+      "pub_date": "2026-11-17T21:10:07.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 152,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Web Browser Engineering",
+        "WebAssembly",
+        "JavaScript",
+        "Mozilla"
+      ],
+      "rank": 4
     },
     {
       "title": "jQuery 4.1.0",
@@ -32,8 +89,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 221,
-      "score": 28,
+      "hn_points": 323,
+      "score": 30,
       "category": "other",
       "keywords": [
         "jQuery",
@@ -41,7 +98,7 @@
         "GitHub",
         "jQuery UI"
       ],
-      "rank": 2
+      "rank": 5
     },
     {
       "title": "MAI Code 2 and Code 2 Flash",
@@ -60,7 +117,7 @@
         "Microsoft",
         "coding models"
       ],
-      "rank": 3
+      "rank": 6
     },
     {
       "title": "NSA Internal Network Down",
@@ -79,7 +136,7 @@
         "Reuters",
         "national security communications network"
       ],
-      "rank": 4
+      "rank": 7
     },
     {
       "title": "Highly classified US national security communications network goes down",
@@ -98,7 +155,7 @@
         "CNN",
         "JWICS"
       ],
-      "rank": 5
+      "rank": 8
     },
     {
       "title": "Show HN: Alloy CSS, dialogs, menus and tabs that work with JavaScript off",
@@ -117,7 +174,7 @@
         "JavaScript",
         "HTML"
       ],
-      "rank": 6
+      "rank": 9
     },
     {
       "title": "In 27,280 coding agent runs, 64% of inference spend went to runs that failed",
@@ -136,7 +193,7 @@
         "coding agents",
         "agent harnesses"
       ],
-      "rank": 7
+      "rank": 10
     },
     {
       "title": "Loopholes Are for Assholes",
@@ -155,7 +212,7 @@
         "categorical imperative",
         "Tragedy of the Commons"
       ],
-      "rank": 8
+      "rank": 11
     },
     {
       "title": "We don't need more apps. We need better open source",
@@ -174,7 +231,7 @@
         "LLMs",
         "GitHub"
       ],
-      "rank": 9
+      "rank": 12
     },
     {
       "title": "Rows vs. Columns: How different are they, really?",
@@ -193,7 +250,7 @@
         "column-oriented storage",
         "HTAP"
       ],
-      "rank": 10
+      "rank": 13
     },
     {
       "title": "VisualBasic.World: A gallery of Planet Source Code programs from 1997 to 2012",
@@ -210,7 +267,7 @@
         "Visual Basic",
         "Planet Source Code"
       ],
-      "rank": 11
+      "rank": 14
     },
     {
       "title": "How the Claude Code team thinks about verification",
@@ -229,7 +286,7 @@
         "Claude",
         "verification"
       ],
-      "rank": 12
+      "rank": 15
     },
     {
       "title": "Nimony: A New Compiler for Nim",
@@ -248,7 +305,7 @@
         "compiler",
         "borrow checking"
       ],
-      "rank": 13
+      "rank": 16
     }
   ]
 }
