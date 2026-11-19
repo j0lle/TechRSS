@@ -1,10 +1,48 @@
 {
   "date": "2026-11-19",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3515,
+  "success_feeds": 88,
+  "total_articles": 3494,
   "filtered_articles": 27,
   "articles": [
+    {
+      "title": "Gemini 4 Neon looks like an Opus 5.5 competitor",
+      "title_display": "Gemini 4 Neon looks like an Opus 5.5 competitor",
+      "link": "https://micjm.com/blog/gemini-4-neon-looks-like-a-top-model/",
+      "pub_date": "2026-11-19T01:00:47.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 154,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Gemini 4 Neon",
+        "Google",
+        "Claude Opus 5.5",
+        "Anthropic"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Software companies are trying to kill home computing",
+      "title_display": "Software companies are trying to kill home computing",
+      "link": "https://lateblt.livejournal.com/526188.html",
+      "pub_date": "2026-11-19T00:30:45.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 137,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "home computing",
+        "SaaS",
+        "cloud gaming",
+        "local computing"
+      ],
+      "rank": 2
+    },
     {
       "title": "Show HN: ExitPath – Open-source ways out of Slack, Notion and Microsoft 365",
       "title_display": "Show HN: ExitPath – Open-source ways out of Slack, Notion and Microsoft 365",
@@ -22,7 +60,7 @@
         "Notion",
         "Microsoft 365"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "Scottish HTTP Codes",
@@ -40,7 +78,7 @@
         "HTTP status codes",
         "Scots"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "Show HN: Take Voyager 1 apart, down to a single memory chip",
@@ -59,7 +97,7 @@
         "JPL",
         "CMOS"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "CVE-2026-99312: KVM Guest-to-Host Escape",
@@ -78,7 +116,7 @@
         "nested KVM",
         "guest-to-host escape"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "Microsoft AI: Seven new world-class models at scalable price-performance",
@@ -97,7 +135,7 @@
         "MAI Licensed Weights",
         "MAI Image 2.7 Flash"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "U.S. AirForce is looking for old storage Media (CF or PC cards)",
@@ -116,7 +154,7 @@
         "PC Card",
         "SAM.gov"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "Pre-auth RCE in Nginx HTTP/2 handling",
@@ -126,7 +164,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 1036,
+      "hn_points": 1345,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -135,7 +173,7 @@
         "RCE",
         "Wiz"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "Energy-Based Reasoners: 385x more efficient inference",
@@ -154,7 +192,7 @@
         "reasoning",
         "inference"
       ],
-      "rank": 8
+      "rank": 10
     }
   ]
 }
