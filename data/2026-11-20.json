@@ -1,0 +1,139 @@
+{
+  "date": "2026-11-20",
+  "total_feeds": 95,
+  "success_feeds": 87,
+  "total_articles": 3421,
+  "filtered_articles": 29,
+  "articles": [
+    {
+      "title": "Everything you need to survive and rebuild society",
+      "title_display": "Everything you need to survive and rebuild society",
+      "link": "https://lastbook.org/",
+      "pub_date": "2026-11-19T16:00:47.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 218,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "LastBook",
+        "Kiwix",
+        "Open Source Ecology"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Someone reported java4shell bug in September 2026",
+      "title_display": "Someone reported java4shell bug in September 2026",
+      "link": "https://github.com/openjdk/jdk/pull/32781",
+      "pub_date": "2026-11-19T15:20:48.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 194,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "OpenJDK",
+        "Java",
+        "java4shell"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "Nintendo takes Picofly firmware down from GitHub [video]",
+      "title_display": "Nintendo takes Picofly firmware down from GitHub [video]",
+      "link": "https://www.youtube.com/watch?v=-TLCGUpoD6c",
+      "pub_date": "2026-11-19T13:50:47.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 163,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Nintendo",
+        "Picofly",
+        "GitHub",
+        "Nintendo Switch"
+      ],
+      "rank": 3
+    },
+    {
+      "title": "Garage Door Spam",
+      "title_display": "Garage Door Spam",
+      "link": "https://blog.harrison.page/garage-door-spam/",
+      "pub_date": "2026-11-19T11:50:48.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 230,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "myQ",
+        "HomeKit",
+        "garage door opener",
+        "advertising"
+      ],
+      "rank": 4
+    },
+    {
+      "title": "Distributed, high-performance blob storage on SQLite",
+      "title_display": "Distributed, high-performance blob storage on SQLite",
+      "link": "https://zerodha.tech/blog/high-performance-distributed-blob-storage/",
+      "pub_date": "2026-11-19T09:20:47.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 133,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "SQLite",
+        "distributed storage",
+        "blob storage"
+      ],
+      "rank": 5
+    },
+    {
+      "title": "Ruby2ßhell: Pre-authentication RCE on stock Rails",
+      "title_display": "Ruby2ßhell: Pre-authentication RCE on stock Rails",
+      "link": "https://verialabs.com/ruby2shell/",
+      "pub_date": "2026-11-19T08:20:47.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 278,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Ruby2Shell",
+        "Ruby",
+        "Rails",
+        "pre-authentication RCE"
+      ],
+      "rank": 6
+    },
+    {
+      "title": "15M web servers on one VM – smoltcp, DPDK, AF_XDP",
+      "title_display": "15M web servers on one VM – smoltcp, DPDK, AF_XDP",
+      "link": "https://kapteko.com/15-million-webservers/",
+      "pub_date": "2026-11-19T06:40:47.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 260,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "smoltcp",
+        "DPDK",
+        "AF_XDP",
+        "VM"
+      ],
+      "rank": 7
+    }
+  ]
+}
