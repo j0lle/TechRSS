@@ -1,0 +1,83 @@
+{
+  "date": "2026-11-21",
+  "total_feeds": 95,
+  "success_feeds": 88,
+  "total_articles": 3504,
+  "filtered_articles": 27,
+  "articles": [
+    {
+      "title": "PostgreSQL 19",
+      "title_display": "PostgreSQL 19",
+      "link": "https://www.postgresql.org/docs/release/19.0/",
+      "pub_date": "2026-11-20T08:40:58.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 267,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "PostgreSQL",
+        "PostgreSQL 19"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Jujutsu Primer",
+      "title_display": "Jujutsu Primer",
+      "link": "https://ethanlowman.com/posts/jj-primer/",
+      "pub_date": "2026-11-20T06:30:58.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 135,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Jujutsu",
+        "Git",
+        "Claude",
+        "GitHub"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "FFmpeg 9.1 'Gauss'",
+      "title_display": "FFmpeg 9.1 'Gauss'",
+      "link": "https://ffmpeg.org/download.html#release_9.1",
+      "pub_date": "2026-11-20T05:50:57.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 237,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "FFmpeg",
+        "FFmpeg 9.1",
+        "Gauss",
+        "libastcenc"
+      ],
+      "rank": 3
+    },
+    {
+      "title": "Postgres 19 Repack: Faster, Built-In Table Bloat Cleanup",
+      "title_display": "Postgres 19 Repack: Faster, Built-In Table Bloat Cleanup",
+      "link": "https://www.snowflake.com/en/blog/engineering/postgres-19-repack-table-bloat/",
+      "pub_date": "2026-11-20T04:30:57.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 132,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "PostgreSQL",
+        "Postgres 19",
+        "pg_repack",
+        "table bloat"
+      ],
+      "rank": 4
+    }
+  ]
+}
