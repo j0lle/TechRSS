@@ -1,10 +1,105 @@
 {
   "date": "2026-11-21",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3504,
-  "filtered_articles": 27,
+  "success_feeds": 89,
+  "total_articles": 3529,
+  "filtered_articles": 32,
   "articles": [
+    {
+      "title": "We promoted developers into architects without informing them",
+      "title_display": "We promoted developers into architects without informing them",
+      "link": "https://manidoraisamy.com/developer-to-architect.html",
+      "pub_date": "2026-11-20T19:00:57.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 168,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "AI coding tools",
+        "LLM",
+        "software architecture",
+        "data modeling"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Language Models Can Rewrite Their Own Weights",
+      "title_display": "Language Models Can Rewrite Their Own Weights",
+      "link": "https://arxiv.org/abs/2611.21885",
+      "pub_date": "2026-11-20T16:50:55.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 227,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "Language Models",
+        "model weights",
+        "self-rewriting",
+        "recursive self-improvement"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "Finite-time blow-up for the Navier–Stokes equations",
+      "title_display": "Finite-time blow-up for the Navier–Stokes equations",
+      "link": "https://github.com/tristanbuckmaster/navier-stokes/",
+      "pub_date": "2026-11-20T16:30:57.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 172,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Navier–Stokes equations",
+        "finite-time blow-up",
+        "Tristan Buckmaster",
+        "OpenAI"
+      ],
+      "rank": 3
+    },
+    {
+      "title": "I'll never buy Framework hardware again",
+      "title_display": "I'll never buy Framework hardware again",
+      "link": "https://poolp.org/posts/2026-11-20/ill-never-buy-framework-hardware-again/",
+      "pub_date": "2026-11-20T16:30:55.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 586,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Framework",
+        "Framework Laptop 13",
+        "MacBook Pro",
+        "AMD"
+      ],
+      "rank": 4
+    },
+    {
+      "title": "What people are building, discovered through new domains",
+      "title_display": "What people are building, discovered through new domains",
+      "link": "https://startups.novumsignals.com/",
+      "pub_date": "2026-11-20T12:30:58.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 125,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "NovumSignals",
+        "GitHub",
+        "Claude",
+        "ICANN"
+      ],
+      "rank": 5
+    },
     {
       "title": "PostgreSQL 19",
       "title_display": "PostgreSQL 19",
@@ -20,7 +115,26 @@
         "PostgreSQL",
         "PostgreSQL 19"
       ],
-      "rank": 1
+      "rank": 6
+    },
+    {
+      "title": "The Strongest Sokoban Solver",
+      "title_display": "The Strongest Sokoban Solver",
+      "link": "https://healeycodes.com/introducing-the-worlds-strongest-sokoban-solver",
+      "pub_date": "2026-11-20T08:40:56.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 133,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Sokoban",
+        "heuristic search",
+        "PSPACE-complete",
+        "NP-complete"
+      ],
+      "rank": 7
     },
     {
       "title": "Jujutsu Primer",
@@ -39,7 +153,7 @@
         "Claude",
         "GitHub"
       ],
-      "rank": 2
+      "rank": 8
     },
     {
       "title": "FFmpeg 9.1 'Gauss'",
@@ -58,7 +172,7 @@
         "Gauss",
         "libastcenc"
       ],
-      "rank": 3
+      "rank": 9
     },
     {
       "title": "Postgres 19 Repack: Faster, Built-In Table Bloat Cleanup",
@@ -77,7 +191,7 @@
         "pg_repack",
         "table bloat"
       ],
-      "rank": 4
+      "rank": 10
     }
   ]
 }
