@@ -1,10 +1,67 @@
 {
   "date": "2026-11-20",
   "total_feeds": 95,
-  "success_feeds": 84,
-  "total_articles": 3415,
-  "filtered_articles": 27,
+  "success_feeds": 88,
+  "total_articles": 3503,
+  "filtered_articles": 29,
   "articles": [
+    {
+      "title": "OpenSSL: Buffer overflow in EVP_EncodeBlock() (CVE-2026-121481, CVSS 9.8)",
+      "title_display": "OpenSSL: Buffer overflow in EVP_EncodeBlock() (CVE-2026-121481, CVSS 9.8)",
+      "link": "https://github.com/openssl/openssl/pull/33652",
+      "pub_date": "2026-11-20T02:40:56.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 165,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "OpenSSL",
+        "EVP_EncodeBlock",
+        "CVE-2026-121481",
+        "CVSS"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Gemini 4 Neon is the new #1 on the Models Engineering Index",
+      "title_display": "Gemini 4 Neon is the new #1 on the Models Engineering Index",
+      "link": "https://git-aarvin.github.io/mei/",
+      "pub_date": "2026-11-20T00:30:46.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 325,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Gemini 4 Neon",
+        "Models Engineering Index",
+        "Google",
+        "LLM benchmarks"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "Synology Security Advisory",
+      "title_display": "Synology Security Advisory",
+      "link": "https://www.synology.com/en-uk/security/advisory/Synology_SA_26_21",
+      "pub_date": "2026-11-19T22:30:47.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 129,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Synology",
+        "OAuth Service",
+        "DSM",
+        "CWE-88"
+      ],
+      "rank": 3
+    },
     {
       "title": "Pancreatic cancer halted by virus injection in three patients",
       "title_display": "Pancreatic cancer halted by virus injection in three patients",
@@ -13,7 +70,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 367,
+      "hn_points": 676,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -22,7 +79,7 @@
         "adenovirus",
         "clinical trial"
       ],
-      "rank": 1
+      "rank": 4
     },
     {
       "title": "I built Cornhole News. A Hacker News inspired site for news across the Midwest",
@@ -40,7 +97,7 @@
         "Hacker News",
         "Midwest"
       ],
-      "rank": 2
+      "rank": 5
     },
     {
       "title": "Everything you need to survive and rebuild society",
@@ -58,7 +115,7 @@
         "Kiwix",
         "Open Source Ecology"
       ],
-      "rank": 3
+      "rank": 6
     },
     {
       "title": "Someone reported java4shell bug in September 2026",
@@ -76,7 +133,7 @@
         "Java",
         "java4shell"
       ],
-      "rank": 4
+      "rank": 7
     },
     {
       "title": "Nintendo takes Picofly firmware down from GitHub [video]",
@@ -86,8 +143,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 163,
-      "score": 27,
+      "hn_points": 265,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Nintendo",
@@ -95,7 +152,7 @@
         "GitHub",
         "Nintendo Switch"
       ],
-      "rank": 5
+      "rank": 8
     },
     {
       "title": "Garage Door Spam",
@@ -114,7 +171,7 @@
         "garage door opener",
         "advertising"
       ],
-      "rank": 6
+      "rank": 9
     },
     {
       "title": "Do not buy RAM, compress",
@@ -124,8 +181,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 152,
-      "score": 27,
+      "hn_points": 255,
+      "score": 29,
       "category": "other",
       "keywords": [
         "zram",
@@ -133,7 +190,7 @@
         "Linux",
         "RAM"
       ],
-      "rank": 7
+      "rank": 10
     },
     {
       "title": "Distributed, high-performance blob storage on SQLite",
@@ -151,7 +208,7 @@
         "distributed storage",
         "blob storage"
       ],
-      "rank": 8
+      "rank": 11
     },
     {
       "title": "Ruby2ßhell: Pre-authentication RCE on stock Rails",
@@ -170,7 +227,7 @@
         "Rails",
         "pre-authentication RCE"
       ],
-      "rank": 9
+      "rank": 12
     },
     {
       "title": "15M web servers on one VM – smoltcp, DPDK, AF_XDP",
@@ -189,7 +246,7 @@
         "AF_XDP",
         "VM"
       ],
-      "rank": 10
+      "rank": 13
     }
   ]
 }
