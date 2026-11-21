@@ -3,8 +3,65 @@
   "total_feeds": 95,
   "success_feeds": 88,
   "total_articles": 3504,
-  "filtered_articles": 31,
+  "filtered_articles": 27,
   "articles": [
+    {
+      "title": "Brazil's tax authority open-sources its tax calculator on GitHub under MIT",
+      "title_display": "Brazil's tax authority open-sources its tax calculator on GitHub under MIT",
+      "link": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/novembro/receita-federal-publica-primeiro-codigo-fonte-aberto-no-github-e-amplia-transparencia-da-reforma-tributaria",
+      "pub_date": "2026-11-21T13:00:38.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 113,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "Brazil",
+        "Receita Federal",
+        "GitHub",
+        "MIT License"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Ask HN: I have been unemployed for 2y. 15 years of experience, US. What to do?",
+      "title_display": "Ask HN: I have been unemployed for 2y. 15 years of experience, US. What to do?",
+      "link": "https://news.ycombinator.com/item?id=50583761",
+      "pub_date": "2026-11-21T10:40:40.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 309,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "software engineering",
+        "AI",
+        "C#",
+        "AWS"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "Clojure will affect the way you think about programming (2017)",
+      "title_display": "Clojure will affect the way you think about programming (2017)",
+      "link": "https://eli.thegreenplace.net/2017/clojure-the-perfect-language-to-expand-your-brain/",
+      "pub_date": "2026-11-21T04:20:57.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 130,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Clojure",
+        "LLM",
+        "static types",
+        "REPL"
+      ],
+      "rank": 3
+    },
     {
       "title": "DreamCoder: Coding harness and IDE from the author of Mastering Emacs",
       "title_display": "DreamCoder: Coding harness and IDE from the author of Mastering Emacs",
@@ -13,8 +70,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 135,
-      "score": 26,
+      "hn_points": 239,
+      "score": 29,
       "category": "other",
       "keywords": [
         "DreamCoder",
@@ -22,7 +79,26 @@
         "Emacs",
         "AI agents"
       ],
-      "rank": 1
+      "rank": 4
+    },
+    {
+      "title": "Winedroid – run Android apps without Android (WASM demo)",
+      "title_display": "Winedroid – run Android apps without Android (WASM demo)",
+      "link": "https://winedroid.soham.sh/demo/",
+      "pub_date": "2026-11-20T20:10:57.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 131,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Winedroid",
+        "Android",
+        "WebAssembly",
+        "WASM"
+      ],
+      "rank": 5
     },
     {
       "title": "Vibecoding an Inference Chip",
@@ -41,7 +117,7 @@
         "Claude",
         "Opus 4.5"
       ],
-      "rank": 2
+      "rank": 6
     },
     {
       "title": "We promoted developers into architects without informing them",
@@ -51,8 +127,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 274,
-      "score": 29,
+      "hn_points": 378,
+      "score": 30,
       "category": "other",
       "keywords": [
         "AI coding tools",
@@ -60,7 +136,7 @@
         "software architecture",
         "data modeling"
       ],
-      "rank": 3
+      "rank": 7
     },
     {
       "title": "Language Models Can Rewrite Their Own Weights",
@@ -79,7 +155,7 @@
         "self-rewriting",
         "recursive self-improvement"
       ],
-      "rank": 4
+      "rank": 8
     },
     {
       "title": "Finite-time blow-up for the Navier–Stokes equations",
@@ -89,8 +165,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 172,
-      "score": 27,
+      "hn_points": 273,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Navier–Stokes equations",
@@ -98,7 +174,7 @@
         "Tristan Buckmaster",
         "OpenAI"
       ],
-      "rank": 5
+      "rank": 9
     },
     {
       "title": "I'll never buy Framework hardware again",
@@ -117,7 +193,7 @@
         "MacBook Pro",
         "AMD"
       ],
-      "rank": 6
+      "rank": 10
     },
     {
       "title": "What people are building, discovered through new domains",
@@ -136,7 +212,7 @@
         "Claude",
         "ICANN"
       ],
-      "rank": 7
+      "rank": 11
     },
     {
       "title": "PostgreSQL 19",
@@ -153,7 +229,7 @@
         "PostgreSQL",
         "PostgreSQL 19"
       ],
-      "rank": 8
+      "rank": 12
     },
     {
       "title": "The Strongest Sokoban Solver",
@@ -172,7 +248,7 @@
         "PSPACE-complete",
         "NP-complete"
       ],
-      "rank": 9
+      "rank": 13
     },
     {
       "title": "Jujutsu Primer",
@@ -191,7 +267,7 @@
         "Claude",
         "GitHub"
       ],
-      "rank": 10
+      "rank": 14
     },
     {
       "title": "FFmpeg 9.1 'Gauss'",
@@ -210,7 +286,7 @@
         "Gauss",
         "libastcenc"
       ],
-      "rank": 11
+      "rank": 15
     },
     {
       "title": "Postgres 19 Repack: Faster, Built-In Table Bloat Cleanup",
@@ -229,7 +305,7 @@
         "pg_repack",
         "table bloat"
       ],
-      "rank": 12
+      "rank": 16
     }
   ]
 }
