@@ -1,10 +1,48 @@
 {
   "date": "2026-11-21",
   "total_feeds": 95,
-  "success_feeds": 89,
-  "total_articles": 3529,
-  "filtered_articles": 32,
+  "success_feeds": 88,
+  "total_articles": 3504,
+  "filtered_articles": 31,
   "articles": [
+    {
+      "title": "DreamCoder: Coding harness and IDE from the author of Mastering Emacs",
+      "title_display": "DreamCoder: Coding harness and IDE from the author of Mastering Emacs",
+      "link": "https://www.masteringemacs.org/article/announcing-dreamcoder",
+      "pub_date": "2026-11-20T22:10:57.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 135,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "DreamCoder",
+        "Mastering Emacs",
+        "Emacs",
+        "AI agents"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Vibecoding an Inference Chip",
+      "title_display": "Vibecoding an Inference Chip",
+      "link": "https://ankitg.me/blog/vibecoding-inference-chip/",
+      "pub_date": "2026-11-20T19:00:58.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 129,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "inference chip",
+        "FPGA",
+        "Claude",
+        "Opus 4.5"
+      ],
+      "rank": 2
+    },
     {
       "title": "We promoted developers into architects without informing them",
       "title_display": "We promoted developers into architects without informing them",
@@ -13,8 +51,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 168,
-      "score": 27,
+      "hn_points": 274,
+      "score": 29,
       "category": "other",
       "keywords": [
         "AI coding tools",
@@ -22,7 +60,7 @@
         "software architecture",
         "data modeling"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "Language Models Can Rewrite Their Own Weights",
@@ -32,8 +70,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 227,
-      "score": 28,
+      "hn_points": 331,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Language Models",
@@ -41,7 +79,7 @@
         "self-rewriting",
         "recursive self-improvement"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "Finite-time blow-up for the Navier–Stokes equations",
@@ -60,7 +98,7 @@
         "Tristan Buckmaster",
         "OpenAI"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "I'll never buy Framework hardware again",
@@ -79,7 +117,7 @@
         "MacBook Pro",
         "AMD"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "What people are building, discovered through new domains",
@@ -98,7 +136,7 @@
         "Claude",
         "ICANN"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "title": "PostgreSQL 19",
@@ -115,7 +153,7 @@
         "PostgreSQL",
         "PostgreSQL 19"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "title": "The Strongest Sokoban Solver",
@@ -134,7 +172,7 @@
         "PSPACE-complete",
         "NP-complete"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "title": "Jujutsu Primer",
@@ -153,7 +191,7 @@
         "Claude",
         "GitHub"
       ],
-      "rank": 8
+      "rank": 10
     },
     {
       "title": "FFmpeg 9.1 'Gauss'",
@@ -172,7 +210,7 @@
         "Gauss",
         "libastcenc"
       ],
-      "rank": 9
+      "rank": 11
     },
     {
       "title": "Postgres 19 Repack: Faster, Built-In Table Bloat Cleanup",
@@ -191,7 +229,7 @@
         "pg_repack",
         "table bloat"
       ],
-      "rank": 10
+      "rank": 12
     }
   ]
 }
