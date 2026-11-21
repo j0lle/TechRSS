@@ -1,0 +1,66 @@
+{
+  "date": "2026-11-22",
+  "total_feeds": 95,
+  "success_feeds": 88,
+  "total_articles": 3504,
+  "filtered_articles": 21,
+  "articles": [
+    {
+      "title": "Lean Verification of the Riemann Hypothesis - Joint statement by...",
+      "title_display": "Lean Verification of the Riemann Hypothesis - Joint statement by...",
+      "link": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+      "pub_date": "2026-11-21T15:50:38.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 438,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Riemann Hypothesis",
+        "Lean",
+        "formal verification",
+        "con-leche"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "LLMs can read and write executables byte by byte from a hex dump",
+      "title_display": "LLMs can read and write executables byte by byte from a hex dump",
+      "link": "https://sgiannopoulos.github.io/blog/machine-code-programming/",
+      "pub_date": "2026-11-21T14:30:40.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 126,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "LLMs",
+        "executables",
+        "hex dump",
+        "machine code"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "RCE in Gnupg",
+      "title_display": "RCE in Gnupg",
+      "link": "https://lists.gnupg.org/pipermail/gnupg-announce/2026q4/000517.html",
+      "pub_date": "2026-11-21T11:00:40.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 125,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "GnuPG",
+        "GPGME",
+        "GitLab",
+        "Red Hat"
+      ],
+      "rank": 3
+    }
+  ]
+}
