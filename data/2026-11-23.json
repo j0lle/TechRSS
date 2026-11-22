@@ -1,0 +1,65 @@
+{
+  "date": "2026-11-23",
+  "total_feeds": 95,
+  "success_feeds": 87,
+  "total_articles": 3430,
+  "filtered_articles": 16,
+  "articles": [
+    {
+      "title": "A real Linux kernel, compiled to WebAssembly",
+      "title_display": "A real Linux kernel, compiled to WebAssembly",
+      "link": "https://github.com/pithings/unkernel",
+      "pub_date": "2026-11-22T11:00:40.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 156,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Linux kernel",
+        "WebAssembly",
+        "unkernel",
+        "GitHub"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "OpenRouter off-boards 3 providers, pulls 125 endpoints from zero data retention",
+      "title_display": "OpenRouter off-boards 3 providers, pulls 125 endpoints from zero data retention",
+      "link": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/",
+      "pub_date": "2026-11-22T02:40:39.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 230,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "OpenRouter",
+        "Zero Data Retention",
+        "LLM",
+        "MiniMax"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "PcapAnalyzer – self-hosted pcap analyzer with 27 problem detectors",
+      "title_display": "PcapAnalyzer – self-hosted pcap analyzer with 27 problem detectors",
+      "link": "https://github.com/sebaandrada-cell/PcapAnalyzer",
+      "pub_date": "2026-11-21T23:00:39.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 127,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "PcapAnalyzer",
+        "PCAP",
+        "LLM"
+      ],
+      "rank": 3
+    }
+  ]
+}
