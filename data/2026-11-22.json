@@ -3,8 +3,46 @@
   "total_feeds": 95,
   "success_feeds": 88,
   "total_articles": 3504,
-  "filtered_articles": 21,
+  "filtered_articles": 19,
   "articles": [
+    {
+      "title": "Inkling-2-Mini in 5.4 GB Memory",
+      "title_display": "Inkling-2-Mini in 5.4 GB Memory",
+      "link": "https://github.com/ShinMegamiBoson/lookatmyquant",
+      "pub_date": "2026-11-21T18:30:39.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 275,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "Inkling-2-Mini",
+        "lookatmyquant",
+        "quantization",
+        "QAT"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Show HN: Zero C#, Power of C# without any GC",
+      "title_display": "Show HN: Zero C#, Power of C# without any GC",
+      "link": "https://onurgumus.github.io/zero-csharp/index.html",
+      "pub_date": "2026-11-21T16:20:40.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 124,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Zero C#",
+        "C#",
+        "garbage collection",
+        "manual memory management"
+      ],
+      "rank": 2
+    },
     {
       "title": "Lean Verification of the Riemann Hypothesis - Joint statement by...",
       "title_display": "Lean Verification of the Riemann Hypothesis - Joint statement by...",
@@ -13,7 +51,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 438,
+      "hn_points": 784,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -22,7 +60,7 @@
         "formal verification",
         "con-leche"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "LLMs can read and write executables byte by byte from a hex dump",
@@ -41,7 +79,7 @@
         "hex dump",
         "machine code"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "RCE in Gnupg",
@@ -51,8 +89,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 125,
-      "score": 26,
+      "hn_points": 225,
+      "score": 28,
       "category": "other",
       "keywords": [
         "GnuPG",
@@ -60,7 +98,7 @@
         "GitLab",
         "Red Hat"
       ],
-      "rank": 3
+      "rank": 5
     }
   ]
 }
