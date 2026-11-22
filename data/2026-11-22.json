@@ -6,6 +6,25 @@
   "filtered_articles": 19,
   "articles": [
     {
+      "title": "Leonida – PC Recompilation of the Xbox Version of GTA 6",
+      "title_display": "Leonida – PC Recompilation of the Xbox Version of GTA 6",
+      "link": "https://github.com/ItsNotRexed/Leonida",
+      "pub_date": "2026-11-22T02:40:38.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 140,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "GTA 6",
+        "Leonida",
+        "Xbox",
+        "GitHub"
+      ],
+      "rank": 1
+    },
+    {
       "title": "Inkling-2-Mini in 5.4 GB Memory",
       "title_display": "Inkling-2-Mini in 5.4 GB Memory",
       "link": "https://github.com/ShinMegamiBoson/lookatmyquant",
@@ -13,8 +32,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 275,
-      "score": 29,
+      "hn_points": 378,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Inkling-2-Mini",
@@ -22,7 +41,26 @@
         "quantization",
         "QAT"
       ],
-      "rank": 1
+      "rank": 2
+    },
+    {
+      "title": "PostgreSQL Extensions in Go",
+      "title_display": "PostgreSQL Extensions in Go",
+      "link": "https://jespino.github.io/gopgext/",
+      "pub_date": "2026-11-21T17:40:40.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 130,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "PostgreSQL",
+        "Go",
+        "PostgreSQL extensions",
+        "PL/pgSQL"
+      ],
+      "rank": 3
     },
     {
       "title": "Show HN: Zero C#, Power of C# without any GC",
@@ -41,7 +79,7 @@
         "garbage collection",
         "manual memory management"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "Lean Verification of the Riemann Hypothesis - Joint statement by...",
@@ -60,7 +98,7 @@
         "formal verification",
         "con-leche"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "title": "LLMs can read and write executables byte by byte from a hex dump",
@@ -70,8 +108,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 126,
-      "score": 26,
+      "hn_points": 227,
+      "score": 28,
       "category": "other",
       "keywords": [
         "LLMs",
@@ -79,7 +117,7 @@
         "hex dump",
         "machine code"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "title": "RCE in Gnupg",
@@ -98,7 +136,7 @@
         "GitLab",
         "Red Hat"
       ],
-      "rank": 5
+      "rank": 7
     }
   ]
 }
