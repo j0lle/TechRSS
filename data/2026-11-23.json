@@ -1,10 +1,48 @@
 {
   "date": "2026-11-23",
   "total_feeds": 95,
-  "success_feeds": 87,
-  "total_articles": 3430,
-  "filtered_articles": 16,
+  "success_feeds": 88,
+  "total_articles": 3455,
+  "filtered_articles": 17,
   "articles": [
+    {
+      "title": "Perplexity and Intelligence",
+      "title_display": "Perplexity and Intelligence",
+      "link": "https://openai.com/index/perplexity-and-intelligence/",
+      "pub_date": "2026-11-22T17:30:39.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 321,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "OpenAI",
+        "perplexity",
+        "language models",
+        "cross-entropy loss"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Show HN: I built a game where you are an LLM's subagent",
+      "title_display": "Show HN: I built a game where you are an LLM's subagent",
+      "link": "https://github.com/gulivan/worker755",
+      "pub_date": "2026-11-22T14:50:37.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 151,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "LLM",
+        "worker755",
+        "GitHub",
+        "Unix permissions"
+      ],
+      "rank": 2
+    },
     {
       "title": "A real Linux kernel, compiled to WebAssembly",
       "title_display": "A real Linux kernel, compiled to WebAssembly",
@@ -22,7 +60,7 @@
         "unkernel",
         "GitHub"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "title": "OpenRouter off-boards 3 providers, pulls 125 endpoints from zero data retention",
@@ -41,7 +79,7 @@
         "LLM",
         "MiniMax"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "title": "PcapAnalyzer – self-hosted pcap analyzer with 27 problem detectors",
@@ -59,7 +97,7 @@
         "PCAP",
         "LLM"
       ],
-      "rank": 3
+      "rank": 5
     }
   ]
 }
