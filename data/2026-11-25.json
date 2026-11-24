@@ -1,0 +1,179 @@
+{
+  "date": "2026-11-25",
+  "total_feeds": 95,
+  "success_feeds": 87,
+  "total_articles": 3441,
+  "filtered_articles": 41,
+  "articles": [
+    {
+      "title": "Cyberattack Campaign Compromising Check Point Servers Across 22 Organizations",
+      "title_display": "Cyberattack Campaign Compromising Check Point Servers Across 22 Organizations",
+      "link": "https://www.greynoise.io/blog/check-point-security-management-servers-intrusion-campaign",
+      "pub_date": "2026-11-24T16:40:58.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 201,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "Check Point",
+        "GreyNoise",
+        "Security Management Servers",
+        "HFS"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Anthropic Breaks Below $83 IPO Price in Premarket Trading",
+      "title_display": "Anthropic Breaks Below $83 IPO Price in Premarket Trading",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-24/anthropic-breaks-below-83-ipo-price-in-premarket-trading",
+      "pub_date": "2026-11-24T13:40:59.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 175,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Anthropic",
+        "IPO",
+        "DeepSeek",
+        "inference"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "How a Mechanical Watch Keeps Time (Interactive 3D)",
+      "title_display": "How a Mechanical Watch Keeps Time (Interactive 3D)",
+      "link": "https://martincmartin.github.io/slidev-stem/watches/article/1/",
+      "pub_date": "2026-11-24T13:10:59.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 133,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Mechanical watch",
+        "3D",
+        "WebGL",
+        "Claude"
+      ],
+      "rank": 3
+    },
+    {
+      "title": "Just a Few Bugs",
+      "title_display": "Just a Few Bugs",
+      "link": "https://www.justafewbugs.xyz/",
+      "pub_date": "2026-11-24T12:31:00.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 124,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Google",
+        "Android",
+        "bug bounty",
+        "zero-click RCE"
+      ],
+      "rank": 4
+    },
+    {
+      "title": "Worshipping at the Altar of Brendan Gregg",
+      "title_display": "Worshipping at the Altar of Brendan Gregg",
+      "link": "https://fzakaria.com/2026/11/12/worshipping-at-the-altar-of-brendan-gregg",
+      "pub_date": "2026-11-24T11:30:58.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 154,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Brendan Gregg",
+        "flame graphs",
+        "profiling",
+        "deterministic VM"
+      ],
+      "rank": 5
+    },
+    {
+      "title": "2035 Came Early",
+      "title_display": "2035 Came Early",
+      "link": "https://fzakaria.com/2026/11/23/2035-came-early",
+      "pub_date": "2026-11-24T08:30:58.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 358,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "trynix",
+        "WebAssembly",
+        "unkernel",
+        "Firefox"
+      ],
+      "rank": 6
+    },
+    {
+      "title": "AMD EPYC Zen 6 vs. Zen 1 Performance: 12.1x Geo Mean in Less Than 10 Years",
+      "title_display": "AMD EPYC Zen 6 vs. Zen 1 Performance: 12.1x Geo Mean in Less Than 10 Years",
+      "link": "https://www.phoronix.com/review/amd-epyc-9006-7601",
+      "pub_date": "2026-11-24T07:20:58.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 128,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "AMD",
+        "EPYC",
+        "Zen 6",
+        "Zen 1"
+      ],
+      "rank": 7
+    },
+    {
+      "title": "Making a dumb TV just smart enough",
+      "title_display": "Making a dumb TV just smart enough",
+      "link": "https://qsantos.fr/2026/11/19/making-a-dumb-tv-just-smart-enough/",
+      "pub_date": "2026-11-24T04:40:12.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 124,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "smart TV",
+        "HDMI-CEC",
+        "Linux",
+        "Kodi"
+      ],
+      "rank": 8
+    },
+    {
+      "title": "Freeing the iPod Nano 5G",
+      "title_display": "Freeing the iPod Nano 5G",
+      "link": "https://viktorkrapivin.com/blog/nano5g-priv-prvd",
+      "pub_date": "2026-11-24T00:10:12.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 123,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "iPod Nano 5G",
+        "Apple",
+        "Rockbox"
+      ],
+      "rank": 9
+    }
+  ]
+}
