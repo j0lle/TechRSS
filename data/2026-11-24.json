@@ -2,9 +2,66 @@
   "date": "2026-11-24",
   "total_feeds": 95,
   "success_feeds": 88,
-  "total_articles": 3457,
-  "filtered_articles": 23,
+  "total_articles": 3458,
+  "filtered_articles": 26,
   "articles": [
+    {
+      "title": "New York Bans Subscription and Post-Purchase Fees on Cars",
+      "title_display": "New York Bans Subscription and Post-Purchase Fees on Cars",
+      "link": "https://www.governor.ny.gov/news/money-your-pockets-governor-hochul-signs-bill-restricting-exploitative-vehicle-subscription",
+      "pub_date": "2026-11-24T06:10:58.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 282,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "New York",
+        "Kathy Hochul",
+        "vehicle subscriptions",
+        "BMW"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "VP ≠ VNP over Every Field",
+      "title_display": "VP ≠ VNP over Every Field",
+      "link": "https://github.com/anthropics/formal-math/tree/main/vp-vnp",
+      "pub_date": "2026-11-23T22:40:12.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 296,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "VP",
+        "VNP",
+        "Valiant's hypothesis",
+        "Anthropic"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "GPUI is getting its own repository",
+      "title_display": "GPUI is getting its own repository",
+      "link": "https://github.com/zed-industries/gpui",
+      "pub_date": "2026-11-23T22:20:13.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 158,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "GPUI",
+        "Zed",
+        "Rust",
+        "GitHub"
+      ],
+      "rank": 3
+    },
     {
       "title": "Apple removed my open-source app from EU App Stores after 9 years",
       "title_display": "Apple removed my open-source app from EU App Stores after 9 years",
@@ -22,7 +79,7 @@
         "FSNotes",
         "EU DSA"
       ],
-      "rank": 1
+      "rank": 4
     },
     {
       "title": "Dario is hyping the dangers so OSS models are illegal and *he* stays in control",
@@ -32,8 +89,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 113,
-      "score": 25,
+      "hn_points": 1305,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Yann LeCun",
@@ -41,7 +98,7 @@
         "Anthropic",
         "open-weight models"
       ],
-      "rank": 2
+      "rank": 5
     },
     {
       "title": "Win4wine – Run Windows Shell as the Linux Desktop on Wine",
@@ -60,7 +117,7 @@
         "Windows",
         "Linux"
       ],
-      "rank": 3
+      "rank": 6
     },
     {
       "title": "Nospeaker ─ Make your MacBook's trackpad talk using its haptic motor",
@@ -79,7 +136,24 @@
         "trackpad",
         "haptic motor"
       ],
-      "rank": 4
+      "rank": 7
+    },
+    {
+      "title": "The next circle of security hell",
+      "title_display": "The next circle of security hell",
+      "link": "https://blogs.gentoo.org/mgorny/2026/10/27/the-next-circle-of-security-hell/",
+      "pub_date": "2026-11-23T12:40:12.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 240,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "Gentoo",
+        "Rust"
+      ],
+      "rank": 8
     },
     {
       "title": "Elixir HLS makes FPGA circuits from functions written in Elixir",
@@ -98,7 +172,7 @@
         "FPGA",
         "high-level synthesis"
       ],
-      "rank": 5
+      "rank": 9
     }
   ]
 }
