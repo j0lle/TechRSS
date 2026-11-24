@@ -1,0 +1,104 @@
+{
+  "date": "2026-11-24",
+  "total_feeds": 95,
+  "success_feeds": 88,
+  "total_articles": 3457,
+  "filtered_articles": 23,
+  "articles": [
+    {
+      "title": "Apple removed my open-source app from EU App Stores after 9 years",
+      "title_display": "Apple removed my open-source app from EU App Stores after 9 years",
+      "link": "https://github.com/glushchenko/fsnotes/discussions/2056",
+      "pub_date": "2026-11-23T20:10:12.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 389,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Apple",
+        "App Store",
+        "FSNotes",
+        "EU DSA"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Dario is hyping the dangers so OSS models are illegal and *he* stays in control",
+      "title_display": "Dario is hyping the dangers so OSS models are illegal and *he* stays in control",
+      "link": "https://twitter.com/ylecun/status/2124550037912920090",
+      "pub_date": "2026-11-23T19:20:12.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 113,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "Yann LeCun",
+        "Dario Amodei",
+        "Anthropic",
+        "open-weight models"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "Win4wine – Run Windows Shell as the Linux Desktop on Wine",
+      "title_display": "Win4wine – Run Windows Shell as the Linux Desktop on Wine",
+      "link": "https://github.com/mikuta0407/win4wine",
+      "pub_date": "2026-11-23T13:30:14.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 139,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Win4wine",
+        "Wine",
+        "Windows",
+        "Linux"
+      ],
+      "rank": 3
+    },
+    {
+      "title": "Nospeaker ─ Make your MacBook's trackpad talk using its haptic motor",
+      "title_display": "Nospeaker ─ Make your MacBook's trackpad talk using its haptic motor",
+      "link": "https://github.com/os6/nospeaker",
+      "pub_date": "2026-11-23T13:20:12.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 232,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "Nospeaker",
+        "MacBook",
+        "trackpad",
+        "haptic motor"
+      ],
+      "rank": 4
+    },
+    {
+      "title": "Elixir HLS makes FPGA circuits from functions written in Elixir",
+      "title_display": "Elixir HLS makes FPGA circuits from functions written in Elixir",
+      "link": "https://github.com/elixir-hls/elixir-hls",
+      "pub_date": "2026-11-23T11:50:13.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 137,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Elixir HLS",
+        "Elixir",
+        "FPGA",
+        "high-level synthesis"
+      ],
+      "rank": 5
+    }
+  ]
+}
