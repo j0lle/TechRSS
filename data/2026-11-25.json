@@ -1,10 +1,104 @@
 {
   "date": "2026-11-25",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3462,
-  "filtered_articles": 41,
+  "success_feeds": 87,
+  "total_articles": 3385,
+  "filtered_articles": 38,
   "articles": [
+    {
+      "title": "Button Sounds – collection of professionally-recorded button clicks and presses",
+      "title_display": "Button Sounds – collection of professionally-recorded button clicks and presses",
+      "link": "https://buttons.joshwcomeau.com/",
+      "pub_date": "2026-11-25T04:00:57.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 395,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Button Sounds",
+        "iOS Safari",
+        "Web Audio API",
+        "Firefox"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Models Can Communicate via Inference Servers Despite Being Sandboxed",
+      "title_display": "Models Can Communicate via Inference Servers Despite Being Sandboxed",
+      "link": "https://www.lesswrong.com/posts/7wzWuLP3HhyBLmKfo/models-can-communicate-via-inference-servers-despite-being",
+      "pub_date": "2026-11-25T03:20:56.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 253,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "inference servers",
+        "sandboxing",
+        "AI models"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "Matrix Multiplication is O(n^2.25) [pdf]",
+      "title_display": "Matrix Multiplication is O(n^2.25) [pdf]",
+      "link": "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf",
+      "pub_date": "2026-11-25T01:50:57.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 756,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "matrix multiplication",
+        "matrix multiplication exponent",
+        "tensor networks",
+        "border rank"
+      ],
+      "rank": 3
+    },
+    {
+      "title": "PenGPT: A Generative Transformer for Handwriting and Sketches",
+      "title_display": "PenGPT: A Generative Transformer for Handwriting and Sketches",
+      "link": "https://greydanus.github.io/2026/11/12/pengpt/",
+      "pub_date": "2026-11-25T01:40:57.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 254,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "PenGPT",
+        "Generative Transformer",
+        "handwriting",
+        "sketches"
+      ],
+      "rank": 4
+    },
+    {
+      "title": "Gödel Enigma",
+      "title_display": "Gödel Enigma",
+      "link": "https://www.helsinki.fi/en/researchgroups/godel-enigma/research/project-description",
+      "pub_date": "2026-11-24T22:00:57.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 122,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "Kurt Gödel",
+        "Gödel's incompleteness theorems",
+        "University of Helsinki",
+        "mathematical logic"
+      ],
+      "rank": 5
+    },
     {
       "title": "Ternary Bonsai 2.5 27B",
       "title_display": "Ternary Bonsai 2.5 27B",
@@ -13,8 +107,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 270,
-      "score": 29,
+      "hn_points": 375,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Ternary Bonsai 2.5 27B",
@@ -22,7 +116,25 @@
         "ternary weights",
         "SWE-bench Verified"
       ],
-      "rank": 1
+      "rank": 6
+    },
+    {
+      "title": "Grafana 12.4.16, 13.0.14, 13.1.11, 13.2.7 and 13.3.2 (multiple CVEs)",
+      "title_display": "Grafana 12.4.16, 13.0.14, 13.1.11, 13.2.7 and 13.3.2 (multiple CVEs)",
+      "link": "https://grafana.com/grafana/download",
+      "pub_date": "2026-11-24T19:40:57.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 147,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Grafana",
+        "CVE",
+        "GitHub"
+      ],
+      "rank": 7
     },
     {
       "title": "Ask HN: Anthropic is accusing my company of distilling. How can I prove I'm not?",
@@ -32,8 +144,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 190,
-      "score": 28,
+      "hn_points": 297,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Anthropic",
@@ -41,7 +153,7 @@
         "model distillation",
         "API keys"
       ],
-      "rank": 2
+      "rank": 8
     },
     {
       "title": "What Cloudflare Doesn't Tell You",
@@ -60,7 +172,7 @@
         "IPv4",
         "IPv6"
       ],
-      "rank": 3
+      "rank": 9
     },
     {
       "title": "Cyberattack Campaign Compromising Check Point Servers Across 22 Organizations",
@@ -79,7 +191,7 @@
         "Security Management Servers",
         "HFS"
       ],
-      "rank": 4
+      "rank": 10
     },
     {
       "title": "A training engine for your local model, using your idle compute",
@@ -98,7 +210,7 @@
         "fine-tuning",
         "local LLMs"
       ],
-      "rank": 5
+      "rank": 11
     },
     {
       "title": "Anthropic Breaks Below $83 IPO Price in Premarket Trading",
@@ -117,7 +229,7 @@
         "DeepSeek",
         "inference"
       ],
-      "rank": 6
+      "rank": 12
     },
     {
       "title": "How a Mechanical Watch Keeps Time (Interactive 3D)",
@@ -136,7 +248,7 @@
         "WebGL",
         "Claude"
       ],
-      "rank": 7
+      "rank": 13
     },
     {
       "title": "Just a Few Bugs",
@@ -155,7 +267,7 @@
         "bug bounty",
         "zero-click RCE"
       ],
-      "rank": 8
+      "rank": 14
     },
     {
       "title": "Worshipping at the Altar of Brendan Gregg",
@@ -174,7 +286,7 @@
         "profiling",
         "deterministic VM"
       ],
-      "rank": 9
+      "rank": 15
     },
     {
       "title": "2035 Came Early",
@@ -193,7 +305,7 @@
         "unkernel",
         "Firefox"
       ],
-      "rank": 10
+      "rank": 16
     },
     {
       "title": "AMD EPYC Zen 6 vs. Zen 1 Performance: 12.1x Geo Mean in Less Than 10 Years",
@@ -212,7 +324,7 @@
         "Zen 6",
         "Zen 1"
       ],
-      "rank": 11
+      "rank": 17
     },
     {
       "title": "Making a dumb TV just smart enough",
@@ -231,7 +343,7 @@
         "Linux",
         "Kodi"
       ],
-      "rank": 12
+      "rank": 18
     },
     {
       "title": "Freeing the iPod Nano 5G",
@@ -249,7 +361,7 @@
         "Apple",
         "Rockbox"
       ],
-      "rank": 13
+      "rank": 19
     }
   ]
 }
