@@ -1,10 +1,67 @@
 {
   "date": "2026-11-25",
   "total_feeds": 95,
-  "success_feeds": 87,
-  "total_articles": 3441,
+  "success_feeds": 88,
+  "total_articles": 3462,
   "filtered_articles": 41,
   "articles": [
+    {
+      "title": "Ternary Bonsai 2.5 27B",
+      "title_display": "Ternary Bonsai 2.5 27B",
+      "link": "https://prismml.com/news/bonsai-2-5-27b",
+      "pub_date": "2026-11-24T20:50:55.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 270,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "Ternary Bonsai 2.5 27B",
+        "PrismML",
+        "ternary weights",
+        "SWE-bench Verified"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Ask HN: Anthropic is accusing my company of distilling. How can I prove I'm not?",
+      "title_display": "Ask HN: Anthropic is accusing my company of distilling. How can I prove I'm not?",
+      "link": "https://news.ycombinator.com/item?id=50630809",
+      "pub_date": "2026-11-24T19:20:57.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 190,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "Anthropic",
+        "Claude",
+        "model distillation",
+        "API keys"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "What Cloudflare Doesn't Tell You",
+      "title_display": "What Cloudflare Doesn't Tell You",
+      "link": "https://charlie.fish/posts/2026/11/what-cloudflare-doesnt-tell-you/",
+      "pub_date": "2026-11-24T19:20:55.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 142,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Cloudflare",
+        "TLS",
+        "IPv4",
+        "IPv6"
+      ],
+      "rank": 3
+    },
     {
       "title": "Cyberattack Campaign Compromising Check Point Servers Across 22 Organizations",
       "title_display": "Cyberattack Campaign Compromising Check Point Servers Across 22 Organizations",
@@ -22,7 +79,26 @@
         "Security Management Servers",
         "HFS"
       ],
-      "rank": 1
+      "rank": 4
+    },
+    {
+      "title": "A training engine for your local model, using your idle compute",
+      "title_display": "A training engine for your local model, using your idle compute",
+      "link": "https://github.com/sous-labs/songe",
+      "pub_date": "2026-11-24T16:10:59.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 168,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Songe",
+        "LoRA",
+        "fine-tuning",
+        "local LLMs"
+      ],
+      "rank": 5
     },
     {
       "title": "Anthropic Breaks Below $83 IPO Price in Premarket Trading",
@@ -32,8 +108,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 175,
-      "score": 27,
+      "hn_points": 276,
+      "score": 29,
       "category": "other",
       "keywords": [
         "Anthropic",
@@ -41,7 +117,7 @@
         "DeepSeek",
         "inference"
       ],
-      "rank": 2
+      "rank": 6
     },
     {
       "title": "How a Mechanical Watch Keeps Time (Interactive 3D)",
@@ -60,7 +136,7 @@
         "WebGL",
         "Claude"
       ],
-      "rank": 3
+      "rank": 7
     },
     {
       "title": "Just a Few Bugs",
@@ -79,7 +155,7 @@
         "bug bounty",
         "zero-click RCE"
       ],
-      "rank": 4
+      "rank": 8
     },
     {
       "title": "Worshipping at the Altar of Brendan Gregg",
@@ -98,7 +174,7 @@
         "profiling",
         "deterministic VM"
       ],
-      "rank": 5
+      "rank": 9
     },
     {
       "title": "2035 Came Early",
@@ -117,7 +193,7 @@
         "unkernel",
         "Firefox"
       ],
-      "rank": 6
+      "rank": 10
     },
     {
       "title": "AMD EPYC Zen 6 vs. Zen 1 Performance: 12.1x Geo Mean in Less Than 10 Years",
@@ -136,7 +212,7 @@
         "Zen 6",
         "Zen 1"
       ],
-      "rank": 7
+      "rank": 11
     },
     {
       "title": "Making a dumb TV just smart enough",
@@ -155,7 +231,7 @@
         "Linux",
         "Kodi"
       ],
-      "rank": 8
+      "rank": 12
     },
     {
       "title": "Freeing the iPod Nano 5G",
@@ -173,7 +249,7 @@
         "Apple",
         "Rockbox"
       ],
-      "rank": 9
+      "rank": 13
     }
   ]
 }
