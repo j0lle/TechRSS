@@ -1,0 +1,141 @@
+{
+  "date": "2026-11-26",
+  "total_feeds": 95,
+  "success_feeds": 88,
+  "total_articles": 3465,
+  "filtered_articles": 34,
+  "articles": [
+    {
+      "title": "1Password Security Incident",
+      "title_display": "1Password Security Incident",
+      "link": "https://1password.com/blog/update-on-nov-2026-security-incident",
+      "pub_date": "2026-11-25T17:40:41.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 505,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "1Password",
+        "GitHub",
+        "password manager",
+        "end-to-end encryption"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "I checked Clojure's core with Lean and found unreported bugs",
+      "title_display": "I checked Clojure's core with Lean and found unreported bugs",
+      "link": "https://s.conao3.com/blog/2026/e4f733",
+      "pub_date": "2026-11-25T17:10:58.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 129,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Clojure",
+        "Lean",
+        "formal verification",
+        "Rich Hickey"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "Investigating degraded experiences across GitHub products",
+      "title_display": "Investigating degraded experiences across GitHub products",
+      "link": "https://www.githubstatus.com/incidents/qn8mfv6q5hlx",
+      "pub_date": "2026-11-25T16:20:58.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 154,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "GitHub",
+        "GitHub Status",
+        "Microsoft",
+        "Forgejo"
+      ],
+      "rank": 3
+    },
+    {
+      "title": "Google Releases Cogentic Papers on Integer Factorization, Discrete Logs and More",
+      "title_display": "Google Releases Cogentic Papers on Integer Factorization, Discrete Logs and More",
+      "link": "https://github.com/google-research/google-research/tree/master/cogentic_research_papers",
+      "pub_date": "2026-11-25T14:10:58.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 322,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Google",
+        "Cogentic",
+        "integer factorization",
+        "discrete logarithm"
+      ],
+      "rank": 4
+    },
+    {
+      "title": "Windows Loudness Equalization, reverse-engineered and ported to PipeWire",
+      "title_display": "Windows Loudness Equalization, reverse-engineered and ported to PipeWire",
+      "link": "https://github.com/xoxorwr/pw-loudness-eq",
+      "pub_date": "2026-11-25T11:50:56.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 269,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "PipeWire",
+        "Windows",
+        "Loudness Equalization",
+        "Linux"
+      ],
+      "rank": 5
+    },
+    {
+      "title": "The short age of dragon riders",
+      "title_display": "The short age of dragon riders",
+      "link": "https://atilloy.com/2026/11/16/the-short-age-of-dragon-riders/",
+      "pub_date": "2026-11-25T11:40:57.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 170,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "AI",
+        "physics",
+        "mathematics"
+      ],
+      "rank": 6
+    },
+    {
+      "title": "Getting old Java phones online again",
+      "title_display": "Getting old Java phones online again",
+      "link": "https://antcating.github.io/2026/11/23/getting-old-java-phones-online-again.html",
+      "pub_date": "2026-11-25T09:30:57.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 153,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "J2ME",
+        "Java",
+        "Bluetooth",
+        "Opera Mini"
+      ],
+      "rank": 7
+    }
+  ]
+}
