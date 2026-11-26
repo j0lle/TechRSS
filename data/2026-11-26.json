@@ -1,10 +1,124 @@
 {
   "date": "2026-11-26",
   "total_feeds": 95,
-  "success_feeds": 88,
-  "total_articles": 3465,
-  "filtered_articles": 34,
+  "success_feeds": 87,
+  "total_articles": 3435,
+  "filtered_articles": 35,
   "articles": [
+    {
+      "title": "Jev is (probably) Qwen3.5-35B-A3B",
+      "title_display": "Jev is (probably) Qwen3.5-35B-A3B",
+      "link": "https://modaic.dev/blog/latency-doesnt-lie",
+      "pub_date": "2026-11-26T00:10:42.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 243,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "Jev",
+        "Qwen3.5-35B-A3B",
+        "Modaic",
+        "Qwen"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Slow Ubuntu security response times",
+      "title_display": "Slow Ubuntu security response times",
+      "link": "https://www.openwall.com/lists/oss-security/2026/11/25/9",
+      "pub_date": "2026-11-25T22:10:42.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 122,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "Ubuntu",
+        "Canonical",
+        "Debian",
+        "Linux"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "Much shorter version of GRH Lean verification from Anthropic",
+      "title_display": "Much shorter version of GRH Lean verification from Anthropic",
+      "link": "https://github.com/lsernau/grh-lean",
+      "pub_date": "2026-11-25T22:10:41.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 348,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Anthropic",
+        "Lean",
+        "GRH",
+        "formal verification"
+      ],
+      "rank": 3
+    },
+    {
+      "title": "GPT-6.2 Astra is the first model to beat Googlers' code golf records",
+      "title_display": "GPT-6.2 Astra is the first model to beat Googlers' code golf records",
+      "link": "https://bjin.github.io/go-codegolf-benchmark/#leaderboard",
+      "pub_date": "2026-11-25T21:00:41.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 203,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "GPT-6.2 Astra",
+        "code golf",
+        "Go",
+        "Google"
+      ],
+      "rank": 4
+    },
+    {
+      "title": "SSH is a GUI framework",
+      "title_display": "SSH is a GUI framework",
+      "link": "https://zydra.sh/articles/ssh-is-a-gui-framework/",
+      "pub_date": "2026-11-25T20:30:41.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 132,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "SSH",
+        "GUI",
+        "Zydra",
+        "terminal emulator"
+      ],
+      "rank": 5
+    },
+    {
+      "title": "The polynomial Hirsch conjecture is false [pdf]",
+      "title_display": "The polynomial Hirsch conjecture is false [pdf]",
+      "link": "https://github.com/openai/math/blob/main/preprints/Superpolynomial-graph-diameter-of-simple-polytopes-November-24-2026/paper.pdf",
+      "pub_date": "2026-11-25T20:00:41.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 124,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Polynomial Hirsch conjecture",
+        "OpenAI",
+        "simple polytopes",
+        "simplex algorithm"
+      ],
+      "rank": 6
+    },
     {
       "title": "1Password Security Incident",
       "title_display": "1Password Security Incident",
@@ -13,7 +127,7 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 505,
+      "hn_points": 1166,
       "score": 30,
       "category": "other",
       "keywords": [
@@ -22,7 +136,7 @@
         "password manager",
         "end-to-end encryption"
       ],
-      "rank": 1
+      "rank": 7
     },
     {
       "title": "I checked Clojure's core with Lean and found unreported bugs",
@@ -41,7 +155,7 @@
         "formal verification",
         "Rich Hickey"
       ],
-      "rank": 2
+      "rank": 8
     },
     {
       "title": "Investigating degraded experiences across GitHub products",
@@ -60,7 +174,7 @@
         "Microsoft",
         "Forgejo"
       ],
-      "rank": 3
+      "rank": 9
     },
     {
       "title": "Google Releases Cogentic Papers on Integer Factorization, Discrete Logs and More",
@@ -79,7 +193,7 @@
         "integer factorization",
         "discrete logarithm"
       ],
-      "rank": 4
+      "rank": 10
     },
     {
       "title": "Windows Loudness Equalization, reverse-engineered and ported to PipeWire",
@@ -98,7 +212,7 @@
         "Loudness Equalization",
         "Linux"
       ],
-      "rank": 5
+      "rank": 11
     },
     {
       "title": "The short age of dragon riders",
@@ -108,15 +222,15 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 170,
-      "score": 27,
+      "hn_points": 270,
+      "score": 29,
       "category": "other",
       "keywords": [
         "AI",
         "physics",
         "mathematics"
       ],
-      "rank": 6
+      "rank": 12
     },
     {
       "title": "Getting old Java phones online again",
@@ -135,7 +249,7 @@
         "Bluetooth",
         "Opera Mini"
       ],
-      "rank": 7
+      "rank": 13
     }
   ]
 }
