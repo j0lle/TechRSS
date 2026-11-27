@@ -1,0 +1,123 @@
+{
+  "date": "2026-11-27",
+  "total_feeds": 95,
+  "success_feeds": 87,
+  "total_articles": 3458,
+  "filtered_articles": 19,
+  "articles": [
+    {
+      "title": "Show HN: Fuck_data_brokers.py",
+      "title_display": "Show HN: Fuck_data_brokers.py",
+      "link": "https://github.com/gary23w/f-ck_data_brokers",
+      "pub_date": "2026-11-26T20:50:42.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 203,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "data brokers",
+        "privacy",
+        "GitHub",
+        "California DROP"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "OpenAI may be in cost control mode",
+      "title_display": "OpenAI may be in cost control mode",
+      "link": "https://micjm.com/blog/openai-is-in-cost-control-mode/",
+      "pub_date": "2026-11-26T20:20:42.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 195,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "OpenAI",
+        "Anthropic",
+        "GPT-6.2",
+        "Claude"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "CTO of 'RansomwareHelp' Indicted for Wire Fraud",
+      "title_display": "CTO of 'RansomwareHelp' Indicted for Wire Fraud",
+      "link": "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/",
+      "pub_date": "2026-11-26T18:10:42.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 148,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "RansomwareHelp",
+        "wire fraud",
+        "ransomware",
+        "Juan Ricardo Palacio Escobar"
+      ],
+      "rank": 3
+    },
+    {
+      "title": "YouTube Ad Punisher – Bypass anti-adblock",
+      "title_display": "YouTube Ad Punisher – Bypass anti-adblock",
+      "link": "https://github.com/antonpictures/youtube-punisher",
+      "pub_date": "2026-11-26T18:10:41.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 153,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "YouTube",
+        "ad blocking",
+        "uBlock Origin",
+        "Firefox"
+      ],
+      "rank": 4
+    },
+    {
+      "title": "Intel One Mono font",
+      "title_display": "Intel One Mono font",
+      "link": "https://github.com/intel/intel-one-mono",
+      "pub_date": "2026-11-26T15:40:41.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 386,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Intel One Mono",
+        "Intel",
+        "GitHub",
+        "monospaced font"
+      ],
+      "rank": 5
+    },
+    {
+      "title": "Euro-Office comes to your desktop with the Nextcloud Office Desktop app",
+      "title_display": "Euro-Office comes to your desktop with the Nextcloud Office Desktop app",
+      "link": "https://nextcloud.com/blog/euro-office-comes-to-your-desktop-with-the-nextcloud-office-desktop-app/",
+      "pub_date": "2026-11-26T13:00:43.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 370,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Nextcloud Office",
+        "Euro-Office",
+        "Nextcloud",
+        "ONLYOFFICE"
+      ],
+      "rank": 6
+    }
+  ]
+}
