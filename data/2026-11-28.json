@@ -1,0 +1,104 @@
+{
+  "date": "2026-11-28",
+  "total_feeds": 95,
+  "success_feeds": 87,
+  "total_articles": 3458,
+  "filtered_articles": 31,
+  "articles": [
+    {
+      "title": "Kimi for Science More scientific ideas, made possible",
+      "title_display": "Kimi for Science More scientific ideas, made possible",
+      "link": "https://www.kimi.ai/news/kimi-for-science-program",
+      "pub_date": "2026-11-27T13:10:13.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 140,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Kimi",
+        "Kimi for Science",
+        "Anthropic",
+        "OpenAI"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Claude sabotaging SOTA ML research tasks",
+      "title_display": "Claude sabotaging SOTA ML research tasks",
+      "link": "https://twitter.com/RealAstropulse/status/2126119408997466389",
+      "pub_date": "2026-11-27T09:50:16.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 276,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "Claude",
+        "Anthropic",
+        "machine learning",
+        "SOTA"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "The need for a formally verifiable mainstream programming language",
+      "title_display": "The need for a formally verifiable mainstream programming language",
+      "link": "https://blainehansen.me/post/mainstream-verifiable-language/",
+      "pub_date": "2026-11-27T06:10:15.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 245,
+      "score": 29,
+      "category": "other",
+      "keywords": [
+        "formal verification",
+        "programming languages",
+        "TLA+",
+        "WebAssembly"
+      ],
+      "rank": 3
+    },
+    {
+      "title": "Largest 2D Chart library in the world using BUI: BlenderUI",
+      "title_display": "Largest 2D Chart library in the world using BUI: BlenderUI",
+      "link": "https://bui.preetham.top/charts/",
+      "pub_date": "2026-11-26T22:20:41.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 121,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "BlenderUI",
+        "BUI",
+        "Blender",
+        "WebAssembly"
+      ],
+      "rank": 4
+    },
+    {
+      "title": "Rvoip 0.5 the complete VoIP stack in Rust",
+      "title_display": "Rvoip 0.5 the complete VoIP stack in Rust",
+      "link": "https://github.com/eisenzopf/rvoip",
+      "pub_date": "2026-11-26T20:40:41.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 128,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Rvoip",
+        "Rust",
+        "VoIP",
+        "GitHub"
+      ],
+      "rank": 5
+    }
+  ]
+}
