@@ -1,10 +1,67 @@
 {
   "date": "2026-11-27",
   "total_feeds": 95,
-  "success_feeds": 87,
-  "total_articles": 3458,
-  "filtered_articles": 19,
+  "success_feeds": 86,
+  "total_articles": 3438,
+  "filtered_articles": 25,
   "articles": [
+    {
+      "title": "Google will show solo Android developers' phone numbers and addresses",
+      "title_display": "Google will show solo Android developers' phone numbers and addresses",
+      "link": "https://support.google.com/googleplay/android-developer/answer/17594752?hl=en",
+      "pub_date": "2026-11-27T03:50:40.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 129,
+      "score": 26,
+      "category": "other",
+      "keywords": [
+        "Google Play",
+        "Google",
+        "Android",
+        "Digital Services Act"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "Hard Drive pricing has gotten bad",
+      "title_display": "Hard Drive pricing has gotten bad",
+      "link": "https://blog.ktz.me/black-friday-hard-drive-prices-are-messed-up/",
+      "pub_date": "2026-11-27T02:40:42.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 318,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Hard drives",
+        "HDD",
+        "Storage",
+        "Seagate"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "AI made self-hosting fun again",
+      "title_display": "AI made self-hosting fun again",
+      "link": "https://janlukas.blog/posts/ai-self-hosting",
+      "pub_date": "2026-11-26T22:10:41.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 376,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "AI",
+        "self-hosting",
+        "LLMs",
+        "Ansible"
+      ],
+      "rank": 3
+    },
     {
       "title": "Show HN: Fuck_data_brokers.py",
       "title_display": "Show HN: Fuck_data_brokers.py",
@@ -22,7 +79,7 @@
         "GitHub",
         "California DROP"
       ],
-      "rank": 1
+      "rank": 4
     },
     {
       "title": "OpenAI may be in cost control mode",
@@ -32,8 +89,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 195,
-      "score": 28,
+      "hn_points": 295,
+      "score": 30,
       "category": "other",
       "keywords": [
         "OpenAI",
@@ -41,7 +98,7 @@
         "GPT-6.2",
         "Claude"
       ],
-      "rank": 2
+      "rank": 5
     },
     {
       "title": "CTO of 'RansomwareHelp' Indicted for Wire Fraud",
@@ -51,8 +108,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 148,
-      "score": 26,
+      "hn_points": 249,
+      "score": 29,
       "category": "other",
       "keywords": [
         "RansomwareHelp",
@@ -60,7 +117,7 @@
         "ransomware",
         "Juan Ricardo Palacio Escobar"
       ],
-      "rank": 3
+      "rank": 6
     },
     {
       "title": "YouTube Ad Punisher – Bypass anti-adblock",
@@ -70,8 +127,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 153,
-      "score": 27,
+      "hn_points": 360,
+      "score": 30,
       "category": "other",
       "keywords": [
         "YouTube",
@@ -79,7 +136,26 @@
         "uBlock Origin",
         "Firefox"
       ],
-      "rank": 4
+      "rank": 7
+    },
+    {
+      "title": "Show HN: Three Linux VMs in a browser tab, each running a different browser",
+      "title_display": "Show HN: Three Linux VMs in a browser tab, each running a different browser",
+      "link": "https://michidk.github.io/sidebyside/",
+      "pub_date": "2026-11-26T16:10:41.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 121,
+      "score": 25,
+      "category": "other",
+      "keywords": [
+        "Sidebyside",
+        "Linux",
+        "WebAssembly",
+        "unkernel"
+      ],
+      "rank": 8
     },
     {
       "title": "Intel One Mono font",
@@ -98,7 +174,7 @@
         "GitHub",
         "monospaced font"
       ],
-      "rank": 5
+      "rank": 9
     },
     {
       "title": "Euro-Office comes to your desktop with the Nextcloud Office Desktop app",
@@ -117,7 +193,7 @@
         "Nextcloud",
         "ONLYOFFICE"
       ],
-      "rank": 6
+      "rank": 10
     }
   ]
 }
