@@ -2,9 +2,103 @@
   "date": "2026-11-28",
   "total_feeds": 95,
   "success_feeds": 87,
-  "total_articles": 3458,
-  "filtered_articles": 31,
+  "total_articles": 3450,
+  "filtered_articles": 33,
   "articles": [
+    {
+      "title": "States sue SpaceX to stop Grok from generating child sex images, revenge porn",
+      "title_display": "States sue SpaceX to stop Grok from generating child sex images, revenge porn",
+      "link": "https://www.oag.state.va.us/media-center/news-releases/jay-jones/3162-attorneys-general-jones-and-rayfield-file-suit-against-spacex-parent-company-of-x-xai-and-grok-over-creation-and-promotion-of-child-exploitation-and-non-consensual-images-on-platform",
+      "pub_date": "2026-11-27T20:20:13.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 174,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Grok",
+        "xAI",
+        "SpaceX",
+        "X"
+      ],
+      "rank": 1
+    },
+    {
+      "title": "GPT 6.2 Astra Solves a Historical Mystery",
+      "title_display": "GPT 6.2 Astra Solves a Historical Mystery",
+      "link": "https://generativehistory.substack.com/p/gpt-62-astra-solves-a-historical",
+      "pub_date": "2026-11-27T20:10:11.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 206,
+      "score": 28,
+      "category": "other",
+      "keywords": [
+        "GPT-6.2 Astra",
+        "Count Chabot",
+        "Yale Beinecke Library"
+      ],
+      "rank": 2
+    },
+    {
+      "title": "Michael Nielsen took down his book on neural nets",
+      "title_display": "Michael Nielsen took down his book on neural nets",
+      "link": "https://twitter.com/michael_nielsen/status/2126359767362748777",
+      "pub_date": "2026-11-27T19:40:12.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 372,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "Michael Nielsen",
+        "Neural Networks and Deep Learning",
+        "neural networks",
+        "deep learning"
+      ],
+      "rank": 3
+    },
+    {
+      "title": "Convex skills send the user's app idea to a remote server without telling them",
+      "title_display": "Convex skills send the user's app idea to a remote server without telling them",
+      "link": "https://github.com/convex/convex-backend-skill/issues/64",
+      "pub_date": "2026-11-27T18:50:13.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 168,
+      "score": 27,
+      "category": "other",
+      "keywords": [
+        "Convex",
+        "Anthropic",
+        "Claude",
+        "convex-backend-skill"
+      ],
+      "rank": 4
+    },
+    {
+      "title": "Credit card skimming scripts using WebRTC found on popular shopping sites",
+      "title_display": "Credit card skimming scripts using WebRTC found on popular shopping sites",
+      "link": "https://www.infohawk.com/news/2026-11-27-black-friday-webrtc-skimmer",
+      "pub_date": "2026-11-27T16:20:13.000Z",
+      "summary": "",
+      "source_name": "Hacker News",
+      "source_type": "hn",
+      "hn_points": 334,
+      "score": 30,
+      "category": "other",
+      "keywords": [
+        "WebRTC",
+        "credit card skimming",
+        "Content Security Policy",
+        "CSP"
+      ],
+      "rank": 5
+    },
     {
       "title": "Kimi for Science More scientific ideas, made possible",
       "title_display": "Kimi for Science More scientific ideas, made possible",
@@ -22,7 +116,7 @@
         "Anthropic",
         "OpenAI"
       ],
-      "rank": 1
+      "rank": 6
     },
     {
       "title": "Claude sabotaging SOTA ML research tasks",
@@ -32,8 +126,8 @@
       "summary": "",
       "source_name": "Hacker News",
       "source_type": "hn",
-      "hn_points": 276,
-      "score": 29,
+      "hn_points": 402,
+      "score": 30,
       "category": "other",
       "keywords": [
         "Claude",
@@ -41,7 +135,7 @@
         "machine learning",
         "SOTA"
       ],
-      "rank": 2
+      "rank": 7
     },
     {
       "title": "The need for a formally verifiable mainstream programming language",
@@ -60,7 +154,7 @@
         "TLA+",
         "WebAssembly"
       ],
-      "rank": 3
+      "rank": 8
     },
     {
       "title": "Largest 2D Chart library in the world using BUI: BlenderUI",
@@ -79,7 +173,7 @@
         "Blender",
         "WebAssembly"
       ],
-      "rank": 4
+      "rank": 9
     },
     {
       "title": "Rvoip 0.5 the complete VoIP stack in Rust",
@@ -98,7 +192,7 @@
         "VoIP",
         "GitHub"
       ],
-      "rank": 5
+      "rank": 10
     }
   ]
 }
